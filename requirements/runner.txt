@@ -1,0 +1,10 @@
+# Install in a separate Python 3.10 environment. This is an initial direct-pin
+# set, not a transitive lock verified on the target Linux machine.
+-e .
+numpy==1.26.4
+textworld[pddl]==1.6.2
+PyYAML==6.0.2
+tqdm==4.67.1
+termcolor==2.5.0
+requests==2.32.4
+alfworld @ git+https://github.com/alfworld/alfworld.git@aaba6870f86c5be6a08a491f32a50b906227bc3e

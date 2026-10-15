@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv*/
+.env
+.env.*
+!.env.example
+data/
+models/
+runs/
+manifests/
+artifacts/
+vendor/
+.pytest_cache/
+.coverage

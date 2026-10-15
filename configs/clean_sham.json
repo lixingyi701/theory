@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "model_key": "qwen3_8b",
+  "api_base_env": "RELIABILITY_API_BASE",
+  "api_key_env": "RELIABILITY_API_KEY",
+  "timeout_seconds": 180,
+  "sampling": {"temperature": 0.7, "top_p": 0.8, "top_k": 20, "min_p": 0.0},
+  "policy_max_tokens": 256,
+  "memory_max_tokens": 256,
+  "context_window": 8,
+  "memory_capacity": 16,
+  "max_env_steps": 80,
+  "max_llm_calls": 164,
+  "format_retries": 1,
+  "sham_start_step": 3,
+  "sham_last_step": 12,
+  "seeds": [42],
+  "conditions": ["clean", "sham"]
+}

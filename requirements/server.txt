@@ -1,0 +1,4 @@
+# Separate Python 3.11 environment; resolve against the target NVIDIA driver.
+# vLLM owns its compatible torch dependency. Do not install runner.txt here.
+vllm==0.10.2
+huggingface_hub==0.34.4
