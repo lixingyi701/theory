@@ -118,6 +118,26 @@ class ExecutionTests(unittest.TestCase):
         memory.update({"updates": [{"entity": "book 1", "attribute": "location", "value": "desk 1"}]}, 4)
         self.assertEqual(memory.export()[0]["entity"], "book 1")
 
+    def test_sham_matches_alfworld_receptacle_facts_without_semantic_change(self):
+        memory = Memory(16)
+        memory.update({"updates": [{"entity": "apple 3", "attribute": "location",
+                                    "value": "sinkbasin 1"}]}, 4)
+        before = memory.export()
+        # Real ALFWorld/TextWorld facts use this predicate, not the fake world's "in".
+        location = {"name": "inreceptacle", "arguments": [
+            {"name": "apple 3", "type": "object"},
+            {"name": "sinkbasin 1", "type": "receptacle"}]}
+        event = memory.sham_verified_location([location])
+        self.assertIsNotNone(event)
+        self.assertFalse(event["semantic_change"])
+        self.assertEqual(event["before"], event["after"])
+        self.assertEqual(memory.export(), before)
+        stale = copy.deepcopy(location)
+        stale["arguments"][1]["name"] = "countertop 1"
+        self.assertIsNone(memory.sham_verified_location([stale]))
+        for name in ["not_inreceptacle", "objectatlocation"]:
+            self.assertIsNone(memory.sham_verified_location([{**location, "name": name}]))
+
     def test_request_cache_uncertainty_and_hard_budget(self):
         with tempfile.TemporaryDirectory() as root:
             provider = FakeProvider(fail_call=1)

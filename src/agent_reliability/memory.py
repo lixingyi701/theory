@@ -66,7 +66,9 @@ class Memory:
                 continue
             for proposition in truth or []:
                 args = proposition.get("arguments", [])
-                if proposition["name"] in {"in", "on", "at"} and len(args) == 2:
+                # ALFWorld uses inreceptacle for object -> named receptacle.
+                # objectatlocation instead points to an internal location ID.
+                if proposition["name"] in {"in", "on", "at", "inreceptacle"} and len(args) == 2:
                     if args[0]["name"].strip() == fact.entity and args[1]["name"].strip() == fact.value:
                         before = asdict(fact)
                         self.entries[index] = Fact(**before)
