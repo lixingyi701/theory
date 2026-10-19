@@ -1,0 +1,19 @@
+# Copy to ~/.ssh/theory.conf; replace host, user and key path locally.
+Host theory-gpu
+    HostName server.example.invalid
+    User remote_user
+    IdentityFile ~/.ssh/theory_ed25519
+    IdentitiesOnly yes
+    BatchMode yes
+    StrictHostKeyChecking yes
+    ConnectTimeout 15
+    ServerAliveInterval 15
+    ServerAliveCountMax 3
+    ControlMaster auto
+    ControlPath ~/.ssh/theory-%C
+    ExitOnForwardFailure yes
+    LocalForward 127.0.0.1:8000 127.0.0.1:8000
+    # On campus LAN, optionally bind to the physical NIC to bypass a VPN TUN:
+    # BindInterface YOUR_PHYSICAL_NIC
+    # Optional workstation proxy for remote CLI/downloads (must remain running):
+    # RemoteForward 127.0.0.1:17897 127.0.0.1:7897

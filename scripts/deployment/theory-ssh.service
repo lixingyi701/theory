@@ -1,0 +1,12 @@
+[Unit]
+Description=Theory model SSH tunnel
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/ssh -F %h/.ssh/theory.conf -MN theory-gpu
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=default.target

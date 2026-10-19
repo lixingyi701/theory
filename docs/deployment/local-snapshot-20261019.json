@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "role": "runner",
+  "python": "3.10.22",
+  "os": "Ubuntu 26.04.1 LTS",
+  "kernel": "7.0.0-38-generic",
+  "architecture": "x86_64",
+  "packages": {
+    "alfworld": "0.5.0",
+    "textworld": "1.6.2",
+    "fast-downward-textworld": "20.6.4",
+    "numpy": "1.26.4",
+    "PyYAML": "6.0.2"
+  },
+  "cpu_model": "Intel(R) Core(TM) Ultra 9 285H",
+  "logical_cpus": "16",
+  "memory_kib": "31771116",
+  "nvidia": null,
+  "scope": "version/hardware snapshot; no credentials, network addresses, hostname or home paths"
+}

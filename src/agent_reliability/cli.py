@@ -16,6 +16,7 @@ from .env import ReplayEnvironment
 from .io import digest, file_hash, git_revision, read_json, write_json, run_lock
 from .llm import endpoint_from_config
 from .runner import run_episode, validate_config
+from .react import run_react_episode, validate_react_config
 
 
 def backend(root: Path, expert: bool = False):
@@ -41,7 +42,8 @@ def provenance() -> dict:
 def summarize(directory: Path) -> dict:
     results = [read_json(p) for p in directory.glob("episodes/*/result.json")]
     conditions = {}
-    for condition in ["clean", "sham"]:
+    run_metadata = read_json(directory / "run.json") if (directory / "run.json").exists() else {}
+    for condition in run_metadata.get("conditions", ["clean", "sham"]):
         rows = [r for r in results if r["condition"] == condition]
         conditions[condition] = {
             "completed_episodes": len(rows), "successes": sum(r["success"] for r in rows),
@@ -69,7 +71,8 @@ def summarize(directory: Path) -> dict:
 def run_command(args) -> dict:
     manifest = load_manifest(args.manifest)
     config, models = read_json(args.config), read_json(args.models)
-    validate_config(config)
+    is_react = args.command == "react-run"
+    (validate_react_config if is_react else validate_config)(config)
     model = models[config["model_key"]]
     audit = read_json(args.audit_report)
     verify_audit(audit, manifest)
@@ -111,11 +114,18 @@ def run_command(args) -> dict:
                 episode = args.output / "episodes" / f"{task['task_id']}-s{seed}-{condition}"
                 env = backend(args.data_root)
                 try:
-                    result = run_episode(env, transport, task, config, model, seed, condition,
+                    execute = run_react_episode if is_react else run_episode
+                    result = execute(env, transport, task, config, model, seed, condition,
                                          episode, args.resume, args.retry_uncertain)
                 finally:
                     env.close()
                 print(json.dumps({k: result[k] for k in ["task_id", "seed", "condition", "status", "env_steps"]}), flush=True)
+                stop_after = config.get("early_stop_zero_successes_after")
+                if is_react and condition == "base" and stop_after:
+                    rows = [read_json(p) for p in args.output.glob("episodes/*-base/result.json")]
+                    if len(rows) >= stop_after and not any(r["success"] for r in rows):
+                        print("Predeclared zero-success stop; remaining episodes are missing", flush=True)
+                        return summarize(args.output)
     return summarize(args.output)
 
 
@@ -135,16 +145,17 @@ def main(argv=None) -> int:
     audit.add_argument("--manifest", type=Path, required=True)
     audit.add_argument("--tasks", type=int, default=10)
     audit.add_argument("--output", type=Path, required=True)
-    run = commands.add_parser("run", help="Run the frozen clean/sham task list")
-    run.add_argument("--data-root", type=Path, required=True)
-    run.add_argument("--manifest", type=Path, required=True)
-    run.add_argument("--audit-report", type=Path, required=True)
-    run.add_argument("--config", type=Path, default=Path("configs/clean_sham.json"))
-    run.add_argument("--models", type=Path, default=Path("configs/models.json"))
-    run.add_argument("--output", type=Path, required=True)
-    run.add_argument("--resume", action="store_true")
-    run.add_argument("--retry-uncertain", action="store_true",
-                     help="Explicitly redispatch unresolved calls, counting extra attempts")
+    for name, default in [("run", "clean_sham.json"), ("react-run", "react_base.json")]:
+        run = commands.add_parser(name, help="Run a frozen, replay-audited task list")
+        run.add_argument("--data-root", type=Path, required=True)
+        run.add_argument("--manifest", type=Path, required=True)
+        run.add_argument("--audit-report", type=Path, required=True)
+        run.add_argument("--config", type=Path, default=Path("configs") / default)
+        run.add_argument("--models", type=Path, default=Path("configs/models.json"))
+        run.add_argument("--output", type=Path, required=True)
+        run.add_argument("--resume", action="store_true")
+        run.add_argument("--retry-uncertain", action="store_true",
+                         help="Explicitly redispatch unresolved calls, counting extra attempts")
     summary = commands.add_parser("summarize")
     summary.add_argument("directory", type=Path)
     args = parser.parse_args(argv)
@@ -168,7 +179,7 @@ def main(argv=None) -> int:
             write_json(args.output, result)
             print(json.dumps(result, ensure_ascii=False, indent=2))
             return 0 if result["passed"] else 1
-        elif args.command == "run":
+        elif args.command in {"run", "react-run"}:
             with run_lock(args.output):
                 result = run_command(args)
         else:

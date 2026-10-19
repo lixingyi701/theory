@@ -1,49 +1,25 @@
-# 实施交接：第一单元
+# 实施状态（2026-10-19）
 
-更新时间：2026-10-15。下一位执行者：用户的Linux服务器上的Codex。
+## 已核验
 
-## 已完成
+- 本机独立Python3.10 runner与远程Conda **theory** / Python3.11服务环境；vLLM0.10.2。远程base环境的history和pip包表与部署前一致。实际版本、freeze、SSH模板及复建命令见 [部署记录](deployment/README.md)。
+- 官方文本数据与固定revision的Qwen3-8B BF16已下载校验。工作站通过自动重连SSH连接远程loopback模型服务。
+- 真实ALFWorld恢复审计已通过两次：历史pilot修复后10任务/40次；新dev12清单也是10任务/40次，均为facts_and_observations。
+- 修复sham对真实 `inreceptacle` 谓词的识别；离线真实frame检查发现原先漏掉的9个候选，不回写成原pilot的干预次数。
+- 新增公开ReAct示例、完整历史、think/环境动作分离、固定语法转换和chat提示符解析；保留旧执行路径供审计。新路径仍使用持久journal、checkpoint、重放与不确定请求显式处理。
+- 2026-10-19离线16项检查通过。fake backend/provider只测试代码，不提供模型能力结论。
+- 新base v2开发预检完成：12/12任务，成功6，成功覆盖5/6类；4个decision预算耗尽、2个输出截断。达到预先6/12且至少4类的工程门槛。memory/sham各完成12任务、成功均5；instrumentation与sham覆盖门槛失败，见[完整结果](experiments/results-20261019.md)。
 
-- Python包与CLI：doctor、manifest、audit、run、summarize。
-- ALFWorld直接TextWorld适配器，关闭domain randomization，请求facts供独立审计。
-- 逐步显式记忆、确定性淘汰、最近8轮上下文。
-- 环境动作与模型请求分别限额；格式重试计入模型调用。
-- checkpoint包含环境前缀、上下文、记忆和已用动作数；逐步重放校验。
-- 持久请求journal：保存响应可复用，不确定请求显式重发并保留成本。
-- 10任务审计协议与48个clean/sham episode入口。
-- 模型固定revision、文本数据下载计划、模型服务启动脚本。
-- 两份前置研究文档上传至`docs/research/`。
+## 历史失败必须保留
 
-## 本机实际检查
+旧pilot只完成27/48（clean14、sham13），成功均0，余下21未运行。该自建零样本/短历史/记忆Agent不是论文ReAct或RIR。语法接口还存在 `put ... in/on ...` 未转换为固定环境 `move ... to ...` 的缺陷；sham触发0。不得续跑旧目录或据此检验恢复理论。
 
-在Python 3.12标准库环境执行`bash scripts/offline_checks.sh`：10项离线契约测试通过，源码与脚本编译通过，模型/数据下载及模型启动均为plan-only。
+公开ReAct chat适配v1另有提示符解析错误，1个完成episode、1个部分episode后停止；54次dispatch/53响应/1未确认。v2另建目录，仅添加一个行首 `>` 的解析，不改模型、提示、任务或门槛。每次失败均独立计数，完整journal仅留本地。
 
-覆盖：facts漂移与checkpoint篡改检测；10任务/40次restore gate的软件逻辑；原子记忆更新/淘汰；请求缓存/不确定请求/调用限额；clean/sham runner与oracle字段隔离；中断续跑；格式失败区分；动作与调用预算区分；manifest过滤/冻结/完整性；本地fake HTTP端点的请求字段与模型名检查。
+- 串行离线vLLM候选profile完成12固定payload ×3顺序的36请求预检，输出全部一致；固定轨迹的真实hook重放12/12通过、hook触发4/12。有限确定性预检不等于跨硬件保证。
 
-测试中使用的fake世界与fake模型不是ALFWorld或Qwen，不提供任务成功率、恢复确定性或模型机制证据。
+## 下一门槛与尚未实现
 
-## 尚未执行
+参见 [预先基础方案](experiments/baseline-20261019.md)、[v2适配说明](experiments/baseline-20261019-v2.md)。必须先核对同骨干下memory能力和sham触发/轨迹一致性。134任务官方unseen集合全部留出，本轮没有调用模型评测它。
 
-- 目标Linux依赖安装及完整freeze。
-- 真实benchmark数据/模型权重下载。
-- ALFWorld原生库、planner与replay实际联调。
-- Qwen3/vLLM请求、显存/吞吐测量。
-- 真实10任务恢复检查、24任务clean/sham。
-
-## 协议落实时的明确收窄
-
-1. 本单元sham是当前真值验证后的等内容事实替换，检查hook流程；不是语言改写实验。
-2. 记忆暂只实现结构化事实，不实现独立的失败反思条目。
-3. 当前提示是零样本ReAct式执行范式，未复现原ReAct的两条示例及旧模型。
-4. replay审计证明记录facts/输出/固定后缀一致；不宣称完全隐藏状态等价。
-5. 数据依赖直接pin，不是已在Linux验证的完整传递依赖锁。
-
-上述收窄不支持对完整ReAct、RIR或记忆方法作性能结论。
-
-## 明后天第一条接续指令
-
-> 阅读AGENTS.md和Linux执行手册，检查服务器资源，安装两个独立环境，下载文本数据并冻结pilot24清单。先执行10任务恢复审计；通过后部署固定revision的Qwen3-8B，再执行24任务clean/sham。保留失败与运行指纹，汇总工程结果；暂不启动错误注入实验。
-
-## 下一代码单元
-
-在真实clean/sham通过后实现：可核验根事实注入、固定传播父轨迹、R0–R3分支、回滚后记忆有效性处理、目标错误/派生后果标注。再实现Dependency-Workflow与预测拟合。完整研究协议仍以`docs/research/agent_error_recovery_model_and_protocol.md`为依据。
+错误注入、污染传播父轨迹、R0–R3恢复分支、回滚后记忆有效性、Dependency-Workflow生成器、参数估计与留出长度外推仍未实现。已有软件、replay和开发能力检查不能被写成这些模块的完成证据。

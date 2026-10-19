@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "agent": "react_public_v2",
+  "model_key": "qwen3_8b",
+  "api_base_env": "RELIABILITY_API_BASE",
+  "api_key_env": "RELIABILITY_API_KEY",
+  "timeout_seconds": 180,
+  "sampling": {
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "top_k": -1,
+    "min_p": 0.0
+  },
+  "policy_max_tokens": 100,
+  "memory_max_tokens": 256,
+  "memory_capacity": 16,
+  "format_retries": 1,
+  "max_decisions": 49,
+  "max_env_steps": 49,
+  "max_llm_calls": 147,
+  "sham_start_step": 0,
+  "sham_last_step": 48,
+  "seeds": [
+    42
+  ],
+  "conditions": [
+    "base"
+  ],
+  "demonstrations": "prompts/react_alfworld.json",
+  "demonstrations_sha256": "a10976b4ae99f4802aa9e621933bb71065ae103f2bd273a24466ab1005fbc45a",
+  "action_adapter": "put_in_on_to_move_v1",
+  "early_stop_zero_successes_after": 6
+}
