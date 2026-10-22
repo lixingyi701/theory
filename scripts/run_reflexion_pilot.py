@@ -17,7 +17,7 @@ def main():
     p.add_argument('--trials',type=int,default=3);p.add_argument('--max-calls',type=int,default=2000)
     p.add_argument('--max-seconds',type=int,default=3600);p.add_argument('--stop-after-tasks',type=int)
     p.add_argument('--capability-run',type=Path,default=Path('runs/reflexion-dev12-20261022'))
-    p.add_argument('--input-format',choices=['raw','qwen3_non_thinking'],default='raw')
+    p.add_argument('--input-format',choices=['raw','qwen3_non_thinking','qwen3_non_thinking_actionline'],default='raw')
     a=p.parse_args();start=time.monotonic();manifest=load_manifest(a.manifest)
     dev=a.capability_run;forks=Path('runs/reflexion-forks-20261022')
     origin=Path('runs/reflexion-dev12-20261022')

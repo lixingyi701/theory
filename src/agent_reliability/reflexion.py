@@ -51,7 +51,7 @@ class CompletionIO:
         self.input_format=input_format
     def __call__(self,prompt,temperature=0.,max_tokens=256,stop_strs=None):
         logical=f'{self.role}-{self.index:04d}'
-        if self.input_format=='qwen3_non_thinking':
+        if self.input_format in {'qwen3_non_thinking','qwen3_non_thinking_actionline'}:
             wrapper=read_json(Path('configs/qwen3_8b_non_thinking_wrapper.json'))
             prompt=wrapper['prefix']+prompt+wrapper['suffix']
         elif self.input_format!='raw': raise ValueError('Unknown input format')
@@ -62,17 +62,22 @@ class CompletionIO:
         saved=self.journal.complete(logical,payload);choice=saved['response']['choices'][0]
         text=choice['text']
         if not isinstance(text,str): raise InfrastructureError('Completion text missing')
+        decoded=text
+        if self.input_format=='qwen3_non_thinking_actionline' and self.role=='actor' and text.lstrip().startswith('> '):
+            decoded=text.lstrip()[2:]
         write_json(self.journal.directory/logical/'validation.json',{'valid':bool(text.strip()),
-            'truncated_output':choice.get('finish_reason')=='length','finish_reason':choice.get('finish_reason')})
+            'truncated_output':choice.get('finish_reason')=='length','finish_reason':choice.get('finish_reason'),
+            'decoder':'one_leading_action_marker' if decoded!=text else 'identity',
+            'decoded_sha256':digest(decoded)})
         self.events.add('model-call',role=self.role,index=self.index,payload_sha256=digest(payload),temperature=temperature)
         self.index+=1
-        return text
+        return decoded
 
 def run_attempt(task,memory,trial,directory,transport,data_root,seed,allowance,reflect=True,input_format='raw'):
     ns,receipt=author_namespace()
     identity={'task':task,'memory':memory,'trial':trial,'seed':seed,'upstream':receipt,
               'profile':'upstream_reflexion_raw_serial_v1','input_format':input_format}
-    if input_format=='qwen3_non_thinking':
+    if input_format in {'qwen3_non_thinking','qwen3_non_thinking_actionline'}:
         identity['wrapper_sha256']=file_hash(Path('configs/qwen3_8b_non_thinking_wrapper.json'))
     identity['sha256']=digest(identity)
     if (directory/'identity.json').exists():

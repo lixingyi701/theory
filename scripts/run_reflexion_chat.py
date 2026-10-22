@@ -16,6 +16,7 @@ def main():
     p.add_argument('--data-root',type=Path,default=Path('data/alfworld'))
     p.add_argument('--trials',type=int,default=3);p.add_argument('--max-calls',type=int,default=1200)
     p.add_argument('--max-seconds',type=int,default=3600);p.add_argument('--stop-after-tasks',type=int)
+    p.add_argument('--input-format',choices=['qwen3_non_thinking','qwen3_non_thinking_actionline'],default='qwen3_non_thinking')
     a=p.parse_args();start=time.monotonic();manifest=load_manifest(a.manifest)
     raw=Path('runs/reflexion-dev12-20261022')
     if read_json(raw/'summary.json')['completed_tasks']!=12: raise ValueError('Complete raw reference first')
@@ -39,7 +40,7 @@ def main():
     health=transport._request('/models');_,upstream=author_namespace()
     if health['serving_profile']!='upstream_reflexion_raw_serial_v1' or health['model_revision']!='b968826d9c46dd6066d109eabc6255188de91218': raise ValueError('Serving identity')
     identity={'manifest_sha256':manifest['sha256'],'trials':a.trials,'max_calls':a.max_calls,
-              'max_seconds':a.max_seconds,'campaign_deadline_unix':campaign_deadline,'prior_calls':consumed,'input_format':'qwen3_non_thinking','wrapper':wrapper,'seed':42,'serving':health,'upstream':upstream,
+              'max_seconds':a.max_seconds,'campaign_deadline_unix':campaign_deadline,'prior_calls':consumed,'input_format':a.input_format,'wrapper':wrapper,'seed':42,'serving':health,'upstream':upstream,
               'source_hashes':current['source_hashes'],'driver_sha256':file_hash(Path(__file__)),
               'audit_sha256':audit['sha256'],'environment_audit_sha256':equivalent['sha256']}
     if (a.output/'run.json').exists():
@@ -53,7 +54,7 @@ def main():
     for i,task in enumerate(manifest['tasks']):
         memory=[];attempts=[]
         for trial in range(a.trials):
-            result=run_attempt(task,memory,trial,a.output/'tasks'/task['task_id']/f'trial-{trial:02d}',transport,a.data_root,42,allowance,input_format='qwen3_non_thinking')
+            result=run_attempt(task,memory,trial,a.output/'tasks'/task['task_id']/f'trial-{trial:02d}',transport,a.data_root,42,allowance,input_format=a.input_format)
             memory=result['memory_after'];attempts.append(result)
             print({k:result[k] for k in ['task_id','trial','success','decisions','dispatched_calls']},flush=True)
             if result['success']: break

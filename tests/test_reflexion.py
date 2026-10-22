@@ -20,6 +20,20 @@ class Provider:
         return {'choices':[{'text':text,'finish_reason':'stop'}],'usage':{'prompt_tokens':1,'completion_tokens':1}}
 
 class ReflexionTests(unittest.TestCase):
+    def test_model_action_marker_decoder_preserves_raw_journal(self):
+        class Marked(Provider):
+            def complete(self,payload):
+                result=super().complete(payload)
+                if 'New plan:' not in payload['prompt']: result['choices'][0]['text']='> '+result['choices'][0]['text']
+                return result
+        from agent_reliability.io import read_json
+        with tempfile.TemporaryDirectory() as temp:
+            d=Path(temp);task={'task_id':'test','scene_id':'test','task_type':'pick_and_place_simple'}
+            with patch('agent_reliability.reflexion.official_environment',return_value=Env()):
+                row=run_attempt(task,[],0,d,Marked(),Path('.'),42,lambda:None,input_format='qwen3_non_thinking_actionline')
+            self.assertEqual(read_json(d/'checkpoint.json')['transitions'][0]['action'],'go to desk 1')
+            self.assertTrue(read_json(d/'calls/actor-0000/response.json')['response']['choices'][0]['text'].startswith('> '))
+            self.assertEqual(row['memory_after'],['Plan: try again'])
     def test_author_short_retries_and_last_three_memory(self):
         ns,_=author_namespace();temps=[]
         def complete(**kwargs):
