@@ -45,6 +45,10 @@ class TargetTests(unittest.TestCase):
                 write_json(directory/'result.json', parent)
                 numbered, status = selector.candidate({'task_id': 'example'})
                 self.assertEqual((numbered['original_text'], numbered['replacement_text']), ('cabinet 12', 'diningtable 1'))
+                parent['memory_after']=['Plan: I should put bowl 1 in a cabinet.']
+                write_json(directory/'result.json',parent)
+                article,_=selector.candidate({'task_id':'example'})
+                self.assertEqual(article['original_text'],'cabinet')
                 parent['initial_observation_sha256'] = 'tampered'
                 write_json(directory/'result.json', parent)
                 with self.assertRaisesRegex(ValueError, 'observation hash'):

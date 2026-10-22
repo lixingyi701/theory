@@ -1,0 +1,42 @@
+{
+  "rows": [
+    {
+      "cohort": "dev12",
+      "kind": "direct",
+      "manifest_sha256": "7f39ee9e153c0ec866c711100969d27de57437c0a8197ea92528d080f1eebae2",
+      "passed": true,
+      "report_sha256": "d284788e1f437c5b0f8e2be733887a59d3b926fe77439b87f05ebdbf20150e37",
+      "restore_checks_passed": 40,
+      "tasks": 10
+    },
+    {
+      "cohort": "dev12",
+      "kind": "official",
+      "manifest_sha256": "7f39ee9e153c0ec866c711100969d27de57437c0a8197ea92528d080f1eebae2",
+      "passed": true,
+      "report_sha256": "2f44deb34365f5f08f857e969943827e18b2255db339143ae50b6f04aef8a7b9",
+      "restore_checks_passed": 40,
+      "tasks": 10
+    },
+    {
+      "cohort": "prefix24",
+      "kind": "direct",
+      "manifest_sha256": "437e2049dc5944d2857657d1503cb0122f8bacf1f1142010452e4fe6b9fbf14a",
+      "passed": true,
+      "report_sha256": "f5994f039ee7d70b39bd743e782ba3e8ee65a276625a95a962ec75fbb80493d4",
+      "restore_checks_passed": 40,
+      "tasks": 10
+    },
+    {
+      "cohort": "prefix24",
+      "kind": "official",
+      "manifest_sha256": "437e2049dc5944d2857657d1503cb0122f8bacf1f1142010452e4fe6b9fbf14a",
+      "passed": true,
+      "report_sha256": "e080dee126b1e3622fb1df783bcbc510effc777ee78d320064af3114887d85c5",
+      "restore_checks_passed": 40,
+      "tasks": 10
+    }
+  ],
+  "scope": "Sanitized environment audit receipts; no planner trace or model call",
+  "sha256": "76507b555a0096cbaa20c191f37ac13e314be06a9e24efc877301a399fb63cca"
+}

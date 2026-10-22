@@ -22,7 +22,7 @@ def branch_observations(path, target, original_memory, trials):
     wrong = target['replacement_text'].split()[0]
     obj = object_type(target['public_evidence'][0]['goal'])
     pattern = re.compile(r'(?:put|move) '+re.escape(obj)+r' \d+ (?:in/on|in|on|to) '+re.escape(wrong)+r' \d+')
-    new_clause = re.compile(r'\b(?:put|place)\b[^.!?\n]{0,85}?\b(?:in|on|into|onto)\s+(?:the\s+)?'+re.escape(wrong)+r'\b', re.I)
+    new_clause = re.compile(r'\b(?:put|place)\b[^.!?\n]{0,85}?\b(?:in|on|into|onto)\s+(?:(?:the|a|an)\s+)?'+re.escape(wrong)+r'\b', re.I)
     rows = []
     for trial in range(1, trials+1):
         directory = path/f'trial-{trial:02d}'

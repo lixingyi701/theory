@@ -95,7 +95,9 @@ def main():
     if totals['missing_responses']:
         errors.append({'rule': 'unconfirmed_requests', 'path': 'calls/'})
     summary = read_json(a.run/'summary.json')
-    if summary['completed_tasks'] != summary['expected_tasks']:
+    complete=(summary['completed_tasks']==summary['expected_tasks']) if 'completed_tasks' in summary else (
+        summary['completed_targets']==summary['expected_targets'] and all(t['completed_branches']==5 for t in summary['targets']))
+    if not complete:
         errors.append({'rule': 'incomplete_task_cohort', 'path': 'summary.json'})
     report = {'scope': 'model and tool interface audit; no-effect observations are not automatically classified as syntax errors',
         'decoding_profile':profile,

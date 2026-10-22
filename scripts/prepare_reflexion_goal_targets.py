@@ -50,7 +50,7 @@ def candidate(task):
     if not match:
         return None, 'no_placement_destination'
     destination = match.group(1)
-    match = re.search(r'\b(?:put|place)\b[^.!?\n]{0,85}?\b(?:in|on|into|onto)\s+(?:the\s+)?('+re.escape(destination)+r'(?:\s+\d+)?)\b', native, re.I)
+    match = re.search(r'\b(?:put|place)\b[^.!?\n]{0,85}?\b(?:in|on|into|onto)\s+(?:(?:the|a|an)\s+)?('+re.escape(destination)+r'(?:\s+\d+)?)\b', native, re.I)
     if not match:
         return None, 'no_correct_destination_clause_in_native_plan'
     alternatives = [x for x in DESTINATIONS if x != destination and re.search(r'\ba '+x+r' \d+\b', initial)]

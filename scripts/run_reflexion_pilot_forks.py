@@ -92,6 +92,7 @@ def main():
     p.add_argument('--parent-run',type=Path,required=True)
     p.add_argument('--manifest',type=Path,required=True)
     p.add_argument('--revision-kind',choices=['tool','model_profile'],default='model_profile')
+    p.add_argument('--validate-only',action='store_true')
     a = p.parse_args()
     if a.trials != 2 or a.max_calls <= 0:
         raise ValueError('Frozen two-attempt pilot budget required')
@@ -133,12 +134,21 @@ def main():
             'summary_driver_sha256': file_hash(Path('scripts/summarize_reflexion.py')),
             'input_format': upstream['input_format'], 'wrapper_sha256': upstream['wrapper_sha256'], 'seed': upstream['seed']}
         identity.update(tool_revision_sha256=revision['sha256'],decoding_profile=upstream['decoding_profile'])
+        identity.update(serving=upstream['serving'],upstream=upstream['upstream'],
+            environment_action_alias=upstream['environment_action_alias'],manifest_sha256=manifest['sha256'],
+            model_protocol_sha256=file_hash(Path('configs/reflexion_qwen3_8b_protocol.json')))
+        if a.validate_only:
+            print({'validated_targets':len(prepared),'identity_sha256':digest(identity),'model_dispatches':0})
+            return
         if (a.output/'run.json').exists():
             if read_json(a.output/'run.json')['identity'] != identity:
                 raise ValueError('Fork identity changed')
         else:
             if registry['frozen_unix'] > time.time():
                 raise ValueError('Future-dated target registry')
+            remaining=contract['prior_dispatched_calls']+contract['additional_max_calls']-sum(v['dispatched'] for v in ledger().values())
+            if a.max_calls>remaining:
+                raise ValueError('Fork reservation exceeds remaining continuation allowance')
             write_json(a.output/'run.json', {'identity': identity, 'created_unix': time.time(),
                 'scope': 'development paired forks; target eligibility reviewed before branch outcomes'})
 
