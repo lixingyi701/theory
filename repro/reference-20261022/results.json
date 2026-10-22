@@ -1,0 +1,336 @@
+{
+  "date": "2026-10-22",
+  "scope": "Fixed author ReAct control flow with Qwen3-8B substitution; development capability, not paper score reproduction or causal evidence",
+  "summary": {
+    "by_type": {
+      "look_at_obj_in_light": {
+        "completed": 2,
+        "successes": 2
+      },
+      "pick_and_place_simple": {
+        "completed": 2,
+        "successes": 1
+      },
+      "pick_clean_then_place_in_recep": {
+        "completed": 2,
+        "successes": 1
+      },
+      "pick_cool_then_place_in_recep": {
+        "completed": 2,
+        "successes": 1
+      },
+      "pick_heat_then_place_in_recep": {
+        "completed": 2,
+        "successes": 2
+      },
+      "pick_two_obj_and_place": {
+        "completed": 2,
+        "successes": 0
+      }
+    },
+    "complete": true,
+    "completed_episodes": 12,
+    "costs": {
+      "dispatched_calls": 406,
+      "input_tokens_known": 903529,
+      "output_tokens_known": 5547,
+      "saved_responses": 406,
+      "truncated_responses": 1,
+      "uncertain_or_unrecorded_attempts": 0
+    },
+    "expected_episodes": 12,
+    "missing_episodes": 0,
+    "scope": "author ReAct control flow with 8B substitution; development only, not paper score or theory evidence",
+    "status_counts": {
+      "success": 7,
+      "timeout_decision_budget": 5
+    },
+    "successes": 7,
+    "successful_types": [
+      "look_at_obj_in_light",
+      "pick_and_place_simple",
+      "pick_clean_then_place_in_recep",
+      "pick_cool_then_place_in_recep",
+      "pick_heat_then_place_in_recep"
+    ]
+  },
+  "tasks": [
+    {
+      "actual_commands_excluding_thoughts": 44,
+      "decisions": 49,
+      "dispatched_calls": 49,
+      "env_calls_including_thoughts": 49,
+      "input_tokens_known": 125428,
+      "output_tokens_known": 453,
+      "saved_responses": 49,
+      "scene_id": "FloorPlan27",
+      "status": "timeout_decision_budget",
+      "success": false,
+      "task_id": "17182b8479c3841e",
+      "task_type": "pick_cool_then_place_in_recep",
+      "truncated_responses": 0,
+      "uncertain_or_unrecorded_attempts": 0
+    },
+    {
+      "actual_commands_excluding_thoughts": 31,
+      "decisions": 49,
+      "dispatched_calls": 49,
+      "env_calls_including_thoughts": 49,
+      "input_tokens_known": 100131,
+      "output_tokens_known": 1280,
+      "saved_responses": 49,
+      "scene_id": "FloorPlan220",
+      "status": "timeout_decision_budget",
+      "success": false,
+      "task_id": "1795adb8d8245920",
+      "task_type": "pick_and_place_simple",
+      "truncated_responses": 1,
+      "uncertain_or_unrecorded_attempts": 0
+    },
+    {
+      "actual_commands_excluding_thoughts": 7,
+      "decisions": 12,
+      "dispatched_calls": 12,
+      "env_calls_including_thoughts": 12,
+      "input_tokens_known": 21293,
+      "output_tokens_known": 232,
+      "saved_responses": 12,
+      "scene_id": "FloorPlan3",
+      "status": "success",
+      "success": true,
+      "task_id": "181a4c810cec8a32",
+      "task_type": "pick_heat_then_place_in_recep",
+      "truncated_responses": 0,
+      "uncertain_or_unrecorded_attempts": 0
+    },
+    {
+      "actual_commands_excluding_thoughts": 47,
+      "decisions": 49,
+      "dispatched_calls": 49,
+      "env_calls_including_thoughts": 49,
+      "input_tokens_known": 124539,
+      "output_tokens_known": 379,
+      "saved_responses": 49,
+      "scene_id": "FloorPlan18",
+      "status": "timeout_decision_budget",
+      "success": false,
+      "task_id": "1bcfccd955e18c46",
+      "task_type": "pick_clean_then_place_in_recep",
+      "truncated_responses": 0,
+      "uncertain_or_unrecorded_attempts": 0
+    },
+    {
+      "actual_commands_excluding_thoughts": 23,
+      "decisions": 32,
+      "dispatched_calls": 32,
+      "env_calls_including_thoughts": 32,
+      "input_tokens_known": 61679,
+      "output_tokens_known": 467,
+      "saved_responses": 32,
+      "scene_id": "FloorPlan306",
+      "status": "success",
+      "success": true,
+      "task_id": "5c4e70364016dc80",
+      "task_type": "look_at_obj_in_light",
+      "truncated_responses": 0,
+      "uncertain_or_unrecorded_attempts": 0
+    },
+    {
+      "actual_commands_excluding_thoughts": 6,
+      "decisions": 10,
+      "dispatched_calls": 10,
+      "env_calls_including_thoughts": 10,
+      "input_tokens_known": 13732,
+      "output_tokens_known": 195,
+      "saved_responses": 10,
+      "scene_id": "FloorPlan420",
+      "status": "success",
+      "success": true,
+      "task_id": "650aae4563b0cee5",
+      "task_type": "pick_and_place_simple",
+      "truncated_responses": 0,
+      "uncertain_or_unrecorded_attempts": 0
+    },
+    {
+      "actual_commands_excluding_thoughts": 33,
+      "decisions": 39,
+      "dispatched_calls": 39,
+      "env_calls_including_thoughts": 39,
+      "input_tokens_known": 92026,
+      "output_tokens_known": 403,
+      "saved_responses": 39,
+      "scene_id": "FloorPlan20",
+      "status": "success",
+      "success": true,
+      "task_id": "7372497ea627881b",
+      "task_type": "pick_cool_then_place_in_recep",
+      "truncated_responses": 0,
+      "uncertain_or_unrecorded_attempts": 0
+    },
+    {
+      "actual_commands_excluding_thoughts": 38,
+      "decisions": 43,
+      "dispatched_calls": 43,
+      "env_calls_including_thoughts": 43,
+      "input_tokens_known": 109065,
+      "output_tokens_known": 431,
+      "saved_responses": 43,
+      "scene_id": "FloorPlan13",
+      "status": "success",
+      "success": true,
+      "task_id": "884c6c61e405ce41",
+      "task_type": "pick_clean_then_place_in_recep",
+      "truncated_responses": 0,
+      "uncertain_or_unrecorded_attempts": 0
+    },
+    {
+      "actual_commands_excluding_thoughts": 47,
+      "decisions": 49,
+      "dispatched_calls": 49,
+      "env_calls_including_thoughts": 49,
+      "input_tokens_known": 98593,
+      "output_tokens_known": 380,
+      "saved_responses": 49,
+      "scene_id": "FloorPlan213",
+      "status": "timeout_decision_budget",
+      "success": false,
+      "task_id": "cbe928f06477cf6e",
+      "task_type": "pick_two_obj_and_place",
+      "truncated_responses": 0,
+      "uncertain_or_unrecorded_attempts": 0
+    },
+    {
+      "actual_commands_excluding_thoughts": 35,
+      "decisions": 49,
+      "dispatched_calls": 49,
+      "env_calls_including_thoughts": 49,
+      "input_tokens_known": 111496,
+      "output_tokens_known": 844,
+      "saved_responses": 49,
+      "scene_id": "FloorPlan422",
+      "status": "timeout_decision_budget",
+      "success": false,
+      "task_id": "cc1968875627432d",
+      "task_type": "pick_two_obj_and_place",
+      "truncated_responses": 0,
+      "uncertain_or_unrecorded_attempts": 0
+    },
+    {
+      "actual_commands_excluding_thoughts": 10,
+      "decisions": 15,
+      "dispatched_calls": 15,
+      "env_calls_including_thoughts": 15,
+      "input_tokens_known": 28871,
+      "output_tokens_known": 244,
+      "saved_responses": 15,
+      "scene_id": "FloorPlan24",
+      "status": "success",
+      "success": true,
+      "task_id": "e095d710ddd8215b",
+      "task_type": "pick_heat_then_place_in_recep",
+      "truncated_responses": 0,
+      "uncertain_or_unrecorded_attempts": 0
+    },
+    {
+      "actual_commands_excluding_thoughts": 5,
+      "decisions": 10,
+      "dispatched_calls": 10,
+      "env_calls_including_thoughts": 10,
+      "input_tokens_known": 16676,
+      "output_tokens_known": 239,
+      "saved_responses": 10,
+      "scene_id": "FloorPlan309",
+      "status": "success",
+      "success": true,
+      "task_id": "ec35b3ffe3eb225f",
+      "task_type": "look_at_obj_in_light",
+      "truncated_responses": 0,
+      "uncertain_or_unrecorded_attempts": 0
+    }
+  ],
+  "identity_sha256": "5eb8290fe1007a6ecab288875e9d1426647073bf1eaa61c64ffd8f44f930e708",
+  "config": {
+    "api_base_env": "RELIABILITY_API_BASE",
+    "api_key_env": "RELIABILITY_API_KEY",
+    "conditions": [
+      "author_react_base"
+    ],
+    "early_stop_zero_successes_after": 6,
+    "inference_interface": "raw_completion",
+    "method": "author_react_alfworld",
+    "model_key": "qwen3_8b",
+    "schema_version": 1,
+    "seeds": [
+      42
+    ],
+    "serving_profile": "upstream_react_raw_serial_v1",
+    "timeout_seconds": 180,
+    "upstream_dir": "third_party/react"
+  },
+  "upstream": {
+    "commit": "6bdb3a1fd38b8188fc7ba4102969fe483df8fdc9",
+    "function_source_hashes": {
+      "alfworld_run": "f51b0eb26974d92dcbe862ab4ba3d7e2f6e61c682a56334d4340e4244f3e418f",
+      "process_ob": "d95a14ba37fe0eb0221f3b5aa8b910b7fa0451aadb984f57793807ae3198b052"
+    },
+    "notebook_sha256": "bf13b2d204e89d2a078eec19d44b03ebbebb55114322d2573fa070b78316645b",
+    "repository": "https://github.com/ysymyth/ReAct"
+  },
+  "source_hashes": {
+    "__init__.py": "9aa84454aaf25ce212ded4c089d18e335cb17460edd5e66ec4c522aaeb8fbe16",
+    "__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+    "alfworld.py": "89fcf795fdb9d1c1d19ff89b2ddc1bc199f5abf83c279bdf5d1bb7db9671c4c9",
+    "audit.py": "28e256ee2d5419f81e53b6caa4605102bdb9155583a04b04d4a66a6387bb666b",
+    "cli.py": "6d03e369f38c94879a8d7550baa5e51ead13ebc5e5f618df3a7ec8dce53b789d",
+    "dataset.py": "e580c7baf20b6d0c4669c24521881db3eaf44b23874c214e4b2de6967e5844e3",
+    "env.py": "4e79411d8a605197692bafc78431c4f7edde552c0d2977b3ef1682ab26346e7f",
+    "io.py": "cc5ad9729a4c4448f5b97740d6e8494cafe892faf5cbea1afd5d7079ba9bbe51",
+    "llm.py": "061bab01c82117589802fe2fb4251aedeb8f7f73bc022551e5b6f3fdd779acd4",
+    "memory.py": "7327d609005e2a884c2c8176a8a74149bbcb57f015432fa51c20606cc98b7539",
+    "prompts.py": "b49634af198a4907aa8d5533221facbe623e7b417835140bf338265c82b55ed5",
+    "react.py": "b48ad0a2dc664a607f06a6020871325a2bf5ccf89f9064bb18dfa6dffba78e82",
+    "reference.py": "2b8c3a794f1bea5067ad3b4c993ab938331c589a86c3c81ed2e9303fd8f41b82",
+    "reference_run.py": "5577e2521e6a08c268fc444896be87570df350c8b79d5ca90a974946166a63d2",
+    "runner.py": "e71596acf5b39b4ca53b6fb80aaa5fb0e987c9f4cab86e46b19fb94f63879f47"
+  },
+  "serving_identity": {
+    "capabilities": [
+      "raw_completions"
+    ],
+    "data": [
+      {
+        "id": "qwen3-8b",
+        "max_model_len": 32768,
+        "object": "model"
+      }
+    ],
+    "model_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+    "object": "list",
+    "prompt_format": "raw text, no chat template or action repair",
+    "serving_profile": "upstream_react_raw_serial_v1"
+  },
+  "audits": {
+    "direct": {
+      "passed": true,
+      "tasks": 10,
+      "restore_checks": 40,
+      "sha256": "53aa5e80d72ad2f8649e45a787768c30981c48f2cdbfefc7c0d33bc8294fbd48"
+    },
+    "official_gym": {
+      "passed": true,
+      "tasks": 10,
+      "restore_checks": 40,
+      "sha256": "78259ab7bb41fe5b39ef0ddad6ea9e1d7a348f72c74c0723cf69c417da28e09a",
+      "scope": "public observations/reward/done/won and fixed suffix equivalence; hidden facts audited in direct backend only"
+    }
+  },
+  "capability_gate": {
+    "minimum_successes": 6,
+    "minimum_successful_types": 4,
+    "passed": true
+  },
+  "intervention_gate_passed": false,
+  "intervention_implemented": false,
+  "causal_experiments_started": false,
+  "holdout_model_calls": 0
+}

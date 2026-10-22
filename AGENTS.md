@@ -5,7 +5,8 @@
 - Read `docs/IMPLEMENTATION_STATUS.md` and `docs/LINUX_RUNBOOK.md` before executing research jobs. The research protocol is under `docs/research/`.
 - This is a standalone agent-reliability project. Do not import unrelated QuRO/VECTOR code or results.
 - Preserve the distinction between code tests, real-environment replay checks, and LLM experiments. Never report fake-provider/backend outcomes as benchmark measurements.
-- The current implementation is clean/sham infrastructure. Error injection, four recovery arms and task-length extrapolation are not implemented yet.
+- The default baseline executes the fixed upstream ReAct ALFWorld functions through `reference-run`, with the original 8B model substitution documented explicitly. Custom `run` / `react-run` paths require `--allow-legacy-agent` and are historical evidence only. Error injection, four recovery arms and task-length extrapolation are not implemented yet.
+- Execute research on the server: project, runner, data, model, journals and evaluator are server-local. Keep the workstation as a source/control client; do not recreate a local experiment environment by default. Read `docs/experiments/reference-alignment-20261022.md` first.
 
 ## Running work
 

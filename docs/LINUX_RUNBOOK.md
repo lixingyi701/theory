@@ -1,78 +1,74 @@
-# Linux 执行手册：先验证基础能力，再比较仪器化
+# Linux 执行手册：服务器上的作者参考基线
 
-更新：2026-10-19。环境已部署；旧27/48全失败pilot归档，不能再作为默认起点或在改代码后续跑。资源、安装freeze、SSH/systemd与服务启动见 [部署记录](deployment/README.md)。
+更新：2026-10-22。项目、CPU runner、ALFWorld数据、GPU模型与原始日志均在服务器。工作站用于编辑、版本控制和SSH。先读[实施状态](IMPLEMENTATION_STATUS.md)、[方法依据与差异](experiments/reference-alignment-20261022.md)、[部署记录](deployment/README.md)。历史自建Agent及失败目录不续跑。
 
-当前完成结果见 [门槛报告](experiments/results-20261019.md)。以下命令用于可追溯的协议执行；不要把原在线v2目录续跑到新profile上。当前8000为串行诊断profile，若重现在线v2需先按部署文档切回原profile并使用新目录。新增任务验证需先冻结新的记忆/服务身份检查。
-
-## 1. 核对证据与协议
-
-阅读AGENTS.md、[实施状态](IMPLEMENTATION_STATUS.md)、[基础方案v1](experiments/baseline-20261019.md)及[chat适配v2](experiments/baseline-20261019-v2.md)。这是Qwen适配的公开ReAct预检，不是严格论文复现。所有命令从仓库根目录执行，先激活runner环境。
+## 1. 进入服务器与独立环境
 
 ```bash
-conda activate theory-runner
-bash scripts/offline_checks.sh
-agent-rel doctor --output runs/setup/current-runner.json
+ssh -F ~/.ssh/theory.conf theory-gpu
+export THEORY_ROOT=/data02/<user>/theory
+source "$THEORY_ROOT/project/scripts/deployment/activate_remote_runner.sh"
 python -m pip check
+bash scripts/offline_checks.sh
+agent-rel doctor --output runs/setup/runner-NEW.json
 ```
 
-## 2. 数据与固定清单
+`theory-runner`为服务器Python3.10隔离prefix，`theory`为原有Python3.11/vLLM0.10.2环境；不要混装，也不安装到base。原生planner需针对服务器glibc编译，不能直接搬用新Ubuntu的二进制。任务记录采用新目录，保持失败证据。
 
-```bash
-python scripts/download_alfworld.py --data-root data/alfworld  # 先显示计划
-python scripts/download_alfworld.py --data-root data/alfworld --execute
-```
+## 2. 数据、清单与作者源码
 
-`repro/baseline-20261019/dev12.json` 是冻结的开发12任务，六类各2、12场景；完整134任务 `holdout134.json` 继续封存。不要基于结果重选任务。复算选择仅用于核对：
+已有数据从迁移校验凭据核对，不重复下载。首次部署可使用默认plan-only的`scripts/download_alfworld.py`。开发集固定为`repro/baseline-20261019/dev12.json`，六类各2，12场景；134 unseen继续封存，不按结果重选任务。公开示例没有场景ID，开发成绩不用于泛化估计。
 
-```bash
-PYTHONPATH=src python scripts/prepare_baseline.py --data-root data/alfworld \
-  --pilot repro/legacy-pilot24.json --output manifests/recomputed-baseline-20261019
-```
+`third_party/react/receipt.json`固定作者commit和全部原始文件hash。默认入口运行原notebook的`alfworld_run` / `process_ob`函数和示例拼接语句，使用原始completion协议。禁止为提高分数改写作者策略、修复模型动作文本或把evaluator真值放进提示。
 
-公开示例缺少task/scene ID，不能证明开发集与示例场景完全独立；开发集不估计泛化成绩。
-
-## 3. 真实恢复审计
+## 3. 两层真实环境审计
 
 ```bash
 agent-rel audit --data-root data/alfworld \
   --manifest repro/baseline-20261019/dev12.json --tasks 10 \
-  --output runs/audit/react-dev12-new.json
+  --output runs/audit/direct-NEW.json
+python scripts/check_official_environment.py --data-root data/alfworld \
+  --manifest repro/baseline-20261019/dev12.json \
+  --audit-report runs/audit/direct-NEW.json \
+  --output runs/audit/official-gym-NEW.json
 ```
 
-必须10任务/40恢复全通过，且事实与输出重放一致。审计使用的planner仅供evaluator；不进入策略/记忆提示。源代码或backend版本改变时按CLI校验重做。不要覆盖旧失败审计。
+第一层检查direct backend的facts/观察恢复；第二层比较官方Gym接口的公开观察、reward、done、won与已审计backend，10任务/40前缀及固定后缀全通过。第二层不声称获取了官方Gym全部隐藏事实。原生库hash、源码、manifest不匹配会阻止新模型运行。
 
-## 4. 模型服务与基础 Agent
+## 4. 服务器本地模型与预检
 
-远程只在Conda theory中按部署手册启动服务。runner通过SSH的本地loopback访问：
+在服务器另一个tmux会话中，使用既有`theory`环境启动模型：
 
 ```bash
-export RELIABILITY_API_BASE=http://127.0.0.1:8000/v1
-curl --fail "$RELIABILITY_API_BASE/models"
-agent-rel react-run --data-root data/alfworld \
-  --manifest repro/baseline-20261019/dev12.json \
-  --audit-report runs/audit/react-dev12-new.json \
-  --config configs/react_base.json --output runs/react-base-NEW
+export CUDA_VISIBLE_DEVICES=0 PYTHONNOUSERSITE=1
+unset HTTP_PROXY HTTPS_PROXY ALL_PROXY http_proxy https_proxy all_proxy
+"$HOME/miniconda3/envs/theory/bin/python" scripts/deployment/serve_reference.py \
+  --model-dir "$THEORY_ROOT/models/Qwen3-8B"
 ```
 
-先检查base完整分母与各类型覆盖。6/12成功且至少4/6类型成功才进入下一步。前6任务全失败会提前停止，剩余任务标记缺失。任何不确定POST都先检查journal，不自动重试。需要显式重发时，额外dispatch计入成本，并保留旧尝试。
-
-## 5. 记忆与sham对照
-
-仅在上述能力门槛通过后运行：
+服务只监听服务器`127.0.0.1:8000`；同一端口已有本项目服务时先核对身份，不重复启动。profile必须为`upstream_react_raw_serial_v1`；8B revision固定，BF16/32768上下文、单请求/eager/无prefix cache。其他用户/GPU上的进程不属于本项目。
 
 ```bash
-agent-rel react-run --data-root data/alfworld \
-  --manifest repro/baseline-20261019/dev12.json \
-  --audit-report runs/audit/react-dev12-new.json \
-  --config configs/react_instrumented.json --output runs/react-instrumented-NEW
+curl --fail http://127.0.0.1:8000/v1/models
+THEORY_ROOT="$THEORY_ROOT" bash scripts/deployment/run_reference.sh \
+  --data-root data/alfworld --manifest repro/baseline-20261019/dev12.json \
+  --audit-report runs/audit/direct-NEW.json \
+  --environment-report runs/audit/official-gym-NEW.json \
+  --output runs/author-react-8b-NEW --stop-after-episodes 1
 ```
 
-同模型、同示例/历史/seed/动作预算，比较memory相对base逐任务损失、实际调用/token成本，以及sham是否触发、是否产生完全相同提示和轨迹。详见预先方案门槛。不要把equal-content sham写成语言改写或错误注入。
+在tmux中执行，所有路径/API均服务器本地，运行脚本取消代理；无需工作站8000转发。第1任务边界检查后，用完全相同参数去掉`--stop-after-episodes 1`、加`--resume`完成原12分母。不要修改source/config/model后续跑原目录。
 
-## 6. 续跑和研究分界
+预定工程门槛是至少6/12成功且至少4类成功；前6任务全失败则停止，未完成项报告为missing。这个门槛只验证基础可用性，不能证明理论或启动因果矩阵。
 
-只有完全相同的source hashes/config/model/task/audit可以 `--resume`。run.json 是运行身份，checkpoint.json 是已提交进度；未提交step文件不代表完成。不要启动两个进程共用目录。
+## 5. 成本、断线与下一节点
 
-基础能力/仪器化门槛失败先诊断；不得直接扩大任务或启动错误注入。通过后还需锁定正式任务范围与留出协议，再实现配对注入和R0–R3、短任务拟合与长度外推。软件测试、真实replay、LLM能力预检和理论实验必须分别报告。
+```bash
+agent-rel summarize runs/author-react-8b-NEW
+```
 
-历史 `agent-rel run` / `configs/clean_sham.json` 仍保留供原版本审查，不作为本轮有效baseline。原run目录和v1适配smoke均不续跑。
+`run.json`固定身份，`checkpoint.json`表示已提交进度，`calls/`记录全部dispatch、响应、usage与未确认请求。SSH断开不影响远程tmux；未知POST不会自动重发。只有确认需要额外dispatch时使用`--retry-uncertain`，并计入成本。
+
+作者ReAct基线通过后，先固定官方Reflexion等具有原生持久记忆的方法及其外部干预接口，通过该方法的基础能力和无干预/等内容sham一致性，再冻结配对错误注入、恢复和留出协议。ReAct本身没有独立持久记忆M；旧16条显式记忆不自动带入。错误注入、R0–R3、参数估计与长度外推尚未实现；134 unseen不调用模型。
+
+历史`run` / `react-run`需显式`--allow-legacy-agent`，仅供审查旧实现；10月19日6/12、5/12、5/12的结果见[历史报告](experiments/results-20261019.md)，不得归入新作者参考基线。

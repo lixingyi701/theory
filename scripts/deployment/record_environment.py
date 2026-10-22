@@ -6,6 +6,8 @@ import json
 import platform
 import subprocess
 from pathlib import Path
+import hashlib
+import importlib.util
 
 
 def command(args):
@@ -25,7 +27,14 @@ def collect(role):
         except metadata.PackageNotFoundError:
             packages[name] = None
     os_release = dict(line.split('=', 1) for line in Path('/etc/os-release').read_text().splitlines() if '=' in line)
+    native = {}
+    spec = importlib.util.find_spec('fast_downward')
+    if spec and spec.origin:
+        binary = Path(spec.origin).parent / 'libdownward.so'
+        if binary.exists():
+            native['fast_downward/libdownward.so'] = hashlib.sha256(binary.read_bytes()).hexdigest()
     return {'schema_version': 1, 'role': role, 'python': platform.python_version(),
+            'libc': platform.libc_ver(), 'native_hashes': native,
             'os': os_release.get('PRETTY_NAME', '').strip('"'), 'kernel': platform.release(),
             'architecture': platform.machine(), 'packages': packages,
             'cpu_model': next((x.split(':', 1)[1].strip() for x in Path('/proc/cpuinfo').read_text().splitlines() if x.startswith('model name')), None),

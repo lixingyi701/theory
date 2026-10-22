@@ -26,7 +26,7 @@ def backend(root: Path, expert: bool = False):
 
 def provenance() -> dict:
     packages = {}
-    for name in ["agent-reliability-theory", "alfworld", "textworld", "numpy", "fast-downward"]:
+    for name in ["agent-reliability-theory", "alfworld", "textworld", "numpy", "fast-downward-textworld"]:
         try:
             distribution = importlib.metadata.distribution(name)
             direct = distribution.read_text("direct_url.json")
@@ -35,8 +35,16 @@ def provenance() -> dict:
         except importlib.metadata.PackageNotFoundError:
             packages[name] = None
     source = {p.name: file_hash(p) for p in sorted(Path(__file__).parent.glob("*.py"))}
+    native = {}
+    try:
+        library = Path(importlib.metadata.distribution("fast-downward-textworld").locate_file("fast_downward/libdownward.so"))
+        if library.exists():
+            native["fast_downward/libdownward.so"] = file_hash(library)
+    except importlib.metadata.PackageNotFoundError:
+        pass
     return {"python": platform.python_version(), "platform": platform.platform(),
-            "git": git_revision(), "packages": packages, "source_hashes": source}
+            "libc": platform.libc_ver(), "git": git_revision(), "packages": packages,
+            "source_hashes": source, "native_hashes": native}
 
 
 def summarize(directory: Path) -> dict:
@@ -154,8 +162,21 @@ def main(argv=None) -> int:
         run.add_argument("--models", type=Path, default=Path("configs/models.json"))
         run.add_argument("--output", type=Path, required=True)
         run.add_argument("--resume", action="store_true")
+        run.add_argument("--allow-legacy-agent", action="store_true",
+                         help="Explicit historical reproduction only; use reference-run for new baselines")
         run.add_argument("--retry-uncertain", action="store_true",
                          help="Explicitly redispatch unresolved calls, counting extra attempts")
+    reference = commands.add_parser("reference-run", help="Run the author's unchanged ReAct ALFWorld functions")
+    reference.add_argument("--data-root", type=Path, required=True)
+    reference.add_argument("--manifest", type=Path, required=True)
+    reference.add_argument("--audit-report", type=Path, required=True)
+    reference.add_argument("--environment-report", type=Path, required=True)
+    reference.add_argument("--config", type=Path, default=Path("configs/reference_react_8b.json"))
+    reference.add_argument("--models", type=Path, default=Path("configs/models.json"))
+    reference.add_argument("--output", type=Path, required=True)
+    reference.add_argument("--resume", action="store_true")
+    reference.add_argument("--retry-uncertain", action="store_true")
+    reference.add_argument("--stop-after-episodes", type=int, help="Pause at an episode boundary; retain full manifest denominator")
     summary = commands.add_parser("summarize")
     summary.add_argument("directory", type=Path)
     args = parser.parse_args(argv)
@@ -180,10 +201,21 @@ def main(argv=None) -> int:
             print(json.dumps(result, ensure_ascii=False, indent=2))
             return 0 if result["passed"] else 1
         elif args.command in {"run", "react-run"}:
+            if not args.allow_legacy_agent:
+                raise ValueError("Self-built agents are historical only; use reference-run or explicitly --allow-legacy-agent")
             with run_lock(args.output):
                 result = run_command(args)
+        elif args.command == "reference-run":
+            from .reference_run import run_reference_command
+            with run_lock(args.output):
+                result = run_reference_command(args)
         else:
-            result = summarize(args.directory)
+            run_meta = read_json(args.directory / "run.json") if (args.directory / "run.json").exists() else {}
+            if run_meta.get("config", {}).get("method") == "author_react_alfworld":
+                from .reference_run import summarize_reference
+                result = summarize_reference(args.directory)
+            else:
+                result = summarize(args.directory)
         print(json.dumps(result, ensure_ascii=False, indent=2))
         return 0
     except Exception as exc:

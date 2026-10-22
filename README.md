@@ -2,7 +2,7 @@
 
 研究目标：解释并预测长程 LLM Agent 在不完全恢复之后的错误复发与任务结果。当前仓库提供**第一实施单元**：ALFWorld 文本环境、显式任务内记忆、可续跑的执行器和 checkpoint/replay 审计。
 
-**2026-10-19 状态：本机Linux runner、远程Conda theory / vLLM0.10.2、固定8B模型与数据已部署并核验；真实10任务/40恢复审计通过。公开ReAct适配的开发预检base6/12过能力门槛，memory/sham各5/12未过仪器化门槛；[结果与下一节点](docs/experiments/results-20261019.md)已记录，未启动因果矩阵。** 原27/48零成功pilot作为失败联调记录归档，不能用于论文复现或理论结论。
+**2026-10-22：改为服务器完整运行，默认入口 `reference-run` 直接执行固定作者ReAct ALFWorld函数，保留Qwen3-8B BF16骨干。开发12任务成功7个、覆盖5类，通过基础能力门槛，见[结果](docs/experiments/results-20261022.md)。** [方法对齐依据](docs/experiments/reference-alignment-20261022.md)逐项说明模型/环境差异及独立记忆的研究边界；[部署记录](docs/deployment/README.md)说明远程runner与原生库重建。历史适配器成绩单列，未启动因果矩阵。
 
 ## 从哪里开始
 
@@ -18,14 +18,14 @@
 |---|---|---|
 | 任务清单 | `agent-rel manifest` | 官方数据过滤、六类分层、场景分组、固定hash |
 | 恢复审计 | `agent-rel audit` | 默认10任务、每任务2个检查点×2次恢复；检查facts、输出及固定后缀 |
-| 基础/仪器化预检 | `agent-rel react-run` | 公开两示例、完整历史；base/memory/sham，49 decisions，语法适配 |
-| 历史Agent runner | `agent-rel run` | 旧clean/sham工程路径，保留审计，不作为默认baseline |
+| 作者参考基线 | `agent-rel reference-run` | 原作者函数/示例/完整历史/49轮/原始completion解码，外围记录与恢复 |
+| 历史Agent runner | `agent-rel run` / `react-run` | 自建clean/sham及chat适配；需显式允许legacy，不作为默认baseline |
 | 显式记忆 | `src/agent_reliability/memory.py` | 16条结构化事实、来源步、确定性淘汰 |
 | 中断恢复 | `--resume` | 重放环境、恢复上下文/记忆，复用已保存模型响应 |
 | 请求审计 | 每个episode的`calls/` | 保存请求/响应、种子、usage、截断和不确定请求 |
 | 下载/服务配置 | `scripts/`、`configs/models.json` | 固定模型revision；默认只打印计划 |
 
-本阶段使用自建的 ReAct 式记忆Agent，**不是原版ReAct或RIR的完整复现**。尚未实现错误注入、R0–R3四恢复臂、Dependency-Workflow环境、参数估计与长度外推；这些均为后续单元。
+默认基线复用作者算法代码；8B骨干、现代ALFWorld版本和固定语法别名属于明确记录的替换，**不是原论文全条件成绩复现或RIR复现**。自建显式记忆仅保留在历史路径。尚未实现错误注入、R0–R3四恢复臂、Dependency-Workflow环境、参数估计与长度外推。
 
 ## 今天可以运行的离线检查
 
@@ -46,4 +46,4 @@ bash scripts/offline_checks.sh
 
 ## English
 
-This repository studies residual-error propagation after agent recovery. The first unit implements an instrumented ReAct-style agent with explicit memory, an ALFWorld text adapter, replay audits, bounded budgets and a durable model-call journal. Start with [the Linux runbook](docs/LINUX_RUNBOOK.md). See the deployment snapshots and preregistered engineering gates under docs/. The failed historical pilot, replay checks and development capability results are reported separately; none establishes the recovery theory.
+This repository studies residual-error propagation after agent recovery. The default server-local baseline executes the fixed upstream ReAct ALFWorld functions with a documented Qwen3-8B substitution, official Gym interface, replay audits and durable request journals. Start with [the Linux runbook](docs/LINUX_RUNBOOK.md). Historical custom agents remain for audit. Engineering checks and development results do not establish the recovery theory.

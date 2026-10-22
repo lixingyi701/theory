@@ -1,0 +1,102 @@
+{
+  "date": "2026-10-22",
+  "files": {
+    "all_verified": true,
+    "source_manifest_sha256": "e0204b147fffa45504ffe6138fd2a3e14ef00fff94d94462c9c2a5646716f0cf",
+    "checked": {
+      "data": {
+        "files": 11332,
+        "bytes": 1841071670
+      },
+      "legacy_runs": {
+        "files": 25389,
+        "bytes": 525798750
+      },
+      "local_inference": {
+        "files": 103,
+        "bytes": 121998560
+      },
+      "manifests": {
+        "files": 4,
+        "bytes": 84908
+      },
+      "old_runner_prefix": {
+        "files": 20585,
+        "bytes": 1423407793
+      },
+      "q8_archive": {
+        "files": 2,
+        "bytes": 8709518833
+      }
+    },
+    "scope": "all source-listed files; destination may also contain new server-only audit/run files"
+  },
+  "installation_cache_archive_integrity_verified": true,
+  "local_cleanup": {
+    "date": "2026-10-22",
+    "removed": [
+      {
+        "path": "work/theory/data",
+        "apparent_bytes": 1841071670
+      },
+      {
+        "path": "work/theory/runs",
+        "apparent_bytes": 525798750
+      },
+      {
+        "path": "work/theory/manifests",
+        "apparent_bytes": 84908
+      },
+      {
+        "path": "work/theory/models/Qwen3-8B-Q8_0-local-trial",
+        "apparent_bytes": 8709518833
+      },
+      {
+        "path": "work/envs/theory-runner",
+        "apparent_bytes": 1477295852
+      },
+      {
+        "path": "work/local-inference",
+        "apparent_bytes": 121998730
+      },
+      {
+        "path": "work/conda-packages",
+        "apparent_bytes": 211630985
+      },
+      {
+        "path": "work/pip-cache",
+        "apparent_bytes": 137640938
+      },
+      {
+        "path": "work/mamba",
+        "apparent_bytes": 1334348786
+      },
+      {
+        "path": "work/bootstrap",
+        "apparent_bytes": 26282156
+      }
+    ],
+    "apparent_bytes_removed": 14385671608,
+    "remote_backup_verified": true,
+    "cache_archive_integrity_verified": true,
+    "scope": "runtime copies and rebuildable installation caches; source, SSH and reports retained"
+  },
+  "base_conda_history_unchanged": true,
+  "base_pip_freeze_unchanged": true,
+  "runner_pip_check_passed": true,
+  "model_environment_pip_check_passed": true,
+  "offline_tests_passed": 19,
+  "independence": {
+    "all_runtime_paths_on_server": true,
+    "api": "server loopback",
+    "proxy_variables_unset_for_runner": true,
+    "workstation_model_forwarding_enabled": false,
+    "ssh_master_stopped_during_test": true,
+    "completed_before": 10,
+    "completed_after": 11,
+    "dispatches_before": 318,
+    "dispatches_after": 357,
+    "scope": "master-control disconnection and absence of model forwarding; no physical workstation shutdown test"
+  },
+  "network": "Temporary IP/SSH timeout recovered without system route/proxy changes; root cause undetermined. Control-only SSH master now healthy; legacy reverse-proxy port left untouched."
+}

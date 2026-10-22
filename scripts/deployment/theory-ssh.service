@@ -1,10 +1,10 @@
 [Unit]
-Description=Theory model SSH tunnel
+Description=Theory remote experiment SSH control connection
 StartLimitIntervalSec=0
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/ssh -F %h/.ssh/theory.conf -MN theory-gpu
+ExecStart=/usr/bin/ssh -F %h/.ssh/theory.conf -o ControlMaster=yes -N theory-gpu
 Restart=always
 RestartSec=5
 

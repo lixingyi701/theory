@@ -1,6 +1,24 @@
-# Linux 工作站 + 远程 NVIDIA 部署记录
+# 服务器完整运行环境与迁移记录
 
-核验日期：2026-10-19。真实路径、内网地址、SSH身份文件和账户缓存保留在本机操作记录；下列路径用占位符表示，便于公开复现。
+## 2026-10-22 当前部署
+
+运行位置已改为服务器：`/data02/<user>/theory/project`包含完整Git项目、`data/`、`runs/`、`manifests/`；`models/`链接到同一根目录的模型存储。CPU runner重建在`/data02/<user>/theory/envs/theory-runner`（Python3.10.22）；GPU服务仍使用既有Conda **theory**（Python3.11.15/vLLM0.10.2/torch2.8.0+cu128）。没有修改base或把runner依赖混装进theory。10月22日再次比对base history和pip freeze均与部署前一致。
+
+服务器Ubuntu20.04.6、glibc2.31、Xeon Gold5318Y/96逻辑核/约125GiB RAM、4×A80080GB；本项目只用GPU0。迁移后data02约167GiB空闲，属于该次快照。工作站不再需要安装ALFWorld或保存一套活动模型/数据/runner。
+
+**原生ABI修正：**历史runner显式Conda清单包含glibc2.39 sysroot。即使在服务器新建环境，用该工具链编译planner仍会要求GLIBC2.38，首次远程恢复检查因此失败（0/40，原报告保留）。随后清除编译flag/sysroot，用服务器`/usr/bin/gcc`、`g++`9.4重建fast-downward-textworld20.6.4与jericho3.3.1；planner最高要求降至GLIBC2.17。当前libdownward.so SHA256为`248f2e6cf89c480bb6e28119269b4e00539669c2a54a49b755560d76f086f807`。两个真实审计分别10任务/40检查通过，验证native hash后才放行模型任务。
+
+首次建环境使用`scripts/deployment/create_server_runner.sh`，默认只打印计划；显式`--execute`才新建prefix。脚本按版本freeze安装，不能覆盖已有环境。工具链在不同宿主上仍需重新检查；pip版本表不构成wheel级二进制锁定。
+
+当前模型服务为`scripts/deployment/serve_reference.py`的`upstream_react_raw_serial_v1`，仅提供原始`/v1/completions`，使用作者100token/温度0/newline stop，无chat模板或策略文本修复。BF16/32768上下文、单请求、eager、无prefix cache。模型revision与原8B保持一致；完整差异和选择证据见[作者参考基线](../experiments/reference-alignment-20261022.md)。
+
+执行入口为[当前手册](../LINUX_RUNBOOK.md)。runner和模型同机，经服务器loopback通信，运行脚本取消代理；SSH只负责控制和看日志，tmux内任务不依赖本机Python、模型转发或反向代理。SSH master由systemd唯一创建，普通客户端仅复用；默认不再开启8000/17897转发。可选CLI出网代理不属于实验运行依赖，旧Codex登录/READY只代表10月18日检查，不能当作当前CLI连通性证明。
+
+迁移逐文件核验覆盖：数据11332文件、历史runs25389文件、manifests4文件、旧runner20585文件、local-inference103文件及Q8历史试验权重2文件。旧runner和安装缓存另存服务器`archives/local-20261022/`，只用于历史恢复，不能当作服务器活动环境。原始响应、审计事实轨迹、完整数据与权重均不上传Git。当前脱敏凭据与开发结果单独记录；下文保留旧部署快照供溯源。
+
+## 2026-10-19 历史部署
+
+核验日期：2026-10-19。此节为迁移前历史配置，不作为当前启动命令。真实路径、内网地址、SSH身份文件和账户缓存保留在私有操作记录；下列路径用占位符表示。
 
 ## 当前机器与环境
 

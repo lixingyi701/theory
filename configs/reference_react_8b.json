@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "method": "author_react_alfworld",
+  "model_key": "qwen3_8b",
+  "upstream_dir": "third_party/react",
+  "serving_profile": "upstream_react_raw_serial_v1",
+  "inference_interface": "raw_completion",
+  "api_base_env": "RELIABILITY_API_BASE",
+  "api_key_env": "RELIABILITY_API_KEY",
+  "timeout_seconds": 180,
+  "seeds": [42],
+  "conditions": ["author_react_base"],
+  "early_stop_zero_successes_after": 6
+}

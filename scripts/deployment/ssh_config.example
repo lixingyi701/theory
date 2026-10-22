@@ -9,10 +9,12 @@ Host theory-gpu
     ConnectTimeout 15
     ServerAliveInterval 15
     ServerAliveCountMax 3
-    ControlMaster auto
+    # Only the systemd owner creates the master; short clients only reuse it.
+    ControlMaster no
     ControlPath ~/.ssh/theory-%C
     ExitOnForwardFailure yes
-    LocalForward 127.0.0.1:8000 127.0.0.1:8000
+    # Experiments run entirely on the server; forwarding is optional for inspection.
+    # LocalForward 127.0.0.1:8000 127.0.0.1:8000
     # On campus LAN, optionally bind to the physical NIC to bypass a VPN TUN:
     # BindInterface YOUR_PHYSICAL_NIC
     # Optional workstation proxy for remote CLI/downloads (must remain running):

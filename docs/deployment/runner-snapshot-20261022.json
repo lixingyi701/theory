@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "role": "runner",
+  "python": "3.10.22",
+  "libc": [
+    "glibc",
+    "2.31"
+  ],
+  "native_hashes": {
+    "fast_downward/libdownward.so": "248f2e6cf89c480bb6e28119269b4e00539669c2a54a49b755560d76f086f807"
+  },
+  "os": "Ubuntu 20.04.6 LTS",
+  "kernel": "5.4.0-216-generic",
+  "architecture": "x86_64",
+  "packages": {
+    "alfworld": "0.5.0",
+    "textworld": "1.6.2",
+    "fast-downward-textworld": "20.6.4",
+    "numpy": "1.26.4",
+    "PyYAML": "6.0.2"
+  },
+  "cpu_model": "Intel(R) Xeon(R) Gold 5318Y CPU @ 2.10GHz",
+  "logical_cpus": "96",
+  "memory_kib": "131626120",
+  "nvidia": "NVIDIA A800 80GB PCIe, 81920 MiB, 570.133.20\nNVIDIA A800 80GB PCIe, 81920 MiB, 570.133.20\nNVIDIA A800 80GB PCIe, 81920 MiB, 570.133.20\nNVIDIA A800 80GB PCIe, 81920 MiB, 570.133.20",
+  "scope": "version/hardware snapshot; no credentials, network addresses, hostname or home paths"
+}
