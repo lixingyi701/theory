@@ -9,7 +9,8 @@ from agent_reliability.dataset import load_manifest
 from agent_reliability.io import digest, file_hash, read_json, run_lock, write_json
 from agent_reliability.reference import CompletionTransport
 from agent_reliability.reflexion import author_namespace, run_attempt
-from continue_reflexion_pilot import PHASE, PILOT, MANIFEST, allowance, ledger, verify_contract
+from continue_reflexion_pilot import PHASE, PILOT, MANIFEST, allowance, ledger
+from run_reflexion_tool_stage import verify_stage_revision
 from run_reflexion_forks import memories
 from summarize_reflexion import costs
 
@@ -46,7 +47,7 @@ def payloads(path):
             for p in sorted((path/'calls').glob('*/attempt-000.request.json'))}
 
 
-def summarize_target(root, target, trials):
+def summarize_target(root, target, trials,parent_run):
     rows = []
     for branch in ['original', 'sham', 'retain_error', 'correct_target', 'discard_new']:
         path = root/'branches'/branch
@@ -73,7 +74,7 @@ def summarize_target(root, target, trials):
     for offset in range(trials):
         trial = target['parent_trial']+1+offset
         a = root/'branches/original'/f'trial-{trial:02d}'
-        b = PILOT/'tasks'/target['task_id']/f'trial-{trial:02d}'
+        b = parent_run/'tasks'/target['task_id']/f'trial-{trial:02d}'
         if (a/'result.json').exists() and (b/'result.json').exists():
             native_controls.append({'trial': trial, 'fresh_payloads_equal': payloads(a) == payloads(b),
                 'trajectory_equal': read_json(a/'result.json')['trajectory_sha256'] == read_json(b/'result.json')['trajectory_sha256']})
@@ -88,18 +89,21 @@ def main():
     p.add_argument('--output', type=Path, default=Path('runs/reflexion-chat-forks-20261023'))
     p.add_argument('--trials', type=int, default=2)
     p.add_argument('--max-calls', type=int, default=3500)
+    p.add_argument('--parent-run',type=Path,required=True)
+    p.add_argument('--manifest',type=Path,required=True)
+    p.add_argument('--revision-kind',choices=['tool','model_profile'],default='model_profile')
     a = p.parse_args()
     if a.trials != 2 or a.max_calls <= 0:
         raise ValueError('Frozen two-attempt pilot budget required')
-    with run_lock(PHASE), run_lock(a.output):
-        contract = verify_contract(read_json(PHASE/'contract.json'))
+    with run_lock(PHASE.resolve()), run_lock(a.output):
+        contract,revision = verify_stage_revision(kind=a.revision_kind)
         preceding = ledger()
         if any(v['dispatched'] != v['responses'] for v in preceding.values()):
             raise ValueError('Resolve uncertain requests before forks')
-        pilot = read_json(PHASE/'pilot-summary.json')
+        pilot = read_json(a.parent_run/'summary.json')
         if pilot['completed_tasks'] != 24:
             raise ValueError('Complete parent pilot before its paired forks')
-        manifest = load_manifest(MANIFEST)
+        manifest = load_manifest(a.manifest)
         tasks = {t['task_id']: t for t in manifest['tasks']}
         registry = read_json(a.targets)
         if registry['sha256'] != digest({k: v for k, v in registry.items() if k != 'sha256'}):
@@ -108,7 +112,7 @@ def main():
             raise ValueError('Expected up to four evidence-qualified pilot tasks')
         if len({t['task_id'] for t in registry['targets']}) != len(registry['targets']):
             raise ValueError('One target per independent task')
-        upstream = read_json(PILOT/'run.json')['identity']
+        upstream = read_json(a.parent_run/'run.json')['identity']
         _, receipt = author_namespace()
         if upstream['source_hashes'] != provenance()['source_hashes'] or upstream['upstream'] != receipt:
             raise ValueError('Parent execution source changed')
@@ -119,13 +123,16 @@ def main():
             raise ValueError('Parent serving identity changed')
         prepared = []
         for target in registry['targets']:
-            directory = PILOT/'tasks'/target['task_id']/f"trial-{target['parent_trial']:02d}"
+            directory = a.parent_run/'tasks'/target['task_id']/f"trial-{target['parent_trial']:02d}"
             parent, branches = check_target(target, directory)
             prepared.append((target, parent, branches))
-        identity = {'targets_sha256': registry['sha256'], 'parent_run_sha256': file_hash(PILOT/'run.json'),
+        identity = {'targets_sha256': registry['sha256'], 'parent_run_sha256': file_hash(a.parent_run/'run.json'),
             'continuation_sha256': contract['sha256'], 'source_hashes': upstream['source_hashes'],
             'driver_sha256': file_hash(Path(__file__)), 'trials': a.trials, 'max_calls': a.max_calls,
+            'memory_intervention_driver_sha256': file_hash(Path('scripts/run_reflexion_forks.py')),
+            'summary_driver_sha256': file_hash(Path('scripts/summarize_reflexion.py')),
             'input_format': upstream['input_format'], 'wrapper_sha256': upstream['wrapper_sha256'], 'seed': upstream['seed']}
+        identity.update(tool_revision_sha256=revision['sha256'],decoding_profile=upstream['decoding_profile'])
         if (a.output/'run.json').exists():
             if read_json(a.output/'run.json')['identity'] != identity:
                 raise ValueError('Fork identity changed')
@@ -149,7 +156,7 @@ def main():
                     trial = target['parent_trial']+1+offset
                     result = run_attempt(tasks[target['task_id']], memory, trial,
                         root/'branches'/branch/f'trial-{trial:02d}', transport,
-                        Path('data/alfworld'), upstream['seed'], permitted, input_format=upstream['input_format'])
+                        Path('data/alfworld'), upstream['seed'], permitted, input_format=upstream['input_format'],decoding_profile=upstream['decoding_profile'])
                     if result['initial_observation_sha256'] != parent['initial_observation_sha256']:
                         raise ValueError('Fork initial observation differs from parent')
                     memory = result['memory_after']
@@ -157,7 +164,7 @@ def main():
                         'success': result['success'], 'decisions': result['decisions']}, flush=True)
                     if result['success']:
                         break
-                report = summarize_target(root, target, a.trials)
+                report = summarize_target(root, target, a.trials,a.parent_run)
                 write_json(root/'summary.json', report)
             reports.append(report)
             write_json(a.output/'summary.json', {'completed_targets': len(reports),

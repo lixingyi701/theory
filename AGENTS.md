@@ -5,7 +5,7 @@
 - Read `docs/IMPLEMENTATION_STATUS.md` and `docs/LINUX_RUNBOOK.md` before executing research jobs. The research protocol is under `docs/research/`.
 - This is a standalone agent-reliability project. Do not import unrelated QuRO/VECTOR code or results.
 - Preserve the distinction between code tests, real-environment replay checks, and LLM experiments. Never report fake-provider/backend outcomes as benchmark measurements.
-- The reference baseline executes fixed upstream ReAct functions through `reference-run`. The Reflexion research entry is `scripts/run_reflexion.py`, using verified upstream functions and a separately identified 8B completion service. Its boundary pilot is `scripts/run_reflexion_forks.py`; protocol and results are under `docs/experiments/reflexion-*-20261022.md`. Custom `run` / `react-run` paths require `--allow-legacy-agent` and are historical evidence only. The original R0-R3 matrix and task-length extrapolation remain future work.
+- The reference baseline executes fixed upstream ReAct functions through `reference-run`. Current Reflexion stages use `scripts/run_reflexion_tool_stage.py`, the finite controller `scripts/continue_reflexion_normalization.py`, and paired `scripts/run_reflexion_pilot_forks.py`, with pinned author functions and explicit 8B serving/decoding identities. Read `docs/experiments/interface-normalization-20261023.md` and the Reflexion protocol/results. The dated raw `run_reflexion.py` / `run_reflexion_forks.py` entries preserve earlier runs. Custom `run` / `react-run` paths require `--allow-legacy-agent` and are historical evidence only. Mechanism calibration, the original R0-R3 matrix and task-length extrapolation remain future work.
 - Execute research on the server: project, runner, data, model, journals and evaluator are server-local. Keep the workstation as a source/control client; do not recreate a local experiment environment by default. Read `docs/experiments/reference-alignment-20261022.md` first.
 
 ## Running work
@@ -17,6 +17,8 @@
 - Keep manifests immutable. Same base task, scene, seeds and future intervention branches must remain in the same data partition.
 - No automatic network retry of an uncertain model request. Inspect the saved request and use `--retry-uncertain` only when the extra dispatch is intended; count it in costs.
 - Keep success, environment failure, agent format failure, budget exhaustion and infrastructure errors distinct.
+- Apply the frozen model/tool contract in `configs/reflexion_qwen3_8b_protocol.json`. One optional action-line marker and `put X in/on Y` / `in Y` / `on Y` are representation aliases; preserve chosen objects, targets and indices. Keep raw responses, decoded actions and submitted commands. Do not guess semantic repairs from environment facts.
+- Record the decoding profile explicitly. Author retry-temperature decoding and Qwen recommended non-thinking sampling are separate configurations. New serving responses include effective sampling values; audit them with `scripts/audit_reflexion_protocol.py` before freezing a research interface.
 
 ## Code and data
 

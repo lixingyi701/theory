@@ -9,7 +9,7 @@ import sys
 from pathlib import Path
 from .io import digest, file_hash, read_json, seed_for, write_json
 from .llm import CallJournal, InfrastructureError
-from .reference import RecordedBatchEnvironment, official_environment
+from .reference import ACTION_ALIAS_PROFILE, RecordedBatchEnvironment, official_environment
 
 COMMIT='218cf0ef1df84b05ce379dd4a8e47f17766733a0'
 ROOT=Path('third_party/reflexion')
@@ -45,10 +45,11 @@ class LoggedEnvironment(RecordedBatchEnvironment):
         return value
 
 class CompletionIO:
-    def __init__(self,journal,task,trial,seed,events,allowance,input_format='raw'):
+    def __init__(self,journal,task,trial,seed,events,allowance,input_format='raw',decoding_profile='author_reflexion'):
         self.journal,self.task,self.trial,self.seed,self.events,self.allowance=journal,task,trial,seed,events,allowance
         self.index=0;self.role='actor'
         self.input_format=input_format
+        self.decoding_profile=decoding_profile
     def __call__(self,prompt,temperature=0.,max_tokens=256,stop_strs=None):
         logical=f'{self.role}-{self.index:04d}'
         if self.input_format in {'qwen3_non_thinking','qwen3_non_thinking_actionline'}:
@@ -58,6 +59,12 @@ class CompletionIO:
         payload={'model':'qwen3-8b','prompt':prompt,'temperature':temperature,'top_p':1,'max_tokens':max_tokens,
                  'frequency_penalty':0.,'presence_penalty':0.,'stop':stop_strs,
                  'seed':seed_for(self.task['task_id'],self.seed,self.trial,self.index,self.role)}
+        if self.decoding_profile=='qwen3_non_thinking_recommended_v1':
+            config=read_json(Path('configs/reflexion_qwen3_8b_protocol.json'))
+            payload.update(config['official_non_thinking_recommendation'])
+            payload['sampling_profile']=self.decoding_profile
+            payload['stop_token_ids']=config['model_eos_token_ids']
+        elif self.decoding_profile!='author_reflexion': raise ValueError('Unknown decoding profile')
         if not (self.journal.directory/logical/'response.json').exists(): self.allowance()
         saved=self.journal.complete(logical,payload);choice=saved['response']['choices'][0]
         text=choice['text']
@@ -68,15 +75,20 @@ class CompletionIO:
         write_json(self.journal.directory/logical/'validation.json',{'valid':bool(text.strip()),
             'truncated_output':choice.get('finish_reason')=='length','finish_reason':choice.get('finish_reason'),
             'decoder':'one_leading_action_marker' if decoded!=text else 'identity',
-            'decoded_sha256':digest(decoded)})
+            'decoded_sha256':digest(decoded),'decoding_profile':self.decoding_profile,
+            'author_requested_temperature':temperature})
         self.events.add('model-call',role=self.role,index=self.index,payload_sha256=digest(payload),temperature=temperature)
         self.index+=1
         return decoded
 
-def run_attempt(task,memory,trial,directory,transport,data_root,seed,allowance,reflect=True,input_format='raw'):
+def run_attempt(task,memory,trial,directory,transport,data_root,seed,allowance,reflect=True,input_format='raw',decoding_profile='author_reflexion'):
     ns,receipt=author_namespace()
     identity={'task':task,'memory':memory,'trial':trial,'seed':seed,'upstream':receipt,
-              'profile':'upstream_reflexion_raw_serial_v1','input_format':input_format}
+              'profile':'pinned_reflexion_completion_adapter_v2','input_format':input_format,
+              'environment_action_alias':ACTION_ALIAS_PROFILE}
+    identity['decoding_profile']=decoding_profile
+    if decoding_profile!='author_reflexion':
+        identity['decoding_config_sha256']=file_hash(Path('configs/reflexion_qwen3_8b_protocol.json'))
     if input_format in {'qwen3_non_thinking','qwen3_non_thinking_actionline'}:
         identity['wrapper_sha256']=file_hash(Path('configs/qwen3_8b_non_thinking_wrapper.json'))
     identity['sha256']=digest(identity)
@@ -89,7 +101,7 @@ def run_attempt(task,memory,trial,directory,transport,data_root,seed,allowance,r
     # on resume. Each replay segment is explicitly identified.
     events=Events(directory/'events.jsonl');events.add('execution-segment',replay=checkpoint is not None)
     journal=CallJournal(directory/'calls',transport,295)
-    io=CompletionIO(journal,task,trial,seed,events,allowance,input_format)
+    io=CompletionIO(journal,task,trial,seed,events,allowance,input_format,decoding_profile)
     ns['get_completion']=io
     def no_chat(**kwargs): raise ValueError('This protocol selects the author completion pathway')
     ns['get_chat']=no_chat

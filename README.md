@@ -16,7 +16,7 @@
 
 ## 已有基础
 
-固定作者 ReAct＋Qwen3-8B 在开发集成功 7/12，作为工程参照。当前 Reflexion 使用固定 Qwen 非思考模板和动作行解码，最多三次尝试成功 8/12、覆盖六类；24 个新场景的 pilot 正在继续。两套任务清单的恢复审计与官方环境对照均通过 10 任务／40 检查。见[Reflexion 实测记录](docs/experiments/reflexion-results-20261022.md)。
+固定作者 ReAct＋Qwen3-8B 在开发集成功 7/12，作为工程参照。Reflexion 已统一 Qwen 非思考模板、动作行和公开放置语法；保持采样不变，dev12 三次内成功从 8/12 提高到 10/12。旧接口的 24 任务 pilot 已完成，成功 14 个。当前正在比较两套采样配置并进行逐请求接口审计，见[接口规范化](docs/experiments/interface-normalization-20261023.md)和[实测记录](docs/experiments/reflexion-results-20261022.md)。
 
 代码提供任务清单、环境审计、作者 ReAct／Reflexion 执行入口、持久请求日志与中断续跑。Reflexion 已完成首组真实五分支 pilot；[实验记录](docs/experiments/reflexion-results-20261022.md)包含结果和下一步调整。[运行协议](docs/experiments/reflexion-protocol-20261022.md)说明作者配置、干预与预算，机制校准和冻结验证将依据独立任务的事件覆盖继续推进。
 

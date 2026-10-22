@@ -77,10 +77,14 @@ def candidate(task):
 
 
 def main():
+    global PILOT,MANIFEST
     p = argparse.ArgumentParser()
+    p.add_argument('--parent-run',type=Path,default=PILOT)
+    p.add_argument('--manifest',type=Path,default=MANIFEST)
     p.add_argument('--output', type=Path, required=True)
     p.add_argument('--freeze', action='store_true')
     a = p.parse_args()
+    PILOT,MANIFEST=a.parent_run,a.manifest
     if a.output.exists() and (a.freeze or read_json(a.output)['frozen_unix'] is not None):
         raise FileExistsError('Target registries are immutable')
     manifest = load_manifest(MANIFEST)
@@ -93,6 +97,7 @@ def main():
             target['sha256'] = digest(target)
             targets.append(target)
     registry = {'manifest_sha256': manifest['sha256'], 'selection_rule': RULE,
+        'selector_sha256': file_hash(Path(__file__)),
         'frozen_unix': time.time() if a.freeze else None, 'coverage': coverage, 'targets': targets}
     if a.freeze and any(r['status'] == 'first_attempt_pending' for r in coverage):
         raise ValueError('Finish first-attempt cohort coverage before freezing')

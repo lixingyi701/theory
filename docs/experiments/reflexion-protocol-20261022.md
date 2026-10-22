@@ -2,6 +2,8 @@
 
 更新：2026-10-23。沿用 main 确定的研究问题，先完成原生反思的开发能力检查，再运行同状态分叉 pilot。正式校准和封存验证依赖这一阶段的事件覆盖与方差。
 
+当前工程入口采用[接口规范化](interface-normalization-20261023.md)中的模型与工具契约。旧工具接口的 24 任务 pilot 已完成；语法重放解释了六条失败命令，随后在同采样下将 dev12 从 8/12 提高到 10/12。原目标绑定四例保留为预览，新的分叉从修复后的任务前缀选取。
+
 ## 方法与接口
 
 上游为 noahshinn/reflexion，固定提交 `218cf0ef1df84b05ce379dd4a8e47f17766733a0`。原始源码与 MIT 许可保存在 `third_party/reflexion/`，receipt 保存逐文件 SHA256。适配器从这些文件编译作者的 actor、EnvironmentHistory、反思 query 和 update_memory，替换模型与环境 I/O。
@@ -68,7 +70,10 @@ python scripts/continue_reflexion_pilot.py --initialize --additional-calls 6000 
 # 同一接续合同再次恢复时去掉 --initialize。
 python scripts/prepare_reflexion_goal_targets.py --output runs/reflexion-continuation-20261023/target-preview.json
 # 核对公开任务和目标句后，使用新路径加 --freeze 固定目标，再运行：
-python scripts/run_reflexion_pilot_forks.py --targets repro/reflexion-20261023/goal-targets.json
+python scripts/run_reflexion_pilot_forks.py \
+  --parent-run runs/reflexion-normalized-prefix24-20261023 \
+  --manifest repro/reflexion-20261023/pilot-prefix24-v2.json \
+  --targets repro/reflexion-20261023/goal-targets.json --revision-kind model_profile
 ```
 
-模型服务使用 GPU 环境的 `scripts/deployment/serve_reflexion.py --model-dir models/Qwen3-8B`。环境审计文件与数据位于同一服务器，脚本默认检查本批次固定路径。原始请求留在 `runs/`，脱敏汇总进入 `repro/`。
+初始 raw 服务由 `serve_reflexion.py` 保存；当前 GPU 服务使用 `scripts/deployment/serve_reflexion_profiles.py --model-dir models/Qwen3-8B`，分别实现作者解码与 Qwen 推荐非思考采样。`run_reflexion_tool_stage.py` 检查模型／环境报告与整个接续额度，`continue_reflexion_normalization.py` 接续配置比较、工程冻结和新前缀采样。环境审计文件与数据位于同一服务器。原始请求留在 `runs/`，脱敏汇总进入 `repro/`。
