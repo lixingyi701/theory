@@ -68,7 +68,8 @@ def replay_probe(task, parent, candidate):
         'checkpoint_sha256': file_hash(checkpoint), 'candidate': candidate, 'rows': rows,
         'holding_precondition_supported': all(outcomes[k] for k in ['held_open', 'held_closed', 'retrieve_then_macro'])
             and not any(outcomes[k] for k in ['placed_open', 'placed_closed']),
-        'environment_steps': sum(r['prefix_verified_steps']+len(r['suffix']) for r in rows), 'model_calls': 0}
+        'environment_steps': sum(r['prefix_verified_steps']+len(r['suffix']) for r in rows), 'model_calls': 0,
+        'probe_driver_sha256': file_hash(Path(__file__))}
     report['sha256'] = digest(report)
     return report
 

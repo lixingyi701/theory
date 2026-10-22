@@ -7,9 +7,45 @@ from unittest.mock import patch
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]/'scripts'))
 from reflexion_campaign import permit
 from run_reflexion_precondition_forks import memories
+from analyze_reflexion_precondition_forks import procedure_events
+from prepare_reflexion_precondition_targets import native_advice_spans
 
 
 class CampaignTests(unittest.TestCase):
+    def test_native_advice_is_distinct_from_history_or_negated_advice(self):
+        wrong = 'After retrieving the cup, I should have placed it in the microwave, closed it, and used the heat command.'
+        self.assertEqual(len(native_advice_spans(wrong, 'microwave')), 1)
+        state_requirement = 'I should have first confirmed that the egg was in the microwave, then attempted to heat it.'
+        self.assertEqual(len(native_advice_spans(state_requirement, 'microwave')), 1)
+        abbreviated = 'I should have first confirmed the command format (e.g., "heat egg 1 in microwave 1") and ensured the egg was properly placed inside the microwave before heating.'
+        proposals = native_advice_spans(abbreviated, 'microwave')
+        self.assertTrue(any(p['text'].startswith('ensured') for p in proposals))
+        for proposal in proposals:
+            self.assertEqual(abbreviated[slice(*proposal['span'])], proposal['text'])
+        for text in ['I placed the cup in the microwave and the command failed.',
+                     'I should not place the cup in the microwave before heating.',
+                     'I should have confirmed that the egg was not in the microwave before heating.',
+                     'I should keep holding the cup rather than place it in the microwave.']:
+            self.assertEqual(native_advice_spans(text, 'microwave'), [])
+
+    def test_accepted_placement_and_retrieval_change_macro_state(self):
+        steps = [
+            {'action': 'take cup 1 from countertop 2', 'observation': 'You pick up the cup 1 from the countertop 2.'},
+            {'action': 'put cup 1 in microwave 1', 'observation': 'You move the cup 1 to the microwave 1.'},
+            {'action': 'heat cup 1 with microwave 1', 'observation': 'Nothing happens.'},
+            {'action': 'take cup 1 from microwave 1', 'observation': 'You pick up the cup 1 from the microwave 1.'},
+            {'action': 'close microwave 1', 'observation': 'You close the microwave 1.'},
+            {'action': 'put cup 1 in microwave 1', 'observation': 'Nothing happens.'},
+            {'action': 'heat cup 1 with microwave 1', 'observation': 'You heat the cup 1 using the microwave 1.'},
+            {'action': 'heat apple 1 with microwave 1', 'observation': 'Nothing happens.'},
+        ]
+        events = procedure_events(steps, 'cup', 'heat', 'microwave 1')
+        self.assertEqual([e['index'] for e in events['wrong_precondition_chains']], [2])
+        self.assertEqual([e['index'] for e in events['held_successful_target_macros']], [6])
+        self.assertEqual(events['held_successful_target_macros'][0]['preceding_rejected_placement_index'], 5)
+        self.assertEqual([e['accepted'] for e in events['target_device_placement_attempts']], [True, False])
+        self.assertEqual([e['index'] for e in events['competing_macros']], [7])
+
     def test_native_error_repair_preserves_non_target_text_and_controls(self):
         text = 'Plan: I should have placed it in the microwave, closed it, and used the heat command. Keep the final goal.'
         fragment = 'placed it in the microwave'; start = text.index(fragment)
