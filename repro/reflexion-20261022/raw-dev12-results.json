@@ -1,0 +1,229 @@
+{
+  "attempts_completed": 78,
+  "completed_tasks": 12,
+  "costs": {
+    "dispatched_calls": 3286,
+    "input_tokens_known": 10024064,
+    "output_tokens_known": 84876,
+    "saved_responses": 3286,
+    "truncated_responses": 76,
+    "uncertain_or_unrecorded_attempts": 0,
+    "usage_missing_responses": 0
+  },
+  "expected_tasks": 12,
+  "first_attempt_successes": 3,
+  "forks": {
+    "completed_branches": 5,
+    "costs": {
+      "dispatched_calls": 500,
+      "input_tokens_known": 1457543,
+      "output_tokens_known": 9375,
+      "saved_responses": 500,
+      "truncated_responses": 10,
+      "uncertain_or_unrecorded_attempts": 0,
+      "usage_missing_responses": 0
+    },
+    "expected_branches": 5,
+    "fresh_input_controls": {
+      "correct_target": {
+        "original_calls": 50,
+        "other_calls": 50,
+        "same_complete_payload_sequence": true
+      },
+      "sham": {
+        "original_calls": 50,
+        "other_calls": 50,
+        "same_complete_payload_sequence": true
+      }
+    },
+    "matched_initial_observation_sha256": "150a1b6e470325427e849341fba35da7d9cd343b8eb5f3d2c9354746d4f47df3",
+    "rows": [
+      {
+        "attempts": 2,
+        "branch": "original",
+        "calls": 100,
+        "decisions": 98,
+        "input_tokens": 296752,
+        "output_tokens": 1858,
+        "success": false
+      },
+      {
+        "attempts": 2,
+        "branch": "sham",
+        "calls": 100,
+        "decisions": 98,
+        "input_tokens": 296752,
+        "output_tokens": 1858,
+        "success": false
+      },
+      {
+        "attempts": 2,
+        "branch": "retain_error",
+        "calls": 100,
+        "decisions": 98,
+        "input_tokens": 299233,
+        "output_tokens": 1979,
+        "success": false
+      },
+      {
+        "attempts": 2,
+        "branch": "correct_target",
+        "calls": 100,
+        "decisions": 98,
+        "input_tokens": 296752,
+        "output_tokens": 1858,
+        "success": false
+      },
+      {
+        "attempts": 2,
+        "branch": "discard_new",
+        "calls": 100,
+        "decisions": 98,
+        "input_tokens": 268054,
+        "output_tokens": 1822,
+        "success": false
+      }
+    ],
+    "target_sha256": "ecefcc6c5ac2ab25ede05517267ceba08bc4df869c772eb31a6475e536ca8341",
+    "task_id": "1bcfccd955e18c46"
+  },
+  "missing_tasks": 0,
+  "reflections": 73,
+  "scope": "development; pinned author functions with Qwen3-8B raw-completion substitution",
+  "sha256": "a352cfe669479c7fadcfb7692834aa7a8f4b883fa0cb6b5cf533521652759a2b",
+  "successes": 5,
+  "tasks": [
+    {
+      "attempts": 1,
+      "completed": true,
+      "decisions": 10,
+      "first_attempt_success": true,
+      "reflections": 0,
+      "scene_id": "FloorPlan420",
+      "success": true,
+      "task_id": "650aae4563b0cee5",
+      "task_type": "pick_and_place_simple"
+    },
+    {
+      "attempts": 1,
+      "completed": true,
+      "decisions": 11,
+      "first_attempt_success": true,
+      "reflections": 0,
+      "scene_id": "FloorPlan309",
+      "success": true,
+      "task_id": "ec35b3ffe3eb225f",
+      "task_type": "look_at_obj_in_light"
+    },
+    {
+      "attempts": 10,
+      "completed": true,
+      "decisions": 490,
+      "first_attempt_success": false,
+      "reflections": 10,
+      "scene_id": "FloorPlan18",
+      "success": false,
+      "task_id": "1bcfccd955e18c46",
+      "task_type": "pick_clean_then_place_in_recep"
+    },
+    {
+      "attempts": 2,
+      "completed": true,
+      "decisions": 28,
+      "first_attempt_success": false,
+      "reflections": 1,
+      "scene_id": "FloorPlan24",
+      "success": true,
+      "task_id": "e095d710ddd8215b",
+      "task_type": "pick_heat_then_place_in_recep"
+    },
+    {
+      "attempts": 10,
+      "completed": true,
+      "decisions": 315,
+      "first_attempt_success": false,
+      "reflections": 10,
+      "scene_id": "FloorPlan27",
+      "success": false,
+      "task_id": "17182b8479c3841e",
+      "task_type": "pick_cool_then_place_in_recep"
+    },
+    {
+      "attempts": 10,
+      "completed": true,
+      "decisions": 356,
+      "first_attempt_success": false,
+      "reflections": 10,
+      "scene_id": "FloorPlan422",
+      "success": false,
+      "task_id": "cc1968875627432d",
+      "task_type": "pick_two_obj_and_place"
+    },
+    {
+      "attempts": 3,
+      "completed": true,
+      "decisions": 115,
+      "first_attempt_success": false,
+      "reflections": 2,
+      "scene_id": "FloorPlan220",
+      "success": true,
+      "task_id": "1795adb8d8245920",
+      "task_type": "pick_and_place_simple"
+    },
+    {
+      "attempts": 1,
+      "completed": true,
+      "decisions": 23,
+      "first_attempt_success": true,
+      "reflections": 0,
+      "scene_id": "FloorPlan306",
+      "success": true,
+      "task_id": "5c4e70364016dc80",
+      "task_type": "look_at_obj_in_light"
+    },
+    {
+      "attempts": 10,
+      "completed": true,
+      "decisions": 490,
+      "first_attempt_success": false,
+      "reflections": 10,
+      "scene_id": "FloorPlan13",
+      "success": false,
+      "task_id": "884c6c61e405ce41",
+      "task_type": "pick_clean_then_place_in_recep"
+    },
+    {
+      "attempts": 10,
+      "completed": true,
+      "decisions": 418,
+      "first_attempt_success": false,
+      "reflections": 10,
+      "scene_id": "FloorPlan3",
+      "success": false,
+      "task_id": "181a4c810cec8a32",
+      "task_type": "pick_heat_then_place_in_recep"
+    },
+    {
+      "attempts": 10,
+      "completed": true,
+      "decisions": 490,
+      "first_attempt_success": false,
+      "reflections": 10,
+      "scene_id": "FloorPlan20",
+      "success": false,
+      "task_id": "7372497ea627881b",
+      "task_type": "pick_cool_then_place_in_recep"
+    },
+    {
+      "attempts": 10,
+      "completed": true,
+      "decisions": 459,
+      "first_attempt_success": false,
+      "reflections": 10,
+      "scene_id": "FloorPlan213",
+      "success": false,
+      "task_id": "cbe928f06477cf6e",
+      "task_type": "pick_two_obj_and_place"
+    }
+  ]
+}

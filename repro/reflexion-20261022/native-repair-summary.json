@@ -1,0 +1,34 @@
+{
+  "completed_branches": 2,
+  "expected_branches": 2,
+  "parent_result_sha256": "acf92dcda8b783501a713de81030364a61fa2a24a9895e0b7dc19943bdb1f828",
+  "rows": [
+    {
+      "attempts": 2,
+      "branch": "retain_native",
+      "decisions": 82,
+      "dispatched_calls": 84,
+      "input_tokens": 236663,
+      "invalid_put_actions_by_attempt": [
+        1,
+        1
+      ],
+      "output_tokens": 2313,
+      "success": false
+    },
+    {
+      "attempts": 2,
+      "branch": "repair_supported",
+      "decisions": 45,
+      "dispatched_calls": 47,
+      "input_tokens": 118751,
+      "invalid_put_actions_by_attempt": [
+        0,
+        0
+      ],
+      "output_tokens": 2727,
+      "success": false
+    }
+  ],
+  "scope": "selected development diagnostic; not a prospective population-effect estimate"
+}

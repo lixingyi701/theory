@@ -45,11 +45,16 @@ class LoggedEnvironment(RecordedBatchEnvironment):
         return value
 
 class CompletionIO:
-    def __init__(self,journal,task,trial,seed,events,allowance):
+    def __init__(self,journal,task,trial,seed,events,allowance,input_format='raw'):
         self.journal,self.task,self.trial,self.seed,self.events,self.allowance=journal,task,trial,seed,events,allowance
         self.index=0;self.role='actor'
+        self.input_format=input_format
     def __call__(self,prompt,temperature=0.,max_tokens=256,stop_strs=None):
         logical=f'{self.role}-{self.index:04d}'
+        if self.input_format=='qwen3_non_thinking':
+            wrapper=read_json(Path('configs/qwen3_8b_non_thinking_wrapper.json'))
+            prompt=wrapper['prefix']+prompt+wrapper['suffix']
+        elif self.input_format!='raw': raise ValueError('Unknown input format')
         payload={'model':'qwen3-8b','prompt':prompt,'temperature':temperature,'top_p':1,'max_tokens':max_tokens,
                  'frequency_penalty':0.,'presence_penalty':0.,'stop':stop_strs,
                  'seed':seed_for(self.task['task_id'],self.seed,self.trial,self.index,self.role)}
@@ -63,9 +68,12 @@ class CompletionIO:
         self.index+=1
         return text
 
-def run_attempt(task,memory,trial,directory,transport,data_root,seed,allowance,reflect=True):
+def run_attempt(task,memory,trial,directory,transport,data_root,seed,allowance,reflect=True,input_format='raw'):
     ns,receipt=author_namespace()
-    identity={'task':task,'memory':memory,'trial':trial,'seed':seed,'upstream':receipt,'profile':'upstream_reflexion_raw_serial_v1'}
+    identity={'task':task,'memory':memory,'trial':trial,'seed':seed,'upstream':receipt,
+              'profile':'upstream_reflexion_raw_serial_v1','input_format':input_format}
+    if input_format=='qwen3_non_thinking':
+        identity['wrapper_sha256']=file_hash(Path('configs/qwen3_8b_non_thinking_wrapper.json'))
     identity['sha256']=digest(identity)
     if (directory/'identity.json').exists():
         if read_json(directory/'identity.json')!=identity: raise ValueError('Attempt identity changed')
@@ -76,7 +84,7 @@ def run_attempt(task,memory,trial,directory,transport,data_root,seed,allowance,r
     # on resume. Each replay segment is explicitly identified.
     events=Events(directory/'events.jsonl');events.add('execution-segment',replay=checkpoint is not None)
     journal=CallJournal(directory/'calls',transport,295)
-    io=CompletionIO(journal,task,trial,seed,events,allowance)
+    io=CompletionIO(journal,task,trial,seed,events,allowance,input_format)
     ns['get_completion']=io
     def no_chat(**kwargs): raise ValueError('This protocol selects the author completion pathway')
     ns['get_chat']=no_chat

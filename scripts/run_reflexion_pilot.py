@@ -16,8 +16,12 @@ def main():
     p.add_argument('--data-root',type=Path,default=Path('data/alfworld'))
     p.add_argument('--trials',type=int,default=3);p.add_argument('--max-calls',type=int,default=2000)
     p.add_argument('--max-seconds',type=int,default=3600);p.add_argument('--stop-after-tasks',type=int)
+    p.add_argument('--capability-run',type=Path,default=Path('runs/reflexion-dev12-20261022'))
+    p.add_argument('--input-format',choices=['raw','qwen3_non_thinking'],default='raw')
     a=p.parse_args();start=time.monotonic();manifest=load_manifest(a.manifest)
-    dev=Path('runs/reflexion-dev12-20261022');forks=Path('runs/reflexion-forks-20261022')
+    dev=a.capability_run;forks=Path('runs/reflexion-forks-20261022')
+    origin=Path('runs/reflexion-dev12-20261022')
+    preceding=[p for p in Path('runs').glob('reflexion-*') if p.is_dir() and p.resolve()!=a.output.resolve()]
     prior=read_json(dev/'summary.json')
     dev_manifest=load_manifest(Path('repro/baseline-20261019/dev12.json'))
     successful={r['task_id'] for r in prior['rows'] if r['success']}
@@ -26,14 +30,14 @@ def main():
         raise ValueError('Complete dev12 capability gate before new pilot')
     control=read_json(forks/'summary.json')
     if control['completed_branches']!=5: raise ValueError('Complete boundary pilot first')
-    for root in [dev,forks]:
+    for root in preceding:
         if len(list(root.glob('**/calls/*/attempt-*.request.json')))!=len(list(root.glob('**/calls/*/response.json'))):
             raise ValueError('Resolve preceding requests before new pilot')
-    consumed=sum(len(list(root.glob('**/calls/*/attempt-*.request.json'))) for root in [dev,forks])
+    consumed=sum(len(list(root.glob('**/calls/*/attempt-*.request.json'))) for root in preceding)
     if consumed+a.max_calls>5200: raise ValueError('Whole campaign call allowance exceeded')
-    remaining=7200-(time.time()-read_json(dev/'run.json')['created_unix'])
+    remaining=7200-(time.time()-read_json(origin/'run.json')['created_unix'])
     if remaining<=0: raise ValueError('Whole campaign time allowance exhausted')
-    campaign_deadline=read_json(dev/'run.json')['created_unix']+7200
+    campaign_deadline=read_json(origin/'run.json')['created_unix']+7200
     if a.manifest.name!='pilot24.json': raise ValueError('Development entry: holdout use requires a frozen protocol')
     audit=read_json(Path('runs/audit/reflexion-pilot24-direct-20261022.json'));verify_audit(audit,manifest)
     equivalent=read_json(Path('runs/audit/reflexion-pilot24-official-20261022.json'));current=provenance()
@@ -51,6 +55,8 @@ def main():
               'prior_dispatched_calls':consumed,'campaign_max_calls':5200,
               'seed':42,'serving':health,'upstream':upstream,
               'source_hashes':current['source_hashes'],'driver_sha256':file_hash(Path(__file__)),
+              'input_format':a.input_format,
+              'wrapper_sha256':file_hash(Path('configs/qwen3_8b_non_thinking_wrapper.json')) if a.input_format!='raw' else None,
               'audit_sha256':audit['sha256'],'environment_audit_sha256':equivalent['sha256']}
     if (a.output/'run.json').exists():
         if read_json(a.output/'run.json')['identity']!=identity: raise ValueError('Run identity changed')
@@ -64,7 +70,7 @@ def main():
     for i,task in enumerate(manifest['tasks']):
         memory=[];attempts=[]
         for trial in range(a.trials):
-            result=run_attempt(task,memory,trial,a.output/'tasks'/task['task_id']/f'trial-{trial:02d}',transport,a.data_root,42,allowance)
+            result=run_attempt(task,memory,trial,a.output/'tasks'/task['task_id']/f'trial-{trial:02d}',transport,a.data_root,42,allowance,input_format=a.input_format)
             memory=result['memory_after'];attempts.append(result)
             print({k:result[k] for k in ['task_id','trial','success','decisions','dispatched_calls']},flush=True)
             if result['success']: break
