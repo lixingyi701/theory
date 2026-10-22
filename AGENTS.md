@@ -19,6 +19,7 @@
 - Keep success, environment failure, agent format failure, budget exhaustion and infrastructure errors distinct.
 - Apply the frozen model/tool contract in `configs/reflexion_qwen3_8b_protocol.json`. One optional action-line marker and `put X in/on Y` / `in Y` / `on Y` are representation aliases; preserve chosen objects, targets and indices. Keep raw responses, decoded actions and submitted commands. Do not guess semantic repairs from environment facts.
 - Record the decoding profile explicitly. Author retry-temperature decoding and Qwen recommended non-thinking sampling are separate configurations. New serving responses include effective sampling values; audit them with `scripts/audit_reflexion_protocol.py` before freezing a research interface.
+- Audit executed output shapes separately with `scripts/audit_reflexion_action_shapes.py`. A passing wiring audit does not establish that every model action is valid. Keep observation sentences, unmatched command forms, and no-effect commands separate; a recognized command shape does not establish correct entities or satisfied preconditions. Never turn an observation sentence into a guessed action.
 
 ## Code and data
 

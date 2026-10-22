@@ -9,7 +9,7 @@ from summarize_reflexion import costs
 
 
 def object_type(goal):
-    match = re.match(r'(?:put|heat|clean|cool|find) (?:some |a |an )?(?:hot |cool |clean )?([a-z]+)\b', goal)
+    match = re.match(r'(?:put|heat|clean|cool|find) (?:some |a |an |two )?(?:hot |cool |clean )?([a-z]+)\b', goal)
     if not match:
         raise ValueError('Unsupported public task grammar')
     return match.group(1)

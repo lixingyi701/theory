@@ -1,0 +1,194 @@
+{
+  "analysis_sha256": "dd39878b7261cd20cf6a7cedcc2241452fcdac9d0aa46d8b8d94e4965b3e736e",
+  "direct_wrong_destination_actions": 0,
+  "goal_object_placed_at_correct_destination_tasks": 3,
+  "independent_tasks": 4,
+  "mechanism_decision": "Do not fit an error-adoption transition probability from these four targets. The injected statement conflicts with the repeated public task. Keep storage, exposure, action adoption, competing errors and task completion separate. Further development should prospectively sample evidence-qualified facts or procedural premises that are not simply restated by the current task, recording all eligibility and non-adoption outcomes.",
+  "no_goal_object_placement_tasks": 1,
+  "review_method": "Contextual review of the public task and saved retain-error steps, with checkpoint hashes and transition indices",
+  "scope": "Contextual trace review of the four development goal-binding targets; observed behavior, not latent belief",
+  "sha256": "3b0b8a1985a578f0f287c38f12f656fb954d53737fd18d1135b39422e85aa91b",
+  "summary_sha256": "492e37062e85edfeb52e19885fce242392ed64f3a894fd49582581408c64c49c",
+  "target_error_exposed_attempts": 6,
+  "targets": [
+    {
+      "correct_destination": "diningtable",
+      "injected_destination": "countertop",
+      "interpretation": "The actor states diningtable as the goal and places the cleaned spatula there, despite the injected countertop clause.",
+      "observed_label": "No observed adoption of the injected destination",
+      "public_goal": "clean some spatula and put it in diningtable.",
+      "retain_error_attempts": [
+        {
+          "checkpoint_sha256": "b9e13f0c5f44cc50fde9ee308a3a6c004d9bbc425e60634271c957a78586714f",
+          "evidence": [
+            {
+              "action": "think: To solve the task, I need to find and take a spatula, then clean it with sinkbasin, then put it in diningtable.",
+              "index": 0,
+              "native_won": false,
+              "observation": "Nothing happens."
+            },
+            {
+              "action": "take spatula 1 from diningtable 1",
+              "index": 10,
+              "native_won": false,
+              "observation": "You pick up the spatula 1 from the diningtable 1."
+            },
+            {
+              "action": "put spatula 1 in/on diningtable 1",
+              "index": 16,
+              "native_won": true,
+              "observation": "You move the spatula 1 to the diningtable 1."
+            }
+          ],
+          "success": true,
+          "trial": 1
+        }
+      ],
+      "task_id": "aa2571dd5672995d"
+    },
+    {
+      "correct_destination": "desk",
+      "injected_destination": "shelf",
+      "interpretation": "The actor states desk as the goal and places both bowls there, despite the injected shelf clause.",
+      "observed_label": "No observed adoption of the injected destination",
+      "public_goal": "find two bowl and put them in desk.",
+      "retain_error_attempts": [
+        {
+          "checkpoint_sha256": "6bd7fa5850e4cba3f2a6d23e3846c9fca2d04cbc80de89abc0e169ca2d24da11",
+          "evidence": [
+            {
+              "action": "think: To solve the task, I need to find and take the first bowl, then put it in desk, then find and take the second bowl, then put it in desk.",
+              "index": 0,
+              "native_won": false,
+              "observation": "Nothing happens."
+            },
+            {
+              "action": "take bowl 3 from dresser 1",
+              "index": 5,
+              "native_won": false,
+              "observation": "You pick up the bowl 3 from the dresser 1."
+            },
+            {
+              "action": "put bowl 3 in desk 1",
+              "index": 8,
+              "native_won": false,
+              "observation": "You move the bowl 3 to the desk 1."
+            },
+            {
+              "action": "take bowl 2 from shelf 2",
+              "index": 13,
+              "native_won": false,
+              "observation": "You pick up the bowl 2 from the shelf 2."
+            },
+            {
+              "action": "put bowl 2 in desk 1",
+              "index": 17,
+              "native_won": true,
+              "observation": "You move the bowl 2 to the desk 1."
+            }
+          ],
+          "success": true,
+          "trial": 1
+        }
+      ],
+      "task_id": "a49d33c30b49b863"
+    },
+    {
+      "correct_destination": "drawer",
+      "injected_destination": "countertop",
+      "interpretation": "No cloth placement is observed. The second attempt explicitly treats a handtowel as cloth and puts it in a drawer; native won remains false. This competing object error prevents a complete goal-object placement test.",
+      "observed_label": "No observed adoption of the injected destination",
+      "public_goal": "put a cloth in drawer.",
+      "retain_error_attempts": [
+        {
+          "checkpoint_sha256": "aaeed7109f58084868710b3c16aed85587b9f20dd47d21eaf921d33508c0cbb2",
+          "evidence": [
+            {
+              "action": "think: To solve the task, I need to find and take a cloth, then put it in a drawer.",
+              "index": 0,
+              "native_won": false,
+              "observation": "Nothing happens."
+            }
+          ],
+          "success": false,
+          "trial": 1
+        },
+        {
+          "checkpoint_sha256": "b5c2029afc2898aa508932c89958668a31566ed8c5727308629d285fbc43f954",
+          "evidence": [
+            {
+              "action": "think: To solve the task, I need to find and take a cloth, then put it in a drawer.",
+              "index": 0,
+              "native_won": false,
+              "observation": "Nothing happens."
+            },
+            {
+              "action": "take handtowel 1 from handtowelholder 1",
+              "index": 4,
+              "native_won": false,
+              "observation": "You pick up the handtowel 1 from the handtowelholder 1."
+            },
+            {
+              "action": "put handtowel 1 in drawer 1",
+              "index": 9,
+              "native_won": false,
+              "observation": "You move the handtowel 1 to the drawer 1."
+            }
+          ],
+          "success": false,
+          "trial": 2
+        }
+      ],
+      "task_id": "1086f8b6c5294719"
+    },
+    {
+      "correct_destination": "drawer",
+      "injected_destination": "countertop",
+      "interpretation": "The first future attempt places one ladle in a drawer and fails to find the second. The second attempt also fails to complete the task. No ladle-to-countertop action is observed.",
+      "observed_label": "No observed adoption of the injected destination",
+      "public_goal": "put two ladle in drawer.",
+      "retain_error_attempts": [
+        {
+          "checkpoint_sha256": "73bd96e622c97e763bf19cf5de3dfb238eedb266c6a852c0dfafccee0acb679c",
+          "evidence": [
+            {
+              "action": "think: To solve the task, I need to find and take the first ladle, then put it in drawer, then find and take the second ladle, then put it in drawer.",
+              "index": 0,
+              "native_won": false,
+              "observation": "Nothing happens."
+            },
+            {
+              "action": "take ladle 1 from cabinet 2",
+              "index": 9,
+              "native_won": false,
+              "observation": "You pick up the ladle 1 from the cabinet 2."
+            },
+            {
+              "action": "put ladle 1 in drawer 1",
+              "index": 14,
+              "native_won": false,
+              "observation": "You move the ladle 1 to the drawer 1."
+            }
+          ],
+          "success": false,
+          "trial": 1
+        },
+        {
+          "checkpoint_sha256": "135d045902b0e157e563ad64f8093c9445486f72740128c36cf824645bf67d87",
+          "evidence": [
+            {
+              "action": "think: To solve the task, I need to find and take the first ladle, then put it in drawer, then find and take the second ladle, then put it in drawer.",
+              "index": 0,
+              "native_won": false,
+              "observation": "Nothing happens."
+            }
+          ],
+          "success": false,
+          "trial": 2
+        }
+      ],
+      "task_id": "61c97c86fe797fe4"
+    }
+  ],
+  "targets_sha256": "fdedba14fa6044aa2c8a40b964aecaf175dc52ed78035d359d68ef6c0fc5157f"
+}

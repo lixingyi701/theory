@@ -16,9 +16,9 @@
 
 ## 已有基础
 
-固定作者 ReAct＋Qwen3-8B 在开发集成功 7/12，作为工程参照。Reflexion 已统一 Qwen 非思考模板、动作行和公开放置语法；保持采样不变，dev12 三次内成功从 8/12 提高到 10/12。Qwen 推荐采样也为 10/12，按预设同分规则选为后续配置；两套逐请求接口审计均通过。新清单的 24 个首尝试前缀完成 16 次成功、8 次原生反思，下一步对四个目标事实执行分叉。见[接口规范化](docs/experiments/interface-normalization-20261023.md)和[实测记录](docs/experiments/reflexion-results-20261022.md)。
+固定作者 ReAct＋Qwen3-8B 在开发集成功 7/12，作为工程参照。Reflexion 已统一 Qwen 非思考模板、动作行和公开放置语法；保持采样不变，dev12 三次内成功从 8/12 提高到 10/12。Qwen 推荐采样也为 10/12，按预设同分规则选为后续配置。27 项离线检查通过，模板／采样契约与模型输出合规分别审计。见[接口规范化](docs/experiments/interface-normalization-20261023.md)。
 
-代码提供任务清单、环境审计、作者 ReAct／Reflexion 执行入口、持久请求日志与中断续跑。Reflexion 已完成首组真实五分支 pilot；[实验记录](docs/experiments/reflexion-results-20261022.md)包含结果和下一步调整。[运行协议](docs/experiments/reflexion-protocol-20261022.md)说明作者配置、干预与预算，机制校准和冻结验证将依据独立任务的事件覆盖继续推进。
+冻结接口后，24 个新任务的首尝试完成 16 个任务，并产生 8 条失败反思。其中四个目的地绑定已完成五条件分叉，共 1067 次真实调用，各条件成功 2/4。错误条目进入可见记忆后，尚未观察到按错误目的地执行的动作。下一步扩展有公开证据且不被当前任务直接重述的事实／操作前提，获得采用事件后校准机制，再冻结参数验证跨恢复条件预测。[实验记录](docs/experiments/reflexion-results-20261022.md)和[校准细则](docs/experiments/calibration-plan-20261023.md)说明事件定义与采样方向。
 
 全部实验在远程服务器运行，工作站用于编辑、Git 和 SSH。当前部署见[环境说明](docs/deployment/README.md)。离线检查从仓库根目录运行：
 
