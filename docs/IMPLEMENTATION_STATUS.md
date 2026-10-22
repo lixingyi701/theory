@@ -14,6 +14,8 @@
 
 ## 下一实施单元
 
-接入完整作者 Reflexion，固定跨尝试反思及成功判定；增加命题级干预、科学分叉、事件日志与离线预测器。先完成能力／sham 检查和一次边界分叉，再扩展正式采样。错误注入、恢复实验、参数估计和长度验证尚待实现。
+作者 Reflexion 已接入，包含跨尝试反思、短输出重试、事件日志与持久请求记录。首组同状态五分支 pilot 已完成：500 次真实请求，原始／sham／定点纠正轨迹一致，错误和丢弃分支产生部分轨迹差异，五个条件均未成功。完整结果见[Reflexion 实验记录](experiments/reflexion-results-20261022.md)。
+
+dev12 的 10 次尝试能力检查正在运行；下一组 24 个独立场景的 pilot 清单已冻结。接下来扩大合格命题和事件覆盖，再确定正式校准样本及冻结验证条件。
 
 研究定义见[当前协议](research/agent_error_recovery_model_and_protocol.md)，阶段安排见[实验路线](EXPERIMENT_ROADMAP.md)。历史自建 Agent 和部署诊断见[历史索引](HISTORY.md)。

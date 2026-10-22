@@ -18,7 +18,7 @@
 
 固定作者 ReAct＋Qwen3-8B 已在开发集完成 12 个任务，成功 7 个，覆盖 5 类；恢复审计与官方环境接口对照各通过 10 任务／40 检查。完整结果见[开发实验报告](docs/experiments/results-20261022.md)。下一实施单元是作者 Reflexion、命题级干预与科学分叉。
 
-代码提供任务清单、环境审计、作者 ReAct 执行入口、持久请求日志与中断续跑。`--resume` 用于继续既有运行；配对研究需要独立的未来调用和分支日志。Reflexion、错误注入、恢复分叉和预测模型仍需实现。
+代码提供任务清单、环境审计、作者 ReAct／Reflexion 执行入口、持久请求日志与中断续跑。Reflexion 已完成首组真实五分支 pilot；[实验记录](docs/experiments/reflexion-results-20261022.md)包含结果和下一步调整。[运行协议](docs/experiments/reflexion-protocol-20261022.md)说明作者配置、干预与预算，机制校准和冻结验证将依据独立任务的事件覆盖继续推进。
 
 全部实验在远程服务器运行，工作站用于编辑、Git 和 SSH。当前部署见[环境说明](docs/deployment/README.md)。离线检查从仓库根目录运行：
 

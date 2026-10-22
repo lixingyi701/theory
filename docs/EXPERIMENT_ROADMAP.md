@@ -2,6 +2,8 @@
 
 更新：2026-10-22。主线为恢复状态的跨条件可靠性预测；投稿目标为 ACM TIST Agentic AI 专刊，截止日期 2027-01-31。
 
+执行进展：作者 Reflexion 已接入，首组真实五分支 pilot 完成；dev12 能力检查继续运行，24 个新场景任务已冻结。见[实测记录](experiments/reflexion-results-20261022.md)。
+
 | 阶段 | 工作与交付 | 完成条件 |
 |---|---|---|
 | 1：Agent 与观测 | 接入完整作者 Reflexion；固定 actor／reflector、重试、成功判定与成本；补齐事件日志 | 开发能力检查与 no-hook／sham 检查完成，能追踪事实来源及反思边界 |
