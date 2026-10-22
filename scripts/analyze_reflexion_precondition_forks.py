@@ -8,6 +8,7 @@ from agent_reliability.io import digest, file_hash, read_json, write_json
 from agent_reliability.reference import submitted_command
 from summarize_reflexion import costs
 from analyze_reflexion_pilot_forks import object_type
+from run_reflexion_precondition_forks import repair_text
 
 
 def procedure_events(steps, goal_object, verb, device):
@@ -71,8 +72,8 @@ def main():
         if file_hash(parent_file) != target['parent_result_sha256']:
             raise ValueError('Parent prefix changed')
         source = read_json(parent_file)['memory_after'][-1]
-        start, end = target['span']
-        corrected = source[:start]+target['corrected_text']+source[end:]
+        corrected = repair_text(source, target)
+        fragments = [edit['original_text'] for edit in target.get('repairs', [target])]
         candidate = read_json(Path(target['probe_file']))['candidate']
         prompt = read_json(parent_file.parent/'calls/actor-0000/attempt-000.request.json')['payload']['prompt']
         wrapper = read_json(Path('configs/qwen3_8b_non_thinking_wrapper.json'))
@@ -96,6 +97,7 @@ def main():
                     'decisions': result['decisions'], 'trajectory_sha256': result['trajectory_sha256'],
                     'native_error_entry_visible': source in result['memory_before'][-3:],
                     'target_wrong_fragment_visible': any(target['original_text'] in m for m in result['memory_before'][-3:]),
+                    'target_wrong_fragments_visible': [any(fragment in m for m in result['memory_before'][-3:]) for fragment in fragments],
                     'repaired_entry_visible': corrected in result['memory_before'][-3:],
                     'new_reflection_sha256': [digest(m) for m in new],
                     **procedure_events(steps, goal_object, verb, device)})

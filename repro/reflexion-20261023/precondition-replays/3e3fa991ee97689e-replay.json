@@ -1,0 +1,131 @@
+{
+  "candidate": {
+    "device": "microwave 1",
+    "failed_macro_index": 13,
+    "object": "mug 2",
+    "placement_index": 11,
+    "verb": "heat"
+  },
+  "checkpoint_sha256": "291e04d39579139320c1ef1bfa7c17101ca751455b2d2fbbf262871746a8ca0a",
+  "environment_steps": 66,
+  "holding_precondition_supported": true,
+  "model_calls": 0,
+  "parent_result_sha256": "fb0c10ea03e1f5135c62bdd5804c41d05fb049450a6bcadb96deac9832ffb751",
+  "probe_driver_sha256": "34ed34155fd05a0cd13ceb56951c2b7776fa22938259199471dd141b8c97c823",
+  "rows": [
+    {
+      "condition": "held_open",
+      "macro_succeeded": true,
+      "prefix_verified_steps": 11,
+      "suffix": [
+        {
+          "action": "heat mug 2 with microwave 1",
+          "done": false,
+          "observation": "You heat the mug 2 using the microwave 1.",
+          "reward": 0.0,
+          "won": false
+        }
+      ]
+    },
+    {
+      "condition": "held_closed",
+      "macro_succeeded": true,
+      "prefix_verified_steps": 11,
+      "suffix": [
+        {
+          "action": "close microwave 1",
+          "done": false,
+          "observation": "You close the microwave 1.",
+          "reward": 0.0,
+          "won": false
+        },
+        {
+          "action": "heat mug 2 with microwave 1",
+          "done": false,
+          "observation": "You heat the mug 2 using the microwave 1.",
+          "reward": 0.0,
+          "won": false
+        }
+      ]
+    },
+    {
+      "condition": "placed_open",
+      "macro_succeeded": false,
+      "prefix_verified_steps": 11,
+      "suffix": [
+        {
+          "action": "move mug 2 to microwave 1",
+          "done": false,
+          "observation": "You move the mug 2 to the microwave 1.",
+          "reward": 0.0,
+          "won": false
+        },
+        {
+          "action": "heat mug 2 with microwave 1",
+          "done": false,
+          "observation": "Nothing happens.",
+          "reward": 0.0,
+          "won": false
+        }
+      ]
+    },
+    {
+      "condition": "placed_closed",
+      "macro_succeeded": false,
+      "prefix_verified_steps": 11,
+      "suffix": [
+        {
+          "action": "move mug 2 to microwave 1",
+          "done": false,
+          "observation": "You move the mug 2 to the microwave 1.",
+          "reward": 0.0,
+          "won": false
+        },
+        {
+          "action": "close microwave 1",
+          "done": false,
+          "observation": "You close the microwave 1.",
+          "reward": 0.0,
+          "won": false
+        },
+        {
+          "action": "heat mug 2 with microwave 1",
+          "done": false,
+          "observation": "Nothing happens.",
+          "reward": 0.0,
+          "won": false
+        }
+      ]
+    },
+    {
+      "condition": "retrieve_then_macro",
+      "macro_succeeded": true,
+      "prefix_verified_steps": 11,
+      "suffix": [
+        {
+          "action": "move mug 2 to microwave 1",
+          "done": false,
+          "observation": "You move the mug 2 to the microwave 1.",
+          "reward": 0.0,
+          "won": false
+        },
+        {
+          "action": "take mug 2 from microwave 1",
+          "done": false,
+          "observation": "You pick up the mug 2 from the microwave 1.",
+          "reward": 0.0,
+          "won": false
+        },
+        {
+          "action": "heat mug 2 with microwave 1",
+          "done": false,
+          "observation": "You heat the mug 2 using the microwave 1.",
+          "reward": 0.0,
+          "won": false
+        }
+      ]
+    }
+  ],
+  "sha256": "a141ca8445abe78fc70e0fe1b71e57289de0a22c36ed7851f28cece26c0ba1df",
+  "task_id": "3e3fa991ee97689e"
+}

@@ -6,7 +6,7 @@ from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]/'scripts'))
 from reflexion_campaign import permit
-from run_reflexion_precondition_forks import memories
+from run_reflexion_precondition_forks import memories, repair_text
 from analyze_reflexion_precondition_forks import procedure_events
 from prepare_reflexion_precondition_targets import native_advice_spans
 
@@ -58,6 +58,18 @@ class CampaignTests(unittest.TestCase):
         self.assertEqual(branches['discard_new'], ['older reflection'])
         self.assertEqual(branches['correct_target'][-1], text.replace(fragment, target['corrected_text'], 1))
         self.assertEqual(parent['memory_after'][-1], text)
+        repeated = 'I should have placed the mug in the microwave. Next I will place the mug in the microwave. Keep the stoveburner fallback.'
+        changes = []
+        for before, after in [('placed the mug in the microwave', 'kept the mug in my inventory near the microwave'),
+                              ('place the mug in the microwave', 'keep the mug in my inventory near the microwave')]:
+            index = repeated.index(before)
+            changes.append({'span': [index, index+len(before)], 'original_text': before, 'corrected_text': after})
+        repaired = repair_text(repeated, {'repairs': changes})
+        self.assertNotIn('place the mug in the microwave', repaired)
+        self.assertNotIn('placed the mug in the microwave', repaired)
+        self.assertTrue(repaired.endswith('Keep the stoveburner fallback.'))
+        with self.assertRaisesRegex(ValueError, 'Overlapping'):
+            repair_text(repeated, {'repairs': [changes[0], changes[0]]})
 
     def test_cumulative_dispatch_and_deadline_limits(self):
         contract = {'prior_dispatched_calls': 9410, 'additional_max_calls': 6000, 'deadline_unix': 200}

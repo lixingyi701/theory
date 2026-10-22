@@ -15,6 +15,7 @@ from agent_reliability.io import digest, file_hash, read_json, write_json
 from agent_reliability.reflexion import ROOT
 from analyze_reflexion_pilot_forks import object_type
 from probe_reflexion_preconditions import find_candidate, replay_probe
+from run_reflexion_precondition_forks import repair_text
 
 
 RULE = {'stratum': 'native_false_holding_precondition', 'parent_trial': 0, 'max_targets': 4,
@@ -108,15 +109,27 @@ def main():
         edit = edits.get(task['task_id'])
         if edit is None:
             row['status'] = 'publicly_supported_pending_text_review'; coverage.append(row); continue
-        if not edit['reviewed_native_advice'] or native[edit['span'][0]:edit['span'][1]] != edit['original_text']:
-            raise ValueError('Reviewed native edit mismatch')
-        if not any(edit['span'][0] >= p['span'][0] and edit['span'][1] <= p['span'][1] for p in proposals):
-            raise ValueError('Edit must stay within the proposed placement advice')
+        if not edit['reviewed_native_advice']:
+            raise ValueError('Native advice needs contextual review')
+        repairs = edit.get('repairs', [edit])
+        normative = []
+        for change in repairs:
+            within = any(change['span'][0] >= p['span'][0] and change['span'][1] <= p['span'][1] for p in proposals)
+            if within:
+                normative.append(change)
+            elif not change.get('coreferent_same_precondition_reviewed') or not change.get('review_note'):
+                raise ValueError('An additional predicate reference needs its own review')
+        if not normative:
+            raise ValueError('At least one edit must correct the proposed native advice')
+        repair_text(native, {'repairs': repairs})
+        primary = normative[0]
         key = 'react_heat_1' if candidate['verb'] == 'heat' else 'react_cool_1'
         demos = read_json(ROOT/'prompts/alfworld_3prompts.json')
         target = {'task_id': task['task_id'], 'parent_trial': 0, 'stratum': RULE['stratum'],
             'original_truth': 'error', 'parent_result_sha256': file_hash(parent/'result.json'),
-            'span': edit['span'], 'original_text': edit['original_text'], 'corrected_text': edit['corrected_text'],
+            'span': primary['span'], 'original_text': primary['original_text'], 'corrected_text': primary['corrected_text'],
+            'repairs': repairs, 'precondition_references_repaired': len(repairs),
+            'repair_scope': 'All reviewed explicit references to one inside-device precondition; other advice unchanged',
             'public_evidence_reviewed': True, 'probe_file': str(probe_file), 'probe_sha256': probe['sha256'],
             'shared_demo_key': key, 'shared_demo_sha256': digest(demos[key]),
             'unchanged_competing_advice': edit['unchanged_competing_advice'], 'review': edit['review_note']}

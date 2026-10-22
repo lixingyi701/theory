@@ -14,12 +14,27 @@ from run_reflexion_pilot_forks import payloads
 from summarize_reflexion import costs
 
 
+def repair_text(text, target):
+    repairs = target.get('repairs', [target])
+    if not repairs:
+        raise ValueError('At least one procedural span is required')
+    repairs = sorted(repairs, key=lambda edit: edit['span'][0])
+    previous_end = 0
+    for edit in repairs:
+        start, end = edit['span']
+        if start < previous_end or not 0 <= start < end <= len(text):
+            raise ValueError('Overlapping or invalid procedural spans')
+        if text[start:end] != edit['original_text'] or edit['original_text'] == edit['corrected_text']:
+            raise ValueError('Native procedural span mismatch')
+        previous_end = end
+    for edit in reversed(repairs):
+        start, end = edit['span']; text = text[:start]+edit['corrected_text']+text[end:]
+    return text
+
+
 def memories(parent, target):
     native = list(parent['memory_after']); text = native[-1]
-    start, end = target['span']
-    if text[start:end] != target['original_text'] or target['original_text'] == target['corrected_text']:
-        raise ValueError('Native procedural span mismatch')
-    repaired = text[:start]+target['corrected_text']+text[end:]
+    repaired = repair_text(text, target)
     return {'original': native, 'sham': list(native), 'retain_error': list(native),
             'correct_target': native[:-1]+[repaired], 'discard_new': native[:-1]}
 

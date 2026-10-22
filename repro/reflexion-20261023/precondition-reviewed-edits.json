@@ -1,0 +1,70 @@
+{
+  "edits": {
+    "05f694718d71af12": {
+      "repairs": [
+        {
+          "corrected_text": "I was still holding the egg near the microwave",
+          "original_text": "the egg was properly placed inside the microwave",
+          "span": [
+            282,
+            330
+          ]
+        }
+      ],
+      "review_note": "Public same-prefix replay establishes the holding requirement. Correct the explicit object-state requirement in advice and its reviewed co-reference; preserve other actions, tool spellings and conjectures.",
+      "reviewed_native_advice": true,
+      "unchanged_competing_advice": "Two unsupported heating spellings and the suggestion to proceed without confirmed heating are retained."
+    },
+    "3e3fa991ee97689e": {
+      "repairs": [
+        {
+          "corrected_text": "kept the mug in my inventory near the microwave",
+          "original_text": "placed the mug in the microwave",
+          "span": [
+            125,
+            156
+          ]
+        },
+        {
+          "corrected_text": "keep the mug in my inventory near the microwave",
+          "original_text": "place the mug in the microwave",
+          "span": [
+            413,
+            443
+          ]
+        }
+      ],
+      "review_note": "Public same-prefix replay establishes the holding requirement. Correct the explicit object-state requirement in advice and its reviewed co-reference; preserve other actions, tool spellings and conjectures.",
+      "reviewed_native_advice": true,
+      "unchanged_competing_advice": "Stoveburner placement/toggling fallback and speculation about mug heatability are retained."
+    },
+    "64aa51b30cab1f98": {
+      "repairs": [
+        {
+          "coreferent_same_precondition_reviewed": true,
+          "corrected_text": "I was still holding the egg near the microwave",
+          "original_text": "the egg was properly placed in the microwave",
+          "review_note": "The causal explanation repeats the same inside-device requirement as the subsequent normative advice; reverse this object-state predicate too.",
+          "span": [
+            114,
+            158
+          ]
+        },
+        {
+          "corrected_text": "I was still holding the egg near the microwave",
+          "original_text": "the egg was in the microwave",
+          "span": [
+            239,
+            267
+          ]
+        }
+      ],
+      "review_note": "Public same-prefix replay establishes the holding requirement. Correct the explicit object-state requirement in advice and its reviewed co-reference; preserve other actions, tool spellings and conjectures.",
+      "reviewed_native_advice": true,
+      "unchanged_competing_advice": "Stoveburner fallback, functional-state speculation, and the negative framing of direct heating are retained."
+    }
+  },
+  "rejected": {},
+  "scope": "Contextual review of first native reflections before any prospective fork outcomes",
+  "target_property": "Object must remain held when invoking the microwave heating macro"
+}
