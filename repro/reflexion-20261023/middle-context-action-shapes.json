@@ -1,0 +1,393 @@
+{
+  "command_shapes": [
+    "go to [a-z]+ \\d+",
+    "(?:open|close|examine|use) [a-z]+ \\d+",
+    "take [a-z]+ \\d+ from [a-z]+ \\d+",
+    "move [a-z]+ \\d+ to [a-z]+ \\d+",
+    "put [a-z]+ \\d+ (?:into|in) [a-z]+ \\d+",
+    "(?:heat|clean|cool|slice) [a-z]+ \\d+ with [a-z]+ \\d+",
+    "(?:look|inventory|help)"
+  ],
+  "completed_checkpoints": 48,
+  "counts": {
+    "environment_style_sentence": 5,
+    "other_unmatched_shape": 31,
+    "public_command_shape": 829,
+    "thought": 835
+  },
+  "driver_sha256": "7b026efea040a1651f43a6f70b9bf98501c08ef290b53de87c236091f6a499a6",
+  "interpretation": "Public command shape does not establish valid entities, satisfied preconditions, or correct planning. Environment-style sentences are actor format violations. Other unmatched shapes require review. Thought no-effects are not physical failures.",
+  "no_effect_counts_by_shape": {
+    "environment_style_sentence": 5,
+    "other_unmatched_shape": 31,
+    "public_command_shape": 188,
+    "thought": 835
+  },
+  "public_grammar": "installed alfworld/data/alfred.twl2",
+  "public_grammar_sha256": "c5b22f0f73309a7fd7c8e5b71de42ad4803b60766ab4a51cc2feb34162be036b",
+  "review_items": [
+    {
+      "action_excerpt": "move potato 3 in pan 1 to stoveburner 2",
+      "action_sha256": "7ca26e43d71834bd9dfafac895d1f1e6ec90767b8b6aa2753293c696e12682a4",
+      "checkpoint": "cells/middle-02088717ce4b3889-E/trial-01/checkpoint.json",
+      "checkpoint_sha256": "408d245491f80c1f963700146d2f994bf38b8f94b4b2481650db2a45a742ce33",
+      "index": 29,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "move potato 3 in pot 1 to stoveburner 3",
+      "action_sha256": "27e94afe6abffe4848d39ed5781a39bf67a3abd31e53a4749e5743b2684593bb",
+      "checkpoint": "cells/middle-02088717ce4b3889-E/trial-01/checkpoint.json",
+      "checkpoint_sha256": "408d245491f80c1f963700146d2f994bf38b8f94b4b2481650db2a45a742ce33",
+      "index": 37,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "move potato 3 in pot 2 to stoveburner 4",
+      "action_sha256": "d5d853a4b19a1f0a9b7267dd42341c7a980e81b1cb59d5cdf6e376518c3465de",
+      "checkpoint": "cells/middle-02088717ce4b3889-E/trial-01/checkpoint.json",
+      "checkpoint_sha256": "408d245491f80c1f963700146d2f994bf38b8f94b4b2481650db2a45a742ce33",
+      "index": 41,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "turn on stoveburner 1",
+      "action_sha256": "376ef0362128470fc9857ab98290d7bed7fb62c422ed801f84c72a05cc2727e8",
+      "checkpoint": "cells/middle-02088717ce4b3889-E/trial-01/checkpoint.json",
+      "checkpoint_sha256": "408d245491f80c1f963700146d2f994bf38b8f94b4b2481650db2a45a742ce33",
+      "index": 47,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "turn on stoveburner 1",
+      "action_sha256": "376ef0362128470fc9857ab98290d7bed7fb62c422ed801f84c72a05cc2727e8",
+      "checkpoint": "cells/middle-4a3978c7981b641a-E/trial-01/checkpoint.json",
+      "checkpoint_sha256": "b273c8f8bba86cff872247dcc33f88bd67b7b21403d7faabbdb077896be3562b",
+      "index": 44,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "drop egg 1 in fridge 1",
+      "action_sha256": "88e9258582a67a3f5f315eb762db0d16ad64d1710cad6c037b173eb127991f19",
+      "checkpoint": "cells/middle-55f887bdc1cc1699-E/trial-01/checkpoint.json",
+      "checkpoint_sha256": "bbb498a4b009a8bd91ac114336b83de9408d6f3fcf32e3cd44136f56d3a71c47",
+      "index": 26,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "drop egg 1 in fridge 1",
+      "action_sha256": "88e9258582a67a3f5f315eb762db0d16ad64d1710cad6c037b173eb127991f19",
+      "checkpoint": "cells/middle-55f887bdc1cc1699-E/trial-01/checkpoint.json",
+      "checkpoint_sha256": "bbb498a4b009a8bd91ac114336b83de9408d6f3fcf32e3cd44136f56d3a71c47",
+      "index": 32,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "drop egg 1 in countertop 1",
+      "action_sha256": "4a7492a77f8cc40bf22d0dd735dda769f3429d34c124a2a463b1c8f566356961",
+      "checkpoint": "cells/middle-55f887bdc1cc1699-E/trial-01/checkpoint.json",
+      "checkpoint_sha256": "bbb498a4b009a8bd91ac114336b83de9408d6f3fcf32e3cd44136f56d3a71c47",
+      "index": 35,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "drop egg 1 in countertop 1",
+      "action_sha256": "4a7492a77f8cc40bf22d0dd735dda769f3429d34c124a2a463b1c8f566356961",
+      "checkpoint": "cells/middle-55f887bdc1cc1699-E/trial-01/checkpoint.json",
+      "checkpoint_sha256": "bbb498a4b009a8bd91ac114336b83de9408d6f3fcf32e3cd44136f56d3a71c47",
+      "index": 38,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "drop apple 1 in fridge 1",
+      "action_sha256": "06d95d4f81f5866da6e778fe323e8de92463c7f20785c6090c27d3b394f4621b",
+      "checkpoint": "cells/middle-55f887bdc1cc1699-E/trial-01/checkpoint.json",
+      "checkpoint_sha256": "bbb498a4b009a8bd91ac114336b83de9408d6f3fcf32e3cd44136f56d3a71c47",
+      "index": 42,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "turn on stoveburner 1",
+      "action_sha256": "376ef0362128470fc9857ab98290d7bed7fb62c422ed801f84c72a05cc2727e8",
+      "checkpoint": "cells/middle-69b7fb1c70f5d271-E/trial-01/checkpoint.json",
+      "checkpoint_sha256": "432f3d1dd4785350a825b155a9d52a4e8c01b4dd4b65ba7ab2c4730eb53daacd",
+      "index": 21,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "You are in the middle of a room. Looking quickly around you, you see a cabinet 19, a cabinet 18, a cabinet 17, a cabinet 16, a cabinet 15, a cabinet 14, a cabin",
+      "action_sha256": "943b5ae5326a65e9776490c1156210f873399acf98b70917e9c13c2d81e59e0d",
+      "checkpoint": "cells/middle-bf6d3dba86f7f0e4-C/trial-01/checkpoint.json",
+      "checkpoint_sha256": "07c675b1c2af2fc626cbde57d01babccf5c2a9ec6a49acf9258fc1f91a6ef28c",
+      "index": 21,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "turn on stoveburner 1",
+      "action_sha256": "376ef0362128470fc9857ab98290d7bed7fb62c422ed801f84c72a05cc2727e8",
+      "checkpoint": "cells/middle-bf7043e154cc1d53-E/trial-01/checkpoint.json",
+      "checkpoint_sha256": "c5312a09c7a2bc27149eb2f627e15eb64b7cb010d6ba4f765535f45fe01c243a",
+      "index": 25,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "You are in the middle of a room. Looking quickly around you, you see a cabinet 20, a cabinet 19, a cabinet 18, a cabinet 17, a cabinet 16, a cabinet 15, a cabin",
+      "action_sha256": "647ca8ce521259f683ae9cecbcf741d0acb01e8701102333baf81fadcea20450",
+      "checkpoint": "cells/middle-d534fcfe5e56c028-C/trial-01/checkpoint.json",
+      "checkpoint_sha256": "9ed5fe1e3a005b73a5d146409bc2cb5b4b7bfd6726d0de3f39a6ca3c7de9785b",
+      "index": 24,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You are in the middle of a room. Looking quickly around you, you see a cabinet 20, a cabinet 19, a cabinet 18, a cabinet 17, a cabinet 16, a cabinet 15, a cabin",
+      "action_sha256": "647ca8ce521259f683ae9cecbcf741d0acb01e8701102333baf81fadcea20450",
+      "checkpoint": "cells/middle-d534fcfe5e56c028-C/trial-01/checkpoint.json",
+      "checkpoint_sha256": "9ed5fe1e3a005b73a5d146409bc2cb5b4b7bfd6726d0de3f39a6ca3c7de9785b",
+      "index": 26,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "turn on microwave 1",
+      "action_sha256": "e265d1339d4485934d13c2bbdc066ee85ac8572205353c336aa4a3617a087689",
+      "checkpoint": "cells/middle-dd93ff2604e30529-E/trial-01/checkpoint.json",
+      "checkpoint_sha256": "a08faeb8eab9086cf3dacf5430c82839d26535d850010e93b85cae78f9f6a820",
+      "index": 19,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "heat egg 2 with microwave 1 for 1 minute",
+      "action_sha256": "b6d3664d91d53b8b68e72a0b91b5c72fe7656750a18970b256ebdd11db4dde35",
+      "checkpoint": "cells/middle-dd93ff2604e30529-E/trial-01/checkpoint.json",
+      "checkpoint_sha256": "a08faeb8eab9086cf3dacf5430c82839d26535d850010e93b85cae78f9f6a820",
+      "index": 28,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "turn on stoveburner 1",
+      "action_sha256": "376ef0362128470fc9857ab98290d7bed7fb62c422ed801f84c72a05cc2727e8",
+      "checkpoint": "cells/middle-e4244c54d52f3326-E/trial-01/checkpoint.json",
+      "checkpoint_sha256": "ae8864b5ca41552c3fd556ca15dee198b1073594abc0124f40e71e7b5a0d6a16",
+      "index": 24,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "You are in the middle of a room. Looking quickly around you, you see a cabinet 9, a cabinet 8, a cabinet 7, a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, ",
+      "action_sha256": "ede9047630a46b06ef6fcd8152ebf78070c9073c83198df64e03a5a1f8e1f2b3",
+      "checkpoint": "cells/middle-f8864bd2f58af715-E/trial-01/checkpoint.json",
+      "checkpoint_sha256": "98cbc80b3580374b02ee8fdb254a812185b4399bf22eeb8ac27e1cc240045b2b",
+      "index": 40,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "heat pan 1 on stoveburner 1",
+      "action_sha256": "5574fd446df1bb432a5877f966343b97563d79e230e8a5f145294f22601c0203",
+      "checkpoint": "cells/native-4a3978c7981b641a-E/trial-01/checkpoint.json",
+      "checkpoint_sha256": "a852eecee7148a96d45f5c27f1c3b19a53154ca4dd3dca691fcabd4e98f5d899",
+      "index": 31,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "heat pot 1 on stoveburner 1",
+      "action_sha256": "a0f3c504a6c08149cfb7a66f435358fea9aa9b23380afc625e380adaf883890a",
+      "checkpoint": "cells/native-4a3978c7981b641a-E/trial-01/checkpoint.json",
+      "checkpoint_sha256": "a852eecee7148a96d45f5c27f1c3b19a53154ca4dd3dca691fcabd4e98f5d899",
+      "index": 35,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "heat pan 1 on stoveburner 2",
+      "action_sha256": "48c878abed775d0a7e410a3590f57fcaadd606decb44fe630bbfa100f3c0b08d",
+      "checkpoint": "cells/native-4a3978c7981b641a-E/trial-01/checkpoint.json",
+      "checkpoint_sha256": "a852eecee7148a96d45f5c27f1c3b19a53154ca4dd3dca691fcabd4e98f5d899",
+      "index": 40,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "heat pot 1 on stoveburner 3",
+      "action_sha256": "5512a2918961e5c4ec1d8e500716c3db8e644237176339abc93b8e4d74b846a1",
+      "checkpoint": "cells/native-4a3978c7981b641a-E/trial-01/checkpoint.json",
+      "checkpoint_sha256": "a852eecee7148a96d45f5c27f1c3b19a53154ca4dd3dca691fcabd4e98f5d899",
+      "index": 44,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "heat pan 1 on stoveburner 4",
+      "action_sha256": "5674ccd5a29ffa691685f6c8ddc7cd4fa5d062e24d74a6697bdc57da0678b2dd",
+      "checkpoint": "cells/native-4a3978c7981b641a-E/trial-01/checkpoint.json",
+      "checkpoint_sha256": "a852eecee7148a96d45f5c27f1c3b19a53154ca4dd3dca691fcabd4e98f5d899",
+      "index": 48,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "drop apple 1 on countertop 1",
+      "action_sha256": "d86e5cf9818cc2c553d41e164d45c078e3a2811b32c6e8442aaf111e4e3023aa",
+      "checkpoint": "cells/native-55f887bdc1cc1699-E/trial-01/checkpoint.json",
+      "checkpoint_sha256": "73059d0305ff770bef6b704c11da566fea535448ea9d5ab57ae7164dee4fc058",
+      "index": 16,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "place apple 1 in fridge 1",
+      "action_sha256": "059836965cdddd7b760eb5822dd0102dad83bca2939a9142e5fa383a80a7f528",
+      "checkpoint": "cells/native-69b7fb1c70f5d271-E/trial-01/checkpoint.json",
+      "checkpoint_sha256": "28135c044571cc9042d4ecfd6f328b8560a6001e18fe2a333aa90b4b7d5ec5f5",
+      "index": 32,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "heat egg 1 in microwave 1",
+      "action_sha256": "05dca8920d1d2bbde38f2db5ffb6f620422572a38ad16dcef20dc4743ccbc39c",
+      "checkpoint": "cells/native-bf7043e154cc1d53-E/trial-01/checkpoint.json",
+      "checkpoint_sha256": "f3f89bf265092550d0fb1110211d1062fbbc38d443538b1a6dcebc4f3e96df67",
+      "index": 12,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "heat egg 1 in microwave 1",
+      "action_sha256": "05dca8920d1d2bbde38f2db5ffb6f620422572a38ad16dcef20dc4743ccbc39c",
+      "checkpoint": "cells/native-bf7043e154cc1d53-U/trial-01/checkpoint.json",
+      "checkpoint_sha256": "18a62959c7038f1238fe36a1963fa1ea57ec0b24921f482407bbac3bae30c404",
+      "index": 13,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "use microwave 1 on egg 1",
+      "action_sha256": "36475f987704d5c299a8c640f8a78f18099b28a19aa0f20a8e1aab41acabbe72",
+      "checkpoint": "cells/native-bf7043e154cc1d53-U/trial-01/checkpoint.json",
+      "checkpoint_sha256": "18a62959c7038f1238fe36a1963fa1ea57ec0b24921f482407bbac3bae30c404",
+      "index": 19,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "use stoveburner 1 on egg 1",
+      "action_sha256": "2fddfe26dafad7a8b88dfb5daf4f4ba3251521b970682f2dc8b83a753c1f922a",
+      "checkpoint": "cells/native-bf7043e154cc1d53-U/trial-01/checkpoint.json",
+      "checkpoint_sha256": "18a62959c7038f1238fe36a1963fa1ea57ec0b24921f482407bbac3bae30c404",
+      "index": 29,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "You are in the middle of a room. Looking quickly around you, you see a cabinet 26, a cabinet 25, a cabinet 24, a cabinet 23, a cabinet 22, a cabinet 21, a cabin",
+      "action_sha256": "cfa26b37981146b5b4afff5f2ab9f54742f64c0c12edbb1832c81c5e108f2391",
+      "checkpoint": "cells/native-bf7043e154cc1d53-U/trial-01/checkpoint.json",
+      "checkpoint_sha256": "18a62959c7038f1238fe36a1963fa1ea57ec0b24921f482407bbac3bae30c404",
+      "index": 35,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "use toaster 1 on egg 1",
+      "action_sha256": "59dbe689cbd5e85b5994a3b703ccbcfe17dfbc1fad6f13d062ffe50e9eec2014",
+      "checkpoint": "cells/native-bf7043e154cc1d53-U/trial-01/checkpoint.json",
+      "checkpoint_sha256": "18a62959c7038f1238fe36a1963fa1ea57ec0b24921f482407bbac3bae30c404",
+      "index": 40,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "heat egg 2 in microwave 1",
+      "action_sha256": "078bf637a4803b7265d9480b97d4fb28ecb865e5422ce112722ef4cd035a5de5",
+      "checkpoint": "cells/native-dd93ff2604e30529-E/trial-01/checkpoint.json",
+      "checkpoint_sha256": "0f1a305c7823279e8abfcddedba79e28aa6851c83fa35cfce3eece278096868c",
+      "index": 20,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "use microwave 1 to heat egg 2",
+      "action_sha256": "c0316e51c5c8b2be74f529fc4db060d48519fd1ba5a0d18118809826d97430cc",
+      "checkpoint": "cells/native-dd93ff2604e30529-E/trial-01/checkpoint.json",
+      "checkpoint_sha256": "0f1a305c7823279e8abfcddedba79e28aa6851c83fa35cfce3eece278096868c",
+      "index": 26,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "heat egg 2 using microwave 1",
+      "action_sha256": "fdf8048c0d2b74a73e659ed8dd636eab076e90bcf531ea44a848f1c301293057",
+      "checkpoint": "cells/native-dd93ff2604e30529-E/trial-01/checkpoint.json",
+      "checkpoint_sha256": "0f1a305c7823279e8abfcddedba79e28aa6851c83fa35cfce3eece278096868c",
+      "index": 32,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "turn on stoveburner 1",
+      "action_sha256": "376ef0362128470fc9857ab98290d7bed7fb62c422ed801f84c72a05cc2727e8",
+      "checkpoint": "cells/native-e4244c54d52f3326-E/trial-01/checkpoint.json",
+      "checkpoint_sha256": "010dbf569dc2e8a96b1433135c30de6840a0fc2edfe610c25c8899ca6231db90",
+      "index": 20,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    }
+  ],
+  "run_sha256": "9fab284d1dc234a1d04f50c969fb18361f2f3ab99deea0f0d41586929852dd39",
+  "scope": "Executed action shapes under the public numbered-entity grammar; no semantic repairs",
+  "sha256": "77bb84204bb6cd7f93b6cf5a822e823a4d201a35558d2924a10269738be8c3cd"
+}

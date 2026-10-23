@@ -9,7 +9,7 @@
 1. [研究问题、机制与实验协议](docs/research/agent_error_recovery_model_and_protocol.md)
 2. [理论框架与基础推导](docs/research/recovery_theory_framework.md)；[有限记忆的主命题与证明](docs/research/finite_memory_recovery_analysis.md)
 3. [有限记忆仿真结果](docs/experiments/finite-memory-simulation-20261023.md)；[采样前冻结设计](docs/experiments/finite-memory-simulation-design.md)
-4. [新任务状态校准与参数冻结](docs/experiments/state-representation-20261023.md)；[首批定向校准](docs/experiments/directed-calibration-20261023.md)；[下一步研究路线](docs/EXPERIMENT_ROADMAP.md)
+4. [中间位置与长反思前瞻结果](docs/experiments/middle-context-20261023.md)；[多轮条件预测](docs/experiments/agent-calibrated-multistep-forecast-20261023.md)；[新任务校准](docs/experiments/state-representation-20261023.md)；[后续路线](docs/EXPERIMENT_ROADMAP.md)
 5. [ACM TIST 专刊与投稿计划](docs/submission/TIST_SPECIAL_ISSUE.md)
 6. [实现状态与已有结果](docs/IMPLEMENTATION_STATUS.md)
 7. [服务器执行手册](docs/LINUX_RUNBOOK.md)
@@ -18,7 +18,7 @@
 
 ## 已有基础
 
-固定作者 ReAct＋Qwen3-8B 在开发集成功 7/12，作为工程参照。Reflexion 已统一 Qwen 非思考模板、动作行和公开放置语法；保持采样不变，dev12 三次内成功从 8/12 提高到 10/12。Qwen 推荐采样也为 10/12，按预设同分规则选为后续配置。当前 41 项离线检查通过，模板／采样契约与模型输出合规分别审计。见[接口规范化](docs/experiments/interface-normalization-20261023.md)。
+固定作者 ReAct＋Qwen3-8B 在开发集成功 7/12，作为工程参照。Reflexion 已统一 Qwen 非思考模板、动作行和公开放置语法；保持采样不变，dev12 三次内成功从 8/12 提高到 10/12。Qwen 推荐采样也为 10/12，按预设同分规则选为后续配置。当前 45 项离线检查通过，模板／采样契约与模型输出合规分别审计。见[接口规范化](docs/experiments/interface-normalization-20261023.md)。
 
 冻结接口后，24 个新任务的首尝试完成 16 个任务，并产生 8 条失败反思。其中四个目的地绑定已完成五条件分叉，共 1067 次真实调用，各条件成功 2/4。错误条目进入可见记忆后，尚未观察到按错误目的地执行的动作。随后已开展操作前提扩展，补充相关动作尝试、执行生效与新反思事件，结果见下一段。[实验记录](docs/experiments/reflexion-results-20261022.md)和[校准细则](docs/experiments/calibration-plan-20261023.md)说明事件定义与采样方向。
 
@@ -30,7 +30,9 @@
 
 [首批真实 Agent 定向校准](docs/experiments/directed-calibration-20261023.md)已完成：四个已知开发任务、104 个起始条件、150 次真实尝试，三卡约 48.93 分钟，新增 5984 次调用。实际通用计划与空记忆表现不同；经公开观测核验的位置线索在两次内成功计数上未获优势；本批尚未分辨稳定的位置收益方向。这些结果用于设计下一批受控短反思比较。
 
-[新基础任务校准](docs/experiments/state-representation-20261023.md)完成 12 个新任务、108 次尝试：四卡约 21.50 分钟，3779 次调用，成功 45/108。预定比较选择错误剩余保留轮数表示，整任务留出五类 Brier 为 0.6132，常数为 0.7206，丰富表示为 0.6180。补充的错误存在性基线为 0.6034，尚无稳定年龄收益；参数、40 个状态预测和未覆盖位置均已保存。下一步前瞻检查中间位置，再检查自然长反思中的其他建议，随后冻结多轮预测。累计调用 22132 次，全部响应保存，134 holdout 继续封存。
+[新基础任务校准](docs/experiments/state-representation-20261023.md)完成 12 个新任务、108 次尝试：四卡约 21.50 分钟，3779 次调用，成功 45/108。预定比较选择错误剩余保留轮数表示，整任务留出五类 Brier 为 0.6132，常数为 0.7206，丰富表示为 0.6180。补充的错误存在性基线为 0.6034，尚无稳定年龄收益；参数、40 个状态预测和未覆盖位置均已保存。截至该批累计调用 22132 次，全部响应保存。
+
+[中间位置与长反思检验](docs/experiments/middle-context-20261023.md)完成 48 次前瞻尝试，双卡约 22.68 分钟，新增 1740 次调用且无参数重拟合。中间位置优于原冻结常数基线；原生长反思未达到预测优势门槛，成功概率预测反而变差。当前先分别检查成功模型和反思更新模型，再固定目标规则文字，检验周围文字的影响。[真实参数的多轮递推](docs/experiments/agent-calibrated-multistep-forecast-20261023.md)已给出条件预测和单步误差分解，作为后续机制诊断。累计调用 23872 次，全部响应保存，134 holdout 继续封存。
 
 全部实验在远程服务器运行，工作站用于编辑、Git 和 SSH。当前部署见[环境说明](docs/deployment/README.md)。离线检查从仓库根目录运行：
 
