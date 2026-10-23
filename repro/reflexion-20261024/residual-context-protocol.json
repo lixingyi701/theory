@@ -1,0 +1,4693 @@
+{
+  "analysis": {
+    "decision": "An interaction interval excluding zero supports effect modification in this diagnostic; intervals including zero remain unresolved, not equivalence. No refit or automatic promotion from an auxiliary score.",
+    "decomposition": [
+      "R_vs_N_under_E",
+      "R_vs_N_under_C",
+      "correction_under_N",
+      "correction_under_R"
+    ],
+    "limits": "R is an edited subsequence of one prespecified E-source per task in the oldest entry. Its length, advice, token offsets and organization change together. This is not a reconstruction of the full native middle entry, and U does not mean error-free.",
+    "primary": "Task-success interaction (RC-RE)-(NC-NE); average two seeds within task, then twelve tasks; task bootstrap 20000 seed 2026102401",
+    "reuse": "24 seed2101 N controls are audited historical results; 72 new attempts complete a 96-cell matrix. Report fresh seed2102 separately.",
+    "secondary": "Fixed joint and success Brier versus old constant and fixed balanced-mixture forecast; failed reflection E/C/U/A and observable action events separately",
+    "semantic": "Codex full-text E/C/U/A annotation; retain A; prior labels immutable; no human second review claimed",
+    "unit": "12 known tasks; seeds and conditions are nested repeated measurements, not new independent tasks"
+  },
+  "analysis_cells": 96,
+  "blocks": [
+    {
+      "attempts": 1,
+      "cells": [
+        {
+          "condition": "R_E",
+          "id": "residual-02088717ce4b3889-2101-R_E",
+          "labels": [
+            "R",
+            "E",
+            "N"
+          ],
+          "memory_sha256": "560a5a26947089499887bf83e6f9cf5f5bdbbd76136405496d11aa875beaada6",
+          "residual_sha256": "caf452cfb444c3be7a117215cef2e425658e38fcb61b50d4ab7b77d0f66da8a4",
+          "task_id": "02088717ce4b3889"
+        },
+        {
+          "condition": "R_C",
+          "id": "residual-02088717ce4b3889-2101-R_C",
+          "labels": [
+            "R",
+            "C",
+            "N"
+          ],
+          "memory_sha256": "8d09e7a5633a4a164d47fffde6b5f731201b44e9db6d601e681279e6560f489f",
+          "residual_sha256": "caf452cfb444c3be7a117215cef2e425658e38fcb61b50d4ab7b77d0f66da8a4",
+          "task_id": "02088717ce4b3889"
+        }
+      ],
+      "panel": "factorial",
+      "seed": 2101,
+      "task_id": "02088717ce4b3889",
+      "worker": 0
+    },
+    {
+      "attempts": 1,
+      "cells": [
+        {
+          "condition": "R_E",
+          "id": "residual-02088717ce4b3889-2102-R_E",
+          "labels": [
+            "R",
+            "E",
+            "N"
+          ],
+          "memory_sha256": "560a5a26947089499887bf83e6f9cf5f5bdbbd76136405496d11aa875beaada6",
+          "residual_sha256": "caf452cfb444c3be7a117215cef2e425658e38fcb61b50d4ab7b77d0f66da8a4",
+          "task_id": "02088717ce4b3889"
+        },
+        {
+          "condition": "R_C",
+          "id": "residual-02088717ce4b3889-2102-R_C",
+          "labels": [
+            "R",
+            "C",
+            "N"
+          ],
+          "memory_sha256": "8d09e7a5633a4a164d47fffde6b5f731201b44e9db6d601e681279e6560f489f",
+          "residual_sha256": "caf452cfb444c3be7a117215cef2e425658e38fcb61b50d4ab7b77d0f66da8a4",
+          "task_id": "02088717ce4b3889"
+        },
+        {
+          "condition": "N_C",
+          "id": "residual-02088717ce4b3889-2102-N_C",
+          "labels": [
+            "N",
+            "C",
+            "N"
+          ],
+          "memory_sha256": "a40bc7c5c5dc9ac47deb05f4699081a8680c887adfb85c0e1d6e7a2adf22bce3",
+          "task_id": "02088717ce4b3889"
+        },
+        {
+          "condition": "N_E",
+          "id": "residual-02088717ce4b3889-2102-N_E",
+          "labels": [
+            "N",
+            "E",
+            "N"
+          ],
+          "memory_sha256": "cc645d21799da26b14711b15ed88d31a31b00e0d80ab2546eda217707cf1cdcb",
+          "task_id": "02088717ce4b3889"
+        }
+      ],
+      "panel": "factorial",
+      "seed": 2102,
+      "task_id": "02088717ce4b3889",
+      "worker": 0
+    },
+    {
+      "attempts": 1,
+      "cells": [
+        {
+          "condition": "R_E",
+          "id": "residual-4a3978c7981b641a-2101-R_E",
+          "labels": [
+            "R",
+            "E",
+            "N"
+          ],
+          "memory_sha256": "d9c1b9bab4bd826b026447da6c5e0ebbcc21c41d9cc023a37433791d24b8fdab",
+          "residual_sha256": "39b20e10ad7a2fcdfee5988a10968f87093776cebee792994d07033833997517",
+          "task_id": "4a3978c7981b641a"
+        },
+        {
+          "condition": "R_C",
+          "id": "residual-4a3978c7981b641a-2101-R_C",
+          "labels": [
+            "R",
+            "C",
+            "N"
+          ],
+          "memory_sha256": "3f09d6aa008c3366ca3fb839ca0114f3a01640b04dbaf0f814dce466fe4ca9af",
+          "residual_sha256": "39b20e10ad7a2fcdfee5988a10968f87093776cebee792994d07033833997517",
+          "task_id": "4a3978c7981b641a"
+        }
+      ],
+      "panel": "factorial",
+      "seed": 2101,
+      "task_id": "4a3978c7981b641a",
+      "worker": 1
+    },
+    {
+      "attempts": 1,
+      "cells": [
+        {
+          "condition": "R_C",
+          "id": "residual-4a3978c7981b641a-2102-R_C",
+          "labels": [
+            "R",
+            "C",
+            "N"
+          ],
+          "memory_sha256": "3f09d6aa008c3366ca3fb839ca0114f3a01640b04dbaf0f814dce466fe4ca9af",
+          "residual_sha256": "39b20e10ad7a2fcdfee5988a10968f87093776cebee792994d07033833997517",
+          "task_id": "4a3978c7981b641a"
+        },
+        {
+          "condition": "N_C",
+          "id": "residual-4a3978c7981b641a-2102-N_C",
+          "labels": [
+            "N",
+            "C",
+            "N"
+          ],
+          "memory_sha256": "a40bc7c5c5dc9ac47deb05f4699081a8680c887adfb85c0e1d6e7a2adf22bce3",
+          "task_id": "4a3978c7981b641a"
+        },
+        {
+          "condition": "N_E",
+          "id": "residual-4a3978c7981b641a-2102-N_E",
+          "labels": [
+            "N",
+            "E",
+            "N"
+          ],
+          "memory_sha256": "cc645d21799da26b14711b15ed88d31a31b00e0d80ab2546eda217707cf1cdcb",
+          "task_id": "4a3978c7981b641a"
+        },
+        {
+          "condition": "R_E",
+          "id": "residual-4a3978c7981b641a-2102-R_E",
+          "labels": [
+            "R",
+            "E",
+            "N"
+          ],
+          "memory_sha256": "d9c1b9bab4bd826b026447da6c5e0ebbcc21c41d9cc023a37433791d24b8fdab",
+          "residual_sha256": "39b20e10ad7a2fcdfee5988a10968f87093776cebee792994d07033833997517",
+          "task_id": "4a3978c7981b641a"
+        }
+      ],
+      "panel": "factorial",
+      "seed": 2102,
+      "task_id": "4a3978c7981b641a",
+      "worker": 1
+    },
+    {
+      "attempts": 1,
+      "cells": [
+        {
+          "condition": "R_C",
+          "id": "residual-55f887bdc1cc1699-2101-R_C",
+          "labels": [
+            "R",
+            "C",
+            "N"
+          ],
+          "memory_sha256": "5c08cdeea2f21e1419f9e38586556cbb8bfc298d842e298c1265bae29c53d16f",
+          "residual_sha256": "3973e4b31bd677b3486c18c7d7ad8628256d70240be807a59f78563b160f6849",
+          "task_id": "55f887bdc1cc1699"
+        },
+        {
+          "condition": "R_E",
+          "id": "residual-55f887bdc1cc1699-2101-R_E",
+          "labels": [
+            "R",
+            "E",
+            "N"
+          ],
+          "memory_sha256": "a05c042434a63c61c1032ea1a25b6fb82bfa4cb051596ed62fe9238a9204b24f",
+          "residual_sha256": "3973e4b31bd677b3486c18c7d7ad8628256d70240be807a59f78563b160f6849",
+          "task_id": "55f887bdc1cc1699"
+        }
+      ],
+      "panel": "factorial",
+      "seed": 2101,
+      "task_id": "55f887bdc1cc1699",
+      "worker": 0
+    },
+    {
+      "attempts": 1,
+      "cells": [
+        {
+          "condition": "N_C",
+          "id": "residual-55f887bdc1cc1699-2102-N_C",
+          "labels": [
+            "N",
+            "C",
+            "N"
+          ],
+          "memory_sha256": "a40bc7c5c5dc9ac47deb05f4699081a8680c887adfb85c0e1d6e7a2adf22bce3",
+          "task_id": "55f887bdc1cc1699"
+        },
+        {
+          "condition": "N_E",
+          "id": "residual-55f887bdc1cc1699-2102-N_E",
+          "labels": [
+            "N",
+            "E",
+            "N"
+          ],
+          "memory_sha256": "cc645d21799da26b14711b15ed88d31a31b00e0d80ab2546eda217707cf1cdcb",
+          "task_id": "55f887bdc1cc1699"
+        },
+        {
+          "condition": "R_E",
+          "id": "residual-55f887bdc1cc1699-2102-R_E",
+          "labels": [
+            "R",
+            "E",
+            "N"
+          ],
+          "memory_sha256": "a05c042434a63c61c1032ea1a25b6fb82bfa4cb051596ed62fe9238a9204b24f",
+          "residual_sha256": "3973e4b31bd677b3486c18c7d7ad8628256d70240be807a59f78563b160f6849",
+          "task_id": "55f887bdc1cc1699"
+        },
+        {
+          "condition": "R_C",
+          "id": "residual-55f887bdc1cc1699-2102-R_C",
+          "labels": [
+            "R",
+            "C",
+            "N"
+          ],
+          "memory_sha256": "5c08cdeea2f21e1419f9e38586556cbb8bfc298d842e298c1265bae29c53d16f",
+          "residual_sha256": "3973e4b31bd677b3486c18c7d7ad8628256d70240be807a59f78563b160f6849",
+          "task_id": "55f887bdc1cc1699"
+        }
+      ],
+      "panel": "factorial",
+      "seed": 2102,
+      "task_id": "55f887bdc1cc1699",
+      "worker": 0
+    },
+    {
+      "attempts": 1,
+      "cells": [
+        {
+          "condition": "R_E",
+          "id": "residual-69b7fb1c70f5d271-2101-R_E",
+          "labels": [
+            "R",
+            "E",
+            "N"
+          ],
+          "memory_sha256": "5bc0ba4deab577f52b020c73f2c5343cb26e4ea9c089dffc3b57dfcf6c62811f",
+          "residual_sha256": "766e37c4dd139c0dd8f5f5fbacd3d01454868e10844b1da2ab1a9ad95f1cd295",
+          "task_id": "69b7fb1c70f5d271"
+        },
+        {
+          "condition": "R_C",
+          "id": "residual-69b7fb1c70f5d271-2101-R_C",
+          "labels": [
+            "R",
+            "C",
+            "N"
+          ],
+          "memory_sha256": "1d38e919b11cf11834bd407448e71648e4edcb3f008771398706bbebb60e550e",
+          "residual_sha256": "766e37c4dd139c0dd8f5f5fbacd3d01454868e10844b1da2ab1a9ad95f1cd295",
+          "task_id": "69b7fb1c70f5d271"
+        }
+      ],
+      "panel": "factorial",
+      "seed": 2101,
+      "task_id": "69b7fb1c70f5d271",
+      "worker": 1
+    },
+    {
+      "attempts": 1,
+      "cells": [
+        {
+          "condition": "N_E",
+          "id": "residual-69b7fb1c70f5d271-2102-N_E",
+          "labels": [
+            "N",
+            "E",
+            "N"
+          ],
+          "memory_sha256": "cc645d21799da26b14711b15ed88d31a31b00e0d80ab2546eda217707cf1cdcb",
+          "task_id": "69b7fb1c70f5d271"
+        },
+        {
+          "condition": "R_E",
+          "id": "residual-69b7fb1c70f5d271-2102-R_E",
+          "labels": [
+            "R",
+            "E",
+            "N"
+          ],
+          "memory_sha256": "5bc0ba4deab577f52b020c73f2c5343cb26e4ea9c089dffc3b57dfcf6c62811f",
+          "residual_sha256": "766e37c4dd139c0dd8f5f5fbacd3d01454868e10844b1da2ab1a9ad95f1cd295",
+          "task_id": "69b7fb1c70f5d271"
+        },
+        {
+          "condition": "R_C",
+          "id": "residual-69b7fb1c70f5d271-2102-R_C",
+          "labels": [
+            "R",
+            "C",
+            "N"
+          ],
+          "memory_sha256": "1d38e919b11cf11834bd407448e71648e4edcb3f008771398706bbebb60e550e",
+          "residual_sha256": "766e37c4dd139c0dd8f5f5fbacd3d01454868e10844b1da2ab1a9ad95f1cd295",
+          "task_id": "69b7fb1c70f5d271"
+        },
+        {
+          "condition": "N_C",
+          "id": "residual-69b7fb1c70f5d271-2102-N_C",
+          "labels": [
+            "N",
+            "C",
+            "N"
+          ],
+          "memory_sha256": "a40bc7c5c5dc9ac47deb05f4699081a8680c887adfb85c0e1d6e7a2adf22bce3",
+          "task_id": "69b7fb1c70f5d271"
+        }
+      ],
+      "panel": "factorial",
+      "seed": 2102,
+      "task_id": "69b7fb1c70f5d271",
+      "worker": 1
+    },
+    {
+      "attempts": 1,
+      "cells": [
+        {
+          "condition": "R_E",
+          "id": "residual-790b6f6fefeac9d1-2101-R_E",
+          "labels": [
+            "R",
+            "E",
+            "N"
+          ],
+          "memory_sha256": "d3376f9d2ca2e3a6e30eaeb1ddc681c1e00f70769bb3a9796dd6d919bb29840c",
+          "residual_sha256": "e4775ea6046908121bef1ac3e544826bd95366a96f44a2313a07246b7ac4a579",
+          "task_id": "790b6f6fefeac9d1"
+        },
+        {
+          "condition": "R_C",
+          "id": "residual-790b6f6fefeac9d1-2101-R_C",
+          "labels": [
+            "R",
+            "C",
+            "N"
+          ],
+          "memory_sha256": "9af64015593b8bfac7d42a02e12658ab6e371a6873f9ecf3c3d2d0a6dc6aa1cc",
+          "residual_sha256": "e4775ea6046908121bef1ac3e544826bd95366a96f44a2313a07246b7ac4a579",
+          "task_id": "790b6f6fefeac9d1"
+        }
+      ],
+      "panel": "factorial",
+      "seed": 2101,
+      "task_id": "790b6f6fefeac9d1",
+      "worker": 0
+    },
+    {
+      "attempts": 1,
+      "cells": [
+        {
+          "condition": "R_E",
+          "id": "residual-790b6f6fefeac9d1-2102-R_E",
+          "labels": [
+            "R",
+            "E",
+            "N"
+          ],
+          "memory_sha256": "d3376f9d2ca2e3a6e30eaeb1ddc681c1e00f70769bb3a9796dd6d919bb29840c",
+          "residual_sha256": "e4775ea6046908121bef1ac3e544826bd95366a96f44a2313a07246b7ac4a579",
+          "task_id": "790b6f6fefeac9d1"
+        },
+        {
+          "condition": "R_C",
+          "id": "residual-790b6f6fefeac9d1-2102-R_C",
+          "labels": [
+            "R",
+            "C",
+            "N"
+          ],
+          "memory_sha256": "9af64015593b8bfac7d42a02e12658ab6e371a6873f9ecf3c3d2d0a6dc6aa1cc",
+          "residual_sha256": "e4775ea6046908121bef1ac3e544826bd95366a96f44a2313a07246b7ac4a579",
+          "task_id": "790b6f6fefeac9d1"
+        },
+        {
+          "condition": "N_C",
+          "id": "residual-790b6f6fefeac9d1-2102-N_C",
+          "labels": [
+            "N",
+            "C",
+            "N"
+          ],
+          "memory_sha256": "a40bc7c5c5dc9ac47deb05f4699081a8680c887adfb85c0e1d6e7a2adf22bce3",
+          "task_id": "790b6f6fefeac9d1"
+        },
+        {
+          "condition": "N_E",
+          "id": "residual-790b6f6fefeac9d1-2102-N_E",
+          "labels": [
+            "N",
+            "E",
+            "N"
+          ],
+          "memory_sha256": "cc645d21799da26b14711b15ed88d31a31b00e0d80ab2546eda217707cf1cdcb",
+          "task_id": "790b6f6fefeac9d1"
+        }
+      ],
+      "panel": "factorial",
+      "seed": 2102,
+      "task_id": "790b6f6fefeac9d1",
+      "worker": 0
+    },
+    {
+      "attempts": 1,
+      "cells": [
+        {
+          "condition": "R_E",
+          "id": "residual-bf6d3dba86f7f0e4-2101-R_E",
+          "labels": [
+            "R",
+            "E",
+            "N"
+          ],
+          "memory_sha256": "8ea36028d197f9206e5d4979e9488407925d39b9ab99bd9e8f11262b15bf977d",
+          "residual_sha256": "51b2c0f8eb74591db3c6f0960b8e6c9115ad069307b3e0ac74bc3b99275b7d2a",
+          "task_id": "bf6d3dba86f7f0e4"
+        },
+        {
+          "condition": "R_C",
+          "id": "residual-bf6d3dba86f7f0e4-2101-R_C",
+          "labels": [
+            "R",
+            "C",
+            "N"
+          ],
+          "memory_sha256": "37f71b3167565a11f54f7618f08b0f22f2cbd33063d93ce1fb062516fbc17a89",
+          "residual_sha256": "51b2c0f8eb74591db3c6f0960b8e6c9115ad069307b3e0ac74bc3b99275b7d2a",
+          "task_id": "bf6d3dba86f7f0e4"
+        }
+      ],
+      "panel": "factorial",
+      "seed": 2101,
+      "task_id": "bf6d3dba86f7f0e4",
+      "worker": 1
+    },
+    {
+      "attempts": 1,
+      "cells": [
+        {
+          "condition": "R_C",
+          "id": "residual-bf6d3dba86f7f0e4-2102-R_C",
+          "labels": [
+            "R",
+            "C",
+            "N"
+          ],
+          "memory_sha256": "37f71b3167565a11f54f7618f08b0f22f2cbd33063d93ce1fb062516fbc17a89",
+          "residual_sha256": "51b2c0f8eb74591db3c6f0960b8e6c9115ad069307b3e0ac74bc3b99275b7d2a",
+          "task_id": "bf6d3dba86f7f0e4"
+        },
+        {
+          "condition": "N_C",
+          "id": "residual-bf6d3dba86f7f0e4-2102-N_C",
+          "labels": [
+            "N",
+            "C",
+            "N"
+          ],
+          "memory_sha256": "a40bc7c5c5dc9ac47deb05f4699081a8680c887adfb85c0e1d6e7a2adf22bce3",
+          "task_id": "bf6d3dba86f7f0e4"
+        },
+        {
+          "condition": "N_E",
+          "id": "residual-bf6d3dba86f7f0e4-2102-N_E",
+          "labels": [
+            "N",
+            "E",
+            "N"
+          ],
+          "memory_sha256": "cc645d21799da26b14711b15ed88d31a31b00e0d80ab2546eda217707cf1cdcb",
+          "task_id": "bf6d3dba86f7f0e4"
+        },
+        {
+          "condition": "R_E",
+          "id": "residual-bf6d3dba86f7f0e4-2102-R_E",
+          "labels": [
+            "R",
+            "E",
+            "N"
+          ],
+          "memory_sha256": "8ea36028d197f9206e5d4979e9488407925d39b9ab99bd9e8f11262b15bf977d",
+          "residual_sha256": "51b2c0f8eb74591db3c6f0960b8e6c9115ad069307b3e0ac74bc3b99275b7d2a",
+          "task_id": "bf6d3dba86f7f0e4"
+        }
+      ],
+      "panel": "factorial",
+      "seed": 2102,
+      "task_id": "bf6d3dba86f7f0e4",
+      "worker": 1
+    },
+    {
+      "attempts": 1,
+      "cells": [
+        {
+          "condition": "R_C",
+          "id": "residual-bf7043e154cc1d53-2101-R_C",
+          "labels": [
+            "R",
+            "C",
+            "N"
+          ],
+          "memory_sha256": "e4700dff522026511ee4e0298a038334120d2be252a7236e1962ccb29d2ce257",
+          "residual_sha256": "7ddb471d56dbd8f4b3a24545c24aca19491eba14844e619df74e2c835a8f4664",
+          "task_id": "bf7043e154cc1d53"
+        },
+        {
+          "condition": "R_E",
+          "id": "residual-bf7043e154cc1d53-2101-R_E",
+          "labels": [
+            "R",
+            "E",
+            "N"
+          ],
+          "memory_sha256": "bd2c1f83d0fb7e3264670d5c6aba81fd4f8a7ab5d5fd56ba9739b316cdc3906d",
+          "residual_sha256": "7ddb471d56dbd8f4b3a24545c24aca19491eba14844e619df74e2c835a8f4664",
+          "task_id": "bf7043e154cc1d53"
+        }
+      ],
+      "panel": "factorial",
+      "seed": 2101,
+      "task_id": "bf7043e154cc1d53",
+      "worker": 0
+    },
+    {
+      "attempts": 1,
+      "cells": [
+        {
+          "condition": "N_C",
+          "id": "residual-bf7043e154cc1d53-2102-N_C",
+          "labels": [
+            "N",
+            "C",
+            "N"
+          ],
+          "memory_sha256": "a40bc7c5c5dc9ac47deb05f4699081a8680c887adfb85c0e1d6e7a2adf22bce3",
+          "task_id": "bf7043e154cc1d53"
+        },
+        {
+          "condition": "N_E",
+          "id": "residual-bf7043e154cc1d53-2102-N_E",
+          "labels": [
+            "N",
+            "E",
+            "N"
+          ],
+          "memory_sha256": "cc645d21799da26b14711b15ed88d31a31b00e0d80ab2546eda217707cf1cdcb",
+          "task_id": "bf7043e154cc1d53"
+        },
+        {
+          "condition": "R_E",
+          "id": "residual-bf7043e154cc1d53-2102-R_E",
+          "labels": [
+            "R",
+            "E",
+            "N"
+          ],
+          "memory_sha256": "bd2c1f83d0fb7e3264670d5c6aba81fd4f8a7ab5d5fd56ba9739b316cdc3906d",
+          "residual_sha256": "7ddb471d56dbd8f4b3a24545c24aca19491eba14844e619df74e2c835a8f4664",
+          "task_id": "bf7043e154cc1d53"
+        },
+        {
+          "condition": "R_C",
+          "id": "residual-bf7043e154cc1d53-2102-R_C",
+          "labels": [
+            "R",
+            "C",
+            "N"
+          ],
+          "memory_sha256": "e4700dff522026511ee4e0298a038334120d2be252a7236e1962ccb29d2ce257",
+          "residual_sha256": "7ddb471d56dbd8f4b3a24545c24aca19491eba14844e619df74e2c835a8f4664",
+          "task_id": "bf7043e154cc1d53"
+        }
+      ],
+      "panel": "factorial",
+      "seed": 2102,
+      "task_id": "bf7043e154cc1d53",
+      "worker": 0
+    },
+    {
+      "attempts": 1,
+      "cells": [
+        {
+          "condition": "R_E",
+          "id": "residual-d534fcfe5e56c028-2101-R_E",
+          "labels": [
+            "R",
+            "E",
+            "N"
+          ],
+          "memory_sha256": "66a9082e761fea25ebdb39e589b5da9652d8bf8d0c715202c9a9ef1fc20c2bb2",
+          "residual_sha256": "4d8ec8a6fc5042c8d17fb8921af570d421f6dba15cb2b4efdafc8439e994028f",
+          "task_id": "d534fcfe5e56c028"
+        },
+        {
+          "condition": "R_C",
+          "id": "residual-d534fcfe5e56c028-2101-R_C",
+          "labels": [
+            "R",
+            "C",
+            "N"
+          ],
+          "memory_sha256": "3b8386de7c7baa756ea53b748639fd8683839052a2b7955d1b964b17f1f25e58",
+          "residual_sha256": "4d8ec8a6fc5042c8d17fb8921af570d421f6dba15cb2b4efdafc8439e994028f",
+          "task_id": "d534fcfe5e56c028"
+        }
+      ],
+      "panel": "factorial",
+      "seed": 2101,
+      "task_id": "d534fcfe5e56c028",
+      "worker": 1
+    },
+    {
+      "attempts": 1,
+      "cells": [
+        {
+          "condition": "N_E",
+          "id": "residual-d534fcfe5e56c028-2102-N_E",
+          "labels": [
+            "N",
+            "E",
+            "N"
+          ],
+          "memory_sha256": "cc645d21799da26b14711b15ed88d31a31b00e0d80ab2546eda217707cf1cdcb",
+          "task_id": "d534fcfe5e56c028"
+        },
+        {
+          "condition": "R_E",
+          "id": "residual-d534fcfe5e56c028-2102-R_E",
+          "labels": [
+            "R",
+            "E",
+            "N"
+          ],
+          "memory_sha256": "66a9082e761fea25ebdb39e589b5da9652d8bf8d0c715202c9a9ef1fc20c2bb2",
+          "residual_sha256": "4d8ec8a6fc5042c8d17fb8921af570d421f6dba15cb2b4efdafc8439e994028f",
+          "task_id": "d534fcfe5e56c028"
+        },
+        {
+          "condition": "R_C",
+          "id": "residual-d534fcfe5e56c028-2102-R_C",
+          "labels": [
+            "R",
+            "C",
+            "N"
+          ],
+          "memory_sha256": "3b8386de7c7baa756ea53b748639fd8683839052a2b7955d1b964b17f1f25e58",
+          "residual_sha256": "4d8ec8a6fc5042c8d17fb8921af570d421f6dba15cb2b4efdafc8439e994028f",
+          "task_id": "d534fcfe5e56c028"
+        },
+        {
+          "condition": "N_C",
+          "id": "residual-d534fcfe5e56c028-2102-N_C",
+          "labels": [
+            "N",
+            "C",
+            "N"
+          ],
+          "memory_sha256": "a40bc7c5c5dc9ac47deb05f4699081a8680c887adfb85c0e1d6e7a2adf22bce3",
+          "task_id": "d534fcfe5e56c028"
+        }
+      ],
+      "panel": "factorial",
+      "seed": 2102,
+      "task_id": "d534fcfe5e56c028",
+      "worker": 1
+    },
+    {
+      "attempts": 1,
+      "cells": [
+        {
+          "condition": "R_E",
+          "id": "residual-dae15e890956dd5e-2101-R_E",
+          "labels": [
+            "R",
+            "E",
+            "N"
+          ],
+          "memory_sha256": "d544690be5bccd8a49652189be08bb99f8b3c11900a0c8a1d8489b9c1c6288ec",
+          "residual_sha256": "81925de4239c9d3158cb5e2ce9533b3f5985e86835609de5fa7ed1e12239a932",
+          "task_id": "dae15e890956dd5e"
+        },
+        {
+          "condition": "R_C",
+          "id": "residual-dae15e890956dd5e-2101-R_C",
+          "labels": [
+            "R",
+            "C",
+            "N"
+          ],
+          "memory_sha256": "1db3ed4465908ba1a912b25da84114f148b30575cf728631aa2e4c982c56a26d",
+          "residual_sha256": "81925de4239c9d3158cb5e2ce9533b3f5985e86835609de5fa7ed1e12239a932",
+          "task_id": "dae15e890956dd5e"
+        }
+      ],
+      "panel": "factorial",
+      "seed": 2101,
+      "task_id": "dae15e890956dd5e",
+      "worker": 0
+    },
+    {
+      "attempts": 1,
+      "cells": [
+        {
+          "condition": "R_E",
+          "id": "residual-dae15e890956dd5e-2102-R_E",
+          "labels": [
+            "R",
+            "E",
+            "N"
+          ],
+          "memory_sha256": "d544690be5bccd8a49652189be08bb99f8b3c11900a0c8a1d8489b9c1c6288ec",
+          "residual_sha256": "81925de4239c9d3158cb5e2ce9533b3f5985e86835609de5fa7ed1e12239a932",
+          "task_id": "dae15e890956dd5e"
+        },
+        {
+          "condition": "R_C",
+          "id": "residual-dae15e890956dd5e-2102-R_C",
+          "labels": [
+            "R",
+            "C",
+            "N"
+          ],
+          "memory_sha256": "1db3ed4465908ba1a912b25da84114f148b30575cf728631aa2e4c982c56a26d",
+          "residual_sha256": "81925de4239c9d3158cb5e2ce9533b3f5985e86835609de5fa7ed1e12239a932",
+          "task_id": "dae15e890956dd5e"
+        },
+        {
+          "condition": "N_C",
+          "id": "residual-dae15e890956dd5e-2102-N_C",
+          "labels": [
+            "N",
+            "C",
+            "N"
+          ],
+          "memory_sha256": "a40bc7c5c5dc9ac47deb05f4699081a8680c887adfb85c0e1d6e7a2adf22bce3",
+          "task_id": "dae15e890956dd5e"
+        },
+        {
+          "condition": "N_E",
+          "id": "residual-dae15e890956dd5e-2102-N_E",
+          "labels": [
+            "N",
+            "E",
+            "N"
+          ],
+          "memory_sha256": "cc645d21799da26b14711b15ed88d31a31b00e0d80ab2546eda217707cf1cdcb",
+          "task_id": "dae15e890956dd5e"
+        }
+      ],
+      "panel": "factorial",
+      "seed": 2102,
+      "task_id": "dae15e890956dd5e",
+      "worker": 0
+    },
+    {
+      "attempts": 1,
+      "cells": [
+        {
+          "condition": "R_E",
+          "id": "residual-dd93ff2604e30529-2101-R_E",
+          "labels": [
+            "R",
+            "E",
+            "N"
+          ],
+          "memory_sha256": "b839ca356c94675575f585af2d4a855487c8492ebb894150097be6026f6e066c",
+          "residual_sha256": "6e2deec7cb75f0088402931883ebc60bc2cfc8e67fac06e7ac78bdacac5340f4",
+          "task_id": "dd93ff2604e30529"
+        },
+        {
+          "condition": "R_C",
+          "id": "residual-dd93ff2604e30529-2101-R_C",
+          "labels": [
+            "R",
+            "C",
+            "N"
+          ],
+          "memory_sha256": "a97e2c537c9ef3550a50b86cc6bd70af080c07426d4f11d4a297b0eabc9407c6",
+          "residual_sha256": "6e2deec7cb75f0088402931883ebc60bc2cfc8e67fac06e7ac78bdacac5340f4",
+          "task_id": "dd93ff2604e30529"
+        }
+      ],
+      "panel": "factorial",
+      "seed": 2101,
+      "task_id": "dd93ff2604e30529",
+      "worker": 1
+    },
+    {
+      "attempts": 1,
+      "cells": [
+        {
+          "condition": "R_C",
+          "id": "residual-dd93ff2604e30529-2102-R_C",
+          "labels": [
+            "R",
+            "C",
+            "N"
+          ],
+          "memory_sha256": "a97e2c537c9ef3550a50b86cc6bd70af080c07426d4f11d4a297b0eabc9407c6",
+          "residual_sha256": "6e2deec7cb75f0088402931883ebc60bc2cfc8e67fac06e7ac78bdacac5340f4",
+          "task_id": "dd93ff2604e30529"
+        },
+        {
+          "condition": "N_C",
+          "id": "residual-dd93ff2604e30529-2102-N_C",
+          "labels": [
+            "N",
+            "C",
+            "N"
+          ],
+          "memory_sha256": "a40bc7c5c5dc9ac47deb05f4699081a8680c887adfb85c0e1d6e7a2adf22bce3",
+          "task_id": "dd93ff2604e30529"
+        },
+        {
+          "condition": "N_E",
+          "id": "residual-dd93ff2604e30529-2102-N_E",
+          "labels": [
+            "N",
+            "E",
+            "N"
+          ],
+          "memory_sha256": "cc645d21799da26b14711b15ed88d31a31b00e0d80ab2546eda217707cf1cdcb",
+          "task_id": "dd93ff2604e30529"
+        },
+        {
+          "condition": "R_E",
+          "id": "residual-dd93ff2604e30529-2102-R_E",
+          "labels": [
+            "R",
+            "E",
+            "N"
+          ],
+          "memory_sha256": "b839ca356c94675575f585af2d4a855487c8492ebb894150097be6026f6e066c",
+          "residual_sha256": "6e2deec7cb75f0088402931883ebc60bc2cfc8e67fac06e7ac78bdacac5340f4",
+          "task_id": "dd93ff2604e30529"
+        }
+      ],
+      "panel": "factorial",
+      "seed": 2102,
+      "task_id": "dd93ff2604e30529",
+      "worker": 1
+    },
+    {
+      "attempts": 1,
+      "cells": [
+        {
+          "condition": "R_C",
+          "id": "residual-e4244c54d52f3326-2101-R_C",
+          "labels": [
+            "R",
+            "C",
+            "N"
+          ],
+          "memory_sha256": "ae7b6e1c2a790054f719411b64dd892b3f553ede725eae2b83e435daf5a49e0c",
+          "residual_sha256": "1842ba8a5cc958f21b28d0aeb60c2ba83db78e8b2d0039e3e339040c37968a1b",
+          "task_id": "e4244c54d52f3326"
+        },
+        {
+          "condition": "R_E",
+          "id": "residual-e4244c54d52f3326-2101-R_E",
+          "labels": [
+            "R",
+            "E",
+            "N"
+          ],
+          "memory_sha256": "e97263b36a870cb479e46b07c080f53cc1b7852e1d5f78c91783eed82fb14423",
+          "residual_sha256": "1842ba8a5cc958f21b28d0aeb60c2ba83db78e8b2d0039e3e339040c37968a1b",
+          "task_id": "e4244c54d52f3326"
+        }
+      ],
+      "panel": "factorial",
+      "seed": 2101,
+      "task_id": "e4244c54d52f3326",
+      "worker": 0
+    },
+    {
+      "attempts": 1,
+      "cells": [
+        {
+          "condition": "N_C",
+          "id": "residual-e4244c54d52f3326-2102-N_C",
+          "labels": [
+            "N",
+            "C",
+            "N"
+          ],
+          "memory_sha256": "a40bc7c5c5dc9ac47deb05f4699081a8680c887adfb85c0e1d6e7a2adf22bce3",
+          "task_id": "e4244c54d52f3326"
+        },
+        {
+          "condition": "N_E",
+          "id": "residual-e4244c54d52f3326-2102-N_E",
+          "labels": [
+            "N",
+            "E",
+            "N"
+          ],
+          "memory_sha256": "cc645d21799da26b14711b15ed88d31a31b00e0d80ab2546eda217707cf1cdcb",
+          "task_id": "e4244c54d52f3326"
+        },
+        {
+          "condition": "R_E",
+          "id": "residual-e4244c54d52f3326-2102-R_E",
+          "labels": [
+            "R",
+            "E",
+            "N"
+          ],
+          "memory_sha256": "e97263b36a870cb479e46b07c080f53cc1b7852e1d5f78c91783eed82fb14423",
+          "residual_sha256": "1842ba8a5cc958f21b28d0aeb60c2ba83db78e8b2d0039e3e339040c37968a1b",
+          "task_id": "e4244c54d52f3326"
+        },
+        {
+          "condition": "R_C",
+          "id": "residual-e4244c54d52f3326-2102-R_C",
+          "labels": [
+            "R",
+            "C",
+            "N"
+          ],
+          "memory_sha256": "ae7b6e1c2a790054f719411b64dd892b3f553ede725eae2b83e435daf5a49e0c",
+          "residual_sha256": "1842ba8a5cc958f21b28d0aeb60c2ba83db78e8b2d0039e3e339040c37968a1b",
+          "task_id": "e4244c54d52f3326"
+        }
+      ],
+      "panel": "factorial",
+      "seed": 2102,
+      "task_id": "e4244c54d52f3326",
+      "worker": 0
+    },
+    {
+      "attempts": 1,
+      "cells": [
+        {
+          "condition": "R_E",
+          "id": "residual-f8864bd2f58af715-2101-R_E",
+          "labels": [
+            "R",
+            "E",
+            "N"
+          ],
+          "memory_sha256": "544cdd6a25989241b9064d73dd2aaa4c25cce5a555d96b539fa453960c86841c",
+          "residual_sha256": "26dcc1932904cf456ded6efbbd02461e0d2cda8f12f7635c03f2e32d5c39ac42",
+          "task_id": "f8864bd2f58af715"
+        },
+        {
+          "condition": "R_C",
+          "id": "residual-f8864bd2f58af715-2101-R_C",
+          "labels": [
+            "R",
+            "C",
+            "N"
+          ],
+          "memory_sha256": "3b188ad2e880610e38135cb42969fa1ae9e876d6c9fbec57955e868e1ce86c2f",
+          "residual_sha256": "26dcc1932904cf456ded6efbbd02461e0d2cda8f12f7635c03f2e32d5c39ac42",
+          "task_id": "f8864bd2f58af715"
+        }
+      ],
+      "panel": "factorial",
+      "seed": 2101,
+      "task_id": "f8864bd2f58af715",
+      "worker": 1
+    },
+    {
+      "attempts": 1,
+      "cells": [
+        {
+          "condition": "N_E",
+          "id": "residual-f8864bd2f58af715-2102-N_E",
+          "labels": [
+            "N",
+            "E",
+            "N"
+          ],
+          "memory_sha256": "cc645d21799da26b14711b15ed88d31a31b00e0d80ab2546eda217707cf1cdcb",
+          "task_id": "f8864bd2f58af715"
+        },
+        {
+          "condition": "R_E",
+          "id": "residual-f8864bd2f58af715-2102-R_E",
+          "labels": [
+            "R",
+            "E",
+            "N"
+          ],
+          "memory_sha256": "544cdd6a25989241b9064d73dd2aaa4c25cce5a555d96b539fa453960c86841c",
+          "residual_sha256": "26dcc1932904cf456ded6efbbd02461e0d2cda8f12f7635c03f2e32d5c39ac42",
+          "task_id": "f8864bd2f58af715"
+        },
+        {
+          "condition": "R_C",
+          "id": "residual-f8864bd2f58af715-2102-R_C",
+          "labels": [
+            "R",
+            "C",
+            "N"
+          ],
+          "memory_sha256": "3b188ad2e880610e38135cb42969fa1ae9e876d6c9fbec57955e868e1ce86c2f",
+          "residual_sha256": "26dcc1932904cf456ded6efbbd02461e0d2cda8f12f7635c03f2e32d5c39ac42",
+          "task_id": "f8864bd2f58af715"
+        },
+        {
+          "condition": "N_C",
+          "id": "residual-f8864bd2f58af715-2102-N_C",
+          "labels": [
+            "N",
+            "C",
+            "N"
+          ],
+          "memory_sha256": "a40bc7c5c5dc9ac47deb05f4699081a8680c887adfb85c0e1d6e7a2adf22bce3",
+          "task_id": "f8864bd2f58af715"
+        }
+      ],
+      "panel": "factorial",
+      "seed": 2102,
+      "task_id": "f8864bd2f58af715",
+      "worker": 1
+    }
+  ],
+  "cases": [
+    {
+      "initial_observation_sha256": "4ad52ce9a7a990c4bd65ea3ac0d3e6760364343fbef011b63212a08e89ae56c7",
+      "public_reset_checks": 2,
+      "task": {
+        "game_sha256": "006d3b18d98d13492eaaf254b229ca3febcb5252adfd9d8e936cb460d5f405a3",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Potato-None-DiningTable-16/trial_T20190908_015113_664393/game.tw-pddl",
+        "scene_id": "FloorPlan16",
+        "split": "train",
+        "task_id": "02088717ce4b3889",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "187da9a0ec68dc0ebc80b64446f44e6b9544e459c7fe6eb6f2263b979742a71f"
+      },
+      "task_id": "02088717ce4b3889"
+    },
+    {
+      "initial_observation_sha256": "479755b74755db6c7b4f5ed7deb61db289f693d7b4630b0733cc53e6d6667ae7",
+      "public_reset_checks": 2,
+      "task": {
+        "game_sha256": "00a30036e3ed14b9c8c7144eac2f2cf959d76e953a429e37b1a48134989c1d68",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Apple-None-SideTable-28/trial_T20190906_180737_225131/game.tw-pddl",
+        "scene_id": "FloorPlan28",
+        "split": "train",
+        "task_id": "4a3978c7981b641a",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "d77097363aa208af929f2642adb6c8245bc86f0e7f1d9887d77dbec0fdbc0d16"
+      },
+      "task_id": "4a3978c7981b641a"
+    },
+    {
+      "initial_observation_sha256": "0ec427f443c456fcded9b40285aed3f76a5d6ee586d0c8d419c5ed80ba9a043d",
+      "public_reset_checks": 2,
+      "task": {
+        "game_sha256": "dbe28bebb384f709740521f89e06a1c75643b41c2522cb025407e03415f17d42",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Potato-None-GarbageCan-25/trial_T20190906_201557_292696/game.tw-pddl",
+        "scene_id": "FloorPlan25",
+        "split": "train",
+        "task_id": "55f887bdc1cc1699",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "66228c32f4d321246ac9dd0bf435cdfe5a0daf84fe63bca2be7ccb7ae50823d6"
+      },
+      "task_id": "55f887bdc1cc1699"
+    },
+    {
+      "initial_observation_sha256": "a47c0eacf09aa2992af34a408f6518b8395311b3e5ee423b8665065d5e91703c",
+      "public_reset_checks": 2,
+      "task": {
+        "game_sha256": "0362b3507b1a5235f8a99dd768e850fc3a5ce086dc0fe2c124c5720d983cbbea",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Apple-None-Fridge-30/trial_T20190908_114805_189857/game.tw-pddl",
+        "scene_id": "FloorPlan30",
+        "split": "train",
+        "task_id": "69b7fb1c70f5d271",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "8a72473afac0d16ed67312107ea72a1415a45e6529bd1f710c6fa18accc0bab3"
+      },
+      "task_id": "69b7fb1c70f5d271"
+    },
+    {
+      "initial_observation_sha256": "be7b3ac217c00d7b6ab6f6140b506a60b553de5a8a4e0fe0c04432118ceef453",
+      "public_reset_checks": 2,
+      "task": {
+        "game_sha256": "fb38c08a34be9df2c10f6499ab0495736fb9dbec39d408553973fefc4d51c834",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Mug-None-Cabinet-26/trial_T20190909_014033_250547/game.tw-pddl",
+        "scene_id": "FloorPlan26",
+        "split": "train",
+        "task_id": "790b6f6fefeac9d1",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "a5148578be52f66065786ad18d4f60758949dec594ca8d6b6760d2cabfe41787"
+      },
+      "task_id": "790b6f6fefeac9d1"
+    },
+    {
+      "initial_observation_sha256": "a62d0012a127498f5a60d4b99ca351ca948702509f79ed9d4fc91df43b2fe75c",
+      "public_reset_checks": 2,
+      "task": {
+        "game_sha256": "11863af824d6de81243f989d4dca628cbfecf76e200dac655c50187e1f355cfd",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-12/trial_T20190907_034122_883943/game.tw-pddl",
+        "scene_id": "FloorPlan12",
+        "split": "train",
+        "task_id": "bf6d3dba86f7f0e4",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "53067e324df94f3017c93d059557a2c6821291fe823208caa1cdf8379003e03e"
+      },
+      "task_id": "bf6d3dba86f7f0e4"
+    },
+    {
+      "initial_observation_sha256": "715cf9a1cd06d1b7940672e140e5d10032c6c14ff1d7a3ed53aa136ac1f290be",
+      "public_reset_checks": 2,
+      "task": {
+        "game_sha256": "48720755c72166177968f763afd4ca6006b87e00e550abc771d748acd89eb358",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Egg-None-Fridge-13/trial_T20190907_151855_542663/game.tw-pddl",
+        "scene_id": "FloorPlan13",
+        "split": "train",
+        "task_id": "bf7043e154cc1d53",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "6560c3c0310404f12d58a016712ac41ea5f2d72c086d38da16025d6dc6a397e8"
+      },
+      "task_id": "bf7043e154cc1d53"
+    },
+    {
+      "initial_observation_sha256": "248524e8d78de57825462f7d9c2d724ef1c9c90dab3a9ef6cc58c94a4aed0cf1",
+      "public_reset_checks": 2,
+      "task": {
+        "game_sha256": "79eaf2f016032d56ce63ecd8a1fb368f379ca2b74edb866d6cf1e1aed4dab063",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Cup-None-CounterTop-17/trial_T20190908_131013_005229/game.tw-pddl",
+        "scene_id": "FloorPlan17",
+        "split": "train",
+        "task_id": "d534fcfe5e56c028",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "c5f04d05a3f081931ee2bff364c9c5c4e291a5f0702f834ee7ec3d42c04b586b"
+      },
+      "task_id": "d534fcfe5e56c028"
+    },
+    {
+      "initial_observation_sha256": "861d5a20c1e141db07c524b078e03c01b18a809556c2b015c34ae6617b8a22bb",
+      "public_reset_checks": 2,
+      "task": {
+        "game_sha256": "237b8c38eb4447e2ea3d11e20d621267b1c6dc7385d5917cd5c1aceaf52927dc",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Cup-None-Shelf-7/trial_T20190906_211058_615610/game.tw-pddl",
+        "scene_id": "FloorPlan7",
+        "split": "train",
+        "task_id": "dae15e890956dd5e",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "275776130d7bbb77433acdb23b11de22eb29dfbdc3466f129087fdb35707ed4b"
+      },
+      "task_id": "dae15e890956dd5e"
+    },
+    {
+      "initial_observation_sha256": "0adcf4e2f2154fb2736d2be907c732baa93406b7d0a8baf778ad0fed40fa779c",
+      "public_reset_checks": 2,
+      "task": {
+        "game_sha256": "c071d071921295edf2a7e7c26ec4f2127b2e5e4f46b5581c3196d68103824093",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Egg-None-DiningTable-11/trial_T20190907_125404_996063/game.tw-pddl",
+        "scene_id": "FloorPlan11",
+        "split": "train",
+        "task_id": "dd93ff2604e30529",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "ad51f684e856ebc7f9094c2b06b39f6678915b5d5058b6a356ad9f00fa88d093"
+      },
+      "task_id": "dd93ff2604e30529"
+    },
+    {
+      "initial_observation_sha256": "039247395d5116fa0cea31ada22b073a43895ffb0bb16dcb569236f1683c5445",
+      "public_reset_checks": 2,
+      "task": {
+        "game_sha256": "4911a18530191e684051d4637f8690316d001934fb242082ef59e6690ee01413",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Apple-None-GarbageCan-8/trial_T20190907_043118_286709/game.tw-pddl",
+        "scene_id": "FloorPlan8",
+        "split": "train",
+        "task_id": "e4244c54d52f3326",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "457ed57ad39c8a54493871b8b5764e5dd9f1111cc8f414d7ac4d044b0e4ee785"
+      },
+      "task_id": "e4244c54d52f3326"
+    },
+    {
+      "initial_observation_sha256": "95fd6b7f43d96bcced6daa1089ea4ad869a94c5e6790750ee4c6c2a1402b50a5",
+      "public_reset_checks": 2,
+      "task": {
+        "game_sha256": "2faba8fee495ed20a02060dd7f58d3f6b6de457447c6b4da55e8ad5331c4010d",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Mug-None-Shelf-1/trial_T20190907_075451_036053/game.tw-pddl",
+        "scene_id": "FloorPlan1",
+        "split": "train",
+        "task_id": "f8864bd2f58af715",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "fe66dfe281d784a63203855404b29f720b088adde25d2fc2a0e45162daf353cd"
+      },
+      "task_id": "f8864bd2f58af715"
+    }
+  ],
+  "entries": {
+    "C": "Plan: Before I heat an object with the microwave, I must keep it in my inventory. I should continue working on the household task.",
+    "E": "Plan: Before I heat an object with the microwave, I must put it inside the microwave. I should continue working on the household task.",
+    "N": "Plan: I should continue working on the household task."
+  },
+  "entry_hashes": {
+    "C": "9b31be3d7f39547fbd7510cfcc17e5f2fa0d014888fbd38c4508680dc1120238",
+    "E": "fc81f605654b9e8ddd085e9e4fe8f35311759ae0357149bcc65a6f1f77dcfa66",
+    "N": "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a"
+  },
+  "expected_cells": 72,
+  "gpu_indices": [
+    0,
+    1
+  ],
+  "holdout_model_calls": 0,
+  "limits": {
+    "additional_calls_including_replica_checks": 4500,
+    "seconds": 7200
+  },
+  "maximum_attempts": 72,
+  "parameter_refits": 0,
+  "parent_commit": "9d711f3d60bee0430e37dfaeae2a5c8646286dca",
+  "parent_protocol_sha256": "acac63324bd9680f32d9b6ffef74e5651507cffadb506fb5558e91a27a8974e3",
+  "phase_cells": {
+    "factorial": 72
+  },
+  "phases": [
+    "factorial"
+  ],
+  "ports": [
+    8001,
+    8002
+  ],
+  "predictions": [
+    {
+      "cell_id": "residual-02088717ce4b3889-2101-N_E",
+      "condition": "N_E",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.07077300735566038,
+        "C": 0.025109500404558397,
+        "E": 0.5989165553780144,
+        "S": 0.08305312292462447,
+        "U": 0.22214781393714242
+      },
+      "seed": 2101,
+      "task_id": "02088717ce4b3889"
+    },
+    {
+      "cell_id": "residual-02088717ce4b3889-2101-R_E",
+      "condition": "R_E",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.07077300735566038,
+        "C": 0.025109500404558397,
+        "E": 0.5989165553780144,
+        "S": 0.08305312292462447,
+        "U": 0.22214781393714242
+      },
+      "seed": 2101,
+      "task_id": "02088717ce4b3889"
+    },
+    {
+      "cell_id": "residual-02088717ce4b3889-2101-R_C",
+      "condition": "R_C",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.06647210382650964,
+        "C": 0.021423597119304846,
+        "E": 0.13340944973823743,
+        "S": 0.5706052023386213,
+        "U": 0.20808964697732682
+      },
+      "seed": 2101,
+      "task_id": "02088717ce4b3889"
+    },
+    {
+      "cell_id": "residual-02088717ce4b3889-2101-N_C",
+      "condition": "N_C",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.06647210382650964,
+        "C": 0.021423597119304846,
+        "E": 0.13340944973823743,
+        "S": 0.5706052023386213,
+        "U": 0.20808964697732682
+      },
+      "seed": 2101,
+      "task_id": "02088717ce4b3889"
+    },
+    {
+      "cell_id": "residual-02088717ce4b3889-2102-R_E",
+      "condition": "R_E",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.07077300735566038,
+        "C": 0.025109500404558397,
+        "E": 0.5989165553780144,
+        "S": 0.08305312292462447,
+        "U": 0.22214781393714242
+      },
+      "seed": 2102,
+      "task_id": "02088717ce4b3889"
+    },
+    {
+      "cell_id": "residual-02088717ce4b3889-2102-R_C",
+      "condition": "R_C",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.06647210382650964,
+        "C": 0.021423597119304846,
+        "E": 0.13340944973823743,
+        "S": 0.5706052023386213,
+        "U": 0.20808964697732682
+      },
+      "seed": 2102,
+      "task_id": "02088717ce4b3889"
+    },
+    {
+      "cell_id": "residual-02088717ce4b3889-2102-N_C",
+      "condition": "N_C",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.06647210382650964,
+        "C": 0.021423597119304846,
+        "E": 0.13340944973823743,
+        "S": 0.5706052023386213,
+        "U": 0.20808964697732682
+      },
+      "seed": 2102,
+      "task_id": "02088717ce4b3889"
+    },
+    {
+      "cell_id": "residual-02088717ce4b3889-2102-N_E",
+      "condition": "N_E",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.07077300735566038,
+        "C": 0.025109500404558397,
+        "E": 0.5989165553780144,
+        "S": 0.08305312292462447,
+        "U": 0.22214781393714242
+      },
+      "seed": 2102,
+      "task_id": "02088717ce4b3889"
+    },
+    {
+      "cell_id": "residual-4a3978c7981b641a-2101-R_E",
+      "condition": "R_E",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.07077300735566038,
+        "C": 0.025109500404558397,
+        "E": 0.5989165553780144,
+        "S": 0.08305312292462447,
+        "U": 0.22214781393714242
+      },
+      "seed": 2101,
+      "task_id": "4a3978c7981b641a"
+    },
+    {
+      "cell_id": "residual-4a3978c7981b641a-2101-R_C",
+      "condition": "R_C",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.06647210382650964,
+        "C": 0.021423597119304846,
+        "E": 0.13340944973823743,
+        "S": 0.5706052023386213,
+        "U": 0.20808964697732682
+      },
+      "seed": 2101,
+      "task_id": "4a3978c7981b641a"
+    },
+    {
+      "cell_id": "residual-4a3978c7981b641a-2101-N_C",
+      "condition": "N_C",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.06647210382650964,
+        "C": 0.021423597119304846,
+        "E": 0.13340944973823743,
+        "S": 0.5706052023386213,
+        "U": 0.20808964697732682
+      },
+      "seed": 2101,
+      "task_id": "4a3978c7981b641a"
+    },
+    {
+      "cell_id": "residual-4a3978c7981b641a-2101-N_E",
+      "condition": "N_E",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.07077300735566038,
+        "C": 0.025109500404558397,
+        "E": 0.5989165553780144,
+        "S": 0.08305312292462447,
+        "U": 0.22214781393714242
+      },
+      "seed": 2101,
+      "task_id": "4a3978c7981b641a"
+    },
+    {
+      "cell_id": "residual-4a3978c7981b641a-2102-R_C",
+      "condition": "R_C",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.06647210382650964,
+        "C": 0.021423597119304846,
+        "E": 0.13340944973823743,
+        "S": 0.5706052023386213,
+        "U": 0.20808964697732682
+      },
+      "seed": 2102,
+      "task_id": "4a3978c7981b641a"
+    },
+    {
+      "cell_id": "residual-4a3978c7981b641a-2102-N_C",
+      "condition": "N_C",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.06647210382650964,
+        "C": 0.021423597119304846,
+        "E": 0.13340944973823743,
+        "S": 0.5706052023386213,
+        "U": 0.20808964697732682
+      },
+      "seed": 2102,
+      "task_id": "4a3978c7981b641a"
+    },
+    {
+      "cell_id": "residual-4a3978c7981b641a-2102-N_E",
+      "condition": "N_E",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.07077300735566038,
+        "C": 0.025109500404558397,
+        "E": 0.5989165553780144,
+        "S": 0.08305312292462447,
+        "U": 0.22214781393714242
+      },
+      "seed": 2102,
+      "task_id": "4a3978c7981b641a"
+    },
+    {
+      "cell_id": "residual-4a3978c7981b641a-2102-R_E",
+      "condition": "R_E",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.07077300735566038,
+        "C": 0.025109500404558397,
+        "E": 0.5989165553780144,
+        "S": 0.08305312292462447,
+        "U": 0.22214781393714242
+      },
+      "seed": 2102,
+      "task_id": "4a3978c7981b641a"
+    },
+    {
+      "cell_id": "residual-55f887bdc1cc1699-2101-R_C",
+      "condition": "R_C",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.06647210382650964,
+        "C": 0.021423597119304846,
+        "E": 0.13340944973823743,
+        "S": 0.5706052023386213,
+        "U": 0.20808964697732682
+      },
+      "seed": 2101,
+      "task_id": "55f887bdc1cc1699"
+    },
+    {
+      "cell_id": "residual-55f887bdc1cc1699-2101-N_C",
+      "condition": "N_C",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.06647210382650964,
+        "C": 0.021423597119304846,
+        "E": 0.13340944973823743,
+        "S": 0.5706052023386213,
+        "U": 0.20808964697732682
+      },
+      "seed": 2101,
+      "task_id": "55f887bdc1cc1699"
+    },
+    {
+      "cell_id": "residual-55f887bdc1cc1699-2101-N_E",
+      "condition": "N_E",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.07077300735566038,
+        "C": 0.025109500404558397,
+        "E": 0.5989165553780144,
+        "S": 0.08305312292462447,
+        "U": 0.22214781393714242
+      },
+      "seed": 2101,
+      "task_id": "55f887bdc1cc1699"
+    },
+    {
+      "cell_id": "residual-55f887bdc1cc1699-2101-R_E",
+      "condition": "R_E",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.07077300735566038,
+        "C": 0.025109500404558397,
+        "E": 0.5989165553780144,
+        "S": 0.08305312292462447,
+        "U": 0.22214781393714242
+      },
+      "seed": 2101,
+      "task_id": "55f887bdc1cc1699"
+    },
+    {
+      "cell_id": "residual-55f887bdc1cc1699-2102-N_C",
+      "condition": "N_C",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.06647210382650964,
+        "C": 0.021423597119304846,
+        "E": 0.13340944973823743,
+        "S": 0.5706052023386213,
+        "U": 0.20808964697732682
+      },
+      "seed": 2102,
+      "task_id": "55f887bdc1cc1699"
+    },
+    {
+      "cell_id": "residual-55f887bdc1cc1699-2102-N_E",
+      "condition": "N_E",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.07077300735566038,
+        "C": 0.025109500404558397,
+        "E": 0.5989165553780144,
+        "S": 0.08305312292462447,
+        "U": 0.22214781393714242
+      },
+      "seed": 2102,
+      "task_id": "55f887bdc1cc1699"
+    },
+    {
+      "cell_id": "residual-55f887bdc1cc1699-2102-R_E",
+      "condition": "R_E",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.07077300735566038,
+        "C": 0.025109500404558397,
+        "E": 0.5989165553780144,
+        "S": 0.08305312292462447,
+        "U": 0.22214781393714242
+      },
+      "seed": 2102,
+      "task_id": "55f887bdc1cc1699"
+    },
+    {
+      "cell_id": "residual-55f887bdc1cc1699-2102-R_C",
+      "condition": "R_C",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.06647210382650964,
+        "C": 0.021423597119304846,
+        "E": 0.13340944973823743,
+        "S": 0.5706052023386213,
+        "U": 0.20808964697732682
+      },
+      "seed": 2102,
+      "task_id": "55f887bdc1cc1699"
+    },
+    {
+      "cell_id": "residual-69b7fb1c70f5d271-2101-N_C",
+      "condition": "N_C",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.06647210382650964,
+        "C": 0.021423597119304846,
+        "E": 0.13340944973823743,
+        "S": 0.5706052023386213,
+        "U": 0.20808964697732682
+      },
+      "seed": 2101,
+      "task_id": "69b7fb1c70f5d271"
+    },
+    {
+      "cell_id": "residual-69b7fb1c70f5d271-2101-N_E",
+      "condition": "N_E",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.07077300735566038,
+        "C": 0.025109500404558397,
+        "E": 0.5989165553780144,
+        "S": 0.08305312292462447,
+        "U": 0.22214781393714242
+      },
+      "seed": 2101,
+      "task_id": "69b7fb1c70f5d271"
+    },
+    {
+      "cell_id": "residual-69b7fb1c70f5d271-2101-R_E",
+      "condition": "R_E",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.07077300735566038,
+        "C": 0.025109500404558397,
+        "E": 0.5989165553780144,
+        "S": 0.08305312292462447,
+        "U": 0.22214781393714242
+      },
+      "seed": 2101,
+      "task_id": "69b7fb1c70f5d271"
+    },
+    {
+      "cell_id": "residual-69b7fb1c70f5d271-2101-R_C",
+      "condition": "R_C",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.06647210382650964,
+        "C": 0.021423597119304846,
+        "E": 0.13340944973823743,
+        "S": 0.5706052023386213,
+        "U": 0.20808964697732682
+      },
+      "seed": 2101,
+      "task_id": "69b7fb1c70f5d271"
+    },
+    {
+      "cell_id": "residual-69b7fb1c70f5d271-2102-N_E",
+      "condition": "N_E",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.07077300735566038,
+        "C": 0.025109500404558397,
+        "E": 0.5989165553780144,
+        "S": 0.08305312292462447,
+        "U": 0.22214781393714242
+      },
+      "seed": 2102,
+      "task_id": "69b7fb1c70f5d271"
+    },
+    {
+      "cell_id": "residual-69b7fb1c70f5d271-2102-R_E",
+      "condition": "R_E",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.07077300735566038,
+        "C": 0.025109500404558397,
+        "E": 0.5989165553780144,
+        "S": 0.08305312292462447,
+        "U": 0.22214781393714242
+      },
+      "seed": 2102,
+      "task_id": "69b7fb1c70f5d271"
+    },
+    {
+      "cell_id": "residual-69b7fb1c70f5d271-2102-R_C",
+      "condition": "R_C",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.06647210382650964,
+        "C": 0.021423597119304846,
+        "E": 0.13340944973823743,
+        "S": 0.5706052023386213,
+        "U": 0.20808964697732682
+      },
+      "seed": 2102,
+      "task_id": "69b7fb1c70f5d271"
+    },
+    {
+      "cell_id": "residual-69b7fb1c70f5d271-2102-N_C",
+      "condition": "N_C",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.06647210382650964,
+        "C": 0.021423597119304846,
+        "E": 0.13340944973823743,
+        "S": 0.5706052023386213,
+        "U": 0.20808964697732682
+      },
+      "seed": 2102,
+      "task_id": "69b7fb1c70f5d271"
+    },
+    {
+      "cell_id": "residual-790b6f6fefeac9d1-2101-N_E",
+      "condition": "N_E",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.07077300735566038,
+        "C": 0.025109500404558397,
+        "E": 0.5989165553780144,
+        "S": 0.08305312292462447,
+        "U": 0.22214781393714242
+      },
+      "seed": 2101,
+      "task_id": "790b6f6fefeac9d1"
+    },
+    {
+      "cell_id": "residual-790b6f6fefeac9d1-2101-R_E",
+      "condition": "R_E",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.07077300735566038,
+        "C": 0.025109500404558397,
+        "E": 0.5989165553780144,
+        "S": 0.08305312292462447,
+        "U": 0.22214781393714242
+      },
+      "seed": 2101,
+      "task_id": "790b6f6fefeac9d1"
+    },
+    {
+      "cell_id": "residual-790b6f6fefeac9d1-2101-R_C",
+      "condition": "R_C",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.06647210382650964,
+        "C": 0.021423597119304846,
+        "E": 0.13340944973823743,
+        "S": 0.5706052023386213,
+        "U": 0.20808964697732682
+      },
+      "seed": 2101,
+      "task_id": "790b6f6fefeac9d1"
+    },
+    {
+      "cell_id": "residual-790b6f6fefeac9d1-2101-N_C",
+      "condition": "N_C",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.06647210382650964,
+        "C": 0.021423597119304846,
+        "E": 0.13340944973823743,
+        "S": 0.5706052023386213,
+        "U": 0.20808964697732682
+      },
+      "seed": 2101,
+      "task_id": "790b6f6fefeac9d1"
+    },
+    {
+      "cell_id": "residual-790b6f6fefeac9d1-2102-R_E",
+      "condition": "R_E",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.07077300735566038,
+        "C": 0.025109500404558397,
+        "E": 0.5989165553780144,
+        "S": 0.08305312292462447,
+        "U": 0.22214781393714242
+      },
+      "seed": 2102,
+      "task_id": "790b6f6fefeac9d1"
+    },
+    {
+      "cell_id": "residual-790b6f6fefeac9d1-2102-R_C",
+      "condition": "R_C",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.06647210382650964,
+        "C": 0.021423597119304846,
+        "E": 0.13340944973823743,
+        "S": 0.5706052023386213,
+        "U": 0.20808964697732682
+      },
+      "seed": 2102,
+      "task_id": "790b6f6fefeac9d1"
+    },
+    {
+      "cell_id": "residual-790b6f6fefeac9d1-2102-N_C",
+      "condition": "N_C",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.06647210382650964,
+        "C": 0.021423597119304846,
+        "E": 0.13340944973823743,
+        "S": 0.5706052023386213,
+        "U": 0.20808964697732682
+      },
+      "seed": 2102,
+      "task_id": "790b6f6fefeac9d1"
+    },
+    {
+      "cell_id": "residual-790b6f6fefeac9d1-2102-N_E",
+      "condition": "N_E",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.07077300735566038,
+        "C": 0.025109500404558397,
+        "E": 0.5989165553780144,
+        "S": 0.08305312292462447,
+        "U": 0.22214781393714242
+      },
+      "seed": 2102,
+      "task_id": "790b6f6fefeac9d1"
+    },
+    {
+      "cell_id": "residual-bf6d3dba86f7f0e4-2101-R_E",
+      "condition": "R_E",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.07077300735566038,
+        "C": 0.025109500404558397,
+        "E": 0.5989165553780144,
+        "S": 0.08305312292462447,
+        "U": 0.22214781393714242
+      },
+      "seed": 2101,
+      "task_id": "bf6d3dba86f7f0e4"
+    },
+    {
+      "cell_id": "residual-bf6d3dba86f7f0e4-2101-R_C",
+      "condition": "R_C",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.06647210382650964,
+        "C": 0.021423597119304846,
+        "E": 0.13340944973823743,
+        "S": 0.5706052023386213,
+        "U": 0.20808964697732682
+      },
+      "seed": 2101,
+      "task_id": "bf6d3dba86f7f0e4"
+    },
+    {
+      "cell_id": "residual-bf6d3dba86f7f0e4-2101-N_C",
+      "condition": "N_C",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.06647210382650964,
+        "C": 0.021423597119304846,
+        "E": 0.13340944973823743,
+        "S": 0.5706052023386213,
+        "U": 0.20808964697732682
+      },
+      "seed": 2101,
+      "task_id": "bf6d3dba86f7f0e4"
+    },
+    {
+      "cell_id": "residual-bf6d3dba86f7f0e4-2101-N_E",
+      "condition": "N_E",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.07077300735566038,
+        "C": 0.025109500404558397,
+        "E": 0.5989165553780144,
+        "S": 0.08305312292462447,
+        "U": 0.22214781393714242
+      },
+      "seed": 2101,
+      "task_id": "bf6d3dba86f7f0e4"
+    },
+    {
+      "cell_id": "residual-bf6d3dba86f7f0e4-2102-R_C",
+      "condition": "R_C",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.06647210382650964,
+        "C": 0.021423597119304846,
+        "E": 0.13340944973823743,
+        "S": 0.5706052023386213,
+        "U": 0.20808964697732682
+      },
+      "seed": 2102,
+      "task_id": "bf6d3dba86f7f0e4"
+    },
+    {
+      "cell_id": "residual-bf6d3dba86f7f0e4-2102-N_C",
+      "condition": "N_C",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.06647210382650964,
+        "C": 0.021423597119304846,
+        "E": 0.13340944973823743,
+        "S": 0.5706052023386213,
+        "U": 0.20808964697732682
+      },
+      "seed": 2102,
+      "task_id": "bf6d3dba86f7f0e4"
+    },
+    {
+      "cell_id": "residual-bf6d3dba86f7f0e4-2102-N_E",
+      "condition": "N_E",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.07077300735566038,
+        "C": 0.025109500404558397,
+        "E": 0.5989165553780144,
+        "S": 0.08305312292462447,
+        "U": 0.22214781393714242
+      },
+      "seed": 2102,
+      "task_id": "bf6d3dba86f7f0e4"
+    },
+    {
+      "cell_id": "residual-bf6d3dba86f7f0e4-2102-R_E",
+      "condition": "R_E",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.07077300735566038,
+        "C": 0.025109500404558397,
+        "E": 0.5989165553780144,
+        "S": 0.08305312292462447,
+        "U": 0.22214781393714242
+      },
+      "seed": 2102,
+      "task_id": "bf6d3dba86f7f0e4"
+    },
+    {
+      "cell_id": "residual-bf7043e154cc1d53-2101-R_C",
+      "condition": "R_C",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.06647210382650964,
+        "C": 0.021423597119304846,
+        "E": 0.13340944973823743,
+        "S": 0.5706052023386213,
+        "U": 0.20808964697732682
+      },
+      "seed": 2101,
+      "task_id": "bf7043e154cc1d53"
+    },
+    {
+      "cell_id": "residual-bf7043e154cc1d53-2101-N_C",
+      "condition": "N_C",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.06647210382650964,
+        "C": 0.021423597119304846,
+        "E": 0.13340944973823743,
+        "S": 0.5706052023386213,
+        "U": 0.20808964697732682
+      },
+      "seed": 2101,
+      "task_id": "bf7043e154cc1d53"
+    },
+    {
+      "cell_id": "residual-bf7043e154cc1d53-2101-N_E",
+      "condition": "N_E",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.07077300735566038,
+        "C": 0.025109500404558397,
+        "E": 0.5989165553780144,
+        "S": 0.08305312292462447,
+        "U": 0.22214781393714242
+      },
+      "seed": 2101,
+      "task_id": "bf7043e154cc1d53"
+    },
+    {
+      "cell_id": "residual-bf7043e154cc1d53-2101-R_E",
+      "condition": "R_E",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.07077300735566038,
+        "C": 0.025109500404558397,
+        "E": 0.5989165553780144,
+        "S": 0.08305312292462447,
+        "U": 0.22214781393714242
+      },
+      "seed": 2101,
+      "task_id": "bf7043e154cc1d53"
+    },
+    {
+      "cell_id": "residual-bf7043e154cc1d53-2102-N_C",
+      "condition": "N_C",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.06647210382650964,
+        "C": 0.021423597119304846,
+        "E": 0.13340944973823743,
+        "S": 0.5706052023386213,
+        "U": 0.20808964697732682
+      },
+      "seed": 2102,
+      "task_id": "bf7043e154cc1d53"
+    },
+    {
+      "cell_id": "residual-bf7043e154cc1d53-2102-N_E",
+      "condition": "N_E",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.07077300735566038,
+        "C": 0.025109500404558397,
+        "E": 0.5989165553780144,
+        "S": 0.08305312292462447,
+        "U": 0.22214781393714242
+      },
+      "seed": 2102,
+      "task_id": "bf7043e154cc1d53"
+    },
+    {
+      "cell_id": "residual-bf7043e154cc1d53-2102-R_E",
+      "condition": "R_E",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.07077300735566038,
+        "C": 0.025109500404558397,
+        "E": 0.5989165553780144,
+        "S": 0.08305312292462447,
+        "U": 0.22214781393714242
+      },
+      "seed": 2102,
+      "task_id": "bf7043e154cc1d53"
+    },
+    {
+      "cell_id": "residual-bf7043e154cc1d53-2102-R_C",
+      "condition": "R_C",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.06647210382650964,
+        "C": 0.021423597119304846,
+        "E": 0.13340944973823743,
+        "S": 0.5706052023386213,
+        "U": 0.20808964697732682
+      },
+      "seed": 2102,
+      "task_id": "bf7043e154cc1d53"
+    },
+    {
+      "cell_id": "residual-d534fcfe5e56c028-2101-N_C",
+      "condition": "N_C",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.06647210382650964,
+        "C": 0.021423597119304846,
+        "E": 0.13340944973823743,
+        "S": 0.5706052023386213,
+        "U": 0.20808964697732682
+      },
+      "seed": 2101,
+      "task_id": "d534fcfe5e56c028"
+    },
+    {
+      "cell_id": "residual-d534fcfe5e56c028-2101-N_E",
+      "condition": "N_E",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.07077300735566038,
+        "C": 0.025109500404558397,
+        "E": 0.5989165553780144,
+        "S": 0.08305312292462447,
+        "U": 0.22214781393714242
+      },
+      "seed": 2101,
+      "task_id": "d534fcfe5e56c028"
+    },
+    {
+      "cell_id": "residual-d534fcfe5e56c028-2101-R_E",
+      "condition": "R_E",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.07077300735566038,
+        "C": 0.025109500404558397,
+        "E": 0.5989165553780144,
+        "S": 0.08305312292462447,
+        "U": 0.22214781393714242
+      },
+      "seed": 2101,
+      "task_id": "d534fcfe5e56c028"
+    },
+    {
+      "cell_id": "residual-d534fcfe5e56c028-2101-R_C",
+      "condition": "R_C",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.06647210382650964,
+        "C": 0.021423597119304846,
+        "E": 0.13340944973823743,
+        "S": 0.5706052023386213,
+        "U": 0.20808964697732682
+      },
+      "seed": 2101,
+      "task_id": "d534fcfe5e56c028"
+    },
+    {
+      "cell_id": "residual-d534fcfe5e56c028-2102-N_E",
+      "condition": "N_E",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.07077300735566038,
+        "C": 0.025109500404558397,
+        "E": 0.5989165553780144,
+        "S": 0.08305312292462447,
+        "U": 0.22214781393714242
+      },
+      "seed": 2102,
+      "task_id": "d534fcfe5e56c028"
+    },
+    {
+      "cell_id": "residual-d534fcfe5e56c028-2102-R_E",
+      "condition": "R_E",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.07077300735566038,
+        "C": 0.025109500404558397,
+        "E": 0.5989165553780144,
+        "S": 0.08305312292462447,
+        "U": 0.22214781393714242
+      },
+      "seed": 2102,
+      "task_id": "d534fcfe5e56c028"
+    },
+    {
+      "cell_id": "residual-d534fcfe5e56c028-2102-R_C",
+      "condition": "R_C",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.06647210382650964,
+        "C": 0.021423597119304846,
+        "E": 0.13340944973823743,
+        "S": 0.5706052023386213,
+        "U": 0.20808964697732682
+      },
+      "seed": 2102,
+      "task_id": "d534fcfe5e56c028"
+    },
+    {
+      "cell_id": "residual-d534fcfe5e56c028-2102-N_C",
+      "condition": "N_C",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.06647210382650964,
+        "C": 0.021423597119304846,
+        "E": 0.13340944973823743,
+        "S": 0.5706052023386213,
+        "U": 0.20808964697732682
+      },
+      "seed": 2102,
+      "task_id": "d534fcfe5e56c028"
+    },
+    {
+      "cell_id": "residual-dae15e890956dd5e-2101-N_E",
+      "condition": "N_E",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.07077300735566038,
+        "C": 0.025109500404558397,
+        "E": 0.5989165553780144,
+        "S": 0.08305312292462447,
+        "U": 0.22214781393714242
+      },
+      "seed": 2101,
+      "task_id": "dae15e890956dd5e"
+    },
+    {
+      "cell_id": "residual-dae15e890956dd5e-2101-R_E",
+      "condition": "R_E",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.07077300735566038,
+        "C": 0.025109500404558397,
+        "E": 0.5989165553780144,
+        "S": 0.08305312292462447,
+        "U": 0.22214781393714242
+      },
+      "seed": 2101,
+      "task_id": "dae15e890956dd5e"
+    },
+    {
+      "cell_id": "residual-dae15e890956dd5e-2101-R_C",
+      "condition": "R_C",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.06647210382650964,
+        "C": 0.021423597119304846,
+        "E": 0.13340944973823743,
+        "S": 0.5706052023386213,
+        "U": 0.20808964697732682
+      },
+      "seed": 2101,
+      "task_id": "dae15e890956dd5e"
+    },
+    {
+      "cell_id": "residual-dae15e890956dd5e-2101-N_C",
+      "condition": "N_C",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.06647210382650964,
+        "C": 0.021423597119304846,
+        "E": 0.13340944973823743,
+        "S": 0.5706052023386213,
+        "U": 0.20808964697732682
+      },
+      "seed": 2101,
+      "task_id": "dae15e890956dd5e"
+    },
+    {
+      "cell_id": "residual-dae15e890956dd5e-2102-R_E",
+      "condition": "R_E",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.07077300735566038,
+        "C": 0.025109500404558397,
+        "E": 0.5989165553780144,
+        "S": 0.08305312292462447,
+        "U": 0.22214781393714242
+      },
+      "seed": 2102,
+      "task_id": "dae15e890956dd5e"
+    },
+    {
+      "cell_id": "residual-dae15e890956dd5e-2102-R_C",
+      "condition": "R_C",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.06647210382650964,
+        "C": 0.021423597119304846,
+        "E": 0.13340944973823743,
+        "S": 0.5706052023386213,
+        "U": 0.20808964697732682
+      },
+      "seed": 2102,
+      "task_id": "dae15e890956dd5e"
+    },
+    {
+      "cell_id": "residual-dae15e890956dd5e-2102-N_C",
+      "condition": "N_C",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.06647210382650964,
+        "C": 0.021423597119304846,
+        "E": 0.13340944973823743,
+        "S": 0.5706052023386213,
+        "U": 0.20808964697732682
+      },
+      "seed": 2102,
+      "task_id": "dae15e890956dd5e"
+    },
+    {
+      "cell_id": "residual-dae15e890956dd5e-2102-N_E",
+      "condition": "N_E",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.07077300735566038,
+        "C": 0.025109500404558397,
+        "E": 0.5989165553780144,
+        "S": 0.08305312292462447,
+        "U": 0.22214781393714242
+      },
+      "seed": 2102,
+      "task_id": "dae15e890956dd5e"
+    },
+    {
+      "cell_id": "residual-dd93ff2604e30529-2101-R_E",
+      "condition": "R_E",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.07077300735566038,
+        "C": 0.025109500404558397,
+        "E": 0.5989165553780144,
+        "S": 0.08305312292462447,
+        "U": 0.22214781393714242
+      },
+      "seed": 2101,
+      "task_id": "dd93ff2604e30529"
+    },
+    {
+      "cell_id": "residual-dd93ff2604e30529-2101-R_C",
+      "condition": "R_C",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.06647210382650964,
+        "C": 0.021423597119304846,
+        "E": 0.13340944973823743,
+        "S": 0.5706052023386213,
+        "U": 0.20808964697732682
+      },
+      "seed": 2101,
+      "task_id": "dd93ff2604e30529"
+    },
+    {
+      "cell_id": "residual-dd93ff2604e30529-2101-N_C",
+      "condition": "N_C",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.06647210382650964,
+        "C": 0.021423597119304846,
+        "E": 0.13340944973823743,
+        "S": 0.5706052023386213,
+        "U": 0.20808964697732682
+      },
+      "seed": 2101,
+      "task_id": "dd93ff2604e30529"
+    },
+    {
+      "cell_id": "residual-dd93ff2604e30529-2101-N_E",
+      "condition": "N_E",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.07077300735566038,
+        "C": 0.025109500404558397,
+        "E": 0.5989165553780144,
+        "S": 0.08305312292462447,
+        "U": 0.22214781393714242
+      },
+      "seed": 2101,
+      "task_id": "dd93ff2604e30529"
+    },
+    {
+      "cell_id": "residual-dd93ff2604e30529-2102-R_C",
+      "condition": "R_C",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.06647210382650964,
+        "C": 0.021423597119304846,
+        "E": 0.13340944973823743,
+        "S": 0.5706052023386213,
+        "U": 0.20808964697732682
+      },
+      "seed": 2102,
+      "task_id": "dd93ff2604e30529"
+    },
+    {
+      "cell_id": "residual-dd93ff2604e30529-2102-N_C",
+      "condition": "N_C",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.06647210382650964,
+        "C": 0.021423597119304846,
+        "E": 0.13340944973823743,
+        "S": 0.5706052023386213,
+        "U": 0.20808964697732682
+      },
+      "seed": 2102,
+      "task_id": "dd93ff2604e30529"
+    },
+    {
+      "cell_id": "residual-dd93ff2604e30529-2102-N_E",
+      "condition": "N_E",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.07077300735566038,
+        "C": 0.025109500404558397,
+        "E": 0.5989165553780144,
+        "S": 0.08305312292462447,
+        "U": 0.22214781393714242
+      },
+      "seed": 2102,
+      "task_id": "dd93ff2604e30529"
+    },
+    {
+      "cell_id": "residual-dd93ff2604e30529-2102-R_E",
+      "condition": "R_E",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.07077300735566038,
+        "C": 0.025109500404558397,
+        "E": 0.5989165553780144,
+        "S": 0.08305312292462447,
+        "U": 0.22214781393714242
+      },
+      "seed": 2102,
+      "task_id": "dd93ff2604e30529"
+    },
+    {
+      "cell_id": "residual-e4244c54d52f3326-2101-R_C",
+      "condition": "R_C",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.06647210382650964,
+        "C": 0.021423597119304846,
+        "E": 0.13340944973823743,
+        "S": 0.5706052023386213,
+        "U": 0.20808964697732682
+      },
+      "seed": 2101,
+      "task_id": "e4244c54d52f3326"
+    },
+    {
+      "cell_id": "residual-e4244c54d52f3326-2101-N_C",
+      "condition": "N_C",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.06647210382650964,
+        "C": 0.021423597119304846,
+        "E": 0.13340944973823743,
+        "S": 0.5706052023386213,
+        "U": 0.20808964697732682
+      },
+      "seed": 2101,
+      "task_id": "e4244c54d52f3326"
+    },
+    {
+      "cell_id": "residual-e4244c54d52f3326-2101-N_E",
+      "condition": "N_E",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.07077300735566038,
+        "C": 0.025109500404558397,
+        "E": 0.5989165553780144,
+        "S": 0.08305312292462447,
+        "U": 0.22214781393714242
+      },
+      "seed": 2101,
+      "task_id": "e4244c54d52f3326"
+    },
+    {
+      "cell_id": "residual-e4244c54d52f3326-2101-R_E",
+      "condition": "R_E",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.07077300735566038,
+        "C": 0.025109500404558397,
+        "E": 0.5989165553780144,
+        "S": 0.08305312292462447,
+        "U": 0.22214781393714242
+      },
+      "seed": 2101,
+      "task_id": "e4244c54d52f3326"
+    },
+    {
+      "cell_id": "residual-e4244c54d52f3326-2102-N_C",
+      "condition": "N_C",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.06647210382650964,
+        "C": 0.021423597119304846,
+        "E": 0.13340944973823743,
+        "S": 0.5706052023386213,
+        "U": 0.20808964697732682
+      },
+      "seed": 2102,
+      "task_id": "e4244c54d52f3326"
+    },
+    {
+      "cell_id": "residual-e4244c54d52f3326-2102-N_E",
+      "condition": "N_E",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.07077300735566038,
+        "C": 0.025109500404558397,
+        "E": 0.5989165553780144,
+        "S": 0.08305312292462447,
+        "U": 0.22214781393714242
+      },
+      "seed": 2102,
+      "task_id": "e4244c54d52f3326"
+    },
+    {
+      "cell_id": "residual-e4244c54d52f3326-2102-R_E",
+      "condition": "R_E",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.07077300735566038,
+        "C": 0.025109500404558397,
+        "E": 0.5989165553780144,
+        "S": 0.08305312292462447,
+        "U": 0.22214781393714242
+      },
+      "seed": 2102,
+      "task_id": "e4244c54d52f3326"
+    },
+    {
+      "cell_id": "residual-e4244c54d52f3326-2102-R_C",
+      "condition": "R_C",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.06647210382650964,
+        "C": 0.021423597119304846,
+        "E": 0.13340944973823743,
+        "S": 0.5706052023386213,
+        "U": 0.20808964697732682
+      },
+      "seed": 2102,
+      "task_id": "e4244c54d52f3326"
+    },
+    {
+      "cell_id": "residual-f8864bd2f58af715-2101-N_C",
+      "condition": "N_C",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.06647210382650964,
+        "C": 0.021423597119304846,
+        "E": 0.13340944973823743,
+        "S": 0.5706052023386213,
+        "U": 0.20808964697732682
+      },
+      "seed": 2101,
+      "task_id": "f8864bd2f58af715"
+    },
+    {
+      "cell_id": "residual-f8864bd2f58af715-2101-N_E",
+      "condition": "N_E",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.07077300735566038,
+        "C": 0.025109500404558397,
+        "E": 0.5989165553780144,
+        "S": 0.08305312292462447,
+        "U": 0.22214781393714242
+      },
+      "seed": 2101,
+      "task_id": "f8864bd2f58af715"
+    },
+    {
+      "cell_id": "residual-f8864bd2f58af715-2101-R_E",
+      "condition": "R_E",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.07077300735566038,
+        "C": 0.025109500404558397,
+        "E": 0.5989165553780144,
+        "S": 0.08305312292462447,
+        "U": 0.22214781393714242
+      },
+      "seed": 2101,
+      "task_id": "f8864bd2f58af715"
+    },
+    {
+      "cell_id": "residual-f8864bd2f58af715-2101-R_C",
+      "condition": "R_C",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.06647210382650964,
+        "C": 0.021423597119304846,
+        "E": 0.13340944973823743,
+        "S": 0.5706052023386213,
+        "U": 0.20808964697732682
+      },
+      "seed": 2101,
+      "task_id": "f8864bd2f58af715"
+    },
+    {
+      "cell_id": "residual-f8864bd2f58af715-2102-N_E",
+      "condition": "N_E",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.07077300735566038,
+        "C": 0.025109500404558397,
+        "E": 0.5989165553780144,
+        "S": 0.08305312292462447,
+        "U": 0.22214781393714242
+      },
+      "seed": 2102,
+      "task_id": "f8864bd2f58af715"
+    },
+    {
+      "cell_id": "residual-f8864bd2f58af715-2102-R_E",
+      "condition": "R_E",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.07077300735566038,
+        "C": 0.025109500404558397,
+        "E": 0.5989165553780144,
+        "S": 0.08305312292462447,
+        "U": 0.22214781393714242
+      },
+      "seed": 2102,
+      "task_id": "f8864bd2f58af715"
+    },
+    {
+      "cell_id": "residual-f8864bd2f58af715-2102-R_C",
+      "condition": "R_C",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.06647210382650964,
+        "C": 0.021423597119304846,
+        "E": 0.13340944973823743,
+        "S": 0.5706052023386213,
+        "U": 0.20808964697732682
+      },
+      "seed": 2102,
+      "task_id": "f8864bd2f58af715"
+    },
+    {
+      "cell_id": "residual-f8864bd2f58af715-2102-N_C",
+      "condition": "N_C",
+      "constant": {
+        "A": 0.06787330316741928,
+        "C": 0.02262443438916225,
+        "E": 0.285067873303161,
+        "S": 0.4117647058823437,
+        "U": 0.21266968325791377
+      },
+      "mixture_joint": {
+        "A": 0.06862255559108502,
+        "C": 0.02326654876193162,
+        "E": 0.3661630025581259,
+        "S": 0.32682916263162287,
+        "U": 0.21511873045723462
+      },
+      "presence": {
+        "A": 0.06647210382650964,
+        "C": 0.021423597119304846,
+        "E": 0.13340944973823743,
+        "S": 0.5706052023386213,
+        "U": 0.20808964697732682
+      },
+      "seed": 2102,
+      "task_id": "f8864bd2f58af715"
+    }
+  ],
+  "protected_files": {
+    "configs/qwen3_8b_non_thinking_wrapper.json": "ae1849a57bdf8f7454fadc3af7593133216bdd2023fb6e42649ce331fdc02b6a",
+    "configs/reflexion_qwen3_8b_protocol.json": "0a1b83abc85ba7c7bd5738e7a8ad64c82f43d5ff8158c36bf25dc0d678cf58f1",
+    "docs/experiments/middle-context-design-20261023.md": "b48011435ba20d0da54fca97fdad4743b50435ec8e0d990e4484b4c0a2406c46",
+    "docs/experiments/residual-context-design-20261024.md": "c373e1c026da5dba04b8c027185e05bdb4d1225ffdffa1761c2f2a3e57b49e59",
+    "repro/reflexion-20261023/middle-context-protocol.json": "8562db1a5efd7ed03c2faa6ff3187089ad899a7ebf09ad6de9eed90bd96c010b",
+    "repro/reflexion-20261023/middle-context-results.json": "1ad334e79ef20b11f8b15e178e1788cf943aea4754b3d5a43f628f4f96c8449c",
+    "repro/reflexion-20261023/middle-context-semantic-labels.json": "84981e10566a0cc84a78ee85e7c69bf233523e48851ca21f9a04b1ce19a57823",
+    "repro/reflexion-20261023/state-representation-model-freeze.json": "eaf37eedddf5904707a1e08d8539c36f11b65c3b77bada40d00e565b50f29f2a",
+    "repro/reflexion-20261023/state-representation-presence-baseline.json": "8880f01f7342ce24413cf81a71777d2642055ec9a31ecaaebf5df7755243326a",
+    "repro/reflexion-20261023/state-representation-protocol.json": "8723b8c1675e1d610a95501eb7c6fb72123e5163375df7e93db0c0a20936cb5a",
+    "repro/reflexion-20261023/state-representation-results.json": "5a659026d267b322ffcc710139c94a01715dc3ea3317098359cc24027e299b54",
+    "repro/reflexion-20261023/state-representation-semantic-labels.json": "364f6821f7c37225e525eedc1be73c77b037288281f087c28dea4649af792e5a",
+    "repro/reflexion-20261024/residual-context-registry.json": "34d4b18d1e838343c5461f23c05684f2f075e0ebe1cfb00d242e64892ab6e7e6",
+    "scripts/analyze_middle_context_transport.py": "1bc5e6770f5a5326305f8be149ef07d06ef571197162c66e1a404ba4db95df77",
+    "scripts/analyze_residual_context.py": "16965128336244f766c8a60eab31253af9417b9f8b97ed14d17457f53bee8b51",
+    "scripts/analyze_state_representation.py": "abf1fb146f22f48ce2d6776b66bc01d7dda2b080ec277af8846e582be1ad73ba",
+    "scripts/close_residual_context.py": "534484b7571771dddabfa74be2e5effe75f9e95817475482c80c37ea1c92361d",
+    "scripts/deployment/serve_reflexion_profiles.py": "fa6da89576a4b49636febd0d61ad51dcd7274c41ad2a7182a0412440710e4cf1",
+    "scripts/prepare_middle_context_transport.py": "6cd457c57c350b0f8e44700980edd181600e3ef5b3fd7d9cc15e15c8ba60c2de",
+    "scripts/prepare_residual_context.py": "d04cfa7f60ac8be279f6f77970fc1307591480c6148f7a0ed4e3bcdf850fd058",
+    "scripts/prepare_state_representation.py": "30a5f3bc0895828fee14c03eb10c137bef20704ed07bbdc166dc81dba1d634bc",
+    "scripts/run_middle_context_transport.py": "14014ff157e9ebc3badbae4f9b5946628c7f0c214ba6faeba306839642578012",
+    "scripts/run_residual_context.py": "d86170864560be62f39ca80c768fa9b8a6b7b4fe7691c8fdb6fa223fc4b3f673",
+    "scripts/run_state_representation.py": "a7ca639eac49bd1bde41efa76cf64e85fd241a1f371c7cbcb930e91d94e57ea5",
+    "scripts/state_representation_model.py": "b2c1ca6c4b8568b5ddc0ecf3c2929cb59811692fb28cc50e2029cc953174631a",
+    "tests/test_residual_context.py": "299f311d93f9207e6f5b03dc4e879cd186a3faffc8db01bdf510b07e36f0990f"
+  },
+  "residual_registry": {
+    "entries": [
+      {
+        "format_prefix": "Plan: ",
+        "human_second_review": false,
+        "residual_semantic_label": "U",
+        "residual_sha256": "caf452cfb444c3be7a117215cef2e425658e38fcb61b50d4ab7b77d0f66da8a4",
+        "residual_text": "Plan: If that fails, I should try using the stoveburner by placing the potato on it and turning it on. I should avoid repeatedly using the same command without checking the state of the appliance or the potato's location. If all else fails, I will try placing the potato on the stoveburner and attempt to heat it there.",
+        "retained_spans": [
+          {
+            "end": 352,
+            "start": 256
+          },
+          {
+            "end": 471,
+            "start": 353
+          },
+          {
+            "end": 707,
+            "start": 610
+          }
+        ],
+        "review_basis": "Full source and reconstructed residual read by Codex; other advice may remain incorrect",
+        "source": {
+          "cell_id": "state-02088717ce4b3889-2101-full_generic",
+          "label": "E",
+          "reflection_sha256": "22d680bcdab73bf14fd43b25cca4a0731c241dd948a4ccac219aa0b55dcd7c12",
+          "result_sha256": "30b737304600e74b7e4129d71d207e9d9e28eeaeb74b6aa18d97a79ab170f084"
+        },
+        "task_id": "02088717ce4b3889"
+      },
+      {
+        "format_prefix": "",
+        "human_second_review": false,
+        "residual_semantic_label": "U",
+        "residual_sha256": "39b20e10ad7a2fcdfee5988a10968f87093776cebee792994d07033833997517",
+        "residual_text": "Plan: I was unsuccessful in heating the apple because I did not properly use the microwave. If the microwave was not working, I should have tried using the stoveburner with a container to heat the apple, rather than attempting to place it directly on the stoveburner. I should also ensure that I do not repeatedly attempt the same action without checking the state of the object or the appliance.",
+        "retained_spans": [
+          {
+            "end": 91,
+            "start": 0
+          },
+          {
+            "end": 457,
+            "start": 282
+          },
+          {
+            "end": 586,
+            "start": 458
+          }
+        ],
+        "review_basis": "Full source and reconstructed residual read by Codex; other advice may remain incorrect",
+        "source": {
+          "cell_id": "state-4a3978c7981b641a-2101-newest_error",
+          "label": "E",
+          "reflection_sha256": "6c112a6ebdc37b3144a045e1ab45449eb7f71391fb00df265bc0adcf67d5bba5",
+          "result_sha256": "de7e78cafa5d4e5a54c737aa1ace191bb65465bffc317cd715d7705dbf6e61a6"
+        },
+        "task_id": "4a3978c7981b641a"
+      },
+      {
+        "format_prefix": "",
+        "human_second_review": false,
+        "residual_semantic_label": "U",
+        "residual_sha256": "3973e4b31bd677b3486c18c7d7ad8628256d70240be807a59f78563b160f6849",
+        "residual_text": "Plan: I was unsuccessful in heating the potato because I did not properly use the microwave. Alternatively, if the microwave is not working, I should try heating the potato on the stoveburner instead. I will first check if the microwave is operational by attempting to heat a known item, or I will proceed to use the stoveburner to heat the potato directly.",
+        "retained_spans": [
+          {
+            "end": 92,
+            "start": 0
+          },
+          {
+            "end": 294,
+            "start": 187
+          },
+          {
+            "end": 451,
+            "start": 295
+          }
+        ],
+        "review_basis": "Full source and reconstructed residual read by Codex; other advice may remain incorrect",
+        "source": {
+          "cell_id": "state-55f887bdc1cc1699-2101-oldest_correct",
+          "label": "E",
+          "reflection_sha256": "a08830c1cebf817161430e98e1fe9c6d7188c525636a7b818f6c521975078ca2",
+          "result_sha256": "7dec2ecb12be5e6c30b63fd0a05d9c78f1021ce1c2b447c7adc1e8c0983f7db8"
+        },
+        "task_id": "55f887bdc1cc1699"
+      },
+      {
+        "format_prefix": "",
+        "human_second_review": false,
+        "residual_semantic_label": "U",
+        "residual_sha256": "766e37c4dd139c0dd8f5f5fbacd3d01454868e10844b1da2ab1a9ad95f1cd295",
+        "residual_text": "Plan: I failed to successfully heat the apple because I did not correctly use the microwave or any other heating appliance. If that didn't work, I should have tried using the stoveburner by placing the apple on it and turning it on. If the stoveburner also failed, I should have checked if the apple was already hot or if there was a different method to heat it. Finally, if all else failed, I should have placed the apple in the fridge as instructed, even if it wasn't hot, to complete the task. I should avoid trying multiple actions on the same object without checking if they are effective.",
+        "retained_spans": [
+          {
+            "end": 123,
+            "start": 0
+          },
+          {
+            "end": 336,
+            "start": 228
+          },
+          {
+            "end": 466,
+            "start": 337
+          },
+          {
+            "end": 600,
+            "start": 467
+          },
+          {
+            "end": 698,
+            "start": 601
+          }
+        ],
+        "review_basis": "Full source and reconstructed residual read by Codex; other advice may remain incorrect",
+        "source": {
+          "cell_id": "state-69b7fb1c70f5d271-2101-oldest_error",
+          "label": "E",
+          "reflection_sha256": "04bc44750d6b300aba56f4798392fbc3f553c63b686f8548981252a25b8073f9",
+          "result_sha256": "86fc5a994866717c2895f5902e4fa1a0624e64dbe0bff5dbcbcba186f35b8c54"
+        },
+        "task_id": "69b7fb1c70f5d271"
+      },
+      {
+        "format_prefix": "",
+        "human_second_review": false,
+        "residual_semantic_label": "U",
+        "residual_sha256": "e4775ea6046908121bef1ac3e544826bd95366a96f44a2313a07246b7ac4a579",
+        "residual_text": "New plan: I failed to locate a mug in the environment. I should systematically check all possible locations where a mug might be found, such as cabinets, drawers, countertops, dining tables, and the sink basin, before attempting to heat it. I need to ensure I do not skip any location and thoroughly search each one before moving on.",
+        "retained_spans": [
+          {
+            "end": 54,
+            "start": 0
+          },
+          {
+            "end": 240,
+            "start": 55
+          },
+          {
+            "end": 440,
+            "start": 348
+          }
+        ],
+        "review_basis": "Full source and reconstructed residual read by Codex; other advice may remain incorrect",
+        "source": {
+          "cell_id": "state-790b6f6fefeac9d1-2101-newest_error",
+          "label": "E",
+          "reflection_sha256": "4fa8e535717b69f0803fb6f7b97e2c99d6305d755b7cabe5d2fedd0831fa30dc",
+          "result_sha256": "29ee37142775675e53fd4dd96079ceee8a2906bf01d8f2e094b42187a62d182b"
+        },
+        "task_id": "790b6f6fefeac9d1"
+      },
+      {
+        "format_prefix": "Plan: ",
+        "human_second_review": false,
+        "residual_semantic_label": "U",
+        "residual_sha256": "51b2c0f8eb74591db3c6f0960b8e6c9115ad069307b3e0ac74bc3b99275b7d2a",
+        "residual_text": "Plan: I should have first confirmed the functionality of the microwave by attempting to heat a different object, such as a cup or bowl, before using it on the mug. If not, I should have tried a different appliance, like the stoveburner, and ensured the mug was properly placed on it. Additionally, I should have checked if the mug was heatable by attempting to heat it on a different stoveburner or toaster before concluding it was unheatable. I will now prioritize testing the microwave with a different object to determine its functionality before proceeding with heating the mug.",
+        "retained_spans": [
+          {
+            "end": 319,
+            "start": 162
+          },
+          {
+            "end": 522,
+            "start": 403
+          },
+          {
+            "end": 682,
+            "start": 523
+          },
+          {
+            "end": 821,
+            "start": 683
+          }
+        ],
+        "review_basis": "Full source and reconstructed residual read by Codex; other advice may remain incorrect",
+        "source": {
+          "cell_id": "state-bf6d3dba86f7f0e4-2101-oldest_correct",
+          "label": "E",
+          "reflection_sha256": "559a4b6f41e61da8aa0b0ee66a918cccd61b2dcb598c0c00d26b5c7956dc59eb",
+          "result_sha256": "da625a565ec2b75cce7a0d191de346e656238fb2ac72fc440ffe3286fe0a478b"
+        },
+        "task_id": "bf6d3dba86f7f0e4"
+      },
+      {
+        "format_prefix": "",
+        "human_second_review": false,
+        "residual_semantic_label": "U",
+        "residual_sha256": "7ddb471d56dbd8f4b3a24545c24aca19491eba14844e619df74e2c835a8f4664",
+        "residual_text": "Plan: I was unsuccessful in heating the egg due to incorrect command syntax and improper use of the microwave and stoveburner. I should have first confirmed the correct command format for heating, such as \"heat egg 1 in microwave 1\" or \"heat egg 1 on stoveburner 1\". I should also have ensured the microwave was closed before heating. If heating failed, I should have tried a different method, such as placing the egg on the stoveburner and using the correct command to heat it. Finally, if all else failed, I should have double-checked if the egg was in my inventory before attempting to place it in the fridge.",
+        "retained_spans": [
+          {
+            "end": 126,
+            "start": 0
+          },
+          {
+            "end": 266,
+            "start": 127
+          },
+          {
+            "end": 455,
+            "start": 388
+          },
+          {
+            "end": 599,
+            "start": 456
+          },
+          {
+            "end": 733,
+            "start": 600
+          }
+        ],
+        "review_basis": "Full source and reconstructed residual read by Codex; other advice may remain incorrect",
+        "source": {
+          "cell_id": "state-bf7043e154cc1d53-2101-single_generic",
+          "label": "E",
+          "reflection_sha256": "0915f2d030e18ceb5028170b53cb967edb263ef5a2ccda03cd8d3c512f922d24",
+          "result_sha256": "ab5c3690c7d24d18bd25d635ccbe56abd9b57f96781d92cb419614a4bb878e03"
+        },
+        "task_id": "bf7043e154cc1d53"
+      },
+      {
+        "format_prefix": "Plan: ",
+        "human_second_review": false,
+        "residual_semantic_label": "U",
+        "residual_sha256": "4d8ec8a6fc5042c8d17fb8921af570d421f6dba15cb2b4efdafc8439e994028f",
+        "residual_text": "Plan: I also need to ensure that the microwave is functioning properly by checking if it can heat other objects. If the microwave is not working, I should try using the stoveburner or toaster as alternative heating methods. If all else fails, I should try placing the cup on the countertop after confirming it is heated through another method.",
+        "retained_spans": [
+          {
+            "end": 210,
+            "start": 104
+          },
+          {
+            "end": 321,
+            "start": 211
+          },
+          {
+            "end": 576,
+            "start": 457
+          }
+        ],
+        "review_basis": "Full source and reconstructed residual read by Codex; other advice may remain incorrect",
+        "source": {
+          "cell_id": "state-d534fcfe5e56c028-2101-single_error",
+          "label": "E",
+          "reflection_sha256": "0dbccf2ad7934d771f5ba78e7cd182db6d278026967bad6968199a0eb1e477ab",
+          "result_sha256": "e7e0a451456da0f18588a84631daa1cb83fcb9c6e0179bd3adec1d2a7cdb71ad"
+        },
+        "task_id": "d534fcfe5e56c028"
+      },
+      {
+        "format_prefix": "Plan: ",
+        "human_second_review": false,
+        "residual_semantic_label": "U",
+        "residual_sha256": "81925de4239c9d3158cb5e2ce9533b3f5985e86835609de5fa7ed1e12239a932",
+        "residual_text": "Plan: Additionally, after heating the cup, I should have directly placed it on a shelf without attempting to move other items. I will avoid unnecessary actions and focus on completing each step in order.",
+        "retained_spans": [
+          {
+            "end": 416,
+            "start": 296
+          },
+          {
+            "end": 615,
+            "start": 539
+          }
+        ],
+        "review_basis": "Full source and reconstructed residual read by Codex; other advice may remain incorrect",
+        "source": {
+          "cell_id": "state-dae15e890956dd5e-2101-single_error",
+          "label": "E",
+          "reflection_sha256": "16bf36e6c687f5d6125b7fed9816c9e21cff71766186db5659666ec85febce63",
+          "result_sha256": "fd801447096efa55011b727575dd46721e93bd5bc0d6ead822df13969b7e2b9d"
+        },
+        "task_id": "dae15e890956dd5e"
+      },
+      {
+        "format_prefix": "Plan: ",
+        "human_second_review": false,
+        "residual_semantic_label": "U",
+        "residual_sha256": "6e2deec7cb75f0088402931883ebc60bc2cfc8e67fac06e7ac78bdacac5340f4",
+        "residual_text": "Plan: Additionally, I should have checked if the microwave was closed before heating. If commands fail, I should try alternative syntax or check the state of the microwave and egg.",
+        "retained_spans": [
+          {
+            "end": 437,
+            "start": 358
+          },
+          {
+            "end": 636,
+            "start": 542
+          }
+        ],
+        "review_basis": "Full source and reconstructed residual read by Codex; other advice may remain incorrect",
+        "source": {
+          "cell_id": "state-dd93ff2604e30529-2101-oldest_error",
+          "label": "E",
+          "reflection_sha256": "ae747c0dd9b022a823e71c09ed93b3c440d4dd7e89404083b6ab7f84de06654c",
+          "result_sha256": "99b4f4c87ae4649070024cbe18194ccabd03f65981bd65afadcde4324782a1ba"
+        },
+        "task_id": "dd93ff2604e30529"
+      },
+      {
+        "format_prefix": "Plan: ",
+        "human_second_review": false,
+        "residual_semantic_label": "U",
+        "residual_sha256": "1842ba8a5cc958f21b28d0aeb60c2ba83db78e8b2d0039e3e339040c37968a1b",
+        "residual_text": "Plan: I should have first checked if the microwave is functional by attempting to heat an empty item or using a known working object. If the microwave is non-functional, I should have attempted to heat the apple using an alternative method, such as the stoveburner. After heating, I should have ensured the apple was in my inventory before attempting to place it in the garbagecan, and if it wasn't accepted, I should have tried a different garbagecan or checked if the apple was already in the garbagecan. I will now systematically check the microwave's functionality first, then proceed with heating and disposal.",
+        "retained_spans": [
+          {
+            "end": 251,
+            "start": 124
+          },
+          {
+            "end": 383,
+            "start": 252
+          },
+          {
+            "end": 624,
+            "start": 384
+          },
+          {
+            "end": 733,
+            "start": 625
+          }
+        ],
+        "review_basis": "Full source and reconstructed residual read by Codex; other advice may remain incorrect",
+        "source": {
+          "cell_id": "state-e4244c54d52f3326-2101-newest_error",
+          "label": "E",
+          "reflection_sha256": "844bfcd27656dea55ea62251c9f8d8aadeec58685651b1f90a935d1dab150441",
+          "result_sha256": "88327d3048fc4779643c3b95f28584c6f87d7861b3b5bcf693f8a529f4edd359"
+        },
+        "task_id": "e4244c54d52f3326"
+      },
+      {
+        "format_prefix": "Plan: ",
+        "human_second_review": false,
+        "residual_semantic_label": "U",
+        "residual_sha256": "26dcc1932904cf456ded6efbbd02461e0d2cda8f12f7635c03f2e32d5c39ac42",
+        "residual_text": "Plan: Additionally, I should have checked if the microwave was functioning properly by attempting to heat a known heatable item, such as a cup or a pan. I will also ensure that I use the correct syntax for removing items from the microwave, such as using \"drop\" or \"take\" when possible. Next time, I will prioritize clearing the microwave before attempting to heat a new item.",
+        "retained_spans": [
+          {
+            "end": 346,
+            "start": 200
+          },
+          {
+            "end": 480,
+            "start": 347
+          },
+          {
+            "end": 570,
+            "start": 481
+          }
+        ],
+        "review_basis": "Full source and reconstructed residual read by Codex; other advice may remain incorrect",
+        "source": {
+          "cell_id": "state-f8864bd2f58af715-2101-newest_error",
+          "label": "E",
+          "reflection_sha256": "85314be2cc5182a0b00fad74a872ddb7a7541d3d4a87b3a1b8faedf9e520ee4b",
+          "result_sha256": "8b3436319b395561b3facc9532b52537f55664849b1433298be632f21a5bbd7f"
+        },
+        "task_id": "f8864bd2f58af715"
+      }
+    ],
+    "human_second_review": false,
+    "operation": "Concatenate retained source character spans in order, separated by one space, with optional Plan format prefix; no new task fact added",
+    "parent_protocol_sha256": "acac63324bd9680f32d9b6ffef74e5651507cffadb506fb5558e91a27a8974e3",
+    "schema_version": 1,
+    "selection": "All twelve previously fixed E sources; no selection by native/control outcome",
+    "sha256": "a44b4c2d721ff045354f04dbdc30a57332ed06a12cd26de41823c0ec911abf3c"
+  },
+  "reused_controls": [
+    {
+      "condition": "N_E",
+      "id": "residual-02088717ce4b3889-2101-N_E",
+      "identity_sha256": "f92eff2d654f9f15e193aeb0572bc16d7df9b1142da2e9f06dacd80b8f92b18c",
+      "labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "memory_sha256": "cc645d21799da26b14711b15ed88d31a31b00e0d80ab2546eda217707cf1cdcb",
+      "result_sha256": "d8fc14fad47127f70645ff305f09859b42af33cfd8438c42d43ba104e8a23da0",
+      "seed": 2101,
+      "source_cell_id": "middle-02088717ce4b3889-E",
+      "source_run": "runs/reflexion-middle-context-20261023",
+      "task_id": "02088717ce4b3889"
+    },
+    {
+      "condition": "N_C",
+      "id": "residual-02088717ce4b3889-2101-N_C",
+      "identity_sha256": "95176ec5990a6c665077720ba416d20aa1dde8eb301f42f3237dea757b29bece",
+      "labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "memory_sha256": "a40bc7c5c5dc9ac47deb05f4699081a8680c887adfb85c0e1d6e7a2adf22bce3",
+      "result_sha256": "adabe41566df85f971d4f12c1efe6874a93d83f8f7abab08541d379f2585efaa",
+      "seed": 2101,
+      "source_cell_id": "middle-02088717ce4b3889-C",
+      "source_run": "runs/reflexion-middle-context-20261023",
+      "task_id": "02088717ce4b3889"
+    },
+    {
+      "condition": "N_C",
+      "id": "residual-4a3978c7981b641a-2101-N_C",
+      "identity_sha256": "ccec20486e91db58b3e26b170ba76be6072dc2e3f6c6de111a0739d513eb9599",
+      "labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "memory_sha256": "a40bc7c5c5dc9ac47deb05f4699081a8680c887adfb85c0e1d6e7a2adf22bce3",
+      "result_sha256": "c9b1668820eb0b8e157a35221ff76dbb6660d6044c38c2d2d7a43f7b0cf4c2dd",
+      "seed": 2101,
+      "source_cell_id": "middle-4a3978c7981b641a-C",
+      "source_run": "runs/reflexion-middle-context-20261023",
+      "task_id": "4a3978c7981b641a"
+    },
+    {
+      "condition": "N_E",
+      "id": "residual-4a3978c7981b641a-2101-N_E",
+      "identity_sha256": "f4418da1b8f01e0290b4353474025de06b87bc17e3c829e92d70727c7bca3b09",
+      "labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "memory_sha256": "cc645d21799da26b14711b15ed88d31a31b00e0d80ab2546eda217707cf1cdcb",
+      "result_sha256": "4abb2556ac61fe592f714c3ce482b3fb900148f26f4aa4dfee88009354296ad6",
+      "seed": 2101,
+      "source_cell_id": "middle-4a3978c7981b641a-E",
+      "source_run": "runs/reflexion-middle-context-20261023",
+      "task_id": "4a3978c7981b641a"
+    },
+    {
+      "condition": "N_C",
+      "id": "residual-55f887bdc1cc1699-2101-N_C",
+      "identity_sha256": "b3425c87fe6448532c0aaa6beec532446697e4440076668c74449f8aa54e739e",
+      "labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "memory_sha256": "a40bc7c5c5dc9ac47deb05f4699081a8680c887adfb85c0e1d6e7a2adf22bce3",
+      "result_sha256": "9cec8a611635d2a218c6437f3b54f6a616497a31eddb7c5361b555d50c017194",
+      "seed": 2101,
+      "source_cell_id": "middle-55f887bdc1cc1699-C",
+      "source_run": "runs/reflexion-middle-context-20261023",
+      "task_id": "55f887bdc1cc1699"
+    },
+    {
+      "condition": "N_E",
+      "id": "residual-55f887bdc1cc1699-2101-N_E",
+      "identity_sha256": "c789a504e0f10587bc2fe4bf7664c823ec48f025cdb5fb493a3d90f9ea0f5b54",
+      "labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "memory_sha256": "cc645d21799da26b14711b15ed88d31a31b00e0d80ab2546eda217707cf1cdcb",
+      "result_sha256": "ce6fc5132742eda30025d321c496af9361b4a8f80760e9d261e53237bdeb43bc",
+      "seed": 2101,
+      "source_cell_id": "middle-55f887bdc1cc1699-E",
+      "source_run": "runs/reflexion-middle-context-20261023",
+      "task_id": "55f887bdc1cc1699"
+    },
+    {
+      "condition": "N_C",
+      "id": "residual-69b7fb1c70f5d271-2101-N_C",
+      "identity_sha256": "ef76f8b08d0d2b4d29ff94adc2aff186d6a02d886656135cac0ab4d7c9714cc7",
+      "labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "memory_sha256": "a40bc7c5c5dc9ac47deb05f4699081a8680c887adfb85c0e1d6e7a2adf22bce3",
+      "result_sha256": "bdc60a6e913bc6b5f6028cd7af525e86eb53d3e2a8b0b87d77e12e76e5f79f50",
+      "seed": 2101,
+      "source_cell_id": "middle-69b7fb1c70f5d271-C",
+      "source_run": "runs/reflexion-middle-context-20261023",
+      "task_id": "69b7fb1c70f5d271"
+    },
+    {
+      "condition": "N_E",
+      "id": "residual-69b7fb1c70f5d271-2101-N_E",
+      "identity_sha256": "03437d5ab0f43efc58d6577faf6b00fcd68eedbedfdafdf3c446100ff484fad4",
+      "labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "memory_sha256": "cc645d21799da26b14711b15ed88d31a31b00e0d80ab2546eda217707cf1cdcb",
+      "result_sha256": "ed0d1a174e7ab76a8201c1c63c71943ec1c053e20d299d692acaa15b2e3c3467",
+      "seed": 2101,
+      "source_cell_id": "middle-69b7fb1c70f5d271-E",
+      "source_run": "runs/reflexion-middle-context-20261023",
+      "task_id": "69b7fb1c70f5d271"
+    },
+    {
+      "condition": "N_E",
+      "id": "residual-790b6f6fefeac9d1-2101-N_E",
+      "identity_sha256": "f06d9efc50cae7a7046828ce84af2ec2817ae42e1630b13d911bec3b2671cacf",
+      "labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "memory_sha256": "cc645d21799da26b14711b15ed88d31a31b00e0d80ab2546eda217707cf1cdcb",
+      "result_sha256": "641964dcc70b09428edf20fac207a38834d4c3124155e5e48d559c94cfd36e9f",
+      "seed": 2101,
+      "source_cell_id": "middle-790b6f6fefeac9d1-E",
+      "source_run": "runs/reflexion-middle-context-20261023",
+      "task_id": "790b6f6fefeac9d1"
+    },
+    {
+      "condition": "N_C",
+      "id": "residual-790b6f6fefeac9d1-2101-N_C",
+      "identity_sha256": "88ab6bff0ecbc241fbb9284791c1744c650d7985f52f69a87390025778eb0a6e",
+      "labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "memory_sha256": "a40bc7c5c5dc9ac47deb05f4699081a8680c887adfb85c0e1d6e7a2adf22bce3",
+      "result_sha256": "de256d3e155049e1ff40527d63a6c51012dfa9f00ca840009143ed08462ff15a",
+      "seed": 2101,
+      "source_cell_id": "middle-790b6f6fefeac9d1-C",
+      "source_run": "runs/reflexion-middle-context-20261023",
+      "task_id": "790b6f6fefeac9d1"
+    },
+    {
+      "condition": "N_C",
+      "id": "residual-bf6d3dba86f7f0e4-2101-N_C",
+      "identity_sha256": "e5ee6729276eeb5b979207e08bf9363478958e52cdf78bdb0ee092e884c5b2ea",
+      "labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "memory_sha256": "a40bc7c5c5dc9ac47deb05f4699081a8680c887adfb85c0e1d6e7a2adf22bce3",
+      "result_sha256": "6dab0af1fbd7a78e5768cb02676c83e0f852ba19851416131b62f276ddf084cb",
+      "seed": 2101,
+      "source_cell_id": "middle-bf6d3dba86f7f0e4-C",
+      "source_run": "runs/reflexion-middle-context-20261023",
+      "task_id": "bf6d3dba86f7f0e4"
+    },
+    {
+      "condition": "N_E",
+      "id": "residual-bf6d3dba86f7f0e4-2101-N_E",
+      "identity_sha256": "b473a79f35140ed3a85486b2afd5a8095b9e5b6d56a9359f0ab214d1a0fe597c",
+      "labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "memory_sha256": "cc645d21799da26b14711b15ed88d31a31b00e0d80ab2546eda217707cf1cdcb",
+      "result_sha256": "075045826def8cb7069d6c1b3f2163ab4e1ad42149ce4e15e8ba6bc19ab9dbc0",
+      "seed": 2101,
+      "source_cell_id": "middle-bf6d3dba86f7f0e4-E",
+      "source_run": "runs/reflexion-middle-context-20261023",
+      "task_id": "bf6d3dba86f7f0e4"
+    },
+    {
+      "condition": "N_C",
+      "id": "residual-bf7043e154cc1d53-2101-N_C",
+      "identity_sha256": "fa89397dcf1ba6a083110033ee4897e46f6e6120dad00122b6b4c75d88005d8c",
+      "labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "memory_sha256": "a40bc7c5c5dc9ac47deb05f4699081a8680c887adfb85c0e1d6e7a2adf22bce3",
+      "result_sha256": "7c578413bca60983ba1590db86097acc5dbb4f25a541bf5503435e651af0a377",
+      "seed": 2101,
+      "source_cell_id": "middle-bf7043e154cc1d53-C",
+      "source_run": "runs/reflexion-middle-context-20261023",
+      "task_id": "bf7043e154cc1d53"
+    },
+    {
+      "condition": "N_E",
+      "id": "residual-bf7043e154cc1d53-2101-N_E",
+      "identity_sha256": "7752ca8575f35a8f45722ee80c3bef2af404a94df84671f5f5b5f32cc76f9842",
+      "labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "memory_sha256": "cc645d21799da26b14711b15ed88d31a31b00e0d80ab2546eda217707cf1cdcb",
+      "result_sha256": "0acad36b7b7760be6527c3ed300c3eefba54f4669335812df5d51fbb83f8b951",
+      "seed": 2101,
+      "source_cell_id": "middle-bf7043e154cc1d53-E",
+      "source_run": "runs/reflexion-middle-context-20261023",
+      "task_id": "bf7043e154cc1d53"
+    },
+    {
+      "condition": "N_C",
+      "id": "residual-d534fcfe5e56c028-2101-N_C",
+      "identity_sha256": "b0123f9e9d99ab002a31757fcf55dcc61c7d0ad453dcfaf65e8a620310d3c664",
+      "labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "memory_sha256": "a40bc7c5c5dc9ac47deb05f4699081a8680c887adfb85c0e1d6e7a2adf22bce3",
+      "result_sha256": "8e8a97066f08d4f84245553419d38b79a92ec69c99def2a350b2a94ea3b0599d",
+      "seed": 2101,
+      "source_cell_id": "middle-d534fcfe5e56c028-C",
+      "source_run": "runs/reflexion-middle-context-20261023",
+      "task_id": "d534fcfe5e56c028"
+    },
+    {
+      "condition": "N_E",
+      "id": "residual-d534fcfe5e56c028-2101-N_E",
+      "identity_sha256": "b41a45f81cf6d5e1b88b06af056c0fae15723288174d1ca53aa11faae68bd104",
+      "labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "memory_sha256": "cc645d21799da26b14711b15ed88d31a31b00e0d80ab2546eda217707cf1cdcb",
+      "result_sha256": "051e97d101c3a0c5258b2fd0db97052b97b0db3f5a7ba2e2677a909c316835fb",
+      "seed": 2101,
+      "source_cell_id": "middle-d534fcfe5e56c028-E",
+      "source_run": "runs/reflexion-middle-context-20261023",
+      "task_id": "d534fcfe5e56c028"
+    },
+    {
+      "condition": "N_E",
+      "id": "residual-dae15e890956dd5e-2101-N_E",
+      "identity_sha256": "55233af3853d79757f1955d67d7effe9582b5caa57792966eee1186f4e68cb57",
+      "labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "memory_sha256": "cc645d21799da26b14711b15ed88d31a31b00e0d80ab2546eda217707cf1cdcb",
+      "result_sha256": "50f47f8c2e6435053cfa3295fa910de657a349c6a342d976abdf2f1ff1cd367d",
+      "seed": 2101,
+      "source_cell_id": "middle-dae15e890956dd5e-E",
+      "source_run": "runs/reflexion-middle-context-20261023",
+      "task_id": "dae15e890956dd5e"
+    },
+    {
+      "condition": "N_C",
+      "id": "residual-dae15e890956dd5e-2101-N_C",
+      "identity_sha256": "7d622311a6cc01a73561299557f5fa64596a4271f25bef3adb42efabbfd13f58",
+      "labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "memory_sha256": "a40bc7c5c5dc9ac47deb05f4699081a8680c887adfb85c0e1d6e7a2adf22bce3",
+      "result_sha256": "3580edda918495a915034f79c77b340db0e55c476791a20b88ebcc9d10b7947d",
+      "seed": 2101,
+      "source_cell_id": "middle-dae15e890956dd5e-C",
+      "source_run": "runs/reflexion-middle-context-20261023",
+      "task_id": "dae15e890956dd5e"
+    },
+    {
+      "condition": "N_C",
+      "id": "residual-dd93ff2604e30529-2101-N_C",
+      "identity_sha256": "d1182cccc7938809515d5e1ad361df5235de92196a2a73da1538064f52ece3bf",
+      "labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "memory_sha256": "a40bc7c5c5dc9ac47deb05f4699081a8680c887adfb85c0e1d6e7a2adf22bce3",
+      "result_sha256": "fb207eb24349ec41f047ba67ec4d60350e5cbf8f67216be074c2d482dbaf5618",
+      "seed": 2101,
+      "source_cell_id": "middle-dd93ff2604e30529-C",
+      "source_run": "runs/reflexion-middle-context-20261023",
+      "task_id": "dd93ff2604e30529"
+    },
+    {
+      "condition": "N_E",
+      "id": "residual-dd93ff2604e30529-2101-N_E",
+      "identity_sha256": "281857fa51939cff888df8cbc27bded08c24d3cb44c9280283f6d11c38fec330",
+      "labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "memory_sha256": "cc645d21799da26b14711b15ed88d31a31b00e0d80ab2546eda217707cf1cdcb",
+      "result_sha256": "1adea94e21bf7465f8479871f0cbeab5db671a5bf14a93c1e4e2a2395c095646",
+      "seed": 2101,
+      "source_cell_id": "middle-dd93ff2604e30529-E",
+      "source_run": "runs/reflexion-middle-context-20261023",
+      "task_id": "dd93ff2604e30529"
+    },
+    {
+      "condition": "N_C",
+      "id": "residual-e4244c54d52f3326-2101-N_C",
+      "identity_sha256": "368c560c2c19f3d5224b308d1edebd1c603077aa67dbd2005db8b656637a8cd8",
+      "labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "memory_sha256": "a40bc7c5c5dc9ac47deb05f4699081a8680c887adfb85c0e1d6e7a2adf22bce3",
+      "result_sha256": "3fd0c779490892c78619788723be5c5885ed0e267dd921c5149d10a4ff11387b",
+      "seed": 2101,
+      "source_cell_id": "middle-e4244c54d52f3326-C",
+      "source_run": "runs/reflexion-middle-context-20261023",
+      "task_id": "e4244c54d52f3326"
+    },
+    {
+      "condition": "N_E",
+      "id": "residual-e4244c54d52f3326-2101-N_E",
+      "identity_sha256": "2499e0a5c3eca4474725cb46351f3a80f8379d829b7c73e3dd48d070ddd5d798",
+      "labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "memory_sha256": "cc645d21799da26b14711b15ed88d31a31b00e0d80ab2546eda217707cf1cdcb",
+      "result_sha256": "4571c450b466c5c26aba7e58e7069b8409f33e8fb503d1380f604a93ae8d9a53",
+      "seed": 2101,
+      "source_cell_id": "middle-e4244c54d52f3326-E",
+      "source_run": "runs/reflexion-middle-context-20261023",
+      "task_id": "e4244c54d52f3326"
+    },
+    {
+      "condition": "N_C",
+      "id": "residual-f8864bd2f58af715-2101-N_C",
+      "identity_sha256": "c4d2052a07d7fa0c185e1bc439c9122e3202fa79fabff4112f27235d401077b9",
+      "labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "memory_sha256": "a40bc7c5c5dc9ac47deb05f4699081a8680c887adfb85c0e1d6e7a2adf22bce3",
+      "result_sha256": "61bb95128a5d24e3f9237da43202b9c2078aabf5b16a56b397d02d81e522fc8e",
+      "seed": 2101,
+      "source_cell_id": "middle-f8864bd2f58af715-C",
+      "source_run": "runs/reflexion-middle-context-20261023",
+      "task_id": "f8864bd2f58af715"
+    },
+    {
+      "condition": "N_E",
+      "id": "residual-f8864bd2f58af715-2101-N_E",
+      "identity_sha256": "9bde8927203acc298975be58ea6062a0b79a09f471cb5304d02f9acb6ac1b5a2",
+      "labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "memory_sha256": "cc645d21799da26b14711b15ed88d31a31b00e0d80ab2546eda217707cf1cdcb",
+      "result_sha256": "632e828dcac06e494e2c561256867863cf29f5865b99c9765f44d175c2554807",
+      "seed": 2101,
+      "source_cell_id": "middle-f8864bd2f58af715-E",
+      "source_run": "runs/reflexion-middle-context-20261023",
+      "task_id": "f8864bd2f58af715"
+    }
+  ],
+  "schema_version": 1,
+  "scientific_questions": [
+    "Does residual native text alter task success with canonical middle E/C fixed?",
+    "Does residual text change the benefit of correcting the target rule?",
+    "Do the success and failure-reflection mechanisms require different starting information?"
+  ],
+  "scope": "Paired residual-text diagnostic on twelve known development tasks",
+  "seeds": [
+    2101,
+    2102
+  ],
+  "sha256": "d88f3024b07c37eac06693e877e6c98e3ca7677f3f88afbec048ae8a27680981",
+  "source_hashes": {
+    "__init__.py": "9aa84454aaf25ce212ded4c089d18e335cb17460edd5e66ec4c522aaeb8fbe16",
+    "__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+    "alfworld.py": "89fcf795fdb9d1c1d19ff89b2ddc1bc199f5abf83c279bdf5d1bb7db9671c4c9",
+    "audit.py": "28e256ee2d5419f81e53b6caa4605102bdb9155583a04b04d4a66a6387bb666b",
+    "cli.py": "6d03e369f38c94879a8d7550baa5e51ead13ebc5e5f618df3a7ec8dce53b789d",
+    "dataset.py": "e580c7baf20b6d0c4669c24521881db3eaf44b23874c214e4b2de6967e5844e3",
+    "env.py": "4e79411d8a605197692bafc78431c4f7edde552c0d2977b3ef1682ab26346e7f",
+    "io.py": "cc5ad9729a4c4448f5b97740d6e8494cafe892faf5cbea1afd5d7079ba9bbe51",
+    "llm.py": "061bab01c82117589802fe2fb4251aedeb8f7f73bc022551e5b6f3fdd779acd4",
+    "memory.py": "7327d609005e2a884c2c8176a8a74149bbcb57f015432fa51c20606cc98b7539",
+    "prompts.py": "b49634af198a4907aa8d5533221facbe623e7b417835140bf338265c82b55ed5",
+    "react.py": "b48ad0a2dc664a607f06a6020871325a2bf5ccf89f9064bb18dfa6dffba78e82",
+    "reference.py": "77631bf0cfe30f313a0349cfc269202f5e31be7f01cd8d4d194ea32677583e4a",
+    "reference_run.py": "5577e2521e6a08c268fc444896be87570df350c8b79d5ca90a974946166a63d2",
+    "reflexion.py": "a38a847a6f7991038fe3e02505b20f196d95be552a86451eee4088526cff2a08",
+    "runner.py": "e71596acf5b39b4ca53b6fb80aaa5fb0e987c9f4cab86e46b19fb94f63879f47"
+  },
+  "source_presence_freeze_sha256": "eecfe6b8a49216580cf76e3d49cda145c6fcc6c3624fa13220a393507601b85b"
+}
