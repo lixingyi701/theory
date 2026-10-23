@@ -1,0 +1,149 @@
+{
+  "completed_cells": 8,
+  "completed_tasks": 4,
+  "costs_incremental": {
+    "dispatched_calls": 360,
+    "input_tokens_known": 1078396,
+    "output_tokens_known": 14747,
+    "saved_responses": 360,
+    "truncated_responses": 0,
+    "uncertain_or_unrecorded_attempts": 0,
+    "usage_missing_responses": 0
+  },
+  "expected_cells": 8,
+  "expected_tasks": 4,
+  "phase": "validation",
+  "reused_cells": 0,
+  "rows": [
+    {
+      "decisions": 49,
+      "labels": [
+        "E",
+        "C",
+        "C"
+      ],
+      "memory_sha256": "b2f5120dfa3baca8bccc1520ac9fac36ffeec8e0ddc441145030125276ff137f",
+      "result_file_sha256": "700f4a926eaf101a5e346075531472815b0012b7c9f5eefb0c45c5c438b67892",
+      "result_path": "runs/reflexion-state-validation-20261023/cases/762a7487ace813d7/error_oldest/trial-01/result.json",
+      "reused": false,
+      "source_calls": 50,
+      "state": "error_oldest",
+      "success": false,
+      "task_id": "762a7487ace813d7"
+    },
+    {
+      "decisions": 49,
+      "labels": [
+        "C",
+        "C",
+        "E"
+      ],
+      "memory_sha256": "55f40fe6a0dda98ddad909545eb7e009d00f69e3dba036ae21adb85f8a6f8a8e",
+      "result_file_sha256": "3521efd14a2cd5a093f689ba34c8399b39d9dac9c4a7c24e65ee514e64c02e8e",
+      "result_path": "runs/reflexion-state-validation-20261023/cases/762a7487ace813d7/error_newest/trial-01/result.json",
+      "reused": false,
+      "source_calls": 50,
+      "state": "error_newest",
+      "success": false,
+      "task_id": "762a7487ace813d7"
+    },
+    {
+      "decisions": 49,
+      "labels": [
+        "E",
+        "C",
+        "C"
+      ],
+      "memory_sha256": "ef0e5999fe086aa78661798bb3cf3e2729fd65a7aecaf82653c37c53d3632f15",
+      "result_file_sha256": "59165a3566a3c42d8ce2b44cd340e51368c9aff94ec379ce905635c72053a5d7",
+      "result_path": "runs/reflexion-state-validation-20261023/cases/64aa51b30cab1f98/error_oldest/trial-01/result.json",
+      "reused": false,
+      "source_calls": 50,
+      "state": "error_oldest",
+      "success": false,
+      "task_id": "64aa51b30cab1f98"
+    },
+    {
+      "decisions": 49,
+      "labels": [
+        "C",
+        "C",
+        "E"
+      ],
+      "memory_sha256": "357dd97712b6698d816da4dfe07283da4fe1749545324e7ac4bc12c3b8f9adb8",
+      "result_file_sha256": "036f7d1d19e3d6c7289c903009db59ebcc7b7ea58da98177b3cbc0e7b0b8c766",
+      "result_path": "runs/reflexion-state-validation-20261023/cases/64aa51b30cab1f98/error_newest/trial-01/result.json",
+      "reused": false,
+      "source_calls": 50,
+      "state": "error_newest",
+      "success": false,
+      "task_id": "64aa51b30cab1f98"
+    },
+    {
+      "decisions": 41,
+      "labels": [
+        "E",
+        "C",
+        "C"
+      ],
+      "memory_sha256": "c0a3c92502b76e19bdeb786dd71794f1835de61eb1a5f0abb94f9c0a897df6f7",
+      "result_file_sha256": "58d5174b745b7c0f3342845a73cfed899c26453034b0a683b944d62b677a0d1b",
+      "result_path": "runs/reflexion-state-validation-20261023/cases/3e3fa991ee97689e/error_oldest/trial-01/result.json",
+      "reused": false,
+      "source_calls": 42,
+      "state": "error_oldest",
+      "success": false,
+      "task_id": "3e3fa991ee97689e"
+    },
+    {
+      "decisions": 33,
+      "labels": [
+        "C",
+        "C",
+        "E"
+      ],
+      "memory_sha256": "bbbee93b4d437809d5c1ea99d2f3fbde234a5abca3047a43ecd86eff714dd3b0",
+      "result_file_sha256": "45deeaac30443c76cf59e65f4e41e89ec54ade95aa9c9decc222dc97780ba91c",
+      "result_path": "runs/reflexion-state-validation-20261023/cases/3e3fa991ee97689e/error_newest/trial-01/result.json",
+      "reused": false,
+      "source_calls": 34,
+      "state": "error_newest",
+      "success": false,
+      "task_id": "3e3fa991ee97689e"
+    },
+    {
+      "decisions": 49,
+      "labels": [
+        "E",
+        "C",
+        "C"
+      ],
+      "memory_sha256": "86e244c6da1a36582bda7a2bae51e3bfebb1cdb6d045f6e15eb1b9169feb2f77",
+      "result_file_sha256": "32f5b022805be7f1bd61d9301e07d99d20f80ac29e15132f148fa25298b86980",
+      "result_path": "runs/reflexion-state-validation-20261023/cases/05f694718d71af12/error_oldest/trial-01/result.json",
+      "reused": false,
+      "source_calls": 50,
+      "state": "error_oldest",
+      "success": false,
+      "task_id": "05f694718d71af12"
+    },
+    {
+      "decisions": 33,
+      "labels": [
+        "C",
+        "C",
+        "E"
+      ],
+      "memory_sha256": "b316350bbc9481fbb531af76a1488fe444c8d579d12a8726ebbf1514188f94a1",
+      "result_file_sha256": "31ad21ef769c7105dd5f9a46394361557f1e94f1008b186317dd9f4394274427",
+      "result_path": "runs/reflexion-state-validation-20261023/cases/05f694718d71af12/error_newest/trial-01/result.json",
+      "reused": false,
+      "source_calls": 34,
+      "state": "error_newest",
+      "success": false,
+      "task_id": "05f694718d71af12"
+    }
+  ],
+  "scope": "Controlled memory-state development experiment with deliberate entry duplication",
+  "sha256": "a15651c38710749ad2b1990b79fa9f05565e41160625385072a25d772c197539"
+}

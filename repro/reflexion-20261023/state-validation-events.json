@@ -1,0 +1,269 @@
+{
+  "driver_sha256": "a24fd432411b3dc948750f15fa7bb10c2628372a45f3df533e2fa0d8812a29e2",
+  "protocol_sha256": "3652f90344cbfcbf7f8a0e49fc28d12be32047d5429f2abbe006f7c03cda6f75",
+  "rows": [
+    {
+      "competing_macros": [],
+      "held_successful_target_macros": [],
+      "new_reflection_sha256": [
+        "84b6d66590158b9b00e6ad55353ecb7969f31c573985a28fe77b863fa031e417"
+      ],
+      "other_failed_target_macros": [],
+      "reused": false,
+      "state": "error_oldest",
+      "success": false,
+      "target_device_placement_attempts": [
+        {
+          "accepted": true,
+          "action": "put cup 2 in microwave 1",
+          "held_before": "cup 2",
+          "index": 10,
+          "observation": "You move the cup 2 to the microwave 1."
+        }
+      ],
+      "target_picked_up": true,
+      "task_id": "762a7487ace813d7",
+      "trajectory_sha256": "7f5654d26b5ff4dbff7e7ee8e055ddfc15655da34337cc01ef8b261d7a3417a2",
+      "unexplained_successful_macros": [],
+      "wrong_precondition_chains": [
+        {
+          "accepted_placement_index": 10,
+          "action": "heat cup 2 with microwave 1",
+          "held_before": null,
+          "index": 12,
+          "observation": "Nothing happens."
+        },
+        {
+          "accepted_placement_index": 10,
+          "action": "heat cup 2 with microwave 1",
+          "held_before": null,
+          "index": 34,
+          "observation": "Nothing happens."
+        }
+      ]
+    },
+    {
+      "competing_macros": [],
+      "held_successful_target_macros": [],
+      "new_reflection_sha256": [
+        "445eba92d7cbc9a38a011c40a054c0669fbacca6d0aa780847e99e3b10c49608"
+      ],
+      "other_failed_target_macros": [],
+      "reused": false,
+      "state": "error_newest",
+      "success": false,
+      "target_device_placement_attempts": [
+        {
+          "accepted": true,
+          "action": "put cup 2 in microwave 1",
+          "held_before": "cup 2",
+          "index": 13,
+          "observation": "You move the cup 2 to the microwave 1."
+        }
+      ],
+      "target_picked_up": true,
+      "task_id": "762a7487ace813d7",
+      "trajectory_sha256": "41be7354d5a41e13ad1ffa2123b37f4084ef45f37540b46b15df2df24a988a1e",
+      "unexplained_successful_macros": [],
+      "wrong_precondition_chains": [
+        {
+          "accepted_placement_index": 13,
+          "action": "heat cup 2 with microwave 1",
+          "held_before": null,
+          "index": 15,
+          "observation": "Nothing happens."
+        }
+      ]
+    },
+    {
+      "competing_macros": [],
+      "held_successful_target_macros": [],
+      "new_reflection_sha256": [
+        "b04e9861c47741a0bc104d99f8b5e8e373c4743d94cd134900fdb372d2cdf512"
+      ],
+      "other_failed_target_macros": [],
+      "reused": false,
+      "state": "error_oldest",
+      "success": false,
+      "target_device_placement_attempts": [
+        {
+          "accepted": true,
+          "action": "put egg 2 in microwave 1",
+          "held_before": "egg 2",
+          "index": 15,
+          "observation": "You move the egg 2 to the microwave 1."
+        }
+      ],
+      "target_picked_up": true,
+      "task_id": "64aa51b30cab1f98",
+      "trajectory_sha256": "876cb05b9637451b4fb49b14e3131230aa0f7995179d6042622d4ca646b27464",
+      "unexplained_successful_macros": [],
+      "wrong_precondition_chains": [
+        {
+          "accepted_placement_index": 15,
+          "action": "heat egg 2 with microwave 1",
+          "held_before": null,
+          "index": 20,
+          "observation": "Nothing happens."
+        }
+      ]
+    },
+    {
+      "competing_macros": [
+        {
+          "action": "heat egg 2 with stoveburner 1",
+          "held_before": "egg 2",
+          "index": 38,
+          "observation": "Nothing happens."
+        },
+        {
+          "action": "heat egg 2 with stoveburner 1",
+          "held_before": "egg 2",
+          "index": 43,
+          "observation": "Nothing happens."
+        }
+      ],
+      "held_successful_target_macros": [],
+      "new_reflection_sha256": [
+        "c1da20930b06a5118060df5b673f4e12fdc3f46324ff2e81c14633949d97b541"
+      ],
+      "other_failed_target_macros": [],
+      "reused": false,
+      "state": "error_newest",
+      "success": false,
+      "target_device_placement_attempts": [
+        {
+          "accepted": true,
+          "action": "put egg 2 in microwave 1",
+          "held_before": "egg 2",
+          "index": 15,
+          "observation": "You move the egg 2 to the microwave 1."
+        }
+      ],
+      "target_picked_up": true,
+      "task_id": "64aa51b30cab1f98",
+      "trajectory_sha256": "bbc884fa330d3cd33cafcdfefbb00e779adeed935ab493cf857e01818bdf0dd1",
+      "unexplained_successful_macros": [],
+      "wrong_precondition_chains": []
+    },
+    {
+      "competing_macros": [],
+      "held_successful_target_macros": [],
+      "new_reflection_sha256": [
+        "503d31fde6d11f3cd88dd44db2a517fffcc535c841bdba718435febfa03e00f7"
+      ],
+      "other_failed_target_macros": [],
+      "reused": false,
+      "state": "error_oldest",
+      "success": false,
+      "target_device_placement_attempts": [
+        {
+          "accepted": true,
+          "action": "put mug 2 in microwave 1",
+          "held_before": "mug 2",
+          "index": 12,
+          "observation": "You move the mug 2 to the microwave 1."
+        }
+      ],
+      "target_picked_up": true,
+      "task_id": "3e3fa991ee97689e",
+      "trajectory_sha256": "c7a5765672109be855e3f970bd9f81be8332389912a3e178018a4e7a496fc71e",
+      "unexplained_successful_macros": [],
+      "wrong_precondition_chains": [
+        {
+          "accepted_placement_index": 12,
+          "action": "heat mug 2 with microwave 1",
+          "held_before": null,
+          "index": 14,
+          "observation": "Nothing happens."
+        }
+      ]
+    },
+    {
+      "competing_macros": [],
+      "held_successful_target_macros": [],
+      "new_reflection_sha256": [
+        "503d31fde6d11f3cd88dd44db2a517fffcc535c841bdba718435febfa03e00f7"
+      ],
+      "other_failed_target_macros": [],
+      "reused": false,
+      "state": "error_newest",
+      "success": false,
+      "target_device_placement_attempts": [
+        {
+          "accepted": true,
+          "action": "put mug 2 in microwave 1",
+          "held_before": "mug 2",
+          "index": 12,
+          "observation": "You move the mug 2 to the microwave 1."
+        }
+      ],
+      "target_picked_up": true,
+      "task_id": "3e3fa991ee97689e",
+      "trajectory_sha256": "03fed1d089df871c38a1d9f5915d1cca732ac89fde8ca57d261e7e821c7b5a52",
+      "unexplained_successful_macros": [],
+      "wrong_precondition_chains": [
+        {
+          "accepted_placement_index": 12,
+          "action": "heat mug 2 with microwave 1",
+          "held_before": null,
+          "index": 14,
+          "observation": "Nothing happens."
+        }
+      ]
+    },
+    {
+      "competing_macros": [],
+      "held_successful_target_macros": [],
+      "new_reflection_sha256": [
+        "a9dd4fab851c9625f496b54fe76a28b52acda524652a8f423b0c955ed050aa74"
+      ],
+      "other_failed_target_macros": [],
+      "reused": false,
+      "state": "error_oldest",
+      "success": false,
+      "target_device_placement_attempts": [
+        {
+          "accepted": true,
+          "action": "put egg 1 in microwave 1",
+          "held_before": "egg 1",
+          "index": 12,
+          "observation": "You move the egg 1 to the microwave 1."
+        }
+      ],
+      "target_picked_up": true,
+      "task_id": "05f694718d71af12",
+      "trajectory_sha256": "74244874aee9242bf74ddf20ebeeb990f6abe2b58078b8b5ef110fd8a771a4ee",
+      "unexplained_successful_macros": [],
+      "wrong_precondition_chains": []
+    },
+    {
+      "competing_macros": [],
+      "held_successful_target_macros": [],
+      "new_reflection_sha256": [
+        "b73442ff3d3d47458603c63d18dac9c930d4212be96986f7d1a4173b03c597f7"
+      ],
+      "other_failed_target_macros": [],
+      "reused": false,
+      "state": "error_newest",
+      "success": false,
+      "target_device_placement_attempts": [
+        {
+          "accepted": true,
+          "action": "put egg 1 in microwave 1",
+          "held_before": "egg 1",
+          "index": 12,
+          "observation": "You move the egg 1 to the microwave 1."
+        }
+      ],
+      "target_picked_up": true,
+      "task_id": "05f694718d71af12",
+      "trajectory_sha256": "02c0872b616dbc75568195e80b38e993f78be5ac01290e539b574ec2778db3bc",
+      "unexplained_successful_macros": [],
+      "wrong_precondition_chains": []
+    }
+  ],
+  "scope": "Observable actions and feedback; no automatic semantic belief labels",
+  "sha256": "de74667aa0bbec453de001e5e29730b5ab1f48f4cac863ec9cab47f0855c5cf3",
+  "summary_sha256": "a15651c38710749ad2b1990b79fa9f05565e41160625385072a25d772c197539"
+}

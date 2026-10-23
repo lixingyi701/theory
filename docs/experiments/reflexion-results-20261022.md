@@ -115,3 +115,7 @@ raw 的完整十次尝试运行最终仍为 5/12，78 次尝试、73 条反思�
 本阶段工件位于 `repro/reflexion-20261023/normalized-forks-{summary,analysis,semantic-review,protocol-audit,action-shapes}.json`。分析器对任务量词 `two` 的解析在最终汇总前修正，并用两物体任务的真实句式做回归检查；旧中间分析留存在服务器，修正记录为 `goal-analysis-correction.json`，没有重发模型请求。全部 27 项离线检查通过。
 
 本次追加额度使用 4210/6000 次调用；连同前一批累计 9410 次，响应全部保存。工程与开发分叉单元在额度内完成，账本见 `normalization-closeout.json`。
+
+## 操作前提与首次冻结预测
+
+后续[操作前提扩展](precondition-pilot-20261023.md)完成 24 个新首尝试及三个合格目标的五条件分叉，获得错误采用与反思回写轨迹。[受控窗口结果](state-prediction-20261023.md)进一步完成 28 个校准、8 个预测冻结后的验证单元；混合窗口全部失败，数量／位置模型均未优于总体均值。当前追加批次新增 2959 次，累计 Reflexion 调用 12369 次，全部响应保存。后续计划依据条目冲突、任务差异与回写证据继续校准。

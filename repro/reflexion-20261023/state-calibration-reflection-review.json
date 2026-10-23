@@ -1,0 +1,192 @@
+{
+  "calibration_summary_sha256": "d5b99eafd2edf985d6754c4d1970eec708a668843d57dc60e60578cf1dd0f5bd",
+  "counts": {
+    "A": 1,
+    "E": 16,
+    "U": 2
+  },
+  "failed_cells": 19,
+  "independent_tasks": 4,
+  "labels": {
+    "A": "Target placement advice is ambiguous and not treated as correction",
+    "C": "Explicitly corrects the target holding precondition without contradicting it",
+    "E": "Explicitly recommends or requires goal-object placement inside the microwave before heating",
+    "U": "Target premise not explicit; other erroneous recipes may remain"
+  },
+  "rows": [
+    {
+      "excerpt": "first placed the cup in the microwave",
+      "label": "E",
+      "new_reflection_sha256": "b9bf4b17cf13d592a454747ac72bb51244014b2b4d0034387d2a230bb0c38233",
+      "result_file_sha256": "a814c8232098a8d72bd29872474e99be45726793daa38cf2361f7fc51cef3b8e",
+      "reused_source": true,
+      "state": "error_1",
+      "task_id": "762a7487ace813d7"
+    },
+    {
+      "excerpt": "placed it directly into the microwave, closed it",
+      "label": "E",
+      "new_reflection_sha256": "e1f62e0ae72dc9eb459b3d64857e2542124057fb55d3029b3cca6649805e7127",
+      "result_file_sha256": "da9ccec77e81afe42b1b056b4f2f3fcdc87881170db64bbf7d282dd110b8a6c3",
+      "reused_source": false,
+      "state": "error_3",
+      "task_id": "762a7487ace813d7"
+    },
+    {
+      "excerpt": "taken it, placed it in the microwave, and attempted to heat it",
+      "label": "E",
+      "new_reflection_sha256": "5ab1ba6a3b36e17194e780307ab9d40ca375b903db41db2a5ba7baf18a6eee73",
+      "result_file_sha256": "630490cd0d9952ca52bd76788d9d06a348fd3e8df1c3e7b3920b7b09396e9d85",
+      "reused_source": true,
+      "state": "empty",
+      "task_id": "64aa51b30cab1f98"
+    },
+    {
+      "excerpt": "I should have placed the egg in the microwave",
+      "label": "E",
+      "new_reflection_sha256": "340e3dd598355a29fa3c48be5f86e65716dd6e2be5cefa157c19018a1a498804",
+      "result_file_sha256": "3bc876d3fa5ee95c176ac6057e8fa600922b459e2322989c63d0caa6b729b9cb",
+      "reused_source": true,
+      "state": "error_1",
+      "task_id": "64aa51b30cab1f98"
+    },
+    {
+      "excerpt": "the egg was properly placed in the microwave",
+      "label": "E",
+      "new_reflection_sha256": "3edd997eadb3e8745bfdd5f98e044550af25d2d4fe0800163e29d0e5ed2e72b0",
+      "result_file_sha256": "0aa56b7786fe43179c9ecec9cf6649cf60e48a6dcb41ca0e0cca98aef1783632",
+      "reused_source": false,
+      "state": "error_2",
+      "task_id": "64aa51b30cab1f98"
+    },
+    {
+      "excerpt": "first placed the egg in the microwave",
+      "label": "E",
+      "new_reflection_sha256": "2b52a68eb698da7451d80d4344c13f010b9b41639f6e9b639df6c161e092e42e",
+      "result_file_sha256": "6716cb681e410675a31b253c774ff78af4ec0ece42e85d900b3ac7942791f1ac",
+      "reused_source": false,
+      "state": "error_3",
+      "task_id": "64aa51b30cab1f98"
+    },
+    {
+      "excerpt": "then placed it in the microwave before attempting to heat it",
+      "label": "E",
+      "new_reflection_sha256": "4c4c352f43a3e2a4a815caa606c965cbf93121710def7023f9db6e6d93fe3b18",
+      "result_file_sha256": "f502adf287d7cfd0084991fe4a1543e2a01cdfa126d13f892ff8f9e39815fe09",
+      "reused_source": true,
+      "state": "correct_1",
+      "task_id": "64aa51b30cab1f98"
+    },
+    {
+      "excerpt": "placed the egg in the microwave, closed it",
+      "label": "E",
+      "new_reflection_sha256": "5105f03db0febda6d82e2aee4cd212e619bedbcd9bd82bf7e9d898881140b95c",
+      "result_file_sha256": "2dd9a55bdf8dbe17d53ad59584942c004da57efcc97b2e7c17a8bdd23def3270",
+      "reused_source": false,
+      "state": "correct_2",
+      "task_id": "64aa51b30cab1f98"
+    },
+    {
+      "excerpt": "heat an object already inside it (like the cup)",
+      "label": "U",
+      "new_reflection_sha256": "f8e8ed1e877d909156c0879ddfd314d52a095bcc21ebdc2fdc14700ba045e221",
+      "result_file_sha256": "faa11e1875f11c82a5037d284580b9b7f3cb97143b1d65e0e2b3fc120ae78668",
+      "reused_source": false,
+      "state": "correct_3",
+      "task_id": "64aa51b30cab1f98"
+    },
+    {
+      "excerpt": "first placed the mug in the microwave",
+      "label": "E",
+      "new_reflection_sha256": "2bc6f0fd078dad7240bfb9e1ce8f9b58b899f384d20af6f4841663ca506765cf",
+      "result_file_sha256": "6b380fdb256bd09d09527c1a61f069fa6f6609067e8d2d373de4d235a1f619b7",
+      "reused_source": true,
+      "state": "error_1",
+      "task_id": "3e3fa991ee97689e"
+    },
+    {
+      "excerpt": "turn on the microwave, place the mug inside",
+      "label": "E",
+      "new_reflection_sha256": "1e5273d759b61995bf65010b801ee3e9c604497ca030c1096db54445acfe6355",
+      "result_file_sha256": "783a4d4ae50b1c0fce2fbcbb3e82b3033f6fa78eaa9e48f49d53a9648eeea36c",
+      "reused_source": false,
+      "state": "error_2",
+      "task_id": "3e3fa991ee97689e"
+    },
+    {
+      "excerpt": "first placed the mug in the microwave",
+      "label": "E",
+      "new_reflection_sha256": "503d31fde6d11f3cd88dd44db2a517fffcc535c841bdba718435febfa03e00f7",
+      "result_file_sha256": "ab7604802787b3913a06a8b2271a68585a8f91caffd8e5b79af3575a26be73a8",
+      "reused_source": false,
+      "state": "error_3",
+      "task_id": "3e3fa991ee97689e"
+    },
+    {
+      "excerpt": "attempt to heat the mug directly on it",
+      "label": "U",
+      "new_reflection_sha256": "78b88afcf2d657c052038b87933953964a28eaa9f0624992c6cccb24112324f3",
+      "result_file_sha256": "24e3ff94eb4ad333fd5c48d9cac3faf77edb6a977e62cb3506318f328fd24c22",
+      "reused_source": true,
+      "state": "correct_1",
+      "task_id": "3e3fa991ee97689e"
+    },
+    {
+      "excerpt": "try the microwave, ensuring the mug is properly placed and the microwave is closed before heating",
+      "label": "A",
+      "new_reflection_sha256": "3d39053e08ab60491d9afd8bbad1bdabe258bf4acbc9c73e41e7cb0353d5ce14",
+      "result_file_sha256": "4393f82d9fb3c7f38a67f8ebde322c1212e45cdc9b690d4730de2dc659bb8bf0",
+      "reused_source": false,
+      "state": "correct_2",
+      "task_id": "3e3fa991ee97689e"
+    },
+    {
+      "excerpt": "then placed it in the microwave and used the heat function",
+      "label": "E",
+      "new_reflection_sha256": "ded3e1c789f0dcc90badc9c01d03919f890fa61ff9e02eb67a60f0de0eb0a4fa",
+      "result_file_sha256": "a1d9bef8d1b86c4f85e52d3b56123ac9ea9767ef606b3f1e40f63511eb027891",
+      "reused_source": false,
+      "state": "correct_3",
+      "task_id": "3e3fa991ee97689e"
+    },
+    {
+      "excerpt": "placed the egg inside, closed it, and used the heat function",
+      "label": "E",
+      "new_reflection_sha256": "dc1d1b8ec79d403231ae8ee6b8480f1edb832fa0cf3c81f349cfd59f02819cf5",
+      "result_file_sha256": "fc6ed54944f2b7df80d87ae72eb05824794433260c3a7c4ac216c423d23c9b3b",
+      "reused_source": true,
+      "state": "empty",
+      "task_id": "05f694718d71af12"
+    },
+    {
+      "excerpt": "first placed the egg inside the microwave",
+      "label": "E",
+      "new_reflection_sha256": "8bbabc85dccf0db1a5ff3ced50c76f21ce06ea8be1637c5b8cd918df146c0222",
+      "result_file_sha256": "19bf39e53c3c3dfefe161bc2862c84ab38659c1dd9038b6448c740e72546d7b7",
+      "reused_source": true,
+      "state": "error_1",
+      "task_id": "05f694718d71af12"
+    },
+    {
+      "excerpt": "first placed the egg in the microwave",
+      "label": "E",
+      "new_reflection_sha256": "40da23c0dbd078a350a3402859af37693a99e57cf2c68d80059e22f6bf7e8d8f",
+      "result_file_sha256": "c6571cd721582a064ee82557dfb267600752f2beddc38f0cbefa0232d5b316f1",
+      "reused_source": false,
+      "state": "error_2",
+      "task_id": "05f694718d71af12"
+    },
+    {
+      "excerpt": "the egg was properly placed inside the microwave",
+      "label": "E",
+      "new_reflection_sha256": "dddd3f79ce09733cdb3901d598d3d4a11ca00c0514924fa72adfd559e808fc8a",
+      "result_file_sha256": "90db8de7fdfde33a97629123a44a1a5e1f4967f715319ec627c64627ac4aa01b",
+      "reused_source": false,
+      "state": "error_3",
+      "task_id": "05f694718d71af12"
+    }
+  ],
+  "scope": "Manual target-premise review of all failed homogeneous-state updates on four known tasks",
+  "sha256": "004edf3217afd7a651715203c262c34ec5d3d38a0ea8ed95b414faad035030cc",
+  "use": "Descriptive updater evidence; not used to refit the already frozen one-attempt forecasts"
+}
