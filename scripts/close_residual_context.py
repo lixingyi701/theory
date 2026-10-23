@@ -6,6 +6,7 @@ import shutil
 from pathlib import Path
 
 from agent_reliability.io import digest, file_hash, read_json, write_json
+from analyze_residual_context import collect
 from continue_reflexion_pilot import ledger
 from run_residual_context import verify_protocol
 from summarize_reflexion import costs
@@ -51,6 +52,21 @@ def main():
     require(sum(not r['reused_control'] for r in analysis['rows']) == 72, 'New/reused row mismatch')
     require(len({r['task_id'] for r in analysis['rows']}) == 12, 'Independent task count differs')
     require(analysis['parameter_refits'] == 0, 'This stage must not refit frozen predictions')
+    current_rows, _, _ = collect(protocol, root)
+    require(len(current_rows) == 96, 'Raw attempts no longer cover the complete factorial')
+    analysed = {r['cell_id']: r for r in analysis['rows']}
+    for row in current_rows:
+        require(all(analysed[row['cell_id']].get(key) == value for key, value in row.items()),
+                'Raw attempt changed after analysis: '+row['cell_id'])
+    require(len(summary['rows']) == 72 and {r['cell_id'] for r in summary['rows']}
+            == {r['cell_id'] for r in current_rows if not r['reused_control']},
+            'Worker summary and raw new-cell coverage differ')
+    for row in summary['rows']:
+        peer = analysed[row['cell_id']]
+        require(row['result_file_sha256'] == peer['result_sha256']
+                and row['memory_before_sha256'] == peer['memory_sha256']
+                and row['seed'] == peer['seed'] and row['success'] == peer['success'],
+                'Worker summary differs from raw attempt: '+row['cell_id'])
     actual = costs(root)
     require(actual == summary['costs_incremental'], 'Journal costs differ from summary')
     reserved = read_json(root/'budget.json')['reserved']

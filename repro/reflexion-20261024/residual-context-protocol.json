@@ -1277,6 +1277,11 @@
     8001,
     8002
   ],
+  "pre_collection_revision": {
+    "preceding_freeze_commit": "957306061eefd71849875df6fd81867d819f59e9",
+    "reason": "Bind completed seed-specific analysis and raw-result closeout checks; no model requests dispatched or outcomes observed in this campaign",
+    "replaces_protocol_sha256": "d88f3024b07c37eac06693e877e6c98e3ca7677f3f88afbec048ae8a27680981"
+  },
   "predictions": [
     {
       "cell_id": "residual-02088717ce4b3889-2101-N_E",
@@ -3886,9 +3891,9 @@
     "repro/reflexion-20261023/state-representation-semantic-labels.json": "364f6821f7c37225e525eedc1be73c77b037288281f087c28dea4649af792e5a",
     "repro/reflexion-20261024/residual-context-registry.json": "34d4b18d1e838343c5461f23c05684f2f075e0ebe1cfb00d242e64892ab6e7e6",
     "scripts/analyze_middle_context_transport.py": "1bc5e6770f5a5326305f8be149ef07d06ef571197162c66e1a404ba4db95df77",
-    "scripts/analyze_residual_context.py": "16965128336244f766c8a60eab31253af9417b9f8b97ed14d17457f53bee8b51",
+    "scripts/analyze_residual_context.py": "f689b24dcddcac02a6456adca324ab090eb43c3fd9a32c3401e2099e474a092b",
     "scripts/analyze_state_representation.py": "abf1fb146f22f48ce2d6776b66bc01d7dda2b080ec277af8846e582be1ad73ba",
-    "scripts/close_residual_context.py": "534484b7571771dddabfa74be2e5effe75f9e95817475482c80c37ea1c92361d",
+    "scripts/close_residual_context.py": "e24fafdd3875e48c9771f43b001a678d3d9fb109d103c5ad83858e6df2efef26",
     "scripts/deployment/serve_reflexion_profiles.py": "fa6da89576a4b49636febd0d61ad51dcd7274c41ad2a7182a0412440710e4cf1",
     "scripts/prepare_middle_context_transport.py": "6cd457c57c350b0f8e44700980edd181600e3ef5b3fd7d9cc15e15c8ba60c2de",
     "scripts/prepare_residual_context.py": "d04cfa7f60ac8be279f6f77970fc1307591480c6148f7a0ed4e3bcdf850fd058",
@@ -4670,7 +4675,7 @@
     2101,
     2102
   ],
-  "sha256": "d88f3024b07c37eac06693e877e6c98e3ca7677f3f88afbec048ae8a27680981",
+  "sha256": "77af2102b3475e95b07d91de1b301f621738f2db9c4bdd0bb84163ba47069256",
   "source_hashes": {
     "__init__.py": "9aa84454aaf25ce212ded4c089d18e335cb17460edd5e66ec4c522aaeb8fbe16",
     "__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",

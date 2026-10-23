@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Analyse the frozen residual-context factorial without fitting new parameters."""
 import argparse
-from collections import Counter, defaultdict
+from collections import Counter
 from pathlib import Path
 
 import numpy as np
@@ -177,8 +177,10 @@ def factorial_effects(rows, tasks, resamples):
         per_task = [effect_values({c: lookup[t, seed, c] for c in CONDITIONS}) for t in tasks]
         decompositions.append({'seed': seed, 'independent_base_tasks': len(tasks),
             'successes_by_condition': {c: sum(lookup[t, seed, c] for t in tasks) for c in CONDITIONS},
+            'success_rates_by_condition': {c: float(np.mean([lookup[t, seed, c] for t in tasks])) for c in CONDITIONS},
             'cells_per_condition': len(tasks),
             'effects': {name: float(np.mean([v[name] for v in per_task])) for name in estimates},
+            'interaction': interval([v['interaction'] for v in per_task], resamples),
             'pairs': [{'contrast': name, 'first_condition': a, 'second_condition': b,
                        'counts': paired_counts([lookup[t, seed, a] for t in tasks], [lookup[t, seed, b] for t in tasks])}
                       for name, a, b in comparisons]})
