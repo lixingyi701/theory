@@ -1,0 +1,54 @@
+{
+  "all_checks_passed": true,
+  "elapsed_seconds": 8.729211568832397,
+  "errors": [],
+  "groups": [
+    {
+      "all_checks_passed": true,
+      "elapsed_seconds": 1.2924919128417969,
+      "group": "information",
+      "status": "complete"
+    },
+    {
+      "all_checks_passed": true,
+      "elapsed_seconds": 5.232677698135376,
+      "group": "sensitivity",
+      "status": "complete"
+    },
+    {
+      "all_checks_passed": true,
+      "elapsed_seconds": 8.439486742019653,
+      "group": "binary",
+      "status": "complete"
+    }
+  ],
+  "marginal_curve_comparisons": 260,
+  "marginal_hoeffding_tolerance": 0.02330128644255888,
+  "max_marginal_mc_error": 0.011369223022460906,
+  "monte_carlo_trajectories": 260000,
+  "new_llm_calls": 0,
+  "protocol_sha256": "e5ba409bd5e7495d174229b00a3ccf3959951e922347f6454a3cae04ca3bf422",
+  "raw_artifacts": {
+    "binary/binary-first-success.npz": "4e6df9133d9ea8d04f18c7c2b62b25458d1e3c10e21b5aa199552b0a56ffaa26",
+    "binary/checkpoint.json": "f50e739b473ddbb311aae42f459a65f43a147ebd1f367ee2b6bf9e2c4bafd250",
+    "binary/completion.json": "bf3917afd38eaa798deef2d0ed5581ea0ed13b39ba55d4ba6fb21f7aba6b7bc7",
+    "binary/exact-binary-grid.json": "119f463682718bf8a804d7b6ce70a6de15f6ae8f5ba87ffb6967ef0ce24d7e4b",
+    "binary/summary.json": "532dfb2d26c51ae31f4a8163a5e17f72ac0ef6f4e53c2d22e3ec1d999e723db5",
+    "checkpoint.json": "a42a9bb671f4f0bc76493ac7c49b19eab6293853b528096ea42fd725d4b4f1c0",
+    "information/checkpoint.json": "cf1f734825e1874026db3564bf82d511ccf4059d131accb7af7163c6299b246b",
+    "information/completion.json": "216dbbd5de869abfcefdd8da66a7cdaf1c4992865c7caac8af20bf2c25cad0e7",
+    "information/exact-information-grid.json": "45b458d1a2ab92ec7426d0042606dee5cab130af0e0add94ff539da2487ac49a",
+    "information/information-first-success.npz": "5ae7de701a11afc5dd9293b257e86743cc164f5fe59338c5f4952cba7377a986",
+    "information/summary.json": "8fc24b97daefed4b73b1c20aae95c2d49e3624d439b5003468839a4a6b72404a",
+    "run.json": "7b6737374d767b44202ef3b81222ed2c95dec88fd842401a1d472bd0deac7baa",
+    "sensitivity/auxiliary-position-counts.npz": "befa8224f6d1a1abbbe03610d00515f7dcad2e1458d4aaf132e8998b968174c2",
+    "sensitivity/checkpoint.json": "984f9bf76b77ead92f3518e0c4365a8e1e0b4e64cdf1cea6e6b6d628f85a872c",
+    "sensitivity/completion.json": "069652b7cf1689d56dccb061ab4a9b067ec6f265fcaacd5309365c13fc849518",
+    "sensitivity/exact-sensitivity-curves.npz": "5f9b62e737c7fc3045aa28f37522b06683fd35277431c8b8f289f605f5d2cf5b",
+    "sensitivity/sensitivity-first-success.npz": "98baa4c1be07d0a5ae311127c3b7c0c03e6aeb2f373759e66008bbae1310d05f",
+    "sensitivity/summary.json": "329f680812269122c1532b438c10a1a856a992d4bebdb388006522bef30400a2"
+  },
+  "sha256": "6af00f00260afb4d7c2a58605f830e79ba005d3f3031d8bc802f26eecb266237",
+  "source_commit": "a79c4b3bf62bb8eb11ff695e6bf98db769a075d3",
+  "status": "complete"
+}

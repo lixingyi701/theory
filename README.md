@@ -8,7 +8,7 @@
 
 1. [研究问题、机制与实验协议](docs/research/agent_error_recovery_model_and_protocol.md)
 2. [理论框架与基础推导](docs/research/recovery_theory_framework.md)；[有限记忆的主命题与证明](docs/research/finite_memory_recovery_analysis.md)
-3. [有限记忆仿真设计](docs/experiments/finite-memory-simulation-design.md)
+3. [有限记忆仿真结果](docs/experiments/finite-memory-simulation-20261023.md)；[采样前冻结设计](docs/experiments/finite-memory-simulation-design.md)
 4. [下一步研究路线](docs/EXPERIMENT_ROADMAP.md)
 5. [ACM TIST 专刊与投稿计划](docs/submission/TIST_SPECIAL_ISSUE.md)
 6. [实现状态与已有结果](docs/IMPLEMENTATION_STATUS.md)
@@ -24,9 +24,9 @@
 
 [操作前提扩展](docs/experiments/precondition-pilot-20261023.md)完成另一组 24 个新任务，首次成功 17 个，并从 7 条失败反思中预先固定 3 个合格目标。五条件分叉共 1084 次请求：原始错误成功 0/3，定点纠正与丢弃各 1/3。错误顺序会被反思重新写入，纠正的效果也随任务而变。另一个开发杯子案例揭示了错误放置被环境拒绝后才成功的路径，因而相关动作尝试、实际生效和任务结果分别测量。
 
-[首次冻结预测](docs/experiments/state-prediction-20261023.md)已完成：四个已知开发任务、28 个同质窗口校准单元、8 个混合窗口验证单元。混合窗口全部失败，数量和位置模型的 Brier 为 0.1438、0.1648，总体均值为 0.1111。这些结果用于约束模型结构；现已推导有限窗口的期望尝试数公式、预算内增益的非单调反例，以及起始记忆差异的影响上界；接下来按仿真设计检查机制，再按未识别参数补真实实验。134 holdout 保持封存。本轮新增 2959 次真实调用，累计 Reflexion 调用 12369 次，响应全部保存。
+[首次冻结预测](docs/experiments/state-prediction-20261023.md)已完成：四个已知开发任务、28 个同质窗口校准单元、8 个混合窗口验证单元。混合窗口全部失败，数量和位置模型的 Brier 为 0.1438、0.1648，总体均值为 0.1111。这些结果用于约束模型结构；现已推导有限窗口的期望尝试数公式、预算内增益的非单调反例，以及起始记忆差异的影响上界；三组机制仿真也已完成，接下来按错误生成／重述、有效线索与条目年龄准备真实校准。134 holdout 保持封存。此前该批次新增 2959 次真实调用，累计 Reflexion 调用 12369 次，响应全部保存。
 
-有限记忆推导使用精确分数核对了完整窗口与压缩状态递推，以及独立线性方程解；所有比较相等，记录见[代数核对](repro/theory-20261023/finite-memory-analytic-checks.json)。这些是公式检查，Monte Carlo 另按设计执行。
+有限记忆推导使用精确分数核对了完整窗口与压缩状态递推，以及独立线性方程解；所有比较相等，记录见[代数核对](repro/theory-20261023/finite-memory-analytic-checks.json)。随后已按冻结设计完成 26 万条逐步模拟轨迹、1125 个二值参数条件和 90 个信息／位置条件；260 项成功概率与 1920 项槽位差异检查均在预设容差内。仿真进一步显示恢复排序可能随预算先反转、再转回；这些是人工机制结果，真实 Agent 校准仍在后续。三进程正式计算约 8.73 秒，无新增 LLM 调用，完整结果与曲线见[仿真报告](docs/experiments/finite-memory-simulation-20261023.md)。
 
 全部实验在远程服务器运行，工作站用于编辑、Git 和 SSH。当前部署见[环境说明](docs/deployment/README.md)。离线检查从仓库根目录运行：
 

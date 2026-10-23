@@ -314,4 +314,4 @@ PYTHONPATH=src python scripts/check_finite_memory_analysis.py \
   --output-dir runs/finite-memory-check-NEW
 ```
 
-下一步按[有限记忆仿真设计](../experiments/finite-memory-simulation-design.md)执行：先复现命题及反例，再分别引入正确说明、有效线索、冲突和位置影响，确定简化条件在哪些区域失效。真实 Agent 补采由这些待识别机制决定。
+随后已按[冻结设计](../experiments/finite-memory-simulation-design.md)完成 26 万条轨迹、1125 个二值条件及 90 个信息／位置条件。逐步采样与精确递推一致，扫描展示了预算排序的多次变化，结果见[仿真报告](../experiments/finite-memory-simulation-20261023.md)。下一步分开校准真实 Agent 的错误生成／重述、有效信息与条目年龄，再检验共同参数下的新任务和预算预测。

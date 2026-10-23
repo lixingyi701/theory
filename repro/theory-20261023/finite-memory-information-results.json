@@ -1,0 +1,6356 @@
+{
+  "all_checks_passed": true,
+  "contrasts": [
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.0195280172426227,
+      "expected_attempts_right": 2.409212111265962,
+      "first_rank_reversal_budget": null,
+      "initial_id": 0,
+      "left": "correct",
+      "mechanism": "correct_advice",
+      "right": "remove_target",
+      "success_difference": [
+        0.050000000000000044,
+        0.062000000000000055,
+        0.05430480000000015,
+        0.046430988480000046,
+        0.030347608082817,
+        0.011439663375212406,
+        0.0009006766284229695,
+        5.5006521548772724e-06,
+        2.0513801768373696e-10,
+        0.0
+      ],
+      "variant": "reference"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.409212111265962,
+      "expected_attempts_right": 2.409212111265962,
+      "first_rank_reversal_budget": null,
+      "initial_id": 0,
+      "left": "remove_target",
+      "mechanism": "within_entry_useful_information",
+      "right": "neutralize",
+      "success_difference": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "variant": "reference"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.2908995746426752,
+      "expected_attempts_right": 2.409212111265962,
+      "first_rank_reversal_budget": null,
+      "initial_id": 0,
+      "left": "delete",
+      "mechanism": "occupancy_and_position",
+      "right": "neutralize",
+      "success_difference": [
+        0.0,
+        0.040000000000000036,
+        0.024624800000000002,
+        0.01562918367999999,
+        0.007083717334173567,
+        0.0021020921989896024,
+        0.00015798174674119814,
+        9.644192335844792e-07,
+        3.5966452038849184e-11,
+        0.0
+      ],
+      "variant": "reference"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.0195280172426227,
+      "expected_attempts_right": 2.2908995746426752,
+      "first_rank_reversal_budget": null,
+      "initial_id": 0,
+      "left": "correct",
+      "mechanism": "recovery_comparison",
+      "right": "delete",
+      "success_difference": [
+        0.050000000000000044,
+        0.02200000000000002,
+        0.02968000000000015,
+        0.030801804800000054,
+        0.023263890748643434,
+        0.009337571176222803,
+        0.0007426948816817713,
+        4.536232921292793e-06,
+        1.6917156564488778e-10,
+        0.0
+      ],
+      "variant": "reference"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 1.9317721324407415,
+      "expected_attempts_right": 2.2908995746426752,
+      "first_rank_reversal_budget": null,
+      "initial_id": 1,
+      "left": "correct",
+      "mechanism": "correct_advice",
+      "right": "remove_target",
+      "success_difference": [
+        0.050000000000000044,
+        0.05800000000000005,
+        0.04991200000000007,
+        0.04219591999999994,
+        0.027317608075276834,
+        0.01025205354303449,
+        0.0008065702249044904,
+        4.92588826106477e-06,
+        1.8370305276960153e-10,
+        0.0
+      ],
+      "variant": "reference"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.2908995746426752,
+      "expected_attempts_right": 2.691054533519155,
+      "first_rank_reversal_budget": null,
+      "initial_id": 1,
+      "left": "remove_target",
+      "mechanism": "within_entry_useful_information",
+      "right": "neutralize",
+      "success_difference": [
+        0.09999999999999998,
+        0.10009999999999997,
+        0.061645159999999866,
+        0.039389830095999945,
+        0.018300288646067364,
+        0.005552946599493125,
+        0.00041938668373275867,
+        2.560316876398794e-06,
+        9.548273283144226e-11,
+        0.0
+      ],
+      "variant": "reference"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.691054533519155,
+      "expected_attempts_right": 2.691054533519155,
+      "first_rank_reversal_budget": null,
+      "initial_id": 1,
+      "left": "delete",
+      "mechanism": "occupancy_and_position",
+      "right": "neutralize",
+      "success_difference": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "variant": "reference"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 1.9317721324407415,
+      "expected_attempts_right": 2.691054533519155,
+      "first_rank_reversal_budget": null,
+      "initial_id": 1,
+      "left": "correct",
+      "mechanism": "recovery_comparison",
+      "right": "delete",
+      "success_difference": [
+        0.15000000000000002,
+        0.15810000000000002,
+        0.11155715999999993,
+        0.08158575009599989,
+        0.0456178967213442,
+        0.015805000142527614,
+        0.001225956908637249,
+        7.486205137463564e-06,
+        2.791857856010438e-10,
+        0.0
+      ],
+      "variant": "reference"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.3701572407725067,
+      "expected_attempts_right": 2.9265105002475225,
+      "first_rank_reversal_budget": null,
+      "initial_id": 0,
+      "left": "correct",
+      "mechanism": "correct_advice",
+      "right": "remove_target",
+      "success_difference": [
+        0.04999999999999999,
+        0.07010000000000005,
+        0.06590819999999997,
+        0.06046779240000011,
+        0.044837407017857656,
+        0.021239968437181345,
+        0.002882437167618712,
+        5.196316151834246e-05,
+        1.6883276887647014e-08,
+        1.7763568394002505e-15
+      ],
+      "variant": "dH-0"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.9265105002475225,
+      "expected_attempts_right": 2.9265105002475225,
+      "first_rank_reversal_budget": null,
+      "initial_id": 0,
+      "left": "remove_target",
+      "mechanism": "within_entry_useful_information",
+      "right": "neutralize",
+      "success_difference": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "variant": "dH-0"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.9265105002475242,
+      "expected_attempts_right": 2.9265105002475225,
+      "first_rank_reversal_budget": null,
+      "initial_id": 0,
+      "left": "delete",
+      "mechanism": "occupancy_and_position",
+      "right": "neutralize",
+      "success_difference": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "variant": "dH-0"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.3701572407725067,
+      "expected_attempts_right": 2.9265105002475242,
+      "first_rank_reversal_budget": null,
+      "initial_id": 0,
+      "left": "correct",
+      "mechanism": "recovery_comparison",
+      "right": "delete",
+      "success_difference": [
+        0.04999999999999999,
+        0.07010000000000005,
+        0.06590819999999997,
+        0.06046779240000011,
+        0.044837407017857656,
+        0.021239968437181345,
+        0.002882437167618712,
+        5.196316151834246e-05,
+        1.6883276887647014e-08,
+        1.7763568394002505e-15
+      ],
+      "variant": "dH-0"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.370157240772506,
+      "expected_attempts_right": 2.9265105002475242,
+      "first_rank_reversal_budget": null,
+      "initial_id": 1,
+      "left": "correct",
+      "mechanism": "correct_advice",
+      "right": "remove_target",
+      "success_difference": [
+        0.04999999999999999,
+        0.07010000000000005,
+        0.06590819999999997,
+        0.06046779240000011,
+        0.044837407017857656,
+        0.021239968437181345,
+        0.002882437167618712,
+        5.196316151834246e-05,
+        1.6883276887647014e-08,
+        1.7763568394002505e-15
+      ],
+      "variant": "dH-0"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.9265105002475242,
+      "expected_attempts_right": 2.9265105002475247,
+      "first_rank_reversal_budget": null,
+      "initial_id": 1,
+      "left": "remove_target",
+      "mechanism": "within_entry_useful_information",
+      "right": "neutralize",
+      "success_difference": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "variant": "dH-0"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.9265105002475247,
+      "expected_attempts_right": 2.9265105002475247,
+      "first_rank_reversal_budget": null,
+      "initial_id": 1,
+      "left": "delete",
+      "mechanism": "occupancy_and_position",
+      "right": "neutralize",
+      "success_difference": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "variant": "dH-0"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.370157240772506,
+      "expected_attempts_right": 2.9265105002475247,
+      "first_rank_reversal_budget": null,
+      "initial_id": 1,
+      "left": "correct",
+      "mechanism": "recovery_comparison",
+      "right": "delete",
+      "success_difference": [
+        0.04999999999999999,
+        0.07010000000000005,
+        0.06590819999999997,
+        0.06046779240000011,
+        0.044837407017857656,
+        0.021239968437181345,
+        0.002882437167618712,
+        5.196316151834246e-05,
+        1.6883276887647014e-08,
+        1.7763568394002505e-15
+      ],
+      "variant": "dH-0"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 1.50380942233242,
+      "expected_attempts_right": 1.7215995274043534,
+      "first_rank_reversal_budget": null,
+      "initial_id": 0,
+      "left": "correct",
+      "mechanism": "correct_advice",
+      "right": "remove_target",
+      "success_difference": [
+        0.050000000000000044,
+        0.04580000000000006,
+        0.03387504000000008,
+        0.02509960838400005,
+        0.01298870818490161,
+        0.003309566791775298,
+        0.000104148302315199,
+        1.0260199556633154e-07,
+        9.958700530887654e-14,
+        0.0
+      ],
+      "variant": "dH-0.3"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 1.7215995274043534,
+      "expected_attempts_right": 1.7215995274043534,
+      "first_rank_reversal_budget": null,
+      "initial_id": 0,
+      "left": "remove_target",
+      "mechanism": "within_entry_useful_information",
+      "right": "neutralize",
+      "success_difference": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "variant": "dH-0.3"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 1.5413393355172043,
+      "expected_attempts_right": 1.7215995274043534,
+      "first_rank_reversal_budget": null,
+      "initial_id": 0,
+      "left": "delete",
+      "mechanism": "occupancy_and_position",
+      "right": "neutralize",
+      "success_difference": [
+        0.0,
+        0.07199999999999995,
+        0.04144464000000003,
+        0.02412987091200003,
+        0.00912056181512022,
+        0.0018947912877234074,
+        5.74871941784183e-05,
+        5.6618041144318454e-08,
+        5.495603971894525e-14,
+        0.0
+      ],
+      "variant": "dH-0.3"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 1.50380942233242,
+      "expected_attempts_right": 1.5413393355172043,
+      "first_rank_reversal_budget": 2,
+      "initial_id": 0,
+      "left": "correct",
+      "mechanism": "recovery_comparison",
+      "right": "delete",
+      "success_difference": [
+        0.050000000000000044,
+        -0.02619999999999989,
+        -0.007569599999999954,
+        0.0009697374720000207,
+        0.003868146369781389,
+        0.0014147755040518906,
+        4.6661108136780705e-05,
+        4.5983954422013085e-08,
+        4.463096558993129e-14,
+        0.0
+      ],
+      "variant": "dH-0.3"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 1.3754022619456059,
+      "expected_attempts_right": 1.5413393355172043,
+      "first_rank_reversal_budget": null,
+      "initial_id": 1,
+      "left": "correct",
+      "mechanism": "correct_advice",
+      "right": "remove_target",
+      "success_difference": [
+        0.050000000000000044,
+        0.03380000000000005,
+        0.02375040000000006,
+        0.01697663347200007,
+        0.008554239736132785,
+        0.0021544779722426632,
+        6.76745849599314e-05,
+        6.66689038419932e-08,
+        6.472600233564663e-14,
+        0.0
+      ],
+      "variant": "dH-0.3"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 1.5413393355172043,
+      "expected_attempts_right": 2.443199054808707,
+      "first_rank_reversal_budget": null,
+      "initial_id": 1,
+      "left": "remove_target",
+      "mechanism": "within_entry_useful_information",
+      "right": "neutralize",
+      "success_difference": [
+        0.29999999999999993,
+        0.24029999999999996,
+        0.13626468000000003,
+        0.07962710529600003,
+        0.030988648377574868,
+        0.0066092859592425945,
+        0.000201575764048334,
+        1.9853610799813737e-07,
+        1.9251267247000214e-13,
+        0.0
+      ],
+      "variant": "dH-0.3"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.4431990548087072,
+      "expected_attempts_right": 2.443199054808707,
+      "first_rank_reversal_budget": null,
+      "initial_id": 1,
+      "left": "delete",
+      "mechanism": "occupancy_and_position",
+      "right": "neutralize",
+      "success_difference": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "variant": "dH-0.3"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 1.3754022619456059,
+      "expected_attempts_right": 2.4431990548087072,
+      "first_rank_reversal_budget": null,
+      "initial_id": 1,
+      "left": "correct",
+      "mechanism": "recovery_comparison",
+      "right": "delete",
+      "success_difference": [
+        0.35,
+        0.2741,
+        0.1600150800000001,
+        0.0966037387680001,
+        0.03954288811370765,
+        0.008763763931485258,
+        0.0002692503490082654,
+        2.6520501184013057e-07,
+        2.5723867480564877e-13,
+        0.0
+      ],
+      "variant": "dH-0.3"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.2583972593396244,
+      "expected_attempts_right": 2.4630584114206937,
+      "first_rank_reversal_budget": null,
+      "initial_id": 0,
+      "left": "correct",
+      "mechanism": "correct_advice",
+      "right": "remove_target",
+      "success_difference": [
+        0.050000000000000044,
+        0.0485000000000001,
+        0.03006302999999999,
+        0.01959992114400011,
+        0.009806764341495966,
+        0.0033864305603925615,
+        0.0003095134556264645,
+        2.6615398691642866e-06,
+        1.968291085674423e-10,
+        0.0
+      ],
+      "variant": "sC-0"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.4630584114206937,
+      "expected_attempts_right": 2.4630584114206937,
+      "first_rank_reversal_budget": null,
+      "initial_id": 0,
+      "left": "remove_target",
+      "mechanism": "within_entry_useful_information",
+      "right": "neutralize",
+      "success_difference": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "variant": "sC-0"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.3370109761586066,
+      "expected_attempts_right": 2.4630584114206937,
+      "first_rank_reversal_budget": null,
+      "initial_id": 0,
+      "left": "delete",
+      "mechanism": "occupancy_and_position",
+      "right": "neutralize",
+      "success_difference": [
+        0.0,
+        0.040000000000000036,
+        0.024840799999999996,
+        0.01610494528000006,
+        0.007870956371477389,
+        0.002675654961863172,
+        0.00024401876816282364,
+        2.0983258495199664e-06,
+        1.5517753748639507e-10,
+        0.0
+      ],
+      "variant": "sC-0"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.2583972593396244,
+      "expected_attempts_right": 2.3370109761586066,
+      "first_rank_reversal_budget": null,
+      "initial_id": 0,
+      "left": "correct",
+      "mechanism": "recovery_comparison",
+      "right": "delete",
+      "success_difference": [
+        0.050000000000000044,
+        0.008500000000000063,
+        0.005222229999999994,
+        0.0034949758640000494,
+        0.001935807970018577,
+        0.0007107755985293895,
+        6.549468746364084e-05,
+        5.632140196443203e-07,
+        4.165157108104722e-11,
+        0.0
+      ],
+      "variant": "sC-0"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.1449545676037447,
+      "expected_attempts_right": 2.3370109761586066,
+      "first_rank_reversal_budget": null,
+      "initial_id": 1,
+      "left": "correct",
+      "mechanism": "correct_advice",
+      "right": "remove_target",
+      "success_difference": [
+        0.050000000000000044,
+        0.044500000000000095,
+        0.027578950000000102,
+        0.017989426616000004,
+        0.009019668704348116,
+        0.003118865064206111,
+        0.00028511157881006,
+        2.451707284301108e-06,
+        1.8131129930765155e-10,
+        0.0
+      ],
+      "variant": "sC-0"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.3370109761586066,
+      "expected_attempts_right": 2.7556700937048335,
+      "first_rank_reversal_budget": null,
+      "initial_id": 1,
+      "left": "remove_target",
+      "mechanism": "within_entry_useful_information",
+      "right": "neutralize",
+      "success_difference": [
+        0.09999999999999998,
+        0.10009999999999997,
+        0.062147359999999985,
+        0.04049267101599996,
+        0.02014731918481083,
+        0.006930894276864219,
+        0.0006331402086685589,
+        5.444430263845668e-06,
+        4.0263237188753465e-10,
+        0.0
+      ],
+      "variant": "sC-0"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.7556700937048335,
+      "expected_attempts_right": 2.7556700937048335,
+      "first_rank_reversal_budget": null,
+      "initial_id": 1,
+      "left": "delete",
+      "mechanism": "occupancy_and_position",
+      "right": "neutralize",
+      "success_difference": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "variant": "sC-0"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.1449545676037447,
+      "expected_attempts_right": 2.7556700937048335,
+      "first_rank_reversal_budget": null,
+      "initial_id": 1,
+      "left": "correct",
+      "mechanism": "recovery_comparison",
+      "right": "delete",
+      "success_difference": [
+        0.15000000000000002,
+        0.14460000000000006,
+        0.08972631000000009,
+        0.05848209763199996,
+        0.029166987889158946,
+        0.01004975934107033,
+        0.0009182517874786189,
+        7.896137548146775e-06,
+        5.839436711951862e-10,
+        0.0
+      ],
+      "variant": "sC-0"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.015483947077069,
+      "expected_attempts_right": 2.386239213546281,
+      "first_rank_reversal_budget": null,
+      "initial_id": 0,
+      "left": "correct",
+      "mechanism": "correct_advice",
+      "right": "remove_target",
+      "success_difference": [
+        0.050000000000000044,
+        0.062000000000000055,
+        0.05430480000000015,
+        0.046430988480000046,
+        0.029254223219838615,
+        0.009720331272850102,
+        0.0005348705368419804,
+        1.5846227710003546e-06,
+        1.3905543383430086e-11,
+        0.0
+      ],
+      "variant": "sC-0.4"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.386239213546281,
+      "expected_attempts_right": 2.386239213546281,
+      "first_rank_reversal_budget": null,
+      "initial_id": 0,
+      "left": "remove_target",
+      "mechanism": "within_entry_useful_information",
+      "right": "neutralize",
+      "success_difference": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "variant": "sC-0.4"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.2705457180753634,
+      "expected_attempts_right": 2.386239213546281,
+      "first_rank_reversal_budget": null,
+      "initial_id": 0,
+      "left": "delete",
+      "mechanism": "occupancy_and_position",
+      "right": "neutralize",
+      "success_difference": [
+        0.0,
+        0.040000000000000036,
+        0.024624800000000002,
+        0.01562918367999999,
+        0.006971378120304017,
+        0.0018699661760466224,
+        9.870725933835978e-05,
+        2.923121285025587e-07,
+        2.5650592760939617e-12,
+        0.0
+      ],
+      "variant": "sC-0.4"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.015483947077069,
+      "expected_attempts_right": 2.2705457180753634,
+      "first_rank_reversal_budget": null,
+      "initial_id": 0,
+      "left": "correct",
+      "mechanism": "recovery_comparison",
+      "right": "delete",
+      "success_difference": [
+        0.050000000000000044,
+        0.02200000000000002,
+        0.02968000000000015,
+        0.030801804800000054,
+        0.0222828450995346,
+        0.00785036509680348,
+        0.0004361632775036206,
+        1.292310642497796e-06,
+        1.1340484107336124e-11,
+        0.0
+      ],
+      "variant": "sC-0.4"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 1.9283629444662225,
+      "expected_attempts_right": 2.2705457180753634,
+      "first_rank_reversal_budget": null,
+      "initial_id": 1,
+      "left": "correct",
+      "mechanism": "correct_advice",
+      "right": "remove_target",
+      "success_difference": [
+        0.050000000000000044,
+        0.05800000000000005,
+        0.04991200000000007,
+        0.04219591999999994,
+        0.026336562426167998,
+        0.008714275487496925,
+        0.0004791672102174571,
+        1.4195845943199004e-06,
+        1.2457257447806569e-11,
+        0.0
+      ],
+      "variant": "sC-0.4"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.2705457180753634,
+      "expected_attempts_right": 2.6634870562555393,
+      "first_rank_reversal_budget": null,
+      "initial_id": 1,
+      "left": "remove_target",
+      "mechanism": "within_entry_useful_information",
+      "right": "neutralize",
+      "success_difference": [
+        0.09999999999999998,
+        0.10009999999999997,
+        0.061645159999999866,
+        0.039389830095999945,
+        0.017969272459602226,
+        0.004912475680849071,
+        0.00026038331295963335,
+        7.711326875936564e-07,
+        6.766809335090329e-12,
+        0.0
+      ],
+      "variant": "sC-0.4"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.663487056255539,
+      "expected_attempts_right": 2.6634870562555393,
+      "first_rank_reversal_budget": null,
+      "initial_id": 1,
+      "left": "delete",
+      "mechanism": "occupancy_and_position",
+      "right": "neutralize",
+      "success_difference": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "variant": "sC-0.4"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 1.9283629444662225,
+      "expected_attempts_right": 2.663487056255539,
+      "first_rank_reversal_budget": null,
+      "initial_id": 1,
+      "left": "correct",
+      "mechanism": "recovery_comparison",
+      "right": "delete",
+      "success_difference": [
+        0.15000000000000002,
+        0.15810000000000002,
+        0.11155715999999993,
+        0.08158575009599989,
+        0.04430583488577022,
+        0.013626751168345996,
+        0.0007395505231770905,
+        2.1907172819135567e-06,
+        1.9224066782896898e-11,
+        0.0
+      ],
+      "variant": "sC-0.4"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.0249512770249707,
+      "expected_attempts_right": 2.4399832770082526,
+      "first_rank_reversal_budget": null,
+      "initial_id": 0,
+      "left": "correct",
+      "mechanism": "correct_advice",
+      "right": "remove_target",
+      "success_difference": [
+        0.050000000000000044,
+        0.062000000000000055,
+        0.05474480000000015,
+        0.047710412480000075,
+        0.0325377341383023,
+        0.01331742188131635,
+        0.0012897050782634256,
+        1.1936942525214711e-05,
+        1.0224836533012649e-09,
+        0.0
+      ],
+      "variant": "dX-0.1"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.4399832770082526,
+      "expected_attempts_right": 2.4399832770082526,
+      "first_rank_reversal_budget": null,
+      "initial_id": 0,
+      "left": "remove_target",
+      "mechanism": "within_entry_useful_information",
+      "right": "neutralize",
+      "success_difference": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "variant": "dX-0.1"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.3181726344748474,
+      "expected_attempts_right": 2.4399832770082526,
+      "first_rank_reversal_budget": null,
+      "initial_id": 0,
+      "left": "delete",
+      "mechanism": "occupancy_and_position",
+      "right": "neutralize",
+      "success_difference": [
+        0.0,
+        0.040000000000000036,
+        0.024664800000000042,
+        0.015755967679999983,
+        0.00734652621907339,
+        0.002371179408828028,
+        0.00022023757608713446,
+        2.0377897094192576e-06,
+        1.7455126233301144e-10,
+        0.0
+      ],
+      "variant": "dX-0.1"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.0249512770249707,
+      "expected_attempts_right": 2.3181726344748474,
+      "first_rank_reversal_budget": null,
+      "initial_id": 0,
+      "left": "correct",
+      "mechanism": "recovery_comparison",
+      "right": "delete",
+      "success_difference": [
+        0.050000000000000044,
+        0.02200000000000002,
+        0.030080000000000107,
+        0.03195444480000009,
+        0.02519120791922891,
+        0.010946242472488321,
+        0.0010694675021762912,
+        9.899152815795453e-06,
+        8.479323909682535e-10,
+        0.0
+      ],
+      "variant": "dX-0.1"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 1.936344056888045,
+      "expected_attempts_right": 2.3181726344748474,
+      "first_rank_reversal_budget": null,
+      "initial_id": 1,
+      "left": "correct",
+      "mechanism": "correct_advice",
+      "right": "remove_target",
+      "success_difference": [
+        0.050000000000000044,
+        0.05800000000000005,
+        0.05031200000000002,
+        0.04334855999999998,
+        0.029278258205504004,
+        0.011932264825664896,
+        0.00115480527567835,
+        1.0688318538565333e-05,
+        9.155300961793955e-10,
+        0.0
+      ],
+      "variant": "dX-0.1"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.3181726344748474,
+      "expected_attempts_right": 2.727979932409902,
+      "first_rank_reversal_budget": null,
+      "initial_id": 1,
+      "left": "remove_target",
+      "mechanism": "within_entry_useful_information",
+      "right": "neutralize",
+      "success_difference": [
+        0.09999999999999998,
+        0.10009999999999997,
+        0.061773159999999994,
+        0.039772498895999986,
+        0.019043701909541966,
+        0.006288744423291082,
+        0.0005867696157376701,
+        5.429383665322973e-06,
+        4.65065208565818e-10,
+        0.0
+      ],
+      "variant": "dX-0.1"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.727979932409902,
+      "expected_attempts_right": 2.727979932409902,
+      "first_rank_reversal_budget": null,
+      "initial_id": 1,
+      "left": "delete",
+      "mechanism": "occupancy_and_position",
+      "right": "neutralize",
+      "success_difference": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "variant": "dX-0.1"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 1.936344056888045,
+      "expected_attempts_right": 2.727979932409902,
+      "first_rank_reversal_budget": null,
+      "initial_id": 1,
+      "left": "correct",
+      "mechanism": "recovery_comparison",
+      "right": "delete",
+      "success_difference": [
+        0.15000000000000002,
+        0.15810000000000002,
+        0.11208516000000002,
+        0.08312105889599997,
+        0.04832196011504597,
+        0.018221009248955977,
+        0.00174157489141602,
+        1.6117702203888307e-05,
+        1.3805953047452135e-09,
+        0.0
+      ],
+      "variant": "dX-0.1"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.031973255271244,
+      "expected_attempts_right": 2.4794750642095145,
+      "first_rank_reversal_budget": null,
+      "initial_id": 0,
+      "left": "correct",
+      "mechanism": "correct_advice",
+      "right": "remove_target",
+      "success_difference": [
+        0.050000000000000044,
+        0.062000000000000055,
+        0.05511680000000008,
+        0.04896695168000009,
+        0.034978937469921534,
+        0.01567586701017898,
+        0.0019092788108686642,
+        2.799928082941605e-05,
+        6.0210576524610815e-09,
+        2.220446049250313e-16
+      ],
+      "variant": "dX-0.3"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.4794750642095145,
+      "expected_attempts_right": 2.4794750642095145,
+      "first_rank_reversal_budget": null,
+      "initial_id": 0,
+      "left": "remove_target",
+      "mechanism": "within_entry_useful_information",
+      "right": "neutralize",
+      "success_difference": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "variant": "dX-0.3"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.3532688710890435,
+      "expected_attempts_right": 2.4794750642095145,
+      "first_rank_reversal_budget": null,
+      "initial_id": 0,
+      "left": "delete",
+      "mechanism": "occupancy_and_position",
+      "right": "neutralize",
+      "success_difference": [
+        0.0,
+        0.040000000000000036,
+        0.02469279999999996,
+        0.015863658879999964,
+        0.007623823374213745,
+        0.002698787549992976,
+        0.00031666937909979875,
+        4.642889048112053e-06,
+        9.984220117331688e-10,
+        0.0
+      ],
+      "variant": "dX-0.3"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.031973255271244,
+      "expected_attempts_right": 2.3532688710890435,
+      "first_rank_reversal_budget": null,
+      "initial_id": 0,
+      "left": "correct",
+      "mechanism": "recovery_comparison",
+      "right": "delete",
+      "success_difference": [
+        0.050000000000000044,
+        0.02200000000000002,
+        0.030424000000000118,
+        0.03310329280000013,
+        0.02735511409570779,
+        0.012977079460186003,
+        0.0015926094317688655,
+        2.3356391781303998e-05,
+        5.022635640727913e-09,
+        2.220446049250313e-16
+      ],
+      "variant": "dX-0.3"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 1.9422643737069158,
+      "expected_attempts_right": 2.3532688710890435,
+      "first_rank_reversal_budget": null,
+      "initial_id": 1,
+      "left": "correct",
+      "mechanism": "correct_advice",
+      "right": "remove_target",
+      "success_difference": [
+        0.050000000000000044,
+        0.05800000000000005,
+        0.050656000000000034,
+        0.044497408000000016,
+        0.03147623650611209,
+        0.014047762240170014,
+        0.0017099973113657851,
+        2.5076765308496007e-05,
+        5.392590374242445e-09,
+        2.220446049250313e-16
+      ],
+      "variant": "dX-0.3"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.3532688710890435,
+      "expected_attempts_right": 2.7753700770514165,
+      "first_rank_reversal_budget": null,
+      "initial_id": 1,
+      "left": "remove_target",
+      "mechanism": "within_entry_useful_information",
+      "right": "neutralize",
+      "success_difference": [
+        0.09999999999999998,
+        0.10009999999999997,
+        0.06187555999999994,
+        0.040131497935999905,
+        0.01985289645465882,
+        0.007195992105143656,
+        0.0008479278990329853,
+        1.2432318302502132e-05,
+        2.6734865432587185e-09,
+        0.0
+      ],
+      "variant": "dX-0.3"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.775370077051416,
+      "expected_attempts_right": 2.7753700770514165,
+      "first_rank_reversal_budget": null,
+      "initial_id": 1,
+      "left": "delete",
+      "mechanism": "occupancy_and_position",
+      "right": "neutralize",
+      "success_difference": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "variant": "dX-0.3"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 1.9422643737069158,
+      "expected_attempts_right": 2.775370077051416,
+      "first_rank_reversal_budget": null,
+      "initial_id": 1,
+      "left": "correct",
+      "mechanism": "recovery_comparison",
+      "right": "delete",
+      "success_difference": [
+        0.15000000000000002,
+        0.15810000000000002,
+        0.11253155999999997,
+        0.08462890593599992,
+        0.05132913296077091,
+        0.02124375434531367,
+        0.0025579252103987704,
+        3.750908361099814e-05,
+        8.066076917501164e-09,
+        2.220446049250313e-16
+      ],
+      "variant": "dX-0.3"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.012955469408119,
+      "expected_attempts_right": 2.3720281554364036,
+      "first_rank_reversal_budget": null,
+      "initial_id": 0,
+      "left": "correct",
+      "mechanism": "correct_advice",
+      "right": "remove_target",
+      "success_difference": [
+        0.050000000000000044,
+        0.06137499999999996,
+        0.05283380000000004,
+        0.04427886538000003,
+        0.02759042296133729,
+        0.009308618560445181,
+        0.0005459740225991494,
+        1.842052036016284e-06,
+        2.0963564217879593e-11,
+        0.0
+      ],
+      "variant": "chi-0.25"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.3720281554364036,
+      "expected_attempts_right": 2.3720281554364036,
+      "first_rank_reversal_budget": null,
+      "initial_id": 0,
+      "left": "remove_target",
+      "mechanism": "within_entry_useful_information",
+      "right": "neutralize",
+      "success_difference": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "variant": "chi-0.25"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.257676042318541,
+      "expected_attempts_right": 2.3720281554364036,
+      "first_rank_reversal_budget": null,
+      "initial_id": 0,
+      "left": "delete",
+      "mechanism": "occupancy_and_position",
+      "right": "neutralize",
+      "success_difference": [
+        0.0,
+        0.039999999999999925,
+        0.024525049999999937,
+        0.015429284079999994,
+        0.006757465253060424,
+        0.0017982965768577053,
+        0.000100247481501059,
+        3.380238018380055e-07,
+        3.8469227803261674e-12,
+        0.0
+      ],
+      "variant": "chi-0.25"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.012955469408119,
+      "expected_attempts_right": 2.257676042318541,
+      "first_rank_reversal_budget": null,
+      "initial_id": 0,
+      "left": "correct",
+      "mechanism": "recovery_comparison",
+      "right": "delete",
+      "success_difference": [
+        0.050000000000000044,
+        0.021375000000000033,
+        0.028308750000000105,
+        0.028849581300000038,
+        0.020832957708276867,
+        0.007510321983587476,
+        0.0004457265410980904,
+        1.5040282341782785e-06,
+        1.7116641437553426e-11,
+        0.0
+      ],
+      "variant": "chi-0.25"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 1.9262303918370516,
+      "expected_attempts_right": 2.257676042318541,
+      "first_rank_reversal_budget": null,
+      "initial_id": 1,
+      "left": "correct",
+      "mechanism": "correct_advice",
+      "right": "remove_target",
+      "success_difference": [
+        0.050000000000000044,
+        0.057375000000000065,
+        0.04854075000000002,
+        0.04022699250000006,
+        0.024826984744826586,
+        0.008337910786410774,
+        0.0004886225675598821,
+        1.6485390952336587e-06,
+        1.876121480393067e-11,
+        0.0
+      ],
+      "variant": "chi-0.25"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.257676042318541,
+      "expected_attempts_right": 2.646433786523685,
+      "first_rank_reversal_budget": null,
+      "initial_id": 1,
+      "left": "remove_target",
+      "mechanism": "within_entry_useful_information",
+      "right": "neutralize",
+      "success_difference": [
+        0.09999999999999998,
+        0.09997499999999993,
+        0.06125120999999989,
+        0.03873789147599993,
+        0.017346255844638003,
+        0.004712178651900656,
+        0.0002640054085921717,
+        8.902510938435526e-07,
+        1.0131451233519329e-11,
+        0.0
+      ],
+      "variant": "chi-0.25"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.646433786523685,
+      "expected_attempts_right": 2.646433786523685,
+      "first_rank_reversal_budget": null,
+      "initial_id": 1,
+      "left": "delete",
+      "mechanism": "occupancy_and_position",
+      "right": "neutralize",
+      "success_difference": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "variant": "chi-0.25"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 1.9262303918370516,
+      "expected_attempts_right": 2.646433786523685,
+      "first_rank_reversal_budget": null,
+      "initial_id": 1,
+      "left": "correct",
+      "mechanism": "recovery_comparison",
+      "right": "delete",
+      "success_difference": [
+        0.15000000000000002,
+        0.15735,
+        0.10979195999999991,
+        0.07896488397599999,
+        0.04217324058946459,
+        0.01305008943831143,
+        0.0007526279761520538,
+        2.5387901890772113e-06,
+        2.889266603745e-11,
+        0.0
+      ],
+      "variant": "chi-0.25"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.008459023707265,
+      "expected_attempts_right": 2.3466187775506744,
+      "first_rank_reversal_budget": null,
+      "initial_id": 0,
+      "left": "correct",
+      "mechanism": "correct_advice",
+      "right": "remove_target",
+      "success_difference": [
+        0.050000000000000044,
+        0.06075000000000008,
+        0.051500300000000054,
+        0.04252266228000001,
+        0.02552548426796364,
+        0.007910532948003146,
+        0.0003701135307931924,
+        7.913386015356849e-07,
+        3.6163294581115224e-12,
+        0.0
+      ],
+      "variant": "chi-0.5"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.3466187775506744,
+      "expected_attempts_right": 2.3466187775506744,
+      "first_rank_reversal_budget": null,
+      "initial_id": 0,
+      "left": "remove_target",
+      "mechanism": "within_entry_useful_information",
+      "right": "neutralize",
+      "success_difference": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "variant": "chi-0.5"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.234903095058592,
+      "expected_attempts_right": 2.3466187775506744,
+      "first_rank_reversal_budget": null,
+      "initial_id": 0,
+      "left": "delete",
+      "mechanism": "occupancy_and_position",
+      "right": "neutralize",
+      "success_difference": [
+        0.0,
+        0.040000000000000036,
+        0.024437799999999954,
+        0.015268654480000032,
+        0.006512613531363787,
+        0.0015951478717119993,
+        7.06908678731466e-05,
+        1.510305833729575e-07,
+        6.901146321069973e-13,
+        0.0
+      ],
+      "variant": "chi-0.5"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.008459023707265,
+      "expected_attempts_right": 2.234903095058592,
+      "first_rank_reversal_budget": null,
+      "initial_id": 0,
+      "left": "correct",
+      "mechanism": "recovery_comparison",
+      "right": "delete",
+      "success_difference": [
+        0.050000000000000044,
+        0.020750000000000046,
+        0.0270625000000001,
+        0.02725400779999998,
+        0.01901287073659985,
+        0.006315385076291147,
+        0.0002994226629200458,
+        6.403080181627274e-07,
+        2.926214826004525e-12,
+        0.0
+      ],
+      "variant": "chi-0.5"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 1.922438900485239,
+      "expected_attempts_right": 2.234903095058592,
+      "first_rank_reversal_budget": null,
+      "initial_id": 1,
+      "left": "correct",
+      "mechanism": "correct_advice",
+      "right": "remove_target",
+      "success_difference": [
+        0.050000000000000044,
+        0.05675000000000008,
+        0.04729450000000002,
+        0.03861471500000002,
+        0.022957520491193706,
+        0.007081048109349508,
+        0.0003309900166574842,
+        7.076797163829696e-07,
+        3.234079670733081e-12,
+        0.0
+      ],
+      "variant": "chi-0.5"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.234903095058592,
+      "expected_attempts_right": 2.61594253306081,
+      "first_rank_reversal_budget": null,
+      "initial_id": 1,
+      "left": "remove_target",
+      "mechanism": "within_entry_useful_information",
+      "right": "neutralize",
+      "success_difference": [
+        0.09999999999999998,
+        0.09985,
+        0.060897260000000064,
+        0.03820440685600002,
+        0.016625246171587227,
+        0.004150476676876402,
+        0.0001848577483981595,
+        3.949754627807778e-07,
+        1.804889571133117e-12,
+        0.0
+      ],
+      "variant": "chi-0.5"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 2.61594253306081,
+      "expected_attempts_right": 2.61594253306081,
+      "first_rank_reversal_budget": null,
+      "initial_id": 1,
+      "left": "delete",
+      "mechanism": "occupancy_and_position",
+      "right": "neutralize",
+      "success_difference": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "variant": "chi-0.5"
+    },
+    {
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts_left": 1.922438900485239,
+      "expected_attempts_right": 2.61594253306081,
+      "first_rank_reversal_budget": null,
+      "initial_id": 1,
+      "left": "correct",
+      "mechanism": "recovery_comparison",
+      "right": "delete",
+      "success_difference": [
+        0.15000000000000002,
+        0.15660000000000007,
+        0.10819176000000008,
+        0.07681912185600004,
+        0.03958276666278093,
+        0.01123152478622591,
+        0.0005158477650556437,
+        1.1026551791637473e-06,
+        5.038969241866198e-12,
+        0.0
+      ],
+      "variant": "chi-0.5"
+    }
+  ],
+  "counterexample": [
+    {
+      "after": [
+        4,
+        2,
+        0
+      ],
+      "all_marginal_checks_passed": true,
+      "censored_at_max": 205,
+      "curve": [
+        {
+          "absolute_error": 0.003699999999999981,
+          "budget": 1,
+          "estimate": 0.4537,
+          "exact": 0.45,
+          "hoeffding_tolerance": 0.02330128644255888,
+          "n": 10000,
+          "successes": 4537,
+          "wilson95": [
+            0.44396192266297047,
+            0.4634736355861541
+          ],
+          "within_tolerance": true
+        },
+        {
+          "absolute_error": 0.0010999999999999344,
+          "budget": 2,
+          "estimate": 0.4896,
+          "exact": 0.48850000000000005,
+          "hoeffding_tolerance": 0.02330128644255888,
+          "n": 10000,
+          "successes": 4896,
+          "wilson95": [
+            0.47980817430368466,
+            0.49939981286242524
+          ],
+          "within_tolerance": true
+        },
+        {
+          "absolute_error": 0.0014699999999999713,
+          "budget": 3,
+          "estimate": 0.5002,
+          "exact": 0.49873,
+          "hoeffding_tolerance": 0.02330128644255888,
+          "n": 10000,
+          "successes": 5002,
+          "wilson95": [
+            0.4904019857992647,
+            0.509997860601387
+          ],
+          "within_tolerance": true
+        },
+        {
+          "absolute_error": 0.0012446000000000401,
+          "budget": 4,
+          "estimate": 0.51,
+          "exact": 0.5087554,
+          "hoeffding_tolerance": 0.02330128644255888,
+          "n": 10000,
+          "successes": 5100,
+          "wilson95": [
+            0.5002001808627039,
+            0.5197921391698825
+          ],
+          "within_tolerance": true
+        },
+        {
+          "absolute_error": 0.003091313839999943,
+          "budget": 6,
+          "estimate": 0.5313,
+          "exact": 0.52820868616,
+          "hoeffding_tolerance": 0.02330128644255888,
+          "n": 10000,
+          "successes": 5313,
+          "wilson95": [
+            0.5215092520089998,
+            0.5410667096929959
+          ],
+          "within_tolerance": true
+        },
+        {
+          "absolute_error": 0.003965286050583328,
+          "budget": 10,
+          "estimate": 0.5688,
+          "exact": 0.5648347139494166,
+          "hoeffding_tolerance": 0.02330128644255888,
+          "n": 10000,
+          "successes": 5688,
+          "wilson95": [
+            0.5590688059332708,
+            0.578478355890924
+          ],
+          "within_tolerance": true
+        },
+        {
+          "absolute_error": 0.002861721733372402,
+          "budget": 20,
+          "estimate": 0.6473,
+          "exact": 0.6444382782666276,
+          "hoeffding_tolerance": 0.02330128644255888,
+          "n": 10000,
+          "successes": 6473,
+          "wilson95": [
+            0.6378801540671583,
+            0.6566067200128404
+          ],
+          "within_tolerance": true
+        },
+        {
+          "absolute_error": 0.002924160119833985,
+          "budget": 40,
+          "estimate": 0.7597,
+          "exact": 0.762624160119834,
+          "hoeffding_tolerance": 0.02330128644255888,
+          "n": 10000,
+          "successes": 7597,
+          "wilson95": [
+            0.7512270374831608,
+            0.76797351376311
+          ],
+          "within_tolerance": true
+        },
+        {
+          "absolute_error": 0.0007014922772139442,
+          "budget": 80,
+          "estimate": 0.8935,
+          "exact": 0.8942014922772139,
+          "hoeffding_tolerance": 0.02330128644255888,
+          "n": 10000,
+          "successes": 8935,
+          "wilson95": [
+            0.8873021410497236,
+            0.8993956522325538
+          ],
+          "within_tolerance": true
+        },
+        {
+          "absolute_error": 0.000516751899527268,
+          "budget": 160,
+          "estimate": 0.9795,
+          "exact": 0.9789832481004728,
+          "hoeffding_tolerance": 0.02330128644255888,
+          "n": 10000,
+          "successes": 9795,
+          "wilson95": [
+            0.9765329796614527,
+            0.9820987659010684
+          ],
+          "within_tolerance": true
+        }
+      ],
+      "full_expected_attempts": 27.12499999999998,
+      "operation": "correct",
+      "restricted_mean_cap": 161,
+      "restricted_mean_exact": 26.095179156923137,
+      "restricted_mean_observed": 26.1733
+    },
+    {
+      "after": [
+        4,
+        0
+      ],
+      "all_marginal_checks_passed": true,
+      "censored_at_max": 156,
+      "curve": [
+        {
+          "absolute_error": 0.004699999999999982,
+          "budget": 1,
+          "estimate": 0.4047,
+          "exact": 0.4,
+          "hoeffding_tolerance": 0.02330128644255888,
+          "n": 10000,
+          "successes": 4047,
+          "wilson95": [
+            0.395118205153267,
+            0.41435498493618383
+          ],
+          "within_tolerance": true
+        },
+        {
+          "absolute_error": 0.0011999999999999789,
+          "budget": 2,
+          "estimate": 0.6388,
+          "exact": 0.64,
+          "hoeffding_tolerance": 0.02330128644255888,
+          "n": 10000,
+          "successes": 6388,
+          "wilson95": [
+            0.6293337027854515,
+            0.6481596992668488
+          ],
+          "within_tolerance": true
+        },
+        {
+          "absolute_error": 0.0009000000000000119,
+          "budget": 3,
+          "estimate": 0.6463,
+          "exact": 0.6472,
+          "hoeffding_tolerance": 0.02330128644255888,
+          "n": 10000,
+          "successes": 6463,
+          "wilson95": [
+            0.636874521883235,
+            0.6556131201935049
+          ],
+          "within_tolerance": true
+        },
+        {
+          "absolute_error": 0.0005560000000000009,
+          "budget": 4,
+          "estimate": 0.6537,
+          "exact": 0.654256,
+          "hoeffding_tolerance": 0.02330128644255888,
+          "n": 10000,
+          "successes": 6537,
+          "wilson95": [
+            0.6443172667979987,
+            0.6629646921028552
+          ],
+          "within_tolerance": true
+        },
+        {
+          "absolute_error": 0.0008525375999999252,
+          "budget": 6,
+          "estimate": 0.6688,
+          "exact": 0.6679474624,
+          "hoeffding_tolerance": 0.02330128644255888,
+          "n": 10000,
+          "successes": 6688,
+          "wilson95": [
+            0.6595122553121705,
+            0.6779581068378889
+          ],
+          "within_tolerance": true
+        },
+        {
+          "absolute_error": 0.002274688129442759,
+          "budget": 10,
+          "estimate": 0.696,
+          "exact": 0.6937253118705572,
+          "hoeffding_tolerance": 0.02330128644255888,
+          "n": 10000,
+          "successes": 6960,
+          "wilson95": [
+            0.6869106597785772,
+            0.7049388128601175
+          ],
+          "within_tolerance": true
+        },
+        {
+          "absolute_error": 0.0025487191085318273,
+          "budget": 20,
+          "estimate": 0.7523,
+          "exact": 0.7497512808914681,
+          "hoeffding_tolerance": 0.02330128644255888,
+          "n": 10000,
+          "successes": 7523,
+          "wilson95": [
+            0.7437434806172881,
+            0.7606627538048684
+          ],
+          "within_tolerance": true
+        },
+        {
+          "absolute_error": 0.00043196020164271154,
+          "budget": 40,
+          "estimate": 0.8325,
+          "exact": 0.8329319602016427,
+          "hoeffding_tolerance": 0.02330128644255888,
+          "n": 10000,
+          "successes": 8325,
+          "wilson95": [
+            0.8250536816761485,
+            0.8396909594073516
+          ],
+          "within_tolerance": true
+        },
+        {
+          "absolute_error": 3.770717457873829e-05,
+          "budget": 80,
+          "estimate": 0.9255,
+          "exact": 0.9255377071745787,
+          "hoeffding_tolerance": 0.02330128644255888,
+          "n": 10000,
+          "successes": 9255,
+          "wilson95": [
+            0.9201884742372172,
+            0.9304847431493369
+          ],
+          "within_tolerance": true
+        },
+        {
+          "absolute_error": 0.0008081511557578303,
+          "budget": 160,
+          "estimate": 0.9844,
+          "exact": 0.9852081511557579,
+          "hoeffding_tolerance": 0.02330128644255888,
+          "n": 10000,
+          "successes": 9844,
+          "wilson95": [
+            0.981778519157636,
+            0.9866494632208525
+          ],
+          "within_tolerance": true
+        }
+      ],
+      "full_expected_attempts": 19.599999999999984,
+      "operation": "delete",
+      "restricted_mean_cap": 161,
+      "restricted_mean_exact": 18.87519940663212,
+      "restricted_mean_observed": 18.8946
+    }
+  ],
+  "curves": [
+    {
+      "after": [
+        4,
+        1,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 4.991348311893815,
+      "initial": [
+        4,
+        1,
+        0
+      ],
+      "initial_id": 0,
+      "operation": "retain",
+      "success": [
+        0.20000000000000004,
+        0.30000000000000004,
+        0.45485600000000015,
+        0.5686077472000002,
+        0.7368293037533293,
+        0.9042431004830733,
+        0.9925063341153657,
+        0.9999542368596004,
+        0.9999999982933381,
+        1.0000000000000002
+      ],
+      "variant": "reference"
+    },
+    {
+      "after": [
+        4,
+        2,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.0195280172426227,
+      "initial": [
+        4,
+        1,
+        0
+      ],
+      "initial_id": 0,
+      "operation": "correct",
+      "success": [
+        0.55,
+        0.7615000000000001,
+        0.8692030000000002,
+        0.9276277564000002,
+        0.9742647515233481,
+        0.9941853913726946,
+        0.999593651943465,
+        0.9999975211639409,
+        0.9999999999075561,
+        1.0
+      ],
+      "variant": "reference"
+    },
+    {
+      "after": [
+        4,
+        0,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.409212111265962,
+      "initial": [
+        4,
+        1,
+        0
+      ],
+      "initial_id": 0,
+      "operation": "remove_target",
+      "success": [
+        0.5,
+        0.6995,
+        0.8148982,
+        0.8811967679200001,
+        0.9439171434405311,
+        0.9827457279974822,
+        0.998692975315042,
+        0.999992020511786,
+        0.999999999702418,
+        1.0
+      ],
+      "variant": "reference"
+    },
+    {
+      "after": [
+        4,
+        0,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.409212111265962,
+      "initial": [
+        4,
+        1,
+        0
+      ],
+      "initial_id": 0,
+      "operation": "neutralize",
+      "success": [
+        0.5,
+        0.6995,
+        0.8148982,
+        0.8811967679200001,
+        0.9439171434405311,
+        0.9827457279974822,
+        0.998692975315042,
+        0.999992020511786,
+        0.999999999702418,
+        1.0
+      ],
+      "variant": "reference"
+    },
+    {
+      "after": [
+        4,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.2908995746426752,
+      "initial": [
+        4,
+        1,
+        0
+      ],
+      "initial_id": 0,
+      "operation": "delete",
+      "success": [
+        0.5,
+        0.7395,
+        0.839523,
+        0.8968259516000001,
+        0.9510008607747047,
+        0.9848478201964718,
+        0.9988509570617832,
+        0.9999929849310196,
+        0.9999999997383845,
+        1.0
+      ],
+      "variant": "reference"
+    },
+    {
+      "after": [
+        0,
+        5,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 4.693433044775886,
+      "initial": [
+        0,
+        5,
+        0
+      ],
+      "initial_id": 1,
+      "operation": "retain",
+      "success": [
+        0.20000000000000004,
+        0.3640000000000001,
+        0.5055760000000001,
+        0.6092454304000002,
+        0.761605015129056,
+        0.9132499413966493,
+        0.9932110718090307,
+        0.9999585406227762,
+        0.99999999845384,
+        1.0000000000000002
+      ],
+      "variant": "reference"
+    },
+    {
+      "after": [
+        0,
+        6,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 1.9317721324407415,
+      "initial": [
+        0,
+        5,
+        0
+      ],
+      "initial_id": 1,
+      "operation": "correct",
+      "success": [
+        0.55,
+        0.7975000000000001,
+        0.8894350000000001,
+        0.9390218716000001,
+        0.9783184688499815,
+        0.9950998737395063,
+        0.9996575272866877,
+        0.9999979108192807,
+        0.9999999999220875,
+        1.0
+      ],
+      "variant": "reference"
+    },
+    {
+      "after": [
+        0,
+        4,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.2908995746426752,
+      "initial": [
+        0,
+        5,
+        0
+      ],
+      "initial_id": 1,
+      "operation": "remove_target",
+      "success": [
+        0.5,
+        0.7395,
+        0.839523,
+        0.8968259516000001,
+        0.9510008607747047,
+        0.9848478201964718,
+        0.9988509570617832,
+        0.9999929849310196,
+        0.9999999997383845,
+        1.0
+      ],
+      "variant": "reference"
+    },
+    {
+      "after": [
+        0,
+        0,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.691054533519155,
+      "initial": [
+        0,
+        5,
+        0
+      ],
+      "initial_id": 1,
+      "operation": "neutralize",
+      "success": [
+        0.4,
+        0.6394000000000001,
+        0.7778778400000002,
+        0.8574361215040002,
+        0.9327005721286373,
+        0.9792948735969786,
+        0.9984315703780504,
+        0.9999904246141432,
+        0.9999999996429018,
+        1.0
+      ],
+      "variant": "reference"
+    },
+    {
+      "after": [
+        0,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.691054533519155,
+      "initial": [
+        0,
+        5,
+        0
+      ],
+      "initial_id": 1,
+      "operation": "delete",
+      "success": [
+        0.4,
+        0.6394000000000001,
+        0.7778778400000002,
+        0.8574361215040002,
+        0.9327005721286373,
+        0.9792948735969786,
+        0.9984315703780504,
+        0.9999904246141432,
+        0.9999999996429018,
+        1.0
+      ],
+      "variant": "reference"
+    },
+    {
+      "after": [
+        4,
+        1,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 6.428064497734143,
+      "initial": [
+        4,
+        1,
+        0
+      ],
+      "initial_id": 0,
+      "operation": "retain",
+      "success": [
+        0.10000000000000003,
+        0.1945000000000001,
+        0.34489000000000014,
+        0.45255979000000013,
+        0.6270558559663604,
+        0.8311874656753546,
+        0.9772903661013046,
+        0.9995906441485072,
+        0.9999998669967751,
+        0.9999999999999862
+      ],
+      "variant": "dH-0"
+    },
+    {
+      "after": [
+        4,
+        2,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.3701572407725067,
+      "initial": [
+        4,
+        1,
+        0
+      ],
+      "initial_id": 0,
+      "operation": "correct",
+      "success": [
+        0.45,
+        0.6975000000000001,
+        0.8239450000000001,
+        0.8949223900000003,
+        0.9570708440463602,
+        0.987887090860762,
+        0.9985654034359672,
+        0.9999741820893229,
+        0.9999999916115416,
+        0.9999999999999993
+      ],
+      "variant": "dH-0"
+    },
+    {
+      "after": [
+        4,
+        0,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.9265105002475225,
+      "initial": [
+        4,
+        1,
+        0
+      ],
+      "initial_id": 0,
+      "operation": "remove_target",
+      "success": [
+        0.4,
+        0.6274000000000001,
+        0.7580368000000002,
+        0.8344545976000002,
+        0.9122334370285026,
+        0.9666471224235806,
+        0.9956829662683485,
+        0.9999222189278045,
+        0.9999999747282647,
+        0.9999999999999976
+      ],
+      "variant": "dH-0"
+    },
+    {
+      "after": [
+        4,
+        0,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.9265105002475225,
+      "initial": [
+        4,
+        1,
+        0
+      ],
+      "initial_id": 0,
+      "operation": "neutralize",
+      "success": [
+        0.4,
+        0.6274000000000001,
+        0.7580368000000002,
+        0.8344545976000002,
+        0.9122334370285026,
+        0.9666471224235806,
+        0.9956829662683485,
+        0.9999222189278045,
+        0.9999999747282647,
+        0.9999999999999976
+      ],
+      "variant": "dH-0"
+    },
+    {
+      "after": [
+        4,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.9265105002475242,
+      "initial": [
+        4,
+        1,
+        0
+      ],
+      "initial_id": 0,
+      "operation": "delete",
+      "success": [
+        0.4,
+        0.6274000000000001,
+        0.7580368000000002,
+        0.8344545976000002,
+        0.9122334370285026,
+        0.9666471224235806,
+        0.9956829662683485,
+        0.9999222189278045,
+        0.9999999747282647,
+        0.9999999999999976
+      ],
+      "variant": "dH-0"
+    },
+    {
+      "after": [
+        0,
+        5,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 6.428064497734148,
+      "initial": [
+        0,
+        5,
+        0
+      ],
+      "initial_id": 1,
+      "operation": "retain",
+      "success": [
+        0.10000000000000003,
+        0.1945000000000001,
+        0.34489000000000014,
+        0.45255979000000013,
+        0.6270558559663604,
+        0.8311874656753546,
+        0.9772903661013046,
+        0.9995906441485072,
+        0.9999998669967751,
+        0.9999999999999862
+      ],
+      "variant": "dH-0"
+    },
+    {
+      "after": [
+        0,
+        6,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.370157240772506,
+      "initial": [
+        0,
+        5,
+        0
+      ],
+      "initial_id": 1,
+      "operation": "correct",
+      "success": [
+        0.45,
+        0.6975000000000001,
+        0.8239450000000001,
+        0.8949223900000003,
+        0.9570708440463602,
+        0.987887090860762,
+        0.9985654034359672,
+        0.9999741820893229,
+        0.9999999916115416,
+        0.9999999999999993
+      ],
+      "variant": "dH-0"
+    },
+    {
+      "after": [
+        0,
+        4,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.9265105002475242,
+      "initial": [
+        0,
+        5,
+        0
+      ],
+      "initial_id": 1,
+      "operation": "remove_target",
+      "success": [
+        0.4,
+        0.6274000000000001,
+        0.7580368000000002,
+        0.8344545976000002,
+        0.9122334370285026,
+        0.9666471224235806,
+        0.9956829662683485,
+        0.9999222189278045,
+        0.9999999747282647,
+        0.9999999999999976
+      ],
+      "variant": "dH-0"
+    },
+    {
+      "after": [
+        0,
+        0,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.9265105002475247,
+      "initial": [
+        0,
+        5,
+        0
+      ],
+      "initial_id": 1,
+      "operation": "neutralize",
+      "success": [
+        0.4,
+        0.6274000000000001,
+        0.7580368000000002,
+        0.8344545976000002,
+        0.9122334370285026,
+        0.9666471224235806,
+        0.9956829662683485,
+        0.9999222189278045,
+        0.9999999747282647,
+        0.9999999999999976
+      ],
+      "variant": "dH-0"
+    },
+    {
+      "after": [
+        0,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.9265105002475247,
+      "initial": [
+        0,
+        5,
+        0
+      ],
+      "initial_id": 1,
+      "operation": "delete",
+      "success": [
+        0.4,
+        0.6274000000000001,
+        0.7580368000000002,
+        0.8344545976000002,
+        0.9122334370285026,
+        0.9666471224235806,
+        0.9956829662683485,
+        0.9999222189278045,
+        0.9999999747282647,
+        0.9999999999999976
+      ],
+      "variant": "dH-0"
+    },
+    {
+      "after": [
+        4,
+        1,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 3.364180534176833,
+      "initial": [
+        4,
+        1,
+        0
+      ],
+      "initial_id": 0,
+      "operation": "retain",
+      "success": [
+        0.4,
+        0.49900000000000005,
+        0.6397060000000001,
+        0.7388677192000002,
+        0.8674709391589025,
+        0.9665764251651527,
+        0.9989499019534244,
+        0.9999989655054147,
+        0.9999999999989964,
+        1.0
+      ],
+      "variant": "dH-0.3"
+    },
+    {
+      "after": [
+        4,
+        2,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 1.50380942233242,
+      "initial": [
+        4,
+        1,
+        0
+      ],
+      "initial_id": 0,
+      "operation": "correct",
+      "success": [
+        0.75,
+        0.8775000000000001,
+        0.9390550000000001,
+        0.969602374,
+        0.9911206216224471,
+        0.9985950721202561,
+        0.9999600597324453,
+        0.9999999606839287,
+        0.9999999999999619,
+        1.0
+      ],
+      "variant": "dH-0.3"
+    },
+    {
+      "after": [
+        4,
+        0,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 1.7215995274043534,
+      "initial": [
+        4,
+        1,
+        0
+      ],
+      "initial_id": 0,
+      "operation": "remove_target",
+      "success": [
+        0.7,
+        0.8317,
+        0.90517996,
+        0.944502765616,
+        0.9781319134375455,
+        0.9952855053284808,
+        0.9998559114301301,
+        0.9999998580819331,
+        0.9999999999998623,
+        1.0
+      ],
+      "variant": "dH-0.3"
+    },
+    {
+      "after": [
+        4,
+        0,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 1.7215995274043534,
+      "initial": [
+        4,
+        1,
+        0
+      ],
+      "initial_id": 0,
+      "operation": "neutralize",
+      "success": [
+        0.7,
+        0.8317,
+        0.90517996,
+        0.944502765616,
+        0.9781319134375455,
+        0.9952855053284808,
+        0.9998559114301301,
+        0.9999998580819331,
+        0.9999999999998623,
+        1.0
+      ],
+      "variant": "dH-0.3"
+    },
+    {
+      "after": [
+        4,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 1.5413393355172043,
+      "initial": [
+        4,
+        1,
+        0
+      ],
+      "initial_id": 0,
+      "operation": "delete",
+      "success": [
+        0.7,
+        0.9037,
+        0.9466246,
+        0.968632636528,
+        0.9872524752526657,
+        0.9971802966162042,
+        0.9999133986243085,
+        0.9999999146999743,
+        0.9999999999999173,
+        1.0
+      ],
+      "variant": "dH-0.3"
+    },
+    {
+      "after": [
+        0,
+        5,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.8327289587361126,
+      "initial": [
+        0,
+        5,
+        0
+      ],
+      "initial_id": 1,
+      "operation": "retain",
+      "success": [
+        0.4,
+        0.643,
+        0.7480660000000001,
+        0.8195018728000001,
+        0.9084745308659429,
+        0.9769046836524867,
+        0.9992743164312042,
+        0.999999285098831,
+        0.9999999999993064,
+        1.0
+      ],
+      "variant": "dH-0.3"
+    },
+    {
+      "after": [
+        0,
+        6,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 1.3754022619456059,
+      "initial": [
+        0,
+        5,
+        0
+      ],
+      "initial_id": 1,
+      "operation": "correct",
+      "success": [
+        0.75,
+        0.9375,
+        0.9703750000000001,
+        0.9856092700000001,
+        0.9958067149887985,
+        0.9993347745884469,
+        0.9999810732092684,
+        0.9999999813688781,
+        0.999999999999982,
+        1.0
+      ],
+      "variant": "dH-0.3"
+    },
+    {
+      "after": [
+        0,
+        4,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 1.5413393355172043,
+      "initial": [
+        0,
+        5,
+        0
+      ],
+      "initial_id": 1,
+      "operation": "remove_target",
+      "success": [
+        0.7,
+        0.9037,
+        0.9466246,
+        0.968632636528,
+        0.9872524752526657,
+        0.9971802966162042,
+        0.9999133986243085,
+        0.9999999146999743,
+        0.9999999999999173,
+        1.0
+      ],
+      "variant": "dH-0.3"
+    },
+    {
+      "after": [
+        0,
+        0,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.443199054808707,
+      "initial": [
+        0,
+        5,
+        0
+      ],
+      "initial_id": 1,
+      "operation": "neutralize",
+      "success": [
+        0.4,
+        0.6634,
+        0.81035992,
+        0.889005531232,
+        0.9562638268750908,
+        0.9905710106569616,
+        0.9997118228602602,
+        0.9999997161638663,
+        0.9999999999997248,
+        1.0
+      ],
+      "variant": "dH-0.3"
+    },
+    {
+      "after": [
+        0,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.4431990548087072,
+      "initial": [
+        0,
+        5,
+        0
+      ],
+      "initial_id": 1,
+      "operation": "delete",
+      "success": [
+        0.4,
+        0.6634,
+        0.81035992,
+        0.889005531232,
+        0.9562638268750908,
+        0.9905710106569616,
+        0.9997118228602602,
+        0.9999997161638663,
+        0.9999999999997248,
+        1.0
+      ],
+      "variant": "dH-0.3"
+    },
+    {
+      "after": [
+        4,
+        1,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 5.107092312811727,
+      "initial": [
+        4,
+        1,
+        0
+      ],
+      "initial_id": 0,
+      "operation": "retain",
+      "success": [
+        0.20000000000000004,
+        0.30000000000000004,
+        0.45286400000000016,
+        0.5650334032000002,
+        0.7291125560466049,
+        0.8952611279167357,
+        0.9902865848122764,
+        0.9999164685083949,
+        0.999999993822588,
+        1.0000000000000002
+      ],
+      "variant": "sC-0"
+    },
+    {
+      "after": [
+        4,
+        2,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.2583972593396244,
+      "initial": [
+        4,
+        1,
+        0
+      ],
+      "initial_id": 0,
+      "operation": "correct",
+      "success": [
+        0.55,
+        0.7480000000000001,
+        0.84353023,
+        0.8976612924640002,
+        0.948424950274829,
+        0.9821102339853875,
+        0.9983639062530978,
+        0.9999859310177972,
+        0.9999999989595555,
+        1.0
+      ],
+      "variant": "sC-0"
+    },
+    {
+      "after": [
+        4,
+        0,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.4630584114206937,
+      "initial": [
+        4,
+        1,
+        0
+      ],
+      "initial_id": 0,
+      "operation": "remove_target",
+      "success": [
+        0.5,
+        0.6995,
+        0.8134672000000001,
+        0.8780613713200001,
+        0.938618185933333,
+        0.978723803424995,
+        0.9980543927974713,
+        0.999983269477928,
+        0.9999999987627264,
+        1.0
+      ],
+      "variant": "sC-0"
+    },
+    {
+      "after": [
+        4,
+        0,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.4630584114206937,
+      "initial": [
+        4,
+        1,
+        0
+      ],
+      "initial_id": 0,
+      "operation": "neutralize",
+      "success": [
+        0.5,
+        0.6995,
+        0.8134672000000001,
+        0.8780613713200001,
+        0.938618185933333,
+        0.978723803424995,
+        0.9980543927974713,
+        0.999983269477928,
+        0.9999999987627264,
+        1.0
+      ],
+      "variant": "sC-0"
+    },
+    {
+      "after": [
+        4,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.3370109761586066,
+      "initial": [
+        4,
+        1,
+        0
+      ],
+      "initial_id": 0,
+      "operation": "delete",
+      "success": [
+        0.5,
+        0.7395,
+        0.838308,
+        0.8941663166000001,
+        0.9464891423048104,
+        0.9813994583868582,
+        0.9982984115656341,
+        0.9999853678037776,
+        0.9999999989179039,
+        1.0
+      ],
+      "variant": "sC-0"
+    },
+    {
+      "after": [
+        0,
+        5,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 4.798114424929285,
+      "initial": [
+        0,
+        5,
+        0
+      ],
+      "initial_id": 1,
+      "operation": "retain",
+      "success": [
+        0.20000000000000004,
+        0.3640000000000001,
+        0.5037760000000001,
+        0.6060207184000002,
+        0.7546361183523773,
+        0.905125405767604,
+        0.9912013395928245,
+        0.9999243350324599,
+        0.9999999944043418,
+        1.0000000000000002
+      ],
+      "variant": "sC-0"
+    },
+    {
+      "after": [
+        0,
+        6,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.1449545676037447,
+      "initial": [
+        0,
+        5,
+        0
+      ],
+      "initial_id": 1,
+      "operation": "correct",
+      "success": [
+        0.55,
+        0.7840000000000001,
+        0.8658869500000002,
+        0.9121557432160001,
+        0.9555088110091585,
+        0.9845183234510643,
+        0.9985835231444442,
+        0.9999878195110619,
+        0.9999999990992152,
+        1.0
+      ],
+      "variant": "sC-0"
+    },
+    {
+      "after": [
+        0,
+        4,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.3370109761586066,
+      "initial": [
+        0,
+        5,
+        0
+      ],
+      "initial_id": 1,
+      "operation": "remove_target",
+      "success": [
+        0.5,
+        0.7395,
+        0.838308,
+        0.8941663166000001,
+        0.9464891423048104,
+        0.9813994583868582,
+        0.9982984115656341,
+        0.9999853678037776,
+        0.9999999989179039,
+        1.0
+      ],
+      "variant": "sC-0"
+    },
+    {
+      "after": [
+        0,
+        0,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.7556700937048335,
+      "initial": [
+        0,
+        5,
+        0
+      ],
+      "initial_id": 1,
+      "operation": "neutralize",
+      "success": [
+        0.4,
+        0.6394000000000001,
+        0.7761606400000001,
+        0.8536736455840002,
+        0.9263418231199996,
+        0.9744685641099939,
+        0.9976652713569656,
+        0.9999799233735137,
+        0.9999999985152715,
+        1.0
+      ],
+      "variant": "sC-0"
+    },
+    {
+      "after": [
+        0,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.7556700937048335,
+      "initial": [
+        0,
+        5,
+        0
+      ],
+      "initial_id": 1,
+      "operation": "delete",
+      "success": [
+        0.4,
+        0.6394000000000001,
+        0.7761606400000001,
+        0.8536736455840002,
+        0.9263418231199996,
+        0.9744685641099939,
+        0.9976652713569656,
+        0.9999799233735137,
+        0.9999999985152715,
+        1.0
+      ],
+      "variant": "sC-0"
+    },
+    {
+      "after": [
+        4,
+        1,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 4.782627457230895,
+      "initial": [
+        4,
+        1,
+        0
+      ],
+      "initial_id": 0,
+      "operation": "retain",
+      "success": [
+        0.20000000000000004,
+        0.30000000000000004,
+        0.46083200000000013,
+        0.5764839712000002,
+        0.752809503302002,
+        0.9209473070957801,
+        0.9956789708261009,
+        0.9999871992295564,
+        0.9999999998876701,
+        1.0000000000000002
+      ],
+      "variant": "sC-0.4"
+    },
+    {
+      "after": [
+        4,
+        2,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.015483947077069,
+      "initial": [
+        4,
+        1,
+        0
+      ],
+      "initial_id": 0,
+      "operation": "correct",
+      "success": [
+        0.55,
+        0.7615000000000001,
+        0.8692030000000002,
+        0.9276277564000002,
+        0.9742647515233481,
+        0.9945077837488376,
+        0.9997264902687357,
+        0.9999991905199761,
+        0.9999999999928968,
+        1.0
+      ],
+      "variant": "sC-0.4"
+    },
+    {
+      "after": [
+        4,
+        0,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.386239213546281,
+      "initial": [
+        4,
+        1,
+        0
+      ],
+      "initial_id": 0,
+      "operation": "remove_target",
+      "success": [
+        0.5,
+        0.6995,
+        0.8148982,
+        0.8811967679200001,
+        0.9450105283035095,
+        0.9847874524759875,
+        0.9991916197318937,
+        0.9999976058972051,
+        0.9999999999789912,
+        1.0
+      ],
+      "variant": "sC-0.4"
+    },
+    {
+      "after": [
+        4,
+        0,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.386239213546281,
+      "initial": [
+        4,
+        1,
+        0
+      ],
+      "initial_id": 0,
+      "operation": "neutralize",
+      "success": [
+        0.5,
+        0.6995,
+        0.8148982,
+        0.8811967679200001,
+        0.9450105283035095,
+        0.9847874524759875,
+        0.9991916197318937,
+        0.9999976058972051,
+        0.9999999999789912,
+        1.0
+      ],
+      "variant": "sC-0.4"
+    },
+    {
+      "after": [
+        4,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.2705457180753634,
+      "initial": [
+        4,
+        1,
+        0
+      ],
+      "initial_id": 0,
+      "operation": "delete",
+      "success": [
+        0.5,
+        0.7395,
+        0.839523,
+        0.8968259516000001,
+        0.9519819064238135,
+        0.9866574186520342,
+        0.9992903269912321,
+        0.9999978982093336,
+        0.9999999999815563,
+        1.0
+      ],
+      "variant": "sC-0.4"
+    },
+    {
+      "after": [
+        0,
+        5,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 4.504593286351083,
+      "initial": [
+        0,
+        5,
+        0
+      ],
+      "initial_id": 1,
+      "operation": "retain",
+      "success": [
+        0.20000000000000004,
+        0.3640000000000001,
+        0.5109760000000001,
+        0.6163475104000001,
+        0.7760463484543777,
+        0.9283690465223697,
+        0.996084549045803,
+        0.9999884007261339,
+        0.9999999998982135,
+        1.0000000000000002
+      ],
+      "variant": "sC-0.4"
+    },
+    {
+      "after": [
+        0,
+        6,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 1.9283629444662225,
+      "initial": [
+        0,
+        5,
+        0
+      ],
+      "initial_id": 1,
+      "operation": "correct",
+      "success": [
+        0.55,
+        0.7975000000000001,
+        0.8894350000000001,
+        0.9390218716000001,
+        0.9783184688499815,
+        0.9953716941395311,
+        0.9997694942014496,
+        0.9999993177939279,
+        0.9999999999940136,
+        1.0
+      ],
+      "variant": "sC-0.4"
+    },
+    {
+      "after": [
+        0,
+        4,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.2705457180753634,
+      "initial": [
+        0,
+        5,
+        0
+      ],
+      "initial_id": 1,
+      "operation": "remove_target",
+      "success": [
+        0.5,
+        0.7395,
+        0.839523,
+        0.8968259516000001,
+        0.9519819064238135,
+        0.9866574186520342,
+        0.9992903269912321,
+        0.9999978982093336,
+        0.9999999999815563,
+        1.0
+      ],
+      "variant": "sC-0.4"
+    },
+    {
+      "after": [
+        0,
+        0,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.6634870562555393,
+      "initial": [
+        0,
+        5,
+        0
+      ],
+      "initial_id": 1,
+      "operation": "neutralize",
+      "success": [
+        0.4,
+        0.6394000000000001,
+        0.7778778400000002,
+        0.8574361215040002,
+        0.9340126339642113,
+        0.9817449429711851,
+        0.9990299436782725,
+        0.999997127076646,
+        0.9999999999747895,
+        1.0
+      ],
+      "variant": "sC-0.4"
+    },
+    {
+      "after": [
+        0,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.663487056255539,
+      "initial": [
+        0,
+        5,
+        0
+      ],
+      "initial_id": 1,
+      "operation": "delete",
+      "success": [
+        0.4,
+        0.6394000000000001,
+        0.7778778400000002,
+        0.8574361215040002,
+        0.9340126339642113,
+        0.9817449429711851,
+        0.9990299436782725,
+        0.999997127076646,
+        0.9999999999747895,
+        1.0
+      ],
+      "variant": "sC-0.4"
+    },
+    {
+      "after": [
+        4,
+        1,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 5.253637692747538,
+      "initial": [
+        4,
+        1,
+        0
+      ],
+      "initial_id": 0,
+      "operation": "retain",
+      "success": [
+        0.20000000000000004,
+        0.29200000000000004,
+        0.4432880000000001,
+        0.5501506272000001,
+        0.7139350630798907,
+        0.8868923142270961,
+        0.9891048801748588,
+        0.9998991635174177,
+        0.9999999913626416,
+        1.0000000000000002
+      ],
+      "variant": "dX-0.1"
+    },
+    {
+      "after": [
+        4,
+        2,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.0249512770249707,
+      "initial": [
+        4,
+        1,
+        0
+      ],
+      "initial_id": 0,
+      "operation": "correct",
+      "success": [
+        0.55,
+        0.7615000000000001,
+        0.8692030000000002,
+        0.9276277564000002,
+        0.9740518556859592,
+        0.9937295968090011,
+        0.9994570448800109,
+        0.9999949789727458,
+        0.9999999995699136,
+        1.0
+      ],
+      "variant": "dX-0.1"
+    },
+    {
+      "after": [
+        4,
+        0,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.4399832770082526,
+      "initial": [
+        4,
+        1,
+        0
+      ],
+      "initial_id": 0,
+      "operation": "remove_target",
+      "success": [
+        0.5,
+        0.6995,
+        0.8144582,
+        0.8799173439200001,
+        0.9415141215476569,
+        0.9804121749276847,
+        0.9981673398017474,
+        0.9999830420302206,
+        0.9999999985474299,
+        1.0
+      ],
+      "variant": "dX-0.1"
+    },
+    {
+      "after": [
+        4,
+        0,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.4399832770082526,
+      "initial": [
+        4,
+        1,
+        0
+      ],
+      "initial_id": 0,
+      "operation": "neutralize",
+      "success": [
+        0.5,
+        0.6995,
+        0.8144582,
+        0.8799173439200001,
+        0.9415141215476569,
+        0.9804121749276847,
+        0.9981673398017474,
+        0.9999830420302206,
+        0.9999999985474299,
+        1.0
+      ],
+      "variant": "dX-0.1"
+    },
+    {
+      "after": [
+        4,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.3181726344748474,
+      "initial": [
+        4,
+        1,
+        0
+      ],
+      "initial_id": 0,
+      "operation": "delete",
+      "success": [
+        0.5,
+        0.7395,
+        0.8391230000000001,
+        0.8956733116000001,
+        0.9488606477667303,
+        0.9827833543365128,
+        0.9983875773778346,
+        0.99998507981993,
+        0.9999999987219812,
+        1.0
+      ],
+      "variant": "dX-0.1"
+    },
+    {
+      "after": [
+        0,
+        5,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 4.933885383599955,
+      "initial": [
+        0,
+        5,
+        0
+      ],
+      "initial_id": 1,
+      "operation": "retain",
+      "success": [
+        0.20000000000000004,
+        0.3560000000000001,
+        0.49458400000000013,
+        0.5921589344000001,
+        0.7406594869205748,
+        0.8974571600582806,
+        0.9901225098288168,
+        0.9999085818784842,
+        0.999999992169391,
+        1.0000000000000002
+      ],
+      "variant": "dX-0.1"
+    },
+    {
+      "after": [
+        0,
+        6,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 1.936344056888045,
+      "initial": [
+        0,
+        5,
+        0
+      ],
+      "initial_id": 1,
+      "operation": "correct",
+      "success": [
+        0.55,
+        0.7975000000000001,
+        0.8894350000000001,
+        0.9390218716000001,
+        0.9781389059722343,
+        0.9947156191621777,
+        0.9995423826535129,
+        0.9999957681384686,
+        0.9999999996375113,
+        1.0
+      ],
+      "variant": "dX-0.1"
+    },
+    {
+      "after": [
+        0,
+        4,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.3181726344748474,
+      "initial": [
+        0,
+        5,
+        0
+      ],
+      "initial_id": 1,
+      "operation": "remove_target",
+      "success": [
+        0.5,
+        0.7395,
+        0.8391230000000001,
+        0.8956733116000001,
+        0.9488606477667303,
+        0.9827833543365128,
+        0.9983875773778346,
+        0.99998507981993,
+        0.9999999987219812,
+        1.0
+      ],
+      "variant": "dX-0.1"
+    },
+    {
+      "after": [
+        0,
+        0,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.727979932409902,
+      "initial": [
+        0,
+        5,
+        0
+      ],
+      "initial_id": 1,
+      "operation": "neutralize",
+      "success": [
+        0.4,
+        0.6394000000000001,
+        0.7773498400000001,
+        0.8559008127040001,
+        0.9298169458571883,
+        0.9764946099132217,
+        0.9978008077620969,
+        0.9999796504362647,
+        0.999999998256916,
+        1.0
+      ],
+      "variant": "dX-0.1"
+    },
+    {
+      "after": [
+        0,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.727979932409902,
+      "initial": [
+        0,
+        5,
+        0
+      ],
+      "initial_id": 1,
+      "operation": "delete",
+      "success": [
+        0.4,
+        0.6394000000000001,
+        0.7773498400000001,
+        0.8559008127040001,
+        0.9298169458571883,
+        0.9764946099132217,
+        0.9978008077620969,
+        0.9999796504362647,
+        0.999999998256916,
+        1.0
+      ],
+      "variant": "dX-0.1"
+    },
+    {
+      "after": [
+        4,
+        1,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 5.577028206091626,
+      "initial": [
+        4,
+        1,
+        0
+      ],
+      "initial_id": 0,
+      "operation": "retain",
+      "success": [
+        0.20000000000000004,
+        0.28640000000000004,
+        0.43388800000000005,
+        0.5321250432000002,
+        0.6886354193015379,
+        0.8650455720852365,
+        0.9836395380860152,
+        0.9997600828396708,
+        0.9999999484074233,
+        0.9999999999999981
+      ],
+      "variant": "dX-0.3"
+    },
+    {
+      "after": [
+        4,
+        2,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.031973255271244,
+      "initial": [
+        4,
+        1,
+        0
+      ],
+      "initial_id": 0,
+      "operation": "correct",
+      "success": [
+        0.55,
+        0.7615000000000001,
+        0.8692030000000002,
+        0.9276277564000002,
+        0.9738335720676963,
+        0.9931898442344258,
+        0.9992529862112027,
+        0.9999890521345571,
+        0.9999999976457352,
+        1.0
+      ],
+      "variant": "dX-0.3"
+    },
+    {
+      "after": [
+        4,
+        0,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.4794750642095145,
+      "initial": [
+        4,
+        1,
+        0
+      ],
+      "initial_id": 0,
+      "operation": "remove_target",
+      "success": [
+        0.5,
+        0.6995,
+        0.8140862000000001,
+        0.8786608047200001,
+        0.9388546345977747,
+        0.9775139772242468,
+        0.9973437074003341,
+        0.9999610528537277,
+        0.9999999916246776,
+        0.9999999999999998
+      ],
+      "variant": "dX-0.3"
+    },
+    {
+      "after": [
+        4,
+        0,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.4794750642095145,
+      "initial": [
+        4,
+        1,
+        0
+      ],
+      "initial_id": 0,
+      "operation": "neutralize",
+      "success": [
+        0.5,
+        0.6995,
+        0.8140862000000001,
+        0.8786608047200001,
+        0.9388546345977747,
+        0.9775139772242468,
+        0.9973437074003341,
+        0.9999610528537277,
+        0.9999999916246776,
+        0.9999999999999998
+      ],
+      "variant": "dX-0.3"
+    },
+    {
+      "after": [
+        4,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.3532688710890435,
+      "initial": [
+        4,
+        1,
+        0
+      ],
+      "initial_id": 0,
+      "operation": "delete",
+      "success": [
+        0.5,
+        0.7395,
+        0.838779,
+        0.8945244636,
+        0.9464784579719885,
+        0.9802127647742398,
+        0.9976603767794339,
+        0.9999656957427758,
+        0.9999999926230996,
+        0.9999999999999998
+      ],
+      "variant": "dX-0.3"
+    },
+    {
+      "after": [
+        0,
+        5,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 5.259062311994898,
+      "initial": [
+        0,
+        5,
+        0
+      ],
+      "initial_id": 1,
+      "operation": "retain",
+      "success": [
+        0.20000000000000004,
+        0.3440000000000001,
+        0.4809920000000001,
+        0.5716883584000001,
+        0.7152142607168986,
+        0.8766369948314217,
+        0.9850459863470207,
+        0.9997807077348216,
+        0.999999952842669,
+        0.9999999999999983
+      ],
+      "variant": "dX-0.3"
+    },
+    {
+      "after": [
+        0,
+        6,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 1.9422643737069158,
+      "initial": [
+        0,
+        5,
+        0
+      ],
+      "initial_id": 1,
+      "operation": "correct",
+      "success": [
+        0.55,
+        0.7975000000000001,
+        0.8894350000000001,
+        0.9390218716000001,
+        0.9779546944781006,
+        0.9942605270144098,
+        0.9993703740907997,
+        0.9999907725080843,
+        0.99999999801569,
+        1.0
+      ],
+      "variant": "dX-0.3"
+    },
+    {
+      "after": [
+        0,
+        4,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.3532688710890435,
+      "initial": [
+        0,
+        5,
+        0
+      ],
+      "initial_id": 1,
+      "operation": "remove_target",
+      "success": [
+        0.5,
+        0.7395,
+        0.838779,
+        0.8945244636,
+        0.9464784579719885,
+        0.9802127647742398,
+        0.9976603767794339,
+        0.9999656957427758,
+        0.9999999926230996,
+        0.9999999999999998
+      ],
+      "variant": "dX-0.3"
+    },
+    {
+      "after": [
+        0,
+        0,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.7753700770514165,
+      "initial": [
+        0,
+        5,
+        0
+      ],
+      "initial_id": 1,
+      "operation": "neutralize",
+      "success": [
+        0.4,
+        0.6394000000000001,
+        0.7769034400000001,
+        0.8543929656640001,
+        0.9266255615173297,
+        0.9730167726690961,
+        0.9968124488804009,
+        0.9999532634244733,
+        0.999999989949613,
+        0.9999999999999998
+      ],
+      "variant": "dX-0.3"
+    },
+    {
+      "after": [
+        0,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.775370077051416,
+      "initial": [
+        0,
+        5,
+        0
+      ],
+      "initial_id": 1,
+      "operation": "delete",
+      "success": [
+        0.4,
+        0.6394000000000001,
+        0.7769034400000001,
+        0.8543929656640001,
+        0.9266255615173297,
+        0.9730167726690961,
+        0.9968124488804009,
+        0.9999532634244733,
+        0.999999989949613,
+        0.9999999999999998
+      ],
+      "variant": "dX-0.3"
+    },
+    {
+      "after": [
+        4,
+        1,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 4.745824376616741,
+      "initial": [
+        4,
+        1,
+        0
+      ],
+      "initial_id": 0,
+      "operation": "retain",
+      "success": [
+        0.20000000000000004,
+        0.30500000000000005,
+        0.46629600000000015,
+        0.5852893432000001,
+        0.7586463609517217,
+        0.9214597726046383,
+        0.9954247333290491,
+        0.999984564784179,
+        0.9999999998243393,
+        1.0000000000000002
+      ],
+      "variant": "chi-0.25"
+    },
+    {
+      "after": [
+        4,
+        2,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.012955469408119,
+      "initial": [
+        4,
+        1,
+        0
+      ],
+      "initial_id": 0,
+      "operation": "correct",
+      "success": [
+        0.55,
+        0.7615000000000001,
+        0.8692030000000002,
+        0.9277358284000001,
+        0.9746464700034492,
+        0.9947392081852307,
+        0.9997271843871436,
+        0.9999990809155759,
+        0.9999999999895405,
+        1.0
+      ],
+      "variant": "chi-0.25"
+    },
+    {
+      "after": [
+        4,
+        0,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.3720281554364036,
+      "initial": [
+        4,
+        1,
+        0
+      ],
+      "initial_id": 0,
+      "operation": "remove_target",
+      "success": [
+        0.5,
+        0.7001250000000001,
+        0.8163692000000001,
+        0.8834569630200001,
+        0.9470560470421119,
+        0.9854305896247855,
+        0.9991812103645444,
+        0.9999972388635399,
+        0.9999999999685769,
+        1.0
+      ],
+      "variant": "chi-0.25"
+    },
+    {
+      "after": [
+        4,
+        0,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.3720281554364036,
+      "initial": [
+        4,
+        1,
+        0
+      ],
+      "initial_id": 0,
+      "operation": "neutralize",
+      "success": [
+        0.5,
+        0.7001250000000001,
+        0.8163692000000001,
+        0.8834569630200001,
+        0.9470560470421119,
+        0.9854305896247855,
+        0.9991812103645444,
+        0.9999972388635399,
+        0.9999999999685769,
+        1.0
+      ],
+      "variant": "chi-0.25"
+    },
+    {
+      "after": [
+        4,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.257676042318541,
+      "initial": [
+        4,
+        1,
+        0
+      ],
+      "initial_id": 0,
+      "operation": "delete",
+      "success": [
+        0.5,
+        0.740125,
+        0.8408942500000001,
+        0.8988862471000001,
+        0.9538135122951723,
+        0.9872288862016432,
+        0.9992814578460455,
+        0.9999975768873417,
+        0.9999999999724238,
+        1.0
+      ],
+      "variant": "chi-0.25"
+    },
+    {
+      "after": [
+        0,
+        5,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 4.468746886038995,
+      "initial": [
+        0,
+        5,
+        0
+      ],
+      "initial_id": 1,
+      "operation": "retain",
+      "success": [
+        0.20000000000000004,
+        0.3690000000000001,
+        0.5163460000000001,
+        0.6246884824000002,
+        0.7815637883802178,
+        0.9289108928805245,
+        0.9958587138440904,
+        0.9999860288670617,
+        0.9999999998410013,
+        1.0000000000000002
+      ],
+      "variant": "chi-0.25"
+    },
+    {
+      "after": [
+        0,
+        6,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 1.9262303918370516,
+      "initial": [
+        0,
+        5,
+        0
+      ],
+      "initial_id": 1,
+      "operation": "correct",
+      "success": [
+        0.55,
+        0.7975000000000001,
+        0.8894350000000001,
+        0.9391132396000001,
+        0.9786404970399989,
+        0.995566796988054,
+        0.9997700804136054,
+        0.9999992254264369,
+        0.999999999991185,
+        1.0
+      ],
+      "variant": "chi-0.25"
+    },
+    {
+      "after": [
+        0,
+        4,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.257676042318541,
+      "initial": [
+        0,
+        5,
+        0
+      ],
+      "initial_id": 1,
+      "operation": "remove_target",
+      "success": [
+        0.5,
+        0.740125,
+        0.8408942500000001,
+        0.8988862471000001,
+        0.9538135122951723,
+        0.9872288862016432,
+        0.9992814578460455,
+        0.9999975768873417,
+        0.9999999999724238,
+        1.0
+      ],
+      "variant": "chi-0.25"
+    },
+    {
+      "after": [
+        0,
+        0,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.646433786523685,
+      "initial": [
+        0,
+        5,
+        0
+      ],
+      "initial_id": 1,
+      "operation": "neutralize",
+      "success": [
+        0.4,
+        0.6401500000000001,
+        0.7796430400000002,
+        0.8601483556240002,
+        0.9364672564505343,
+        0.9825167075497425,
+        0.9990174524374533,
+        0.9999966866362479,
+        0.9999999999622924,
+        1.0
+      ],
+      "variant": "chi-0.25"
+    },
+    {
+      "after": [
+        0,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.646433786523685,
+      "initial": [
+        0,
+        5,
+        0
+      ],
+      "initial_id": 1,
+      "operation": "delete",
+      "success": [
+        0.4,
+        0.6401500000000001,
+        0.7796430400000002,
+        0.8601483556240002,
+        0.9364672564505343,
+        0.9825167075497425,
+        0.9990174524374533,
+        0.9999966866362479,
+        0.9999999999622924,
+        1.0
+      ],
+      "variant": "chi-0.25"
+    },
+    {
+      "after": [
+        4,
+        1,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 4.578373057018636,
+      "initial": [
+        4,
+        1,
+        0
+      ],
+      "initial_id": 0,
+      "operation": "retain",
+      "success": [
+        0.20000000000000004,
+        0.31000000000000005,
+        0.47663600000000017,
+        0.5988749392000001,
+        0.774980799722594,
+        0.9327784064852993,
+        0.9968782727166546,
+        0.9999933261173775,
+        0.9999999999695008,
+        1.0
+      ],
+      "variant": "chi-0.5"
+    },
+    {
+      "after": [
+        4,
+        2,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.008459023707265,
+      "initial": [
+        4,
+        1,
+        0
+      ],
+      "initial_id": 0,
+      "operation": "correct",
+      "success": [
+        0.55,
+        0.7615000000000001,
+        0.8692030000000002,
+        0.9278439004000001,
+        0.9749623210668463,
+        0.9951338889221814,
+        0.999799279128168,
+        0.9999995716142045,
+        0.9999999999980425,
+        1.0
+      ],
+      "variant": "chi-0.5"
+    },
+    {
+      "after": [
+        4,
+        0,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.3466187775506744,
+      "initial": [
+        4,
+        1,
+        0
+      ],
+      "initial_id": 0,
+      "operation": "remove_target",
+      "success": [
+        0.5,
+        0.70075,
+        0.8177027000000001,
+        0.8853212381200001,
+        0.9494368367988827,
+        0.9872233559741782,
+        0.9994291655973748,
+        0.999998780275603,
+        0.9999999999944261,
+        1.0
+      ],
+      "variant": "chi-0.5"
+    },
+    {
+      "after": [
+        4,
+        0,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.3466187775506744,
+      "initial": [
+        4,
+        1,
+        0
+      ],
+      "initial_id": 0,
+      "operation": "neutralize",
+      "success": [
+        0.5,
+        0.70075,
+        0.8177027000000001,
+        0.8853212381200001,
+        0.9494368367988827,
+        0.9872233559741782,
+        0.9994291655973748,
+        0.999998780275603,
+        0.9999999999944261,
+        1.0
+      ],
+      "variant": "chi-0.5"
+    },
+    {
+      "after": [
+        4,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.234903095058592,
+      "initial": [
+        4,
+        1,
+        0
+      ],
+      "initial_id": 0,
+      "operation": "delete",
+      "success": [
+        0.5,
+        0.74075,
+        0.8421405000000001,
+        0.9005898926000001,
+        0.9559494503302465,
+        0.9888185038458902,
+        0.999499856465248,
+        0.9999989313061863,
+        0.9999999999951162,
+        1.0
+      ],
+      "variant": "chi-0.5"
+    },
+    {
+      "after": [
+        0,
+        5,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 4.314945019506955,
+      "initial": [
+        0,
+        5,
+        0
+      ],
+      "initial_id": 1,
+      "operation": "retain",
+      "success": [
+        0.20000000000000004,
+        0.37400000000000005,
+        0.5261160000000001,
+        0.6373215344000001,
+        0.7965432676876224,
+        0.939215509031566,
+        0.9971771634237188,
+        0.9999939651089751,
+        0.999999999972421,
+        1.0
+      ],
+      "variant": "chi-0.5"
+    },
+    {
+      "after": [
+        0,
+        6,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 1.922438900485239,
+      "initial": [
+        0,
+        5,
+        0
+      ],
+      "initial_id": 1,
+      "operation": "correct",
+      "success": [
+        0.55,
+        0.7975000000000001,
+        0.8894350000000001,
+        0.9392046076000001,
+        0.9789069708214402,
+        0.9958995519552397,
+        0.9998308464819055,
+        0.9999996389859027,
+        0.9999999999983503,
+        1.0
+      ],
+      "variant": "chi-0.5"
+    },
+    {
+      "after": [
+        0,
+        4,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.234903095058592,
+      "initial": [
+        0,
+        5,
+        0
+      ],
+      "initial_id": 1,
+      "operation": "remove_target",
+      "success": [
+        0.5,
+        0.74075,
+        0.8421405000000001,
+        0.9005898926000001,
+        0.9559494503302465,
+        0.9888185038458902,
+        0.999499856465248,
+        0.9999989313061863,
+        0.9999999999951162,
+        1.0
+      ],
+      "variant": "chi-0.5"
+    },
+    {
+      "after": [
+        0,
+        0,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.61594253306081,
+      "initial": [
+        0,
+        5,
+        0
+      ],
+      "initial_id": 1,
+      "operation": "neutralize",
+      "success": [
+        0.4,
+        0.6409,
+        0.78124324,
+        0.8623854857440001,
+        0.9393242041586592,
+        0.9846680271690138,
+        0.9993149987168498,
+        0.9999985363307236,
+        0.9999999999933114,
+        1.0
+      ],
+      "variant": "chi-0.5"
+    },
+    {
+      "after": [
+        0,
+        0
+      ],
+      "budgets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "expected_attempts": 2.61594253306081,
+      "initial": [
+        0,
+        5,
+        0
+      ],
+      "initial_id": 1,
+      "operation": "delete",
+      "success": [
+        0.4,
+        0.6409,
+        0.78124324,
+        0.8623854857440001,
+        0.9393242041586592,
+        0.9846680271690138,
+        0.9993149987168498,
+        0.9999985363307236,
+        0.9999999999933114,
+        1.0
+      ],
+      "variant": "chi-0.5"
+    }
+  ],
+  "exact_conditions": 90,
+  "group": "information",
+  "max_linear_system_residual": 8.881784197001252e-15,
+  "mc_trajectories": 20000,
+  "sha256": "0888869afd858ece3e74e7e1b7aea2a0ad4d53373dacfa428b60956a3d4026ea",
+  "states": 585
+}
