@@ -1,0 +1,183 @@
+{
+  "analysis_sha256": "cc781b69bf976bf36f19b41c38358eeebf6fe323373a79f5680d0bb9c75544a8",
+  "findings": [
+    "All three original branches repeat accepted target placement followed by failed heat and reaffirm the false prerequisite after both failures.",
+    "Task 64aa51b30cab1f98 regenerates the false prerequisite after both correction and discard; their first new reflection is read in the second attempt.",
+    "Task 3e3fa991ee97689e succeeds only with discard. Correction still executes the false placement; its first update does not explicitly restate that premise, while its second update does.",
+    "Task 05f694718d71af12 correction succeeds without target placement. A retained invalid heat spelling fails before the actor self-corrects to heat-with. Discard fails twice.",
+    "The final update of a two-attempt branch is written but not subsequently read in this experiment."
+  ],
+  "review_basis": "Completed native reflection context and public action/feedback; no latent belief inference",
+  "rows": [
+    {
+      "branch": "original",
+      "excerpt": "I should have placed the egg in the microwave",
+      "label": "reaffirms_target_error",
+      "native_reflection_sha256": "340e3dd598355a29fa3c48be5f86e65716dd6e2be5cefa157c19018a1a498804",
+      "read_in_next_completed_attempt": true,
+      "result_file_sha256": "3bc876d3fa5ee95c176ac6057e8fa600922b459e2322989c63d0caa6b729b9cb",
+      "task_id": "64aa51b30cab1f98",
+      "trial": 1
+    },
+    {
+      "branch": "original",
+      "excerpt": "the egg was in the microwave",
+      "label": "reaffirms_target_error",
+      "native_reflection_sha256": "d3467d9d6d54d258ecb546f6b26bc410dfb897e723067c0ef9512ac16c39d2cd",
+      "read_in_next_completed_attempt": false,
+      "result_file_sha256": "566eff80a5b21c7bde9eda3089669301aa68b33aa5444d485cd60e9bff6649f3",
+      "task_id": "64aa51b30cab1f98",
+      "trial": 2
+    },
+    {
+      "branch": "correct_target",
+      "excerpt": "then placed it in the microwave before attempting to heat it",
+      "label": "reaffirms_target_error",
+      "native_reflection_sha256": "4c4c352f43a3e2a4a815caa606c965cbf93121710def7023f9db6e6d93fe3b18",
+      "read_in_next_completed_attempt": true,
+      "result_file_sha256": "f502adf287d7cfd0084991fe4a1543e2a01cdfa126d13f892ff8f9e39815fe09",
+      "task_id": "64aa51b30cab1f98",
+      "trial": 1
+    },
+    {
+      "branch": "correct_target",
+      "excerpt": "then placed it in the microwave",
+      "label": "reaffirms_target_error",
+      "native_reflection_sha256": "e42cafa8af7ce5e931179d160b9b4b42ff2893d2f8942124b0a14818770734be",
+      "read_in_next_completed_attempt": false,
+      "result_file_sha256": "e9c7a2edabfeceb6c889d6fa7e95ba0bdd88c05dd4a81afc7d1b9ff9ab5ba7d1",
+      "task_id": "64aa51b30cab1f98",
+      "trial": 2
+    },
+    {
+      "branch": "discard_new",
+      "excerpt": "taken it, placed it in the microwave, and attempted to heat it",
+      "label": "reaffirms_target_error",
+      "native_reflection_sha256": "5ab1ba6a3b36e17194e780307ab9d40ca375b903db41db2a5ba7baf18a6eee73",
+      "read_in_next_completed_attempt": true,
+      "result_file_sha256": "630490cd0d9952ca52bd76788d9d06a348fd3e8df1c3e7b3920b7b09396e9d85",
+      "task_id": "64aa51b30cab1f98",
+      "trial": 1
+    },
+    {
+      "branch": "discard_new",
+      "excerpt": "take the egg from countertop 3, place it in the microwave, close it, and heat it",
+      "label": "reaffirms_target_error",
+      "native_reflection_sha256": "6d8cd756e9223d4679fd52463a08b5f30c296a54acb25e46cf01d0e81aa67628",
+      "read_in_next_completed_attempt": false,
+      "result_file_sha256": "2f8ecb3da86855dcb5f066814e15a085d47b024fa265b64b8d6e2e00ebd4452e",
+      "task_id": "64aa51b30cab1f98",
+      "trial": 2
+    },
+    {
+      "branch": "original",
+      "excerpt": "first placed the mug in the microwave",
+      "label": "reaffirms_target_error",
+      "native_reflection_sha256": "2bc6f0fd078dad7240bfb9e1ce8f9b58b899f384d20af6f4841663ca506765cf",
+      "read_in_next_completed_attempt": true,
+      "result_file_sha256": "6b380fdb256bd09d09527c1a61f069fa6f6609067e8d2d373de4d235a1f619b7",
+      "task_id": "3e3fa991ee97689e",
+      "trial": 1
+    },
+    {
+      "branch": "original",
+      "excerpt": "first placed the mug in the microwave",
+      "label": "reaffirms_target_error",
+      "native_reflection_sha256": "cb2e0cca3e2c6a5704f7bf58c20983bd0d2197d39923cb160f485d605af60d90",
+      "read_in_next_completed_attempt": false,
+      "result_file_sha256": "e96d2ba508ec58aa2f3c33fb558a0ed4855dfe1b0727a4076aa72b00b2faca6c",
+      "task_id": "3e3fa991ee97689e",
+      "trial": 2
+    },
+    {
+      "branch": "correct_target",
+      "excerpt": "attempt to heat the mug directly on it",
+      "label": "target_premise_not_explicit",
+      "native_reflection_sha256": "78b88afcf2d657c052038b87933953964a28eaa9f0624992c6cccb24112324f3",
+      "read_in_next_completed_attempt": true,
+      "result_file_sha256": "24e3ff94eb4ad333fd5c48d9cac3faf77edb6a977e62cb3506318f328fd24c22",
+      "task_id": "3e3fa991ee97689e",
+      "trial": 1
+    },
+    {
+      "branch": "correct_target",
+      "excerpt": "first placed the mug in the microwave",
+      "label": "reaffirms_target_error",
+      "native_reflection_sha256": "1cd794ee9373cf765657c27045e7dc7d36596892180cb7943d27cdc4f918b1ff",
+      "read_in_next_completed_attempt": false,
+      "result_file_sha256": "2afd6f112118152b03b5b23a887dbce1d6f366e63402f60ce92ca5832b462810",
+      "task_id": "3e3fa991ee97689e",
+      "trial": 2
+    },
+    {
+      "branch": "original",
+      "excerpt": "first placed the egg inside the microwave",
+      "label": "reaffirms_target_error",
+      "native_reflection_sha256": "8bbabc85dccf0db1a5ff3ced50c76f21ce06ea8be1637c5b8cd918df146c0222",
+      "read_in_next_completed_attempt": true,
+      "result_file_sha256": "19bf39e53c3c3dfefe161bc2862c84ab38659c1dd9038b6448c740e72546d7b7",
+      "task_id": "05f694718d71af12",
+      "trial": 1
+    },
+    {
+      "branch": "original",
+      "excerpt": "first placed the egg in the microwave",
+      "label": "reaffirms_target_error",
+      "native_reflection_sha256": "3ddb6da0a6e61c0e29aea939dff06d848890dd158c866fa86faaa158aec50d02",
+      "read_in_next_completed_attempt": false,
+      "result_file_sha256": "996e3b0dc896c1c6d3153e274bfe60ebad76a488a92def60a1f0a134c7ac1993",
+      "task_id": "05f694718d71af12",
+      "trial": 2
+    },
+    {
+      "branch": "discard_new",
+      "excerpt": "placed the egg inside, closed it, and used the heat function",
+      "label": "reaffirms_target_error",
+      "native_reflection_sha256": "dc1d1b8ec79d403231ae8ee6b8480f1edb832fa0cf3c81f349cfd59f02819cf5",
+      "read_in_next_completed_attempt": true,
+      "result_file_sha256": "fc6ed54944f2b7df80d87ae72eb05824794433260c3a7c4ac216c423d23c9b3b",
+      "task_id": "05f694718d71af12",
+      "trial": 1
+    },
+    {
+      "branch": "discard_new",
+      "excerpt": "before placing the egg in it",
+      "label": "ambiguous_target_premise_competing_recipe",
+      "native_reflection_sha256": "5b69265486386d07418ecdb1d33f456593bfbad453b0ae2d25c1d291b872737e",
+      "read_in_next_completed_attempt": false,
+      "result_file_sha256": "7a3ab7ca55fe6228f37b76811d76c0e90f2f2f52e27d26c7ebb8c9b26f869849",
+      "task_id": "05f694718d71af12",
+      "trial": 2
+    }
+  ],
+  "scope": "Manual review of all 14 new reflections in the original, correction and discard branches; identical sham/retain controls are not additional independent evidence",
+  "sha256": "c18b478428e08507d81720e6f4edd12c70b3d1a8ed684fcc9a3d81e77ec1fb3b",
+  "summary_file_sha256": "6c687142665a8b88bdd4d6bd53f60c220b1f67d988254c4d4e17b1124671cdbc",
+  "target_success_paths": [
+    {
+      "branch": "correct_target",
+      "events": {
+        "goal_placement": 17,
+        "held_heat_with_success": 14,
+        "invalid_heat_in": 12,
+        "take": 7
+      },
+      "indices_zero_based": true,
+      "target_device_placement_attempted": false,
+      "task_id": "05f694718d71af12",
+      "trial": 1
+    },
+    {
+      "branch": "discard_new",
+      "events": {
+        "goal_placement": 30,
+        "held_heat_with_success": 27,
+        "take": 7
+      },
+      "indices_zero_based": true,
+      "target_device_placement_attempted": false,
+      "task_id": "3e3fa991ee97689e",
+      "trial": 1
+    }
+  ]
+}
