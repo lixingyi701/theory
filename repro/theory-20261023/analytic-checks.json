@@ -1,0 +1,69 @@
+{
+  "closed_form_dp_comparisons": 360,
+  "constructed_rank_reversals": [
+    {
+      "lambda_correction": 0.9,
+      "lambda_discard": 0.1,
+      "p_correction": 0.6,
+      "p_discard": 0.4,
+      "q": 0.0,
+      "rows": [
+        {
+          "budget": 1,
+          "discard": 0.4,
+          "local_correction": 0.6
+        },
+        {
+          "budget": 2,
+          "discard": 0.6160000000000001,
+          "local_correction": 0.624
+        },
+        {
+          "budget": 3,
+          "discard": 0.7326400000000001,
+          "local_correction": 0.62496
+        },
+        {
+          "budget": 10,
+          "discard": 0.8677318911368268,
+          "local_correction": 0.6249999999999934
+        }
+      ]
+    },
+    {
+      "lambda_correction": 0.9,
+      "lambda_discard": 0.1,
+      "p_correction": 0.6,
+      "p_discard": 0.4,
+      "q": 0.02,
+      "rows": [
+        {
+          "budget": 1,
+          "discard": 0.4,
+          "local_correction": 0.6
+        },
+        {
+          "budget": 2,
+          "discard": 0.6172000000000001,
+          "local_correction": 0.6312
+        },
+        {
+          "budget": 3,
+          "discard": 0.7356640000000001,
+          "local_correction": 0.639504
+        },
+        {
+          "budget": 10,
+          "discard": 0.8867601545762285,
+          "local_correction": 0.6870784994898691
+        }
+      ]
+    }
+  ],
+  "driver_sha256": "abdd30f85582998534ca56ee4aab09379c163d802d9914586fc6b91168a96c4b",
+  "max_absolute_difference": 3.3306690738754696e-16,
+  "parameter_source": "Explicitly constructed grid, not fitted to ALFWorld",
+  "regeneration_monotonicity_sequences_checked": 72,
+  "scope": "Algebraic numerical verification of an assumed analytical submodel; no LLM calls or Monte Carlo",
+  "sha256": "1c6641e452b129e42fd670f9912556b73c21573a4675e62b1602cef09b5dbd4a"
+}

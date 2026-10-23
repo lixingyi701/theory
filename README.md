@@ -1,16 +1,17 @@
 # Agent 恢复后的可靠性
 
-本项目研究会反思、会重试的 LLM Agent：一次恢复之后，保留下来的错误经验、交互状态和剩余预算，怎样影响后续复发与任务完成？我们通过同一任务状态下的配对干预，估计错误传播与反思写入的规律，再预测新任务和未参与拟合的恢复条件下的结果。
+本项目研究会反思、会重试的 LLM Agent：有限记忆中的错误再生成与信息保留，怎样改变一次恢复的预算收益和策略排序？主线是建立可分析的过程模型，推导恢复有效与失效的条件，再用受控仿真和真实 Agent 检验这些条件及其预测。
 
-具体流程是：将公开 Reflexion 程序接到固定的 Qwen3-8B 上，在 ALFWorld 中执行任务；对原生反思中的事实或操作前提进行定点干预，从同一状态分别保留错误、纠正指定内容或丢弃新增反思；记录错误进入行动、返工与任务完成的过程，检验恢复后状态能否支持跨条件预测。
+具体流程是：先描述“记忆读取—行动执行—失败回写”的过程，分析纠正、丢弃和错误再生成如何影响后续成功；在受控模拟中改变这些机制参数；再将公开 Reflexion 接到固定 Qwen3-8B，在 ALFWorld 的同一任务状态下保留、纠正或丢弃反思，估计必要参数并检验冻结后的新任务与预算预测。
 
 ## 当前主线
 
 1. [研究问题、机制与实验协议](docs/research/agent_error_recovery_model_and_protocol.md)
-2. [下一步实验计划](docs/EXPERIMENT_ROADMAP.md)
-3. [ACM TIST 专刊与投稿计划](docs/submission/TIST_SPECIAL_ISSUE.md)
-4. [实现状态与已有结果](docs/IMPLEMENTATION_STATUS.md)
-5. [服务器执行手册](docs/LINUX_RUNBOOK.md)
+2. [理论框架与基础推导](docs/research/recovery_theory_framework.md)
+3. [下一步研究路线](docs/EXPERIMENT_ROADMAP.md)
+4. [ACM TIST 专刊与投稿计划](docs/submission/TIST_SPECIAL_ISSUE.md)
+5. [实现状态与已有结果](docs/IMPLEMENTATION_STATUS.md)
+6. [服务器执行手册](docs/LINUX_RUNBOOK.md)
 
 目标为 ACM TIST 专刊 **LLM-Driven Agentic AI in Intelligent Systems: Theory, Technologies, and Applications**，征稿截止日期为 **2027-01-31**。原始[征稿 PDF](docs/submission/ACM-TIST-CfP-SI-LLM-Driven-Agentic-AI-Intelligent-Systems.pdf)随仓库保存。
 
@@ -22,7 +23,7 @@
 
 [操作前提扩展](docs/experiments/precondition-pilot-20261023.md)完成另一组 24 个新任务，首次成功 17 个，并从 7 条失败反思中预先固定 3 个合格目标。五条件分叉共 1084 次请求：原始错误成功 0/3，定点纠正与丢弃各 1/3。错误顺序会被反思重新写入，纠正的效果也随任务而变。另一个开发杯子案例揭示了错误放置被环境拒绝后才成功的路径，因而采用、执行和结果分别测量。
 
-[首次冻结预测](docs/experiments/state-prediction-20261023.md)已完成：四个已知开发任务、28 个同质窗口校准单元、8 个混合窗口验证单元。混合窗口全部失败，数量和位置模型的 Brier 为 0.1438、0.1648，总体均值为 0.1111。下一步补充条目冲突、任务差异与反思回写的校准覆盖，再验证新任务和多步恢复；134 holdout 保持封存。本轮新增 2959 次真实调用，累计 Reflexion 调用 12369 次，响应全部保存。
+[首次冻结预测](docs/experiments/state-prediction-20261023.md)已完成：四个已知开发任务、28 个同质窗口校准单元、8 个混合窗口验证单元。混合窗口全部失败，数量和位置模型的 Brier 为 0.1438、0.1648，总体均值为 0.1111。这些结果用于约束模型结构；下一步优先推进再生成与信息保留的理论分析和仿真，再按未识别参数补真实实验。134 holdout 保持封存。本轮新增 2959 次真实调用，累计 Reflexion 调用 12369 次，响应全部保存。
 
 全部实验在远程服务器运行，工作站用于编辑、Git 和 SSH。当前部署见[环境说明](docs/deployment/README.md)。离线检查从仓库根目录运行：
 
@@ -34,4 +35,4 @@ bash scripts/offline_checks.sh
 
 `main` 是研究和实现的统一主线，已承接 `fix/alfworld-sham-inreceptacle-20261018` 的全部工作。该修复分支完成阶段任务，保留为历史入口；后续开发从 main 创建短期分支，完成后回到 main。
 
-今天的[完整审核](docs/research/review-and-revised-plan-20261022.md)提供近邻比较与设计依据。早期模型、部署过程和失败诊断由[历史索引](docs/HISTORY.md)统一导航。阅读当前方案时，从上面的五个入口开始。
+此前的[完整审核](docs/research/review-and-revised-plan-20261022.md)提供近邻比较与设计依据。早期模型、部署过程和失败诊断由[历史索引](docs/HISTORY.md)统一导航。阅读当前方案时，从上面的研究协议和理论框架开始。
