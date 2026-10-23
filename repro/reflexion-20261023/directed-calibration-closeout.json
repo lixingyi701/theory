@@ -1,0 +1,52 @@
+{
+  "all_calls": 18353,
+  "all_responses": 18353,
+  "artifacts": {
+    "directed-calibration-contract.json": "5512df8117bddc081db738e6fbe67af7d6b52e05c72bba719382b973ccd9e6aa",
+    "directed-calibration-protocol-audit.json": "19c68249955b5c736b453d3670a4dee6b3b31d36642e22357ed5ac2a24056860",
+    "directed-calibration-protocol.json": "e15d8fe3ba1c60654e5b6821f62b24c37159b3cd070678060aec0cf8c11bcf99",
+    "directed-calibration-raw-summary.json": "7ab3483a9888c7599c438e0ea2a65b37f648b9364043e1c70cec55b4b57d654a",
+    "directed-calibration-replica-audit.json": "35ad02d684551f1680afc7f69ec2dfb666fc5a2c191f33916854937f1f0be150",
+    "directed-calibration-results.json": "cfa5a53d93c5a589e23f01b975b127b2584ebfd78aad745ee6e4e2b6dd7641f8",
+    "directed-calibration-run.json": "cc800602f50f76dc36d9d0c18ee70247834669e2ed044b28ddf82fe51b0a585e",
+    "directed-calibration-semantic-labels.json": "867092359187a3ff148c4af4fdb1c95b8049d8e33057553baab23c9ceb3e2ca4"
+  },
+  "cohort_audit_passed": true,
+  "completed_attempts": 150,
+  "completed_cells": 104,
+  "costs_incremental": {
+    "dispatched_calls": 5984,
+    "input_tokens_known": 15630422,
+    "output_tokens_known": 215925,
+    "saved_responses": 5984,
+    "truncated_responses": 5,
+    "uncertain_or_unrecorded_attempts": 0,
+    "usage_missing_responses": 0
+  },
+  "driver_sha256": "516673a7fdf89a63ab19e6c1189f78a4f45aff3ac446a3ddbec15965711f92d0",
+  "elapsed_seconds": 2935.62624335289,
+  "expected_cells": 104,
+  "freeze_commit": "8d47025e81ee698b648b7067e388a50188222f24",
+  "gpu_indices": [
+    0,
+    2,
+    3
+  ],
+  "holdout_model_calls": 0,
+  "independent_base_tasks": 4,
+  "prior_calls": 12369,
+  "protocol_sha256": "5033a777f40596b9b693783a34436935779061ee5cae43229b9fc476f8c322e2",
+  "public_grammar_sha256": "c5b22f0f73309a7fd7c8e5b71de42ad4803b60766ab4a51cc2feb34162be036b",
+  "replica_check_calls": 6,
+  "request_configuration_errors": 0,
+  "reserved_calls": 5984,
+  "sha256": "b61beed55fd3a04d510f40cacf70270f7096cf70f67179426493ca85fb8811f7",
+  "stop_reason": "matrix_complete",
+  "successes": 27,
+  "unused_reservations": 0,
+  "worker_exit_codes": [
+    0,
+    0,
+    0
+  ]
+}
