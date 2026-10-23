@@ -1,0 +1,1415 @@
+{
+  "blocks": [
+    {
+      "attempts": 1,
+      "cells": [
+        {
+          "condition": "single_error",
+          "id": "state-f8864bd2f58af715-2101-single_error",
+          "labels": [
+            "E"
+          ],
+          "task_id": "f8864bd2f58af715"
+        },
+        {
+          "condition": "single_correct",
+          "id": "state-f8864bd2f58af715-2101-single_correct",
+          "labels": [
+            "C"
+          ],
+          "task_id": "f8864bd2f58af715"
+        },
+        {
+          "condition": "single_generic",
+          "id": "state-f8864bd2f58af715-2101-single_generic",
+          "labels": [
+            "N"
+          ],
+          "task_id": "f8864bd2f58af715"
+        },
+        {
+          "condition": "empty",
+          "id": "state-f8864bd2f58af715-2101-empty",
+          "labels": [],
+          "task_id": "f8864bd2f58af715"
+        },
+        {
+          "condition": "full_generic",
+          "id": "state-f8864bd2f58af715-2101-full_generic",
+          "labels": [
+            "N",
+            "N",
+            "N"
+          ],
+          "task_id": "f8864bd2f58af715"
+        },
+        {
+          "condition": "oldest_error",
+          "id": "state-f8864bd2f58af715-2101-oldest_error",
+          "labels": [
+            "E",
+            "N",
+            "N"
+          ],
+          "task_id": "f8864bd2f58af715"
+        },
+        {
+          "condition": "newest_error",
+          "id": "state-f8864bd2f58af715-2101-newest_error",
+          "labels": [
+            "N",
+            "N",
+            "E"
+          ],
+          "task_id": "f8864bd2f58af715"
+        },
+        {
+          "condition": "oldest_correct",
+          "id": "state-f8864bd2f58af715-2101-oldest_correct",
+          "labels": [
+            "C",
+            "N",
+            "N"
+          ],
+          "task_id": "f8864bd2f58af715"
+        },
+        {
+          "condition": "newest_correct",
+          "id": "state-f8864bd2f58af715-2101-newest_correct",
+          "labels": [
+            "N",
+            "N",
+            "C"
+          ],
+          "task_id": "f8864bd2f58af715"
+        }
+      ],
+      "panel": "matched_state",
+      "seed": 2101,
+      "task_id": "f8864bd2f58af715",
+      "worker": 0
+    },
+    {
+      "attempts": 1,
+      "cells": [
+        {
+          "condition": "single_correct",
+          "id": "state-bf6d3dba86f7f0e4-2101-single_correct",
+          "labels": [
+            "C"
+          ],
+          "task_id": "bf6d3dba86f7f0e4"
+        },
+        {
+          "condition": "single_generic",
+          "id": "state-bf6d3dba86f7f0e4-2101-single_generic",
+          "labels": [
+            "N"
+          ],
+          "task_id": "bf6d3dba86f7f0e4"
+        },
+        {
+          "condition": "empty",
+          "id": "state-bf6d3dba86f7f0e4-2101-empty",
+          "labels": [],
+          "task_id": "bf6d3dba86f7f0e4"
+        },
+        {
+          "condition": "full_generic",
+          "id": "state-bf6d3dba86f7f0e4-2101-full_generic",
+          "labels": [
+            "N",
+            "N",
+            "N"
+          ],
+          "task_id": "bf6d3dba86f7f0e4"
+        },
+        {
+          "condition": "oldest_error",
+          "id": "state-bf6d3dba86f7f0e4-2101-oldest_error",
+          "labels": [
+            "E",
+            "N",
+            "N"
+          ],
+          "task_id": "bf6d3dba86f7f0e4"
+        },
+        {
+          "condition": "newest_error",
+          "id": "state-bf6d3dba86f7f0e4-2101-newest_error",
+          "labels": [
+            "N",
+            "N",
+            "E"
+          ],
+          "task_id": "bf6d3dba86f7f0e4"
+        },
+        {
+          "condition": "oldest_correct",
+          "id": "state-bf6d3dba86f7f0e4-2101-oldest_correct",
+          "labels": [
+            "C",
+            "N",
+            "N"
+          ],
+          "task_id": "bf6d3dba86f7f0e4"
+        },
+        {
+          "condition": "newest_correct",
+          "id": "state-bf6d3dba86f7f0e4-2101-newest_correct",
+          "labels": [
+            "N",
+            "N",
+            "C"
+          ],
+          "task_id": "bf6d3dba86f7f0e4"
+        },
+        {
+          "condition": "single_error",
+          "id": "state-bf6d3dba86f7f0e4-2101-single_error",
+          "labels": [
+            "E"
+          ],
+          "task_id": "bf6d3dba86f7f0e4"
+        }
+      ],
+      "panel": "matched_state",
+      "seed": 2101,
+      "task_id": "bf6d3dba86f7f0e4",
+      "worker": 1
+    },
+    {
+      "attempts": 1,
+      "cells": [
+        {
+          "condition": "single_generic",
+          "id": "state-dae15e890956dd5e-2101-single_generic",
+          "labels": [
+            "N"
+          ],
+          "task_id": "dae15e890956dd5e"
+        },
+        {
+          "condition": "empty",
+          "id": "state-dae15e890956dd5e-2101-empty",
+          "labels": [],
+          "task_id": "dae15e890956dd5e"
+        },
+        {
+          "condition": "full_generic",
+          "id": "state-dae15e890956dd5e-2101-full_generic",
+          "labels": [
+            "N",
+            "N",
+            "N"
+          ],
+          "task_id": "dae15e890956dd5e"
+        },
+        {
+          "condition": "oldest_error",
+          "id": "state-dae15e890956dd5e-2101-oldest_error",
+          "labels": [
+            "E",
+            "N",
+            "N"
+          ],
+          "task_id": "dae15e890956dd5e"
+        },
+        {
+          "condition": "newest_error",
+          "id": "state-dae15e890956dd5e-2101-newest_error",
+          "labels": [
+            "N",
+            "N",
+            "E"
+          ],
+          "task_id": "dae15e890956dd5e"
+        },
+        {
+          "condition": "oldest_correct",
+          "id": "state-dae15e890956dd5e-2101-oldest_correct",
+          "labels": [
+            "C",
+            "N",
+            "N"
+          ],
+          "task_id": "dae15e890956dd5e"
+        },
+        {
+          "condition": "newest_correct",
+          "id": "state-dae15e890956dd5e-2101-newest_correct",
+          "labels": [
+            "N",
+            "N",
+            "C"
+          ],
+          "task_id": "dae15e890956dd5e"
+        },
+        {
+          "condition": "single_error",
+          "id": "state-dae15e890956dd5e-2101-single_error",
+          "labels": [
+            "E"
+          ],
+          "task_id": "dae15e890956dd5e"
+        },
+        {
+          "condition": "single_correct",
+          "id": "state-dae15e890956dd5e-2101-single_correct",
+          "labels": [
+            "C"
+          ],
+          "task_id": "dae15e890956dd5e"
+        }
+      ],
+      "panel": "matched_state",
+      "seed": 2101,
+      "task_id": "dae15e890956dd5e",
+      "worker": 2
+    },
+    {
+      "attempts": 1,
+      "cells": [
+        {
+          "condition": "empty",
+          "id": "state-4a3978c7981b641a-2101-empty",
+          "labels": [],
+          "task_id": "4a3978c7981b641a"
+        },
+        {
+          "condition": "full_generic",
+          "id": "state-4a3978c7981b641a-2101-full_generic",
+          "labels": [
+            "N",
+            "N",
+            "N"
+          ],
+          "task_id": "4a3978c7981b641a"
+        },
+        {
+          "condition": "oldest_error",
+          "id": "state-4a3978c7981b641a-2101-oldest_error",
+          "labels": [
+            "E",
+            "N",
+            "N"
+          ],
+          "task_id": "4a3978c7981b641a"
+        },
+        {
+          "condition": "newest_error",
+          "id": "state-4a3978c7981b641a-2101-newest_error",
+          "labels": [
+            "N",
+            "N",
+            "E"
+          ],
+          "task_id": "4a3978c7981b641a"
+        },
+        {
+          "condition": "oldest_correct",
+          "id": "state-4a3978c7981b641a-2101-oldest_correct",
+          "labels": [
+            "C",
+            "N",
+            "N"
+          ],
+          "task_id": "4a3978c7981b641a"
+        },
+        {
+          "condition": "newest_correct",
+          "id": "state-4a3978c7981b641a-2101-newest_correct",
+          "labels": [
+            "N",
+            "N",
+            "C"
+          ],
+          "task_id": "4a3978c7981b641a"
+        },
+        {
+          "condition": "single_error",
+          "id": "state-4a3978c7981b641a-2101-single_error",
+          "labels": [
+            "E"
+          ],
+          "task_id": "4a3978c7981b641a"
+        },
+        {
+          "condition": "single_correct",
+          "id": "state-4a3978c7981b641a-2101-single_correct",
+          "labels": [
+            "C"
+          ],
+          "task_id": "4a3978c7981b641a"
+        },
+        {
+          "condition": "single_generic",
+          "id": "state-4a3978c7981b641a-2101-single_generic",
+          "labels": [
+            "N"
+          ],
+          "task_id": "4a3978c7981b641a"
+        }
+      ],
+      "panel": "matched_state",
+      "seed": 2101,
+      "task_id": "4a3978c7981b641a",
+      "worker": 3
+    },
+    {
+      "attempts": 1,
+      "cells": [
+        {
+          "condition": "full_generic",
+          "id": "state-55f887bdc1cc1699-2101-full_generic",
+          "labels": [
+            "N",
+            "N",
+            "N"
+          ],
+          "task_id": "55f887bdc1cc1699"
+        },
+        {
+          "condition": "oldest_error",
+          "id": "state-55f887bdc1cc1699-2101-oldest_error",
+          "labels": [
+            "E",
+            "N",
+            "N"
+          ],
+          "task_id": "55f887bdc1cc1699"
+        },
+        {
+          "condition": "newest_error",
+          "id": "state-55f887bdc1cc1699-2101-newest_error",
+          "labels": [
+            "N",
+            "N",
+            "E"
+          ],
+          "task_id": "55f887bdc1cc1699"
+        },
+        {
+          "condition": "oldest_correct",
+          "id": "state-55f887bdc1cc1699-2101-oldest_correct",
+          "labels": [
+            "C",
+            "N",
+            "N"
+          ],
+          "task_id": "55f887bdc1cc1699"
+        },
+        {
+          "condition": "newest_correct",
+          "id": "state-55f887bdc1cc1699-2101-newest_correct",
+          "labels": [
+            "N",
+            "N",
+            "C"
+          ],
+          "task_id": "55f887bdc1cc1699"
+        },
+        {
+          "condition": "single_error",
+          "id": "state-55f887bdc1cc1699-2101-single_error",
+          "labels": [
+            "E"
+          ],
+          "task_id": "55f887bdc1cc1699"
+        },
+        {
+          "condition": "single_correct",
+          "id": "state-55f887bdc1cc1699-2101-single_correct",
+          "labels": [
+            "C"
+          ],
+          "task_id": "55f887bdc1cc1699"
+        },
+        {
+          "condition": "single_generic",
+          "id": "state-55f887bdc1cc1699-2101-single_generic",
+          "labels": [
+            "N"
+          ],
+          "task_id": "55f887bdc1cc1699"
+        },
+        {
+          "condition": "empty",
+          "id": "state-55f887bdc1cc1699-2101-empty",
+          "labels": [],
+          "task_id": "55f887bdc1cc1699"
+        }
+      ],
+      "panel": "matched_state",
+      "seed": 2101,
+      "task_id": "55f887bdc1cc1699",
+      "worker": 0
+    },
+    {
+      "attempts": 1,
+      "cells": [
+        {
+          "condition": "oldest_error",
+          "id": "state-dd93ff2604e30529-2101-oldest_error",
+          "labels": [
+            "E",
+            "N",
+            "N"
+          ],
+          "task_id": "dd93ff2604e30529"
+        },
+        {
+          "condition": "newest_error",
+          "id": "state-dd93ff2604e30529-2101-newest_error",
+          "labels": [
+            "N",
+            "N",
+            "E"
+          ],
+          "task_id": "dd93ff2604e30529"
+        },
+        {
+          "condition": "oldest_correct",
+          "id": "state-dd93ff2604e30529-2101-oldest_correct",
+          "labels": [
+            "C",
+            "N",
+            "N"
+          ],
+          "task_id": "dd93ff2604e30529"
+        },
+        {
+          "condition": "newest_correct",
+          "id": "state-dd93ff2604e30529-2101-newest_correct",
+          "labels": [
+            "N",
+            "N",
+            "C"
+          ],
+          "task_id": "dd93ff2604e30529"
+        },
+        {
+          "condition": "single_error",
+          "id": "state-dd93ff2604e30529-2101-single_error",
+          "labels": [
+            "E"
+          ],
+          "task_id": "dd93ff2604e30529"
+        },
+        {
+          "condition": "single_correct",
+          "id": "state-dd93ff2604e30529-2101-single_correct",
+          "labels": [
+            "C"
+          ],
+          "task_id": "dd93ff2604e30529"
+        },
+        {
+          "condition": "single_generic",
+          "id": "state-dd93ff2604e30529-2101-single_generic",
+          "labels": [
+            "N"
+          ],
+          "task_id": "dd93ff2604e30529"
+        },
+        {
+          "condition": "empty",
+          "id": "state-dd93ff2604e30529-2101-empty",
+          "labels": [],
+          "task_id": "dd93ff2604e30529"
+        },
+        {
+          "condition": "full_generic",
+          "id": "state-dd93ff2604e30529-2101-full_generic",
+          "labels": [
+            "N",
+            "N",
+            "N"
+          ],
+          "task_id": "dd93ff2604e30529"
+        }
+      ],
+      "panel": "matched_state",
+      "seed": 2101,
+      "task_id": "dd93ff2604e30529",
+      "worker": 1
+    },
+    {
+      "attempts": 1,
+      "cells": [
+        {
+          "condition": "newest_error",
+          "id": "state-02088717ce4b3889-2101-newest_error",
+          "labels": [
+            "N",
+            "N",
+            "E"
+          ],
+          "task_id": "02088717ce4b3889"
+        },
+        {
+          "condition": "oldest_correct",
+          "id": "state-02088717ce4b3889-2101-oldest_correct",
+          "labels": [
+            "C",
+            "N",
+            "N"
+          ],
+          "task_id": "02088717ce4b3889"
+        },
+        {
+          "condition": "newest_correct",
+          "id": "state-02088717ce4b3889-2101-newest_correct",
+          "labels": [
+            "N",
+            "N",
+            "C"
+          ],
+          "task_id": "02088717ce4b3889"
+        },
+        {
+          "condition": "single_error",
+          "id": "state-02088717ce4b3889-2101-single_error",
+          "labels": [
+            "E"
+          ],
+          "task_id": "02088717ce4b3889"
+        },
+        {
+          "condition": "single_correct",
+          "id": "state-02088717ce4b3889-2101-single_correct",
+          "labels": [
+            "C"
+          ],
+          "task_id": "02088717ce4b3889"
+        },
+        {
+          "condition": "single_generic",
+          "id": "state-02088717ce4b3889-2101-single_generic",
+          "labels": [
+            "N"
+          ],
+          "task_id": "02088717ce4b3889"
+        },
+        {
+          "condition": "empty",
+          "id": "state-02088717ce4b3889-2101-empty",
+          "labels": [],
+          "task_id": "02088717ce4b3889"
+        },
+        {
+          "condition": "full_generic",
+          "id": "state-02088717ce4b3889-2101-full_generic",
+          "labels": [
+            "N",
+            "N",
+            "N"
+          ],
+          "task_id": "02088717ce4b3889"
+        },
+        {
+          "condition": "oldest_error",
+          "id": "state-02088717ce4b3889-2101-oldest_error",
+          "labels": [
+            "E",
+            "N",
+            "N"
+          ],
+          "task_id": "02088717ce4b3889"
+        }
+      ],
+      "panel": "matched_state",
+      "seed": 2101,
+      "task_id": "02088717ce4b3889",
+      "worker": 2
+    },
+    {
+      "attempts": 1,
+      "cells": [
+        {
+          "condition": "oldest_correct",
+          "id": "state-e4244c54d52f3326-2101-oldest_correct",
+          "labels": [
+            "C",
+            "N",
+            "N"
+          ],
+          "task_id": "e4244c54d52f3326"
+        },
+        {
+          "condition": "newest_correct",
+          "id": "state-e4244c54d52f3326-2101-newest_correct",
+          "labels": [
+            "N",
+            "N",
+            "C"
+          ],
+          "task_id": "e4244c54d52f3326"
+        },
+        {
+          "condition": "single_error",
+          "id": "state-e4244c54d52f3326-2101-single_error",
+          "labels": [
+            "E"
+          ],
+          "task_id": "e4244c54d52f3326"
+        },
+        {
+          "condition": "single_correct",
+          "id": "state-e4244c54d52f3326-2101-single_correct",
+          "labels": [
+            "C"
+          ],
+          "task_id": "e4244c54d52f3326"
+        },
+        {
+          "condition": "single_generic",
+          "id": "state-e4244c54d52f3326-2101-single_generic",
+          "labels": [
+            "N"
+          ],
+          "task_id": "e4244c54d52f3326"
+        },
+        {
+          "condition": "empty",
+          "id": "state-e4244c54d52f3326-2101-empty",
+          "labels": [],
+          "task_id": "e4244c54d52f3326"
+        },
+        {
+          "condition": "full_generic",
+          "id": "state-e4244c54d52f3326-2101-full_generic",
+          "labels": [
+            "N",
+            "N",
+            "N"
+          ],
+          "task_id": "e4244c54d52f3326"
+        },
+        {
+          "condition": "oldest_error",
+          "id": "state-e4244c54d52f3326-2101-oldest_error",
+          "labels": [
+            "E",
+            "N",
+            "N"
+          ],
+          "task_id": "e4244c54d52f3326"
+        },
+        {
+          "condition": "newest_error",
+          "id": "state-e4244c54d52f3326-2101-newest_error",
+          "labels": [
+            "N",
+            "N",
+            "E"
+          ],
+          "task_id": "e4244c54d52f3326"
+        }
+      ],
+      "panel": "matched_state",
+      "seed": 2101,
+      "task_id": "e4244c54d52f3326",
+      "worker": 3
+    },
+    {
+      "attempts": 1,
+      "cells": [
+        {
+          "condition": "newest_correct",
+          "id": "state-d534fcfe5e56c028-2101-newest_correct",
+          "labels": [
+            "N",
+            "N",
+            "C"
+          ],
+          "task_id": "d534fcfe5e56c028"
+        },
+        {
+          "condition": "single_error",
+          "id": "state-d534fcfe5e56c028-2101-single_error",
+          "labels": [
+            "E"
+          ],
+          "task_id": "d534fcfe5e56c028"
+        },
+        {
+          "condition": "single_correct",
+          "id": "state-d534fcfe5e56c028-2101-single_correct",
+          "labels": [
+            "C"
+          ],
+          "task_id": "d534fcfe5e56c028"
+        },
+        {
+          "condition": "single_generic",
+          "id": "state-d534fcfe5e56c028-2101-single_generic",
+          "labels": [
+            "N"
+          ],
+          "task_id": "d534fcfe5e56c028"
+        },
+        {
+          "condition": "empty",
+          "id": "state-d534fcfe5e56c028-2101-empty",
+          "labels": [],
+          "task_id": "d534fcfe5e56c028"
+        },
+        {
+          "condition": "full_generic",
+          "id": "state-d534fcfe5e56c028-2101-full_generic",
+          "labels": [
+            "N",
+            "N",
+            "N"
+          ],
+          "task_id": "d534fcfe5e56c028"
+        },
+        {
+          "condition": "oldest_error",
+          "id": "state-d534fcfe5e56c028-2101-oldest_error",
+          "labels": [
+            "E",
+            "N",
+            "N"
+          ],
+          "task_id": "d534fcfe5e56c028"
+        },
+        {
+          "condition": "newest_error",
+          "id": "state-d534fcfe5e56c028-2101-newest_error",
+          "labels": [
+            "N",
+            "N",
+            "E"
+          ],
+          "task_id": "d534fcfe5e56c028"
+        },
+        {
+          "condition": "oldest_correct",
+          "id": "state-d534fcfe5e56c028-2101-oldest_correct",
+          "labels": [
+            "C",
+            "N",
+            "N"
+          ],
+          "task_id": "d534fcfe5e56c028"
+        }
+      ],
+      "panel": "matched_state",
+      "seed": 2101,
+      "task_id": "d534fcfe5e56c028",
+      "worker": 0
+    },
+    {
+      "attempts": 1,
+      "cells": [
+        {
+          "condition": "single_error",
+          "id": "state-bf7043e154cc1d53-2101-single_error",
+          "labels": [
+            "E"
+          ],
+          "task_id": "bf7043e154cc1d53"
+        },
+        {
+          "condition": "single_correct",
+          "id": "state-bf7043e154cc1d53-2101-single_correct",
+          "labels": [
+            "C"
+          ],
+          "task_id": "bf7043e154cc1d53"
+        },
+        {
+          "condition": "single_generic",
+          "id": "state-bf7043e154cc1d53-2101-single_generic",
+          "labels": [
+            "N"
+          ],
+          "task_id": "bf7043e154cc1d53"
+        },
+        {
+          "condition": "empty",
+          "id": "state-bf7043e154cc1d53-2101-empty",
+          "labels": [],
+          "task_id": "bf7043e154cc1d53"
+        },
+        {
+          "condition": "full_generic",
+          "id": "state-bf7043e154cc1d53-2101-full_generic",
+          "labels": [
+            "N",
+            "N",
+            "N"
+          ],
+          "task_id": "bf7043e154cc1d53"
+        },
+        {
+          "condition": "oldest_error",
+          "id": "state-bf7043e154cc1d53-2101-oldest_error",
+          "labels": [
+            "E",
+            "N",
+            "N"
+          ],
+          "task_id": "bf7043e154cc1d53"
+        },
+        {
+          "condition": "newest_error",
+          "id": "state-bf7043e154cc1d53-2101-newest_error",
+          "labels": [
+            "N",
+            "N",
+            "E"
+          ],
+          "task_id": "bf7043e154cc1d53"
+        },
+        {
+          "condition": "oldest_correct",
+          "id": "state-bf7043e154cc1d53-2101-oldest_correct",
+          "labels": [
+            "C",
+            "N",
+            "N"
+          ],
+          "task_id": "bf7043e154cc1d53"
+        },
+        {
+          "condition": "newest_correct",
+          "id": "state-bf7043e154cc1d53-2101-newest_correct",
+          "labels": [
+            "N",
+            "N",
+            "C"
+          ],
+          "task_id": "bf7043e154cc1d53"
+        }
+      ],
+      "panel": "matched_state",
+      "seed": 2101,
+      "task_id": "bf7043e154cc1d53",
+      "worker": 1
+    },
+    {
+      "attempts": 1,
+      "cells": [
+        {
+          "condition": "single_correct",
+          "id": "state-69b7fb1c70f5d271-2101-single_correct",
+          "labels": [
+            "C"
+          ],
+          "task_id": "69b7fb1c70f5d271"
+        },
+        {
+          "condition": "single_generic",
+          "id": "state-69b7fb1c70f5d271-2101-single_generic",
+          "labels": [
+            "N"
+          ],
+          "task_id": "69b7fb1c70f5d271"
+        },
+        {
+          "condition": "empty",
+          "id": "state-69b7fb1c70f5d271-2101-empty",
+          "labels": [],
+          "task_id": "69b7fb1c70f5d271"
+        },
+        {
+          "condition": "full_generic",
+          "id": "state-69b7fb1c70f5d271-2101-full_generic",
+          "labels": [
+            "N",
+            "N",
+            "N"
+          ],
+          "task_id": "69b7fb1c70f5d271"
+        },
+        {
+          "condition": "oldest_error",
+          "id": "state-69b7fb1c70f5d271-2101-oldest_error",
+          "labels": [
+            "E",
+            "N",
+            "N"
+          ],
+          "task_id": "69b7fb1c70f5d271"
+        },
+        {
+          "condition": "newest_error",
+          "id": "state-69b7fb1c70f5d271-2101-newest_error",
+          "labels": [
+            "N",
+            "N",
+            "E"
+          ],
+          "task_id": "69b7fb1c70f5d271"
+        },
+        {
+          "condition": "oldest_correct",
+          "id": "state-69b7fb1c70f5d271-2101-oldest_correct",
+          "labels": [
+            "C",
+            "N",
+            "N"
+          ],
+          "task_id": "69b7fb1c70f5d271"
+        },
+        {
+          "condition": "newest_correct",
+          "id": "state-69b7fb1c70f5d271-2101-newest_correct",
+          "labels": [
+            "N",
+            "N",
+            "C"
+          ],
+          "task_id": "69b7fb1c70f5d271"
+        },
+        {
+          "condition": "single_error",
+          "id": "state-69b7fb1c70f5d271-2101-single_error",
+          "labels": [
+            "E"
+          ],
+          "task_id": "69b7fb1c70f5d271"
+        }
+      ],
+      "panel": "matched_state",
+      "seed": 2101,
+      "task_id": "69b7fb1c70f5d271",
+      "worker": 2
+    },
+    {
+      "attempts": 1,
+      "cells": [
+        {
+          "condition": "single_generic",
+          "id": "state-790b6f6fefeac9d1-2101-single_generic",
+          "labels": [
+            "N"
+          ],
+          "task_id": "790b6f6fefeac9d1"
+        },
+        {
+          "condition": "empty",
+          "id": "state-790b6f6fefeac9d1-2101-empty",
+          "labels": [],
+          "task_id": "790b6f6fefeac9d1"
+        },
+        {
+          "condition": "full_generic",
+          "id": "state-790b6f6fefeac9d1-2101-full_generic",
+          "labels": [
+            "N",
+            "N",
+            "N"
+          ],
+          "task_id": "790b6f6fefeac9d1"
+        },
+        {
+          "condition": "oldest_error",
+          "id": "state-790b6f6fefeac9d1-2101-oldest_error",
+          "labels": [
+            "E",
+            "N",
+            "N"
+          ],
+          "task_id": "790b6f6fefeac9d1"
+        },
+        {
+          "condition": "newest_error",
+          "id": "state-790b6f6fefeac9d1-2101-newest_error",
+          "labels": [
+            "N",
+            "N",
+            "E"
+          ],
+          "task_id": "790b6f6fefeac9d1"
+        },
+        {
+          "condition": "oldest_correct",
+          "id": "state-790b6f6fefeac9d1-2101-oldest_correct",
+          "labels": [
+            "C",
+            "N",
+            "N"
+          ],
+          "task_id": "790b6f6fefeac9d1"
+        },
+        {
+          "condition": "newest_correct",
+          "id": "state-790b6f6fefeac9d1-2101-newest_correct",
+          "labels": [
+            "N",
+            "N",
+            "C"
+          ],
+          "task_id": "790b6f6fefeac9d1"
+        },
+        {
+          "condition": "single_error",
+          "id": "state-790b6f6fefeac9d1-2101-single_error",
+          "labels": [
+            "E"
+          ],
+          "task_id": "790b6f6fefeac9d1"
+        },
+        {
+          "condition": "single_correct",
+          "id": "state-790b6f6fefeac9d1-2101-single_correct",
+          "labels": [
+            "C"
+          ],
+          "task_id": "790b6f6fefeac9d1"
+        }
+      ],
+      "panel": "matched_state",
+      "seed": 2101,
+      "task_id": "790b6f6fefeac9d1",
+      "worker": 3
+    }
+  ],
+  "cases": [
+    {
+      "initial_observation_sha256": "95fd6b7f43d96bcced6daa1089ea4ad869a94c5e6790750ee4c6c2a1402b50a5",
+      "public_reset_checks": 2,
+      "task": {
+        "game_sha256": "2faba8fee495ed20a02060dd7f58d3f6b6de457447c6b4da55e8ad5331c4010d",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Mug-None-Shelf-1/trial_T20190907_075451_036053/game.tw-pddl",
+        "scene_id": "FloorPlan1",
+        "split": "train",
+        "task_id": "f8864bd2f58af715",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "fe66dfe281d784a63203855404b29f720b088adde25d2fc2a0e45162daf353cd"
+      },
+      "task_id": "f8864bd2f58af715"
+    },
+    {
+      "initial_observation_sha256": "a62d0012a127498f5a60d4b99ca351ca948702509f79ed9d4fc91df43b2fe75c",
+      "public_reset_checks": 2,
+      "task": {
+        "game_sha256": "11863af824d6de81243f989d4dca628cbfecf76e200dac655c50187e1f355cfd",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-12/trial_T20190907_034122_883943/game.tw-pddl",
+        "scene_id": "FloorPlan12",
+        "split": "train",
+        "task_id": "bf6d3dba86f7f0e4",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "53067e324df94f3017c93d059557a2c6821291fe823208caa1cdf8379003e03e"
+      },
+      "task_id": "bf6d3dba86f7f0e4"
+    },
+    {
+      "initial_observation_sha256": "861d5a20c1e141db07c524b078e03c01b18a809556c2b015c34ae6617b8a22bb",
+      "public_reset_checks": 2,
+      "task": {
+        "game_sha256": "237b8c38eb4447e2ea3d11e20d621267b1c6dc7385d5917cd5c1aceaf52927dc",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Cup-None-Shelf-7/trial_T20190906_211058_615610/game.tw-pddl",
+        "scene_id": "FloorPlan7",
+        "split": "train",
+        "task_id": "dae15e890956dd5e",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "275776130d7bbb77433acdb23b11de22eb29dfbdc3466f129087fdb35707ed4b"
+      },
+      "task_id": "dae15e890956dd5e"
+    },
+    {
+      "initial_observation_sha256": "479755b74755db6c7b4f5ed7deb61db289f693d7b4630b0733cc53e6d6667ae7",
+      "public_reset_checks": 2,
+      "task": {
+        "game_sha256": "00a30036e3ed14b9c8c7144eac2f2cf959d76e953a429e37b1a48134989c1d68",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Apple-None-SideTable-28/trial_T20190906_180737_225131/game.tw-pddl",
+        "scene_id": "FloorPlan28",
+        "split": "train",
+        "task_id": "4a3978c7981b641a",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "d77097363aa208af929f2642adb6c8245bc86f0e7f1d9887d77dbec0fdbc0d16"
+      },
+      "task_id": "4a3978c7981b641a"
+    },
+    {
+      "initial_observation_sha256": "0ec427f443c456fcded9b40285aed3f76a5d6ee586d0c8d419c5ed80ba9a043d",
+      "public_reset_checks": 2,
+      "task": {
+        "game_sha256": "dbe28bebb384f709740521f89e06a1c75643b41c2522cb025407e03415f17d42",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Potato-None-GarbageCan-25/trial_T20190906_201557_292696/game.tw-pddl",
+        "scene_id": "FloorPlan25",
+        "split": "train",
+        "task_id": "55f887bdc1cc1699",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "66228c32f4d321246ac9dd0bf435cdfe5a0daf84fe63bca2be7ccb7ae50823d6"
+      },
+      "task_id": "55f887bdc1cc1699"
+    },
+    {
+      "initial_observation_sha256": "0adcf4e2f2154fb2736d2be907c732baa93406b7d0a8baf778ad0fed40fa779c",
+      "public_reset_checks": 2,
+      "task": {
+        "game_sha256": "c071d071921295edf2a7e7c26ec4f2127b2e5e4f46b5581c3196d68103824093",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Egg-None-DiningTable-11/trial_T20190907_125404_996063/game.tw-pddl",
+        "scene_id": "FloorPlan11",
+        "split": "train",
+        "task_id": "dd93ff2604e30529",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "ad51f684e856ebc7f9094c2b06b39f6678915b5d5058b6a356ad9f00fa88d093"
+      },
+      "task_id": "dd93ff2604e30529"
+    },
+    {
+      "initial_observation_sha256": "4ad52ce9a7a990c4bd65ea3ac0d3e6760364343fbef011b63212a08e89ae56c7",
+      "public_reset_checks": 2,
+      "task": {
+        "game_sha256": "006d3b18d98d13492eaaf254b229ca3febcb5252adfd9d8e936cb460d5f405a3",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Potato-None-DiningTable-16/trial_T20190908_015113_664393/game.tw-pddl",
+        "scene_id": "FloorPlan16",
+        "split": "train",
+        "task_id": "02088717ce4b3889",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "187da9a0ec68dc0ebc80b64446f44e6b9544e459c7fe6eb6f2263b979742a71f"
+      },
+      "task_id": "02088717ce4b3889"
+    },
+    {
+      "initial_observation_sha256": "039247395d5116fa0cea31ada22b073a43895ffb0bb16dcb569236f1683c5445",
+      "public_reset_checks": 2,
+      "task": {
+        "game_sha256": "4911a18530191e684051d4637f8690316d001934fb242082ef59e6690ee01413",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Apple-None-GarbageCan-8/trial_T20190907_043118_286709/game.tw-pddl",
+        "scene_id": "FloorPlan8",
+        "split": "train",
+        "task_id": "e4244c54d52f3326",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "457ed57ad39c8a54493871b8b5764e5dd9f1111cc8f414d7ac4d044b0e4ee785"
+      },
+      "task_id": "e4244c54d52f3326"
+    },
+    {
+      "initial_observation_sha256": "248524e8d78de57825462f7d9c2d724ef1c9c90dab3a9ef6cc58c94a4aed0cf1",
+      "public_reset_checks": 2,
+      "task": {
+        "game_sha256": "79eaf2f016032d56ce63ecd8a1fb368f379ca2b74edb866d6cf1e1aed4dab063",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Cup-None-CounterTop-17/trial_T20190908_131013_005229/game.tw-pddl",
+        "scene_id": "FloorPlan17",
+        "split": "train",
+        "task_id": "d534fcfe5e56c028",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "c5f04d05a3f081931ee2bff364c9c5c4e291a5f0702f834ee7ec3d42c04b586b"
+      },
+      "task_id": "d534fcfe5e56c028"
+    },
+    {
+      "initial_observation_sha256": "715cf9a1cd06d1b7940672e140e5d10032c6c14ff1d7a3ed53aa136ac1f290be",
+      "public_reset_checks": 2,
+      "task": {
+        "game_sha256": "48720755c72166177968f763afd4ca6006b87e00e550abc771d748acd89eb358",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Egg-None-Fridge-13/trial_T20190907_151855_542663/game.tw-pddl",
+        "scene_id": "FloorPlan13",
+        "split": "train",
+        "task_id": "bf7043e154cc1d53",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "6560c3c0310404f12d58a016712ac41ea5f2d72c086d38da16025d6dc6a397e8"
+      },
+      "task_id": "bf7043e154cc1d53"
+    },
+    {
+      "initial_observation_sha256": "a47c0eacf09aa2992af34a408f6518b8395311b3e5ee423b8665065d5e91703c",
+      "public_reset_checks": 2,
+      "task": {
+        "game_sha256": "0362b3507b1a5235f8a99dd768e850fc3a5ce086dc0fe2c124c5720d983cbbea",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Apple-None-Fridge-30/trial_T20190908_114805_189857/game.tw-pddl",
+        "scene_id": "FloorPlan30",
+        "split": "train",
+        "task_id": "69b7fb1c70f5d271",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "8a72473afac0d16ed67312107ea72a1415a45e6529bd1f710c6fa18accc0bab3"
+      },
+      "task_id": "69b7fb1c70f5d271"
+    },
+    {
+      "initial_observation_sha256": "be7b3ac217c00d7b6ab6f6140b506a60b553de5a8a4e0fe0c04432118ceef453",
+      "public_reset_checks": 2,
+      "task": {
+        "game_sha256": "fb38c08a34be9df2c10f6499ab0495736fb9dbec39d408553973fefc4d51c834",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Mug-None-Cabinet-26/trial_T20190909_014033_250547/game.tw-pddl",
+        "scene_id": "FloorPlan26",
+        "split": "train",
+        "task_id": "790b6f6fefeac9d1",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "a5148578be52f66065786ad18d4f60758949dec594ca8d6b6760d2cabfe41787"
+      },
+      "task_id": "790b6f6fefeac9d1"
+    }
+  ],
+  "dataset_removed": {
+    "missing_game": 1086,
+    "unsupported_movable_or_slice": 1735
+  },
+  "eligible_scenes": 27,
+  "eligible_tasks": 433,
+  "entries": {
+    "C": "Plan: Before I heat an object with the microwave, I must keep it in my inventory. I should continue working on the household task.",
+    "E": "Plan: Before I heat an object with the microwave, I must put it inside the microwave. I should continue working on the household task.",
+    "N": "Plan: I should continue working on the household task."
+  },
+  "entry_hashes": {
+    "C": "9b31be3d7f39547fbd7510cfcc17e5f2fa0d014888fbd38c4508680dc1120238",
+    "E": "fc81f605654b9e8ddd085e9e4fe8f35311759ae0357149bcc65a6f1f77dcfa66",
+    "N": "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a"
+  },
+  "exclusion": {
+    "development_scenes_may_recur": true,
+    "excluded_counts": {
+      "game_sha256": 242,
+      "task_id": 242,
+      "trajectory_sha256": 242
+    },
+    "public_inputs": {
+      "repro/baseline-20261019/dev12.json": "ade42e591d8b8fe688bd6cc9fad5067b99afba09f6d6008a02a3f167d8eac7ed",
+      "repro/baseline-20261019/holdout134.json": "5755a0305d6ef9cff30d3cbe78146d55a45498124790c2f4f664042d09df2016",
+      "repro/legacy-pilot24.json": "5a393c6142cabd9f2814ab152d58b31c3c043cb342489ad81d5a9644ce4c9862",
+      "repro/reflexion-20261022/pilot24.json": "4359f4fecd821025adadde49eaa376352e1d4a5f3d745f0f39e63a7d385acb08",
+      "repro/reflexion-20261023/directed-calibration-protocol.json": "e15d8fe3ba1c60654e5b6821f62b24c37159b3cd070678060aec0cf8c11bcf99",
+      "repro/reflexion-20261023/pilot-prefix24-v2.json": "9b20c61acee89e8827bb464c122408e551c6861e022b3a55d05ac85edc035386",
+      "repro/reflexion-20261023/precondition-prefix24-v1.json": "271ec23d909bbd5a7fc9ba7ec0b3627c73ebefb81183f0c58992559b5dd5d17a",
+      "repro/reflexion-20261023/state-prediction-protocol.json": "b4be06e362906fa2f7d898aecd1b6a59704b6571d53040ad4be4c8e7d9741246"
+    },
+    "same_scene_across_future_partitions": "Keep all tasks from one scene in the same partition",
+    "sealed_scenes": [
+      "FloorPlan10",
+      "FloorPlan219",
+      "FloorPlan308",
+      "FloorPlan424"
+    ],
+    "used_private_identities_sha256": "70b3f2a869a14b0e1e303d4cd30558630eabf8f4f96524dbf15f19c5f551a84b"
+  },
+  "expected_cells": 108,
+  "gpu_indices": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "holdout_model_calls": 0,
+  "independent_base_tasks": 12,
+  "limits": {
+    "additional_calls_including_replica_checks": 6000,
+    "seconds": 10800
+  },
+  "maximum_attempts": 108,
+  "model_comparison": {
+    "bootstrap_replicates": 20000,
+    "bootstrap_seed": 2026102304,
+    "candidates": [
+      "constant",
+      "remaining_lifetime",
+      "content_occupancy_position"
+    ],
+    "freeze": "Refit selected candidate on complete calibration tasks and freeze all candidates, scores and one-step forecasts; no formal validation score is produced in this batch",
+    "intercept_pseudocount_per_class": 0.5,
+    "native_context_limit": "Fresh native U/E/C reflections may contain unmodeled advice; later multi-attempt transport must test this separately",
+    "outcomes": [
+      "S",
+      "E",
+      "C",
+      "U",
+      "A"
+    ],
+    "primary": "multiclass Brier; lower is better",
+    "regularization": 1.0,
+    "secondary": [
+      "joint log loss",
+      "success Brier"
+    ],
+    "selection": "Rich over coarse only if its task-bootstrap 95% improvement interval is strictly positive; otherwise coarse over constant under the same criterion; otherwise constant",
+    "validation": "leave-one-base-task-out; every task has equal weight; all nine paired cells stay together"
+  },
+  "object_counts": {
+    "Apple": 3,
+    "Cup": 2,
+    "Egg": 2,
+    "Mug": 3,
+    "Potato": 2
+  },
+  "ports": [
+    8001,
+    8002,
+    8003,
+    8004
+  ],
+  "protected_files": {
+    "configs/qwen3_8b_non_thinking_wrapper.json": "ae1849a57bdf8f7454fadc3af7593133216bdd2023fb6e42649ce331fdc02b6a",
+    "configs/reflexion_qwen3_8b_protocol.json": "0a1b83abc85ba7c7bd5738e7a8ad64c82f43d5ff8158c36bf25dc0d678cf58f1",
+    "docs/experiments/state-representation-design-20261023.md": "97e14d2251e2a813cef0036b4c2a735a3144193d31395d3e37d8c1e80379b9a3",
+    "scripts/audit_reflexion_protocol.py": "265f2fbaf841e6937ed51a0211ee0fe998ed022b31ac378d58be7284722e6ffe",
+    "scripts/deployment/serve_reflexion_profiles.py": "fa6da89576a4b49636febd0d61ad51dcd7274c41ad2a7182a0412440710e4cf1",
+    "scripts/prepare_state_representation.py": "30a5f3bc0895828fee14c03eb10c137bef20704ed07bbdc166dc81dba1d634bc",
+    "scripts/run_directed_calibration.py": "5d0be2008a9124894b55c93b699a0a6058ab97c110d299246acaa980d3f65a8c",
+    "scripts/run_state_representation.py": "a7ca639eac49bd1bde41efa76cf64e85fd241a1f371c7cbcb930e91d94e57ea5",
+    "scripts/state_representation_model.py": "b2c1ca6c4b8568b5ddc0ecf3c2929cb59811692fb28cc50e2029cc953174631a",
+    "scripts/summarize_reflexion.py": "e5372f9609a9a11e0abd1d1859e00c06b343b0064556a31b5e47c3944893aadc"
+  },
+  "public_reset_checks": 24,
+  "question": "Does remaining target-error lifetime suffice, or do correction content and occupancy/position improve a shared one-attempt joint outcome model?",
+  "schema_version": 1,
+  "scope": "Fresh-task development calibration of deliberately constructed memory states",
+  "selection": "Hash order among fresh heat train tasks; unique scene within cohort; no outcome-based filtering",
+  "selection_seed": 2026102304,
+  "semantic_review": "Codex full-text E/C/U/A annotation by content hash; no human second review; ambiguous A is an outcome, not silently removed",
+  "sha256": "6f98a6f4cd920fe5907238214ce6b129c53409bc5609cc0da8f6a3ac73628b59",
+  "source_hashes": {
+    "__init__.py": "9aa84454aaf25ce212ded4c089d18e335cb17460edd5e66ec4c522aaeb8fbe16",
+    "__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+    "alfworld.py": "89fcf795fdb9d1c1d19ff89b2ddc1bc199f5abf83c279bdf5d1bb7db9671c4c9",
+    "audit.py": "28e256ee2d5419f81e53b6caa4605102bdb9155583a04b04d4a66a6387bb666b",
+    "cli.py": "6d03e369f38c94879a8d7550baa5e51ead13ebc5e5f618df3a7ec8dce53b789d",
+    "dataset.py": "e580c7baf20b6d0c4669c24521881db3eaf44b23874c214e4b2de6967e5844e3",
+    "env.py": "4e79411d8a605197692bafc78431c4f7edde552c0d2977b3ef1682ab26346e7f",
+    "io.py": "cc5ad9729a4c4448f5b97740d6e8494cafe892faf5cbea1afd5d7079ba9bbe51",
+    "llm.py": "061bab01c82117589802fe2fb4251aedeb8f7f73bc022551e5b6f3fdd779acd4",
+    "memory.py": "7327d609005e2a884c2c8176a8a74149bbcb57f015432fa51c20606cc98b7539",
+    "prompts.py": "b49634af198a4907aa8d5533221facbe623e7b417835140bf338265c82b55ed5",
+    "react.py": "b48ad0a2dc664a607f06a6020871325a2bf5ccf89f9064bb18dfa6dffba78e82",
+    "reference.py": "77631bf0cfe30f313a0349cfc269202f5e31be7f01cd8d4d194ea32677583e4a",
+    "reference_run.py": "5577e2521e6a08c268fc444896be87570df350c8b79d5ca90a974946166a63d2",
+    "reflexion.py": "a38a847a6f7991038fe3e02505b20f196d95be552a86451eee4088526cff2a08",
+    "runner.py": "e71596acf5b39b4ca53b6fb80aaa5fb0e987c9f4cab86e46b19fb94f63879f47"
+  },
+  "split": "train",
+  "states": {
+    "empty": [],
+    "full_generic": [
+      "N",
+      "N",
+      "N"
+    ],
+    "newest_correct": [
+      "N",
+      "N",
+      "C"
+    ],
+    "newest_error": [
+      "N",
+      "N",
+      "E"
+    ],
+    "oldest_correct": [
+      "C",
+      "N",
+      "N"
+    ],
+    "oldest_error": [
+      "E",
+      "N",
+      "N"
+    ],
+    "single_correct": [
+      "C"
+    ],
+    "single_error": [
+      "E"
+    ],
+    "single_generic": [
+      "N"
+    ]
+  },
+  "visible_memory_entries": 3
+}
