@@ -1,0 +1,5126 @@
+{
+  "analysis_driver_sha256": "f689b24dcddcac02a6456adca324ab090eb43c3fd9a32c3401e2099e474a092b",
+  "by_condition": [
+    {
+      "action_shapes": {
+        "environment_style_sentence": 2,
+        "other_unmatched_shape": 17,
+        "public_command_shape": 519,
+        "thought": 537
+      },
+      "cells": 24,
+      "condition": "N_E",
+      "failed_attempts": 23,
+      "failed_reflection_label_fractions": {
+        "A": 0.0,
+        "C": 0.0,
+        "E": 0.6956521739130435,
+        "U": 0.30434782608695654
+      },
+      "failed_reflection_labels": {
+        "E": 16,
+        "U": 7
+      },
+      "new_E_count": 16,
+      "new_E_event": "restatement",
+      "no_effect_shapes": {
+        "environment_style_sentence": 2,
+        "other_unmatched_shape": 17,
+        "public_command_shape": 135,
+        "thought": 537
+      },
+      "observable_event_totals": {
+        "competing_macros": 2,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 29,
+        "target_picked_up": 22,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 51
+      },
+      "outcomes": {
+        "E": 16,
+        "S": 1,
+        "U": 7
+      },
+      "successes": 1
+    },
+    {
+      "action_shapes": {
+        "environment_style_sentence": 3,
+        "other_unmatched_shape": 4,
+        "public_command_shape": 346,
+        "thought": 335
+      },
+      "cells": 24,
+      "condition": "N_C",
+      "failed_attempts": 11,
+      "failed_reflection_label_fractions": {
+        "A": 0.09090909090909091,
+        "C": 0.09090909090909091,
+        "E": 0.2727272727272727,
+        "U": 0.5454545454545454
+      },
+      "failed_reflection_labels": {
+        "A": 1,
+        "C": 1,
+        "E": 3,
+        "U": 6
+      },
+      "new_E_count": 3,
+      "new_E_event": "generation",
+      "no_effect_shapes": {
+        "environment_style_sentence": 3,
+        "other_unmatched_shape": 4,
+        "public_command_shape": 65,
+        "thought": 335
+      },
+      "observable_event_totals": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 14,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 8,
+        "target_picked_up": 22,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 18
+      },
+      "outcomes": {
+        "A": 1,
+        "C": 1,
+        "E": 3,
+        "S": 13,
+        "U": 6
+      },
+      "successes": 13
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 31,
+        "public_command_shape": 479,
+        "thought": 572
+      },
+      "cells": 24,
+      "condition": "R_E",
+      "failed_attempts": 23,
+      "failed_reflection_label_fractions": {
+        "A": 0.043478260869565216,
+        "C": 0.0,
+        "E": 0.6086956521739131,
+        "U": 0.34782608695652173
+      },
+      "failed_reflection_labels": {
+        "A": 1,
+        "E": 14,
+        "U": 8
+      },
+      "new_E_count": 14,
+      "new_E_event": "restatement",
+      "no_effect_shapes": {
+        "other_unmatched_shape": 31,
+        "public_command_shape": 174,
+        "thought": 572
+      },
+      "observable_event_totals": {
+        "competing_macros": 4,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 27,
+        "target_picked_up": 24,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 33
+      },
+      "outcomes": {
+        "A": 1,
+        "E": 14,
+        "S": 1,
+        "U": 8
+      },
+      "successes": 1
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 10,
+        "public_command_shape": 376,
+        "thought": 390
+      },
+      "cells": 24,
+      "condition": "R_C",
+      "failed_attempts": 11,
+      "failed_reflection_label_fractions": {
+        "A": 0.0,
+        "C": 0.45454545454545453,
+        "E": 0.45454545454545453,
+        "U": 0.09090909090909091
+      },
+      "failed_reflection_labels": {
+        "C": 5,
+        "E": 5,
+        "U": 1
+      },
+      "new_E_count": 5,
+      "new_E_event": "generation",
+      "no_effect_shapes": {
+        "other_unmatched_shape": 10,
+        "public_command_shape": 101,
+        "thought": 390
+      },
+      "observable_event_totals": {
+        "competing_macros": 2,
+        "held_successful_target_macros": 13,
+        "other_failed_target_macros": 2,
+        "target_device_placement_attempts": 12,
+        "target_picked_up": 24,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 17
+      },
+      "outcomes": {
+        "C": 5,
+        "E": 5,
+        "S": 13,
+        "U": 1
+      },
+      "successes": 13
+    }
+  ],
+  "completed_cells": 96,
+  "event_scope": "Observable action chains and newly written reflection content are reported separately; neither is a latent-belief label",
+  "frozen_prediction_scores": {
+    "baseline_minus_presence": [
+      {
+        "baseline": "constant",
+        "candidate": "presence",
+        "mean": 0.14047982219989927,
+        "metric": "brier",
+        "sign": "Positive means lower candidate prediction loss",
+        "task_bootstrap_95_interval": [
+          0.050171564918996915,
+          0.2251241954561311
+        ]
+      },
+      {
+        "baseline": "constant",
+        "candidate": "presence",
+        "mean": 0.07564840021923586,
+        "metric": "success_brier",
+        "sign": "Positive means lower candidate prediction loss",
+        "task_bootstrap_95_interval": [
+          0.032169491177112174,
+          0.11558832829257952
+        ]
+      },
+      {
+        "baseline": "constant",
+        "candidate": "presence",
+        "mean": 0.22576298807036377,
+        "metric": "log_loss",
+        "sign": "Positive means lower candidate prediction loss",
+        "task_bootstrap_95_interval": [
+          0.09543148919604273,
+          0.3480883111248069
+        ]
+      },
+      {
+        "baseline": "mixture_joint",
+        "candidate": "presence",
+        "mean": 0.11584947370697936,
+        "metric": "brier",
+        "sign": "Positive means lower candidate prediction loss",
+        "task_bootstrap_95_interval": [
+          0.014419744490938202,
+          0.2109286842160697
+        ]
+      },
+      {
+        "baseline": "mixture_joint",
+        "candidate": "presence",
+        "mean": 0.06246126231827113,
+        "metric": "success_brier",
+        "sign": "Positive means lower candidate prediction loss",
+        "task_bootstrap_95_interval": [
+          0.0015172523915215122,
+          0.11832660475112494
+        ]
+      },
+      {
+        "baseline": "mixture_joint",
+        "candidate": "presence",
+        "mean": 0.18944303053624853,
+        "metric": "log_loss",
+        "sign": "Positive means lower candidate prediction loss",
+        "task_bootstrap_95_interval": [
+          0.03537373637426117,
+          0.33011744993259695
+        ]
+      }
+    ],
+    "models": {
+      "constant": {
+        "brier": 0.7321563850043994,
+        "log_loss": 1.403171442145001,
+        "success_brier": 0.2210207612456725
+      },
+      "mixture_joint": {
+        "brier": 0.7075260365114797,
+        "log_loss": 1.366851484610886,
+        "success_brier": 0.20783362334470779
+      },
+      "presence": {
+        "brier": 0.5916765628045002,
+        "log_loss": 1.1774084540746375,
+        "success_brier": 0.14537236102643666
+      }
+    },
+    "new_gate_defined": false,
+    "parameter_refits": 0,
+    "scope": "Fixed-forecast diagnostics on these development tasks; success and failed-reflection losses are distinct",
+    "task_scores": [
+      {
+        "brier": 0.6737514993069184,
+        "log_loss": 1.2634826537549044,
+        "model": "presence",
+        "success_brier": 0.16624405908171588,
+        "task_id": "02088717ce4b3889"
+      },
+      {
+        "brier": 0.7310251632849453,
+        "log_loss": 1.2550279751262425,
+        "model": "constant",
+        "success_brier": 0.169550173010373,
+        "task_id": "02088717ce4b3889"
+      },
+      {
+        "brier": 0.5600930964932933,
+        "log_loss": 1.0046766825443991,
+        "model": "mixture_joint",
+        "success_brier": 0.10681730154648779,
+        "task_id": "02088717ce4b3889"
+      },
+      {
+        "brier": 0.46448003685168726,
+        "log_loss": 1.0732120033383308,
+        "model": "presence",
+        "success_brier": 0.13094145791240522,
+        "task_id": "4a3978c7981b641a"
+      },
+      {
+        "brier": 0.7513871542351654,
+        "log_loss": 1.5164322724246522,
+        "model": "constant",
+        "success_brier": 0.21366782006920115,
+        "task_id": "4a3978c7981b641a"
+      },
+      {
+        "brier": 0.7032451979308163,
+        "log_loss": 1.4440807362854786,
+        "model": "mixture_joint",
+        "success_brier": 0.19340272023067634,
+        "task_id": "4a3978c7981b641a"
+      },
+      {
+        "brier": 1.0781611464971423,
+        "log_loss": 2.4642317970935395,
+        "model": "presence",
+        "success_brier": 0.16624405908171588,
+        "task_id": "55f887bdc1cc1699"
+      },
+      {
+        "brier": 1.0183554800270036,
+        "log_loss": 2.4577966271914407,
+        "model": "constant",
+        "success_brier": 0.169550173010373,
+        "task_id": "55f887bdc1cc1699"
+      },
+      {
+        "brier": 0.9671726846326449,
+        "log_loss": 2.380479197271059,
+        "model": "mixture_joint",
+        "success_brier": 0.10681730154648779,
+        "task_id": "55f887bdc1cc1699"
+      },
+      {
+        "brier": 0.3458546848566305,
+        "log_loss": 0.7185046834574425,
+        "model": "presence",
+        "success_brier": 0.11329015732774989,
+        "task_id": "69b7fb1c70f5d271"
+      },
+      {
+        "brier": 0.6360025388505584,
+        "log_loss": 1.1171311825792487,
+        "model": "constant",
+        "success_brier": 0.23572664359861523,
+        "task_id": "69b7fb1c70f5d271"
+      },
+      {
+        "brier": 0.5895934764381706,
+        "log_loss": 1.0472920577297986,
+        "model": "mixture_joint",
+        "success_brier": 0.23669542957277062,
+        "task_id": "69b7fb1c70f5d271"
+      },
+      {
+        "brier": 0.6061978951076177,
+        "log_loss": 1.0369723268071958,
+        "model": "presence",
+        "success_brier": 0.13094145791240522,
+        "task_id": "790b6f6fefeac9d1"
+      },
+      {
+        "brier": 0.7400749370406012,
+        "log_loss": 1.3095903424356503,
+        "model": "constant",
+        "success_brier": 0.21366782006920115,
+        "task_id": "790b6f6fefeac9d1"
+      },
+      {
+        "brier": 0.7308042885574362,
+        "log_loss": 1.2990311756933601,
+        "model": "mixture_joint",
+        "success_brier": 0.19340272023067634,
+        "task_id": "790b6f6fefeac9d1"
+      },
+      {
+        "brier": 1.0097545558306233,
+        "log_loss": 2.1044787003502936,
+        "model": "presence",
+        "success_brier": 0.2704807783505598,
+        "task_id": "bf6d3dba86f7f0e4"
+      },
+      {
+        "brier": 0.9029708646423963,
+        "log_loss": 1.9889801434404244,
+        "model": "constant",
+        "success_brier": 0.19160899653978708,
+        "task_id": "bf6d3dba86f7f0e4"
+      },
+      {
+        "brier": 0.8924190554739075,
+        "log_loss": 1.9738415363538395,
+        "model": "mixture_joint",
+        "success_brier": 0.15011001088858206,
+        "task_id": "bf6d3dba86f7f0e4"
+      },
+      {
+        "brier": 0.8602001571955139,
+        "log_loss": 1.5429393003737821,
+        "model": "presence",
+        "success_brier": 0.16624405908171588,
+        "task_id": "bf7043e154cc1d53"
+      },
+      {
+        "brier": 0.8396224483528161,
+        "log_loss": 1.5442837125429607,
+        "model": "constant",
+        "success_brier": 0.169550173010373,
+        "task_id": "bf7043e154cc1d53"
+      },
+      {
+        "brier": 0.747761412310722,
+        "log_loss": 1.4134420294439805,
+        "model": "mixture_joint",
+        "success_brier": 0.10681730154648779,
+        "task_id": "bf7043e154cc1d53"
+      },
+      {
+        "brier": 0.32718463554685817,
+        "log_loss": 0.6629364317896566,
+        "model": "presence",
+        "success_brier": 0.11329015732774989,
+        "task_id": "d534fcfe5e56c028"
+      },
+      {
+        "brier": 0.6541020863618701,
+        "log_loss": 1.153754573164433,
+        "model": "constant",
+        "success_brier": 0.23572664359861523,
+        "task_id": "d534fcfe5e56c028"
+      },
+      {
+        "brier": 0.6273545444633934,
+        "log_loss": 1.113778118486139,
+        "model": "mixture_joint",
+        "success_brier": 0.23669542957277062,
+        "task_id": "d534fcfe5e56c028"
+      },
+      {
+        "brier": 0.42494011742697047,
+        "log_loss": 0.784790183277793,
+        "model": "presence",
+        "success_brier": 0.09563885674309455,
+        "task_id": "dae15e890956dd5e"
+      },
+      {
+        "brier": 0.6405274257283863,
+        "log_loss": 1.1444123662339525,
+        "model": "constant",
+        "success_brier": 0.2577854671280293,
+        "task_id": "dae15e890956dd5e"
+      },
+      {
+        "brier": 0.674949072470242,
+        "log_loss": 1.1944693043042791,
+        "model": "mixture_joint",
+        "success_brier": 0.2799881389148649,
+        "task_id": "dae15e890956dd5e"
+      },
+      {
+        "brier": 0.33074793206675246,
+        "log_loss": 0.6608177716513741,
+        "model": "presence",
+        "success_brier": 0.09563885674309455,
+        "task_id": "dd93ff2604e30529"
+      },
+      {
+        "brier": 0.6224278782170745,
+        "log_loss": 1.1077889756487682,
+        "model": "constant",
+        "success_brier": 0.2577854671280293,
+        "task_id": "dd93ff2604e30529"
+      },
+      {
+        "brier": 0.6371880044450192,
+        "log_loss": 1.1279832435479387,
+        "model": "mixture_joint",
+        "success_brier": 0.2799881389148649,
+        "task_id": "dd93ff2604e30529"
+      },
+      {
+        "brier": 0.33074793206675246,
+        "log_loss": 0.6608177716513741,
+        "model": "presence",
+        "success_brier": 0.09563885674309455,
+        "task_id": "e4244c54d52f3326"
+      },
+      {
+        "brier": 0.6224278782170745,
+        "log_loss": 1.1077889756487682,
+        "model": "constant",
+        "success_brier": 0.2577854671280293,
+        "task_id": "e4244c54d52f3326"
+      },
+      {
+        "brier": 0.6371880044450192,
+        "log_loss": 1.1279832435479387,
+        "model": "mixture_joint",
+        "success_brier": 0.2799881389148649,
+        "task_id": "e4244c54d52f3326"
+      },
+      {
+        "brier": 0.6480981609005358,
+        "log_loss": 1.1557178253499616,
+        "model": "presence",
+        "success_brier": 0.19987557601193845,
+        "task_id": "f8864bd2f58af715"
+      },
+      {
+        "brier": 0.6269527650949025,
+        "log_loss": 1.135070159303472,
+        "model": "constant",
+        "success_brier": 0.2798442906574434,
+        "task_id": "f8864bd2f58af715"
+      },
+      {
+        "brier": 0.7225436004770905,
+        "log_loss": 1.2751604901224192,
+        "model": "mixture_joint",
+        "success_brier": 0.3232808482569592,
+        "task_id": "f8864bd2f58af715"
+      }
+    ]
+  },
+  "independent_base_tasks": 12,
+  "new_cell_successes": 22,
+  "new_cells": 72,
+  "parameter_refits": 0,
+  "primary_effects": {
+    "aggregation": "Average the two seeds within each base task, then average 12 base tasks",
+    "bootstrap_replicates": 20000,
+    "bootstrap_seed": 2026102401,
+    "by_seed": [
+      {
+        "cells_per_condition": 12,
+        "effects": {
+          "R_vs_N_under_C": 0.08333333333333333,
+          "R_vs_N_under_E": 0.0,
+          "correction_under_N": 0.5,
+          "correction_under_R": 0.5833333333333334,
+          "interaction": 0.08333333333333333
+        },
+        "independent_base_tasks": 12,
+        "interaction": {
+          "mean": 0.08333333333333333,
+          "task_bootstrap_95_interval": [
+            -0.16666666666666666,
+            0.3333333333333333
+          ]
+        },
+        "pairs": [
+          {
+            "contrast": "R_vs_N_under_E",
+            "counts": {
+              "both_failure": 12
+            },
+            "first_condition": "R_E",
+            "second_condition": "N_E"
+          },
+          {
+            "contrast": "R_vs_N_under_C",
+            "counts": {
+              "both_failure": 4,
+              "both_success": 5,
+              "first_only_success": 2,
+              "second_only_success": 1
+            },
+            "first_condition": "R_C",
+            "second_condition": "N_C"
+          },
+          {
+            "contrast": "correction_under_N",
+            "counts": {
+              "both_failure": 6,
+              "first_only_success": 6
+            },
+            "first_condition": "N_C",
+            "second_condition": "N_E"
+          },
+          {
+            "contrast": "correction_under_R",
+            "counts": {
+              "both_failure": 5,
+              "first_only_success": 7
+            },
+            "first_condition": "R_C",
+            "second_condition": "R_E"
+          }
+        ],
+        "seed": 2101,
+        "success_rates_by_condition": {
+          "N_C": 0.5,
+          "N_E": 0.0,
+          "R_C": 0.5833333333333334,
+          "R_E": 0.0
+        },
+        "successes_by_condition": {
+          "N_C": 6,
+          "N_E": 0,
+          "R_C": 7,
+          "R_E": 0
+        }
+      },
+      {
+        "cells_per_condition": 12,
+        "effects": {
+          "R_vs_N_under_C": -0.08333333333333333,
+          "R_vs_N_under_E": 0.0,
+          "correction_under_N": 0.5,
+          "correction_under_R": 0.4166666666666667,
+          "interaction": -0.08333333333333333
+        },
+        "independent_base_tasks": 12,
+        "interaction": {
+          "mean": -0.08333333333333333,
+          "task_bootstrap_95_interval": [
+            -0.4166666666666667,
+            0.25
+          ]
+        },
+        "pairs": [
+          {
+            "contrast": "R_vs_N_under_E",
+            "counts": {
+              "both_failure": 10,
+              "first_only_success": 1,
+              "second_only_success": 1
+            },
+            "first_condition": "R_E",
+            "second_condition": "N_E"
+          },
+          {
+            "contrast": "R_vs_N_under_C",
+            "counts": {
+              "both_failure": 4,
+              "both_success": 5,
+              "first_only_success": 1,
+              "second_only_success": 2
+            },
+            "first_condition": "R_C",
+            "second_condition": "N_C"
+          },
+          {
+            "contrast": "correction_under_N",
+            "counts": {
+              "both_failure": 5,
+              "both_success": 1,
+              "first_only_success": 6
+            },
+            "first_condition": "N_C",
+            "second_condition": "N_E"
+          },
+          {
+            "contrast": "correction_under_R",
+            "counts": {
+              "both_failure": 5,
+              "first_only_success": 6,
+              "second_only_success": 1
+            },
+            "first_condition": "R_C",
+            "second_condition": "R_E"
+          }
+        ],
+        "seed": 2102,
+        "success_rates_by_condition": {
+          "N_C": 0.5833333333333334,
+          "N_E": 0.08333333333333333,
+          "R_C": 0.5,
+          "R_E": 0.08333333333333333
+        },
+        "successes_by_condition": {
+          "N_C": 7,
+          "N_E": 1,
+          "R_C": 6,
+          "R_E": 1
+        }
+      }
+    ],
+    "estimates": {
+      "R_vs_N_under_C": {
+        "mean": 0.0,
+        "task_bootstrap_95_interval": [
+          -0.25,
+          0.25
+        ]
+      },
+      "R_vs_N_under_E": {
+        "mean": 0.0,
+        "task_bootstrap_95_interval": [
+          -0.125,
+          0.125
+        ]
+      },
+      "correction_under_N": {
+        "mean": 0.5,
+        "task_bootstrap_95_interval": [
+          0.25,
+          0.75
+        ]
+      },
+      "correction_under_R": {
+        "mean": 0.5,
+        "task_bootstrap_95_interval": [
+          0.16666666666666666,
+          0.7916666666666666
+        ]
+      },
+      "interaction": {
+        "mean": 0.0,
+        "task_bootstrap_95_interval": [
+          -0.2916666666666667,
+          0.2916666666666667
+        ]
+      }
+    },
+    "interval_scope": "Task-cluster uncertainty; the five intervals are not five separate pass criteria",
+    "primary_estimand": "interaction",
+    "task_effects": [
+      {
+        "R_vs_N_under_C": 0.0,
+        "R_vs_N_under_E": 0.0,
+        "correction_under_N": 0.0,
+        "correction_under_R": 0.0,
+        "interaction": 0.0,
+        "success_by_condition": {
+          "N_C": 0.0,
+          "N_E": 0.0,
+          "R_C": 0.0,
+          "R_E": 0.0
+        },
+        "task_id": "02088717ce4b3889"
+      },
+      {
+        "R_vs_N_under_C": -1.0,
+        "R_vs_N_under_E": 0.0,
+        "correction_under_N": 1.0,
+        "correction_under_R": 0.0,
+        "interaction": -1.0,
+        "success_by_condition": {
+          "N_C": 1.0,
+          "N_E": 0.0,
+          "R_C": 0.0,
+          "R_E": 0.0
+        },
+        "task_id": "4a3978c7981b641a"
+      },
+      {
+        "R_vs_N_under_C": 0.0,
+        "R_vs_N_under_E": 0.0,
+        "correction_under_N": 0.0,
+        "correction_under_R": 0.0,
+        "interaction": 0.0,
+        "success_by_condition": {
+          "N_C": 0.0,
+          "N_E": 0.0,
+          "R_C": 0.0,
+          "R_E": 0.0
+        },
+        "task_id": "55f887bdc1cc1699"
+      },
+      {
+        "R_vs_N_under_C": -0.5,
+        "R_vs_N_under_E": 0.0,
+        "correction_under_N": 1.0,
+        "correction_under_R": 0.5,
+        "interaction": -0.5,
+        "success_by_condition": {
+          "N_C": 1.0,
+          "N_E": 0.0,
+          "R_C": 0.5,
+          "R_E": 0.0
+        },
+        "task_id": "69b7fb1c70f5d271"
+      },
+      {
+        "R_vs_N_under_C": 1.0,
+        "R_vs_N_under_E": 0.0,
+        "correction_under_N": 0.0,
+        "correction_under_R": 1.0,
+        "interaction": 1.0,
+        "success_by_condition": {
+          "N_C": 0.0,
+          "N_E": 0.0,
+          "R_C": 1.0,
+          "R_E": 0.0
+        },
+        "task_id": "790b6f6fefeac9d1"
+      },
+      {
+        "R_vs_N_under_C": 0.0,
+        "R_vs_N_under_E": 0.5,
+        "correction_under_N": 0.0,
+        "correction_under_R": -0.5,
+        "interaction": -0.5,
+        "success_by_condition": {
+          "N_C": 0.0,
+          "N_E": 0.0,
+          "R_C": 0.0,
+          "R_E": 0.5
+        },
+        "task_id": "bf6d3dba86f7f0e4"
+      },
+      {
+        "R_vs_N_under_C": 0.0,
+        "R_vs_N_under_E": 0.0,
+        "correction_under_N": 0.0,
+        "correction_under_R": 0.0,
+        "interaction": 0.0,
+        "success_by_condition": {
+          "N_C": 0.0,
+          "N_E": 0.0,
+          "R_C": 0.0,
+          "R_E": 0.0
+        },
+        "task_id": "bf7043e154cc1d53"
+      },
+      {
+        "R_vs_N_under_C": 0.5,
+        "R_vs_N_under_E": 0.0,
+        "correction_under_N": 0.5,
+        "correction_under_R": 1.0,
+        "interaction": 0.5,
+        "success_by_condition": {
+          "N_C": 0.5,
+          "N_E": 0.0,
+          "R_C": 1.0,
+          "R_E": 0.0
+        },
+        "task_id": "d534fcfe5e56c028"
+      },
+      {
+        "R_vs_N_under_C": 0.0,
+        "R_vs_N_under_E": 0.0,
+        "correction_under_N": 1.0,
+        "correction_under_R": 1.0,
+        "interaction": 0.0,
+        "success_by_condition": {
+          "N_C": 1.0,
+          "N_E": 0.0,
+          "R_C": 1.0,
+          "R_E": 0.0
+        },
+        "task_id": "dae15e890956dd5e"
+      },
+      {
+        "R_vs_N_under_C": 0.0,
+        "R_vs_N_under_E": 0.0,
+        "correction_under_N": 1.0,
+        "correction_under_R": 1.0,
+        "interaction": 0.0,
+        "success_by_condition": {
+          "N_C": 1.0,
+          "N_E": 0.0,
+          "R_C": 1.0,
+          "R_E": 0.0
+        },
+        "task_id": "dd93ff2604e30529"
+      },
+      {
+        "R_vs_N_under_C": 0.0,
+        "R_vs_N_under_E": 0.0,
+        "correction_under_N": 1.0,
+        "correction_under_R": 1.0,
+        "interaction": 0.0,
+        "success_by_condition": {
+          "N_C": 1.0,
+          "N_E": 0.0,
+          "R_C": 1.0,
+          "R_E": 0.0
+        },
+        "task_id": "e4244c54d52f3326"
+      },
+      {
+        "R_vs_N_under_C": 0.0,
+        "R_vs_N_under_E": -0.5,
+        "correction_under_N": 0.5,
+        "correction_under_R": 1.0,
+        "interaction": 0.5,
+        "success_by_condition": {
+          "N_C": 1.0,
+          "N_E": 0.5,
+          "R_C": 1.0,
+          "R_E": 0.0
+        },
+        "task_id": "f8864bd2f58af715"
+      }
+    ],
+    "units": "success probability difference"
+  },
+  "protocol_sha256": "77af2102b3475e95b07d91de1b301f621738f2db9c4bdd0bb84163ba47069256",
+  "reused_controls": 24,
+  "rows": [
+    {
+      "action_shapes": {
+        "public_command_shape": 25,
+        "thought": 24
+      },
+      "cell_id": "residual-02088717ce4b3889-2101-N_C",
+      "condition": "N_C",
+      "decisions": 49,
+      "identity_sha256": "95176ec5990a6c665077720ba416d20aa1dde8eb301f42f3237dea757b29bece",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "initial_target_rule": "C",
+      "memory_sha256": "a40bc7c5c5dc9ac47deb05f4699081a8680c887adfb85c0e1d6e7a2adf22bce3",
+      "new_reflection_hashes": [
+        "b0fcfc9e0326bd92302a22c29b670c271cfc75e1642c8725abc81cbd11e7c2a2"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 11,
+        "thought": 24
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 2
+      },
+      "outcome": "E",
+      "result_sha256": "adabe41566df85f971d4f12c1efe6874a93d83f8f7abab08541d379f2585efaa",
+      "reused_control": true,
+      "seed": 2101,
+      "source_cell_id": "middle-02088717ce4b3889-C",
+      "source_run": "runs/reflexion-middle-context-20261023",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "02088717ce4b3889",
+      "trajectory_sha256": "2357246e87c87d21c97fcc01a2b4c070697287c691f2015c2c19e5c09a2dc489",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 4,
+        "public_command_shape": 21,
+        "thought": 24
+      },
+      "cell_id": "residual-02088717ce4b3889-2101-N_E",
+      "condition": "N_E",
+      "decisions": 49,
+      "identity_sha256": "f92eff2d654f9f15e193aeb0572bc16d7df9b1142da2e9f06dacd80b8f92b18c",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "initial_target_rule": "E",
+      "memory_sha256": "cc645d21799da26b14711b15ed88d31a31b00e0d80ab2546eda217707cf1cdcb",
+      "new_reflection_hashes": [
+        "9fc428c2db3ded26b9118fc46e396f10384ce762138d9e8cb6e1a02aaeb90e07"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 4,
+        "public_command_shape": 5,
+        "thought": 24
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 2
+      },
+      "outcome": "E",
+      "result_sha256": "d8fc14fad47127f70645ff305f09859b42af33cfd8438c42d43ba104e8a23da0",
+      "reused_control": true,
+      "seed": 2101,
+      "source_cell_id": "middle-02088717ce4b3889-E",
+      "source_run": "runs/reflexion-middle-context-20261023",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "02088717ce4b3889",
+      "trajectory_sha256": "6a9fa62f572787600feee107ddf043e88b92e87719bf576b380ebd30119898cc",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 21,
+        "thought": 27
+      },
+      "cell_id": "residual-02088717ce4b3889-2101-R_C",
+      "condition": "R_C",
+      "decisions": 49,
+      "identity_sha256": "89d24150632b6083c1789280ebff1192837dde3e4df12101280deb451b416ff8",
+      "initial_labels": [
+        "R",
+        "C",
+        "N"
+      ],
+      "initial_target_rule": "C",
+      "memory_sha256": "8d09e7a5633a4a164d47fffde6b5f731201b44e9db6d601e681279e6560f489f",
+      "new_reflection_hashes": [
+        "ac61f6a1db0f8cb5d11d0a55f60d71ce0ae0a3bdb3d9c3d040219415dd7126d0"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 11,
+        "thought": 27
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 2
+      },
+      "outcome": "E",
+      "result_sha256": "a48fecea4778b8b5e989aee2660bd5a05ed6b85c4b36bc645275418ab382ed39",
+      "reused_control": false,
+      "seed": 2101,
+      "source_cell_id": "residual-02088717ce4b3889-2101-R_C",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "02088717ce4b3889",
+      "trajectory_sha256": "d77fbfc49c5a91a6f033f676202c11e61c942e26cf4719f28b0be3a13c687982",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 24,
+        "thought": 25
+      },
+      "cell_id": "residual-02088717ce4b3889-2101-R_E",
+      "condition": "R_E",
+      "decisions": 49,
+      "identity_sha256": "2c1c01dd3b3c20d4334a27af6feeb82fe34f493bf5cea1f14b353f1f117d852c",
+      "initial_labels": [
+        "R",
+        "E",
+        "N"
+      ],
+      "initial_target_rule": "E",
+      "memory_sha256": "560a5a26947089499887bf83e6f9cf5f5bdbbd76136405496d11aa875beaada6",
+      "new_reflection_hashes": [
+        "c7c5fefc3046250df12166e7296f920bf66b62a508b3b3acc83712637962e99c"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 13,
+        "thought": 25
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 2
+      },
+      "outcome": "E",
+      "result_sha256": "baed27e30a36da65ed0c266c40937d6cdd87220cb0d05b012c1cd9550cf35c84",
+      "reused_control": false,
+      "seed": 2101,
+      "source_cell_id": "residual-02088717ce4b3889-2101-R_E",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "02088717ce4b3889",
+      "trajectory_sha256": "4333ca8771e4cbb6fa449749d94f7e2611ea08a27f61efa38a032f8b2775cc2c",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 2,
+        "public_command_shape": 22,
+        "thought": 25
+      },
+      "cell_id": "residual-02088717ce4b3889-2102-N_C",
+      "condition": "N_C",
+      "decisions": 49,
+      "identity_sha256": "6b73002e1770c757941c6f3718f729192ac9e7d3258c2c370990df8f29bfcf9e",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "initial_target_rule": "C",
+      "memory_sha256": "a40bc7c5c5dc9ac47deb05f4699081a8680c887adfb85c0e1d6e7a2adf22bce3",
+      "new_reflection_hashes": [
+        "dd0a7e1dec06f02bca03b5ee5abd494e1199f97ed428dc34b6cf53edfd003761"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 2,
+        "public_command_shape": 6,
+        "thought": 25
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 2
+      },
+      "outcome": "E",
+      "result_sha256": "12b5e347c160fc72adc76434c8e3845280f60f8a24d349a0eb81df85a1d208b9",
+      "reused_control": false,
+      "seed": 2102,
+      "source_cell_id": "residual-02088717ce4b3889-2102-N_C",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "02088717ce4b3889",
+      "trajectory_sha256": "a574739c7dece4b404fc0bfe73f4f7d592d4dd32b24ac5121297f6bbfad729ed",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "environment_style_sentence": 1,
+        "other_unmatched_shape": 1,
+        "public_command_shape": 23,
+        "thought": 24
+      },
+      "cell_id": "residual-02088717ce4b3889-2102-N_E",
+      "condition": "N_E",
+      "decisions": 49,
+      "identity_sha256": "55ad3ac63618717989d847bdfc71c4e9acaea3d0de0290342c16fe9dbce63a75",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "initial_target_rule": "E",
+      "memory_sha256": "cc645d21799da26b14711b15ed88d31a31b00e0d80ab2546eda217707cf1cdcb",
+      "new_reflection_hashes": [
+        "c0fd4d1fac55decdc7f24fb4b6672b1f7d0cfb8643797988b65dd26b4e9dd542"
+      ],
+      "no_effect_shapes": {
+        "environment_style_sentence": 1,
+        "other_unmatched_shape": 1,
+        "public_command_shape": 6,
+        "thought": 24
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 3
+      },
+      "outcome": "E",
+      "result_sha256": "698cd01fe4888af655096dd2b3a219e79a923d3384d98c60d859fc692ba1d96f",
+      "reused_control": false,
+      "seed": 2102,
+      "source_cell_id": "residual-02088717ce4b3889-2102-N_E",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "02088717ce4b3889",
+      "trajectory_sha256": "0c17a7b96bc6a5847cebccdacfa9b768a8f6dc875241361debea879ba4c2799b",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 24,
+        "thought": 25
+      },
+      "cell_id": "residual-02088717ce4b3889-2102-R_C",
+      "condition": "R_C",
+      "decisions": 49,
+      "identity_sha256": "9f92b48d230d60472a54dbdf29685ce188817fd405edfb8b62198104c5b4a9ab",
+      "initial_labels": [
+        "R",
+        "C",
+        "N"
+      ],
+      "initial_target_rule": "C",
+      "memory_sha256": "8d09e7a5633a4a164d47fffde6b5f731201b44e9db6d601e681279e6560f489f",
+      "new_reflection_hashes": [
+        "c6787b2eaa5386b1f300a7a9006580b76bf13c911f17549e931fea22f9b5d4ec"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 14,
+        "thought": 25
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 3
+      },
+      "outcome": "E",
+      "result_sha256": "ee15ea56a577f68de17873d55860e018e9e886486557dddc049e6941fcb78fee",
+      "reused_control": false,
+      "seed": 2102,
+      "source_cell_id": "residual-02088717ce4b3889-2102-R_C",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "02088717ce4b3889",
+      "trajectory_sha256": "6fdcd6ae857d34370d0a6ab166d31770f9d446005ce0c0df590a546e2e5f5425",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 23,
+        "thought": 26
+      },
+      "cell_id": "residual-02088717ce4b3889-2102-R_E",
+      "condition": "R_E",
+      "decisions": 49,
+      "identity_sha256": "9c56a75b058843093307ed0df93d998c68b8af726288fe389f282fab5985954a",
+      "initial_labels": [
+        "R",
+        "E",
+        "N"
+      ],
+      "initial_target_rule": "E",
+      "memory_sha256": "560a5a26947089499887bf83e6f9cf5f5bdbbd76136405496d11aa875beaada6",
+      "new_reflection_hashes": [
+        "6d191390e422f03e9a8afed6f32220c5887bb0be552d864647080dc4adfc3ac3"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 13,
+        "thought": 26
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 2
+      },
+      "outcome": "E",
+      "result_sha256": "9c2458f864e30b723619a12771509c5bb1d5b234edcd21c3dce199dfda1db525",
+      "reused_control": false,
+      "seed": 2102,
+      "source_cell_id": "residual-02088717ce4b3889-2102-R_E",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "02088717ce4b3889",
+      "trajectory_sha256": "9b1ad6be0a3e71e1344973215262d2fc69db8b6c63169035dc2011c41c54291b",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 11,
+        "thought": 9
+      },
+      "cell_id": "residual-4a3978c7981b641a-2101-N_C",
+      "condition": "N_C",
+      "decisions": 20,
+      "identity_sha256": "ccec20486e91db58b3e26b170ba76be6072dc2e3f6c6de111a0739d513eb9599",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "initial_target_rule": "C",
+      "memory_sha256": "a40bc7c5c5dc9ac47deb05f4699081a8680c887adfb85c0e1d6e7a2adf22bce3",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "thought": 9
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "c9b1668820eb0b8e157a35221ff76dbb6660d6044c38c2d2d7a43f7b0cf4c2dd",
+      "reused_control": true,
+      "seed": 2101,
+      "source_cell_id": "middle-4a3978c7981b641a-C",
+      "source_run": "runs/reflexion-middle-context-20261023",
+      "status": "success",
+      "success": true,
+      "task_id": "4a3978c7981b641a",
+      "trajectory_sha256": "18b1809fbcd9864c8a65bd6ec740d764efdeaff194be1d144445dc31cae7206b",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 22,
+        "thought": 26
+      },
+      "cell_id": "residual-4a3978c7981b641a-2101-N_E",
+      "condition": "N_E",
+      "decisions": 49,
+      "identity_sha256": "f4418da1b8f01e0290b4353474025de06b87bc17e3c829e92d70727c7bca3b09",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "initial_target_rule": "E",
+      "memory_sha256": "cc645d21799da26b14711b15ed88d31a31b00e0d80ab2546eda217707cf1cdcb",
+      "new_reflection_hashes": [
+        "6ff7ce3b4e5e5aafdae2b02ce52db46dbc11d3306a447368b98e5b56c800f41d"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 8,
+        "thought": 26
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 4
+      },
+      "outcome": "E",
+      "result_sha256": "4abb2556ac61fe592f714c3ce482b3fb900148f26f4aa4dfee88009354296ad6",
+      "reused_control": true,
+      "seed": 2101,
+      "source_cell_id": "middle-4a3978c7981b641a-E",
+      "source_run": "runs/reflexion-middle-context-20261023",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "4a3978c7981b641a",
+      "trajectory_sha256": "e848a3d09a084ce9841725b59af0bf61f52c529bc74ec9a1ddc6eae200d88587",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 24,
+        "thought": 25
+      },
+      "cell_id": "residual-4a3978c7981b641a-2101-R_C",
+      "condition": "R_C",
+      "decisions": 49,
+      "identity_sha256": "e770d9f37e8e5fe7d5f2b489f6b9103b4fa03f4f60b5ef2958cf11bb5233a827",
+      "initial_labels": [
+        "R",
+        "C",
+        "N"
+      ],
+      "initial_target_rule": "C",
+      "memory_sha256": "3f09d6aa008c3366ca3fb839ca0114f3a01640b04dbaf0f814dce466fe4ca9af",
+      "new_reflection_hashes": [
+        "55338746978ccee556af2cffa5492cc39b030648e40f690f0df0b01b244bb3ef"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 7,
+        "thought": 25
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 2
+      },
+      "outcome": "U",
+      "result_sha256": "93dd6d1a7f1c20e9fe7d71069c9e6cb3268b92b47695d702cb7aebc200601a80",
+      "reused_control": false,
+      "seed": 2101,
+      "source_cell_id": "residual-4a3978c7981b641a-2101-R_C",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "4a3978c7981b641a",
+      "trajectory_sha256": "2746d8964e5f438d257fdda2e1d2cc3dd99aefb8c0aa2366685c6c8eccc09b40",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 23,
+        "thought": 26
+      },
+      "cell_id": "residual-4a3978c7981b641a-2101-R_E",
+      "condition": "R_E",
+      "decisions": 49,
+      "identity_sha256": "b86a8ffe5d05ac6d1c40b025c1166b5b0a69f84f74a7730b36635d978e03fe86",
+      "initial_labels": [
+        "R",
+        "E",
+        "N"
+      ],
+      "initial_target_rule": "E",
+      "memory_sha256": "d9c1b9bab4bd826b026447da6c5e0ebbcc21c41d9cc023a37433791d24b8fdab",
+      "new_reflection_hashes": [
+        "38a3f82c17b3491de83ab58e55fb7856cefcf2eea4e749ea401a087e9ec183b3"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 9,
+        "thought": 26
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 2
+      },
+      "outcome": "E",
+      "result_sha256": "fb92ad728e6e8f16ee2e3f692d4b37977a60cf33a022a889dcfde6abefa0b3cc",
+      "reused_control": false,
+      "seed": 2101,
+      "source_cell_id": "residual-4a3978c7981b641a-2101-R_E",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "4a3978c7981b641a",
+      "trajectory_sha256": "aa5be0f02b9f34b3b66d7e23f7e4e8de2bcdf2ba276be5778503b9f7c39c5215",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 11,
+        "thought": 9
+      },
+      "cell_id": "residual-4a3978c7981b641a-2102-N_C",
+      "condition": "N_C",
+      "decisions": 20,
+      "identity_sha256": "70aff20d411e4e9c9dcc8bdaa2a619e39f5fbffcb4147b3cd33cbaa760e8ed01",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "initial_target_rule": "C",
+      "memory_sha256": "a40bc7c5c5dc9ac47deb05f4699081a8680c887adfb85c0e1d6e7a2adf22bce3",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "thought": 9
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "327e829bc0e66027658cfb207ed72966c947e0f7cb26067965939d80d7408b25",
+      "reused_control": false,
+      "seed": 2102,
+      "source_cell_id": "residual-4a3978c7981b641a-2102-N_C",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "success",
+      "success": true,
+      "task_id": "4a3978c7981b641a",
+      "trajectory_sha256": "6ff85ae676b2a2314c8368f9063532d457760ede73e3a59adc88236bed0e7dfb",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 19,
+        "thought": 27
+      },
+      "cell_id": "residual-4a3978c7981b641a-2102-N_E",
+      "condition": "N_E",
+      "decisions": 46,
+      "identity_sha256": "14b4e791ce5f459a4bb4548fed72e5df5e786a989ad2e539388afaf057a1f9c7",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "initial_target_rule": "E",
+      "memory_sha256": "cc645d21799da26b14711b15ed88d31a31b00e0d80ab2546eda217707cf1cdcb",
+      "new_reflection_hashes": [
+        "6db8c5e41aaefebb7b31764de335edd59116da509cc8f2ee8dfa3d5104b48adf"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 9,
+        "thought": 27
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 3
+      },
+      "outcome": "E",
+      "result_sha256": "5bf45fad1e1b9bfe2e9d5d6a5fef451ebdef3cb948c625bedb6468f29063b307",
+      "reused_control": false,
+      "seed": 2102,
+      "source_cell_id": "residual-4a3978c7981b641a-2102-N_E",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "4a3978c7981b641a",
+      "trajectory_sha256": "0c08ad710b85e9d5d5dd5ae51188eb6373cd7921a12e3292e6656409543a3dbf",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 25,
+        "thought": 24
+      },
+      "cell_id": "residual-4a3978c7981b641a-2102-R_C",
+      "condition": "R_C",
+      "decisions": 49,
+      "identity_sha256": "f9f62dfaf0da0451fac15366a63e2ce838394f6d4b347081bb0342a3bbc192eb",
+      "initial_labels": [
+        "R",
+        "C",
+        "N"
+      ],
+      "initial_target_rule": "C",
+      "memory_sha256": "3f09d6aa008c3366ca3fb839ca0114f3a01640b04dbaf0f814dce466fe4ca9af",
+      "new_reflection_hashes": [
+        "298d0e4381166f1acad99a9cbae773e1f5ecfa24cbb40e9b31cbdcec28984f07"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 7,
+        "thought": 24
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 2
+      },
+      "outcome": "C",
+      "result_sha256": "98b948312de165d7da9b91abb259e297b74baa0b0bc5fe56d71760e0a64860be",
+      "reused_control": false,
+      "seed": 2102,
+      "source_cell_id": "residual-4a3978c7981b641a-2102-R_C",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "4a3978c7981b641a",
+      "trajectory_sha256": "acf3e73c35c1d8dd804858d40613f7271cea705cced36f75f1181a03184b4f08",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 8,
+        "public_command_shape": 14,
+        "thought": 27
+      },
+      "cell_id": "residual-4a3978c7981b641a-2102-R_E",
+      "condition": "R_E",
+      "decisions": 49,
+      "identity_sha256": "b2d172c883928638f0b02608e82cfff9dd72403c64281f1602310813b37ec9d3",
+      "initial_labels": [
+        "R",
+        "E",
+        "N"
+      ],
+      "initial_target_rule": "E",
+      "memory_sha256": "d9c1b9bab4bd826b026447da6c5e0ebbcc21c41d9cc023a37433791d24b8fdab",
+      "new_reflection_hashes": [
+        "6be60c482ce1219f4e94a84ab60218c49b079d258046355e75fde4f10f6fe92c"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 8,
+        "public_command_shape": 1,
+        "thought": 27
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 1
+      },
+      "outcome": "E",
+      "result_sha256": "27ee2673149858509b2ee227cab95585dd949ef547487fd4951be23358bf610e",
+      "reused_control": false,
+      "seed": 2102,
+      "source_cell_id": "residual-4a3978c7981b641a-2102-R_E",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "4a3978c7981b641a",
+      "trajectory_sha256": "cafa52661d6cd07b24650bea3255a87e48dea8b2558b2a9f79bfe6dafc80451c",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 7,
+        "thought": 8
+      },
+      "cell_id": "residual-55f887bdc1cc1699-2101-N_C",
+      "condition": "N_C",
+      "decisions": 15,
+      "identity_sha256": "b3425c87fe6448532c0aaa6beec532446697e4440076668c74449f8aa54e739e",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "initial_target_rule": "C",
+      "memory_sha256": "a40bc7c5c5dc9ac47deb05f4699081a8680c887adfb85c0e1d6e7a2adf22bce3",
+      "new_reflection_hashes": [
+        "f0a053df1ab4a9c826a2e0299f396d59a8b28fd115c4d99c70d839ed41294021"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 1,
+        "thought": 8
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 1
+      },
+      "outcome": "E",
+      "result_sha256": "9cec8a611635d2a218c6437f3b54f6a616497a31eddb7c5361b555d50c017194",
+      "reused_control": true,
+      "seed": 2101,
+      "source_cell_id": "middle-55f887bdc1cc1699-C",
+      "source_run": "runs/reflexion-middle-context-20261023",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "55f887bdc1cc1699",
+      "trajectory_sha256": "a3561fafa38f85a926501f25540ba9915137f657ce2b54c748fbbc7f92dc8814",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 5,
+        "public_command_shape": 16,
+        "thought": 28
+      },
+      "cell_id": "residual-55f887bdc1cc1699-2101-N_E",
+      "condition": "N_E",
+      "decisions": 49,
+      "identity_sha256": "c789a504e0f10587bc2fe4bf7664c823ec48f025cdb5fb493a3d90f9ea0f5b54",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "initial_target_rule": "E",
+      "memory_sha256": "cc645d21799da26b14711b15ed88d31a31b00e0d80ab2546eda217707cf1cdcb",
+      "new_reflection_hashes": [
+        "fa59390559544f853dfd65f4fa125090d002ec659e9eb92f95062952ec7e6f44"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 5,
+        "public_command_shape": 8,
+        "thought": 28
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 3
+      },
+      "outcome": "U",
+      "result_sha256": "ce6fc5132742eda30025d321c496af9361b4a8f80760e9d261e53237bdeb43bc",
+      "reused_control": true,
+      "seed": 2101,
+      "source_cell_id": "middle-55f887bdc1cc1699-E",
+      "source_run": "runs/reflexion-middle-context-20261023",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "55f887bdc1cc1699",
+      "trajectory_sha256": "b4c5d3de6946d73c80051ab72e45842a25c5f9ce28d63c24fd6e86fb65b1aa8d",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 24,
+        "thought": 25
+      },
+      "cell_id": "residual-55f887bdc1cc1699-2101-R_C",
+      "condition": "R_C",
+      "decisions": 49,
+      "identity_sha256": "cc626f0351dd807f8f99b617c2c761694d08b466ce2f3c377fee68bfa5f43ac7",
+      "initial_labels": [
+        "R",
+        "C",
+        "N"
+      ],
+      "initial_target_rule": "C",
+      "memory_sha256": "5c08cdeea2f21e1419f9e38586556cbb8bfc298d842e298c1265bae29c53d16f",
+      "new_reflection_hashes": [
+        "6e44e9f1bdd7e7a56f0828d4bea70fb46094e2667504c05caba30acd24110e14"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 11,
+        "thought": 25
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 2
+      },
+      "outcome": "C",
+      "result_sha256": "765996a1ba1bbd78507e9a14cb1024d7dc76a5034ef12dac03f7b579294fd774",
+      "reused_control": false,
+      "seed": 2101,
+      "source_cell_id": "residual-55f887bdc1cc1699-2101-R_C",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "55f887bdc1cc1699",
+      "trajectory_sha256": "b6689bf762d61f099600ee63df5221477b3cc43d6d8f4091560b876321eb1903",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 25,
+        "thought": 23
+      },
+      "cell_id": "residual-55f887bdc1cc1699-2101-R_E",
+      "condition": "R_E",
+      "decisions": 49,
+      "identity_sha256": "887cd8d20586d7fd938adeaba745515626a0c6679ecbc50ae1003b8483336bcb",
+      "initial_labels": [
+        "R",
+        "E",
+        "N"
+      ],
+      "initial_target_rule": "E",
+      "memory_sha256": "a05c042434a63c61c1032ea1a25b6fb82bfa4cb051596ed62fe9238a9204b24f",
+      "new_reflection_hashes": [
+        "efb803842853d7d6a944386bd57a64d9ac08bdc22bb202c1857cf2c004f2e2ec"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 9,
+        "thought": 23
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 2
+      },
+      "outcome": "U",
+      "result_sha256": "41959a9535fcacd01592963a1f54fd8447e491b7768d751806d4680e35fcdf0c",
+      "reused_control": false,
+      "seed": 2101,
+      "source_cell_id": "residual-55f887bdc1cc1699-2101-R_E",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "55f887bdc1cc1699",
+      "trajectory_sha256": "88e51b5e78aab4a0d05c15c053fcf7a04c49c3c0eb6d29e11b5d7ea5dd4876d3",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 21,
+        "thought": 27
+      },
+      "cell_id": "residual-55f887bdc1cc1699-2102-N_C",
+      "condition": "N_C",
+      "decisions": 49,
+      "identity_sha256": "cea681df31a52435be1bfa14c207cba4e8895eccbc65337e6ca0f1baaac8d4c2",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "initial_target_rule": "C",
+      "memory_sha256": "a40bc7c5c5dc9ac47deb05f4699081a8680c887adfb85c0e1d6e7a2adf22bce3",
+      "new_reflection_hashes": [
+        "45e8e8b0f692a72da4e24256d64e1e3ec1a301190316c90ed30009430d634ee0"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 8,
+        "thought": 27
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 3
+      },
+      "outcome": "C",
+      "result_sha256": "524bef3dea07a397e0484e8ba463d65084ce3ac83fdad781936e4c75f90bffb7",
+      "reused_control": false,
+      "seed": 2102,
+      "source_cell_id": "residual-55f887bdc1cc1699-2102-N_C",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "55f887bdc1cc1699",
+      "trajectory_sha256": "fcb8625c64f5e0879978fb907536aaceabbfa783355fbe575e502c8773eaba19",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 20,
+        "thought": 29
+      },
+      "cell_id": "residual-55f887bdc1cc1699-2102-N_E",
+      "condition": "N_E",
+      "decisions": 49,
+      "identity_sha256": "649ef45930c1292a07ef2e7d7f79d12de3bd924fafa419cc5b53fa7f9479c81d",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "initial_target_rule": "E",
+      "memory_sha256": "cc645d21799da26b14711b15ed88d31a31b00e0d80ab2546eda217707cf1cdcb",
+      "new_reflection_hashes": [
+        "42cd29218591b67adac98436ef5a8ed096b4882e85467b25c6e3af517b6fc1aa"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 9,
+        "thought": 29
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 4
+      },
+      "outcome": "E",
+      "result_sha256": "fecf4f6b61754b32bb9b4d4d0c60ffdd168793ee7cb7d9fffd7a1c7e8a8e3362",
+      "reused_control": false,
+      "seed": 2102,
+      "source_cell_id": "residual-55f887bdc1cc1699-2102-N_E",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "55f887bdc1cc1699",
+      "trajectory_sha256": "e4124ec397fcf6c72858afeafed98704af0f4fc6282b89597ae4f53f7238ff94",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 18,
+        "thought": 31
+      },
+      "cell_id": "residual-55f887bdc1cc1699-2102-R_C",
+      "condition": "R_C",
+      "decisions": 49,
+      "identity_sha256": "1a618bc688a6fffdf319882d8f9c05d13b0b1709cf41443ed91c1809e60b1936",
+      "initial_labels": [
+        "R",
+        "C",
+        "N"
+      ],
+      "initial_target_rule": "C",
+      "memory_sha256": "5c08cdeea2f21e1419f9e38586556cbb8bfc298d842e298c1265bae29c53d16f",
+      "new_reflection_hashes": [
+        "50130b6b3ba7be5885f57259cacfaac00b8e8a6309c73890710e681b8dd53cc8"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 12,
+        "thought": 31
+      },
+      "observable_events": {
+        "competing_macros": 1,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 2,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "C",
+      "result_sha256": "5250f989a749ff0789040088bed44cafa05d4a128489c23e943e6157704e9911",
+      "reused_control": false,
+      "seed": 2102,
+      "source_cell_id": "residual-55f887bdc1cc1699-2102-R_C",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "55f887bdc1cc1699",
+      "trajectory_sha256": "efc040fff29f10c75b763585e281a2254a5c0b25be10ed3062fabbea52843b25",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 17,
+        "thought": 22
+      },
+      "cell_id": "residual-55f887bdc1cc1699-2102-R_E",
+      "condition": "R_E",
+      "decisions": 40,
+      "identity_sha256": "ce70fcbf90f92167a7f687c9a4e5ac4b3aebf682740637172e7cfe253ef837bb",
+      "initial_labels": [
+        "R",
+        "E",
+        "N"
+      ],
+      "initial_target_rule": "E",
+      "memory_sha256": "a05c042434a63c61c1032ea1a25b6fb82bfa4cb051596ed62fe9238a9204b24f",
+      "new_reflection_hashes": [
+        "b07a75a6f4e525e4ad0be35a108cabc8c3760901bec6f52dcfab1a43167baa4e"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 11,
+        "thought": 22
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "A",
+      "result_sha256": "8778783b87067ab34881dd2d18bf8e619f184c564587813898c8c1833ef172f4",
+      "reused_control": false,
+      "seed": 2102,
+      "source_cell_id": "residual-55f887bdc1cc1699-2102-R_E",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "55f887bdc1cc1699",
+      "trajectory_sha256": "617ce7ff0ff23cfd4530442b94832a2e5a49cef7ee5bce7df5b9975a2e849e53",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 10,
+        "thought": 7
+      },
+      "cell_id": "residual-69b7fb1c70f5d271-2101-N_C",
+      "condition": "N_C",
+      "decisions": 17,
+      "identity_sha256": "ef76f8b08d0d2b4d29ff94adc2aff186d6a02d886656135cac0ab4d7c9714cc7",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "initial_target_rule": "C",
+      "memory_sha256": "a40bc7c5c5dc9ac47deb05f4699081a8680c887adfb85c0e1d6e7a2adf22bce3",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "thought": 7
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "bdc60a6e913bc6b5f6028cd7af525e86eb53d3e2a8b0b87d77e12e76e5f79f50",
+      "reused_control": true,
+      "seed": 2101,
+      "source_cell_id": "middle-69b7fb1c70f5d271-C",
+      "source_run": "runs/reflexion-middle-context-20261023",
+      "status": "success",
+      "success": true,
+      "task_id": "69b7fb1c70f5d271",
+      "trajectory_sha256": "860833eb8bbdf8ef003a51a9531699288348eb69a62134c011576e7737ec18d3",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 25,
+        "thought": 23
+      },
+      "cell_id": "residual-69b7fb1c70f5d271-2101-N_E",
+      "condition": "N_E",
+      "decisions": 49,
+      "identity_sha256": "03437d5ab0f43efc58d6577faf6b00fcd68eedbedfdafdf3c446100ff484fad4",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "initial_target_rule": "E",
+      "memory_sha256": "cc645d21799da26b14711b15ed88d31a31b00e0d80ab2546eda217707cf1cdcb",
+      "new_reflection_hashes": [
+        "e78fd0efbddf4837d0901afa088342d9005511434fe5247e0b44a156b93b0343"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 3,
+        "thought": 23
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 2
+      },
+      "outcome": "E",
+      "result_sha256": "ed0d1a174e7ab76a8201c1c63c71943ec1c053e20d299d692acaa15b2e3c3467",
+      "reused_control": true,
+      "seed": 2101,
+      "source_cell_id": "middle-69b7fb1c70f5d271-E",
+      "source_run": "runs/reflexion-middle-context-20261023",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "69b7fb1c70f5d271",
+      "trajectory_sha256": "34da623e2f50b3b229d9f1d2160102eaaf61d2e02101805a74c2cd5d5f7b9e78",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 10,
+        "thought": 7
+      },
+      "cell_id": "residual-69b7fb1c70f5d271-2101-R_C",
+      "condition": "R_C",
+      "decisions": 17,
+      "identity_sha256": "054ff2fb6d5f5adbf78b5d382e0c5f8859971b9d3e2a000a694c2a1af1fb18d9",
+      "initial_labels": [
+        "R",
+        "C",
+        "N"
+      ],
+      "initial_target_rule": "C",
+      "memory_sha256": "1d38e919b11cf11834bd407448e71648e4edcb3f008771398706bbebb60e550e",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "thought": 7
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "eed9c269127d6aa2285101e2f97159f4ed398e0157f11d76ed7d01c63e705070",
+      "reused_control": false,
+      "seed": 2101,
+      "source_cell_id": "residual-69b7fb1c70f5d271-2101-R_C",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "success",
+      "success": true,
+      "task_id": "69b7fb1c70f5d271",
+      "trajectory_sha256": "b0ae090143fc5955c053dc0680814e32106fa7b997719ce21204d6aac457e58f",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 17,
+        "thought": 23
+      },
+      "cell_id": "residual-69b7fb1c70f5d271-2101-R_E",
+      "condition": "R_E",
+      "decisions": 41,
+      "identity_sha256": "255e37b3449600f87173eeca45e23578f370e63928c080e083921082b5e1ee70",
+      "initial_labels": [
+        "R",
+        "E",
+        "N"
+      ],
+      "initial_target_rule": "E",
+      "memory_sha256": "5bc0ba4deab577f52b020c73f2c5343cb26e4ea9c089dffc3b57dfcf6c62811f",
+      "new_reflection_hashes": [
+        "b7768604d801d08337ced3a50237d21ca88b9f9c55ae3ef36ce798ce4c96d195"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 6,
+        "thought": 23
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 2,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 1
+      },
+      "outcome": "E",
+      "result_sha256": "375c326e830cd2632632d34abc2051288b0c395557d45dc293cf9c198b2d073b",
+      "reused_control": false,
+      "seed": 2101,
+      "source_cell_id": "residual-69b7fb1c70f5d271-2101-R_E",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "69b7fb1c70f5d271",
+      "trajectory_sha256": "107b5a09fa92bce173718cfd00826dc5f97284b45cf9e9f30610ed689bc42c47",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 10,
+        "thought": 7
+      },
+      "cell_id": "residual-69b7fb1c70f5d271-2102-N_C",
+      "condition": "N_C",
+      "decisions": 17,
+      "identity_sha256": "224295e7a90da8cead5ec9fb0e4c3e9eb8a9fa9e28c459066ce9680f64b0cb79",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "initial_target_rule": "C",
+      "memory_sha256": "a40bc7c5c5dc9ac47deb05f4699081a8680c887adfb85c0e1d6e7a2adf22bce3",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "thought": 7
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "7cfc580a2863b1330cdd62388e56036ce45d28b6f878beb0107b4a0e4ecc93b6",
+      "reused_control": false,
+      "seed": 2102,
+      "source_cell_id": "residual-69b7fb1c70f5d271-2102-N_C",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "success",
+      "success": true,
+      "task_id": "69b7fb1c70f5d271",
+      "trajectory_sha256": "6255621091d38c957b70dfcf698cd7bd200b7fde0baa92e4f5a710830284bb0e",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 26,
+        "thought": 23
+      },
+      "cell_id": "residual-69b7fb1c70f5d271-2102-N_E",
+      "condition": "N_E",
+      "decisions": 49,
+      "identity_sha256": "9ff23618202c4af385497fd0653715386d980ceae671c7740104cb4ce3fb1699",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "initial_target_rule": "E",
+      "memory_sha256": "cc645d21799da26b14711b15ed88d31a31b00e0d80ab2546eda217707cf1cdcb",
+      "new_reflection_hashes": [
+        "f747cfa7028b83bd3f07fa4ea9bb0320079a531a2c70b85ad9d9272bd2b2de29"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 5,
+        "thought": 23
+      },
+      "observable_events": {
+        "competing_macros": 2,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 1
+      },
+      "outcome": "E",
+      "result_sha256": "fdbbe7c4a3375256ad12b3c57b49664f352be9b7c0e5d515f782431c98ad93e7",
+      "reused_control": false,
+      "seed": 2102,
+      "source_cell_id": "residual-69b7fb1c70f5d271-2102-N_E",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "69b7fb1c70f5d271",
+      "trajectory_sha256": "840a6ba8883d326f16d7c6a8c5e3a4873d42df4d6f108bb322b0a43ecf7baa81",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 26,
+        "thought": 23
+      },
+      "cell_id": "residual-69b7fb1c70f5d271-2102-R_C",
+      "condition": "R_C",
+      "decisions": 49,
+      "identity_sha256": "a0001ece2656beec1234833aa467bcc7f7be88e4c97ad528dafdbdeb2e3d46fa",
+      "initial_labels": [
+        "R",
+        "C",
+        "N"
+      ],
+      "initial_target_rule": "C",
+      "memory_sha256": "1d38e919b11cf11834bd407448e71648e4edcb3f008771398706bbebb60e550e",
+      "new_reflection_hashes": [
+        "a748fa4c443f8464167ec2ad6e4a4955c8ff5ae3420eaba73ef79f699996e3a5"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 11,
+        "thought": 23
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 1
+      },
+      "outcome": "E",
+      "result_sha256": "f2bba140bb7a0e0716ab9386edf77fd757729bc9393b74e50a37b22a77b3cd4e",
+      "reused_control": false,
+      "seed": 2102,
+      "source_cell_id": "residual-69b7fb1c70f5d271-2102-R_C",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "69b7fb1c70f5d271",
+      "trajectory_sha256": "ce74bbc359341e6363ffcc3c051ca67419c58d287dd5273eff4641dffefc4070",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 10,
+        "thought": 10
+      },
+      "cell_id": "residual-69b7fb1c70f5d271-2102-R_E",
+      "condition": "R_E",
+      "decisions": 20,
+      "identity_sha256": "52d7f9eeceff8fc81203e1ec8069abe92e3554852a8079a39111b5a97653e51c",
+      "initial_labels": [
+        "R",
+        "E",
+        "N"
+      ],
+      "initial_target_rule": "E",
+      "memory_sha256": "5bc0ba4deab577f52b020c73f2c5343cb26e4ea9c089dffc3b57dfcf6c62811f",
+      "new_reflection_hashes": [
+        "cdd62554a588c3e35d2deb1a19e590c833275828d7b6bff8f52e4b54c47413ec"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 1,
+        "thought": 10
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 1
+      },
+      "outcome": "E",
+      "result_sha256": "e83042b7813217e47bbe321050b8e187cd2d9dec6642ca4b7f2449cfd91856ea",
+      "reused_control": false,
+      "seed": 2102,
+      "source_cell_id": "residual-69b7fb1c70f5d271-2102-R_E",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "69b7fb1c70f5d271",
+      "trajectory_sha256": "062f5131b90d1444110db90521848f80ca72c504769ec3ee6e3c6ec6eaa14d81",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 27,
+        "thought": 22
+      },
+      "cell_id": "residual-790b6f6fefeac9d1-2101-N_C",
+      "condition": "N_C",
+      "decisions": 49,
+      "identity_sha256": "88ab6bff0ecbc241fbb9284791c1744c650d7985f52f69a87390025778eb0a6e",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "initial_target_rule": "C",
+      "memory_sha256": "a40bc7c5c5dc9ac47deb05f4699081a8680c887adfb85c0e1d6e7a2adf22bce3",
+      "new_reflection_hashes": [
+        "d203b8f78f10404996f19748f2cd98434731cc425589585996485eb7c54fbd41"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 6,
+        "thought": 22
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": false,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "U",
+      "result_sha256": "de256d3e155049e1ff40527d63a6c51012dfa9f00ca840009143ed08462ff15a",
+      "reused_control": true,
+      "seed": 2101,
+      "source_cell_id": "middle-790b6f6fefeac9d1-C",
+      "source_run": "runs/reflexion-middle-context-20261023",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "790b6f6fefeac9d1",
+      "trajectory_sha256": "05606d402951ac729dd5abca24e32c440bc5c18cddcf8a9927fdfb7cb321fb8f",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 27,
+        "thought": 22
+      },
+      "cell_id": "residual-790b6f6fefeac9d1-2101-N_E",
+      "condition": "N_E",
+      "decisions": 49,
+      "identity_sha256": "f06d9efc50cae7a7046828ce84af2ec2817ae42e1630b13d911bec3b2671cacf",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "initial_target_rule": "E",
+      "memory_sha256": "cc645d21799da26b14711b15ed88d31a31b00e0d80ab2546eda217707cf1cdcb",
+      "new_reflection_hashes": [
+        "4fa8e535717b69f0803fb6f7b97e2c99d6305d755b7cabe5d2fedd0831fa30dc"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 6,
+        "thought": 22
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": false,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "E",
+      "result_sha256": "641964dcc70b09428edf20fac207a38834d4c3124155e5e48d559c94cfd36e9f",
+      "reused_control": true,
+      "seed": 2101,
+      "source_cell_id": "middle-790b6f6fefeac9d1-E",
+      "source_run": "runs/reflexion-middle-context-20261023",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "790b6f6fefeac9d1",
+      "trajectory_sha256": "19a59d741875d386bba28a89a2ef10eba845ed023438cf8beb7d10a88aae3e5f",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 13,
+        "thought": 11
+      },
+      "cell_id": "residual-790b6f6fefeac9d1-2101-R_C",
+      "condition": "R_C",
+      "decisions": 24,
+      "identity_sha256": "47584c3271b2870dfeb57f373fed8a82b70265a334f602260eeff1d5cffb5b67",
+      "initial_labels": [
+        "R",
+        "C",
+        "N"
+      ],
+      "initial_target_rule": "C",
+      "memory_sha256": "9af64015593b8bfac7d42a02e12658ab6e371a6873f9ecf3c3d2d0a6dc6aa1cc",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "thought": 11
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "87387d20d2fa7fd6c37041e3e6f6dc24334d0b5c17eb76a190dc41ad249876e9",
+      "reused_control": false,
+      "seed": 2101,
+      "source_cell_id": "residual-790b6f6fefeac9d1-2101-R_C",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "success",
+      "success": true,
+      "task_id": "790b6f6fefeac9d1",
+      "trajectory_sha256": "68a67a33824560007260f0331a8bc12004a592ce89f4e51387a70c68d260c96d",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 21,
+        "thought": 27
+      },
+      "cell_id": "residual-790b6f6fefeac9d1-2101-R_E",
+      "condition": "R_E",
+      "decisions": 49,
+      "identity_sha256": "5f520f0ad49bca280ccb14371b797d7cb78619607e8f0be12bd5a66a49e2a49c",
+      "initial_labels": [
+        "R",
+        "E",
+        "N"
+      ],
+      "initial_target_rule": "E",
+      "memory_sha256": "d3376f9d2ca2e3a6e30eaeb1ddc681c1e00f70769bb3a9796dd6d919bb29840c",
+      "new_reflection_hashes": [
+        "d9caa25e8f1eed19e4b6313050e2a3fa340cfbb80c08ab9ec9771ccd48d0df1b"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 6,
+        "thought": 27
+      },
+      "observable_events": {
+        "competing_macros": 1,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 1
+      },
+      "outcome": "U",
+      "result_sha256": "4701dcf3bbf6f17191249bdf9a7cb01153b6b03a0b2caf7ee310a70dfbe867d2",
+      "reused_control": false,
+      "seed": 2101,
+      "source_cell_id": "residual-790b6f6fefeac9d1-2101-R_E",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "790b6f6fefeac9d1",
+      "trajectory_sha256": "5081f0b7efd4e8c295e3fa6a74f5ec48e03ee9c35c71f19127b1fb2dc3886d91",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 27,
+        "thought": 22
+      },
+      "cell_id": "residual-790b6f6fefeac9d1-2102-N_C",
+      "condition": "N_C",
+      "decisions": 49,
+      "identity_sha256": "e92df1bee84a13cfcf729cbcc12fa9ebfddd8e32aa13343215a987e1d3ae0bc7",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "initial_target_rule": "C",
+      "memory_sha256": "a40bc7c5c5dc9ac47deb05f4699081a8680c887adfb85c0e1d6e7a2adf22bce3",
+      "new_reflection_hashes": [
+        "b8a42b6720aa33aacdd8440a6820ad46d4d431737509600eb3e323288c06db8b"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 2,
+        "thought": 22
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": false,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "U",
+      "result_sha256": "2b244abaf91dfa6bbe4305d4a13da7d9c770fc474f81da1103959ee236ababb6",
+      "reused_control": false,
+      "seed": 2102,
+      "source_cell_id": "residual-790b6f6fefeac9d1-2102-N_C",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "790b6f6fefeac9d1",
+      "trajectory_sha256": "3ed3da5900e16a4f99edd519e9789f18c0826e168c3966fa54c31cd372965bb4",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 27,
+        "thought": 22
+      },
+      "cell_id": "residual-790b6f6fefeac9d1-2102-N_E",
+      "condition": "N_E",
+      "decisions": 49,
+      "identity_sha256": "911a47cccd3c89d3b6da25b416e24ae9eef2837dc11df55ab5b084e4cba18003",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "initial_target_rule": "E",
+      "memory_sha256": "cc645d21799da26b14711b15ed88d31a31b00e0d80ab2546eda217707cf1cdcb",
+      "new_reflection_hashes": [
+        "b32487e95dca0f6689f587864d7a28b0a2552a175e3875ac87bb60132e0a4481"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 2,
+        "thought": 22
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": false,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "U",
+      "result_sha256": "06a3d2226a5da5f34b6938fe10711111244acb372e1649afbf1c95447a05255c",
+      "reused_control": false,
+      "seed": 2102,
+      "source_cell_id": "residual-790b6f6fefeac9d1-2102-N_E",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "790b6f6fefeac9d1",
+      "trajectory_sha256": "4f7d783fc7acaa08c3bbe462b4114c105b42840ab6a99f14a0712a40fb16c054",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 13,
+        "thought": 11
+      },
+      "cell_id": "residual-790b6f6fefeac9d1-2102-R_C",
+      "condition": "R_C",
+      "decisions": 24,
+      "identity_sha256": "3c08daee2f91b1798d99608e87d323e22cef1bdadb1d51d9c5cc05ae1b80a60e",
+      "initial_labels": [
+        "R",
+        "C",
+        "N"
+      ],
+      "initial_target_rule": "C",
+      "memory_sha256": "9af64015593b8bfac7d42a02e12658ab6e371a6873f9ecf3c3d2d0a6dc6aa1cc",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "thought": 11
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "32a848f79ac53404dce517ba0c2936665e67845491b97dcb1a2d1e678c1b46d4",
+      "reused_control": false,
+      "seed": 2102,
+      "source_cell_id": "residual-790b6f6fefeac9d1-2102-R_C",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "success",
+      "success": true,
+      "task_id": "790b6f6fefeac9d1",
+      "trajectory_sha256": "23bd1b095a8175abeb27bc26e031a2db0410df837a02fea6641d25e9e058d4f7",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 23,
+        "thought": 26
+      },
+      "cell_id": "residual-790b6f6fefeac9d1-2102-R_E",
+      "condition": "R_E",
+      "decisions": 49,
+      "identity_sha256": "81cccc93495c6b8f5842d826d1304c0734cb28166d0e144ed5c1b8c6e767ac3e",
+      "initial_labels": [
+        "R",
+        "E",
+        "N"
+      ],
+      "initial_target_rule": "E",
+      "memory_sha256": "d3376f9d2ca2e3a6e30eaeb1ddc681c1e00f70769bb3a9796dd6d919bb29840c",
+      "new_reflection_hashes": [
+        "ab72bdd9d2a8824269f8985bb0d73d15e47202843855c8f9281dc7e828d566bc"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 10,
+        "thought": 26
+      },
+      "observable_events": {
+        "competing_macros": 1,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 2
+      },
+      "outcome": "E",
+      "result_sha256": "07309a16d5d90128a885292e700530e417ddbf3ec65bfc699c8ecda5ab508563",
+      "reused_control": false,
+      "seed": 2102,
+      "source_cell_id": "residual-790b6f6fefeac9d1-2102-R_E",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "790b6f6fefeac9d1",
+      "trajectory_sha256": "085d84dcb8a11e03d88cbb559fd7310b85b59afbbf683237b8b8f0b51317370a",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "environment_style_sentence": 1,
+        "public_command_shape": 14,
+        "thought": 16
+      },
+      "cell_id": "residual-bf6d3dba86f7f0e4-2101-N_C",
+      "condition": "N_C",
+      "decisions": 31,
+      "identity_sha256": "e5ee6729276eeb5b979207e08bf9363478958e52cdf78bdb0ee092e884c5b2ea",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "initial_target_rule": "C",
+      "memory_sha256": "a40bc7c5c5dc9ac47deb05f4699081a8680c887adfb85c0e1d6e7a2adf22bce3",
+      "new_reflection_hashes": [
+        "62ae1d0d161391bb7853f89658afe79b9a37199d1f1617970023fa1dc04925d3"
+      ],
+      "no_effect_shapes": {
+        "environment_style_sentence": 1,
+        "public_command_shape": 3,
+        "thought": 16
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 2
+      },
+      "outcome": "U",
+      "result_sha256": "6dab0af1fbd7a78e5768cb02676c83e0f852ba19851416131b62f276ddf084cb",
+      "reused_control": true,
+      "seed": 2101,
+      "source_cell_id": "middle-bf6d3dba86f7f0e4-C",
+      "source_run": "runs/reflexion-middle-context-20261023",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "bf6d3dba86f7f0e4",
+      "trajectory_sha256": "3cd19267e9068ac9f3d8cedb69bd0cea6ae503d461d5436fd680f17c19568b39",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 27,
+        "thought": 22
+      },
+      "cell_id": "residual-bf6d3dba86f7f0e4-2101-N_E",
+      "condition": "N_E",
+      "decisions": 49,
+      "identity_sha256": "b473a79f35140ed3a85486b2afd5a8095b9e5b6d56a9359f0ab214d1a0fe597c",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "initial_target_rule": "E",
+      "memory_sha256": "cc645d21799da26b14711b15ed88d31a31b00e0d80ab2546eda217707cf1cdcb",
+      "new_reflection_hashes": [
+        "9c5c79ca6ce9088861a16ed15cb867e5ced038159d0cdae7e77ed7b5eeec0b7a"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 2,
+        "thought": 22
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 2,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 2
+      },
+      "outcome": "U",
+      "result_sha256": "075045826def8cb7069d6c1b3f2163ab4e1ad42149ce4e15e8ba6bc19ab9dbc0",
+      "reused_control": true,
+      "seed": 2101,
+      "source_cell_id": "middle-bf6d3dba86f7f0e4-E",
+      "source_run": "runs/reflexion-middle-context-20261023",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "bf6d3dba86f7f0e4",
+      "trajectory_sha256": "a657f0836f7c57ae233ae14828887a024589338f65496259958dfa817e4255ae",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 25,
+        "thought": 24
+      },
+      "cell_id": "residual-bf6d3dba86f7f0e4-2101-R_C",
+      "condition": "R_C",
+      "decisions": 49,
+      "identity_sha256": "b2005b1b4cca3cf64f8adec8fd95e3e5b8557e6809f601ba7ccc964faf28e930",
+      "initial_labels": [
+        "R",
+        "C",
+        "N"
+      ],
+      "initial_target_rule": "C",
+      "memory_sha256": "37f71b3167565a11f54f7618f08b0f22f2cbd33063d93ce1fb062516fbc17a89",
+      "new_reflection_hashes": [
+        "2b41577db81af98d3c827ac525fd0d9472eb0f565fc3afdc5feedaec3edfc064"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 6,
+        "thought": 24
+      },
+      "observable_events": {
+        "competing_macros": 1,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 1
+      },
+      "outcome": "C",
+      "result_sha256": "fc75dd67ac9b7f7ff38facb44e2e436ec2783add5a3d097304ef7180b7204d65",
+      "reused_control": false,
+      "seed": 2101,
+      "source_cell_id": "residual-bf6d3dba86f7f0e4-2101-R_C",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "bf6d3dba86f7f0e4",
+      "trajectory_sha256": "f750ed92702edf10351ba24ca326aec7c10bf8e44e2bbc8a695d855c63f91633",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 27,
+        "thought": 22
+      },
+      "cell_id": "residual-bf6d3dba86f7f0e4-2101-R_E",
+      "condition": "R_E",
+      "decisions": 49,
+      "identity_sha256": "82740f30594f8c427cf61a547c5ddb075953e618b3502421e7bc8ce681348be8",
+      "initial_labels": [
+        "R",
+        "E",
+        "N"
+      ],
+      "initial_target_rule": "E",
+      "memory_sha256": "8ea36028d197f9206e5d4979e9488407925d39b9ab99bd9e8f11262b15bf977d",
+      "new_reflection_hashes": [
+        "719a82cae6ff7b173af5d81e66fd3f14a2808421c8c2f2f56c2ad0cbafb1e6bd"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 11,
+        "thought": 22
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 2,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 2
+      },
+      "outcome": "U",
+      "result_sha256": "71a6ad67b2bc558e70ebc50f579c84a0b4ecd4d0b7e17b95c207a53d37a1634d",
+      "reused_control": false,
+      "seed": 2101,
+      "source_cell_id": "residual-bf6d3dba86f7f0e4-2101-R_E",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "bf6d3dba86f7f0e4",
+      "trajectory_sha256": "a0c7490f81dda04797861423fb1fb2ec06ba3662bd24258deccbba7e7897043a",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 20,
+        "thought": 28
+      },
+      "cell_id": "residual-bf6d3dba86f7f0e4-2102-N_C",
+      "condition": "N_C",
+      "decisions": 49,
+      "identity_sha256": "a5b44c1d4eb3bb4a24a865762bffd143063f8fdc5807678cc68640efcb8fd7c5",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "initial_target_rule": "C",
+      "memory_sha256": "a40bc7c5c5dc9ac47deb05f4699081a8680c887adfb85c0e1d6e7a2adf22bce3",
+      "new_reflection_hashes": [
+        "bd1fd630847310f24a3859def36cf8594794cc9a6dc62429f006ffd87e5da565"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 8,
+        "thought": 28
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 2
+      },
+      "outcome": "U",
+      "result_sha256": "1659e52a7c82bc1e2ea298419772894a086df35a0ad090422302b3c816076ce0",
+      "reused_control": false,
+      "seed": 2102,
+      "source_cell_id": "residual-bf6d3dba86f7f0e4-2102-N_C",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "bf6d3dba86f7f0e4",
+      "trajectory_sha256": "933031fe7bff2aa2422f2c80af20b6cea80a799cf1c8c7567049f0edf80734e2",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 27,
+        "thought": 22
+      },
+      "cell_id": "residual-bf6d3dba86f7f0e4-2102-N_E",
+      "condition": "N_E",
+      "decisions": 49,
+      "identity_sha256": "9f333fbfa065c75728f3226fbb6a2ef00b29b3c5cfc716524e591541114c1b6b",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "initial_target_rule": "E",
+      "memory_sha256": "cc645d21799da26b14711b15ed88d31a31b00e0d80ab2546eda217707cf1cdcb",
+      "new_reflection_hashes": [
+        "6336869cbaf986616a0896ec88adac3ae1dd0f629fb9af3a8704b722c02aadbe"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 5,
+        "thought": 22
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 1
+      },
+      "outcome": "E",
+      "result_sha256": "a01441d4b3b8db148b99b75baaa1df03f5533b50dc5834af1331a66a5a84b54c",
+      "reused_control": false,
+      "seed": 2102,
+      "source_cell_id": "residual-bf6d3dba86f7f0e4-2102-N_E",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "bf6d3dba86f7f0e4",
+      "trajectory_sha256": "cb3cea032c20942b59504601f39665448945df97d72a53678011758e85c0a2b3",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 23,
+        "thought": 26
+      },
+      "cell_id": "residual-bf6d3dba86f7f0e4-2102-R_C",
+      "condition": "R_C",
+      "decisions": 49,
+      "identity_sha256": "8aea117fc0a095c39103ac5f1a2d5942ff04af3e9ddc1f941353e4f2671c3e9e",
+      "initial_labels": [
+        "R",
+        "C",
+        "N"
+      ],
+      "initial_target_rule": "C",
+      "memory_sha256": "37f71b3167565a11f54f7618f08b0f22f2cbd33063d93ce1fb062516fbc17a89",
+      "new_reflection_hashes": [
+        "88ae20dd1bfba153c0a1a3c56df8f984bad33d3b28ff8c48134a79febb907182"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 7,
+        "thought": 26
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 2,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 2
+      },
+      "outcome": "C",
+      "result_sha256": "c1f9faf7f86719338757f36d1599818b71c6f54394885609a7df14f48a5c6242",
+      "reused_control": false,
+      "seed": 2102,
+      "source_cell_id": "residual-bf6d3dba86f7f0e4-2102-R_C",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "bf6d3dba86f7f0e4",
+      "trajectory_sha256": "9b5a0ad0180f7e24ed9451f0fb951dd1a4ddebc228b657b5ca98989bad6c83b4",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 12,
+        "thought": 12
+      },
+      "cell_id": "residual-bf6d3dba86f7f0e4-2102-R_E",
+      "condition": "R_E",
+      "decisions": 24,
+      "identity_sha256": "706ec0124d4afc88d01281eaa3a41e69f343bc536ea51e08ecd28599deda6bcc",
+      "initial_labels": [
+        "R",
+        "E",
+        "N"
+      ],
+      "initial_target_rule": "E",
+      "memory_sha256": "8ea36028d197f9206e5d4979e9488407925d39b9ab99bd9e8f11262b15bf977d",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "public_command_shape": 2,
+        "thought": 12
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 1
+      },
+      "outcome": "S",
+      "result_sha256": "d855a93406f1ea99f6b4cab9078cf6e9c2d009661c250363da82b227cd417dd3",
+      "reused_control": false,
+      "seed": 2102,
+      "source_cell_id": "residual-bf6d3dba86f7f0e4-2102-R_E",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "success",
+      "success": true,
+      "task_id": "bf6d3dba86f7f0e4",
+      "trajectory_sha256": "ada5f2cb38607dc34b09b52ecc38807d1237d6145e21425ac693ed219c4de18f",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 19,
+        "thought": 21
+      },
+      "cell_id": "residual-bf7043e154cc1d53-2101-N_C",
+      "condition": "N_C",
+      "decisions": 40,
+      "identity_sha256": "fa89397dcf1ba6a083110033ee4897e46f6e6120dad00122b6b4c75d88005d8c",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "initial_target_rule": "C",
+      "memory_sha256": "a40bc7c5c5dc9ac47deb05f4699081a8680c887adfb85c0e1d6e7a2adf22bce3",
+      "new_reflection_hashes": [
+        "45e0047429de8533bc606d60f06723cd9f286d94146a756fb5c0ff646b68abee"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 8,
+        "thought": 21
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 4
+      },
+      "outcome": "U",
+      "result_sha256": "7c578413bca60983ba1590db86097acc5dbb4f25a541bf5503435e651af0a377",
+      "reused_control": true,
+      "seed": 2101,
+      "source_cell_id": "middle-bf7043e154cc1d53-C",
+      "source_run": "runs/reflexion-middle-context-20261023",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "bf7043e154cc1d53",
+      "trajectory_sha256": "7c911be8e75a16b28b32ce1e6670293db1ddbc67aa6729cb9a19702b03183217",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 25,
+        "thought": 23
+      },
+      "cell_id": "residual-bf7043e154cc1d53-2101-N_E",
+      "condition": "N_E",
+      "decisions": 49,
+      "identity_sha256": "7752ca8575f35a8f45722ee80c3bef2af404a94df84671f5f5b5f32cc76f9842",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "initial_target_rule": "E",
+      "memory_sha256": "cc645d21799da26b14711b15ed88d31a31b00e0d80ab2546eda217707cf1cdcb",
+      "new_reflection_hashes": [
+        "7886fb3c0e9c9501e0b666ef908f0de89b0f3af27522de59000b69665c7a74dc"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 12,
+        "thought": 23
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 2,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 2
+      },
+      "outcome": "U",
+      "result_sha256": "0acad36b7b7760be6527c3ed300c3eefba54f4669335812df5d51fbb83f8b951",
+      "reused_control": true,
+      "seed": 2101,
+      "source_cell_id": "middle-bf7043e154cc1d53-E",
+      "source_run": "runs/reflexion-middle-context-20261023",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "bf7043e154cc1d53",
+      "trajectory_sha256": "d0256415e9fe71f9959b991a8f853dfa5ae79b7a5d8178aa513c6e8beac9437f",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 2,
+        "public_command_shape": 13,
+        "thought": 15
+      },
+      "cell_id": "residual-bf7043e154cc1d53-2101-R_C",
+      "condition": "R_C",
+      "decisions": 30,
+      "identity_sha256": "b8bd03849aa753d785d3613328c04b94001830cd88438faa9eb5f904cd9dcedc",
+      "initial_labels": [
+        "R",
+        "C",
+        "N"
+      ],
+      "initial_target_rule": "C",
+      "memory_sha256": "e4700dff522026511ee4e0298a038334120d2be252a7236e1962ccb29d2ce257",
+      "new_reflection_hashes": [
+        "80c50c7b2a35a2c0c48674afafc1dff8f00c9b6b3c611b135ac67180b68ec485"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 2,
+        "public_command_shape": 4,
+        "thought": 15
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 1
+      },
+      "outcome": "E",
+      "result_sha256": "72c206c27e12afbfa45195f8f124087ffbea49c03cd5613681bb7f490aa4077d",
+      "reused_control": false,
+      "seed": 2101,
+      "source_cell_id": "residual-bf7043e154cc1d53-2101-R_C",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "bf7043e154cc1d53",
+      "trajectory_sha256": "7d8c5461512c2ab1709f4e090287b79b6fe9489d7fb960becda4cfd9faf5da87",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 4,
+        "public_command_shape": 22,
+        "thought": 23
+      },
+      "cell_id": "residual-bf7043e154cc1d53-2101-R_E",
+      "condition": "R_E",
+      "decisions": 49,
+      "identity_sha256": "e07a122035ff7eb74782f09e93a843fc9d6da8ebb08f8810d430b59c636e9ed2",
+      "initial_labels": [
+        "R",
+        "E",
+        "N"
+      ],
+      "initial_target_rule": "E",
+      "memory_sha256": "bd2c1f83d0fb7e3264670d5c6aba81fd4f8a7ab5d5fd56ba9739b316cdc3906d",
+      "new_reflection_hashes": [
+        "692442b410b58bcb0103764bd9809b6e28d457262b867571d001d2376dcea53e"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 4,
+        "public_command_shape": 5,
+        "thought": 23
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 2,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "E",
+      "result_sha256": "c79ca7f8317acf17b9d201e389948194d9fb2223f3b38ed0366fbf60bbd70c5a",
+      "reused_control": false,
+      "seed": 2101,
+      "source_cell_id": "residual-bf7043e154cc1d53-2101-R_E",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "bf7043e154cc1d53",
+      "trajectory_sha256": "b931287edb982d9ab1488ea3580418cd7152f65b4a53c2c46862f1e43d7f32a2",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 23,
+        "thought": 26
+      },
+      "cell_id": "residual-bf7043e154cc1d53-2102-N_C",
+      "condition": "N_C",
+      "decisions": 49,
+      "identity_sha256": "7429610ffa9f1103a2ff542d1cc9f93be57e010d671f86eef8dc07ff7e675612",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "initial_target_rule": "C",
+      "memory_sha256": "a40bc7c5c5dc9ac47deb05f4699081a8680c887adfb85c0e1d6e7a2adf22bce3",
+      "new_reflection_hashes": [
+        "364bd57139f3909bad3c8110896a675ed41c4b0c3f046efa5273fea2f42d1ae9"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 10,
+        "thought": 26
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 2
+      },
+      "outcome": "A",
+      "result_sha256": "454c70bdfbe685189c0730bb153e20735889646b4e8c045d698bbc2014f115ff",
+      "reused_control": false,
+      "seed": 2102,
+      "source_cell_id": "residual-bf7043e154cc1d53-2102-N_C",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "bf7043e154cc1d53",
+      "trajectory_sha256": "631a99ab0f288f7dbfaf043ab4456d2fec5e4133d622f7299d961fdc7431afc1",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 25,
+        "thought": 24
+      },
+      "cell_id": "residual-bf7043e154cc1d53-2102-N_E",
+      "condition": "N_E",
+      "decisions": 49,
+      "identity_sha256": "0662dd546e336d22ed0076ae76c629731a20abe29564259c6c2a07cde668e13b",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "initial_target_rule": "E",
+      "memory_sha256": "cc645d21799da26b14711b15ed88d31a31b00e0d80ab2546eda217707cf1cdcb",
+      "new_reflection_hashes": [
+        "078ebc95ab5d54a0773696c95742e99c11f91a320eac496b39daebe996bf2b8b"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 3,
+        "thought": 24
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 2
+      },
+      "outcome": "E",
+      "result_sha256": "b11bc96f570071dd18a694a58196b3abb0cce5aa18c6e776ca1cdac8daa76b22",
+      "reused_control": false,
+      "seed": 2102,
+      "source_cell_id": "residual-bf7043e154cc1d53-2102-N_E",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "bf7043e154cc1d53",
+      "trajectory_sha256": "7996ad69dda1fd82d77a46591dca71ac9e42053c878382f9b2e68796947f4008",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 6,
+        "public_command_shape": 19,
+        "thought": 24
+      },
+      "cell_id": "residual-bf7043e154cc1d53-2102-R_C",
+      "condition": "R_C",
+      "decisions": 49,
+      "identity_sha256": "f8ef26099127744590f1d038d31eb607dddc458fac3fc72381e97231e2bdfb03",
+      "initial_labels": [
+        "R",
+        "C",
+        "N"
+      ],
+      "initial_target_rule": "C",
+      "memory_sha256": "e4700dff522026511ee4e0298a038334120d2be252a7236e1962ccb29d2ce257",
+      "new_reflection_hashes": [
+        "8ee030e7994aa7a8b3bde3be99a4a1af5b2a201628d3d117a31e4d8b159747b4"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 6,
+        "public_command_shape": 2,
+        "thought": 24
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 2,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 1
+      },
+      "outcome": "E",
+      "result_sha256": "20665cad0c285a5a61a478d8cb167380eb13bdd07bcb1514621c21bf989386d6",
+      "reused_control": false,
+      "seed": 2102,
+      "source_cell_id": "residual-bf7043e154cc1d53-2102-R_C",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "bf7043e154cc1d53",
+      "trajectory_sha256": "61fe7a3b3ff21e125cfe28f335d92bf5b7a78997a4d7ae320827409c709e2621",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 4,
+        "public_command_shape": 20,
+        "thought": 25
+      },
+      "cell_id": "residual-bf7043e154cc1d53-2102-R_E",
+      "condition": "R_E",
+      "decisions": 49,
+      "identity_sha256": "d2ed8249e7b6a53a61a5a9451ce1ad8f7ef80c2bfa3eafed42d2dac7135705f3",
+      "initial_labels": [
+        "R",
+        "E",
+        "N"
+      ],
+      "initial_target_rule": "E",
+      "memory_sha256": "bd2c1f83d0fb7e3264670d5c6aba81fd4f8a7ab5d5fd56ba9739b316cdc3906d",
+      "new_reflection_hashes": [
+        "c5cb81313bd04c9a3b9440d69ba54218129da9f9e9c6db975d1eb2f3a84fdd68"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 4,
+        "public_command_shape": 7,
+        "thought": 25
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 2,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 1
+      },
+      "outcome": "U",
+      "result_sha256": "1a2fa7b71b0cc8a83e8c0cc28a42614764b68a0c5b7ff0b9fe51ea63024ebc1c",
+      "reused_control": false,
+      "seed": 2102,
+      "source_cell_id": "residual-bf7043e154cc1d53-2102-R_E",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "bf7043e154cc1d53",
+      "trajectory_sha256": "c0358044fc3f32e861844438c82c3085b76204646691cab40142a01cc75df304",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "environment_style_sentence": 2,
+        "public_command_shape": 12,
+        "thought": 15
+      },
+      "cell_id": "residual-d534fcfe5e56c028-2101-N_C",
+      "condition": "N_C",
+      "decisions": 29,
+      "identity_sha256": "b0123f9e9d99ab002a31757fcf55dcc61c7d0ad453dcfaf65e8a620310d3c664",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "initial_target_rule": "C",
+      "memory_sha256": "a40bc7c5c5dc9ac47deb05f4699081a8680c887adfb85c0e1d6e7a2adf22bce3",
+      "new_reflection_hashes": [
+        "e4bb488e6fa4e7133c06fe954a9e95defd3fcecfccf7bef6c5204935a62a797d"
+      ],
+      "no_effect_shapes": {
+        "environment_style_sentence": 2,
+        "thought": 15
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "U",
+      "result_sha256": "8e8a97066f08d4f84245553419d38b79a92ec69c99def2a350b2a94ea3b0599d",
+      "reused_control": true,
+      "seed": 2101,
+      "source_cell_id": "middle-d534fcfe5e56c028-C",
+      "source_run": "runs/reflexion-middle-context-20261023",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "d534fcfe5e56c028",
+      "trajectory_sha256": "e0563b3f13a444a5c6e0a2938e844a6101f7076b3bdcb12a10574d865cbb97e2",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 28,
+        "thought": 21
+      },
+      "cell_id": "residual-d534fcfe5e56c028-2101-N_E",
+      "condition": "N_E",
+      "decisions": 49,
+      "identity_sha256": "b41a45f81cf6d5e1b88b06af056c0fae15723288174d1ca53aa11faae68bd104",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "initial_target_rule": "E",
+      "memory_sha256": "cc645d21799da26b14711b15ed88d31a31b00e0d80ab2546eda217707cf1cdcb",
+      "new_reflection_hashes": [
+        "e1f152314d0e8998e01adfec03e70143f9530e6e7be26f45d12c3a2c4d48a8cb"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 3,
+        "thought": 21
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 2
+      },
+      "outcome": "E",
+      "result_sha256": "051e97d101c3a0c5258b2fd0db97052b97b0db3f5a7ba2e2677a909c316835fb",
+      "reused_control": true,
+      "seed": 2101,
+      "source_cell_id": "middle-d534fcfe5e56c028-E",
+      "source_run": "runs/reflexion-middle-context-20261023",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "d534fcfe5e56c028",
+      "trajectory_sha256": "ad6ace7794fc36cc40606f7df9aacaf2d7e370b67e20e3d72c42695da17e5999",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 8,
+        "thought": 6
+      },
+      "cell_id": "residual-d534fcfe5e56c028-2101-R_C",
+      "condition": "R_C",
+      "decisions": 14,
+      "identity_sha256": "1056d3562134191b7ad0c344c61527c3479bae090b9adf905ab9fab00557f36c",
+      "initial_labels": [
+        "R",
+        "C",
+        "N"
+      ],
+      "initial_target_rule": "C",
+      "memory_sha256": "3b8386de7c7baa756ea53b748639fd8683839052a2b7955d1b964b17f1f25e58",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "thought": 6
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "c79e9db78401ffde5a85e536cbce6819d845452105c7ec0101750dfb4c24f63b",
+      "reused_control": false,
+      "seed": 2101,
+      "source_cell_id": "residual-d534fcfe5e56c028-2101-R_C",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "success",
+      "success": true,
+      "task_id": "d534fcfe5e56c028",
+      "trajectory_sha256": "34cbd5b75151d2017fe10d961f93bcb0148e78335f89260f20b9943aa093e6a2",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 22,
+        "thought": 27
+      },
+      "cell_id": "residual-d534fcfe5e56c028-2101-R_E",
+      "condition": "R_E",
+      "decisions": 49,
+      "identity_sha256": "1c3042e8649d9211566a8d0ea49bad0993858709786ca4ee4436f8627ec40011",
+      "initial_labels": [
+        "R",
+        "E",
+        "N"
+      ],
+      "initial_target_rule": "E",
+      "memory_sha256": "66a9082e761fea25ebdb39e589b5da9652d8bf8d0c715202c9a9ef1fc20c2bb2",
+      "new_reflection_hashes": [
+        "5eab11cd8deab5bfb43b74ebef0a8bff4882381a3282f3a3ba0251d747c9e7a3"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 9,
+        "thought": 27
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 1
+      },
+      "outcome": "E",
+      "result_sha256": "0108f9a4cfd7d7069053fa6338dd345b85cb7a9722ebfd6685c893fe1c7c8e78",
+      "reused_control": false,
+      "seed": 2101,
+      "source_cell_id": "residual-d534fcfe5e56c028-2101-R_E",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "d534fcfe5e56c028",
+      "trajectory_sha256": "69ca57f4f44599c4435d807ebdf81c2984600107fd9788b02cbcbddc2eb2f70f",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 8,
+        "thought": 5
+      },
+      "cell_id": "residual-d534fcfe5e56c028-2102-N_C",
+      "condition": "N_C",
+      "decisions": 13,
+      "identity_sha256": "2ee07e041dc129ca0ad9ca4668665816deeb60e8be30f3eaf3331f4a4217e003",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "initial_target_rule": "C",
+      "memory_sha256": "a40bc7c5c5dc9ac47deb05f4699081a8680c887adfb85c0e1d6e7a2adf22bce3",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "thought": 5
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "4681d44a8e3e558f05f7dd88d36cced6616f2224509978842004f277ef5868ea",
+      "reused_control": false,
+      "seed": 2102,
+      "source_cell_id": "residual-d534fcfe5e56c028-2102-N_C",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "success",
+      "success": true,
+      "task_id": "d534fcfe5e56c028",
+      "trajectory_sha256": "7b6d187da303e84a1e52e17badd3be12ca0055f3f130cb48323d01a0ab2adacf",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 7,
+        "thought": 7
+      },
+      "cell_id": "residual-d534fcfe5e56c028-2102-N_E",
+      "condition": "N_E",
+      "decisions": 14,
+      "identity_sha256": "bbf47a80573f5790206b93348c2d2d2980c7d1fc87ed48a36e55633a963a5d75",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "initial_target_rule": "E",
+      "memory_sha256": "cc645d21799da26b14711b15ed88d31a31b00e0d80ab2546eda217707cf1cdcb",
+      "new_reflection_hashes": [
+        "93a2944f90e5f9ec5a670cb927677c663d8fd87f7f78441d9357516cf0447780"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 1,
+        "thought": 7
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 1
+      },
+      "outcome": "E",
+      "result_sha256": "0cf71d37b8a1f43ce542a4e219f6f129b52caf1c044f9564f945034d23ba79e5",
+      "reused_control": false,
+      "seed": 2102,
+      "source_cell_id": "residual-d534fcfe5e56c028-2102-N_E",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "d534fcfe5e56c028",
+      "trajectory_sha256": "ba95412b020bf9299fe5861de40a91447ad51c5880a61195179e7ed93b1e0631",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 8,
+        "thought": 6
+      },
+      "cell_id": "residual-d534fcfe5e56c028-2102-R_C",
+      "condition": "R_C",
+      "decisions": 14,
+      "identity_sha256": "a5bb22d0065beabadb6dc052af9858a97fa68154262b99bfc492928d0c96f8bc",
+      "initial_labels": [
+        "R",
+        "C",
+        "N"
+      ],
+      "initial_target_rule": "C",
+      "memory_sha256": "3b8386de7c7baa756ea53b748639fd8683839052a2b7955d1b964b17f1f25e58",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "thought": 6
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "d8cdb36ace275fe5dd52915f6f811e8ae04f666bf40f479dd2730fed81f7238a",
+      "reused_control": false,
+      "seed": 2102,
+      "source_cell_id": "residual-d534fcfe5e56c028-2102-R_C",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "success",
+      "success": true,
+      "task_id": "d534fcfe5e56c028",
+      "trajectory_sha256": "ed2977d529789d054e0a6fa6133b3aa3f29abb51dfe2c98dce10f1c3ebf5634a",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 3,
+        "public_command_shape": 22,
+        "thought": 24
+      },
+      "cell_id": "residual-d534fcfe5e56c028-2102-R_E",
+      "condition": "R_E",
+      "decisions": 49,
+      "identity_sha256": "c8b359b31f787d1819295316e97d354d9a647c0f1ef979910d187fb69a75a421",
+      "initial_labels": [
+        "R",
+        "E",
+        "N"
+      ],
+      "initial_target_rule": "E",
+      "memory_sha256": "66a9082e761fea25ebdb39e589b5da9652d8bf8d0c715202c9a9ef1fc20c2bb2",
+      "new_reflection_hashes": [
+        "01f090a5b9b8adf96b342f4f51e76922a9357206e4b0cfdffd7a9d3cefd377fb"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 3,
+        "public_command_shape": 7,
+        "thought": 24
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 1
+      },
+      "outcome": "E",
+      "result_sha256": "d92058546c08182813dd09244905bf9114a2aec7681506ab5e436a1e9253d6d5",
+      "reused_control": false,
+      "seed": 2102,
+      "source_cell_id": "residual-d534fcfe5e56c028-2102-R_E",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "d534fcfe5e56c028",
+      "trajectory_sha256": "f9132f6d54d2145a3e08e8c2e2e49917bff10644a7fc4bb44bdd1ba912d9e69f",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 10,
+        "thought": 8
+      },
+      "cell_id": "residual-dae15e890956dd5e-2101-N_C",
+      "condition": "N_C",
+      "decisions": 18,
+      "identity_sha256": "7d622311a6cc01a73561299557f5fa64596a4271f25bef3adb42efabbfd13f58",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "initial_target_rule": "C",
+      "memory_sha256": "a40bc7c5c5dc9ac47deb05f4699081a8680c887adfb85c0e1d6e7a2adf22bce3",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "thought": 8
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "3580edda918495a915034f79c77b340db0e55c476791a20b88ebcc9d10b7947d",
+      "reused_control": true,
+      "seed": 2101,
+      "source_cell_id": "middle-dae15e890956dd5e-C",
+      "source_run": "runs/reflexion-middle-context-20261023",
+      "status": "success",
+      "success": true,
+      "task_id": "dae15e890956dd5e",
+      "trajectory_sha256": "377bbe6322a4686f6b15a118f822cfd90e9a2d06f47ad220ffffe07f766b3d0d",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 9,
+        "thought": 10
+      },
+      "cell_id": "residual-dae15e890956dd5e-2101-N_E",
+      "condition": "N_E",
+      "decisions": 19,
+      "identity_sha256": "55233af3853d79757f1955d67d7effe9582b5caa57792966eee1186f4e68cb57",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "initial_target_rule": "E",
+      "memory_sha256": "cc645d21799da26b14711b15ed88d31a31b00e0d80ab2546eda217707cf1cdcb",
+      "new_reflection_hashes": [
+        "1ce5ba084742aae13b0e81fcf1775dfd2759360d5ce9633b812064931020591a"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 1,
+        "thought": 10
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 1
+      },
+      "outcome": "E",
+      "result_sha256": "50f47f8c2e6435053cfa3295fa910de657a349c6a342d976abdf2f1ff1cd367d",
+      "reused_control": true,
+      "seed": 2101,
+      "source_cell_id": "middle-dae15e890956dd5e-E",
+      "source_run": "runs/reflexion-middle-context-20261023",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "dae15e890956dd5e",
+      "trajectory_sha256": "8a2d9f5839bdf42fb29ecd6dea639bab50d6a19246a624e4ab60b2115e7d7a7d",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 9,
+        "thought": 9
+      },
+      "cell_id": "residual-dae15e890956dd5e-2101-R_C",
+      "condition": "R_C",
+      "decisions": 18,
+      "identity_sha256": "bede663f1c2a655dd15d97dc1e3eb422839b8a0bfc978d20d0566e74d82bc0b5",
+      "initial_labels": [
+        "R",
+        "C",
+        "N"
+      ],
+      "initial_target_rule": "C",
+      "memory_sha256": "1db3ed4465908ba1a912b25da84114f148b30575cf728631aa2e4c982c56a26d",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "public_command_shape": 1,
+        "thought": 9
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "7ee7d40bb1297d46b915ae5855c9e1935aea4e1a82e99a319b1461a4a72f4f80",
+      "reused_control": false,
+      "seed": 2101,
+      "source_cell_id": "residual-dae15e890956dd5e-2101-R_C",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "success",
+      "success": true,
+      "task_id": "dae15e890956dd5e",
+      "trajectory_sha256": "c7deda7fbe35e6a463137819ad94dc9f4d3d8a51434a39c660e63c3c89185990",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 21,
+        "thought": 27
+      },
+      "cell_id": "residual-dae15e890956dd5e-2101-R_E",
+      "condition": "R_E",
+      "decisions": 49,
+      "identity_sha256": "c164dbf9746beb6cbc66fe044dc07230ba106c977236cfbec3e6d41609cf259d",
+      "initial_labels": [
+        "R",
+        "E",
+        "N"
+      ],
+      "initial_target_rule": "E",
+      "memory_sha256": "d544690be5bccd8a49652189be08bb99f8b3c11900a0c8a1d8489b9c1c6288ec",
+      "new_reflection_hashes": [
+        "aa5685c11ff8f35916c30fabc48c3091a8482f290fbb4a13c50df2aa2bbccd83"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 10,
+        "thought": 27
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 3
+      },
+      "outcome": "U",
+      "result_sha256": "13a84fc60672b92f8bf528d4a9424a8ef27af3ba07f9fbd0e5e2890870eeba24",
+      "reused_control": false,
+      "seed": 2101,
+      "source_cell_id": "residual-dae15e890956dd5e-2101-R_E",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "dae15e890956dd5e",
+      "trajectory_sha256": "eab1ca2d38dc3bd6fd61fbfb1ff305774af219a988c2ee645daa65c53010d33c",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 10,
+        "thought": 8
+      },
+      "cell_id": "residual-dae15e890956dd5e-2102-N_C",
+      "condition": "N_C",
+      "decisions": 18,
+      "identity_sha256": "45d75ac4ced8d4efc9d9bea6385b0b11d0353c125aed512d7a1e45b7c3d6a3e4",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "initial_target_rule": "C",
+      "memory_sha256": "a40bc7c5c5dc9ac47deb05f4699081a8680c887adfb85c0e1d6e7a2adf22bce3",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "thought": 8
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "1537a2f070003043a10c3389858d56a82bcfeca3e8f609afb8653a625ae54c0c",
+      "reused_control": false,
+      "seed": 2102,
+      "source_cell_id": "residual-dae15e890956dd5e-2102-N_C",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "success",
+      "success": true,
+      "task_id": "dae15e890956dd5e",
+      "trajectory_sha256": "6da333ccde0d9f6074f59aa56c9b79c30220346c9584d7ba2c661c5e89df8dec",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 22,
+        "thought": 26
+      },
+      "cell_id": "residual-dae15e890956dd5e-2102-N_E",
+      "condition": "N_E",
+      "decisions": 49,
+      "identity_sha256": "2caa010332cb8550a5ce6ebc1a2f0b72dbbf2edf1e87b6703fba7fe994193814",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "initial_target_rule": "E",
+      "memory_sha256": "cc645d21799da26b14711b15ed88d31a31b00e0d80ab2546eda217707cf1cdcb",
+      "new_reflection_hashes": [
+        "4652b70056fb36d00ce2056671191adf4fadeac174dd84235215c1fe5b6647a6"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 5,
+        "thought": 26
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 2,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 4
+      },
+      "outcome": "E",
+      "result_sha256": "4775935282ae3315ec82fef334b9eedd32a4bd9eb0e4c07121aa6a314df4dfc5",
+      "reused_control": false,
+      "seed": 2102,
+      "source_cell_id": "residual-dae15e890956dd5e-2102-N_E",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "dae15e890956dd5e",
+      "trajectory_sha256": "a562afe6b37480edc43a53fee114ec5f2480feff83de68e5b0aad66d2770771e",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 9,
+        "thought": 9
+      },
+      "cell_id": "residual-dae15e890956dd5e-2102-R_C",
+      "condition": "R_C",
+      "decisions": 18,
+      "identity_sha256": "82d6318593a85d603ddc03ffd947c7390b7f9febe22231b2f2bfc76c33a1081c",
+      "initial_labels": [
+        "R",
+        "C",
+        "N"
+      ],
+      "initial_target_rule": "C",
+      "memory_sha256": "1db3ed4465908ba1a912b25da84114f148b30575cf728631aa2e4c982c56a26d",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "public_command_shape": 1,
+        "thought": 9
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "c78fcd77d47f2c95e1be457f1ff64a7817d63755aaa29152471138f8a4e5ed6c",
+      "reused_control": false,
+      "seed": 2102,
+      "source_cell_id": "residual-dae15e890956dd5e-2102-R_C",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "success",
+      "success": true,
+      "task_id": "dae15e890956dd5e",
+      "trajectory_sha256": "cf927c8b433264b6a11f93443ee00d36f5037ffc53490fc5203c953437bd3423",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 21,
+        "thought": 28
+      },
+      "cell_id": "residual-dae15e890956dd5e-2102-R_E",
+      "condition": "R_E",
+      "decisions": 49,
+      "identity_sha256": "dba6a8e336149cda1ba2f8862bc924e9540368b07be4d6e4e5441e1b4952693b",
+      "initial_labels": [
+        "R",
+        "E",
+        "N"
+      ],
+      "initial_target_rule": "E",
+      "memory_sha256": "d544690be5bccd8a49652189be08bb99f8b3c11900a0c8a1d8489b9c1c6288ec",
+      "new_reflection_hashes": [
+        "3dab934277908c81e3e68646a54f55db208ad9c5e5b02623c3e792b5ad5f755e"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 9,
+        "thought": 28
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 2
+      },
+      "outcome": "U",
+      "result_sha256": "e22912ec4f9a26ed39602c4499223ff1b2aa9085e17669de1bdfa503bf3f94eb",
+      "reused_control": false,
+      "seed": 2102,
+      "source_cell_id": "residual-dae15e890956dd5e-2102-R_E",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "dae15e890956dd5e",
+      "trajectory_sha256": "526e5c186389a349834bc336e8589334ddd902f902bdf38d2b50ffa457e6d877",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 10,
+        "thought": 9
+      },
+      "cell_id": "residual-dd93ff2604e30529-2101-N_C",
+      "condition": "N_C",
+      "decisions": 19,
+      "identity_sha256": "d1182cccc7938809515d5e1ad361df5235de92196a2a73da1538064f52ece3bf",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "initial_target_rule": "C",
+      "memory_sha256": "a40bc7c5c5dc9ac47deb05f4699081a8680c887adfb85c0e1d6e7a2adf22bce3",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "public_command_shape": 1,
+        "thought": 9
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "fb207eb24349ec41f047ba67ec4d60350e5cbf8f67216be074c2d482dbaf5618",
+      "reused_control": true,
+      "seed": 2101,
+      "source_cell_id": "middle-dd93ff2604e30529-C",
+      "source_run": "runs/reflexion-middle-context-20261023",
+      "status": "success",
+      "success": true,
+      "task_id": "dd93ff2604e30529",
+      "trajectory_sha256": "fd10bc4175dd24123028bb0c432929c429bd050eea3a5a6e3ce218bd027c4a20",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 2,
+        "public_command_shape": 24,
+        "thought": 23
+      },
+      "cell_id": "residual-dd93ff2604e30529-2101-N_E",
+      "condition": "N_E",
+      "decisions": 49,
+      "identity_sha256": "281857fa51939cff888df8cbc27bded08c24d3cb44c9280283f6d11c38fec330",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "initial_target_rule": "E",
+      "memory_sha256": "cc645d21799da26b14711b15ed88d31a31b00e0d80ab2546eda217707cf1cdcb",
+      "new_reflection_hashes": [
+        "d433b76f4a20e311bd08a6ed16d5a9b5219758dea774d906f618d4f2bee50713"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 2,
+        "public_command_shape": 6,
+        "thought": 23
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 3
+      },
+      "outcome": "U",
+      "result_sha256": "1adea94e21bf7465f8479871f0cbeab5db671a5bf14a93c1e4e2a2395c095646",
+      "reused_control": true,
+      "seed": 2101,
+      "source_cell_id": "middle-dd93ff2604e30529-E",
+      "source_run": "runs/reflexion-middle-context-20261023",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "dd93ff2604e30529",
+      "trajectory_sha256": "96eb82c4684631b7ac4765e4896978dd46207490f9156d3ce7509861ec0896b0",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 11,
+        "thought": 12
+      },
+      "cell_id": "residual-dd93ff2604e30529-2101-R_C",
+      "condition": "R_C",
+      "decisions": 24,
+      "identity_sha256": "4089cc25c3a28612af76d80de7332e1e751416d637024f750c5bb1ab32be9ce1",
+      "initial_labels": [
+        "R",
+        "C",
+        "N"
+      ],
+      "initial_target_rule": "C",
+      "memory_sha256": "a97e2c537c9ef3550a50b86cc6bd70af080c07426d4f11d4a297b0eabc9407c6",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 2,
+        "thought": 12
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "0a5f4e316d904dd36a73984fdc57006365e5eba743c553045b5ce02652b76830",
+      "reused_control": false,
+      "seed": 2101,
+      "source_cell_id": "residual-dd93ff2604e30529-2101-R_C",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "success",
+      "success": true,
+      "task_id": "dd93ff2604e30529",
+      "trajectory_sha256": "a47d6abb3311db7178ae4254cedc61d9ae71130157e91c293b462aa550f830a6",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 19,
+        "thought": 29
+      },
+      "cell_id": "residual-dd93ff2604e30529-2101-R_E",
+      "condition": "R_E",
+      "decisions": 49,
+      "identity_sha256": "e873f61760360482807e5eb3e750b6dd3ae0e6ac6256666c6fc5344aa4bfa29b",
+      "initial_labels": [
+        "R",
+        "E",
+        "N"
+      ],
+      "initial_target_rule": "E",
+      "memory_sha256": "b839ca356c94675575f585af2d4a855487c8492ebb894150097be6026f6e066c",
+      "new_reflection_hashes": [
+        "6ba362d997a0069d9eec0d2ff00ef98dc3d389d4e75f8f14dbacf5301e86af0e"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 7,
+        "thought": 29
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 2
+      },
+      "outcome": "E",
+      "result_sha256": "70be7f4cb336fe4caddd238e3921c75aa04313426031b65271c3672eabc37d6c",
+      "reused_control": false,
+      "seed": 2101,
+      "source_cell_id": "residual-dd93ff2604e30529-2101-R_E",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "dd93ff2604e30529",
+      "trajectory_sha256": "699e2ee73e614e51443bdc1e4eb39a83b4b84c48b7be162e7896b9865ac4eec3",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 10,
+        "thought": 9
+      },
+      "cell_id": "residual-dd93ff2604e30529-2102-N_C",
+      "condition": "N_C",
+      "decisions": 19,
+      "identity_sha256": "092fcacecb7c56291c104faf3d84a6096346fa30778000bd3e06ca62627cbdc3",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "initial_target_rule": "C",
+      "memory_sha256": "a40bc7c5c5dc9ac47deb05f4699081a8680c887adfb85c0e1d6e7a2adf22bce3",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "public_command_shape": 1,
+        "thought": 9
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "6caae4d0ef15ad37e7c80706b11c4d019e443ccfea7eb447b193d890b00a2e3e",
+      "reused_control": false,
+      "seed": 2102,
+      "source_cell_id": "residual-dd93ff2604e30529-2102-N_C",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "success",
+      "success": true,
+      "task_id": "dd93ff2604e30529",
+      "trajectory_sha256": "7192d5d8d746f1d0f7f9306aae566f4543d302bddc5e323fb364cd9f7ee01a5b",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 19,
+        "thought": 22
+      },
+      "cell_id": "residual-dd93ff2604e30529-2102-N_E",
+      "condition": "N_E",
+      "decisions": 41,
+      "identity_sha256": "972336c039b6e9d01e09f7e396528479a1c6e6268cf987481304e2a00c11680f",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "initial_target_rule": "E",
+      "memory_sha256": "cc645d21799da26b14711b15ed88d31a31b00e0d80ab2546eda217707cf1cdcb",
+      "new_reflection_hashes": [
+        "30fe675892d4172653b8041c370deabadcff5df5301005cb9a660291c4821ee9"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 11,
+        "thought": 22
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 2
+      },
+      "outcome": "E",
+      "result_sha256": "5df55dee2a1d404f7b1c79ac3a72b0c71cbc7ec7182ad842a0b7be2e38b34673",
+      "reused_control": false,
+      "seed": 2102,
+      "source_cell_id": "residual-dd93ff2604e30529-2102-N_E",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "dd93ff2604e30529",
+      "trajectory_sha256": "e1af661ed0eea4203d117f2c6ff8c70aca1e744b32d8afd0ac58e41b26652a2d",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 11,
+        "thought": 11
+      },
+      "cell_id": "residual-dd93ff2604e30529-2102-R_C",
+      "condition": "R_C",
+      "decisions": 22,
+      "identity_sha256": "1aa84c4eec500c55845b433f1606f3b10af65905fd19913a731ecfd03351f588",
+      "initial_labels": [
+        "R",
+        "C",
+        "N"
+      ],
+      "initial_target_rule": "C",
+      "memory_sha256": "a97e2c537c9ef3550a50b86cc6bd70af080c07426d4f11d4a297b0eabc9407c6",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "public_command_shape": 2,
+        "thought": 11
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "55b5f58f416867c38a4216683aa183b45aea22dcd52ad4cb5c9ba3e57d13d027",
+      "reused_control": false,
+      "seed": 2102,
+      "source_cell_id": "residual-dd93ff2604e30529-2102-R_C",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "success",
+      "success": true,
+      "task_id": "dd93ff2604e30529",
+      "trajectory_sha256": "1a0b024884754ba64f25c9d1aa0e15494c4108f24ad4b37a67dc072db04ba401",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 23,
+        "thought": 25
+      },
+      "cell_id": "residual-dd93ff2604e30529-2102-R_E",
+      "condition": "R_E",
+      "decisions": 49,
+      "identity_sha256": "4136af31ba7ddf828c7f4f9743ff9b61e1347bea345fbfc42a1d56661aed9f56",
+      "initial_labels": [
+        "R",
+        "E",
+        "N"
+      ],
+      "initial_target_rule": "E",
+      "memory_sha256": "b839ca356c94675575f585af2d4a855487c8492ebb894150097be6026f6e066c",
+      "new_reflection_hashes": [
+        "7ad42d73701aeefa2c66b6f9260295721bf884abccc17492a9c08ea7e5b89309"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 5,
+        "thought": 25
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 1
+      },
+      "outcome": "E",
+      "result_sha256": "d4d8860b10f6d08b54b90b65e615eb9847a2d9946fd4aafbeeb04710c4d4ce08",
+      "reused_control": false,
+      "seed": 2102,
+      "source_cell_id": "residual-dd93ff2604e30529-2102-R_E",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "dd93ff2604e30529",
+      "trajectory_sha256": "9adfa67a9015bbbc0704af245871dc1479e37ddc934ca61d4b9f2a441c374cb8",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 10,
+        "thought": 9
+      },
+      "cell_id": "residual-e4244c54d52f3326-2101-N_C",
+      "condition": "N_C",
+      "decisions": 19,
+      "identity_sha256": "368c560c2c19f3d5224b308d1edebd1c603077aa67dbd2005db8b656637a8cd8",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "initial_target_rule": "C",
+      "memory_sha256": "a40bc7c5c5dc9ac47deb05f4699081a8680c887adfb85c0e1d6e7a2adf22bce3",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "thought": 9
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "3fd0c779490892c78619788723be5c5885ed0e267dd921c5149d10a4ff11387b",
+      "reused_control": true,
+      "seed": 2101,
+      "source_cell_id": "middle-e4244c54d52f3326-C",
+      "source_run": "runs/reflexion-middle-context-20261023",
+      "status": "success",
+      "success": true,
+      "task_id": "e4244c54d52f3326",
+      "trajectory_sha256": "faa401b3fa0ee2bbcbf537c6abe06b285565423b81b5d828b835f95df07da5e0",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 18,
+        "thought": 23
+      },
+      "cell_id": "residual-e4244c54d52f3326-2101-N_E",
+      "condition": "N_E",
+      "decisions": 42,
+      "identity_sha256": "2499e0a5c3eca4474725cb46351f3a80f8379d829b7c73e3dd48d070ddd5d798",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "initial_target_rule": "E",
+      "memory_sha256": "cc645d21799da26b14711b15ed88d31a31b00e0d80ab2546eda217707cf1cdcb",
+      "new_reflection_hashes": [
+        "1b6d755a1d2a2de70ce6770aced51237ba73080f835a6f1bb06b6640a6851247"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 7,
+        "thought": 23
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 2
+      },
+      "outcome": "E",
+      "result_sha256": "4571c450b466c5c26aba7e58e7069b8409f33e8fb503d1380f604a93ae8d9a53",
+      "reused_control": true,
+      "seed": 2101,
+      "source_cell_id": "middle-e4244c54d52f3326-E",
+      "source_run": "runs/reflexion-middle-context-20261023",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "e4244c54d52f3326",
+      "trajectory_sha256": "9b118423c20e6a0a82c1987ff8511831c0ad024fea31e1ad77be1bae12cfa624",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 10,
+        "thought": 9
+      },
+      "cell_id": "residual-e4244c54d52f3326-2101-R_C",
+      "condition": "R_C",
+      "decisions": 19,
+      "identity_sha256": "52dd37a8cf9d12dd05239817dd3b987157f23315bece8854c496a147ee69c091",
+      "initial_labels": [
+        "R",
+        "C",
+        "N"
+      ],
+      "initial_target_rule": "C",
+      "memory_sha256": "ae7b6e1c2a790054f719411b64dd892b3f553ede725eae2b83e435daf5a49e0c",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "thought": 9
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "05213f8fcfe414bd2ee0dbdbc4c1bee99bc618134ac8e69cc7b096603dd76caa",
+      "reused_control": false,
+      "seed": 2101,
+      "source_cell_id": "residual-e4244c54d52f3326-2101-R_C",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "success",
+      "success": true,
+      "task_id": "e4244c54d52f3326",
+      "trajectory_sha256": "9336c0c9146dd7f6839b3827c05e983f50db5d188c5aec367ce889b0b4a07731",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 13,
+        "thought": 18
+      },
+      "cell_id": "residual-e4244c54d52f3326-2101-R_E",
+      "condition": "R_E",
+      "decisions": 31,
+      "identity_sha256": "77414a439d647e2e0a5e55d33e23b9655f72cf4e14d2bc1a05f30bfccddb7043",
+      "initial_labels": [
+        "R",
+        "E",
+        "N"
+      ],
+      "initial_target_rule": "E",
+      "memory_sha256": "e97263b36a870cb479e46b07c080f53cc1b7852e1d5f78c91783eed82fb14423",
+      "new_reflection_hashes": [
+        "658d316ca64adedd8e94f597e7532b76752356466a5f0e5509fb4147cd5c7f38"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 5,
+        "thought": 18
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 1
+      },
+      "outcome": "E",
+      "result_sha256": "18433984985061842096249a4d00ffc3d5943af6bac115485867ea90a71715e1",
+      "reused_control": false,
+      "seed": 2101,
+      "source_cell_id": "residual-e4244c54d52f3326-2101-R_E",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "e4244c54d52f3326",
+      "trajectory_sha256": "fc5f879a497cc6a65adb085c41aa114199b6cc186672e89aff67540ba3d538b4",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 10,
+        "thought": 7
+      },
+      "cell_id": "residual-e4244c54d52f3326-2102-N_C",
+      "condition": "N_C",
+      "decisions": 17,
+      "identity_sha256": "349c9906ee1d658172e0f6f9caa8981dfaf0bc249b62a61ff2f049c52591311d",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "initial_target_rule": "C",
+      "memory_sha256": "a40bc7c5c5dc9ac47deb05f4699081a8680c887adfb85c0e1d6e7a2adf22bce3",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "thought": 7
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "d34a08265fc77ff6ba5743e7538dfb67d0761abd764e9f23465067470333de17",
+      "reused_control": false,
+      "seed": 2102,
+      "source_cell_id": "residual-e4244c54d52f3326-2102-N_C",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "success",
+      "success": true,
+      "task_id": "e4244c54d52f3326",
+      "trajectory_sha256": "a0647c5c390d0fc7cd278d6fe9485a3d60fe559ab1decc25fa9894904928229f",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 16,
+        "thought": 22
+      },
+      "cell_id": "residual-e4244c54d52f3326-2102-N_E",
+      "condition": "N_E",
+      "decisions": 38,
+      "identity_sha256": "73e7062b068a58486721c13f31b389abed3e98a8ab2655013d33118cf7b046c6",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "initial_target_rule": "E",
+      "memory_sha256": "cc645d21799da26b14711b15ed88d31a31b00e0d80ab2546eda217707cf1cdcb",
+      "new_reflection_hashes": [
+        "5a770580cc25353fb5449979750f2292eccd754887786a458916efa4f4481692"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 6,
+        "thought": 22
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 3
+      },
+      "outcome": "U",
+      "result_sha256": "7fc3c8cdca0c6629e8161c5f6833e380c7edcd4736ef86523269998853be32b9",
+      "reused_control": false,
+      "seed": 2102,
+      "source_cell_id": "residual-e4244c54d52f3326-2102-N_E",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "e4244c54d52f3326",
+      "trajectory_sha256": "a12263df7d26a516659449c0ec3c9e1d0d6e40845b2072d366de1037ae3d2987",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 10,
+        "thought": 9
+      },
+      "cell_id": "residual-e4244c54d52f3326-2102-R_C",
+      "condition": "R_C",
+      "decisions": 19,
+      "identity_sha256": "004cd12427a0fe3bdcadc5d1c66ca31a47b3da5b91e9c58e37fe73349ec0b9d4",
+      "initial_labels": [
+        "R",
+        "C",
+        "N"
+      ],
+      "initial_target_rule": "C",
+      "memory_sha256": "ae7b6e1c2a790054f719411b64dd892b3f553ede725eae2b83e435daf5a49e0c",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "thought": 9
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "db9004847d8c9d36711ea695e33661a134ce33723f4e006f3b51cb1c3e379f56",
+      "reused_control": false,
+      "seed": 2102,
+      "source_cell_id": "residual-e4244c54d52f3326-2102-R_C",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "success",
+      "success": true,
+      "task_id": "e4244c54d52f3326",
+      "trajectory_sha256": "9700b7bde07f7a66be23655d970a4442cc1e5cebceb03da56f9375ab9315ad6d",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 2,
+        "public_command_shape": 18,
+        "thought": 24
+      },
+      "cell_id": "residual-e4244c54d52f3326-2102-R_E",
+      "condition": "R_E",
+      "decisions": 44,
+      "identity_sha256": "2b74a3510d228dee7b5ceee129f0813f1c74003976e5da24e97c604a29bdace3",
+      "initial_labels": [
+        "R",
+        "E",
+        "N"
+      ],
+      "initial_target_rule": "E",
+      "memory_sha256": "e97263b36a870cb479e46b07c080f53cc1b7852e1d5f78c91783eed82fb14423",
+      "new_reflection_hashes": [
+        "ebb205cd180cb64aa154145b100e7b79fef8f7eb9ad7d8c4ca046099e805476a"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 2,
+        "public_command_shape": 1,
+        "thought": 24
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 1
+      },
+      "outcome": "E",
+      "result_sha256": "03b3dcc5636afdae555b8be6593350d7386c196da3efefbe5810ddcbfc0765f8",
+      "reused_control": false,
+      "seed": 2102,
+      "source_cell_id": "residual-e4244c54d52f3326-2102-R_E",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "e4244c54d52f3326",
+      "trajectory_sha256": "dd5e3c125b83f2198815c97df4a1ba971951654631ac702596a4258e465d3265",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 10,
+        "thought": 7
+      },
+      "cell_id": "residual-f8864bd2f58af715-2101-N_C",
+      "condition": "N_C",
+      "decisions": 17,
+      "identity_sha256": "c4d2052a07d7fa0c185e1bc439c9122e3202fa79fabff4112f27235d401077b9",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "initial_target_rule": "C",
+      "memory_sha256": "a40bc7c5c5dc9ac47deb05f4699081a8680c887adfb85c0e1d6e7a2adf22bce3",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "thought": 7
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "61bb95128a5d24e3f9237da43202b9c2078aabf5b16a56b397d02d81e522fc8e",
+      "reused_control": true,
+      "seed": 2101,
+      "source_cell_id": "middle-f8864bd2f58af715-C",
+      "source_run": "runs/reflexion-middle-context-20261023",
+      "status": "success",
+      "success": true,
+      "task_id": "f8864bd2f58af715",
+      "trajectory_sha256": "6eb52f458e476fa3e63b53067e72f2084e2e488495babbae2d13118c071355e0",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "environment_style_sentence": 1,
+        "public_command_shape": 25,
+        "thought": 23
+      },
+      "cell_id": "residual-f8864bd2f58af715-2101-N_E",
+      "condition": "N_E",
+      "decisions": 49,
+      "identity_sha256": "9bde8927203acc298975be58ea6062a0b79a09f471cb5304d02f9acb6ac1b5a2",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "initial_target_rule": "E",
+      "memory_sha256": "cc645d21799da26b14711b15ed88d31a31b00e0d80ab2546eda217707cf1cdcb",
+      "new_reflection_hashes": [
+        "373d3e36a1fd3b9b184e01fa5fac5b49e6bc8a0f73e829d0e9b6be7755b06aa3"
+      ],
+      "no_effect_shapes": {
+        "environment_style_sentence": 1,
+        "public_command_shape": 6,
+        "thought": 23
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 3,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 3
+      },
+      "outcome": "U",
+      "result_sha256": "632e828dcac06e494e2c561256867863cf29f5865b99c9765f44d175c2554807",
+      "reused_control": true,
+      "seed": 2101,
+      "source_cell_id": "middle-f8864bd2f58af715-E",
+      "source_run": "runs/reflexion-middle-context-20261023",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "f8864bd2f58af715",
+      "trajectory_sha256": "4028a832005268044619492e0670706a595111a503c8853d014f77614afff8fc",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 9,
+        "thought": 7
+      },
+      "cell_id": "residual-f8864bd2f58af715-2101-R_C",
+      "condition": "R_C",
+      "decisions": 16,
+      "identity_sha256": "fda2c1a8668ecd5f2efdd0875d7660b54d4b77101b655444eec8cc142c9b9844",
+      "initial_labels": [
+        "R",
+        "C",
+        "N"
+      ],
+      "initial_target_rule": "C",
+      "memory_sha256": "3b188ad2e880610e38135cb42969fa1ae9e876d6c9fbec57955e868e1ce86c2f",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "thought": 7
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "3104c70f2c429cc5a8d70525807ff0b812252d35149b7f2ccd500d11dbf5ed95",
+      "reused_control": false,
+      "seed": 2101,
+      "source_cell_id": "residual-f8864bd2f58af715-2101-R_C",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "success",
+      "success": true,
+      "task_id": "f8864bd2f58af715",
+      "trajectory_sha256": "ed64b5e4e503b134e71f8e27e02da693b6becdb312f9e8d2c121110e8515e136",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 21,
+        "thought": 27
+      },
+      "cell_id": "residual-f8864bd2f58af715-2101-R_E",
+      "condition": "R_E",
+      "decisions": 49,
+      "identity_sha256": "58cf8ab9bf4cf8ca3cc33d4877b90e5ec4a3ffe6f6d3938c550c2603ff16b288",
+      "initial_labels": [
+        "R",
+        "E",
+        "N"
+      ],
+      "initial_target_rule": "E",
+      "memory_sha256": "544cdd6a25989241b9064d73dd2aaa4c25cce5a555d96b539fa453960c86841c",
+      "new_reflection_hashes": [
+        "5f1d8e3136aec05c2eae8699b49478325b3b12cc7855751da4b1e77cf8e5cfa3"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 8,
+        "thought": 27
+      },
+      "observable_events": {
+        "competing_macros": 2,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 1
+      },
+      "outcome": "U",
+      "result_sha256": "788a35e5de1e3c11900581601d56f2324988bcba90169c6e589a8575feaebba6",
+      "reused_control": false,
+      "seed": 2101,
+      "source_cell_id": "residual-f8864bd2f58af715-2101-R_E",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "f8864bd2f58af715",
+      "trajectory_sha256": "21252266f6539fd8c63fcfc7fae585ff66e367e2a77b31c9b664547e5e196acc",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 9,
+        "thought": 7
+      },
+      "cell_id": "residual-f8864bd2f58af715-2102-N_C",
+      "condition": "N_C",
+      "decisions": 16,
+      "identity_sha256": "c1458a7546851cbe955a3ee2ea8fdc4a7480243b8f9fc92df59bc835d1959127",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "initial_target_rule": "C",
+      "memory_sha256": "a40bc7c5c5dc9ac47deb05f4699081a8680c887adfb85c0e1d6e7a2adf22bce3",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "thought": 7
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "48ab1b0e72559dac50c14b924831bd71ea2af1befcda56056818c70171a8c3b6",
+      "reused_control": false,
+      "seed": 2102,
+      "source_cell_id": "residual-f8864bd2f58af715-2102-N_C",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "success",
+      "success": true,
+      "task_id": "f8864bd2f58af715",
+      "trajectory_sha256": "953bac7e691edb711aa537a18a64e91b3d1d2446ac9dfc1e0bff4d56936cf5f5",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 21,
+        "thought": 21
+      },
+      "cell_id": "residual-f8864bd2f58af715-2102-N_E",
+      "condition": "N_E",
+      "decisions": 42,
+      "identity_sha256": "36dc06c00b07fa1e032972c4a21665f7f6ba0bbcef392a2868955d0be8d18e07",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "initial_target_rule": "E",
+      "memory_sha256": "cc645d21799da26b14711b15ed88d31a31b00e0d80ab2546eda217707cf1cdcb",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "public_command_shape": 6,
+        "thought": 21
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 3,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 1
+      },
+      "outcome": "S",
+      "result_sha256": "07c82d0ee02939b735e403ed2875260547dcf0ac06e691c1737bbc33fd1cb669",
+      "reused_control": false,
+      "seed": 2102,
+      "source_cell_id": "residual-f8864bd2f58af715-2102-N_E",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "success",
+      "success": true,
+      "task_id": "f8864bd2f58af715",
+      "trajectory_sha256": "81020e7054d1fc2f4e03786afc8c7fa227e758cde6e723fc4fc1bbb497059821",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 13,
+        "thought": 14
+      },
+      "cell_id": "residual-f8864bd2f58af715-2102-R_C",
+      "condition": "R_C",
+      "decisions": 27,
+      "identity_sha256": "4d9d1e66c06f9758a60e8d83005a02d1680ed29b96ea31510fafe4330bb266ed",
+      "initial_labels": [
+        "R",
+        "C",
+        "N"
+      ],
+      "initial_target_rule": "C",
+      "memory_sha256": "3b188ad2e880610e38135cb42969fa1ae9e876d6c9fbec57955e868e1ce86c2f",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "public_command_shape": 3,
+        "thought": 14
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "d69e9b1397db9cad69701becbb5431b247b62a22b6e191cbff71c1707d75e3b8",
+      "reused_control": false,
+      "seed": 2102,
+      "source_cell_id": "residual-f8864bd2f58af715-2102-R_C",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "success",
+      "success": true,
+      "task_id": "f8864bd2f58af715",
+      "trajectory_sha256": "830ebda54d6a596b7c5404a63e919ded610fa7dd27e3825cf50d717400c4f152",
+      "trial": 1
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 2,
+        "public_command_shape": 21,
+        "thought": 26
+      },
+      "cell_id": "residual-f8864bd2f58af715-2102-R_E",
+      "condition": "R_E",
+      "decisions": 49,
+      "identity_sha256": "9671b63e1745377d800bb2e1f490c6448a5d034f8ca504dfcc0b1e7dff85330e",
+      "initial_labels": [
+        "R",
+        "E",
+        "N"
+      ],
+      "initial_target_rule": "E",
+      "memory_sha256": "544cdd6a25989241b9064d73dd2aaa4c25cce5a555d96b539fa453960c86841c",
+      "new_reflection_hashes": [
+        "569943fd3548a04ad12f9e87d746cf27eeb3a01ae5fcf298ba62f47790969868"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 2,
+        "public_command_shape": 9,
+        "thought": 26
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 2
+      },
+      "outcome": "U",
+      "result_sha256": "c73e231c218c87f0121db586cf74dcef815ded621afb024d36fd6cb029820926",
+      "reused_control": false,
+      "seed": 2102,
+      "source_cell_id": "residual-f8864bd2f58af715-2102-R_E",
+      "source_run": "runs/reflexion-residual-context-20261024",
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "f8864bd2f58af715",
+      "trajectory_sha256": "62ef2eba288be8c86e16d0a8efb9c487bd89236478089318ce926ba61020dee4",
+      "trial": 1
+    }
+  ],
+  "seed_replicates_per_task": 2,
+  "semantic_labels_sha256": "cc1998167de008dde475044fb38237ba00299c883ee03ef96eb2e95571493eb0",
+  "semantic_review": {
+    "ambiguous_class_retained": true,
+    "human_second_review": false,
+    "reviewer": "Codex full-text semantic annotation"
+  },
+  "sha256": "177690942d771e763d1877f6c5d8e1343c6dec681f1e927f30f1d8f660f6897a",
+  "successes": 28,
+  "summary_sha256": "dd4b153ddd4d4d503da32034099bb213578be6b4a801bdd667c495d289310c9c"
+}

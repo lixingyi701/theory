@@ -1,6 +1,6 @@
 # Agent 恢复后的可靠性
 
-本轮采用[固定目标规则与其余文字的四组诊断](docs/experiments/residual-context-design-20261024.md)：12 个既定任务、两个配对种子，新增 72 次尝试并复用 24 条已审核控制。先检验其余文字是否改变成功及纠正收益，再确定多轮诊断所需状态；134 holdout 继续封存。
+[固定规则的文字诊断](docs/experiments/residual-context-20261024.md)已完成 72 次新尝试，复用 24 条旧对照，共 96 格。比较通用计划与删去目标命题后的反思文字，两种背景下含错条件均成功 1/24，纠正后均为 13/24；纠正收益均为 50 个百分点，背景对收益的平均影响尚未分辨。双卡新增 2801 次调用，约 35.38 分钟，累计 26673 次请求全部响应。下一步用冻结参数开展多轮定向诊断，逐任务检查收益持续与新反思生成；134 holdout 保持封存。
 
 本项目研究会反思、会重试的 LLM Agent：纠正错误命题或删除含错反思后，后续反思与有限窗口更新，怎样影响给定尝试次数内的成功概率和平均尝试次数？主线是建立可分析的过程模型，推导恢复有效与失效的条件，再用受控仿真和真实 Agent 检验这些条件及其预测。
 
@@ -11,7 +11,7 @@
 1. [研究问题、机制与实验协议](docs/research/agent_error_recovery_model_and_protocol.md)
 2. [理论框架与基础推导](docs/research/recovery_theory_framework.md)；[有限记忆的主命题与证明](docs/research/finite_memory_recovery_analysis.md)
 3. [有限记忆仿真结果](docs/experiments/finite-memory-simulation-20261023.md)；[采样前冻结设计](docs/experiments/finite-memory-simulation-design.md)
-4. [中间位置与长反思前瞻结果](docs/experiments/middle-context-20261023.md)；[多轮条件预测](docs/experiments/agent-calibrated-multistep-forecast-20261023.md)；[新任务校准](docs/experiments/state-representation-20261023.md)；[后续路线](docs/EXPERIMENT_ROADMAP.md)
+4. [固定规则的文字诊断](docs/experiments/residual-context-20261024.md)；[中间位置与长反思前瞻结果](docs/experiments/middle-context-20261023.md)；[多轮条件预测](docs/experiments/agent-calibrated-multistep-forecast-20261023.md)；[新任务校准](docs/experiments/state-representation-20261023.md)；[后续路线](docs/EXPERIMENT_ROADMAP.md)
 5. [ACM TIST 专刊与投稿计划](docs/submission/TIST_SPECIAL_ISSUE.md)
 6. [实现状态与已有结果](docs/IMPLEMENTATION_STATUS.md)
 7. [服务器执行手册](docs/LINUX_RUNBOOK.md)
@@ -20,7 +20,7 @@
 
 ## 已有基础
 
-固定作者 ReAct＋Qwen3-8B 在开发集成功 7/12，作为工程参照。Reflexion 已统一 Qwen 非思考模板、动作行和公开放置语法；保持采样不变，dev12 三次内成功从 8/12 提高到 10/12。Qwen 推荐采样也为 10/12，按预设同分规则选为后续配置。当前 45 项离线检查通过，模板／采样契约与模型输出合规分别审计。见[接口规范化](docs/experiments/interface-normalization-20261023.md)。
+固定作者 ReAct＋Qwen3-8B 在开发集成功 7/12，作为工程参照。Reflexion 已统一 Qwen 非思考模板、动作行和公开放置语法；保持采样不变，dev12 三次内成功从 8/12 提高到 10/12。Qwen 推荐采样也为 10/12，按预设同分规则选为后续配置。当前 47 项离线检查通过，模板／采样契约与模型输出合规分别审计。见[接口规范化](docs/experiments/interface-normalization-20261023.md)。
 
 冻结接口后，24 个新任务的首尝试完成 16 个任务，并产生 8 条失败反思。其中四个目的地绑定已完成五条件分叉，共 1067 次真实调用，各条件成功 2/4。错误条目进入可见记忆后，尚未观察到按错误目的地执行的动作。随后已开展操作前提扩展，补充相关动作尝试、执行生效与新反思事件，结果见下一段。[实验记录](docs/experiments/reflexion-results-20261022.md)和[校准细则](docs/experiments/calibration-plan-20261023.md)说明事件定义与采样方向。
 
