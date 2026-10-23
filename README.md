@@ -9,7 +9,7 @@
 1. [研究问题、机制与实验协议](docs/research/agent_error_recovery_model_and_protocol.md)
 2. [理论框架与基础推导](docs/research/recovery_theory_framework.md)；[有限记忆的主命题与证明](docs/research/finite_memory_recovery_analysis.md)
 3. [有限记忆仿真结果](docs/experiments/finite-memory-simulation-20261023.md)；[采样前冻结设计](docs/experiments/finite-memory-simulation-design.md)
-4. [真实 Agent 定向校准结果](docs/experiments/directed-calibration-20261023.md)；[设计](docs/experiments/directed-calibration-design-20261023.md)；[下一步研究路线](docs/EXPERIMENT_ROADMAP.md)
+4. [新任务状态校准与参数冻结](docs/experiments/state-representation-20261023.md)；[首批定向校准](docs/experiments/directed-calibration-20261023.md)；[下一步研究路线](docs/EXPERIMENT_ROADMAP.md)
 5. [ACM TIST 专刊与投稿计划](docs/submission/TIST_SPECIAL_ISSUE.md)
 6. [实现状态与已有结果](docs/IMPLEMENTATION_STATUS.md)
 7. [服务器执行手册](docs/LINUX_RUNBOOK.md)
@@ -18,7 +18,7 @@
 
 ## 已有基础
 
-固定作者 ReAct＋Qwen3-8B 在开发集成功 7/12，作为工程参照。Reflexion 已统一 Qwen 非思考模板、动作行和公开放置语法；保持采样不变，dev12 三次内成功从 8/12 提高到 10/12。Qwen 推荐采样也为 10/12，按预设同分规则选为后续配置。当前 38 项离线检查通过，模板／采样契约与模型输出合规分别审计。见[接口规范化](docs/experiments/interface-normalization-20261023.md)。
+固定作者 ReAct＋Qwen3-8B 在开发集成功 7/12，作为工程参照。Reflexion 已统一 Qwen 非思考模板、动作行和公开放置语法；保持采样不变，dev12 三次内成功从 8/12 提高到 10/12。Qwen 推荐采样也为 10/12，按预设同分规则选为后续配置。当前 41 项离线检查通过，模板／采样契约与模型输出合规分别审计。见[接口规范化](docs/experiments/interface-normalization-20261023.md)。
 
 冻结接口后，24 个新任务的首尝试完成 16 个任务，并产生 8 条失败反思。其中四个目的地绑定已完成五条件分叉，共 1067 次真实调用，各条件成功 2/4。错误条目进入可见记忆后，尚未观察到按错误目的地执行的动作。随后已开展操作前提扩展，补充相关动作尝试、执行生效与新反思事件，结果见下一段。[实验记录](docs/experiments/reflexion-results-20261022.md)和[校准细则](docs/experiments/calibration-plan-20261023.md)说明事件定义与采样方向。
 
@@ -28,7 +28,9 @@
 
 有限记忆推导使用精确分数核对了完整窗口与压缩状态递推，以及独立线性方程解；所有比较相等，记录见[代数核对](repro/theory-20261023/finite-memory-analytic-checks.json)。随后已按冻结设计完成 26 万条逐步模拟轨迹、1125 个二值参数条件和 90 个信息／位置条件；260 项成功概率与 1920 项槽位差异检查均在预设容差内。仿真进一步显示恢复排序可能随预算先反转、再转回；这些是人工机制结果，真实 Agent 校准结果见下一段。三进程正式计算约 8.73 秒，无新增 LLM 调用，完整结果与曲线见[仿真报告](docs/experiments/finite-memory-simulation-20261023.md)。
 
-[首批真实 Agent 定向校准](docs/experiments/directed-calibration-20261023.md)已完成：四个已知开发任务、104 个起始条件、150 次真实尝试，三卡约 48.93 分钟，新增 5984 次调用。实际通用计划与空记忆表现不同；经公开观测核验的位置线索在两次内成功计数上未获优势；本批尚未分辨稳定的位置收益方向。当前保留纠正说明、占位和有序窗口，下一步用新基础任务检查状态压缩，再估计共享机制并冻结预测。累计调用 18353 次，全部响应保存，134 holdout 继续封存。
+[首批真实 Agent 定向校准](docs/experiments/directed-calibration-20261023.md)已完成：四个已知开发任务、104 个起始条件、150 次真实尝试，三卡约 48.93 分钟，新增 5984 次调用。实际通用计划与空记忆表现不同；经公开观测核验的位置线索在两次内成功计数上未获优势；本批尚未分辨稳定的位置收益方向。这些结果用于设计下一批受控短反思比较。
+
+[新基础任务校准](docs/experiments/state-representation-20261023.md)完成 12 个新任务、108 次尝试：四卡约 21.50 分钟，3779 次调用，成功 45/108。预定比较选择错误剩余保留轮数表示，整任务留出五类 Brier 为 0.6132，常数为 0.7206，丰富表示为 0.6180。补充的错误存在性基线为 0.6034，尚无稳定年龄收益；参数、40 个状态预测和未覆盖位置均已保存。下一步前瞻检查中间位置，再检查自然长反思中的其他建议，随后冻结多轮预测。累计调用 22132 次，全部响应保存，134 holdout 继续封存。
 
 全部实验在远程服务器运行，工作站用于编辑、Git 和 SSH。当前部署见[环境说明](docs/deployment/README.md)。离线检查从仓库根目录运行：
 

@@ -1,0 +1,57 @@
+{
+  "all_calls": 22132,
+  "all_responses": 22132,
+  "artifacts": {
+    "state-representation-action-shapes.json": "4f09962e68c36b7696ccc96f5d5f8e4414bdcdb5141737662ab04ec5bcaf04d7",
+    "state-representation-contract.json": "e8d23cf5f9a8ca6e0889e0ea814a8385424de972c3e988d9f88cedc9d99df5e9",
+    "state-representation-model-freeze.json": "eaf37eedddf5904707a1e08d8539c36f11b65c3b77bada40d00e565b50f29f2a",
+    "state-representation-protocol-audit.json": "c475b6387ae4a6262af1223234d5a63a41dd3ab85349c8fac8e86f8819e0d68e",
+    "state-representation-protocol.json": "8723b8c1675e1d610a95501eb7c6fb72123e5163375df7e93db0c0a20936cb5a",
+    "state-representation-raw-summary.json": "bbc7f5f1abbfb74933a795cbf25b68539a4225d27529b58b834a694f885c3a56",
+    "state-representation-replica-audit.json": "268ad2b1dc1b4af77b397d81b885ee0c7a314b4858f066f252d6bfff5f28ba07",
+    "state-representation-results.json": "5a659026d267b322ffcc710139c94a01715dc3ea3317098359cc24027e299b54",
+    "state-representation-run.json": "9d3281348038cb2b1614972132a1fd783a10dc2b1e3b1ae9912575a561213585",
+    "state-representation-semantic-labels.json": "119720a2f4304535b4cd75266e63b5b4a70c022d25034c62338ed12aac625630",
+    "state-representation-state-coverage.json": "915aa05b6d606f9e7c829300173fdb503e538b3fbb7437001c941c585ffc2bf0"
+  },
+  "cohort_audit_passed": true,
+  "completed_attempts": 108,
+  "completed_cells": 108,
+  "costs_incremental": {
+    "dispatched_calls": 3779,
+    "input_tokens_known": 9126766,
+    "output_tokens_known": 108027,
+    "saved_responses": 3779,
+    "truncated_responses": 0,
+    "uncertain_or_unrecorded_attempts": 0,
+    "usage_missing_responses": 0
+  },
+  "driver_sha256": "4633e214789c2695e5503dee2a2d664939f897d8559d40eacdc960c7b6fabe28",
+  "elapsed_seconds": 1289.7887535095215,
+  "expected_cells": 108,
+  "freeze_commit": "2ce8148d7c4dc3a52533a0b063a6440f1dc7f761",
+  "gpu_indices": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "holdout_model_calls": 0,
+  "independent_base_tasks": 12,
+  "prior_calls": 18353,
+  "protocol_sha256": "6f98a6f4cd920fe5907238214ce6b129c53409bc5609cc0da8f6a3ac73628b59",
+  "public_grammar_sha256": "c5b22f0f73309a7fd7c8e5b71de42ad4803b60766ab4a51cc2feb34162be036b",
+  "replica_check_calls": 8,
+  "request_configuration_errors": 0,
+  "reserved_calls": 3779,
+  "sha256": "928145ec62a41f43d0b90a49902cf6ee360a2ff30a74fa906ba05cb4729d5f9c",
+  "stop_reason": "matrix_complete",
+  "successes": 45,
+  "unused_reservations": 0,
+  "worker_exit_codes": [
+    0,
+    0,
+    0,
+    0
+  ]
+}
