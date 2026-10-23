@@ -1,0 +1,211 @@
+{
+  "command_shapes": [
+    "go to [a-z]+ \\d+",
+    "(?:open|close|examine|use) [a-z]+ \\d+",
+    "take [a-z]+ \\d+ from [a-z]+ \\d+",
+    "move [a-z]+ \\d+ to [a-z]+ \\d+",
+    "put [a-z]+ \\d+ (?:into|in) [a-z]+ \\d+",
+    "(?:heat|clean|cool|slice) [a-z]+ \\d+ with [a-z]+ \\d+",
+    "(?:look|inventory|help)"
+  ],
+  "completed_checkpoints": 16,
+  "counts": {
+    "other_unmatched_shape": 18,
+    "public_command_shape": 256,
+    "thought": 296
+  },
+  "driver_sha256": "7b026efea040a1651f43a6f70b9bf98501c08ef290b53de87c236091f6a499a6",
+  "interpretation": "Public command shape does not establish valid entities, satisfied preconditions, or correct planning. Environment-style sentences are actor format violations. Other unmatched shapes require review. Thought no-effects are not physical failures.",
+  "no_effect_counts_by_shape": {
+    "other_unmatched_shape": 18,
+    "public_command_shape": 67,
+    "thought": 296
+  },
+  "public_grammar": "installed alfworld/data/alfred.twl2",
+  "public_grammar_sha256": "c5b22f0f73309a7fd7c8e5b71de42ad4803b60766ab4a51cc2feb34162be036b",
+  "review_items": [
+    {
+      "action_excerpt": "heat egg 1 in microwave 1",
+      "action_sha256": "05dca8920d1d2bbde38f2db5ffb6f620422572a38ad16dcef20dc4743ccbc39c",
+      "checkpoint": "cases/05f694718d71af12/correct_2/trial-01/checkpoint.json",
+      "checkpoint_sha256": "d6e84688ef826dee30a4fa322de96a3959f342c7e4bdd50f1d8816ff714c383a",
+      "index": 12,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "use microwave 1 to heat egg 1",
+      "action_sha256": "36e4207046a65e513d3318f97d1824fd7016d66aecaef8cbeb12bd2323a3a5a5",
+      "checkpoint": "cases/05f694718d71af12/correct_2/trial-01/checkpoint.json",
+      "checkpoint_sha256": "d6e84688ef826dee30a4fa322de96a3959f342c7e4bdd50f1d8816ff714c383a",
+      "index": 14,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "heat egg 1 in microwave 1",
+      "action_sha256": "05dca8920d1d2bbde38f2db5ffb6f620422572a38ad16dcef20dc4743ccbc39c",
+      "checkpoint": "cases/05f694718d71af12/correct_3/trial-01/checkpoint.json",
+      "checkpoint_sha256": "b60b2dd4a8a51b5e90cc6fc9931f1467d50ee9a16894f5cab0372508561f9cbe",
+      "index": 12,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "use microwave 1 to heat egg 1",
+      "action_sha256": "36e4207046a65e513d3318f97d1824fd7016d66aecaef8cbeb12bd2323a3a5a5",
+      "checkpoint": "cases/05f694718d71af12/correct_3/trial-01/checkpoint.json",
+      "checkpoint_sha256": "b60b2dd4a8a51b5e90cc6fc9931f1467d50ee9a16894f5cab0372508561f9cbe",
+      "index": 14,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "heat egg 1 in microwave 1",
+      "action_sha256": "05dca8920d1d2bbde38f2db5ffb6f620422572a38ad16dcef20dc4743ccbc39c",
+      "checkpoint": "cases/05f694718d71af12/error_2/trial-01/checkpoint.json",
+      "checkpoint_sha256": "dc63a9d1c9638067221f33ffc8472d80ff249c4be4fc8fae65db7d1bf117f1c9",
+      "index": 14,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "use microwave 1 to heat egg 1",
+      "action_sha256": "36e4207046a65e513d3318f97d1824fd7016d66aecaef8cbeb12bd2323a3a5a5",
+      "checkpoint": "cases/05f694718d71af12/error_2/trial-01/checkpoint.json",
+      "checkpoint_sha256": "dc63a9d1c9638067221f33ffc8472d80ff249c4be4fc8fae65db7d1bf117f1c9",
+      "index": 16,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "use microwave 1 to heat egg 1",
+      "action_sha256": "36e4207046a65e513d3318f97d1824fd7016d66aecaef8cbeb12bd2323a3a5a5",
+      "checkpoint": "cases/05f694718d71af12/error_3/trial-01/checkpoint.json",
+      "checkpoint_sha256": "b8d8bbb513d1ca22f1d7b8b67c01f7e90c81fed33f6f3431c2804e56533ea238",
+      "index": 16,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "heat egg 1 in microwave 1",
+      "action_sha256": "05dca8920d1d2bbde38f2db5ffb6f620422572a38ad16dcef20dc4743ccbc39c",
+      "checkpoint": "cases/05f694718d71af12/error_3/trial-01/checkpoint.json",
+      "checkpoint_sha256": "b8d8bbb513d1ca22f1d7b8b67c01f7e90c81fed33f6f3431c2804e56533ea238",
+      "index": 22,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "place egg 1 in sidetable 1",
+      "action_sha256": "c4c2a05ec6ae880e6515d1afe516ab3da3cdd94f88e67aae69179c11efe2c775",
+      "checkpoint": "cases/05f694718d71af12/error_3/trial-01/checkpoint.json",
+      "checkpoint_sha256": "b8d8bbb513d1ca22f1d7b8b67c01f7e90c81fed33f6f3431c2804e56533ea238",
+      "index": 27,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "turn on stoveburner 1",
+      "action_sha256": "376ef0362128470fc9857ab98290d7bed7fb62c422ed801f84c72a05cc2727e8",
+      "checkpoint": "cases/3e3fa991ee97689e/correct_3/trial-01/checkpoint.json",
+      "checkpoint_sha256": "b7b3f42d8dd748ad61a176f44f515e796e0a2c91585aea307a1a376c7ad5f295",
+      "index": 23,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "turn on stoveburner 4",
+      "action_sha256": "e906ca58473da4b4e780c1d98ce72cedfe5feb3e8440ea138e0504ed203b84ee",
+      "checkpoint": "cases/3e3fa991ee97689e/error_2/trial-01/checkpoint.json",
+      "checkpoint_sha256": "8c4fb48f7ee3fd1341950995e20a2f71dfe35cf6913f6d29e7373158e1e6902d",
+      "index": 24,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "turn on stoveburner 4",
+      "action_sha256": "e906ca58473da4b4e780c1d98ce72cedfe5feb3e8440ea138e0504ed203b84ee",
+      "checkpoint": "cases/3e3fa991ee97689e/error_3/trial-01/checkpoint.json",
+      "checkpoint_sha256": "c458580b82f4ff83f10d2b3afc5c1b88970d30f6aa9a0a9150a2ec8e2dafafed",
+      "index": 26,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "heat mug 2 on stoveburner 4",
+      "action_sha256": "1a7eac3c254d13c9d1e847a9114b469e0e9d0304009f4114c39567ae2114585a",
+      "checkpoint": "cases/3e3fa991ee97689e/error_3/trial-01/checkpoint.json",
+      "checkpoint_sha256": "c458580b82f4ff83f10d2b3afc5c1b88970d30f6aa9a0a9150a2ec8e2dafafed",
+      "index": 28,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "turn on stoveburner 1",
+      "action_sha256": "376ef0362128470fc9857ab98290d7bed7fb62c422ed801f84c72a05cc2727e8",
+      "checkpoint": "cases/64aa51b30cab1f98/error_2/trial-01/checkpoint.json",
+      "checkpoint_sha256": "c63c16e13b2c21e49bdb241fd8602832b621e1a37095f07940cf49bf25d96960",
+      "index": 40,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "look in microwave 1",
+      "action_sha256": "6b4fdcb2dc44de6db13bd7ff75ef2f9a849204984e43ce9418689bf6bf7759e3",
+      "checkpoint": "cases/762a7487ace813d7/error_3/trial-01/checkpoint.json",
+      "checkpoint_sha256": "40bb9c925385d8fa321fbd26dcd47e19f6459c4fab32f2488e177d4dfa0d76ee",
+      "index": 14,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "turn on stoveburner 1",
+      "action_sha256": "376ef0362128470fc9857ab98290d7bed7fb62c422ed801f84c72a05cc2727e8",
+      "checkpoint": "cases/762a7487ace813d7/error_3/trial-01/checkpoint.json",
+      "checkpoint_sha256": "40bb9c925385d8fa321fbd26dcd47e19f6459c4fab32f2488e177d4dfa0d76ee",
+      "index": 25,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "turn on stoveburner 3",
+      "action_sha256": "86653e94e8fac4338ee93b030b1e90023983c65a05d1575db2e79e2a5946116f",
+      "checkpoint": "cases/762a7487ace813d7/error_3/trial-01/checkpoint.json",
+      "checkpoint_sha256": "40bb9c925385d8fa321fbd26dcd47e19f6459c4fab32f2488e177d4dfa0d76ee",
+      "index": 33,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "turn on stoveburner 4",
+      "action_sha256": "e906ca58473da4b4e780c1d98ce72cedfe5feb3e8440ea138e0504ed203b84ee",
+      "checkpoint": "cases/762a7487ace813d7/error_3/trial-01/checkpoint.json",
+      "checkpoint_sha256": "40bb9c925385d8fa321fbd26dcd47e19f6459c4fab32f2488e177d4dfa0d76ee",
+      "index": 37,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    }
+  ],
+  "run_sha256": "847b5c69dc234d98186e6dece1da163589256410dd265babfe63b00f82760d27",
+  "scope": "Executed action shapes under the public numbered-entity grammar; no semantic repairs",
+  "sha256": "569a0df2196f0f04605a7c49e85bc35be6da6d681e13cfdc15fbcea44fbeb374"
+}
