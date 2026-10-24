@@ -2,6 +2,8 @@
 
 更新：2026-10-24。主线为反思恢复中的目标错误生成、信息保留与有限预算可靠性，跨条件预测用于检验理论。投稿目标为 ACM TIST Agentic AI 专刊，截止日期 2027-01-31。
 
+当前调整见[外部审核回应与研究调整](research/review-response-and-research-adjustment-20261024.md)。保留理论主线，先完成两次预算收益分解、任务混合关系及有序窗口状态修订；再以 `[C]`、`[N]`、空历史和 `[E,N,C]`／`[E,N,N]` 检查最小新增机制。该对照本身不识别顺序作用；顺序检验按文中配套位置对照另行设计。共享参数、样本精度和独立分区在后续采集前固定，不按操作分别拟合，不拆分同一留出场景用于调参。该报告为计划修订，没有启动新实验。
+
 执行进展：作者 Reflexion 和工程配置已冻结，真实 pilot 已提供相关动作尝试、实际生效与新反思事件。[首次冻结预测](experiments/state-prediction-20261023.md)的数量／位置模型未优于总体均值。现已完成[有限窗口推导](research/finite_memory_recovery_analysis.md)与[三组受控仿真](experiments/finite-memory-simulation-20261023.md)，已完成[首批定向真实校准](experiments/directed-calibration-20261023.md)：104 个起始条件、150 次真实尝试、5984 次调用。
 
 | 阶段 | 工作与交付 | 完成条件 |
