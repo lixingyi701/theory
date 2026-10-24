@@ -1,0 +1,440 @@
+{
+  "source_registry_sha256": "a44b4c2d721ff045354f04dbdc30a57332ed06a12cd26de41823c0ec911abf3c",
+  "selection": "All twelve prespecified native E sources from the residual-context registry; no new outcome-based source selection",
+  "operation": "Apply exact recorded character spans and replacements; all other characters remain unchanged. Multiple target mentions are edited together. Some target-bearing sentences include additional advice.",
+  "correct_rule": "Before I heat an object with the microwave, I must keep it in my inventory.",
+  "entries": [
+    {
+      "task_id": "02088717ce4b3889",
+      "source": {
+        "cell_id": "state-02088717ce4b3889-2101-full_generic",
+        "label": "E",
+        "reflection_sha256": "22d680bcdab73bf14fd43b25cca4a0731c241dd948a4ccac219aa0b55dcd7c12",
+        "result_sha256": "30b737304600e74b7e4129d71d207e9d9e28eeaeb74b6aa18d97a79ab170f084"
+      },
+      "edits": [
+        {
+          "start": 6,
+          "end": 133,
+          "source_span_sha256": "8067fa45ffddae89821dec984e297d1f21c3f3bac6e6c12c84b351ae40e50312",
+          "remove_replacement": "",
+          "correct_replacement": "Before I heat an object with the microwave, I must keep it in my inventory."
+        },
+        {
+          "start": 134,
+          "end": 255,
+          "source_span_sha256": "b2607ccd5d6d9b47d366ed3a36e2d0b72ebf0a140de57946eb0f9b59685b8f19",
+          "remove_replacement": "",
+          "correct_replacement": ""
+        },
+        {
+          "start": 472,
+          "end": 609,
+          "source_span_sha256": "5f2775c0c9c6943c2228cbf1e00c723fd6157f651bd3325480265d61907b0493",
+          "remove_replacement": "",
+          "correct_replacement": ""
+        }
+      ],
+      "variant_hashes": {
+        "E": "22d680bcdab73bf14fd43b25cca4a0731c241dd948a4ccac219aa0b55dcd7c12",
+        "C": "f7c801636dbec57cfb8ca324b14ea5fa048909c6adeb98ab0aad447c5f84df8d",
+        "remove": "a3bc405e8c31832a47a3c565aa52916fd158778ee1e952e3b78b369d027c2de0"
+      },
+      "variant_labels": {
+        "E": "E",
+        "C": "C",
+        "remove": "U"
+      },
+      "reviewer": "Codex full-text source and edited-variant review",
+      "human_second_review": false
+    },
+    {
+      "task_id": "4a3978c7981b641a",
+      "source": {
+        "cell_id": "state-4a3978c7981b641a-2101-newest_error",
+        "label": "E",
+        "reflection_sha256": "6c112a6ebdc37b3144a045e1ab45449eb7f71391fb00df265bc0adcf67d5bba5",
+        "result_sha256": "de7e78cafa5d4e5a54c737aa1ace191bb65465bffc317cd715d7705dbf6e61a6"
+      },
+      "edits": [
+        {
+          "start": 92,
+          "end": 173,
+          "source_span_sha256": "9ef73379a2d8d70f60859b0e0054f0fa669a8f79d4befa949e8ad337fe2c90f0",
+          "remove_replacement": "",
+          "correct_replacement": "Before I heat an object with the microwave, I must keep it in my inventory."
+        },
+        {
+          "start": 244,
+          "end": 280,
+          "source_span_sha256": "332f07583f6eecc97eee04dd911a8556f3157a8136bea5b5a9166dcebe7031d4",
+          "remove_replacement": "",
+          "correct_replacement": ""
+        }
+      ],
+      "variant_hashes": {
+        "E": "6c112a6ebdc37b3144a045e1ab45449eb7f71391fb00df265bc0adcf67d5bba5",
+        "C": "73b9aca12de9a91b578c72caee2ae56d76c0aaa80b7094da3c09991b28baf1db",
+        "remove": "37779e78517038e98ad8f0a99dcaf91c18cca9a33d9494e7e1c0194f7d184918"
+      },
+      "variant_labels": {
+        "E": "E",
+        "C": "C",
+        "remove": "U"
+      },
+      "reviewer": "Codex full-text source and edited-variant review",
+      "human_second_review": false
+    },
+    {
+      "task_id": "55f887bdc1cc1699",
+      "source": {
+        "cell_id": "state-55f887bdc1cc1699-2101-oldest_correct",
+        "label": "E",
+        "reflection_sha256": "a08830c1cebf817161430e98e1fe9c6d7188c525636a7b818f6c521975078ca2",
+        "result_sha256": "7dec2ecb12be5e6c30b63fd0a05d9c78f1021ce1c2b447c7adc1e8c0983f7db8"
+      },
+      "edits": [
+        {
+          "start": 93,
+          "end": 186,
+          "source_span_sha256": "50c20bd1486ca7f5de7e46c1fc2a554ada7b5ccd3a05bb91cb203ba84e91225d",
+          "remove_replacement": "",
+          "correct_replacement": "Before I heat an object with the microwave, I must keep it in my inventory."
+        }
+      ],
+      "variant_hashes": {
+        "E": "a08830c1cebf817161430e98e1fe9c6d7188c525636a7b818f6c521975078ca2",
+        "C": "d20193119b8a5254c8b735e66da4cd7daeccb81b25f2f1fe877bf990e2010d97",
+        "remove": "332683ae5d75cda11ab3d5f42962da85b49420d2b845c8cddbce28f0d03635d5"
+      },
+      "variant_labels": {
+        "E": "E",
+        "C": "C",
+        "remove": "U"
+      },
+      "reviewer": "Codex full-text source and edited-variant review",
+      "human_second_review": false
+    },
+    {
+      "task_id": "69b7fb1c70f5d271",
+      "source": {
+        "cell_id": "state-69b7fb1c70f5d271-2101-oldest_error",
+        "label": "E",
+        "reflection_sha256": "04bc44750d6b300aba56f4798392fbc3f553c63b686f8548981252a25b8073f9",
+        "result_sha256": "86fc5a994866717c2895f5902e4fa1a0624e64dbe0bff5dbcbcba186f35b8c54"
+      },
+      "edits": [
+        {
+          "start": 124,
+          "end": 227,
+          "source_span_sha256": "e54313b825c1eea2df517b6634e77dbf766f5fa4a85b97f2ce194b6d9843aba0",
+          "remove_replacement": "",
+          "correct_replacement": "Before I heat an object with the microwave, I must keep it in my inventory."
+        }
+      ],
+      "variant_hashes": {
+        "E": "04bc44750d6b300aba56f4798392fbc3f553c63b686f8548981252a25b8073f9",
+        "C": "a93a144ace3376786f06fa96b19f2c9db19154dbb58e36007f2faa8294e671ff",
+        "remove": "2a38e7f424043e5762a022c3190d2bfe613bdaaac097ca668da37106aa4202d3"
+      },
+      "variant_labels": {
+        "E": "E",
+        "C": "C",
+        "remove": "U"
+      },
+      "reviewer": "Codex full-text source and edited-variant review",
+      "human_second_review": false
+    },
+    {
+      "task_id": "790b6f6fefeac9d1",
+      "source": {
+        "cell_id": "state-790b6f6fefeac9d1-2101-newest_error",
+        "label": "E",
+        "reflection_sha256": "4fa8e535717b69f0803fb6f7b97e2c99d6305d755b7cabe5d2fedd0831fa30dc",
+        "result_sha256": "29ee37142775675e53fd4dd96079ceee8a2906bf01d8f2e094b42187a62d182b"
+      },
+      "edits": [
+        {
+          "start": 280,
+          "end": 307,
+          "source_span_sha256": "ef6b3a668cba647a7903092c7f4bf0c0a50d5d5fe3dc750616f8bd8a5246d87b",
+          "remove_replacement": "",
+          "correct_replacement": "keep it in my inventory, "
+        }
+      ],
+      "variant_hashes": {
+        "E": "4fa8e535717b69f0803fb6f7b97e2c99d6305d755b7cabe5d2fedd0831fa30dc",
+        "C": "3425a373cc5d857ebb81a3610f3ebf5ef256586ec7fab7aeace67868e24fc574",
+        "remove": "71a9a44a0689df7beb457cf682e0a0ad417a793bf1afe85783d2dca5cbec4534"
+      },
+      "variant_labels": {
+        "E": "E",
+        "C": "C",
+        "remove": "U"
+      },
+      "reviewer": "Codex full-text source and edited-variant review",
+      "human_second_review": false
+    },
+    {
+      "task_id": "bf6d3dba86f7f0e4",
+      "source": {
+        "cell_id": "state-bf6d3dba86f7f0e4-2101-oldest_correct",
+        "label": "E",
+        "reflection_sha256": "559a4b6f41e61da8aa0b0ee66a918cccd61b2dcb598c0c00d26b5c7956dc59eb",
+        "result_sha256": "da625a565ec2b75cce7a0d191de346e656238fb2ac72fc440ffe3286fe0a478b"
+      },
+      "edits": [
+        {
+          "start": 366,
+          "end": 392,
+          "source_span_sha256": "e397bbe7e8b7bfc44857091cd69cb3b76f6b25a69d0572f98a69c17cbf3c5a7c",
+          "remove_replacement": "",
+          "correct_replacement": "kept the mug in my inventory and "
+        }
+      ],
+      "variant_hashes": {
+        "E": "559a4b6f41e61da8aa0b0ee66a918cccd61b2dcb598c0c00d26b5c7956dc59eb",
+        "C": "fc12ea642046a44e9c03b59d08817abd08a325c09cad0d8b8bc1a52a78b5c313",
+        "remove": "d9c99c368f7e58d3fa0e2567f6050602c138c9f340d20befae5b8c19e3f37122"
+      },
+      "variant_labels": {
+        "E": "E",
+        "C": "C",
+        "remove": "U"
+      },
+      "reviewer": "Codex full-text source and edited-variant review",
+      "human_second_review": false
+    },
+    {
+      "task_id": "bf7043e154cc1d53",
+      "source": {
+        "cell_id": "state-bf7043e154cc1d53-2101-single_generic",
+        "label": "E",
+        "reflection_sha256": "0915f2d030e18ceb5028170b53cb967edb263ef5a2ccda03cd8d3c512f922d24",
+        "result_sha256": "ab5c3690c7d24d18bd25d635ccbe56abd9b57f96781d92cb419614a4bb878e03"
+      },
+      "edits": [
+        {
+          "start": 267,
+          "end": 387,
+          "source_span_sha256": "9403ce89243056a09f2faf0f503d107c494200bbbb20f63d66d43995a1b9513b",
+          "remove_replacement": "",
+          "correct_replacement": "Before I heat an object with the microwave, I must keep it in my inventory."
+        }
+      ],
+      "variant_hashes": {
+        "E": "0915f2d030e18ceb5028170b53cb967edb263ef5a2ccda03cd8d3c512f922d24",
+        "C": "e87bafbbcb3268c75ecdfc3a1241474173b20516e9cbe340f8a9bb013af08683",
+        "remove": "521b5e9432b9fc4db1bee0240af07d1c788a759f6ce1f836f5a7a59912dd70e2"
+      },
+      "variant_labels": {
+        "E": "E",
+        "C": "C",
+        "remove": "U"
+      },
+      "reviewer": "Codex full-text source and edited-variant review",
+      "human_second_review": false
+    },
+    {
+      "task_id": "d534fcfe5e56c028",
+      "source": {
+        "cell_id": "state-d534fcfe5e56c028-2101-single_error",
+        "label": "E",
+        "reflection_sha256": "0dbccf2ad7934d771f5ba78e7cd182db6d278026967bad6968199a0eb1e477ab",
+        "result_sha256": "e7e0a451456da0f18588a84631daa1cb83fcb9c6e0179bd3adec1d2a7cdb71ad"
+      },
+      "edits": [
+        {
+          "start": 6,
+          "end": 103,
+          "source_span_sha256": "1fab20c705179cde49e4baa2a0175d0e711f5a512b70956ab4cd48228cc5795c",
+          "remove_replacement": "",
+          "correct_replacement": "Before I heat an object with the microwave, I must keep it in my inventory."
+        },
+        {
+          "start": 322,
+          "end": 456,
+          "source_span_sha256": "1740bde2eafeec24a297ce9103fdf9fc45df5fc79ede15aaa43ca8c6ff797bb4",
+          "remove_replacement": "",
+          "correct_replacement": ""
+        }
+      ],
+      "variant_hashes": {
+        "E": "0dbccf2ad7934d771f5ba78e7cd182db6d278026967bad6968199a0eb1e477ab",
+        "C": "06fe67e144a22aeab66f3ae5d16e3290ec670bf0639a44a9601ed1ea327c3c19",
+        "remove": "f276db3fccfc4075598e839e03a87bb1700cbaf7d982e16d74f8d1bcea454f06"
+      },
+      "variant_labels": {
+        "E": "E",
+        "C": "C",
+        "remove": "U"
+      },
+      "reviewer": "Codex full-text source and edited-variant review",
+      "human_second_review": false
+    },
+    {
+      "task_id": "dae15e890956dd5e",
+      "source": {
+        "cell_id": "state-dae15e890956dd5e-2101-single_error",
+        "label": "E",
+        "reflection_sha256": "16bf36e6c687f5d6125b7fed9816c9e21cff71766186db5659666ec85febce63",
+        "result_sha256": "fd801447096efa55011b727575dd46721e93bd5bc0d6ead822df13969b7e2b9d"
+      },
+      "edits": [
+        {
+          "start": 6,
+          "end": 117,
+          "source_span_sha256": "c9d0243d1123486a4d3347b5b6903d7dbe409b3b7820d1fa84138bc4f171f6d0",
+          "remove_replacement": "",
+          "correct_replacement": "Before I heat an object with the microwave, I must keep it in my inventory. "
+        },
+        {
+          "start": 205,
+          "end": 295,
+          "source_span_sha256": "07c8be223491a35b6cca1d1f5c5775a779e0acacf0a7e231d3b60b0b8a7646ef",
+          "remove_replacement": "",
+          "correct_replacement": ""
+        },
+        {
+          "start": 479,
+          "end": 506,
+          "source_span_sha256": "ef6b3a668cba647a7903092c7f4bf0c0a50d5d5fe3dc750616f8bd8a5246d87b",
+          "remove_replacement": "",
+          "correct_replacement": ""
+        }
+      ],
+      "variant_hashes": {
+        "E": "16bf36e6c687f5d6125b7fed9816c9e21cff71766186db5659666ec85febce63",
+        "C": "9aa49d2be650c01cfac3b133dc1590d4dfc6f6aee03d6d0329e9ade5b73a0ad8",
+        "remove": "68cd1c71b8bfdd5a63ef3526294dfb08251fbdb31c4da5731ecf08d8ca2ed881"
+      },
+      "variant_labels": {
+        "E": "E",
+        "C": "C",
+        "remove": "U"
+      },
+      "reviewer": "Codex full-text source and edited-variant review",
+      "human_second_review": false
+    },
+    {
+      "task_id": "dd93ff2604e30529",
+      "source": {
+        "cell_id": "state-dd93ff2604e30529-2101-oldest_error",
+        "label": "E",
+        "reflection_sha256": "ae747c0dd9b022a823e71c09ed93b3c440d4dd7e89404083b6ab7f84de06654c",
+        "result_sha256": "99b4f4c87ae4649070024cbe18194ccabd03f65981bd65afadcde4324782a1ba"
+      },
+      "edits": [
+        {
+          "start": 74,
+          "end": 129,
+          "source_span_sha256": "f3fe1f8310c0edef169795c0079b9ef3016b638f74fd8365027364d39fe202b2",
+          "remove_replacement": "",
+          "correct_replacement": ". Before I heat an object with the microwave, I must keep it in my inventory"
+        },
+        {
+          "start": 131,
+          "end": 226,
+          "source_span_sha256": "e846ae044c4a50c7585380fcfb61b823e2a291ff1c8fbaa59963e75e70f767cb",
+          "remove_replacement": "If",
+          "correct_replacement": "If"
+        },
+        {
+          "start": 488,
+          "end": 528,
+          "source_span_sha256": "7bc16e412e1353fafc0bdc47b5aaf247a26969a84fc77862a64e5b70f7062bbf",
+          "remove_replacement": "",
+          "correct_replacement": ""
+        }
+      ],
+      "variant_hashes": {
+        "E": "ae747c0dd9b022a823e71c09ed93b3c440d4dd7e89404083b6ab7f84de06654c",
+        "C": "ae414390bba112d95c5bd656dd62f59ab940a6af2023e999ea403f7ba81e2d1c",
+        "remove": "23d778bbcbc7c5e8ff86341dcd8fca46304cd5566a01ca7dcba73194f2d13506"
+      },
+      "variant_labels": {
+        "E": "E",
+        "C": "C",
+        "remove": "U"
+      },
+      "reviewer": "Codex full-text source and edited-variant review",
+      "human_second_review": false
+    },
+    {
+      "task_id": "e4244c54d52f3326",
+      "source": {
+        "cell_id": "state-e4244c54d52f3326-2101-newest_error",
+        "label": "E",
+        "reflection_sha256": "844bfcd27656dea55ea62251c9f8d8aadeec58685651b1f90a935d1dab150441",
+        "result_sha256": "88327d3048fc4779643c3b95f28584c6f87d7861b3b5bcf693f8a529f4edd359"
+      },
+      "edits": [
+        {
+          "start": 6,
+          "end": 123,
+          "source_span_sha256": "8ef4d7bcea555598b334aa2da37a39011b29c36c58b9133d595facf6829037aa",
+          "remove_replacement": "",
+          "correct_replacement": "Before I heat an object with the microwave, I must keep it in my inventory."
+        }
+      ],
+      "variant_hashes": {
+        "E": "844bfcd27656dea55ea62251c9f8d8aadeec58685651b1f90a935d1dab150441",
+        "C": "76dc67df619e17d7458178b797dccb86c4ab3135bcf1c1def9a89111fa0b4a51",
+        "remove": "b733e296ce15bb3efbc6ae3392b6b7c7a19cad9e10b1b89ee9c95aa07ef85405"
+      },
+      "variant_labels": {
+        "E": "E",
+        "C": "C",
+        "remove": "U"
+      },
+      "reviewer": "Codex full-text source and edited-variant review",
+      "human_second_review": false
+    },
+    {
+      "task_id": "f8864bd2f58af715",
+      "source": {
+        "cell_id": "state-f8864bd2f58af715-2101-newest_error",
+        "label": "E",
+        "reflection_sha256": "85314be2cc5182a0b00fad74a872ddb7a7541d3d4a87b3a1b8faedf9e520ee4b",
+        "result_sha256": "8b3436319b395561b3facc9532b52537f55664849b1433298be632f21a5bbd7f"
+      },
+      "edits": [
+        {
+          "start": 6,
+          "end": 101,
+          "source_span_sha256": "7b4b7dba1c5e5cf002decf04f6c691363f3570af27390deb6d58ef52e5e9aa57",
+          "remove_replacement": "",
+          "correct_replacement": "Before I heat an object with the microwave, I must keep it in my inventory."
+        },
+        {
+          "start": 102,
+          "end": 199,
+          "source_span_sha256": "50ef25826bebff50e46cc67e7decd0d46385739cb20e9ac63183e246d2da3f0f",
+          "remove_replacement": "",
+          "correct_replacement": ""
+        },
+        {
+          "start": 481,
+          "end": 570,
+          "source_span_sha256": "b3e551ddf306f3cdb4cc8d85652415694d249d17a0eb4b1a09e84fef2abeb44b",
+          "remove_replacement": "",
+          "correct_replacement": ""
+        }
+      ],
+      "variant_hashes": {
+        "E": "85314be2cc5182a0b00fad74a872ddb7a7541d3d4a87b3a1b8faedf9e520ee4b",
+        "C": "16848682ef7925d59c34bad8ef2c1ad041af76596e6a4535a5f6c945d12f745d",
+        "remove": "e2483bfccf65c24415f741b7ab4c092e5032026bfe9967790191edd44f574a7e"
+      },
+      "variant_labels": {
+        "E": "E",
+        "C": "C",
+        "remove": "U"
+      },
+      "reviewer": "Codex full-text source and edited-variant review",
+      "human_second_review": false
+    }
+  ],
+  "human_second_review": false,
+  "sha256": "689ce5fe84e8a6191b600f7b4b993faff77054090710c6c9a10a88f424e46e9c"
+}
