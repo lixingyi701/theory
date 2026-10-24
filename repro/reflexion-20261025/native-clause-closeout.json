@@ -1,0 +1,46 @@
+{
+  "actor_attempts": 108,
+  "actor_successes": 45,
+  "all_calls": 44939,
+  "all_responses": 44939,
+  "artifacts": {
+    "native-clause-action-shapes.json": "a650f476483037a09f9c44e90f120c822538abf8163926250074c377da34b983",
+    "native-clause-contract.json": "8c1d052dc0f0e73bfe101dbeaf283d4b4b6832ed09443544dd5ff687d8abeb4f",
+    "native-clause-protocol-audit.json": "2320d642824bfc5ba87d7fe0779995979a7d3bbad56281997b73874fc0188257",
+    "native-clause-raw-summary.json": "2731d520c32d4c8b78e75afe0e94c5a2497c1b0cf437aeeb77d6b01521131ab6",
+    "native-clause-replica-audit.json": "268ad2b1dc1b4af77b397d81b885ee0c7a314b4858f066f252d6bfff5f28ba07",
+    "native-clause-results.json": "907935b4cea6d28b1ee434a3684dc383d3d93e9363cd0de501b6e3abcaaac6c2",
+    "native-clause-run.json": "0cd1b4dd175f7197961c13610469292a0d54f51eb5c4fb7c01ac4a8a4d481c16",
+    "native-clause-semantic-labels.json": "c548d716de1ae733d6af90ed248597300b498e872f3bed95d3da0d734f60559f"
+  },
+  "base_tasks": 12,
+  "closeout_adapter": {
+    "critic_result_digests_verified": 108,
+    "driver_sha256": "b9fb87c255324c8b0273be6d3b2d20abd8f730f73b60533a384028ff5ec0d934",
+    "path": "scripts/close_native_clause.py",
+    "reason": "Frozen worker rows contain the internal critic-result sha256, while analysis rows store result_sha256. Verify the extra digest directly against the unchanged raw result, then compare all shared fields.",
+    "source_analysis_sha256": "907935b4cea6d28b1ee434a3684dc383d3d93e9363cd0de501b6e3abcaaac6c2",
+    "source_summary_sha256": "2731d520c32d4c8b78e75afe0e94c5a2497c1b0cf437aeeb77d6b01521131ab6"
+  },
+  "costs_incremental": {
+    "dispatched_calls": 3758,
+    "input_tokens_known": 9807581,
+    "output_tokens_known": 139082,
+    "saved_responses": 3758,
+    "truncated_responses": 0,
+    "uncertain_or_unrecorded_attempts": 0,
+    "usage_missing_responses": 0
+  },
+  "driver_sha256": "fd7cf8fe5bae34b4391e47d981a15577f0039a8825c7ad25040617ddf915d7bc",
+  "elapsed_seconds": 1806.341236591339,
+  "fixed_critic_calls": 108,
+  "freeze_commit": "7f5b4993ef8132c844f303075d3a1d76ed7cffee",
+  "holdout_model_calls": 0,
+  "parameter_refits": 0,
+  "prior_calls": 41181,
+  "protocol_sha256": "377567973ffb28fd5ee0e6454b501770437fbe3d2deb328e782b1f0791c7f74a",
+  "replica_check_calls": 8,
+  "seeds_per_task": 3,
+  "sha256": "8c7239c297928e6683e36b2d3c8908713b3db4eabf327aa2cbe777400a16b7db",
+  "stop_reason": "frozen108actor_and108critic_complete"
+}

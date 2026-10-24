@@ -1,0 +1,13 @@
+{
+  "path": "repro/reflexion-20261024/correctness-diagnostic-semantic-labels.json",
+  "cause": "Publication used universal-newline text reading, converting the hash-bound CRLF artifact to LF.",
+  "original_server_file_sha256": "06fa2fd4b35eb96b074c46927a2cefd286d880a9e1d963406919fd41329079f1",
+  "previous_published_blob_sha": "700612c664281cdc1c670e778127fffd472f943a",
+  "restored_blob_sha": "d847e052e5b14930717abb011803298773b94ab4",
+  "line_endings": "CRLF",
+  "CRLF_count": 609,
+  "json_values_equal": true,
+  "semantic_labels_sha256": "b7235d41a1bd7c2edaa1b18b3e499a62ad12375422f2f2a59570f5c0764549db",
+  "operation": "Restore the exact server artifact bytes required by both frozen protocol dependencies and the original closeout; do not relabel or recompute outcomes.",
+  "sha256": "b0551693f88180bc0975628f7821c228fc8e1c26a240841e107495faef00236b"
+}
