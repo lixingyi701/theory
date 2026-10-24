@@ -1,0 +1,1351 @@
+{
+  "command_shapes": [
+    "go to [a-z]+ \\d+",
+    "(?:open|close|examine|use) [a-z]+ \\d+",
+    "take [a-z]+ \\d+ from [a-z]+ \\d+",
+    "move [a-z]+ \\d+ to [a-z]+ \\d+",
+    "put [a-z]+ \\d+ (?:into|in) [a-z]+ \\d+",
+    "(?:heat|clean|cool|slice) [a-z]+ \\d+ with [a-z]+ \\d+",
+    "(?:look|inventory|help)"
+  ],
+  "completed_checkpoints": 180,
+  "counts": {
+    "environment_style_sentence": 52,
+    "other_unmatched_shape": 79,
+    "public_command_shape": 3115,
+    "thought": 3216
+  },
+  "driver_sha256": "7b026efea040a1651f43a6f70b9bf98501c08ef290b53de87c236091f6a499a6",
+  "interpretation": "Public command shape does not establish valid entities, satisfied preconditions, or correct planning. Environment-style sentences are actor format violations. Other unmatched shapes require review. Thought no-effects are not physical failures.",
+  "no_effect_counts_by_shape": {
+    "environment_style_sentence": 52,
+    "other_unmatched_shape": 79,
+    "public_command_shape": 796,
+    "thought": 3216
+  },
+  "public_grammar": "installed alfworld/data/alfred.twl2",
+  "public_grammar_sha256": "c5b22f0f73309a7fd7c8e5b71de42ad4803b60766ab4a51cc2feb34162be036b",
+  "review_items": [
+    {
+      "action_excerpt": "turn on stoveburner 1",
+      "action_sha256": "376ef0362128470fc9857ab98290d7bed7fb62c422ed801f84c72a05cc2727e8",
+      "checkpoint": "cells/correctness-02088717ce4b3889-2104-EC/trial-01/checkpoint.json",
+      "checkpoint_sha256": "170450ae6dad0bb6c6ae5feaa0a09a4a2d15dc65bad6836372ecd617d9594cc6",
+      "index": 38,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "heat potato 3 in microwave 1",
+      "action_sha256": "2de6fc6f59d0ec4d263ec7c06faa105216071b70df42327870cd8d8bd6247f61",
+      "checkpoint": "cells/correctness-02088717ce4b3889-2104-N/trial-01/checkpoint.json",
+      "checkpoint_sha256": "2a930a1e17e05ca5552b65c6ecac21edcf1f46a59360e4cacd0d49aed5cd9f61",
+      "index": 20,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "place potato 3 on stoveburner 1",
+      "action_sha256": "b2293c0753d29f4504f8600aa35a68b5335322519bbe88bf57270b0b045f88d5",
+      "checkpoint": "cells/correctness-02088717ce4b3889-2104-N/trial-01/checkpoint.json",
+      "checkpoint_sha256": "2a930a1e17e05ca5552b65c6ecac21edcf1f46a59360e4cacd0d49aed5cd9f61",
+      "index": 35,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "place potato 3 on stoveburner 1",
+      "action_sha256": "b2293c0753d29f4504f8600aa35a68b5335322519bbe88bf57270b0b045f88d5",
+      "checkpoint": "cells/correctness-02088717ce4b3889-2104-N/trial-01/checkpoint.json",
+      "checkpoint_sha256": "2a930a1e17e05ca5552b65c6ecac21edcf1f46a59360e4cacd0d49aed5cd9f61",
+      "index": 40,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "turn on stoveburner 1",
+      "action_sha256": "376ef0362128470fc9857ab98290d7bed7fb62c422ed801f84c72a05cc2727e8",
+      "checkpoint": "cells/correctness-02088717ce4b3889-2105-EC/trial-01/checkpoint.json",
+      "checkpoint_sha256": "a06b272e7e69b62eb681eec6c2d2063aec2142f975f37cf1f5cb170f15255f13",
+      "index": 30,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "move potato 3 in pan 1 to stoveburner 2",
+      "action_sha256": "7ca26e43d71834bd9dfafac895d1f1e6ec90767b8b6aa2753293c696e12682a4",
+      "checkpoint": "cells/correctness-02088717ce4b3889-2105-EN/trial-01/checkpoint.json",
+      "checkpoint_sha256": "428e96784bfd62e74b22c3339d432ad531d95e06fb86ff6320215a732a3b42b7",
+      "index": 31,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "turn on stoveburner 1",
+      "action_sha256": "376ef0362128470fc9857ab98290d7bed7fb62c422ed801f84c72a05cc2727e8",
+      "checkpoint": "cells/correctness-02088717ce4b3889-2105-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "bb16b57b542c07f58d840cbfa5dcee0c6cb3c7cc0694bb91192f11eaf8b5e0d7",
+      "index": 23,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "turn on stoveburner 1",
+      "action_sha256": "376ef0362128470fc9857ab98290d7bed7fb62c422ed801f84c72a05cc2727e8",
+      "checkpoint": "cells/correctness-02088717ce4b3889-2106-C/trial-01/checkpoint.json",
+      "checkpoint_sha256": "ab5b88180473e6bf6ece1fa8155f5ca0ac26c6da5f08142d86546d591037e0c8",
+      "index": 36,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "You pick up the spatula 1 from the countertop 1.",
+      "action_sha256": "8da88b8cbc20f4a1ca174c13f4ee5bedcc644df9a5c33bf7e182fd5c56bf376f",
+      "checkpoint": "cells/correctness-02088717ce4b3889-2106-EN/trial-01/checkpoint.json",
+      "checkpoint_sha256": "35b15b606262c0c2b7db0a524bc4bd8295c552df0ab1954ba445bf61c9913d01",
+      "index": 46,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "turn on stoveburner 1",
+      "action_sha256": "376ef0362128470fc9857ab98290d7bed7fb62c422ed801f84c72a05cc2727e8",
+      "checkpoint": "cells/correctness-02088717ce4b3889-2106-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "0b714cd711194242b128b867cfc2e6976c2e29f67d2284647d29dd449934887a",
+      "index": 30,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "You are in the middle of a room. Looking quickly around you, you see a cabinet 27, a cabinet 26, a cabinet 25, a cabinet 24, a cabinet 23, a cabinet 22, a cabin",
+      "action_sha256": "287d428ef8ab63d7e9e77ac6cade979b1c3ec84abd14ad21a3c5494fcf746cb8",
+      "checkpoint": "cells/correctness-02088717ce4b3889-2106-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "0b714cd711194242b128b867cfc2e6976c2e29f67d2284647d29dd449934887a",
+      "index": 46,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "heat apple 3 in microwave 1",
+      "action_sha256": "792da81a9f97147a73d6ea2a5f8442eb84ea5dc59d11b0d770fd5c74171a849f",
+      "checkpoint": "cells/correctness-4a3978c7981b641a-2104-EC/trial-01/checkpoint.json",
+      "checkpoint_sha256": "836164ff9acc47e1401a43ccc55a047d2916d0caa64f6183c35804ee513d0b3a",
+      "index": 28,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "use microwave 1 to heat apple 3",
+      "action_sha256": "8a6b7fed2966e81bfbbaf2a9bb81851673105f108ab7cfe805af0288021dc0ae",
+      "checkpoint": "cells/correctness-4a3978c7981b641a-2104-EC/trial-01/checkpoint.json",
+      "checkpoint_sha256": "836164ff9acc47e1401a43ccc55a047d2916d0caa64f6183c35804ee513d0b3a",
+      "index": 30,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "look in microwave 1",
+      "action_sha256": "6b4fdcb2dc44de6db13bd7ff75ef2f9a849204984e43ce9418689bf6bf7759e3",
+      "checkpoint": "cells/correctness-4a3978c7981b641a-2104-EN/trial-01/checkpoint.json",
+      "checkpoint_sha256": "a7fb3e114ad7388a7195d2eb7b162493b078e401c0f9d32b633eca7d06148558",
+      "index": 22,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "The fridge 1 is closed.",
+      "action_sha256": "03efe5d410955fcaff365c2c7e532639e503888e1397f5500e5144263393e266",
+      "checkpoint": "cells/correctness-4a3978c7981b641a-2104-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "77b271f1ae176d772d6ce85bf81053e557f57feedcbfa5974ccae62ce87fa07c",
+      "index": 3,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "The fridge 1 is closed.",
+      "action_sha256": "03efe5d410955fcaff365c2c7e532639e503888e1397f5500e5144263393e266",
+      "checkpoint": "cells/correctness-4a3978c7981b641a-2104-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "77b271f1ae176d772d6ce85bf81053e557f57feedcbfa5974ccae62ce87fa07c",
+      "index": 6,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "The fridge 1 is closed.",
+      "action_sha256": "03efe5d410955fcaff365c2c7e532639e503888e1397f5500e5144263393e266",
+      "checkpoint": "cells/correctness-4a3978c7981b641a-2105-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "bc99a24d1c3179fa108685aff16521e88007d8197f4dc1ddd2095be8e8a6e2ab",
+      "index": 3,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "You open the fridge 1. The fridge 1 is open. In it, you see a apple 1, a cup 1, and a egg 1.",
+      "action_sha256": "c1d5c576a436fb9c78659f12239ef4cc7b5eda4a2f06edf48011b17ddf2773bd",
+      "checkpoint": "cells/correctness-4a3978c7981b641a-2105-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "bc99a24d1c3179fa108685aff16521e88007d8197f4dc1ddd2095be8e8a6e2ab",
+      "index": 6,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You pick up the apple 1 from the fridge 1.",
+      "action_sha256": "0da8019a4e2537533ff0b1badda47a6b939888c0c1a9dac43c97b664e9a9d0c1",
+      "checkpoint": "cells/correctness-4a3978c7981b641a-2105-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "bc99a24d1c3179fa108685aff16521e88007d8197f4dc1ddd2095be8e8a6e2ab",
+      "index": 9,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You put the apple 1 in the microwave 1.",
+      "action_sha256": "a33421d52b3ead1e281216d5ff749eff1aa8799c35e909663fd6f3629202b052",
+      "checkpoint": "cells/correctness-4a3978c7981b641a-2105-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "bc99a24d1c3179fa108685aff16521e88007d8197f4dc1ddd2095be8e8a6e2ab",
+      "index": 15,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "The microwave 1 is now closed and contains the apple 1. You heat the apple 1 using the microwave 1.",
+      "action_sha256": "62d1fca967ac54360e448614072c9e3f6707c61fff4876fb1b8077fe15d39840",
+      "checkpoint": "cells/correctness-4a3978c7981b641a-2105-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "bc99a24d1c3179fa108685aff16521e88007d8197f4dc1ddd2095be8e8a6e2ab",
+      "index": 19,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "You put the apple 1 in the sidetable 1.",
+      "action_sha256": "60e955511948eb7acf9450d545cd072686eb7209428f5c2fcef54063863de55c",
+      "checkpoint": "cells/correctness-4a3978c7981b641a-2105-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "bc99a24d1c3179fa108685aff16521e88007d8197f4dc1ddd2095be8e8a6e2ab",
+      "index": 24,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You are in the middle of a room. Looking quickly around you, you see a cabinet 11, a cabinet 10, a cabinet 9, a cabinet 8, a cabinet 7, a cabinet 6, a cabinet 5",
+      "action_sha256": "43bd5d93e6efd56b4d944714efbf4c95c909ad8a2639e236e14aa7a89db37d34",
+      "checkpoint": "cells/correctness-4a3978c7981b641a-2105-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "bc99a24d1c3179fa108685aff16521e88007d8197f4dc1ddd2095be8e8a6e2ab",
+      "index": 26,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "check stoveburner 1",
+      "action_sha256": "5c91178e65315646d1cb1fb1f707d2e504beb972fc42467641751dbe3af754fe",
+      "checkpoint": "cells/correctness-4a3978c7981b641a-2106-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "c721354c81fe364040d99ec074d2fd182c52f60a69b2c224aa59c1e49ffe16e7",
+      "index": 19,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "turn on stoveburner 1",
+      "action_sha256": "376ef0362128470fc9857ab98290d7bed7fb62c422ed801f84c72a05cc2727e8",
+      "checkpoint": "cells/correctness-4a3978c7981b641a-2106-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "c721354c81fe364040d99ec074d2fd182c52f60a69b2c224aa59c1e49ffe16e7",
+      "index": 21,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "check stoveburner 2",
+      "action_sha256": "3a5b023695caf959edf23a1b484417e83c40b4bbbda5b3a8658da907bda0a0ba",
+      "checkpoint": "cells/correctness-4a3978c7981b641a-2106-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "c721354c81fe364040d99ec074d2fd182c52f60a69b2c224aa59c1e49ffe16e7",
+      "index": 26,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "turn on stoveburner 2",
+      "action_sha256": "e2adc702d2ff55dbc4d3686e6db982504a59dc09ba550dae02977fb3700fe85e",
+      "checkpoint": "cells/correctness-4a3978c7981b641a-2106-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "c721354c81fe364040d99ec074d2fd182c52f60a69b2c224aa59c1e49ffe16e7",
+      "index": 28,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "check stoveburner 3",
+      "action_sha256": "5196bcedc7c9c36d62496c2b8ebcf05c8451c3da85c5297b98130a519806283b",
+      "checkpoint": "cells/correctness-4a3978c7981b641a-2106-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "c721354c81fe364040d99ec074d2fd182c52f60a69b2c224aa59c1e49ffe16e7",
+      "index": 33,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "turn on stoveburner 3",
+      "action_sha256": "86653e94e8fac4338ee93b030b1e90023983c65a05d1575db2e79e2a5946116f",
+      "checkpoint": "cells/correctness-4a3978c7981b641a-2106-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "c721354c81fe364040d99ec074d2fd182c52f60a69b2c224aa59c1e49ffe16e7",
+      "index": 35,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "check stoveburner 4",
+      "action_sha256": "84053c478b65b92d2292c448e6a8a961258cbd0732b2103bf4cc1d8bd84ebae1",
+      "checkpoint": "cells/correctness-4a3978c7981b641a-2106-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "c721354c81fe364040d99ec074d2fd182c52f60a69b2c224aa59c1e49ffe16e7",
+      "index": 40,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "turn on stoveburner 4",
+      "action_sha256": "e906ca58473da4b4e780c1d98ce72cedfe5feb3e8440ea138e0504ed203b84ee",
+      "checkpoint": "cells/correctness-4a3978c7981b641a-2106-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "c721354c81fe364040d99ec074d2fd182c52f60a69b2c224aa59c1e49ffe16e7",
+      "index": 42,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "look in microwave 1",
+      "action_sha256": "6b4fdcb2dc44de6db13bd7ff75ef2f9a849204984e43ce9418689bf6bf7759e3",
+      "checkpoint": "cells/correctness-55f887bdc1cc1699-2104-N/trial-01/checkpoint.json",
+      "checkpoint_sha256": "74ea0c2ed61b0465c502e8256ceab52e1b948654de8ee1924ece89af41e36650",
+      "index": 41,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "The fridge 1 is closed.",
+      "action_sha256": "03efe5d410955fcaff365c2c7e532639e503888e1397f5500e5144263393e266",
+      "checkpoint": "cells/correctness-55f887bdc1cc1699-2104-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "419a36370f8e4aefa46d3a5f65860f0a14c464de2332a7d783a38d7d6e3b4607",
+      "index": 3,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "You open the fridge 1. The fridge 1 is open. In it, you see a apple 1, and a egg 1.",
+      "action_sha256": "d52a1416aa2443dbee3778d5efeba8f7a8521ed64e3504ccb3e00e13606979b3",
+      "checkpoint": "cells/correctness-55f887bdc1cc1699-2104-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "419a36370f8e4aefa46d3a5f65860f0a14c464de2332a7d783a38d7d6e3b4607",
+      "index": 6,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "look in microwave 1",
+      "action_sha256": "6b4fdcb2dc44de6db13bd7ff75ef2f9a849204984e43ce9418689bf6bf7759e3",
+      "checkpoint": "cells/correctness-55f887bdc1cc1699-2105-EC/trial-01/checkpoint.json",
+      "checkpoint_sha256": "67fa696b989cb0d6f06f451f8edacbc36f74b8f67e746e1f98e2740b1718e81f",
+      "index": 20,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "look in microwave 1",
+      "action_sha256": "6b4fdcb2dc44de6db13bd7ff75ef2f9a849204984e43ce9418689bf6bf7759e3",
+      "checkpoint": "cells/correctness-55f887bdc1cc1699-2105-EC/trial-01/checkpoint.json",
+      "checkpoint_sha256": "67fa696b989cb0d6f06f451f8edacbc36f74b8f67e746e1f98e2740b1718e81f",
+      "index": 27,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "heat microwave 1",
+      "action_sha256": "4dc29b126ca78c6f9c1afffe27cec2c22a503a413a67d7f6a8f52f9e887ddc32",
+      "checkpoint": "cells/correctness-55f887bdc1cc1699-2105-EC/trial-01/checkpoint.json",
+      "checkpoint_sha256": "67fa696b989cb0d6f06f451f8edacbc36f74b8f67e746e1f98e2740b1718e81f",
+      "index": 40,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "heat potato 1 in microwave 1",
+      "action_sha256": "18ed75072ba1d42129dfeb76c1b8557001c37e3f51df2abead5dacb88f94cbce",
+      "checkpoint": "cells/correctness-55f887bdc1cc1699-2105-EC/trial-01/checkpoint.json",
+      "checkpoint_sha256": "67fa696b989cb0d6f06f451f8edacbc36f74b8f67e746e1f98e2740b1718e81f",
+      "index": 42,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "heat microwave 1",
+      "action_sha256": "4dc29b126ca78c6f9c1afffe27cec2c22a503a413a67d7f6a8f52f9e887ddc32",
+      "checkpoint": "cells/correctness-55f887bdc1cc1699-2105-EC/trial-01/checkpoint.json",
+      "checkpoint_sha256": "67fa696b989cb0d6f06f451f8edacbc36f74b8f67e746e1f98e2740b1718e81f",
+      "index": 45,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "heat potato 1 in microwave 1",
+      "action_sha256": "18ed75072ba1d42129dfeb76c1b8557001c37e3f51df2abead5dacb88f94cbce",
+      "checkpoint": "cells/correctness-55f887bdc1cc1699-2105-EC/trial-01/checkpoint.json",
+      "checkpoint_sha256": "67fa696b989cb0d6f06f451f8edacbc36f74b8f67e746e1f98e2740b1718e81f",
+      "index": 47,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "drop apple 1 in/on countertop 1",
+      "action_sha256": "df73e2c844c5f9eb4be124a1dd5da0714b522d3721bafb14943f7cdf27e3b0cd",
+      "checkpoint": "cells/correctness-55f887bdc1cc1699-2105-EN/trial-01/checkpoint.json",
+      "checkpoint_sha256": "4757a642f4433e0904ac391c4c7db623f60e7adcefb2ea0387a26484d9ff38e3",
+      "index": 11,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "drop potato 1 in/on countertop 1",
+      "action_sha256": "9784c25c236ffbb037dc34d88ffa7c37fdb92ee0937f68659a59626bd9292610",
+      "checkpoint": "cells/correctness-55f887bdc1cc1699-2105-EN/trial-01/checkpoint.json",
+      "checkpoint_sha256": "4757a642f4433e0904ac391c4c7db623f60e7adcefb2ea0387a26484d9ff38e3",
+      "index": 15,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "drop potato 1 in/on countertop 1",
+      "action_sha256": "9784c25c236ffbb037dc34d88ffa7c37fdb92ee0937f68659a59626bd9292610",
+      "checkpoint": "cells/correctness-55f887bdc1cc1699-2105-EN/trial-01/checkpoint.json",
+      "checkpoint_sha256": "4757a642f4433e0904ac391c4c7db623f60e7adcefb2ea0387a26484d9ff38e3",
+      "index": 17,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "drop potato 1 in/on countertop 1",
+      "action_sha256": "9784c25c236ffbb037dc34d88ffa7c37fdb92ee0937f68659a59626bd9292610",
+      "checkpoint": "cells/correctness-55f887bdc1cc1699-2105-EN/trial-01/checkpoint.json",
+      "checkpoint_sha256": "4757a642f4433e0904ac391c4c7db623f60e7adcefb2ea0387a26484d9ff38e3",
+      "index": 19,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "The fridge 1 is closed.",
+      "action_sha256": "03efe5d410955fcaff365c2c7e532639e503888e1397f5500e5144263393e266",
+      "checkpoint": "cells/correctness-55f887bdc1cc1699-2105-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "b322b638c6f3785af3eec829a1360228d27fcaabae238655fd5b1d55cc52aa30",
+      "index": 3,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "You open the fridge 1. The fridge 1 is open. In it, you see a apple 1, and a egg 1.",
+      "action_sha256": "d52a1416aa2443dbee3778d5efeba8f7a8521ed64e3504ccb3e00e13606979b3",
+      "checkpoint": "cells/correctness-55f887bdc1cc1699-2105-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "b322b638c6f3785af3eec829a1360228d27fcaabae238655fd5b1d55cc52aa30",
+      "index": 6,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "drop apple 1 in/on countertop 1",
+      "action_sha256": "df73e2c844c5f9eb4be124a1dd5da0714b522d3721bafb14943f7cdf27e3b0cd",
+      "checkpoint": "cells/correctness-55f887bdc1cc1699-2106-EC/trial-01/checkpoint.json",
+      "checkpoint_sha256": "eeabc1787f3299a0175dd85fde18c14f7d08aca326aeb97017c54e350ce4f54e",
+      "index": 11,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "drop potato 1 in/on countertop 1",
+      "action_sha256": "9784c25c236ffbb037dc34d88ffa7c37fdb92ee0937f68659a59626bd9292610",
+      "checkpoint": "cells/correctness-55f887bdc1cc1699-2106-EC/trial-01/checkpoint.json",
+      "checkpoint_sha256": "eeabc1787f3299a0175dd85fde18c14f7d08aca326aeb97017c54e350ce4f54e",
+      "index": 15,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "drop potato 1 in/on countertop 1",
+      "action_sha256": "9784c25c236ffbb037dc34d88ffa7c37fdb92ee0937f68659a59626bd9292610",
+      "checkpoint": "cells/correctness-55f887bdc1cc1699-2106-EC/trial-01/checkpoint.json",
+      "checkpoint_sha256": "eeabc1787f3299a0175dd85fde18c14f7d08aca326aeb97017c54e350ce4f54e",
+      "index": 18,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "drop potato 1 in/on countertop 1",
+      "action_sha256": "9784c25c236ffbb037dc34d88ffa7c37fdb92ee0937f68659a59626bd9292610",
+      "checkpoint": "cells/correctness-55f887bdc1cc1699-2106-EC/trial-01/checkpoint.json",
+      "checkpoint_sha256": "eeabc1787f3299a0175dd85fde18c14f7d08aca326aeb97017c54e350ce4f54e",
+      "index": 20,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "drop potato 1 in/on countertop 1",
+      "action_sha256": "9784c25c236ffbb037dc34d88ffa7c37fdb92ee0937f68659a59626bd9292610",
+      "checkpoint": "cells/correctness-55f887bdc1cc1699-2106-EC/trial-01/checkpoint.json",
+      "checkpoint_sha256": "eeabc1787f3299a0175dd85fde18c14f7d08aca326aeb97017c54e350ce4f54e",
+      "index": 23,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "drop potato 1 at microwave 1",
+      "action_sha256": "6cde2d95f6dcd3ae894048a6d86bda51bc6b7134d2b1f05ed6c5f82bb0ba86b1",
+      "checkpoint": "cells/correctness-55f887bdc1cc1699-2106-EN/trial-01/checkpoint.json",
+      "checkpoint_sha256": "127d94078704b0cc42f66bebc61b506564b468a18c63a98eec63145a7271b6a4",
+      "index": 13,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "drop potato 1 at microwave 1",
+      "action_sha256": "6cde2d95f6dcd3ae894048a6d86bda51bc6b7134d2b1f05ed6c5f82bb0ba86b1",
+      "checkpoint": "cells/correctness-55f887bdc1cc1699-2106-EN/trial-01/checkpoint.json",
+      "checkpoint_sha256": "127d94078704b0cc42f66bebc61b506564b468a18c63a98eec63145a7271b6a4",
+      "index": 18,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "drop potato 1 at microwave 1",
+      "action_sha256": "6cde2d95f6dcd3ae894048a6d86bda51bc6b7134d2b1f05ed6c5f82bb0ba86b1",
+      "checkpoint": "cells/correctness-55f887bdc1cc1699-2106-EN/trial-01/checkpoint.json",
+      "checkpoint_sha256": "127d94078704b0cc42f66bebc61b506564b468a18c63a98eec63145a7271b6a4",
+      "index": 20,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "drop potato 1 at microwave 1",
+      "action_sha256": "6cde2d95f6dcd3ae894048a6d86bda51bc6b7134d2b1f05ed6c5f82bb0ba86b1",
+      "checkpoint": "cells/correctness-55f887bdc1cc1699-2106-EN/trial-01/checkpoint.json",
+      "checkpoint_sha256": "127d94078704b0cc42f66bebc61b506564b468a18c63a98eec63145a7271b6a4",
+      "index": 22,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "You open the fridge 1. The fridge 1 is open. In it, you see a apple 1, and a egg 1.",
+      "action_sha256": "d52a1416aa2443dbee3778d5efeba8f7a8521ed64e3504ccb3e00e13606979b3",
+      "checkpoint": "cells/correctness-55f887bdc1cc1699-2106-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "dc9d23c6efe72ce3fb91ce9cef3c4a46a73950937f4dee2809bed7999c5714fa",
+      "index": 3,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You arrive at diningtable 1. On the diningtable 1, you see a apple 2, a bread 3, a egg 1, a kettle 1, a knife 1, a mug 1, a papertowelroll 1, a peppershaker 2, ",
+      "action_sha256": "a47e67b8825e9561f2f08db00f131a32da12b564e1eaa9e86d5c24ffc7bfd788",
+      "checkpoint": "cells/correctness-55f887bdc1cc1699-2106-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "dc9d23c6efe72ce3fb91ce9cef3c4a46a73950937f4dee2809bed7999c5714fa",
+      "index": 24,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You pick up the potato 1 from the diningtable 1.",
+      "action_sha256": "27f477e3d63195345580057fe72e2664bd45c4d454c918d1e5d404d706ab54dc",
+      "checkpoint": "cells/correctness-55f887bdc1cc1699-2106-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "dc9d23c6efe72ce3fb91ce9cef3c4a46a73950937f4dee2809bed7999c5714fa",
+      "index": 27,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You heat the potato 1 using the microwave 1.",
+      "action_sha256": "a10a03fd8a5ac87f921abc7bf87878bebd7c56d89b72189e0f8b29fbb142e796",
+      "checkpoint": "cells/correctness-55f887bdc1cc1699-2106-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "dc9d23c6efe72ce3fb91ce9cef3c4a46a73950937f4dee2809bed7999c5714fa",
+      "index": 33,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You put the potato 1 in/on the garbagecan 1.",
+      "action_sha256": "b708100bbf761096025cceff06f8944302c5640ea94bf0593c99ddad3e9f51aa",
+      "checkpoint": "cells/correctness-55f887bdc1cc1699-2106-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "dc9d23c6efe72ce3fb91ce9cef3c4a46a73950937f4dee2809bed7999c5714fa",
+      "index": 38,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You are in the middle of a room. Looking quickly around you, you see a cabinet 13, a cabinet 12, a cabinet 11, a cabinet 10, a cabinet 9, a cabinet 8, a cabinet",
+      "action_sha256": "08922ca248bca95cf4dd88339b7af9cd0a43439a41dea71664e7c85abe43fbec",
+      "checkpoint": "cells/correctness-55f887bdc1cc1699-2106-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "dc9d23c6efe72ce3fb91ce9cef3c4a46a73950937f4dee2809bed7999c5714fa",
+      "index": 40,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You open the fridge 1. The fridge 1 is open. In it, you see a apple 1, and a egg 1.",
+      "action_sha256": "d52a1416aa2443dbee3778d5efeba8f7a8521ed64e3504ccb3e00e13606979b3",
+      "checkpoint": "cells/correctness-55f887bdc1cc1699-2106-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "dc9d23c6efe72ce3fb91ce9cef3c4a46a73950937f4dee2809bed7999c5714fa",
+      "index": 44,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "turn on stoveburner 1",
+      "action_sha256": "376ef0362128470fc9857ab98290d7bed7fb62c422ed801f84c72a05cc2727e8",
+      "checkpoint": "cells/correctness-69b7fb1c70f5d271-2104-EN/trial-01/checkpoint.json",
+      "checkpoint_sha256": "173be6fe71415c00e8d978b11f399cc928f05cfb4df892ea8855b134c9e2140f",
+      "index": 37,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "look in microwave 1",
+      "action_sha256": "6b4fdcb2dc44de6db13bd7ff75ef2f9a849204984e43ce9418689bf6bf7759e3",
+      "checkpoint": "cells/correctness-69b7fb1c70f5d271-2106-EC/trial-01/checkpoint.json",
+      "checkpoint_sha256": "ad8bc4e35259f9fee0a853b58af57d1933074b2882e4b51d16d3dbfc81dc4018",
+      "index": 19,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "look in microwave 1",
+      "action_sha256": "6b4fdcb2dc44de6db13bd7ff75ef2f9a849204984e43ce9418689bf6bf7759e3",
+      "checkpoint": "cells/correctness-69b7fb1c70f5d271-2106-EN/trial-01/checkpoint.json",
+      "checkpoint_sha256": "6690bbc1374c805bd6720bdf341ed0b5f39d421d513fbdc725e59d55585d53b8",
+      "index": 19,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "You open the fridge 1. The fridge 1 is open. In it, you see a apple 1, a egg 1, and a potato 1.",
+      "action_sha256": "934ecb6ec48186c2fd7670a4d0121410e362f607a9743ca40752cc427cfba496",
+      "checkpoint": "cells/correctness-790b6f6fefeac9d1-2104-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "edecda324845a691dafe3cb7965b60b565fefcf08f52d659305c862a187b3eec",
+      "index": 3,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You open the cabinet 9. The cabinet 9 is open. In it, you see nothing.",
+      "action_sha256": "6c909e0e0b222d05947504539c9e273dbece05e960ee1196926520e205edc815",
+      "checkpoint": "cells/correctness-790b6f6fefeac9d1-2104-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "edecda324845a691dafe3cb7965b60b565fefcf08f52d659305c862a187b3eec",
+      "index": 42,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "I cannot complete the task to \"put a hot mug in cabinet\" because I was unable to find a mug in any of the locations I checked. The required item (a mug) is miss",
+      "action_sha256": "7c6f340af449837ec22d94d2841910b5e2fa108c1b74571b4d27875d531bd32b",
+      "checkpoint": "cells/correctness-790b6f6fefeac9d1-2105-C/trial-01/checkpoint.json",
+      "checkpoint_sha256": "3fa64bff57e9eec86763c56ec3a97fe5fcaf9af10f9e181ae30c0503442266e1",
+      "index": 47,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "You open the fridge 1. The fridge 1 is open. In it, you see a apple 1, and a egg 1.",
+      "action_sha256": "d52a1416aa2443dbee3778d5efeba8f7a8521ed64e3504ccb3e00e13606979b3",
+      "checkpoint": "cells/correctness-790b6f6fefeac9d1-2105-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "100dcf7a88865d6dbe7304a6ac91a8463b06499962285c870422bfe8947b8d84",
+      "index": 3,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You arrive at cabinet 1. The cabinet 1 is closed.",
+      "action_sha256": "2c205619f1555a832330c9add79036695dffb0bf8356d6a2cfc1d3db0192fa31",
+      "checkpoint": "cells/correctness-790b6f6fefeac9d1-2105-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "100dcf7a88865d6dbe7304a6ac91a8463b06499962285c870422bfe8947b8d84",
+      "index": 25,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You open the cabinet 1. The cabinet 1 is open. In it, you see a bread 2, a cup 2, and a knife 3.",
+      "action_sha256": "2620ea570b028059cb94bc2132800da00485ea13c87aa2c949ebcd1390943ade",
+      "checkpoint": "cells/correctness-790b6f6fefeac9d1-2105-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "100dcf7a88865d6dbe7304a6ac91a8463b06499962285c870422bfe8947b8d84",
+      "index": 27,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You arrive at cabinet 4. The cabinet 4 is closed.",
+      "action_sha256": "1ea6b8245f07bd45754d346f6e5d0fc0074f946aaa116f5bcfeb9ab1e6f99a52",
+      "checkpoint": "cells/correctness-790b6f6fefeac9d1-2105-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "100dcf7a88865d6dbe7304a6ac91a8463b06499962285c870422bfe8947b8d84",
+      "index": 35,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You open the cabinet 4. The cabinet 4 is open. In it, you see a bowl 2, a cup 3, and a knife 4.",
+      "action_sha256": "5091c6038102069800db907a999b976812564c9efe2fbbe4d51e5d12194c4449",
+      "checkpoint": "cells/correctness-790b6f6fefeac9d1-2105-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "100dcf7a88865d6dbe7304a6ac91a8463b06499962285c870422bfe8947b8d84",
+      "index": 37,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You arrive at cabinet 8. The cabinet 8 is closed.",
+      "action_sha256": "6afb7aefe810f605189a1de33836f6477f51ed8e494e12b612f2a387115fa629",
+      "checkpoint": "cells/correctness-790b6f6fefeac9d1-2105-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "100dcf7a88865d6dbe7304a6ac91a8463b06499962285c870422bfe8947b8d84",
+      "index": 48,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You open the fridge 1. The fridge 1 is open. In it, you see a apple 1, and a egg 1.",
+      "action_sha256": "d52a1416aa2443dbee3778d5efeba8f7a8521ed64e3504ccb3e00e13606979b3",
+      "checkpoint": "cells/correctness-790b6f6fefeac9d1-2106-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "1b063f14c4d296cce056c77556cc3d1e40b7b76d3d234c13258c8cf29fab8232",
+      "index": 3,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "turn on stoveburner 3",
+      "action_sha256": "86653e94e8fac4338ee93b030b1e90023983c65a05d1575db2e79e2a5946116f",
+      "checkpoint": "cells/correctness-bf6d3dba86f7f0e4-2104-EC/trial-01/checkpoint.json",
+      "checkpoint_sha256": "abb427b1a0616ff324451b8ac500dec15174ea8566113094819e290fbfd61b3b",
+      "index": 38,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "You open the fridge 1. The fridge 1 is open. In it, you see a apple 1, a egg 1, and a lettuce 1.",
+      "action_sha256": "045d07c59f39eac4412d2093b93cb952a10d7cbffe44b38d1c0d24d3b1bb81d4",
+      "checkpoint": "cells/correctness-bf6d3dba86f7f0e4-2104-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "7db72118ad72492cf19acb2e3dc0a9f4e55ccc61ce54e8170e760c6e69ec2b58",
+      "index": 3,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You open the fridge 1. The fridge 1 is open. In it, you see a apple 1, a egg 1, and a lettuce 1.",
+      "action_sha256": "045d07c59f39eac4412d2093b93cb952a10d7cbffe44b38d1c0d24d3b1bb81d4",
+      "checkpoint": "cells/correctness-bf6d3dba86f7f0e4-2105-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "0b7b1f9942e51495c49df927cc0dc01135e0489465aab2094487ce4089492135",
+      "index": 3,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "turn on stoveburner 1",
+      "action_sha256": "376ef0362128470fc9857ab98290d7bed7fb62c422ed801f84c72a05cc2727e8",
+      "checkpoint": "cells/correctness-bf6d3dba86f7f0e4-2106-C/trial-01/checkpoint.json",
+      "checkpoint_sha256": "3e51a7ebb22c9cb6fc8353d3d71ac9a8eb5cbe678f646a0d32941ce4ba65fc45",
+      "index": 22,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "fill mug 1 with water from sinkbasin 1",
+      "action_sha256": "dd41ebd1340f268d0f2fb59139de2dfc5290c2065ff32ccec36299e77ddee35f",
+      "checkpoint": "cells/correctness-bf6d3dba86f7f0e4-2106-EN/trial-01/checkpoint.json",
+      "checkpoint_sha256": "9c55531de59024d738989307bc6b4a56d31f8bfb33c1ffcba12e3195c0b72029",
+      "index": 25,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "You open the fridge 1. The fridge 1 is open. In it, you see a apple 1, and a egg 1.",
+      "action_sha256": "d52a1416aa2443dbee3778d5efeba8f7a8521ed64e3504ccb3e00e13606979b3",
+      "checkpoint": "cells/correctness-bf6d3dba86f7f0e4-2106-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "371828bf7b896d15b51d0dc093966d7262ea30e7240b7b8e9fce5094cc90c608",
+      "index": 3,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "turn on stoveburner 1",
+      "action_sha256": "376ef0362128470fc9857ab98290d7bed7fb62c422ed801f84c72a05cc2727e8",
+      "checkpoint": "cells/correctness-bf7043e154cc1d53-2104-EC/trial-01/checkpoint.json",
+      "checkpoint_sha256": "a1e031dff44b9e511da25f56684571c6801f05a4866c7604ef0802eae14757cc",
+      "index": 25,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "turn on stoveburner 1",
+      "action_sha256": "376ef0362128470fc9857ab98290d7bed7fb62c422ed801f84c72a05cc2727e8",
+      "checkpoint": "cells/correctness-bf7043e154cc1d53-2104-EC/trial-01/checkpoint.json",
+      "checkpoint_sha256": "a1e031dff44b9e511da25f56684571c6801f05a4866c7604ef0802eae14757cc",
+      "index": 28,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "turn on stoveburner 2",
+      "action_sha256": "e2adc702d2ff55dbc4d3686e6db982504a59dc09ba550dae02977fb3700fe85e",
+      "checkpoint": "cells/correctness-bf7043e154cc1d53-2104-EC/trial-01/checkpoint.json",
+      "checkpoint_sha256": "a1e031dff44b9e511da25f56684571c6801f05a4866c7604ef0802eae14757cc",
+      "index": 35,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "turn on stoveburner 4",
+      "action_sha256": "e906ca58473da4b4e780c1d98ce72cedfe5feb3e8440ea138e0504ed203b84ee",
+      "checkpoint": "cells/correctness-bf7043e154cc1d53-2104-EC/trial-01/checkpoint.json",
+      "checkpoint_sha256": "a1e031dff44b9e511da25f56684571c6801f05a4866c7604ef0802eae14757cc",
+      "index": 48,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "turn on stoveburner 1",
+      "action_sha256": "376ef0362128470fc9857ab98290d7bed7fb62c422ed801f84c72a05cc2727e8",
+      "checkpoint": "cells/correctness-bf7043e154cc1d53-2105-C/trial-01/checkpoint.json",
+      "checkpoint_sha256": "a95a1ca85a6b6904f19248c9082fc4150d50d2ca8ea173f9b1f2cc60d9b17fe2",
+      "index": 28,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "turn on stoveburner 2",
+      "action_sha256": "e2adc702d2ff55dbc4d3686e6db982504a59dc09ba550dae02977fb3700fe85e",
+      "checkpoint": "cells/correctness-bf7043e154cc1d53-2105-C/trial-01/checkpoint.json",
+      "checkpoint_sha256": "a95a1ca85a6b6904f19248c9082fc4150d50d2ca8ea173f9b1f2cc60d9b17fe2",
+      "index": 33,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "drop bowl 2 in microwave 1",
+      "action_sha256": "3ab68410b9fd95980c9d37ffdab2780b44fcc389adbf4e7a125ede2d2751ad15",
+      "checkpoint": "cells/correctness-bf7043e154cc1d53-2105-EN/trial-01/checkpoint.json",
+      "checkpoint_sha256": "5689c74dba6d587975bfdbc7b6f535c12c33bd034f34e8280f35a745d36fa4f8",
+      "index": 15,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "heat egg 1 using microwave 1",
+      "action_sha256": "a119a05aadca2136ab4d2d746f7d9f352243e68710d136e14a611868daa0eb12",
+      "checkpoint": "cells/correctness-bf7043e154cc1d53-2106-C/trial-01/checkpoint.json",
+      "checkpoint_sha256": "6cd5ec68d4f79e72230e2fbd1e856c14a049b4cdf9d43db0612c4e621bae2cc2",
+      "index": 20,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "use microwave 1 with egg 1",
+      "action_sha256": "b46b4b7309f6cc8867827f6b4bf034412405e02b30289a3e086ca5f9984984b3",
+      "checkpoint": "cells/correctness-bf7043e154cc1d53-2106-C/trial-01/checkpoint.json",
+      "checkpoint_sha256": "6cd5ec68d4f79e72230e2fbd1e856c14a049b4cdf9d43db0612c4e621bae2cc2",
+      "index": 27,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "turn on stoveburner 4",
+      "action_sha256": "e906ca58473da4b4e780c1d98ce72cedfe5feb3e8440ea138e0504ed203b84ee",
+      "checkpoint": "cells/correctness-d534fcfe5e56c028-2104-EC/trial-01/checkpoint.json",
+      "checkpoint_sha256": "655110eeda5e51e33e7cd351a78506a7d47d4b5973ca57b08a61ba1fe5349e2c",
+      "index": 37,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "turn on stoveburner 1",
+      "action_sha256": "376ef0362128470fc9857ab98290d7bed7fb62c422ed801f84c72a05cc2727e8",
+      "checkpoint": "cells/correctness-d534fcfe5e56c028-2104-EN/trial-01/checkpoint.json",
+      "checkpoint_sha256": "0f03441e8a2bbe18ab1f4dbdf8c6fbf7503487e8c24809551af10906a8ba35e7",
+      "index": 16,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "You are in the middle of a room. Looking quickly around you, you see a cabinet 20, a cabinet 19, a cabinet 18, a cabinet 17, a cabinet 16, a cabinet 15, a cabin",
+      "action_sha256": "647ca8ce521259f683ae9cecbcf741d0acb01e8701102333baf81fadcea20450",
+      "checkpoint": "cells/correctness-d534fcfe5e56c028-2105-EC/trial-01/checkpoint.json",
+      "checkpoint_sha256": "43bed156d0eecb7cf133abf6ca6a4154873d09b4445a33c670a14122193a95fd",
+      "index": 21,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You open the fridge 1. The fridge 1 is open. In it, you see a apple 1, and a egg 1.",
+      "action_sha256": "d52a1416aa2443dbee3778d5efeba8f7a8521ed64e3504ccb3e00e13606979b3",
+      "checkpoint": "cells/correctness-dae15e890956dd5e-2104-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "c62b4e693da9d53ca074d36058ad1e93104ce25c27edd68b47bdb35255763f9b",
+      "index": 3,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You move the cup 2 to the microwave 1.",
+      "action_sha256": "cf4351da17e84a8b1899afcb71bdcd82fcb519ef251b247cbfa7ac012f66c9d5",
+      "checkpoint": "cells/correctness-dae15e890956dd5e-2105-EC/trial-01/checkpoint.json",
+      "checkpoint_sha256": "4b802517ccdb5f1771c26d52d55d99f1f59f3d08bda427d3c4ec2c6206a33e7a",
+      "index": 30,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You are in the middle of a room. Looking quickly around you, you see a cabinet 13, a cabinet 12, a cabinet 11, a cabinet 10, a cabinet 9, a cabinet 8, a cabinet",
+      "action_sha256": "50b20853cf8d608fc1b4c3be8d17237a2bbe63bacc7fb474713614d9e2afa137",
+      "checkpoint": "cells/correctness-dae15e890956dd5e-2105-N/trial-01/checkpoint.json",
+      "checkpoint_sha256": "86abd645d2adac71e709ff02b33b3378ce974a605ac08cc4df0ade766dd99ee8",
+      "index": 26,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You open the fridge 1. The fridge 1 is open. In it, you see a apple 1, and a egg 1.",
+      "action_sha256": "d52a1416aa2443dbee3778d5efeba8f7a8521ed64e3504ccb3e00e13606979b3",
+      "checkpoint": "cells/correctness-dae15e890956dd5e-2105-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "27859769ad3e94f2ef9fc2278f6f1144c1dabcbdf39ffccaa8b78052e1992aa4",
+      "index": 3,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You open the fridge 1. The fridge 1 is open. In it, you see a apple 1, and a egg 1.",
+      "action_sha256": "d52a1416aa2443dbee3778d5efeba8f7a8521ed64e3504ccb3e00e13606979b3",
+      "checkpoint": "cells/correctness-dae15e890956dd5e-2105-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "27859769ad3e94f2ef9fc2278f6f1144c1dabcbdf39ffccaa8b78052e1992aa4",
+      "index": 7,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You open the fridge 1. The fridge 1 is open. In it, you see a apple 1, and a egg 1.",
+      "action_sha256": "d52a1416aa2443dbee3778d5efeba8f7a8521ed64e3504ccb3e00e13606979b3",
+      "checkpoint": "cells/correctness-dae15e890956dd5e-2106-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "517959d3b54112e327f273eda993275f7ea900210ee3d9387ac6f7060687eab4",
+      "index": 3,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "drop egg 2 on diningtable 1",
+      "action_sha256": "45232db367a53e86b1381968edc774ffcde6676aca9edb51cded1d51cf3dfb5a",
+      "checkpoint": "cells/correctness-dd93ff2604e30529-2104-N/trial-01/checkpoint.json",
+      "checkpoint_sha256": "43e56c2d210281aa71f1416a7941e86b476134938c626f57af5ad757bc17cea2",
+      "index": 10,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "place egg 2 on diningtable 1",
+      "action_sha256": "a01face520fcfc97cb242903fc94fadb8a86da4d0891fa4a807befbb5d4d85ff",
+      "checkpoint": "cells/correctness-dd93ff2604e30529-2104-N/trial-01/checkpoint.json",
+      "checkpoint_sha256": "43e56c2d210281aa71f1416a7941e86b476134938c626f57af5ad757bc17cea2",
+      "index": 37,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "turn on microwave 1",
+      "action_sha256": "e265d1339d4485934d13c2bbdc066ee85ac8572205353c336aa4a3617a087689",
+      "checkpoint": "cells/correctness-dd93ff2604e30529-2105-EC/trial-01/checkpoint.json",
+      "checkpoint_sha256": "f7156274246263c5cbc3ec8bee7dd50afdbddfd06268d4cac30de2c3cd158f7d",
+      "index": 29,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "look in pot 1",
+      "action_sha256": "1e8e3e7390d0e3dcb9dbf80cce352cb635ba4516aec007540816b37e4866cded",
+      "checkpoint": "cells/correctness-dd93ff2604e30529-2105-EN/trial-01/checkpoint.json",
+      "checkpoint_sha256": "2f85aa6956b63b79bc633e7c66844c8a4f11bb705fa0df2c9f8e7cca8ad253b5",
+      "index": 33,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "place egg 2 on stoveburner 1",
+      "action_sha256": "f3147486efc394662f7fbd0579cabea925fb2529ba4e02542309919eb2e3089a",
+      "checkpoint": "cells/correctness-dd93ff2604e30529-2105-EN/trial-01/checkpoint.json",
+      "checkpoint_sha256": "2f85aa6956b63b79bc633e7c66844c8a4f11bb705fa0df2c9f8e7cca8ad253b5",
+      "index": 45,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "turn on microwave 1",
+      "action_sha256": "e265d1339d4485934d13c2bbdc066ee85ac8572205353c336aa4a3617a087689",
+      "checkpoint": "cells/correctness-dd93ff2604e30529-2106-EC/trial-01/checkpoint.json",
+      "checkpoint_sha256": "8d4b114ab43478e72ffa25e82caca32871b1f3dda738a246768c2bfe9b8b92cd",
+      "index": 22,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "heat egg 2",
+      "action_sha256": "95d9daa38e16168501132b3343ab10a5a5919a4af383ff719e9a2315494e520f",
+      "checkpoint": "cells/correctness-dd93ff2604e30529-2106-EC/trial-01/checkpoint.json",
+      "checkpoint_sha256": "8d4b114ab43478e72ffa25e82caca32871b1f3dda738a246768c2bfe9b8b92cd",
+      "index": 47,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "turn on stoveburner 2",
+      "action_sha256": "e2adc702d2ff55dbc4d3686e6db982504a59dc09ba550dae02977fb3700fe85e",
+      "checkpoint": "cells/correctness-e4244c54d52f3326-2104-EC/trial-01/checkpoint.json",
+      "checkpoint_sha256": "a21824476839311340029c406525ecb0eb48b7781a38ee2bf5df004193c2389b",
+      "index": 42,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "The fridge 1 is closed.",
+      "action_sha256": "03efe5d410955fcaff365c2c7e532639e503888e1397f5500e5144263393e266",
+      "checkpoint": "cells/correctness-e4244c54d52f3326-2104-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "2ef86c15c748cdb192a37e6cb26b2bb7ad3369b7bd670de34faa6a283367e1e8",
+      "index": 3,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "You open the fridge 1. The fridge 1 is open. In it, you see a apple 1, a egg 1, and a milk 1.",
+      "action_sha256": "9bc561e4691339cfb5643298244f9c2475e55f82cf73ef177e65152b04c96b8e",
+      "checkpoint": "cells/correctness-e4244c54d52f3326-2104-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "2ef86c15c748cdb192a37e6cb26b2bb7ad3369b7bd670de34faa6a283367e1e8",
+      "index": 6,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You pick up the apple 1 from the fridge 1.",
+      "action_sha256": "0da8019a4e2537533ff0b1badda47a6b939888c0c1a9dac43c97b664e9a9d0c1",
+      "checkpoint": "cells/correctness-e4244c54d52f3326-2104-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "2ef86c15c748cdb192a37e6cb26b2bb7ad3369b7bd670de34faa6a283367e1e8",
+      "index": 9,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "The microwave 1 is empty. I need to place the apple 1 inside first before heating it.",
+      "action_sha256": "8a5fb6f050d64d544ad147aabd6dcede7a302598c39ec2adc8342fba910efdfd",
+      "checkpoint": "cells/correctness-e4244c54d52f3326-2104-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "2ef86c15c748cdb192a37e6cb26b2bb7ad3369b7bd670de34faa6a283367e1e8",
+      "index": 15,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "You put the apple 1 in the microwave 1.",
+      "action_sha256": "a33421d52b3ead1e281216d5ff749eff1aa8799c35e909663fd6f3629202b052",
+      "checkpoint": "cells/correctness-e4244c54d52f3326-2104-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "2ef86c15c748cdb192a37e6cb26b2bb7ad3369b7bd670de34faa6a283367e1e8",
+      "index": 18,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "The microwave 1 is now heating the apple 1.",
+      "action_sha256": "73e0d1e940eac5c945e6cc93e693f6cf98b0a23dc9bd61fb6a5613aa438e1a36",
+      "checkpoint": "cells/correctness-e4244c54d52f3326-2104-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "2ef86c15c748cdb192a37e6cb26b2bb7ad3369b7bd670de34faa6a283367e1e8",
+      "index": 21,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "wait for microwave 1 to finish heating",
+      "action_sha256": "a10290dd7d5ac10e9e95f79999c44638aeacaab2cacda5d9f1ce0e19851cb3af",
+      "checkpoint": "cells/correctness-e4244c54d52f3326-2104-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "2ef86c15c748cdb192a37e6cb26b2bb7ad3369b7bd670de34faa6a283367e1e8",
+      "index": 23,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "You pick up the apple 1 from the microwave 1.",
+      "action_sha256": "8563f4e9cf62f5852284f598a090fbd303671e79daaabbcf2ce66c537ae03b8e",
+      "checkpoint": "cells/correctness-e4244c54d52f3326-2104-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "2ef86c15c748cdb192a37e6cb26b2bb7ad3369b7bd670de34faa6a283367e1e8",
+      "index": 26,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You put the apple 1 in the garbagecan 1.",
+      "action_sha256": "e7b08d3dd4ce6c653886fcecb854e5ac8780f9d871e4eaa50af9f496a67e5544",
+      "checkpoint": "cells/correctness-e4244c54d52f3326-2104-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "2ef86c15c748cdb192a37e6cb26b2bb7ad3369b7bd670de34faa6a283367e1e8",
+      "index": 31,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You are in the middle of a room. Looking quickly around you, you see a cabinet 18, a cabinet 17, a cabinet 16, a cabinet 15, a cabinet 14, a cabinet 13, a cabin",
+      "action_sha256": "46d66fd72404dfcb8d243eac655af6267f70c33641b9a191ca27bbcbc565aa24",
+      "checkpoint": "cells/correctness-e4244c54d52f3326-2104-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "2ef86c15c748cdb192a37e6cb26b2bb7ad3369b7bd670de34faa6a283367e1e8",
+      "index": 32,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You open the fridge 1. The fridge 1 is open. In it, you see a apple 1, a egg 1, and a milk 1.",
+      "action_sha256": "9bc561e4691339cfb5643298244f9c2475e55f82cf73ef177e65152b04c96b8e",
+      "checkpoint": "cells/correctness-e4244c54d52f3326-2104-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "2ef86c15c748cdb192a37e6cb26b2bb7ad3369b7bd670de34faa6a283367e1e8",
+      "index": 39,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You pick up the apple 1 from the fridge 1.",
+      "action_sha256": "0da8019a4e2537533ff0b1badda47a6b939888c0c1a9dac43c97b664e9a9d0c1",
+      "checkpoint": "cells/correctness-e4244c54d52f3326-2104-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "2ef86c15c748cdb192a37e6cb26b2bb7ad3369b7bd670de34faa6a283367e1e8",
+      "index": 42,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You put the apple 1 in the microwave 1.",
+      "action_sha256": "a33421d52b3ead1e281216d5ff749eff1aa8799c35e909663fd6f3629202b052",
+      "checkpoint": "cells/correctness-e4244c54d52f3326-2104-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "2ef86c15c748cdb192a37e6cb26b2bb7ad3369b7bd670de34faa6a283367e1e8",
+      "index": 47,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "turn on stoveburner 1",
+      "action_sha256": "376ef0362128470fc9857ab98290d7bed7fb62c422ed801f84c72a05cc2727e8",
+      "checkpoint": "cells/correctness-e4244c54d52f3326-2105-EC/trial-01/checkpoint.json",
+      "checkpoint_sha256": "a3f4fbc13b8b59925bd4e2ba7714cb6ea3e5e7e7ec3bc64d6849649f1a0c44d7",
+      "index": 26,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "turn on stoveburner 1",
+      "action_sha256": "376ef0362128470fc9857ab98290d7bed7fb62c422ed801f84c72a05cc2727e8",
+      "checkpoint": "cells/correctness-e4244c54d52f3326-2105-EN/trial-01/checkpoint.json",
+      "checkpoint_sha256": "522e55ccc26b6ec77b7f58edb8bc01afb36a6ee92a09704032895449ac475a76",
+      "index": 31,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "turn on stoveburner 2",
+      "action_sha256": "e2adc702d2ff55dbc4d3686e6db982504a59dc09ba550dae02977fb3700fe85e",
+      "checkpoint": "cells/correctness-e4244c54d52f3326-2105-EN/trial-01/checkpoint.json",
+      "checkpoint_sha256": "522e55ccc26b6ec77b7f58edb8bc01afb36a6ee92a09704032895449ac475a76",
+      "index": 42,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "You open the fridge 1. The fridge 1 is open. In it, you see a cup 1, and a egg 1.",
+      "action_sha256": "15929f838cf2e1915bf8c4f26d25575adc1c9c6f17991a90a462c9676587d482",
+      "checkpoint": "cells/correctness-e4244c54d52f3326-2105-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "f8664f538ad3fce378d31860edc625cef6770fc89346db7aee3ad84f04223656",
+      "index": 3,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You open the fridge 1. The fridge 1 is open. In it, you see a banana 1, a cup 1, and a egg 1.",
+      "action_sha256": "b4fc06589cf19f2f13d537ef0e62ab8929726464e5f0559c595ea1ce3b3cebe3",
+      "checkpoint": "cells/correctness-e4244c54d52f3326-2106-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "935813512527d82c413d7b4cda90d80e6deaab28be147a97ccca0984e7d8733a",
+      "index": 3,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You open the fridge 1. The fridge 1 is open. In it, you see a apple 1, a egg 1, and a milk 1.",
+      "action_sha256": "9bc561e4691339cfb5643298244f9c2475e55f82cf73ef177e65152b04c96b8e",
+      "checkpoint": "cells/correctness-f8864bd2f58af715-2104-C/trial-01/checkpoint.json",
+      "checkpoint_sha256": "0ceae3f70e4d81a47dbf34b71b75a0af285d66e39fd6725ff5043993c5f5b949",
+      "index": 3,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You open the fridge 1. The fridge 1 is open. In it, you see a apple 1, a egg 1, and a milk 1.",
+      "action_sha256": "9bc561e4691339cfb5643298244f9c2475e55f82cf73ef177e65152b04c96b8e",
+      "checkpoint": "cells/correctness-f8864bd2f58af715-2104-empty/trial-01/checkpoint.json",
+      "checkpoint_sha256": "5ea8ee7b761913dd8f021e65969586f833733e00bdde01111ef9f7ab86eeb74c",
+      "index": 3,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You open the fridge 1. The fridge 1 is open. In it, you see a apple 1, and a egg 1.",
+      "action_sha256": "d52a1416aa2443dbee3778d5efeba8f7a8521ed64e3504ccb3e00e13606979b3",
+      "checkpoint": "cells/correctness-f8864bd2f58af715-2105-C/trial-01/checkpoint.json",
+      "checkpoint_sha256": "687d901a9624f71c42393077607d0e77aaf5fd41599281c1e2249895c933e392",
+      "index": 3,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You open the fridge 1. The fridge 1 is open. In it, you see a apple 1, and a egg 1.",
+      "action_sha256": "d52a1416aa2443dbee3778d5efeba8f7a8521ed64e3504ccb3e00e13606979b3",
+      "checkpoint": "cells/correctness-f8864bd2f58af715-2105-C/trial-01/checkpoint.json",
+      "checkpoint_sha256": "687d901a9624f71c42393077607d0e77aaf5fd41599281c1e2249895c933e392",
+      "index": 7,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You open the fridge 1. The fridge 1 is open. In it, you see a apple 1, and a egg 1.",
+      "action_sha256": "d52a1416aa2443dbee3778d5efeba8f7a8521ed64e3504ccb3e00e13606979b3",
+      "checkpoint": "cells/correctness-f8864bd2f58af715-2106-C/trial-01/checkpoint.json",
+      "checkpoint_sha256": "4cd7d2da320bf74fe3a1b6cffded50061a2326d282dfde9d352f484fa07d6674",
+      "index": 3,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You open the fridge 1. The fridge 1 is open. In it, you see a apple 1, and a egg 1.",
+      "action_sha256": "d52a1416aa2443dbee3778d5efeba8f7a8521ed64e3504ccb3e00e13606979b3",
+      "checkpoint": "cells/correctness-f8864bd2f58af715-2106-C/trial-01/checkpoint.json",
+      "checkpoint_sha256": "4cd7d2da320bf74fe3a1b6cffded50061a2326d282dfde9d352f484fa07d6674",
+      "index": 7,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    }
+  ],
+  "run_sha256": "064b15067ffa4b1b70d1377ee396bb7ad35d0762b052a19a58b414e6143e4fed",
+  "scope": "Executed action shapes under the public numbered-entity grammar; no semantic repairs",
+  "sha256": "e0abc8d682a3ef15f24fc22ff1243a7ed465647849ddee9ad7d4559e31352b4d",
+  "summary_adapter": {
+    "driver_sha256": "7d118bfcf572f106d30cc01e39b94b75d52e20c0f3d91eff8bae5f00fdf293d2",
+    "mapping": "Derive completed_tasks and expected_tasks from the complete frozen cell matrix; do not change raw artifacts",
+    "source_protocol_sha256": "fe7100aea8f40741a9a0e98381ae0beb46f9e0fd87c58a181f176123515ca1f2",
+    "source_summary_sha256": "4986b4530a1b6b904d6f7a288aa70f08915893296becb50e28efccc91cfb36e1",
+    "verified_cells": 180,
+    "verified_tasks": 12
+  }
+}

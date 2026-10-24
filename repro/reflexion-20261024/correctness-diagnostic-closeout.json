@@ -1,0 +1,37 @@
+{
+  "all_calls": 41181,
+  "all_responses": 41181,
+  "artifacts": {
+    "correctness-diagnostic-action-shapes.json": "b493ed155b472d4c87f4241533879e73f9442b6afd62f15ca1f280b9c2c7d29c",
+    "correctness-diagnostic-contract.json": "bba8712aed904d166470f469ebd143ffcd4742ba47cbe7fa979eeaf70ed666d0",
+    "correctness-diagnostic-protocol-audit.json": "0a53d2a5a10abf548c1b7ffb05e5e5fb270edaa9cd5d64b77417bf3872541106",
+    "correctness-diagnostic-raw-summary.json": "4986b4530a1b6b904d6f7a288aa70f08915893296becb50e28efccc91cfb36e1",
+    "correctness-diagnostic-replica-audit.json": "268ad2b1dc1b4af77b397d81b885ee0c7a314b4858f066f252d6bfff5f28ba07",
+    "correctness-diagnostic-results.json": "3b0cf9cc24d0f39b9155be2fc1a29555910aa19ed72787bfa30830ab5489e5b5",
+    "correctness-diagnostic-run.json": "064b15067ffa4b1b70d1377ee396bb7ad35d0762b052a19a58b414e6143e4fed",
+    "correctness-diagnostic-semantic-labels.json": "06fa2fd4b35eb96b074c46927a2cefd286d880a9e1d963406919fd41329079f1"
+  },
+  "completed_cells": 180,
+  "costs_incremental": {
+    "dispatched_calls": 6590,
+    "input_tokens_known": 15991624,
+    "output_tokens_known": 187108,
+    "saved_responses": 6590,
+    "truncated_responses": 1,
+    "uncertain_or_unrecorded_attempts": 0,
+    "usage_missing_responses": 0
+  },
+  "driver_sha256": "8faf256082cfd3864d7992e13ea07447c135ebeae1ddb4f7f85dfd24f5196598",
+  "elapsed_seconds": 2383.2701075077057,
+  "freeze_commit": "c042ebb886e9b68f68ed6665db30bac5fb1694d4",
+  "holdout_model_calls": 0,
+  "independent_base_tasks": 12,
+  "parameter_refits": 0,
+  "prior_calls": 34591,
+  "protocol_sha256": "fe7100aea8f40741a9a0e98381ae0beb46f9e0fd87c58a181f176123515ca1f2",
+  "replica_check_calls": 8,
+  "seed_replicates_per_task": 3,
+  "sha256": "d13cd94ee94c02f26f500e251de72754bf57f55c3cff1c244c070167950b92de",
+  "stop_reason": "frozen_180_cells_complete",
+  "successes": 60
+}

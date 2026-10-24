@@ -1,6 +1,8 @@
 # Agent 恢复后的可靠性
 
-[有序窗口与收益分解](docs/research/recovery_state_sufficiency_analysis.md)已形成明确命题和证明。下一批[正确说明最小诊断](docs/experiments/correctness-diagnostic-design-20261024.md)在 12 个既定任务、三个新种子上比较五种起始记忆，共 180 次单次尝试；先检查 C 对成功与写回的增量，再决定状态修订与校准。系统相关工作比较留到当前实验问题解决后集中整理。
+[正确规则与空记忆诊断](docs/experiments/correctness-diagnostic-20261024.md)已完成 180 次新尝试。已有错误时，最新正确规则使成功从 2/36 变为 3/36，主要差值 +2.78 个百分点，95% 区间 [−5.56,+11.11]；正确规则与空记忆均为 21/36，通用计划为 13/36。首请求核对确认，非空记忆还带入标题和条目编号，因此下一步固定原生反思的其余文字，只修改目标命题，再决定共享状态与参数。新增 6590 次请求全部响应，累计 41181 次，134 个留出任务继续封存。
+
+[有序窗口与收益分解](docs/research/recovery_state_sufficiency_analysis.md)已给出状态压缩条件、两次预算收益分解、任务混合关系与误差传播界。实际长度和有序条目保留为过程结构，是否能进一步压缩由定向实验检查；本轮未拟合新参数。系统相关工作比较留到当前实验问题解决后集中整理。
 
 [外部审核回应与研究调整](docs/research/review-response-and-research-adjustment-20261024.md)逐项核验了当前建模、统计和近邻工作。主线继续是有限反思记忆的恢复收益及其可预测条件；下一步先检查正确说明、冲突顺序和任务差异，限定候选模型后再校准与独立验证。
 
@@ -17,7 +19,7 @@
 1. [研究问题、机制与实验协议](docs/research/agent_error_recovery_model_and_protocol.md)
 2. [理论框架与基础推导](docs/research/recovery_theory_framework.md)；[有限记忆的主命题与证明](docs/research/finite_memory_recovery_analysis.md)
 3. [有限记忆仿真结果](docs/experiments/finite-memory-simulation-20261023.md)；[采样前冻结设计](docs/experiments/finite-memory-simulation-design.md)
-4. [多轮过程诊断](docs/experiments/multiround-diagnostic-20261024.md)；[固定规则的文字诊断](docs/experiments/residual-context-20261024.md)；[中间位置与长反思前瞻结果](docs/experiments/middle-context-20261023.md)；[多轮条件预测](docs/experiments/agent-calibrated-multistep-forecast-20261023.md)；[新任务校准](docs/experiments/state-representation-20261023.md)；[后续路线](docs/EXPERIMENT_ROADMAP.md)
+4. [正确规则与空记忆诊断](docs/experiments/correctness-diagnostic-20261024.md)；[多轮过程诊断](docs/experiments/multiround-diagnostic-20261024.md)；[固定规则的文字诊断](docs/experiments/residual-context-20261024.md)；[中间位置与长反思前瞻结果](docs/experiments/middle-context-20261023.md)；[多轮条件预测](docs/experiments/agent-calibrated-multistep-forecast-20261023.md)；[新任务校准](docs/experiments/state-representation-20261023.md)；[后续路线](docs/EXPERIMENT_ROADMAP.md)
 5. [ACM TIST 专刊与投稿计划](docs/submission/TIST_SPECIAL_ISSUE.md)
 6. [实现状态与已有结果](docs/IMPLEMENTATION_STATUS.md)
 7. [服务器执行手册](docs/LINUX_RUNBOOK.md)
@@ -26,7 +28,7 @@
 
 ## 已有基础
 
-固定作者 ReAct＋Qwen3-8B 在开发集成功 7/12，作为工程参照。Reflexion 已统一 Qwen 非思考模板、动作行和公开放置语法；保持采样不变，dev12 三次内成功从 8/12 提高到 10/12。Qwen 推荐采样也为 10/12，按预设同分规则选为后续配置。当前 50 项离线检查通过，模板／采样契约与模型输出合规分别审计。见[接口规范化](docs/experiments/interface-normalization-20261023.md)。
+固定作者 ReAct＋Qwen3-8B 在开发集成功 7/12，作为工程参照。Reflexion 已统一 Qwen 非思考模板、动作行和公开放置语法；保持采样不变，dev12 三次内成功从 8/12 提高到 10/12。Qwen 推荐采样也为 10/12，按预设同分规则选为后续配置。当前 54 项离线检查通过，模板／采样契约与模型输出合规分别审计。见[接口规范化](docs/experiments/interface-normalization-20261023.md)。
 
 冻结接口后，24 个新任务的首尝试完成 16 个任务，并产生 8 条失败反思。其中四个目的地绑定已完成五条件分叉，共 1067 次真实调用，各条件成功 2/4。错误条目进入可见记忆后，尚未观察到按错误目的地执行的动作。随后已开展操作前提扩展，补充相关动作尝试、执行生效与新反思事件，结果见下一段。[实验记录](docs/experiments/reflexion-results-20261022.md)和[校准细则](docs/experiments/calibration-plan-20261023.md)说明事件定义与采样方向。
 
