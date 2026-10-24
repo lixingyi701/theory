@@ -1,0 +1,14 @@
+{
+  "affected_tasks": [
+    "a49d33c30b49b863",
+    "61c97c86fe797fe4"
+  ],
+  "corrected_driver_sha256": "b592e317dc2dfb28aa86240603b0369390ae28a2bf84073a01c75ed0b65fca69",
+  "issue": "The public goal quantifier two was previously parsed as the object in find two bowl / put two ladle. Add the quantifier before final action labeling.",
+  "model_dispatches_for_correction": 0,
+  "previous_driver_sha256": "ea7ff06351dd12d98063c36526486fc7630b3573c39e4eb150fc1532099a50da",
+  "previous_partial_report_sha256": "3dbb23854238624049c3588b80c5ac31fe5b6df4bc2026d55cb113958ce786f2",
+  "scope": "Offline analysis correction; saved execution and actual model calls unchanged",
+  "sha256": "1d1c4feeb5fd1df4ac646747a85935964263a0fbafea2b168609c950b74ee800",
+  "verification": "Actual public goal strings are regression fixtures; complete 27-test offline suite passes."
+}

@@ -1,0 +1,131 @@
+{
+  "candidate": {
+    "device": "microwave 1",
+    "failed_macro_index": 13,
+    "object": "egg 1",
+    "placement_index": 11,
+    "verb": "heat"
+  },
+  "checkpoint_sha256": "ffa0524cbc94f8b6dcdf99299fd90e57093b52bb0d19cbd0cc50c5521253ae9e",
+  "environment_steps": 66,
+  "holding_precondition_supported": true,
+  "model_calls": 0,
+  "parent_result_sha256": "4d497c3540d8a223186a1f646141e76589db1ec6e9006d3382cd2b4c4bbada02",
+  "probe_driver_sha256": "34ed34155fd05a0cd13ceb56951c2b7776fa22938259199471dd141b8c97c823",
+  "rows": [
+    {
+      "condition": "held_open",
+      "macro_succeeded": true,
+      "prefix_verified_steps": 11,
+      "suffix": [
+        {
+          "action": "heat egg 1 with microwave 1",
+          "done": false,
+          "observation": "You heat the egg 1 using the microwave 1.",
+          "reward": 0.0,
+          "won": false
+        }
+      ]
+    },
+    {
+      "condition": "held_closed",
+      "macro_succeeded": true,
+      "prefix_verified_steps": 11,
+      "suffix": [
+        {
+          "action": "close microwave 1",
+          "done": false,
+          "observation": "You close the microwave 1.",
+          "reward": 0.0,
+          "won": false
+        },
+        {
+          "action": "heat egg 1 with microwave 1",
+          "done": false,
+          "observation": "You heat the egg 1 using the microwave 1.",
+          "reward": 0.0,
+          "won": false
+        }
+      ]
+    },
+    {
+      "condition": "placed_open",
+      "macro_succeeded": false,
+      "prefix_verified_steps": 11,
+      "suffix": [
+        {
+          "action": "move egg 1 to microwave 1",
+          "done": false,
+          "observation": "You move the egg 1 to the microwave 1.",
+          "reward": 0.0,
+          "won": false
+        },
+        {
+          "action": "heat egg 1 with microwave 1",
+          "done": false,
+          "observation": "Nothing happens.",
+          "reward": 0.0,
+          "won": false
+        }
+      ]
+    },
+    {
+      "condition": "placed_closed",
+      "macro_succeeded": false,
+      "prefix_verified_steps": 11,
+      "suffix": [
+        {
+          "action": "move egg 1 to microwave 1",
+          "done": false,
+          "observation": "You move the egg 1 to the microwave 1.",
+          "reward": 0.0,
+          "won": false
+        },
+        {
+          "action": "close microwave 1",
+          "done": false,
+          "observation": "You close the microwave 1.",
+          "reward": 0.0,
+          "won": false
+        },
+        {
+          "action": "heat egg 1 with microwave 1",
+          "done": false,
+          "observation": "Nothing happens.",
+          "reward": 0.0,
+          "won": false
+        }
+      ]
+    },
+    {
+      "condition": "retrieve_then_macro",
+      "macro_succeeded": true,
+      "prefix_verified_steps": 11,
+      "suffix": [
+        {
+          "action": "move egg 1 to microwave 1",
+          "done": false,
+          "observation": "You move the egg 1 to the microwave 1.",
+          "reward": 0.0,
+          "won": false
+        },
+        {
+          "action": "take egg 1 from microwave 1",
+          "done": false,
+          "observation": "You pick up the egg 1 from the microwave 1.",
+          "reward": 0.0,
+          "won": false
+        },
+        {
+          "action": "heat egg 1 with microwave 1",
+          "done": false,
+          "observation": "You heat the egg 1 using the microwave 1.",
+          "reward": 0.0,
+          "won": false
+        }
+      ]
+    }
+  ],
+  "sha256": "280a417054d6ba99701ab0ec394bb8dbf472ae86b294c621e0d4d5a61ab0fb6b",
+  "task_id": "05f694718d71af12"
+}

@@ -1,0 +1,161 @@
+{
+  "attempts": [
+    {
+      "branch": "correct_target",
+      "decisions": 49,
+      "direct_target_take_actions": [],
+      "fridge_visits": 1,
+      "initial_observation_sha256": "150a1b6e470325427e849341fba35da7d9cd343b8eb5f3d2c9354746d4f47df3",
+      "injected_clause_in_visible_memory": false,
+      "new_reflection_has_exact_injected_clause": false,
+      "success": false,
+      "trajectory_sha256": "05057a2af8289842bf70100e5156c4b953f2792c658a485ee177c47c5f7d30f2",
+      "trial": 1,
+      "world_commands_sha256": "62dfc9d12d239f2637cb61531c922d6d15b95754697d970693626d3e0698ea54"
+    },
+    {
+      "branch": "correct_target",
+      "decisions": 49,
+      "direct_target_take_actions": [],
+      "fridge_visits": 1,
+      "initial_observation_sha256": "150a1b6e470325427e849341fba35da7d9cd343b8eb5f3d2c9354746d4f47df3",
+      "injected_clause_in_visible_memory": false,
+      "new_reflection_has_exact_injected_clause": false,
+      "success": false,
+      "trajectory_sha256": "fc5f6c6a896f13b0c26625358f03765213e8afa0b5c5b0e2bb8306cf51720763",
+      "trial": 2,
+      "world_commands_sha256": "62dfc9d12d239f2637cb61531c922d6d15b95754697d970693626d3e0698ea54"
+    },
+    {
+      "branch": "discard_new",
+      "decisions": 49,
+      "direct_target_take_actions": [],
+      "fridge_visits": 1,
+      "initial_observation_sha256": "150a1b6e470325427e849341fba35da7d9cd343b8eb5f3d2c9354746d4f47df3",
+      "injected_clause_in_visible_memory": false,
+      "new_reflection_has_exact_injected_clause": false,
+      "success": false,
+      "trajectory_sha256": "213b236f18f032e842d5769abc6ae9c17c5ca178f468741b1d8ffd4033e161b8",
+      "trial": 1,
+      "world_commands_sha256": "ec43c52956d7f438d6ba9ba6aa6f8ae6e493e964a24a1f69a706c057bece91a8"
+    },
+    {
+      "branch": "discard_new",
+      "decisions": 49,
+      "direct_target_take_actions": [],
+      "fridge_visits": 1,
+      "initial_observation_sha256": "150a1b6e470325427e849341fba35da7d9cd343b8eb5f3d2c9354746d4f47df3",
+      "injected_clause_in_visible_memory": false,
+      "new_reflection_has_exact_injected_clause": false,
+      "success": false,
+      "trajectory_sha256": "05057a2af8289842bf70100e5156c4b953f2792c658a485ee177c47c5f7d30f2",
+      "trial": 2,
+      "world_commands_sha256": "62dfc9d12d239f2637cb61531c922d6d15b95754697d970693626d3e0698ea54"
+    },
+    {
+      "branch": "original",
+      "decisions": 49,
+      "direct_target_take_actions": [],
+      "fridge_visits": 1,
+      "initial_observation_sha256": "150a1b6e470325427e849341fba35da7d9cd343b8eb5f3d2c9354746d4f47df3",
+      "injected_clause_in_visible_memory": false,
+      "new_reflection_has_exact_injected_clause": false,
+      "success": false,
+      "trajectory_sha256": "05057a2af8289842bf70100e5156c4b953f2792c658a485ee177c47c5f7d30f2",
+      "trial": 1,
+      "world_commands_sha256": "62dfc9d12d239f2637cb61531c922d6d15b95754697d970693626d3e0698ea54"
+    },
+    {
+      "branch": "original",
+      "decisions": 49,
+      "direct_target_take_actions": [],
+      "fridge_visits": 1,
+      "initial_observation_sha256": "150a1b6e470325427e849341fba35da7d9cd343b8eb5f3d2c9354746d4f47df3",
+      "injected_clause_in_visible_memory": false,
+      "new_reflection_has_exact_injected_clause": false,
+      "success": false,
+      "trajectory_sha256": "fc5f6c6a896f13b0c26625358f03765213e8afa0b5c5b0e2bb8306cf51720763",
+      "trial": 2,
+      "world_commands_sha256": "62dfc9d12d239f2637cb61531c922d6d15b95754697d970693626d3e0698ea54"
+    },
+    {
+      "branch": "retain_error",
+      "decisions": 49,
+      "direct_target_take_actions": [],
+      "fridge_visits": 1,
+      "initial_observation_sha256": "150a1b6e470325427e849341fba35da7d9cd343b8eb5f3d2c9354746d4f47df3",
+      "injected_clause_in_visible_memory": true,
+      "new_reflection_has_exact_injected_clause": false,
+      "success": false,
+      "trajectory_sha256": "a1366947a57272359ed1a471ceaf1cdf5dbfd9f3d18c78b940f1cfeb275965dc",
+      "trial": 1,
+      "world_commands_sha256": "70380b4201cafc87f4ab0f05885d2e9872cb323daed07ee75985fc3a388c6b00"
+    },
+    {
+      "branch": "retain_error",
+      "decisions": 49,
+      "direct_target_take_actions": [],
+      "fridge_visits": 1,
+      "initial_observation_sha256": "150a1b6e470325427e849341fba35da7d9cd343b8eb5f3d2c9354746d4f47df3",
+      "injected_clause_in_visible_memory": true,
+      "new_reflection_has_exact_injected_clause": false,
+      "success": false,
+      "trajectory_sha256": "dcf04af0e44c155dcc7300ece853af8a68b4d6acbace69fa4dff046641d4db36",
+      "trial": 2,
+      "world_commands_sha256": "62dfc9d12d239f2637cb61531c922d6d15b95754697d970693626d3e0698ea54"
+    },
+    {
+      "branch": "sham",
+      "decisions": 49,
+      "direct_target_take_actions": [],
+      "fridge_visits": 1,
+      "initial_observation_sha256": "150a1b6e470325427e849341fba35da7d9cd343b8eb5f3d2c9354746d4f47df3",
+      "injected_clause_in_visible_memory": false,
+      "new_reflection_has_exact_injected_clause": false,
+      "success": false,
+      "trajectory_sha256": "05057a2af8289842bf70100e5156c4b953f2792c658a485ee177c47c5f7d30f2",
+      "trial": 1,
+      "world_commands_sha256": "62dfc9d12d239f2637cb61531c922d6d15b95754697d970693626d3e0698ea54"
+    },
+    {
+      "branch": "sham",
+      "decisions": 49,
+      "direct_target_take_actions": [],
+      "fridge_visits": 1,
+      "initial_observation_sha256": "150a1b6e470325427e849341fba35da7d9cd343b8eb5f3d2c9354746d4f47df3",
+      "injected_clause_in_visible_memory": false,
+      "new_reflection_has_exact_injected_clause": false,
+      "success": false,
+      "trajectory_sha256": "fc5f6c6a896f13b0c26625358f03765213e8afa0b5c5b0e2bb8306cf51720763",
+      "trial": 2,
+      "world_commands_sha256": "62dfc9d12d239f2637cb61531c922d6d15b95754697d970693626d3e0698ea54"
+    }
+  ],
+  "completed_attempts": 10,
+  "scope": "one independent development task; action indicator is not a general semantic adoption evaluator",
+  "sha256": "33aea7f82ed78f5cb45aa1aca4c5539ea7873753cffa525a9d02d2e915f84be3",
+  "target_sha256": "ecefcc6c5ac2ab25ede05517267ceba08bc4df869c772eb31a6475e536ca8341",
+  "task_id": "1bcfccd955e18c46",
+  "trajectory_controls": {
+    "correct_target": {
+      "equal_trajectory_hashes": 2,
+      "equal_world_command_sequences": 2,
+      "matched_attempts": 2
+    },
+    "discard_new": {
+      "equal_trajectory_hashes": 0,
+      "equal_world_command_sequences": 1,
+      "matched_attempts": 2
+    },
+    "retain_error": {
+      "equal_trajectory_hashes": 0,
+      "equal_world_command_sequences": 1,
+      "matched_attempts": 2
+    },
+    "sham": {
+      "equal_trajectory_hashes": 2,
+      "equal_world_command_sequences": 2,
+      "matched_attempts": 2
+    }
+  }
+}

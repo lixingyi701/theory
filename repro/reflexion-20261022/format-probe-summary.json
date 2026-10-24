@@ -1,0 +1,72 @@
+{
+  "completed_queries": 6,
+  "costs": {
+    "dispatched_calls": 6,
+    "format_invalid_responses": 0,
+    "input_tokens_known": 17567,
+    "output_tokens_known": 727,
+    "response_latency_ms": 14664.854550850578,
+    "saved_responses": 6,
+    "truncated_responses": 0,
+    "uncertain_or_unrecorded_attempts": 0,
+    "usage_missing_responses": 0
+  },
+  "expected_queries": 6,
+  "rows": [
+    {
+      "chat_finish_reason": "stop",
+      "chat_nonempty": true,
+      "chat_output_tokens": 134,
+      "raw_finish_reason": "length",
+      "raw_output_tokens": 256,
+      "raw_payload_sha256": "3359870d48afddc0e4d037b7545c84440d93b4183468d439af7424f64e9c91f8",
+      "task_id": "1bcfccd955e18c46"
+    },
+    {
+      "chat_finish_reason": "stop",
+      "chat_nonempty": true,
+      "chat_output_tokens": 101,
+      "raw_finish_reason": "length",
+      "raw_output_tokens": 256,
+      "raw_payload_sha256": "9b0d7c8fa8fca35a16174eb18b2991e5d226f64b011e37211118389553505c51",
+      "task_id": "e095d710ddd8215b"
+    },
+    {
+      "chat_finish_reason": "stop",
+      "chat_nonempty": true,
+      "chat_output_tokens": 91,
+      "raw_finish_reason": "length",
+      "raw_output_tokens": 256,
+      "raw_payload_sha256": "8ca3ec0dc384ed06e9ffd5807868addbfe734df218adeec885b06c26d6986bca",
+      "task_id": "17182b8479c3841e"
+    },
+    {
+      "chat_finish_reason": "stop",
+      "chat_nonempty": true,
+      "chat_output_tokens": 124,
+      "raw_finish_reason": "length",
+      "raw_output_tokens": 256,
+      "raw_payload_sha256": "64c236215c4b942e22fe4e1d4620d65fa917eb83d2c2aa027306243d937ccc6e",
+      "task_id": "cc1968875627432d"
+    },
+    {
+      "chat_finish_reason": "stop",
+      "chat_nonempty": true,
+      "chat_output_tokens": 148,
+      "raw_finish_reason": "length",
+      "raw_output_tokens": 256,
+      "raw_payload_sha256": "7ce612a47eabe51067b5ea7c646802c2e07c7bed2d444706029f74cdd51d5565",
+      "task_id": "1795adb8d8245920"
+    },
+    {
+      "chat_finish_reason": "stop",
+      "chat_nonempty": true,
+      "chat_output_tokens": 129,
+      "raw_finish_reason": "length",
+      "raw_output_tokens": 256,
+      "raw_payload_sha256": "b360094fe00ec2f9550ae71b5650d6a68d14311a0dea36f4aa4635bf5ecec892",
+      "task_id": "884c6c61e405ce41"
+    }
+  ],
+  "scope": "reflector interface diagnosis; no agent task-success comparison"
+}

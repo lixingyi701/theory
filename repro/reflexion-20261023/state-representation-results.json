@@ -1,0 +1,4711 @@
+{
+  "analysis_driver_sha256": "abf1fb146f22f48ce2d6776b66bc01d7dda2b080ec277af8846e582be1ad73ba",
+  "completed_cells": 108,
+  "conditions": [
+    {
+      "attempts": 12,
+      "condition": "empty",
+      "initial_labels": [],
+      "outcomes": {
+        "A": 1,
+        "E": 1,
+        "S": 7,
+        "U": 3
+      },
+      "per_task": [
+        {
+          "outcome": "E",
+          "task_id": "02088717ce4b3889"
+        },
+        {
+          "outcome": "U",
+          "task_id": "4a3978c7981b641a"
+        },
+        {
+          "outcome": "U",
+          "task_id": "55f887bdc1cc1699"
+        },
+        {
+          "outcome": "S",
+          "task_id": "69b7fb1c70f5d271"
+        },
+        {
+          "outcome": "U",
+          "task_id": "790b6f6fefeac9d1"
+        },
+        {
+          "outcome": "S",
+          "task_id": "bf6d3dba86f7f0e4"
+        },
+        {
+          "outcome": "A",
+          "task_id": "bf7043e154cc1d53"
+        },
+        {
+          "outcome": "S",
+          "task_id": "d534fcfe5e56c028"
+        },
+        {
+          "outcome": "S",
+          "task_id": "dae15e890956dd5e"
+        },
+        {
+          "outcome": "S",
+          "task_id": "dd93ff2604e30529"
+        },
+        {
+          "outcome": "S",
+          "task_id": "e4244c54d52f3326"
+        },
+        {
+          "outcome": "S",
+          "task_id": "f8864bd2f58af715"
+        }
+      ]
+    },
+    {
+      "attempts": 12,
+      "condition": "full_generic",
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "outcomes": {
+        "E": 2,
+        "S": 8,
+        "U": 2
+      },
+      "per_task": [
+        {
+          "outcome": "E",
+          "task_id": "02088717ce4b3889"
+        },
+        {
+          "outcome": "S",
+          "task_id": "4a3978c7981b641a"
+        },
+        {
+          "outcome": "U",
+          "task_id": "55f887bdc1cc1699"
+        },
+        {
+          "outcome": "S",
+          "task_id": "69b7fb1c70f5d271"
+        },
+        {
+          "outcome": "U",
+          "task_id": "790b6f6fefeac9d1"
+        },
+        {
+          "outcome": "S",
+          "task_id": "bf6d3dba86f7f0e4"
+        },
+        {
+          "outcome": "E",
+          "task_id": "bf7043e154cc1d53"
+        },
+        {
+          "outcome": "S",
+          "task_id": "d534fcfe5e56c028"
+        },
+        {
+          "outcome": "S",
+          "task_id": "dae15e890956dd5e"
+        },
+        {
+          "outcome": "S",
+          "task_id": "dd93ff2604e30529"
+        },
+        {
+          "outcome": "S",
+          "task_id": "e4244c54d52f3326"
+        },
+        {
+          "outcome": "S",
+          "task_id": "f8864bd2f58af715"
+        }
+      ]
+    },
+    {
+      "attempts": 12,
+      "condition": "newest_correct",
+      "initial_labels": [
+        "N",
+        "N",
+        "C"
+      ],
+      "outcomes": {
+        "A": 1,
+        "E": 1,
+        "S": 8,
+        "U": 2
+      },
+      "per_task": [
+        {
+          "outcome": "S",
+          "task_id": "02088717ce4b3889"
+        },
+        {
+          "outcome": "S",
+          "task_id": "4a3978c7981b641a"
+        },
+        {
+          "outcome": "A",
+          "task_id": "55f887bdc1cc1699"
+        },
+        {
+          "outcome": "S",
+          "task_id": "69b7fb1c70f5d271"
+        },
+        {
+          "outcome": "U",
+          "task_id": "790b6f6fefeac9d1"
+        },
+        {
+          "outcome": "U",
+          "task_id": "bf6d3dba86f7f0e4"
+        },
+        {
+          "outcome": "E",
+          "task_id": "bf7043e154cc1d53"
+        },
+        {
+          "outcome": "S",
+          "task_id": "d534fcfe5e56c028"
+        },
+        {
+          "outcome": "S",
+          "task_id": "dae15e890956dd5e"
+        },
+        {
+          "outcome": "S",
+          "task_id": "dd93ff2604e30529"
+        },
+        {
+          "outcome": "S",
+          "task_id": "e4244c54d52f3326"
+        },
+        {
+          "outcome": "S",
+          "task_id": "f8864bd2f58af715"
+        }
+      ]
+    },
+    {
+      "attempts": 12,
+      "condition": "newest_error",
+      "initial_labels": [
+        "N",
+        "N",
+        "E"
+      ],
+      "outcomes": {
+        "A": 1,
+        "E": 7,
+        "S": 1,
+        "U": 3
+      },
+      "per_task": [
+        {
+          "outcome": "U",
+          "task_id": "02088717ce4b3889"
+        },
+        {
+          "outcome": "E",
+          "task_id": "4a3978c7981b641a"
+        },
+        {
+          "outcome": "A",
+          "task_id": "55f887bdc1cc1699"
+        },
+        {
+          "outcome": "E",
+          "task_id": "69b7fb1c70f5d271"
+        },
+        {
+          "outcome": "E",
+          "task_id": "790b6f6fefeac9d1"
+        },
+        {
+          "outcome": "S",
+          "task_id": "bf6d3dba86f7f0e4"
+        },
+        {
+          "outcome": "U",
+          "task_id": "bf7043e154cc1d53"
+        },
+        {
+          "outcome": "E",
+          "task_id": "d534fcfe5e56c028"
+        },
+        {
+          "outcome": "E",
+          "task_id": "dae15e890956dd5e"
+        },
+        {
+          "outcome": "U",
+          "task_id": "dd93ff2604e30529"
+        },
+        {
+          "outcome": "E",
+          "task_id": "e4244c54d52f3326"
+        },
+        {
+          "outcome": "E",
+          "task_id": "f8864bd2f58af715"
+        }
+      ]
+    },
+    {
+      "attempts": 12,
+      "condition": "oldest_correct",
+      "initial_labels": [
+        "C",
+        "N",
+        "N"
+      ],
+      "outcomes": {
+        "A": 1,
+        "E": 2,
+        "S": 8,
+        "U": 1
+      },
+      "per_task": [
+        {
+          "outcome": "S",
+          "task_id": "02088717ce4b3889"
+        },
+        {
+          "outcome": "S",
+          "task_id": "4a3978c7981b641a"
+        },
+        {
+          "outcome": "E",
+          "task_id": "55f887bdc1cc1699"
+        },
+        {
+          "outcome": "S",
+          "task_id": "69b7fb1c70f5d271"
+        },
+        {
+          "outcome": "U",
+          "task_id": "790b6f6fefeac9d1"
+        },
+        {
+          "outcome": "E",
+          "task_id": "bf6d3dba86f7f0e4"
+        },
+        {
+          "outcome": "A",
+          "task_id": "bf7043e154cc1d53"
+        },
+        {
+          "outcome": "S",
+          "task_id": "d534fcfe5e56c028"
+        },
+        {
+          "outcome": "S",
+          "task_id": "dae15e890956dd5e"
+        },
+        {
+          "outcome": "S",
+          "task_id": "dd93ff2604e30529"
+        },
+        {
+          "outcome": "S",
+          "task_id": "e4244c54d52f3326"
+        },
+        {
+          "outcome": "S",
+          "task_id": "f8864bd2f58af715"
+        }
+      ]
+    },
+    {
+      "attempts": 12,
+      "condition": "oldest_error",
+      "initial_labels": [
+        "E",
+        "N",
+        "N"
+      ],
+      "outcomes": {
+        "A": 1,
+        "C": 1,
+        "E": 7,
+        "U": 3
+      },
+      "per_task": [
+        {
+          "outcome": "A",
+          "task_id": "02088717ce4b3889"
+        },
+        {
+          "outcome": "E",
+          "task_id": "4a3978c7981b641a"
+        },
+        {
+          "outcome": "C",
+          "task_id": "55f887bdc1cc1699"
+        },
+        {
+          "outcome": "E",
+          "task_id": "69b7fb1c70f5d271"
+        },
+        {
+          "outcome": "U",
+          "task_id": "790b6f6fefeac9d1"
+        },
+        {
+          "outcome": "E",
+          "task_id": "bf6d3dba86f7f0e4"
+        },
+        {
+          "outcome": "E",
+          "task_id": "bf7043e154cc1d53"
+        },
+        {
+          "outcome": "E",
+          "task_id": "d534fcfe5e56c028"
+        },
+        {
+          "outcome": "E",
+          "task_id": "dae15e890956dd5e"
+        },
+        {
+          "outcome": "E",
+          "task_id": "dd93ff2604e30529"
+        },
+        {
+          "outcome": "U",
+          "task_id": "e4244c54d52f3326"
+        },
+        {
+          "outcome": "U",
+          "task_id": "f8864bd2f58af715"
+        }
+      ]
+    },
+    {
+      "attempts": 12,
+      "condition": "single_correct",
+      "initial_labels": [
+        "C"
+      ],
+      "outcomes": {
+        "A": 1,
+        "C": 1,
+        "S": 8,
+        "U": 2
+      },
+      "per_task": [
+        {
+          "outcome": "U",
+          "task_id": "02088717ce4b3889"
+        },
+        {
+          "outcome": "S",
+          "task_id": "4a3978c7981b641a"
+        },
+        {
+          "outcome": "A",
+          "task_id": "55f887bdc1cc1699"
+        },
+        {
+          "outcome": "S",
+          "task_id": "69b7fb1c70f5d271"
+        },
+        {
+          "outcome": "U",
+          "task_id": "790b6f6fefeac9d1"
+        },
+        {
+          "outcome": "S",
+          "task_id": "bf6d3dba86f7f0e4"
+        },
+        {
+          "outcome": "C",
+          "task_id": "bf7043e154cc1d53"
+        },
+        {
+          "outcome": "S",
+          "task_id": "d534fcfe5e56c028"
+        },
+        {
+          "outcome": "S",
+          "task_id": "dae15e890956dd5e"
+        },
+        {
+          "outcome": "S",
+          "task_id": "dd93ff2604e30529"
+        },
+        {
+          "outcome": "S",
+          "task_id": "e4244c54d52f3326"
+        },
+        {
+          "outcome": "S",
+          "task_id": "f8864bd2f58af715"
+        }
+      ]
+    },
+    {
+      "attempts": 12,
+      "condition": "single_error",
+      "initial_labels": [
+        "E"
+      ],
+      "outcomes": {
+        "A": 1,
+        "E": 9,
+        "U": 2
+      },
+      "per_task": [
+        {
+          "outcome": "E",
+          "task_id": "02088717ce4b3889"
+        },
+        {
+          "outcome": "E",
+          "task_id": "4a3978c7981b641a"
+        },
+        {
+          "outcome": "U",
+          "task_id": "55f887bdc1cc1699"
+        },
+        {
+          "outcome": "E",
+          "task_id": "69b7fb1c70f5d271"
+        },
+        {
+          "outcome": "E",
+          "task_id": "790b6f6fefeac9d1"
+        },
+        {
+          "outcome": "E",
+          "task_id": "bf6d3dba86f7f0e4"
+        },
+        {
+          "outcome": "A",
+          "task_id": "bf7043e154cc1d53"
+        },
+        {
+          "outcome": "E",
+          "task_id": "d534fcfe5e56c028"
+        },
+        {
+          "outcome": "E",
+          "task_id": "dae15e890956dd5e"
+        },
+        {
+          "outcome": "E",
+          "task_id": "dd93ff2604e30529"
+        },
+        {
+          "outcome": "U",
+          "task_id": "e4244c54d52f3326"
+        },
+        {
+          "outcome": "E",
+          "task_id": "f8864bd2f58af715"
+        }
+      ]
+    },
+    {
+      "attempts": 12,
+      "condition": "single_generic",
+      "initial_labels": [
+        "N"
+      ],
+      "outcomes": {
+        "E": 2,
+        "S": 5,
+        "U": 5
+      },
+      "per_task": [
+        {
+          "outcome": "E",
+          "task_id": "02088717ce4b3889"
+        },
+        {
+          "outcome": "U",
+          "task_id": "4a3978c7981b641a"
+        },
+        {
+          "outcome": "U",
+          "task_id": "55f887bdc1cc1699"
+        },
+        {
+          "outcome": "S",
+          "task_id": "69b7fb1c70f5d271"
+        },
+        {
+          "outcome": "U",
+          "task_id": "790b6f6fefeac9d1"
+        },
+        {
+          "outcome": "S",
+          "task_id": "bf6d3dba86f7f0e4"
+        },
+        {
+          "outcome": "E",
+          "task_id": "bf7043e154cc1d53"
+        },
+        {
+          "outcome": "U",
+          "task_id": "d534fcfe5e56c028"
+        },
+        {
+          "outcome": "S",
+          "task_id": "dae15e890956dd5e"
+        },
+        {
+          "outcome": "U",
+          "task_id": "dd93ff2604e30529"
+        },
+        {
+          "outcome": "S",
+          "task_id": "e4244c54d52f3326"
+        },
+        {
+          "outcome": "S",
+          "task_id": "f8864bd2f58af715"
+        }
+      ]
+    }
+  ],
+  "independent_base_tasks": 12,
+  "outcomes": {
+    "A": 7,
+    "C": 2,
+    "E": 31,
+    "S": 45,
+    "U": 23
+  },
+  "paired_success_contrasts": [
+    {
+      "left": "single_error",
+      "right": "single_correct",
+      "task_pairs": {
+        "neither_success": 4,
+        "right_only": 8
+      }
+    },
+    {
+      "left": "single_correct",
+      "right": "single_generic",
+      "task_pairs": {
+        "both_success": 5,
+        "left_only": 3,
+        "neither_success": 4
+      }
+    },
+    {
+      "left": "single_generic",
+      "right": "empty",
+      "task_pairs": {
+        "both_success": 5,
+        "neither_success": 5,
+        "right_only": 2
+      }
+    },
+    {
+      "left": "single_generic",
+      "right": "full_generic",
+      "task_pairs": {
+        "both_success": 5,
+        "neither_success": 4,
+        "right_only": 3
+      }
+    },
+    {
+      "left": "oldest_error",
+      "right": "newest_error",
+      "task_pairs": {
+        "neither_success": 11,
+        "right_only": 1
+      }
+    },
+    {
+      "left": "oldest_correct",
+      "right": "newest_correct",
+      "task_pairs": {
+        "both_success": 8,
+        "neither_success": 4
+      }
+    },
+    {
+      "left": "single_error",
+      "right": "newest_error",
+      "task_pairs": {
+        "neither_success": 11,
+        "right_only": 1
+      }
+    }
+  ],
+  "protocol_sha256": "6f98a6f4cd920fe5907238214ce6b129c53409bc5609cc0da8f6a3ac73628b59",
+  "rows": [
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 20,
+        "thought": 28
+      },
+      "cell_id": "state-02088717ce4b3889-2101-empty",
+      "condition": "empty",
+      "decisions": 49,
+      "identity_sha256": "75c78ebc2de90f5fed3f609f39eefbb5a8058f2955ffd05f48b78840285566f6",
+      "initial_labels": [],
+      "memory_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "new_reflection_hashes": [
+        "594507e6bd1767f628f41c1141d6c1f773bfa852c5917f8fbc5e894ef82fae33"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 11,
+        "thought": 28
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 2,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 3
+      },
+      "outcome": "E",
+      "result_sha256": "be5b8284306e07d3e52ef02e2bf8178532e5e8a04b3b8eb5837ae66c3a51a4f5",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "02088717ce4b3889",
+      "trajectory_sha256": "9aef320fbe60f6fc1923e9883d066c3162b315b9ddcbeb06fc9b584a8313c6d0"
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 3,
+        "public_command_shape": 20,
+        "thought": 26
+      },
+      "cell_id": "state-02088717ce4b3889-2101-full_generic",
+      "condition": "full_generic",
+      "decisions": 49,
+      "identity_sha256": "ec112e1a778a411a86be730c6986e7b1e8dcaa4b2f77ea542f2a6479c8ea4abc",
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "memory_sha256": "94903cced6b08d27597677f27968009d8a8ef3b2b5f01d57c8f46f6dee035417",
+      "new_reflection_hashes": [
+        "22d680bcdab73bf14fd43b25cca4a0731c241dd948a4ccac219aa0b55dcd7c12"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 3,
+        "public_command_shape": 10,
+        "thought": 26
+      },
+      "observable_events": {
+        "competing_macros": 1,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 3
+      },
+      "outcome": "E",
+      "result_sha256": "30b737304600e74b7e4129d71d207e9d9e28eeaeb74b6aa18d97a79ab170f084",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "02088717ce4b3889",
+      "trajectory_sha256": "23c8a49d65812a6436f5e898fe51b4ffc6034bf4df2f15fc8a411ad10d4ffaac"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 10,
+        "thought": 8
+      },
+      "cell_id": "state-02088717ce4b3889-2101-newest_correct",
+      "condition": "newest_correct",
+      "decisions": 18,
+      "identity_sha256": "62a19df373d3539a5d2f0a62c92f4c6e9171ac3a5e2b6134d4cc967b9a569e75",
+      "initial_labels": [
+        "N",
+        "N",
+        "C"
+      ],
+      "memory_sha256": "bb33e87b0dbcd8ffffa9574f30bfd7c256e649fbbce7c3c639e14965c16e9c23",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "thought": 8
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "96df771db69848ea73959b1c7025d73be4044f042a5d7b70c9302219d0fb9027",
+      "seed": 2101,
+      "status": "success",
+      "success": true,
+      "task_id": "02088717ce4b3889",
+      "trajectory_sha256": "3a5309778801f0f86dc6b58743bd1ec18388a6f7be99dc9eddd4b674c0134dad"
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 2,
+        "public_command_shape": 19,
+        "thought": 28
+      },
+      "cell_id": "state-02088717ce4b3889-2101-newest_error",
+      "condition": "newest_error",
+      "decisions": 49,
+      "identity_sha256": "6160f9cd06b415223c6a2ed2f4f189778ff4c0a0670f47af035ff816c417d624",
+      "initial_labels": [
+        "N",
+        "N",
+        "E"
+      ],
+      "memory_sha256": "68e689a14c328da18c5da5fece470a65891e066a361aed0998cc5aa994bc692e",
+      "new_reflection_hashes": [
+        "18c792fe69a22a4d2d187eaeee68f83dafccd5714b08a52b381ec7a02d05847d"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 2,
+        "public_command_shape": 9,
+        "thought": 28
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 2,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 2
+      },
+      "outcome": "U",
+      "result_sha256": "1a86c8a4336d800f7ca1df0c42cc45107b9e36cad5dd5466bd1233443e5a7884",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "02088717ce4b3889",
+      "trajectory_sha256": "8d5e5a792a165f83fa5a6d1523027b7d77b0514fb9ee19bda632b88438bb7e47"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 10,
+        "thought": 8
+      },
+      "cell_id": "state-02088717ce4b3889-2101-oldest_correct",
+      "condition": "oldest_correct",
+      "decisions": 18,
+      "identity_sha256": "3c5d66fc330748a6632ae376f3fb0c5a9cd4435d6c89a2727c50408121adc2a2",
+      "initial_labels": [
+        "C",
+        "N",
+        "N"
+      ],
+      "memory_sha256": "42935bf234c7b2e10ed9ff3b742f2e56cde4fb51bad36cf0a7347ac8d89630e3",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "thought": 8
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "f01987ccbfb1bda4180a56fb6a2f9373317222df131b4f1919f28ece56e7e85c",
+      "seed": 2101,
+      "status": "success",
+      "success": true,
+      "task_id": "02088717ce4b3889",
+      "trajectory_sha256": "3a5309778801f0f86dc6b58743bd1ec18388a6f7be99dc9eddd4b674c0134dad"
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 3,
+        "public_command_shape": 21,
+        "thought": 25
+      },
+      "cell_id": "state-02088717ce4b3889-2101-oldest_error",
+      "condition": "oldest_error",
+      "decisions": 49,
+      "identity_sha256": "213df1ea66b70db96e61cbdd8f5339bfad4f280799c61e1fba829c8dce54aeba",
+      "initial_labels": [
+        "E",
+        "N",
+        "N"
+      ],
+      "memory_sha256": "c9269f085ee3033af89ba80dc5426bffe9c4332685584b28e051e6e0b375f540",
+      "new_reflection_hashes": [
+        "46bb2481085dbf10a0a378acf59b3a72fc66a7b038312e5b0914de6620a11a42"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 3,
+        "public_command_shape": 7,
+        "thought": 25
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 3,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 5
+      },
+      "outcome": "A",
+      "result_sha256": "673a9db256edf12f065b971566adb5b280a7281b657a3bc788e24852f31659b1",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "02088717ce4b3889",
+      "trajectory_sha256": "fb464ab5492ca98a1bd2b073eeda451b15dc8dc3b1caa5ed1896b077946a2f1b"
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 19,
+        "thought": 23
+      },
+      "cell_id": "state-02088717ce4b3889-2101-single_correct",
+      "condition": "single_correct",
+      "decisions": 43,
+      "identity_sha256": "78a8859c451933eb972605e55c68f757e03d6a116c96345db9edf4e8e9b4f045",
+      "initial_labels": [
+        "C"
+      ],
+      "memory_sha256": "85ff3877124164dff55c0eacc80ba1178fb0238c63346d1cca664516a33a747e",
+      "new_reflection_hashes": [
+        "3eee47fa0ee03e34fff9e8393981c003a356a86c3a5dcb55470b45cf052bd0ad"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 8,
+        "thought": 23
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 3
+      },
+      "outcome": "U",
+      "result_sha256": "86e06bbea66d7a4a1f3c6a90345593e58da321a1c3c343e91a70a74994c626cb",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "02088717ce4b3889",
+      "trajectory_sha256": "37d339d632289539c2893fd51c770e5b51b82a6af72a447330a8e1c961d0225d"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 12,
+        "thought": 17
+      },
+      "cell_id": "state-02088717ce4b3889-2101-single_error",
+      "condition": "single_error",
+      "decisions": 29,
+      "identity_sha256": "85355d14917843aa204b95e01dbeb897f61cde1ae7b5a8b28bd5a7fb30930442",
+      "initial_labels": [
+        "E"
+      ],
+      "memory_sha256": "369ce4741692e699b2c293ef03cf41bf624ac84d9ddd452219ee12cccbe5c40a",
+      "new_reflection_hashes": [
+        "81f0b3061978a45deae86fb90c55e96037be410e602fa91fc97f748f55e50efc"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 4,
+        "thought": 17
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 2
+      },
+      "outcome": "E",
+      "result_sha256": "2e30aee4aeabe58fde006b1730354f1785797b4143fd6f2733897cc13de9cd68",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "02088717ce4b3889",
+      "trajectory_sha256": "04d5683f415a0837c8ef9f8f91fcd44137d5875bdd0b794dbd62b14e75d3e6b7"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 25,
+        "thought": 24
+      },
+      "cell_id": "state-02088717ce4b3889-2101-single_generic",
+      "condition": "single_generic",
+      "decisions": 49,
+      "identity_sha256": "f1d2149ea66b68cde4e2d125146742307b0cb03a621eb6ac8dbe648b08b45ff1",
+      "initial_labels": [
+        "N"
+      ],
+      "memory_sha256": "f52c8cd84eb62cfcd85df95410736b0a18fe2e2ebebbebde93cdca681327d537",
+      "new_reflection_hashes": [
+        "aab6e9a6a2db1c06f3e0fe37212b267e1597fc955153e19c3df259e2f9c9b115"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 10,
+        "thought": 24
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 4
+      },
+      "outcome": "E",
+      "result_sha256": "197a3dcb796900dac85dd1a4b6142af35b3dc44ba44f0c396ded379412290d94",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "02088717ce4b3889",
+      "trajectory_sha256": "9bc9df0d0e493e761a421af4ae8935cd4bf785f1110d891f3b7a2284be74f33d"
+    },
+    {
+      "action_shapes": {
+        "environment_style_sentence": 6,
+        "other_unmatched_shape": 2,
+        "public_command_shape": 9,
+        "thought": 12
+      },
+      "cell_id": "state-4a3978c7981b641a-2101-empty",
+      "condition": "empty",
+      "decisions": 29,
+      "identity_sha256": "078022cddd6d58c641e6bd5081e718be72e3036da186db523f419eb61db39cac",
+      "initial_labels": [],
+      "memory_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "new_reflection_hashes": [
+        "7a5d705c99d736a27ad281a9d49fe5f1fee7f9c41bb351798d43a1233af1e45e"
+      ],
+      "no_effect_shapes": {
+        "environment_style_sentence": 6,
+        "other_unmatched_shape": 2,
+        "public_command_shape": 6,
+        "thought": 12
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 1,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": false,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "U",
+      "result_sha256": "4acd3a95f85de3ee230803d468c4f2b6794c0c7c3ed1ab27855cd3da9ab88803",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "4a3978c7981b641a",
+      "trajectory_sha256": "f08abb588e601649d47b5cc244bc98c360312b3af1982d51aa090fd9682e134c"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 11,
+        "thought": 10
+      },
+      "cell_id": "state-4a3978c7981b641a-2101-full_generic",
+      "condition": "full_generic",
+      "decisions": 21,
+      "identity_sha256": "82ad3d8d9e4f8424442778ae52c149606ac2049d4b2025e2888a94e2aa2148e2",
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "memory_sha256": "94903cced6b08d27597677f27968009d8a8ef3b2b5f01d57c8f46f6dee035417",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "thought": 10
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "11f1a8ba25e3283cc5b9987b35016dea6709ee7391373fb246464fac2e4a6270",
+      "seed": 2101,
+      "status": "success",
+      "success": true,
+      "task_id": "4a3978c7981b641a",
+      "trajectory_sha256": "12e430e3eb22fa806960f28f279ff634cbe627eb8d9c03976fcb8765e24db8ea"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 11,
+        "thought": 9
+      },
+      "cell_id": "state-4a3978c7981b641a-2101-newest_correct",
+      "condition": "newest_correct",
+      "decisions": 20,
+      "identity_sha256": "172061ff68d6393bab7c99f8fcfc5bca43a006533da9b3e6babc334822b93d80",
+      "initial_labels": [
+        "N",
+        "N",
+        "C"
+      ],
+      "memory_sha256": "bb33e87b0dbcd8ffffa9574f30bfd7c256e649fbbce7c3c639e14965c16e9c23",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "thought": 9
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "27257e8166d6145e9a94366165b0132d36b970d4550b00a05b1c5d9996dea9be",
+      "seed": 2101,
+      "status": "success",
+      "success": true,
+      "task_id": "4a3978c7981b641a",
+      "trajectory_sha256": "594d8805c5bf2f3d7820857c2af891c8f93a8b1791a129fe240770e9c56d83eb"
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 23,
+        "thought": 25
+      },
+      "cell_id": "state-4a3978c7981b641a-2101-newest_error",
+      "condition": "newest_error",
+      "decisions": 49,
+      "identity_sha256": "abcc9c044ce53261f3d9c6d9ec1be953f4ee11071b3c4cd090df8468a1e71b0d",
+      "initial_labels": [
+        "N",
+        "N",
+        "E"
+      ],
+      "memory_sha256": "68e689a14c328da18c5da5fece470a65891e066a361aed0998cc5aa994bc692e",
+      "new_reflection_hashes": [
+        "6c112a6ebdc37b3144a045e1ab45449eb7f71391fb00df265bc0adcf67d5bba5"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 5,
+        "thought": 25
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 2,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 2
+      },
+      "outcome": "E",
+      "result_sha256": "de7e78cafa5d4e5a54c737aa1ace191bb65465bffc317cd715d7705dbf6e61a6",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "4a3978c7981b641a",
+      "trajectory_sha256": "4fcbb22614dfebb9b110b9c8d86bfbc6e7329d908a20ea5d04957e4c1cdcf5ea"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 11,
+        "thought": 9
+      },
+      "cell_id": "state-4a3978c7981b641a-2101-oldest_correct",
+      "condition": "oldest_correct",
+      "decisions": 20,
+      "identity_sha256": "6be5fff4c224cadf71c6d33a9c9ba7fc08d5d8cdef0cfd39d7003f87068f4eb9",
+      "initial_labels": [
+        "C",
+        "N",
+        "N"
+      ],
+      "memory_sha256": "42935bf234c7b2e10ed9ff3b742f2e56cde4fb51bad36cf0a7347ac8d89630e3",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "thought": 9
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "091d5e3cdb7b69c20bdeb85855efc513eb5a0ed56b7c1a19da52ce2d080d9bf0",
+      "seed": 2101,
+      "status": "success",
+      "success": true,
+      "task_id": "4a3978c7981b641a",
+      "trajectory_sha256": "6ff85ae676b2a2314c8368f9063532d457760ede73e3a59adc88236bed0e7dfb"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 20,
+        "thought": 22
+      },
+      "cell_id": "state-4a3978c7981b641a-2101-oldest_error",
+      "condition": "oldest_error",
+      "decisions": 42,
+      "identity_sha256": "782229573f8615ee47ee57c4b686e68976b0afba629aec0cee179852571d0dee",
+      "initial_labels": [
+        "E",
+        "N",
+        "N"
+      ],
+      "memory_sha256": "c9269f085ee3033af89ba80dc5426bffe9c4332685584b28e051e6e0b375f540",
+      "new_reflection_hashes": [
+        "984c6b3a864bf76a74368517b2dba5dc1f3d002dca23cbe57129129b93080fc3"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 7,
+        "thought": 22
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 2,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 3
+      },
+      "outcome": "E",
+      "result_sha256": "dabe55698fb0e4779cc2fb89c01ee9a00293aa6ef451ab46091286f80dfd2105",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "4a3978c7981b641a",
+      "trajectory_sha256": "5387ea8a50375e2fb6ad90cfb94eb6aa2f312fae9a5a77f97cc25b74bf9e925a"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 9,
+        "thought": 7
+      },
+      "cell_id": "state-4a3978c7981b641a-2101-single_correct",
+      "condition": "single_correct",
+      "decisions": 16,
+      "identity_sha256": "6e04e04fc4191060c2b04727f73f0f4bc9d544edef22c74580218ead5601b97d",
+      "initial_labels": [
+        "C"
+      ],
+      "memory_sha256": "85ff3877124164dff55c0eacc80ba1178fb0238c63346d1cca664516a33a747e",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "thought": 7
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "f016f83d4091142255c0a96f40657f9631f7e29ce21b44de8f93d334ef3a5bbe",
+      "seed": 2101,
+      "status": "success",
+      "success": true,
+      "task_id": "4a3978c7981b641a",
+      "trajectory_sha256": "204a5ccef530ce38f6decc05a3d8a85fc4b6f44bac97c97d47188068f2fe9b67"
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 2,
+        "public_command_shape": 14,
+        "thought": 19
+      },
+      "cell_id": "state-4a3978c7981b641a-2101-single_error",
+      "condition": "single_error",
+      "decisions": 35,
+      "identity_sha256": "2ab6ea170793a728950b1d829f26da8659e652c75d974177a81460deca1edf2e",
+      "initial_labels": [
+        "E"
+      ],
+      "memory_sha256": "369ce4741692e699b2c293ef03cf41bf624ac84d9ddd452219ee12cccbe5c40a",
+      "new_reflection_hashes": [
+        "f1a5a1c0585cd9239e4e8be8d13948f9803023d6cc7c2f8b08cecfeb60771a94"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 2,
+        "public_command_shape": 5,
+        "thought": 19
+      },
+      "observable_events": {
+        "competing_macros": 1,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 2
+      },
+      "outcome": "E",
+      "result_sha256": "b00b508900ffb377f9a0272c447ed0636c28b054c197f7fff76c0c2b4e2963d6",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "4a3978c7981b641a",
+      "trajectory_sha256": "1bb707255091d4e1cb4df575879de62a9cbb14b0f11b67e27b3b1684f164b379"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 11,
+        "thought": 16
+      },
+      "cell_id": "state-4a3978c7981b641a-2101-single_generic",
+      "condition": "single_generic",
+      "decisions": 27,
+      "identity_sha256": "5906af3b4cac812f8eadda9c8eb16ba00c370b69c7c368660a407e092389e2a3",
+      "initial_labels": [
+        "N"
+      ],
+      "memory_sha256": "f52c8cd84eb62cfcd85df95410736b0a18fe2e2ebebbebde93cdca681327d537",
+      "new_reflection_hashes": [
+        "c0a80d2557705788d96b1d9239fbab1475b8a31ef31228adad0723c91fdd780a"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 3,
+        "thought": 16
+      },
+      "observable_events": {
+        "competing_macros": 1,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 1
+      },
+      "outcome": "U",
+      "result_sha256": "27320581b84e5129cfadfa3ace3d2dc5181204bad2c8bb26d46ee5a4f5ece0a5",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "4a3978c7981b641a",
+      "trajectory_sha256": "816ae97bcefaaaa374e8012f64a75bb2cb13d28c2c4e1eabe6088daf45f50cd6"
+    },
+    {
+      "action_shapes": {
+        "environment_style_sentence": 7,
+        "public_command_shape": 20,
+        "thought": 18
+      },
+      "cell_id": "state-55f887bdc1cc1699-2101-empty",
+      "condition": "empty",
+      "decisions": 45,
+      "identity_sha256": "314f9c8c433608b77fafc8104f71d8a41f745d9748f35e578669b23fcbcf3f10",
+      "initial_labels": [],
+      "memory_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "new_reflection_hashes": [
+        "2467ba480d3b0d1f50b980fe115006d1dc52837ab6286868a0b8c6f743c5dd4d"
+      ],
+      "no_effect_shapes": {
+        "environment_style_sentence": 7,
+        "public_command_shape": 6,
+        "thought": 18
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 1,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": false,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "U",
+      "result_sha256": "046f5cd6ea00ec1ec098ffd40e3cdfb6fa651c0a8bf285308b1507c3e16dc295",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "55f887bdc1cc1699",
+      "trajectory_sha256": "4f9c957d0afc03c44d2a43efee1d017f7192db4bbfe78c329836c537e9aa51af"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 21,
+        "thought": 25
+      },
+      "cell_id": "state-55f887bdc1cc1699-2101-full_generic",
+      "condition": "full_generic",
+      "decisions": 46,
+      "identity_sha256": "bfea69d0902b9351f968596df8d2819131512667ef2fc61c3c6cd478440e69e1",
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "memory_sha256": "94903cced6b08d27597677f27968009d8a8ef3b2b5f01d57c8f46f6dee035417",
+      "new_reflection_hashes": [
+        "0664ce5c5d9e08ef08b84f8da4439fe9f9255e107bbb6f17dcc05d1a1fc3ca03"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 1,
+        "thought": 25
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": false,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "U",
+      "result_sha256": "a5126b991aa9a5675c6b83743d4ab1c62b4e86f588295bf99566e7d844ef17ea",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "55f887bdc1cc1699",
+      "trajectory_sha256": "ea78d734c23ac125286365c1185860df5c92d05e41aadffe9faa755682be919a"
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 4,
+        "public_command_shape": 21,
+        "thought": 24
+      },
+      "cell_id": "state-55f887bdc1cc1699-2101-newest_correct",
+      "condition": "newest_correct",
+      "decisions": 49,
+      "identity_sha256": "e65b928828b10941b8db9d5f3ed57554b778b158a5d599681fc24aba0d4d0a56",
+      "initial_labels": [
+        "N",
+        "N",
+        "C"
+      ],
+      "memory_sha256": "bb33e87b0dbcd8ffffa9574f30bfd7c256e649fbbce7c3c639e14965c16e9c23",
+      "new_reflection_hashes": [
+        "069100a57e3a5e4d1db90659e61b830ef363d7e19e21747794b11341e3d946aa"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 4,
+        "public_command_shape": 9,
+        "thought": 24
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 3
+      },
+      "outcome": "A",
+      "result_sha256": "11faf22baa2c131152897239072e0b74fd1225f10fc0fa7bf3979be6d9da664c",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "55f887bdc1cc1699",
+      "trajectory_sha256": "4d67933519bdc0ecdbc4da88a472019096a809ae80dd649f86b44f5fd38d37c0"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 22,
+        "thought": 27
+      },
+      "cell_id": "state-55f887bdc1cc1699-2101-newest_error",
+      "condition": "newest_error",
+      "decisions": 49,
+      "identity_sha256": "a0284d9b7e9db63b99e41fcaed7384a7eef08fbedaa32c9f6e22f3c2c3fca00c",
+      "initial_labels": [
+        "N",
+        "N",
+        "E"
+      ],
+      "memory_sha256": "68e689a14c328da18c5da5fece470a65891e066a361aed0998cc5aa994bc692e",
+      "new_reflection_hashes": [
+        "afe598a25c29258af67a457930eff12153a4fb3da95bf538f1ea5d2a747173b7"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 9,
+        "thought": 27
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 4
+      },
+      "outcome": "A",
+      "result_sha256": "d0ccb35d58094aa5f66dc21ac66aed4a5f1bb80149df0cd04c5287f563345781",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "55f887bdc1cc1699",
+      "trajectory_sha256": "498fd8bab861051b7a1e84b421edcc4fb72ab86d173ea5e584ac2be868619974"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 7,
+        "thought": 8
+      },
+      "cell_id": "state-55f887bdc1cc1699-2101-oldest_correct",
+      "condition": "oldest_correct",
+      "decisions": 15,
+      "identity_sha256": "2da1dc293250a5219e22d3bb26aac0c063c798533ba00f886943fc4304f42164",
+      "initial_labels": [
+        "C",
+        "N",
+        "N"
+      ],
+      "memory_sha256": "42935bf234c7b2e10ed9ff3b742f2e56cde4fb51bad36cf0a7347ac8d89630e3",
+      "new_reflection_hashes": [
+        "a08830c1cebf817161430e98e1fe9c6d7188c525636a7b818f6c521975078ca2"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 1,
+        "thought": 8
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 1
+      },
+      "outcome": "E",
+      "result_sha256": "7dec2ecb12be5e6c30b63fd0a05d9c78f1021ce1c2b447c7adc1e8c0983f7db8",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "55f887bdc1cc1699",
+      "trajectory_sha256": "a3561fafa38f85a926501f25540ba9915137f657ce2b54c748fbbc7f92dc8814"
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 9,
+        "public_command_shape": 13,
+        "thought": 27
+      },
+      "cell_id": "state-55f887bdc1cc1699-2101-oldest_error",
+      "condition": "oldest_error",
+      "decisions": 49,
+      "identity_sha256": "90a389888cb4fd7ccca609b3d089ca434643112b0a8fb570ad5387209a47e35f",
+      "initial_labels": [
+        "E",
+        "N",
+        "N"
+      ],
+      "memory_sha256": "c9269f085ee3033af89ba80dc5426bffe9c4332685584b28e051e6e0b375f540",
+      "new_reflection_hashes": [
+        "13dd141356994bea771e821b87b84831535630f382e67558b422fe4915391042"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 9,
+        "public_command_shape": 7,
+        "thought": 27
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 1,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "C",
+      "result_sha256": "04c9efe2e972b10e6d4a67a485c1ceb59115a7ec0b675cdb0ae23bb9929e9be9",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "55f887bdc1cc1699",
+      "trajectory_sha256": "0d97ef9eeb93654188e3f6d77de2ee94bc9053d2e5288c4cd2c2e357d829e4e1"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 27,
+        "thought": 22
+      },
+      "cell_id": "state-55f887bdc1cc1699-2101-single_correct",
+      "condition": "single_correct",
+      "decisions": 49,
+      "identity_sha256": "d960f278f7f0146bbe3c6a841891fae8fb2e98338f730f28fe30323438480886",
+      "initial_labels": [
+        "C"
+      ],
+      "memory_sha256": "85ff3877124164dff55c0eacc80ba1178fb0238c63346d1cca664516a33a747e",
+      "new_reflection_hashes": [
+        "a6b8eb52b4b68b5677b4347e883fd508e3bb9072224ce7e65cd37381acc523d1"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 8,
+        "thought": 22
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 2
+      },
+      "outcome": "A",
+      "result_sha256": "32613c795fec9fea90b4e843fb8622d3bbcd39cb4bff07ef5af6e3e6216e2ebe",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "55f887bdc1cc1699",
+      "trajectory_sha256": "80007ade3da99e5adfe659d2b2596673853f1047328ae1b3a019c6b71f42b343"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 29,
+        "thought": 20
+      },
+      "cell_id": "state-55f887bdc1cc1699-2101-single_error",
+      "condition": "single_error",
+      "decisions": 49,
+      "identity_sha256": "f1d8af1d612b461941772234eba30e21fc25d220d349a60b4387f48f2b1c02f7",
+      "initial_labels": [
+        "E"
+      ],
+      "memory_sha256": "369ce4741692e699b2c293ef03cf41bf624ac84d9ddd452219ee12cccbe5c40a",
+      "new_reflection_hashes": [
+        "2567b800ddd3844f2ee921b0cfefa676f6342499f9ab7780f35037f4385cfaa6"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 2,
+        "thought": 20
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": false,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "U",
+      "result_sha256": "b4a1ad06cad89fba1d6fe6fa9748b7dcd3a8d99b238a4d5afac8ad5585b58b43",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "55f887bdc1cc1699",
+      "trajectory_sha256": "3a1a63fbe8bb2eb7318c367f5d4081b1e6d1ac86a691f8f5b06e952db175bca3"
+    },
+    {
+      "action_shapes": {
+        "environment_style_sentence": 1,
+        "public_command_shape": 22,
+        "thought": 26
+      },
+      "cell_id": "state-55f887bdc1cc1699-2101-single_generic",
+      "condition": "single_generic",
+      "decisions": 49,
+      "identity_sha256": "68e8b926d034172b65e465b9b0d71ab09032b7af6bd21ef9aefdf2fc903bd300",
+      "initial_labels": [
+        "N"
+      ],
+      "memory_sha256": "f52c8cd84eb62cfcd85df95410736b0a18fe2e2ebebbebde93cdca681327d537",
+      "new_reflection_hashes": [
+        "8568786f5cda8d14fbd0a3b4875e66088f9a982022c18ab59f3e3d10af5b2fce"
+      ],
+      "no_effect_shapes": {
+        "environment_style_sentence": 1,
+        "public_command_shape": 2,
+        "thought": 26
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": false,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "U",
+      "result_sha256": "b49fe710e74c5c4dc3958eb34a7e7b5c9abb39523d22f656a5069fad48e635bc",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "55f887bdc1cc1699",
+      "trajectory_sha256": "a876f7a88291127b6bf17358f49dbbf846c04eed792892d94ea5bcc2592f9104"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 10,
+        "thought": 8
+      },
+      "cell_id": "state-69b7fb1c70f5d271-2101-empty",
+      "condition": "empty",
+      "decisions": 18,
+      "identity_sha256": "7120f73ac1f1f475080fcb70b32112f4baf8f060a03cd198f9017de0710539bf",
+      "initial_labels": [],
+      "memory_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "public_command_shape": 1,
+        "thought": 8
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "709d027b8071c0f141ff857c2fbff44e149edf90a892cda18ee314d0d29d9e7d",
+      "seed": 2101,
+      "status": "success",
+      "success": true,
+      "task_id": "69b7fb1c70f5d271",
+      "trajectory_sha256": "14c223a843380d298c5d2750f22e2b262ee0f9753c23fea1e87e39c6d3c5468f"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 10,
+        "thought": 7
+      },
+      "cell_id": "state-69b7fb1c70f5d271-2101-full_generic",
+      "condition": "full_generic",
+      "decisions": 17,
+      "identity_sha256": "a53b5be88363bcf54995ccbbc360e315050b42b101b3a7d773623affa35553fd",
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "memory_sha256": "94903cced6b08d27597677f27968009d8a8ef3b2b5f01d57c8f46f6dee035417",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "thought": 7
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "90c18394e8a3683a25461f9013bde8433e90a3e8bf7aac1eba85df22f4e10ae2",
+      "seed": 2101,
+      "status": "success",
+      "success": true,
+      "task_id": "69b7fb1c70f5d271",
+      "trajectory_sha256": "6255621091d38c957b70dfcf698cd7bd200b7fde0baa92e4f5a710830284bb0e"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 10,
+        "thought": 7
+      },
+      "cell_id": "state-69b7fb1c70f5d271-2101-newest_correct",
+      "condition": "newest_correct",
+      "decisions": 17,
+      "identity_sha256": "40fb273c9ff2057bd3d9956db4571c7cc2ea5636fa617b999b272604c58645e5",
+      "initial_labels": [
+        "N",
+        "N",
+        "C"
+      ],
+      "memory_sha256": "bb33e87b0dbcd8ffffa9574f30bfd7c256e649fbbce7c3c639e14965c16e9c23",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "thought": 7
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "ff649c7b66ec2898f374301b9dcb2931cd1e401db7447f9cd8d74fefa959b1d1",
+      "seed": 2101,
+      "status": "success",
+      "success": true,
+      "task_id": "69b7fb1c70f5d271",
+      "trajectory_sha256": "860833eb8bbdf8ef003a51a9531699288348eb69a62134c011576e7737ec18d3"
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 2,
+        "public_command_shape": 24,
+        "thought": 23
+      },
+      "cell_id": "state-69b7fb1c70f5d271-2101-newest_error",
+      "condition": "newest_error",
+      "decisions": 49,
+      "identity_sha256": "19be7305f24732c7407708defc6111f49059873595f14aa707315e481e406190",
+      "initial_labels": [
+        "N",
+        "N",
+        "E"
+      ],
+      "memory_sha256": "68e689a14c328da18c5da5fece470a65891e066a361aed0998cc5aa994bc692e",
+      "new_reflection_hashes": [
+        "8575c5c4084134453fd30f893e9161d94a275fd189b4fdda2281f1d1c9ee2829"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 2,
+        "public_command_shape": 7,
+        "thought": 23
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 2
+      },
+      "outcome": "E",
+      "result_sha256": "d81127e6fd5c1c109787a0b68842ae01e0ecd1e7f0328b931dcd025f8198ddd8",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "69b7fb1c70f5d271",
+      "trajectory_sha256": "1c6dad185ed66677dfb9e2a8752234d397f97cfbf8ebde22134a556e87c56f57"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 10,
+        "thought": 7
+      },
+      "cell_id": "state-69b7fb1c70f5d271-2101-oldest_correct",
+      "condition": "oldest_correct",
+      "decisions": 17,
+      "identity_sha256": "3ee6575695f78b182a774f6929ababa6858fcb38cbd627d796d773a0102151fa",
+      "initial_labels": [
+        "C",
+        "N",
+        "N"
+      ],
+      "memory_sha256": "42935bf234c7b2e10ed9ff3b742f2e56cde4fb51bad36cf0a7347ac8d89630e3",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "thought": 7
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "aaca7652bed3144e28abbeca0d06ce16984b2305619995faeef5ae7000e82dfe",
+      "seed": 2101,
+      "status": "success",
+      "success": true,
+      "task_id": "69b7fb1c70f5d271",
+      "trajectory_sha256": "860833eb8bbdf8ef003a51a9531699288348eb69a62134c011576e7737ec18d3"
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 3,
+        "public_command_shape": 19,
+        "thought": 27
+      },
+      "cell_id": "state-69b7fb1c70f5d271-2101-oldest_error",
+      "condition": "oldest_error",
+      "decisions": 49,
+      "identity_sha256": "36114fd348f72f6a73f14dd3b77ae13f70120cca6a3973e91292020e74a8911a",
+      "initial_labels": [
+        "E",
+        "N",
+        "N"
+      ],
+      "memory_sha256": "c9269f085ee3033af89ba80dc5426bffe9c4332685584b28e051e6e0b375f540",
+      "new_reflection_hashes": [
+        "04bc44750d6b300aba56f4798392fbc3f553c63b686f8548981252a25b8073f9"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 3,
+        "public_command_shape": 6,
+        "thought": 27
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 3
+      },
+      "outcome": "E",
+      "result_sha256": "86fc5a994866717c2895f5902e4fa1a0624e64dbe0bff5dbcbcba186f35b8c54",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "69b7fb1c70f5d271",
+      "trajectory_sha256": "ef25263330eda5e2d22c5d5d7d7f1e51379dc845d0269da47eab69e23aff6046"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 10,
+        "thought": 8
+      },
+      "cell_id": "state-69b7fb1c70f5d271-2101-single_correct",
+      "condition": "single_correct",
+      "decisions": 18,
+      "identity_sha256": "2ee9b486c192f0dc57037bb4e0e640e3ad3ebb5fcef2c5a6c4a9fe2e011ef780",
+      "initial_labels": [
+        "C"
+      ],
+      "memory_sha256": "85ff3877124164dff55c0eacc80ba1178fb0238c63346d1cca664516a33a747e",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "thought": 8
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "b1cc1ca75fb2bbbf479fcb1142aa251fd4af6bfa4f3850073c9d8e9e236e6345",
+      "seed": 2101,
+      "status": "success",
+      "success": true,
+      "task_id": "69b7fb1c70f5d271",
+      "trajectory_sha256": "964d39e0734109310de2107ab4aaa600dcbf8a09abfe6a4b76bdc43036edcf9c"
+    },
+    {
+      "action_shapes": {
+        "environment_style_sentence": 1,
+        "public_command_shape": 26,
+        "thought": 22
+      },
+      "cell_id": "state-69b7fb1c70f5d271-2101-single_error",
+      "condition": "single_error",
+      "decisions": 49,
+      "identity_sha256": "1036ad8fdf1321aabfcb6871fcd30e131ab715bbc2d3c8d04dbbbcb52a41bfbb",
+      "initial_labels": [
+        "E"
+      ],
+      "memory_sha256": "369ce4741692e699b2c293ef03cf41bf624ac84d9ddd452219ee12cccbe5c40a",
+      "new_reflection_hashes": [
+        "d3d7f2b287de9abfcf1da7af2fa23e40f9209078c2a8e36238a069d506afe15e"
+      ],
+      "no_effect_shapes": {
+        "environment_style_sentence": 1,
+        "public_command_shape": 4,
+        "thought": 22
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 2
+      },
+      "outcome": "E",
+      "result_sha256": "b150d982118629967ad6a09d5b8176fce0e8003f4da10e9c1803ee540e5fb34a",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "69b7fb1c70f5d271",
+      "trajectory_sha256": "d2840a3804da099718e79d77790e0b87ce6f03695d1a20aa26f3e1fc60e33671"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 10,
+        "thought": 7
+      },
+      "cell_id": "state-69b7fb1c70f5d271-2101-single_generic",
+      "condition": "single_generic",
+      "decisions": 17,
+      "identity_sha256": "18889f95116001fee263056f92d37e6dfe73bdc5f8be4a90f8aced90b692f2b9",
+      "initial_labels": [
+        "N"
+      ],
+      "memory_sha256": "f52c8cd84eb62cfcd85df95410736b0a18fe2e2ebebbebde93cdca681327d537",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "thought": 7
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "c020229a28a4311e4bf3374fb2bba2c5e1609c0ef925da555d295fd7d2f1a39f",
+      "seed": 2101,
+      "status": "success",
+      "success": true,
+      "task_id": "69b7fb1c70f5d271",
+      "trajectory_sha256": "6255621091d38c957b70dfcf698cd7bd200b7fde0baa92e4f5a710830284bb0e"
+    },
+    {
+      "action_shapes": {
+        "environment_style_sentence": 2,
+        "other_unmatched_shape": 1,
+        "public_command_shape": 25,
+        "thought": 21
+      },
+      "cell_id": "state-790b6f6fefeac9d1-2101-empty",
+      "condition": "empty",
+      "decisions": 49,
+      "identity_sha256": "b096339dc1ad508ac4cea5d151d27bbfaee707567cb50619893d47871a6b16e7",
+      "initial_labels": [],
+      "memory_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "new_reflection_hashes": [
+        "be8fbb2a4eb9419b490deceaaa6b2dde96ed5e34728496728a63b669f2e4943f"
+      ],
+      "no_effect_shapes": {
+        "environment_style_sentence": 2,
+        "other_unmatched_shape": 1,
+        "public_command_shape": 3,
+        "thought": 21
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": false,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "U",
+      "result_sha256": "22db15d038080f8398d99c76b8f401a68bacba7177cd8988109dbbf2d91a4875",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "790b6f6fefeac9d1",
+      "trajectory_sha256": "55a8318969cc67279de573ebba1bdb1fcf8370e47e15a39d801989cbbdce668b"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 27,
+        "thought": 22
+      },
+      "cell_id": "state-790b6f6fefeac9d1-2101-full_generic",
+      "condition": "full_generic",
+      "decisions": 49,
+      "identity_sha256": "4d1b00ded8c4eda2dc2f93b4a6651179c7e0828f87616d3b7e3aebeaad97ce9d",
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "memory_sha256": "94903cced6b08d27597677f27968009d8a8ef3b2b5f01d57c8f46f6dee035417",
+      "new_reflection_hashes": [
+        "fa7e66fa1f39b455e829d7713352aa738081f940a4d07dd42e040c8757c7abc7"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 9,
+        "thought": 22
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": false,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "U",
+      "result_sha256": "36d0a2f4cb33c5428149ee5ba2836d1734e801f0563b51553e561579609841f2",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "790b6f6fefeac9d1",
+      "trajectory_sha256": "a2bfe73e60a46009ef481b8c42e54d5c186cb44cd223e99cbe09b82e71cc56ee"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 27,
+        "thought": 22
+      },
+      "cell_id": "state-790b6f6fefeac9d1-2101-newest_correct",
+      "condition": "newest_correct",
+      "decisions": 49,
+      "identity_sha256": "1fd06cef95352525725f08252532bbad3f26a59e2bed234160d30037310b89fd",
+      "initial_labels": [
+        "N",
+        "N",
+        "C"
+      ],
+      "memory_sha256": "bb33e87b0dbcd8ffffa9574f30bfd7c256e649fbbce7c3c639e14965c16e9c23",
+      "new_reflection_hashes": [
+        "71a6edf78f96bb1a9d29cf965294b92f269bd72f37ac8e42bccd2745ad01d4c3"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 6,
+        "thought": 22
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": false,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "U",
+      "result_sha256": "8f44365c996505f8911440fabafb6261bead1574ca555af0a4c3d4fa524626ff",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "790b6f6fefeac9d1",
+      "trajectory_sha256": "19a59d741875d386bba28a89a2ef10eba845ed023438cf8beb7d10a88aae3e5f"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 27,
+        "thought": 22
+      },
+      "cell_id": "state-790b6f6fefeac9d1-2101-newest_error",
+      "condition": "newest_error",
+      "decisions": 49,
+      "identity_sha256": "e5065aae832837d62a972a14ec3ee67c2c85e18828ae5ad2abe360bbb3ea69a5",
+      "initial_labels": [
+        "N",
+        "N",
+        "E"
+      ],
+      "memory_sha256": "68e689a14c328da18c5da5fece470a65891e066a361aed0998cc5aa994bc692e",
+      "new_reflection_hashes": [
+        "4fa8e535717b69f0803fb6f7b97e2c99d6305d755b7cabe5d2fedd0831fa30dc"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 6,
+        "thought": 22
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": false,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "E",
+      "result_sha256": "29ee37142775675e53fd4dd96079ceee8a2906bf01d8f2e094b42187a62d182b",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "790b6f6fefeac9d1",
+      "trajectory_sha256": "88b66040d230f92568b6ff55e28422ccec9cfa734ad39a02fd0cdc3e02c71068"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 27,
+        "thought": 22
+      },
+      "cell_id": "state-790b6f6fefeac9d1-2101-oldest_correct",
+      "condition": "oldest_correct",
+      "decisions": 49,
+      "identity_sha256": "d6bb5dd0ab6ca0ccafb6967e041686f620504d71142c3963b54183c44c4ae9c8",
+      "initial_labels": [
+        "C",
+        "N",
+        "N"
+      ],
+      "memory_sha256": "42935bf234c7b2e10ed9ff3b742f2e56cde4fb51bad36cf0a7347ac8d89630e3",
+      "new_reflection_hashes": [
+        "23316e7fcfbbf6f6fcd0cd6afbb323c6e00e724ade7487d4225f4de1dd6ef90c"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 6,
+        "thought": 22
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": false,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "U",
+      "result_sha256": "7d28bf753715dc13c5ccba81dc5c5d8b7234755197209a8453519e2d8f9aa634",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "790b6f6fefeac9d1",
+      "trajectory_sha256": "8e824df48ead5767463274d3bbc3bd79264742e7edd44e94663d4453d9ec52bd"
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 26,
+        "thought": 22
+      },
+      "cell_id": "state-790b6f6fefeac9d1-2101-oldest_error",
+      "condition": "oldest_error",
+      "decisions": 49,
+      "identity_sha256": "fa8afb160ec546efec253d94bcf534dfbad9aadbbec5a37eee3fdc42750e43c2",
+      "initial_labels": [
+        "E",
+        "N",
+        "N"
+      ],
+      "memory_sha256": "c9269f085ee3033af89ba80dc5426bffe9c4332685584b28e051e6e0b375f540",
+      "new_reflection_hashes": [
+        "3f0ecf368866da9838287ea68808679f640cb9bdc2ecee51050389c8e5deb968"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 5,
+        "thought": 22
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": false,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "U",
+      "result_sha256": "6b17b451414b046affc50eb62da28d80941d92847eca0e48e45fccd5ff0e9b78",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "790b6f6fefeac9d1",
+      "trajectory_sha256": "8a40fe45951e1cd82218f3e151c47d368df5b983d68a350d4640a7891dbc2de8"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 28,
+        "thought": 21
+      },
+      "cell_id": "state-790b6f6fefeac9d1-2101-single_correct",
+      "condition": "single_correct",
+      "decisions": 49,
+      "identity_sha256": "416f30fc0abb1d31887f12df8a064028af3d1d9e323c0b4337ccdde0255176b6",
+      "initial_labels": [
+        "C"
+      ],
+      "memory_sha256": "85ff3877124164dff55c0eacc80ba1178fb0238c63346d1cca664516a33a747e",
+      "new_reflection_hashes": [
+        "a952f6ee50ad81fabc3f30dbf8d81aa282d22c96d704b43b1128104dc2bb5a35"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 3,
+        "thought": 21
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": false,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "U",
+      "result_sha256": "379d1eca9346303a1c62429043adb4976b933d13fbf69abbe283092fe176730d",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "790b6f6fefeac9d1",
+      "trajectory_sha256": "54e50f5157584a87e237c8cab9a3c87349807998fd33c11dc81c460bdb948d12"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 28,
+        "thought": 21
+      },
+      "cell_id": "state-790b6f6fefeac9d1-2101-single_error",
+      "condition": "single_error",
+      "decisions": 49,
+      "identity_sha256": "b15068870ca17976bb395c6a70f4cfb1b4391971f2f395290c73219a4d2f3b1b",
+      "initial_labels": [
+        "E"
+      ],
+      "memory_sha256": "369ce4741692e699b2c293ef03cf41bf624ac84d9ddd452219ee12cccbe5c40a",
+      "new_reflection_hashes": [
+        "a97aa2f8ae38e80db6e7749dd86a04d204fd3cb85785190479e9677460554981"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 3,
+        "thought": 21
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "E",
+      "result_sha256": "fbfccc4b5468e4678b177467438f063f7bd3f6fc1506d0a7888a289934e993b4",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "790b6f6fefeac9d1",
+      "trajectory_sha256": "73672a71b11f035977391e3ddbb1c5e1d56d01cf3a1dc42f0bbc47a4bd2dcdc0"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 28,
+        "thought": 21
+      },
+      "cell_id": "state-790b6f6fefeac9d1-2101-single_generic",
+      "condition": "single_generic",
+      "decisions": 49,
+      "identity_sha256": "9da3771db01270d974dd96c611ea73595f234196d0e2043b53643c8ca16c6ec5",
+      "initial_labels": [
+        "N"
+      ],
+      "memory_sha256": "f52c8cd84eb62cfcd85df95410736b0a18fe2e2ebebbebde93cdca681327d537",
+      "new_reflection_hashes": [
+        "3f0005d972ea8f6b7324d377529bb36278400c7944226edf0d4b05ceac2ada98"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 3,
+        "thought": 21
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": false,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "U",
+      "result_sha256": "263ff5920d1b8e91656b1eb31de2ad2ddd5314acfb7a88dca5afcbe071dbfbc1",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "790b6f6fefeac9d1",
+      "trajectory_sha256": "6c7bd23144c5b713e473fcebbb3fba10cbe78d4f5bb7092dc2961e2caf9b1529"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 8,
+        "thought": 6
+      },
+      "cell_id": "state-bf6d3dba86f7f0e4-2101-empty",
+      "condition": "empty",
+      "decisions": 14,
+      "identity_sha256": "839476e79dc6c5dc7128b5b8966b53758757b1bf6c3a2039816a4c25d70d4f57",
+      "initial_labels": [],
+      "memory_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "thought": 6
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "23c2e64f0c1e2b788e643a7e682dabd59c13d85af858e53192adeb1a9332ef7d",
+      "seed": 2101,
+      "status": "success",
+      "success": true,
+      "task_id": "bf6d3dba86f7f0e4",
+      "trajectory_sha256": "606d570dfc5d2e0235e4824fad030cbc0c507b70125121962ae77c0c3f69af8e"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 8,
+        "thought": 6
+      },
+      "cell_id": "state-bf6d3dba86f7f0e4-2101-full_generic",
+      "condition": "full_generic",
+      "decisions": 14,
+      "identity_sha256": "7b27c867488616dd2d34080d090811ae5c3de4698d00519539de1f3a1aa54ee4",
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "memory_sha256": "94903cced6b08d27597677f27968009d8a8ef3b2b5f01d57c8f46f6dee035417",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "thought": 6
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "bb25be7354b95e29633683804fdc528f2f93a921dfca2f3527d642d0fca0e4ae",
+      "seed": 2101,
+      "status": "success",
+      "success": true,
+      "task_id": "bf6d3dba86f7f0e4",
+      "trajectory_sha256": "7615fcb9732e57481cf28b3047a68e1f283af23863169d79a9a03130a03894d9"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 27,
+        "thought": 22
+      },
+      "cell_id": "state-bf6d3dba86f7f0e4-2101-newest_correct",
+      "condition": "newest_correct",
+      "decisions": 49,
+      "identity_sha256": "627395875ae873f9435f8fd896cab35bc2ade8c95a622717dd3af39ab504c25c",
+      "initial_labels": [
+        "N",
+        "N",
+        "C"
+      ],
+      "memory_sha256": "bb33e87b0dbcd8ffffa9574f30bfd7c256e649fbbce7c3c639e14965c16e9c23",
+      "new_reflection_hashes": [
+        "8affd0a1c021da3c8f57028332e7b3fb122cef7f3aafb665d9a74be183246fd3"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 1,
+        "thought": 22
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 1
+      },
+      "outcome": "U",
+      "result_sha256": "399e605b0a57f8f97c3fb16e55e09c7ceca5d4d087c5e6234cc54fe37d74b45f",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "bf6d3dba86f7f0e4",
+      "trajectory_sha256": "d4738e2e27401f5e6b5eff7114e17207616aecafc5ab54b37c52149ff13d4484"
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 16,
+        "thought": 16
+      },
+      "cell_id": "state-bf6d3dba86f7f0e4-2101-newest_error",
+      "condition": "newest_error",
+      "decisions": 33,
+      "identity_sha256": "24d27e2667d34be835e01b3f435906f4ce6cfecf8d57f33dbc04b7a383627505",
+      "initial_labels": [
+        "N",
+        "N",
+        "E"
+      ],
+      "memory_sha256": "68e689a14c328da18c5da5fece470a65891e066a361aed0998cc5aa994bc692e",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 4,
+        "thought": 16
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 1
+      },
+      "outcome": "S",
+      "result_sha256": "7e31218f60a1f8b1e931bec18f9f28adce5f84ff4a9ace0130ab5744fbaf7440",
+      "seed": 2101,
+      "status": "success",
+      "success": true,
+      "task_id": "bf6d3dba86f7f0e4",
+      "trajectory_sha256": "a3c87feafc08be96bad7716ed80a5e62a87fbf53d8f4168b4399f47ff7eac493"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 24,
+        "thought": 25
+      },
+      "cell_id": "state-bf6d3dba86f7f0e4-2101-oldest_correct",
+      "condition": "oldest_correct",
+      "decisions": 49,
+      "identity_sha256": "ba1e4fad4c7f3a4a902f537b0e15363d526869983c791adb0b2bf8d27f03efba",
+      "initial_labels": [
+        "C",
+        "N",
+        "N"
+      ],
+      "memory_sha256": "42935bf234c7b2e10ed9ff3b742f2e56cde4fb51bad36cf0a7347ac8d89630e3",
+      "new_reflection_hashes": [
+        "559a4b6f41e61da8aa0b0ee66a918cccd61b2dcb598c0c00d26b5c7956dc59eb"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 10,
+        "thought": 25
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 3,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 3
+      },
+      "outcome": "E",
+      "result_sha256": "da625a565ec2b75cce7a0d191de346e656238fb2ac72fc440ffe3286fe0a478b",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "bf6d3dba86f7f0e4",
+      "trajectory_sha256": "79fb86d5eb65b699c01c65b9cc55a8a54de0076a0b9708e6c2e5c973d9c04f1a"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 26,
+        "thought": 23
+      },
+      "cell_id": "state-bf6d3dba86f7f0e4-2101-oldest_error",
+      "condition": "oldest_error",
+      "decisions": 49,
+      "identity_sha256": "eee1787977551cbb361d4fbc333e4eb77bf8a6de14607b98e7cf738d6f261c6f",
+      "initial_labels": [
+        "E",
+        "N",
+        "N"
+      ],
+      "memory_sha256": "c9269f085ee3033af89ba80dc5426bffe9c4332685584b28e051e6e0b375f540",
+      "new_reflection_hashes": [
+        "b3a524c71e773d6d7c1c9419ec83bfd9a57926360a34cdb81948395ad944d3c7"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 8,
+        "thought": 23
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 2,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 2
+      },
+      "outcome": "E",
+      "result_sha256": "da5f2c0c6c9f3dab94261cc363f8682308ed115af6b2db80a693151ecc572889",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "bf6d3dba86f7f0e4",
+      "trajectory_sha256": "0c68d817798309528413e3c652f39209eeaf79b293b40daeadf466674c18bf9d"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 6,
+        "thought": 6
+      },
+      "cell_id": "state-bf6d3dba86f7f0e4-2101-single_correct",
+      "condition": "single_correct",
+      "decisions": 12,
+      "identity_sha256": "09d0791b759f27bdfbb6da22bf0fd71dda641579986d9aa45a16852026e14cb8",
+      "initial_labels": [
+        "C"
+      ],
+      "memory_sha256": "85ff3877124164dff55c0eacc80ba1178fb0238c63346d1cca664516a33a747e",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "public_command_shape": 1,
+        "thought": 6
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "f4c6d5ece4b65f722cb0f60ae76eb770ae15022ed865c1b862a5bc369f995192",
+      "seed": 2101,
+      "status": "success",
+      "success": true,
+      "task_id": "bf6d3dba86f7f0e4",
+      "trajectory_sha256": "3654051c1e8047a4ee11df73b86dfc9a4016541276906cf994dd0e826d1c118d"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 28,
+        "thought": 21
+      },
+      "cell_id": "state-bf6d3dba86f7f0e4-2101-single_error",
+      "condition": "single_error",
+      "decisions": 49,
+      "identity_sha256": "075da1913aa4374e062f7dccc4be321e18eb12e274da3fa18bf16f94f32cb4dc",
+      "initial_labels": [
+        "E"
+      ],
+      "memory_sha256": "369ce4741692e699b2c293ef03cf41bf624ac84d9ddd452219ee12cccbe5c40a",
+      "new_reflection_hashes": [
+        "7c613bdcbb07bbf8ac5022d3d17ebd5c1dc9dafafd3f701e577a88cbb538d471"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 4,
+        "thought": 21
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 2
+      },
+      "outcome": "E",
+      "result_sha256": "914f5b78ce6558b0f189936829bbc0e771bf7c84063ec78fdc891522bfe3d6d8",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "bf6d3dba86f7f0e4",
+      "trajectory_sha256": "8a29e00253e64165d79a276121b63dc10f8644ef560b349cee35c247bbd28505"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 6,
+        "thought": 6
+      },
+      "cell_id": "state-bf6d3dba86f7f0e4-2101-single_generic",
+      "condition": "single_generic",
+      "decisions": 12,
+      "identity_sha256": "4d3c21aef9efee5d26aca1f9226137e9933ab77f47a23c26ed2d8891ed8cd9ff",
+      "initial_labels": [
+        "N"
+      ],
+      "memory_sha256": "f52c8cd84eb62cfcd85df95410736b0a18fe2e2ebebbebde93cdca681327d537",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "public_command_shape": 1,
+        "thought": 6
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "4c5f7602639b5703abb336892b853544db3bd6b8bb2b21b8b0540192525bedcf",
+      "seed": 2101,
+      "status": "success",
+      "success": true,
+      "task_id": "bf6d3dba86f7f0e4",
+      "trajectory_sha256": "395a781bd239d7925ef5c961181e5908680fcb8a182b2f841aecfe0dd85f9516"
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 23,
+        "thought": 25
+      },
+      "cell_id": "state-bf7043e154cc1d53-2101-empty",
+      "condition": "empty",
+      "decisions": 49,
+      "identity_sha256": "1983792b142d7cab3061712f105d10e88f6f09f50ccdaec7aa3d7e87c1f3094b",
+      "initial_labels": [],
+      "memory_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "new_reflection_hashes": [
+        "711494910b7d7f3a457a2ed721c5c28415ad56eb17671e83c864aef9f01c5ef8"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 8,
+        "thought": 25
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 2
+      },
+      "outcome": "A",
+      "result_sha256": "564a5d6f36fc73f21c5fe15b93c4271b7113d57c9a06922fde1e7a71c20e5308",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "bf7043e154cc1d53",
+      "trajectory_sha256": "27827b4c68fa1a553a3eeaaeab532b47a64db1e9a67df0f51a881e7b7a9b7383"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 27,
+        "thought": 20
+      },
+      "cell_id": "state-bf7043e154cc1d53-2101-full_generic",
+      "condition": "full_generic",
+      "decisions": 47,
+      "identity_sha256": "59a486193ad8a7aba12c6803480131bb36dc1ef3a58931f7ff5f797804706628",
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "memory_sha256": "94903cced6b08d27597677f27968009d8a8ef3b2b5f01d57c8f46f6dee035417",
+      "new_reflection_hashes": [
+        "e3e66dc18dc81272c0208c044d5bdd7a2767018811aa7e4aa741b205a3d07be6"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 7,
+        "thought": 20
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 6,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 4
+      },
+      "outcome": "E",
+      "result_sha256": "c88c27d0a829f30115d14df12b0835b31d971ac900e06790f6821fb5138f08dd",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "bf7043e154cc1d53",
+      "trajectory_sha256": "3f9dbf49fe7b717ea75d6b49822c475a4a7c3341393d8d4dff5bcebbd66ecf7f"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 25,
+        "thought": 24
+      },
+      "cell_id": "state-bf7043e154cc1d53-2101-newest_correct",
+      "condition": "newest_correct",
+      "decisions": 49,
+      "identity_sha256": "8c1bf51b4a7dbd9f6e123e7e3db125dd8eeb7a34bcdb98b0542d6675f6b5260a",
+      "initial_labels": [
+        "N",
+        "N",
+        "C"
+      ],
+      "memory_sha256": "bb33e87b0dbcd8ffffa9574f30bfd7c256e649fbbce7c3c639e14965c16e9c23",
+      "new_reflection_hashes": [
+        "f1f618d5dd454368772772adb9f1a2b4700228af551f735e30f44ca7389890d3"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 7,
+        "thought": 24
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 2,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 3
+      },
+      "outcome": "E",
+      "result_sha256": "9259c71a67cba95a261662945cb6d99cab3b00908185d7a1a46f5439b3c52ef0",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "bf7043e154cc1d53",
+      "trajectory_sha256": "2ffbd790935ef83e83158dc5151c9ef2de272964bb5563451850837785658823"
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 2,
+        "public_command_shape": 20,
+        "thought": 27
+      },
+      "cell_id": "state-bf7043e154cc1d53-2101-newest_error",
+      "condition": "newest_error",
+      "decisions": 49,
+      "identity_sha256": "0ebb6d4c8d10bcd6d83547a349f571ea4f6c25a0c943c445fa98b621ddfd6d9c",
+      "initial_labels": [
+        "N",
+        "N",
+        "E"
+      ],
+      "memory_sha256": "68e689a14c328da18c5da5fece470a65891e066a361aed0998cc5aa994bc692e",
+      "new_reflection_hashes": [
+        "a89d435339d7e135f0b5ee34a187877901ac19fcf995345a625ebfd741fc25e3"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 2,
+        "public_command_shape": 7,
+        "thought": 27
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 2
+      },
+      "outcome": "U",
+      "result_sha256": "b4f3b11822353f7cac1d024175c8f85212b1aec9c8df3a055512f82a3d6dac8d",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "bf7043e154cc1d53",
+      "trajectory_sha256": "2552fd1c1ede85239c71e29365aac6f21a8e9ae7f189975350e4cb39fc179ad6"
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 18,
+        "thought": 26
+      },
+      "cell_id": "state-bf7043e154cc1d53-2101-oldest_correct",
+      "condition": "oldest_correct",
+      "decisions": 45,
+      "identity_sha256": "5baf16fdce9774c8470cd4dd430b160195e53d847f9bb1a72807c897bae44f08",
+      "initial_labels": [
+        "C",
+        "N",
+        "N"
+      ],
+      "memory_sha256": "42935bf234c7b2e10ed9ff3b742f2e56cde4fb51bad36cf0a7347ac8d89630e3",
+      "new_reflection_hashes": [
+        "6631d62805f0b7aed3d2cb376f19baef908de3f1d39ccd250ea20d55453d0ab9"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 10,
+        "thought": 26
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 3,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 6
+      },
+      "outcome": "A",
+      "result_sha256": "fdc419465beda5b7e0de526bd6725ff406044100353ff5d01242f7b6a556af63",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "bf7043e154cc1d53",
+      "trajectory_sha256": "f4e06df113bd5df80665a108279ab05a3dd1489319d46a84959b79ba7374cacb"
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 21,
+        "thought": 27
+      },
+      "cell_id": "state-bf7043e154cc1d53-2101-oldest_error",
+      "condition": "oldest_error",
+      "decisions": 49,
+      "identity_sha256": "2eebeca83f114a7e147d5a981242ca70e270100457fdb69bd0affcf98c8b8894",
+      "initial_labels": [
+        "E",
+        "N",
+        "N"
+      ],
+      "memory_sha256": "c9269f085ee3033af89ba80dc5426bffe9c4332685584b28e051e6e0b375f540",
+      "new_reflection_hashes": [
+        "62adc24d20b7ebcc320e3aae472ba2519bc1c7ac23a6e8fbfaa2637ff3688e41"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 10,
+        "thought": 27
+      },
+      "observable_events": {
+        "competing_macros": 1,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 2
+      },
+      "outcome": "E",
+      "result_sha256": "6724b0b671b2fce1d516527da6f703213c5c4625bb9442c48c9a8e628b9ab2f4",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "bf7043e154cc1d53",
+      "trajectory_sha256": "44e9277ea20bab7e9a952e3a0b11d8086f323a571a55db01ea7eb7c80f9b64e3"
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 19,
+        "thought": 24
+      },
+      "cell_id": "state-bf7043e154cc1d53-2101-single_correct",
+      "condition": "single_correct",
+      "decisions": 44,
+      "identity_sha256": "6ba9ee22eeccee9296122e876d73d80dcdb2ec511338aa1d98da861e36cf17e7",
+      "initial_labels": [
+        "C"
+      ],
+      "memory_sha256": "85ff3877124164dff55c0eacc80ba1178fb0238c63346d1cca664516a33a747e",
+      "new_reflection_hashes": [
+        "cd74d3ee7b98170658dafc76b5caf2f4a0cfd26e00755f4f0b1c6ac94270e3d6"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 13,
+        "thought": 24
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 12
+      },
+      "outcome": "C",
+      "result_sha256": "c19afbb1d99d2470f7b2db62fa8336c797a407a18b705a50d191d901868c8b6a",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "bf7043e154cc1d53",
+      "trajectory_sha256": "84201a6e03a84bfde12fbe76f3695dfbae22a609af254691320eefb82b27e5a1"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 23,
+        "thought": 26
+      },
+      "cell_id": "state-bf7043e154cc1d53-2101-single_error",
+      "condition": "single_error",
+      "decisions": 49,
+      "identity_sha256": "f8e6fc7953f6c075f1fde4198788db7ec05800191fa1fe348e67874cfb073de5",
+      "initial_labels": [
+        "E"
+      ],
+      "memory_sha256": "369ce4741692e699b2c293ef03cf41bf624ac84d9ddd452219ee12cccbe5c40a",
+      "new_reflection_hashes": [
+        "839343e6dfe3a8a4f0916fc24e3e705acae4445e030f60918ca3cbf54316d37e"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 11,
+        "thought": 26
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 3
+      },
+      "outcome": "A",
+      "result_sha256": "c867528f6d209edfd492711dbf699d1d9d3e069c42e1981ab844342571fbd82f",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "bf7043e154cc1d53",
+      "trajectory_sha256": "702abc9adf514d8ef41b4447429d759d7f16310ad9cc1d6254e7e84bddb6e6d6"
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 18,
+        "thought": 30
+      },
+      "cell_id": "state-bf7043e154cc1d53-2101-single_generic",
+      "condition": "single_generic",
+      "decisions": 49,
+      "identity_sha256": "f7097840b9f250802f5a408b95375e9872292e93da1fa04093a9ac3d5ec85833",
+      "initial_labels": [
+        "N"
+      ],
+      "memory_sha256": "f52c8cd84eb62cfcd85df95410736b0a18fe2e2ebebbebde93cdca681327d537",
+      "new_reflection_hashes": [
+        "0915f2d030e18ceb5028170b53cb967edb263ef5a2ccda03cd8d3c512f922d24"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 9,
+        "thought": 30
+      },
+      "observable_events": {
+        "competing_macros": 1,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 3
+      },
+      "outcome": "E",
+      "result_sha256": "ab5c3690c7d24d18bd25d635ccbe56abd9b57f96781d92cb419614a4bb878e03",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "bf7043e154cc1d53",
+      "trajectory_sha256": "fb40ee2c31509c2e14ee0cd5a8c885451339fed1bf9e42e250f251a97d288279"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 8,
+        "thought": 6
+      },
+      "cell_id": "state-d534fcfe5e56c028-2101-empty",
+      "condition": "empty",
+      "decisions": 14,
+      "identity_sha256": "e57a8c31c27adcd1123301fea09b00d0c11c4ee08c20c0e9a407ef2ddccbb769",
+      "initial_labels": [],
+      "memory_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "thought": 6
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "db945a0db7c6260fede793260c4d59b0bf9be433d31d526696164844a80ad374",
+      "seed": 2101,
+      "status": "success",
+      "success": true,
+      "task_id": "d534fcfe5e56c028",
+      "trajectory_sha256": "d26b12382ad1745f5ee000f2bd751577961d3386bc0eace4d36d07107fd90b13"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 9,
+        "thought": 7
+      },
+      "cell_id": "state-d534fcfe5e56c028-2101-full_generic",
+      "condition": "full_generic",
+      "decisions": 16,
+      "identity_sha256": "460f571b343f81a3b7169929d9a65ee92a8e89f6e49b6b5f7bb92ec90f1726fd",
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "memory_sha256": "94903cced6b08d27597677f27968009d8a8ef3b2b5f01d57c8f46f6dee035417",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "thought": 7
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "da492fd976dc0a142af9c78b35d427cbe9ec3645fb23eef0f8067187002206d5",
+      "seed": 2101,
+      "status": "success",
+      "success": true,
+      "task_id": "d534fcfe5e56c028",
+      "trajectory_sha256": "7f74f0663f0b19740527164ecd8f2ffb672fad126e387619bce65c37e1eff55a"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 8,
+        "thought": 7
+      },
+      "cell_id": "state-d534fcfe5e56c028-2101-newest_correct",
+      "condition": "newest_correct",
+      "decisions": 15,
+      "identity_sha256": "9edfda28ddfa88ecaed4dc05218dd380faafddde3bbfa756852c91414695c8ac",
+      "initial_labels": [
+        "N",
+        "N",
+        "C"
+      ],
+      "memory_sha256": "bb33e87b0dbcd8ffffa9574f30bfd7c256e649fbbce7c3c639e14965c16e9c23",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "thought": 7
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "6952b9ada5036512229615398ce543ce3425712e3e528048d26165d34c055df5",
+      "seed": 2101,
+      "status": "success",
+      "success": true,
+      "task_id": "d534fcfe5e56c028",
+      "trajectory_sha256": "909a06f4951fee6e393e41185698f5a98125a54f1bb060bb967dab1315c804bd"
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 2,
+        "public_command_shape": 22,
+        "thought": 25
+      },
+      "cell_id": "state-d534fcfe5e56c028-2101-newest_error",
+      "condition": "newest_error",
+      "decisions": 49,
+      "identity_sha256": "bbb4b8b88d627f233f489d392ba77c7c780a4c5ccc93b56d6ca55036c3087550",
+      "initial_labels": [
+        "N",
+        "N",
+        "E"
+      ],
+      "memory_sha256": "68e689a14c328da18c5da5fece470a65891e066a361aed0998cc5aa994bc692e",
+      "new_reflection_hashes": [
+        "b1d16afffe8059731069be4e523499b72ea34491c70b09b654eaa0cb672f59e2"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 2,
+        "public_command_shape": 6,
+        "thought": 25
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 1
+      },
+      "outcome": "E",
+      "result_sha256": "58a2d196cff4cbfed3e11ba483d5558bfa3449286d18e7925f12ce3e1f32b6d4",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "d534fcfe5e56c028",
+      "trajectory_sha256": "f0b8290afab8facc9a584cd36aba4bfa7a88eb23ba30d4093972693d9d78222e"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 20,
+        "thought": 17
+      },
+      "cell_id": "state-d534fcfe5e56c028-2101-oldest_correct",
+      "condition": "oldest_correct",
+      "decisions": 37,
+      "identity_sha256": "cca533659d99d5b5846095a2546e2e0788a248a14d78d87dde052d28f25f673f",
+      "initial_labels": [
+        "C",
+        "N",
+        "N"
+      ],
+      "memory_sha256": "42935bf234c7b2e10ed9ff3b742f2e56cde4fb51bad36cf0a7347ac8d89630e3",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "public_command_shape": 6,
+        "thought": 17
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "b5e7673621a382936fc8a9ee5f04a029d368983dbcb479e4d32a1860d2e37eef",
+      "seed": 2101,
+      "status": "success",
+      "success": true,
+      "task_id": "d534fcfe5e56c028",
+      "trajectory_sha256": "53bc2237c34a5a51ec54f787440c0047b3c63b761f58eaa8a02b5fbcb4e31cea"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 27,
+        "thought": 22
+      },
+      "cell_id": "state-d534fcfe5e56c028-2101-oldest_error",
+      "condition": "oldest_error",
+      "decisions": 49,
+      "identity_sha256": "2ee8d26dfc5575d3ae1dfd9fe15fc6d3116d6fdac29c0d81b49a74ece7e3850e",
+      "initial_labels": [
+        "E",
+        "N",
+        "N"
+      ],
+      "memory_sha256": "c9269f085ee3033af89ba80dc5426bffe9c4332685584b28e051e6e0b375f540",
+      "new_reflection_hashes": [
+        "4ab5acb42dbb14584ed585e8830aca925a9229811d2b7d5f5e43a33b86007a49"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 3,
+        "thought": 22
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 2
+      },
+      "outcome": "E",
+      "result_sha256": "9167f8d9dcdd3abe320aad7eae276aa22bc7ceb566aafddf3b28ea4a3b1d1046",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "d534fcfe5e56c028",
+      "trajectory_sha256": "143a99bb4057e070c610d971655c81bba8dcc3b01b679064eb7692cbf2c8ebfd"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 8,
+        "thought": 7
+      },
+      "cell_id": "state-d534fcfe5e56c028-2101-single_correct",
+      "condition": "single_correct",
+      "decisions": 15,
+      "identity_sha256": "b728f395d161b14d1f79871cbe9b59631e1bcb2f439fb8db86063fe4672f6b26",
+      "initial_labels": [
+        "C"
+      ],
+      "memory_sha256": "85ff3877124164dff55c0eacc80ba1178fb0238c63346d1cca664516a33a747e",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "thought": 7
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "df0243dfd82635c6a93659cf7b225149bfabf7eb16caa8a75fdc642324da86cb",
+      "seed": 2101,
+      "status": "success",
+      "success": true,
+      "task_id": "d534fcfe5e56c028",
+      "trajectory_sha256": "f5c87e5e06e66d2f24393146d2a3e5c60ee15b69f71484ef1c44e6f45ab2ec2f"
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 2,
+        "public_command_shape": 21,
+        "thought": 26
+      },
+      "cell_id": "state-d534fcfe5e56c028-2101-single_error",
+      "condition": "single_error",
+      "decisions": 49,
+      "identity_sha256": "a3bea96d6619e4e195347ebd213474a6d4caddc42e5f6ca0b855b963974f0929",
+      "initial_labels": [
+        "E"
+      ],
+      "memory_sha256": "369ce4741692e699b2c293ef03cf41bf624ac84d9ddd452219ee12cccbe5c40a",
+      "new_reflection_hashes": [
+        "0dbccf2ad7934d771f5ba78e7cd182db6d278026967bad6968199a0eb1e477ab"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 2,
+        "public_command_shape": 7,
+        "thought": 26
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 4
+      },
+      "outcome": "E",
+      "result_sha256": "e7e0a451456da0f18588a84631daa1cb83fcb9c6e0179bd3adec1d2a7cdb71ad",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "d534fcfe5e56c028",
+      "trajectory_sha256": "495608f7c3eb053ae6f0338a270ae723ac104a9ff05e5164a604d627c0f148a3"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 27,
+        "thought": 22
+      },
+      "cell_id": "state-d534fcfe5e56c028-2101-single_generic",
+      "condition": "single_generic",
+      "decisions": 49,
+      "identity_sha256": "d9f57f681dc29c0966a4c681e7b96bed0575e1c6b13784ce322b8cf3d46ad9f5",
+      "initial_labels": [
+        "N"
+      ],
+      "memory_sha256": "f52c8cd84eb62cfcd85df95410736b0a18fe2e2ebebbebde93cdca681327d537",
+      "new_reflection_hashes": [
+        "28c72620524f722b114d41234e60b8d5f80e1869519adaff89706231eea4381f"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 3,
+        "thought": 22
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": false,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "U",
+      "result_sha256": "8bb001ce60028cff4a4e9bb23e9916dc3e67d7147831d2be30809d4f9c513b7c",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "d534fcfe5e56c028",
+      "trajectory_sha256": "b7c133c35c2888d060eb8b6659c81dd90f274fecf6822b9e1d0796c3eee0ccad"
+    },
+    {
+      "action_shapes": {
+        "environment_style_sentence": 1,
+        "public_command_shape": 9,
+        "thought": 8
+      },
+      "cell_id": "state-dae15e890956dd5e-2101-empty",
+      "condition": "empty",
+      "decisions": 18,
+      "identity_sha256": "0ec1c4ecd41e076ef2988ca3bbccddc7dfd99e459f96cd91245a492f7a75708c",
+      "initial_labels": [],
+      "memory_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "environment_style_sentence": 1,
+        "public_command_shape": 1,
+        "thought": 8
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "26d814b87a5d20a5c8d180d7216b764180f661592822ab93bea36bfc14318c69",
+      "seed": 2101,
+      "status": "success",
+      "success": true,
+      "task_id": "dae15e890956dd5e",
+      "trajectory_sha256": "eb136e228ccabf8fd1ff973be00ffb7aa62e993d4f3dcc158d395e663a17af51"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 9,
+        "thought": 8
+      },
+      "cell_id": "state-dae15e890956dd5e-2101-full_generic",
+      "condition": "full_generic",
+      "decisions": 17,
+      "identity_sha256": "b69a3352203acd2b3750283e11e56ad75bbc2fda23f8cfaa3e044e9119007394",
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "memory_sha256": "94903cced6b08d27597677f27968009d8a8ef3b2b5f01d57c8f46f6dee035417",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "public_command_shape": 1,
+        "thought": 8
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "69ef75caedf7d606ad44c6291c3bbd99202a9ddb973f19f2b4da5f655f760bc3",
+      "seed": 2101,
+      "status": "success",
+      "success": true,
+      "task_id": "dae15e890956dd5e",
+      "trajectory_sha256": "e310df921af6a8c94d1e295dcd0e316624a245dcc3176aba9477f26949725320"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 9,
+        "thought": 9
+      },
+      "cell_id": "state-dae15e890956dd5e-2101-newest_correct",
+      "condition": "newest_correct",
+      "decisions": 18,
+      "identity_sha256": "8f24fb9a31bb7fccccef48310f112961f7f068caa1b1b8d04c4903e7ed9e0eb3",
+      "initial_labels": [
+        "N",
+        "N",
+        "C"
+      ],
+      "memory_sha256": "bb33e87b0dbcd8ffffa9574f30bfd7c256e649fbbce7c3c639e14965c16e9c23",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "public_command_shape": 1,
+        "thought": 9
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "11bb855546beb85456b6a6ff3c018deb57b1f5e216417f11d98348d182c93691",
+      "seed": 2101,
+      "status": "success",
+      "success": true,
+      "task_id": "dae15e890956dd5e",
+      "trajectory_sha256": "76c31da5a8fce4dedfbc74ef9a20fc80ac0c201ecadfb30324fc6a9dce580e3c"
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 21,
+        "thought": 27
+      },
+      "cell_id": "state-dae15e890956dd5e-2101-newest_error",
+      "condition": "newest_error",
+      "decisions": 49,
+      "identity_sha256": "b7b05127ac8b2b5f3e8e931be2fb2a4b48bec0d7c6a8570145076aae6a0c093e",
+      "initial_labels": [
+        "N",
+        "N",
+        "E"
+      ],
+      "memory_sha256": "68e689a14c328da18c5da5fece470a65891e066a361aed0998cc5aa994bc692e",
+      "new_reflection_hashes": [
+        "2e6738907c3b466770a74f37b3aa0e97767f51927616f1de158e6c2c7d07c393"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 11,
+        "thought": 27
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 3
+      },
+      "outcome": "E",
+      "result_sha256": "fdd3ca64b3420d289e916c99b23c19a020106d0b0a4e24150f8ef95daf115482",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "dae15e890956dd5e",
+      "trajectory_sha256": "4f1a53b59ebff83cafba6bbae99adc73d53efdf7f5064ce7f5a8f7740c6612ed"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 10,
+        "thought": 8
+      },
+      "cell_id": "state-dae15e890956dd5e-2101-oldest_correct",
+      "condition": "oldest_correct",
+      "decisions": 18,
+      "identity_sha256": "41586181b8795ada6a88509c38a4c1b22d3be1dd160cd8d7856cdaa12db16826",
+      "initial_labels": [
+        "C",
+        "N",
+        "N"
+      ],
+      "memory_sha256": "42935bf234c7b2e10ed9ff3b742f2e56cde4fb51bad36cf0a7347ac8d89630e3",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "thought": 8
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "38c8d8d3c521c73f1a6498b6ebac5b3e6cea776a72127f019a3bbfe778067cca",
+      "seed": 2101,
+      "status": "success",
+      "success": true,
+      "task_id": "dae15e890956dd5e",
+      "trajectory_sha256": "9a51122a0ade7bba922953e41dcf2860722fc1c351f106a32f2660e80a2ad162"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 24,
+        "thought": 25
+      },
+      "cell_id": "state-dae15e890956dd5e-2101-oldest_error",
+      "condition": "oldest_error",
+      "decisions": 49,
+      "identity_sha256": "d30cad20eb10d0311cf5d6c5e2d5c1188d6ceaddb8bbd6a52e20b2536f478141",
+      "initial_labels": [
+        "E",
+        "N",
+        "N"
+      ],
+      "memory_sha256": "c9269f085ee3033af89ba80dc5426bffe9c4332685584b28e051e6e0b375f540",
+      "new_reflection_hashes": [
+        "97995fdfd15d1e1e0670f2fed7cf9ff207188f9bc28edc3a1694db490d6dc714"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 13,
+        "thought": 25
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 2
+      },
+      "outcome": "E",
+      "result_sha256": "0142d3476939ab27484849d17607e3436e7090b8c18d1bd27571d23c6ce1f775",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "dae15e890956dd5e",
+      "trajectory_sha256": "4ad6beec935f759d0953dc79efcb261e46fc30b3839b1be0d5095abb3b00657f"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 9,
+        "thought": 10
+      },
+      "cell_id": "state-dae15e890956dd5e-2101-single_correct",
+      "condition": "single_correct",
+      "decisions": 19,
+      "identity_sha256": "bb552228af1b736c20cd0ae1098cfea057c3a3a6ccbd9d8fd9e3a375dd51b1e6",
+      "initial_labels": [
+        "C"
+      ],
+      "memory_sha256": "85ff3877124164dff55c0eacc80ba1178fb0238c63346d1cca664516a33a747e",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "public_command_shape": 1,
+        "thought": 10
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "1eff38bb7b9d0d60cfe7662d991ff6a405e21d605df9f767a827610af6b885c1",
+      "seed": 2101,
+      "status": "success",
+      "success": true,
+      "task_id": "dae15e890956dd5e",
+      "trajectory_sha256": "41a7cda8f2b1e6b2de0e75e7bc5c43f59d437e44d4ccb20231d9588ac0fa8dcd"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 23,
+        "thought": 26
+      },
+      "cell_id": "state-dae15e890956dd5e-2101-single_error",
+      "condition": "single_error",
+      "decisions": 49,
+      "identity_sha256": "c18a568c4a3cd7038e28ad68f8025cccb7793627444ca023d9afb4afd5111b5f",
+      "initial_labels": [
+        "E"
+      ],
+      "memory_sha256": "369ce4741692e699b2c293ef03cf41bf624ac84d9ddd452219ee12cccbe5c40a",
+      "new_reflection_hashes": [
+        "16bf36e6c687f5d6125b7fed9816c9e21cff71766186db5659666ec85febce63"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 12,
+        "thought": 26
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 2
+      },
+      "outcome": "E",
+      "result_sha256": "fd801447096efa55011b727575dd46721e93bd5bc0d6ead822df13969b7e2b9d",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "dae15e890956dd5e",
+      "trajectory_sha256": "cd4c50705646739a32713ea263d7f6a04dc69155e5fa22c914ae43b945671355"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 11,
+        "thought": 11
+      },
+      "cell_id": "state-dae15e890956dd5e-2101-single_generic",
+      "condition": "single_generic",
+      "decisions": 22,
+      "identity_sha256": "b3b431da1df8506ba6e7a221ac59857cc8396a01b03e8648e904b295766d0642",
+      "initial_labels": [
+        "N"
+      ],
+      "memory_sha256": "f52c8cd84eb62cfcd85df95410736b0a18fe2e2ebebbebde93cdca681327d537",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "public_command_shape": 1,
+        "thought": 11
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "a71bd0119415ba9930f12880af2e03fa149addedbf4a6ed724fff6952bf845f0",
+      "seed": 2101,
+      "status": "success",
+      "success": true,
+      "task_id": "dae15e890956dd5e",
+      "trajectory_sha256": "f461f5ce7e4abbc06bf992001a48d2f085d44ba8d806e8d369b23e02e3167756"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 10,
+        "thought": 9
+      },
+      "cell_id": "state-dd93ff2604e30529-2101-empty",
+      "condition": "empty",
+      "decisions": 19,
+      "identity_sha256": "775d0a22c87cda9aa2cfb55248ff5157ed34a52a8de65629455fcda0e0d19c4f",
+      "initial_labels": [],
+      "memory_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "public_command_shape": 1,
+        "thought": 9
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "908c519449b0b1954349220b1686147cdcdb3411056ca018f549b33eb72eb213",
+      "seed": 2101,
+      "status": "success",
+      "success": true,
+      "task_id": "dd93ff2604e30529",
+      "trajectory_sha256": "851b22b8ab5658fd6d02ed1dae6ea29030e2f29f3ce39f55ca120c91f0992b7b"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 10,
+        "thought": 9
+      },
+      "cell_id": "state-dd93ff2604e30529-2101-full_generic",
+      "condition": "full_generic",
+      "decisions": 19,
+      "identity_sha256": "e95cc7a0e15507c9a58e58ba13f984c6c632aa19dba8c0edceb9780cd89e0ee0",
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "memory_sha256": "94903cced6b08d27597677f27968009d8a8ef3b2b5f01d57c8f46f6dee035417",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "public_command_shape": 1,
+        "thought": 9
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "e70ee23935d09178ce906a57bb6bd2bb1b622bf3a5029334f846b3adfdd6ae7c",
+      "seed": 2101,
+      "status": "success",
+      "success": true,
+      "task_id": "dd93ff2604e30529",
+      "trajectory_sha256": "adba63d75840c04fda7bd02078fb110dad36c40b16baf35c501b593a4999ecad"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 10,
+        "thought": 9
+      },
+      "cell_id": "state-dd93ff2604e30529-2101-newest_correct",
+      "condition": "newest_correct",
+      "decisions": 19,
+      "identity_sha256": "1c5823f151f4a7c06e54571ca74aa081e61d9926210f54d195ddd3b0121fb1a9",
+      "initial_labels": [
+        "N",
+        "N",
+        "C"
+      ],
+      "memory_sha256": "bb33e87b0dbcd8ffffa9574f30bfd7c256e649fbbce7c3c639e14965c16e9c23",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "public_command_shape": 1,
+        "thought": 9
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "8aeeb1afbe8d121fe91e6bbda1af2114d61ef2b6f3c097b4d5e83be246d4afe4",
+      "seed": 2101,
+      "status": "success",
+      "success": true,
+      "task_id": "dd93ff2604e30529",
+      "trajectory_sha256": "fd10bc4175dd24123028bb0c432929c429bd050eea3a5a6e3ce218bd027c4a20"
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 24,
+        "thought": 24
+      },
+      "cell_id": "state-dd93ff2604e30529-2101-newest_error",
+      "condition": "newest_error",
+      "decisions": 49,
+      "identity_sha256": "ec60655fc8d394861fbc696c719a670cd4aadcd119974f4a0b86144ba5a08ac0",
+      "initial_labels": [
+        "N",
+        "N",
+        "E"
+      ],
+      "memory_sha256": "68e689a14c328da18c5da5fece470a65891e066a361aed0998cc5aa994bc692e",
+      "new_reflection_hashes": [
+        "a11e362405dadde645fd971f983dc098ac0bf7c58713cb401548e08719dd61a5"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 1,
+        "public_command_shape": 11,
+        "thought": 24
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 5
+      },
+      "outcome": "U",
+      "result_sha256": "ca7d38d112d9a1658d820b6480ee3c8d1103c698e49e159e126baccd3fb38fe4",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "dd93ff2604e30529",
+      "trajectory_sha256": "6c4a65646f8c04e6777b160f7dc705a5bd565bc2e827e93e5982c4fdddd6372a"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 10,
+        "thought": 9
+      },
+      "cell_id": "state-dd93ff2604e30529-2101-oldest_correct",
+      "condition": "oldest_correct",
+      "decisions": 19,
+      "identity_sha256": "03bbae856c4926cc23547bb9323a74961b00fb27d3a8e8cec3bc6444772d777d",
+      "initial_labels": [
+        "C",
+        "N",
+        "N"
+      ],
+      "memory_sha256": "42935bf234c7b2e10ed9ff3b742f2e56cde4fb51bad36cf0a7347ac8d89630e3",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "public_command_shape": 1,
+        "thought": 9
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "47af509b361c0fa319f493d1a25592cb166fbe22e4b505497d5b6c61c922fcd2",
+      "seed": 2101,
+      "status": "success",
+      "success": true,
+      "task_id": "dd93ff2604e30529",
+      "trajectory_sha256": "fd10bc4175dd24123028bb0c432929c429bd050eea3a5a6e3ce218bd027c4a20"
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 3,
+        "public_command_shape": 13,
+        "thought": 21
+      },
+      "cell_id": "state-dd93ff2604e30529-2101-oldest_error",
+      "condition": "oldest_error",
+      "decisions": 37,
+      "identity_sha256": "890729e8350f02de613e87bdfa299e07b8edb49e0d9a3cccad8bc44735a013f6",
+      "initial_labels": [
+        "E",
+        "N",
+        "N"
+      ],
+      "memory_sha256": "c9269f085ee3033af89ba80dc5426bffe9c4332685584b28e051e6e0b375f540",
+      "new_reflection_hashes": [
+        "ae747c0dd9b022a823e71c09ed93b3c440d4dd7e89404083b6ab7f84de06654c"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 3,
+        "public_command_shape": 6,
+        "thought": 21
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 3,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 3
+      },
+      "outcome": "E",
+      "result_sha256": "99b4f4c87ae4649070024cbe18194ccabd03f65981bd65afadcde4324782a1ba",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "dd93ff2604e30529",
+      "trajectory_sha256": "a5be67760312d884e5a589c65c488099e6e2c107cc07ffc2643e38f151e62618"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 10,
+        "thought": 8
+      },
+      "cell_id": "state-dd93ff2604e30529-2101-single_correct",
+      "condition": "single_correct",
+      "decisions": 18,
+      "identity_sha256": "3374e00252af80c2a315a2609b2c49e2081f7b3640e78a48f970a10e0b7aff6b",
+      "initial_labels": [
+        "C"
+      ],
+      "memory_sha256": "85ff3877124164dff55c0eacc80ba1178fb0238c63346d1cca664516a33a747e",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "public_command_shape": 1,
+        "thought": 8
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "ff7aac7072721549527a5fc9889f88466642a61ab2ed20879e136ddffd1dfabf",
+      "seed": 2101,
+      "status": "success",
+      "success": true,
+      "task_id": "dd93ff2604e30529",
+      "trajectory_sha256": "ed05af5b2be84f9ed3d5831926e165c767f0017c636678450775d0714cd77a99"
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 3,
+        "public_command_shape": 15,
+        "thought": 25
+      },
+      "cell_id": "state-dd93ff2604e30529-2101-single_error",
+      "condition": "single_error",
+      "decisions": 43,
+      "identity_sha256": "5442f534d37902fd5b61a65907081162b76524d7ad3a6c794e0e7d4c51585f02",
+      "initial_labels": [
+        "E"
+      ],
+      "memory_sha256": "369ce4741692e699b2c293ef03cf41bf624ac84d9ddd452219ee12cccbe5c40a",
+      "new_reflection_hashes": [
+        "ff6db06a33d9309595d66a6cb2794f959dda3646a220966390a2d698aa171fd8"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 3,
+        "public_command_shape": 4,
+        "thought": 25
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 3
+      },
+      "outcome": "E",
+      "result_sha256": "f13fcba294e36b5c22328175c348ecad63e4f5ce4547bf3d3d606f1250367106",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "dd93ff2604e30529",
+      "trajectory_sha256": "aeac1fa8f440e74cbb21f429d7260a98432c1092eb06dfc85e77c716e1571b09"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 1,
+        "thought": 6
+      },
+      "cell_id": "state-dd93ff2604e30529-2101-single_generic",
+      "condition": "single_generic",
+      "decisions": 7,
+      "identity_sha256": "1109f7766699fb1f1ff3adec3b82faacb1f74c9943f613d649e0a9e0919692f2",
+      "initial_labels": [
+        "N"
+      ],
+      "memory_sha256": "f52c8cd84eb62cfcd85df95410736b0a18fe2e2ebebbebde93cdca681327d537",
+      "new_reflection_hashes": [
+        "bac0ef53f1c53632bda15c7214ac5da8b852ede0a1a3db6af84fa4b14c57f9a1"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 1,
+        "thought": 6
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": false,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "U",
+      "result_sha256": "31ca042540e486c2285bce4f7d51bbf6df8d12aa6132238a244c91236b95c638",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "dd93ff2604e30529",
+      "trajectory_sha256": "306635a653c9cb4f0dd3783f3f666e4a38987e744aec67d74c28ff429f1bfac5"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 9,
+        "thought": 9
+      },
+      "cell_id": "state-e4244c54d52f3326-2101-empty",
+      "condition": "empty",
+      "decisions": 18,
+      "identity_sha256": "d3c437faceafff5313e424ea43e2ccb4f6056d155e754d0faf6504e30fbbfb04",
+      "initial_labels": [],
+      "memory_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "public_command_shape": 1,
+        "thought": 9
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "969627fb5addaa24cdccff623e7e73d076dde2e3a7f46d479f0db5f115ec34c2",
+      "seed": 2101,
+      "status": "success",
+      "success": true,
+      "task_id": "e4244c54d52f3326",
+      "trajectory_sha256": "be65abe03d45e1085b828e910868f523541614be9c6254e3b89633dc546948b2"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 10,
+        "thought": 8
+      },
+      "cell_id": "state-e4244c54d52f3326-2101-full_generic",
+      "condition": "full_generic",
+      "decisions": 18,
+      "identity_sha256": "bffc9e8dc19dcd47aba7debc0ff49bbc537b88600c4110b0f0aa61f5e52f5027",
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "memory_sha256": "94903cced6b08d27597677f27968009d8a8ef3b2b5f01d57c8f46f6dee035417",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "thought": 8
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "d8a4c00a2ebbad853b0464166dc2e8f74be5bcf6fda7b2312f8e71fe8154480c",
+      "seed": 2101,
+      "status": "success",
+      "success": true,
+      "task_id": "e4244c54d52f3326",
+      "trajectory_sha256": "15fe875dc54b609659155507e41e4ec9ce675f5bc85be89180c99a2062ce1354"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 10,
+        "thought": 9
+      },
+      "cell_id": "state-e4244c54d52f3326-2101-newest_correct",
+      "condition": "newest_correct",
+      "decisions": 19,
+      "identity_sha256": "3909762717886d714fc7b711a5ff8000d2c4755903662486d04870b4e53f1542",
+      "initial_labels": [
+        "N",
+        "N",
+        "C"
+      ],
+      "memory_sha256": "bb33e87b0dbcd8ffffa9574f30bfd7c256e649fbbce7c3c639e14965c16e9c23",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "thought": 9
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "96ba418c7f7f0367928fc7edaf2e7f71b39e458e95489097f628e4262e66f89d",
+      "seed": 2101,
+      "status": "success",
+      "success": true,
+      "task_id": "e4244c54d52f3326",
+      "trajectory_sha256": "65840017d84ff88b6172bdfb44ec4b5bba4645cbd32ddc86b1837a402ed8bf6c"
+    },
+    {
+      "action_shapes": {
+        "other_unmatched_shape": 3,
+        "public_command_shape": 20,
+        "thought": 26
+      },
+      "cell_id": "state-e4244c54d52f3326-2101-newest_error",
+      "condition": "newest_error",
+      "decisions": 49,
+      "identity_sha256": "7d9a469c6e76c22514f359152ae84baf26134618c69cb8244db437895702c280",
+      "initial_labels": [
+        "N",
+        "N",
+        "E"
+      ],
+      "memory_sha256": "68e689a14c328da18c5da5fece470a65891e066a361aed0998cc5aa994bc692e",
+      "new_reflection_hashes": [
+        "844bfcd27656dea55ea62251c9f8d8aadeec58685651b1f90a935d1dab150441"
+      ],
+      "no_effect_shapes": {
+        "other_unmatched_shape": 3,
+        "public_command_shape": 12,
+        "thought": 26
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 2,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 2
+      },
+      "outcome": "E",
+      "result_sha256": "88327d3048fc4779643c3b95f28584c6f87d7861b3b5bcf693f8a529f4edd359",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "e4244c54d52f3326",
+      "trajectory_sha256": "7ce9419bbe5c29cae4710fbba56ec27b3dcafd5514d8da33b106972c6c7bc051"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 10,
+        "thought": 7
+      },
+      "cell_id": "state-e4244c54d52f3326-2101-oldest_correct",
+      "condition": "oldest_correct",
+      "decisions": 17,
+      "identity_sha256": "e557fbc32b01fd30c18d5e091588e295b8bfb2abffde112254d3a47360367750",
+      "initial_labels": [
+        "C",
+        "N",
+        "N"
+      ],
+      "memory_sha256": "42935bf234c7b2e10ed9ff3b742f2e56cde4fb51bad36cf0a7347ac8d89630e3",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "thought": 7
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "079c5aabaad4c33815ccd2ad8b1378cb3fcf842af19220164be71721367c5690",
+      "seed": 2101,
+      "status": "success",
+      "success": true,
+      "task_id": "e4244c54d52f3326",
+      "trajectory_sha256": "144776b99a989e96c8ec37b7f87f3dd13fe59fd1e90f5481b4aae157bd769370"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 23,
+        "thought": 26
+      },
+      "cell_id": "state-e4244c54d52f3326-2101-oldest_error",
+      "condition": "oldest_error",
+      "decisions": 49,
+      "identity_sha256": "02c9e262176bf8ac796aeef54df660c71f7e8af7cfada34a4c9f3ea60056c5da",
+      "initial_labels": [
+        "E",
+        "N",
+        "N"
+      ],
+      "memory_sha256": "c9269f085ee3033af89ba80dc5426bffe9c4332685584b28e051e6e0b375f540",
+      "new_reflection_hashes": [
+        "9d46bf39d02e9559314ac3496af7d87c3504bd6634d01c1b95044454e87fecf8"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 8,
+        "thought": 26
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 4
+      },
+      "outcome": "U",
+      "result_sha256": "59be27eb79b4de1892914da57a1acb100bbb126811aca656465300f03aaf7690",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "e4244c54d52f3326",
+      "trajectory_sha256": "4f102d09e1ca2a59dff41df5abafa6a06f6628bdb4ab03e0b6a33e57365dee1e"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 9,
+        "thought": 9
+      },
+      "cell_id": "state-e4244c54d52f3326-2101-single_correct",
+      "condition": "single_correct",
+      "decisions": 18,
+      "identity_sha256": "dd8fefb6f067b7fde97522aba731b675cb42adae0bc072ca8de452d880581856",
+      "initial_labels": [
+        "C"
+      ],
+      "memory_sha256": "85ff3877124164dff55c0eacc80ba1178fb0238c63346d1cca664516a33a747e",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "public_command_shape": 1,
+        "thought": 9
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "3f8313103860fa6b7a4a51daa7aa8d56b8d8e16ad4c757664b982ed945f7dd05",
+      "seed": 2101,
+      "status": "success",
+      "success": true,
+      "task_id": "e4244c54d52f3326",
+      "trajectory_sha256": "f741407243a69c1eaf77ed9753e09bf3ad82dbd70237670183eecf9d06b3bbab"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 18,
+        "thought": 23
+      },
+      "cell_id": "state-e4244c54d52f3326-2101-single_error",
+      "condition": "single_error",
+      "decisions": 41,
+      "identity_sha256": "5434b8818f9af2a17430f97b8fffdceb64b088f831a89c22c960c2cde099a033",
+      "initial_labels": [
+        "E"
+      ],
+      "memory_sha256": "369ce4741692e699b2c293ef03cf41bf624ac84d9ddd452219ee12cccbe5c40a",
+      "new_reflection_hashes": [
+        "0ccbfd7488fa34088f3e709bd0d0a7b41bf59178690779084fd636b8b4c18ab4"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 10,
+        "thought": 23
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 3
+      },
+      "outcome": "U",
+      "result_sha256": "747e0fe60c8f3a5fcf2c3c755d227951ef3f982e6458985ca4a9494e95d52252",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "e4244c54d52f3326",
+      "trajectory_sha256": "82e3a54f7018a3641539bad5cdc7bdb422fb642f6a05d84608ecfea32b6733df"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 9,
+        "thought": 9
+      },
+      "cell_id": "state-e4244c54d52f3326-2101-single_generic",
+      "condition": "single_generic",
+      "decisions": 18,
+      "identity_sha256": "cb959218b2fcc4905bf3124ce66799e5d9d3c3a34a8135ec164c54dfb8dd2c75",
+      "initial_labels": [
+        "N"
+      ],
+      "memory_sha256": "f52c8cd84eb62cfcd85df95410736b0a18fe2e2ebebbebde93cdca681327d537",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "public_command_shape": 1,
+        "thought": 9
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "162a40d89dfad22c6b0fe333d42f1c035762366bbadfdc65ea0d56487418bfba",
+      "seed": 2101,
+      "status": "success",
+      "success": true,
+      "task_id": "e4244c54d52f3326",
+      "trajectory_sha256": "09d75000ccfedf76d65d299043225794a393402834d71ea4b8d6c84f814293c2"
+    },
+    {
+      "action_shapes": {
+        "environment_style_sentence": 1,
+        "public_command_shape": 10,
+        "thought": 9
+      },
+      "cell_id": "state-f8864bd2f58af715-2101-empty",
+      "condition": "empty",
+      "decisions": 20,
+      "identity_sha256": "aacd091edd27f8440281ed44db3113f8f92f25a7b88fde53562aa06f85a62985",
+      "initial_labels": [],
+      "memory_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "environment_style_sentence": 1,
+        "public_command_shape": 1,
+        "thought": 9
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "c0ebcaae01d798999fb50a29e1b4567eb4642eb5019d5e5bb8cc572f4d1ffa8e",
+      "seed": 2101,
+      "status": "success",
+      "success": true,
+      "task_id": "f8864bd2f58af715",
+      "trajectory_sha256": "935902cad257567687501e46ffe5eb653f2267a5b633d896ef1aba7530d32838"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 11,
+        "thought": 10
+      },
+      "cell_id": "state-f8864bd2f58af715-2101-full_generic",
+      "condition": "full_generic",
+      "decisions": 21,
+      "identity_sha256": "c3b099b5b4e8bffe7ab23f19f4e66f3caffe90f356ce03bcd0935d81a7510706",
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "memory_sha256": "94903cced6b08d27597677f27968009d8a8ef3b2b5f01d57c8f46f6dee035417",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "public_command_shape": 1,
+        "thought": 10
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "79cf4feb397ad7aea47be687d6ce21a67c6403f0e4385bdc5545b429bf52ff59",
+      "seed": 2101,
+      "status": "success",
+      "success": true,
+      "task_id": "f8864bd2f58af715",
+      "trajectory_sha256": "aecfad290fb38a45c8cc6a3dacf2e864f335e95da8ec414604b19e4b7f7b50c5"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 10,
+        "thought": 7
+      },
+      "cell_id": "state-f8864bd2f58af715-2101-newest_correct",
+      "condition": "newest_correct",
+      "decisions": 17,
+      "identity_sha256": "27d38c29c63aa8ab33287a550ffa800e7bbfe57b9b6b36353347c10e42fbbb8f",
+      "initial_labels": [
+        "N",
+        "N",
+        "C"
+      ],
+      "memory_sha256": "bb33e87b0dbcd8ffffa9574f30bfd7c256e649fbbce7c3c639e14965c16e9c23",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "thought": 7
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "be8f1e103d63219e2bf01c0d0b3df493c98947f4b878a40af41031732bfd07fb",
+      "seed": 2101,
+      "status": "success",
+      "success": true,
+      "task_id": "f8864bd2f58af715",
+      "trajectory_sha256": "c56fd96bc62605a9119f471031a5ca749763032e4a30a24279bb104432e89fef"
+    },
+    {
+      "action_shapes": {
+        "environment_style_sentence": 1,
+        "other_unmatched_shape": 1,
+        "public_command_shape": 24,
+        "thought": 23
+      },
+      "cell_id": "state-f8864bd2f58af715-2101-newest_error",
+      "condition": "newest_error",
+      "decisions": 49,
+      "identity_sha256": "625ef1a04cee95f6819256540bf0869da6ec6b1c9113b6c4648832ae1207da53",
+      "initial_labels": [
+        "N",
+        "N",
+        "E"
+      ],
+      "memory_sha256": "68e689a14c328da18c5da5fece470a65891e066a361aed0998cc5aa994bc692e",
+      "new_reflection_hashes": [
+        "85314be2cc5182a0b00fad74a872ddb7a7541d3d4a87b3a1b8faedf9e520ee4b"
+      ],
+      "no_effect_shapes": {
+        "environment_style_sentence": 1,
+        "other_unmatched_shape": 1,
+        "public_command_shape": 4,
+        "thought": 23
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 2,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 2
+      },
+      "outcome": "E",
+      "result_sha256": "8b3436319b395561b3facc9532b52537f55664849b1433298be632f21a5bbd7f",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "f8864bd2f58af715",
+      "trajectory_sha256": "d15b7752097e12158ce8958637782ec29e6f48046fd9259c8ac618238290e432"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 9,
+        "thought": 7
+      },
+      "cell_id": "state-f8864bd2f58af715-2101-oldest_correct",
+      "condition": "oldest_correct",
+      "decisions": 16,
+      "identity_sha256": "e7a8014910bb6b61f3e8922b6c37a572829ff05cf93e7b6432ddbac36d722cc8",
+      "initial_labels": [
+        "C",
+        "N",
+        "N"
+      ],
+      "memory_sha256": "42935bf234c7b2e10ed9ff3b742f2e56cde4fb51bad36cf0a7347ac8d89630e3",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "thought": 7
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "391f5df82d6a46039923e5898ba638bd7d8aa7641e41ece942cf473c4fa10338",
+      "seed": 2101,
+      "status": "success",
+      "success": true,
+      "task_id": "f8864bd2f58af715",
+      "trajectory_sha256": "073072ecac66fe53298b48dc80df19cfce081d7968b5de4d62199122c99f08ab"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 26,
+        "thought": 23
+      },
+      "cell_id": "state-f8864bd2f58af715-2101-oldest_error",
+      "condition": "oldest_error",
+      "decisions": 49,
+      "identity_sha256": "9c7ce129008089a54a1f3b64608c09ccabd8e9d9d457725e9da93cfc74cbfb9d",
+      "initial_labels": [
+        "E",
+        "N",
+        "N"
+      ],
+      "memory_sha256": "c9269f085ee3033af89ba80dc5426bffe9c4332685584b28e051e6e0b375f540",
+      "new_reflection_hashes": [
+        "913cdec9742d6bfc257c52519995f86742375b1296916edf420ce706a7536916"
+      ],
+      "no_effect_shapes": {
+        "public_command_shape": 6,
+        "thought": 23
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 2,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 1
+      },
+      "outcome": "U",
+      "result_sha256": "21e67b32209534958be17fa1de8ee0dbe1397f7a1d5a12ea8cd7547c8091ab92",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "f8864bd2f58af715",
+      "trajectory_sha256": "9710127c776a365d0cc42783bd5d19b0f1c376c1d8e898d05fbb92cb87ed11b9"
+    },
+    {
+      "action_shapes": {
+        "environment_style_sentence": 2,
+        "public_command_shape": 11,
+        "thought": 11
+      },
+      "cell_id": "state-f8864bd2f58af715-2101-single_correct",
+      "condition": "single_correct",
+      "decisions": 24,
+      "identity_sha256": "7def1db64d0d1d5d44c4f0e963ec9eb3057b8901d51df4cac2bf4286743cb1f0",
+      "initial_labels": [
+        "C"
+      ],
+      "memory_sha256": "85ff3877124164dff55c0eacc80ba1178fb0238c63346d1cca664516a33a747e",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "environment_style_sentence": 2,
+        "public_command_shape": 2,
+        "thought": 11
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "60e3ea08cdf2710969bc1db4ad9a7b387e29b43f06c4991e290f927e0e947846",
+      "seed": 2101,
+      "status": "success",
+      "success": true,
+      "task_id": "f8864bd2f58af715",
+      "trajectory_sha256": "fe3f8cef5bdef47fc1b8e2b9911524e55fb483a7b7174cb1a4fc324d2fabfa67"
+    },
+    {
+      "action_shapes": {
+        "environment_style_sentence": 2,
+        "public_command_shape": 20,
+        "thought": 25
+      },
+      "cell_id": "state-f8864bd2f58af715-2101-single_error",
+      "condition": "single_error",
+      "decisions": 47,
+      "identity_sha256": "78f0d85865939ff4d035863ff92fb6963ab88f1340b7b03839ce6c62943126c0",
+      "initial_labels": [
+        "E"
+      ],
+      "memory_sha256": "369ce4741692e699b2c293ef03cf41bf624ac84d9ddd452219ee12cccbe5c40a",
+      "new_reflection_hashes": [
+        "dc995200ca68b87ec68674aa598a0dffe05b4458e36a9af5297926c46d573efd"
+      ],
+      "no_effect_shapes": {
+        "environment_style_sentence": 2,
+        "public_command_shape": 10,
+        "thought": 25
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 0,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 1,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 2
+      },
+      "outcome": "E",
+      "result_sha256": "21deeb2e3d7193f2c0d7231b783571f4f491b95c57452de9c3a6d9508a313e68",
+      "seed": 2101,
+      "status": "repeat_or_decision_budget",
+      "success": false,
+      "task_id": "f8864bd2f58af715",
+      "trajectory_sha256": "a396c959e3c971ecdf33a7da520b31b3eece53f3bca93e9314f23330675c6055"
+    },
+    {
+      "action_shapes": {
+        "public_command_shape": 11,
+        "thought": 10
+      },
+      "cell_id": "state-f8864bd2f58af715-2101-single_generic",
+      "condition": "single_generic",
+      "decisions": 21,
+      "identity_sha256": "708dec016b6de366bca031d089e5ca7780cadc7eee4e9b4af5702256bdf51dfc",
+      "initial_labels": [
+        "N"
+      ],
+      "memory_sha256": "f52c8cd84eb62cfcd85df95410736b0a18fe2e2ebebbebde93cdca681327d537",
+      "new_reflection_hashes": [],
+      "no_effect_shapes": {
+        "public_command_shape": 1,
+        "thought": 10
+      },
+      "observable_events": {
+        "competing_macros": 0,
+        "held_successful_target_macros": 1,
+        "other_failed_target_macros": 0,
+        "target_device_placement_attempts": 0,
+        "target_picked_up": true,
+        "unexplained_successful_macros": 0,
+        "wrong_precondition_chains": 0
+      },
+      "outcome": "S",
+      "result_sha256": "3dd48462f47bd758e75d19aa7c20d4f3e3f4a28ff1f9fad1ebb2fb0118d0579e",
+      "seed": 2101,
+      "status": "success",
+      "success": true,
+      "task_id": "f8864bd2f58af715",
+      "trajectory_sha256": "561431fcf3ae0c544a86659192c71b21963e5efdb83a8c6dd0bce0693c1911ba"
+    }
+  ],
+  "semantic_labels_sha256": "8db2a439b542e428efd9ba3fa664f1298e2ef21b243556b09f959d5e494db17f",
+  "sha256": "0596e63ff07645e1636589221a87466c7fc287261b560e78beb2033f5049af4f",
+  "successes": 45,
+  "summary_sha256": "01dbda9e420c7b5b0e91b26c521d4849b720d68b118d72f8bfcc143d4133b116"
+}

@@ -1,0 +1,378 @@
+{
+  "completed_targets": 1,
+  "costs": {
+    "dispatched_calls": 306,
+    "input_tokens_known": 828945,
+    "output_tokens_known": 13365,
+    "saved_responses": 306,
+    "truncated_responses": 0,
+    "uncertain_or_unrecorded_attempts": 0,
+    "usage_missing_responses": 0
+  },
+  "driver_sha256": "43075498abfd9420109be9571e37fc70f658c97263230b78eacd303deccce030",
+  "independent_tasks": 1,
+  "scope": "Observed accepted placement followed by target macro without retrieving the object; no latent-belief label",
+  "sha256": "301e198b41c86d87b7b011c5308a8f73e284b070a1cae75b46949032ab00e5a1",
+  "targets": [
+    {
+      "branches": {
+        "correct_target": {
+          "attempts": [
+            {
+              "competing_macros": [],
+              "decisions": 17,
+              "held_successful_target_macros": [
+                {
+                  "action": "heat cup 2 with microwave 1",
+                  "held_before": "cup 2",
+                  "index": 13,
+                  "observation": "You heat the cup 2 using the microwave 1.",
+                  "preceding_rejected_placement_index": 11
+                }
+              ],
+              "native_error_entry_visible": false,
+              "new_reflection_sha256": [],
+              "other_failed_target_macros": [],
+              "repaired_entry_visible": true,
+              "status": "success",
+              "success": true,
+              "target_device_placement_attempts": [
+                {
+                  "accepted": false,
+                  "action": "put cup 2 in microwave 1",
+                  "held_before": "cup 2",
+                  "index": 11,
+                  "observation": "Nothing happens."
+                }
+              ],
+              "target_picked_up": true,
+              "target_wrong_fragment_visible": false,
+              "trajectory_sha256": "8ac60e0f31f894815b87de4ee98d47f24040ad52bac53d1c015ddf008f184da1",
+              "trial": 1,
+              "unexplained_successful_macros": [],
+              "wrong_precondition_chains": []
+            }
+          ],
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 17,
+            "input_tokens_known": 33700,
+            "output_tokens_known": 397,
+            "saved_responses": 17,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "success": true
+        },
+        "discard_new": {
+          "attempts": [
+            {
+              "competing_macros": [],
+              "decisions": 22,
+              "held_successful_target_macros": [
+                {
+                  "action": "heat cup 1 with microwave 1",
+                  "held_before": "cup 1",
+                  "index": 18,
+                  "observation": "You heat the cup 1 using the microwave 1.",
+                  "preceding_rejected_placement_index": null
+                }
+              ],
+              "native_error_entry_visible": false,
+              "new_reflection_sha256": [],
+              "other_failed_target_macros": [],
+              "repaired_entry_visible": false,
+              "status": "success",
+              "success": true,
+              "target_device_placement_attempts": [],
+              "target_picked_up": true,
+              "target_wrong_fragment_visible": false,
+              "trajectory_sha256": "56190b7ffd68d18903977ad1fc4c9560490fd3263548ae989472fdd3180bec76",
+              "trial": 1,
+              "unexplained_successful_macros": [],
+              "wrong_precondition_chains": []
+            }
+          ],
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 22,
+            "input_tokens_known": 43310,
+            "output_tokens_known": 539,
+            "saved_responses": 22,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "success": true
+        },
+        "original": {
+          "attempts": [
+            {
+              "competing_macros": [],
+              "decisions": 38,
+              "held_successful_target_macros": [],
+              "native_error_entry_visible": true,
+              "new_reflection_sha256": [
+                "b9bf4b17cf13d592a454747ac72bb51244014b2b4d0034387d2a230bb0c38233"
+              ],
+              "other_failed_target_macros": [],
+              "repaired_entry_visible": false,
+              "status": "repeat_or_decision_budget",
+              "success": false,
+              "target_device_placement_attempts": [
+                {
+                  "accepted": true,
+                  "action": "put cup 2 in microwave 1",
+                  "held_before": "cup 2",
+                  "index": 10,
+                  "observation": "You move the cup 2 to the microwave 1."
+                }
+              ],
+              "target_picked_up": true,
+              "target_wrong_fragment_visible": true,
+              "trajectory_sha256": "8407cc452653eecf770a03e3cfe8a23fd71c8225ed17eea155aa9bb2eb7ff6d9",
+              "trial": 1,
+              "unexplained_successful_macros": [],
+              "wrong_precondition_chains": [
+                {
+                  "accepted_placement_index": 10,
+                  "action": "heat cup 2 with microwave 1",
+                  "held_before": null,
+                  "index": 12,
+                  "observation": "Nothing happens."
+                }
+              ]
+            },
+            {
+              "competing_macros": [],
+              "decisions": 49,
+              "held_successful_target_macros": [],
+              "native_error_entry_visible": true,
+              "new_reflection_sha256": [
+                "c15e8acd6ac9956d2fe150a9a5d03a622db0f39b171baf7e1f37a2ba69ce5872"
+              ],
+              "other_failed_target_macros": [],
+              "repaired_entry_visible": false,
+              "status": "repeat_or_decision_budget",
+              "success": false,
+              "target_device_placement_attempts": [
+                {
+                  "accepted": true,
+                  "action": "put cup 2 in microwave 1",
+                  "held_before": "cup 2",
+                  "index": 10,
+                  "observation": "You move the cup 2 to the microwave 1."
+                }
+              ],
+              "target_picked_up": true,
+              "target_wrong_fragment_visible": true,
+              "trajectory_sha256": "f76fb9bb1607d6520eb05ca2b2d940f9ce7bf4d9e66df6c0178a183d927de492",
+              "trial": 2,
+              "unexplained_successful_macros": [],
+              "wrong_precondition_chains": [
+                {
+                  "accepted_placement_index": 10,
+                  "action": "heat cup 2 with microwave 1",
+                  "held_before": null,
+                  "index": 12,
+                  "observation": "Nothing happens."
+                }
+              ]
+            }
+          ],
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 89,
+            "input_tokens_known": 250645,
+            "output_tokens_known": 4143,
+            "saved_responses": 89,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "success": false
+        },
+        "retain_error": {
+          "attempts": [
+            {
+              "competing_macros": [],
+              "decisions": 38,
+              "held_successful_target_macros": [],
+              "native_error_entry_visible": true,
+              "new_reflection_sha256": [
+                "b9bf4b17cf13d592a454747ac72bb51244014b2b4d0034387d2a230bb0c38233"
+              ],
+              "other_failed_target_macros": [],
+              "repaired_entry_visible": false,
+              "status": "repeat_or_decision_budget",
+              "success": false,
+              "target_device_placement_attempts": [
+                {
+                  "accepted": true,
+                  "action": "put cup 2 in microwave 1",
+                  "held_before": "cup 2",
+                  "index": 10,
+                  "observation": "You move the cup 2 to the microwave 1."
+                }
+              ],
+              "target_picked_up": true,
+              "target_wrong_fragment_visible": true,
+              "trajectory_sha256": "8407cc452653eecf770a03e3cfe8a23fd71c8225ed17eea155aa9bb2eb7ff6d9",
+              "trial": 1,
+              "unexplained_successful_macros": [],
+              "wrong_precondition_chains": [
+                {
+                  "accepted_placement_index": 10,
+                  "action": "heat cup 2 with microwave 1",
+                  "held_before": null,
+                  "index": 12,
+                  "observation": "Nothing happens."
+                }
+              ]
+            },
+            {
+              "competing_macros": [],
+              "decisions": 49,
+              "held_successful_target_macros": [],
+              "native_error_entry_visible": true,
+              "new_reflection_sha256": [
+                "c15e8acd6ac9956d2fe150a9a5d03a622db0f39b171baf7e1f37a2ba69ce5872"
+              ],
+              "other_failed_target_macros": [],
+              "repaired_entry_visible": false,
+              "status": "repeat_or_decision_budget",
+              "success": false,
+              "target_device_placement_attempts": [
+                {
+                  "accepted": true,
+                  "action": "put cup 2 in microwave 1",
+                  "held_before": "cup 2",
+                  "index": 10,
+                  "observation": "You move the cup 2 to the microwave 1."
+                }
+              ],
+              "target_picked_up": true,
+              "target_wrong_fragment_visible": true,
+              "trajectory_sha256": "f76fb9bb1607d6520eb05ca2b2d940f9ce7bf4d9e66df6c0178a183d927de492",
+              "trial": 2,
+              "unexplained_successful_macros": [],
+              "wrong_precondition_chains": [
+                {
+                  "accepted_placement_index": 10,
+                  "action": "heat cup 2 with microwave 1",
+                  "held_before": null,
+                  "index": 12,
+                  "observation": "Nothing happens."
+                }
+              ]
+            }
+          ],
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 89,
+            "input_tokens_known": 250645,
+            "output_tokens_known": 4143,
+            "saved_responses": 89,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "success": false
+        },
+        "sham": {
+          "attempts": [
+            {
+              "competing_macros": [],
+              "decisions": 38,
+              "held_successful_target_macros": [],
+              "native_error_entry_visible": true,
+              "new_reflection_sha256": [
+                "b9bf4b17cf13d592a454747ac72bb51244014b2b4d0034387d2a230bb0c38233"
+              ],
+              "other_failed_target_macros": [],
+              "repaired_entry_visible": false,
+              "status": "repeat_or_decision_budget",
+              "success": false,
+              "target_device_placement_attempts": [
+                {
+                  "accepted": true,
+                  "action": "put cup 2 in microwave 1",
+                  "held_before": "cup 2",
+                  "index": 10,
+                  "observation": "You move the cup 2 to the microwave 1."
+                }
+              ],
+              "target_picked_up": true,
+              "target_wrong_fragment_visible": true,
+              "trajectory_sha256": "8407cc452653eecf770a03e3cfe8a23fd71c8225ed17eea155aa9bb2eb7ff6d9",
+              "trial": 1,
+              "unexplained_successful_macros": [],
+              "wrong_precondition_chains": [
+                {
+                  "accepted_placement_index": 10,
+                  "action": "heat cup 2 with microwave 1",
+                  "held_before": null,
+                  "index": 12,
+                  "observation": "Nothing happens."
+                }
+              ]
+            },
+            {
+              "competing_macros": [],
+              "decisions": 49,
+              "held_successful_target_macros": [],
+              "native_error_entry_visible": true,
+              "new_reflection_sha256": [
+                "c15e8acd6ac9956d2fe150a9a5d03a622db0f39b171baf7e1f37a2ba69ce5872"
+              ],
+              "other_failed_target_macros": [],
+              "repaired_entry_visible": false,
+              "status": "repeat_or_decision_budget",
+              "success": false,
+              "target_device_placement_attempts": [
+                {
+                  "accepted": true,
+                  "action": "put cup 2 in microwave 1",
+                  "held_before": "cup 2",
+                  "index": 10,
+                  "observation": "You move the cup 2 to the microwave 1."
+                }
+              ],
+              "target_picked_up": true,
+              "target_wrong_fragment_visible": true,
+              "trajectory_sha256": "f76fb9bb1607d6520eb05ca2b2d940f9ce7bf4d9e66df6c0178a183d927de492",
+              "trial": 2,
+              "unexplained_successful_macros": [],
+              "wrong_precondition_chains": [
+                {
+                  "accepted_placement_index": 10,
+                  "action": "heat cup 2 with microwave 1",
+                  "held_before": null,
+                  "index": 12,
+                  "observation": "Nothing happens."
+                }
+              ]
+            }
+          ],
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 89,
+            "input_tokens_known": 250645,
+            "output_tokens_known": 4143,
+            "saved_responses": 89,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "success": false
+        }
+      },
+      "device": "microwave 1",
+      "operation": "heat",
+      "target_object": "cup",
+      "task_id": "762a7487ace813d7"
+    }
+  ],
+  "targets_sha256": "b7d679be0b48e84412b50355c9f9dbeed52412543efc21f411485a4502e43f8b"
+}

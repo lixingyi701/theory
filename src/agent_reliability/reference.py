@@ -64,9 +64,13 @@ def author_inputs(namespace: dict, demos: dict, task_type: str, observations: li
     return variables['prompt'], variables['ob']
 
 
+ACTION_ALIAS_PROFILE = 'alfworld_put_in_on_variants_v2'
+
+
 def submitted_command(action: str) -> str:
-    # Fixed public grammar alias for the pinned data release, no oracle selection.
-    match = re.fullmatch(r'put (.+) in/on (.+)', action)
+    # Public spellings of the same placement operation. Preserve chosen entities;
+    # only translate the tool grammar, without consulting state or admissibility.
+    match = re.fullmatch(r'put (.+) (?:in/on|in|on) (.+)', action)
     return f'move {match[1]} to {match[2]}' if match else action
 
 

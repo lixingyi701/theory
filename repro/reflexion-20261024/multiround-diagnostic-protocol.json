@@ -1,0 +1,3691 @@
+{
+  "analysis": {
+    "bootstrap": {
+      "replicates": 20000,
+      "seed": 2026102402,
+      "unit": "12 base tasks; operations and nested budgets remain within each task"
+    },
+    "coverage": "A new seed on known development tasks; no independent-task or sealed-holdout validation",
+    "curves": "Report all six history-operation success curves at budgets1/2/3, fixed candidate bounds, signed distance from the candidate interval, and task-bootstrap95 intervals for empirical values",
+    "decision": "Diagnose predictive departures; no automatic gate, parameter refit, or theorem rejection from candidate bounds. A bounds cover semantic assignment only, not parameter or state error.",
+    "failure_labels": "Codex full-text E/C/U/A review with prior hashes reused. Starting visible E => restatement; definite absence with no A => generation; A-only uncertainty remains unresolved.",
+    "interpretation": "Check initial E+C conflict and C versus empty first; later departures also involve native wording, failure-selected task composition, state compression, and sampling uncertainty.",
+    "native_update": "Run complete author attempts and append exactly one reflection after each failure, including terminal failure. Later attempts consume the full growing history through the author last-three visibility rule.",
+    "old_error_tracking": "Track initial entries by origin index after the one recovery; corrected E is no longer an old error, deleted E has no origin, new reflections are new entries even if their text repeats.",
+    "primary": "For repeated_error at budget two, report task-paired correct_latest minus delete_latest success difference with task-bootstrap95 interval against the existing conditional candidate gain bounds"
+  },
+  "attempt_budgets": [
+    1,
+    2,
+    3
+  ],
+  "candidate_parameters": {
+    "error_absent": {
+      "failure_conditional_error_bounds_including_A": [
+        0.3106918166331496,
+        0.4654959833080557
+      ],
+      "failure_conditional_explicit_E": 0.3106918166331496,
+      "joint": {
+        "A": 0.06647210382650964,
+        "C": 0.021423597119304846,
+        "E": 0.13340944973823743,
+        "S": 0.5706052023386213,
+        "U": 0.20808964697732682
+      }
+    },
+    "error_present": {
+      "failure_conditional_error_bounds_including_A": [
+        0.6531638531648348,
+        0.7303471765667233
+      ],
+      "failure_conditional_explicit_E": 0.6531638531648348,
+      "joint": {
+        "A": 0.07077300735566038,
+        "C": 0.025109500404558397,
+        "E": 0.5989165553780144,
+        "S": 0.08305312292462447,
+        "U": 0.22214781393714242
+      }
+    }
+  },
+  "cases": [
+    {
+      "initial_observation_sha256": "4ad52ce9a7a990c4bd65ea3ac0d3e6760364343fbef011b63212a08e89ae56c7",
+      "public_reset_checks": 2,
+      "task": {
+        "game_sha256": "006d3b18d98d13492eaaf254b229ca3febcb5252adfd9d8e936cb460d5f405a3",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Potato-None-DiningTable-16/trial_T20190908_015113_664393/game.tw-pddl",
+        "scene_id": "FloorPlan16",
+        "split": "train",
+        "task_id": "02088717ce4b3889",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "187da9a0ec68dc0ebc80b64446f44e6b9544e459c7fe6eb6f2263b979742a71f"
+      },
+      "task_id": "02088717ce4b3889"
+    },
+    {
+      "initial_observation_sha256": "479755b74755db6c7b4f5ed7deb61db289f693d7b4630b0733cc53e6d6667ae7",
+      "public_reset_checks": 2,
+      "task": {
+        "game_sha256": "00a30036e3ed14b9c8c7144eac2f2cf959d76e953a429e37b1a48134989c1d68",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Apple-None-SideTable-28/trial_T20190906_180737_225131/game.tw-pddl",
+        "scene_id": "FloorPlan28",
+        "split": "train",
+        "task_id": "4a3978c7981b641a",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "d77097363aa208af929f2642adb6c8245bc86f0e7f1d9887d77dbec0fdbc0d16"
+      },
+      "task_id": "4a3978c7981b641a"
+    },
+    {
+      "initial_observation_sha256": "0ec427f443c456fcded9b40285aed3f76a5d6ee586d0c8d419c5ed80ba9a043d",
+      "public_reset_checks": 2,
+      "task": {
+        "game_sha256": "dbe28bebb384f709740521f89e06a1c75643b41c2522cb025407e03415f17d42",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Potato-None-GarbageCan-25/trial_T20190906_201557_292696/game.tw-pddl",
+        "scene_id": "FloorPlan25",
+        "split": "train",
+        "task_id": "55f887bdc1cc1699",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "66228c32f4d321246ac9dd0bf435cdfe5a0daf84fe63bca2be7ccb7ae50823d6"
+      },
+      "task_id": "55f887bdc1cc1699"
+    },
+    {
+      "initial_observation_sha256": "a47c0eacf09aa2992af34a408f6518b8395311b3e5ee423b8665065d5e91703c",
+      "public_reset_checks": 2,
+      "task": {
+        "game_sha256": "0362b3507b1a5235f8a99dd768e850fc3a5ce086dc0fe2c124c5720d983cbbea",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Apple-None-Fridge-30/trial_T20190908_114805_189857/game.tw-pddl",
+        "scene_id": "FloorPlan30",
+        "split": "train",
+        "task_id": "69b7fb1c70f5d271",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "8a72473afac0d16ed67312107ea72a1415a45e6529bd1f710c6fa18accc0bab3"
+      },
+      "task_id": "69b7fb1c70f5d271"
+    },
+    {
+      "initial_observation_sha256": "be7b3ac217c00d7b6ab6f6140b506a60b553de5a8a4e0fe0c04432118ceef453",
+      "public_reset_checks": 2,
+      "task": {
+        "game_sha256": "fb38c08a34be9df2c10f6499ab0495736fb9dbec39d408553973fefc4d51c834",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Mug-None-Cabinet-26/trial_T20190909_014033_250547/game.tw-pddl",
+        "scene_id": "FloorPlan26",
+        "split": "train",
+        "task_id": "790b6f6fefeac9d1",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "a5148578be52f66065786ad18d4f60758949dec594ca8d6b6760d2cabfe41787"
+      },
+      "task_id": "790b6f6fefeac9d1"
+    },
+    {
+      "initial_observation_sha256": "a62d0012a127498f5a60d4b99ca351ca948702509f79ed9d4fc91df43b2fe75c",
+      "public_reset_checks": 2,
+      "task": {
+        "game_sha256": "11863af824d6de81243f989d4dca628cbfecf76e200dac655c50187e1f355cfd",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-12/trial_T20190907_034122_883943/game.tw-pddl",
+        "scene_id": "FloorPlan12",
+        "split": "train",
+        "task_id": "bf6d3dba86f7f0e4",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "53067e324df94f3017c93d059557a2c6821291fe823208caa1cdf8379003e03e"
+      },
+      "task_id": "bf6d3dba86f7f0e4"
+    },
+    {
+      "initial_observation_sha256": "715cf9a1cd06d1b7940672e140e5d10032c6c14ff1d7a3ed53aa136ac1f290be",
+      "public_reset_checks": 2,
+      "task": {
+        "game_sha256": "48720755c72166177968f763afd4ca6006b87e00e550abc771d748acd89eb358",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Egg-None-Fridge-13/trial_T20190907_151855_542663/game.tw-pddl",
+        "scene_id": "FloorPlan13",
+        "split": "train",
+        "task_id": "bf7043e154cc1d53",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "6560c3c0310404f12d58a016712ac41ea5f2d72c086d38da16025d6dc6a397e8"
+      },
+      "task_id": "bf7043e154cc1d53"
+    },
+    {
+      "initial_observation_sha256": "248524e8d78de57825462f7d9c2d724ef1c9c90dab3a9ef6cc58c94a4aed0cf1",
+      "public_reset_checks": 2,
+      "task": {
+        "game_sha256": "79eaf2f016032d56ce63ecd8a1fb368f379ca2b74edb866d6cf1e1aed4dab063",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Cup-None-CounterTop-17/trial_T20190908_131013_005229/game.tw-pddl",
+        "scene_id": "FloorPlan17",
+        "split": "train",
+        "task_id": "d534fcfe5e56c028",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "c5f04d05a3f081931ee2bff364c9c5c4e291a5f0702f834ee7ec3d42c04b586b"
+      },
+      "task_id": "d534fcfe5e56c028"
+    },
+    {
+      "initial_observation_sha256": "861d5a20c1e141db07c524b078e03c01b18a809556c2b015c34ae6617b8a22bb",
+      "public_reset_checks": 2,
+      "task": {
+        "game_sha256": "237b8c38eb4447e2ea3d11e20d621267b1c6dc7385d5917cd5c1aceaf52927dc",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Cup-None-Shelf-7/trial_T20190906_211058_615610/game.tw-pddl",
+        "scene_id": "FloorPlan7",
+        "split": "train",
+        "task_id": "dae15e890956dd5e",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "275776130d7bbb77433acdb23b11de22eb29dfbdc3466f129087fdb35707ed4b"
+      },
+      "task_id": "dae15e890956dd5e"
+    },
+    {
+      "initial_observation_sha256": "0adcf4e2f2154fb2736d2be907c732baa93406b7d0a8baf778ad0fed40fa779c",
+      "public_reset_checks": 2,
+      "task": {
+        "game_sha256": "c071d071921295edf2a7e7c26ec4f2127b2e5e4f46b5581c3196d68103824093",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Egg-None-DiningTable-11/trial_T20190907_125404_996063/game.tw-pddl",
+        "scene_id": "FloorPlan11",
+        "split": "train",
+        "task_id": "dd93ff2604e30529",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "ad51f684e856ebc7f9094c2b06b39f6678915b5d5058b6a356ad9f00fa88d093"
+      },
+      "task_id": "dd93ff2604e30529"
+    },
+    {
+      "initial_observation_sha256": "039247395d5116fa0cea31ada22b073a43895ffb0bb16dcb569236f1683c5445",
+      "public_reset_checks": 2,
+      "task": {
+        "game_sha256": "4911a18530191e684051d4637f8690316d001934fb242082ef59e6690ee01413",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Apple-None-GarbageCan-8/trial_T20190907_043118_286709/game.tw-pddl",
+        "scene_id": "FloorPlan8",
+        "split": "train",
+        "task_id": "e4244c54d52f3326",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "457ed57ad39c8a54493871b8b5764e5dd9f1111cc8f414d7ac4d044b0e4ee785"
+      },
+      "task_id": "e4244c54d52f3326"
+    },
+    {
+      "initial_observation_sha256": "95fd6b7f43d96bcced6daa1089ea4ad869a94c5e6790750ee4c6c2a1402b50a5",
+      "public_reset_checks": 2,
+      "task": {
+        "game_sha256": "2faba8fee495ed20a02060dd7f58d3f6b6de457447c6b4da55e8ad5331c4010d",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Mug-None-Shelf-1/trial_T20190907_075451_036053/game.tw-pddl",
+        "scene_id": "FloorPlan1",
+        "split": "train",
+        "task_id": "f8864bd2f58af715",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "fe66dfe281d784a63203855404b29f720b088adde25d2fc2a0e45162daf353cd"
+      },
+      "task_id": "f8864bd2f58af715"
+    }
+  ],
+  "entries": {
+    "C": "Plan: Before I heat an object with the microwave, I must keep it in my inventory. I should continue working on the household task.",
+    "E": "Plan: Before I heat an object with the microwave, I must put it inside the microwave. I should continue working on the household task.",
+    "N": "Plan: I should continue working on the household task."
+  },
+  "entry_hashes": {
+    "C": "9b31be3d7f39547fbd7510cfcc17e5f2fa0d014888fbd38c4508680dc1120238",
+    "E": "fc81f605654b9e8ddd085e9e4fe8f35311759ae0357149bcc65a6f1f77dcfa66",
+    "N": "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a"
+  },
+  "expected_trajectories": 72,
+  "forecasts": [
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.15920842462171614,
+            0.15920842462171614
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.2290387906855974,
+            0.2290387906855974
+          ]
+        }
+      ],
+      "history_key": "single_error",
+      "operation": "retain",
+      "task_id": "02088717ce4b3889",
+      "trajectory_id": "multiround-02088717ce4b3889-single_error-retain-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.5706052023386213,
+            0.5706052023386213
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.7181674406643512,
+            0.750576053107989
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.7672569687040564,
+            0.8140046248830424
+          ]
+        }
+      ],
+      "history_key": "single_error",
+      "operation": "correct_latest",
+      "task_id": "02088717ce4b3889",
+      "trajectory_id": "multiround-02088717ce4b3889-single_error-correct_latest-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.5706052023386213,
+            0.5706052023386213
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.7181674406643512,
+            0.750576053107989
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.7672569687040564,
+            0.8140046248830424
+          ]
+        }
+      ],
+      "history_key": "single_error",
+      "operation": "delete_latest",
+      "task_id": "02088717ce4b3889",
+      "trajectory_id": "multiround-02088717ce4b3889-single_error-delete_latest-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.15920842462171614,
+            0.15920842462171614
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.2290387906855974,
+            0.2290387906855974
+          ]
+        }
+      ],
+      "history_key": "repeated_error",
+      "operation": "retain",
+      "task_id": "02088717ce4b3889",
+      "trajectory_id": "multiround-02088717ce4b3889-repeated_error-retain-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.27975924237933264,
+            0.31426476928196695
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.367245495819379,
+            0.41711162781449235
+          ]
+        }
+      ],
+      "history_key": "repeated_error",
+      "operation": "correct_latest",
+      "task_id": "02088717ce4b3889",
+      "trajectory_id": "multiround-02088717ce4b3889-repeated_error-correct_latest-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.15920842462171614,
+            0.15920842462171614
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.25884586212604144,
+            0.2783514098591139
+          ]
+        }
+      ],
+      "history_key": "repeated_error",
+      "operation": "delete_latest",
+      "task_id": "02088717ce4b3889",
+      "trajectory_id": "multiround-02088717ce4b3889-repeated_error-delete_latest-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.5706052023386213,
+            0.5706052023386213
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.7181674406643512,
+            0.750576053107989
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.7672569687040564,
+            0.8140046248830424
+          ]
+        }
+      ],
+      "history_key": "single_error",
+      "operation": "correct_latest",
+      "task_id": "4a3978c7981b641a",
+      "trajectory_id": "multiround-4a3978c7981b641a-single_error-correct_latest-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.5706052023386213,
+            0.5706052023386213
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.7181674406643512,
+            0.750576053107989
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.7672569687040564,
+            0.8140046248830424
+          ]
+        }
+      ],
+      "history_key": "single_error",
+      "operation": "delete_latest",
+      "task_id": "4a3978c7981b641a",
+      "trajectory_id": "multiround-4a3978c7981b641a-single_error-delete_latest-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.15920842462171614,
+            0.15920842462171614
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.2290387906855974,
+            0.2290387906855974
+          ]
+        }
+      ],
+      "history_key": "repeated_error",
+      "operation": "retain",
+      "task_id": "4a3978c7981b641a",
+      "trajectory_id": "multiround-4a3978c7981b641a-repeated_error-retain-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.27975924237933264,
+            0.31426476928196695
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.367245495819379,
+            0.41711162781449235
+          ]
+        }
+      ],
+      "history_key": "repeated_error",
+      "operation": "correct_latest",
+      "task_id": "4a3978c7981b641a",
+      "trajectory_id": "multiround-4a3978c7981b641a-repeated_error-correct_latest-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.15920842462171614,
+            0.15920842462171614
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.25884586212604144,
+            0.2783514098591139
+          ]
+        }
+      ],
+      "history_key": "repeated_error",
+      "operation": "delete_latest",
+      "task_id": "4a3978c7981b641a",
+      "trajectory_id": "multiround-4a3978c7981b641a-repeated_error-delete_latest-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.15920842462171614,
+            0.15920842462171614
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.2290387906855974,
+            0.2290387906855974
+          ]
+        }
+      ],
+      "history_key": "single_error",
+      "operation": "retain",
+      "task_id": "4a3978c7981b641a",
+      "trajectory_id": "multiround-4a3978c7981b641a-single_error-retain-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.5706052023386213,
+            0.5706052023386213
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.7181674406643512,
+            0.750576053107989
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.7672569687040564,
+            0.8140046248830424
+          ]
+        }
+      ],
+      "history_key": "single_error",
+      "operation": "delete_latest",
+      "task_id": "55f887bdc1cc1699",
+      "trajectory_id": "multiround-55f887bdc1cc1699-single_error-delete_latest-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.15920842462171614,
+            0.15920842462171614
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.2290387906855974,
+            0.2290387906855974
+          ]
+        }
+      ],
+      "history_key": "repeated_error",
+      "operation": "retain",
+      "task_id": "55f887bdc1cc1699",
+      "trajectory_id": "multiround-55f887bdc1cc1699-repeated_error-retain-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.27975924237933264,
+            0.31426476928196695
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.367245495819379,
+            0.41711162781449235
+          ]
+        }
+      ],
+      "history_key": "repeated_error",
+      "operation": "correct_latest",
+      "task_id": "55f887bdc1cc1699",
+      "trajectory_id": "multiround-55f887bdc1cc1699-repeated_error-correct_latest-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.15920842462171614,
+            0.15920842462171614
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.25884586212604144,
+            0.2783514098591139
+          ]
+        }
+      ],
+      "history_key": "repeated_error",
+      "operation": "delete_latest",
+      "task_id": "55f887bdc1cc1699",
+      "trajectory_id": "multiround-55f887bdc1cc1699-repeated_error-delete_latest-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.15920842462171614,
+            0.15920842462171614
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.2290387906855974,
+            0.2290387906855974
+          ]
+        }
+      ],
+      "history_key": "single_error",
+      "operation": "retain",
+      "task_id": "55f887bdc1cc1699",
+      "trajectory_id": "multiround-55f887bdc1cc1699-single_error-retain-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.5706052023386213,
+            0.5706052023386213
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.7181674406643512,
+            0.750576053107989
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.7672569687040564,
+            0.8140046248830424
+          ]
+        }
+      ],
+      "history_key": "single_error",
+      "operation": "correct_latest",
+      "task_id": "55f887bdc1cc1699",
+      "trajectory_id": "multiround-55f887bdc1cc1699-single_error-correct_latest-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.15920842462171614,
+            0.15920842462171614
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.2290387906855974,
+            0.2290387906855974
+          ]
+        }
+      ],
+      "history_key": "repeated_error",
+      "operation": "retain",
+      "task_id": "69b7fb1c70f5d271",
+      "trajectory_id": "multiround-69b7fb1c70f5d271-repeated_error-retain-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.27975924237933264,
+            0.31426476928196695
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.367245495819379,
+            0.41711162781449235
+          ]
+        }
+      ],
+      "history_key": "repeated_error",
+      "operation": "correct_latest",
+      "task_id": "69b7fb1c70f5d271",
+      "trajectory_id": "multiround-69b7fb1c70f5d271-repeated_error-correct_latest-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.15920842462171614,
+            0.15920842462171614
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.25884586212604144,
+            0.2783514098591139
+          ]
+        }
+      ],
+      "history_key": "repeated_error",
+      "operation": "delete_latest",
+      "task_id": "69b7fb1c70f5d271",
+      "trajectory_id": "multiround-69b7fb1c70f5d271-repeated_error-delete_latest-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.15920842462171614,
+            0.15920842462171614
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.2290387906855974,
+            0.2290387906855974
+          ]
+        }
+      ],
+      "history_key": "single_error",
+      "operation": "retain",
+      "task_id": "69b7fb1c70f5d271",
+      "trajectory_id": "multiround-69b7fb1c70f5d271-single_error-retain-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.5706052023386213,
+            0.5706052023386213
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.7181674406643512,
+            0.750576053107989
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.7672569687040564,
+            0.8140046248830424
+          ]
+        }
+      ],
+      "history_key": "single_error",
+      "operation": "correct_latest",
+      "task_id": "69b7fb1c70f5d271",
+      "trajectory_id": "multiround-69b7fb1c70f5d271-single_error-correct_latest-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.5706052023386213,
+            0.5706052023386213
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.7181674406643512,
+            0.750576053107989
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.7672569687040564,
+            0.8140046248830424
+          ]
+        }
+      ],
+      "history_key": "single_error",
+      "operation": "delete_latest",
+      "task_id": "69b7fb1c70f5d271",
+      "trajectory_id": "multiround-69b7fb1c70f5d271-single_error-delete_latest-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.27975924237933264,
+            0.31426476928196695
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.367245495819379,
+            0.41711162781449235
+          ]
+        }
+      ],
+      "history_key": "repeated_error",
+      "operation": "correct_latest",
+      "task_id": "790b6f6fefeac9d1",
+      "trajectory_id": "multiround-790b6f6fefeac9d1-repeated_error-correct_latest-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.15920842462171614,
+            0.15920842462171614
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.25884586212604144,
+            0.2783514098591139
+          ]
+        }
+      ],
+      "history_key": "repeated_error",
+      "operation": "delete_latest",
+      "task_id": "790b6f6fefeac9d1",
+      "trajectory_id": "multiround-790b6f6fefeac9d1-repeated_error-delete_latest-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.15920842462171614,
+            0.15920842462171614
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.2290387906855974,
+            0.2290387906855974
+          ]
+        }
+      ],
+      "history_key": "single_error",
+      "operation": "retain",
+      "task_id": "790b6f6fefeac9d1",
+      "trajectory_id": "multiround-790b6f6fefeac9d1-single_error-retain-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.5706052023386213,
+            0.5706052023386213
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.7181674406643512,
+            0.750576053107989
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.7672569687040564,
+            0.8140046248830424
+          ]
+        }
+      ],
+      "history_key": "single_error",
+      "operation": "correct_latest",
+      "task_id": "790b6f6fefeac9d1",
+      "trajectory_id": "multiround-790b6f6fefeac9d1-single_error-correct_latest-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.5706052023386213,
+            0.5706052023386213
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.7181674406643512,
+            0.750576053107989
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.7672569687040564,
+            0.8140046248830424
+          ]
+        }
+      ],
+      "history_key": "single_error",
+      "operation": "delete_latest",
+      "task_id": "790b6f6fefeac9d1",
+      "trajectory_id": "multiround-790b6f6fefeac9d1-single_error-delete_latest-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.15920842462171614,
+            0.15920842462171614
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.2290387906855974,
+            0.2290387906855974
+          ]
+        }
+      ],
+      "history_key": "repeated_error",
+      "operation": "retain",
+      "task_id": "790b6f6fefeac9d1",
+      "trajectory_id": "multiround-790b6f6fefeac9d1-repeated_error-retain-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.15920842462171614,
+            0.15920842462171614
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.25884586212604144,
+            0.2783514098591139
+          ]
+        }
+      ],
+      "history_key": "repeated_error",
+      "operation": "delete_latest",
+      "task_id": "bf6d3dba86f7f0e4",
+      "trajectory_id": "multiround-bf6d3dba86f7f0e4-repeated_error-delete_latest-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.15920842462171614,
+            0.15920842462171614
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.2290387906855974,
+            0.2290387906855974
+          ]
+        }
+      ],
+      "history_key": "single_error",
+      "operation": "retain",
+      "task_id": "bf6d3dba86f7f0e4",
+      "trajectory_id": "multiround-bf6d3dba86f7f0e4-single_error-retain-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.5706052023386213,
+            0.5706052023386213
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.7181674406643512,
+            0.750576053107989
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.7672569687040564,
+            0.8140046248830424
+          ]
+        }
+      ],
+      "history_key": "single_error",
+      "operation": "correct_latest",
+      "task_id": "bf6d3dba86f7f0e4",
+      "trajectory_id": "multiround-bf6d3dba86f7f0e4-single_error-correct_latest-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.5706052023386213,
+            0.5706052023386213
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.7181674406643512,
+            0.750576053107989
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.7672569687040564,
+            0.8140046248830424
+          ]
+        }
+      ],
+      "history_key": "single_error",
+      "operation": "delete_latest",
+      "task_id": "bf6d3dba86f7f0e4",
+      "trajectory_id": "multiround-bf6d3dba86f7f0e4-single_error-delete_latest-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.15920842462171614,
+            0.15920842462171614
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.2290387906855974,
+            0.2290387906855974
+          ]
+        }
+      ],
+      "history_key": "repeated_error",
+      "operation": "retain",
+      "task_id": "bf6d3dba86f7f0e4",
+      "trajectory_id": "multiround-bf6d3dba86f7f0e4-repeated_error-retain-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.27975924237933264,
+            0.31426476928196695
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.367245495819379,
+            0.41711162781449235
+          ]
+        }
+      ],
+      "history_key": "repeated_error",
+      "operation": "correct_latest",
+      "task_id": "bf6d3dba86f7f0e4",
+      "trajectory_id": "multiround-bf6d3dba86f7f0e4-repeated_error-correct_latest-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.15920842462171614,
+            0.15920842462171614
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.2290387906855974,
+            0.2290387906855974
+          ]
+        }
+      ],
+      "history_key": "single_error",
+      "operation": "retain",
+      "task_id": "bf7043e154cc1d53",
+      "trajectory_id": "multiround-bf7043e154cc1d53-single_error-retain-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.5706052023386213,
+            0.5706052023386213
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.7181674406643512,
+            0.750576053107989
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.7672569687040564,
+            0.8140046248830424
+          ]
+        }
+      ],
+      "history_key": "single_error",
+      "operation": "correct_latest",
+      "task_id": "bf7043e154cc1d53",
+      "trajectory_id": "multiround-bf7043e154cc1d53-single_error-correct_latest-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.5706052023386213,
+            0.5706052023386213
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.7181674406643512,
+            0.750576053107989
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.7672569687040564,
+            0.8140046248830424
+          ]
+        }
+      ],
+      "history_key": "single_error",
+      "operation": "delete_latest",
+      "task_id": "bf7043e154cc1d53",
+      "trajectory_id": "multiround-bf7043e154cc1d53-single_error-delete_latest-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.15920842462171614,
+            0.15920842462171614
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.2290387906855974,
+            0.2290387906855974
+          ]
+        }
+      ],
+      "history_key": "repeated_error",
+      "operation": "retain",
+      "task_id": "bf7043e154cc1d53",
+      "trajectory_id": "multiround-bf7043e154cc1d53-repeated_error-retain-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.27975924237933264,
+            0.31426476928196695
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.367245495819379,
+            0.41711162781449235
+          ]
+        }
+      ],
+      "history_key": "repeated_error",
+      "operation": "correct_latest",
+      "task_id": "bf7043e154cc1d53",
+      "trajectory_id": "multiround-bf7043e154cc1d53-repeated_error-correct_latest-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.15920842462171614,
+            0.15920842462171614
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.25884586212604144,
+            0.2783514098591139
+          ]
+        }
+      ],
+      "history_key": "repeated_error",
+      "operation": "delete_latest",
+      "task_id": "bf7043e154cc1d53",
+      "trajectory_id": "multiround-bf7043e154cc1d53-repeated_error-delete_latest-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.5706052023386213,
+            0.5706052023386213
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.7181674406643512,
+            0.750576053107989
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.7672569687040564,
+            0.8140046248830424
+          ]
+        }
+      ],
+      "history_key": "single_error",
+      "operation": "correct_latest",
+      "task_id": "d534fcfe5e56c028",
+      "trajectory_id": "multiround-d534fcfe5e56c028-single_error-correct_latest-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.5706052023386213,
+            0.5706052023386213
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.7181674406643512,
+            0.750576053107989
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.7672569687040564,
+            0.8140046248830424
+          ]
+        }
+      ],
+      "history_key": "single_error",
+      "operation": "delete_latest",
+      "task_id": "d534fcfe5e56c028",
+      "trajectory_id": "multiround-d534fcfe5e56c028-single_error-delete_latest-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.15920842462171614,
+            0.15920842462171614
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.2290387906855974,
+            0.2290387906855974
+          ]
+        }
+      ],
+      "history_key": "repeated_error",
+      "operation": "retain",
+      "task_id": "d534fcfe5e56c028",
+      "trajectory_id": "multiround-d534fcfe5e56c028-repeated_error-retain-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.27975924237933264,
+            0.31426476928196695
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.367245495819379,
+            0.41711162781449235
+          ]
+        }
+      ],
+      "history_key": "repeated_error",
+      "operation": "correct_latest",
+      "task_id": "d534fcfe5e56c028",
+      "trajectory_id": "multiround-d534fcfe5e56c028-repeated_error-correct_latest-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.15920842462171614,
+            0.15920842462171614
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.25884586212604144,
+            0.2783514098591139
+          ]
+        }
+      ],
+      "history_key": "repeated_error",
+      "operation": "delete_latest",
+      "task_id": "d534fcfe5e56c028",
+      "trajectory_id": "multiround-d534fcfe5e56c028-repeated_error-delete_latest-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.15920842462171614,
+            0.15920842462171614
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.2290387906855974,
+            0.2290387906855974
+          ]
+        }
+      ],
+      "history_key": "single_error",
+      "operation": "retain",
+      "task_id": "d534fcfe5e56c028",
+      "trajectory_id": "multiround-d534fcfe5e56c028-single_error-retain-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.5706052023386213,
+            0.5706052023386213
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.7181674406643512,
+            0.750576053107989
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.7672569687040564,
+            0.8140046248830424
+          ]
+        }
+      ],
+      "history_key": "single_error",
+      "operation": "delete_latest",
+      "task_id": "dae15e890956dd5e",
+      "trajectory_id": "multiround-dae15e890956dd5e-single_error-delete_latest-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.15920842462171614,
+            0.15920842462171614
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.2290387906855974,
+            0.2290387906855974
+          ]
+        }
+      ],
+      "history_key": "repeated_error",
+      "operation": "retain",
+      "task_id": "dae15e890956dd5e",
+      "trajectory_id": "multiround-dae15e890956dd5e-repeated_error-retain-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.27975924237933264,
+            0.31426476928196695
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.367245495819379,
+            0.41711162781449235
+          ]
+        }
+      ],
+      "history_key": "repeated_error",
+      "operation": "correct_latest",
+      "task_id": "dae15e890956dd5e",
+      "trajectory_id": "multiround-dae15e890956dd5e-repeated_error-correct_latest-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.15920842462171614,
+            0.15920842462171614
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.25884586212604144,
+            0.2783514098591139
+          ]
+        }
+      ],
+      "history_key": "repeated_error",
+      "operation": "delete_latest",
+      "task_id": "dae15e890956dd5e",
+      "trajectory_id": "multiround-dae15e890956dd5e-repeated_error-delete_latest-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.15920842462171614,
+            0.15920842462171614
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.2290387906855974,
+            0.2290387906855974
+          ]
+        }
+      ],
+      "history_key": "single_error",
+      "operation": "retain",
+      "task_id": "dae15e890956dd5e",
+      "trajectory_id": "multiround-dae15e890956dd5e-single_error-retain-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.5706052023386213,
+            0.5706052023386213
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.7181674406643512,
+            0.750576053107989
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.7672569687040564,
+            0.8140046248830424
+          ]
+        }
+      ],
+      "history_key": "single_error",
+      "operation": "correct_latest",
+      "task_id": "dae15e890956dd5e",
+      "trajectory_id": "multiround-dae15e890956dd5e-single_error-correct_latest-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.15920842462171614,
+            0.15920842462171614
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.2290387906855974,
+            0.2290387906855974
+          ]
+        }
+      ],
+      "history_key": "repeated_error",
+      "operation": "retain",
+      "task_id": "dd93ff2604e30529",
+      "trajectory_id": "multiround-dd93ff2604e30529-repeated_error-retain-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.27975924237933264,
+            0.31426476928196695
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.367245495819379,
+            0.41711162781449235
+          ]
+        }
+      ],
+      "history_key": "repeated_error",
+      "operation": "correct_latest",
+      "task_id": "dd93ff2604e30529",
+      "trajectory_id": "multiround-dd93ff2604e30529-repeated_error-correct_latest-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.15920842462171614,
+            0.15920842462171614
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.25884586212604144,
+            0.2783514098591139
+          ]
+        }
+      ],
+      "history_key": "repeated_error",
+      "operation": "delete_latest",
+      "task_id": "dd93ff2604e30529",
+      "trajectory_id": "multiround-dd93ff2604e30529-repeated_error-delete_latest-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.15920842462171614,
+            0.15920842462171614
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.2290387906855974,
+            0.2290387906855974
+          ]
+        }
+      ],
+      "history_key": "single_error",
+      "operation": "retain",
+      "task_id": "dd93ff2604e30529",
+      "trajectory_id": "multiround-dd93ff2604e30529-single_error-retain-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.5706052023386213,
+            0.5706052023386213
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.7181674406643512,
+            0.750576053107989
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.7672569687040564,
+            0.8140046248830424
+          ]
+        }
+      ],
+      "history_key": "single_error",
+      "operation": "correct_latest",
+      "task_id": "dd93ff2604e30529",
+      "trajectory_id": "multiround-dd93ff2604e30529-single_error-correct_latest-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.5706052023386213,
+            0.5706052023386213
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.7181674406643512,
+            0.750576053107989
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.7672569687040564,
+            0.8140046248830424
+          ]
+        }
+      ],
+      "history_key": "single_error",
+      "operation": "delete_latest",
+      "task_id": "dd93ff2604e30529",
+      "trajectory_id": "multiround-dd93ff2604e30529-single_error-delete_latest-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.27975924237933264,
+            0.31426476928196695
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.367245495819379,
+            0.41711162781449235
+          ]
+        }
+      ],
+      "history_key": "repeated_error",
+      "operation": "correct_latest",
+      "task_id": "e4244c54d52f3326",
+      "trajectory_id": "multiround-e4244c54d52f3326-repeated_error-correct_latest-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.15920842462171614,
+            0.15920842462171614
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.25884586212604144,
+            0.2783514098591139
+          ]
+        }
+      ],
+      "history_key": "repeated_error",
+      "operation": "delete_latest",
+      "task_id": "e4244c54d52f3326",
+      "trajectory_id": "multiround-e4244c54d52f3326-repeated_error-delete_latest-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.15920842462171614,
+            0.15920842462171614
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.2290387906855974,
+            0.2290387906855974
+          ]
+        }
+      ],
+      "history_key": "single_error",
+      "operation": "retain",
+      "task_id": "e4244c54d52f3326",
+      "trajectory_id": "multiround-e4244c54d52f3326-single_error-retain-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.5706052023386213,
+            0.5706052023386213
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.7181674406643512,
+            0.750576053107989
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.7672569687040564,
+            0.8140046248830424
+          ]
+        }
+      ],
+      "history_key": "single_error",
+      "operation": "correct_latest",
+      "task_id": "e4244c54d52f3326",
+      "trajectory_id": "multiround-e4244c54d52f3326-single_error-correct_latest-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.5706052023386213,
+            0.5706052023386213
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.7181674406643512,
+            0.750576053107989
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.7672569687040564,
+            0.8140046248830424
+          ]
+        }
+      ],
+      "history_key": "single_error",
+      "operation": "delete_latest",
+      "task_id": "e4244c54d52f3326",
+      "trajectory_id": "multiround-e4244c54d52f3326-single_error-delete_latest-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.15920842462171614,
+            0.15920842462171614
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.2290387906855974,
+            0.2290387906855974
+          ]
+        }
+      ],
+      "history_key": "repeated_error",
+      "operation": "retain",
+      "task_id": "e4244c54d52f3326",
+      "trajectory_id": "multiround-e4244c54d52f3326-repeated_error-retain-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.15920842462171614,
+            0.15920842462171614
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.25884586212604144,
+            0.2783514098591139
+          ]
+        }
+      ],
+      "history_key": "repeated_error",
+      "operation": "delete_latest",
+      "task_id": "f8864bd2f58af715",
+      "trajectory_id": "multiround-f8864bd2f58af715-repeated_error-delete_latest-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.15920842462171614,
+            0.15920842462171614
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.2290387906855974,
+            0.2290387906855974
+          ]
+        }
+      ],
+      "history_key": "single_error",
+      "operation": "retain",
+      "task_id": "f8864bd2f58af715",
+      "trajectory_id": "multiround-f8864bd2f58af715-single_error-retain-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.5706052023386213,
+            0.5706052023386213
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.7181674406643512,
+            0.750576053107989
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.7672569687040564,
+            0.8140046248830424
+          ]
+        }
+      ],
+      "history_key": "single_error",
+      "operation": "correct_latest",
+      "task_id": "f8864bd2f58af715",
+      "trajectory_id": "multiround-f8864bd2f58af715-single_error-correct_latest-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.5706052023386213,
+            0.5706052023386213
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.7181674406643512,
+            0.750576053107989
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.7672569687040564,
+            0.8140046248830424
+          ]
+        }
+      ],
+      "history_key": "single_error",
+      "operation": "delete_latest",
+      "task_id": "f8864bd2f58af715",
+      "trajectory_id": "multiround-f8864bd2f58af715-single_error-delete_latest-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.15920842462171614,
+            0.15920842462171614
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.2290387906855974,
+            0.2290387906855974
+          ]
+        }
+      ],
+      "history_key": "repeated_error",
+      "operation": "retain",
+      "task_id": "f8864bd2f58af715",
+      "trajectory_id": "multiround-f8864bd2f58af715-repeated_error-retain-2103"
+    },
+    {
+      "budgets": [
+        {
+          "attempt_budget": 1,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        {
+          "attempt_budget": 2,
+          "success_probability_bounds": [
+            0.27975924237933264,
+            0.31426476928196695
+          ]
+        },
+        {
+          "attempt_budget": 3,
+          "success_probability_bounds": [
+            0.367245495819379,
+            0.41711162781449235
+          ]
+        }
+      ],
+      "history_key": "repeated_error",
+      "operation": "correct_latest",
+      "task_id": "f8864bd2f58af715",
+      "trajectory_id": "multiround-f8864bd2f58af715-repeated_error-correct_latest-2103"
+    }
+  ],
+  "gpu_indices": [
+    0,
+    1,
+    3
+  ],
+  "histories": {
+    "repeated_error": [
+      "E",
+      "N",
+      "E"
+    ],
+    "single_error": [
+      "E"
+    ]
+  },
+  "holdout_model_calls": 0,
+  "limits": {
+    "additional_calls_including_replica_checks": 11000,
+    "seconds": 10800
+  },
+  "maximum_attempts": 216,
+  "new_seed_audit": {
+    "previous_actual_run_matches": 0,
+    "seed": 2103,
+    "selected_tasks": 12
+  },
+  "operations": [
+    "retain",
+    "correct_latest",
+    "delete_latest"
+  ],
+  "parameter_refits": 0,
+  "parent_commit": "e15f593ec4a4383cdd74d436d33faf07293b7306",
+  "parent_protocol_sha256": "77af2102b3475e95b07d91de1b301f621738f2db9c4bdd0bb84163ba47069256",
+  "ports": [
+    8001,
+    8002,
+    8003
+  ],
+  "protected_files": {
+    "configs/qwen3_8b_non_thinking_wrapper.json": "ae1849a57bdf8f7454fadc3af7593133216bdd2023fb6e42649ce331fdc02b6a",
+    "configs/reflexion_qwen3_8b_protocol.json": "0a1b83abc85ba7c7bd5738e7a8ad64c82f43d5ff8158c36bf25dc0d678cf58f1",
+    "docs/experiments/middle-context-design-20261023.md": "b48011435ba20d0da54fca97fdad4743b50435ec8e0d990e4484b4c0a2406c46",
+    "docs/experiments/multiround-diagnostic-design-20261024.md": "2d7f8c1f3224cb7108533d5274aac3e531c1cb67addc6bcc5b035b0987526958",
+    "docs/experiments/residual-context-design-20261024.md": "c373e1c026da5dba04b8c027185e05bdb4d1225ffdffa1761c2f2a3e57b49e59",
+    "repro/reflexion-20261023/middle-context-protocol.json": "8562db1a5efd7ed03c2faa6ff3187089ad899a7ebf09ad6de9eed90bd96c010b",
+    "repro/reflexion-20261023/middle-context-results.json": "1ad334e79ef20b11f8b15e178e1788cf943aea4754b3d5a43f628f4f96c8449c",
+    "repro/reflexion-20261023/middle-context-semantic-labels.json": "84981e10566a0cc84a78ee85e7c69bf233523e48851ca21f9a04b1ce19a57823",
+    "repro/reflexion-20261023/state-representation-model-freeze.json": "eaf37eedddf5904707a1e08d8539c36f11b65c3b77bada40d00e565b50f29f2a",
+    "repro/reflexion-20261023/state-representation-presence-baseline.json": "8880f01f7342ce24413cf81a71777d2642055ec9a31ecaaebf5df7755243326a",
+    "repro/reflexion-20261023/state-representation-protocol.json": "8723b8c1675e1d610a95501eb7c6fb72123e5163375df7e93db0c0a20936cb5a",
+    "repro/reflexion-20261023/state-representation-results.json": "5a659026d267b322ffcc710139c94a01715dc3ea3317098359cc24027e299b54",
+    "repro/reflexion-20261023/state-representation-semantic-labels.json": "364f6821f7c37225e525eedc1be73c77b037288281f087c28dea4649af792e5a",
+    "repro/reflexion-20261024/residual-context-protocol.json": "b257c6807a872731fe7b2768149b152aad0e5687a092a2872ce26c9504d0364b",
+    "repro/reflexion-20261024/residual-context-registry.json": "34d4b18d1e838343c5461f23c05684f2f075e0ebe1cfb00d242e64892ab6e7e6",
+    "repro/reflexion-20261024/residual-context-semantic-labels.json": "498c78d16c558ad9b70cd01bc543a87bf4294a3217a13745e02ba5cb7a392503",
+    "repro/theory-20261023/agent-calibrated-finite-window-forecast.json": "81d32bb178b54196a103883f00e2e08c45873c9afda51acd3ccc1b1baf8122f2",
+    "scripts/analyze_middle_context_transport.py": "1bc5e6770f5a5326305f8be149ef07d06ef571197162c66e1a404ba4db95df77",
+    "scripts/analyze_multiround_diagnostic.py": "98649cdc597084e7f72a21c70f7e0dffb11b93e0b830f591314d0016dab334e7",
+    "scripts/analyze_residual_context.py": "f689b24dcddcac02a6456adca324ab090eb43c3fd9a32c3401e2099e474a092b",
+    "scripts/analyze_state_representation.py": "abf1fb146f22f48ce2d6776b66bc01d7dda2b080ec277af8846e582be1ad73ba",
+    "scripts/close_multiround_diagnostic.py": "e0e1a91405bff0fcb46b73d3e5ef04755fb2889201bbf57e7a952f8d190ceae8",
+    "scripts/close_residual_context.py": "e24fafdd3875e48c9771f43b001a678d3d9fb109d103c5ad83858e6df2efef26",
+    "scripts/deployment/serve_reflexion_profiles.py": "fa6da89576a4b49636febd0d61ad51dcd7274c41ad2a7182a0412440710e4cf1",
+    "scripts/predict_calibrated_finite_window.py": "b3b12aef17f65a721ffa55ef2fbb2cc18e581753aa92cc47aecbebb8be44586b",
+    "scripts/prepare_middle_context_transport.py": "6cd457c57c350b0f8e44700980edd181600e3ef5b3fd7d9cc15e15c8ba60c2de",
+    "scripts/prepare_multiround_diagnostic.py": "eab7efd265be4e39b14ca5e8a722a9ea998f3a9e8d3f4146ad305dd1c9b59440",
+    "scripts/prepare_residual_context.py": "d04cfa7f60ac8be279f6f77970fc1307591480c6148f7a0ed4e3bcdf850fd058",
+    "scripts/prepare_state_representation.py": "30a5f3bc0895828fee14c03eb10c137bef20704ed07bbdc166dc81dba1d634bc",
+    "scripts/run_middle_context_transport.py": "14014ff157e9ebc3badbae4f9b5946628c7f0c214ba6faeba306839642578012",
+    "scripts/run_multiround_diagnostic.py": "4781d83c25dd7f35238e637e2b5eaf2d68483cc6619ffd90a4b9dbeeb97c8bdf",
+    "scripts/run_residual_context.py": "d86170864560be62f39ca80c768fa9b8a6b7b4fe7691c8fdb6fa223fc4b3f673",
+    "scripts/run_state_representation.py": "a7ca639eac49bd1bde41efa76cf64e85fd241a1f371c7cbcb930e91d94e57ea5",
+    "scripts/state_representation_model.py": "b2c1ca6c4b8568b5ddc0ecf3c2929cb59811692fb28cc50e2029cc953174631a",
+    "tests/test_multiround_diagnostic.py": "55a2f8b531d23dcfc4b4b13c18e81b4ee0ed8603b4a9c230f8ed35c49c996d66",
+    "tests/test_residual_context.py": "299f311d93f9207e6f5b03dc4e879cd186a3faffc8db01bdf510b07e36f0990f"
+  },
+  "schema_version": 1,
+  "scientific_questions": [
+    "Do initial correction and deletion share a success curve for a single E, as the presence-only candidate predicts?",
+    "For E,N,E, does correcting versus deleting the latest E produce the predicted budget-two difference when the older E exits at different updates?",
+    "Do forecast departures begin at the first attempt or after native reflection updates, and which task paths accompany them?"
+  ],
+  "scope": "Known-task multiround process diagnosis with one initial recovery and native later updates",
+  "sha256": "932fcd8baa4533fe3e9239a1cf1a76eade08dd424c38d7786d883d1d6af2ea6f",
+  "source_forecast_file_sha256": "81d32bb178b54196a103883f00e2e08c45873c9afda51acd3ccc1b1baf8122f2",
+  "source_forecast_sha256": "2a2c4397ad026d73b87a1f7b1c83bdc9a2759e25085d6f5992e6b88e0fe0ffdb",
+  "source_hashes": {
+    "__init__.py": "9aa84454aaf25ce212ded4c089d18e335cb17460edd5e66ec4c522aaeb8fbe16",
+    "__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+    "alfworld.py": "89fcf795fdb9d1c1d19ff89b2ddc1bc199f5abf83c279bdf5d1bb7db9671c4c9",
+    "audit.py": "28e256ee2d5419f81e53b6caa4605102bdb9155583a04b04d4a66a6387bb666b",
+    "cli.py": "6d03e369f38c94879a8d7550baa5e51ead13ebc5e5f618df3a7ec8dce53b789d",
+    "dataset.py": "e580c7baf20b6d0c4669c24521881db3eaf44b23874c214e4b2de6967e5844e3",
+    "env.py": "4e79411d8a605197692bafc78431c4f7edde552c0d2977b3ef1682ab26346e7f",
+    "io.py": "cc5ad9729a4c4448f5b97740d6e8494cafe892faf5cbea1afd5d7079ba9bbe51",
+    "llm.py": "061bab01c82117589802fe2fb4251aedeb8f7f73bc022551e5b6f3fdd779acd4",
+    "memory.py": "7327d609005e2a884c2c8176a8a74149bbcb57f015432fa51c20606cc98b7539",
+    "prompts.py": "b49634af198a4907aa8d5533221facbe623e7b417835140bf338265c82b55ed5",
+    "react.py": "b48ad0a2dc664a607f06a6020871325a2bf5ccf89f9064bb18dfa6dffba78e82",
+    "reference.py": "77631bf0cfe30f313a0349cfc269202f5e31be7f01cd8d4d194ea32677583e4a",
+    "reference_run.py": "5577e2521e6a08c268fc444896be87570df350c8b79d5ca90a974946166a63d2",
+    "reflexion.py": "a38a847a6f7991038fe3e02505b20f196d95be552a86451eee4088526cff2a08",
+    "runner.py": "e71596acf5b39b4ca53b6fb80aaa5fb0e987c9f4cab86e46b19fb94f63879f47"
+  },
+  "source_presence_freeze_sha256": "eecfe6b8a49216580cf76e3d49cda145c6fcc6c3624fa13220a393507601b85b",
+  "trajectories": [
+    {
+      "history_key": "single_error",
+      "id": "multiround-02088717ce4b3889-single_error-retain-2103",
+      "initial_history": [
+        "E"
+      ],
+      "initial_labels": [
+        "E"
+      ],
+      "initial_memory_sha256": "369ce4741692e699b2c293ef03cf41bf624ac84d9ddd452219ee12cccbe5c40a",
+      "max_attempts": 3,
+      "operation": "retain",
+      "seed": 2103,
+      "task_id": "02088717ce4b3889",
+      "worker": 0
+    },
+    {
+      "history_key": "single_error",
+      "id": "multiround-02088717ce4b3889-single_error-correct_latest-2103",
+      "initial_history": [
+        "E"
+      ],
+      "initial_labels": [
+        "C"
+      ],
+      "initial_memory_sha256": "85ff3877124164dff55c0eacc80ba1178fb0238c63346d1cca664516a33a747e",
+      "max_attempts": 3,
+      "operation": "correct_latest",
+      "seed": 2103,
+      "task_id": "02088717ce4b3889",
+      "worker": 0
+    },
+    {
+      "history_key": "single_error",
+      "id": "multiround-02088717ce4b3889-single_error-delete_latest-2103",
+      "initial_history": [
+        "E"
+      ],
+      "initial_labels": [],
+      "initial_memory_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "max_attempts": 3,
+      "operation": "delete_latest",
+      "seed": 2103,
+      "task_id": "02088717ce4b3889",
+      "worker": 0
+    },
+    {
+      "history_key": "repeated_error",
+      "id": "multiround-02088717ce4b3889-repeated_error-retain-2103",
+      "initial_history": [
+        "E",
+        "N",
+        "E"
+      ],
+      "initial_labels": [
+        "E",
+        "N",
+        "E"
+      ],
+      "initial_memory_sha256": "30e08775845a6b971f567e1ca057092d4307714a9aaccb6b001f373133af10e9",
+      "max_attempts": 3,
+      "operation": "retain",
+      "seed": 2103,
+      "task_id": "02088717ce4b3889",
+      "worker": 0
+    },
+    {
+      "history_key": "repeated_error",
+      "id": "multiround-02088717ce4b3889-repeated_error-correct_latest-2103",
+      "initial_history": [
+        "E",
+        "N",
+        "E"
+      ],
+      "initial_labels": [
+        "E",
+        "N",
+        "C"
+      ],
+      "initial_memory_sha256": "7765b8921c0fd1bc2a5d0914db4f45754408dc93d29ee5b556ea13badbcb3a03",
+      "max_attempts": 3,
+      "operation": "correct_latest",
+      "seed": 2103,
+      "task_id": "02088717ce4b3889",
+      "worker": 0
+    },
+    {
+      "history_key": "repeated_error",
+      "id": "multiround-02088717ce4b3889-repeated_error-delete_latest-2103",
+      "initial_history": [
+        "E",
+        "N",
+        "E"
+      ],
+      "initial_labels": [
+        "E",
+        "N"
+      ],
+      "initial_memory_sha256": "4f9696fca57029af09f9fa3005bd24397ce147d7f43cb5c989983fcb26498df0",
+      "max_attempts": 3,
+      "operation": "delete_latest",
+      "seed": 2103,
+      "task_id": "02088717ce4b3889",
+      "worker": 0
+    },
+    {
+      "history_key": "single_error",
+      "id": "multiround-4a3978c7981b641a-single_error-correct_latest-2103",
+      "initial_history": [
+        "E"
+      ],
+      "initial_labels": [
+        "C"
+      ],
+      "initial_memory_sha256": "85ff3877124164dff55c0eacc80ba1178fb0238c63346d1cca664516a33a747e",
+      "max_attempts": 3,
+      "operation": "correct_latest",
+      "seed": 2103,
+      "task_id": "4a3978c7981b641a",
+      "worker": 1
+    },
+    {
+      "history_key": "single_error",
+      "id": "multiround-4a3978c7981b641a-single_error-delete_latest-2103",
+      "initial_history": [
+        "E"
+      ],
+      "initial_labels": [],
+      "initial_memory_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "max_attempts": 3,
+      "operation": "delete_latest",
+      "seed": 2103,
+      "task_id": "4a3978c7981b641a",
+      "worker": 1
+    },
+    {
+      "history_key": "repeated_error",
+      "id": "multiround-4a3978c7981b641a-repeated_error-retain-2103",
+      "initial_history": [
+        "E",
+        "N",
+        "E"
+      ],
+      "initial_labels": [
+        "E",
+        "N",
+        "E"
+      ],
+      "initial_memory_sha256": "30e08775845a6b971f567e1ca057092d4307714a9aaccb6b001f373133af10e9",
+      "max_attempts": 3,
+      "operation": "retain",
+      "seed": 2103,
+      "task_id": "4a3978c7981b641a",
+      "worker": 1
+    },
+    {
+      "history_key": "repeated_error",
+      "id": "multiround-4a3978c7981b641a-repeated_error-correct_latest-2103",
+      "initial_history": [
+        "E",
+        "N",
+        "E"
+      ],
+      "initial_labels": [
+        "E",
+        "N",
+        "C"
+      ],
+      "initial_memory_sha256": "7765b8921c0fd1bc2a5d0914db4f45754408dc93d29ee5b556ea13badbcb3a03",
+      "max_attempts": 3,
+      "operation": "correct_latest",
+      "seed": 2103,
+      "task_id": "4a3978c7981b641a",
+      "worker": 1
+    },
+    {
+      "history_key": "repeated_error",
+      "id": "multiround-4a3978c7981b641a-repeated_error-delete_latest-2103",
+      "initial_history": [
+        "E",
+        "N",
+        "E"
+      ],
+      "initial_labels": [
+        "E",
+        "N"
+      ],
+      "initial_memory_sha256": "4f9696fca57029af09f9fa3005bd24397ce147d7f43cb5c989983fcb26498df0",
+      "max_attempts": 3,
+      "operation": "delete_latest",
+      "seed": 2103,
+      "task_id": "4a3978c7981b641a",
+      "worker": 1
+    },
+    {
+      "history_key": "single_error",
+      "id": "multiround-4a3978c7981b641a-single_error-retain-2103",
+      "initial_history": [
+        "E"
+      ],
+      "initial_labels": [
+        "E"
+      ],
+      "initial_memory_sha256": "369ce4741692e699b2c293ef03cf41bf624ac84d9ddd452219ee12cccbe5c40a",
+      "max_attempts": 3,
+      "operation": "retain",
+      "seed": 2103,
+      "task_id": "4a3978c7981b641a",
+      "worker": 1
+    },
+    {
+      "history_key": "single_error",
+      "id": "multiround-55f887bdc1cc1699-single_error-delete_latest-2103",
+      "initial_history": [
+        "E"
+      ],
+      "initial_labels": [],
+      "initial_memory_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "max_attempts": 3,
+      "operation": "delete_latest",
+      "seed": 2103,
+      "task_id": "55f887bdc1cc1699",
+      "worker": 2
+    },
+    {
+      "history_key": "repeated_error",
+      "id": "multiround-55f887bdc1cc1699-repeated_error-retain-2103",
+      "initial_history": [
+        "E",
+        "N",
+        "E"
+      ],
+      "initial_labels": [
+        "E",
+        "N",
+        "E"
+      ],
+      "initial_memory_sha256": "30e08775845a6b971f567e1ca057092d4307714a9aaccb6b001f373133af10e9",
+      "max_attempts": 3,
+      "operation": "retain",
+      "seed": 2103,
+      "task_id": "55f887bdc1cc1699",
+      "worker": 2
+    },
+    {
+      "history_key": "repeated_error",
+      "id": "multiround-55f887bdc1cc1699-repeated_error-correct_latest-2103",
+      "initial_history": [
+        "E",
+        "N",
+        "E"
+      ],
+      "initial_labels": [
+        "E",
+        "N",
+        "C"
+      ],
+      "initial_memory_sha256": "7765b8921c0fd1bc2a5d0914db4f45754408dc93d29ee5b556ea13badbcb3a03",
+      "max_attempts": 3,
+      "operation": "correct_latest",
+      "seed": 2103,
+      "task_id": "55f887bdc1cc1699",
+      "worker": 2
+    },
+    {
+      "history_key": "repeated_error",
+      "id": "multiround-55f887bdc1cc1699-repeated_error-delete_latest-2103",
+      "initial_history": [
+        "E",
+        "N",
+        "E"
+      ],
+      "initial_labels": [
+        "E",
+        "N"
+      ],
+      "initial_memory_sha256": "4f9696fca57029af09f9fa3005bd24397ce147d7f43cb5c989983fcb26498df0",
+      "max_attempts": 3,
+      "operation": "delete_latest",
+      "seed": 2103,
+      "task_id": "55f887bdc1cc1699",
+      "worker": 2
+    },
+    {
+      "history_key": "single_error",
+      "id": "multiround-55f887bdc1cc1699-single_error-retain-2103",
+      "initial_history": [
+        "E"
+      ],
+      "initial_labels": [
+        "E"
+      ],
+      "initial_memory_sha256": "369ce4741692e699b2c293ef03cf41bf624ac84d9ddd452219ee12cccbe5c40a",
+      "max_attempts": 3,
+      "operation": "retain",
+      "seed": 2103,
+      "task_id": "55f887bdc1cc1699",
+      "worker": 2
+    },
+    {
+      "history_key": "single_error",
+      "id": "multiround-55f887bdc1cc1699-single_error-correct_latest-2103",
+      "initial_history": [
+        "E"
+      ],
+      "initial_labels": [
+        "C"
+      ],
+      "initial_memory_sha256": "85ff3877124164dff55c0eacc80ba1178fb0238c63346d1cca664516a33a747e",
+      "max_attempts": 3,
+      "operation": "correct_latest",
+      "seed": 2103,
+      "task_id": "55f887bdc1cc1699",
+      "worker": 2
+    },
+    {
+      "history_key": "repeated_error",
+      "id": "multiround-69b7fb1c70f5d271-repeated_error-retain-2103",
+      "initial_history": [
+        "E",
+        "N",
+        "E"
+      ],
+      "initial_labels": [
+        "E",
+        "N",
+        "E"
+      ],
+      "initial_memory_sha256": "30e08775845a6b971f567e1ca057092d4307714a9aaccb6b001f373133af10e9",
+      "max_attempts": 3,
+      "operation": "retain",
+      "seed": 2103,
+      "task_id": "69b7fb1c70f5d271",
+      "worker": 0
+    },
+    {
+      "history_key": "repeated_error",
+      "id": "multiround-69b7fb1c70f5d271-repeated_error-correct_latest-2103",
+      "initial_history": [
+        "E",
+        "N",
+        "E"
+      ],
+      "initial_labels": [
+        "E",
+        "N",
+        "C"
+      ],
+      "initial_memory_sha256": "7765b8921c0fd1bc2a5d0914db4f45754408dc93d29ee5b556ea13badbcb3a03",
+      "max_attempts": 3,
+      "operation": "correct_latest",
+      "seed": 2103,
+      "task_id": "69b7fb1c70f5d271",
+      "worker": 0
+    },
+    {
+      "history_key": "repeated_error",
+      "id": "multiround-69b7fb1c70f5d271-repeated_error-delete_latest-2103",
+      "initial_history": [
+        "E",
+        "N",
+        "E"
+      ],
+      "initial_labels": [
+        "E",
+        "N"
+      ],
+      "initial_memory_sha256": "4f9696fca57029af09f9fa3005bd24397ce147d7f43cb5c989983fcb26498df0",
+      "max_attempts": 3,
+      "operation": "delete_latest",
+      "seed": 2103,
+      "task_id": "69b7fb1c70f5d271",
+      "worker": 0
+    },
+    {
+      "history_key": "single_error",
+      "id": "multiround-69b7fb1c70f5d271-single_error-retain-2103",
+      "initial_history": [
+        "E"
+      ],
+      "initial_labels": [
+        "E"
+      ],
+      "initial_memory_sha256": "369ce4741692e699b2c293ef03cf41bf624ac84d9ddd452219ee12cccbe5c40a",
+      "max_attempts": 3,
+      "operation": "retain",
+      "seed": 2103,
+      "task_id": "69b7fb1c70f5d271",
+      "worker": 0
+    },
+    {
+      "history_key": "single_error",
+      "id": "multiround-69b7fb1c70f5d271-single_error-correct_latest-2103",
+      "initial_history": [
+        "E"
+      ],
+      "initial_labels": [
+        "C"
+      ],
+      "initial_memory_sha256": "85ff3877124164dff55c0eacc80ba1178fb0238c63346d1cca664516a33a747e",
+      "max_attempts": 3,
+      "operation": "correct_latest",
+      "seed": 2103,
+      "task_id": "69b7fb1c70f5d271",
+      "worker": 0
+    },
+    {
+      "history_key": "single_error",
+      "id": "multiround-69b7fb1c70f5d271-single_error-delete_latest-2103",
+      "initial_history": [
+        "E"
+      ],
+      "initial_labels": [],
+      "initial_memory_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "max_attempts": 3,
+      "operation": "delete_latest",
+      "seed": 2103,
+      "task_id": "69b7fb1c70f5d271",
+      "worker": 0
+    },
+    {
+      "history_key": "repeated_error",
+      "id": "multiround-790b6f6fefeac9d1-repeated_error-correct_latest-2103",
+      "initial_history": [
+        "E",
+        "N",
+        "E"
+      ],
+      "initial_labels": [
+        "E",
+        "N",
+        "C"
+      ],
+      "initial_memory_sha256": "7765b8921c0fd1bc2a5d0914db4f45754408dc93d29ee5b556ea13badbcb3a03",
+      "max_attempts": 3,
+      "operation": "correct_latest",
+      "seed": 2103,
+      "task_id": "790b6f6fefeac9d1",
+      "worker": 1
+    },
+    {
+      "history_key": "repeated_error",
+      "id": "multiround-790b6f6fefeac9d1-repeated_error-delete_latest-2103",
+      "initial_history": [
+        "E",
+        "N",
+        "E"
+      ],
+      "initial_labels": [
+        "E",
+        "N"
+      ],
+      "initial_memory_sha256": "4f9696fca57029af09f9fa3005bd24397ce147d7f43cb5c989983fcb26498df0",
+      "max_attempts": 3,
+      "operation": "delete_latest",
+      "seed": 2103,
+      "task_id": "790b6f6fefeac9d1",
+      "worker": 1
+    },
+    {
+      "history_key": "single_error",
+      "id": "multiround-790b6f6fefeac9d1-single_error-retain-2103",
+      "initial_history": [
+        "E"
+      ],
+      "initial_labels": [
+        "E"
+      ],
+      "initial_memory_sha256": "369ce4741692e699b2c293ef03cf41bf624ac84d9ddd452219ee12cccbe5c40a",
+      "max_attempts": 3,
+      "operation": "retain",
+      "seed": 2103,
+      "task_id": "790b6f6fefeac9d1",
+      "worker": 1
+    },
+    {
+      "history_key": "single_error",
+      "id": "multiround-790b6f6fefeac9d1-single_error-correct_latest-2103",
+      "initial_history": [
+        "E"
+      ],
+      "initial_labels": [
+        "C"
+      ],
+      "initial_memory_sha256": "85ff3877124164dff55c0eacc80ba1178fb0238c63346d1cca664516a33a747e",
+      "max_attempts": 3,
+      "operation": "correct_latest",
+      "seed": 2103,
+      "task_id": "790b6f6fefeac9d1",
+      "worker": 1
+    },
+    {
+      "history_key": "single_error",
+      "id": "multiround-790b6f6fefeac9d1-single_error-delete_latest-2103",
+      "initial_history": [
+        "E"
+      ],
+      "initial_labels": [],
+      "initial_memory_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "max_attempts": 3,
+      "operation": "delete_latest",
+      "seed": 2103,
+      "task_id": "790b6f6fefeac9d1",
+      "worker": 1
+    },
+    {
+      "history_key": "repeated_error",
+      "id": "multiround-790b6f6fefeac9d1-repeated_error-retain-2103",
+      "initial_history": [
+        "E",
+        "N",
+        "E"
+      ],
+      "initial_labels": [
+        "E",
+        "N",
+        "E"
+      ],
+      "initial_memory_sha256": "30e08775845a6b971f567e1ca057092d4307714a9aaccb6b001f373133af10e9",
+      "max_attempts": 3,
+      "operation": "retain",
+      "seed": 2103,
+      "task_id": "790b6f6fefeac9d1",
+      "worker": 1
+    },
+    {
+      "history_key": "repeated_error",
+      "id": "multiround-bf6d3dba86f7f0e4-repeated_error-delete_latest-2103",
+      "initial_history": [
+        "E",
+        "N",
+        "E"
+      ],
+      "initial_labels": [
+        "E",
+        "N"
+      ],
+      "initial_memory_sha256": "4f9696fca57029af09f9fa3005bd24397ce147d7f43cb5c989983fcb26498df0",
+      "max_attempts": 3,
+      "operation": "delete_latest",
+      "seed": 2103,
+      "task_id": "bf6d3dba86f7f0e4",
+      "worker": 2
+    },
+    {
+      "history_key": "single_error",
+      "id": "multiround-bf6d3dba86f7f0e4-single_error-retain-2103",
+      "initial_history": [
+        "E"
+      ],
+      "initial_labels": [
+        "E"
+      ],
+      "initial_memory_sha256": "369ce4741692e699b2c293ef03cf41bf624ac84d9ddd452219ee12cccbe5c40a",
+      "max_attempts": 3,
+      "operation": "retain",
+      "seed": 2103,
+      "task_id": "bf6d3dba86f7f0e4",
+      "worker": 2
+    },
+    {
+      "history_key": "single_error",
+      "id": "multiround-bf6d3dba86f7f0e4-single_error-correct_latest-2103",
+      "initial_history": [
+        "E"
+      ],
+      "initial_labels": [
+        "C"
+      ],
+      "initial_memory_sha256": "85ff3877124164dff55c0eacc80ba1178fb0238c63346d1cca664516a33a747e",
+      "max_attempts": 3,
+      "operation": "correct_latest",
+      "seed": 2103,
+      "task_id": "bf6d3dba86f7f0e4",
+      "worker": 2
+    },
+    {
+      "history_key": "single_error",
+      "id": "multiround-bf6d3dba86f7f0e4-single_error-delete_latest-2103",
+      "initial_history": [
+        "E"
+      ],
+      "initial_labels": [],
+      "initial_memory_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "max_attempts": 3,
+      "operation": "delete_latest",
+      "seed": 2103,
+      "task_id": "bf6d3dba86f7f0e4",
+      "worker": 2
+    },
+    {
+      "history_key": "repeated_error",
+      "id": "multiround-bf6d3dba86f7f0e4-repeated_error-retain-2103",
+      "initial_history": [
+        "E",
+        "N",
+        "E"
+      ],
+      "initial_labels": [
+        "E",
+        "N",
+        "E"
+      ],
+      "initial_memory_sha256": "30e08775845a6b971f567e1ca057092d4307714a9aaccb6b001f373133af10e9",
+      "max_attempts": 3,
+      "operation": "retain",
+      "seed": 2103,
+      "task_id": "bf6d3dba86f7f0e4",
+      "worker": 2
+    },
+    {
+      "history_key": "repeated_error",
+      "id": "multiround-bf6d3dba86f7f0e4-repeated_error-correct_latest-2103",
+      "initial_history": [
+        "E",
+        "N",
+        "E"
+      ],
+      "initial_labels": [
+        "E",
+        "N",
+        "C"
+      ],
+      "initial_memory_sha256": "7765b8921c0fd1bc2a5d0914db4f45754408dc93d29ee5b556ea13badbcb3a03",
+      "max_attempts": 3,
+      "operation": "correct_latest",
+      "seed": 2103,
+      "task_id": "bf6d3dba86f7f0e4",
+      "worker": 2
+    },
+    {
+      "history_key": "single_error",
+      "id": "multiround-bf7043e154cc1d53-single_error-retain-2103",
+      "initial_history": [
+        "E"
+      ],
+      "initial_labels": [
+        "E"
+      ],
+      "initial_memory_sha256": "369ce4741692e699b2c293ef03cf41bf624ac84d9ddd452219ee12cccbe5c40a",
+      "max_attempts": 3,
+      "operation": "retain",
+      "seed": 2103,
+      "task_id": "bf7043e154cc1d53",
+      "worker": 0
+    },
+    {
+      "history_key": "single_error",
+      "id": "multiround-bf7043e154cc1d53-single_error-correct_latest-2103",
+      "initial_history": [
+        "E"
+      ],
+      "initial_labels": [
+        "C"
+      ],
+      "initial_memory_sha256": "85ff3877124164dff55c0eacc80ba1178fb0238c63346d1cca664516a33a747e",
+      "max_attempts": 3,
+      "operation": "correct_latest",
+      "seed": 2103,
+      "task_id": "bf7043e154cc1d53",
+      "worker": 0
+    },
+    {
+      "history_key": "single_error",
+      "id": "multiround-bf7043e154cc1d53-single_error-delete_latest-2103",
+      "initial_history": [
+        "E"
+      ],
+      "initial_labels": [],
+      "initial_memory_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "max_attempts": 3,
+      "operation": "delete_latest",
+      "seed": 2103,
+      "task_id": "bf7043e154cc1d53",
+      "worker": 0
+    },
+    {
+      "history_key": "repeated_error",
+      "id": "multiround-bf7043e154cc1d53-repeated_error-retain-2103",
+      "initial_history": [
+        "E",
+        "N",
+        "E"
+      ],
+      "initial_labels": [
+        "E",
+        "N",
+        "E"
+      ],
+      "initial_memory_sha256": "30e08775845a6b971f567e1ca057092d4307714a9aaccb6b001f373133af10e9",
+      "max_attempts": 3,
+      "operation": "retain",
+      "seed": 2103,
+      "task_id": "bf7043e154cc1d53",
+      "worker": 0
+    },
+    {
+      "history_key": "repeated_error",
+      "id": "multiround-bf7043e154cc1d53-repeated_error-correct_latest-2103",
+      "initial_history": [
+        "E",
+        "N",
+        "E"
+      ],
+      "initial_labels": [
+        "E",
+        "N",
+        "C"
+      ],
+      "initial_memory_sha256": "7765b8921c0fd1bc2a5d0914db4f45754408dc93d29ee5b556ea13badbcb3a03",
+      "max_attempts": 3,
+      "operation": "correct_latest",
+      "seed": 2103,
+      "task_id": "bf7043e154cc1d53",
+      "worker": 0
+    },
+    {
+      "history_key": "repeated_error",
+      "id": "multiround-bf7043e154cc1d53-repeated_error-delete_latest-2103",
+      "initial_history": [
+        "E",
+        "N",
+        "E"
+      ],
+      "initial_labels": [
+        "E",
+        "N"
+      ],
+      "initial_memory_sha256": "4f9696fca57029af09f9fa3005bd24397ce147d7f43cb5c989983fcb26498df0",
+      "max_attempts": 3,
+      "operation": "delete_latest",
+      "seed": 2103,
+      "task_id": "bf7043e154cc1d53",
+      "worker": 0
+    },
+    {
+      "history_key": "single_error",
+      "id": "multiround-d534fcfe5e56c028-single_error-correct_latest-2103",
+      "initial_history": [
+        "E"
+      ],
+      "initial_labels": [
+        "C"
+      ],
+      "initial_memory_sha256": "85ff3877124164dff55c0eacc80ba1178fb0238c63346d1cca664516a33a747e",
+      "max_attempts": 3,
+      "operation": "correct_latest",
+      "seed": 2103,
+      "task_id": "d534fcfe5e56c028",
+      "worker": 1
+    },
+    {
+      "history_key": "single_error",
+      "id": "multiround-d534fcfe5e56c028-single_error-delete_latest-2103",
+      "initial_history": [
+        "E"
+      ],
+      "initial_labels": [],
+      "initial_memory_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "max_attempts": 3,
+      "operation": "delete_latest",
+      "seed": 2103,
+      "task_id": "d534fcfe5e56c028",
+      "worker": 1
+    },
+    {
+      "history_key": "repeated_error",
+      "id": "multiround-d534fcfe5e56c028-repeated_error-retain-2103",
+      "initial_history": [
+        "E",
+        "N",
+        "E"
+      ],
+      "initial_labels": [
+        "E",
+        "N",
+        "E"
+      ],
+      "initial_memory_sha256": "30e08775845a6b971f567e1ca057092d4307714a9aaccb6b001f373133af10e9",
+      "max_attempts": 3,
+      "operation": "retain",
+      "seed": 2103,
+      "task_id": "d534fcfe5e56c028",
+      "worker": 1
+    },
+    {
+      "history_key": "repeated_error",
+      "id": "multiround-d534fcfe5e56c028-repeated_error-correct_latest-2103",
+      "initial_history": [
+        "E",
+        "N",
+        "E"
+      ],
+      "initial_labels": [
+        "E",
+        "N",
+        "C"
+      ],
+      "initial_memory_sha256": "7765b8921c0fd1bc2a5d0914db4f45754408dc93d29ee5b556ea13badbcb3a03",
+      "max_attempts": 3,
+      "operation": "correct_latest",
+      "seed": 2103,
+      "task_id": "d534fcfe5e56c028",
+      "worker": 1
+    },
+    {
+      "history_key": "repeated_error",
+      "id": "multiround-d534fcfe5e56c028-repeated_error-delete_latest-2103",
+      "initial_history": [
+        "E",
+        "N",
+        "E"
+      ],
+      "initial_labels": [
+        "E",
+        "N"
+      ],
+      "initial_memory_sha256": "4f9696fca57029af09f9fa3005bd24397ce147d7f43cb5c989983fcb26498df0",
+      "max_attempts": 3,
+      "operation": "delete_latest",
+      "seed": 2103,
+      "task_id": "d534fcfe5e56c028",
+      "worker": 1
+    },
+    {
+      "history_key": "single_error",
+      "id": "multiround-d534fcfe5e56c028-single_error-retain-2103",
+      "initial_history": [
+        "E"
+      ],
+      "initial_labels": [
+        "E"
+      ],
+      "initial_memory_sha256": "369ce4741692e699b2c293ef03cf41bf624ac84d9ddd452219ee12cccbe5c40a",
+      "max_attempts": 3,
+      "operation": "retain",
+      "seed": 2103,
+      "task_id": "d534fcfe5e56c028",
+      "worker": 1
+    },
+    {
+      "history_key": "single_error",
+      "id": "multiround-dae15e890956dd5e-single_error-delete_latest-2103",
+      "initial_history": [
+        "E"
+      ],
+      "initial_labels": [],
+      "initial_memory_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "max_attempts": 3,
+      "operation": "delete_latest",
+      "seed": 2103,
+      "task_id": "dae15e890956dd5e",
+      "worker": 2
+    },
+    {
+      "history_key": "repeated_error",
+      "id": "multiround-dae15e890956dd5e-repeated_error-retain-2103",
+      "initial_history": [
+        "E",
+        "N",
+        "E"
+      ],
+      "initial_labels": [
+        "E",
+        "N",
+        "E"
+      ],
+      "initial_memory_sha256": "30e08775845a6b971f567e1ca057092d4307714a9aaccb6b001f373133af10e9",
+      "max_attempts": 3,
+      "operation": "retain",
+      "seed": 2103,
+      "task_id": "dae15e890956dd5e",
+      "worker": 2
+    },
+    {
+      "history_key": "repeated_error",
+      "id": "multiround-dae15e890956dd5e-repeated_error-correct_latest-2103",
+      "initial_history": [
+        "E",
+        "N",
+        "E"
+      ],
+      "initial_labels": [
+        "E",
+        "N",
+        "C"
+      ],
+      "initial_memory_sha256": "7765b8921c0fd1bc2a5d0914db4f45754408dc93d29ee5b556ea13badbcb3a03",
+      "max_attempts": 3,
+      "operation": "correct_latest",
+      "seed": 2103,
+      "task_id": "dae15e890956dd5e",
+      "worker": 2
+    },
+    {
+      "history_key": "repeated_error",
+      "id": "multiround-dae15e890956dd5e-repeated_error-delete_latest-2103",
+      "initial_history": [
+        "E",
+        "N",
+        "E"
+      ],
+      "initial_labels": [
+        "E",
+        "N"
+      ],
+      "initial_memory_sha256": "4f9696fca57029af09f9fa3005bd24397ce147d7f43cb5c989983fcb26498df0",
+      "max_attempts": 3,
+      "operation": "delete_latest",
+      "seed": 2103,
+      "task_id": "dae15e890956dd5e",
+      "worker": 2
+    },
+    {
+      "history_key": "single_error",
+      "id": "multiround-dae15e890956dd5e-single_error-retain-2103",
+      "initial_history": [
+        "E"
+      ],
+      "initial_labels": [
+        "E"
+      ],
+      "initial_memory_sha256": "369ce4741692e699b2c293ef03cf41bf624ac84d9ddd452219ee12cccbe5c40a",
+      "max_attempts": 3,
+      "operation": "retain",
+      "seed": 2103,
+      "task_id": "dae15e890956dd5e",
+      "worker": 2
+    },
+    {
+      "history_key": "single_error",
+      "id": "multiround-dae15e890956dd5e-single_error-correct_latest-2103",
+      "initial_history": [
+        "E"
+      ],
+      "initial_labels": [
+        "C"
+      ],
+      "initial_memory_sha256": "85ff3877124164dff55c0eacc80ba1178fb0238c63346d1cca664516a33a747e",
+      "max_attempts": 3,
+      "operation": "correct_latest",
+      "seed": 2103,
+      "task_id": "dae15e890956dd5e",
+      "worker": 2
+    },
+    {
+      "history_key": "repeated_error",
+      "id": "multiround-dd93ff2604e30529-repeated_error-retain-2103",
+      "initial_history": [
+        "E",
+        "N",
+        "E"
+      ],
+      "initial_labels": [
+        "E",
+        "N",
+        "E"
+      ],
+      "initial_memory_sha256": "30e08775845a6b971f567e1ca057092d4307714a9aaccb6b001f373133af10e9",
+      "max_attempts": 3,
+      "operation": "retain",
+      "seed": 2103,
+      "task_id": "dd93ff2604e30529",
+      "worker": 0
+    },
+    {
+      "history_key": "repeated_error",
+      "id": "multiround-dd93ff2604e30529-repeated_error-correct_latest-2103",
+      "initial_history": [
+        "E",
+        "N",
+        "E"
+      ],
+      "initial_labels": [
+        "E",
+        "N",
+        "C"
+      ],
+      "initial_memory_sha256": "7765b8921c0fd1bc2a5d0914db4f45754408dc93d29ee5b556ea13badbcb3a03",
+      "max_attempts": 3,
+      "operation": "correct_latest",
+      "seed": 2103,
+      "task_id": "dd93ff2604e30529",
+      "worker": 0
+    },
+    {
+      "history_key": "repeated_error",
+      "id": "multiround-dd93ff2604e30529-repeated_error-delete_latest-2103",
+      "initial_history": [
+        "E",
+        "N",
+        "E"
+      ],
+      "initial_labels": [
+        "E",
+        "N"
+      ],
+      "initial_memory_sha256": "4f9696fca57029af09f9fa3005bd24397ce147d7f43cb5c989983fcb26498df0",
+      "max_attempts": 3,
+      "operation": "delete_latest",
+      "seed": 2103,
+      "task_id": "dd93ff2604e30529",
+      "worker": 0
+    },
+    {
+      "history_key": "single_error",
+      "id": "multiround-dd93ff2604e30529-single_error-retain-2103",
+      "initial_history": [
+        "E"
+      ],
+      "initial_labels": [
+        "E"
+      ],
+      "initial_memory_sha256": "369ce4741692e699b2c293ef03cf41bf624ac84d9ddd452219ee12cccbe5c40a",
+      "max_attempts": 3,
+      "operation": "retain",
+      "seed": 2103,
+      "task_id": "dd93ff2604e30529",
+      "worker": 0
+    },
+    {
+      "history_key": "single_error",
+      "id": "multiround-dd93ff2604e30529-single_error-correct_latest-2103",
+      "initial_history": [
+        "E"
+      ],
+      "initial_labels": [
+        "C"
+      ],
+      "initial_memory_sha256": "85ff3877124164dff55c0eacc80ba1178fb0238c63346d1cca664516a33a747e",
+      "max_attempts": 3,
+      "operation": "correct_latest",
+      "seed": 2103,
+      "task_id": "dd93ff2604e30529",
+      "worker": 0
+    },
+    {
+      "history_key": "single_error",
+      "id": "multiround-dd93ff2604e30529-single_error-delete_latest-2103",
+      "initial_history": [
+        "E"
+      ],
+      "initial_labels": [],
+      "initial_memory_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "max_attempts": 3,
+      "operation": "delete_latest",
+      "seed": 2103,
+      "task_id": "dd93ff2604e30529",
+      "worker": 0
+    },
+    {
+      "history_key": "repeated_error",
+      "id": "multiround-e4244c54d52f3326-repeated_error-correct_latest-2103",
+      "initial_history": [
+        "E",
+        "N",
+        "E"
+      ],
+      "initial_labels": [
+        "E",
+        "N",
+        "C"
+      ],
+      "initial_memory_sha256": "7765b8921c0fd1bc2a5d0914db4f45754408dc93d29ee5b556ea13badbcb3a03",
+      "max_attempts": 3,
+      "operation": "correct_latest",
+      "seed": 2103,
+      "task_id": "e4244c54d52f3326",
+      "worker": 1
+    },
+    {
+      "history_key": "repeated_error",
+      "id": "multiround-e4244c54d52f3326-repeated_error-delete_latest-2103",
+      "initial_history": [
+        "E",
+        "N",
+        "E"
+      ],
+      "initial_labels": [
+        "E",
+        "N"
+      ],
+      "initial_memory_sha256": "4f9696fca57029af09f9fa3005bd24397ce147d7f43cb5c989983fcb26498df0",
+      "max_attempts": 3,
+      "operation": "delete_latest",
+      "seed": 2103,
+      "task_id": "e4244c54d52f3326",
+      "worker": 1
+    },
+    {
+      "history_key": "single_error",
+      "id": "multiround-e4244c54d52f3326-single_error-retain-2103",
+      "initial_history": [
+        "E"
+      ],
+      "initial_labels": [
+        "E"
+      ],
+      "initial_memory_sha256": "369ce4741692e699b2c293ef03cf41bf624ac84d9ddd452219ee12cccbe5c40a",
+      "max_attempts": 3,
+      "operation": "retain",
+      "seed": 2103,
+      "task_id": "e4244c54d52f3326",
+      "worker": 1
+    },
+    {
+      "history_key": "single_error",
+      "id": "multiround-e4244c54d52f3326-single_error-correct_latest-2103",
+      "initial_history": [
+        "E"
+      ],
+      "initial_labels": [
+        "C"
+      ],
+      "initial_memory_sha256": "85ff3877124164dff55c0eacc80ba1178fb0238c63346d1cca664516a33a747e",
+      "max_attempts": 3,
+      "operation": "correct_latest",
+      "seed": 2103,
+      "task_id": "e4244c54d52f3326",
+      "worker": 1
+    },
+    {
+      "history_key": "single_error",
+      "id": "multiround-e4244c54d52f3326-single_error-delete_latest-2103",
+      "initial_history": [
+        "E"
+      ],
+      "initial_labels": [],
+      "initial_memory_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "max_attempts": 3,
+      "operation": "delete_latest",
+      "seed": 2103,
+      "task_id": "e4244c54d52f3326",
+      "worker": 1
+    },
+    {
+      "history_key": "repeated_error",
+      "id": "multiround-e4244c54d52f3326-repeated_error-retain-2103",
+      "initial_history": [
+        "E",
+        "N",
+        "E"
+      ],
+      "initial_labels": [
+        "E",
+        "N",
+        "E"
+      ],
+      "initial_memory_sha256": "30e08775845a6b971f567e1ca057092d4307714a9aaccb6b001f373133af10e9",
+      "max_attempts": 3,
+      "operation": "retain",
+      "seed": 2103,
+      "task_id": "e4244c54d52f3326",
+      "worker": 1
+    },
+    {
+      "history_key": "repeated_error",
+      "id": "multiround-f8864bd2f58af715-repeated_error-delete_latest-2103",
+      "initial_history": [
+        "E",
+        "N",
+        "E"
+      ],
+      "initial_labels": [
+        "E",
+        "N"
+      ],
+      "initial_memory_sha256": "4f9696fca57029af09f9fa3005bd24397ce147d7f43cb5c989983fcb26498df0",
+      "max_attempts": 3,
+      "operation": "delete_latest",
+      "seed": 2103,
+      "task_id": "f8864bd2f58af715",
+      "worker": 2
+    },
+    {
+      "history_key": "single_error",
+      "id": "multiround-f8864bd2f58af715-single_error-retain-2103",
+      "initial_history": [
+        "E"
+      ],
+      "initial_labels": [
+        "E"
+      ],
+      "initial_memory_sha256": "369ce4741692e699b2c293ef03cf41bf624ac84d9ddd452219ee12cccbe5c40a",
+      "max_attempts": 3,
+      "operation": "retain",
+      "seed": 2103,
+      "task_id": "f8864bd2f58af715",
+      "worker": 2
+    },
+    {
+      "history_key": "single_error",
+      "id": "multiround-f8864bd2f58af715-single_error-correct_latest-2103",
+      "initial_history": [
+        "E"
+      ],
+      "initial_labels": [
+        "C"
+      ],
+      "initial_memory_sha256": "85ff3877124164dff55c0eacc80ba1178fb0238c63346d1cca664516a33a747e",
+      "max_attempts": 3,
+      "operation": "correct_latest",
+      "seed": 2103,
+      "task_id": "f8864bd2f58af715",
+      "worker": 2
+    },
+    {
+      "history_key": "single_error",
+      "id": "multiround-f8864bd2f58af715-single_error-delete_latest-2103",
+      "initial_history": [
+        "E"
+      ],
+      "initial_labels": [],
+      "initial_memory_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "max_attempts": 3,
+      "operation": "delete_latest",
+      "seed": 2103,
+      "task_id": "f8864bd2f58af715",
+      "worker": 2
+    },
+    {
+      "history_key": "repeated_error",
+      "id": "multiround-f8864bd2f58af715-repeated_error-retain-2103",
+      "initial_history": [
+        "E",
+        "N",
+        "E"
+      ],
+      "initial_labels": [
+        "E",
+        "N",
+        "E"
+      ],
+      "initial_memory_sha256": "30e08775845a6b971f567e1ca057092d4307714a9aaccb6b001f373133af10e9",
+      "max_attempts": 3,
+      "operation": "retain",
+      "seed": 2103,
+      "task_id": "f8864bd2f58af715",
+      "worker": 2
+    },
+    {
+      "history_key": "repeated_error",
+      "id": "multiround-f8864bd2f58af715-repeated_error-correct_latest-2103",
+      "initial_history": [
+        "E",
+        "N",
+        "E"
+      ],
+      "initial_labels": [
+        "E",
+        "N",
+        "C"
+      ],
+      "initial_memory_sha256": "7765b8921c0fd1bc2a5d0914db4f45754408dc93d29ee5b556ea13badbcb3a03",
+      "max_attempts": 3,
+      "operation": "correct_latest",
+      "seed": 2103,
+      "task_id": "f8864bd2f58af715",
+      "worker": 2
+    }
+  ]
+}

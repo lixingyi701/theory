@@ -1,0 +1,374 @@
+{
+  "entries": [
+    {
+      "format_prefix": "Plan: ",
+      "human_second_review": false,
+      "residual_semantic_label": "U",
+      "residual_sha256": "caf452cfb444c3be7a117215cef2e425658e38fcb61b50d4ab7b77d0f66da8a4",
+      "residual_text": "Plan: If that fails, I should try using the stoveburner by placing the potato on it and turning it on. I should avoid repeatedly using the same command without checking the state of the appliance or the potato's location. If all else fails, I will try placing the potato on the stoveburner and attempt to heat it there.",
+      "retained_spans": [
+        {
+          "end": 352,
+          "start": 256
+        },
+        {
+          "end": 471,
+          "start": 353
+        },
+        {
+          "end": 707,
+          "start": 610
+        }
+      ],
+      "review_basis": "Full source and reconstructed residual read by Codex; other advice may remain incorrect",
+      "source": {
+        "cell_id": "state-02088717ce4b3889-2101-full_generic",
+        "label": "E",
+        "reflection_sha256": "22d680bcdab73bf14fd43b25cca4a0731c241dd948a4ccac219aa0b55dcd7c12",
+        "result_sha256": "30b737304600e74b7e4129d71d207e9d9e28eeaeb74b6aa18d97a79ab170f084"
+      },
+      "task_id": "02088717ce4b3889"
+    },
+    {
+      "format_prefix": "",
+      "human_second_review": false,
+      "residual_semantic_label": "U",
+      "residual_sha256": "39b20e10ad7a2fcdfee5988a10968f87093776cebee792994d07033833997517",
+      "residual_text": "Plan: I was unsuccessful in heating the apple because I did not properly use the microwave. If the microwave was not working, I should have tried using the stoveburner with a container to heat the apple, rather than attempting to place it directly on the stoveburner. I should also ensure that I do not repeatedly attempt the same action without checking the state of the object or the appliance.",
+      "retained_spans": [
+        {
+          "end": 91,
+          "start": 0
+        },
+        {
+          "end": 457,
+          "start": 282
+        },
+        {
+          "end": 586,
+          "start": 458
+        }
+      ],
+      "review_basis": "Full source and reconstructed residual read by Codex; other advice may remain incorrect",
+      "source": {
+        "cell_id": "state-4a3978c7981b641a-2101-newest_error",
+        "label": "E",
+        "reflection_sha256": "6c112a6ebdc37b3144a045e1ab45449eb7f71391fb00df265bc0adcf67d5bba5",
+        "result_sha256": "de7e78cafa5d4e5a54c737aa1ace191bb65465bffc317cd715d7705dbf6e61a6"
+      },
+      "task_id": "4a3978c7981b641a"
+    },
+    {
+      "format_prefix": "",
+      "human_second_review": false,
+      "residual_semantic_label": "U",
+      "residual_sha256": "3973e4b31bd677b3486c18c7d7ad8628256d70240be807a59f78563b160f6849",
+      "residual_text": "Plan: I was unsuccessful in heating the potato because I did not properly use the microwave. Alternatively, if the microwave is not working, I should try heating the potato on the stoveburner instead. I will first check if the microwave is operational by attempting to heat a known item, or I will proceed to use the stoveburner to heat the potato directly.",
+      "retained_spans": [
+        {
+          "end": 92,
+          "start": 0
+        },
+        {
+          "end": 294,
+          "start": 187
+        },
+        {
+          "end": 451,
+          "start": 295
+        }
+      ],
+      "review_basis": "Full source and reconstructed residual read by Codex; other advice may remain incorrect",
+      "source": {
+        "cell_id": "state-55f887bdc1cc1699-2101-oldest_correct",
+        "label": "E",
+        "reflection_sha256": "a08830c1cebf817161430e98e1fe9c6d7188c525636a7b818f6c521975078ca2",
+        "result_sha256": "7dec2ecb12be5e6c30b63fd0a05d9c78f1021ce1c2b447c7adc1e8c0983f7db8"
+      },
+      "task_id": "55f887bdc1cc1699"
+    },
+    {
+      "format_prefix": "",
+      "human_second_review": false,
+      "residual_semantic_label": "U",
+      "residual_sha256": "766e37c4dd139c0dd8f5f5fbacd3d01454868e10844b1da2ab1a9ad95f1cd295",
+      "residual_text": "Plan: I failed to successfully heat the apple because I did not correctly use the microwave or any other heating appliance. If that didn't work, I should have tried using the stoveburner by placing the apple on it and turning it on. If the stoveburner also failed, I should have checked if the apple was already hot or if there was a different method to heat it. Finally, if all else failed, I should have placed the apple in the fridge as instructed, even if it wasn't hot, to complete the task. I should avoid trying multiple actions on the same object without checking if they are effective.",
+      "retained_spans": [
+        {
+          "end": 123,
+          "start": 0
+        },
+        {
+          "end": 336,
+          "start": 228
+        },
+        {
+          "end": 466,
+          "start": 337
+        },
+        {
+          "end": 600,
+          "start": 467
+        },
+        {
+          "end": 698,
+          "start": 601
+        }
+      ],
+      "review_basis": "Full source and reconstructed residual read by Codex; other advice may remain incorrect",
+      "source": {
+        "cell_id": "state-69b7fb1c70f5d271-2101-oldest_error",
+        "label": "E",
+        "reflection_sha256": "04bc44750d6b300aba56f4798392fbc3f553c63b686f8548981252a25b8073f9",
+        "result_sha256": "86fc5a994866717c2895f5902e4fa1a0624e64dbe0bff5dbcbcba186f35b8c54"
+      },
+      "task_id": "69b7fb1c70f5d271"
+    },
+    {
+      "format_prefix": "",
+      "human_second_review": false,
+      "residual_semantic_label": "U",
+      "residual_sha256": "e4775ea6046908121bef1ac3e544826bd95366a96f44a2313a07246b7ac4a579",
+      "residual_text": "New plan: I failed to locate a mug in the environment. I should systematically check all possible locations where a mug might be found, such as cabinets, drawers, countertops, dining tables, and the sink basin, before attempting to heat it. I need to ensure I do not skip any location and thoroughly search each one before moving on.",
+      "retained_spans": [
+        {
+          "end": 54,
+          "start": 0
+        },
+        {
+          "end": 240,
+          "start": 55
+        },
+        {
+          "end": 440,
+          "start": 348
+        }
+      ],
+      "review_basis": "Full source and reconstructed residual read by Codex; other advice may remain incorrect",
+      "source": {
+        "cell_id": "state-790b6f6fefeac9d1-2101-newest_error",
+        "label": "E",
+        "reflection_sha256": "4fa8e535717b69f0803fb6f7b97e2c99d6305d755b7cabe5d2fedd0831fa30dc",
+        "result_sha256": "29ee37142775675e53fd4dd96079ceee8a2906bf01d8f2e094b42187a62d182b"
+      },
+      "task_id": "790b6f6fefeac9d1"
+    },
+    {
+      "format_prefix": "Plan: ",
+      "human_second_review": false,
+      "residual_semantic_label": "U",
+      "residual_sha256": "51b2c0f8eb74591db3c6f0960b8e6c9115ad069307b3e0ac74bc3b99275b7d2a",
+      "residual_text": "Plan: I should have first confirmed the functionality of the microwave by attempting to heat a different object, such as a cup or bowl, before using it on the mug. If not, I should have tried a different appliance, like the stoveburner, and ensured the mug was properly placed on it. Additionally, I should have checked if the mug was heatable by attempting to heat it on a different stoveburner or toaster before concluding it was unheatable. I will now prioritize testing the microwave with a different object to determine its functionality before proceeding with heating the mug.",
+      "retained_spans": [
+        {
+          "end": 319,
+          "start": 162
+        },
+        {
+          "end": 522,
+          "start": 403
+        },
+        {
+          "end": 682,
+          "start": 523
+        },
+        {
+          "end": 821,
+          "start": 683
+        }
+      ],
+      "review_basis": "Full source and reconstructed residual read by Codex; other advice may remain incorrect",
+      "source": {
+        "cell_id": "state-bf6d3dba86f7f0e4-2101-oldest_correct",
+        "label": "E",
+        "reflection_sha256": "559a4b6f41e61da8aa0b0ee66a918cccd61b2dcb598c0c00d26b5c7956dc59eb",
+        "result_sha256": "da625a565ec2b75cce7a0d191de346e656238fb2ac72fc440ffe3286fe0a478b"
+      },
+      "task_id": "bf6d3dba86f7f0e4"
+    },
+    {
+      "format_prefix": "",
+      "human_second_review": false,
+      "residual_semantic_label": "U",
+      "residual_sha256": "7ddb471d56dbd8f4b3a24545c24aca19491eba14844e619df74e2c835a8f4664",
+      "residual_text": "Plan: I was unsuccessful in heating the egg due to incorrect command syntax and improper use of the microwave and stoveburner. I should have first confirmed the correct command format for heating, such as \"heat egg 1 in microwave 1\" or \"heat egg 1 on stoveburner 1\". I should also have ensured the microwave was closed before heating. If heating failed, I should have tried a different method, such as placing the egg on the stoveburner and using the correct command to heat it. Finally, if all else failed, I should have double-checked if the egg was in my inventory before attempting to place it in the fridge.",
+      "retained_spans": [
+        {
+          "end": 126,
+          "start": 0
+        },
+        {
+          "end": 266,
+          "start": 127
+        },
+        {
+          "end": 455,
+          "start": 388
+        },
+        {
+          "end": 599,
+          "start": 456
+        },
+        {
+          "end": 733,
+          "start": 600
+        }
+      ],
+      "review_basis": "Full source and reconstructed residual read by Codex; other advice may remain incorrect",
+      "source": {
+        "cell_id": "state-bf7043e154cc1d53-2101-single_generic",
+        "label": "E",
+        "reflection_sha256": "0915f2d030e18ceb5028170b53cb967edb263ef5a2ccda03cd8d3c512f922d24",
+        "result_sha256": "ab5c3690c7d24d18bd25d635ccbe56abd9b57f96781d92cb419614a4bb878e03"
+      },
+      "task_id": "bf7043e154cc1d53"
+    },
+    {
+      "format_prefix": "Plan: ",
+      "human_second_review": false,
+      "residual_semantic_label": "U",
+      "residual_sha256": "4d8ec8a6fc5042c8d17fb8921af570d421f6dba15cb2b4efdafc8439e994028f",
+      "residual_text": "Plan: I also need to ensure that the microwave is functioning properly by checking if it can heat other objects. If the microwave is not working, I should try using the stoveburner or toaster as alternative heating methods. If all else fails, I should try placing the cup on the countertop after confirming it is heated through another method.",
+      "retained_spans": [
+        {
+          "end": 210,
+          "start": 104
+        },
+        {
+          "end": 321,
+          "start": 211
+        },
+        {
+          "end": 576,
+          "start": 457
+        }
+      ],
+      "review_basis": "Full source and reconstructed residual read by Codex; other advice may remain incorrect",
+      "source": {
+        "cell_id": "state-d534fcfe5e56c028-2101-single_error",
+        "label": "E",
+        "reflection_sha256": "0dbccf2ad7934d771f5ba78e7cd182db6d278026967bad6968199a0eb1e477ab",
+        "result_sha256": "e7e0a451456da0f18588a84631daa1cb83fcb9c6e0179bd3adec1d2a7cdb71ad"
+      },
+      "task_id": "d534fcfe5e56c028"
+    },
+    {
+      "format_prefix": "Plan: ",
+      "human_second_review": false,
+      "residual_semantic_label": "U",
+      "residual_sha256": "81925de4239c9d3158cb5e2ce9533b3f5985e86835609de5fa7ed1e12239a932",
+      "residual_text": "Plan: Additionally, after heating the cup, I should have directly placed it on a shelf without attempting to move other items. I will avoid unnecessary actions and focus on completing each step in order.",
+      "retained_spans": [
+        {
+          "end": 416,
+          "start": 296
+        },
+        {
+          "end": 615,
+          "start": 539
+        }
+      ],
+      "review_basis": "Full source and reconstructed residual read by Codex; other advice may remain incorrect",
+      "source": {
+        "cell_id": "state-dae15e890956dd5e-2101-single_error",
+        "label": "E",
+        "reflection_sha256": "16bf36e6c687f5d6125b7fed9816c9e21cff71766186db5659666ec85febce63",
+        "result_sha256": "fd801447096efa55011b727575dd46721e93bd5bc0d6ead822df13969b7e2b9d"
+      },
+      "task_id": "dae15e890956dd5e"
+    },
+    {
+      "format_prefix": "Plan: ",
+      "human_second_review": false,
+      "residual_semantic_label": "U",
+      "residual_sha256": "6e2deec7cb75f0088402931883ebc60bc2cfc8e67fac06e7ac78bdacac5340f4",
+      "residual_text": "Plan: Additionally, I should have checked if the microwave was closed before heating. If commands fail, I should try alternative syntax or check the state of the microwave and egg.",
+      "retained_spans": [
+        {
+          "end": 437,
+          "start": 358
+        },
+        {
+          "end": 636,
+          "start": 542
+        }
+      ],
+      "review_basis": "Full source and reconstructed residual read by Codex; other advice may remain incorrect",
+      "source": {
+        "cell_id": "state-dd93ff2604e30529-2101-oldest_error",
+        "label": "E",
+        "reflection_sha256": "ae747c0dd9b022a823e71c09ed93b3c440d4dd7e89404083b6ab7f84de06654c",
+        "result_sha256": "99b4f4c87ae4649070024cbe18194ccabd03f65981bd65afadcde4324782a1ba"
+      },
+      "task_id": "dd93ff2604e30529"
+    },
+    {
+      "format_prefix": "Plan: ",
+      "human_second_review": false,
+      "residual_semantic_label": "U",
+      "residual_sha256": "1842ba8a5cc958f21b28d0aeb60c2ba83db78e8b2d0039e3e339040c37968a1b",
+      "residual_text": "Plan: I should have first checked if the microwave is functional by attempting to heat an empty item or using a known working object. If the microwave is non-functional, I should have attempted to heat the apple using an alternative method, such as the stoveburner. After heating, I should have ensured the apple was in my inventory before attempting to place it in the garbagecan, and if it wasn't accepted, I should have tried a different garbagecan or checked if the apple was already in the garbagecan. I will now systematically check the microwave's functionality first, then proceed with heating and disposal.",
+      "retained_spans": [
+        {
+          "end": 251,
+          "start": 124
+        },
+        {
+          "end": 383,
+          "start": 252
+        },
+        {
+          "end": 624,
+          "start": 384
+        },
+        {
+          "end": 733,
+          "start": 625
+        }
+      ],
+      "review_basis": "Full source and reconstructed residual read by Codex; other advice may remain incorrect",
+      "source": {
+        "cell_id": "state-e4244c54d52f3326-2101-newest_error",
+        "label": "E",
+        "reflection_sha256": "844bfcd27656dea55ea62251c9f8d8aadeec58685651b1f90a935d1dab150441",
+        "result_sha256": "88327d3048fc4779643c3b95f28584c6f87d7861b3b5bcf693f8a529f4edd359"
+      },
+      "task_id": "e4244c54d52f3326"
+    },
+    {
+      "format_prefix": "Plan: ",
+      "human_second_review": false,
+      "residual_semantic_label": "U",
+      "residual_sha256": "26dcc1932904cf456ded6efbbd02461e0d2cda8f12f7635c03f2e32d5c39ac42",
+      "residual_text": "Plan: Additionally, I should have checked if the microwave was functioning properly by attempting to heat a known heatable item, such as a cup or a pan. I will also ensure that I use the correct syntax for removing items from the microwave, such as using \"drop\" or \"take\" when possible. Next time, I will prioritize clearing the microwave before attempting to heat a new item.",
+      "retained_spans": [
+        {
+          "end": 346,
+          "start": 200
+        },
+        {
+          "end": 480,
+          "start": 347
+        },
+        {
+          "end": 570,
+          "start": 481
+        }
+      ],
+      "review_basis": "Full source and reconstructed residual read by Codex; other advice may remain incorrect",
+      "source": {
+        "cell_id": "state-f8864bd2f58af715-2101-newest_error",
+        "label": "E",
+        "reflection_sha256": "85314be2cc5182a0b00fad74a872ddb7a7541d3d4a87b3a1b8faedf9e520ee4b",
+        "result_sha256": "8b3436319b395561b3facc9532b52537f55664849b1433298be632f21a5bbd7f"
+      },
+      "task_id": "f8864bd2f58af715"
+    }
+  ],
+  "human_second_review": false,
+  "operation": "Concatenate retained source character spans in order, separated by one space, with optional Plan format prefix; no new task fact added",
+  "parent_protocol_sha256": "acac63324bd9680f32d9b6ffef74e5651507cffadb506fb5558e91a27a8974e3",
+  "schema_version": 1,
+  "selection": "All twelve previously fixed E sources; no selection by native/control outcome",
+  "sha256": "a44b4c2d721ff045354f04dbdc30a57332ed06a12cd26de41823c0ec911abf3c"
+}

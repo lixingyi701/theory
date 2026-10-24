@@ -1,0 +1,33 @@
+{
+  "decoding_profile": "qwen3_non_thinking_recommended_v1",
+  "driver_sha256": "265f2fbaf841e6937ed51a0211ee0fe998ed022b31ac378d58be7284722e6ffe",
+  "errors": [],
+  "passed": true,
+  "protocol_sha256": "0a1b83abc85ba7c7bd5738e7a8ad64c82f43d5ff8158c36bf25dc0d678cf58f1",
+  "run_sha256": "064b15067ffa4b1b70d1377ee396bb7ad35d0762b052a19a58b414e6143e4fed",
+  "scope": "model and tool interface audit; no-effect observations are not automatically classified as syntax errors",
+  "sha256": "e4e0b7f27465918f340dfd7fa84a7b6495387abd094c9ae46f6c4603695c59ab",
+  "summary_adapter": {
+    "driver_sha256": "7d118bfcf572f106d30cc01e39b94b75d52e20c0f3d91eff8bae5f00fdf293d2",
+    "mapping": "Derive completed_tasks and expected_tasks from the complete frozen cell matrix; do not change raw artifacts",
+    "source_protocol_sha256": "fe7100aea8f40741a9a0e98381ae0beb46f9e0fd87c58a181f176123515ca1f2",
+    "source_summary_sha256": "4986b4530a1b6b904d6f7a288aa70f08915893296becb50e28efccc91cfb36e1",
+    "verified_cells": 180,
+    "verified_tasks": 12
+  },
+  "totals": {
+    "dispatched_calls": 6590,
+    "empty_responses": 0,
+    "environment_steps": 6462,
+    "in_on_variants": 363,
+    "leading_action_markers": 6417,
+    "missing_responses": 0,
+    "no_effect_steps": 4143,
+    "physical_no_effect_steps": 927,
+    "placement_aliases": 414,
+    "responses": 6590,
+    "thought_steps": 3216,
+    "truncated_responses": 1,
+    "unexpected_thinking_blocks": 0
+  }
+}

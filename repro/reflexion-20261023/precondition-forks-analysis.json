@@ -1,0 +1,1531 @@
+{
+  "completed_targets": 3,
+  "costs": {
+    "dispatched_calls": 1084,
+    "input_tokens_known": 2860634,
+    "output_tokens_known": 43077,
+    "saved_responses": 1084,
+    "truncated_responses": 0,
+    "uncertain_or_unrecorded_attempts": 0,
+    "usage_missing_responses": 0
+  },
+  "driver_sha256": "5c1c73c384080709f2f5c748c56d108823d4b317fa62a7c265398ee9b67cdb74",
+  "independent_tasks": 3,
+  "scope": "Observed accepted placement followed by target macro without retrieving the object; no latent-belief label",
+  "sha256": "cc781b69bf976bf36f19b41c38358eeebf6fe323373a79f5680d0bb9c75544a8",
+  "targets": [
+    {
+      "branches": {
+        "correct_target": {
+          "attempts": [
+            {
+              "competing_macros": [],
+              "decisions": 49,
+              "held_successful_target_macros": [],
+              "native_error_entry_visible": false,
+              "new_reflection_sha256": [
+                "4c4c352f43a3e2a4a815caa606c965cbf93121710def7023f9db6e6d93fe3b18"
+              ],
+              "other_failed_target_macros": [],
+              "repaired_entry_visible": true,
+              "status": "repeat_or_decision_budget",
+              "success": false,
+              "target_device_placement_attempts": [
+                {
+                  "accepted": true,
+                  "action": "put egg 2 in microwave 1",
+                  "held_before": "egg 2",
+                  "index": 15,
+                  "observation": "You move the egg 2 to the microwave 1."
+                },
+                {
+                  "accepted": false,
+                  "action": "put egg 2 in microwave 1",
+                  "held_before": null,
+                  "index": 33,
+                  "observation": "Nothing happens."
+                },
+                {
+                  "accepted": false,
+                  "action": "put egg 2 in microwave 1",
+                  "held_before": null,
+                  "index": 36,
+                  "observation": "Nothing happens."
+                },
+                {
+                  "accepted": false,
+                  "action": "put egg 2 in microwave 1",
+                  "held_before": null,
+                  "index": 39,
+                  "observation": "Nothing happens."
+                },
+                {
+                  "accepted": false,
+                  "action": "put egg 2 in microwave 1",
+                  "held_before": null,
+                  "index": 44,
+                  "observation": "Nothing happens."
+                }
+              ],
+              "target_picked_up": true,
+              "target_wrong_fragment_visible": false,
+              "target_wrong_fragments_visible": [
+                false,
+                false
+              ],
+              "trajectory_sha256": "fda4220780c205fb6a67b84e8549b0bdf8e9232b0321d6f0b91dcfa3ee298bc4",
+              "trial": 1,
+              "unexplained_successful_macros": [],
+              "wrong_precondition_chains": [
+                {
+                  "accepted_placement_index": 15,
+                  "action": "heat egg 2 with microwave 1",
+                  "held_before": null,
+                  "index": 18,
+                  "observation": "Nothing happens."
+                },
+                {
+                  "accepted_placement_index": 15,
+                  "action": "heat egg 2 with microwave 1",
+                  "held_before": null,
+                  "index": 41,
+                  "observation": "Nothing happens."
+                },
+                {
+                  "accepted_placement_index": 15,
+                  "action": "heat egg 2 with microwave 1",
+                  "held_before": null,
+                  "index": 46,
+                  "observation": "Nothing happens."
+                }
+              ]
+            },
+            {
+              "competing_macros": [],
+              "decisions": 33,
+              "held_successful_target_macros": [],
+              "native_error_entry_visible": false,
+              "new_reflection_sha256": [
+                "e42cafa8af7ce5e931179d160b9b4b42ff2893d2f8942124b0a14818770734be"
+              ],
+              "other_failed_target_macros": [],
+              "repaired_entry_visible": true,
+              "status": "repeat_or_decision_budget",
+              "success": false,
+              "target_device_placement_attempts": [
+                {
+                  "accepted": true,
+                  "action": "put egg 2 in microwave 1",
+                  "held_before": "egg 2",
+                  "index": 18,
+                  "observation": "You move the egg 2 to the microwave 1."
+                }
+              ],
+              "target_picked_up": true,
+              "target_wrong_fragment_visible": false,
+              "target_wrong_fragments_visible": [
+                false,
+                false
+              ],
+              "trajectory_sha256": "b4c09c3ade1cba710ea34897b966a91e6b9f4c39bef4622c7f75f2ebc0a618c9",
+              "trial": 2,
+              "unexplained_successful_macros": [],
+              "wrong_precondition_chains": [
+                {
+                  "accepted_placement_index": 18,
+                  "action": "heat egg 2 with microwave 1",
+                  "held_before": null,
+                  "index": 20,
+                  "observation": "Nothing happens."
+                }
+              ]
+            }
+          ],
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 84,
+            "input_tokens_known": 215402,
+            "output_tokens_known": 3424,
+            "saved_responses": 84,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "success": false
+        },
+        "discard_new": {
+          "attempts": [
+            {
+              "competing_macros": [
+                {
+                  "action": "heat cup 2 with microwave 1",
+                  "held_before": null,
+                  "index": 27,
+                  "observation": "Nothing happens."
+                }
+              ],
+              "decisions": 49,
+              "held_successful_target_macros": [],
+              "native_error_entry_visible": false,
+              "new_reflection_sha256": [
+                "5ab1ba6a3b36e17194e780307ab9d40ca375b903db41db2a5ba7baf18a6eee73"
+              ],
+              "other_failed_target_macros": [],
+              "repaired_entry_visible": false,
+              "status": "repeat_or_decision_budget",
+              "success": false,
+              "target_device_placement_attempts": [
+                {
+                  "accepted": true,
+                  "action": "put egg 2 in microwave 1",
+                  "held_before": "egg 2",
+                  "index": 15,
+                  "observation": "You move the egg 2 to the microwave 1."
+                }
+              ],
+              "target_picked_up": true,
+              "target_wrong_fragment_visible": false,
+              "target_wrong_fragments_visible": [
+                false,
+                false
+              ],
+              "trajectory_sha256": "3d1ed4b4862510e56ccb965ccc694562b452427543055527f4d8e73cb5d3e37f",
+              "trial": 1,
+              "unexplained_successful_macros": [],
+              "wrong_precondition_chains": [
+                {
+                  "accepted_placement_index": 15,
+                  "action": "heat egg 2 with microwave 1",
+                  "held_before": null,
+                  "index": 17,
+                  "observation": "Nothing happens."
+                },
+                {
+                  "accepted_placement_index": 15,
+                  "action": "heat egg 2 with microwave 1",
+                  "held_before": null,
+                  "index": 20,
+                  "observation": "Nothing happens."
+                },
+                {
+                  "accepted_placement_index": 15,
+                  "action": "heat egg 2 with microwave 1",
+                  "held_before": null,
+                  "index": 23,
+                  "observation": "Nothing happens."
+                }
+              ]
+            },
+            {
+              "competing_macros": [],
+              "decisions": 49,
+              "held_successful_target_macros": [],
+              "native_error_entry_visible": false,
+              "new_reflection_sha256": [
+                "6d8cd756e9223d4679fd52463a08b5f30c296a54acb25e46cf01d0e81aa67628"
+              ],
+              "other_failed_target_macros": [],
+              "repaired_entry_visible": false,
+              "status": "repeat_or_decision_budget",
+              "success": false,
+              "target_device_placement_attempts": [
+                {
+                  "accepted": true,
+                  "action": "put egg 2 in microwave 1",
+                  "held_before": "egg 2",
+                  "index": 15,
+                  "observation": "You move the egg 2 to the microwave 1."
+                }
+              ],
+              "target_picked_up": true,
+              "target_wrong_fragment_visible": false,
+              "target_wrong_fragments_visible": [
+                false,
+                false
+              ],
+              "trajectory_sha256": "8399e1d9004c0de406fcff8c3004581a6109e08b287004f44e5ee5c0ba9e2cba",
+              "trial": 2,
+              "unexplained_successful_macros": [],
+              "wrong_precondition_chains": [
+                {
+                  "accepted_placement_index": 15,
+                  "action": "heat egg 2 with microwave 1",
+                  "held_before": null,
+                  "index": 17,
+                  "observation": "Nothing happens."
+                }
+              ]
+            }
+          ],
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 100,
+            "input_tokens_known": 261255,
+            "output_tokens_known": 3926,
+            "saved_responses": 100,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "success": false
+        },
+        "original": {
+          "attempts": [
+            {
+              "competing_macros": [],
+              "decisions": 29,
+              "held_successful_target_macros": [],
+              "native_error_entry_visible": true,
+              "new_reflection_sha256": [
+                "340e3dd598355a29fa3c48be5f86e65716dd6e2be5cefa157c19018a1a498804"
+              ],
+              "other_failed_target_macros": [],
+              "repaired_entry_visible": false,
+              "status": "repeat_or_decision_budget",
+              "success": false,
+              "target_device_placement_attempts": [
+                {
+                  "accepted": true,
+                  "action": "put egg 2 in microwave 1",
+                  "held_before": "egg 2",
+                  "index": 15,
+                  "observation": "You move the egg 2 to the microwave 1."
+                }
+              ],
+              "target_picked_up": true,
+              "target_wrong_fragment_visible": true,
+              "target_wrong_fragments_visible": [
+                true,
+                true
+              ],
+              "trajectory_sha256": "5f1a4e04287d8ffbbfe1959436921a4a5d322576ee34c7cb9281094f3aab336d",
+              "trial": 1,
+              "unexplained_successful_macros": [],
+              "wrong_precondition_chains": [
+                {
+                  "accepted_placement_index": 15,
+                  "action": "heat egg 2 with microwave 1",
+                  "held_before": null,
+                  "index": 17,
+                  "observation": "Nothing happens."
+                }
+              ]
+            },
+            {
+              "competing_macros": [
+                {
+                  "action": "heat egg 2 with stoveburner 1",
+                  "held_before": null,
+                  "index": 40,
+                  "observation": "Nothing happens."
+                },
+                {
+                  "action": "heat egg 2 with toaster 1",
+                  "held_before": null,
+                  "index": 45,
+                  "observation": "Nothing happens."
+                }
+              ],
+              "decisions": 49,
+              "held_successful_target_macros": [],
+              "native_error_entry_visible": true,
+              "new_reflection_sha256": [
+                "d3467d9d6d54d258ecb546f6b26bc410dfb897e723067c0ef9512ac16c39d2cd"
+              ],
+              "other_failed_target_macros": [],
+              "repaired_entry_visible": false,
+              "status": "repeat_or_decision_budget",
+              "success": false,
+              "target_device_placement_attempts": [
+                {
+                  "accepted": true,
+                  "action": "put egg 2 in microwave 1",
+                  "held_before": "egg 2",
+                  "index": 18,
+                  "observation": "You move the egg 2 to the microwave 1."
+                }
+              ],
+              "target_picked_up": true,
+              "target_wrong_fragment_visible": true,
+              "target_wrong_fragments_visible": [
+                true,
+                true
+              ],
+              "trajectory_sha256": "a53746a246b8dcaa1dc3a75d7e4362f79d5bb05124894aa97671b53930ec2491",
+              "trial": 2,
+              "unexplained_successful_macros": [],
+              "wrong_precondition_chains": [
+                {
+                  "accepted_placement_index": 18,
+                  "action": "heat egg 2 with microwave 1",
+                  "held_before": null,
+                  "index": 20,
+                  "observation": "Nothing happens."
+                },
+                {
+                  "accepted_placement_index": 18,
+                  "action": "heat egg 2 with microwave 1",
+                  "held_before": null,
+                  "index": 24,
+                  "observation": "Nothing happens."
+                }
+              ]
+            }
+          ],
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 80,
+            "input_tokens_known": 210857,
+            "output_tokens_known": 3238,
+            "saved_responses": 80,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "success": false
+        },
+        "retain_error": {
+          "attempts": [
+            {
+              "competing_macros": [],
+              "decisions": 29,
+              "held_successful_target_macros": [],
+              "native_error_entry_visible": true,
+              "new_reflection_sha256": [
+                "340e3dd598355a29fa3c48be5f86e65716dd6e2be5cefa157c19018a1a498804"
+              ],
+              "other_failed_target_macros": [],
+              "repaired_entry_visible": false,
+              "status": "repeat_or_decision_budget",
+              "success": false,
+              "target_device_placement_attempts": [
+                {
+                  "accepted": true,
+                  "action": "put egg 2 in microwave 1",
+                  "held_before": "egg 2",
+                  "index": 15,
+                  "observation": "You move the egg 2 to the microwave 1."
+                }
+              ],
+              "target_picked_up": true,
+              "target_wrong_fragment_visible": true,
+              "target_wrong_fragments_visible": [
+                true,
+                true
+              ],
+              "trajectory_sha256": "5f1a4e04287d8ffbbfe1959436921a4a5d322576ee34c7cb9281094f3aab336d",
+              "trial": 1,
+              "unexplained_successful_macros": [],
+              "wrong_precondition_chains": [
+                {
+                  "accepted_placement_index": 15,
+                  "action": "heat egg 2 with microwave 1",
+                  "held_before": null,
+                  "index": 17,
+                  "observation": "Nothing happens."
+                }
+              ]
+            },
+            {
+              "competing_macros": [
+                {
+                  "action": "heat egg 2 with stoveburner 1",
+                  "held_before": null,
+                  "index": 40,
+                  "observation": "Nothing happens."
+                },
+                {
+                  "action": "heat egg 2 with toaster 1",
+                  "held_before": null,
+                  "index": 45,
+                  "observation": "Nothing happens."
+                }
+              ],
+              "decisions": 49,
+              "held_successful_target_macros": [],
+              "native_error_entry_visible": true,
+              "new_reflection_sha256": [
+                "d3467d9d6d54d258ecb546f6b26bc410dfb897e723067c0ef9512ac16c39d2cd"
+              ],
+              "other_failed_target_macros": [],
+              "repaired_entry_visible": false,
+              "status": "repeat_or_decision_budget",
+              "success": false,
+              "target_device_placement_attempts": [
+                {
+                  "accepted": true,
+                  "action": "put egg 2 in microwave 1",
+                  "held_before": "egg 2",
+                  "index": 18,
+                  "observation": "You move the egg 2 to the microwave 1."
+                }
+              ],
+              "target_picked_up": true,
+              "target_wrong_fragment_visible": true,
+              "target_wrong_fragments_visible": [
+                true,
+                true
+              ],
+              "trajectory_sha256": "a53746a246b8dcaa1dc3a75d7e4362f79d5bb05124894aa97671b53930ec2491",
+              "trial": 2,
+              "unexplained_successful_macros": [],
+              "wrong_precondition_chains": [
+                {
+                  "accepted_placement_index": 18,
+                  "action": "heat egg 2 with microwave 1",
+                  "held_before": null,
+                  "index": 20,
+                  "observation": "Nothing happens."
+                },
+                {
+                  "accepted_placement_index": 18,
+                  "action": "heat egg 2 with microwave 1",
+                  "held_before": null,
+                  "index": 24,
+                  "observation": "Nothing happens."
+                }
+              ]
+            }
+          ],
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 80,
+            "input_tokens_known": 210857,
+            "output_tokens_known": 3238,
+            "saved_responses": 80,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "success": false
+        },
+        "sham": {
+          "attempts": [
+            {
+              "competing_macros": [],
+              "decisions": 29,
+              "held_successful_target_macros": [],
+              "native_error_entry_visible": true,
+              "new_reflection_sha256": [
+                "340e3dd598355a29fa3c48be5f86e65716dd6e2be5cefa157c19018a1a498804"
+              ],
+              "other_failed_target_macros": [],
+              "repaired_entry_visible": false,
+              "status": "repeat_or_decision_budget",
+              "success": false,
+              "target_device_placement_attempts": [
+                {
+                  "accepted": true,
+                  "action": "put egg 2 in microwave 1",
+                  "held_before": "egg 2",
+                  "index": 15,
+                  "observation": "You move the egg 2 to the microwave 1."
+                }
+              ],
+              "target_picked_up": true,
+              "target_wrong_fragment_visible": true,
+              "target_wrong_fragments_visible": [
+                true,
+                true
+              ],
+              "trajectory_sha256": "5f1a4e04287d8ffbbfe1959436921a4a5d322576ee34c7cb9281094f3aab336d",
+              "trial": 1,
+              "unexplained_successful_macros": [],
+              "wrong_precondition_chains": [
+                {
+                  "accepted_placement_index": 15,
+                  "action": "heat egg 2 with microwave 1",
+                  "held_before": null,
+                  "index": 17,
+                  "observation": "Nothing happens."
+                }
+              ]
+            },
+            {
+              "competing_macros": [
+                {
+                  "action": "heat egg 2 with stoveburner 1",
+                  "held_before": null,
+                  "index": 40,
+                  "observation": "Nothing happens."
+                },
+                {
+                  "action": "heat egg 2 with toaster 1",
+                  "held_before": null,
+                  "index": 45,
+                  "observation": "Nothing happens."
+                }
+              ],
+              "decisions": 49,
+              "held_successful_target_macros": [],
+              "native_error_entry_visible": true,
+              "new_reflection_sha256": [
+                "d3467d9d6d54d258ecb546f6b26bc410dfb897e723067c0ef9512ac16c39d2cd"
+              ],
+              "other_failed_target_macros": [],
+              "repaired_entry_visible": false,
+              "status": "repeat_or_decision_budget",
+              "success": false,
+              "target_device_placement_attempts": [
+                {
+                  "accepted": true,
+                  "action": "put egg 2 in microwave 1",
+                  "held_before": "egg 2",
+                  "index": 18,
+                  "observation": "You move the egg 2 to the microwave 1."
+                }
+              ],
+              "target_picked_up": true,
+              "target_wrong_fragment_visible": true,
+              "target_wrong_fragments_visible": [
+                true,
+                true
+              ],
+              "trajectory_sha256": "a53746a246b8dcaa1dc3a75d7e4362f79d5bb05124894aa97671b53930ec2491",
+              "trial": 2,
+              "unexplained_successful_macros": [],
+              "wrong_precondition_chains": [
+                {
+                  "accepted_placement_index": 18,
+                  "action": "heat egg 2 with microwave 1",
+                  "held_before": null,
+                  "index": 20,
+                  "observation": "Nothing happens."
+                },
+                {
+                  "accepted_placement_index": 18,
+                  "action": "heat egg 2 with microwave 1",
+                  "held_before": null,
+                  "index": 24,
+                  "observation": "Nothing happens."
+                }
+              ]
+            }
+          ],
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 80,
+            "input_tokens_known": 210857,
+            "output_tokens_known": 3238,
+            "saved_responses": 80,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "success": false
+        }
+      },
+      "device": "microwave 1",
+      "operation": "heat",
+      "target_object": "egg",
+      "task_id": "64aa51b30cab1f98"
+    },
+    {
+      "branches": {
+        "correct_target": {
+          "attempts": [
+            {
+              "competing_macros": [
+                {
+                  "action": "heat mug 2 with stoveburner 4",
+                  "held_before": null,
+                  "index": 27,
+                  "observation": "Nothing happens."
+                }
+              ],
+              "decisions": 46,
+              "held_successful_target_macros": [],
+              "native_error_entry_visible": false,
+              "new_reflection_sha256": [
+                "78b88afcf2d657c052038b87933953964a28eaa9f0624992c6cccb24112324f3"
+              ],
+              "other_failed_target_macros": [],
+              "repaired_entry_visible": true,
+              "status": "repeat_or_decision_budget",
+              "success": false,
+              "target_device_placement_attempts": [
+                {
+                  "accepted": true,
+                  "action": "put mug 2 in microwave 1",
+                  "held_before": "mug 2",
+                  "index": 12,
+                  "observation": "You move the mug 2 to the microwave 1."
+                }
+              ],
+              "target_picked_up": true,
+              "target_wrong_fragment_visible": false,
+              "target_wrong_fragments_visible": [
+                false,
+                false
+              ],
+              "trajectory_sha256": "d5d9e65eaabd19a2bc250f6af7845a5f7788e4e342d2482cdf0879b142e0b5ef",
+              "trial": 1,
+              "unexplained_successful_macros": [],
+              "wrong_precondition_chains": [
+                {
+                  "accepted_placement_index": 12,
+                  "action": "heat mug 2 with microwave 1",
+                  "held_before": null,
+                  "index": 14,
+                  "observation": "Nothing happens."
+                }
+              ]
+            },
+            {
+              "competing_macros": [],
+              "decisions": 49,
+              "held_successful_target_macros": [],
+              "native_error_entry_visible": false,
+              "new_reflection_sha256": [
+                "1cd794ee9373cf765657c27045e7dc7d36596892180cb7943d27cdc4f918b1ff"
+              ],
+              "other_failed_target_macros": [],
+              "repaired_entry_visible": true,
+              "status": "repeat_or_decision_budget",
+              "success": false,
+              "target_device_placement_attempts": [
+                {
+                  "accepted": true,
+                  "action": "put mug 2 in microwave 1",
+                  "held_before": "mug 2",
+                  "index": 12,
+                  "observation": "You move the mug 2 to the microwave 1."
+                }
+              ],
+              "target_picked_up": true,
+              "target_wrong_fragment_visible": false,
+              "target_wrong_fragments_visible": [
+                false,
+                false
+              ],
+              "trajectory_sha256": "01316525dd5df9b052ca85b50441c2ac43088420ac0bfcd5fb3848ced2c758a8",
+              "trial": 2,
+              "unexplained_successful_macros": [],
+              "wrong_precondition_chains": [
+                {
+                  "accepted_placement_index": 12,
+                  "action": "heat mug 2 with microwave 1",
+                  "held_before": null,
+                  "index": 14,
+                  "observation": "Nothing happens."
+                },
+                {
+                  "accepted_placement_index": 12,
+                  "action": "heat mug 2 with microwave 1",
+                  "held_before": null,
+                  "index": 39,
+                  "observation": "Nothing happens."
+                }
+              ]
+            }
+          ],
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 97,
+            "input_tokens_known": 295142,
+            "output_tokens_known": 5211,
+            "saved_responses": 97,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "success": false
+        },
+        "discard_new": {
+          "attempts": [
+            {
+              "competing_macros": [],
+              "decisions": 31,
+              "held_successful_target_macros": [
+                {
+                  "action": "heat mug 2 with microwave 1",
+                  "held_before": "mug 2",
+                  "index": 27,
+                  "observation": "You heat the mug 2 using the microwave 1.",
+                  "preceding_rejected_placement_index": null
+                }
+              ],
+              "native_error_entry_visible": false,
+              "new_reflection_sha256": [],
+              "other_failed_target_macros": [],
+              "repaired_entry_visible": false,
+              "status": "success",
+              "success": true,
+              "target_device_placement_attempts": [],
+              "target_picked_up": true,
+              "target_wrong_fragment_visible": false,
+              "target_wrong_fragments_visible": [
+                false,
+                false
+              ],
+              "trajectory_sha256": "c9854bf7502408c142ea508a9dcd8a8cfb092ec1bf9ed3d04af552afa2a0e08f",
+              "trial": 1,
+              "unexplained_successful_macros": [],
+              "wrong_precondition_chains": []
+            }
+          ],
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 31,
+            "input_tokens_known": 70471,
+            "output_tokens_known": 967,
+            "saved_responses": 31,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "success": true
+        },
+        "original": {
+          "attempts": [
+            {
+              "competing_macros": [],
+              "decisions": 49,
+              "held_successful_target_macros": [],
+              "native_error_entry_visible": true,
+              "new_reflection_sha256": [
+                "2bc6f0fd078dad7240bfb9e1ce8f9b58b899f384d20af6f4841663ca506765cf"
+              ],
+              "other_failed_target_macros": [],
+              "repaired_entry_visible": false,
+              "status": "repeat_or_decision_budget",
+              "success": false,
+              "target_device_placement_attempts": [
+                {
+                  "accepted": true,
+                  "action": "put mug 2 in microwave 1",
+                  "held_before": "mug 2",
+                  "index": 12,
+                  "observation": "You move the mug 2 to the microwave 1."
+                },
+                {
+                  "accepted": false,
+                  "action": "put mug 2 in microwave 1",
+                  "held_before": null,
+                  "index": 34,
+                  "observation": "Nothing happens."
+                }
+              ],
+              "target_picked_up": true,
+              "target_wrong_fragment_visible": true,
+              "target_wrong_fragments_visible": [
+                true,
+                true
+              ],
+              "trajectory_sha256": "e6811a76d6fc61dc2e5d95c4e419a5588306d7a6b4c5e5fcb46c38a395570c91",
+              "trial": 1,
+              "unexplained_successful_macros": [],
+              "wrong_precondition_chains": [
+                {
+                  "accepted_placement_index": 12,
+                  "action": "heat mug 2 with microwave 1",
+                  "held_before": null,
+                  "index": 14,
+                  "observation": "Nothing happens."
+                }
+              ]
+            },
+            {
+              "competing_macros": [],
+              "decisions": 23,
+              "held_successful_target_macros": [],
+              "native_error_entry_visible": true,
+              "new_reflection_sha256": [
+                "cb2e0cca3e2c6a5704f7bf58c20983bd0d2197d39923cb160f485d605af60d90"
+              ],
+              "other_failed_target_macros": [],
+              "repaired_entry_visible": false,
+              "status": "repeat_or_decision_budget",
+              "success": false,
+              "target_device_placement_attempts": [
+                {
+                  "accepted": true,
+                  "action": "put mug 2 in microwave 1",
+                  "held_before": "mug 2",
+                  "index": 12,
+                  "observation": "You move the mug 2 to the microwave 1."
+                }
+              ],
+              "target_picked_up": true,
+              "target_wrong_fragment_visible": true,
+              "target_wrong_fragments_visible": [
+                true,
+                true
+              ],
+              "trajectory_sha256": "f22223c5094409a4cc106968a0c27772cdbba190a1d9537a58b8122d3c8b0633",
+              "trial": 2,
+              "unexplained_successful_macros": [],
+              "wrong_precondition_chains": [
+                {
+                  "accepted_placement_index": 12,
+                  "action": "heat mug 2 with microwave 1",
+                  "held_before": null,
+                  "index": 14,
+                  "observation": "Nothing happens."
+                }
+              ]
+            }
+          ],
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 74,
+            "input_tokens_known": 205377,
+            "output_tokens_known": 3198,
+            "saved_responses": 74,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "success": false
+        },
+        "retain_error": {
+          "attempts": [
+            {
+              "competing_macros": [],
+              "decisions": 49,
+              "held_successful_target_macros": [],
+              "native_error_entry_visible": true,
+              "new_reflection_sha256": [
+                "2bc6f0fd078dad7240bfb9e1ce8f9b58b899f384d20af6f4841663ca506765cf"
+              ],
+              "other_failed_target_macros": [],
+              "repaired_entry_visible": false,
+              "status": "repeat_or_decision_budget",
+              "success": false,
+              "target_device_placement_attempts": [
+                {
+                  "accepted": true,
+                  "action": "put mug 2 in microwave 1",
+                  "held_before": "mug 2",
+                  "index": 12,
+                  "observation": "You move the mug 2 to the microwave 1."
+                },
+                {
+                  "accepted": false,
+                  "action": "put mug 2 in microwave 1",
+                  "held_before": null,
+                  "index": 34,
+                  "observation": "Nothing happens."
+                }
+              ],
+              "target_picked_up": true,
+              "target_wrong_fragment_visible": true,
+              "target_wrong_fragments_visible": [
+                true,
+                true
+              ],
+              "trajectory_sha256": "e6811a76d6fc61dc2e5d95c4e419a5588306d7a6b4c5e5fcb46c38a395570c91",
+              "trial": 1,
+              "unexplained_successful_macros": [],
+              "wrong_precondition_chains": [
+                {
+                  "accepted_placement_index": 12,
+                  "action": "heat mug 2 with microwave 1",
+                  "held_before": null,
+                  "index": 14,
+                  "observation": "Nothing happens."
+                }
+              ]
+            },
+            {
+              "competing_macros": [],
+              "decisions": 23,
+              "held_successful_target_macros": [],
+              "native_error_entry_visible": true,
+              "new_reflection_sha256": [
+                "cb2e0cca3e2c6a5704f7bf58c20983bd0d2197d39923cb160f485d605af60d90"
+              ],
+              "other_failed_target_macros": [],
+              "repaired_entry_visible": false,
+              "status": "repeat_or_decision_budget",
+              "success": false,
+              "target_device_placement_attempts": [
+                {
+                  "accepted": true,
+                  "action": "put mug 2 in microwave 1",
+                  "held_before": "mug 2",
+                  "index": 12,
+                  "observation": "You move the mug 2 to the microwave 1."
+                }
+              ],
+              "target_picked_up": true,
+              "target_wrong_fragment_visible": true,
+              "target_wrong_fragments_visible": [
+                true,
+                true
+              ],
+              "trajectory_sha256": "f22223c5094409a4cc106968a0c27772cdbba190a1d9537a58b8122d3c8b0633",
+              "trial": 2,
+              "unexplained_successful_macros": [],
+              "wrong_precondition_chains": [
+                {
+                  "accepted_placement_index": 12,
+                  "action": "heat mug 2 with microwave 1",
+                  "held_before": null,
+                  "index": 14,
+                  "observation": "Nothing happens."
+                }
+              ]
+            }
+          ],
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 74,
+            "input_tokens_known": 205377,
+            "output_tokens_known": 3198,
+            "saved_responses": 74,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "success": false
+        },
+        "sham": {
+          "attempts": [
+            {
+              "competing_macros": [],
+              "decisions": 49,
+              "held_successful_target_macros": [],
+              "native_error_entry_visible": true,
+              "new_reflection_sha256": [
+                "2bc6f0fd078dad7240bfb9e1ce8f9b58b899f384d20af6f4841663ca506765cf"
+              ],
+              "other_failed_target_macros": [],
+              "repaired_entry_visible": false,
+              "status": "repeat_or_decision_budget",
+              "success": false,
+              "target_device_placement_attempts": [
+                {
+                  "accepted": true,
+                  "action": "put mug 2 in microwave 1",
+                  "held_before": "mug 2",
+                  "index": 12,
+                  "observation": "You move the mug 2 to the microwave 1."
+                },
+                {
+                  "accepted": false,
+                  "action": "put mug 2 in microwave 1",
+                  "held_before": null,
+                  "index": 34,
+                  "observation": "Nothing happens."
+                }
+              ],
+              "target_picked_up": true,
+              "target_wrong_fragment_visible": true,
+              "target_wrong_fragments_visible": [
+                true,
+                true
+              ],
+              "trajectory_sha256": "e6811a76d6fc61dc2e5d95c4e419a5588306d7a6b4c5e5fcb46c38a395570c91",
+              "trial": 1,
+              "unexplained_successful_macros": [],
+              "wrong_precondition_chains": [
+                {
+                  "accepted_placement_index": 12,
+                  "action": "heat mug 2 with microwave 1",
+                  "held_before": null,
+                  "index": 14,
+                  "observation": "Nothing happens."
+                }
+              ]
+            },
+            {
+              "competing_macros": [],
+              "decisions": 23,
+              "held_successful_target_macros": [],
+              "native_error_entry_visible": true,
+              "new_reflection_sha256": [
+                "cb2e0cca3e2c6a5704f7bf58c20983bd0d2197d39923cb160f485d605af60d90"
+              ],
+              "other_failed_target_macros": [],
+              "repaired_entry_visible": false,
+              "status": "repeat_or_decision_budget",
+              "success": false,
+              "target_device_placement_attempts": [
+                {
+                  "accepted": true,
+                  "action": "put mug 2 in microwave 1",
+                  "held_before": "mug 2",
+                  "index": 12,
+                  "observation": "You move the mug 2 to the microwave 1."
+                }
+              ],
+              "target_picked_up": true,
+              "target_wrong_fragment_visible": true,
+              "target_wrong_fragments_visible": [
+                true,
+                true
+              ],
+              "trajectory_sha256": "f22223c5094409a4cc106968a0c27772cdbba190a1d9537a58b8122d3c8b0633",
+              "trial": 2,
+              "unexplained_successful_macros": [],
+              "wrong_precondition_chains": [
+                {
+                  "accepted_placement_index": 12,
+                  "action": "heat mug 2 with microwave 1",
+                  "held_before": null,
+                  "index": 14,
+                  "observation": "Nothing happens."
+                }
+              ]
+            }
+          ],
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 74,
+            "input_tokens_known": 205377,
+            "output_tokens_known": 3198,
+            "saved_responses": 74,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "success": false
+        }
+      },
+      "device": "microwave 1",
+      "operation": "heat",
+      "target_object": "mug",
+      "task_id": "3e3fa991ee97689e"
+    },
+    {
+      "branches": {
+        "correct_target": {
+          "attempts": [
+            {
+              "competing_macros": [],
+              "decisions": 18,
+              "held_successful_target_macros": [
+                {
+                  "action": "heat egg 1 with microwave 1",
+                  "held_before": "egg 1",
+                  "index": 14,
+                  "observation": "You heat the egg 1 using the microwave 1.",
+                  "preceding_rejected_placement_index": null
+                }
+              ],
+              "native_error_entry_visible": false,
+              "new_reflection_sha256": [],
+              "other_failed_target_macros": [],
+              "repaired_entry_visible": true,
+              "status": "success",
+              "success": true,
+              "target_device_placement_attempts": [],
+              "target_picked_up": true,
+              "target_wrong_fragment_visible": false,
+              "target_wrong_fragments_visible": [
+                false
+              ],
+              "trajectory_sha256": "6ca6daacc3a0996b7c4bd24ac97484d7f0812003fb61a01bdd4c61a2137e854c",
+              "trial": 1,
+              "unexplained_successful_macros": [],
+              "wrong_precondition_chains": []
+            }
+          ],
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 18,
+            "input_tokens_known": 37792,
+            "output_tokens_known": 402,
+            "saved_responses": 18,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "success": true
+        },
+        "discard_new": {
+          "attempts": [
+            {
+              "competing_macros": [],
+              "decisions": 49,
+              "held_successful_target_macros": [],
+              "native_error_entry_visible": false,
+              "new_reflection_sha256": [
+                "dc1d1b8ec79d403231ae8ee6b8480f1edb832fa0cf3c81f349cfd59f02819cf5"
+              ],
+              "other_failed_target_macros": [],
+              "repaired_entry_visible": false,
+              "status": "repeat_or_decision_budget",
+              "success": false,
+              "target_device_placement_attempts": [
+                {
+                  "accepted": true,
+                  "action": "put egg 1 in microwave 1",
+                  "held_before": "egg 1",
+                  "index": 11,
+                  "observation": "You move the egg 1 to the microwave 1."
+                }
+              ],
+              "target_picked_up": true,
+              "target_wrong_fragment_visible": false,
+              "target_wrong_fragments_visible": [
+                false
+              ],
+              "trajectory_sha256": "a8ad0035b6fad3259474ea3a2e47000c826cdc49279e5ccbf9b51123a330e4af",
+              "trial": 1,
+              "unexplained_successful_macros": [],
+              "wrong_precondition_chains": [
+                {
+                  "accepted_placement_index": 11,
+                  "action": "heat egg 1 with microwave 1",
+                  "held_before": null,
+                  "index": 14,
+                  "observation": "Nothing happens."
+                }
+              ]
+            },
+            {
+              "competing_macros": [
+                {
+                  "action": "heat cup 1 with microwave 1",
+                  "held_before": null,
+                  "index": 21,
+                  "observation": "Nothing happens."
+                }
+              ],
+              "decisions": 49,
+              "held_successful_target_macros": [],
+              "native_error_entry_visible": false,
+              "new_reflection_sha256": [
+                "5b69265486386d07418ecdb1d33f456593bfbad453b0ae2d25c1d291b872737e"
+              ],
+              "other_failed_target_macros": [],
+              "repaired_entry_visible": false,
+              "status": "repeat_or_decision_budget",
+              "success": false,
+              "target_device_placement_attempts": [
+                {
+                  "accepted": true,
+                  "action": "put egg 1 in microwave 1",
+                  "held_before": "egg 1",
+                  "index": 17,
+                  "observation": "You move the egg 1 to the microwave 1."
+                }
+              ],
+              "target_picked_up": true,
+              "target_wrong_fragment_visible": false,
+              "target_wrong_fragments_visible": [
+                false
+              ],
+              "trajectory_sha256": "e835641d2ddca752d58fe5a299e48071cfe703ca46950a6a25b16345d4296b0f",
+              "trial": 2,
+              "unexplained_successful_macros": [],
+              "wrong_precondition_chains": [
+                {
+                  "accepted_placement_index": 17,
+                  "action": "heat egg 1 with microwave 1",
+                  "held_before": null,
+                  "index": 19,
+                  "observation": "Nothing happens."
+                },
+                {
+                  "accepted_placement_index": 17,
+                  "action": "heat egg 1 with microwave 1",
+                  "held_before": null,
+                  "index": 42,
+                  "observation": "Nothing happens."
+                }
+              ]
+            }
+          ],
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 100,
+            "input_tokens_known": 258893,
+            "output_tokens_known": 3065,
+            "saved_responses": 100,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "success": false
+        },
+        "original": {
+          "attempts": [
+            {
+              "competing_macros": [],
+              "decisions": 28,
+              "held_successful_target_macros": [],
+              "native_error_entry_visible": true,
+              "new_reflection_sha256": [
+                "8bbabc85dccf0db1a5ff3ced50c76f21ce06ea8be1637c5b8cd918df146c0222"
+              ],
+              "other_failed_target_macros": [],
+              "repaired_entry_visible": false,
+              "status": "repeat_or_decision_budget",
+              "success": false,
+              "target_device_placement_attempts": [
+                {
+                  "accepted": true,
+                  "action": "put egg 1 in microwave 1",
+                  "held_before": "egg 1",
+                  "index": 12,
+                  "observation": "You move the egg 1 to the microwave 1."
+                }
+              ],
+              "target_picked_up": true,
+              "target_wrong_fragment_visible": true,
+              "target_wrong_fragments_visible": [
+                true
+              ],
+              "trajectory_sha256": "8b8af4991bd37c4e1269eb90e09db0594161c52dbc1b6134b9729c83050a911f",
+              "trial": 1,
+              "unexplained_successful_macros": [],
+              "wrong_precondition_chains": [
+                {
+                  "accepted_placement_index": 12,
+                  "action": "heat egg 1 with microwave 1",
+                  "held_before": null,
+                  "index": 14,
+                  "observation": "Nothing happens."
+                }
+              ]
+            },
+            {
+              "competing_macros": [],
+              "decisions": 34,
+              "held_successful_target_macros": [],
+              "native_error_entry_visible": true,
+              "new_reflection_sha256": [
+                "3ddb6da0a6e61c0e29aea939dff06d848890dd158c866fa86faaa158aec50d02"
+              ],
+              "other_failed_target_macros": [],
+              "repaired_entry_visible": false,
+              "status": "repeat_or_decision_budget",
+              "success": false,
+              "target_device_placement_attempts": [
+                {
+                  "accepted": true,
+                  "action": "put egg 1 in microwave 1",
+                  "held_before": "egg 1",
+                  "index": 12,
+                  "observation": "You move the egg 1 to the microwave 1."
+                }
+              ],
+              "target_picked_up": true,
+              "target_wrong_fragment_visible": true,
+              "target_wrong_fragments_visible": [
+                true
+              ],
+              "trajectory_sha256": "70107a759f3c5958215f5dcdb499edb17a984dbabfa8cd5949cc3d0eb5e16a0a",
+              "trial": 2,
+              "unexplained_successful_macros": [],
+              "wrong_precondition_chains": [
+                {
+                  "accepted_placement_index": 12,
+                  "action": "heat egg 1 with microwave 1",
+                  "held_before": null,
+                  "index": 24,
+                  "observation": "Nothing happens."
+                }
+              ]
+            }
+          ],
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 64,
+            "input_tokens_known": 157659,
+            "output_tokens_known": 2258,
+            "saved_responses": 64,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "success": false
+        },
+        "retain_error": {
+          "attempts": [
+            {
+              "competing_macros": [],
+              "decisions": 28,
+              "held_successful_target_macros": [],
+              "native_error_entry_visible": true,
+              "new_reflection_sha256": [
+                "8bbabc85dccf0db1a5ff3ced50c76f21ce06ea8be1637c5b8cd918df146c0222"
+              ],
+              "other_failed_target_macros": [],
+              "repaired_entry_visible": false,
+              "status": "repeat_or_decision_budget",
+              "success": false,
+              "target_device_placement_attempts": [
+                {
+                  "accepted": true,
+                  "action": "put egg 1 in microwave 1",
+                  "held_before": "egg 1",
+                  "index": 12,
+                  "observation": "You move the egg 1 to the microwave 1."
+                }
+              ],
+              "target_picked_up": true,
+              "target_wrong_fragment_visible": true,
+              "target_wrong_fragments_visible": [
+                true
+              ],
+              "trajectory_sha256": "8b8af4991bd37c4e1269eb90e09db0594161c52dbc1b6134b9729c83050a911f",
+              "trial": 1,
+              "unexplained_successful_macros": [],
+              "wrong_precondition_chains": [
+                {
+                  "accepted_placement_index": 12,
+                  "action": "heat egg 1 with microwave 1",
+                  "held_before": null,
+                  "index": 14,
+                  "observation": "Nothing happens."
+                }
+              ]
+            },
+            {
+              "competing_macros": [],
+              "decisions": 34,
+              "held_successful_target_macros": [],
+              "native_error_entry_visible": true,
+              "new_reflection_sha256": [
+                "3ddb6da0a6e61c0e29aea939dff06d848890dd158c866fa86faaa158aec50d02"
+              ],
+              "other_failed_target_macros": [],
+              "repaired_entry_visible": false,
+              "status": "repeat_or_decision_budget",
+              "success": false,
+              "target_device_placement_attempts": [
+                {
+                  "accepted": true,
+                  "action": "put egg 1 in microwave 1",
+                  "held_before": "egg 1",
+                  "index": 12,
+                  "observation": "You move the egg 1 to the microwave 1."
+                }
+              ],
+              "target_picked_up": true,
+              "target_wrong_fragment_visible": true,
+              "target_wrong_fragments_visible": [
+                true
+              ],
+              "trajectory_sha256": "70107a759f3c5958215f5dcdb499edb17a984dbabfa8cd5949cc3d0eb5e16a0a",
+              "trial": 2,
+              "unexplained_successful_macros": [],
+              "wrong_precondition_chains": [
+                {
+                  "accepted_placement_index": 12,
+                  "action": "heat egg 1 with microwave 1",
+                  "held_before": null,
+                  "index": 24,
+                  "observation": "Nothing happens."
+                }
+              ]
+            }
+          ],
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 64,
+            "input_tokens_known": 157659,
+            "output_tokens_known": 2258,
+            "saved_responses": 64,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "success": false
+        },
+        "sham": {
+          "attempts": [
+            {
+              "competing_macros": [],
+              "decisions": 28,
+              "held_successful_target_macros": [],
+              "native_error_entry_visible": true,
+              "new_reflection_sha256": [
+                "8bbabc85dccf0db1a5ff3ced50c76f21ce06ea8be1637c5b8cd918df146c0222"
+              ],
+              "other_failed_target_macros": [],
+              "repaired_entry_visible": false,
+              "status": "repeat_or_decision_budget",
+              "success": false,
+              "target_device_placement_attempts": [
+                {
+                  "accepted": true,
+                  "action": "put egg 1 in microwave 1",
+                  "held_before": "egg 1",
+                  "index": 12,
+                  "observation": "You move the egg 1 to the microwave 1."
+                }
+              ],
+              "target_picked_up": true,
+              "target_wrong_fragment_visible": true,
+              "target_wrong_fragments_visible": [
+                true
+              ],
+              "trajectory_sha256": "8b8af4991bd37c4e1269eb90e09db0594161c52dbc1b6134b9729c83050a911f",
+              "trial": 1,
+              "unexplained_successful_macros": [],
+              "wrong_precondition_chains": [
+                {
+                  "accepted_placement_index": 12,
+                  "action": "heat egg 1 with microwave 1",
+                  "held_before": null,
+                  "index": 14,
+                  "observation": "Nothing happens."
+                }
+              ]
+            },
+            {
+              "competing_macros": [],
+              "decisions": 34,
+              "held_successful_target_macros": [],
+              "native_error_entry_visible": true,
+              "new_reflection_sha256": [
+                "3ddb6da0a6e61c0e29aea939dff06d848890dd158c866fa86faaa158aec50d02"
+              ],
+              "other_failed_target_macros": [],
+              "repaired_entry_visible": false,
+              "status": "repeat_or_decision_budget",
+              "success": false,
+              "target_device_placement_attempts": [
+                {
+                  "accepted": true,
+                  "action": "put egg 1 in microwave 1",
+                  "held_before": "egg 1",
+                  "index": 12,
+                  "observation": "You move the egg 1 to the microwave 1."
+                }
+              ],
+              "target_picked_up": true,
+              "target_wrong_fragment_visible": true,
+              "target_wrong_fragments_visible": [
+                true
+              ],
+              "trajectory_sha256": "70107a759f3c5958215f5dcdb499edb17a984dbabfa8cd5949cc3d0eb5e16a0a",
+              "trial": 2,
+              "unexplained_successful_macros": [],
+              "wrong_precondition_chains": [
+                {
+                  "accepted_placement_index": 12,
+                  "action": "heat egg 1 with microwave 1",
+                  "held_before": null,
+                  "index": 24,
+                  "observation": "Nothing happens."
+                }
+              ]
+            }
+          ],
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 64,
+            "input_tokens_known": 157659,
+            "output_tokens_known": 2258,
+            "saved_responses": 64,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "success": false
+        }
+      },
+      "device": "microwave 1",
+      "operation": "heat",
+      "target_object": "egg",
+      "task_id": "05f694718d71af12"
+    }
+  ],
+  "targets_sha256": "511a493a5d5531ba6dc81bc224a26d466a20141a05a44394c753c0ba3151285f"
+}

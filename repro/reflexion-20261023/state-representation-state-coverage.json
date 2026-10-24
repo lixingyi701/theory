@@ -1,0 +1,964 @@
+{
+  "by_candidate": {
+    "constant": {
+      "feature_dimension": 1,
+      "never_observed_feature_indices": [],
+      "observed_design_rank": 1
+    },
+    "content_occupancy_position": {
+      "feature_dimension": 8,
+      "never_observed_feature_indices": [
+        3,
+        6
+      ],
+      "observed_design_rank": 6
+    },
+    "remaining_lifetime": {
+      "feature_dimension": 4,
+      "never_observed_feature_indices": [
+        2
+      ],
+      "observed_design_rank": 3
+    }
+  },
+  "constructed_patterns_observed": 9,
+  "driver_sha256": "adeff43f3336db027801c4cfea476168e2ad7cab9e5d3c4a857d5241a40c2849",
+  "forecast_patterns": 40,
+  "forecasts": [
+    {
+      "by_candidate": {
+        "constant": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "content_occupancy_position": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "remaining_lifetime": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        }
+      },
+      "exact_starting_pattern_observed": true,
+      "labels": []
+    },
+    {
+      "by_candidate": {
+        "constant": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "content_occupancy_position": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "remaining_lifetime": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        }
+      },
+      "exact_starting_pattern_observed": true,
+      "labels": [
+        "E"
+      ]
+    },
+    {
+      "by_candidate": {
+        "constant": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "content_occupancy_position": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "remaining_lifetime": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        }
+      },
+      "exact_starting_pattern_observed": true,
+      "labels": [
+        "C"
+      ]
+    },
+    {
+      "by_candidate": {
+        "constant": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "content_occupancy_position": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "remaining_lifetime": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        }
+      },
+      "exact_starting_pattern_observed": true,
+      "labels": [
+        "N"
+      ]
+    },
+    {
+      "by_candidate": {
+        "constant": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "content_occupancy_position": {
+          "active_never_observed_feature_indices": [
+            3
+          ],
+          "outside_observed_linear_span": true
+        },
+        "remaining_lifetime": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        }
+      },
+      "exact_starting_pattern_observed": false,
+      "labels": [
+        "E",
+        "E"
+      ]
+    },
+    {
+      "by_candidate": {
+        "constant": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "content_occupancy_position": {
+          "active_never_observed_feature_indices": [
+            3
+          ],
+          "outside_observed_linear_span": true
+        },
+        "remaining_lifetime": {
+          "active_never_observed_feature_indices": [
+            2
+          ],
+          "outside_observed_linear_span": true
+        }
+      },
+      "exact_starting_pattern_observed": false,
+      "labels": [
+        "E",
+        "C"
+      ]
+    },
+    {
+      "by_candidate": {
+        "constant": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "content_occupancy_position": {
+          "active_never_observed_feature_indices": [
+            3
+          ],
+          "outside_observed_linear_span": true
+        },
+        "remaining_lifetime": {
+          "active_never_observed_feature_indices": [
+            2
+          ],
+          "outside_observed_linear_span": true
+        }
+      },
+      "exact_starting_pattern_observed": false,
+      "labels": [
+        "E",
+        "N"
+      ]
+    },
+    {
+      "by_candidate": {
+        "constant": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "content_occupancy_position": {
+          "active_never_observed_feature_indices": [
+            6
+          ],
+          "outside_observed_linear_span": true
+        },
+        "remaining_lifetime": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        }
+      },
+      "exact_starting_pattern_observed": false,
+      "labels": [
+        "C",
+        "E"
+      ]
+    },
+    {
+      "by_candidate": {
+        "constant": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "content_occupancy_position": {
+          "active_never_observed_feature_indices": [
+            6
+          ],
+          "outside_observed_linear_span": true
+        },
+        "remaining_lifetime": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        }
+      },
+      "exact_starting_pattern_observed": false,
+      "labels": [
+        "C",
+        "C"
+      ]
+    },
+    {
+      "by_candidate": {
+        "constant": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "content_occupancy_position": {
+          "active_never_observed_feature_indices": [
+            6
+          ],
+          "outside_observed_linear_span": true
+        },
+        "remaining_lifetime": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        }
+      },
+      "exact_starting_pattern_observed": false,
+      "labels": [
+        "C",
+        "N"
+      ]
+    },
+    {
+      "by_candidate": {
+        "constant": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "content_occupancy_position": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "remaining_lifetime": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        }
+      },
+      "exact_starting_pattern_observed": false,
+      "labels": [
+        "N",
+        "E"
+      ]
+    },
+    {
+      "by_candidate": {
+        "constant": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "content_occupancy_position": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "remaining_lifetime": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        }
+      },
+      "exact_starting_pattern_observed": false,
+      "labels": [
+        "N",
+        "C"
+      ]
+    },
+    {
+      "by_candidate": {
+        "constant": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "content_occupancy_position": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "remaining_lifetime": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        }
+      },
+      "exact_starting_pattern_observed": false,
+      "labels": [
+        "N",
+        "N"
+      ]
+    },
+    {
+      "by_candidate": {
+        "constant": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "content_occupancy_position": {
+          "active_never_observed_feature_indices": [
+            3
+          ],
+          "outside_observed_linear_span": true
+        },
+        "remaining_lifetime": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        }
+      },
+      "exact_starting_pattern_observed": false,
+      "labels": [
+        "E",
+        "E",
+        "E"
+      ]
+    },
+    {
+      "by_candidate": {
+        "constant": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "content_occupancy_position": {
+          "active_never_observed_feature_indices": [
+            3
+          ],
+          "outside_observed_linear_span": true
+        },
+        "remaining_lifetime": {
+          "active_never_observed_feature_indices": [
+            2
+          ],
+          "outside_observed_linear_span": true
+        }
+      },
+      "exact_starting_pattern_observed": false,
+      "labels": [
+        "E",
+        "E",
+        "C"
+      ]
+    },
+    {
+      "by_candidate": {
+        "constant": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "content_occupancy_position": {
+          "active_never_observed_feature_indices": [
+            3
+          ],
+          "outside_observed_linear_span": true
+        },
+        "remaining_lifetime": {
+          "active_never_observed_feature_indices": [
+            2
+          ],
+          "outside_observed_linear_span": true
+        }
+      },
+      "exact_starting_pattern_observed": false,
+      "labels": [
+        "E",
+        "E",
+        "N"
+      ]
+    },
+    {
+      "by_candidate": {
+        "constant": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "content_occupancy_position": {
+          "active_never_observed_feature_indices": [
+            6
+          ],
+          "outside_observed_linear_span": true
+        },
+        "remaining_lifetime": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        }
+      },
+      "exact_starting_pattern_observed": false,
+      "labels": [
+        "E",
+        "C",
+        "E"
+      ]
+    },
+    {
+      "by_candidate": {
+        "constant": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "content_occupancy_position": {
+          "active_never_observed_feature_indices": [
+            6
+          ],
+          "outside_observed_linear_span": true
+        },
+        "remaining_lifetime": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        }
+      },
+      "exact_starting_pattern_observed": false,
+      "labels": [
+        "E",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "by_candidate": {
+        "constant": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "content_occupancy_position": {
+          "active_never_observed_feature_indices": [
+            6
+          ],
+          "outside_observed_linear_span": true
+        },
+        "remaining_lifetime": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        }
+      },
+      "exact_starting_pattern_observed": false,
+      "labels": [
+        "E",
+        "C",
+        "N"
+      ]
+    },
+    {
+      "by_candidate": {
+        "constant": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "content_occupancy_position": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "remaining_lifetime": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        }
+      },
+      "exact_starting_pattern_observed": false,
+      "labels": [
+        "E",
+        "N",
+        "E"
+      ]
+    },
+    {
+      "by_candidate": {
+        "constant": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "content_occupancy_position": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "remaining_lifetime": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        }
+      },
+      "exact_starting_pattern_observed": false,
+      "labels": [
+        "E",
+        "N",
+        "C"
+      ]
+    },
+    {
+      "by_candidate": {
+        "constant": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "content_occupancy_position": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "remaining_lifetime": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        }
+      },
+      "exact_starting_pattern_observed": true,
+      "labels": [
+        "E",
+        "N",
+        "N"
+      ]
+    },
+    {
+      "by_candidate": {
+        "constant": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "content_occupancy_position": {
+          "active_never_observed_feature_indices": [
+            3
+          ],
+          "outside_observed_linear_span": true
+        },
+        "remaining_lifetime": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        }
+      },
+      "exact_starting_pattern_observed": false,
+      "labels": [
+        "C",
+        "E",
+        "E"
+      ]
+    },
+    {
+      "by_candidate": {
+        "constant": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "content_occupancy_position": {
+          "active_never_observed_feature_indices": [
+            3
+          ],
+          "outside_observed_linear_span": true
+        },
+        "remaining_lifetime": {
+          "active_never_observed_feature_indices": [
+            2
+          ],
+          "outside_observed_linear_span": true
+        }
+      },
+      "exact_starting_pattern_observed": false,
+      "labels": [
+        "C",
+        "E",
+        "C"
+      ]
+    },
+    {
+      "by_candidate": {
+        "constant": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "content_occupancy_position": {
+          "active_never_observed_feature_indices": [
+            3
+          ],
+          "outside_observed_linear_span": true
+        },
+        "remaining_lifetime": {
+          "active_never_observed_feature_indices": [
+            2
+          ],
+          "outside_observed_linear_span": true
+        }
+      },
+      "exact_starting_pattern_observed": false,
+      "labels": [
+        "C",
+        "E",
+        "N"
+      ]
+    },
+    {
+      "by_candidate": {
+        "constant": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "content_occupancy_position": {
+          "active_never_observed_feature_indices": [
+            6
+          ],
+          "outside_observed_linear_span": true
+        },
+        "remaining_lifetime": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        }
+      },
+      "exact_starting_pattern_observed": false,
+      "labels": [
+        "C",
+        "C",
+        "E"
+      ]
+    },
+    {
+      "by_candidate": {
+        "constant": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "content_occupancy_position": {
+          "active_never_observed_feature_indices": [
+            6
+          ],
+          "outside_observed_linear_span": true
+        },
+        "remaining_lifetime": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        }
+      },
+      "exact_starting_pattern_observed": false,
+      "labels": [
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "by_candidate": {
+        "constant": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "content_occupancy_position": {
+          "active_never_observed_feature_indices": [
+            6
+          ],
+          "outside_observed_linear_span": true
+        },
+        "remaining_lifetime": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        }
+      },
+      "exact_starting_pattern_observed": false,
+      "labels": [
+        "C",
+        "C",
+        "N"
+      ]
+    },
+    {
+      "by_candidate": {
+        "constant": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "content_occupancy_position": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "remaining_lifetime": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        }
+      },
+      "exact_starting_pattern_observed": false,
+      "labels": [
+        "C",
+        "N",
+        "E"
+      ]
+    },
+    {
+      "by_candidate": {
+        "constant": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "content_occupancy_position": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "remaining_lifetime": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        }
+      },
+      "exact_starting_pattern_observed": false,
+      "labels": [
+        "C",
+        "N",
+        "C"
+      ]
+    },
+    {
+      "by_candidate": {
+        "constant": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "content_occupancy_position": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "remaining_lifetime": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        }
+      },
+      "exact_starting_pattern_observed": true,
+      "labels": [
+        "C",
+        "N",
+        "N"
+      ]
+    },
+    {
+      "by_candidate": {
+        "constant": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "content_occupancy_position": {
+          "active_never_observed_feature_indices": [
+            3
+          ],
+          "outside_observed_linear_span": true
+        },
+        "remaining_lifetime": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        }
+      },
+      "exact_starting_pattern_observed": false,
+      "labels": [
+        "N",
+        "E",
+        "E"
+      ]
+    },
+    {
+      "by_candidate": {
+        "constant": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "content_occupancy_position": {
+          "active_never_observed_feature_indices": [
+            3
+          ],
+          "outside_observed_linear_span": true
+        },
+        "remaining_lifetime": {
+          "active_never_observed_feature_indices": [
+            2
+          ],
+          "outside_observed_linear_span": true
+        }
+      },
+      "exact_starting_pattern_observed": false,
+      "labels": [
+        "N",
+        "E",
+        "C"
+      ]
+    },
+    {
+      "by_candidate": {
+        "constant": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "content_occupancy_position": {
+          "active_never_observed_feature_indices": [
+            3
+          ],
+          "outside_observed_linear_span": true
+        },
+        "remaining_lifetime": {
+          "active_never_observed_feature_indices": [
+            2
+          ],
+          "outside_observed_linear_span": true
+        }
+      },
+      "exact_starting_pattern_observed": false,
+      "labels": [
+        "N",
+        "E",
+        "N"
+      ]
+    },
+    {
+      "by_candidate": {
+        "constant": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "content_occupancy_position": {
+          "active_never_observed_feature_indices": [
+            6
+          ],
+          "outside_observed_linear_span": true
+        },
+        "remaining_lifetime": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        }
+      },
+      "exact_starting_pattern_observed": false,
+      "labels": [
+        "N",
+        "C",
+        "E"
+      ]
+    },
+    {
+      "by_candidate": {
+        "constant": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "content_occupancy_position": {
+          "active_never_observed_feature_indices": [
+            6
+          ],
+          "outside_observed_linear_span": true
+        },
+        "remaining_lifetime": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        }
+      },
+      "exact_starting_pattern_observed": false,
+      "labels": [
+        "N",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "by_candidate": {
+        "constant": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "content_occupancy_position": {
+          "active_never_observed_feature_indices": [
+            6
+          ],
+          "outside_observed_linear_span": true
+        },
+        "remaining_lifetime": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        }
+      },
+      "exact_starting_pattern_observed": false,
+      "labels": [
+        "N",
+        "C",
+        "N"
+      ]
+    },
+    {
+      "by_candidate": {
+        "constant": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "content_occupancy_position": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "remaining_lifetime": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        }
+      },
+      "exact_starting_pattern_observed": true,
+      "labels": [
+        "N",
+        "N",
+        "E"
+      ]
+    },
+    {
+      "by_candidate": {
+        "constant": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "content_occupancy_position": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "remaining_lifetime": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        }
+      },
+      "exact_starting_pattern_observed": true,
+      "labels": [
+        "N",
+        "N",
+        "C"
+      ]
+    },
+    {
+      "by_candidate": {
+        "constant": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "content_occupancy_position": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        },
+        "remaining_lifetime": {
+          "active_never_observed_feature_indices": [],
+          "outside_observed_linear_span": false
+        }
+      },
+      "exact_starting_pattern_observed": true,
+      "labels": [
+        "N",
+        "N",
+        "N"
+      ]
+    }
+  ],
+  "interpretation": [
+    "The middle E/C positions and remaining error lifetime two were not sampled.",
+    "Regularization yields coefficients for these features but does not provide empirical identification.",
+    "Novel mixed states also require an additivity/compression transport check even when their feature vector is in the observed span.",
+    "Native reflection U can carry other advice and is not established equivalent to constructed N."
+  ],
+  "model_freeze_sha256": "93e762b2e50c4234187be0b89f6b8acb6e275f2ddaf3b241681952ebe277f61e",
+  "protocol_sha256": "6f98a6f4cd920fe5907238214ce6b129c53409bc5609cc0da8f6a3ac73628b59",
+  "purpose": "Descriptive coverage only; the predeclared model comparison and forecasts are unchanged",
+  "sha256": "bc424934b842a05d76af801c08c2ffbc85882e730afa27d2769f9a542fc72733"
+}

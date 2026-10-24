@@ -1,0 +1,181 @@
+{
+  "calibration_states": {
+    "correct_1": [
+      "C"
+    ],
+    "correct_2": [
+      "C",
+      "C"
+    ],
+    "correct_3": [
+      "C",
+      "C",
+      "C"
+    ],
+    "empty": [],
+    "error_1": [
+      "E"
+    ],
+    "error_2": [
+      "E",
+      "E"
+    ],
+    "error_3": [
+      "E",
+      "E",
+      "E"
+    ]
+  },
+  "cases": [
+    {
+      "correct_entry_sha256": "018959662975f69759771e1234bac52131c4cd430f1999a22d699587a9eb8cce",
+      "error_entry_sha256": "d034919dc08a641b323ce5ee92a5335f28930d4f22d394a564d9fb338fb77b0c",
+      "evidence_protocol_audit": "runs/reflexion-precondition-20261023/diagnostic-protocol-audit.json",
+      "evidence_run": "runs/reflexion-precondition-diagnostic-forks-20261023",
+      "parent_result_sha256": "3c2801ab96f2a6a7598a350baf000d7870ebd39061ff35da4d6d2c57f8bd67e8",
+      "parent_run": "runs/reflexion-normalized-prefix24-20261023",
+      "target_registry": "repro/reflexion-20261023/precondition-diagnostic-target.json",
+      "target_registry_sha256": "b7d679be0b48e84412b50355c9f9dbeed52412543efc21f411485a4502e43f8b",
+      "target_sha256": "e822aaccc9ae810aa24f050c55d630eeed7ec2d63d425600c458c4d3ba818fd2",
+      "task": {
+        "game_sha256": "593e44b0c7cf9840b8c977142e7ff249ec4790148b0d79bee1eab54a372c0d3d",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Cup-None-CounterTop-14/trial_T20190908_215907_972581/game.tw-pddl",
+        "scene_id": "FloorPlan14",
+        "split": "train",
+        "task_id": "762a7487ace813d7",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "02d2b3482e38a09dbad2ef056f53489e0614c60f87209eac21155265156a3b25"
+      },
+      "task_id": "762a7487ace813d7"
+    },
+    {
+      "correct_entry_sha256": "289431e9a7c30c16d375f7b2e6144dc279c21bd40ae8a1f7bec3b0042c63f9e3",
+      "error_entry_sha256": "222daf6f025f936221fc1976637731b6b4118597530bbfafc043d46f10395d81",
+      "evidence_protocol_audit": "runs/reflexion-precondition-20261023/prospective-forks-protocol-audit.json",
+      "evidence_run": "runs/reflexion-precondition-forks-20261023",
+      "parent_result_sha256": "51d98faa72053e911e8c5d75d9620e80c8a042ff45c581523af6e9a1c822f7e4",
+      "parent_run": "runs/reflexion-precondition-prefix24-20261023",
+      "target_registry": "repro/reflexion-20261023/precondition-targets.json",
+      "target_registry_sha256": "511a493a5d5531ba6dc81bc224a26d466a20141a05a44394c753c0ba3151285f",
+      "target_sha256": "7475f1c2732f669026c3b2c263ca37aab6cd6d4fe9cd58c489a3f99e0aa18fb1",
+      "task": {
+        "game_sha256": "6d435d17da53776bcbb0becbe231e5e9bbe0c5a184e93edc402d07efdeb333d5",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Egg-None-DiningTable-4/trial_T20190908_080003_104562/game.tw-pddl",
+        "scene_id": "FloorPlan4",
+        "split": "train",
+        "task_id": "64aa51b30cab1f98",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "c49c3caad71e7ebb00bf504b1e3116231d89a5e49d11c8b98fa93f36a732da42"
+      },
+      "task_id": "64aa51b30cab1f98"
+    },
+    {
+      "correct_entry_sha256": "9de24591e52699d591485679156d92d209dc13604d7191846fba86307a4f85aa",
+      "error_entry_sha256": "ae9fc515c63e713f91a7e32cc15bc0ce660d44fc7d129b95e02a02db53d92734",
+      "evidence_protocol_audit": "runs/reflexion-precondition-20261023/prospective-forks-protocol-audit.json",
+      "evidence_run": "runs/reflexion-precondition-forks-20261023",
+      "parent_result_sha256": "fb0c10ea03e1f5135c62bdd5804c41d05fb049450a6bcadb96deac9832ffb751",
+      "parent_run": "runs/reflexion-precondition-prefix24-20261023",
+      "target_registry": "repro/reflexion-20261023/precondition-targets.json",
+      "target_registry_sha256": "511a493a5d5531ba6dc81bc224a26d466a20141a05a44394c753c0ba3151285f",
+      "target_sha256": "cb5b4cae53911ac493259426a89f939d8b79b5713f652e7058b248e74a7166a2",
+      "task": {
+        "game_sha256": "f6e097e393b91a75e4e603f0fb60afc10e1b2e65f957b6d2381d88ca23b69c1d",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-13/trial_T20190908_092542_043460/game.tw-pddl",
+        "scene_id": "FloorPlan13",
+        "split": "train",
+        "task_id": "3e3fa991ee97689e",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "e9ac17a14cdbf30ec66b48f6025ad4ab554c758c0a1d13adff4e85b7ec98e232"
+      },
+      "task_id": "3e3fa991ee97689e"
+    },
+    {
+      "correct_entry_sha256": "5ae5c92220354de21ec177205522c9741886b0bd29193e0e2a60e0668c1173cf",
+      "error_entry_sha256": "e300c4d6ed386d877701e519c46de5c0026a907908cb9593ca9c415e1d0acd79",
+      "evidence_protocol_audit": "runs/reflexion-precondition-20261023/prospective-forks-protocol-audit.json",
+      "evidence_run": "runs/reflexion-precondition-forks-20261023",
+      "parent_result_sha256": "4d497c3540d8a223186a1f646141e76589db1ec6e9006d3382cd2b4c4bbada02",
+      "parent_run": "runs/reflexion-precondition-prefix24-20261023",
+      "target_registry": "repro/reflexion-20261023/precondition-targets.json",
+      "target_registry_sha256": "511a493a5d5531ba6dc81bc224a26d466a20141a05a44394c753c0ba3151285f",
+      "target_sha256": "7825e79e0edf2f3e2980ef169280d9ce9b31422eedfd4182c56b1eda6a31d4a4",
+      "task": {
+        "game_sha256": "7fa78ef3c1eec000afd4be34fbd05a67618992673cb70b5c2c12901949c6bd59",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Egg-None-SideTable-3/trial_T20190906_204416_817121/game.tw-pddl",
+        "scene_id": "FloorPlan3",
+        "split": "train",
+        "task_id": "05f694718d71af12",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "57a35f267e91818be3b2f80e9d2e4b1b158eab37fcbf738d5d93dd8bbb1c032d"
+      },
+      "task_id": "05f694718d71af12"
+    }
+  ],
+  "endpoint": "Native won in one post-recovery attempt with 49 author decisions; the native updater still runs after failure",
+  "fit": {
+    "constant_baseline": "Beta(1,1) smoothed calibration mean",
+    "models": {
+      "count": [
+        "intercept",
+        "error_count",
+        "correct_count"
+      ],
+      "slot": [
+        "intercept",
+        "error_oldest",
+        "error_middle",
+        "error_newest",
+        "correct_oldest",
+        "correct_middle",
+        "correct_newest"
+      ]
+    },
+    "penalty": "Gaussian L2 on all coefficients including intercept",
+    "ridge_grid": [
+      0.1,
+      1.0,
+      10.0
+    ],
+    "selection": "Leave-one-task-out log loss; ties prefer stronger regularization"
+  },
+  "frozen_unix": 1792714364.585318,
+  "holdout_rule": "Freeze parameters and both mixed-state predictions before their first dispatch. No mixed-state outcomes used in fitting.",
+  "implementation_files": {
+    "scripts/evaluate_reflexion_state_prediction.py": "97df9668e2e3fd54218daa93d812be2794aa6d1a3750c9fe51367cb57b93beb6",
+    "scripts/fit_reflexion_state_prediction.py": "f5ae39eba317d5b5d7a1c491cec6444c50b94c4c19ea37d0de116a96879a825f",
+    "scripts/prepare_reflexion_state_prediction.py": "aa17df83db004cb2411ba2800ed20047d748784feababdad9ca2376cc0b50e4b",
+    "scripts/reflexion_state_risk.py": "0ad62e7457c6ebc99f24a5e0f95d8914283c1ae0d609cb441b933473c11b82b3",
+    "scripts/run_reflexion_precondition_forks.py": "697fdeb2b66d27549892ef5688cd921a412c76825bfea7ea9034005831fd3723",
+    "scripts/run_reflexion_state_prediction.py": "1ed2ff01787aa7dfa63c97c063afed82da8ce76d5ddfaab3f2dd412c951bf876"
+  },
+  "limits": {
+    "calibration_new_calls": 1400,
+    "validation_new_calls": 800,
+    "whole_campaign_calls": 6000
+  },
+  "post_recovery_trial": 1,
+  "preparer_sha256": "aa17df83db004cb2411ba2800ed20047d748784feababdad9ca2376cc0b50e4b",
+  "reused_states": {
+    "correct_1": "correct_target/trial-01",
+    "empty": "discard_new/trial-01",
+    "error_1": "original/trial-01"
+  },
+  "scope": "Controlled memory-state development experiment with deliberate entry duplication",
+  "seed": 42,
+  "sha256": "3652f90344cbfcbf7f8a0e49fc28d12be32047d5429f2abbe006f7c03cda6f75",
+  "state_encoder_sha256": "0ad62e7457c6ebc99f24a5e0f95d8914283c1ae0d609cb441b933473c11b82b3",
+  "state_semantics": "E/C refers only to the reviewed target precondition. Other native advice is retained in both entries.",
+  "validation_states": {
+    "error_newest": [
+      "C",
+      "C",
+      "E"
+    ],
+    "error_oldest": [
+      "E",
+      "C",
+      "C"
+    ]
+  }
+}

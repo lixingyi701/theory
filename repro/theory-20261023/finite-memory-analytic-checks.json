@@ -1,0 +1,502 @@
+{
+  "arithmetic": "fractions.Fraction; all comparisons exact",
+  "full_window_linear_system_vs_closed_expectation_comparisons": 2430,
+  "full_window_vs_remaining_state_comparisons": 31590,
+  "generation_probability_counterexamples": [
+    {
+      "budget_results": [
+        {
+          "budget": 1,
+          "error_absent_start": {
+            "decimal": 0.5,
+            "exact": "1/2"
+          },
+          "newest_error_start": {
+            "decimal": 0.0,
+            "exact": "0"
+          },
+          "probability_gain": {
+            "decimal": 0.5,
+            "exact": "1/2"
+          }
+        },
+        {
+          "budget": 3,
+          "error_absent_start": {
+            "decimal": 0.875,
+            "exact": "7/8"
+          },
+          "newest_error_start": {
+            "decimal": 0.0,
+            "exact": "0"
+          },
+          "probability_gain": {
+            "decimal": 0.875,
+            "exact": "7/8"
+          }
+        },
+        {
+          "budget": 6,
+          "error_absent_start": {
+            "decimal": 0.984375,
+            "exact": "63/64"
+          },
+          "newest_error_start": {
+            "decimal": 0.875,
+            "exact": "7/8"
+          },
+          "probability_gain": {
+            "decimal": 0.109375,
+            "exact": "7/64"
+          }
+        },
+        {
+          "budget": 10,
+          "error_absent_start": {
+            "decimal": 0.9990234375,
+            "exact": "1023/1024"
+          },
+          "newest_error_start": {
+            "decimal": 0.9921875,
+            "exact": "127/128"
+          },
+          "probability_gain": {
+            "decimal": 0.0068359375,
+            "exact": "7/1024"
+          }
+        }
+      ],
+      "expected_attempts_absent": {
+        "decimal": 2.0,
+        "exact": "2"
+      },
+      "expected_attempts_newest_error": {
+        "decimal": 5.0,
+        "exact": "5"
+      },
+      "expected_attempts_saved": {
+        "decimal": 3.0,
+        "exact": "3"
+      },
+      "lambda": {
+        "decimal": 0.0,
+        "exact": "0"
+      },
+      "p": {
+        "decimal": 0.5,
+        "exact": "1/2"
+      },
+      "q": {
+        "decimal": 0.0,
+        "exact": "0"
+      },
+      "rho": {
+        "decimal": 0.0,
+        "exact": "0"
+      },
+      "window": 3
+    },
+    {
+      "budget_results": [
+        {
+          "budget": 1,
+          "error_absent_start": {
+            "decimal": 0.5,
+            "exact": "1/2"
+          },
+          "newest_error_start": {
+            "decimal": 0.0,
+            "exact": "0"
+          },
+          "probability_gain": {
+            "decimal": 0.5,
+            "exact": "1/2"
+          }
+        },
+        {
+          "budget": 3,
+          "error_absent_start": {
+            "decimal": 0.5,
+            "exact": "1/2"
+          },
+          "newest_error_start": {
+            "decimal": 0.0,
+            "exact": "0"
+          },
+          "probability_gain": {
+            "decimal": 0.5,
+            "exact": "1/2"
+          }
+        },
+        {
+          "budget": 6,
+          "error_absent_start": {
+            "decimal": 0.75,
+            "exact": "3/4"
+          },
+          "newest_error_start": {
+            "decimal": 0.5,
+            "exact": "1/2"
+          },
+          "probability_gain": {
+            "decimal": 0.25,
+            "exact": "1/4"
+          }
+        },
+        {
+          "budget": 10,
+          "error_absent_start": {
+            "decimal": 0.875,
+            "exact": "7/8"
+          },
+          "newest_error_start": {
+            "decimal": 0.75,
+            "exact": "3/4"
+          },
+          "probability_gain": {
+            "decimal": 0.125,
+            "exact": "1/8"
+          }
+        }
+      ],
+      "expected_attempts_absent": {
+        "decimal": 5.0,
+        "exact": "5"
+      },
+      "expected_attempts_newest_error": {
+        "decimal": 8.0,
+        "exact": "8"
+      },
+      "expected_attempts_saved": {
+        "decimal": 3.0,
+        "exact": "3"
+      },
+      "lambda": {
+        "decimal": 1.0,
+        "exact": "1"
+      },
+      "p": {
+        "decimal": 0.5,
+        "exact": "1/2"
+      },
+      "q": {
+        "decimal": 0.0,
+        "exact": "0"
+      },
+      "rho": {
+        "decimal": 0.0,
+        "exact": "0"
+      },
+      "window": 3
+    },
+    {
+      "budget_results": [
+        {
+          "budget": 1,
+          "error_absent_start": {
+            "decimal": 0.5,
+            "exact": "1/2"
+          },
+          "newest_error_start": {
+            "decimal": 0.02,
+            "exact": "1/50"
+          },
+          "probability_gain": {
+            "decimal": 0.48,
+            "exact": "12/25"
+          }
+        },
+        {
+          "budget": 3,
+          "error_absent_start": {
+            "decimal": 0.875,
+            "exact": "7/8"
+          },
+          "newest_error_start": {
+            "decimal": 0.058808,
+            "exact": "7351/125000"
+          },
+          "probability_gain": {
+            "decimal": 0.816192,
+            "exact": "12753/15625"
+          }
+        },
+        {
+          "budget": 6,
+          "error_absent_start": {
+            "decimal": 0.984375,
+            "exact": "63/64"
+          },
+          "newest_error_start": {
+            "decimal": 0.882351,
+            "exact": "882351/1000000"
+          },
+          "probability_gain": {
+            "decimal": 0.102024,
+            "exact": "12753/125000"
+          }
+        },
+        {
+          "budget": 10,
+          "error_absent_start": {
+            "decimal": 0.9990234375,
+            "exact": "1023/1024"
+          },
+          "newest_error_start": {
+            "decimal": 0.9926469375,
+            "exact": "15882351/16000000"
+          },
+          "probability_gain": {
+            "decimal": 0.0063765,
+            "exact": "12753/2000000"
+          }
+        }
+      ],
+      "expected_attempts_absent": {
+        "decimal": 2.0,
+        "exact": "2"
+      },
+      "expected_attempts_newest_error": {
+        "decimal": 4.822784,
+        "exact": "75356/15625"
+      },
+      "expected_attempts_saved": {
+        "decimal": 2.822784,
+        "exact": "44106/15625"
+      },
+      "lambda": {
+        "decimal": 0.0,
+        "exact": "0"
+      },
+      "p": {
+        "decimal": 0.5,
+        "exact": "1/2"
+      },
+      "q": {
+        "decimal": 0.02,
+        "exact": "1/50"
+      },
+      "rho": {
+        "decimal": 0.0,
+        "exact": "0"
+      },
+      "window": 3
+    },
+    {
+      "budget_results": [
+        {
+          "budget": 1,
+          "error_absent_start": {
+            "decimal": 0.5,
+            "exact": "1/2"
+          },
+          "newest_error_start": {
+            "decimal": 0.02,
+            "exact": "1/50"
+          },
+          "probability_gain": {
+            "decimal": 0.48,
+            "exact": "12/25"
+          }
+        },
+        {
+          "budget": 3,
+          "error_absent_start": {
+            "decimal": 0.5198,
+            "exact": "2599/5000"
+          },
+          "newest_error_start": {
+            "decimal": 0.058808,
+            "exact": "7351/125000"
+          },
+          "probability_gain": {
+            "decimal": 0.460992,
+            "exact": "7203/15625"
+          }
+        },
+        {
+          "budget": 6,
+          "error_absent_start": {
+            "decimal": 0.76940796,
+            "exact": "19235199/25000000"
+          },
+          "newest_error_start": {
+            "decimal": 0.5480396016,
+            "exact": "342524751/625000000"
+          },
+          "probability_gain": {
+            "decimal": 0.2213683584,
+            "exact": "17294403/78125000"
+          }
+        },
+        {
+          "budget": 10,
+          "error_absent_start": {
+            "decimal": 0.89148430834416,
+            "exact": "5571776927151/6250000000000"
+          },
+          "newest_error_start": {
+            "decimal": 0.7873092443545536,
+            "exact": "123017069430399/156250000000000"
+          },
+          "probability_gain": {
+            "decimal": 0.1041750639896064,
+            "exact": "2034669218547/19531250000000"
+          }
+        }
+      ],
+      "expected_attempts_absent": {
+        "decimal": 4.666001768025931,
+        "exact": "205850/44117"
+      },
+      "expected_attempts_newest_error": {
+        "decimal": 7.332003536051862,
+        "exact": "323466/44117"
+      },
+      "expected_attempts_saved": {
+        "decimal": 2.666001768025931,
+        "exact": "117616/44117"
+      },
+      "lambda": {
+        "decimal": 1.0,
+        "exact": "1"
+      },
+      "p": {
+        "decimal": 0.5,
+        "exact": "1/2"
+      },
+      "q": {
+        "decimal": 0.02,
+        "exact": "1/50"
+      },
+      "rho": {
+        "decimal": 0.0,
+        "exact": "0"
+      },
+      "window": 3
+    }
+  ],
+  "information_position_counterexample": [
+    {
+      "expected_attempts_to_success": {
+        "decimal": 27.125,
+        "exact": "217/8"
+      },
+      "initial_window": [
+        "H",
+        "C",
+        "N"
+      ],
+      "operation": "local_correction",
+      "success_by_one_attempt": {
+        "decimal": 0.45,
+        "exact": "9/20"
+      },
+      "success_by_two_attempts": {
+        "decimal": 0.4885,
+        "exact": "977/2000"
+      },
+      "success_probabilities_first_three_attempts": [
+        {
+          "decimal": 0.45,
+          "exact": "9/20"
+        },
+        {
+          "decimal": 0.07,
+          "exact": "7/100"
+        },
+        {
+          "decimal": 0.02,
+          "exact": "1/50"
+        }
+      ]
+    },
+    {
+      "expected_attempts_to_success": {
+        "decimal": 19.6,
+        "exact": "98/5"
+      },
+      "initial_window": [
+        null,
+        "H",
+        "N"
+      ],
+      "operation": "delete_error_reflection",
+      "success_by_one_attempt": {
+        "decimal": 0.4,
+        "exact": "2/5"
+      },
+      "success_by_two_attempts": {
+        "decimal": 0.64,
+        "exact": "16/25"
+      },
+      "success_probabilities_first_three_attempts": [
+        {
+          "decimal": 0.4,
+          "exact": "2/5"
+        },
+        {
+          "decimal": 0.4,
+          "exact": "2/5"
+        },
+        {
+          "decimal": 0.02,
+          "exact": "1/50"
+        }
+      ]
+    }
+  ],
+  "kind": "exact_algebra_and_finite_state_recursion_check",
+  "model": "binary_FIFO_and_explicit_information_counterexample",
+  "monte_carlo_trajectories": 0,
+  "new_llm_calls": 0,
+  "parameter_grid": {
+    "budgets": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "lambda": [
+      "0",
+      "1/4",
+      "1"
+    ],
+    "p": [
+      "1/5",
+      "1/2",
+      "4/5"
+    ],
+    "q": [
+      "0",
+      "1/50",
+      "1/10"
+    ],
+    "rho": [
+      "0",
+      "1/2",
+      "9/10"
+    ],
+    "window": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "parameter_points": 324,
+  "parameter_provenance": "constructed; not fitted to ALFWorld",
+  "script_sha256": "dd66c2189ea3718c89efcc830f75d0e2b6588cbd3d9ba1a94ed4ec4f60718e46",
+  "sensitivity_bound_comparisons": 768,
+  "sha256": "1eb96db60cc97fedc0bc7d0c6d74bbfe2477ac85a867e1ededabf9e13357fe15",
+  "status": "all_exact_checks_passed"
+}

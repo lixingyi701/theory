@@ -1,0 +1,43 @@
+{
+  "analysis_sha256": "301e198b41c86d87b7b011c5308a8f73e284b070a1cae75b46949032ab00e5a1",
+  "corrected_branch": {
+    "decisions": 17,
+    "device_closed_feedback_index": 10,
+    "interpretation": "Correction changes the trajectory and success, but the actor still attempts placement. The closed device rejects placement, retaining the held cup; subsequent macro succeeds. This is not evidence that the actor abandoned the wrong procedural intention.",
+    "placement_accepted": false,
+    "placement_attempt_index": 11,
+    "success": true,
+    "successful_macro_index": 13
+  },
+  "discard_branch": {
+    "decisions": 22,
+    "interpretation": "The actor discusses placing the cup inside but does not execute that step; it tries direct heating after failing to remove the potato. Thoughts, attempted actions, accepted actions and success have distinct labels.",
+    "success": true,
+    "successful_macro_index": 18,
+    "target_cup_placement_attempts": 0
+  },
+  "independent_tasks": 1,
+  "mechanism_update": "Record attempted misuse, realized precondition violation, rejected-command feedback and reflection reaffirmation separately. Integrate future execution feedback when predicting success; do not use the eventual held state as a known recovery-start feature.",
+  "new_reflection_review": [
+    {
+      "label": "incorrect_placement_before_macro_reaffirmed",
+      "new_reflection_sha256": "b9bf4b17cf13d592a454747ac72bb51244014b2b4d0034387d2a230bb0c38233",
+      "reviewed_excerpt": "I should have first placed the cup in the microwave, closed it, and used the \"heat\" command.",
+      "trial": 1,
+      "visible_wrong_entries_at_next_attempt_if_window_retained": 2
+    },
+    {
+      "label": "incorrect_placement_before_macro_reaffirmed",
+      "new_reflection_sha256": "c15e8acd6ac9956d2fe150a9a5d03a622db0f39b171baf7e1f37a2ba69ce5872",
+      "reviewed_excerpt": "I should have first found and taken a cup, then placed it in the microwave, closed it, and used the \"heat\" command.",
+      "trial": 2,
+      "visible_wrong_entries_at_next_attempt_if_window_retained": 3
+    }
+  ],
+  "original_attempts": 2,
+  "original_sham_retain_error_controls_equal": true,
+  "original_success": false,
+  "original_wrong_execution_chains": 2,
+  "scope": "One selected development task; causal arm comparison and contextual review of observed actions",
+  "sha256": "4c190175c0bce08d673aff09817f77a253071fff0b524a74e5c302a6dbfbc81b"
+}

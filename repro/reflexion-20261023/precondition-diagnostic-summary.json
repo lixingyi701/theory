@@ -1,0 +1,139 @@
+{
+  "completed_targets": 1,
+  "costs": {
+    "dispatched_calls": 306,
+    "input_tokens_known": 828945,
+    "output_tokens_known": 13365,
+    "saved_responses": 306,
+    "truncated_responses": 0,
+    "uncertain_or_unrecorded_attempts": 0,
+    "usage_missing_responses": 0
+  },
+  "expected_targets": 1,
+  "targets": [
+    {
+      "completed_branches": 5,
+      "costs": {
+        "dispatched_calls": 306,
+        "input_tokens_known": 828945,
+        "output_tokens_known": 13365,
+        "saved_responses": 306,
+        "truncated_responses": 0,
+        "uncertain_or_unrecorded_attempts": 0,
+        "usage_missing_responses": 0
+      },
+      "fresh_input_controls": {
+        "retain_error": [
+          {
+            "fresh_payloads_equal": true,
+            "trajectory_equal": true,
+            "trial": 1
+          },
+          {
+            "fresh_payloads_equal": true,
+            "trajectory_equal": true,
+            "trial": 2
+          }
+        ],
+        "sham": [
+          {
+            "fresh_payloads_equal": true,
+            "trajectory_equal": true,
+            "trial": 1
+          },
+          {
+            "fresh_payloads_equal": true,
+            "trajectory_equal": true,
+            "trial": 2
+          }
+        ]
+      },
+      "rows": [
+        {
+          "attempts": 2,
+          "branch": "original",
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 89,
+            "input_tokens_known": 250645,
+            "output_tokens_known": 4143,
+            "saved_responses": 89,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "decisions": 87,
+          "success": false
+        },
+        {
+          "attempts": 2,
+          "branch": "sham",
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 89,
+            "input_tokens_known": 250645,
+            "output_tokens_known": 4143,
+            "saved_responses": 89,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "decisions": 87,
+          "success": false
+        },
+        {
+          "attempts": 2,
+          "branch": "retain_error",
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 89,
+            "input_tokens_known": 250645,
+            "output_tokens_known": 4143,
+            "saved_responses": 89,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "decisions": 87,
+          "success": false
+        },
+        {
+          "attempts": 1,
+          "branch": "correct_target",
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 17,
+            "input_tokens_known": 33700,
+            "output_tokens_known": 397,
+            "saved_responses": 17,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "decisions": 17,
+          "success": true
+        },
+        {
+          "attempts": 1,
+          "branch": "discard_new",
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 22,
+            "input_tokens_known": 43310,
+            "output_tokens_known": 539,
+            "saved_responses": 22,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "decisions": 22,
+          "success": true
+        }
+      ],
+      "sha256": "eff5f6cb80a989772d36c68a504fc56098bc22615f7fa4570b1aaeb253218f40",
+      "source_truth": "native_error",
+      "target_sha256": "e822aaccc9ae810aa24f050c55d630eeed7ec2d63d425600c458c4d3ba818fd2",
+      "task_id": "762a7487ace813d7"
+    }
+  ]
+}

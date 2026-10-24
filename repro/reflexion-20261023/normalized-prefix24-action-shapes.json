@@ -1,0 +1,83 @@
+{
+  "command_shapes": [
+    "go to [a-z]+ \\d+",
+    "(?:open|close|examine|use) [a-z]+ \\d+",
+    "take [a-z]+ \\d+ from [a-z]+ \\d+",
+    "move [a-z]+ \\d+ to [a-z]+ \\d+",
+    "put [a-z]+ \\d+ (?:into|in) [a-z]+ \\d+",
+    "(?:heat|clean|cool|slice) [a-z]+ \\d+ with [a-z]+ \\d+",
+    "(?:look|inventory|help)"
+  ],
+  "completed_checkpoints": 24,
+  "counts": {
+    "environment_style_sentence": 4,
+    "other_unmatched_shape": 1,
+    "public_command_shape": 292,
+    "thought": 227
+  },
+  "driver_sha256": "7b026efea040a1651f43a6f70b9bf98501c08ef290b53de87c236091f6a499a6",
+  "interpretation": "Public command shape does not establish valid entities, satisfied preconditions, or correct planning. Environment-style sentences are actor format violations. Other unmatched shapes require review. Thought no-effects are not physical failures.",
+  "no_effect_counts_by_shape": {
+    "environment_style_sentence": 4,
+    "other_unmatched_shape": 1,
+    "public_command_shape": 21,
+    "thought": 227
+  },
+  "public_grammar": "installed alfworld/data/alfred.twl2",
+  "public_grammar_sha256": "c5b22f0f73309a7fd7c8e5b71de42ad4803b60766ab4a51cc2feb34162be036b",
+  "review_items": [
+    {
+      "action_excerpt": "You are in the middle of a room. Looking quickly around you, you see a countertop 1, a drawer 6, a drawer 5, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a g",
+      "action_sha256": "11794a7bc518b7c9e93f467a58e48e4c1ff6c3f14b2c4bafdd5ece7a14bf16e9",
+      "checkpoint": "tasks/1086f8b6c5294719/trial-00/checkpoint.json",
+      "checkpoint_sha256": "76379182a90a028c20d7f3d3cbda40ea0d66c7fd9f25d3c82618b8ec81add8b2",
+      "index": 27,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You open the fridge 1. The fridge 1 is open. In it, you see a apple 1, and a egg 1.",
+      "action_sha256": "d52a1416aa2443dbee3778d5efeba8f7a8521ed64e3504ccb3e00e13606979b3",
+      "checkpoint": "tasks/35f183b5d2d3b1e0/trial-00/checkpoint.json",
+      "checkpoint_sha256": "a5f3653c7102422499d07557268b9d90910d7434e4b5928467ffe53ffd64c54e",
+      "index": 3,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You open the fridge 1. The fridge 1 is open. In it, you see a cup 1, and a egg 1.",
+      "action_sha256": "15929f838cf2e1915bf8c4f26d25575adc1c9c6f17991a90a462c9676587d482",
+      "checkpoint": "tasks/43ecb2ae94c6ef86/trial-00/checkpoint.json",
+      "checkpoint_sha256": "8df3625e073d32c208811ec3a8f6adf7bdb61d57d9f33e6b45fdbbc3df4cdd3a",
+      "index": 3,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You open the fridge 1. The fridge 1 is open. In it, you see a egg 1, and a milk 1.",
+      "action_sha256": "d1c79c67ae50edadc1eb61a316ead483cc17920b9c4164b1a4db858fe27a86f5",
+      "checkpoint": "tasks/762a7487ace813d7/trial-00/checkpoint.json",
+      "checkpoint_sha256": "b8e356f15dfc35055770106dc51204b745396d831270b25dc1cfc8bf6ce65497",
+      "index": 3,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "turn on stoveburner 1",
+      "action_sha256": "376ef0362128470fc9857ab98290d7bed7fb62c422ed801f84c72a05cc2727e8",
+      "checkpoint": "tasks/762a7487ace813d7/trial-00/checkpoint.json",
+      "checkpoint_sha256": "b8e356f15dfc35055770106dc51204b745396d831270b25dc1cfc8bf6ce65497",
+      "index": 23,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    }
+  ],
+  "run_sha256": "ad6e1966adfa2fcfc752a6da24dcfb2fd4270e99feede8e3322f9ab24b335e59",
+  "scope": "Executed action shapes under the public numbered-entity grammar; no semantic repairs",
+  "sha256": "80ab418aeaa86987a4a98784d50c7772ba7b9625a1241ce3f5a99a0c3f80da1e"
+}

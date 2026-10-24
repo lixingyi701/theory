@@ -1,0 +1,149 @@
+{
+  "authorization": "User continued the revised theory and minimal diagnosis roadmap on 2026-10-24; idle GPUs authorized",
+  "created_unix": 1792831029.0671377,
+  "deadline_unix": 1792841829.0671377,
+  "max_calls": 10500,
+  "native_hashes": {
+    "fast_downward/libdownward.so": "248f2e6cf89c480bb6e28119269b4e00539669c2a54a49b755560d76f086f807"
+  },
+  "prior_ledger": {
+    "reflexion-chat-dev12-20261022": {
+      "dispatched": 203,
+      "responses": 203
+    },
+    "reflexion-chat-parsed-dev12-20261022": {
+      "dispatched": 750,
+      "responses": 750
+    },
+    "reflexion-continuation-20261023": {
+      "dispatched": 0,
+      "responses": 0
+    },
+    "reflexion-dev12-20261022": {
+      "dispatched": 3286,
+      "responses": 3286
+    },
+    "reflexion-directed-calibration-20261023": {
+      "dispatched": 5984,
+      "responses": 5984
+    },
+    "reflexion-forks-20261022": {
+      "dispatched": 500,
+      "responses": 500
+    },
+    "reflexion-format-probe-20261022": {
+      "dispatched": 6,
+      "responses": 6
+    },
+    "reflexion-middle-context-20261023": {
+      "dispatched": 1740,
+      "responses": 1740
+    },
+    "reflexion-multiround-diagnostic-20261024": {
+      "dispatched": 7918,
+      "responses": 7918
+    },
+    "reflexion-native-repair-20261022": {
+      "dispatched": 131,
+      "responses": 131
+    },
+    "reflexion-normalized-forks-20261023": {
+      "dispatched": 1067,
+      "responses": 1067
+    },
+    "reflexion-normalized-prefix24-20261023": {
+      "dispatched": 532,
+      "responses": 532
+    },
+    "reflexion-pilot24-20261022": {
+      "dispatched": 1690,
+      "responses": 1690
+    },
+    "reflexion-precondition-20261023": {
+      "dispatched": 0,
+      "responses": 0
+    },
+    "reflexion-precondition-diagnostic-forks-20261023": {
+      "dispatched": 306,
+      "responses": 306
+    },
+    "reflexion-precondition-forks-20261023": {
+      "dispatched": 1084,
+      "responses": 1084
+    },
+    "reflexion-precondition-prefix24-20261023": {
+      "dispatched": 628,
+      "responses": 628
+    },
+    "reflexion-qwen-native-dev12-20261023": {
+      "dispatched": 646,
+      "responses": 646
+    },
+    "reflexion-residual-context-20261024": {
+      "dispatched": 2801,
+      "responses": 2801
+    },
+    "reflexion-serving-equivalence-20261023": {
+      "dispatched": 2,
+      "responses": 2
+    },
+    "reflexion-state-calibration-20261023": {
+      "dispatched": 581,
+      "responses": 581
+    },
+    "reflexion-state-representation-20261023": {
+      "dispatched": 3779,
+      "responses": 3779
+    },
+    "reflexion-state-validation-20261023": {
+      "dispatched": 360,
+      "responses": 360
+    },
+    "reflexion-tools-v2-dev12-20261023": {
+      "dispatched": 597,
+      "responses": 597
+    }
+  },
+  "protocol_sha256": "fe7100aea8f40741a9a0e98381ae0beb46f9e0fd87c58a181f176123515ca1f2",
+  "serving": {
+    "capabilities": [
+      "raw_completions"
+    ],
+    "data": [
+      {
+        "id": "qwen3-8b",
+        "max_model_len": 32768
+      }
+    ],
+    "dtype": "bfloat16",
+    "gpu_memory_utilization": 0.55,
+    "model_protocol_sha256": "0a1b83abc85ba7c7bd5738e7a8ad64c82f43d5ff8158c36bf25dc0d678cf58f1",
+    "model_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+    "sampling_profiles": [
+      "author_reflexion",
+      "qwen3_non_thinking_recommended_v1"
+    ],
+    "service_sha256": "fa6da89576a4b49636febd0d61ad51dcd7274c41ad2a7182a0412440710e4cf1",
+    "serving_profile": "reflexion_raw_serial_profiles_v2",
+    "tokenizer_eos_token_id": 151645
+  },
+  "sha256": "3b46ecf0d6faad3f379b82776708b52c40f2d240cdab8c602f9134bd88bd9255",
+  "source_hashes": {
+    "__init__.py": "9aa84454aaf25ce212ded4c089d18e335cb17460edd5e66ec4c522aaeb8fbe16",
+    "__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+    "alfworld.py": "89fcf795fdb9d1c1d19ff89b2ddc1bc199f5abf83c279bdf5d1bb7db9671c4c9",
+    "audit.py": "28e256ee2d5419f81e53b6caa4605102bdb9155583a04b04d4a66a6387bb666b",
+    "cli.py": "6d03e369f38c94879a8d7550baa5e51ead13ebc5e5f618df3a7ec8dce53b789d",
+    "dataset.py": "e580c7baf20b6d0c4669c24521881db3eaf44b23874c214e4b2de6967e5844e3",
+    "env.py": "4e79411d8a605197692bafc78431c4f7edde552c0d2977b3ef1682ab26346e7f",
+    "io.py": "cc5ad9729a4c4448f5b97740d6e8494cafe892faf5cbea1afd5d7079ba9bbe51",
+    "llm.py": "061bab01c82117589802fe2fb4251aedeb8f7f73bc022551e5b6f3fdd779acd4",
+    "memory.py": "7327d609005e2a884c2c8176a8a74149bbcb57f015432fa51c20606cc98b7539",
+    "prompts.py": "b49634af198a4907aa8d5533221facbe623e7b417835140bf338265c82b55ed5",
+    "react.py": "b48ad0a2dc664a607f06a6020871325a2bf5ccf89f9064bb18dfa6dffba78e82",
+    "reference.py": "77631bf0cfe30f313a0349cfc269202f5e31be7f01cd8d4d194ea32677583e4a",
+    "reference_run.py": "5577e2521e6a08c268fc444896be87570df350c8b79d5ca90a974946166a63d2",
+    "reflexion.py": "a38a847a6f7991038fe3e02505b20f196d95be552a86451eee4088526cff2a08",
+    "runner.py": "e71596acf5b39b4ca53b6fb80aaa5fb0e987c9f4cab86e46b19fb94f63879f47"
+  }
+}

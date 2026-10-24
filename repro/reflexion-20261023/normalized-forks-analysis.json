@@ -1,0 +1,748 @@
+{
+  "analysis_driver_sha256": "b592e317dc2dfb28aa86240603b0369390ae28a2bf84073a01c75ed0b65fca69",
+  "completed_paired_tasks": 4,
+  "correct_only_success_tasks": 0,
+  "costs": {
+    "dispatched_calls": 1067,
+    "input_tokens_known": 2468976,
+    "output_tokens_known": 25525,
+    "saved_responses": 1067,
+    "truncated_responses": 0,
+    "uncertain_or_unrecorded_attempts": 0,
+    "usage_missing_responses": 0
+  },
+  "error_only_success_tasks": 0,
+  "independent_tasks": 4,
+  "scope": "development paired goal-binding pilot; observable placement indicators",
+  "sha256": "dd39878b7261cd20cf6a7cedcc2241452fcdac9d0aa46d8b8d94e4965b3e736e",
+  "targets": [
+    {
+      "branches": {
+        "correct_target": {
+          "attempts": [
+            {
+              "accepted_wrong_destination_indices": [],
+              "injected_entry_stored": false,
+              "injected_entry_visible": false,
+              "new_reflection_wrong_destination_clause_count": 0,
+              "physical_actions_sha256": "ab1a38ed92fecc924a8fb87cf7169e3bc5a8950d6f9fcd194d8d6c82e415b07d",
+              "semantic_adoption_label": null,
+              "semantic_adoption_note": "Requires context review; placement or lexical clause alone is not a belief label",
+              "success": true,
+              "trajectory_sha256": "df634949bd0eb48379942ccda6f6965f875f618e057523334ad366877c321a73",
+              "trial": 1,
+              "wrong_destination_attempt_indices": []
+            }
+          ],
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 28,
+            "input_tokens_known": 69187,
+            "output_tokens_known": 546,
+            "saved_responses": 28,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "success": true
+        },
+        "discard_new": {
+          "attempts": [
+            {
+              "accepted_wrong_destination_indices": [],
+              "injected_entry_stored": false,
+              "injected_entry_visible": false,
+              "new_reflection_wrong_destination_clause_count": 0,
+              "physical_actions_sha256": "2496e28191d2c4e27cc8ffa9354aa366b6ffc4befe35ee030b97bbada054f16a",
+              "semantic_adoption_label": null,
+              "semantic_adoption_note": "Requires context review; placement or lexical clause alone is not a belief label",
+              "success": true,
+              "trajectory_sha256": "d88c74182ec01cfd50676bfa4dadc044f48d3e12e6d2f90c85c0a466cef8f39b",
+              "trial": 1,
+              "wrong_destination_attempt_indices": []
+            }
+          ],
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 22,
+            "input_tokens_known": 48130,
+            "output_tokens_known": 409,
+            "saved_responses": 22,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "success": true
+        },
+        "original": {
+          "attempts": [
+            {
+              "accepted_wrong_destination_indices": [],
+              "injected_entry_stored": false,
+              "injected_entry_visible": false,
+              "new_reflection_wrong_destination_clause_count": 0,
+              "physical_actions_sha256": "ab1a38ed92fecc924a8fb87cf7169e3bc5a8950d6f9fcd194d8d6c82e415b07d",
+              "semantic_adoption_label": null,
+              "semantic_adoption_note": "Requires context review; placement or lexical clause alone is not a belief label",
+              "success": true,
+              "trajectory_sha256": "df634949bd0eb48379942ccda6f6965f875f618e057523334ad366877c321a73",
+              "trial": 1,
+              "wrong_destination_attempt_indices": []
+            }
+          ],
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 28,
+            "input_tokens_known": 69187,
+            "output_tokens_known": 546,
+            "saved_responses": 28,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "success": true
+        },
+        "retain_error": {
+          "attempts": [
+            {
+              "accepted_wrong_destination_indices": [],
+              "injected_entry_stored": true,
+              "injected_entry_visible": true,
+              "new_reflection_wrong_destination_clause_count": 0,
+              "physical_actions_sha256": "c2a3e1d3aaa96bf35cefec058bdd5e3528bab0e281c1e4ad4ed3657923c643f3",
+              "semantic_adoption_label": null,
+              "semantic_adoption_note": "Requires context review; placement or lexical clause alone is not a belief label",
+              "success": true,
+              "trajectory_sha256": "6277b6686778e031b639f77f823f83257d498f34d1b3e0fa00c8bc1c74d3f5b3",
+              "trial": 1,
+              "wrong_destination_attempt_indices": []
+            }
+          ],
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 17,
+            "input_tokens_known": 40203,
+            "output_tokens_known": 390,
+            "saved_responses": 17,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "success": true
+        },
+        "sham": {
+          "attempts": [
+            {
+              "accepted_wrong_destination_indices": [],
+              "injected_entry_stored": false,
+              "injected_entry_visible": false,
+              "new_reflection_wrong_destination_clause_count": 0,
+              "physical_actions_sha256": "ab1a38ed92fecc924a8fb87cf7169e3bc5a8950d6f9fcd194d8d6c82e415b07d",
+              "semantic_adoption_label": null,
+              "semantic_adoption_note": "Requires context review; placement or lexical clause alone is not a belief label",
+              "success": true,
+              "trajectory_sha256": "df634949bd0eb48379942ccda6f6965f875f618e057523334ad366877c321a73",
+              "trial": 1,
+              "wrong_destination_attempt_indices": []
+            }
+          ],
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 28,
+            "input_tokens_known": 69187,
+            "output_tokens_known": 546,
+            "saved_responses": 28,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "success": true
+        }
+      },
+      "correct_minus_error_success": 0,
+      "task_id": "aa2571dd5672995d"
+    },
+    {
+      "branches": {
+        "correct_target": {
+          "attempts": [
+            {
+              "accepted_wrong_destination_indices": [],
+              "injected_entry_stored": false,
+              "injected_entry_visible": false,
+              "new_reflection_wrong_destination_clause_count": 0,
+              "physical_actions_sha256": "ca229b4ad0a2a5b0c2036979b6150d3bbc1575d142473390ec584ba6f5b58f94",
+              "semantic_adoption_label": null,
+              "semantic_adoption_note": "Requires context review; placement or lexical clause alone is not a belief label",
+              "success": true,
+              "trajectory_sha256": "77eef0c8fd8ddc2d09570aa1f15d68b518d010bc82631f6db860b1023e24f0a2",
+              "trial": 1,
+              "wrong_destination_attempt_indices": []
+            }
+          ],
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 19,
+            "input_tokens_known": 37978,
+            "output_tokens_known": 467,
+            "saved_responses": 19,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "success": true
+        },
+        "discard_new": {
+          "attempts": [
+            {
+              "accepted_wrong_destination_indices": [],
+              "injected_entry_stored": false,
+              "injected_entry_visible": false,
+              "new_reflection_wrong_destination_clause_count": 0,
+              "physical_actions_sha256": "a94f8ca0d7f704f46bc070b5b288686f8f8c31cdab717a5063d32bc0400542fa",
+              "semantic_adoption_label": null,
+              "semantic_adoption_note": "Requires context review; placement or lexical clause alone is not a belief label",
+              "success": false,
+              "trajectory_sha256": "f73d1a43bfff7678aa204bbb21e18080c1dbb28285815f4d6bfb7eab5bb042c3",
+              "trial": 1,
+              "wrong_destination_attempt_indices": []
+            },
+            {
+              "accepted_wrong_destination_indices": [],
+              "injected_entry_stored": false,
+              "injected_entry_visible": false,
+              "new_reflection_wrong_destination_clause_count": 0,
+              "physical_actions_sha256": "3c43bc2c3944e55d8ffe3eb8b5aea05766ad2cc73eb25aa4affbb64e0c51ec91",
+              "semantic_adoption_label": null,
+              "semantic_adoption_note": "Requires context review; placement or lexical clause alone is not a belief label",
+              "success": true,
+              "trajectory_sha256": "8c1cdef1efd675fe97d192eacfc733294aa5029d98fdf99b4621c300ff809620",
+              "trial": 2,
+              "wrong_destination_attempt_indices": []
+            }
+          ],
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 53,
+            "input_tokens_known": 111628,
+            "output_tokens_known": 1007,
+            "saved_responses": 53,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "success": true
+        },
+        "original": {
+          "attempts": [
+            {
+              "accepted_wrong_destination_indices": [],
+              "injected_entry_stored": false,
+              "injected_entry_visible": false,
+              "new_reflection_wrong_destination_clause_count": 0,
+              "physical_actions_sha256": "ca229b4ad0a2a5b0c2036979b6150d3bbc1575d142473390ec584ba6f5b58f94",
+              "semantic_adoption_label": null,
+              "semantic_adoption_note": "Requires context review; placement or lexical clause alone is not a belief label",
+              "success": true,
+              "trajectory_sha256": "77eef0c8fd8ddc2d09570aa1f15d68b518d010bc82631f6db860b1023e24f0a2",
+              "trial": 1,
+              "wrong_destination_attempt_indices": []
+            }
+          ],
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 19,
+            "input_tokens_known": 37978,
+            "output_tokens_known": 467,
+            "saved_responses": 19,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "success": true
+        },
+        "retain_error": {
+          "attempts": [
+            {
+              "accepted_wrong_destination_indices": [],
+              "injected_entry_stored": true,
+              "injected_entry_visible": true,
+              "new_reflection_wrong_destination_clause_count": 0,
+              "physical_actions_sha256": "444177e3a2892edf2e64cd2d8e931f5b5430d17335fa961b84f477a29138d02c",
+              "semantic_adoption_label": null,
+              "semantic_adoption_note": "Requires context review; placement or lexical clause alone is not a belief label",
+              "success": true,
+              "trajectory_sha256": "16495b59e1565a69981523d5e056bd347b48f74af3c0de780aed06c37a908136",
+              "trial": 1,
+              "wrong_destination_attempt_indices": []
+            }
+          ],
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 18,
+            "input_tokens_known": 34885,
+            "output_tokens_known": 383,
+            "saved_responses": 18,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "success": true
+        },
+        "sham": {
+          "attempts": [
+            {
+              "accepted_wrong_destination_indices": [],
+              "injected_entry_stored": false,
+              "injected_entry_visible": false,
+              "new_reflection_wrong_destination_clause_count": 0,
+              "physical_actions_sha256": "ca229b4ad0a2a5b0c2036979b6150d3bbc1575d142473390ec584ba6f5b58f94",
+              "semantic_adoption_label": null,
+              "semantic_adoption_note": "Requires context review; placement or lexical clause alone is not a belief label",
+              "success": true,
+              "trajectory_sha256": "77eef0c8fd8ddc2d09570aa1f15d68b518d010bc82631f6db860b1023e24f0a2",
+              "trial": 1,
+              "wrong_destination_attempt_indices": []
+            }
+          ],
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 19,
+            "input_tokens_known": 37978,
+            "output_tokens_known": 467,
+            "saved_responses": 19,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "success": true
+        }
+      },
+      "correct_minus_error_success": 0,
+      "task_id": "a49d33c30b49b863"
+    },
+    {
+      "branches": {
+        "correct_target": {
+          "attempts": [
+            {
+              "accepted_wrong_destination_indices": [],
+              "injected_entry_stored": false,
+              "injected_entry_visible": false,
+              "new_reflection_wrong_destination_clause_count": 0,
+              "physical_actions_sha256": "94b72316efd4eb4665ffdcdddf7214aefca35aff5b59d1f3c3d6067f00b880bf",
+              "semantic_adoption_label": null,
+              "semantic_adoption_note": "Requires context review; placement or lexical clause alone is not a belief label",
+              "success": false,
+              "trajectory_sha256": "f28564bc140d71a02853c30c45f69be078ff9c48380f10a0b515f5f378deba7b",
+              "trial": 1,
+              "wrong_destination_attempt_indices": []
+            },
+            {
+              "accepted_wrong_destination_indices": [],
+              "injected_entry_stored": false,
+              "injected_entry_visible": false,
+              "new_reflection_wrong_destination_clause_count": 0,
+              "physical_actions_sha256": "73406be464d8b3f53e2d22086199efe1e52d3de8ee674499f08e821732630fba",
+              "semantic_adoption_label": null,
+              "semantic_adoption_note": "Requires context review; placement or lexical clause alone is not a belief label",
+              "success": false,
+              "trajectory_sha256": "5c472d7ceab7a257c36be5cab3d3839c2b98970757f5f9d3b9a842c6550fb40b",
+              "trial": 2,
+              "wrong_destination_attempt_indices": []
+            }
+          ],
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 82,
+            "input_tokens_known": 184856,
+            "output_tokens_known": 2536,
+            "saved_responses": 82,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "success": false
+        },
+        "discard_new": {
+          "attempts": [
+            {
+              "accepted_wrong_destination_indices": [],
+              "injected_entry_stored": false,
+              "injected_entry_visible": false,
+              "new_reflection_wrong_destination_clause_count": 0,
+              "physical_actions_sha256": "5dade53370409bd5b10792803ea984c522ac53c145fdf91c7ff76d2e2b9a2c09",
+              "semantic_adoption_label": null,
+              "semantic_adoption_note": "Requires context review; placement or lexical clause alone is not a belief label",
+              "success": false,
+              "trajectory_sha256": "ad2fd19665b16dd5f6d9b050604e26ceded3aeb9201977e1331274a153ad13ac",
+              "trial": 1,
+              "wrong_destination_attempt_indices": []
+            },
+            {
+              "accepted_wrong_destination_indices": [],
+              "injected_entry_stored": false,
+              "injected_entry_visible": false,
+              "new_reflection_wrong_destination_clause_count": 0,
+              "physical_actions_sha256": "927c044cd813eaa38e691c06bae3e5a42047e41a9bf44a897f3a9b9747b5972a",
+              "semantic_adoption_label": null,
+              "semantic_adoption_note": "Requires context review; placement or lexical clause alone is not a belief label",
+              "success": false,
+              "trajectory_sha256": "66169ce616ed746cae055626560c5ca16194895dd0f54f96f7a08ed310990fe7",
+              "trial": 2,
+              "wrong_destination_attempt_indices": []
+            }
+          ],
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 54,
+            "input_tokens_known": 95282,
+            "output_tokens_known": 1568,
+            "saved_responses": 54,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "success": false
+        },
+        "original": {
+          "attempts": [
+            {
+              "accepted_wrong_destination_indices": [],
+              "injected_entry_stored": false,
+              "injected_entry_visible": false,
+              "new_reflection_wrong_destination_clause_count": 0,
+              "physical_actions_sha256": "94b72316efd4eb4665ffdcdddf7214aefca35aff5b59d1f3c3d6067f00b880bf",
+              "semantic_adoption_label": null,
+              "semantic_adoption_note": "Requires context review; placement or lexical clause alone is not a belief label",
+              "success": false,
+              "trajectory_sha256": "f28564bc140d71a02853c30c45f69be078ff9c48380f10a0b515f5f378deba7b",
+              "trial": 1,
+              "wrong_destination_attempt_indices": []
+            },
+            {
+              "accepted_wrong_destination_indices": [],
+              "injected_entry_stored": false,
+              "injected_entry_visible": false,
+              "new_reflection_wrong_destination_clause_count": 0,
+              "physical_actions_sha256": "73406be464d8b3f53e2d22086199efe1e52d3de8ee674499f08e821732630fba",
+              "semantic_adoption_label": null,
+              "semantic_adoption_note": "Requires context review; placement or lexical clause alone is not a belief label",
+              "success": false,
+              "trajectory_sha256": "5c472d7ceab7a257c36be5cab3d3839c2b98970757f5f9d3b9a842c6550fb40b",
+              "trial": 2,
+              "wrong_destination_attempt_indices": []
+            }
+          ],
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 82,
+            "input_tokens_known": 184856,
+            "output_tokens_known": 2536,
+            "saved_responses": 82,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "success": false
+        },
+        "retain_error": {
+          "attempts": [
+            {
+              "accepted_wrong_destination_indices": [],
+              "injected_entry_stored": true,
+              "injected_entry_visible": true,
+              "new_reflection_wrong_destination_clause_count": 0,
+              "physical_actions_sha256": "434656fe4072fce2373ef7e88416543699d976c11e109f5cd4d354f5c975a90c",
+              "semantic_adoption_label": null,
+              "semantic_adoption_note": "Requires context review; placement or lexical clause alone is not a belief label",
+              "success": false,
+              "trajectory_sha256": "2dd222eb2b344d91968089decdfcce9a7234c968d9627295fc085b0deb0ecb5e",
+              "trial": 1,
+              "wrong_destination_attempt_indices": []
+            },
+            {
+              "accepted_wrong_destination_indices": [],
+              "injected_entry_stored": true,
+              "injected_entry_visible": true,
+              "new_reflection_wrong_destination_clause_count": 0,
+              "physical_actions_sha256": "927c044cd813eaa38e691c06bae3e5a42047e41a9bf44a897f3a9b9747b5972a",
+              "semantic_adoption_label": null,
+              "semantic_adoption_note": "Requires context review; placement or lexical clause alone is not a belief label",
+              "success": false,
+              "trajectory_sha256": "42b6fe2029599b535c5da9dfe9bfa544b7960cbc33dffe29135f95c17d52b1a6",
+              "trial": 2,
+              "wrong_destination_attempt_indices": []
+            }
+          ],
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 66,
+            "input_tokens_known": 137877,
+            "output_tokens_known": 2105,
+            "saved_responses": 66,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "success": false
+        },
+        "sham": {
+          "attempts": [
+            {
+              "accepted_wrong_destination_indices": [],
+              "injected_entry_stored": false,
+              "injected_entry_visible": false,
+              "new_reflection_wrong_destination_clause_count": 0,
+              "physical_actions_sha256": "94b72316efd4eb4665ffdcdddf7214aefca35aff5b59d1f3c3d6067f00b880bf",
+              "semantic_adoption_label": null,
+              "semantic_adoption_note": "Requires context review; placement or lexical clause alone is not a belief label",
+              "success": false,
+              "trajectory_sha256": "f28564bc140d71a02853c30c45f69be078ff9c48380f10a0b515f5f378deba7b",
+              "trial": 1,
+              "wrong_destination_attempt_indices": []
+            },
+            {
+              "accepted_wrong_destination_indices": [],
+              "injected_entry_stored": false,
+              "injected_entry_visible": false,
+              "new_reflection_wrong_destination_clause_count": 0,
+              "physical_actions_sha256": "73406be464d8b3f53e2d22086199efe1e52d3de8ee674499f08e821732630fba",
+              "semantic_adoption_label": null,
+              "semantic_adoption_note": "Requires context review; placement or lexical clause alone is not a belief label",
+              "success": false,
+              "trajectory_sha256": "5c472d7ceab7a257c36be5cab3d3839c2b98970757f5f9d3b9a842c6550fb40b",
+              "trial": 2,
+              "wrong_destination_attempt_indices": []
+            }
+          ],
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 82,
+            "input_tokens_known": 184856,
+            "output_tokens_known": 2536,
+            "saved_responses": 82,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "success": false
+        }
+      },
+      "correct_minus_error_success": 0,
+      "task_id": "1086f8b6c5294719"
+    },
+    {
+      "branches": {
+        "correct_target": {
+          "attempts": [
+            {
+              "accepted_wrong_destination_indices": [],
+              "injected_entry_stored": false,
+              "injected_entry_visible": false,
+              "new_reflection_wrong_destination_clause_count": 0,
+              "physical_actions_sha256": "186dc3c4051d62bb22410f8194a5a09d45984a395600f89677b2f743a670ac89",
+              "semantic_adoption_label": null,
+              "semantic_adoption_note": "Requires context review; placement or lexical clause alone is not a belief label",
+              "success": false,
+              "trajectory_sha256": "70b520c804d60ebec47fb183966b1b4de4a922897e2f8dc4b1ae6b8bd27004b1",
+              "trial": 1,
+              "wrong_destination_attempt_indices": []
+            },
+            {
+              "accepted_wrong_destination_indices": [],
+              "injected_entry_stored": false,
+              "injected_entry_visible": false,
+              "new_reflection_wrong_destination_clause_count": 0,
+              "physical_actions_sha256": "771789651b31a852e199e8bf3efe34a1a000b828e34d7893c24d93f12237a413",
+              "semantic_adoption_label": null,
+              "semantic_adoption_note": "Requires context review; placement or lexical clause alone is not a belief label",
+              "success": false,
+              "trajectory_sha256": "22cc0ff8ef1bb9fbc62658c4a4a82aa082d6717bbc2938f9708a7e94218fb47a",
+              "trial": 2,
+              "wrong_destination_attempt_indices": []
+            }
+          ],
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 100,
+            "input_tokens_known": 254342,
+            "output_tokens_known": 1972,
+            "saved_responses": 100,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "success": false
+        },
+        "discard_new": {
+          "attempts": [
+            {
+              "accepted_wrong_destination_indices": [],
+              "injected_entry_stored": false,
+              "injected_entry_visible": false,
+              "new_reflection_wrong_destination_clause_count": 0,
+              "physical_actions_sha256": "89a8bc4696c95c7309a80182537b320c0b10165e37ef33c00726e966fed733f1",
+              "semantic_adoption_label": null,
+              "semantic_adoption_note": "Requires context review; placement or lexical clause alone is not a belief label",
+              "success": false,
+              "trajectory_sha256": "bac1bc0c3ee52b97c0926997181509b2e0260f36a3fedb83f98a403436459d22",
+              "trial": 1,
+              "wrong_destination_attempt_indices": []
+            },
+            {
+              "accepted_wrong_destination_indices": [],
+              "injected_entry_stored": false,
+              "injected_entry_visible": false,
+              "new_reflection_wrong_destination_clause_count": 0,
+              "physical_actions_sha256": "89a8bc4696c95c7309a80182537b320c0b10165e37ef33c00726e966fed733f1",
+              "semantic_adoption_label": null,
+              "semantic_adoption_note": "Requires context review; placement or lexical clause alone is not a belief label",
+              "success": false,
+              "trajectory_sha256": "4b7be8a059ee1c1ba911a4da1c328e2c25603438afd2b7a9b3c1b74d93b0d694",
+              "trial": 2,
+              "wrong_destination_attempt_indices": []
+            }
+          ],
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 50,
+            "input_tokens_known": 103094,
+            "output_tokens_known": 1058,
+            "saved_responses": 50,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "success": false
+        },
+        "original": {
+          "attempts": [
+            {
+              "accepted_wrong_destination_indices": [],
+              "injected_entry_stored": false,
+              "injected_entry_visible": false,
+              "new_reflection_wrong_destination_clause_count": 0,
+              "physical_actions_sha256": "186dc3c4051d62bb22410f8194a5a09d45984a395600f89677b2f743a670ac89",
+              "semantic_adoption_label": null,
+              "semantic_adoption_note": "Requires context review; placement or lexical clause alone is not a belief label",
+              "success": false,
+              "trajectory_sha256": "70b520c804d60ebec47fb183966b1b4de4a922897e2f8dc4b1ae6b8bd27004b1",
+              "trial": 1,
+              "wrong_destination_attempt_indices": []
+            },
+            {
+              "accepted_wrong_destination_indices": [],
+              "injected_entry_stored": false,
+              "injected_entry_visible": false,
+              "new_reflection_wrong_destination_clause_count": 0,
+              "physical_actions_sha256": "771789651b31a852e199e8bf3efe34a1a000b828e34d7893c24d93f12237a413",
+              "semantic_adoption_label": null,
+              "semantic_adoption_note": "Requires context review; placement or lexical clause alone is not a belief label",
+              "success": false,
+              "trajectory_sha256": "22cc0ff8ef1bb9fbc62658c4a4a82aa082d6717bbc2938f9708a7e94218fb47a",
+              "trial": 2,
+              "wrong_destination_attempt_indices": []
+            }
+          ],
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 100,
+            "input_tokens_known": 254342,
+            "output_tokens_known": 1972,
+            "saved_responses": 100,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "success": false
+        },
+        "retain_error": {
+          "attempts": [
+            {
+              "accepted_wrong_destination_indices": [],
+              "injected_entry_stored": true,
+              "injected_entry_visible": true,
+              "new_reflection_wrong_destination_clause_count": 0,
+              "physical_actions_sha256": "7646a50055668daec3b7f01ffc1f9c489f49b8e50522d9c6714567ffcdadfe2e",
+              "semantic_adoption_label": null,
+              "semantic_adoption_note": "Requires context review; placement or lexical clause alone is not a belief label",
+              "success": false,
+              "trajectory_sha256": "2b96eaae8088c5c1c0e3730e60c2d5361037cba417804884de3b64bbdaf47937",
+              "trial": 1,
+              "wrong_destination_attempt_indices": []
+            },
+            {
+              "accepted_wrong_destination_indices": [],
+              "injected_entry_stored": true,
+              "injected_entry_visible": true,
+              "new_reflection_wrong_destination_clause_count": 0,
+              "physical_actions_sha256": "882bb4d196294ff9408b9451d372fc0fcd1573837f0dc33b080334b97ae8f982",
+              "semantic_adoption_label": null,
+              "semantic_adoption_note": "Requires context review; placement or lexical clause alone is not a belief label",
+              "success": false,
+              "trajectory_sha256": "9b697d937dd1e5a81bd03f45f78ae879abef67acf77185593a0283f0a2f68efa",
+              "trial": 2,
+              "wrong_destination_attempt_indices": []
+            }
+          ],
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 100,
+            "input_tokens_known": 258788,
+            "output_tokens_known": 2042,
+            "saved_responses": 100,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "success": false
+        },
+        "sham": {
+          "attempts": [
+            {
+              "accepted_wrong_destination_indices": [],
+              "injected_entry_stored": false,
+              "injected_entry_visible": false,
+              "new_reflection_wrong_destination_clause_count": 0,
+              "physical_actions_sha256": "186dc3c4051d62bb22410f8194a5a09d45984a395600f89677b2f743a670ac89",
+              "semantic_adoption_label": null,
+              "semantic_adoption_note": "Requires context review; placement or lexical clause alone is not a belief label",
+              "success": false,
+              "trajectory_sha256": "70b520c804d60ebec47fb183966b1b4de4a922897e2f8dc4b1ae6b8bd27004b1",
+              "trial": 1,
+              "wrong_destination_attempt_indices": []
+            },
+            {
+              "accepted_wrong_destination_indices": [],
+              "injected_entry_stored": false,
+              "injected_entry_visible": false,
+              "new_reflection_wrong_destination_clause_count": 0,
+              "physical_actions_sha256": "771789651b31a852e199e8bf3efe34a1a000b828e34d7893c24d93f12237a413",
+              "semantic_adoption_label": null,
+              "semantic_adoption_note": "Requires context review; placement or lexical clause alone is not a belief label",
+              "success": false,
+              "trajectory_sha256": "22cc0ff8ef1bb9fbc62658c4a4a82aa082d6717bbc2938f9708a7e94218fb47a",
+              "trial": 2,
+              "wrong_destination_attempt_indices": []
+            }
+          ],
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 100,
+            "input_tokens_known": 254342,
+            "output_tokens_known": 1972,
+            "saved_responses": 100,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "success": false
+        }
+      },
+      "correct_minus_error_success": 0,
+      "task_id": "61c97c86fe797fe4"
+    }
+  ],
+  "targets_sha256": "fdedba14fa6044aa2c8a40b964aecaf175dc52ed78035d359d68ef6c0fc5157f"
+}

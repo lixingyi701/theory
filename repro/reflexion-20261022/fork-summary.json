@@ -1,0 +1,54 @@
+{
+  "completed_branches": 5,
+  "expected_branches": 5,
+  "matched_initial_observation_sha256": "150a1b6e470325427e849341fba35da7d9cd343b8eb5f3d2c9354746d4f47df3",
+  "rows": [
+    {
+      "attempts": 2,
+      "branch": "original",
+      "calls": 100,
+      "decisions": 98,
+      "input_tokens": 296752,
+      "output_tokens": 1858,
+      "success": false
+    },
+    {
+      "attempts": 2,
+      "branch": "sham",
+      "calls": 100,
+      "decisions": 98,
+      "input_tokens": 296752,
+      "output_tokens": 1858,
+      "success": false
+    },
+    {
+      "attempts": 2,
+      "branch": "retain_error",
+      "calls": 100,
+      "decisions": 98,
+      "input_tokens": 299233,
+      "output_tokens": 1979,
+      "success": false
+    },
+    {
+      "attempts": 2,
+      "branch": "correct_target",
+      "calls": 100,
+      "decisions": 98,
+      "input_tokens": 296752,
+      "output_tokens": 1858,
+      "success": false
+    },
+    {
+      "attempts": 2,
+      "branch": "discard_new",
+      "calls": 100,
+      "decisions": 98,
+      "input_tokens": 268054,
+      "output_tokens": 1822,
+      "success": false
+    }
+  ],
+  "target_sha256": "ecefcc6c5ac2ab25ede05517267ceba08bc4df869c772eb31a6475e536ca8341",
+  "task_id": "1bcfccd955e18c46"
+}

@@ -1,0 +1,103 @@
+{
+  "command_shapes": [
+    "go to [a-z]+ \\d+",
+    "(?:open|close|examine|use) [a-z]+ \\d+",
+    "take [a-z]+ \\d+ from [a-z]+ \\d+",
+    "move [a-z]+ \\d+ to [a-z]+ \\d+",
+    "put [a-z]+ \\d+ (?:into|in) [a-z]+ \\d+",
+    "(?:heat|clean|cool|slice) [a-z]+ \\d+ with [a-z]+ \\d+",
+    "(?:look|inventory|help)"
+  ],
+  "completed_checkpoints": 8,
+  "counts": {
+    "environment_style_sentence": 1,
+    "other_unmatched_shape": 6,
+    "public_command_shape": 141,
+    "thought": 152
+  },
+  "driver_sha256": "7b026efea040a1651f43a6f70b9bf98501c08ef290b53de87c236091f6a499a6",
+  "interpretation": "Public command shape does not establish valid entities, satisfied preconditions, or correct planning. Environment-style sentences are actor format violations. Other unmatched shapes require review. Thought no-effects are not physical failures.",
+  "no_effect_counts_by_shape": {
+    "environment_style_sentence": 1,
+    "other_unmatched_shape": 6,
+    "public_command_shape": 43,
+    "thought": 152
+  },
+  "public_grammar": "installed alfworld/data/alfred.twl2",
+  "public_grammar_sha256": "c5b22f0f73309a7fd7c8e5b71de42ad4803b60766ab4a51cc2feb34162be036b",
+  "review_items": [
+    {
+      "action_excerpt": "You open the fridge 1. The fridge 1 is open. In it, you see a apple 1, and a egg 1.",
+      "action_sha256": "d52a1416aa2443dbee3778d5efeba8f7a8521ed64e3504ccb3e00e13606979b3",
+      "checkpoint": "targets/762a7487ace813d7/branches/discard_new/trial-01/checkpoint.json",
+      "checkpoint_sha256": "cf7ed91dc567c489fe4722567f00014e2d07e5797f6429994cf083012e379d87",
+      "index": 3,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "turn on stoveburner 1",
+      "action_sha256": "376ef0362128470fc9857ab98290d7bed7fb62c422ed801f84c72a05cc2727e8",
+      "checkpoint": "targets/762a7487ace813d7/branches/original/trial-01/checkpoint.json",
+      "checkpoint_sha256": "02b1720e7e8c422a37b0e0b558aaf3adaf5c6605a7ed328cd1597d673e64f777",
+      "index": 20,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "turn on stoveburner 1",
+      "action_sha256": "376ef0362128470fc9857ab98290d7bed7fb62c422ed801f84c72a05cc2727e8",
+      "checkpoint": "targets/762a7487ace813d7/branches/original/trial-02/checkpoint.json",
+      "checkpoint_sha256": "78f584b07a7c9b6820010a3ddcbaa20502227bcb87322258d14a15f3e9bf9c8b",
+      "index": 17,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "turn on stoveburner 1",
+      "action_sha256": "376ef0362128470fc9857ab98290d7bed7fb62c422ed801f84c72a05cc2727e8",
+      "checkpoint": "targets/762a7487ace813d7/branches/retain_error/trial-01/checkpoint.json",
+      "checkpoint_sha256": "02b1720e7e8c422a37b0e0b558aaf3adaf5c6605a7ed328cd1597d673e64f777",
+      "index": 20,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "turn on stoveburner 1",
+      "action_sha256": "376ef0362128470fc9857ab98290d7bed7fb62c422ed801f84c72a05cc2727e8",
+      "checkpoint": "targets/762a7487ace813d7/branches/retain_error/trial-02/checkpoint.json",
+      "checkpoint_sha256": "78f584b07a7c9b6820010a3ddcbaa20502227bcb87322258d14a15f3e9bf9c8b",
+      "index": 17,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "turn on stoveburner 1",
+      "action_sha256": "376ef0362128470fc9857ab98290d7bed7fb62c422ed801f84c72a05cc2727e8",
+      "checkpoint": "targets/762a7487ace813d7/branches/sham/trial-01/checkpoint.json",
+      "checkpoint_sha256": "02b1720e7e8c422a37b0e0b558aaf3adaf5c6605a7ed328cd1597d673e64f777",
+      "index": 20,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "turn on stoveburner 1",
+      "action_sha256": "376ef0362128470fc9857ab98290d7bed7fb62c422ed801f84c72a05cc2727e8",
+      "checkpoint": "targets/762a7487ace813d7/branches/sham/trial-02/checkpoint.json",
+      "checkpoint_sha256": "78f584b07a7c9b6820010a3ddcbaa20502227bcb87322258d14a15f3e9bf9c8b",
+      "index": 17,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    }
+  ],
+  "run_sha256": "2f993222b750e2a959f3e2f1d43204fd375ef5c024d1a6d2a67923b00e315577",
+  "scope": "Executed action shapes under the public numbered-entity grammar; no semantic repairs",
+  "sha256": "fd18a2e523cdb177b7e4d1dc7027065af5f00840ffeffa280edfbc96f69c6f59"
+}

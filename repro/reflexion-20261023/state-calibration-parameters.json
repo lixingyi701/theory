@@ -1,0 +1,91 @@
+{
+  "calibration_run_sha256": "847b5c69dc234d98186e6dece1da163589256410dd265babfe63b00f82760d27",
+  "calibration_summary_sha256": "d5b99eafd2edf985d6754c4d1970eec708a668843d57dc60e60578cf1dd0f5bd",
+  "constant_probability": 0.3333333333333333,
+  "fit_driver_sha256": "f5ae39eba317d5b5d7a1c491cec6444c50b94c4c19ea37d0de116a96879a825f",
+  "frozen_unix": 1792716206.1158125,
+  "independent_tasks": 4,
+  "models": {
+    "count": {
+      "cross_validation": [
+        {
+          "grouped_log_loss": 0.8162581813904721,
+          "ridge": 0.1
+        },
+        {
+          "grouped_log_loss": 0.7317802465998878,
+          "ridge": 1.0
+        },
+        {
+          "grouped_log_loss": 0.6753688249091073,
+          "ridge": 10.0
+        }
+      ],
+      "design_rank": 3,
+      "features": [
+        "intercept",
+        "error_count",
+        "correct_count"
+      ],
+      "gradient_max": 1.0658141036401503e-14,
+      "independent_tasks": 4,
+      "iterations": 4,
+      "objective": 17.023421942364998,
+      "observations": 28,
+      "ridge": 10.0,
+      "weights": [
+        -0.18542044953168682,
+        -0.4003508996803448,
+        0.046339213733439834
+      ]
+    },
+    "slot": {
+      "cross_validation": [
+        {
+          "grouped_log_loss": 0.7994440356269327,
+          "ridge": 0.1
+        },
+        {
+          "grouped_log_loss": 0.7200637975591393,
+          "ridge": 1.0
+        },
+        {
+          "grouped_log_loss": 0.6784442642053611,
+          "ridge": 10.0
+        }
+      ],
+      "design_rank": 7,
+      "features": [
+        "intercept",
+        "error_oldest",
+        "error_middle",
+        "error_newest",
+        "correct_oldest",
+        "correct_middle",
+        "correct_newest"
+      ],
+      "gradient_max": 5.4654059056247206e-11,
+      "independent_tasks": 4,
+      "iterations": 3,
+      "objective": 17.725106106094515,
+      "observations": 28,
+      "ridge": 10.0,
+      "weights": [
+        -0.23260574738281808,
+        -0.12271655591506563,
+        -0.15611218650254616,
+        -0.3037284843711395,
+        0.014077388583078915,
+        0.029554824883686773,
+        0.04796647485549545
+      ]
+    }
+  },
+  "numpy_version": "1.26.4",
+  "observations": 28,
+  "protocol_sha256": "3652f90344cbfcbf7f8a0e49fc28d12be32047d5429f2abbe006f7c03cda6f75",
+  "scope": "One-attempt development risk baselines; learned on four known development tasks",
+  "sha256": "6324358e011cf52b6e9cc7ee1aeb43ba1619d0f9430c1392d48568e5ab0cb7da",
+  "state_encoder_sha256": "0ad62e7457c6ebc99f24a5e0f95d8914283c1ae0d609cb441b933473c11b82b3",
+  "validation_calls_at_freeze": 0
+}

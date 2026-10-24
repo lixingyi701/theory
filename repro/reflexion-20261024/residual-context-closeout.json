@@ -1,0 +1,54 @@
+{
+  "all_calls": 26673,
+  "all_responses": 26673,
+  "artifacts": {
+    "residual-context-action-shapes.json": "3438b44ac830e4de89147495e0ca7bfca2f9d0db26c25a473e51bcaba1a48ce8",
+    "residual-context-contract.json": "74390ddd693ff1b5453b67946690b707a95c70821e82a3b61a69ba44065b2e07",
+    "residual-context-protocol-audit.json": "b7bd470c3f4aa37a70ed982d007983d5ccd3b2afbcc79527c41fa31693725894",
+    "residual-context-raw-summary.json": "42ab25dd3d689897f3966c6233f56e5eb14f5986e92de1828da953161acace6d",
+    "residual-context-replica-audit.json": "f84bf47b800d0e13f5e1c0ee4c9353eca5af1940fd4d4c0cab3b92033f1606cf",
+    "residual-context-results.json": "1c08c61b841328889ed397f5b561ac4abe4bc68128e3f95729e46979ad2f2eeb",
+    "residual-context-run.json": "bb6b0a93fd1a41803a0911e319be4bb79d3e3a652d431c4cef5a2f8229fc2117",
+    "residual-context-semantic-labels.json": "498c78d16c558ad9b70cd01bc543a87bf4294a3217a13745e02ba5cb7a392503"
+  },
+  "completed_cells": 96,
+  "costs_incremental": {
+    "dispatched_calls": 2801,
+    "input_tokens_known": 7183032,
+    "output_tokens_known": 89363,
+    "saved_responses": 2801,
+    "truncated_responses": 0,
+    "uncertain_or_unrecorded_attempts": 0,
+    "usage_missing_responses": 0
+  },
+  "dispatch_envelope_seconds": 7200,
+  "driver_sha256": "e24fafdd3875e48c9771f43b001a678d3d9fb109d103c5ad83858e6df2efef26",
+  "elapsed_seconds": 2123.0038878917694,
+  "expected_cells": 96,
+  "freeze_commit": "02f468019c1c0c0142b15438929fb334e0304849",
+  "holdout_model_calls": 0,
+  "independent_base_tasks": 12,
+  "new_base_tasks": 0,
+  "new_cell_successes": 22,
+  "new_cells": 72,
+  "parameter_refits": 0,
+  "ports": [
+    8001,
+    8002
+  ],
+  "prior_calls": 23872,
+  "protocol_sha256": "77af2102b3475e95b07d91de1b301f621738f2db9c4bdd0bb84163ba47069256",
+  "replica_check_calls": 4,
+  "request_configuration_errors": 0,
+  "reserved_calls": 2801,
+  "reused_controls": 24,
+  "seed_replicates_per_task": 2,
+  "sha256": "425250dee8e59794c06f4dced86330b98611d4a20ebf01329f128be2bbfb5f7e",
+  "source_presence_forecast_sha256": "eecfe6b8a49216580cf76e3d49cda145c6fcc6c3624fa13220a393507601b85b",
+  "stop_reason": "frozen_factorial_complete",
+  "successes": 28,
+  "worker_exit_codes": [
+    0,
+    0
+  ]
+}
