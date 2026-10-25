@@ -1,0 +1,250 @@
+{
+  "between_scene_variance_truncated_zero": 0.00021315058999547875,
+  "held_scene_mean_improvement": 0.03615561905028753,
+  "holdout_model_calls": 0,
+  "mixture_comparisons": [
+    {
+      "family": "constant",
+      "scene_bootstrap95": [
+        0.0007366269384713379,
+        0.003356969356126455
+      ],
+      "success_brier_improvement_scale15": 0.0020172714544989027
+    },
+    {
+      "family": "error_lifetime",
+      "scene_bootstrap95": [
+        0.00044272455202502587,
+        0.002327627414272496
+      ],
+      "success_brier_improvement_scale15": 0.0013756583630640934
+    },
+    {
+      "family": "information_order",
+      "scene_bootstrap95": [
+        0.000194289613220264,
+        0.0017430096536649163
+      ],
+      "success_brier_improvement_scale15": 0.0009762131620933358
+    }
+  ],
+  "new_model_calls": 0,
+  "parameters_sha256": "4826508a8a850c983bdd10a91dae065ed544674e7b9c8bc8bd6fa4a6fb9778b5",
+  "planning": [
+    {
+      "independent_scene_normal_N_delta03_power80": 22,
+      "nine_scene_t8_halfwidth": 0.03850962921246393,
+      "scene_sd_estimate": 0.050099257431652985,
+      "tasks_per_scene": 2
+    },
+    {
+      "independent_scene_normal_N_delta03_power80": 12,
+      "nine_scene_t8_halfwidth": 0.02836310311489823,
+      "scene_sd_estimate": 0.03689909338451634,
+      "tasks_per_scene": 4
+    },
+    {
+      "independent_scene_normal_N_delta03_power80": 9,
+      "nine_scene_t8_halfwidth": 0.024047667462382183,
+      "scene_sd_estimate": 0.031284909968407,
+      "tasks_per_scene": 6
+    },
+    {
+      "independent_scene_normal_N_delta03_power80": 7,
+      "nine_scene_t8_halfwidth": 0.021568557124174926,
+      "scene_sd_estimate": 0.028059701375769634,
+      "tasks_per_scene": 8
+    }
+  ],
+  "primary_candidate_baseline": "constant with same persistent scale1.5",
+  "scene_bootstrap95": [
+    0.012839168553529415,
+    0.05779147208138588
+  ],
+  "scene_sd": 0.050099257431652985,
+  "scope": "Planning supplement computed from calibration only; stronger constant mixture baseline and variance components",
+  "sha256": "8a1c25e12101e3f7873661a25aeb6441c1c2f1425c060472848e9c6aa195d8e4",
+  "task_scores": [
+    {
+      "mean_improvement": -0.06831159611674484,
+      "scene_id": "FloorPlan12",
+      "task_id": "6e3613025375b9b9"
+    },
+    {
+      "mean_improvement": -0.06660951605771008,
+      "scene_id": "FloorPlan12",
+      "task_id": "e9c845d18fc5fbba"
+    },
+    {
+      "mean_improvement": -0.022338250046180626,
+      "scene_id": "FloorPlan13",
+      "task_id": "2c66103418765969"
+    },
+    {
+      "mean_improvement": 0.1078121664055229,
+      "scene_id": "FloorPlan13",
+      "task_id": "41f9231e4622f886"
+    },
+    {
+      "mean_improvement": 0.11771775271759613,
+      "scene_id": "FloorPlan15",
+      "task_id": "be945adadf8d8508"
+    },
+    {
+      "mean_improvement": 0.00710081671978476,
+      "scene_id": "FloorPlan15",
+      "task_id": "cffcb3e0a9e707e7"
+    },
+    {
+      "mean_improvement": -0.025029957358512843,
+      "scene_id": "FloorPlan16",
+      "task_id": "122bb94118ee1cb4"
+    },
+    {
+      "mean_improvement": -0.07103666816297487,
+      "scene_id": "FloorPlan16",
+      "task_id": "477472f651cd3a9a"
+    },
+    {
+      "mean_improvement": 0.04529243069520333,
+      "scene_id": "FloorPlan17",
+      "task_id": "66348a1792a34f8f"
+    },
+    {
+      "mean_improvement": 0.11437925817781201,
+      "scene_id": "FloorPlan17",
+      "task_id": "82d517a0a91ce890"
+    },
+    {
+      "mean_improvement": 0.11660339718913111,
+      "scene_id": "FloorPlan18",
+      "task_id": "0481e02113a10e32"
+    },
+    {
+      "mean_improvement": -0.023241579099627256,
+      "scene_id": "FloorPlan18",
+      "task_id": "836aa7b6a7651832"
+    },
+    {
+      "mean_improvement": -0.10627231233527477,
+      "scene_id": "FloorPlan19",
+      "task_id": "1c1dc93025333ed0"
+    },
+    {
+      "mean_improvement": 0.12037107101875791,
+      "scene_id": "FloorPlan19",
+      "task_id": "5ae9d904c27dde9f"
+    },
+    {
+      "mean_improvement": 0.04769349350332331,
+      "scene_id": "FloorPlan21",
+      "task_id": "b268d0a4b6a9f769"
+    },
+    {
+      "mean_improvement": 0.04769349350332331,
+      "scene_id": "FloorPlan21",
+      "task_id": "d327a5b6831def66"
+    },
+    {
+      "mean_improvement": 0.10719506094373933,
+      "scene_id": "FloorPlan22",
+      "task_id": "0193122f8263d044"
+    },
+    {
+      "mean_improvement": -0.022120834545805833,
+      "scene_id": "FloorPlan22",
+      "task_id": "482e5598a4a0d0a2"
+    },
+    {
+      "mean_improvement": 0.1107508749145313,
+      "scene_id": "FloorPlan24",
+      "task_id": "595a69bb99314dd8"
+    },
+    {
+      "mean_improvement": 0.0710678520586409,
+      "scene_id": "FloorPlan24",
+      "task_id": "e5877206d35fec78"
+    },
+    {
+      "mean_improvement": -0.025739156671174677,
+      "scene_id": "FloorPlan25",
+      "task_id": "cc65a5c3be2ea945"
+    },
+    {
+      "mean_improvement": -0.033589597709654063,
+      "scene_id": "FloorPlan25",
+      "task_id": "e4eb1c6225ea097a"
+    },
+    {
+      "mean_improvement": 0.00878120551848964,
+      "scene_id": "FloorPlan27",
+      "task_id": "5fc36209409f9f02"
+    },
+    {
+      "mean_improvement": 0.04723035289796349,
+      "scene_id": "FloorPlan27",
+      "task_id": "f7bddaf300b8a61b"
+    },
+    {
+      "mean_improvement": 0.045457296363124185,
+      "scene_id": "FloorPlan3",
+      "task_id": "b6f17dd2908f742a"
+    },
+    {
+      "mean_improvement": 0.11339420292546264,
+      "scene_id": "FloorPlan3",
+      "task_id": "f4952ddb098787de"
+    },
+    {
+      "mean_improvement": 0.11370023810260765,
+      "scene_id": "FloorPlan30",
+      "task_id": "4a1ecfce1eeba6d8"
+    },
+    {
+      "mean_improvement": 0.045212627570946885,
+      "scene_id": "FloorPlan30",
+      "task_id": "571c8d1132841622"
+    },
+    {
+      "mean_improvement": 0.009036702042622056,
+      "scene_id": "FloorPlan4",
+      "task_id": "13cc78cc6be8645e"
+    },
+    {
+      "mean_improvement": 0.11498051554959583,
+      "scene_id": "FloorPlan4",
+      "task_id": "981acc3de21dbb59"
+    },
+    {
+      "mean_improvement": -0.025938018588865023,
+      "scene_id": "FloorPlan6",
+      "task_id": "2788e10c07186b65"
+    },
+    {
+      "mean_improvement": -0.025938018588865023,
+      "scene_id": "FloorPlan6",
+      "task_id": "a6a9a4f9e971d730"
+    },
+    {
+      "mean_improvement": -0.023215272623243483,
+      "scene_id": "FloorPlan7",
+      "task_id": "1d11d901768427f8"
+    },
+    {
+      "mean_improvement": 0.11098443269070091,
+      "scene_id": "FloorPlan7",
+      "task_id": "e35a7ab664a30526"
+    },
+    {
+      "mean_improvement": 0.10926391110305242,
+      "scene_id": "FloorPlan8",
+      "task_id": "16cf7201c053e35b"
+    },
+    {
+      "mean_improvement": 0.10926391110305242,
+      "scene_id": "FloorPlan8",
+      "task_id": "a6434f28fb75de70"
+    }
+  ],
+  "within_scene_task_variance": 0.004593570010415117
+}

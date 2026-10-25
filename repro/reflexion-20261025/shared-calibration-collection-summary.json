@@ -1,0 +1,4286 @@
+{
+  "attempts_completed": 463,
+  "completed_tasks": 36,
+  "completed_trajectories": 252,
+  "costs_incremental": {
+    "dispatched_calls": 19088,
+    "input_tokens_known": 49238909,
+    "output_tokens_known": 632552,
+    "saved_responses": 19088,
+    "truncated_responses": 7,
+    "uncertain_or_unrecorded_attempts": 0,
+    "usage_missing_responses": 0
+  },
+  "elapsed_seconds": 8616.023042678833,
+  "expected_tasks": 36,
+  "expected_trajectories": 252,
+  "holdout_model_calls": 0,
+  "protocol_sha256": "76f72365df608dbaee5d35852ba7babb82a11040b8e11dbf606278d6f3395d78",
+  "reserved_calls": 19088,
+  "reserved_validation_model_calls": 0,
+  "status": "complete",
+  "worker_exit_codes": [
+    0,
+    0,
+    0
+  ],
+  "worker_statuses": [
+    "complete",
+    "complete",
+    "complete"
+  ],
+  "scope": "Aggregate projection of completed collection; private raw summary preserved",
+  "private_raw_summary_file_sha256": "095236001a5c610179ca31c5f23f15d96b4a224d04d5d7fdbb903a58a3872f1c",
+  "attempt_event_artifact": "shared-calibration-events.json",
+  "trajectories": [
+    {
+      "trajectory_id": "shared-0193122f8263d044-2110-error_middle",
+      "task_id": "0193122f8263d044",
+      "seed": 2110,
+      "history_key": "error_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-0193122f8263d044-2111-correct_middle",
+      "task_id": "0193122f8263d044",
+      "seed": 2111,
+      "history_key": "correct_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 1,
+      "complete": true,
+      "success": true,
+      "first_success": true
+    },
+    {
+      "trajectory_id": "shared-0193122f8263d044-2112-neutral_full",
+      "task_id": "0193122f8263d044",
+      "seed": 2112,
+      "history_key": "neutral_full",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 1,
+      "complete": true,
+      "success": true,
+      "first_success": true
+    },
+    {
+      "trajectory_id": "shared-0193122f8263d044-2113-repeated_error",
+      "task_id": "0193122f8263d044",
+      "seed": 2113,
+      "history_key": "repeated_error",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-0193122f8263d044-2114-correct_latest",
+      "task_id": "0193122f8263d044",
+      "seed": 2114,
+      "history_key": "correct_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "C"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": true,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-0193122f8263d044-2115-delete_latest",
+      "task_id": "0193122f8263d044",
+      "seed": 2115,
+      "history_key": "delete_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-0193122f8263d044-2116-correct_oldest",
+      "task_id": "0193122f8263d044",
+      "seed": 2116,
+      "history_key": "correct_oldest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "C",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-0481e02113a10e32-2110-error_middle",
+      "task_id": "0481e02113a10e32",
+      "seed": 2110,
+      "history_key": "error_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-0481e02113a10e32-2111-correct_middle",
+      "task_id": "0481e02113a10e32",
+      "seed": 2111,
+      "history_key": "correct_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 1,
+      "complete": true,
+      "success": true,
+      "first_success": true
+    },
+    {
+      "trajectory_id": "shared-0481e02113a10e32-2112-neutral_full",
+      "task_id": "0481e02113a10e32",
+      "seed": 2112,
+      "history_key": "neutral_full",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 1,
+      "complete": true,
+      "success": true,
+      "first_success": true
+    },
+    {
+      "trajectory_id": "shared-0481e02113a10e32-2113-repeated_error",
+      "task_id": "0481e02113a10e32",
+      "seed": 2113,
+      "history_key": "repeated_error",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-0481e02113a10e32-2114-correct_latest",
+      "task_id": "0481e02113a10e32",
+      "seed": 2114,
+      "history_key": "correct_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "C"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-0481e02113a10e32-2115-delete_latest",
+      "task_id": "0481e02113a10e32",
+      "seed": 2115,
+      "history_key": "delete_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-0481e02113a10e32-2116-correct_oldest",
+      "task_id": "0481e02113a10e32",
+      "seed": 2116,
+      "history_key": "correct_oldest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "C",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-122bb94118ee1cb4-2110-error_middle",
+      "task_id": "122bb94118ee1cb4",
+      "seed": 2110,
+      "history_key": "error_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-122bb94118ee1cb4-2111-correct_middle",
+      "task_id": "122bb94118ee1cb4",
+      "seed": 2111,
+      "history_key": "correct_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-122bb94118ee1cb4-2112-neutral_full",
+      "task_id": "122bb94118ee1cb4",
+      "seed": 2112,
+      "history_key": "neutral_full",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-122bb94118ee1cb4-2113-repeated_error",
+      "task_id": "122bb94118ee1cb4",
+      "seed": 2113,
+      "history_key": "repeated_error",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-122bb94118ee1cb4-2114-correct_latest",
+      "task_id": "122bb94118ee1cb4",
+      "seed": 2114,
+      "history_key": "correct_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "C"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-122bb94118ee1cb4-2115-delete_latest",
+      "task_id": "122bb94118ee1cb4",
+      "seed": 2115,
+      "history_key": "delete_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-122bb94118ee1cb4-2116-correct_oldest",
+      "task_id": "122bb94118ee1cb4",
+      "seed": 2116,
+      "history_key": "correct_oldest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "C",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-13cc78cc6be8645e-2110-error_middle",
+      "task_id": "13cc78cc6be8645e",
+      "seed": 2110,
+      "history_key": "error_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-13cc78cc6be8645e-2111-correct_middle",
+      "task_id": "13cc78cc6be8645e",
+      "seed": 2111,
+      "history_key": "correct_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": true,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-13cc78cc6be8645e-2112-neutral_full",
+      "task_id": "13cc78cc6be8645e",
+      "seed": 2112,
+      "history_key": "neutral_full",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-13cc78cc6be8645e-2113-repeated_error",
+      "task_id": "13cc78cc6be8645e",
+      "seed": 2113,
+      "history_key": "repeated_error",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-13cc78cc6be8645e-2114-correct_latest",
+      "task_id": "13cc78cc6be8645e",
+      "seed": 2114,
+      "history_key": "correct_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "C"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-13cc78cc6be8645e-2115-delete_latest",
+      "task_id": "13cc78cc6be8645e",
+      "seed": 2115,
+      "history_key": "delete_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 1,
+      "complete": true,
+      "success": true,
+      "first_success": true
+    },
+    {
+      "trajectory_id": "shared-13cc78cc6be8645e-2116-correct_oldest",
+      "task_id": "13cc78cc6be8645e",
+      "seed": 2116,
+      "history_key": "correct_oldest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "C",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-16cf7201c053e35b-2110-error_middle",
+      "task_id": "16cf7201c053e35b",
+      "seed": 2110,
+      "history_key": "error_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-16cf7201c053e35b-2111-correct_middle",
+      "task_id": "16cf7201c053e35b",
+      "seed": 2111,
+      "history_key": "correct_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 1,
+      "complete": true,
+      "success": true,
+      "first_success": true
+    },
+    {
+      "trajectory_id": "shared-16cf7201c053e35b-2112-neutral_full",
+      "task_id": "16cf7201c053e35b",
+      "seed": 2112,
+      "history_key": "neutral_full",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 1,
+      "complete": true,
+      "success": true,
+      "first_success": true
+    },
+    {
+      "trajectory_id": "shared-16cf7201c053e35b-2113-repeated_error",
+      "task_id": "16cf7201c053e35b",
+      "seed": 2113,
+      "history_key": "repeated_error",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-16cf7201c053e35b-2114-correct_latest",
+      "task_id": "16cf7201c053e35b",
+      "seed": 2114,
+      "history_key": "correct_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "C"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-16cf7201c053e35b-2115-delete_latest",
+      "task_id": "16cf7201c053e35b",
+      "seed": 2115,
+      "history_key": "delete_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-16cf7201c053e35b-2116-correct_oldest",
+      "task_id": "16cf7201c053e35b",
+      "seed": 2116,
+      "history_key": "correct_oldest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "C",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-1c1dc93025333ed0-2110-error_middle",
+      "task_id": "1c1dc93025333ed0",
+      "seed": 2110,
+      "history_key": "error_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 1,
+      "complete": true,
+      "success": true,
+      "first_success": true
+    },
+    {
+      "trajectory_id": "shared-1c1dc93025333ed0-2111-correct_middle",
+      "task_id": "1c1dc93025333ed0",
+      "seed": 2111,
+      "history_key": "correct_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-1c1dc93025333ed0-2112-neutral_full",
+      "task_id": "1c1dc93025333ed0",
+      "seed": 2112,
+      "history_key": "neutral_full",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-1c1dc93025333ed0-2113-repeated_error",
+      "task_id": "1c1dc93025333ed0",
+      "seed": 2113,
+      "history_key": "repeated_error",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-1c1dc93025333ed0-2114-correct_latest",
+      "task_id": "1c1dc93025333ed0",
+      "seed": 2114,
+      "history_key": "correct_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "C"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": true,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-1c1dc93025333ed0-2115-delete_latest",
+      "task_id": "1c1dc93025333ed0",
+      "seed": 2115,
+      "history_key": "delete_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-1c1dc93025333ed0-2116-correct_oldest",
+      "task_id": "1c1dc93025333ed0",
+      "seed": 2116,
+      "history_key": "correct_oldest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "C",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": true,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-1d11d901768427f8-2110-error_middle",
+      "task_id": "1d11d901768427f8",
+      "seed": 2110,
+      "history_key": "error_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-1d11d901768427f8-2111-correct_middle",
+      "task_id": "1d11d901768427f8",
+      "seed": 2111,
+      "history_key": "correct_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-1d11d901768427f8-2112-neutral_full",
+      "task_id": "1d11d901768427f8",
+      "seed": 2112,
+      "history_key": "neutral_full",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-1d11d901768427f8-2113-repeated_error",
+      "task_id": "1d11d901768427f8",
+      "seed": 2113,
+      "history_key": "repeated_error",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-1d11d901768427f8-2114-correct_latest",
+      "task_id": "1d11d901768427f8",
+      "seed": 2114,
+      "history_key": "correct_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "C"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-1d11d901768427f8-2115-delete_latest",
+      "task_id": "1d11d901768427f8",
+      "seed": 2115,
+      "history_key": "delete_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-1d11d901768427f8-2116-correct_oldest",
+      "task_id": "1d11d901768427f8",
+      "seed": 2116,
+      "history_key": "correct_oldest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "C",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-2788e10c07186b65-2110-error_middle",
+      "task_id": "2788e10c07186b65",
+      "seed": 2110,
+      "history_key": "error_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-2788e10c07186b65-2111-correct_middle",
+      "task_id": "2788e10c07186b65",
+      "seed": 2111,
+      "history_key": "correct_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-2788e10c07186b65-2112-neutral_full",
+      "task_id": "2788e10c07186b65",
+      "seed": 2112,
+      "history_key": "neutral_full",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-2788e10c07186b65-2113-repeated_error",
+      "task_id": "2788e10c07186b65",
+      "seed": 2113,
+      "history_key": "repeated_error",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-2788e10c07186b65-2114-correct_latest",
+      "task_id": "2788e10c07186b65",
+      "seed": 2114,
+      "history_key": "correct_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "C"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-2788e10c07186b65-2115-delete_latest",
+      "task_id": "2788e10c07186b65",
+      "seed": 2115,
+      "history_key": "delete_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-2788e10c07186b65-2116-correct_oldest",
+      "task_id": "2788e10c07186b65",
+      "seed": 2116,
+      "history_key": "correct_oldest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "C",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-2c66103418765969-2110-error_middle",
+      "task_id": "2c66103418765969",
+      "seed": 2110,
+      "history_key": "error_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-2c66103418765969-2111-correct_middle",
+      "task_id": "2c66103418765969",
+      "seed": 2111,
+      "history_key": "correct_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-2c66103418765969-2112-neutral_full",
+      "task_id": "2c66103418765969",
+      "seed": 2112,
+      "history_key": "neutral_full",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-2c66103418765969-2113-repeated_error",
+      "task_id": "2c66103418765969",
+      "seed": 2113,
+      "history_key": "repeated_error",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-2c66103418765969-2114-correct_latest",
+      "task_id": "2c66103418765969",
+      "seed": 2114,
+      "history_key": "correct_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "C"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-2c66103418765969-2115-delete_latest",
+      "task_id": "2c66103418765969",
+      "seed": 2115,
+      "history_key": "delete_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-2c66103418765969-2116-correct_oldest",
+      "task_id": "2c66103418765969",
+      "seed": 2116,
+      "history_key": "correct_oldest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "C",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-41f9231e4622f886-2110-error_middle",
+      "task_id": "41f9231e4622f886",
+      "seed": 2110,
+      "history_key": "error_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-41f9231e4622f886-2111-correct_middle",
+      "task_id": "41f9231e4622f886",
+      "seed": 2111,
+      "history_key": "correct_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 1,
+      "complete": true,
+      "success": true,
+      "first_success": true
+    },
+    {
+      "trajectory_id": "shared-41f9231e4622f886-2112-neutral_full",
+      "task_id": "41f9231e4622f886",
+      "seed": 2112,
+      "history_key": "neutral_full",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 1,
+      "complete": true,
+      "success": true,
+      "first_success": true
+    },
+    {
+      "trajectory_id": "shared-41f9231e4622f886-2113-repeated_error",
+      "task_id": "41f9231e4622f886",
+      "seed": 2113,
+      "history_key": "repeated_error",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-41f9231e4622f886-2114-correct_latest",
+      "task_id": "41f9231e4622f886",
+      "seed": 2114,
+      "history_key": "correct_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "C"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": true,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-41f9231e4622f886-2115-delete_latest",
+      "task_id": "41f9231e4622f886",
+      "seed": 2115,
+      "history_key": "delete_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-41f9231e4622f886-2116-correct_oldest",
+      "task_id": "41f9231e4622f886",
+      "seed": 2116,
+      "history_key": "correct_oldest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "C",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-477472f651cd3a9a-2110-error_middle",
+      "task_id": "477472f651cd3a9a",
+      "seed": 2110,
+      "history_key": "error_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": true,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-477472f651cd3a9a-2111-correct_middle",
+      "task_id": "477472f651cd3a9a",
+      "seed": 2111,
+      "history_key": "correct_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 1,
+      "complete": true,
+      "success": true,
+      "first_success": true
+    },
+    {
+      "trajectory_id": "shared-477472f651cd3a9a-2112-neutral_full",
+      "task_id": "477472f651cd3a9a",
+      "seed": 2112,
+      "history_key": "neutral_full",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-477472f651cd3a9a-2113-repeated_error",
+      "task_id": "477472f651cd3a9a",
+      "seed": 2113,
+      "history_key": "repeated_error",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": true,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-477472f651cd3a9a-2114-correct_latest",
+      "task_id": "477472f651cd3a9a",
+      "seed": 2114,
+      "history_key": "correct_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "C"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-477472f651cd3a9a-2115-delete_latest",
+      "task_id": "477472f651cd3a9a",
+      "seed": 2115,
+      "history_key": "delete_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-477472f651cd3a9a-2116-correct_oldest",
+      "task_id": "477472f651cd3a9a",
+      "seed": 2116,
+      "history_key": "correct_oldest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "C",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": true,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-482e5598a4a0d0a2-2110-error_middle",
+      "task_id": "482e5598a4a0d0a2",
+      "seed": 2110,
+      "history_key": "error_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-482e5598a4a0d0a2-2111-correct_middle",
+      "task_id": "482e5598a4a0d0a2",
+      "seed": 2111,
+      "history_key": "correct_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-482e5598a4a0d0a2-2112-neutral_full",
+      "task_id": "482e5598a4a0d0a2",
+      "seed": 2112,
+      "history_key": "neutral_full",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-482e5598a4a0d0a2-2113-repeated_error",
+      "task_id": "482e5598a4a0d0a2",
+      "seed": 2113,
+      "history_key": "repeated_error",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-482e5598a4a0d0a2-2114-correct_latest",
+      "task_id": "482e5598a4a0d0a2",
+      "seed": 2114,
+      "history_key": "correct_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "C"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-482e5598a4a0d0a2-2115-delete_latest",
+      "task_id": "482e5598a4a0d0a2",
+      "seed": 2115,
+      "history_key": "delete_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-482e5598a4a0d0a2-2116-correct_oldest",
+      "task_id": "482e5598a4a0d0a2",
+      "seed": 2116,
+      "history_key": "correct_oldest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "C",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-4a1ecfce1eeba6d8-2110-error_middle",
+      "task_id": "4a1ecfce1eeba6d8",
+      "seed": 2110,
+      "history_key": "error_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-4a1ecfce1eeba6d8-2111-correct_middle",
+      "task_id": "4a1ecfce1eeba6d8",
+      "seed": 2111,
+      "history_key": "correct_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 1,
+      "complete": true,
+      "success": true,
+      "first_success": true
+    },
+    {
+      "trajectory_id": "shared-4a1ecfce1eeba6d8-2112-neutral_full",
+      "task_id": "4a1ecfce1eeba6d8",
+      "seed": 2112,
+      "history_key": "neutral_full",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 1,
+      "complete": true,
+      "success": true,
+      "first_success": true
+    },
+    {
+      "trajectory_id": "shared-4a1ecfce1eeba6d8-2113-repeated_error",
+      "task_id": "4a1ecfce1eeba6d8",
+      "seed": 2113,
+      "history_key": "repeated_error",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-4a1ecfce1eeba6d8-2114-correct_latest",
+      "task_id": "4a1ecfce1eeba6d8",
+      "seed": 2114,
+      "history_key": "correct_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "C"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-4a1ecfce1eeba6d8-2115-delete_latest",
+      "task_id": "4a1ecfce1eeba6d8",
+      "seed": 2115,
+      "history_key": "delete_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-4a1ecfce1eeba6d8-2116-correct_oldest",
+      "task_id": "4a1ecfce1eeba6d8",
+      "seed": 2116,
+      "history_key": "correct_oldest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "C",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-571c8d1132841622-2110-error_middle",
+      "task_id": "571c8d1132841622",
+      "seed": 2110,
+      "history_key": "error_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-571c8d1132841622-2111-correct_middle",
+      "task_id": "571c8d1132841622",
+      "seed": 2111,
+      "history_key": "correct_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-571c8d1132841622-2112-neutral_full",
+      "task_id": "571c8d1132841622",
+      "seed": 2112,
+      "history_key": "neutral_full",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 1,
+      "complete": true,
+      "success": true,
+      "first_success": true
+    },
+    {
+      "trajectory_id": "shared-571c8d1132841622-2113-repeated_error",
+      "task_id": "571c8d1132841622",
+      "seed": 2113,
+      "history_key": "repeated_error",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-571c8d1132841622-2114-correct_latest",
+      "task_id": "571c8d1132841622",
+      "seed": 2114,
+      "history_key": "correct_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "C"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-571c8d1132841622-2115-delete_latest",
+      "task_id": "571c8d1132841622",
+      "seed": 2115,
+      "history_key": "delete_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-571c8d1132841622-2116-correct_oldest",
+      "task_id": "571c8d1132841622",
+      "seed": 2116,
+      "history_key": "correct_oldest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "C",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-595a69bb99314dd8-2110-error_middle",
+      "task_id": "595a69bb99314dd8",
+      "seed": 2110,
+      "history_key": "error_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-595a69bb99314dd8-2111-correct_middle",
+      "task_id": "595a69bb99314dd8",
+      "seed": 2111,
+      "history_key": "correct_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 1,
+      "complete": true,
+      "success": true,
+      "first_success": true
+    },
+    {
+      "trajectory_id": "shared-595a69bb99314dd8-2112-neutral_full",
+      "task_id": "595a69bb99314dd8",
+      "seed": 2112,
+      "history_key": "neutral_full",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 1,
+      "complete": true,
+      "success": true,
+      "first_success": true
+    },
+    {
+      "trajectory_id": "shared-595a69bb99314dd8-2113-repeated_error",
+      "task_id": "595a69bb99314dd8",
+      "seed": 2113,
+      "history_key": "repeated_error",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-595a69bb99314dd8-2114-correct_latest",
+      "task_id": "595a69bb99314dd8",
+      "seed": 2114,
+      "history_key": "correct_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "C"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-595a69bb99314dd8-2115-delete_latest",
+      "task_id": "595a69bb99314dd8",
+      "seed": 2115,
+      "history_key": "delete_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-595a69bb99314dd8-2116-correct_oldest",
+      "task_id": "595a69bb99314dd8",
+      "seed": 2116,
+      "history_key": "correct_oldest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "C",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-5ae9d904c27dde9f-2110-error_middle",
+      "task_id": "5ae9d904c27dde9f",
+      "seed": 2110,
+      "history_key": "error_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-5ae9d904c27dde9f-2111-correct_middle",
+      "task_id": "5ae9d904c27dde9f",
+      "seed": 2111,
+      "history_key": "correct_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 1,
+      "complete": true,
+      "success": true,
+      "first_success": true
+    },
+    {
+      "trajectory_id": "shared-5ae9d904c27dde9f-2112-neutral_full",
+      "task_id": "5ae9d904c27dde9f",
+      "seed": 2112,
+      "history_key": "neutral_full",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 1,
+      "complete": true,
+      "success": true,
+      "first_success": true
+    },
+    {
+      "trajectory_id": "shared-5ae9d904c27dde9f-2113-repeated_error",
+      "task_id": "5ae9d904c27dde9f",
+      "seed": 2113,
+      "history_key": "repeated_error",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-5ae9d904c27dde9f-2114-correct_latest",
+      "task_id": "5ae9d904c27dde9f",
+      "seed": 2114,
+      "history_key": "correct_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "C"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-5ae9d904c27dde9f-2115-delete_latest",
+      "task_id": "5ae9d904c27dde9f",
+      "seed": 2115,
+      "history_key": "delete_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-5ae9d904c27dde9f-2116-correct_oldest",
+      "task_id": "5ae9d904c27dde9f",
+      "seed": 2116,
+      "history_key": "correct_oldest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "C",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-5fc36209409f9f02-2110-error_middle",
+      "task_id": "5fc36209409f9f02",
+      "seed": 2110,
+      "history_key": "error_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-5fc36209409f9f02-2111-correct_middle",
+      "task_id": "5fc36209409f9f02",
+      "seed": 2111,
+      "history_key": "correct_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": true,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-5fc36209409f9f02-2112-neutral_full",
+      "task_id": "5fc36209409f9f02",
+      "seed": 2112,
+      "history_key": "neutral_full",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-5fc36209409f9f02-2113-repeated_error",
+      "task_id": "5fc36209409f9f02",
+      "seed": 2113,
+      "history_key": "repeated_error",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-5fc36209409f9f02-2114-correct_latest",
+      "task_id": "5fc36209409f9f02",
+      "seed": 2114,
+      "history_key": "correct_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "C"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-5fc36209409f9f02-2115-delete_latest",
+      "task_id": "5fc36209409f9f02",
+      "seed": 2115,
+      "history_key": "delete_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": true,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-5fc36209409f9f02-2116-correct_oldest",
+      "task_id": "5fc36209409f9f02",
+      "seed": 2116,
+      "history_key": "correct_oldest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "C",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-66348a1792a34f8f-2110-error_middle",
+      "task_id": "66348a1792a34f8f",
+      "seed": 2110,
+      "history_key": "error_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-66348a1792a34f8f-2111-correct_middle",
+      "task_id": "66348a1792a34f8f",
+      "seed": 2111,
+      "history_key": "correct_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-66348a1792a34f8f-2112-neutral_full",
+      "task_id": "66348a1792a34f8f",
+      "seed": 2112,
+      "history_key": "neutral_full",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 1,
+      "complete": true,
+      "success": true,
+      "first_success": true
+    },
+    {
+      "trajectory_id": "shared-66348a1792a34f8f-2113-repeated_error",
+      "task_id": "66348a1792a34f8f",
+      "seed": 2113,
+      "history_key": "repeated_error",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-66348a1792a34f8f-2114-correct_latest",
+      "task_id": "66348a1792a34f8f",
+      "seed": 2114,
+      "history_key": "correct_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "C"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-66348a1792a34f8f-2115-delete_latest",
+      "task_id": "66348a1792a34f8f",
+      "seed": 2115,
+      "history_key": "delete_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-66348a1792a34f8f-2116-correct_oldest",
+      "task_id": "66348a1792a34f8f",
+      "seed": 2116,
+      "history_key": "correct_oldest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "C",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-6e3613025375b9b9-2110-error_middle",
+      "task_id": "6e3613025375b9b9",
+      "seed": 2110,
+      "history_key": "error_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-6e3613025375b9b9-2111-correct_middle",
+      "task_id": "6e3613025375b9b9",
+      "seed": 2111,
+      "history_key": "correct_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-6e3613025375b9b9-2112-neutral_full",
+      "task_id": "6e3613025375b9b9",
+      "seed": 2112,
+      "history_key": "neutral_full",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-6e3613025375b9b9-2113-repeated_error",
+      "task_id": "6e3613025375b9b9",
+      "seed": 2113,
+      "history_key": "repeated_error",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": true,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-6e3613025375b9b9-2114-correct_latest",
+      "task_id": "6e3613025375b9b9",
+      "seed": 2114,
+      "history_key": "correct_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "C"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-6e3613025375b9b9-2115-delete_latest",
+      "task_id": "6e3613025375b9b9",
+      "seed": 2115,
+      "history_key": "delete_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-6e3613025375b9b9-2116-correct_oldest",
+      "task_id": "6e3613025375b9b9",
+      "seed": 2116,
+      "history_key": "correct_oldest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "C",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-82d517a0a91ce890-2110-error_middle",
+      "task_id": "82d517a0a91ce890",
+      "seed": 2110,
+      "history_key": "error_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-82d517a0a91ce890-2111-correct_middle",
+      "task_id": "82d517a0a91ce890",
+      "seed": 2111,
+      "history_key": "correct_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 1,
+      "complete": true,
+      "success": true,
+      "first_success": true
+    },
+    {
+      "trajectory_id": "shared-82d517a0a91ce890-2112-neutral_full",
+      "task_id": "82d517a0a91ce890",
+      "seed": 2112,
+      "history_key": "neutral_full",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 1,
+      "complete": true,
+      "success": true,
+      "first_success": true
+    },
+    {
+      "trajectory_id": "shared-82d517a0a91ce890-2113-repeated_error",
+      "task_id": "82d517a0a91ce890",
+      "seed": 2113,
+      "history_key": "repeated_error",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-82d517a0a91ce890-2114-correct_latest",
+      "task_id": "82d517a0a91ce890",
+      "seed": 2114,
+      "history_key": "correct_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "C"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-82d517a0a91ce890-2115-delete_latest",
+      "task_id": "82d517a0a91ce890",
+      "seed": 2115,
+      "history_key": "delete_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-82d517a0a91ce890-2116-correct_oldest",
+      "task_id": "82d517a0a91ce890",
+      "seed": 2116,
+      "history_key": "correct_oldest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "C",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-836aa7b6a7651832-2110-error_middle",
+      "task_id": "836aa7b6a7651832",
+      "seed": 2110,
+      "history_key": "error_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-836aa7b6a7651832-2111-correct_middle",
+      "task_id": "836aa7b6a7651832",
+      "seed": 2111,
+      "history_key": "correct_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-836aa7b6a7651832-2112-neutral_full",
+      "task_id": "836aa7b6a7651832",
+      "seed": 2112,
+      "history_key": "neutral_full",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-836aa7b6a7651832-2113-repeated_error",
+      "task_id": "836aa7b6a7651832",
+      "seed": 2113,
+      "history_key": "repeated_error",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-836aa7b6a7651832-2114-correct_latest",
+      "task_id": "836aa7b6a7651832",
+      "seed": 2114,
+      "history_key": "correct_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "C"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-836aa7b6a7651832-2115-delete_latest",
+      "task_id": "836aa7b6a7651832",
+      "seed": 2115,
+      "history_key": "delete_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-836aa7b6a7651832-2116-correct_oldest",
+      "task_id": "836aa7b6a7651832",
+      "seed": 2116,
+      "history_key": "correct_oldest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "C",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-981acc3de21dbb59-2110-error_middle",
+      "task_id": "981acc3de21dbb59",
+      "seed": 2110,
+      "history_key": "error_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-981acc3de21dbb59-2111-correct_middle",
+      "task_id": "981acc3de21dbb59",
+      "seed": 2111,
+      "history_key": "correct_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 1,
+      "complete": true,
+      "success": true,
+      "first_success": true
+    },
+    {
+      "trajectory_id": "shared-981acc3de21dbb59-2112-neutral_full",
+      "task_id": "981acc3de21dbb59",
+      "seed": 2112,
+      "history_key": "neutral_full",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 1,
+      "complete": true,
+      "success": true,
+      "first_success": true
+    },
+    {
+      "trajectory_id": "shared-981acc3de21dbb59-2113-repeated_error",
+      "task_id": "981acc3de21dbb59",
+      "seed": 2113,
+      "history_key": "repeated_error",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-981acc3de21dbb59-2114-correct_latest",
+      "task_id": "981acc3de21dbb59",
+      "seed": 2114,
+      "history_key": "correct_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "C"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-981acc3de21dbb59-2115-delete_latest",
+      "task_id": "981acc3de21dbb59",
+      "seed": 2115,
+      "history_key": "delete_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-981acc3de21dbb59-2116-correct_oldest",
+      "task_id": "981acc3de21dbb59",
+      "seed": 2116,
+      "history_key": "correct_oldest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "C",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-a6434f28fb75de70-2110-error_middle",
+      "task_id": "a6434f28fb75de70",
+      "seed": 2110,
+      "history_key": "error_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-a6434f28fb75de70-2111-correct_middle",
+      "task_id": "a6434f28fb75de70",
+      "seed": 2111,
+      "history_key": "correct_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 1,
+      "complete": true,
+      "success": true,
+      "first_success": true
+    },
+    {
+      "trajectory_id": "shared-a6434f28fb75de70-2112-neutral_full",
+      "task_id": "a6434f28fb75de70",
+      "seed": 2112,
+      "history_key": "neutral_full",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 1,
+      "complete": true,
+      "success": true,
+      "first_success": true
+    },
+    {
+      "trajectory_id": "shared-a6434f28fb75de70-2113-repeated_error",
+      "task_id": "a6434f28fb75de70",
+      "seed": 2113,
+      "history_key": "repeated_error",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-a6434f28fb75de70-2114-correct_latest",
+      "task_id": "a6434f28fb75de70",
+      "seed": 2114,
+      "history_key": "correct_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "C"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-a6434f28fb75de70-2115-delete_latest",
+      "task_id": "a6434f28fb75de70",
+      "seed": 2115,
+      "history_key": "delete_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-a6434f28fb75de70-2116-correct_oldest",
+      "task_id": "a6434f28fb75de70",
+      "seed": 2116,
+      "history_key": "correct_oldest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "C",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-a6a9a4f9e971d730-2110-error_middle",
+      "task_id": "a6a9a4f9e971d730",
+      "seed": 2110,
+      "history_key": "error_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-a6a9a4f9e971d730-2111-correct_middle",
+      "task_id": "a6a9a4f9e971d730",
+      "seed": 2111,
+      "history_key": "correct_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-a6a9a4f9e971d730-2112-neutral_full",
+      "task_id": "a6a9a4f9e971d730",
+      "seed": 2112,
+      "history_key": "neutral_full",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-a6a9a4f9e971d730-2113-repeated_error",
+      "task_id": "a6a9a4f9e971d730",
+      "seed": 2113,
+      "history_key": "repeated_error",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-a6a9a4f9e971d730-2114-correct_latest",
+      "task_id": "a6a9a4f9e971d730",
+      "seed": 2114,
+      "history_key": "correct_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "C"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-a6a9a4f9e971d730-2115-delete_latest",
+      "task_id": "a6a9a4f9e971d730",
+      "seed": 2115,
+      "history_key": "delete_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-a6a9a4f9e971d730-2116-correct_oldest",
+      "task_id": "a6a9a4f9e971d730",
+      "seed": 2116,
+      "history_key": "correct_oldest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "C",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-b268d0a4b6a9f769-2110-error_middle",
+      "task_id": "b268d0a4b6a9f769",
+      "seed": 2110,
+      "history_key": "error_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-b268d0a4b6a9f769-2111-correct_middle",
+      "task_id": "b268d0a4b6a9f769",
+      "seed": 2111,
+      "history_key": "correct_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": true,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-b268d0a4b6a9f769-2112-neutral_full",
+      "task_id": "b268d0a4b6a9f769",
+      "seed": 2112,
+      "history_key": "neutral_full",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-b268d0a4b6a9f769-2113-repeated_error",
+      "task_id": "b268d0a4b6a9f769",
+      "seed": 2113,
+      "history_key": "repeated_error",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-b268d0a4b6a9f769-2114-correct_latest",
+      "task_id": "b268d0a4b6a9f769",
+      "seed": 2114,
+      "history_key": "correct_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "C"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-b268d0a4b6a9f769-2115-delete_latest",
+      "task_id": "b268d0a4b6a9f769",
+      "seed": 2115,
+      "history_key": "delete_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-b268d0a4b6a9f769-2116-correct_oldest",
+      "task_id": "b268d0a4b6a9f769",
+      "seed": 2116,
+      "history_key": "correct_oldest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "C",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-b6f17dd2908f742a-2110-error_middle",
+      "task_id": "b6f17dd2908f742a",
+      "seed": 2110,
+      "history_key": "error_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-b6f17dd2908f742a-2111-correct_middle",
+      "task_id": "b6f17dd2908f742a",
+      "seed": 2111,
+      "history_key": "correct_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-b6f17dd2908f742a-2112-neutral_full",
+      "task_id": "b6f17dd2908f742a",
+      "seed": 2112,
+      "history_key": "neutral_full",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 1,
+      "complete": true,
+      "success": true,
+      "first_success": true
+    },
+    {
+      "trajectory_id": "shared-b6f17dd2908f742a-2113-repeated_error",
+      "task_id": "b6f17dd2908f742a",
+      "seed": 2113,
+      "history_key": "repeated_error",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-b6f17dd2908f742a-2114-correct_latest",
+      "task_id": "b6f17dd2908f742a",
+      "seed": 2114,
+      "history_key": "correct_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "C"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-b6f17dd2908f742a-2115-delete_latest",
+      "task_id": "b6f17dd2908f742a",
+      "seed": 2115,
+      "history_key": "delete_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-b6f17dd2908f742a-2116-correct_oldest",
+      "task_id": "b6f17dd2908f742a",
+      "seed": 2116,
+      "history_key": "correct_oldest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "C",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-be945adadf8d8508-2110-error_middle",
+      "task_id": "be945adadf8d8508",
+      "seed": 2110,
+      "history_key": "error_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-be945adadf8d8508-2111-correct_middle",
+      "task_id": "be945adadf8d8508",
+      "seed": 2111,
+      "history_key": "correct_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 1,
+      "complete": true,
+      "success": true,
+      "first_success": true
+    },
+    {
+      "trajectory_id": "shared-be945adadf8d8508-2112-neutral_full",
+      "task_id": "be945adadf8d8508",
+      "seed": 2112,
+      "history_key": "neutral_full",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 1,
+      "complete": true,
+      "success": true,
+      "first_success": true
+    },
+    {
+      "trajectory_id": "shared-be945adadf8d8508-2113-repeated_error",
+      "task_id": "be945adadf8d8508",
+      "seed": 2113,
+      "history_key": "repeated_error",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-be945adadf8d8508-2114-correct_latest",
+      "task_id": "be945adadf8d8508",
+      "seed": 2114,
+      "history_key": "correct_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "C"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-be945adadf8d8508-2115-delete_latest",
+      "task_id": "be945adadf8d8508",
+      "seed": 2115,
+      "history_key": "delete_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-be945adadf8d8508-2116-correct_oldest",
+      "task_id": "be945adadf8d8508",
+      "seed": 2116,
+      "history_key": "correct_oldest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "C",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-cc65a5c3be2ea945-2110-error_middle",
+      "task_id": "cc65a5c3be2ea945",
+      "seed": 2110,
+      "history_key": "error_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-cc65a5c3be2ea945-2111-correct_middle",
+      "task_id": "cc65a5c3be2ea945",
+      "seed": 2111,
+      "history_key": "correct_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-cc65a5c3be2ea945-2112-neutral_full",
+      "task_id": "cc65a5c3be2ea945",
+      "seed": 2112,
+      "history_key": "neutral_full",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-cc65a5c3be2ea945-2113-repeated_error",
+      "task_id": "cc65a5c3be2ea945",
+      "seed": 2113,
+      "history_key": "repeated_error",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-cc65a5c3be2ea945-2114-correct_latest",
+      "task_id": "cc65a5c3be2ea945",
+      "seed": 2114,
+      "history_key": "correct_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "C"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-cc65a5c3be2ea945-2115-delete_latest",
+      "task_id": "cc65a5c3be2ea945",
+      "seed": 2115,
+      "history_key": "delete_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-cc65a5c3be2ea945-2116-correct_oldest",
+      "task_id": "cc65a5c3be2ea945",
+      "seed": 2116,
+      "history_key": "correct_oldest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "C",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-cffcb3e0a9e707e7-2110-error_middle",
+      "task_id": "cffcb3e0a9e707e7",
+      "seed": 2110,
+      "history_key": "error_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 1,
+      "complete": true,
+      "success": true,
+      "first_success": true
+    },
+    {
+      "trajectory_id": "shared-cffcb3e0a9e707e7-2111-correct_middle",
+      "task_id": "cffcb3e0a9e707e7",
+      "seed": 2111,
+      "history_key": "correct_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": true,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-cffcb3e0a9e707e7-2112-neutral_full",
+      "task_id": "cffcb3e0a9e707e7",
+      "seed": 2112,
+      "history_key": "neutral_full",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 1,
+      "complete": true,
+      "success": true,
+      "first_success": true
+    },
+    {
+      "trajectory_id": "shared-cffcb3e0a9e707e7-2113-repeated_error",
+      "task_id": "cffcb3e0a9e707e7",
+      "seed": 2113,
+      "history_key": "repeated_error",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 1,
+      "complete": true,
+      "success": true,
+      "first_success": true
+    },
+    {
+      "trajectory_id": "shared-cffcb3e0a9e707e7-2114-correct_latest",
+      "task_id": "cffcb3e0a9e707e7",
+      "seed": 2114,
+      "history_key": "correct_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "C"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-cffcb3e0a9e707e7-2115-delete_latest",
+      "task_id": "cffcb3e0a9e707e7",
+      "seed": 2115,
+      "history_key": "delete_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": true,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-cffcb3e0a9e707e7-2116-correct_oldest",
+      "task_id": "cffcb3e0a9e707e7",
+      "seed": 2116,
+      "history_key": "correct_oldest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "C",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-d327a5b6831def66-2110-error_middle",
+      "task_id": "d327a5b6831def66",
+      "seed": 2110,
+      "history_key": "error_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-d327a5b6831def66-2111-correct_middle",
+      "task_id": "d327a5b6831def66",
+      "seed": 2111,
+      "history_key": "correct_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 1,
+      "complete": true,
+      "success": true,
+      "first_success": true
+    },
+    {
+      "trajectory_id": "shared-d327a5b6831def66-2112-neutral_full",
+      "task_id": "d327a5b6831def66",
+      "seed": 2112,
+      "history_key": "neutral_full",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-d327a5b6831def66-2113-repeated_error",
+      "task_id": "d327a5b6831def66",
+      "seed": 2113,
+      "history_key": "repeated_error",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-d327a5b6831def66-2114-correct_latest",
+      "task_id": "d327a5b6831def66",
+      "seed": 2114,
+      "history_key": "correct_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "C"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-d327a5b6831def66-2115-delete_latest",
+      "task_id": "d327a5b6831def66",
+      "seed": 2115,
+      "history_key": "delete_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-d327a5b6831def66-2116-correct_oldest",
+      "task_id": "d327a5b6831def66",
+      "seed": 2116,
+      "history_key": "correct_oldest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "C",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-e35a7ab664a30526-2110-error_middle",
+      "task_id": "e35a7ab664a30526",
+      "seed": 2110,
+      "history_key": "error_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-e35a7ab664a30526-2111-correct_middle",
+      "task_id": "e35a7ab664a30526",
+      "seed": 2111,
+      "history_key": "correct_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 1,
+      "complete": true,
+      "success": true,
+      "first_success": true
+    },
+    {
+      "trajectory_id": "shared-e35a7ab664a30526-2112-neutral_full",
+      "task_id": "e35a7ab664a30526",
+      "seed": 2112,
+      "history_key": "neutral_full",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 1,
+      "complete": true,
+      "success": true,
+      "first_success": true
+    },
+    {
+      "trajectory_id": "shared-e35a7ab664a30526-2113-repeated_error",
+      "task_id": "e35a7ab664a30526",
+      "seed": 2113,
+      "history_key": "repeated_error",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-e35a7ab664a30526-2114-correct_latest",
+      "task_id": "e35a7ab664a30526",
+      "seed": 2114,
+      "history_key": "correct_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "C"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": true,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-e35a7ab664a30526-2115-delete_latest",
+      "task_id": "e35a7ab664a30526",
+      "seed": 2115,
+      "history_key": "delete_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-e35a7ab664a30526-2116-correct_oldest",
+      "task_id": "e35a7ab664a30526",
+      "seed": 2116,
+      "history_key": "correct_oldest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "C",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-e4eb1c6225ea097a-2110-error_middle",
+      "task_id": "e4eb1c6225ea097a",
+      "seed": 2110,
+      "history_key": "error_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-e4eb1c6225ea097a-2111-correct_middle",
+      "task_id": "e4eb1c6225ea097a",
+      "seed": 2111,
+      "history_key": "correct_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-e4eb1c6225ea097a-2112-neutral_full",
+      "task_id": "e4eb1c6225ea097a",
+      "seed": 2112,
+      "history_key": "neutral_full",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-e4eb1c6225ea097a-2113-repeated_error",
+      "task_id": "e4eb1c6225ea097a",
+      "seed": 2113,
+      "history_key": "repeated_error",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-e4eb1c6225ea097a-2114-correct_latest",
+      "task_id": "e4eb1c6225ea097a",
+      "seed": 2114,
+      "history_key": "correct_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "C"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": true,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-e4eb1c6225ea097a-2115-delete_latest",
+      "task_id": "e4eb1c6225ea097a",
+      "seed": 2115,
+      "history_key": "delete_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-e4eb1c6225ea097a-2116-correct_oldest",
+      "task_id": "e4eb1c6225ea097a",
+      "seed": 2116,
+      "history_key": "correct_oldest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "C",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-e5877206d35fec78-2110-error_middle",
+      "task_id": "e5877206d35fec78",
+      "seed": 2110,
+      "history_key": "error_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-e5877206d35fec78-2111-correct_middle",
+      "task_id": "e5877206d35fec78",
+      "seed": 2111,
+      "history_key": "correct_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 1,
+      "complete": true,
+      "success": true,
+      "first_success": true
+    },
+    {
+      "trajectory_id": "shared-e5877206d35fec78-2112-neutral_full",
+      "task_id": "e5877206d35fec78",
+      "seed": 2112,
+      "history_key": "neutral_full",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 1,
+      "complete": true,
+      "success": true,
+      "first_success": true
+    },
+    {
+      "trajectory_id": "shared-e5877206d35fec78-2113-repeated_error",
+      "task_id": "e5877206d35fec78",
+      "seed": 2113,
+      "history_key": "repeated_error",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 1,
+      "complete": true,
+      "success": true,
+      "first_success": true
+    },
+    {
+      "trajectory_id": "shared-e5877206d35fec78-2114-correct_latest",
+      "task_id": "e5877206d35fec78",
+      "seed": 2114,
+      "history_key": "correct_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "C"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 1,
+      "complete": true,
+      "success": true,
+      "first_success": true
+    },
+    {
+      "trajectory_id": "shared-e5877206d35fec78-2115-delete_latest",
+      "task_id": "e5877206d35fec78",
+      "seed": 2115,
+      "history_key": "delete_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-e5877206d35fec78-2116-correct_oldest",
+      "task_id": "e5877206d35fec78",
+      "seed": 2116,
+      "history_key": "correct_oldest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "C",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-e9c845d18fc5fbba-2110-error_middle",
+      "task_id": "e9c845d18fc5fbba",
+      "seed": 2110,
+      "history_key": "error_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": true,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-e9c845d18fc5fbba-2111-correct_middle",
+      "task_id": "e9c845d18fc5fbba",
+      "seed": 2111,
+      "history_key": "correct_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-e9c845d18fc5fbba-2112-neutral_full",
+      "task_id": "e9c845d18fc5fbba",
+      "seed": 2112,
+      "history_key": "neutral_full",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-e9c845d18fc5fbba-2113-repeated_error",
+      "task_id": "e9c845d18fc5fbba",
+      "seed": 2113,
+      "history_key": "repeated_error",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-e9c845d18fc5fbba-2114-correct_latest",
+      "task_id": "e9c845d18fc5fbba",
+      "seed": 2114,
+      "history_key": "correct_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "C"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-e9c845d18fc5fbba-2115-delete_latest",
+      "task_id": "e9c845d18fc5fbba",
+      "seed": 2115,
+      "history_key": "delete_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-e9c845d18fc5fbba-2116-correct_oldest",
+      "task_id": "e9c845d18fc5fbba",
+      "seed": 2116,
+      "history_key": "correct_oldest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "C",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-f4952ddb098787de-2110-error_middle",
+      "task_id": "f4952ddb098787de",
+      "seed": 2110,
+      "history_key": "error_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-f4952ddb098787de-2111-correct_middle",
+      "task_id": "f4952ddb098787de",
+      "seed": 2111,
+      "history_key": "correct_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 1,
+      "complete": true,
+      "success": true,
+      "first_success": true
+    },
+    {
+      "trajectory_id": "shared-f4952ddb098787de-2112-neutral_full",
+      "task_id": "f4952ddb098787de",
+      "seed": 2112,
+      "history_key": "neutral_full",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 1,
+      "complete": true,
+      "success": true,
+      "first_success": true
+    },
+    {
+      "trajectory_id": "shared-f4952ddb098787de-2113-repeated_error",
+      "task_id": "f4952ddb098787de",
+      "seed": 2113,
+      "history_key": "repeated_error",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-f4952ddb098787de-2114-correct_latest",
+      "task_id": "f4952ddb098787de",
+      "seed": 2114,
+      "history_key": "correct_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "C"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-f4952ddb098787de-2115-delete_latest",
+      "task_id": "f4952ddb098787de",
+      "seed": 2115,
+      "history_key": "delete_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-f4952ddb098787de-2116-correct_oldest",
+      "task_id": "f4952ddb098787de",
+      "seed": 2116,
+      "history_key": "correct_oldest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "C",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-f7bddaf300b8a61b-2110-error_middle",
+      "task_id": "f7bddaf300b8a61b",
+      "seed": 2110,
+      "history_key": "error_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-f7bddaf300b8a61b-2111-correct_middle",
+      "task_id": "f7bddaf300b8a61b",
+      "seed": 2111,
+      "history_key": "correct_middle",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "C",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 1,
+      "complete": true,
+      "success": true,
+      "first_success": true
+    },
+    {
+      "trajectory_id": "shared-f7bddaf300b8a61b-2112-neutral_full",
+      "task_id": "f7bddaf300b8a61b",
+      "seed": 2112,
+      "history_key": "neutral_full",
+      "operation": "initial_state",
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-f7bddaf300b8a61b-2113-repeated_error",
+      "task_id": "f7bddaf300b8a61b",
+      "seed": 2113,
+      "history_key": "repeated_error",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-f7bddaf300b8a61b-2114-correct_latest",
+      "task_id": "f7bddaf300b8a61b",
+      "seed": 2114,
+      "history_key": "correct_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N",
+        "C"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-f7bddaf300b8a61b-2115-delete_latest",
+      "task_id": "f7bddaf300b8a61b",
+      "seed": 2115,
+      "history_key": "delete_latest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "E",
+        "N"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    },
+    {
+      "trajectory_id": "shared-f7bddaf300b8a61b-2116-correct_oldest",
+      "task_id": "f7bddaf300b8a61b",
+      "seed": 2116,
+      "history_key": "correct_oldest",
+      "operation": "initial_state",
+      "initial_labels": [
+        "C",
+        "N",
+        "E"
+      ],
+      "max_attempts": 2,
+      "attempts_completed": 2,
+      "complete": true,
+      "success": false,
+      "first_success": false
+    }
+  ],
+  "sha256": "ea0cc0461172a9d21139f47739cfee4b93c86253bfdcde8d9d730e8638c5c150"
+}

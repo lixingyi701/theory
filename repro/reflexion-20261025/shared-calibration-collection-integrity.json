@@ -1,0 +1,34 @@
+{
+  "all_calls": 64027,
+  "all_responses": 64027,
+  "artifacts": {
+    "action-shapes.json": "606300d62ad2aa699c1e7f7f438eb1da9b04e331211f7e530898b2f5aba77045",
+    "contract.json": "9b68fd0b5905d1deafaeb6e76e2940f347f1d4adeb7e3af061a8525bae58381c",
+    "protocol-audit.json": "198adbacd5c49450b0577df3142ec90eff79468ee035861b1274cbead930698e",
+    "raw-events.json": "5257875bc69fb2b728fceba3877f8abe44159c1aed11911eb7405d2461ba3d18",
+    "replica-audit.json": "16439e50ba4b2c80b9740725360146aa3e335615a3660a5fd3b7752cab081501",
+    "run.json": "78a07e2d0c0e5d11b98621ba7caea63d82fdaf45889b9e684ec5803ae8f8f5d2",
+    "summary.json": "095236001a5c610179ca31c5f23f15d96b4a224d04d5d7fdbb903a58a3872f1c"
+  },
+  "attempts_completed": 463,
+  "collection_elapsed_seconds": 8616.023042678833,
+  "completed_trajectories": 252,
+  "completed_unix": 1792894782.9399638,
+  "corrected_postcollection_invocation": "Action-shape auditor is called with the required installed-grammar argument; sampling sources and raw results unchanged",
+  "costs_incremental": {
+    "dispatched_calls": 19088,
+    "input_tokens_known": 49238909,
+    "output_tokens_known": 632552,
+    "saved_responses": 19088,
+    "truncated_responses": 7,
+    "uncertain_or_unrecorded_attempts": 0,
+    "usage_missing_responses": 0
+  },
+  "freeze_commit": "513a93173d14f3ae4f04c836577e7bf0bacdc148",
+  "holdout_model_calls": 0,
+  "postprocessor_sha256": "39e86fedd4d98c58a2856608e66a089a467f2353c9db0980a22e897400cb0fdd",
+  "protocol_sha256": "76f72365df608dbaee5d35852ba7babb82a11040b8e11dbf606278d6f3395d78",
+  "reserved_validation_model_calls": 0,
+  "scope": "Collection integrity complete; semantic review and model fitting pending",
+  "sha256": "a8e5c94144b2a9a58dbb53e6dc8a895ca3878d8a08fed9408e91cbade03b41d4"
+}
