@@ -1,0 +1,4869 @@
+{
+  "FloorPlan26_per_condition": [
+    {
+      "condition": "error_middle",
+      "n": 6,
+      "two_budget_brier_gain": 0.004641546020801304,
+      "two_successes": 1
+    },
+    {
+      "condition": "correct_middle",
+      "n": 6,
+      "two_budget_brier_gain": -0.019247132994377174,
+      "two_successes": 2
+    },
+    {
+      "condition": "neutral_full",
+      "n": 6,
+      "two_budget_brier_gain": -0.019247132994377174,
+      "two_successes": 2
+    },
+    {
+      "condition": "repeated_error",
+      "n": 6,
+      "two_budget_brier_gain": 0.04740578430560415,
+      "two_successes": 0
+    },
+    {
+      "condition": "correct_latest",
+      "n": 6,
+      "two_budget_brier_gain": -0.010920012798591998,
+      "two_successes": 3
+    },
+    {
+      "condition": "delete_latest",
+      "n": 6,
+      "two_budget_brier_gain": -0.0828520002609997,
+      "two_successes": 3
+    },
+    {
+      "condition": "correct_oldest",
+      "n": 6,
+      "two_budget_brier_gain": 0.004368022902178116,
+      "two_successes": 1
+    }
+  ],
+  "case_interpretation": "Every selected successful deletion trace retains old E, omits putting its target in the microwave, then executes successful heat; text presence is not deterministic behavioral adoption",
+  "frozen_results_sha256": "aa1ad8aa8215ed2c41e7178778e67fcf88ed8b02fa23cb68d53ce3c8622a3af2",
+  "human_second_review": false,
+  "labels_sha256": "4ba9cc69ad097aa80855f97a35caad484309f8bbf78180c62a64d15a4f59115a",
+  "manifest_sha256": "7a6851a139e4c32fc1a9ecac8d5b0c89f6b8a6a2d09d963e03ba15a4d050c299",
+  "new_model_calls": 0,
+  "parameter_refits": 0,
+  "parameters_sha256": "4826508a8a850c983bdd10a91dae065ed544674e7b9c8bc8bd6fa4a6fb9778b5",
+  "per_condition": {
+    "correct_latest": {
+      "category_counts": {
+        "A": 3,
+        "B": 4,
+        "C": 1,
+        "E": 34,
+        "U": 11
+      },
+      "conditional_expected_second_successes": 7.353606090962172,
+      "first_failure_texts": 53,
+      "frozen_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "second_successes": 9,
+      "selection_scope": "All first failures in this condition",
+      "successes_by_new_category": {
+        "A": {
+          "n": 3,
+          "successes": 1
+        },
+        "B": {
+          "n": 4,
+          "successes": 0
+        },
+        "C": {
+          "n": 1,
+          "successes": 1
+        },
+        "E": {
+          "n": 34,
+          "successes": 4
+        },
+        "U": {
+          "n": 11,
+          "successes": 3
+        }
+      }
+    },
+    "correct_middle": {
+      "category_counts": {
+        "C": 1,
+        "E": 2,
+        "U": 2
+      },
+      "conditional_expected_second_successes": 1.030145820999405,
+      "first_failure_texts": 5,
+      "frozen_write_probabilities": {
+        "A": 0.0691261958648232,
+        "B": 0.06284473439519554,
+        "C": 0.09069226620512813,
+        "E": 0.4599978326640212,
+        "U": 0.31733897087083196
+      },
+      "second_successes": 1,
+      "selection_scope": "FloorPlan26 first failures only",
+      "successes_by_new_category": {
+        "A": {
+          "n": 0,
+          "successes": 0
+        },
+        "B": {
+          "n": 0,
+          "successes": 0
+        },
+        "C": {
+          "n": 1,
+          "successes": 0
+        },
+        "E": {
+          "n": 2,
+          "successes": 0
+        },
+        "U": {
+          "n": 2,
+          "successes": 1
+        }
+      }
+    },
+    "correct_oldest": {
+      "category_counts": {
+        "E": 4,
+        "U": 2
+      },
+      "conditional_expected_second_successes": 0.34054241675739294,
+      "first_failure_texts": 6,
+      "frozen_write_probabilities": {
+        "A": 0.021561255627626466,
+        "B": 0.020306830412077637,
+        "C": 0.010518304907331574,
+        "E": 0.8630147757063396,
+        "U": 0.08459883334662471
+      },
+      "second_successes": 1,
+      "selection_scope": "FloorPlan26 first failures only",
+      "successes_by_new_category": {
+        "A": {
+          "n": 0,
+          "successes": 0
+        },
+        "B": {
+          "n": 0,
+          "successes": 0
+        },
+        "C": {
+          "n": 0,
+          "successes": 0
+        },
+        "E": {
+          "n": 4,
+          "successes": 1
+        },
+        "U": {
+          "n": 2,
+          "successes": 0
+        }
+      }
+    },
+    "delete_latest": {
+      "category_counts": {
+        "A": 6,
+        "B": 1,
+        "E": 31,
+        "U": 15
+      },
+      "conditional_expected_second_successes": 3.0335038431395684,
+      "first_failure_texts": 53,
+      "frozen_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "second_successes": 7,
+      "selection_scope": "All first failures in this condition",
+      "successes_by_new_category": {
+        "A": {
+          "n": 6,
+          "successes": 2
+        },
+        "B": {
+          "n": 1,
+          "successes": 1
+        },
+        "C": {
+          "n": 0,
+          "successes": 0
+        },
+        "E": {
+          "n": 31,
+          "successes": 2
+        },
+        "U": {
+          "n": 15,
+          "successes": 2
+        }
+      }
+    },
+    "error_middle": {
+      "category_counts": {
+        "E": 4,
+        "U": 2
+      },
+      "conditional_expected_second_successes": 0.3444464932628442,
+      "first_failure_texts": 6,
+      "frozen_write_probabilities": {
+        "A": 0.03286770504539948,
+        "B": 0.028851805091800912,
+        "C": 0.02556210634136868,
+        "E": 0.7506423459679975,
+        "U": 0.16207603755343344
+      },
+      "second_successes": 1,
+      "selection_scope": "FloorPlan26 first failures only",
+      "successes_by_new_category": {
+        "A": {
+          "n": 0,
+          "successes": 0
+        },
+        "B": {
+          "n": 0,
+          "successes": 0
+        },
+        "C": {
+          "n": 0,
+          "successes": 0
+        },
+        "E": {
+          "n": 4,
+          "successes": 1
+        },
+        "U": {
+          "n": 2,
+          "successes": 0
+        }
+      }
+    },
+    "neutral_full": {
+      "category_counts": {
+        "E": 2,
+        "U": 3
+      },
+      "conditional_expected_second_successes": 1.030145820999405,
+      "first_failure_texts": 5,
+      "frozen_write_probabilities": {
+        "A": 0.0691261958648232,
+        "B": 0.06284473439519554,
+        "C": 0.09069226620512813,
+        "E": 0.4599978326640212,
+        "U": 0.31733897087083196
+      },
+      "second_successes": 1,
+      "selection_scope": "FloorPlan26 first failures only",
+      "successes_by_new_category": {
+        "A": {
+          "n": 0,
+          "successes": 0
+        },
+        "B": {
+          "n": 0,
+          "successes": 0
+        },
+        "C": {
+          "n": 0,
+          "successes": 0
+        },
+        "E": {
+          "n": 2,
+          "successes": 0
+        },
+        "U": {
+          "n": 3,
+          "successes": 1
+        }
+      }
+    },
+    "repeated_error": {
+      "category_counts": {
+        "E": 4,
+        "U": 2
+      },
+      "conditional_expected_second_successes": 0.34054241675739294,
+      "first_failure_texts": 6,
+      "frozen_write_probabilities": {
+        "A": 0.021561255627626466,
+        "B": 0.020306830412077637,
+        "C": 0.010518304907331574,
+        "E": 0.8630147757063396,
+        "U": 0.08459883334662471
+      },
+      "second_successes": 0,
+      "selection_scope": "FloorPlan26 first failures only",
+      "successes_by_new_category": {
+        "A": {
+          "n": 0,
+          "successes": 0
+        },
+        "B": {
+          "n": 0,
+          "successes": 0
+        },
+        "C": {
+          "n": 0,
+          "successes": 0
+        },
+        "E": {
+          "n": 4,
+          "successes": 0
+        },
+        "U": {
+          "n": 2,
+          "successes": 0
+        }
+      }
+    }
+  },
+  "rows": [
+    {
+      "category": "E",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.05578166222127254,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 0,
+      "reflection_sha256": "6cf3ab9aca33371c40bf9b9a0af2a228f553670b536a660a92b0a1d8571cf449",
+      "result_file_sha256": "8b40e00f0473b9020f9a1d7b27b666f76023c49b1e5b9d4fb192fbbe1f59efb3",
+      "scene_id": "FloorPlan11",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "006b6d0e168bbe3e",
+      "trajectory_id": "validation-006b6d0e168bbe3e-2124-correct_latest"
+    },
+    {
+      "category": "E",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.056116401986542414,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 1,
+      "reflection_sha256": "0955d7949053d5aac3968d0b7789ae20d12258d915376f5a48c7b78046fd14c9",
+      "result_file_sha256": "4679aa1d43f2443db928784ae44459338b18cd36f6edb9dded014e53090be4a6",
+      "scene_id": "FloorPlan11",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "006b6d0e168bbe3e",
+      "trajectory_id": "validation-006b6d0e168bbe3e-2125-delete_latest"
+    },
+    {
+      "category": "E",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.05578166222127254,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 2,
+      "reflection_sha256": "9a2d58b92cd2d875d6e58ac776198c314011bfa5f1e0bed4d8411ee35e54a267",
+      "result_file_sha256": "21eb96dcf1a99695cedbb3f1571a3eee81f192e2bc5b7d414d4cdbbe49bbd134",
+      "scene_id": "FloorPlan28",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "0ce27d7c3bf6657a",
+      "trajectory_id": "validation-0ce27d7c3bf6657a-2124-correct_latest"
+    },
+    {
+      "category": "E",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.056116401986542414,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 3,
+      "reflection_sha256": "9ff4a033d2531d55fc16235f813e66aaa2069f9508d111d325c7c53d8359c2d7",
+      "result_file_sha256": "3c91ac69f1b7ebf1aef57e078317aa42df67197c6fbfee74a589883a3687998e",
+      "scene_id": "FloorPlan28",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "0ce27d7c3bf6657a",
+      "trajectory_id": "validation-0ce27d7c3bf6657a-2125-delete_latest"
+    },
+    {
+      "category": "E",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.05578166222127254,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 4,
+      "reflection_sha256": "559a2fae962be7a8285d3a0ce889a6bb1de6f14c8f15c60902ea8b4485b7cc4a",
+      "result_file_sha256": "5bc7839da19beafaa0d19234ceb5f11a37130afe087b00a07ecbebf4190759d6",
+      "scene_id": "FloorPlan5",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "16bb43c63f462d60",
+      "trajectory_id": "validation-16bb43c63f462d60-2124-correct_latest"
+    },
+    {
+      "category": "E",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.056116401986542414,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 5,
+      "reflection_sha256": "f62138111091de5a829115d87ef45fa46033cf23fee128516cb499e93f1f4c3a",
+      "result_file_sha256": "f3aee0f7f0786aab7f4aa28c646fd16f20803ff2a23cdd5500fef4fbc5faa0ba",
+      "scene_id": "FloorPlan5",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "16bb43c63f462d60",
+      "trajectory_id": "validation-16bb43c63f462d60-2125-delete_latest"
+    },
+    {
+      "category": "E",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.05578166222127254,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 6,
+      "reflection_sha256": "696c3653bbc81cf16519ea5d41f514b7b40f6b95dea5801f2729c981f50162d6",
+      "result_file_sha256": "69bce84909e13af9ced18cc5d2a3325d08eba712eb8bbd677fec93bc897e1727",
+      "scene_id": "FloorPlan5",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "1b45779902b4815a",
+      "trajectory_id": "validation-1b45779902b4815a-2124-correct_latest"
+    },
+    {
+      "category": "E",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.056116401986542414,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 7,
+      "reflection_sha256": "30bdffff698492e803a842c2f0e091b2a692a13d0bf6861ba1e56099ccffff47",
+      "result_file_sha256": "43c02b35ac64254f04ac7098560a0753b5f28b4a88daeab16978cc3ef8ad1376",
+      "scene_id": "FloorPlan5",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "1b45779902b4815a",
+      "trajectory_id": "validation-1b45779902b4815a-2125-delete_latest"
+    },
+    {
+      "category": "E",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.05578166222127254,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 8,
+      "reflection_sha256": "3af502aad2b5451d7fb8aa867ce508216b6585703a68c65f4b182538d40f6f5b",
+      "result_file_sha256": "4ad555d3a71c8e63fa0f4530de0a2aaa1e039165a2f240306402b1229e7e79e0",
+      "scene_id": "FloorPlan14",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "22033e71aa9caeac",
+      "trajectory_id": "validation-22033e71aa9caeac-2124-correct_latest"
+    },
+    {
+      "category": "A",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.054659189916450406,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 9,
+      "reflection_sha256": "c4a4db126a7db3116a03f70294bebaa3536a26f3c003faf7ebb318c16e0a6cc6",
+      "result_file_sha256": "e7de47536cea5af612fcaa169cb4505cd336cdc7dd324a6aac3b934543e75023",
+      "scene_id": "FloorPlan14",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "A"
+        }
+      ],
+      "task_id": "22033e71aa9caeac",
+      "trajectory_id": "validation-22033e71aa9caeac-2125-delete_latest"
+    },
+    {
+      "category": "U",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.3534908391212377,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 10,
+      "reflection_sha256": "fe9d18a026135d0535a310d43b65abca97486fae5f820712dd6e7c05283b0547",
+      "result_file_sha256": "5cfd0329030cabdb80323bcf955b3d9b6aaedae962208b82e4018da7b262fdbd",
+      "scene_id": "FloorPlan14",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "task_id": "236aaf5ef31227f8",
+      "trajectory_id": "validation-236aaf5ef31227f8-2124-correct_latest"
+    },
+    {
+      "category": "U",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.06065492267143381,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 11,
+      "reflection_sha256": "8ed5106cbeb8cd99e1dc512251d9e9c46dd2f9da2a2604544883d032e86eb795",
+      "result_file_sha256": "275e522292139b97b717fba3102197908b3e30267a2ebfe077f1057e89ea8c3f",
+      "scene_id": "FloorPlan14",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "task_id": "236aaf5ef31227f8",
+      "trajectory_id": "validation-236aaf5ef31227f8-2125-delete_latest"
+    },
+    {
+      "category": "E",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.05578166222127254,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 12,
+      "reflection_sha256": "5a63cf79413a486cd9e010c4c58f3952fb4f5bae8dc8b2de265a9d88faf4d8dd",
+      "result_file_sha256": "dc35b76759dd40ba1444c7442700dab43f172e9560fcc0a0fec37435bb91eb60",
+      "scene_id": "FloorPlan14",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "28beec6d67fe49f6",
+      "trajectory_id": "validation-28beec6d67fe49f6-2124-correct_latest"
+    },
+    {
+      "category": "E",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.056116401986542414,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 13,
+      "reflection_sha256": "cee783d23b303381f316617e1086e6dd4cd6947ae4967d6c6c2a5ad6c82692da",
+      "result_file_sha256": "d3857324d8612e428daf8e68517170c1f98e06fc1b8e183ec10c8cd095455e30",
+      "scene_id": "FloorPlan14",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "28beec6d67fe49f6",
+      "trajectory_id": "validation-28beec6d67fe49f6-2125-delete_latest"
+    },
+    {
+      "category": "E",
+      "condition": "error_middle",
+      "conditional_second_probability": 0.055900066079089226,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03286770504539948,
+        "B": 0.028851805091800912,
+        "C": 0.02556210634136868,
+        "E": 0.7506423459679975,
+        "U": 0.16207603755343344
+      },
+      "index": 14,
+      "reflection_sha256": "33b01cabe8b65d113171017d10a658b9beb09742755d7ee7d403668cb07310d7",
+      "result_file_sha256": "77e3bcd2c8b97ad7b0863923a643f38c9af421e79c184f1607833b04291cb399",
+      "scene_id": "FloorPlan26",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "29872397cb550b1d",
+      "trajectory_id": "validation-29872397cb550b1d-2120-error_middle"
+    },
+    {
+      "category": "C",
+      "condition": "correct_middle",
+      "conditional_second_probability": 0.3134359941968569,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.0691261958648232,
+        "B": 0.06284473439519554,
+        "C": 0.09069226620512813,
+        "E": 0.4599978326640212,
+        "U": 0.31733897087083196
+      },
+      "index": 15,
+      "reflection_sha256": "f6299336e7a59cdb1b3822b3a3afaa40ad3c3689f8f0e7c3e7bfba6064539cd1",
+      "result_file_sha256": "b7dfb392007bd3ed58273b02d103b55b55c577fde499e7dd4a35920bacf8bdf0",
+      "scene_id": "FloorPlan26",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "C"
+        }
+      ],
+      "task_id": "29872397cb550b1d",
+      "trajectory_id": "validation-29872397cb550b1d-2121-correct_middle"
+    },
+    {
+      "category": "E",
+      "condition": "neutral_full",
+      "conditional_second_probability": 0.04491891920441724,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.0691261958648232,
+        "B": 0.06284473439519554,
+        "C": 0.09069226620512813,
+        "E": 0.4599978326640212,
+        "U": 0.31733897087083196
+      },
+      "index": 16,
+      "reflection_sha256": "9e157c47cd39a07e0e131acad8eb4c904e467b9223b44841a48b6ae464b8cb73",
+      "result_file_sha256": "ef59ab6deacaba8a21253a3d4d324bb085ecda1273c9a47b8ea622da35917481",
+      "scene_id": "FloorPlan26",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "29872397cb550b1d",
+      "trajectory_id": "validation-29872397cb550b1d-2122-neutral_full"
+    },
+    {
+      "category": "U",
+      "condition": "repeated_error",
+      "conditional_second_probability": 0.05824112556485228,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.021561255627626466,
+        "B": 0.020306830412077637,
+        "C": 0.010518304907331574,
+        "E": 0.8630147757063396,
+        "U": 0.08459883334662471
+      },
+      "index": 17,
+      "reflection_sha256": "4c5afadd86d6cbac65bcbed75d591b8679829269433ae20b21e0ce4e45fb2eb1",
+      "result_file_sha256": "887d9e2f2c880d3dfbe704eb090580499ecb30145144b3a5b88a231851835253",
+      "scene_id": "FloorPlan26",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "task_id": "29872397cb550b1d",
+      "trajectory_id": "validation-29872397cb550b1d-2123-repeated_error"
+    },
+    {
+      "category": "U",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.3534908391212377,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 18,
+      "reflection_sha256": "d5df8ea92f2b9b6b5674f1aa0a93a2a811d66a5042250b3c741a3451aea8a8f0",
+      "result_file_sha256": "28c18924bdcd1f9d6f2e625049ec35fa1d5043c73ce5d15ea3190105ede82446",
+      "scene_id": "FloorPlan26",
+      "second_success": true,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "task_id": "29872397cb550b1d",
+      "trajectory_id": "validation-29872397cb550b1d-2124-correct_latest"
+    },
+    {
+      "category": "E",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.056116401986542414,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 19,
+      "reflection_sha256": "fc0d44c21311a1451be7df2b9269be3408563c3323afbb9cdf230f81dfc66c86",
+      "result_file_sha256": "21be2fd06f8856b9609e57d56e1838ec61cfb766d404e833dad7d1ea226b1c85",
+      "scene_id": "FloorPlan26",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "29872397cb550b1d",
+      "trajectory_id": "validation-29872397cb550b1d-2125-delete_latest"
+    },
+    {
+      "category": "E",
+      "condition": "correct_oldest",
+      "conditional_second_probability": 0.056015041406922095,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.021561255627626466,
+        "B": 0.020306830412077637,
+        "C": 0.010518304907331574,
+        "E": 0.8630147757063396,
+        "U": 0.08459883334662471
+      },
+      "index": 20,
+      "reflection_sha256": "a970c5af39152b34205add5cd2b115e5cec1cb2418f6888e2d9c754d3b86ec38",
+      "result_file_sha256": "405b4bb83f691cd3db2994f288ada966a3ef91adb6aecb359b64ec1adc05bfcb",
+      "scene_id": "FloorPlan26",
+      "second_success": true,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "29872397cb550b1d",
+      "trajectory_id": "validation-29872397cb550b1d-2126-correct_oldest"
+    },
+    {
+      "category": "B",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.05578166222127253,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 21,
+      "reflection_sha256": "85a9cb591ae902d157a59dfca878106215ae256792433451c1e6c6491ea51dd1",
+      "result_file_sha256": "deaa6e944135df3bc163754bb3fb3896eb1bdb8a7c45add6ef87653cc27eb2a4",
+      "scene_id": "FloorPlan14",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "B"
+        }
+      ],
+      "task_id": "2ef697f377c15d20",
+      "trajectory_id": "validation-2ef697f377c15d20-2124-correct_latest"
+    },
+    {
+      "category": "U",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.06065492267143381,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 22,
+      "reflection_sha256": "9ab7eb2e933e92527f8fd7dc06988b8702361af27af42c5c73ef79d4900923e1",
+      "result_file_sha256": "4dff6214f1cef8c4b0ac3e4f3699d6bfd166154836b5e773cb18eb43306fcc66",
+      "scene_id": "FloorPlan14",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "task_id": "2ef697f377c15d20",
+      "trajectory_id": "validation-2ef697f377c15d20-2125-delete_latest"
+    },
+    {
+      "category": "E",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.05578166222127254,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 23,
+      "reflection_sha256": "d92b417bde9a95cf4c8e9663f842af02b47c5c596119ae5ae6c3ded14b9b6625",
+      "result_file_sha256": "2c71a8bf17db0af15c33ad1869c6250327caf70c7744e5f90b007de185888675",
+      "scene_id": "FloorPlan2",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "3157c513f1f1de68",
+      "trajectory_id": "validation-3157c513f1f1de68-2124-correct_latest"
+    },
+    {
+      "category": "U",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.06065492267143381,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 24,
+      "reflection_sha256": "3fc9d3655443be0162d3221e506d3d1eb058dbd27cecbe41b78e881f755de046",
+      "result_file_sha256": "7d1ffe61c49a46327f3e9ce6b5a8ab0d864d199d22c326dd7cef7cae169c4170",
+      "scene_id": "FloorPlan2",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "task_id": "3157c513f1f1de68",
+      "trajectory_id": "validation-3157c513f1f1de68-2125-delete_latest"
+    },
+    {
+      "category": "E",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.05578166222127254,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 25,
+      "reflection_sha256": "d294aed728528f2cecdc594d996ae7c5a4e38f6380fa352ce96ca45e838d694c",
+      "result_file_sha256": "374e1e20e761d1ce87c3c22b0b3ff7fde0ffe3957e8b9908355c3cdea7c605ff",
+      "scene_id": "FloorPlan11",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "3339c2633076342e",
+      "trajectory_id": "validation-3339c2633076342e-2124-correct_latest"
+    },
+    {
+      "category": "E",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.056116401986542414,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 26,
+      "reflection_sha256": "6acca2e49f0b3410de3bd34e4524a4b293dd0734876c5f581feac3ccb496699d",
+      "result_file_sha256": "784eeafdca8b83fae84da11229c372032c5bc98540e14a877e3c8a85cb8a15b6",
+      "scene_id": "FloorPlan11",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "3339c2633076342e",
+      "trajectory_id": "validation-3339c2633076342e-2125-delete_latest"
+    },
+    {
+      "category": "E",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.05578166222127254,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 27,
+      "reflection_sha256": "ffc5f9801b3ec1779e1a3c50bd5952cb5bb27a8ed17aa7972fe28a97638c832a",
+      "result_file_sha256": "2286b2d8c3011ac40bd23a4e14b1b68e9907ae212f7b54dadb505b8ef5ee1f54",
+      "scene_id": "FloorPlan5",
+      "second_success": true,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "3673f34a8cf17e0e",
+      "trajectory_id": "validation-3673f34a8cf17e0e-2124-correct_latest"
+    },
+    {
+      "category": "U",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.06065492267143381,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 28,
+      "reflection_sha256": "742efd30ca2b53e978c5824c9a6a0995d751f369be5c9afac3a266acd10371b5",
+      "result_file_sha256": "9fc26f460a4e7cced141f7705fb543e9562e8e3ee7b7728c7a4fe564b680891f",
+      "scene_id": "FloorPlan5",
+      "second_success": true,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "task_id": "3673f34a8cf17e0e",
+      "trajectory_id": "validation-3673f34a8cf17e0e-2125-delete_latest"
+    },
+    {
+      "category": "U",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.3534908391212377,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 29,
+      "reflection_sha256": "d55a1fb7dab116fca6a3116db974182c7ca9ec7ccc6bb26492f4bf4e7ae7264f",
+      "result_file_sha256": "52cd05276de4ffd64c6953a3732c6054980d71e47896077d1bc5818735852fac",
+      "scene_id": "FloorPlan28",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "task_id": "3dcc3f14ea468082",
+      "trajectory_id": "validation-3dcc3f14ea468082-2124-correct_latest"
+    },
+    {
+      "category": "E",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.056116401986542414,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 30,
+      "reflection_sha256": "53cb9a5b4bdfa654d2c0ad9a2fa7d251660971f01c2e25a9bfb8b9dd0494ea24",
+      "result_file_sha256": "bd38764ae730e95c823ece79b89ae1bb0e98777732bc502c71ebaf4882fbcf5e",
+      "scene_id": "FloorPlan28",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "3dcc3f14ea468082",
+      "trajectory_id": "validation-3dcc3f14ea468082-2125-delete_latest"
+    },
+    {
+      "category": "U",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.3534908391212377,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 31,
+      "reflection_sha256": "01d6132c52c37e661a46792550eba9c09937f576a941c5ef42c151d5b55b8837",
+      "result_file_sha256": "38440d08bd20b0314d99034d0257edce26cf4b9b6f8219c2c61ddd25d70af5df",
+      "scene_id": "FloorPlan23",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "task_id": "46d936b77b6dfe62",
+      "trajectory_id": "validation-46d936b77b6dfe62-2124-correct_latest"
+    },
+    {
+      "category": "A",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.054659189916450406,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 32,
+      "reflection_sha256": "1bdd689b04230b4d992a4d6eec678a8731c9a65af1b8ef15ee467d6a6e68c517",
+      "result_file_sha256": "4b5109eb03dbf45530a6df837cfa4085809ee45e5d74bf589ee53fd836bc2197",
+      "scene_id": "FloorPlan23",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "A"
+        }
+      ],
+      "task_id": "46d936b77b6dfe62",
+      "trajectory_id": "validation-46d936b77b6dfe62-2125-delete_latest"
+    },
+    {
+      "category": "E",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.05578166222127254,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 33,
+      "reflection_sha256": "1d431d5a36fbbb87a41e31dae823aa058ba6c6c6b8427841780cac96ab4a3103",
+      "result_file_sha256": "a6c48e1b92a6a9de650e467b10d22acbff9c542c11a9d37b9b931c618bbc4ee0",
+      "scene_id": "FloorPlan1",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "4aac4578aeeae568",
+      "trajectory_id": "validation-4aac4578aeeae568-2124-correct_latest"
+    },
+    {
+      "category": "E",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.056116401986542414,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 34,
+      "reflection_sha256": "c8cb19f17e30ac79e94342c332b1c8a544370c90883ac13341a8c56fce2b25c6",
+      "result_file_sha256": "3e27c07d71c9d520286d73d80d90b74f56b2631a037c274e17af4f44b2ba6c97",
+      "scene_id": "FloorPlan1",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "4aac4578aeeae568",
+      "trajectory_id": "validation-4aac4578aeeae568-2125-delete_latest"
+    },
+    {
+      "category": "E",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.05578166222127254,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 35,
+      "reflection_sha256": "56fe20982b111ec7ff791ac16686f496f4145c01a208e49b4032888f63c6ae32",
+      "result_file_sha256": "8aa40823826755388d764795fefdaf64cadf0783303ea52b6a1cd33956fafb3d",
+      "scene_id": "FloorPlan23",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "56abb7babcd2d7c0",
+      "trajectory_id": "validation-56abb7babcd2d7c0-2124-correct_latest"
+    },
+    {
+      "category": "E",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.056116401986542414,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 36,
+      "reflection_sha256": "677b38935b77b4b16b41e7aeeaaf8dee53f7ea7e4e0e483db6a1056453a2e479",
+      "result_file_sha256": "ec0b142c693d553f82d304b08f49ca3a7563f117aa26c58e19de07437d04ef71",
+      "scene_id": "FloorPlan23",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "56abb7babcd2d7c0",
+      "trajectory_id": "validation-56abb7babcd2d7c0-2125-delete_latest"
+    },
+    {
+      "category": "U",
+      "condition": "error_middle",
+      "conditional_second_probability": 0.06042311447324366,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03286770504539948,
+        "B": 0.028851805091800912,
+        "C": 0.02556210634136868,
+        "E": 0.7506423459679975,
+        "U": 0.16207603755343344
+      },
+      "index": 37,
+      "reflection_sha256": "a23d5fbcfac57181f1f000658235b3d85de4348e7081c25e3ab945322d624bd6",
+      "result_file_sha256": "a3cc10e6e1d4a014c61a38984668dedaf847a628f113e9a3eddfd21f708a75a2",
+      "scene_id": "FloorPlan26",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "task_id": "56f3d3ba0be1c7bf",
+      "trajectory_id": "validation-56f3d3ba0be1c7bf-2120-error_middle"
+    },
+    {
+      "category": "U",
+      "condition": "correct_middle",
+      "conditional_second_probability": 0.31343599419685686,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.0691261958648232,
+        "B": 0.06284473439519554,
+        "C": 0.09069226620512813,
+        "E": 0.4599978326640212,
+        "U": 0.31733897087083196
+      },
+      "index": 38,
+      "reflection_sha256": "6ee8a1ea90bc07cef2c543420d50d67caf0f51b083ba83bfcec95f4554165dd7",
+      "result_file_sha256": "e23facf0b24751f70b258e97fe695503b6875c6c404553d70b4c4939ac184b67",
+      "scene_id": "FloorPlan26",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "task_id": "56f3d3ba0be1c7bf",
+      "trajectory_id": "validation-56f3d3ba0be1c7bf-2121-correct_middle"
+    },
+    {
+      "category": "U",
+      "condition": "neutral_full",
+      "conditional_second_probability": 0.31343599419685686,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.0691261958648232,
+        "B": 0.06284473439519554,
+        "C": 0.09069226620512813,
+        "E": 0.4599978326640212,
+        "U": 0.31733897087083196
+      },
+      "index": 39,
+      "reflection_sha256": "30087c20bc88dd1c07b6902a8c65166394c7365517defde1485291d15517f906",
+      "result_file_sha256": "084d95b2832a77cd70638fb85e8373bf014800c6306a5f0a89d3e617e54a4570",
+      "scene_id": "FloorPlan26",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "task_id": "56f3d3ba0be1c7bf",
+      "trajectory_id": "validation-56f3d3ba0be1c7bf-2122-neutral_full"
+    },
+    {
+      "category": "E",
+      "condition": "repeated_error",
+      "conditional_second_probability": 0.056015041406922095,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.021561255627626466,
+        "B": 0.020306830412077637,
+        "C": 0.010518304907331574,
+        "E": 0.8630147757063396,
+        "U": 0.08459883334662471
+      },
+      "index": 40,
+      "reflection_sha256": "b992b71bef5fe32398114534d1b1a9aeef32a6fa51aed153f859b085c3eca6ff",
+      "result_file_sha256": "6721e436eccae0ddb76d7b8c8bfe3607075be89aa0420d80845f542a97b6c19e",
+      "scene_id": "FloorPlan26",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "56f3d3ba0be1c7bf",
+      "trajectory_id": "validation-56f3d3ba0be1c7bf-2123-repeated_error"
+    },
+    {
+      "category": "E",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.05578166222127254,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 41,
+      "reflection_sha256": "c78ac85dca5262ea8681281737911f38da72318306761f0b0af3b74ffdad8d9b",
+      "result_file_sha256": "a529e410939ab31d2141497126c8bd517799dd8130028edc6d4ca38291a6a6a4",
+      "scene_id": "FloorPlan26",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "56f3d3ba0be1c7bf",
+      "trajectory_id": "validation-56f3d3ba0be1c7bf-2124-correct_latest"
+    },
+    {
+      "category": "U",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.06065492267143381,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 42,
+      "reflection_sha256": "56028f64ffe0f029725ecd4d7a5cb939bd97d2675d322d833f017ab1f97ea42c",
+      "result_file_sha256": "b618f6c6380f692da0f06f858a06572336e7c5d9b5d67051c355d11ab1c2b9d3",
+      "scene_id": "FloorPlan26",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "task_id": "56f3d3ba0be1c7bf",
+      "trajectory_id": "validation-56f3d3ba0be1c7bf-2125-delete_latest"
+    },
+    {
+      "category": "E",
+      "condition": "correct_oldest",
+      "conditional_second_probability": 0.056015041406922095,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.021561255627626466,
+        "B": 0.020306830412077637,
+        "C": 0.010518304907331574,
+        "E": 0.8630147757063396,
+        "U": 0.08459883334662471
+      },
+      "index": 43,
+      "reflection_sha256": "260433c38538d0a699f96fd847a88c074563324fcf11217bfed45ef19d66049f",
+      "result_file_sha256": "4a8addeb117f62c9090d59e28bcd6b445ebeceaf9e663290e6a990bdf23f1044",
+      "scene_id": "FloorPlan26",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "56f3d3ba0be1c7bf",
+      "trajectory_id": "validation-56f3d3ba0be1c7bf-2126-correct_oldest"
+    },
+    {
+      "category": "U",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.3534908391212377,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 44,
+      "reflection_sha256": "07d23da8ebd3e703462b65e999d48aca608eb8a86fd37003439571c45d4beae8",
+      "result_file_sha256": "0b896771486417f32c42a3b1fe8557405056a13a223e231a1e9fcc223b734684",
+      "scene_id": "FloorPlan23",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "task_id": "5811a7b0638365e3",
+      "trajectory_id": "validation-5811a7b0638365e3-2124-correct_latest"
+    },
+    {
+      "category": "E",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.056116401986542414,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 45,
+      "reflection_sha256": "b66159845bfc43a0705c6bb22a0c4456ac339f320f81e8777a579ea77687efc8",
+      "result_file_sha256": "46f30a298ed66518cde453f588c0a325f2f762ed4ae753ffbc3d6fa1e7775d03",
+      "scene_id": "FloorPlan23",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "5811a7b0638365e3",
+      "trajectory_id": "validation-5811a7b0638365e3-2125-delete_latest"
+    },
+    {
+      "category": "E",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.05578166222127254,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 46,
+      "reflection_sha256": "d96982cc869842136d65c9489695eba42e9899723106fc731674b2e9d67cd4d1",
+      "result_file_sha256": "9b03414ce92481a22fe09530d0343e5493f9597c432809aa44bb4362aebdfe58",
+      "scene_id": "FloorPlan1",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "5c4650438b08993c",
+      "trajectory_id": "validation-5c4650438b08993c-2124-correct_latest"
+    },
+    {
+      "category": "A",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.33067095236632277,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 47,
+      "reflection_sha256": "318a44618eda77850fd6806bfddbc4eb2bc500551a6ecb2b2e3437b64bbd0f1f",
+      "result_file_sha256": "f2e150e92549b0f4aba0f59f395a801c7cf2a2691033b202336ad4f322c462fe",
+      "scene_id": "FloorPlan1",
+      "second_success": true,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "A"
+        }
+      ],
+      "task_id": "648daa9dbe188dac",
+      "trajectory_id": "validation-648daa9dbe188dac-2124-correct_latest"
+    },
+    {
+      "category": "E",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.056116401986542414,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 48,
+      "reflection_sha256": "98996f3e9940395f92e42b81bb6bb96948356c9e1943db5eadfe128e1bf7ab8f",
+      "result_file_sha256": "66dccd2c7b04455d737d0057fa70eefac01251f27790ced82970a3ca983446a8",
+      "scene_id": "FloorPlan1",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "648daa9dbe188dac",
+      "trajectory_id": "validation-648daa9dbe188dac-2125-delete_latest"
+    },
+    {
+      "category": "E",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.05578166222127254,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 49,
+      "reflection_sha256": "6e69c85c778a00e5abbd7d5f5342226a66b9d2a1fcc56118c2c1da39b2f1d162",
+      "result_file_sha256": "82787a59bd9ffcd20c842750369ee9fc257db249dabd9100c88e7ed2dff977e1",
+      "scene_id": "FloorPlan20",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "64c3a2b59f9e4f14",
+      "trajectory_id": "validation-64c3a2b59f9e4f14-2124-correct_latest"
+    },
+    {
+      "category": "E",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.056116401986542414,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 50,
+      "reflection_sha256": "868a8453d5f75fe711cf3edaca3380e3e4743023b628f8fbff83841c3cf38c58",
+      "result_file_sha256": "cfffe619a363677c47e7102acd0cd76833c9c29e79751ddf8c06ad615e04b6c7",
+      "scene_id": "FloorPlan20",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "64c3a2b59f9e4f14",
+      "trajectory_id": "validation-64c3a2b59f9e4f14-2125-delete_latest"
+    },
+    {
+      "category": "E",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.05578166222127254,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 51,
+      "reflection_sha256": "cd1df7cc3c1ec01bc473eba3e20e764385275476fd66feaa26c9681eed358110",
+      "result_file_sha256": "1a34c113fd667708cda7d4b8180b7533abe8192f783479b5915e4594d90b3e0c",
+      "scene_id": "FloorPlan5",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "688e156a65711ca2",
+      "trajectory_id": "validation-688e156a65711ca2-2124-correct_latest"
+    },
+    {
+      "category": "A",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.054659189916450406,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 52,
+      "reflection_sha256": "a6ab53cc3eea8f5ec3f3da2e004f31087a6a0a4a2987322c87968d85ff0087da",
+      "result_file_sha256": "2daae2bb4715b40d20557d671972679579f3c5fc71d5988515f838d63b8f9447",
+      "scene_id": "FloorPlan5",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "A"
+        }
+      ],
+      "task_id": "688e156a65711ca2",
+      "trajectory_id": "validation-688e156a65711ca2-2125-delete_latest"
+    },
+    {
+      "category": "E",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.05578166222127254,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 53,
+      "reflection_sha256": "0afacca805dd8f3cdeeaca300297f21b31a11ce78307fd8bd7896a2568913e41",
+      "result_file_sha256": "7fbede6e01997de3dcebf8d96350acfbeebc5a1bc794fb996d539835af6124da",
+      "scene_id": "FloorPlan23",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "6afa6d6afd3e7bb0",
+      "trajectory_id": "validation-6afa6d6afd3e7bb0-2124-correct_latest"
+    },
+    {
+      "category": "E",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.056116401986542414,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 54,
+      "reflection_sha256": "9f2124b3ea418a730ac73c13e2fe8fb6f77af53eb3500322f0bb11bc19603cd2",
+      "result_file_sha256": "5ebb788d62a6638b0958182e23a95c3f687693b4960bb3eb4340a3c6cef86694",
+      "scene_id": "FloorPlan23",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "6afa6d6afd3e7bb0",
+      "trajectory_id": "validation-6afa6d6afd3e7bb0-2125-delete_latest"
+    },
+    {
+      "category": "E",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.05578166222127254,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 55,
+      "reflection_sha256": "538fa7b03f7f95d595117a0747bf094544b5fbf125c8fb47ac62387fa9f05209",
+      "result_file_sha256": "bc0ee48024d76a825fab379578e5a0e201c71a07aa9462c43a2055280876df35",
+      "scene_id": "FloorPlan20",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "6d36914476d4dff4",
+      "trajectory_id": "validation-6d36914476d4dff4-2124-correct_latest"
+    },
+    {
+      "category": "U",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.06065492267143381,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 56,
+      "reflection_sha256": "131ffd40667df6543ccb4d37b4504d4f2bfa69a3e8132f8b2be9a13b04964470",
+      "result_file_sha256": "b3c25f247ceda849f8a62ccddc9d29221560fe29c3466ab298cf1fa1c150512e",
+      "scene_id": "FloorPlan20",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "task_id": "6d36914476d4dff4",
+      "trajectory_id": "validation-6d36914476d4dff4-2125-delete_latest"
+    },
+    {
+      "category": "E",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.05578166222127254,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 57,
+      "reflection_sha256": "540e5960fe5577f52a9ec97b9c9736ed20f52e1b2b144088551b69d863a07c31",
+      "result_file_sha256": "424febd6b31f11607bacb42d092519e63cc0a0f9734cbfb9e161de73e66aeab3",
+      "scene_id": "FloorPlan5",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "6db95797258f3745",
+      "trajectory_id": "validation-6db95797258f3745-2124-correct_latest"
+    },
+    {
+      "category": "E",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.056116401986542414,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 58,
+      "reflection_sha256": "a0211c4919b3a5e9035e4b5d3cfa1eb38daf95645403962b2d6d35569ca4ddf5",
+      "result_file_sha256": "cd970921fbee99bfca181872c791445db3451768335c12b919aad701eda3cc70",
+      "scene_id": "FloorPlan5",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "6db95797258f3745",
+      "trajectory_id": "validation-6db95797258f3745-2125-delete_latest"
+    },
+    {
+      "category": "E",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.05578166222127254,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 59,
+      "reflection_sha256": "6f110e1dd262a8cfb200897fed172313ee96cbf66cf03f8067f9a68e48cd6b48",
+      "result_file_sha256": "28e33a06c17f791cf39e0913c7af20e1d12728e989375e6294c13d82537130da",
+      "scene_id": "FloorPlan28",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "7217d8df465472b2",
+      "trajectory_id": "validation-7217d8df465472b2-2124-correct_latest"
+    },
+    {
+      "category": "A",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.054659189916450406,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 60,
+      "reflection_sha256": "75beb866152d39002949162ae2d17077c101d0c7a1cdc9ab98193b6610facbc0",
+      "result_file_sha256": "bc0333bacb0880d9a1bea4bb3ce4a5a5f8694e89a4da4ad136ed72cbca88aceb",
+      "scene_id": "FloorPlan28",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "A"
+        }
+      ],
+      "task_id": "7217d8df465472b2",
+      "trajectory_id": "validation-7217d8df465472b2-2125-delete_latest"
+    },
+    {
+      "category": "U",
+      "condition": "error_middle",
+      "conditional_second_probability": 0.06042311447324366,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03286770504539948,
+        "B": 0.028851805091800912,
+        "C": 0.02556210634136868,
+        "E": 0.7506423459679975,
+        "U": 0.16207603755343344
+      },
+      "index": 61,
+      "reflection_sha256": "b04102cc4cab7046145b0872da2de9d1ec822d1313df5a9f3e53d34720881ec6",
+      "result_file_sha256": "d15fc27484c7b75f638ec9974d8839d1db9495597c92055b9dec57eb87ecb58e",
+      "scene_id": "FloorPlan26",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "task_id": "730520c2dc6862ac",
+      "trajectory_id": "validation-730520c2dc6862ac-2120-error_middle"
+    },
+    {
+      "category": "U",
+      "condition": "correct_middle",
+      "conditional_second_probability": 0.31343599419685686,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.0691261958648232,
+        "B": 0.06284473439519554,
+        "C": 0.09069226620512813,
+        "E": 0.4599978326640212,
+        "U": 0.31733897087083196
+      },
+      "index": 62,
+      "reflection_sha256": "0efc192db73d2471d87bbc9fcec441acc70deb24a6f235664a8cff8e1b304fe8",
+      "result_file_sha256": "1c9d535ace19af44e38472eff37d2e0b4b8fbd1844a9e07d26341734acaf967a",
+      "scene_id": "FloorPlan26",
+      "second_success": true,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "task_id": "730520c2dc6862ac",
+      "trajectory_id": "validation-730520c2dc6862ac-2121-correct_middle"
+    },
+    {
+      "category": "U",
+      "condition": "neutral_full",
+      "conditional_second_probability": 0.31343599419685686,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.0691261958648232,
+        "B": 0.06284473439519554,
+        "C": 0.09069226620512813,
+        "E": 0.4599978326640212,
+        "U": 0.31733897087083196
+      },
+      "index": 63,
+      "reflection_sha256": "78893c298782a9247534ffd75a445f8fc49370fd92fddc9ba435a405ef46c6c8",
+      "result_file_sha256": "d1839f0a42d48550a46e0454bb68a784b48c7f9a897f34ec7f1944340b01def3",
+      "scene_id": "FloorPlan26",
+      "second_success": true,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "task_id": "730520c2dc6862ac",
+      "trajectory_id": "validation-730520c2dc6862ac-2122-neutral_full"
+    },
+    {
+      "category": "U",
+      "condition": "repeated_error",
+      "conditional_second_probability": 0.05824112556485228,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.021561255627626466,
+        "B": 0.020306830412077637,
+        "C": 0.010518304907331574,
+        "E": 0.8630147757063396,
+        "U": 0.08459883334662471
+      },
+      "index": 64,
+      "reflection_sha256": "7d091a2f5c74da623f952214723532cd412a8c330f8e8ccd261208b10fb3fba9",
+      "result_file_sha256": "05a0f5b677a9bccdf30b07c065e929397d7b3b373bba1cf6a64a67ff514b0c62",
+      "scene_id": "FloorPlan26",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "task_id": "730520c2dc6862ac",
+      "trajectory_id": "validation-730520c2dc6862ac-2123-repeated_error"
+    },
+    {
+      "category": "E",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.05578166222127254,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 65,
+      "reflection_sha256": "36af0b4fbc19af5655c4ddd180ba1b86004aba038a75b40db16edbfca08f3c4b",
+      "result_file_sha256": "2575606ccc3c937f0bf85b0656b034d77437d039c85f668c7b60df315e639c7a",
+      "scene_id": "FloorPlan26",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "730520c2dc6862ac",
+      "trajectory_id": "validation-730520c2dc6862ac-2124-correct_latest"
+    },
+    {
+      "category": "U",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.06065492267143381,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 66,
+      "reflection_sha256": "eed6c2fff3290c05d4a2c704b7ca6a632f47138566ce691f325b1ea0acb074ab",
+      "result_file_sha256": "d1ab29c67c723d916dbaadd1ad360b03e4dc6bc003175ef7386e0c97988baf68",
+      "scene_id": "FloorPlan26",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "task_id": "730520c2dc6862ac",
+      "trajectory_id": "validation-730520c2dc6862ac-2125-delete_latest"
+    },
+    {
+      "category": "U",
+      "condition": "correct_oldest",
+      "conditional_second_probability": 0.05824112556485228,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.021561255627626466,
+        "B": 0.020306830412077637,
+        "C": 0.010518304907331574,
+        "E": 0.8630147757063396,
+        "U": 0.08459883334662471
+      },
+      "index": 67,
+      "reflection_sha256": "6ca607d0da49691d5c4591ea420cf7c7df4f83976e422357c3907db745f10ce1",
+      "result_file_sha256": "09ae07244d97b57d74e429d542f03c631bef21174e24fa908dacca9a909f75ff",
+      "scene_id": "FloorPlan26",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "task_id": "730520c2dc6862ac",
+      "trajectory_id": "validation-730520c2dc6862ac-2126-correct_oldest"
+    },
+    {
+      "category": "E",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.05578166222127254,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 68,
+      "reflection_sha256": "c651bbf21464d38ee8d94aee06254253fe7f804c0650b644938b785c37a0a6a2",
+      "result_file_sha256": "cd8734a8af7444068d05bed3c99aa5c8fe294c42f38b364f1ee38c69889a6da4",
+      "scene_id": "FloorPlan11",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "762a79d25230e595",
+      "trajectory_id": "validation-762a79d25230e595-2124-correct_latest"
+    },
+    {
+      "category": "E",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.056116401986542414,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 69,
+      "reflection_sha256": "a8bf7f76e2de97afc0fd8d4b23d46e4f2b9286ffe7b5bb224f96fc9e91d2c77f",
+      "result_file_sha256": "d0b75735035b82d2c4934f1d77847ea200b8e8676e4f98b845808f69cac6bd2f",
+      "scene_id": "FloorPlan11",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "762a79d25230e595",
+      "trajectory_id": "validation-762a79d25230e595-2125-delete_latest"
+    },
+    {
+      "category": "E",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.05578166222127254,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 70,
+      "reflection_sha256": "b785b8bfcb761ce3de5446859e6703ec2743cc42816b8851e77e4baa6b46c53b",
+      "result_file_sha256": "fe6e7b4392e6949deaa2d9e97a87a75578a9782b338d767abfc16927dda13652",
+      "scene_id": "FloorPlan1",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "7b933599942a0e6c",
+      "trajectory_id": "validation-7b933599942a0e6c-2124-correct_latest"
+    },
+    {
+      "category": "E",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.056116401986542414,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 71,
+      "reflection_sha256": "e5662e8c9c08ed21dbcdb206b216780f9e9a9dfa29496a5a7f0b00030a65956d",
+      "result_file_sha256": "cfb6a9506b657af282310fa82bbe3bc0900a27f041f04549e0ccb2900565f3fd",
+      "scene_id": "FloorPlan1",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "7b933599942a0e6c",
+      "trajectory_id": "validation-7b933599942a0e6c-2125-delete_latest"
+    },
+    {
+      "category": "B",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.05578166222127253,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 72,
+      "reflection_sha256": "5020ba238e7d8adca4c6eeb3143e40b34dcd31366e60e16df68cb86f1e2a3814",
+      "result_file_sha256": "9bf0a2a24a79ce3ef961cd8df0673ccd54ef5c3d1e5c9abe1184fc9016105c12",
+      "scene_id": "FloorPlan20",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "B"
+        }
+      ],
+      "task_id": "8d5050bf64510f4d",
+      "trajectory_id": "validation-8d5050bf64510f4d-2124-correct_latest"
+    },
+    {
+      "category": "E",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.056116401986542414,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 73,
+      "reflection_sha256": "696868b0f0d48b5819bc4dc04114e4a51bf7f986bd7bdb78f6ab0be7ba3c26b2",
+      "result_file_sha256": "f7d55798c5718fb75b040fc6246d964ec861f80083a9e21f24c30476ba5bd6ce",
+      "scene_id": "FloorPlan20",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "8d5050bf64510f4d",
+      "trajectory_id": "validation-8d5050bf64510f4d-2125-delete_latest"
+    },
+    {
+      "category": "U",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.3534908391212377,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 74,
+      "reflection_sha256": "c3708b8118fef3c440e8a6dfba689819885f548efdb017fc5dd52ae60ce83fa9",
+      "result_file_sha256": "f31462c68d51770e42bd1138c275cba67bae54b1aed71e2e8215a89693e76b43",
+      "scene_id": "FloorPlan23",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "task_id": "8e64db63e42f736c",
+      "trajectory_id": "validation-8e64db63e42f736c-2124-correct_latest"
+    },
+    {
+      "category": "U",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.06065492267143381,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 75,
+      "reflection_sha256": "dad5c34892580a8bd3f0af0692ff596eb342cd92c9b744eee236bf48d7e63e5a",
+      "result_file_sha256": "f1c7c8676523c40045810181a82802c2ec12b9cb1e72c2b9d73ee4e0de71a010",
+      "scene_id": "FloorPlan23",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "task_id": "8e64db63e42f736c",
+      "trajectory_id": "validation-8e64db63e42f736c-2125-delete_latest"
+    },
+    {
+      "category": "B",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.05578166222127253,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 76,
+      "reflection_sha256": "7f13af56bdcb41ac422a11affe88f02c48841d7a55f6cf5addd0cc1e29762fcd",
+      "result_file_sha256": "9875915d825ff2a35a1a991f5b3084e8a3297a54210177d9608ec96148c43503",
+      "scene_id": "FloorPlan2",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "B"
+        }
+      ],
+      "task_id": "93e2028a0aa64315",
+      "trajectory_id": "validation-93e2028a0aa64315-2124-correct_latest"
+    },
+    {
+      "category": "U",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.06065492267143381,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 77,
+      "reflection_sha256": "33c1a42b9a3838abd8b0f6445e5508e1704beb978f1ec9b607f9b67cbb5c5370",
+      "result_file_sha256": "d07b34043df7a93f621316fad7f239e603391aeb80fc5e20be1a005a46a470ce",
+      "scene_id": "FloorPlan2",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "task_id": "93e2028a0aa64315",
+      "trajectory_id": "validation-93e2028a0aa64315-2125-delete_latest"
+    },
+    {
+      "category": "E",
+      "condition": "error_middle",
+      "conditional_second_probability": 0.055900066079089226,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03286770504539948,
+        "B": 0.028851805091800912,
+        "C": 0.02556210634136868,
+        "E": 0.7506423459679975,
+        "U": 0.16207603755343344
+      },
+      "index": 78,
+      "reflection_sha256": "594a148367c06388928fbc5ac32b826bf9d0893644aefa6224ffd9452eca9133",
+      "result_file_sha256": "101b86a4d547e7f2d079aa39f61d2b287dd755e46edf16ec43e7e945984b4ec4",
+      "scene_id": "FloorPlan26",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "95fb5574f068e733",
+      "trajectory_id": "validation-95fb5574f068e733-2120-error_middle"
+    },
+    {
+      "category": "E",
+      "condition": "repeated_error",
+      "conditional_second_probability": 0.056015041406922095,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.021561255627626466,
+        "B": 0.020306830412077637,
+        "C": 0.010518304907331574,
+        "E": 0.8630147757063396,
+        "U": 0.08459883334662471
+      },
+      "index": 79,
+      "reflection_sha256": "3a1c2b0115c8d5765b69597c79dd7dde20d025d5b4ea270177da3993cfb71eda",
+      "result_file_sha256": "87b9ba7b7ee2b5aa2fa54d7882bc129276a9791841112f09c856459b9e1dc881",
+      "scene_id": "FloorPlan26",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "95fb5574f068e733",
+      "trajectory_id": "validation-95fb5574f068e733-2123-repeated_error"
+    },
+    {
+      "category": "E",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.05578166222127254,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 80,
+      "reflection_sha256": "dff125a6eab9a3fe4aba830c56a73702ca52dbef53115ec4c4ac6a43d0474da5",
+      "result_file_sha256": "d8d0f87e7fd518e66fab9b878488daa2b3a49bc6c2c31949b72b8ea61d819d1c",
+      "scene_id": "FloorPlan26",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "95fb5574f068e733",
+      "trajectory_id": "validation-95fb5574f068e733-2124-correct_latest"
+    },
+    {
+      "category": "E",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.056116401986542414,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 81,
+      "reflection_sha256": "dff246bae17824b2119fac5db4bb33452803e8af12f3fbf216b1af1f419bd95f",
+      "result_file_sha256": "bbdc20783ed096b8e4aaa1437ce1d9b7e2956f91c80aa6b725f71ef159ea28d8",
+      "scene_id": "FloorPlan26",
+      "second_success": true,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "95fb5574f068e733",
+      "trajectory_id": "validation-95fb5574f068e733-2125-delete_latest"
+    },
+    {
+      "category": "E",
+      "condition": "correct_oldest",
+      "conditional_second_probability": 0.056015041406922095,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.021561255627626466,
+        "B": 0.020306830412077637,
+        "C": 0.010518304907331574,
+        "E": 0.8630147757063396,
+        "U": 0.08459883334662471
+      },
+      "index": 82,
+      "reflection_sha256": "ed6d6246d4a274ebe2ee2e4b053218d0d97f3ff3cc6d3a5150f5bc1bfa4227a3",
+      "result_file_sha256": "cf2db725e57571a04e95d82075359e3cbab26ca8426dd85525cf450ea6a4ea55",
+      "scene_id": "FloorPlan26",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "95fb5574f068e733",
+      "trajectory_id": "validation-95fb5574f068e733-2126-correct_oldest"
+    },
+    {
+      "category": "E",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.056116401986542414,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 83,
+      "reflection_sha256": "b931c3e4b659cbb36f5dfd5d42a9392f4d5892a28a85f21f812c61b008ba205b",
+      "result_file_sha256": "555534a9e98c053b37a58227cd0238e6299b4752da754e31c4a4406e3953e084",
+      "scene_id": "FloorPlan2",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "9a14522806e5498d",
+      "trajectory_id": "validation-9a14522806e5498d-2125-delete_latest"
+    },
+    {
+      "category": "E",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.05578166222127254,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 84,
+      "reflection_sha256": "4cbe49af5544a862512d5320360566b5c62303774a261004b03a925c92adb72d",
+      "result_file_sha256": "0b91f73cf2e6d4221487823d1ee48f7e77135f5274c53d06ee1b05e792f37af8",
+      "scene_id": "FloorPlan20",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "ab6f4e1563638a32",
+      "trajectory_id": "validation-ab6f4e1563638a32-2124-correct_latest"
+    },
+    {
+      "category": "E",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.056116401986542414,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 85,
+      "reflection_sha256": "d5b88d2f02a40572302308c6d0d0dbcd789f39181ae83bd109f090820d1da3e2",
+      "result_file_sha256": "df10b10aec92b7b4bb9e603470f1a0498426391adb05255b5e2bccbe34127643",
+      "scene_id": "FloorPlan20",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "ab6f4e1563638a32",
+      "trajectory_id": "validation-ab6f4e1563638a32-2125-delete_latest"
+    },
+    {
+      "category": "U",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.3534908391212377,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 86,
+      "reflection_sha256": "6dda45b2ffa933b3cfc3c3051081d358043b1cfc6a9650733642b536c111c5fd",
+      "result_file_sha256": "5113874ad83a3ffb9cdce2cf51f6f5c3cc11dac38503d1525980db268e2efa6c",
+      "scene_id": "FloorPlan5",
+      "second_success": true,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "task_id": "ac5e5b16ca50b24e",
+      "trajectory_id": "validation-ac5e5b16ca50b24e-2124-correct_latest"
+    },
+    {
+      "category": "U",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.06065492267143381,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 87,
+      "reflection_sha256": "c4098aea063c43f30e26c41b20c35ab83fa1d0f6336bdde23dd7d0d311e99570",
+      "result_file_sha256": "ee53d5672c987ffd7cb57bef48d6f05614ccd60ab205b690f83dd13ea9902973",
+      "scene_id": "FloorPlan5",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "task_id": "ac5e5b16ca50b24e",
+      "trajectory_id": "validation-ac5e5b16ca50b24e-2125-delete_latest"
+    },
+    {
+      "category": "E",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.05578166222127254,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 88,
+      "reflection_sha256": "fc1052b1636f3ae4f841b9a9115f7de89f3a89a458a43632bf8e8444dc933eeb",
+      "result_file_sha256": "3c96b82be529d0ed20e56ae2bab09bdff466f7a6330c5aa5eda5757cc6bab087",
+      "scene_id": "FloorPlan2",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "ae0f72ada659c929",
+      "trajectory_id": "validation-ae0f72ada659c929-2124-correct_latest"
+    },
+    {
+      "category": "E",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.056116401986542414,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 89,
+      "reflection_sha256": "637bcff17e8066bdd2f1571f14e1a5417f91cf4f0afa54ad9bc723322781ef49",
+      "result_file_sha256": "ac8e4272a3400f751c280cbec1b88215ea9c587fe4b98ef865ee01d8b98e012b",
+      "scene_id": "FloorPlan2",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "ae0f72ada659c929",
+      "trajectory_id": "validation-ae0f72ada659c929-2125-delete_latest"
+    },
+    {
+      "category": "U",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.3534908391212377,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 90,
+      "reflection_sha256": "f2f74e63a87d5ac781b8f40ba1d7ad740925b31bc6820f4e7f1a5bb65a27f9c6",
+      "result_file_sha256": "8dd1b898c763c931d8e9220529c3309fcc1006ee575e22eadf7b6734a8cd3aab",
+      "scene_id": "FloorPlan11",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "task_id": "b41a72f09c9d2e6b",
+      "trajectory_id": "validation-b41a72f09c9d2e6b-2124-correct_latest"
+    },
+    {
+      "category": "E",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.056116401986542414,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 91,
+      "reflection_sha256": "f78828ccb56765cbf6cc8d74d41477e1aefd88b1c1e6d7cd018fc357b6b189b2",
+      "result_file_sha256": "02d765e7b156ec7a02bba401ff9a339ac209f0eee78e0a033b270d52df541da4",
+      "scene_id": "FloorPlan11",
+      "second_success": true,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "b41a72f09c9d2e6b",
+      "trajectory_id": "validation-b41a72f09c9d2e6b-2125-delete_latest"
+    },
+    {
+      "category": "E",
+      "condition": "error_middle",
+      "conditional_second_probability": 0.055900066079089226,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03286770504539948,
+        "B": 0.028851805091800912,
+        "C": 0.02556210634136868,
+        "E": 0.7506423459679975,
+        "U": 0.16207603755343344
+      },
+      "index": 92,
+      "reflection_sha256": "fe213759d0db6eb20ffdcb057a9505ce07cbb08d3dd4d4f4272194c1ce793ee7",
+      "result_file_sha256": "e2da2432d4a15f74c90495d5099f6e7882e64f64ea0396826ad66eef5d62cd3b",
+      "scene_id": "FloorPlan26",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "b5fcad0b33471c28",
+      "trajectory_id": "validation-b5fcad0b33471c28-2120-error_middle"
+    },
+    {
+      "category": "E",
+      "condition": "correct_middle",
+      "conditional_second_probability": 0.04491891920441724,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.0691261958648232,
+        "B": 0.06284473439519554,
+        "C": 0.09069226620512813,
+        "E": 0.4599978326640212,
+        "U": 0.31733897087083196
+      },
+      "index": 93,
+      "reflection_sha256": "c7f870e6c362555c097a846fd115e3c832d917357ff51af3e207ba51aff283d3",
+      "result_file_sha256": "9dc7f551c933fe058260140c8fa34b1a31de1560b94b84a136455400dc3bf2d0",
+      "scene_id": "FloorPlan26",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "b5fcad0b33471c28",
+      "trajectory_id": "validation-b5fcad0b33471c28-2121-correct_middle"
+    },
+    {
+      "category": "U",
+      "condition": "neutral_full",
+      "conditional_second_probability": 0.31343599419685686,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.0691261958648232,
+        "B": 0.06284473439519554,
+        "C": 0.09069226620512813,
+        "E": 0.4599978326640212,
+        "U": 0.31733897087083196
+      },
+      "index": 94,
+      "reflection_sha256": "5ad8d486eaae902ae9e39be26f5ac7c54cd871f4fbd776cde8cc9a6223632767",
+      "result_file_sha256": "b375257bdd5870092d9a1edc7e45a013119e39037b5606853fcab69f211ae7b9",
+      "scene_id": "FloorPlan26",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "task_id": "b5fcad0b33471c28",
+      "trajectory_id": "validation-b5fcad0b33471c28-2122-neutral_full"
+    },
+    {
+      "category": "E",
+      "condition": "repeated_error",
+      "conditional_second_probability": 0.056015041406922095,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.021561255627626466,
+        "B": 0.020306830412077637,
+        "C": 0.010518304907331574,
+        "E": 0.8630147757063396,
+        "U": 0.08459883334662471
+      },
+      "index": 95,
+      "reflection_sha256": "ea27b0065107d44a3a09c4df382afa05bb27ad78a952eec02a722e6fa7be4e17",
+      "result_file_sha256": "d38fc59214832eccf6366d026a6f98ad3c1b70de2eb0d2789c49636eca602fb3",
+      "scene_id": "FloorPlan26",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "b5fcad0b33471c28",
+      "trajectory_id": "validation-b5fcad0b33471c28-2123-repeated_error"
+    },
+    {
+      "category": "E",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.05578166222127254,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 96,
+      "reflection_sha256": "80641ba14e800dc53121c56d560f5f346bd985d1811baa465bfdecf2a270614d",
+      "result_file_sha256": "a20cd4d7278e8ce286ab4210cfdf97a64ed65052098410b4dcbbb57b23fa9dbb",
+      "scene_id": "FloorPlan26",
+      "second_success": true,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "b5fcad0b33471c28",
+      "trajectory_id": "validation-b5fcad0b33471c28-2124-correct_latest"
+    },
+    {
+      "category": "A",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.054659189916450406,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 97,
+      "reflection_sha256": "77b8ab4241579962144c14987dc3f4c383d7631cfec0a948d5c1d3ec5140f822",
+      "result_file_sha256": "46f96c253190771e699e45160315bef98a658d04b620c4344ceb19e5a1e04a0e",
+      "scene_id": "FloorPlan26",
+      "second_success": true,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "A"
+        }
+      ],
+      "task_id": "b5fcad0b33471c28",
+      "trajectory_id": "validation-b5fcad0b33471c28-2125-delete_latest"
+    },
+    {
+      "category": "E",
+      "condition": "correct_oldest",
+      "conditional_second_probability": 0.056015041406922095,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.021561255627626466,
+        "B": 0.020306830412077637,
+        "C": 0.010518304907331574,
+        "E": 0.8630147757063396,
+        "U": 0.08459883334662471
+      },
+      "index": 98,
+      "reflection_sha256": "c99d2ca1b7858450f0bb83f0003b534b4f26be20384b87b203678b354e5e5e4c",
+      "result_file_sha256": "f74d3e9dc46e2520eef3e9945eac392bd266b5e5196490d74c255e5f851e53c6",
+      "scene_id": "FloorPlan26",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "b5fcad0b33471c28",
+      "trajectory_id": "validation-b5fcad0b33471c28-2126-correct_oldest"
+    },
+    {
+      "category": "A",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.33067095236632277,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 99,
+      "reflection_sha256": "46638a33d2f42fdffed9524b554a7d47d4cb22e48b0ab3a2ebe08fd02d098a62",
+      "result_file_sha256": "3ca6f75088970bbe33db535e43fa8750c9e2bc8ac70b0f7ee2be0272db38a44c",
+      "scene_id": "FloorPlan1",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "A"
+        }
+      ],
+      "task_id": "b819afb56a6a288f",
+      "trajectory_id": "validation-b819afb56a6a288f-2124-correct_latest"
+    },
+    {
+      "category": "U",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.06065492267143381,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 100,
+      "reflection_sha256": "221a51c6f9b4f668271235d1446b7a237e8fc047567bd5d2ed96a11e124d1bc0",
+      "result_file_sha256": "f2879513c2e3d36994bb2c3caf75778336da7941d10e129bab5d2f269c829582",
+      "scene_id": "FloorPlan1",
+      "second_success": true,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "task_id": "b819afb56a6a288f",
+      "trajectory_id": "validation-b819afb56a6a288f-2125-delete_latest"
+    },
+    {
+      "category": "U",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.3534908391212377,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 101,
+      "reflection_sha256": "a1b16634ed40138b23adfdc6f7e95b4e70713bff5cfd1b3ebc34b8c25c617e50",
+      "result_file_sha256": "274ae6aecf2a681af247942348026dfc25eaaf102f8914a036a48f49ad943608",
+      "scene_id": "FloorPlan14",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "task_id": "bd5eb6db81110d24",
+      "trajectory_id": "validation-bd5eb6db81110d24-2124-correct_latest"
+    },
+    {
+      "category": "E",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.056116401986542414,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 102,
+      "reflection_sha256": "1def5cc5a6efad212166146d4be0163dd21db5ad560f37662f4809ecdff31740",
+      "result_file_sha256": "92d843ef10c617c978d3e839e7f3087209d2b85af5371c96cde863f8ef75504f",
+      "scene_id": "FloorPlan14",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "bd5eb6db81110d24",
+      "trajectory_id": "validation-bd5eb6db81110d24-2125-delete_latest"
+    },
+    {
+      "category": "E",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.05578166222127254,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 103,
+      "reflection_sha256": "95134e89967cd3c39ee6e63c5523e208491f81bb3497c74484b725f2c17b5159",
+      "result_file_sha256": "d36efedbcd78ce9af26b5231a2ba8e526ccd4de2a7fc850badfbc0e1d25215df",
+      "scene_id": "FloorPlan28",
+      "second_success": true,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "c08a414649f998ba",
+      "trajectory_id": "validation-c08a414649f998ba-2124-correct_latest"
+    },
+    {
+      "category": "E",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.056116401986542414,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 104,
+      "reflection_sha256": "d64586a9922a123ac15635ecab53ba9382156144b2fd52784a5a645572061f4b",
+      "result_file_sha256": "656ddc42c35cef616e8607de2f9701b640c040f40a63078d78f584478e1a3d5c",
+      "scene_id": "FloorPlan28",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "c08a414649f998ba",
+      "trajectory_id": "validation-c08a414649f998ba-2125-delete_latest"
+    },
+    {
+      "category": "E",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.05578166222127254,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 105,
+      "reflection_sha256": "4fb4e6e87459a250f99d2e2e968e4cebf9dbd840dfe0d903c718e7cd09c9ffc2",
+      "result_file_sha256": "d4bab6f42cbbc41a712a02a48a20baf0df2e2e9d1050cfae05e3bfc4ce896c75",
+      "scene_id": "FloorPlan11",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "c2f8a69550cc82b6",
+      "trajectory_id": "validation-c2f8a69550cc82b6-2124-correct_latest"
+    },
+    {
+      "category": "E",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.056116401986542414,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 106,
+      "reflection_sha256": "0daba4676e6b98e2331ac350c011da4d599d5bd3047072acb182e9819158afcd",
+      "result_file_sha256": "4d169dbd160fd4fd16bda1787d7ffba132c59fe4b7d1ffd58dfbd4876b38d415",
+      "scene_id": "FloorPlan11",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "c2f8a69550cc82b6",
+      "trajectory_id": "validation-c2f8a69550cc82b6-2125-delete_latest"
+    },
+    {
+      "category": "E",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.05578166222127254,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 107,
+      "reflection_sha256": "b1797b4d26f82c7e3bc8df241c44c655164a313cdd7e46bfc323157802137ac4",
+      "result_file_sha256": "b6dd96309cb2f6991ce5651060256183bc686f7a5f7ceeec3ea3e248ee49075e",
+      "scene_id": "FloorPlan11",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "c66ccf679acc0115",
+      "trajectory_id": "validation-c66ccf679acc0115-2124-correct_latest"
+    },
+    {
+      "category": "E",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.056116401986542414,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 108,
+      "reflection_sha256": "94c777331d801faeb4dc3ff677cc1d0af46d4e8662f0b0591d82c0facab40b21",
+      "result_file_sha256": "f30fb6dadb43a32af80379d1d1fe699e4d8ef7ac61d2ecf70fa52eebd03249f7",
+      "scene_id": "FloorPlan11",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "c66ccf679acc0115",
+      "trajectory_id": "validation-c66ccf679acc0115-2125-delete_latest"
+    },
+    {
+      "category": "E",
+      "condition": "error_middle",
+      "conditional_second_probability": 0.055900066079089226,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03286770504539948,
+        "B": 0.028851805091800912,
+        "C": 0.02556210634136868,
+        "E": 0.7506423459679975,
+        "U": 0.16207603755343344
+      },
+      "index": 109,
+      "reflection_sha256": "b89d026f8ac01b793953ca0f15e57b20eaadead8bec26cf67b28535f9a605138",
+      "result_file_sha256": "0e38747d063dbe5ba85681be1fac6ce1a74951057ddcebda320fa97f25705a7f",
+      "scene_id": "FloorPlan26",
+      "second_success": true,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "c7cfa6ea21ccf1d6",
+      "trajectory_id": "validation-c7cfa6ea21ccf1d6-2120-error_middle"
+    },
+    {
+      "category": "E",
+      "condition": "correct_middle",
+      "conditional_second_probability": 0.04491891920441724,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.0691261958648232,
+        "B": 0.06284473439519554,
+        "C": 0.09069226620512813,
+        "E": 0.4599978326640212,
+        "U": 0.31733897087083196
+      },
+      "index": 110,
+      "reflection_sha256": "3b473121e988fc596cd49976f2bbd20164f891c5ad04f5f1143cf428541a927d",
+      "result_file_sha256": "542664a586b02a7f482ee274ec93de93e8d2cce975544e3528af70d28f438a4d",
+      "scene_id": "FloorPlan26",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "c7cfa6ea21ccf1d6",
+      "trajectory_id": "validation-c7cfa6ea21ccf1d6-2121-correct_middle"
+    },
+    {
+      "category": "E",
+      "condition": "neutral_full",
+      "conditional_second_probability": 0.04491891920441724,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.0691261958648232,
+        "B": 0.06284473439519554,
+        "C": 0.09069226620512813,
+        "E": 0.4599978326640212,
+        "U": 0.31733897087083196
+      },
+      "index": 111,
+      "reflection_sha256": "e4a06baca563ec946363d8f412cbbe5391d0cae9d4c7010f94c303df11282ef5",
+      "result_file_sha256": "41669e0c0696287d33d6d099c2fac6c45ba572c1de69279570fc0c5ec19c2bf4",
+      "scene_id": "FloorPlan26",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "c7cfa6ea21ccf1d6",
+      "trajectory_id": "validation-c7cfa6ea21ccf1d6-2122-neutral_full"
+    },
+    {
+      "category": "E",
+      "condition": "repeated_error",
+      "conditional_second_probability": 0.056015041406922095,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.021561255627626466,
+        "B": 0.020306830412077637,
+        "C": 0.010518304907331574,
+        "E": 0.8630147757063396,
+        "U": 0.08459883334662471
+      },
+      "index": 112,
+      "reflection_sha256": "98bd69fadc951f506b665c91066222f22710970f80ee3f139f4723e6ac204b48",
+      "result_file_sha256": "ad8751b4432423bd23b520ceb99b3553d33c66c058a5350847564ec0add79fab",
+      "scene_id": "FloorPlan26",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "c7cfa6ea21ccf1d6",
+      "trajectory_id": "validation-c7cfa6ea21ccf1d6-2123-repeated_error"
+    },
+    {
+      "category": "E",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.05578166222127254,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 113,
+      "reflection_sha256": "1ab9d08e5aa6c0bbbfee38ed7b346a29c394ec50a629a564db0f8f84fc9433c9",
+      "result_file_sha256": "c660a7a6146612a5693a98634892101a927e12b65a5bc9643e723c18e31f66bd",
+      "scene_id": "FloorPlan26",
+      "second_success": true,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "c7cfa6ea21ccf1d6",
+      "trajectory_id": "validation-c7cfa6ea21ccf1d6-2124-correct_latest"
+    },
+    {
+      "category": "B",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.05611640198654241,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 114,
+      "reflection_sha256": "c996f0cceab6c79e3787f2faee691e5cfd7a00246ba6cf29f481624712f3e77e",
+      "result_file_sha256": "15e0663f51333f0367b17e5cbc20f13fb8115c1fc71912116d38d615ccdd0a79",
+      "scene_id": "FloorPlan26",
+      "second_success": true,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "B"
+        }
+      ],
+      "task_id": "c7cfa6ea21ccf1d6",
+      "trajectory_id": "validation-c7cfa6ea21ccf1d6-2125-delete_latest"
+    },
+    {
+      "category": "U",
+      "condition": "correct_oldest",
+      "conditional_second_probability": 0.05824112556485228,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.021561255627626466,
+        "B": 0.020306830412077637,
+        "C": 0.010518304907331574,
+        "E": 0.8630147757063396,
+        "U": 0.08459883334662471
+      },
+      "index": 115,
+      "reflection_sha256": "babfd14ee5e3df74e1a2e8d06287538fbd6878575e0b0892ff12b7178e15debe",
+      "result_file_sha256": "310481d7f8189b7631043aea1eaa6aeb67baf2c3f4c1c21b66ea02777b40dc93",
+      "scene_id": "FloorPlan26",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "task_id": "c7cfa6ea21ccf1d6",
+      "trajectory_id": "validation-c7cfa6ea21ccf1d6-2126-correct_oldest"
+    },
+    {
+      "category": "U",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.3534908391212377,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 116,
+      "reflection_sha256": "eb7f1422283089c6875f1fcb2d0438bb5a46f30181d4aaeb12cd12838bb534c3",
+      "result_file_sha256": "834202582751f52d6ac0bd67ce9a5c5e43d1c145199145b488d70386329e7a30",
+      "scene_id": "FloorPlan28",
+      "second_success": true,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "task_id": "cd1b18a0972cd09e",
+      "trajectory_id": "validation-cd1b18a0972cd09e-2124-correct_latest"
+    },
+    {
+      "category": "E",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.056116401986542414,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 117,
+      "reflection_sha256": "45120cf5ee21256f47e4469b2c0066c020def39a5643328bf442e868ecbaa673",
+      "result_file_sha256": "5636e68b5ad134dd36f647bf67cfdcdd9689fb446476f97e810bdc547728116b",
+      "scene_id": "FloorPlan28",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "cd1b18a0972cd09e",
+      "trajectory_id": "validation-cd1b18a0972cd09e-2125-delete_latest"
+    },
+    {
+      "category": "A",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.33067095236632277,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 118,
+      "reflection_sha256": "68c1f9fa0f3905715ba6be22e20df963f6755f68a45787f7a09922282324626a",
+      "result_file_sha256": "a588fb4a933405d792dcaab3b64bd2fd417e671019c6515d8fc25af429c576f4",
+      "scene_id": "FloorPlan23",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "A"
+        }
+      ],
+      "task_id": "d0b28366be5c86ef",
+      "trajectory_id": "validation-d0b28366be5c86ef-2124-correct_latest"
+    },
+    {
+      "category": "A",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.054659189916450406,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 119,
+      "reflection_sha256": "504f808041e507b8bea8e85b18073dc96758b90bb5f75a31f1e267db438dc3c5",
+      "result_file_sha256": "9fb6c919244cdfa7c1587ced724fbe95e86349aec6bdd91926ef88e0e6ec6ed7",
+      "scene_id": "FloorPlan23",
+      "second_success": true,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "A"
+        }
+      ],
+      "task_id": "d0b28366be5c86ef",
+      "trajectory_id": "validation-d0b28366be5c86ef-2125-delete_latest"
+    },
+    {
+      "category": "E",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.05578166222127254,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 120,
+      "reflection_sha256": "3f2f6cefd406bf410f877ac2751f25a8575ea58307bf6e7141ed39af7d249b93",
+      "result_file_sha256": "264771f26aeb3d844c2d6dd9cec1bbb8af40426c993854d80499320fe010ce5c",
+      "scene_id": "FloorPlan1",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "d736aa2178df18d7",
+      "trajectory_id": "validation-d736aa2178df18d7-2124-correct_latest"
+    },
+    {
+      "category": "E",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.056116401986542414,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 121,
+      "reflection_sha256": "eaa4862973cee7b6eca7c8ed00e13b308f26363dc0eb4d7d913bca994755ff80",
+      "result_file_sha256": "3080f6c64e408c639bcf71b61b163e9496e66d6a5cbdf5ffd384b16233d2392d",
+      "scene_id": "FloorPlan1",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "d736aa2178df18d7",
+      "trajectory_id": "validation-d736aa2178df18d7-2125-delete_latest"
+    },
+    {
+      "category": "E",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.05578166222127254,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 122,
+      "reflection_sha256": "7a7aa3a9433fe0d4c286b9f5f197b25989d0bd42fc755bbaeaea25028c5580cf",
+      "result_file_sha256": "d0df8bf2f5b5f74bce9b9ed318ce90713389c311e3cd50b919458a8627da5f3c",
+      "scene_id": "FloorPlan2",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "e3fe589d9dedebd5",
+      "trajectory_id": "validation-e3fe589d9dedebd5-2124-correct_latest"
+    },
+    {
+      "category": "U",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.06065492267143381,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 123,
+      "reflection_sha256": "bb1ef0fd1938e408f95eca4deecad6a19c57797efb5a8ef89bd9379cdea003fc",
+      "result_file_sha256": "a233e06eedd60b24c5a93837654acc7a9be26a4bafed05f28c7167e416d9e53e",
+      "scene_id": "FloorPlan2",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "task_id": "e3fe589d9dedebd5",
+      "trajectory_id": "validation-e3fe589d9dedebd5-2125-delete_latest"
+    },
+    {
+      "category": "B",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.05578166222127253,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 124,
+      "reflection_sha256": "a8928e380160997fc7fb5bc30ee7638b115d37fc9321db625e78969ad743373a",
+      "result_file_sha256": "ad349b169e94138a91ba2fd42c918c439fbc3d0dab17ae54638380c876344c56",
+      "scene_id": "FloorPlan20",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "B"
+        }
+      ],
+      "task_id": "ea2668fdcc31419c",
+      "trajectory_id": "validation-ea2668fdcc31419c-2124-correct_latest"
+    },
+    {
+      "category": "U",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.06065492267143381,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 125,
+      "reflection_sha256": "060a39439c50959963de0b2aa449f89aa33f3a5627de7db9da37c75183de7fbb",
+      "result_file_sha256": "29d7f66e4f2eda01b95ca6f3cb2c1d6780c77ea3f0bfcd7fb72f50f7d444c808",
+      "scene_id": "FloorPlan20",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "task_id": "ea2668fdcc31419c",
+      "trajectory_id": "validation-ea2668fdcc31419c-2125-delete_latest"
+    },
+    {
+      "category": "C",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.3534908391212377,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 126,
+      "reflection_sha256": "ccba2a525a3ffb67db5d9d17356b63064281adf9ebce3c78efb71dc6ebf0bd3e",
+      "result_file_sha256": "adc432acb96fbd1885c77098af9083624e8405faa714a3ce49f6eb7e5031b5c1",
+      "scene_id": "FloorPlan28",
+      "second_success": true,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "C"
+        }
+      ],
+      "task_id": "ea8e3ae985682506",
+      "trajectory_id": "validation-ea8e3ae985682506-2124-correct_latest"
+    },
+    {
+      "category": "E",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.056116401986542414,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 127,
+      "reflection_sha256": "2287827c80ecb227ea1bbf9fc985693b7a453ec686abfa3d43f33bfdc714b936",
+      "result_file_sha256": "973e3f9c9f3f10c379455000dd98d19e9619d033736279116666ab1b10adbc3f",
+      "scene_id": "FloorPlan28",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "ea8e3ae985682506",
+      "trajectory_id": "validation-ea8e3ae985682506-2125-delete_latest"
+    },
+    {
+      "category": "U",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.3534908391212377,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 128,
+      "reflection_sha256": "05ffe48ac6a10277b25075545da1af19a8b3062d1c7295a588bb94ce320f1cba",
+      "result_file_sha256": "7e3761a3678a20cec1006a0db7390d12a38ac1d0c37962bad3b59d2d4a8129fa",
+      "scene_id": "FloorPlan14",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "task_id": "ea917be742c4ab40",
+      "trajectory_id": "validation-ea917be742c4ab40-2124-correct_latest"
+    },
+    {
+      "category": "U",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.06065492267143381,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 129,
+      "reflection_sha256": "f2988fde824c23e5fd0c2d286bbb7b4a2f29223dab93d9a883c97573962312d5",
+      "result_file_sha256": "a0e3beceaffe1d112d1231a3418d5fc5ab94c026327a524e8de58aefdbdf7a98",
+      "scene_id": "FloorPlan14",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "task_id": "ea917be742c4ab40",
+      "trajectory_id": "validation-ea917be742c4ab40-2125-delete_latest"
+    },
+    {
+      "category": "E",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.05578166222127254,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 130,
+      "reflection_sha256": "8ca567ceccddd1d3203e6ffc2bea26705453f3c982f1cb6dd7ab813ee2c53ba6",
+      "result_file_sha256": "38d9e6273325cf8a7a4616f814ee0c961d46f662257ad11788cb4a5aee5ded3a",
+      "scene_id": "FloorPlan20",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "f32bdafc1e083bd1",
+      "trajectory_id": "validation-f32bdafc1e083bd1-2124-correct_latest"
+    },
+    {
+      "category": "U",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.06065492267143381,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 131,
+      "reflection_sha256": "4f45a8907ce4ddfcdfd671763f4e6ab7571a29e0d12522d6db90301897e5e5dd",
+      "result_file_sha256": "02f710dacdadd6f0b17eefbc692688190c48bb870cb0c3d0ea3443dd631a74d3",
+      "scene_id": "FloorPlan20",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "task_id": "f32bdafc1e083bd1",
+      "trajectory_id": "validation-f32bdafc1e083bd1-2125-delete_latest"
+    },
+    {
+      "category": "E",
+      "condition": "correct_latest",
+      "conditional_second_probability": 0.05578166222127254,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.04487001269142343,
+        "B": 0.03671092406059184,
+        "C": 0.05563383489997781,
+        "E": 0.5847084482732096,
+        "U": 0.2780767800747973
+      },
+      "index": 132,
+      "reflection_sha256": "ed6cf3c07bb06990c18f38008adae0ce80aada607ac81880dbc8b901738e6167",
+      "result_file_sha256": "f82ea8d2c3a2ff4cbdbbdb82e18877baebefc4921eb5010c68903e4147cfdc0c",
+      "scene_id": "FloorPlan2",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "f8e20a0b412a4250",
+      "trajectory_id": "validation-f8e20a0b412a4250-2124-correct_latest"
+    },
+    {
+      "category": "E",
+      "condition": "delete_latest",
+      "conditional_second_probability": 0.056116401986542414,
+      "frozen_first_failure_write_probabilities": {
+        "A": 0.03157993266723247,
+        "B": 0.027916958107742283,
+        "C": 0.02454169767324207,
+        "E": 0.7692389312008038,
+        "U": 0.14672248035097935
+      },
+      "index": 133,
+      "reflection_sha256": "cf28988c7fd1631bb472cebbc4c968bf3edfa37433defb0e58ec0ad17d259f16",
+      "result_file_sha256": "d01ebfc6224c286552b16b332dbfa08023cf8ca750c2fa1a53808aa05d0dbf41",
+      "scene_id": "FloorPlan2",
+      "second_success": false,
+      "state_before_second": [
+        {
+          "native": false,
+          "type": "E"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "f8e20a0b412a4250",
+      "trajectory_id": "validation-f8e20a0b412a4250-2125-delete_latest"
+    }
+  ],
+  "scope": "Post-collection targeted diagnosis; no causal claim from the success-conditioned cases",
+  "semantic_counts": {
+    "A": 9,
+    "B": 5,
+    "C": 2,
+    "E": 81,
+    "U": 37
+  },
+  "sha256": "77ab9f2e12d7138216f5aac7e102adc860640042da81ec7c7fc8b9efc62c4cfc",
+  "source_sha256": "8e3c5422bc3995be0bf3e676c928168fc12e27f4f4bb1469ed058fccc55a6bc0",
+  "successful_deletion_cases": [
+    {
+      "checkpoint_sha256": "62dfbe5ef8de833e50a837feddc94bfcc9cb139fea1d4bc014c34a8c3ae6f06a",
+      "new_reflection_category": "U",
+      "old_E_visible": true,
+      "reflection_sha256": "742efd30ca2b53e978c5824c9a6a0995d751f369be5c9afac3a266acd10371b5",
+      "result_file_sha256": "80959a6b3fc9426fdec52b7b4e7ffeeb110a8b95b98e02d3df6b054727fa6238",
+      "scene_id": "FloorPlan5",
+      "successful_heating_action": "heat mug 1 with microwave 1",
+      "successful_heating_observation": "You heat the mug 1 using the microwave 1.",
+      "target_put_in_microwave_before_heat": false,
+      "task_id": "3673f34a8cf17e0e",
+      "trajectory_id": "validation-3673f34a8cf17e0e-2125-delete_latest",
+      "unsuccessful_other_take_count": 1
+    },
+    {
+      "checkpoint_sha256": "70f18eb0522255476f6759c0450c02add79aad7c30b2550713e7a6161d7a0800",
+      "new_reflection_category": "E",
+      "old_E_visible": true,
+      "reflection_sha256": "dff246bae17824b2119fac5db4bb33452803e8af12f3fbf216b1af1f419bd95f",
+      "result_file_sha256": "b1f39b98b0d1530ce1da8356b0c485e85eff11b68219933f05ba42f0319e78f6",
+      "scene_id": "FloorPlan26",
+      "successful_heating_action": "heat tomato 1 with microwave 1",
+      "successful_heating_observation": "You heat the tomato 1 using the microwave 1.",
+      "target_put_in_microwave_before_heat": false,
+      "task_id": "95fb5574f068e733",
+      "trajectory_id": "validation-95fb5574f068e733-2125-delete_latest",
+      "unsuccessful_other_take_count": 0
+    },
+    {
+      "checkpoint_sha256": "fe15c57916ab0dba4bbc1a3328088e77dac85769cc7ff89ecae2befbeb625b72",
+      "new_reflection_category": "E",
+      "old_E_visible": true,
+      "reflection_sha256": "f78828ccb56765cbf6cc8d74d41477e1aefd88b1c1e6d7cd018fc357b6b189b2",
+      "result_file_sha256": "462c64416ad2466a1708201ce1bc6f9a555049052c746e145b0b5988090db9c7",
+      "scene_id": "FloorPlan11",
+      "successful_heating_action": "heat egg 2 with microwave 1",
+      "successful_heating_observation": "You heat the egg 2 using the microwave 1.",
+      "target_put_in_microwave_before_heat": false,
+      "task_id": "b41a72f09c9d2e6b",
+      "trajectory_id": "validation-b41a72f09c9d2e6b-2125-delete_latest",
+      "unsuccessful_other_take_count": 2
+    },
+    {
+      "checkpoint_sha256": "f35b020c207b334ad13ab42a608c45c1b7d1c3ff28895b90314556f8037a4d95",
+      "new_reflection_category": "A",
+      "old_E_visible": true,
+      "reflection_sha256": "77b8ab4241579962144c14987dc3f4c383d7631cfec0a948d5c1d3ec5140f822",
+      "result_file_sha256": "6e4a7bbe91383e3c078737ee76f699d12d6fe46267179ce4d0164e332e007a54",
+      "scene_id": "FloorPlan26",
+      "successful_heating_action": "heat mug 1 with microwave 1",
+      "successful_heating_observation": "You heat the mug 1 using the microwave 1.",
+      "target_put_in_microwave_before_heat": false,
+      "task_id": "b5fcad0b33471c28",
+      "trajectory_id": "validation-b5fcad0b33471c28-2125-delete_latest",
+      "unsuccessful_other_take_count": 3
+    },
+    {
+      "checkpoint_sha256": "481930b2f7a557d00c79b342cc7cb26d03858ae1d2e4be302c831d72a64f4c03",
+      "new_reflection_category": "U",
+      "old_E_visible": true,
+      "reflection_sha256": "221a51c6f9b4f668271235d1446b7a237e8fc047567bd5d2ed96a11e124d1bc0",
+      "result_file_sha256": "9842a944655a7df625f1a0cb1c92e1dc8657a23ad1dcb4e62abe9f77bd98f420",
+      "scene_id": "FloorPlan1",
+      "successful_heating_action": "heat mug 2 with microwave 1",
+      "successful_heating_observation": "You heat the mug 2 using the microwave 1.",
+      "target_put_in_microwave_before_heat": false,
+      "task_id": "b819afb56a6a288f",
+      "trajectory_id": "validation-b819afb56a6a288f-2125-delete_latest",
+      "unsuccessful_other_take_count": 2
+    },
+    {
+      "checkpoint_sha256": "d5e86158bf583cc805984e70a3f6dd640eaef2fa625d4a57ea5f1a36c8a7c455",
+      "new_reflection_category": "B",
+      "old_E_visible": true,
+      "reflection_sha256": "c996f0cceab6c79e3787f2faee691e5cfd7a00246ba6cf29f481624712f3e77e",
+      "result_file_sha256": "17f8822546f019e4390fbac9bd38d25ee12f8366b7421f505b65dac44614a4ac",
+      "scene_id": "FloorPlan26",
+      "successful_heating_action": "heat apple 1 with microwave 1",
+      "successful_heating_observation": "You heat the apple 1 using the microwave 1.",
+      "target_put_in_microwave_before_heat": false,
+      "task_id": "c7cfa6ea21ccf1d6",
+      "trajectory_id": "validation-c7cfa6ea21ccf1d6-2125-delete_latest",
+      "unsuccessful_other_take_count": 2
+    },
+    {
+      "checkpoint_sha256": "66cd5bf251ddbaf8384d6c1868dc87f58fb53e513183f2c4be7a500eebbd9d10",
+      "new_reflection_category": "A",
+      "old_E_visible": true,
+      "reflection_sha256": "504f808041e507b8bea8e85b18073dc96758b90bb5f75a31f1e267db438dc3c5",
+      "result_file_sha256": "5858aa8c61509ad2a52521d150cae81d82efab113fd88e33513c516e5531f157",
+      "scene_id": "FloorPlan23",
+      "successful_heating_action": "heat apple 1 with microwave 1",
+      "successful_heating_observation": "You heat the apple 1 using the microwave 1.",
+      "target_put_in_microwave_before_heat": false,
+      "task_id": "d0b28366be5c86ef",
+      "trajectory_id": "validation-d0b28366be5c86ef-2125-delete_latest",
+      "unsuccessful_other_take_count": 1
+    }
+  ]
+}

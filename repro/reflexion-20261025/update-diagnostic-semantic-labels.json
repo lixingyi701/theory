@@ -1,0 +1,834 @@
+{
+  "scope": "Full-text annotation of the selected first-failure reflections from completed validation; post-collection diagnostic subset",
+  "manifest_sha256": "7a6851a139e4c32fc1a9ecac8d5b0c89f6b8a6a2d09d963e03ba15a4d050c299",
+  "private_reading_file_sha256": "e36245285d41e8b735768018950c81c2cb2ef62de74a87c19241a31287b6d855",
+  "annotator": "Codex full-text reading with second-attempt outcomes omitted from reading view",
+  "human_second_review": false,
+  "category_definitions": {
+    "E": "Explicit wrong target prerequisite",
+    "C": "Explicit correct target prerequisite",
+    "B": "Both target recommendations retained",
+    "U": "Neither target prerequisite explicitly stated",
+    "A": "Target prerequisite interpretation uncertain"
+  },
+  "interpretation_rules": [
+    "Ordinary heat-in-microwave wording alone does not assert put-before-heat.",
+    "A prior pickup followed by an explicit put/close/heat sequence is E, not automatically B.",
+    "B requires an additional heating-time inventory recommendation; ambiguous timing remains A.",
+    "Other appliance errors and skipping required heating do not make U globally correct.",
+    "Testing an already enclosed different object without a clear target prerequisite is A.",
+    "Rejected historical errors are not endorsed recommendations."
+  ],
+  "entries": [
+    {
+      "index": 0,
+      "reflection_sha256": "6cf3ab9aca33371c40bf9b9a0af2a228f553670b536a660a92b0a1d8571cf449",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 1,
+      "reflection_sha256": "0955d7949053d5aac3968d0b7789ae20d12258d915376f5a48c7b78046fd14c9",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 2,
+      "reflection_sha256": "9a2d58b92cd2d875d6e58ac776198c314011bfa5f1e0bed4d8411ee35e54a267",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 3,
+      "reflection_sha256": "9ff4a033d2531d55fc16235f813e66aaa2069f9508d111d325c7c53d8359c2d7",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 4,
+      "reflection_sha256": "559a2fae962be7a8285d3a0ce889a6bb1de6f14c8f15c60902ea8b4485b7cc4a",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 5,
+      "reflection_sha256": "f62138111091de5a829115d87ef45fa46033cf23fee128516cb499e93f1f4c3a",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 6,
+      "reflection_sha256": "696c3653bbc81cf16519ea5d41f514b7b40f6b95dea5801f2729c981f50162d6",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 7,
+      "reflection_sha256": "30bdffff698492e803a842c2f0e091b2a692a13d0bf6861ba1e56099ccffff47",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 8,
+      "reflection_sha256": "3af502aad2b5451d7fb8aa867ce508216b6585703a68c65f4b182538d40f6f5b",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 9,
+      "reflection_sha256": "c4a4db126a7db3116a03f70294bebaa3536a26f3c003faf7ebb318c16e0a6cc6",
+      "category": "A",
+      "reason": "目标物放置与加热时点不明确，或仅建议用器内其他物体验证设备。"
+    },
+    {
+      "index": 10,
+      "reflection_sha256": "fe9d18a026135d0535a310d43b65abca97486fae5f820712dd6e7c05283b0547",
+      "category": "U",
+      "reason": "未明确表达所追踪的加热前提；可能包含其他错误。"
+    },
+    {
+      "index": 11,
+      "reflection_sha256": "8ed5106cbeb8cd99e1dc512251d9e9c46dd2f9da2a2604544883d032e86eb795",
+      "category": "U",
+      "reason": "未明确表达所追踪的加热前提；可能包含其他错误。"
+    },
+    {
+      "index": 12,
+      "reflection_sha256": "5a63cf79413a486cd9e010c4c58f3952fb4f5bae8dc8b2de265a9d88faf4d8dd",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 13,
+      "reflection_sha256": "cee783d23b303381f316617e1086e6dd4cd6947ae4967d6c6c2a5ad6c82692da",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 14,
+      "reflection_sha256": "33b01cabe8b65d113171017d10a658b9beb09742755d7ee7d403668cb07310d7",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 15,
+      "reflection_sha256": "f6299336e7a59cdb1b3822b3a3afaa40ad3c3689f8f0e7c3e7bfba6064539cd1",
+      "category": "C",
+      "reason": "明确要求加热时目标物仍在库存，或直接反对先放入微波炉。"
+    },
+    {
+      "index": 16,
+      "reflection_sha256": "9e157c47cd39a07e0e131acad8eb4c904e467b9223b44841a48b6ae464b8cb73",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 17,
+      "reflection_sha256": "4c5afadd86d6cbac65bcbed75d591b8679829269433ae20b21e0ce4e45fb2eb1",
+      "category": "U",
+      "reason": "未明确表达所追踪的加热前提；可能包含其他错误。"
+    },
+    {
+      "index": 18,
+      "reflection_sha256": "d5df8ea92f2b9b6b5674f1aa0a93a2a811d66a5042250b3c741a3451aea8a8f0",
+      "category": "U",
+      "reason": "未明确表达所追踪的加热前提；可能包含其他错误。"
+    },
+    {
+      "index": 19,
+      "reflection_sha256": "fc0d44c21311a1451be7df2b9269be3408563c3323afbb9cdf230f81dfc66c86",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 20,
+      "reflection_sha256": "a970c5af39152b34205add5cd2b115e5cec1cb2418f6888e2d9c754d3b86ec38",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 21,
+      "reflection_sha256": "85a9cb591ae902d157a59dfca878106215ae256792433451c1e6c6491ea51dd1",
+      "category": "B",
+      "reason": "同时保留目标物在库存与置于微波炉内加热的建议。"
+    },
+    {
+      "index": 22,
+      "reflection_sha256": "9ab7eb2e933e92527f8fd7dc06988b8702361af27af42c5c73ef79d4900923e1",
+      "category": "U",
+      "reason": "未明确表达所追踪的加热前提；可能包含其他错误。"
+    },
+    {
+      "index": 23,
+      "reflection_sha256": "d92b417bde9a95cf4c8e9663f842af02b47c5c596119ae5ae6c3ded14b9b6625",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 24,
+      "reflection_sha256": "3fc9d3655443be0162d3221e506d3d1eb058dbd27cecbe41b78e881f755de046",
+      "category": "U",
+      "reason": "未明确表达所追踪的加热前提；可能包含其他错误。"
+    },
+    {
+      "index": 25,
+      "reflection_sha256": "d294aed728528f2cecdc594d996ae7c5a4e38f6380fa352ce96ca45e838d694c",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 26,
+      "reflection_sha256": "6acca2e49f0b3410de3bd34e4524a4b293dd0734876c5f581feac3ccb496699d",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 27,
+      "reflection_sha256": "ffc5f9801b3ec1779e1a3c50bd5952cb5bb27a8ed17aa7972fe28a97638c832a",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 28,
+      "reflection_sha256": "742efd30ca2b53e978c5824c9a6a0995d751f369be5c9afac3a266acd10371b5",
+      "category": "U",
+      "reason": "未明确表达所追踪的加热前提；可能包含其他错误。"
+    },
+    {
+      "index": 29,
+      "reflection_sha256": "d55a1fb7dab116fca6a3116db974182c7ca9ec7ccc6bb26492f4bf4e7ae7264f",
+      "category": "U",
+      "reason": "未明确表达所追踪的加热前提；可能包含其他错误。"
+    },
+    {
+      "index": 30,
+      "reflection_sha256": "53cb9a5b4bdfa654d2c0ad9a2fa7d251660971f01c2e25a9bfb8b9dd0494ea24",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 31,
+      "reflection_sha256": "01d6132c52c37e661a46792550eba9c09937f576a941c5ef42c151d5b55b8837",
+      "category": "U",
+      "reason": "未明确表达所追踪的加热前提；可能包含其他错误。"
+    },
+    {
+      "index": 32,
+      "reflection_sha256": "1bdd689b04230b4d992a4d6eec678a8731c9a65af1b8ef15ee467d6a6e68c517",
+      "category": "A",
+      "reason": "目标物放置与加热时点不明确，或仅建议用器内其他物体验证设备。"
+    },
+    {
+      "index": 33,
+      "reflection_sha256": "1d431d5a36fbbb87a41e31dae823aa058ba6c6c6b8427841780cac96ab4a3103",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 34,
+      "reflection_sha256": "c8cb19f17e30ac79e94342c332b1c8a544370c90883ac13341a8c56fce2b25c6",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 35,
+      "reflection_sha256": "56fe20982b111ec7ff791ac16686f496f4145c01a208e49b4032888f63c6ae32",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 36,
+      "reflection_sha256": "677b38935b77b4b16b41e7aeeaaf8dee53f7ea7e4e0e483db6a1056453a2e479",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 37,
+      "reflection_sha256": "a23d5fbcfac57181f1f000658235b3d85de4348e7081c25e3ab945322d624bd6",
+      "category": "U",
+      "reason": "未明确表达所追踪的加热前提；可能包含其他错误。"
+    },
+    {
+      "index": 38,
+      "reflection_sha256": "6ee8a1ea90bc07cef2c543420d50d67caf0f51b083ba83bfcec95f4554165dd7",
+      "category": "U",
+      "reason": "未明确表达所追踪的加热前提；可能包含其他错误。"
+    },
+    {
+      "index": 39,
+      "reflection_sha256": "30087c20bc88dd1c07b6902a8c65166394c7365517defde1485291d15517f906",
+      "category": "U",
+      "reason": "未明确表达所追踪的加热前提；可能包含其他错误。"
+    },
+    {
+      "index": 40,
+      "reflection_sha256": "b992b71bef5fe32398114534d1b1a9aeef32a6fa51aed153f859b085c3eca6ff",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 41,
+      "reflection_sha256": "c78ac85dca5262ea8681281737911f38da72318306761f0b0af3b74ffdad8d9b",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 42,
+      "reflection_sha256": "56028f64ffe0f029725ecd4d7a5cb939bd97d2675d322d833f017ab1f97ea42c",
+      "category": "U",
+      "reason": "未明确表达所追踪的加热前提；可能包含其他错误。"
+    },
+    {
+      "index": 43,
+      "reflection_sha256": "260433c38538d0a699f96fd847a88c074563324fcf11217bfed45ef19d66049f",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 44,
+      "reflection_sha256": "07d23da8ebd3e703462b65e999d48aca608eb8a86fd37003439571c45d4beae8",
+      "category": "U",
+      "reason": "未明确表达所追踪的加热前提；可能包含其他错误。"
+    },
+    {
+      "index": 45,
+      "reflection_sha256": "b66159845bfc43a0705c6bb22a0c4456ac339f320f81e8777a579ea77687efc8",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 46,
+      "reflection_sha256": "d96982cc869842136d65c9489695eba42e9899723106fc731674b2e9d67cd4d1",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 47,
+      "reflection_sha256": "318a44618eda77850fd6806bfddbc4eb2bc500551a6ecb2b2e3437b64bbd0f1f",
+      "category": "A",
+      "reason": "目标物放置与加热时点不明确，或仅建议用器内其他物体验证设备。"
+    },
+    {
+      "index": 48,
+      "reflection_sha256": "98996f3e9940395f92e42b81bb6bb96948356c9e1943db5eadfe128e1bf7ab8f",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 49,
+      "reflection_sha256": "6e69c85c778a00e5abbd7d5f5342226a66b9d2a1fcc56118c2c1da39b2f1d162",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 50,
+      "reflection_sha256": "868a8453d5f75fe711cf3edaca3380e3e4743023b628f8fbff83841c3cf38c58",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 51,
+      "reflection_sha256": "cd1df7cc3c1ec01bc473eba3e20e764385275476fd66feaa26c9681eed358110",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 52,
+      "reflection_sha256": "a6ab53cc3eea8f5ec3f3da2e004f31087a6a0a4a2987322c87968d85ff0087da",
+      "category": "A",
+      "reason": "目标物放置与加热时点不明确，或仅建议用器内其他物体验证设备。"
+    },
+    {
+      "index": 53,
+      "reflection_sha256": "0afacca805dd8f3cdeeaca300297f21b31a11ce78307fd8bd7896a2568913e41",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 54,
+      "reflection_sha256": "9f2124b3ea418a730ac73c13e2fe8fb6f77af53eb3500322f0bb11bc19603cd2",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 55,
+      "reflection_sha256": "538fa7b03f7f95d595117a0747bf094544b5fbf125c8fb47ac62387fa9f05209",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 56,
+      "reflection_sha256": "131ffd40667df6543ccb4d37b4504d4f2bfa69a3e8132f8b2be9a13b04964470",
+      "category": "U",
+      "reason": "未明确表达所追踪的加热前提；可能包含其他错误。"
+    },
+    {
+      "index": 57,
+      "reflection_sha256": "540e5960fe5577f52a9ec97b9c9736ed20f52e1b2b144088551b69d863a07c31",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 58,
+      "reflection_sha256": "a0211c4919b3a5e9035e4b5d3cfa1eb38daf95645403962b2d6d35569ca4ddf5",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 59,
+      "reflection_sha256": "6f110e1dd262a8cfb200897fed172313ee96cbf66cf03f8067f9a68e48cd6b48",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 60,
+      "reflection_sha256": "75beb866152d39002949162ae2d17077c101d0c7a1cdc9ab98193b6610facbc0",
+      "category": "A",
+      "reason": "目标物放置与加热时点不明确，或仅建议用器内其他物体验证设备。"
+    },
+    {
+      "index": 61,
+      "reflection_sha256": "b04102cc4cab7046145b0872da2de9d1ec822d1313df5a9f3e53d34720881ec6",
+      "category": "U",
+      "reason": "未明确表达所追踪的加热前提；可能包含其他错误。"
+    },
+    {
+      "index": 62,
+      "reflection_sha256": "0efc192db73d2471d87bbc9fcec441acc70deb24a6f235664a8cff8e1b304fe8",
+      "category": "U",
+      "reason": "未明确表达所追踪的加热前提；可能包含其他错误。"
+    },
+    {
+      "index": 63,
+      "reflection_sha256": "78893c298782a9247534ffd75a445f8fc49370fd92fddc9ba435a405ef46c6c8",
+      "category": "U",
+      "reason": "未明确表达所追踪的加热前提；可能包含其他错误。"
+    },
+    {
+      "index": 64,
+      "reflection_sha256": "7d091a2f5c74da623f952214723532cd412a8c330f8e8ccd261208b10fb3fba9",
+      "category": "U",
+      "reason": "未明确表达所追踪的加热前提；可能包含其他错误。"
+    },
+    {
+      "index": 65,
+      "reflection_sha256": "36af0b4fbc19af5655c4ddd180ba1b86004aba038a75b40db16edbfca08f3c4b",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 66,
+      "reflection_sha256": "eed6c2fff3290c05d4a2c704b7ca6a632f47138566ce691f325b1ea0acb074ab",
+      "category": "U",
+      "reason": "未明确表达所追踪的加热前提；可能包含其他错误。"
+    },
+    {
+      "index": 67,
+      "reflection_sha256": "6ca607d0da49691d5c4591ea420cf7c7df4f83976e422357c3907db745f10ce1",
+      "category": "U",
+      "reason": "未明确表达所追踪的加热前提；可能包含其他错误。"
+    },
+    {
+      "index": 68,
+      "reflection_sha256": "c651bbf21464d38ee8d94aee06254253fe7f804c0650b644938b785c37a0a6a2",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 69,
+      "reflection_sha256": "a8bf7f76e2de97afc0fd8d4b23d46e4f2b9286ffe7b5bb224f96fc9e91d2c77f",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 70,
+      "reflection_sha256": "b785b8bfcb761ce3de5446859e6703ec2743cc42816b8851e77e4baa6b46c53b",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 71,
+      "reflection_sha256": "e5662e8c9c08ed21dbcdb206b216780f9e9a9dfa29496a5a7f0b00030a65956d",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 72,
+      "reflection_sha256": "5020ba238e7d8adca4c6eeb3143e40b34dcd31366e60e16df68cb86f1e2a3814",
+      "category": "B",
+      "reason": "同时保留目标物在库存与置于微波炉内加热的建议。"
+    },
+    {
+      "index": 73,
+      "reflection_sha256": "696868b0f0d48b5819bc4dc04114e4a51bf7f986bd7bdb78f6ab0be7ba3c26b2",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 74,
+      "reflection_sha256": "c3708b8118fef3c440e8a6dfba689819885f548efdb017fc5dd52ae60ce83fa9",
+      "category": "U",
+      "reason": "未明确表达所追踪的加热前提；可能包含其他错误。"
+    },
+    {
+      "index": 75,
+      "reflection_sha256": "dad5c34892580a8bd3f0af0692ff596eb342cd92c9b744eee236bf48d7e63e5a",
+      "category": "U",
+      "reason": "未明确表达所追踪的加热前提；可能包含其他错误。"
+    },
+    {
+      "index": 76,
+      "reflection_sha256": "7f13af56bdcb41ac422a11affe88f02c48841d7a55f6cf5addd0cc1e29762fcd",
+      "category": "B",
+      "reason": "同时保留目标物在库存与置于微波炉内加热的建议。"
+    },
+    {
+      "index": 77,
+      "reflection_sha256": "33c1a42b9a3838abd8b0f6445e5508e1704beb978f1ec9b607f9b67cbb5c5370",
+      "category": "U",
+      "reason": "未明确表达所追踪的加热前提；可能包含其他错误。"
+    },
+    {
+      "index": 78,
+      "reflection_sha256": "594a148367c06388928fbc5ac32b826bf9d0893644aefa6224ffd9452eca9133",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 79,
+      "reflection_sha256": "3a1c2b0115c8d5765b69597c79dd7dde20d025d5b4ea270177da3993cfb71eda",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 80,
+      "reflection_sha256": "dff125a6eab9a3fe4aba830c56a73702ca52dbef53115ec4c4ac6a43d0474da5",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 81,
+      "reflection_sha256": "dff246bae17824b2119fac5db4bb33452803e8af12f3fbf216b1af1f419bd95f",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 82,
+      "reflection_sha256": "ed6d6246d4a274ebe2ee2e4b053218d0d97f3ff3cc6d3a5150f5bc1bfa4227a3",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 83,
+      "reflection_sha256": "b931c3e4b659cbb36f5dfd5d42a9392f4d5892a28a85f21f812c61b008ba205b",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 84,
+      "reflection_sha256": "4cbe49af5544a862512d5320360566b5c62303774a261004b03a925c92adb72d",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 85,
+      "reflection_sha256": "d5b88d2f02a40572302308c6d0d0dbcd789f39181ae83bd109f090820d1da3e2",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 86,
+      "reflection_sha256": "6dda45b2ffa933b3cfc3c3051081d358043b1cfc6a9650733642b536c111c5fd",
+      "category": "U",
+      "reason": "未明确表达所追踪的加热前提；可能包含其他错误。"
+    },
+    {
+      "index": 87,
+      "reflection_sha256": "c4098aea063c43f30e26c41b20c35ab83fa1d0f6336bdde23dd7d0d311e99570",
+      "category": "U",
+      "reason": "未明确表达所追踪的加热前提；可能包含其他错误。"
+    },
+    {
+      "index": 88,
+      "reflection_sha256": "fc1052b1636f3ae4f841b9a9115f7de89f3a89a458a43632bf8e8444dc933eeb",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 89,
+      "reflection_sha256": "637bcff17e8066bdd2f1571f14e1a5417f91cf4f0afa54ad9bc723322781ef49",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 90,
+      "reflection_sha256": "f2f74e63a87d5ac781b8f40ba1d7ad740925b31bc6820f4e7f1a5bb65a27f9c6",
+      "category": "U",
+      "reason": "未明确表达所追踪的加热前提；可能包含其他错误。"
+    },
+    {
+      "index": 91,
+      "reflection_sha256": "f78828ccb56765cbf6cc8d74d41477e1aefd88b1c1e6d7cd018fc357b6b189b2",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 92,
+      "reflection_sha256": "fe213759d0db6eb20ffdcb057a9505ce07cbb08d3dd4d4f4272194c1ce793ee7",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 93,
+      "reflection_sha256": "c7f870e6c362555c097a846fd115e3c832d917357ff51af3e207ba51aff283d3",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 94,
+      "reflection_sha256": "5ad8d486eaae902ae9e39be26f5ac7c54cd871f4fbd776cde8cc9a6223632767",
+      "category": "U",
+      "reason": "未明确表达所追踪的加热前提；可能包含其他错误。"
+    },
+    {
+      "index": 95,
+      "reflection_sha256": "ea27b0065107d44a3a09c4df382afa05bb27ad78a952eec02a722e6fa7be4e17",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 96,
+      "reflection_sha256": "80641ba14e800dc53121c56d560f5f346bd985d1811baa465bfdecf2a270614d",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 97,
+      "reflection_sha256": "77b8ab4241579962144c14987dc3f4c383d7631cfec0a948d5c1d3ec5140f822",
+      "category": "A",
+      "reason": "目标物放置与加热时点不明确，或仅建议用器内其他物体验证设备。"
+    },
+    {
+      "index": 98,
+      "reflection_sha256": "c99d2ca1b7858450f0bb83f0003b534b4f26be20384b87b203678b354e5e5e4c",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 99,
+      "reflection_sha256": "46638a33d2f42fdffed9524b554a7d47d4cb22e48b0ab3a2ebe08fd02d098a62",
+      "category": "A",
+      "reason": "目标物放置与加热时点不明确，或仅建议用器内其他物体验证设备。"
+    },
+    {
+      "index": 100,
+      "reflection_sha256": "221a51c6f9b4f668271235d1446b7a237e8fc047567bd5d2ed96a11e124d1bc0",
+      "category": "U",
+      "reason": "未明确表达所追踪的加热前提；可能包含其他错误。"
+    },
+    {
+      "index": 101,
+      "reflection_sha256": "a1b16634ed40138b23adfdc6f7e95b4e70713bff5cfd1b3ebc34b8c25c617e50",
+      "category": "U",
+      "reason": "未明确表达所追踪的加热前提；可能包含其他错误。"
+    },
+    {
+      "index": 102,
+      "reflection_sha256": "1def5cc5a6efad212166146d4be0163dd21db5ad560f37662f4809ecdff31740",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 103,
+      "reflection_sha256": "95134e89967cd3c39ee6e63c5523e208491f81bb3497c74484b725f2c17b5159",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 104,
+      "reflection_sha256": "d64586a9922a123ac15635ecab53ba9382156144b2fd52784a5a645572061f4b",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 105,
+      "reflection_sha256": "4fb4e6e87459a250f99d2e2e968e4cebf9dbd840dfe0d903c718e7cd09c9ffc2",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 106,
+      "reflection_sha256": "0daba4676e6b98e2331ac350c011da4d599d5bd3047072acb182e9819158afcd",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 107,
+      "reflection_sha256": "b1797b4d26f82c7e3bc8df241c44c655164a313cdd7e46bfc323157802137ac4",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 108,
+      "reflection_sha256": "94c777331d801faeb4dc3ff677cc1d0af46d4e8662f0b0591d82c0facab40b21",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 109,
+      "reflection_sha256": "b89d026f8ac01b793953ca0f15e57b20eaadead8bec26cf67b28535f9a605138",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 110,
+      "reflection_sha256": "3b473121e988fc596cd49976f2bbd20164f891c5ad04f5f1143cf428541a927d",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 111,
+      "reflection_sha256": "e4a06baca563ec946363d8f412cbbe5391d0cae9d4c7010f94c303df11282ef5",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 112,
+      "reflection_sha256": "98bd69fadc951f506b665c91066222f22710970f80ee3f139f4723e6ac204b48",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 113,
+      "reflection_sha256": "1ab9d08e5aa6c0bbbfee38ed7b346a29c394ec50a629a564db0f8f84fc9433c9",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 114,
+      "reflection_sha256": "c996f0cceab6c79e3787f2faee691e5cfd7a00246ba6cf29f481624712f3e77e",
+      "category": "B",
+      "reason": "同时保留目标物在库存与置于微波炉内加热的建议。"
+    },
+    {
+      "index": 115,
+      "reflection_sha256": "babfd14ee5e3df74e1a2e8d06287538fbd6878575e0b0892ff12b7178e15debe",
+      "category": "U",
+      "reason": "未明确表达所追踪的加热前提；可能包含其他错误。"
+    },
+    {
+      "index": 116,
+      "reflection_sha256": "eb7f1422283089c6875f1fcb2d0438bb5a46f30181d4aaeb12cd12838bb534c3",
+      "category": "U",
+      "reason": "未明确表达所追踪的加热前提；可能包含其他错误。"
+    },
+    {
+      "index": 117,
+      "reflection_sha256": "45120cf5ee21256f47e4469b2c0066c020def39a5643328bf442e868ecbaa673",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 118,
+      "reflection_sha256": "68c1f9fa0f3905715ba6be22e20df963f6755f68a45787f7a09922282324626a",
+      "category": "A",
+      "reason": "目标物放置与加热时点不明确，或仅建议用器内其他物体验证设备。"
+    },
+    {
+      "index": 119,
+      "reflection_sha256": "504f808041e507b8bea8e85b18073dc96758b90bb5f75a31f1e267db438dc3c5",
+      "category": "A",
+      "reason": "目标物放置与加热时点不明确，或仅建议用器内其他物体验证设备。"
+    },
+    {
+      "index": 120,
+      "reflection_sha256": "3f2f6cefd406bf410f877ac2751f25a8575ea58307bf6e7141ed39af7d249b93",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 121,
+      "reflection_sha256": "eaa4862973cee7b6eca7c8ed00e13b308f26363dc0eb4d7d913bca994755ff80",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 122,
+      "reflection_sha256": "7a7aa3a9433fe0d4c286b9f5f197b25989d0bd42fc755bbaeaea25028c5580cf",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 123,
+      "reflection_sha256": "bb1ef0fd1938e408f95eca4deecad6a19c57797efb5a8ef89bd9379cdea003fc",
+      "category": "U",
+      "reason": "未明确表达所追踪的加热前提；可能包含其他错误。"
+    },
+    {
+      "index": 124,
+      "reflection_sha256": "a8928e380160997fc7fb5bc30ee7638b115d37fc9321db625e78969ad743373a",
+      "category": "B",
+      "reason": "同时保留目标物在库存与置于微波炉内加热的建议。"
+    },
+    {
+      "index": 125,
+      "reflection_sha256": "060a39439c50959963de0b2aa449f89aa33f3a5627de7db9da37c75183de7fbb",
+      "category": "U",
+      "reason": "未明确表达所追踪的加热前提；可能包含其他错误。"
+    },
+    {
+      "index": 126,
+      "reflection_sha256": "ccba2a525a3ffb67db5d9d17356b63064281adf9ebce3c78efb71dc6ebf0bd3e",
+      "category": "C",
+      "reason": "明确要求加热时目标物仍在库存，或直接反对先放入微波炉。"
+    },
+    {
+      "index": 127,
+      "reflection_sha256": "2287827c80ecb227ea1bbf9fc985693b7a453ec686abfa3d43f33bfdc714b936",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 128,
+      "reflection_sha256": "05ffe48ac6a10277b25075545da1af19a8b3062d1c7295a588bb94ce320f1cba",
+      "category": "U",
+      "reason": "未明确表达所追踪的加热前提；可能包含其他错误。"
+    },
+    {
+      "index": 129,
+      "reflection_sha256": "f2988fde824c23e5fd0c2d286bbb7b4a2f29223dab93d9a883c97573962312d5",
+      "category": "U",
+      "reason": "未明确表达所追踪的加热前提；可能包含其他错误。"
+    },
+    {
+      "index": 130,
+      "reflection_sha256": "8ca567ceccddd1d3203e6ffc2bea26705453f3c982f1cb6dd7ab813ee2c53ba6",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 131,
+      "reflection_sha256": "4f45a8907ce4ddfcdfd671763f4e6ab7571a29e0d12522d6db90301897e5e5dd",
+      "category": "U",
+      "reason": "未明确表达所追踪的加热前提；可能包含其他错误。"
+    },
+    {
+      "index": 132,
+      "reflection_sha256": "ed6cf3c07bb06990c18f38008adae0ce80aada607ac81880dbc8b901738e6167",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    },
+    {
+      "index": 133,
+      "reflection_sha256": "cf28988c7fd1631bb472cebbc4c968bf3edfa37433defb0e58ec0ad17d259f16",
+      "category": "E",
+      "reason": "明确将目标物放入或留在微波炉内作为加热前提。"
+    }
+  ],
+  "selected_reflections": 134,
+  "total_validation_reflections": 610,
+  "parameter_refits": 0,
+  "new_model_calls": 0,
+  "blinding_scope": "Reading view omitted second-attempt outcomes; annotator had inspected aggregate outcomes and an example beforehand. This is not an independent blinded annotation.",
+  "sha256": "4ba9cc69ad097aa80855f97a35caad484309f8bbf78180c62a64d15a4f59115a"
+}
