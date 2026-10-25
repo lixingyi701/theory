@@ -1,0 +1,49 @@
+{
+  "contract_sha256": "f0694ff28a5a1bcf74c1aa4ce11ea3daf9b9230cbf8be07184fb05db6f1c3a18",
+  "created_unix": 1792939820.8636978,
+  "deadline_unix": 1793026220.8636978,
+  "dispatched_calls": 92,
+  "existing_gpu23_training_processes_alive_at_snapshot": true,
+  "freeze_commit": "60fa71e6927eb884348e6bf3c0ae8677298073bc",
+  "gpu_indices": [
+    2,
+    3
+  ],
+  "holdout134_model_calls": 0,
+  "inflight_note": "During collection a dispatched call may still be running; these counters are not a final uncertain-call audit",
+  "max_calls": 100000,
+  "maximum_attempts": 1944,
+  "observed_unix": 1792939885.8527234,
+  "official_reset_checks_passed": 162,
+  "offline_checks_passed": 65,
+  "parameter_refits": 0,
+  "parameters_sha256": "4826508a8a850c983bdd10a91dae065ed544674e7b9c8bc8bd6fa4a6fb9778b5",
+  "ports": [
+    8003,
+    8004
+  ],
+  "protocol_sha256": "80f28d46a4519d9c9e76eda644af4334e1d333eadaae22963e771bc86bbb546a",
+  "replica_checks_passed": 4,
+  "reserved_calls": 92,
+  "saved_responses": 91,
+  "scenes_planned": 27,
+  "scope": "Running progress snapshot, not final validation evidence",
+  "sha256": "4d8ad85c42ed78a07580be3e513f3cf1c9ec284c5b92717a15ea5f12d89d81ac",
+  "status": "running",
+  "tasks_planned": 81,
+  "trajectories_planned": 486,
+  "workers": [
+    {
+      "completed_attempts": 2,
+      "completed_trajectories": 2,
+      "status": "running",
+      "worker": 0
+    },
+    {
+      "completed_attempts": 1,
+      "completed_trajectories": 1,
+      "status": "running",
+      "worker": 1
+    }
+  ]
+}
