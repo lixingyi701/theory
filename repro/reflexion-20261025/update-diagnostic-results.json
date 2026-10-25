@@ -46,7 +46,7 @@
   "case_interpretation": "Every selected successful deletion trace retains old E, omits putting its target in the microwave, then executes successful heat; text presence is not deterministic behavioral adoption",
   "frozen_results_sha256": "aa1ad8aa8215ed2c41e7178778e67fcf88ed8b02fa23cb68d53ce3c8622a3af2",
   "human_second_review": false,
-  "labels_sha256": "4ba9cc69ad097aa80855f97a35caad484309f8bbf78180c62a64d15a4f59115a",
+  "labels_sha256": "83a64de1f9f515ed439932354010c0803a13826af0ae5d9d0f997db7af027dae",
   "manifest_sha256": "7a6851a139e4c32fc1a9ecac8d5b0c89f6b8a6a2d09d963e03ba15a4d050c299",
   "new_model_calls": 0,
   "parameter_refits": 0,
@@ -175,12 +175,11 @@
     },
     "delete_latest": {
       "category_counts": {
-        "A": 6,
-        "B": 1,
+        "A": 7,
         "E": 31,
         "U": 15
       },
-      "conditional_expected_second_successes": 3.0335038431395684,
+      "conditional_expected_second_successes": 3.0320466310694765,
       "first_failure_texts": 53,
       "frozen_write_probabilities": {
         "A": 0.03157993266723247,
@@ -193,12 +192,12 @@
       "selection_scope": "All first failures in this condition",
       "successes_by_new_category": {
         "A": {
-          "n": 6,
-          "successes": 2
+          "n": 7,
+          "successes": 3
         },
         "B": {
-          "n": 1,
-          "successes": 1
+          "n": 0,
+          "successes": 0
         },
         "C": {
           "n": 0,
@@ -4096,9 +4095,9 @@
       "trajectory_id": "validation-c7cfa6ea21ccf1d6-2124-correct_latest"
     },
     {
-      "category": "B",
+      "category": "A",
       "condition": "delete_latest",
-      "conditional_second_probability": 0.05611640198654241,
+      "conditional_second_probability": 0.054659189916450406,
       "frozen_first_failure_write_probabilities": {
         "A": 0.03157993266723247,
         "B": 0.027916958107742283,
@@ -4122,7 +4121,7 @@
         },
         {
           "native": true,
-          "type": "B"
+          "type": "A"
         }
       ],
       "task_id": "c7cfa6ea21ccf1d6",
@@ -4758,13 +4757,13 @@
   ],
   "scope": "Post-collection targeted diagnosis; no causal claim from the success-conditioned cases",
   "semantic_counts": {
-    "A": 9,
-    "B": 5,
+    "A": 10,
+    "B": 4,
     "C": 2,
     "E": 81,
     "U": 37
   },
-  "sha256": "77ab9f2e12d7138216f5aac7e102adc860640042da81ec7c7fc8b9efc62c4cfc",
+  "sha256": "f174eac31cbace172b58d3f663a87c50cb2c3e3e72a442c2dc4488527897dfaf",
   "source_sha256": "8e3c5422bc3995be0bf3e676c928168fc12e27f4f4bb1469ed058fccc55a6bc0",
   "successful_deletion_cases": [
     {
@@ -4839,7 +4838,7 @@
     },
     {
       "checkpoint_sha256": "d5e86158bf583cc805984e70a3f6dd640eaef2fa625d4a57ea5f1a36c8a7c455",
-      "new_reflection_category": "B",
+      "new_reflection_category": "A",
       "old_E_visible": true,
       "reflection_sha256": "c996f0cceab6c79e3787f2faee691e5cfd7a00246ba6cf29f481624712f3e77e",
       "result_file_sha256": "17f8822546f019e4390fbac9bd38d25ee12f8366b7421f505b65dac44614a4ac",

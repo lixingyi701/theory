@@ -707,8 +707,8 @@
     {
       "index": 114,
       "reflection_sha256": "c996f0cceab6c79e3787f2faee691e5cfd7a00246ba6cf29f481624712f3e77e",
-      "category": "B",
-      "reason": "同时保留目标物在库存与置于微波炉内加热的建议。"
+      "category": "A",
+      "reason": "文本建议检查微波炉内目标物并取物后加热，但未明确要求目标物在加热时留在器内；目标物位置与加热时点的关系含糊，保留A。"
     },
     {
       "index": 115,
@@ -830,5 +830,13 @@
   "parameter_refits": 0,
   "new_model_calls": 0,
   "blinding_scope": "Reading view omitted second-attempt outcomes; annotator had inspected aggregate outcomes and an example beforehand. This is not an independent blinded annotation.",
-  "sha256": "4ba9cc69ad097aa80855f97a35caad484309f8bbf78180c62a64d15a4f59115a"
+  "annotation_revisions": [
+    {
+      "index": 114,
+      "from": "B",
+      "to": "A",
+      "reason": "Self-review of target-location timing; implicit appliance-content advice is insufficient to assert two explicit contradictory target prerequisites. Second-attempt outcomes were already available during this review."
+    }
+  ],
+  "sha256": "83a64de1f9f515ed439932354010c0803a13826af0ae5d9d0f997db7af027dae"
 }
