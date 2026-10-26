@@ -1,0 +1,3021 @@
+{
+  "calibration_fits": [
+    {
+      "coefficients": [
+        -0.7553501395735086,
+        0.24767064406685516,
+        -0.40199106572865656,
+        -0.3471573037082918,
+        -2.3146984184470947,
+        -0.12987170080760552
+      ],
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 12,
+        "max_gradient": 4.7302220841927145e-06,
+        "objective": 143.16252445953526
+      },
+      "ridge": 1.0,
+      "training_groups": {
+        "after_first_failure": {
+          "attempts": 211,
+          "observed_successes": 17,
+          "posterior_fitted_mean": 0.08628425258075124,
+          "prior_mean": 0.0981332960669951
+        },
+        "initial_C_N": {
+          "attempts": 72,
+          "observed_successes": 35,
+          "posterior_fitted_mean": 0.38819768747520056,
+          "prior_mean": 0.3918159423508265
+        },
+        "other_initial": {
+          "attempts": 180,
+          "observed_successes": 6,
+          "posterior_fitted_mean": 0.06680071014212344,
+          "prior_mean": 0.06773503982435813
+        }
+      }
+    },
+    {
+      "coefficients": [
+        -0.7395103683042521,
+        0.3921649895257946,
+        -1.0094517760505857,
+        -2.200131766708947,
+        -3.879314255940501,
+        1.4977597746769253
+      ],
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 18,
+        "max_gradient": 2.018273513190727e-06,
+        "objective": 138.7540548562126
+      },
+      "ridge": 0.1,
+      "training_groups": {
+        "after_first_failure": {
+          "attempts": 211,
+          "observed_successes": 17,
+          "posterior_fitted_mean": 0.08200395481772,
+          "prior_mean": 0.09222934643245506
+        },
+        "initial_C_N": {
+          "attempts": 72,
+          "observed_successes": 35,
+          "posterior_fitted_mean": 0.42242188273604186,
+          "prior_mean": 0.425380928592363
+        },
+        "other_initial": {
+          "attempts": 180,
+          "observed_successes": 6,
+          "posterior_fitted_mean": 0.058109319229162834,
+          "prior_mean": 0.058580762639199285
+        }
+      }
+    },
+    {
+      "coefficients": [
+        -0.6067474532148895,
+        0.3062070346872964,
+        -1.1059182756433532,
+        -6.639982855015309,
+        -4.561960468563763,
+        2.1983350179538315
+      ],
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 20,
+        "max_gradient": 3.943218278013028e-06,
+        "objective": 137.15767610186555
+      },
+      "ridge": 0.01,
+      "training_groups": {
+        "after_first_failure": {
+          "attempts": 211,
+          "observed_successes": 17,
+          "posterior_fitted_mean": 0.08072594989737229,
+          "prior_mean": 0.09012148691473472
+        },
+        "initial_C_N": {
+          "attempts": 72,
+          "observed_successes": 35,
+          "posterior_fitted_mean": 0.4325702980285994,
+          "prior_mean": 0.43531923995985533
+        },
+        "other_initial": {
+          "attempts": 180,
+          "observed_successes": 6,
+          "posterior_fitted_mean": 0.055383098144626094,
+          "prior_mean": 0.05574531462997238
+        }
+      }
+    },
+    {
+      "coefficients": [
+        -0.5714202775743571,
+        0.28082571914734783,
+        -1.0688750645271403,
+        -61.69569536708042,
+        -4.673228412387678,
+        2.298466816025162
+      ],
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 41,
+        "max_gradient": 3.7166248031406113e-06,
+        "objective": 136.58509734260224
+      },
+      "ridge": 0.0,
+      "training_groups": {
+        "after_first_failure": {
+          "attempts": 211,
+          "observed_successes": 17,
+          "posterior_fitted_mean": 0.08056873202633391,
+          "prior_mean": 0.08964267071878339
+        },
+        "initial_C_N": {
+          "attempts": 72,
+          "observed_successes": 35,
+          "posterior_fitted_mean": 0.43477393925918073,
+          "prior_mean": 0.4374378064086174
+        },
+        "other_initial": {
+          "attempts": 180,
+          "observed_successes": 6,
+          "posterior_fitted_mean": 0.05464092623182726,
+          "prior_mean": 0.054954342238760584
+        }
+      }
+    }
+  ],
+  "development_success_fits": 79,
+  "elapsed_seconds": 4.26750716206152,
+  "events_sha256": "c35b890765962a3c8760358569afe291af420ff535218a38dc925eb515099131",
+  "fit_failures": [],
+  "folds": [
+    {
+      "after_first_failure": {
+        "attempts": 14,
+        "brier": 0.13705593350513653,
+        "mean_prediction_minus_observation": -0.07576874514275965
+      },
+      "coefficients": [
+        -0.6354187506244678,
+        0.24171600101324245,
+        -0.5774798258618309,
+        -0.2618894576955048,
+        -2.3386922392575493,
+        -0.2576096840104142
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.0526249075989113,
+        "mean_prediction_minus_observation": 0.16702937437279336
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.17271865708108797,
+        "mean_prediction_minus_observation": 0.415594341974344
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 12,
+        "max_gradient": 8.267400768424693e-07,
+        "objective": 133.05630690839027
+      },
+      "ridge": 1.0,
+      "scene_id": "FloorPlan12",
+      "trajectory_mean_success_brier": 0.09484042055202392
+    },
+    {
+      "after_first_failure": {
+        "attempts": 12,
+        "brier": 0.03926764730544853,
+        "mean_prediction_minus_observation": -0.0026016189810964137
+      },
+      "coefficients": [
+        -0.7898802397985315,
+        0.23961394409278192,
+        -0.46523983374393635,
+        -0.3345338440032389,
+        -2.2393394670445685,
+        -0.07611279029858209
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.07906280028103858,
+        "mean_prediction_minus_observation": 0.018153565874734243
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.2636773956224967,
+        "mean_prediction_minus_observation": -0.11695039812885069
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 12,
+        "max_gradient": 6.03618226413527e-06,
+        "objective": 138.28842948811064
+      },
+      "ridge": 1.0,
+      "scene_id": "FloorPlan13",
+      "trajectory_mean_success_brier": 0.08354809139652204
+    },
+    {
+      "after_first_failure": {
+        "attempts": 9,
+        "brier": 0.21887137226016337,
+        "mean_prediction_minus_observation": -0.1411608573730864
+      },
+      "coefficients": [
+        -0.7074721381018109,
+        0.1376865935945625,
+        -0.28480316283535473,
+        -0.349668215304949,
+        -2.287809160899946,
+        -0.3247788658403186
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.22189872907727065,
+        "mean_prediction_minus_observation": -0.2072175031058367
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.32509989477050166,
+        "mean_prediction_minus_observation": -0.37094459797994317
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 12,
+        "max_gradient": 5.142154597237436e-06,
+        "objective": 128.1037041006477
+      },
+      "ridge": 1.0,
+      "scene_id": "FloorPlan15",
+      "trajectory_mean_success_brier": 0.28613183108483836
+    },
+    {
+      "after_first_failure": {
+        "attempts": 13,
+        "brier": 0.21759680758226516,
+        "mean_prediction_minus_observation": -0.16225863262671109
+      },
+      "coefficients": [
+        -0.6517549093433601,
+        0.21694887991137188,
+        -0.6428554945558406,
+        -0.3446424333991572,
+        -2.2767083068070733,
+        -0.30218514704640376
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.06383625274098972,
+        "mean_prediction_minus_observation": 0.09272735428445766
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.21213950633219864,
+        "mean_prediction_minus_observation": 0.15696976247735955
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 12,
+        "max_gradient": 5.097280008636851e-07,
+        "objective": 131.29096046685854
+      },
+      "ridge": 1.0,
+      "scene_id": "FloorPlan16",
+      "trajectory_mean_success_brier": 0.14550538926998083
+    },
+    {
+      "after_first_failure": {
+        "attempts": 11,
+        "brier": 0.023398587793597478,
+        "mean_prediction_minus_observation": 0.11064769846227746
+      },
+      "coefficients": [
+        -0.7848054026961865,
+        0.22645651922762627,
+        -0.24846582353906155,
+        -0.34782668565177477,
+        -2.2272769438410296,
+        -0.14197859603876936
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.09584765872849717,
+        "mean_prediction_minus_observation": -0.0556676009610206
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.32337052195542565,
+        "mean_prediction_minus_observation": -0.3686061881675695
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 12,
+        "max_gradient": 2.4174744037430695e-06,
+        "objective": 137.4673146780224
+      },
+      "ridge": 1.0,
+      "scene_id": "FloorPlan17",
+      "trajectory_mean_success_brier": 0.098116876287363
+    },
+    {
+      "after_first_failure": {
+        "attempts": 12,
+        "brier": 0.041834538867402925,
+        "mean_prediction_minus_observation": 0.1558283089678241
+      },
+      "coefficients": [
+        -0.7287300552141122,
+        0.23888973452123613,
+        -0.2473060434231854,
+        -0.24587209531122675,
+        -2.2700035417318247,
+        -0.16282756722944722
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.0780658005865837,
+        "mean_prediction_minus_observation": 0.020225213394430234
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.2609185121181003,
+        "mean_prediction_minus_observation": -0.10449168444474577
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 12,
+        "max_gradient": 4.771746153542367e-06,
+        "objective": 138.03303369991218
+      },
+      "ridge": 1.0,
+      "scene_id": "FloorPlan18",
+      "trajectory_mean_success_brier": 0.08306271670523925
+    },
+    {
+      "after_first_failure": {
+        "attempts": 11,
+        "brier": 0.1769425353838431,
+        "mean_prediction_minus_observation": -0.10555688587856613
+      },
+      "coefficients": [
+        -0.7017838265314876,
+        0.18284401138785628,
+        -0.4272276948773178,
+        -0.34645920484237736,
+        -2.324482461931863,
+        -0.22605441149693556
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.13999492029714047,
+        "mean_prediction_minus_observation": -0.05819919550473464
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.26221216963187377,
+        "mean_prediction_minus_observation": -0.11050868577570616
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 12,
+        "max_gradient": 3.0957278915333397e-06,
+        "objective": 129.6333150174488
+      },
+      "ridge": 1.0,
+      "scene_id": "FloorPlan19",
+      "trajectory_mean_success_brier": 0.19741015625134367
+    },
+    {
+      "after_first_failure": {
+        "attempts": 13,
+        "brier": 0.08291088386519142,
+        "mean_prediction_minus_observation": 0.0009157475539174523
+      },
+      "coefficients": [
+        -0.694564418247805,
+        0.24298829149034018,
+        -0.4442120664280415,
+        -0.3529148166649302,
+        -2.2851598257072,
+        -0.2102826064952855
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.06375027591262741,
+        "mean_prediction_minus_observation": 0.09342055473040398
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.21105192042137377,
+        "mean_prediction_minus_observation": 0.1534663494756221
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 12,
+        "max_gradient": 2.2610291470215316e-06,
+        "objective": 135.7628376123441
+      },
+      "ridge": 1.0,
+      "scene_id": "FloorPlan21",
+      "trajectory_mean_success_brier": 0.08307849104400762
+    },
+    {
+      "after_first_failure": {
+        "attempts": 12,
+        "brier": 0.05611273217163509,
+        "mean_prediction_minus_observation": 0.04468581738225425
+      },
+      "coefficients": [
+        -0.7718935941504698,
+        0.24004657332402968,
+        -0.4030186087221101,
+        -0.34152618088835734,
+        -2.228857605662492,
+        -0.1254313329551806
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.07876957605922195,
+        "mean_prediction_minus_observation": 0.018914728896722105
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.2628068628668052,
+        "mean_prediction_minus_observation": -0.1131674107983619
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 12,
+        "max_gradient": 6.046266971593273e-06,
+        "objective": 137.82453206847103
+      },
+      "ridge": 1.0,
+      "scene_id": "FloorPlan22",
+      "trajectory_mean_success_brier": 0.09028840707925222
+    },
+    {
+      "after_first_failure": {
+        "attempts": 8,
+        "brier": 0.0032045411420965966,
+        "mean_prediction_minus_observation": 0.05660864279592813
+      },
+      "coefficients": [
+        -0.8105361172471368,
+        0.14570020735627998,
+        -0.2041511991552187,
+        -0.33647273101921116,
+        -2.3420191569375897,
+        -0.003129120223628116
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.24466431532729116,
+        "mean_prediction_minus_observation": -0.280905697282544
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.40981010938201673,
+        "mean_prediction_minus_observation": -0.6401641269096674
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 12,
+        "max_gradient": 1.3794056075155936e-06,
+        "objective": 133.64137921906345
+      },
+      "ridge": 1.0,
+      "scene_id": "FloorPlan24",
+      "trajectory_mean_success_brier": 0.2444577094089813
+    },
+    {
+      "after_first_failure": {
+        "attempts": 14,
+        "brier": 0.07387063846138707,
+        "mean_prediction_minus_observation": 0.0018510111215246942
+      },
+      "coefficients": [
+        -0.6540528030924383,
+        0.255759400852625,
+        -0.49034210172251613,
+        -0.35032656375019955,
+        -2.324953246074685,
+        -0.2062847944182849
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.052664551109442494,
+        "mean_prediction_minus_observation": 0.16872188516395745
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.1719168251806736,
+        "mean_prediction_minus_observation": 0.4146285387918608
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 12,
+        "max_gradient": 7.436331346255542e-07,
+        "objective": 136.6646753591268
+      },
+      "ridge": 1.0,
+      "scene_id": "FloorPlan25",
+      "trajectory_mean_success_brier": 0.06326759478541479
+    },
+    {
+      "after_first_failure": {
+        "attempts": 13,
+        "brier": 0.14212563986293877,
+        "mean_prediction_minus_observation": -0.10484846594119322
+      },
+      "coefficients": [
+        -0.6973526782724393,
+        0.22807408247567973,
+        -0.5771930398308689,
+        -0.3431030032758209,
+        -2.2884369908479756,
+        -0.2371202402464104
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.06320055167456017,
+        "mean_prediction_minus_observation": 0.09067189247239742
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.20993355628001353,
+        "mean_prediction_minus_observation": 0.14977835718158194
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 12,
+        "max_gradient": 3.8299511562200905e-07,
+        "objective": 132.97743097077705
+      },
+      "ridge": 1.0,
+      "scene_id": "FloorPlan27",
+      "trajectory_mean_success_brier": 0.1104538236489174
+    },
+    {
+      "after_first_failure": {
+        "attempts": 11,
+        "brier": 0.014082944296061406,
+        "mean_prediction_minus_observation": 0.08484787380593255
+      },
+      "coefficients": [
+        -0.8003821037414321,
+        0.22555837268659315,
+        -0.2950296923919285,
+        -0.3421655852834164,
+        -2.235707503937699,
+        -0.10305203225265973
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.09657991624721687,
+        "mean_prediction_minus_observation": -0.056476526941815784
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.3258639468175253,
+        "mean_prediction_minus_observation": -0.37197304582123325
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 12,
+        "max_gradient": 6.668735288026251e-06,
+        "objective": 137.81712236623673
+      },
+      "ridge": 1.0,
+      "scene_id": "FloorPlan3",
+      "trajectory_mean_success_brier": 0.09527080799650492
+    },
+    {
+      "after_first_failure": {
+        "attempts": 11,
+        "brier": 0.023135674412103624,
+        "mean_prediction_minus_observation": 0.10975494713521629
+      },
+      "coefficients": [
+        -0.7861120082476017,
+        0.22578654384366098,
+        -0.266683524019536,
+        -0.3461360945000345,
+        -2.241339170976077,
+        -0.11183523177732974
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.09596807024726486,
+        "mean_prediction_minus_observation": -0.05552265276346955
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.3236689042211967,
+        "mean_prediction_minus_observation": -0.3690107101713942
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 12,
+        "max_gradient": 2.925630583183736e-06,
+        "objective": 137.59123322055586
+      },
+      "ridge": 1.0,
+      "scene_id": "FloorPlan30",
+      "trajectory_mean_success_brier": 0.09812743499698319
+    },
+    {
+      "after_first_failure": {
+        "attempts": 11,
+        "brier": 0.05708968044712771,
+        "mean_prediction_minus_observation": 0.013958889553329785
+      },
+      "coefficients": [
+        -1.0051358214558987,
+        0.4465841662199729,
+        -0.3701034999057326,
+        -0.3414578061151799,
+        -2.3255383041524884,
+        -0.06199196990286039
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.14148867557447148,
+        "mean_prediction_minus_observation": -0.05798506689946311
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.26407727532776026,
+        "mean_prediction_minus_observation": -0.11864769415273202
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 11,
+        "max_gradient": 3.6681428879081768e-06,
+        "objective": 134.27681566188585
+      },
+      "ridge": 1.0,
+      "scene_id": "FloorPlan4",
+      "trajectory_mean_success_brier": 0.1520834220612037
+    },
+    {
+      "after_first_failure": {
+        "attempts": 14,
+        "brier": 0.03860981447302831,
+        "mean_prediction_minus_observation": 0.14328581696401216
+      },
+      "coefficients": [
+        -0.6417295417300536,
+        0.266108778515705,
+        -0.3267761666501082,
+        -0.2402038753417338,
+        -2.3503103858771084,
+        -0.1609275166121684
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.053988726396576266,
+        "mean_prediction_minus_observation": 0.17140700771412484
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.17590013486725442,
+        "mean_prediction_minus_observation": 0.4194045002944704
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 13,
+        "max_gradient": 9.283889317313054e-07,
+        "objective": 139.4121150779339
+      },
+      "ridge": 1.0,
+      "scene_id": "FloorPlan6",
+      "trajectory_mean_success_brier": 0.046299270434802295
+    },
+    {
+      "after_first_failure": {
+        "attempts": 12,
+        "brier": 0.09313382379660275,
+        "mean_prediction_minus_observation": 0.016546512490602825
+      },
+      "coefficients": [
+        -0.7271688962929026,
+        0.22815734411967792,
+        -0.40718314476286893,
+        -0.3475165538706554,
+        -2.252489768962096,
+        -0.18441962847397075
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.07814043026399316,
+        "mean_prediction_minus_observation": 0.019390792348551917
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.2613191314166276,
+        "mean_prediction_minus_observation": -0.10639140668600833
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 12,
+        "max_gradient": 6.531374233897935e-06,
+        "objective": 136.0549379845752
+      },
+      "ridge": 1.0,
+      "scene_id": "FloorPlan7",
+      "trajectory_mean_success_brier": 0.10524974948072888
+    },
+    {
+      "after_first_failure": {
+        "attempts": 10,
+        "brier": 0.0035850279547911717,
+        "mean_prediction_minus_observation": 0.05986702937358355
+      },
+      "coefficients": [
+        -0.8644436873132793,
+        0.21292929783411157,
+        -0.3064567986914869,
+        -0.3295448983936982,
+        -2.1709391945430374,
+        -0.09129259524579289
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.11957397052470962,
+        "mean_prediction_minus_observation": -0.13245091820881014
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.4063993269040824,
+        "mean_prediction_minus_observation": -0.6374945700977244
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 12,
+        "max_gradient": 4.873286233081364e-06,
+        "objective": 137.702054092299
+      },
+      "ridge": 1.0,
+      "scene_id": "FloorPlan8",
+      "trajectory_mean_success_brier": 0.11912439908964914
+    },
+    {
+      "after_first_failure": {
+        "attempts": 14,
+        "brier": 0.13347375273088743,
+        "mean_prediction_minus_observation": -0.0839877251990759
+      },
+      "coefficients": [
+        -0.6560396625325803,
+        0.4392776382444219,
+        -1.406155345549868,
+        -1.7570880306072592,
+        -3.8788258664888966,
+        1.36242611624967
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.06146550628563043,
+        "mean_prediction_minus_observation": 0.17207961697984486
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.2054162072934411,
+        "mean_prediction_minus_observation": 0.4532286479178485
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 19,
+        "max_gradient": 9.916421690459032e-07,
+        "objective": 128.61233956949684
+      },
+      "ridge": 0.1,
+      "scene_id": "FloorPlan12",
+      "trajectory_mean_success_brier": 0.09746962950825895
+    },
+    {
+      "after_first_failure": {
+        "attempts": 12,
+        "brier": 0.040006969288835785,
+        "mean_prediction_minus_observation": -0.002513656948923837
+      },
+      "coefficients": [
+        -0.7681936102641304,
+        0.3859308287308123,
+        -1.1543454334237313,
+        -2.109658165261537,
+        -3.8163365983852193,
+        1.5743696213888578
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.07656054348572727,
+        "mean_prediction_minus_observation": 0.021891054282171578
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.2567233722859693,
+        "mean_prediction_minus_observation": -0.08199617238608958
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 18,
+        "max_gradient": 5.273918725068327e-07,
+        "objective": 134.00881506702538
+      },
+      "ridge": 0.1,
+      "scene_id": "FloorPlan13",
+      "trajectory_mean_success_brier": 0.07962036891465461
+    },
+    {
+      "after_first_failure": {
+        "attempts": 9,
+        "brier": 0.218645578726083,
+        "mean_prediction_minus_observation": -0.14387648975799294
+      },
+      "coefficients": [
+        -0.5226529615895572,
+        0.10614008657965454,
+        -0.7336811584972733,
+        -2.270188333764456,
+        -3.853276111224874,
+        1.2630403174353544
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.2158375066339653,
+        "mean_prediction_minus_observation": -0.20528242790142634
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.30255548576593594,
+        "mean_prediction_minus_observation": -0.33919829858938844
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 17,
+        "max_gradient": 5.2228011753058246e-06,
+        "objective": 123.97076532046118
+      },
+      "ridge": 0.1,
+      "scene_id": "FloorPlan15",
+      "trajectory_mean_success_brier": 0.2794041222463251
+    },
+    {
+      "after_first_failure": {
+        "attempts": 13,
+        "brier": 0.21691535302231119,
+        "mean_prediction_minus_observation": -0.16801821634112854
+      },
+      "coefficients": [
+        -0.6493659632194393,
+        0.39464856174619894,
+        -1.4946132843483377,
+        -2.123604439493591,
+        -3.7709250891693267,
+        1.2646021742371565
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.06716243764594992,
+        "mean_prediction_minus_observation": 0.09811409161448041
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.22556311809070986,
+        "mean_prediction_minus_observation": 0.1950977142119043
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 17,
+        "max_gradient": 8.748971589533916e-06,
+        "objective": 126.89248069074806
+      },
+      "ridge": 0.1,
+      "scene_id": "FloorPlan16",
+      "trajectory_mean_success_brier": 0.14528893796807849
+    },
+    {
+      "after_first_failure": {
+        "attempts": 11,
+        "brier": 0.02302934131986806,
+        "mean_prediction_minus_observation": 0.10464441140919177
+      },
+      "coefficients": [
+        -0.7363173065782345,
+        0.3312758391300587,
+        -0.7050818202746036,
+        -2.248821723331077,
+        -3.734013958267505,
+        1.3985991403921028
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.0887163800956361,
+        "mean_prediction_minus_observation": -0.053962294173729254
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.30092750966431225,
+        "mean_prediction_minus_observation": -0.33679000826080374
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 17,
+        "max_gradient": 2.1633597597214838e-06,
+        "objective": 133.45110520842246
+      },
+      "ridge": 0.1,
+      "scene_id": "FloorPlan17",
+      "trajectory_mean_success_brier": 0.09029712918719988
+    },
+    {
+      "after_first_failure": {
+        "attempts": 12,
+        "brier": 0.035687722512961394,
+        "mean_prediction_minus_observation": 0.13741979633412385
+      },
+      "coefficients": [
+        -0.7089038784505222,
+        0.36719796290873735,
+        -0.7511457251297183,
+        -1.7157729440019729,
+        -3.7829240148896024,
+        1.3980549442429209
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.07576679377592818,
+        "mean_prediction_minus_observation": 0.021737744832460614
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.2553911605697235,
+        "mean_prediction_minus_observation": -0.07342452294515446
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 17,
+        "max_gradient": 6.630867850188071e-06,
+        "objective": 134.05866422016544
+      },
+      "ridge": 0.1,
+      "scene_id": "FloorPlan18",
+      "trajectory_mean_success_brier": 0.07666496964458168
+    },
+    {
+      "after_first_failure": {
+        "attempts": 11,
+        "brier": 0.17605848168625446,
+        "mean_prediction_minus_observation": -0.1089383461772933
+      },
+      "coefficients": [
+        -0.5713019429357861,
+        0.22260994371515846,
+        -1.0859095928701588,
+        -2.191759302210093,
+        -4.0136264471455965,
+        1.5255486964834977
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.1400419528253867,
+        "mean_prediction_minus_observation": -0.05469330094732612
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.25561063750465246,
+        "mean_prediction_minus_observation": -0.07490418883248418
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 18,
+        "max_gradient": 5.763216152726569e-06,
+        "objective": 125.14764011382954
+      },
+      "ridge": 0.1,
+      "scene_id": "FloorPlan19",
+      "trajectory_mean_success_brier": 0.19524885154247112
+    },
+    {
+      "after_first_failure": {
+        "attempts": 13,
+        "brier": 0.0821066350516252,
+        "mean_prediction_minus_observation": -0.007076541313520381
+      },
+      "coefficients": [
+        -0.6934387094928611,
+        0.41184631297113644,
+        -1.1078487831108719,
+        -2.2200629006823154,
+        -3.8191113522467637,
+        1.380441090004381
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.06664810567704131,
+        "mean_prediction_minus_observation": 0.09709810842372771
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.22335616820045637,
+        "mean_prediction_minus_observation": 0.189357250192477
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 17,
+        "max_gradient": 8.949593211737827e-06,
+        "objective": 131.44839779357252
+      },
+      "ridge": 0.1,
+      "scene_id": "FloorPlan21",
+      "trajectory_mean_success_brier": 0.08267071528790881
+    },
+    {
+      "after_first_failure": {
+        "attempts": 12,
+        "brier": 0.05509586498017588,
+        "mean_prediction_minus_observation": 0.036740396748185314
+      },
+      "coefficients": [
+        -0.7524159138306649,
+        0.384734917994127,
+        -1.0400389374878183,
+        -2.161752159693629,
+        -3.778671809289215,
+        1.4877012956439617
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.0762909518821153,
+        "mean_prediction_minus_observation": 0.022072982830075413
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.2562282911291075,
+        "mean_prediction_minus_observation": -0.07891952311758799
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 18,
+        "max_gradient": 3.328062349872152e-07,
+        "objective": 133.66111281821503
+      },
+      "ridge": 0.1,
+      "scene_id": "FloorPlan22",
+      "trajectory_mean_success_brier": 0.08569711909303986
+    },
+    {
+      "after_first_failure": {
+        "attempts": 8,
+        "brier": 0.0036358532466564766,
+        "mean_prediction_minus_observation": 0.06029072785290224
+      },
+      "coefficients": [
+        -0.5217545818875188,
+        0.008425529533722175,
+        -0.6496782301489477,
+        -2.1938906977627606,
+        -4.306829234818557,
+        2.019167269327221
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.23714962586138957,
+        "mean_prediction_minus_observation": -0.28023538656911756
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.37130860323242654,
+        "mean_prediction_minus_observation": -0.6093509688450709
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 18,
+        "max_gradient": 3.991894680949182e-06,
+        "objective": 128.90969867833095
+      },
+      "ridge": 0.1,
+      "scene_id": "FloorPlan24",
+      "trajectory_mean_success_brier": 0.23730556013243667
+    },
+    {
+      "after_first_failure": {
+        "attempts": 14,
+        "brier": 0.07221137251432619,
+        "mean_prediction_minus_observation": -0.007425859795066813
+      },
+      "coefficients": [
+        -0.672391913245907,
+        0.4486992934127795,
+        -1.1989540594053536,
+        -2.2178716370338467,
+        -3.8834104484066705,
+        1.4145862135025176
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.06124787560856803,
+        "mean_prediction_minus_observation": 0.17279359799093694
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.20407086495320875,
+        "mean_prediction_minus_observation": 0.4517420336355792
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 18,
+        "max_gradient": 1.7919104927655027e-07,
+        "objective": 132.17291861958395
+      },
+      "ridge": 0.1,
+      "scene_id": "FloorPlan25",
+      "trajectory_mean_success_brier": 0.0667296240614471
+    },
+    {
+      "after_first_failure": {
+        "attempts": 13,
+        "brier": 0.14213783080836156,
+        "mean_prediction_minus_observation": -0.10699590630512179
+      },
+      "coefficients": [
+        -0.6895003718855947,
+        0.4007764820570567,
+        -1.3655230345011786,
+        -2.1359758480702595,
+        -3.8167892583579093,
+        1.3602031541544801
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.06637743305464476,
+        "mean_prediction_minus_observation": 0.09589170509181676
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.2227825600149324,
+        "mean_prediction_minus_observation": 0.18783652470947287
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 19,
+        "max_gradient": 5.076357009303756e-06,
+        "objective": 128.5672577158578
+      },
+      "ridge": 0.1,
+      "scene_id": "FloorPlan27",
+      "trajectory_mean_success_brier": 0.11046798700801606
+    },
+    {
+      "after_first_failure": {
+        "attempts": 11,
+        "brier": 0.014568283506108703,
+        "mean_prediction_minus_observation": 0.08712264420207674
+      },
+      "coefficients": [
+        -0.7473522013125556,
+        0.32944685010355046,
+        -0.7947392843808933,
+        -2.2059377175213015,
+        -3.7722038695280635,
+        1.478669755012957
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.0893283394209095,
+        "mean_prediction_minus_observation": -0.05422994054945502
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.30275370236142907,
+        "mean_prediction_minus_observation": -0.33949035680182293
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 17,
+        "max_gradient": 1.5559622713046117e-06,
+        "objective": 133.7197862440906
+      },
+      "ridge": 0.1,
+      "scene_id": "FloorPlan3",
+      "trajectory_mean_success_brier": 0.08761944688381965
+    },
+    {
+      "after_first_failure": {
+        "attempts": 11,
+        "brier": 0.023530887185976804,
+        "mean_prediction_minus_observation": 0.11193819750174189
+      },
+      "coefficients": [
+        -0.7335104091537803,
+        0.3273122528045438,
+        -0.7335270256883242,
+        -2.236129498308864,
+        -3.7701928614548605,
+        1.4571752475293824
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.08882927074245676,
+        "mean_prediction_minus_observation": -0.05365858741395315
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.3010912593921151,
+        "mean_prediction_minus_observation": -0.3370330241862288
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 17,
+        "max_gradient": 1.3401595261863797e-06,
+        "objective": 133.49952995732727
+      },
+      "ridge": 0.1,
+      "scene_id": "FloorPlan30",
+      "trajectory_mean_success_brier": 0.0905811737105653
+    },
+    {
+      "after_first_failure": {
+        "attempts": 11,
+        "brier": 0.05858430236193804,
+        "mean_prediction_minus_observation": 0.01434834842607623
+      },
+      "coefficients": [
+        -1.4399476586805011,
+        1.0587698718507919,
+        -1.0133122286211027,
+        -2.1719430728044666,
+        -4.019084721717789,
+        1.703464053246964
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.142234506219937,
+        "mean_prediction_minus_observation": -0.054387486589605814
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.25668591655043327,
+        "mean_prediction_minus_observation": -0.08176745410267625
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 17,
+        "max_gradient": 9.407690296087123e-07,
+        "objective": 129.5450344434363
+      },
+      "ridge": 0.1,
+      "scene_id": "FloorPlan4",
+      "trajectory_mean_success_brier": 0.15147458461445643
+    },
+    {
+      "after_first_failure": {
+        "attempts": 14,
+        "brier": 0.029502810985323563,
+        "mean_prediction_minus_observation": 0.12612956059375333
+      },
+      "coefficients": [
+        -0.6664162695575292,
+        0.44615908847219127,
+        -0.9209982174928393,
+        -1.6935162584519308,
+        -3.911008476840556,
+        1.4625425996280073
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.06153004721972942,
+        "mean_prediction_minus_observation": 0.17356800248400556
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.20473709528345693,
+        "mean_prediction_minus_observation": 0.45247883407233197
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 18,
+        "max_gradient": 2.9948221245273965e-07,
+        "objective": 135.12010912314415
+      },
+      "ridge": 0.1,
+      "scene_id": "FloorPlan6",
+      "trajectory_mean_success_brier": 0.04551642910252649
+    },
+    {
+      "after_first_failure": {
+        "attempts": 12,
+        "brier": 0.09144682722274777,
+        "mean_prediction_minus_observation": 0.013624633341580145
+      },
+      "coefficients": [
+        -0.7049373663180043,
+        0.36887395066564604,
+        -1.0181927320686515,
+        -2.203017827254776,
+        -3.7605844492404823,
+        1.3771063993243484
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.07576579470464717,
+        "mean_prediction_minus_observation": 0.022502612296448694
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.25521695734992994,
+        "mean_prediction_minus_observation": -0.07222850787556057
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 17,
+        "max_gradient": 2.203194287508925e-06,
+        "objective": 131.8896116517771
+      },
+      "ridge": 0.1,
+      "scene_id": "FloorPlan7",
+      "trajectory_mean_success_brier": 0.10046335653532194
+    },
+    {
+      "after_first_failure": {
+        "attempts": 10,
+        "brier": 0.0034835715318872022,
+        "mean_prediction_minus_observation": 0.05796892994120366
+      },
+      "coefficients": [
+        -0.7931654975009429,
+        0.2977289630954177,
+        -0.8317016725503245,
+        -2.1293348179697817,
+        -3.695427455020395,
+        1.4834257801424349
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.1076544353997355,
+        "mean_prediction_minus_observation": -0.1300923744695795
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.3668134274537849,
+        "mean_prediction_minus_observation": -0.6056512424273436
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 17,
+        "max_gradient": 2.2088682488652367e-06,
+        "objective": 133.79573846171968
+      },
+      "ridge": 0.1,
+      "scene_id": "FloorPlan8",
+      "trajectory_mean_success_brier": 0.10747326859751104
+    },
+    {
+      "after_first_failure": {
+        "attempts": 14,
+        "brier": 0.13069069522986382,
+        "mean_prediction_minus_observation": -0.09279254820764772
+      },
+      "coefficients": [
+        -0.5573029243254125,
+        0.3890586934791407,
+        -1.590101623784653,
+        -5.894063427219797,
+        -4.5575267699391535,
+        2.0765346067392563
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.06421836706066239,
+        "mean_prediction_minus_observation": 0.1733986192874533
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.21497763296988523,
+        "mean_prediction_minus_observation": 0.4636568051586057
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 21,
+        "max_gradient": 7.361526520033301e-06,
+        "objective": 127.15602947360452
+      },
+      "ridge": 0.01,
+      "scene_id": "FloorPlan12",
+      "trajectory_mean_success_brier": 0.09745453114526306
+    },
+    {
+      "after_first_failure": {
+        "attempts": 12,
+        "brier": 0.03982197994215359,
+        "mean_prediction_minus_observation": -0.0007899076107416766
+      },
+      "coefficients": [
+        -0.6321497204627738,
+        0.2989696896324723,
+        -1.277564247520332,
+        -6.444344182851919,
+        -4.51201366569142,
+        2.29161237558499
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.07610189052149356,
+        "mean_prediction_minus_observation": 0.02285702967522001
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.2551289969876628,
+        "mean_prediction_minus_observation": -0.07161701604830206
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 22,
+        "max_gradient": 2.134897220222587e-06,
+        "objective": 132.44602457739214
+      },
+      "ridge": 0.01,
+      "scene_id": "FloorPlan13",
+      "trajectory_mean_success_brier": 0.07845650902423869
+    },
+    {
+      "after_first_failure": {
+        "attempts": 9,
+        "brier": 0.2184991436139433,
+        "mean_prediction_minus_observation": -0.1430701889163195
+      },
+      "coefficients": [
+        -0.3199657208766308,
+        -0.05071751797982751,
+        -0.7855694032455088,
+        -6.82466587762704,
+        -4.619625615849266,
+        2.04391639918063
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.21446011149949626,
+        "mean_prediction_minus_observation": -0.20483295097252774
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.29610548488537897,
+        "mean_prediction_minus_observation": -0.329553462863583
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 21,
+        "max_gradient": 5.147850723047614e-06,
+        "objective": 122.39587840667889
+      },
+      "ridge": 0.01,
+      "scene_id": "FloorPlan15",
+      "trajectory_mean_success_brier": 0.27773118639194233
+    },
+    {
+      "after_first_failure": {
+        "attempts": 13,
+        "brier": 0.21641328062323628,
+        "mean_prediction_minus_observation": -0.1676954157912674
+      },
+      "coefficients": [
+        -0.5459973061031713,
+        0.3423034154457096,
+        -1.6492428786816287,
+        -6.466352130717903,
+        -4.426523307012023,
+        1.9472866267247106
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.06840186495268535,
+        "mean_prediction_minus_observation": 0.09946375106261247
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.22994998028180075,
+        "mean_prediction_minus_observation": 0.2060339299285454
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 21,
+        "max_gradient": 3.34354799872566e-06,
+        "objective": 125.35282165064112
+      },
+      "ridge": 0.01,
+      "scene_id": "FloorPlan16",
+      "trajectory_mean_success_brier": 0.14524635152959461
+    },
+    {
+      "after_first_failure": {
+        "attempts": 11,
+        "brier": 0.02381468019520674,
+        "mean_prediction_minus_observation": 0.10502503641914722
+      },
+      "coefficients": [
+        -0.5962013182617745,
+        0.23810930926585014,
+        -0.7587029522089345,
+        -6.757602388814709,
+        -4.383882220219679,
+        2.0553218597718126
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.0867539142023402,
+        "mean_prediction_minus_observation": -0.05340460126959475
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.2943590949621396,
+        "mean_prediction_minus_observation": -0.32689309408756184
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 20,
+        "max_gradient": 4.896772106844499e-06,
+        "objective": 131.93570222181432
+      },
+      "ridge": 0.01,
+      "scene_id": "FloorPlan17",
+      "trajectory_mean_success_brier": 0.08839047167849282
+    },
+    {
+      "after_first_failure": {
+        "attempts": 12,
+        "brier": 0.030874594177354785,
+        "mean_prediction_minus_observation": 0.12191554419881422
+      },
+      "coefficients": [
+        -0.5851930183445777,
+        0.2868377814986,
+        -0.8630720307582888,
+        -5.740624785563593,
+        -4.437334579197962,
+        2.0766959185584497
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.07537152542635138,
+        "mean_prediction_minus_observation": 0.022414109272639083
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.2541236287125275,
+        "mean_prediction_minus_observation": -0.064215486547464
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 21,
+        "max_gradient": 3.9277229200926356e-06,
+        "objective": 132.73418725715456
+      },
+      "ridge": 0.01,
+      "scene_id": "FloorPlan18",
+      "trajectory_mean_success_brier": 0.07365623987918427
+    },
+    {
+      "after_first_failure": {
+        "attempts": 11,
+        "brier": 0.17569511965427934,
+        "mean_prediction_minus_observation": -0.10799424261990472
+      },
+      "coefficients": [
+        -0.37073424156396567,
+        0.07236072862679721,
+        -1.209608058748754,
+        -6.624620527939072,
+        -4.865371348505089,
+        2.405870628396882
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.14079778408597796,
+        "mean_prediction_minus_observation": -0.0538266295748112
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.2541241285598944,
+        "mean_prediction_minus_observation": -0.06421937838296465
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 21,
+        "max_gradient": 6.86392717407999e-06,
+        "objective": 123.45536380008545
+      },
+      "ridge": 0.01,
+      "scene_id": "FloorPlan19",
+      "trajectory_mean_success_brier": 0.19518949908159391
+    },
+    {
+      "after_first_failure": {
+        "attempts": 13,
+        "brier": 0.0822271563887115,
+        "mean_prediction_minus_observation": -0.00742641893000435
+      },
+      "coefficients": [
+        -0.5768993801135062,
+        0.34557895629758106,
+        -1.2169527956039408,
+        -6.6739348220516055,
+        -4.487918326071339,
+        2.0668495349720186
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.0678041949693929,
+        "mean_prediction_minus_observation": 0.09812413062361425
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.22754274185081907,
+        "mean_prediction_minus_observation": 0.20010682609750996
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 21,
+        "max_gradient": 3.0128536162091213e-06,
+        "objective": 129.87637147062276
+      },
+      "ridge": 0.01,
+      "scene_id": "FloorPlan21",
+      "trajectory_mean_success_brier": 0.08287836661890371
+    },
+    {
+      "after_first_failure": {
+        "attempts": 12,
+        "brier": 0.05499481730956846,
+        "mean_prediction_minus_observation": 0.03708117745423688
+      },
+      "coefficients": [
+        -0.6197884615018346,
+        0.3008536252694259,
+        -1.1479860310464838,
+        -6.5553023846066605,
+        -4.460120005708756,
+        2.1871678095716915
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.07582274271150571,
+        "mean_prediction_minus_observation": 0.022920055233785486
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.2547049896895462,
+        "mean_prediction_minus_observation": -0.06859292740178247
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 22,
+        "max_gradient": 1.1060832617523775e-06,
+        "objective": 132.11904589943188
+      },
+      "ridge": 0.01,
+      "scene_id": "FloorPlan22",
+      "trajectory_mean_success_brier": 0.08457328713780567
+    },
+    {
+      "after_first_failure": {
+        "attempts": 8,
+        "brier": 0.0039828237565343785,
+        "mean_prediction_minus_observation": 0.06309547815629706
+      },
+      "coefficients": [
+        -0.17844148789787,
+        -0.2877404090923989,
+        -0.7459947545045316,
+        -6.642000747222201,
+        -5.488917650517029,
+        3.233301823267813
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.23459097947994798,
+        "mean_prediction_minus_observation": -0.2801781075175428
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.35949290599771117,
+        "mean_prediction_minus_observation": -0.5995772727494857
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 21,
+        "max_gradient": 2.3355802150487603e-06,
+        "objective": 126.95280285060747
+      },
+      "ridge": 0.01,
+      "scene_id": "FloorPlan24",
+      "trajectory_mean_success_brier": 0.23486627853616954
+    },
+    {
+      "after_first_failure": {
+        "attempts": 14,
+        "brier": 0.071999248107785,
+        "mean_prediction_minus_observation": -0.008452337925519075
+      },
+      "coefficients": [
+        -0.5621564623481532,
+        0.3897197949210377,
+        -1.3184366725956755,
+        -6.680040181160617,
+        -4.5655221824228285,
+        2.115949418482431
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.06409649075421144,
+        "mean_prediction_minus_observation": 0.17389009409989895
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.2141416061791691,
+        "mean_prediction_minus_observation": 0.46275436916270074
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 21,
+        "max_gradient": 2.7509406768308486e-06,
+        "objective": 130.55595324972796
+      },
+      "ridge": 0.01,
+      "scene_id": "FloorPlan25",
+      "trajectory_mean_success_brier": 0.0680478694309982
+    },
+    {
+      "after_first_failure": {
+        "attempts": 13,
+        "brier": 0.14186808636593073,
+        "mean_prediction_minus_observation": -0.10624248339226103
+      },
+      "coefficients": [
+        -0.5764444817202482,
+        0.33931675985258275,
+        -1.508232869155231,
+        -6.497283211907026,
+        -4.4869630761084665,
+        2.054592959011632
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.06758670535369654,
+        "mean_prediction_minus_observation": 0.09723934430877534
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.22704632644394335,
+        "mean_prediction_minus_observation": 0.19886258180950822
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 21,
+        "max_gradient": 1.5558298781422064e-06,
+        "objective": 127.00563224212623
+      },
+      "ridge": 0.01,
+      "scene_id": "FloorPlan27",
+      "trajectory_mean_success_brier": 0.11050898040851902
+    },
+    {
+      "after_first_failure": {
+        "attempts": 11,
+        "brier": 0.015224478182669225,
+        "mean_prediction_minus_observation": 0.08959329050283213
+      },
+      "coefficients": [
+        -0.6023291348793203,
+        0.23167954630239712,
+        -0.8621873123450461,
+        -6.666008858174144,
+        -4.440354050182546,
+        2.158015985687954
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.08736638363209594,
+        "mean_prediction_minus_observation": -0.05356706402895227
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.2961008026093671,
+        "mean_prediction_minus_observation": -0.3295463588167332
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 21,
+        "max_gradient": 1.208244565148453e-06,
+        "objective": 132.1872398935533
+      },
+      "ridge": 0.01,
+      "scene_id": "FloorPlan3",
+      "trajectory_mean_success_brier": 0.08565073488971094
+    },
+    {
+      "after_first_failure": {
+        "attempts": 11,
+        "brier": 0.02448873712540972,
+        "mean_prediction_minus_observation": 0.11481708741456234
+      },
+      "coefficients": [
+        -0.5894202535680838,
+        0.22995370697463557,
+        -0.788925070536626,
+        -6.7305314227627475,
+        -4.432390706188679,
+        2.128085951516777
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.0868848386850888,
+        "mean_prediction_minus_observation": -0.05309580078248947
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.29454919153744846,
+        "mean_prediction_minus_observation": -0.327183727494887
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 20,
+        "max_gradient": 4.335857758039352e-06,
+        "objective": 131.96315956715847
+      },
+      "ridge": 0.01,
+      "scene_id": "FloorPlan30",
+      "trajectory_mean_success_brier": 0.08875667913662234
+    },
+    {
+      "after_first_failure": {
+        "attempts": 11,
+        "brier": 0.05888273306555654,
+        "mean_prediction_minus_observation": 0.016477037746319957
+      },
+      "coefficients": [
+        -1.5108174829032177,
+        1.184943882785548,
+        -1.137501702459636,
+        -6.582741369223057,
+        -4.8228500800201015,
+        2.530015448327767
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.142803688468151,
+        "mean_prediction_minus_observation": -0.05318134923501778
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.2549093247042763,
+        "mean_prediction_minus_observation": -0.07006657337330191
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 21,
+        "max_gradient": 1.6159307165142245e-06,
+        "objective": 127.79062399795497
+      },
+      "ridge": 0.01,
+      "scene_id": "FloorPlan4",
+      "trajectory_mean_success_brier": 0.1514200890601092
+    },
+    {
+      "after_first_failure": {
+        "attempts": 14,
+        "brier": 0.02162200679373753,
+        "mean_prediction_minus_observation": 0.10292285536067672
+      },
+      "coefficients": [
+        -0.5587719751016446,
+        0.383021140490754,
+        -1.058737384037875,
+        -5.8473078500579065,
+        -4.592540221361086,
+        2.1722596597735944
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.06401657897008857,
+        "mean_prediction_minus_observation": 0.17431193458761624
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.21348202384309647,
+        "mean_prediction_minus_observation": 0.4620411495127858
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 22,
+        "max_gradient": 7.428003420753559e-07,
+        "objective": 133.710215574377
+      },
+      "ridge": 0.01,
+      "scene_id": "FloorPlan6",
+      "trajectory_mean_success_brier": 0.04281929288191305
+    },
+    {
+      "after_first_failure": {
+        "attempts": 12,
+        "brier": 0.09140989470292053,
+        "mean_prediction_minus_observation": 0.014858177954921609
+      },
+      "coefficients": [
+        -0.5812648099543973,
+        0.2931584395645502,
+        -1.1118184479007385,
+        -6.646737080461096,
+        -4.414328660363585,
+        2.046260582537353
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.0753194498204025,
+        "mean_prediction_minus_observation": 0.023315436691220166
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.2538479490389141,
+        "mean_prediction_minus_observation": -0.062031838912884885
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 21,
+        "max_gradient": 1.689472105423362e-06,
+        "objective": 130.36150846399786
+      },
+      "ridge": 0.01,
+      "scene_id": "FloorPlan7",
+      "trajectory_mean_success_brier": 0.09939823606515283
+    },
+    {
+      "after_first_failure": {
+        "attempts": 10,
+        "brier": 0.003677118378416757,
+        "mean_prediction_minus_observation": 0.05896131442573025
+      },
+      "coefficients": [
+        -0.6395816772078349,
+        0.1908079282327973,
+        -0.9137070894327144,
+        -6.509060289829994,
+        -4.3640704497163005,
+        2.1663733894444146
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.10427351019180711,
+        "mean_prediction_minus_observation": -0.1294207499361207
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.3551550388832569,
+        "mean_prediction_minus_observation": -0.595948855929145
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 21,
+        "max_gradient": 1.3713656386027395e-06,
+        "objective": 132.32249437116275
+      },
+      "ridge": 0.01,
+      "scene_id": "FloorPlan8",
+      "trajectory_mean_success_brier": 0.1041864457858034
+    },
+    {
+      "after_first_failure": {
+        "attempts": 14,
+        "brier": 0.13030049386308248,
+        "mean_prediction_minus_observation": -0.09686998796038414
+      },
+      "coefficients": [
+        -0.5280142185371318,
+        0.36959267339116403,
+        -1.564684104525617,
+        -54.36755705729044,
+        -4.668608044059117,
+        2.1798070089183876
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.0647474271715786,
+        "mean_prediction_minus_observation": 0.17349140917920128
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.21694361085572672,
+        "mean_prediction_minus_observation": 0.46577205890405954
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 39,
+        "max_gradient": 3.0852581698881387e-06,
+        "objective": 126.64725632240818
+      },
+      "ridge": 0.0,
+      "scene_id": "FloorPlan12",
+      "trajectory_mean_success_brier": 0.09752396051733056
+    },
+    {
+      "after_first_failure": {
+        "attempts": 12,
+        "brier": 0.03939471355906505,
+        "mean_prediction_minus_observation": 0.00013922190226584087
+      },
+      "coefficients": [
+        -0.5959010823482354,
+        0.27317599576022344,
+        -1.2435643029117727,
+        -55.21204236769303,
+        -4.626170050529381,
+        2.39493453048487
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.07596791526686371,
+        "mean_prediction_minus_observation": 0.022903130321399543
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.2548160882607411,
+        "mean_prediction_minus_observation": -0.06939804219674392
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 39,
+        "max_gradient": 8.93626076314824e-06,
+        "objective": 131.89115751096173
+      },
+      "ridge": 0.0,
+      "scene_id": "FloorPlan13",
+      "trajectory_mean_success_brier": 0.07802555847713723
+    },
+    {
+      "after_first_failure": {
+        "attempts": 9,
+        "brier": 0.2187400049525489,
+        "mean_prediction_minus_observation": -0.14216737278592262
+      },
+      "coefficients": [
+        -0.27220136954649604,
+        -0.08859984263873487,
+        -0.735290630965223,
+        -61.25498716815229,
+        -4.7526470982579285,
+        2.163780085330139
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.21425987404160513,
+        "mean_prediction_minus_observation": -0.2048506622097211
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.29473390341174277,
+        "mean_prediction_minus_observation": -0.32746588129413234
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 41,
+        "max_gradient": 1.0006798975004116e-06,
+        "objective": 121.80703652244557
+      },
+      "ridge": 0.0,
+      "scene_id": "FloorPlan15",
+      "trajectory_mean_success_brier": 0.277560954598532
+    },
+    {
+      "after_first_failure": {
+        "attempts": 13,
+        "brier": 0.21636731617615337,
+        "mean_prediction_minus_observation": -0.16700265264490327
+      },
+      "coefficients": [
+        -0.5162305985116997,
+        0.3229569435187718,
+        -1.614632524242393,
+        -61.70795568997394,
+        -4.5324019232354775,
+        2.0431988092537434
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.0686279349624476,
+        "mean_prediction_minus_observation": 0.09956445194489484
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.2308775309689386,
+        "mean_prediction_minus_observation": 0.20827273217811926
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 42,
+        "max_gradient": 4.283185298270542e-06,
+        "objective": 124.80157321957115
+      },
+      "ridge": 0.0,
+      "scene_id": "FloorPlan16",
+      "trajectory_mean_success_brier": 0.1452512368737864
+    },
+    {
+      "after_first_failure": {
+        "attempts": 11,
+        "brier": 0.02450426420374412,
+        "mean_prediction_minus_observation": 0.10617852651932293
+      },
+      "coefficients": [
+        -0.5599177138307558,
+        0.21233532966750507,
+        -0.7121270312620929,
+        -61.94902435204239,
+        -4.488464927637657,
+        2.1455361568603184
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.08628739133898454,
+        "mean_prediction_minus_observation": -0.05339268913548085
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.292910125514372,
+        "mean_prediction_minus_observation": -0.3246692555730708
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 41,
+        "max_gradient": 5.386310119426252e-06,
+        "objective": 131.36577806775009
+      },
+      "ridge": 0.0,
+      "scene_id": "FloorPlan17",
+      "trajectory_mean_success_brier": 0.08815373731748896
+    },
+    {
+      "after_first_failure": {
+        "attempts": 12,
+        "brier": 0.030786977922112713,
+        "mean_prediction_minus_observation": 0.114822648855459
+      },
+      "coefficients": [
+        -0.5520716552690484,
+        0.263791475370687,
+        -0.831979246734938,
+        -54.640385984653946,
+        -4.542042072759127,
+        2.1720755644077268
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.07525917913850431,
+        "mean_prediction_minus_observation": 0.022524134435682637
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.25385254718867173,
+        "mean_prediction_minus_observation": -0.06206889066732013
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 39,
+        "max_gradient": 6.352409907761647e-06,
+        "objective": 132.25781418983271
+      },
+      "ridge": 0.0,
+      "scene_id": "FloorPlan18",
+      "trajectory_mean_success_brier": 0.07338982566844275
+    },
+    {
+      "after_first_failure": {
+        "attempts": 11,
+        "brier": 0.17580940573570347,
+        "mean_prediction_minus_observation": -0.10714188422046807
+      },
+      "coefficients": [
+        -0.3214137027640034,
+        0.03363462043336698,
+        -1.172523257033781,
+        -60.53737555653938,
+        -5.0168989870852805,
+        2.5474770568498144
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.14091372654841566,
+        "mean_prediction_minus_observation": -0.05378803451600741
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.2538392978263916,
+        "mean_prediction_minus_observation": -0.061962067641353064
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 41,
+        "max_gradient": 2.7928657986286964e-06,
+        "objective": 122.86240916102376
+      },
+      "ridge": 0.0,
+      "scene_id": "FloorPlan19",
+      "trajectory_mean_success_brier": 0.19522266493351179
+    },
+    {
+      "after_first_failure": {
+        "attempts": 13,
+        "brier": 0.08247684611096896,
+        "mean_prediction_minus_observation": -0.006816629880739276
+      },
+      "coefficients": [
+        -0.5444770775383242,
+        0.32384855270388757,
+        -1.1785754972803288,
+        -55.42619704485918,
+        -4.595931175232536,
+        2.1630037591207154
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.06802289738500869,
+        "mean_prediction_minus_observation": 0.09819758961428547
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.22846542889840626,
+        "mean_prediction_minus_observation": 0.20239918205962754
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 38,
+        "max_gradient": 8.601049840128994e-06,
+        "objective": 129.30529661546655
+      },
+      "ridge": 0.0,
+      "scene_id": "FloorPlan21",
+      "trajectory_mean_success_brier": 0.08301379352291727
+    },
+    {
+      "after_first_failure": {
+        "attempts": 12,
+        "brier": 0.05499994585733609,
+        "mean_prediction_minus_observation": 0.0384639584325274
+      },
+      "coefficients": [
+        -0.5842072069975114,
+        0.2758015443198875,
+        -1.109389946175915,
+        -61.73288912963076,
+        -4.5708430365686405,
+        2.2857175883874925
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.0756870012484326,
+        "mean_prediction_minus_observation": 0.022947285130290273
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.2544029240992448,
+        "mean_prediction_minus_observation": -0.06635453337372532
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 42,
+        "max_gradient": 5.524810830159765e-06,
+        "objective": 131.5594756772624
+      },
+      "ridge": 0.0,
+      "scene_id": "FloorPlan22",
+      "trajectory_mean_success_brier": 0.08432615295400106
+    },
+    {
+      "after_first_failure": {
+        "attempts": 8,
+        "brier": 0.0040871001452781035,
+        "mean_prediction_minus_observation": 0.06391515782825877
+      },
+      "coefficients": [
+        -0.09570470318054108,
+        -0.3601753487648181,
+        -0.712918297953072,
+        -52.54514767750992,
+        -5.73529742436395,
+        3.471869410907096
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.23402258640961968,
+        "mean_prediction_minus_observation": -0.2802748272703935
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.35692412663153616,
+        "mean_prediction_minus_observation": -0.5974312735633582
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 37,
+        "max_gradient": 4.7163006898498505e-06,
+        "objective": 126.30143963794089
+      },
+      "ridge": 0.0,
+      "scene_id": "FloorPlan24",
+      "trajectory_mean_success_brier": 0.234342400916452
+    },
+    {
+      "after_first_failure": {
+        "attempts": 14,
+        "brier": 0.07212802890733627,
+        "mean_prediction_minus_observation": -0.008094327048322858
+      },
+      "coefficients": [
+        -0.5304464475444446,
+        0.3687923438977153,
+        -1.281801549608742,
+        -62.075867129836176,
+        -4.67665657746506,
+        2.2156609367653752
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.0646673217344039,
+        "mean_prediction_minus_observation": 0.17396599310373903
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.21629551207333647,
+        "mean_prediction_minus_observation": 0.46507581325342695
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 42,
+        "max_gradient": 4.355983989456913e-06,
+        "objective": 129.9779729290989
+      },
+      "ridge": 0.0,
+      "scene_id": "FloorPlan25",
+      "trajectory_mean_success_brier": 0.06839767532087009
+    },
+    {
+      "after_first_failure": {
+        "attempts": 13,
+        "brier": 0.14176533217308304,
+        "mean_prediction_minus_observation": -0.10578910603151474
+      },
+      "coefficients": [
+        -0.5448468023812477,
+        0.3183116160339732,
+        -1.4749034833805061,
+        -54.6056390041498,
+        -4.595730335515875,
+        2.1532064935217905
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.06780849683655867,
+        "mean_prediction_minus_observation": 0.09735293436386576
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.22795429885403745,
+        "mean_prediction_minus_observation": 0.20113254051504798
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 38,
+        "max_gradient": 3.8107383758534397e-06,
+        "objective": 126.44858037455907
+      },
+      "ridge": 0.0,
+      "scene_id": "FloorPlan27",
+      "trajectory_mean_success_brier": 0.1104829915015488
+    },
+    {
+      "after_first_failure": {
+        "attempts": 11,
+        "brier": 0.015640320212631936,
+        "mean_prediction_minus_observation": 0.09068005134683298
+      },
+      "coefficients": [
+        -0.5651244452115285,
+        0.20486784425692503,
+        -0.8197098649378962,
+        -61.85113765970942,
+        -4.549124697516427,
+        2.253804247682482
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.08690550130365744,
+        "mean_prediction_minus_observation": -0.053544216000225034
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.29465851619974354,
+        "mean_prediction_minus_observation": -0.3273507540845806
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 41,
+        "max_gradient": 4.398345300554718e-06,
+        "objective": 131.62104874880623
+      },
+      "ridge": 0.0,
+      "scene_id": "FloorPlan3",
+      "trajectory_mean_success_brier": 0.08531150786843775
+    },
+    {
+      "after_first_failure": {
+        "attempts": 11,
+        "brier": 0.025197384802366798,
+        "mean_prediction_minus_observation": 0.1163297538182805
+      },
+      "coefficients": [
+        -0.5523208685009247,
+        0.20326680702707675,
+        -0.7434125890963811,
+        -62.00948041497679,
+        -4.539849284168238,
+        2.221762526944953
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.0864228029822902,
+        "mean_prediction_minus_observation": -0.053087515343088976
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.2931125460080185,
+        "mean_prediction_minus_observation": -0.32498083944752576
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 41,
+        "max_gradient": 3.989507662782721e-06,
+        "objective": 131.39202501584234
+      },
+      "ridge": 0.0,
+      "scene_id": "FloorPlan30",
+      "trajectory_mean_success_brier": 0.08853212042048006
+    },
+    {
+      "after_first_failure": {
+        "attempts": 11,
+        "brier": 0.05873196114370485,
+        "mean_prediction_minus_observation": 0.017866910252010558
+      },
+      "coefficients": [
+        -1.501905679432034,
+        1.187860980358026,
+        -1.1018253320759432,
+        -69.02351795430656,
+        -4.963451051888329,
+        2.6592018432992734
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.1428378552058159,
+        "mean_prediction_minus_observation": -0.05306886422629381
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.25456349747412976,
+        "mean_prediction_minus_observation": -0.06755366366178639
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 45,
+        "max_gradient": 4.315265586585237e-06,
+        "objective": 127.1952120095871
+      },
+      "ridge": 0.0,
+      "scene_id": "FloorPlan4",
+      "trajectory_mean_success_brier": 0.15125526421602853
+    },
+    {
+      "after_first_failure": {
+        "attempts": 14,
+        "brier": 0.020971832112685784,
+        "mean_prediction_minus_observation": 0.09138334968262488
+      },
+      "coefficients": [
+        -0.5277087183504188,
+        0.36155887856426827,
+        -1.0294235150032918,
+        -54.742069137124496,
+        -4.704415133429194,
+        2.2743146148943465
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.06451974854302912,
+        "mean_prediction_minus_observation": 0.17431711896942872
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.21539597209493969,
+        "mean_prediction_minus_observation": 0.4641077160476215
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 39,
+        "max_gradient": 5.724341474722117e-06,
+        "objective": 133.2062970962809
+      },
+      "ridge": 0.0,
+      "scene_id": "FloorPlan6",
+      "trajectory_mean_success_brier": 0.04274579032785746
+    },
+    {
+      "after_first_failure": {
+        "attempts": 12,
+        "brier": 0.09179064807310788,
+        "mean_prediction_minus_observation": 0.016027461487053186
+      },
+      "coefficients": [
+        -0.547840313172276,
+        0.26999496013818514,
+        -1.071019978756017,
+        -56.056432954774074,
+        -4.519726537134874,
+        2.139313822531182
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.07519479877376847,
+        "mean_prediction_minus_observation": 0.02334268204758392
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.2535812189589148,
+        "mean_prediction_minus_observation": -0.059843286665379636
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 39,
+        "max_gradient": 8.945052913988949e-06,
+        "objective": 129.79836544913428
+      },
+      "ridge": 0.0,
+      "scene_id": "FloorPlan7",
+      "trajectory_mean_success_brier": 0.09932371324852293
+    },
+    {
+      "after_first_failure": {
+        "attempts": 10,
+        "brier": 0.003751240723780721,
+        "mean_prediction_minus_observation": 0.05947809401752606
+      },
+      "coefficients": [
+        -0.6011707340088694,
+        0.1625107731402762,
+        -0.875244397033507,
+        -55.674953820038446,
+        -4.473046411031552,
+        2.263428665179103
+      ],
+      "first_attempt": {
+        "attempts": 14,
+        "brier": 0.10350937497784177,
+        "mean_prediction_minus_observation": -0.1294015353462548
+      },
+      "initial_C_N": {
+        "attempts": 4,
+        "brier": 0.3526413981697675,
+        "mean_prediction_minus_observation": -0.5938361711530946
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 38,
+        "max_gradient": 6.66520799691428e-06,
+        "objective": 131.77492407636268
+      },
+      "ridge": 0.0,
+      "scene_id": "FloorPlan8",
+      "trajectory_mean_success_brier": 0.10347175891452363
+    }
+  ],
+  "frozen_file_hashes_unchanged": {
+    "four-attempt-validation-evaluation.json": "bf61bbdf92fbb1d81c1f1219871d6fae24b0206d8e7b49e2c6f32e1e4d0c67dc",
+    "four-attempt-validation-results.json": "9c987798f9fd5016544ea754e853a339376bda09036e4aebaa02ee2df3283466",
+    "shared-calibration-events.json": "79052801beca9c71ef64222165940b35d99869cd90b2f4c17889a0ef589dddb1",
+    "shared-calibration-parameters.json": "cc45b153bc2b4bc628081e353e3033061848298a1869e63c302ab87ba2553923",
+    "shared-validation-results.json": "9d213a87e7881d3734cbe0c81c9de16da423d589e11c8de2b8e3bfd051e400a4"
+  },
+  "held_scene_summaries": [
+    {
+      "after_first_failure": {
+        "brier": 0.08015715686560117,
+        "mean_prediction_minus_observation": 0.011477949425721687
+      },
+      "baseline_minus_candidate_brier": 0.0,
+      "complete": true,
+      "first_attempt": {
+        "brier": 0.10111778492487816,
+        "mean_prediction_minus_observation": -0.002431266245284514
+      },
+      "initial_C_N": {
+        "brier": 0.26904914728872303,
+        "mean_prediction_minus_observation": -0.09547270382992766
+      },
+      "paired_scene_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ridge": 1.0,
+      "scenes_with_lower_loss": 0,
+      "trajectory_mean_success_brier": 0.12201758842076425
+    },
+    {
+      "after_first_failure": {
+        "brier": 0.07889563548235161,
+        "mean_prediction_minus_observation": 0.006744161361817312
+      },
+      "baseline_minus_candidate_brier": 0.003684628751952073,
+      "complete": true,
+      "first_attempt": {
+        "brier": 0.09992263925218878,
+        "mean_prediction_minus_observation": 0.0006226510117653236
+      },
+      "initial_C_N": {
+        "brier": 0.2648462409497792,
+        "mean_prediction_minus_observation": -0.0611674035350332
+      },
+      "paired_scene_values": [
+        -0.0026292089562350296,
+        0.0039277224818674294,
+        0.006727708838513258,
+        0.00021645130190234285,
+        0.007819747100163116,
+        0.0063977470606575715,
+        0.0021613047088725468,
+        0.0004077757560988077,
+        0.004591287986212361,
+        0.007152149276544617,
+        -0.0034620292760323135,
+        -1.4163359098665063e-05,
+        0.007651361112685273,
+        0.007546261286417888,
+        0.000608837446747279,
+        0.0007828413322758035,
+        0.004786392945406934,
+        0.011651130492138104
+      ],
+      "ridge": 0.1,
+      "scenes_with_lower_loss": 15,
+      "trajectory_mean_success_brier": 0.11833295966881217
+    },
+    {
+      "after_first_failure": {
+        "brier": 0.0781214774229599,
+        "mean_prediction_minus_observation": 0.005015747568881828
+      },
+      "baseline_minus_candidate_brier": 0.004838085716207718,
+      "complete": true,
+      "first_attempt": {
+        "brier": 0.09981505671029975,
+        "mean_prediction_minus_observation": 0.0014681806403210303
+      },
+      "initial_C_N": {
+        "brier": 0.26387454711871317,
+        "mean_prediction_minus_observation": -0.05088835171880221
+      },
+      "paired_scene_values": [
+        -0.002614110593239141,
+        0.005091582372283354,
+        0.008400644692896031,
+        0.0002590377403862143,
+        0.009726404608870184,
+        0.009406476826054985,
+        0.002220657169749757,
+        0.00020012442510390638,
+        0.00571511994144655,
+        0.009591430872811751,
+        -0.004780274645583421,
+        -5.5156759601618366e-05,
+        0.009620073106793983,
+        0.009370755860360847,
+        0.0006633330010945016,
+        0.0034799775528892435,
+        0.005851513415576048,
+        0.014937953303845744
+      ],
+      "ridge": 0.01,
+      "scenes_with_lower_loss": 15,
+      "trajectory_mean_success_brier": 0.11717950270455652
+    },
+    {
+      "after_first_failure": {
+        "brier": 0.07819132314859392,
+        "mean_prediction_minus_observation": 0.004522398531661502
+      },
+      "baseline_minus_candidate_brier": 0.004999193554215959,
+      "complete": true,
+      "first_attempt": {
+        "brier": 0.09975899077049033,
+        "mean_prediction_minus_observation": 0.001511021392383667
+      },
+      "initial_C_N": {
+        "brier": 0.2636649190827033,
+        "mean_prediction_minus_observation": -0.048675256464676
+      },
+      "paired_scene_values": [
+        -0.002683539965306639,
+        0.005522532919384815,
+        0.008570876486306389,
+        0.0002541523961944181,
+        0.009963138969874039,
+        0.0096728910367965,
+        0.0021874913178318856,
+        6.469752109035387e-05,
+        0.005962254125251157,
+        0.010115308492529285,
+        -0.0051300805354553,
+        -2.9167852631406532e-05,
+        0.009959300128067172,
+        0.00959531457650313,
+        0.0008281578451751759,
+        0.0035534801069448327,
+        0.0059260362322059446,
+        0.015652640175125507
+      ],
+      "ridge": 0.0,
+      "scenes_with_lower_loss": 15,
+      "trajectory_mean_success_brier": 0.11701839486654829
+    }
+  ],
+  "new_model_calls": 0,
+  "one_update_success_bridge": {
+    "initial_C_N": {
+      "actual_next_state_conditioned_expected_successes": 5.108917834552838,
+      "first_failures": 37,
+      "model_integrated_next_expected_successes": 6.346603719277709,
+      "observed_next_successes": 4,
+      "scope": "Calibration-only descriptive bridge using frozen coefficients and failure-updated task weights. Actual next-state labels are post-failure information, not a prospective baseline."
+    },
+    "other_initial": {
+      "actual_next_state_conditioned_expected_successes": 13.93573451688315,
+      "first_failures": 174,
+      "model_integrated_next_expected_successes": 13.709278277685222,
+      "observed_next_successes": 13,
+      "scope": "Calibration-only descriptive bridge using frozen coefficients and failure-updated task weights. Actual next-state labels are post-failure information, not a prospective baseline."
+    }
+  },
+  "optimization_audit": {
+    "hessian_eigenvalues": [
+      0.6983011890936826,
+      1.0652507404994267,
+      1.5300466776174704,
+      2.0467081451032536,
+      13.924882403276616,
+      53.381460985884736
+    ],
+    "max_finite_difference_error": 2.8849695410393924e-09,
+    "max_gradient": 4.7302220841927145e-06,
+    "objective": 143.16252445953526,
+    "restarts": [
+      {
+        "initial": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "iterations": 12,
+        "loss": 143.16252445953526,
+        "max_coefficient_difference": 0.0,
+        "max_gradient": 4.7302220841927145e-06
+      },
+      {
+        "initial": [
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "iterations": 15,
+        "loss": 143.1625244595385,
+        "max_coefficient_difference": 1.4567858568348413e-06,
+        "max_gradient": 3.973169761056772e-06
+      },
+      {
+        "initial": [
+          -0.5,
+          -0.5,
+          -0.5,
+          -0.5,
+          -0.5,
+          -0.5
+        ],
+        "iterations": 10,
+        "loss": 143.16252445952364,
+        "max_coefficient_difference": 3.4869047897956307e-06,
+        "max_gradient": 9.97442592964859e-07
+      }
+    ],
+    "scope": "Stationarity, finite differences, local curvature and three starts; no global optimality guarantee",
+    "score_data_gradient": [
+      0.1803386183351694,
+      -0.2476702375936117,
+      0.40199243151283665,
+      0.34715732619120426,
+      2.314693844555247,
+      0.12987160525406755
+    ]
+  },
+  "original_parameter_refits": 0,
+  "parameters_sha256": "4826508a8a850c983bdd10a91dae065ed544674e7b9c8bc8bd6fa4a6fb9778b5",
+  "plan_sha256": "95a6a107e2ce2e6639bec61024b19cee8dcedc01ea4f947604633cdc31a8dc4a",
+  "scope": "Post-validation development diagnosis; no independent validation claim",
+  "separation_audit": {
+    "interpretation": "A small optimizer gradient need not mean a finite maximum-likelihood solution when a coefficient can diverge.",
+    "one_sided_nonnegative_feature_directions": [
+      {
+        "coefficient_direction": "-infinity",
+        "feature": "A_count_over3",
+        "feature_index": 3,
+        "positive_rows": 5,
+        "scenes": 4,
+        "successes_in_positive_rows": 0,
+        "tasks": 4
+      }
+    ],
+    "zero_ridge_has_no_finite_interior_optimum_along_detected_directions": true
+  },
+  "sha256": "a31627186ca65e1c9b3fd40255df6075e2df2172861e69c566dbb38c574810c0",
+  "source_sha256": "e86b02c3d42911ee45ee3543fa2c6a5bc0c0c4b5e37e9715b9d4f4a271e79db7",
+  "state_support": {
+    "feature_max": [
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      1.0,
+      1.0
+    ],
+    "feature_min": [
+      1.0,
+      0.6666666666666666,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "frozen_model_prospective_survivor_support": {
+      "NCN": [
+        {
+          "native_count_given_survival": {
+            "0": 1.0
+          },
+          "outside_training_coordinate_range_given_survival": 0.0,
+          "survival_mass": 0.9999999999999999,
+          "trial": 1
+        },
+        {
+          "native_count_given_survival": {
+            "1": 1.0
+          },
+          "outside_training_coordinate_range_given_survival": 0.0,
+          "survival_mass": 0.6081840576491733,
+          "trial": 2
+        },
+        {
+          "native_count_given_survival": {
+            "2": 1.0
+          },
+          "outside_training_coordinate_range_given_survival": 1.0,
+          "survival_mass": 0.5038623494793988,
+          "trial": 3
+        },
+        {
+          "native_count_given_survival": {
+            "3": 1.0
+          },
+          "outside_training_coordinate_range_given_survival": 1.0,
+          "survival_mass": 0.46027930504041703,
+          "trial": 4
+        }
+      ],
+      "NNN": [
+        {
+          "native_count_given_survival": {
+            "0": 1.0
+          },
+          "outside_training_coordinate_range_given_survival": 0.0,
+          "survival_mass": 0.9999999999999999,
+          "trial": 1
+        },
+        {
+          "native_count_given_survival": {
+            "1": 1.0
+          },
+          "outside_training_coordinate_range_given_survival": 0.0,
+          "survival_mass": 0.6081840576491733,
+          "trial": 2
+        },
+        {
+          "native_count_given_survival": {
+            "2": 1.0
+          },
+          "outside_training_coordinate_range_given_survival": 1.0,
+          "survival_mass": 0.5038623494793988,
+          "trial": 3
+        },
+        {
+          "native_count_given_survival": {
+            "3": 1.0
+          },
+          "outside_training_coordinate_range_given_survival": 1.0,
+          "survival_mass": 0.46027930504041703,
+          "trial": 4
+        }
+      ]
+    },
+    "observed_native_counts": {
+      "0": 252,
+      "1": 211
+    },
+    "scope": "Model-implied support check; no new reflection labels or observed successor outcomes used"
+  },
+  "write_kernel_training_calibration": {
+    "after_first_failure": {
+      "events": 194,
+      "fitted_expected_counts": {
+        "A": 7.4747839354282934,
+        "B": 7.357118713404449,
+        "C": 5.516856549309409,
+        "E": 136.82682780166417,
+        "U": 36.8244130001936
+      },
+      "observed_counts": {
+        "A": 10,
+        "B": 8,
+        "C": 5,
+        "E": 133,
+        "U": 38
+      }
+    },
+    "initial_C_N": {
+      "events": 37,
+      "fitted_expected_counts": {
+        "A": 2.557669246998459,
+        "B": 2.3252551726222332,
+        "C": 3.3556138495897385,
+        "E": 17.01991980856878,
+        "U": 11.741541922220785
+      },
+      "observed_counts": {
+        "A": 2,
+        "B": 2,
+        "C": 2,
+        "E": 22,
+        "U": 9
+      }
+    },
+    "other_initial": {
+      "events": 174,
+      "fitted_expected_counts": {
+        "A": 5.302537953030391,
+        "B": 4.66441537785835,
+        "C": 4.41153659918244,
+        "E": 133.321032343946,
+        "U": 26.300477725982695
+      },
+      "observed_counts": {
+        "A": 3,
+        "B": 4,
+        "C": 6,
+        "E": 133,
+        "U": 28
+      }
+    }
+  }
+}

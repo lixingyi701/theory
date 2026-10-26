@@ -1,0 +1,32 @@
+{
+  "cpu_wall_seconds": 900,
+  "diagnostic_ridge_strengths": [
+    1.0,
+    0.1,
+    0.01,
+    0.0
+  ],
+  "evaluation": "Leave one of18 calibration scenes out; refit successes only, fixed write kernel. Trajectory-mean sequential success Brier and first-attempt/C-N/later diagnostics. Report every ridge strength.",
+  "events_sha256": "c35b890765962a3c8760358569afe291af420ff535218a38dc925eb515099131",
+  "frozen_parameters_overwritten": false,
+  "latent_scale": 1.5,
+  "max_success_fits": 79,
+  "new_model_calls": 0,
+  "parameters_sha256": "4826508a8a850c983bdd10a91dae065ed544674e7b9c8bc8bd6fa4a6fb9778b5",
+  "questions": [
+    "Optimization error versus regularization-induced underfit",
+    "In-sample versus held-scene response to reduced ridge",
+    "Successor-state support and conditional write residuals"
+  ],
+  "scope": "Development diagnosis after validation feedback; original36 calibration tasks only",
+  "selection": "No automatic promotion and no new validation scores; diagnose and design the next bounded step",
+  "sha256": "95a6a107e2ce2e6639bec61024b19cee8dcedc01ea4f947604633cdc31a8dc4a",
+  "source_sha256": "e86b02c3d42911ee45ee3543fa2c6a5bc0c0c4b5e37e9715b9d4f4a271e79db7",
+  "success_family": "error_lifetime",
+  "unchanged": [
+    "feature definitions and normalization",
+    "latent prior and scale",
+    "intercept half-count",
+    "conditional write kernel"
+  ]
+}

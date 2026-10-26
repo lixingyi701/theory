@@ -16,6 +16,7 @@
 | 旧错误退出与新反思重述 | [早期多轮诊断](../docs/experiments/multiround-diagnostic-20261024.md) | 旧条目身份与后继语义是不同事件，早期排序预测偏差保留 |
 | 36任务共同参数 | [共同校准](../docs/experiments/shared-calibration-20261025.md) | 参数估计与模型选择，不充当独立验证 |
 | 校准计数与组内拟合检查 | [计数勘误](../docs/experiments/shared-calibration-count-correction-20261026.md)、[成功标定审计](../repro/reflexion-20261025/success-calibration-audit-20261026.json) | 58次成功、405次失败写入、402种文本；原拟合输入正确，C/N首轮低估已存在于校准数据 |
+| 后续成功侧开发诊断 | [正则化与后继状态检查](../docs/experiments/success-regularization-diagnostic-20261026.md) | 优化核对一致，弱正则化有小幅开发留出收益；零正则化有发散方向，多条原生反思状态尚需实际标签。未替换正文的冻结验证结论 |
 | 54新任务两次预算预测 | [冻结验证](../docs/experiments/shared-validation-20261025.md) | 主要Brier改善；更新机制增量与纠正／删除排序仍未分辨 |
 | 81新任务四次预算预测 | [结果与诊断](../docs/experiments/four-attempt-validation-20261025.md) | 完整更新Brier0.22821，固定起点0.21862，主要损失差−0.00960，区间跨零；首轮标定偏差与后续条件曲线分别诊断 |
 | 条件更新后的成功残差 | [定向诊断](../docs/experiments/update-diagnostic-20261025.md) | 已知汇总后的局部解释，不重新拟合 |
