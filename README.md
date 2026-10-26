@@ -2,7 +2,9 @@
 
 [论文中文内容初稿](paper/manuscript.md)已形成，包含研究定位、过程模型、有限窗口命题与已完成实验。[写作入口](paper/README.md)对应各项证据来源；已加入四次预算的完整结果及首轮／后续误差诊断。
 
-[后继状态诊断](docs/experiments/successor-support-diagnostic-20261026.md)已完成106种反思标注、109次写入关联和217次尝试重建。弱正则化改善首轮但未统一改善后续；限制条目数外推只能解释部分偏差。[校准覆盖命题](docs/research/calibration_support_and_multistep_prediction.md)给出离开校准区域后的预算预测差上界。下一版开发校准使用原记录与本轮实际状态共680次尝试、63任务、27场景，仅比较六维成功模型与一个新增交互项；当前不新增GPU采样。
+[680次尝试的开发校准](docs/experiments/successor-development-calibration-20261026.md)已完成：七维成功模型Brier0.15247、六维0.15656，差0.00409超过预定一个配对标准误，21/27场景损失较低，按简约规则保留七维候选。部分后继状态仍有偏差，尚无新的独立验证结论。[下一次冻结验证](docs/experiments/successor-validation-design-20261026.md)已在采集前固定100个新任务、25场景、550轨迹，保留原50任务并依据精度规划扩充；参数与预测已保存，GPU采集未启动。
+
+[后继状态诊断](docs/experiments/successor-support-diagnostic-20261026.md)已完成106种反思标注、109次写入关联和217次尝试重建。弱正则化改善首轮但未统一改善后续；限制条目数外推只能解释部分偏差。[校准覆盖命题](docs/research/calibration_support_and_multistep_prediction.md)给出离开校准区域后的预算预测差上界。此后已用680次尝试、63任务、27场景完成六维与单交互七维的比较，当前准备新任务冻结执行。
 
 [成功侧与正则化诊断](docs/experiments/success-regularization-diagnostic-20261026.md)已完成：原优化器检查通过；在原36任务的整场景开发留出中，较弱正则化使单次Brier从0.12202降到0.11718，但C/N首轮仍低估。完全去除正则化会使稀少A状态的系数发散。λ=0.01保留为开发候选，随后已完成上方后继状态检查；原冻结参数和四次主要结果不变。
 

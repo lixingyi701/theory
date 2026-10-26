@@ -1,0 +1,575 @@
+{
+  "available_by_scene_before_selection": {
+    "FloorPlan1": 7,
+    "FloorPlan11": 3,
+    "FloorPlan12": 21,
+    "FloorPlan13": 16,
+    "FloorPlan14": 2,
+    "FloorPlan15": 15,
+    "FloorPlan16": 7,
+    "FloorPlan17": 4,
+    "FloorPlan18": 11,
+    "FloorPlan19": 8,
+    "FloorPlan2": 10,
+    "FloorPlan20": 7,
+    "FloorPlan21": 9,
+    "FloorPlan22": 9,
+    "FloorPlan23": 5,
+    "FloorPlan24": 6,
+    "FloorPlan25": 12,
+    "FloorPlan27": 3,
+    "FloorPlan28": 19,
+    "FloorPlan3": 17,
+    "FloorPlan30": 13,
+    "FloorPlan5": 8,
+    "FloorPlan6": 11,
+    "FloorPlan7": 21,
+    "FloorPlan8": 6
+  },
+  "counts_by_scene": {
+    "FloorPlan1": 2,
+    "FloorPlan11": 2,
+    "FloorPlan12": 2,
+    "FloorPlan13": 2,
+    "FloorPlan14": 2,
+    "FloorPlan15": 2,
+    "FloorPlan16": 2,
+    "FloorPlan17": 2,
+    "FloorPlan18": 2,
+    "FloorPlan19": 2,
+    "FloorPlan2": 2,
+    "FloorPlan20": 2,
+    "FloorPlan21": 2,
+    "FloorPlan22": 2,
+    "FloorPlan23": 2,
+    "FloorPlan24": 2,
+    "FloorPlan25": 2,
+    "FloorPlan27": 2,
+    "FloorPlan28": 2,
+    "FloorPlan3": 2,
+    "FloorPlan30": 2,
+    "FloorPlan5": 2,
+    "FloorPlan6": 2,
+    "FloorPlan7": 2,
+    "FloorPlan8": 2
+  },
+  "crossed_seeds": [
+    2140,
+    2141
+  ],
+  "dataset_removed": {
+    "missing_game": 1086,
+    "unsupported_movable_or_slice": 1735
+  },
+  "eligible_tasks_before_selection": 250,
+  "expected_trajectories": 350,
+  "freshness": "Exclude task_id, game_sha256 and trajectory_sha256 in all prior repro task records and run identities",
+  "holdout134_model_calls": 0,
+  "maximum_attempts": 1400,
+  "maximum_attempts_per_trajectory": 4,
+  "new_model_calls": 0,
+  "parameter_refits": 0,
+  "parameters_sha256": "56f1ce538d687ed3028341d685e44d4b134a90b0995198ad860a90e8590adaa7",
+  "primary_conditions": [
+    "correct_middle",
+    "neutral_full"
+  ],
+  "primary_trajectories": 200,
+  "scene_scope": "Fresh task/game identities within25 scenes also represented in development; no unseen-scene claim. FloorPlan4/26 have no fresh eligible task remaining.",
+  "scope": "Fresh-task prospective validation reserved after development; not launched",
+  "sealed_scenes_excluded": [
+    "FloorPlan10",
+    "FloorPlan219",
+    "FloorPlan308",
+    "FloorPlan424"
+  ],
+  "secondary_conditions": [
+    "repeated_error",
+    "correct_latest",
+    "delete_latest"
+  ],
+  "secondary_recovery_task_ids": [
+    "b5bb9b2f371370ea",
+    "14cbe3c5519fb944",
+    "ecb9c1d65157ef70",
+    "75d802d3b3cd2714",
+    "6760906cdf1df97f",
+    "9d48a901bc16cf36",
+    "5fa077340448a9e4",
+    "9762812a9966c357",
+    "9b9bb8465fc6b6f5",
+    "eb0a4110343ad8db",
+    "ca6e773b2e93f1df",
+    "ef6cc184e1daab84",
+    "434b1714d31f1795",
+    "1fb123192cfbd059",
+    "a2454b1f59b0d2ba",
+    "fbe9e7bfa07c5ff3",
+    "2f6381e53c96168d",
+    "55683c743578b6d0",
+    "f04585fcfbcaf81a",
+    "95f9ffde285ed945",
+    "ea5073995754916d",
+    "6c10fc977b8559fb",
+    "d81ea4659702239a",
+    "de37bed43b615f9f",
+    "0616b91cac5df710"
+  ],
+  "secondary_trajectories": 150,
+  "selection": "All25 nonsealed heat scenes with unused tasks; first2 tasks by fixed hash order in every scene",
+  "selection_seed": 2026102601,
+  "sha256": "628b1f354c99ad3a1d355a0c0ee38370dce5599a172032ab910d5cb793ba3131",
+  "source_sha256": "563bb1dd5688f90a3d9a6ebadf6d36d37b737ad10f6405eca99fd1512c9fa061",
+  "tasks": [
+    {
+      "game_sha256": "da0c1167f2f80b460f606cdcb04f34d5937c13fcae62847e19f011638caa5c36",
+      "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Cup-None-CounterTop-13/trial_T20190907_013610_766116/game.tw-pddl",
+      "scene_id": "FloorPlan13",
+      "split": "train",
+      "task_id": "b5bb9b2f371370ea",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_sha256": "dc7be6eba8930295162ea0887ac9ae2c9203ca440bd6a913ef181ac184fd4c2c"
+    },
+    {
+      "game_sha256": "714663f15b0a18a8aef7b5882f1d760d3058bbe678ffb086b8bb01c92f46c2f7",
+      "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Egg-None-Fridge-13/trial_T20190907_151643_465634/game.tw-pddl",
+      "scene_id": "FloorPlan13",
+      "split": "train",
+      "task_id": "4539fdc234699db0",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_sha256": "f7c24e7346ca0c4c12661fe7207f57347731eb1a0a129b3f2e41b03a1f33925a"
+    },
+    {
+      "game_sha256": "07d24848faf7f13034e2b4eaa263d7524c5502b51cebc1eb05cd49c38e731bcd",
+      "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Tomato-None-Fridge-7/trial_T20190909_022805_528384/game.tw-pddl",
+      "scene_id": "FloorPlan7",
+      "split": "train",
+      "task_id": "14cbe3c5519fb944",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_sha256": "293a09fb23ffa4dbd45b8551dc6cae5017e4f67fda1c2b33e78059b52dd3746e"
+    },
+    {
+      "game_sha256": "39832f65f9cf7722375ccc8e9ea08b1131029ca0f6a50f8135f44d04d7a4524d",
+      "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Plate-None-Cabinet-7/trial_T20190907_144243_812132/game.tw-pddl",
+      "scene_id": "FloorPlan7",
+      "split": "train",
+      "task_id": "aa2cb3af5db49643",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_sha256": "f4da98c2617676e1a8852244b6bf3b6adc67b572988464846bc03c498c42a97d"
+    },
+    {
+      "game_sha256": "fca0ccaf104dce0a692938602258b302a71c9756a8951321cc1f3b391828e4cd",
+      "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Apple-None-DiningTable-24/trial_T20190908_233423_925879/game.tw-pddl",
+      "scene_id": "FloorPlan24",
+      "split": "train",
+      "task_id": "ecb9c1d65157ef70",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_sha256": "f22a228dcec446bef50afd57c8d9101b00040e33ee4d91af07bc4df6ebfe26ad"
+    },
+    {
+      "game_sha256": "eeb9b3791f94a8ef38e258a26db28466e5f54bc4351b2bd9389c8629708d8870",
+      "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Egg-None-Fridge-24/trial_T20190909_005411_294809/game.tw-pddl",
+      "scene_id": "FloorPlan24",
+      "split": "train",
+      "task_id": "700bc4612f2c1308",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_sha256": "b8237f021e5243b20cd337e78a8fdf61d4d1506b90ccdb77d2a8c3aebb0386dc"
+    },
+    {
+      "game_sha256": "781f20f09f4f3552258a4ca284bf2f125b1be2da646aa82010b9a36ea83341ae",
+      "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Potato-None-DiningTable-11/trial_T20190909_101238_901434/game.tw-pddl",
+      "scene_id": "FloorPlan11",
+      "split": "train",
+      "task_id": "75d802d3b3cd2714",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_sha256": "d2878eab94dae94f9a43413525eb53d860f92b6593a452f6601e9a23d4f27aea"
+    },
+    {
+      "game_sha256": "a09ef43ee563ba09f02b129a1ad03bc0c6c3bdd265faa750a4018fccbc9d22a8",
+      "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Egg-None-DiningTable-11/trial_T20190907_125451_098098/game.tw-pddl",
+      "scene_id": "FloorPlan11",
+      "split": "train",
+      "task_id": "d6a4c6f5c0be6369",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_sha256": "1d39558b0b9cceb2e6171456e72aebb7f3f15f34a3a5cafe6cd1cb0c19463181"
+    },
+    {
+      "game_sha256": "31be8db6473cbabe7fdf995bfc8aa5a37a011628be8b3353dce01581ecd38011",
+      "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-28/trial_T20190908_110647_024236/game.tw-pddl",
+      "scene_id": "FloorPlan28",
+      "split": "train",
+      "task_id": "6760906cdf1df97f",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_sha256": "21cceae0beba0ccaaf9db54903b856ba57f4ace1fc991bf2d2c70b22330f614b"
+    },
+    {
+      "game_sha256": "2e7844fce4a253ba1e45341dfedfeab7fdd29f91233f11f1e3d3b133e0ae2978",
+      "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Plate-None-CounterTop-28/trial_T20190907_180330_211175/game.tw-pddl",
+      "scene_id": "FloorPlan28",
+      "split": "train",
+      "task_id": "52850a3eb121da92",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_sha256": "d2dfb311d810f72539940175f2c90507df6b0d6b7695073ad634cbf154de31d1"
+    },
+    {
+      "game_sha256": "b4f627e530e3f64063dc72c570baef1606aa6ab2022d06314066d5fa8cc474c5",
+      "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Cup-None-Fridge-22/trial_T20190908_072831_071145/game.tw-pddl",
+      "scene_id": "FloorPlan22",
+      "split": "train",
+      "task_id": "9d48a901bc16cf36",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_sha256": "d4c976ee295b46d5045c274c4d0fadd19519241d3f0c17b9cda93dfc55794db3"
+    },
+    {
+      "game_sha256": "979c7c0401dfc97b8e59f390607122a58b71a61e5ce8d38df98d61938e224f3e",
+      "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Apple-None-Fridge-22/trial_T20190908_210352_288346/game.tw-pddl",
+      "scene_id": "FloorPlan22",
+      "split": "train",
+      "task_id": "e72687023b43cbae",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_sha256": "b80b0c0265001183449c20e811201ec60306a7c0f0b1d1cacb3666b7328f9be2"
+    },
+    {
+      "game_sha256": "3d581e0b86c75f487fcd16d1374a4504598bcefdc770503468543f62c52406db",
+      "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Tomato-None-DiningTable-17/trial_T20190909_042816_697362/game.tw-pddl",
+      "scene_id": "FloorPlan17",
+      "split": "train",
+      "task_id": "5fa077340448a9e4",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_sha256": "b46dd3b847c6b99e6dcc8f3054d9f1f67c96f4afe166ea7820f8af80d5a98459"
+    },
+    {
+      "game_sha256": "d751d793d000d5608c2c80dec5cd75bbdedc6c91c255be6e56061d2415d6ecd7",
+      "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Tomato-None-DiningTable-17/trial_T20190909_042742_043093/game.tw-pddl",
+      "scene_id": "FloorPlan17",
+      "split": "train",
+      "task_id": "a1fb79cb5150c212",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_sha256": "fe8ba9250e9dab80fcdd0b8f0e71969c431559a55d58a86bd2885486a9f9f205"
+    },
+    {
+      "game_sha256": "387dcc2c06c19bd5c36588103d700c4ec6a68b10149ee02885e46fb53c8af68b",
+      "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Egg-None-DiningTable-18/trial_T20190908_051346_079516/game.tw-pddl",
+      "scene_id": "FloorPlan18",
+      "split": "train",
+      "task_id": "9762812a9966c357",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_sha256": "8da85c37a633a241d5914c804a9e9db901cabab5319999bf8a77f7f5f7b31874"
+    },
+    {
+      "game_sha256": "16fd872bfc7bf4609ebf5cfdb8db28341ee2b38b9d24e0f35016abc4b053cf7a",
+      "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Cup-None-Cabinet-18/trial_T20190907_150623_388922/game.tw-pddl",
+      "scene_id": "FloorPlan18",
+      "split": "train",
+      "task_id": "58db92a5c2f7d04a",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_sha256": "41975b8d4d0211322690b619f792e585ed893801fc32865e1edadbac6a76d330"
+    },
+    {
+      "game_sha256": "def2e9c48461e33763aa67a5b099bb94b364f3c7d3e500793a0f9bc2c7eedbb6",
+      "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Apple-None-SideTable-21/trial_T20190909_013359_039741/game.tw-pddl",
+      "scene_id": "FloorPlan21",
+      "split": "train",
+      "task_id": "9b9bb8465fc6b6f5",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_sha256": "01b23b93fc9519fb1ee50c4e88f81dab7f97b20f308efd337c8adf7a1ce3312d"
+    },
+    {
+      "game_sha256": "8f67fc0ef3dc904df5035e153c57c29b3b2bbe79f2186a570303fefa0c1fd40a",
+      "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Tomato-None-SideTable-21/trial_T20190909_041918_595548/game.tw-pddl",
+      "scene_id": "FloorPlan21",
+      "split": "train",
+      "task_id": "60845e89353c8259",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_sha256": "2fbd4571f339426a64ca7e9b078a6c3fff800ad4c523485ec42bffc26be03641"
+    },
+    {
+      "game_sha256": "148770eeee4000a7b78946454d3ee8326257d735948beb4f9c5473547b88e5ba",
+      "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Cup-None-Fridge-12/trial_T20190908_095945_179137/game.tw-pddl",
+      "scene_id": "FloorPlan12",
+      "split": "train",
+      "task_id": "eb0a4110343ad8db",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_sha256": "c985853fa724cd8949ce51d759fdb5905fa555f55bb570fde6c49d2dd5c998d2"
+    },
+    {
+      "game_sha256": "6aec67f1678c30aabf0c7280544d96a1a71ac414fae48473915fa04218cb6111",
+      "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Mug-None-Cabinet-12/trial_T20190909_032836_007400/game.tw-pddl",
+      "scene_id": "FloorPlan12",
+      "split": "train",
+      "task_id": "d93f8510be9a26fe",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_sha256": "eadec3c2e600d36555d71338b88b21e90c320d1771217b6e77894adff79df106"
+    },
+    {
+      "game_sha256": "9ace419ebb710608681d34167502e0563f8c26c494da6deb24d19ce9d731f761",
+      "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Potato-None-CounterTop-19/trial_T20190909_152050_792044/game.tw-pddl",
+      "scene_id": "FloorPlan19",
+      "split": "train",
+      "task_id": "ca6e773b2e93f1df",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_sha256": "7a1352ffdefb8b3ccbde28533402d4611d48f9ab3647b562cc19ab2c5bac535a"
+    },
+    {
+      "game_sha256": "f5c137e811982a5cb7481a481dca1ef54d56dbae01a7b3970a3db3e2d074ebbc",
+      "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Mug-None-Cabinet-19/trial_T20190907_152738_415962/game.tw-pddl",
+      "scene_id": "FloorPlan19",
+      "split": "train",
+      "task_id": "69364ec70ae29f24",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_sha256": "b014da155f0cc5178635f2843c556503cb6c6044abacdc93419433f24dc29116"
+    },
+    {
+      "game_sha256": "7dc641084ed9ead43085ad9f5e8f699867cc30da875f69b725d61757047673a7",
+      "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Potato-None-Fridge-5/trial_T20190908_140513_739727/game.tw-pddl",
+      "scene_id": "FloorPlan5",
+      "split": "train",
+      "task_id": "ef6cc184e1daab84",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_sha256": "1541bdd8e4b251a96c90b3d3356eafbf73b8d6fa2ef636f1acb4ab35b2438aec"
+    },
+    {
+      "game_sha256": "64e004f8fb3b67fcad0a0aa59c67e2b1eb5070d104e93a185c0a9ad907536d7b",
+      "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Apple-None-CounterTop-5/trial_T20190907_113507_490654/game.tw-pddl",
+      "scene_id": "FloorPlan5",
+      "split": "train",
+      "task_id": "179e7eca229fd634",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_sha256": "de1658342015bbfb8a512ba48ca585a32f5a4444c4fc8806ce256c6ec1e8d711"
+    },
+    {
+      "game_sha256": "7bd5d39e97f0ffd31a3412a0b2d3334408cd0b45120f180dffe5c17acf546fc4",
+      "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Egg-None-CounterTop-2/trial_T20190908_122832_412609/game.tw-pddl",
+      "scene_id": "FloorPlan2",
+      "split": "train",
+      "task_id": "434b1714d31f1795",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_sha256": "1a32963107c335c69e6b40fd8fbe09ce3fb0b0c84e52180a8c915e31cfa3ac2d"
+    },
+    {
+      "game_sha256": "7fb239fc7f31fa6d12016cc43b5080441c65b29274653ef3c47cce497ee6c15f",
+      "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-2/trial_T20190907_070755_073684/game.tw-pddl",
+      "scene_id": "FloorPlan2",
+      "split": "train",
+      "task_id": "5e7c203eb147ee2f",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_sha256": "d871a91c6c0fbd821b7216ca689ad2c8afaf26cdc15f5aba14a8a8f34da1922d"
+    },
+    {
+      "game_sha256": "8d23ec53a4756377fb092866ab4a586d227012ae25ec72bdd838b5aa10496808",
+      "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Cup-None-Cabinet-15/trial_T20190908_055531_226087/game.tw-pddl",
+      "scene_id": "FloorPlan15",
+      "split": "train",
+      "task_id": "1fb123192cfbd059",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_sha256": "c2a05dd10009c69f06e04ce6a99cd5bf887ceff468b0d1da43b2aadd60197700"
+    },
+    {
+      "game_sha256": "a1ec67e35694355ba4106edcb9ee5e6dd42f77cfe45e1edf88bdb8e75669a01a",
+      "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Bread-None-CounterTop-15/trial_T20190907_000245_890595/game.tw-pddl",
+      "scene_id": "FloorPlan15",
+      "split": "train",
+      "task_id": "8b56ced4f5e3e7db",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_sha256": "2c6849a1e51aba88d4f5ec5b90976de3728941273be6891a0c226299634ff67e"
+    },
+    {
+      "game_sha256": "e04b1354d015a29bb88e4310f9feeb1004d23ac255c96b5b8b8a85ca120b0177",
+      "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Tomato-None-Fridge-25/trial_T20190909_103009_910205/game.tw-pddl",
+      "scene_id": "FloorPlan25",
+      "split": "train",
+      "task_id": "a2454b1f59b0d2ba",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_sha256": "a02b9167e400d6d43c328cebaf29487b2f218c99c970cbadd1936b6de92b25c1"
+    },
+    {
+      "game_sha256": "5447208c6b57b15d56bf7da553608c22334ac5cdc7cd11b76d95640d833beb35",
+      "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Apple-None-Fridge-25/trial_T20190908_050852_487447/game.tw-pddl",
+      "scene_id": "FloorPlan25",
+      "split": "train",
+      "task_id": "c9760a0fc2d02954",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_sha256": "090f7d993825dd9a2a8108cb1c36bfdfc2e264f5a6e5ffb9de2b00d5e9ce46c2"
+    },
+    {
+      "game_sha256": "03f7777c9f10ecd1448951cbf89f3bcb9cf1255e91b8b9a0d40a10a76f079403",
+      "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-30/trial_T20190908_044350_359469/game.tw-pddl",
+      "scene_id": "FloorPlan30",
+      "split": "train",
+      "task_id": "fbe9e7bfa07c5ff3",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_sha256": "24df15de2600d1cd6549f9e00e6461a877cda5cac823de989e6d4ec27606180f"
+    },
+    {
+      "game_sha256": "1f389b1c85e586015874533fa095e981f36cdcffa70feaf24410eb911f3247da",
+      "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Egg-None-CounterTop-30/trial_T20190909_130447_271507/game.tw-pddl",
+      "scene_id": "FloorPlan30",
+      "split": "train",
+      "task_id": "1b5855b199984e16",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_sha256": "d2311b20d87b83a671260fa0a2904275babb89cf9b56076f3791c2a4669883aa"
+    },
+    {
+      "game_sha256": "69f15a19a85e2b0bc66e8b62dd6f6211b48279975ce356e1dc4876a9a73de1f4",
+      "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Egg-None-GarbageCan-20/trial_T20190909_114130_123227/game.tw-pddl",
+      "scene_id": "FloorPlan20",
+      "split": "train",
+      "task_id": "2f6381e53c96168d",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_sha256": "350361265c9562eecdc2d06914db624147c196ce181cf8922b664c801deb02d7"
+    },
+    {
+      "game_sha256": "d298d88405299b48eaf22c9e5393f633bf4b109013e7a5eb22633e3c958fa8f5",
+      "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Egg-None-Fridge-20/trial_T20190907_224507_776787/game.tw-pddl",
+      "scene_id": "FloorPlan20",
+      "split": "train",
+      "task_id": "529d009fd6280b93",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_sha256": "6f384e94a35c6dfcf7602fe9074ecbfa3228212a904a3b634f43a1dc5f3fb13c"
+    },
+    {
+      "game_sha256": "48e1c01a15ac198f470f1e75276b64a4fa9b6f2c15cdc54894344523ac45fa77",
+      "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Tomato-None-Fridge-23/trial_T20190909_082445_647065/game.tw-pddl",
+      "scene_id": "FloorPlan23",
+      "split": "train",
+      "task_id": "55683c743578b6d0",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_sha256": "ee400f4ae1cd7bdbd279256c803543c17620c732e70a963e791c25272ad9a91d"
+    },
+    {
+      "game_sha256": "d78d6a8c6d6af0473011ba84f2ee5b44d57548d478e190b3ed334ff39ae65b2e",
+      "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Cup-None-DiningTable-23/trial_T20190908_082046_159993/game.tw-pddl",
+      "scene_id": "FloorPlan23",
+      "split": "train",
+      "task_id": "605f1499d44426b8",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_sha256": "25d9ed2bc11abfa5e5a89acfb7487dab2917c1fed44aabdd65f388e238117fea"
+    },
+    {
+      "game_sha256": "bcf5e65295fc600495b067455ed802bcda53698a1fc164a031db29baf4fcd937",
+      "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Egg-None-Fridge-27/trial_T20190908_022308_588624/game.tw-pddl",
+      "scene_id": "FloorPlan27",
+      "split": "train",
+      "task_id": "f04585fcfbcaf81a",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_sha256": "a4a6370c5f309257c3229de48c69e63b2af51f92f4fe5657750d9aa90efc6f7e"
+    },
+    {
+      "game_sha256": "50d8812dfd53c719b4e2ea31fec757a678795ee050cad37c798df1b7560504d4",
+      "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Egg-None-Fridge-27/trial_T20190908_022126_569971/game.tw-pddl",
+      "scene_id": "FloorPlan27",
+      "split": "train",
+      "task_id": "ed50cbdfb5d81244",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_sha256": "987e783999d351f629efbb93a3cb3b5d4b93e61626ea085e3fe5b6683a0638ef"
+    },
+    {
+      "game_sha256": "11db5b1507a002889088b29c662a9e69266c5373652ed8d368c47704bc713191",
+      "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Cup-None-Cabinet-8/trial_T20190907_170428_184361/game.tw-pddl",
+      "scene_id": "FloorPlan8",
+      "split": "train",
+      "task_id": "95f9ffde285ed945",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_sha256": "2e86d840cc14b950cbf6848adbb8be08ed5463ce93d63fd3cf2a5a041828fc78"
+    },
+    {
+      "game_sha256": "98c8cb6ff707d9a1209249471afa7d4b9de7aaff18611f016f75102859b9451c",
+      "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Cup-None-Cabinet-8/trial_T20190907_170522_408193/game.tw-pddl",
+      "scene_id": "FloorPlan8",
+      "split": "train",
+      "task_id": "b36a8c185daa6a0b",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_sha256": "83d15df95415289ad9aabd0d17e486949ad4d94a49799b12906fbd7b3dba6c92"
+    },
+    {
+      "game_sha256": "717e5c9ff9d5e384080f53bafdc3ff3f61d3c19b2bafed54fc18329e74c2072f",
+      "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Tomato-None-SideTable-3/trial_T20190907_140859_097831/game.tw-pddl",
+      "scene_id": "FloorPlan3",
+      "split": "train",
+      "task_id": "ea5073995754916d",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_sha256": "e479ee540b2cb3f89df7e40c6decf463f1983cfcbdcfc9496342d3e672432c8e"
+    },
+    {
+      "game_sha256": "2acff8070cb02a7b96b2f1b9e9835a32214b4ee0be450588b43662138ea6565a",
+      "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Cup-None-SideTable-3/trial_T20190908_211022_646179/game.tw-pddl",
+      "scene_id": "FloorPlan3",
+      "split": "train",
+      "task_id": "91a3ce8d48a3015e",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_sha256": "4e44f12429b8331d8a72c074e494db84bde216f6373058434e1b00fd8c7043e3"
+    },
+    {
+      "game_sha256": "3f4d68e88ba72c869722421e3d52c8dc2efadc2c1f7887a36d3ee64767748d97",
+      "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Apple-None-Fridge-6/trial_T20190908_153716_620298/game.tw-pddl",
+      "scene_id": "FloorPlan6",
+      "split": "train",
+      "task_id": "6c10fc977b8559fb",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_sha256": "4e0792a0177d4fb3791a783640a16f06967e54e32c19f186975e171818a9f478"
+    },
+    {
+      "game_sha256": "f0291e284562aa263bbedd6edf6e8bc1123c8352440346135c1ac470a26df280",
+      "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Apple-None-Fridge-6/trial_T20190908_153803_890180/game.tw-pddl",
+      "scene_id": "FloorPlan6",
+      "split": "train",
+      "task_id": "a019898df6a0852a",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_sha256": "b48c44bddd1a7a9799c8146c0319f8d25c8aff083eb2455cdb28b4943874f93e"
+    },
+    {
+      "game_sha256": "278062830a8a3bfd780c2f70f09905a8a5695572f8c7be8495fdf86f8dcdb9ea",
+      "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Egg-None-GarbageCan-1/trial_T20190908_132828_295041/game.tw-pddl",
+      "scene_id": "FloorPlan1",
+      "split": "train",
+      "task_id": "d81ea4659702239a",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_sha256": "ba883744ca7b42eba76ac09a1f4929ac386a7a578f3326f976a10eaff5932dfb"
+    },
+    {
+      "game_sha256": "7166be868f59a7bf00898afa8c1e33c5232e440ac62651391a7906a39ce53e8b",
+      "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-1/trial_T20190907_222924_821086/game.tw-pddl",
+      "scene_id": "FloorPlan1",
+      "split": "train",
+      "task_id": "17439ac746bca8b0",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_sha256": "81178aa32fd1967b09f537bf11200eb5824849373c18c9dcfc5ffcdbf925b9aa"
+    },
+    {
+      "game_sha256": "9c2ab572868941fc809fea7cb222e205308a6ca9db56434ea3e42af1b5c1ef48",
+      "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-14/trial_T20190907_012206_112743/game.tw-pddl",
+      "scene_id": "FloorPlan14",
+      "split": "train",
+      "task_id": "de37bed43b615f9f",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_sha256": "57d435ea192ea1940c051dfcc72a3b3b81c5cb15e0ba0c49454794378d580e90"
+    },
+    {
+      "game_sha256": "6e7747256f337f8f3cdb34a6dc73329cffec0736f69f9874a10dced39081ae71",
+      "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Potato-None-GarbageCan-14/trial_T20190909_114102_376957/game.tw-pddl",
+      "scene_id": "FloorPlan14",
+      "split": "train",
+      "task_id": "c5b3c8658232ed34",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_sha256": "d706367e0421cda74456e497577002eae7117199ec1220c700a949ec9f9d2f85"
+    },
+    {
+      "game_sha256": "551dcff749734d86ed2e871e030199863e129180473f093eaf7efb95d3148bf9",
+      "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Apple-None-Fridge-16/trial_T20190907_203559_481810/game.tw-pddl",
+      "scene_id": "FloorPlan16",
+      "split": "train",
+      "task_id": "0616b91cac5df710",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_sha256": "088bc9e010c3856c92eb55a2cf5006c3022887a1807c4cee558715d7c08f04b4"
+    },
+    {
+      "game_sha256": "8e118cbf634bcf0f59688a4abf4eab69914eaade79d0e8dc10739c0e9580e8cc",
+      "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Apple-None-Fridge-16/trial_T20190907_203512_225732/game.tw-pddl",
+      "scene_id": "FloorPlan16",
+      "split": "train",
+      "task_id": "54e7c12b59ed5153",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_sha256": "daf1384dd82cd28fb00de83f2990f7f01e5531e7ebf530001a62e408909fd941"
+    }
+  ]
+}

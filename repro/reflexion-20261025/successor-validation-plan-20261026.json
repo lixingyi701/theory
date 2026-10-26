@@ -1,0 +1,317 @@
+{
+  "equal_expected_Brier_success_rate": 0.7782608981670092,
+  "estimated_attempts": 976.6741132910741,
+  "estimated_calls_including4replica_checks": 39119.91119113712,
+  "estimated_hours_at_previous_two_replica_rate": 7.721945048076381,
+  "forecasts": {
+    "full_seven": {
+      "correct_latest": [
+        0.023284510486648948,
+        0.2326857529278865,
+        0.30049916312924396,
+        0.3306574383719673
+      ],
+      "correct_middle": [
+        0.5241285781228638,
+        0.6162413950693294,
+        0.6455371716062747,
+        0.6581566983325372
+      ],
+      "correct_oldest": [
+        0.05228872756232854,
+        0.1502852503648462,
+        0.20241526675848215,
+        0.23357750645129854
+      ],
+      "delete_latest": [
+        0.033498418146978556,
+        0.12721415250084703,
+        0.20071791310738352,
+        0.23449040826826356
+      ],
+      "error_middle": [
+        0.035078284681298796,
+        0.1274818904280718,
+        0.20259767372695786,
+        0.23670228090367101
+      ],
+      "neutral_full": [
+        0.5241285781228638,
+        0.6162413950693294,
+        0.6455371716062747,
+        0.6581566983325372
+      ],
+      "repeated_error": [
+        0.05228872756232854,
+        0.1502852503648462,
+        0.20241526675848215,
+        0.23357750645129854
+      ]
+    },
+    "full_six": {
+      "correct_latest": [
+        0.024424715791450176,
+        0.23722612337197047,
+        0.31252535730749254,
+        0.3518106200382361
+      ],
+      "correct_middle": [
+        0.5125112197291635,
+        0.6132272402307859,
+        0.6480941939720126,
+        0.6653460071075221
+      ],
+      "correct_oldest": [
+        0.10202494184337108,
+        0.17185559270196626,
+        0.22117038771045758,
+        0.26060486335346594
+      ],
+      "delete_latest": [
+        0.0438282602923253,
+        0.11370285609564912,
+        0.19739847608258818,
+        0.2421412770060964
+      ],
+      "error_middle": [
+        0.05112768306187712,
+        0.11894768700676955,
+        0.2043296047236869,
+        0.24919510315768478
+      ],
+      "neutral_full": [
+        0.5125112197291635,
+        0.6132272402307859,
+        0.6480941939720126,
+        0.6653460071075221
+      ],
+      "repeated_error": [
+        0.10202494184337108,
+        0.17185559270196626,
+        0.22117038771045758,
+        0.26060486335346594
+      ]
+    },
+    "unchanged_seven": {
+      "correct_latest": [
+        0.02328451048664892,
+        0.045569495035017574,
+        0.06691501280594699,
+        0.08737708241820004
+      ],
+      "correct_middle": [
+        0.5241285781228638,
+        0.7400252147016743,
+        0.8436300660706596,
+        0.8983650980014812
+      ],
+      "correct_oldest": [
+        0.052288727562328566,
+        0.09975559427846377,
+        0.14301868206477794,
+        0.18260665620138128
+      ],
+      "delete_latest": [
+        0.03349841814697857,
+        0.0649603046276724,
+        0.09455859024978926,
+        0.12244971769920551
+      ],
+      "error_middle": [
+        0.03507828468129879,
+        0.0679288130553647,
+        0.09874912432811646,
+        0.12771708124893122
+      ],
+      "neutral_full": [
+        0.5241285781228638,
+        0.7400252147016743,
+        0.8436300660706596,
+        0.8983650980014812
+      ],
+      "repeated_error": [
+        0.052288727562328566,
+        0.09975559427846377,
+        0.14301868206477794,
+        0.18260665620138128
+      ]
+    }
+  },
+  "holdout134_model_calls": 0,
+  "kernel_source_sha256": "f3d0aa06f7f80b4ba5ee9667383da866603369c4e3edf58d2e4354d67f1b7c8b",
+  "manifest_sha256": "628b1f354c99ad3a1d355a0c0ee38370dce5599a172032ab910d5cb793ba3131",
+  "new_model_calls": 0,
+  "parameter_refits": 0,
+  "parameters_sha256": "56f1ce538d687ed3028341d685e44d4b134a90b0995198ad860a90e8590adaa7",
+  "precision_planning": {
+    "interpretation": "Assumed beta-binomial correlations and success rates, not empirical power or a guarantee",
+    "replicates_per_scenario": 10000,
+    "scenarios": [
+      {
+        "analytic_loss_difference": 0.05770007527151512,
+        "assumed_conditional_task_correlation": 0.1,
+        "assumed_scene_correlation": 0.02,
+        "assumed_success_rate": 0.6581566983325372,
+        "fraction_full_favored": 0.8334,
+        "fraction_static_favored": 0.0,
+        "median_interval_halfwidth": 0.03927203475061837
+      },
+      {
+        "analytic_loss_difference": 0.05770007527151512,
+        "assumed_conditional_task_correlation": 0.25,
+        "assumed_scene_correlation": 0.05,
+        "assumed_success_rate": 0.6581566983325372,
+        "fraction_full_favored": 0.6717,
+        "fraction_static_favored": 0.0,
+        "median_interval_halfwidth": 0.0474227882889643
+      },
+      {
+        "analytic_loss_difference": 0.05770007527151512,
+        "assumed_conditional_task_correlation": 0.5,
+        "assumed_scene_correlation": 0.1,
+        "assumed_success_rate": 0.6581566983325372,
+        "fraction_full_favored": 0.4825,
+        "fraction_static_favored": 0.0001,
+        "median_interval_halfwidth": 0.057727093498264416
+      },
+      {
+        "analytic_loss_difference": 0.03759785021070295,
+        "assumed_conditional_task_correlation": 0.1,
+        "assumed_scene_correlation": 0.02,
+        "assumed_success_rate": 0.7,
+        "fraction_full_favored": 0.4856,
+        "fraction_static_favored": 0.0001,
+        "median_interval_halfwidth": 0.03794578815524129
+      },
+      {
+        "analytic_loss_difference": 0.03759785021070295,
+        "assumed_conditional_task_correlation": 0.25,
+        "assumed_scene_correlation": 0.05,
+        "assumed_success_rate": 0.7,
+        "fraction_full_favored": 0.3293,
+        "fraction_static_favored": 0.0004,
+        "median_interval_halfwidth": 0.04575213480820663
+      },
+      {
+        "analytic_loss_difference": 0.03759785021070295,
+        "assumed_conditional_task_correlation": 0.5,
+        "assumed_scene_correlation": 0.1,
+        "assumed_success_rate": 0.7,
+        "fraction_full_favored": 0.223,
+        "fraction_static_favored": 0.0009,
+        "median_interval_halfwidth": 0.0558882919698344
+      },
+      {
+        "analytic_loss_difference": 0.0,
+        "assumed_conditional_task_correlation": 0.1,
+        "assumed_scene_correlation": 0.02,
+        "assumed_success_rate": 0.7782608981670092,
+        "fraction_full_favored": 0.015,
+        "fraction_static_favored": 0.0395,
+        "median_interval_halfwidth": 0.03431783150798218
+      },
+      {
+        "analytic_loss_difference": 0.0,
+        "assumed_conditional_task_correlation": 0.25,
+        "assumed_scene_correlation": 0.05,
+        "assumed_success_rate": 0.7782608981670092,
+        "fraction_full_favored": 0.0141,
+        "fraction_static_favored": 0.0422,
+        "median_interval_halfwidth": 0.04130555063213537
+      },
+      {
+        "analytic_loss_difference": 0.0,
+        "assumed_conditional_task_correlation": 0.5,
+        "assumed_scene_correlation": 0.1,
+        "assumed_success_rate": 0.7782608981670092,
+        "fraction_full_favored": 0.0128,
+        "fraction_static_favored": 0.0478,
+        "median_interval_halfwidth": 0.050253631817755315
+      },
+      {
+        "analytic_loss_difference": -0.034464669689980264,
+        "assumed_conditional_task_correlation": 0.1,
+        "assumed_scene_correlation": 0.02,
+        "assumed_success_rate": 0.85,
+        "fraction_full_favored": 0.0,
+        "fraction_static_favored": 0.6173,
+        "median_interval_halfwidth": 0.029259982104469735
+      },
+      {
+        "analytic_loss_difference": -0.034464669689980264,
+        "assumed_conditional_task_correlation": 0.25,
+        "assumed_scene_correlation": 0.05,
+        "assumed_success_rate": 0.85,
+        "fraction_full_favored": 0.0,
+        "fraction_static_favored": 0.4968,
+        "median_interval_halfwidth": 0.03505593383117782
+      },
+      {
+        "analytic_loss_difference": -0.034464669689980264,
+        "assumed_conditional_task_correlation": 0.5,
+        "assumed_scene_correlation": 0.1,
+        "assumed_success_rate": 0.85,
+        "fraction_full_favored": 0.0,
+        "fraction_static_favored": 0.3927,
+        "median_interval_halfwidth": 0.04286295781534444
+      },
+      {
+        "analytic_loss_difference": -0.057700075271515175,
+        "assumed_conditional_task_correlation": 0.1,
+        "assumed_scene_correlation": 0.02,
+        "assumed_success_rate": 0.8983650980014812,
+        "fraction_full_favored": 0.0,
+        "fraction_static_favored": 0.9756,
+        "median_interval_halfwidth": 0.024684779204147182
+      },
+      {
+        "analytic_loss_difference": -0.057700075271515175,
+        "assumed_conditional_task_correlation": 0.25,
+        "assumed_scene_correlation": 0.05,
+        "assumed_success_rate": 0.8983650980014812,
+        "fraction_full_favored": 0.0,
+        "fraction_static_favored": 0.9059,
+        "median_interval_halfwidth": 0.029434461779129274
+      },
+      {
+        "analytic_loss_difference": -0.057700075271515175,
+        "assumed_conditional_task_correlation": 0.5,
+        "assumed_scene_correlation": 0.1,
+        "assumed_success_rate": 0.8983650980014812,
+        "fraction_full_favored": 0.0,
+        "fraction_static_favored": 0.8022,
+        "median_interval_halfwidth": 0.035577887116567154
+      }
+    ],
+    "seed": 2026102602
+  },
+  "precollection_requirements": [
+    "Dedicated new run namespace and evaluator; preserve old runs",
+    "Kernel/interface and four-attempt chain checks",
+    "100 official reset comparisons on50 fresh tasks",
+    "Current GPU2/3 ownership and free-memory check; preserve other jobs and GPU0/1",
+    "Public execution-source/protocol/forecast freeze before calls; new bounded ledger contract"
+  ],
+  "previous_calls_per_attempt": 40.05011565150347,
+  "primary": {
+    "aggregation": "Mean4 condition/seed trajectories per task, then2 tasks per scene, then25 scenes equally",
+    "budget": 4,
+    "decision": "Lower bound>0 favors full; upper bound<0 favors unchanged; otherwise inconclusive",
+    "loss_difference": "unchanged_seven Brier minus full_seven Brier",
+    "no_replacement": "No parameter refitting or substitution of a favorable secondary comparison after collection",
+    "population": "200 C/N trajectories on50 fresh tasks in25 scenes",
+    "primary_interval": "Paired-scene Student t95, df24, critical2.063898562",
+    "secondary_comparisons": [
+      "full_seven versus full_six increment",
+      "Recovery contrasts on25 fixed fresh tasks, both seeds"
+    ],
+    "secondary_interval": "20000 whole-scene bootstrap, seed2026102603"
+  },
+  "proposed_not_active_allowance": {
+    "calls_including_checks_and_failures": 75000,
+    "seconds": 64800
+  },
+  "scope": "Prospective design and synthetic precision planning; no new Agent observations",
+  "sha256": "0e553bc1c4ff1bec9131d879eacb43de6c07c46841f5d4ff087a60918e995a93",
+  "source_sha256": "563bb1dd5688f90a3d9a6ebadf6d36d37b737ad10f6405eca99fd1512c9fa061"
+}

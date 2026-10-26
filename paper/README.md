@@ -18,6 +18,8 @@
 | 校准计数与组内拟合检查 | [计数勘误](../docs/experiments/shared-calibration-count-correction-20261026.md)、[成功标定审计](../repro/reflexion-20261025/success-calibration-audit-20261026.json) | 58次成功、405次失败写入、402种文本；原拟合输入正确，C/N首轮低估已存在于校准数据 |
 | 后续成功侧开发诊断 | [正则化与后继状态检查](../docs/experiments/success-regularization-diagnostic-20261026.md) | 优化核对一致，弱正则化有小幅开发留出收益；零正则化有发散方向；多条原生反思状态已由下项补充标签。未替换正文的冻结验证结论 |
 | 后继状态与校准覆盖补充 | [106文本与217次尝试诊断](../docs/experiments/successor-support-diagnostic-20261026.md)、[覆盖命题与证明](../docs/research/calibration_support_and_multistep_prediction.md) | 首轮改善未统一延续；区域内一致不保证后续预算一致。新命题与诊断待正文整合，原冻结结论保留 |
+| 新成功函数的开发选择 | [680次尝试的六维／七维比较](../docs/experiments/successor-development-calibration-20261026.md) | 按原简约规则选七维，增量Brier0.00409，后继偏差仍保留；属于开发证据，待新任务评价后整合 |
+| 下一次独立检验 | [100新任务冻结设计](../docs/experiments/successor-validation-design-20261026.md) | 参数、任务与预测已准备，尚未GPU采集，不写入正文为已完成实验 |
 | 54新任务两次预算预测 | [冻结验证](../docs/experiments/shared-validation-20261025.md) | 主要Brier改善；更新机制增量与纠正／删除排序仍未分辨 |
 | 81新任务四次预算预测 | [结果与诊断](../docs/experiments/four-attempt-validation-20261025.md) | 完整更新Brier0.22821，固定起点0.21862，主要损失差−0.00960，区间跨零；首轮标定偏差与后续条件曲线分别诊断 |
 | 条件更新后的成功残差 | [定向诊断](../docs/experiments/update-diagnostic-20261025.md) | 已知汇总后的局部解释，不重新拟合 |

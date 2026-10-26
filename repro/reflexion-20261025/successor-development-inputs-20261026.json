@@ -1,0 +1,42 @@
+{
+  "attempts": 680,
+  "comparison": {
+    "additional_feature": "has_E_or_B * I(native_count>0)",
+    "cpu_wall_seconds": 900,
+    "families": [
+      "six",
+      "seven"
+    ],
+    "maximum_success_fits": 60,
+    "primary_development_metric": "mean of27 scene trajectory-mean sequential single-success Brier scores",
+    "ridge": 0.01,
+    "selection": "seven only if mean(scene_loss_six-scene_loss_seven)>paired_scene_difference_SE; otherwise six",
+    "task_prior": [
+      0.16666666666666666,
+      0.6666666666666666,
+      0.16666666666666666
+    ],
+    "task_scale": 1.5,
+    "write_kernel": "unchanged original frozen conditional type model"
+  },
+  "holdout134_calls": 0,
+  "input_rows_sha256": "8daaefc51137f2a20e8072b50898f540154424db2cb9c7447a283c0f2ba5b3aa",
+  "known_failed_write_types": 514,
+  "new_model_calls": 0,
+  "objective_source_sha256": "e86b02c3d42911ee45ee3543fa2c6a5bc0c0c4b5e37e9715b9d4f4a271e79db7",
+  "private_input_file_sha256": "b1549dfb880cac981f4b5f28d5aed23bc2afb1028f232c5ba9444f07f1d4123d",
+  "scenes": 27,
+  "scope": "Development reuse of original calibration and previously inspected successor records",
+  "sha256": "ef49ea0f0ae59fce14696e1d1a38f697b82916570fccb04923ce2ece958ca842",
+  "source_sha256": "f3d0aa06f7f80b4ba5ee9667383da866603369c4e3edf58d2e4354d67f1b7c8b",
+  "sources": {
+    "shared-calibration-events.json": "c35b890765962a3c8760358569afe291af420ff535218a38dc925eb515099131",
+    "successor-support-attempts-20261026.json": "f2a59fbe198eee8e7a1f6d74da37322bc4a2a42a940ad8f6c2e984ca7c9a1511",
+    "successor-support-evaluation-20261026.json": "a23aee85f08b847b964331a3c037ac985d64c2cdd045f5b997c9fedb4361a02c",
+    "successor-support-writes-20261026.json": "ea9604aa482c24f366ac50c83afe89ac4dd7bc74bcc3d9fb0261c722552afba7"
+  },
+  "successes": 137,
+  "tasks": 63,
+  "trajectories": 360,
+  "unlabelled_terminal_failures_success_side_only": 29
+}
