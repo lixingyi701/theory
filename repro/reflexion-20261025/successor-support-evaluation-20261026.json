@@ -1,0 +1,1475 @@
+{
+  "aggregation": "Descriptive counts and sums over reached attempts. Survivor populations differ by trial; no independence or causal-effect test. Actual-state scores use post-failure text labels, not initial information.",
+  "attempts": 217,
+  "error_generation_by_starting_error_presence": {
+    "False": {
+      "failed_writes": 57,
+      "frozen_expected_new_E_or_B": 27.541025968181952,
+      "new_E_or_B": 31
+    },
+    "True": {
+      "failed_writes": 52,
+      "frozen_expected_new_E_or_B": 39.62738814045778,
+      "new_E_or_B": 38
+    }
+  },
+  "frozen_file_hashes_unchanged": {
+    "four-attempt-validation-evaluation.json": "bf61bbdf92fbb1d81c1f1219871d6fae24b0206d8e7b49e2c6f32e1e4d0c67dc",
+    "four-attempt-validation-protocol.json": "6b20e8870b7a9835468271284e057d905618c62d9dddf7c14a2796433ecd2731",
+    "four-attempt-validation-results.json": "9c987798f9fd5016544ea754e853a339376bda09036e4aebaa02ee2df3283466",
+    "shared-calibration-parameters.json": "cc45b153bc2b4bc628081e353e3033061848298a1869e63c302ab87ba2553923",
+    "shared-validation-results.json": "9d213a87e7881d3734cbe0c81c9de16da423d589e11c8de2b8e3bfd051e400a4"
+  },
+  "holdout134_calls": 0,
+  "labels_sha256": "a433389d24e8da8f704aab8d2dc29c2673f611b62622da1650fa6824e74c359f",
+  "manifest_sha256": "bbe3c6b2eb057e10be2fcf78fdd385548d1791080704b7c979ab1780ac681a09",
+  "new_model_calls": 0,
+  "omitted_fields": [
+    "attempt_rows",
+    "write_rows"
+  ],
+  "parameter_refits": 0,
+  "parameters_sha256": "4826508a8a850c983bdd10a91dae065ed544674e7b9c8bc8bd6fa4a6fb9778b5",
+  "projection_scope": "Full aggregate and trajectory projection; original complete diagnosis remains on server",
+  "public_parts": {
+    "successor-support-attempts-20261026.json": "f2a59fbe198eee8e7a1f6d74da37322bc4a2a42a940ad8f6c2e984ca7c9a1511",
+    "successor-support-writes-20261026.json": "ea9604aa482c24f366ac50c83afe89ac4dd7bc74bcc3d9fb0261c722552afba7"
+  },
+  "raw_summary_file_sha256": "d1e83f813380242b0c8d19479ce6d982f13f38473d3a4d2bce2ea9fa45b426f8",
+  "regularization_diagnostic_sha256": "a31627186ca65e1c9b3fd40255df6075e2df2172861e69c566dbb38c574810c0",
+  "scenes": 27,
+  "scope": "Postcollection development diagnosis on selected108 existing trajectories; conditional state scores, not a new frozen budget validation",
+  "selected_cumulative_success_counts": [
+    67,
+    73,
+    75,
+    79
+  ],
+  "sha256": "a23aee85f08b847b964331a3c037ac985d64c2cdd045f5b997c9fedb4361a02c",
+  "source_diagnosis_file_sha256": "c88f77e3a842037f41a52619d75fc436ef3f37bce27dd536a47c17878e64b3b2",
+  "source_diagnosis_sha256": "b1df4e48c706ab6d3f9b259b89ccf660703a73e13501b2a3ee2aac908e43bfb7",
+  "source_sha256": "8a2b52815bc5a11bee2939a4cd9db5554092a0950ee9a6a50d137707c690a22e",
+  "success_by_native_count": {
+    "0": {
+      "attempts": 108,
+      "frozen": {
+        "expected_successes": 42.31612177388924,
+        "mean_brier": 0.2877481005042406
+      },
+      "successes": 67,
+      "weak_ridge": {
+        "expected_successes": 47.01447791566433,
+        "mean_brier": 0.2697548948031094
+      }
+    },
+    "1": {
+      "attempts": 41,
+      "frozen": {
+        "expected_successes": 5.60091473727526,
+        "mean_brier": 0.115675713053395
+      },
+      "successes": 6,
+      "weak_ridge": {
+        "expected_successes": 5.488912509323394,
+        "mean_brier": 0.11547801905552475
+      }
+    },
+    "2": {
+      "attempts": 35,
+      "frozen": {
+        "expected_successes": 2.8535335197793223,
+        "mean_brier": 0.05461018661714327
+      },
+      "successes": 2,
+      "weak_ridge": {
+        "expected_successes": 2.2350203044397525,
+        "mean_brier": 0.05283024947146577
+      }
+    },
+    "3": {
+      "attempts": 33,
+      "frozen": {
+        "expected_successes": 1.9699654036489493,
+        "mean_brier": 0.11009956089540425
+      },
+      "successes": 4,
+      "weak_ridge": {
+        "expected_successes": 1.1865887106701234,
+        "mean_brier": 0.11193580624760939
+      }
+    }
+  },
+  "success_by_native_count_and_error": {
+    "0_False": {
+      "attempts": 108,
+      "frozen": {
+        "expected_successes": 42.31612177388924,
+        "mean_brier": 0.2877481005042406
+      },
+      "successes": 67,
+      "weak_ridge": {
+        "expected_successes": 47.01447791566433,
+        "mean_brier": 0.2697548948031094
+      }
+    },
+    "1_False": {
+      "attempts": 14,
+      "frozen": {
+        "expected_successes": 4.388103918755997,
+        "mean_brier": 0.20485012577425385
+      },
+      "successes": 4,
+      "weak_ridge": {
+        "expected_successes": 4.246575747148218,
+        "mean_brier": 0.20439183468919236
+      }
+    },
+    "1_True": {
+      "attempts": 27,
+      "frozen": {
+        "expected_successes": 1.2128108185192659,
+        "mean_brier": 0.06943712867961634
+      },
+      "successes": 2,
+      "weak_ridge": {
+        "expected_successes": 1.2423367621751749,
+        "mean_brier": 0.06937455909732676
+      }
+    },
+    "2_False": {
+      "attempts": 7,
+      "frozen": {
+        "expected_successes": 1.7978071399886784,
+        "mean_brier": 0.13543869862483499
+      },
+      "successes": 1,
+      "weak_ridge": {
+        "expected_successes": 1.4741981797580943,
+        "mean_brier": 0.12703803905481406
+      }
+    },
+    "2_True": {
+      "attempts": 28,
+      "frozen": {
+        "expected_successes": 1.055726379790644,
+        "mean_brier": 0.03440305861522034
+      },
+      "successes": 1,
+      "weak_ridge": {
+        "expected_successes": 0.7608221246816588,
+        "mean_brier": 0.0342783020756287
+      }
+    },
+    "3_False": {
+      "attempts": 5,
+      "frozen": {
+        "expected_successes": 1.0673424962953513,
+        "mean_brier": 0.16018140047229157
+      },
+      "successes": 1,
+      "weak_ridge": {
+        "expected_successes": 0.7301155023382486,
+        "mean_brier": 0.16291350568312543
+      }
+    },
+    "3_True": {
+      "attempts": 28,
+      "frozen": {
+        "expected_successes": 0.9026229073535983,
+        "mean_brier": 0.10115637525667434
+      },
+      "successes": 3,
+      "weak_ridge": {
+        "expected_successes": 0.4564732083318746,
+        "mean_brier": 0.10283264563412435
+      }
+    }
+  },
+  "tasks": 27,
+  "trajectories": 108,
+  "trajectory_rows": [
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan27",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-17153f8a29143e09-2130-correct_middle"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan27",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-17153f8a29143e09-2130-neutral_full"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan27",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-17153f8a29143e09-2131-neutral_full"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan27",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-17153f8a29143e09-2131-correct_middle"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan21",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-ad711c1759c2c8c7-2130-correct_middle"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan21",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-ad711c1759c2c8c7-2130-neutral_full"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan21",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-ad711c1759c2c8c7-2131-correct_middle"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan21",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-ad711c1759c2c8c7-2131-neutral_full"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan22",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-228b377ea782b33e-2130-correct_middle"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan22",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-228b377ea782b33e-2130-neutral_full"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan22",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-228b377ea782b33e-2131-correct_middle"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan22",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-228b377ea782b33e-2131-neutral_full"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan3",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-b58d21dff5be5535-2130-neutral_full"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan3",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-b58d21dff5be5535-2130-correct_middle"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan3",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-b58d21dff5be5535-2131-correct_middle"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan3",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-b58d21dff5be5535-2131-neutral_full"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan6",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-3282b836b8e26309-2130-correct_middle"
+    },
+    {
+      "attempts": 4,
+      "scene_id": "FloorPlan6",
+      "success_curve": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "trajectory_id": "four-3282b836b8e26309-2130-neutral_full"
+    },
+    {
+      "attempts": 4,
+      "scene_id": "FloorPlan6",
+      "success_curve": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "trajectory_id": "four-3282b836b8e26309-2131-correct_middle"
+    },
+    {
+      "attempts": 4,
+      "scene_id": "FloorPlan6",
+      "success_curve": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "trajectory_id": "four-3282b836b8e26309-2131-neutral_full"
+    },
+    {
+      "attempts": 4,
+      "scene_id": "FloorPlan12",
+      "success_curve": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "trajectory_id": "four-6bd27740d0343d65-2130-correct_middle"
+    },
+    {
+      "attempts": 4,
+      "scene_id": "FloorPlan12",
+      "success_curve": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "trajectory_id": "four-6bd27740d0343d65-2130-neutral_full"
+    },
+    {
+      "attempts": 4,
+      "scene_id": "FloorPlan12",
+      "success_curve": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "trajectory_id": "four-6bd27740d0343d65-2131-correct_middle"
+    },
+    {
+      "attempts": 3,
+      "scene_id": "FloorPlan12",
+      "success_curve": [
+        false,
+        false,
+        true,
+        true
+      ],
+      "trajectory_id": "four-6bd27740d0343d65-2131-neutral_full"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan1",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-9b4a791110f1400e-2130-correct_middle"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan1",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-9b4a791110f1400e-2130-neutral_full"
+    },
+    {
+      "attempts": 4,
+      "scene_id": "FloorPlan1",
+      "success_curve": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "trajectory_id": "four-9b4a791110f1400e-2131-neutral_full"
+    },
+    {
+      "attempts": 4,
+      "scene_id": "FloorPlan1",
+      "success_curve": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "trajectory_id": "four-9b4a791110f1400e-2131-correct_middle"
+    },
+    {
+      "attempts": 4,
+      "scene_id": "FloorPlan15",
+      "success_curve": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "trajectory_id": "four-be03e87cad818adf-2130-correct_middle"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan15",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-be03e87cad818adf-2130-neutral_full"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan15",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-be03e87cad818adf-2131-correct_middle"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan15",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-be03e87cad818adf-2131-neutral_full"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan4",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-e2bf5cb552e2ee34-2130-neutral_full"
+    },
+    {
+      "attempts": 2,
+      "scene_id": "FloorPlan4",
+      "success_curve": [
+        false,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-e2bf5cb552e2ee34-2130-correct_middle"
+    },
+    {
+      "attempts": 4,
+      "scene_id": "FloorPlan4",
+      "success_curve": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "trajectory_id": "four-e2bf5cb552e2ee34-2131-correct_middle"
+    },
+    {
+      "attempts": 4,
+      "scene_id": "FloorPlan4",
+      "success_curve": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "trajectory_id": "four-e2bf5cb552e2ee34-2131-neutral_full"
+    },
+    {
+      "attempts": 2,
+      "scene_id": "FloorPlan19",
+      "success_curve": [
+        false,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-dfc32baf57b52712-2130-correct_middle"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan19",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-dfc32baf57b52712-2130-neutral_full"
+    },
+    {
+      "attempts": 3,
+      "scene_id": "FloorPlan19",
+      "success_curve": [
+        false,
+        false,
+        true,
+        true
+      ],
+      "trajectory_id": "four-dfc32baf57b52712-2131-correct_middle"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan19",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-dfc32baf57b52712-2131-neutral_full"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan5",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-cfc1505466d0b03f-2130-neutral_full"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan5",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-cfc1505466d0b03f-2130-correct_middle"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan5",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-cfc1505466d0b03f-2131-correct_middle"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan5",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-cfc1505466d0b03f-2131-neutral_full"
+    },
+    {
+      "attempts": 4,
+      "scene_id": "FloorPlan25",
+      "success_curve": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "trajectory_id": "four-f5433976209e7909-2130-correct_middle"
+    },
+    {
+      "attempts": 2,
+      "scene_id": "FloorPlan25",
+      "success_curve": [
+        false,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-f5433976209e7909-2130-neutral_full"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan25",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-f5433976209e7909-2131-correct_middle"
+    },
+    {
+      "attempts": 4,
+      "scene_id": "FloorPlan25",
+      "success_curve": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "trajectory_id": "four-f5433976209e7909-2131-neutral_full"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan14",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-9146196467da3425-2130-correct_middle"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan14",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-9146196467da3425-2130-neutral_full"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan14",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-9146196467da3425-2131-correct_middle"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan14",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-9146196467da3425-2131-neutral_full"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan2",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-c5f8088d7e89bb12-2130-correct_middle"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan2",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-c5f8088d7e89bb12-2130-neutral_full"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan2",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-c5f8088d7e89bb12-2131-neutral_full"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan2",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-c5f8088d7e89bb12-2131-correct_middle"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan7",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-6805b7e1c254a5ac-2130-correct_middle"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan7",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-6805b7e1c254a5ac-2130-neutral_full"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan7",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-6805b7e1c254a5ac-2131-correct_middle"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan7",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-6805b7e1c254a5ac-2131-neutral_full"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan28",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-751f641ce4dccfe8-2130-neutral_full"
+    },
+    {
+      "attempts": 4,
+      "scene_id": "FloorPlan28",
+      "success_curve": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "trajectory_id": "four-751f641ce4dccfe8-2130-correct_middle"
+    },
+    {
+      "attempts": 4,
+      "scene_id": "FloorPlan28",
+      "success_curve": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "trajectory_id": "four-751f641ce4dccfe8-2131-correct_middle"
+    },
+    {
+      "attempts": 4,
+      "scene_id": "FloorPlan28",
+      "success_curve": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "trajectory_id": "four-751f641ce4dccfe8-2131-neutral_full"
+    },
+    {
+      "attempts": 4,
+      "scene_id": "FloorPlan23",
+      "success_curve": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "trajectory_id": "four-af404ef5d68432e3-2130-correct_middle"
+    },
+    {
+      "attempts": 4,
+      "scene_id": "FloorPlan23",
+      "success_curve": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "trajectory_id": "four-af404ef5d68432e3-2130-neutral_full"
+    },
+    {
+      "attempts": 2,
+      "scene_id": "FloorPlan23",
+      "success_curve": [
+        false,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-af404ef5d68432e3-2131-correct_middle"
+    },
+    {
+      "attempts": 4,
+      "scene_id": "FloorPlan23",
+      "success_curve": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "trajectory_id": "four-af404ef5d68432e3-2131-neutral_full"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan8",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-d840c2f5bc8992f1-2130-correct_middle"
+    },
+    {
+      "attempts": 4,
+      "scene_id": "FloorPlan8",
+      "success_curve": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "trajectory_id": "four-d840c2f5bc8992f1-2130-neutral_full"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan8",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-d840c2f5bc8992f1-2131-correct_middle"
+    },
+    {
+      "attempts": 4,
+      "scene_id": "FloorPlan8",
+      "success_curve": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "trajectory_id": "four-d840c2f5bc8992f1-2131-neutral_full"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan20",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-78da1a2737558f28-2130-correct_middle"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan20",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-78da1a2737558f28-2130-neutral_full"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan20",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-78da1a2737558f28-2131-neutral_full"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan20",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-78da1a2737558f28-2131-correct_middle"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan24",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-0370c1589fd55096-2130-correct_middle"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan24",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-0370c1589fd55096-2130-neutral_full"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan24",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-0370c1589fd55096-2131-correct_middle"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan24",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-0370c1589fd55096-2131-neutral_full"
+    },
+    {
+      "attempts": 4,
+      "scene_id": "FloorPlan11",
+      "success_curve": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "trajectory_id": "four-f069d41f6b688b94-2130-neutral_full"
+    },
+    {
+      "attempts": 4,
+      "scene_id": "FloorPlan11",
+      "success_curve": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "trajectory_id": "four-f069d41f6b688b94-2130-correct_middle"
+    },
+    {
+      "attempts": 4,
+      "scene_id": "FloorPlan11",
+      "success_curve": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "trajectory_id": "four-f069d41f6b688b94-2131-correct_middle"
+    },
+    {
+      "attempts": 4,
+      "scene_id": "FloorPlan11",
+      "success_curve": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "trajectory_id": "four-f069d41f6b688b94-2131-neutral_full"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan17",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-0aded356e6b8fa06-2130-correct_middle"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan17",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-0aded356e6b8fa06-2130-neutral_full"
+    },
+    {
+      "attempts": 2,
+      "scene_id": "FloorPlan17",
+      "success_curve": [
+        false,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-0aded356e6b8fa06-2131-correct_middle"
+    },
+    {
+      "attempts": 2,
+      "scene_id": "FloorPlan17",
+      "success_curve": [
+        false,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-0aded356e6b8fa06-2131-neutral_full"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan18",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-788448964a79f095-2130-correct_middle"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan18",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-788448964a79f095-2130-neutral_full"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan18",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-788448964a79f095-2131-correct_middle"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan18",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-788448964a79f095-2131-neutral_full"
+    },
+    {
+      "attempts": 4,
+      "scene_id": "FloorPlan26",
+      "success_curve": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "trajectory_id": "four-1af24310a9afee4e-2130-correct_middle"
+    },
+    {
+      "attempts": 4,
+      "scene_id": "FloorPlan26",
+      "success_curve": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "trajectory_id": "four-1af24310a9afee4e-2130-neutral_full"
+    },
+    {
+      "attempts": 4,
+      "scene_id": "FloorPlan26",
+      "success_curve": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "trajectory_id": "four-1af24310a9afee4e-2131-neutral_full"
+    },
+    {
+      "attempts": 4,
+      "scene_id": "FloorPlan26",
+      "success_curve": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "trajectory_id": "four-1af24310a9afee4e-2131-correct_middle"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan16",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-0b989cea2bc1e7fb-2130-correct_middle"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan16",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-0b989cea2bc1e7fb-2130-neutral_full"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan16",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-0b989cea2bc1e7fb-2131-correct_middle"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan16",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-0b989cea2bc1e7fb-2131-neutral_full"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan13",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-95701ae1bd16d006-2130-correct_middle"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan13",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-95701ae1bd16d006-2130-neutral_full"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan13",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-95701ae1bd16d006-2131-neutral_full"
+    },
+    {
+      "attempts": 1,
+      "scene_id": "FloorPlan13",
+      "success_curve": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "trajectory_id": "four-95701ae1bd16d006-2131-correct_middle"
+    },
+    {
+      "attempts": 4,
+      "scene_id": "FloorPlan30",
+      "success_curve": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "trajectory_id": "four-4f2a083f060ac931-2130-correct_middle"
+    },
+    {
+      "attempts": 4,
+      "scene_id": "FloorPlan30",
+      "success_curve": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "trajectory_id": "four-4f2a083f060ac931-2130-neutral_full"
+    },
+    {
+      "attempts": 4,
+      "scene_id": "FloorPlan30",
+      "success_curve": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "trajectory_id": "four-4f2a083f060ac931-2131-correct_middle"
+    },
+    {
+      "attempts": 4,
+      "scene_id": "FloorPlan30",
+      "success_curve": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "trajectory_id": "four-4f2a083f060ac931-2131-neutral_full"
+    }
+  ],
+  "unique_text_counts": {
+    "A": 4,
+    "B": 10,
+    "C": 3,
+    "E": 58,
+    "U": 31
+  },
+  "weak_ridge_candidate_origin": "Positive ridge0.01 chosen on original calibration leave-scene development scores; fixed write kernel; no new fitting here",
+  "write_event_counts": {
+    "A": 4,
+    "B": 10,
+    "C": 3,
+    "E": 59,
+    "U": 33
+  },
+  "writes_by_native_count": {
+    "0": {
+      "conditional_type_brier": 0.5785993602301533,
+      "failed_writes": 41,
+      "frozen": {
+        "actual_type_next_expected_successes": 5.60091473727526,
+        "integrated_next_expected_successes": 7.032723040280704
+      },
+      "frozen_expected_counts": {
+        "A": 2.8341740304577523,
+        "B": 2.576634110203015,
+        "C": 3.7183829144102503,
+        "E": 18.85991113922487,
+        "U": 13.010897805704113
+      },
+      "next_observed_successes": 6,
+      "outcomes": {
+        "B": 2,
+        "C": 3,
+        "E": 25,
+        "U": 11
+      },
+      "weak_ridge": {
+        "actual_type_next_expected_successes": 5.488912509323394,
+        "integrated_next_expected_successes": 6.210450724187111
+      }
+    },
+    "1": {
+      "conditional_type_brier": 0.5411577043379521,
+      "failed_writes": 35,
+      "frozen": {
+        "actual_type_next_expected_successes": 2.8535335197793223,
+        "integrated_next_expected_successes": 2.5819468968439354
+      },
+      "frozen_expected_counts": {
+        "A": 1.5366397496155555,
+        "B": 1.5269587156517574,
+        "C": 1.3159024808581241,
+        "E": 23.155914732900815,
+        "U": 7.464584320973748
+      },
+      "next_observed_successes": 2,
+      "outcomes": {
+        "A": 2,
+        "B": 4,
+        "E": 19,
+        "U": 10
+      },
+      "weak_ridge": {
+        "actual_type_next_expected_successes": 2.2350203044397525,
+        "integrated_next_expected_successes": 1.9069815080715047
+      }
+    },
+    "2": {
+      "conditional_type_brier": 0.5880160765480433,
+      "failed_writes": 33,
+      "frozen": {
+        "actual_type_next_expected_successes": 1.9699654036489493,
+        "integrated_next_expected_successes": 1.7811379419338988
+      },
+      "frozen_expected_counts": {
+        "A": 1.66203657438939,
+        "B": 1.762226007156689,
+        "C": 1.1563006849657989,
+        "E": 19.286769403502554,
+        "U": 9.132667329985548
+      },
+      "next_observed_successes": 4,
+      "outcomes": {
+        "A": 2,
+        "B": 4,
+        "E": 15,
+        "U": 12
+      },
+      "weak_ridge": {
+        "actual_type_next_expected_successes": 1.1865887106701234,
+        "integrated_next_expected_successes": 1.0044223714495863
+      }
+    }
+  }
+}
