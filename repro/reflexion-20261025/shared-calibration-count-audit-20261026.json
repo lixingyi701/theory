@@ -1,0 +1,50 @@
+{
+  "attempts": 463,
+  "events_sha256": "c35b890765962a3c8760358569afe291af420ff535218a38dc925eb515099131",
+  "failed_write_events": 405,
+  "failure_event_labels": {
+    "A": 15,
+    "B": 14,
+    "C": 13,
+    "E": 288,
+    "U": 75
+  },
+  "first_successes": 41,
+  "historical_closeout_file_sha256": "e5c161539079b9532b7d6d10fbc6ae64758ebcfa5ace0074fbe3c8eae57bb197",
+  "historical_closeout_successes_by_two": 61,
+  "labels_sha256": "20d3275c3c2578a8a2f5319a07db2db0e9056e6dba0898f1c1011fc987310303",
+  "model_fitting_events_use_correct_counts": true,
+  "new_model_calls": 0,
+  "parameter_refits": 0,
+  "parameters_sha256": "4826508a8a850c983bdd10a91dae065ed544674e7b9c8bc8bd6fa4a6fb9778b5",
+  "raw_summary_file_sha256": "095236001a5c610179ca31c5f23f15d96b4a224d04d5d7fdbb903a58a3872f1c",
+  "repeated_texts": [
+    {
+      "category": "E",
+      "event_uses": 2,
+      "reflection_sha256": "64e7585c704cb51b901b8d69f6cea59986124a6649f89033e85fd97bc4fc8c0b"
+    },
+    {
+      "category": "U",
+      "event_uses": 2,
+      "reflection_sha256": "ae236ec3f7a985be99a08b89fefc7bffe4befc9e76733f4fc945cdf97cffb949"
+    },
+    {
+      "category": "E",
+      "event_uses": 2,
+      "reflection_sha256": "fcc9fb00036c93bcfe2424bd964105e7a7f811c4ee625b21bf5f4ae79bf87509"
+    }
+  ],
+  "scope": "Native-outcome and event-versus-unique-text count correction; frozen sources unchanged",
+  "sha256": "2d20b2576b4d9a7280f35008cac81af32b46c4ac2d288590593c036f73cf57f5",
+  "source_sha256": "753db5362a52cbfa2e0e66ff6b950b89fa01824da8498036bab0fd987a16abe2",
+  "successes_by_two": 58,
+  "unique_reflection_texts": 402,
+  "unique_text_labels": {
+    "A": 15,
+    "B": 14,
+    "C": 13,
+    "E": 286,
+    "U": 74
+  }
+}

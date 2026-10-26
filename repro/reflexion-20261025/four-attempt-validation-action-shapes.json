@@ -1,0 +1,35 @@
+{
+  "command_shapes": [
+    "go to [a-z]+ \\d+",
+    "(?:open|close|examine|use) [a-z]+ \\d+",
+    "take [a-z]+ \\d+ from [a-z]+ \\d+",
+    "move [a-z]+ \\d+ to [a-z]+ \\d+",
+    "put [a-z]+ \\d+ (?:into|in) [a-z]+ \\d+",
+    "(?:heat|clean|cool|slice) [a-z]+ \\d+ with [a-z]+ \\d+",
+    "(?:look|inventory|help)"
+  ],
+  "completed_checkpoints": 1297,
+  "counts": {
+    "environment_style_sentence": 131,
+    "other_unmatched_shape": 951,
+    "public_command_shape": 24529,
+    "thought": 25305
+  },
+  "driver_sha256": "7b026efea040a1651f43a6f70b9bf98501c08ef290b53de87c236091f6a499a6",
+  "interpretation": "Public command shape does not establish valid entities, satisfied preconditions, or correct planning. Environment-style sentences are actor format violations. Other unmatched shapes require review. Thought no-effects are not physical failures.",
+  "no_effect_counts_by_shape": {
+    "environment_style_sentence": 131,
+    "other_unmatched_shape": 951,
+    "public_command_shape": 6782,
+    "thought": 25305
+  },
+  "omitted_field": "review_items",
+  "public_grammar": "installed alfworld/data/alfred.twl2",
+  "public_grammar_sha256": "c5b22f0f73309a7fd7c8e5b71de42ad4803b60766ab4a51cc2feb34162be036b",
+  "review_items_count": 1082,
+  "run_sha256": "753bb76c34b2f902124504cb68d9cdc2bcf0cf98941bffcc985aaed1fe83bf27",
+  "scope": "Aggregate projection of the action-shape audit; detailed command review remains private",
+  "sha256": "496608fc57822330bab4711d251de21021244e7d24b9d7d2d6527594031a79c3",
+  "source_audit_file_sha256": "ca5ac790186a62dff95c385a3238189c1ff52aec7248e5abf8aeba6e5e3d21c4",
+  "source_audit_sha256": "fdf0b488878ac9a10124c8077c6f4ee7430064cdb1c6d4fa5d39716c31268550"
+}

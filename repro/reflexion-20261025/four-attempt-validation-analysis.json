@@ -1,0 +1,437 @@
+{
+  "all_panel_success_counts": [
+    181,
+    218,
+    248,
+    269
+  ],
+  "analysis_source_sha256": "0ea797e8fb6486a5f2dda40c598fb0703df6ccb3013d364c16341efb68419be9",
+  "annotation_status": "1028 new reflections not semantically annotated in this analysis",
+  "diagnostic": {
+    "conditional_success": [
+      {
+        "attempt": 1,
+        "full_conditional_success": 0.3918159423508265,
+        "observed_scene_weighted_conditional_success": 0.5370370370370371,
+        "unchanged_conditional_success": 0.3918159423508265
+      },
+      {
+        "attempt": 2,
+        "full_conditional_success": 0.17152983025074903,
+        "observed_scene_weighted_conditional_success": 0.19833333333333317,
+        "unchanged_conditional_success": 0.3397887958315346
+      },
+      {
+        "attempt": 3,
+        "full_conditional_success": 0.08649791849701101,
+        "observed_scene_weighted_conditional_success": 0.08108108108108128,
+        "unchanged_conditional_success": 0.30346018396039237
+      },
+      {
+        "attempt": 4,
+        "full_conditional_success": 0.05356888479232335,
+        "observed_scene_weighted_conditional_success": 0.12443438914027125,
+        "unchanged_conditional_success": 0.274831947238757
+      }
+    ],
+    "equal_expected_brier_success_rate": 0.6807805975723344,
+    "full_update_curve": [
+      0.3918159423508265,
+      0.496137650520601,
+      0.5397206949595825,
+      0.5643773440235833
+    ],
+    "observed_scene_equal_curves": [
+      {
+        "mean": 0.5370370370370371,
+        "student_t95": [
+          0.4183246015100157,
+          0.6557494725640585
+        ]
+      },
+      {
+        "mean": 0.628858024691358,
+        "student_t95": [
+          0.5300660544582017,
+          0.7276499949245143
+        ]
+      },
+      {
+        "mean": 0.6589506172839507,
+        "student_t95": [
+          0.5613528492738283,
+          0.756548385294073
+        ]
+      },
+      {
+        "mean": 0.7013888888888888,
+        "student_t95": [
+          0.6129507070305206,
+          0.7898270707472571
+        ]
+      }
+    ],
+    "primary_loss_difference_identity": -0.009595488637309635,
+    "scene_curves": [
+      {
+        "FloorPlan1": 0.8333333333333334,
+        "FloorPlan11": 0.25,
+        "FloorPlan12": 0.4166666666666667,
+        "FloorPlan13": 0.8333333333333334,
+        "FloorPlan14": 0.6666666666666666,
+        "FloorPlan15": 0.9166666666666666,
+        "FloorPlan16": 0.6666666666666666,
+        "FloorPlan17": 0.4166666666666667,
+        "FloorPlan18": 0.3333333333333333,
+        "FloorPlan19": 0.5833333333333334,
+        "FloorPlan2": 1.0,
+        "FloorPlan20": 1.0,
+        "FloorPlan21": 0.625,
+        "FloorPlan22": 0.8333333333333334,
+        "FloorPlan23": 0.0,
+        "FloorPlan24": 0.5,
+        "FloorPlan25": 0.4166666666666667,
+        "FloorPlan26": 0.0,
+        "FloorPlan27": 0.375,
+        "FloorPlan28": 0.25,
+        "FloorPlan3": 0.6666666666666666,
+        "FloorPlan30": 0.16666666666666666,
+        "FloorPlan4": 0.25,
+        "FloorPlan5": 0.8333333333333334,
+        "FloorPlan6": 0.5833333333333334,
+        "FloorPlan7": 0.9166666666666666,
+        "FloorPlan8": 0.16666666666666666
+      },
+      {
+        "FloorPlan1": 0.8333333333333334,
+        "FloorPlan11": 0.4166666666666667,
+        "FloorPlan12": 0.5,
+        "FloorPlan13": 0.8333333333333334,
+        "FloorPlan14": 0.6666666666666666,
+        "FloorPlan15": 0.9166666666666666,
+        "FloorPlan16": 0.9166666666666666,
+        "FloorPlan17": 0.6666666666666666,
+        "FloorPlan18": 0.5,
+        "FloorPlan19": 0.75,
+        "FloorPlan2": 1.0,
+        "FloorPlan20": 1.0,
+        "FloorPlan21": 0.75,
+        "FloorPlan22": 0.8333333333333334,
+        "FloorPlan23": 0.3333333333333333,
+        "FloorPlan24": 0.5,
+        "FloorPlan25": 0.5,
+        "FloorPlan26": 0.125,
+        "FloorPlan27": 0.5625,
+        "FloorPlan28": 0.25,
+        "FloorPlan3": 0.6666666666666666,
+        "FloorPlan30": 0.25,
+        "FloorPlan4": 0.375,
+        "FloorPlan5": 0.9166666666666666,
+        "FloorPlan6": 0.5833333333333334,
+        "FloorPlan7": 0.9166666666666666,
+        "FloorPlan8": 0.4166666666666667
+      },
+      {
+        "FloorPlan1": 0.8333333333333334,
+        "FloorPlan11": 0.4166666666666667,
+        "FloorPlan12": 0.5833333333333334,
+        "FloorPlan13": 0.8333333333333334,
+        "FloorPlan14": 0.6666666666666666,
+        "FloorPlan15": 0.9166666666666666,
+        "FloorPlan16": 0.9166666666666666,
+        "FloorPlan17": 0.9166666666666666,
+        "FloorPlan18": 0.5833333333333334,
+        "FloorPlan19": 0.8333333333333334,
+        "FloorPlan2": 1.0,
+        "FloorPlan20": 1.0,
+        "FloorPlan21": 0.8125,
+        "FloorPlan22": 0.8333333333333334,
+        "FloorPlan23": 0.4166666666666667,
+        "FloorPlan24": 0.5833333333333334,
+        "FloorPlan25": 0.5,
+        "FloorPlan26": 0.125,
+        "FloorPlan27": 0.5625,
+        "FloorPlan28": 0.3333333333333333,
+        "FloorPlan3": 0.6666666666666666,
+        "FloorPlan30": 0.25,
+        "FloorPlan4": 0.375,
+        "FloorPlan5": 0.9166666666666666,
+        "FloorPlan6": 0.5833333333333334,
+        "FloorPlan7": 0.9166666666666666,
+        "FloorPlan8": 0.4166666666666667
+      },
+      {
+        "FloorPlan1": 0.8333333333333334,
+        "FloorPlan11": 0.5833333333333334,
+        "FloorPlan12": 0.5833333333333334,
+        "FloorPlan13": 0.8333333333333334,
+        "FloorPlan14": 0.75,
+        "FloorPlan15": 0.9166666666666666,
+        "FloorPlan16": 0.9166666666666666,
+        "FloorPlan17": 0.9166666666666666,
+        "FloorPlan18": 0.75,
+        "FloorPlan19": 0.8333333333333334,
+        "FloorPlan2": 1.0,
+        "FloorPlan20": 1.0,
+        "FloorPlan21": 0.8125,
+        "FloorPlan22": 0.8333333333333334,
+        "FloorPlan23": 0.5,
+        "FloorPlan24": 0.6666666666666666,
+        "FloorPlan25": 0.5,
+        "FloorPlan26": 0.125,
+        "FloorPlan27": 0.625,
+        "FloorPlan28": 0.4166666666666667,
+        "FloorPlan3": 0.6666666666666666,
+        "FloorPlan30": 0.4166666666666667,
+        "FloorPlan4": 0.375,
+        "FloorPlan5": 0.9166666666666666,
+        "FloorPlan6": 0.6666666666666666,
+        "FloorPlan7": 1.0,
+        "FloorPlan8": 0.5
+      }
+    ],
+    "scope": "Post-collection descriptive mechanism diagnostics; no coefficients estimated",
+    "success_error_decomposition": [
+      {
+        "budget": 2,
+        "first_attempt_mismatch_term": 0.12031134496585694,
+        "first_term_fraction_of_total": 0.9065024546349252,
+        "interpretation": "Post-collection algebraic allocation of aggregate error, not causal attribution or validated recalibration",
+        "post_first_conditional_curve_mismatch_term": 0.012409029204900076,
+        "total_success_probability_error": 0.132720374170757
+      },
+      {
+        "budget": 3,
+        "first_attempt_mismatch_term": 0.10990466405473447,
+        "first_term_fraction_of_total": 0.921787600898841,
+        "interpretation": "Post-collection algebraic allocation of aggregate error, not causal attribution or validated recalibration",
+        "post_first_conditional_curve_mismatch_term": 0.009325258269633659,
+        "total_success_probability_error": 0.11922992232436813
+      },
+      {
+        "budget": 4,
+        "first_attempt_mismatch_term": 0.10401719376784739,
+        "first_term_fraction_of_total": 0.7591856136656622,
+        "interpretation": "Post-collection algebraic allocation of aggregate error, not causal attribution or validated recalibration",
+        "post_first_conditional_curve_mismatch_term": 0.03299435109745818,
+        "total_success_probability_error": 0.13701154486530553
+      }
+    ],
+    "unchanged_memory_curve": [
+      0.3918159423508265,
+      0.5984700709433758,
+      0.7203184170805023,
+      0.7971838511210857
+    ]
+  },
+  "frozen_results_sha256": "b22dcbb1d81990fb2a2ea28b647fda6e79a21b3d46c9c3da114a8fa7082c1edf",
+  "new_model_calls": 0,
+  "parameter_refits": 0,
+  "primary_panel_success_counts": [
+    177,
+    207,
+    217,
+    231
+  ],
+  "primary_recomputed": {
+    "mean": -0.00959548863730964,
+    "student_t95": [
+      -0.05077345706231046,
+      0.03158247978769118
+    ]
+  },
+  "protocol_sha256": "80f28d46a4519d9c9e76eda644af4334e1d333eadaae22963e771bc86bbb546a",
+  "scenes_positive_primary_gain": 13,
+  "scope": "Independent arithmetic audit and post-collection diagnostics; frozen primary unchanged",
+  "sha256": "1d8d3ffdd1f4037a1439dc0aa940e8375a784a6330146c31eba49b08d01e25e8",
+  "truncation_roles": {
+    "actor": 14,
+    "reflector": 7
+  },
+  "truncation_sensitivity": {
+    "affected_scenes": [
+      "FloorPlan1",
+      "FloorPlan12",
+      "FloorPlan13",
+      "FloorPlan16",
+      "FloorPlan22",
+      "FloorPlan23",
+      "FloorPlan28",
+      "FloorPlan3",
+      "FloorPlan30"
+    ],
+    "primary_gain_point_only": -0.01767904791152847,
+    "retained_scenes": 18,
+    "scope": "Post-collection descriptive affected-scene exclusion; full sample is primary"
+  },
+  "truncations": [
+    {
+      "condition": "correct_middle",
+      "path": "trajectories/four-1aa07e8da83da2db-2131-correct_middle/trial-03/calls/actor-0043/response.json",
+      "role": "actor",
+      "scene_id": "FloorPlan13",
+      "task_id": "1aa07e8da83da2db",
+      "trajectory_id": "four-1aa07e8da83da2db-2131-correct_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "path": "trajectories/four-1aa07e8da83da2db-2131-correct_middle/trial-03/calls/actor-0041/response.json",
+      "role": "actor",
+      "scene_id": "FloorPlan13",
+      "task_id": "1aa07e8da83da2db",
+      "trajectory_id": "four-1aa07e8da83da2db-2131-correct_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "path": "trajectories/four-1aa07e8da83da2db-2131-correct_middle/trial-03/calls/actor-0037/response.json",
+      "role": "actor",
+      "scene_id": "FloorPlan13",
+      "task_id": "1aa07e8da83da2db",
+      "trajectory_id": "four-1aa07e8da83da2db-2131-correct_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "path": "trajectories/four-496ad51e266b0683-2130-neutral_full/trial-04/calls/actor-0039/response.json",
+      "role": "actor",
+      "scene_id": "FloorPlan30",
+      "task_id": "496ad51e266b0683",
+      "trajectory_id": "four-496ad51e266b0683-2130-neutral_full"
+    },
+    {
+      "condition": "neutral_full",
+      "path": "trajectories/four-496ad51e266b0683-2130-neutral_full/trial-04/calls/actor-0041/response.json",
+      "role": "actor",
+      "scene_id": "FloorPlan30",
+      "task_id": "496ad51e266b0683",
+      "trajectory_id": "four-496ad51e266b0683-2130-neutral_full"
+    },
+    {
+      "condition": "neutral_full",
+      "path": "trajectories/four-496ad51e266b0683-2130-neutral_full/trial-04/calls/actor-0037/response.json",
+      "role": "actor",
+      "scene_id": "FloorPlan30",
+      "task_id": "496ad51e266b0683",
+      "trajectory_id": "four-496ad51e266b0683-2130-neutral_full"
+    },
+    {
+      "condition": "correct_middle",
+      "path": "trajectories/four-51595a98c60844f4-2130-correct_middle/trial-04/calls/actor-0039/response.json",
+      "role": "actor",
+      "scene_id": "FloorPlan28",
+      "task_id": "51595a98c60844f4",
+      "trajectory_id": "four-51595a98c60844f4-2130-correct_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "path": "trajectories/four-51595a98c60844f4-2130-correct_middle/trial-04/calls/actor-0038/response.json",
+      "role": "actor",
+      "scene_id": "FloorPlan28",
+      "task_id": "51595a98c60844f4",
+      "trajectory_id": "four-51595a98c60844f4-2130-correct_middle"
+    },
+    {
+      "condition": "repeated_error",
+      "path": "trajectories/four-228b377ea782b33e-2131-repeated_error/trial-03/calls/reflector-0049/response.json",
+      "role": "reflector",
+      "scene_id": "FloorPlan22",
+      "task_id": "228b377ea782b33e",
+      "trajectory_id": "four-228b377ea782b33e-2131-repeated_error"
+    },
+    {
+      "condition": "repeated_error",
+      "path": "trajectories/four-228b377ea782b33e-2131-repeated_error/trial-04/calls/reflector-0049/response.json",
+      "role": "reflector",
+      "scene_id": "FloorPlan22",
+      "task_id": "228b377ea782b33e",
+      "trajectory_id": "four-228b377ea782b33e-2131-repeated_error"
+    },
+    {
+      "condition": "correct_latest",
+      "path": "trajectories/four-af404ef5d68432e3-2131-correct_latest/trial-03/calls/reflector-0045/response.json",
+      "role": "reflector",
+      "scene_id": "FloorPlan23",
+      "task_id": "af404ef5d68432e3",
+      "trajectory_id": "four-af404ef5d68432e3-2131-correct_latest"
+    },
+    {
+      "condition": "correct_latest",
+      "path": "trajectories/four-af404ef5d68432e3-2131-correct_latest/trial-04/calls/reflector-0049/response.json",
+      "role": "reflector",
+      "scene_id": "FloorPlan23",
+      "task_id": "af404ef5d68432e3",
+      "trajectory_id": "four-af404ef5d68432e3-2131-correct_latest"
+    },
+    {
+      "condition": "correct_latest",
+      "path": "trajectories/four-0b989cea2bc1e7fb-2130-correct_latest/trial-04/calls/actor-0029/response.json",
+      "role": "actor",
+      "scene_id": "FloorPlan16",
+      "task_id": "0b989cea2bc1e7fb",
+      "trajectory_id": "four-0b989cea2bc1e7fb-2130-correct_latest"
+    },
+    {
+      "condition": "correct_middle",
+      "path": "trajectories/four-1aa07e8da83da2db-2130-correct_middle/trial-03/calls/actor-0043/response.json",
+      "role": "actor",
+      "scene_id": "FloorPlan13",
+      "task_id": "1aa07e8da83da2db",
+      "trajectory_id": "four-1aa07e8da83da2db-2130-correct_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "path": "trajectories/four-1aa07e8da83da2db-2130-correct_middle/trial-04/calls/actor-0035/response.json",
+      "role": "actor",
+      "scene_id": "FloorPlan13",
+      "task_id": "1aa07e8da83da2db",
+      "trajectory_id": "four-1aa07e8da83da2db-2130-correct_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "path": "trajectories/four-1aa07e8da83da2db-2130-correct_middle/trial-04/calls/reflector-0045/response.json",
+      "role": "reflector",
+      "scene_id": "FloorPlan13",
+      "task_id": "1aa07e8da83da2db",
+      "trajectory_id": "four-1aa07e8da83da2db-2130-correct_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "path": "trajectories/four-1aa07e8da83da2db-2130-correct_middle/trial-02/calls/actor-0037/response.json",
+      "role": "actor",
+      "scene_id": "FloorPlan13",
+      "task_id": "1aa07e8da83da2db",
+      "trajectory_id": "four-1aa07e8da83da2db-2130-correct_middle"
+    },
+    {
+      "condition": "correct_latest",
+      "path": "trajectories/four-b58d21dff5be5535-2131-correct_latest/trial-04/calls/reflector-0049/response.json",
+      "role": "reflector",
+      "scene_id": "FloorPlan3",
+      "task_id": "b58d21dff5be5535",
+      "trajectory_id": "four-b58d21dff5be5535-2131-correct_latest"
+    },
+    {
+      "condition": "correct_middle",
+      "path": "trajectories/four-6bd27740d0343d65-2131-correct_middle/trial-01/calls/actor-0024/response.json",
+      "role": "actor",
+      "scene_id": "FloorPlan12",
+      "task_id": "6bd27740d0343d65",
+      "trajectory_id": "four-6bd27740d0343d65-2131-correct_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "path": "trajectories/four-6bd27740d0343d65-2131-correct_middle/trial-01/calls/actor-0029/response.json",
+      "role": "actor",
+      "scene_id": "FloorPlan12",
+      "task_id": "6bd27740d0343d65",
+      "trajectory_id": "four-6bd27740d0343d65-2131-correct_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "path": "trajectories/four-9b4a791110f1400e-2131-correct_middle/trial-04/calls/reflector-0049/response.json",
+      "role": "reflector",
+      "scene_id": "FloorPlan1",
+      "task_id": "9b4a791110f1400e",
+      "trajectory_id": "four-9b4a791110f1400e-2131-correct_middle"
+    }
+  ]
+}
