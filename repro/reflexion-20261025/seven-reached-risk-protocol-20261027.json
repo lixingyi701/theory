@@ -1,0 +1,571 @@
+{
+  "attempts": 1553,
+  "base_model": {
+    "kernel_implementation": "scripts/calibrate_successor_success.py:component_kernel",
+    "p_coefficients": [
+      -0.035820187583717224,
+      0.14741280332906895,
+      -1.3341855488743963,
+      -7.124556141956235,
+      -4.631550958986969,
+      1.2976601733071207,
+      1.3343958086674566
+    ],
+    "p_feature_set": "seven",
+    "p_ridge": 0.01,
+    "task_offsets": [
+      -1.0,
+      0.0,
+      1.0
+    ],
+    "task_prior": [
+      0.16666666666666666,
+      0.6666666666666666,
+      0.16666666666666666
+    ],
+    "task_scale": 1.5,
+    "write_coefficients_reference_A": [
+      [
+        2.088611057670345,
+        0.2692321428465948,
+        -0.074175252959278,
+        1.3453747827792537
+      ],
+      [
+        -0.19332303952472168,
+        0.0023061830528540374,
+        -0.02109135574674955,
+        0.17866196880899646
+      ],
+      [
+        -1.275606940220993,
+        -0.1722874975137936,
+        0.21429100298482046,
+        0.3918650942925467
+      ],
+      [
+        -0.04333381840705293,
+        -0.14465724829721383,
+        -0.12026026956846869,
+        -0.5630276693928368
+      ],
+      [
+        0.11096052898786876,
+        0.4098849157800484,
+        -0.17580605183084522,
+        0.528643341880429
+      ],
+      [
+        1.6832852820285162,
+        -1.399204160937804,
+        0.21113198038829112,
+        -0.6856576002837805
+      ]
+    ],
+    "write_family": "error_lifetime"
+  },
+  "checks": {
+    "gradients": [
+      {
+        "max_gradient_difference": 1.756984602252487e-08,
+        "mode": "prequential_log",
+        "point": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "max_gradient_difference": 5.262791091809049e-09,
+        "mode": "prequential_log",
+        "point": [
+          -0.4,
+          -0.2666666666666667,
+          -0.13333333333333336,
+          0.0,
+          0.1333333333333333,
+          0.2666666666666666,
+          0.4
+        ]
+      },
+      {
+        "max_gradient_difference": 1.3387479569360039e-08,
+        "mode": "prequential_log",
+        "point": [
+          -0.035820187583717224,
+          0.14741280332906895,
+          -1.3341855488743963,
+          -7.124556141956235,
+          -4.631550958986969,
+          1.2976601733071207,
+          1.3343958086674566
+        ]
+      },
+      {
+        "max_gradient_difference": 3.116939595315671e-09,
+        "mode": "prequential_brier",
+        "point": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "max_gradient_difference": 5.353193444079807e-09,
+        "mode": "prequential_brier",
+        "point": [
+          -0.4,
+          -0.2666666666666667,
+          -0.13333333333333336,
+          0.0,
+          0.1333333333333333,
+          0.2666666666666666,
+          0.4
+        ]
+      },
+      {
+        "max_gradient_difference": 3.0709554899033265e-09,
+        "mode": "prequential_brier",
+        "point": [
+          -0.035820187583717224,
+          0.14741280332906895,
+          -1.3341855488743963,
+          -7.124556141956235,
+          -4.631550958986969,
+          1.2976601733071207,
+          1.3343958086674566
+        ]
+      }
+    ],
+    "objective_vs_score_difference": 4.163336342344337e-17,
+    "prefix_weight_invariance": true,
+    "preplanned_loss_scale": 3040,
+    "scope": "Engineering checks, not Agent evidence"
+  },
+  "folds": [
+    {
+      "held_scene": "FloorPlan1"
+    },
+    {
+      "held_scene": "FloorPlan11"
+    },
+    {
+      "held_scene": "FloorPlan12"
+    },
+    {
+      "held_scene": "FloorPlan13"
+    },
+    {
+      "held_scene": "FloorPlan14"
+    },
+    {
+      "held_scene": "FloorPlan15"
+    },
+    {
+      "held_scene": "FloorPlan16"
+    },
+    {
+      "held_scene": "FloorPlan17"
+    },
+    {
+      "held_scene": "FloorPlan18"
+    },
+    {
+      "held_scene": "FloorPlan19"
+    },
+    {
+      "held_scene": "FloorPlan2"
+    },
+    {
+      "held_scene": "FloorPlan20"
+    },
+    {
+      "held_scene": "FloorPlan21"
+    },
+    {
+      "held_scene": "FloorPlan22"
+    },
+    {
+      "held_scene": "FloorPlan23"
+    },
+    {
+      "held_scene": "FloorPlan24"
+    },
+    {
+      "held_scene": "FloorPlan25"
+    },
+    {
+      "held_scene": "FloorPlan26"
+    },
+    {
+      "held_scene": "FloorPlan27"
+    },
+    {
+      "held_scene": "FloorPlan28"
+    },
+    {
+      "held_scene": "FloorPlan3"
+    },
+    {
+      "held_scene": "FloorPlan30"
+    },
+    {
+      "held_scene": "FloorPlan4"
+    },
+    {
+      "held_scene": "FloorPlan5"
+    },
+    {
+      "held_scene": "FloorPlan6"
+    },
+    {
+      "held_scene": "FloorPlan7"
+    },
+    {
+      "held_scene": "FloorPlan8"
+    }
+  ],
+  "holdout134_calls": 0,
+  "horizon": 4,
+  "input_rows_sha256": "3548f4e8cca6fd64feee3cc403875076d417efbf41ae708a4a57d5a4abc6d264",
+  "limits": {
+    "cpu_workers": 2,
+    "max_parameter_fits": 60,
+    "new_agent_calls": 0,
+    "seconds": 900
+  },
+  "modes": [
+    "prequential_log",
+    "prequential_brier"
+  ],
+  "new_model_calls": 0,
+  "parent_audit_sha256": "d2e8535a94b13868ada507d0fc765d64e15f18a59260a6864ae46e20e9df333c",
+  "parent_protocol_sha256": "de1b97dee867194ac6b67b42ca9200085df72de60d2d682e3f771704f3ca0a38",
+  "parent_result_sha256": "08eabfa915cfb532351f355d1ae88c49d106c4915ceceb2db0417f054a148503",
+  "penalty": "Same ridge .01 on six nonintercept coefficients and symmetric intercept half-count; data scale is preplanned",
+  "planned_branches_by_source": {
+    "completed_successor_primary": 4,
+    "original_calibration": 7,
+    "successor_review": 4
+  },
+  "planned_task_counts_by_source": {
+    "completed_successor_primary": 100,
+    "original_calibration": 36,
+    "successor_review": 27
+  },
+  "primary": "Scene-equal risk of sum of reached single-attempt squared losses divided by common preplanned H=4, no inverse realized length",
+  "private_input_file_sha256": "6681c10a4e1d874c992d2f517dc82c18bc4f671765f5c70c6e5392e2c05a67bf",
+  "protected_files": {
+    "configs/qwen3_8b_non_thinking_wrapper.json": "ae1849a57bdf8f7454fadc3af7593133216bdd2023fb6e42649ce331fdc02b6a",
+    "configs/reflexion_qwen3_8b_protocol.json": "0a1b83abc85ba7c7bd5738e7a8ad64c82f43d5ff8158c36bf25dc0d678cf58f1",
+    "docs/experiments/seven-parameter-development-design-20261027.md": "4120ca0e393a912712d468a0a693f35f9dee6d0b3f6b315e9ab07e5dc690b56c",
+    "docs/experiments/seven-reached-risk-design-20261027.md": "5a079f9770cab71920181f4215f8fe061d1acff0509e48b9285b8f82910e843a",
+    "docs/experiments/seven-sequential-objectives-design-20261027.md": "8e039f1d6d47239c86f85a60e9d079c1344f9b5cd6c0a745f1c922814f078201",
+    "docs/experiments/successor-validation-design-20261026.md": "7e8668acd6287faa59c41628b7e92db237d7d3502c7e7eaf8bab39b7c132055b",
+    "repro/baseline-20261019/holdout134.json": "5755a0305d6ef9cff30d3cbe78146d55a45498124790c2f4f664042d09df2016",
+    "repro/reflexion-20261025/seven-parameter-development-audit-20261027.json": "4ef6a74479360c9b1ce5219ea0fe9c1d4b8295ba74fec9be600f25146086aec3",
+    "repro/reflexion-20261025/seven-parameter-development-predictions-ridge0.01_scale0-20261027.json": "d5ecb15ec1eb7170238e5f4bc3b4ced1cdd3d6dc4d501dd1240f638af5e70ec6",
+    "repro/reflexion-20261025/seven-parameter-development-predictions-ridge0.01_scale1.5-20261027.json": "e5a9c33a05d18bea3496362eab09d051e53f1974f3ec8dca5423fb4066415252",
+    "repro/reflexion-20261025/seven-parameter-development-predictions-ridge0.1_scale0-20261027.json": "4c982363a6ed2d568654059ece17dff20ab6521e25acea356d32d4cc9581020f",
+    "repro/reflexion-20261025/seven-parameter-development-predictions-ridge0.1_scale1.5-20261027.json": "64da146a78e8de307b10fe626ab4c43fb39399596c87366ef79520a0f93f483f",
+    "repro/reflexion-20261025/seven-parameter-development-predictions-ridge1_scale0-20261027.json": "b3744d23e791ba979276666817c52dd7f925521b5af117288e7c20d0ba3f6c33",
+    "repro/reflexion-20261025/seven-parameter-development-predictions-ridge1_scale1.5-20261027.json": "1e5d0e9075214a1aedf46a7dd9a3ac63f5efcdb10f83b8eb47cb7d25bf120d03",
+    "repro/reflexion-20261025/seven-parameter-development-protocol-20261027.json": "6dbd686c8802a099d391eeb6d37d0ff5973b55b97d2ad8e64a0bb0a2d1e8f9bd",
+    "repro/reflexion-20261025/seven-parameter-development-results-20261027.json": "3abb036402f90427a08fc7ccefc1f9cbc9db1ce44212942da3f4bf518e301096",
+    "repro/reflexion-20261025/seven-sequential-objectives-audit-20261027.json": "432505ee2ee397f486b93578eda70ac58ddd0843ddf11900ef120628ebc89f1f",
+    "repro/reflexion-20261025/seven-sequential-objectives-predictions-prequential_brier-20261027.json": "11f13dd468b460fd9652429fb4b905a107360b8c1c70100558c7f47228b52471",
+    "repro/reflexion-20261025/seven-sequential-objectives-predictions-prequential_log-20261027.json": "de121fba966fb82443367b779a0de9522347dc65d166239774b0b96f85709dd9",
+    "repro/reflexion-20261025/seven-sequential-objectives-protocol-20261027.json": "2c2ef2a36c10a492bfafa2090285bea3132cf1a4020f20fc867d15b721aa23bf",
+    "repro/reflexion-20261025/seven-sequential-objectives-results-20261027.json": "637871f3e6de44a85188efb23285865e76aa9cc380cbda231cdff84a412a1e75",
+    "repro/reflexion-20261025/shared-validation-protocol.json": "5c50631382ac2ae8db6a482a9fa3beb84ddbee4affbfb4457857578df1056768",
+    "repro/reflexion-20261025/successor-complete-diagnostic-metrics-20261027.json": "c5c7211e48b96a1a8f980b829bf1c433f70b01d0f9ea6abc417aef00a3e9f68a",
+    "repro/reflexion-20261025/successor-development-parameters-20261026.json": "50ba93dd3cff0d3778cf18ba7ff57c0ef87247dfa1958df497110c646f71496a",
+    "repro/reflexion-20261025/successor-late-semantic-labels-20261027.json": "3908629f6568ffd86e7f5efd1aadb63c4a2987ff568a2a66f765a7afad516127",
+    "repro/reflexion-20261025/successor-remaining-semantic-labels-20261027.json": "f172e3563509a9c936b86d09cb9e7291c1cf40e2b85952b0c7ff20abd250bb24",
+    "repro/reflexion-20261025/successor-reset-checks-20261026.json": "e21423be695eebbc57d1f6eea6489126e4baa31a3be78558230d9655cd77eae3",
+    "repro/reflexion-20261025/successor-validation-expanded-manifest-20261026.json": "6f6973393959a0c3ae01f3a3f0295ba57c2e0c1aa360b88f9f969754af587a89",
+    "repro/reflexion-20261025/successor-validation-expanded-plan-20261026.json": "837c2f4c5cf8ac2a526700c44b049f7e48d00b9dd2e5e34aff9710e79a5707cc",
+    "scripts/audit_reflexion_action_shapes.py": "7b026efea040a1651f43a6f70b9bf98501c08ef290b53de87c236091f6a499a6",
+    "scripts/audit_reflexion_protocol.py": "265f2fbaf841e6937ed51a0211ee0fe998ed022b31ac378d58be7284722e6ffe",
+    "scripts/calibrate_successor_success.py": "f3d0aa06f7f80b4ba5ee9667383da866603369c4e3edf58d2e4354d67f1b7c8b",
+    "scripts/compare_seven_reached_risk.py": "a5f2dfddd3b6330bb20ba3463a39f29176f0d43d380b60915a5ce4eb85eaf60a",
+    "scripts/compare_seven_sequential_objectives.py": "6d7d438daf8cccf97993685f4724b6e025efb5f5459ce0c7aba75d193a55b76c",
+    "scripts/continue_reflexion_pilot.py": "126949ac4e32a66819965717cc074711b7e3a8ad58be5d6598ec77d698fd7ab7",
+    "scripts/deployment/serve_reflexion_profiles.py": "fa6da89576a4b49636febd0d61ad51dcd7274c41ad2a7182a0412440710e4cf1",
+    "scripts/develop_seven_parameterization.py": "4d101a00325ff07ee009b0218a07b597681d8f8cb7df43aa99f4943c51652078",
+    "scripts/diagnose_success_regularization.py": "e86b02c3d42911ee45ee3543fa2c6a5bc0c0c4b5e37e9715b9d4f4a271e79db7",
+    "scripts/evaluate_successor_validation.py": "bb33e296d67f58076196db5fb2262531bb0fff4fae1665c24b60b6b5397ced49",
+    "scripts/finish_successor_validation.py": "2ca5b8f14fb348b0b49b7f0b99b5e27aa3dce129c688ecad44b8fa93455eeb43",
+    "scripts/prepare_shared_calibration.py": "1de6e45de17cbdb91697803c7d1c738ec1ac305dcb4f0e08077907c7bfa3382d",
+    "scripts/prepare_successor_protocol.py": "1d51e4180c3b483a9c9f738a2cda74183c21ddc9647c28183a18d4f386e721ae",
+    "scripts/run_middle_context_transport.py": "14014ff157e9ebc3badbae4f9b5946628c7f0c214ba6faeba306839642578012",
+    "scripts/run_multiround_diagnostic.py": "4781d83c25dd7f35238e637e2b5eaf2d68483cc6619ffd90a4b9dbeeb97c8bdf",
+    "scripts/run_residual_context.py": "d86170864560be62f39ca80c768fa9b8a6b7b4fe7691c8fdb6fa223fc4b3f673",
+    "scripts/run_shared_calibration.py": "70a973fd27b8a4d8bde939cf4dd132ae6519ec7243eeb43bafb65ca6ee515e5b",
+    "scripts/run_successor_campaign.sh": "eb776be703c1d2281a153c27c0ec0289d44f292d8a6f563a4d2d78f069185a35",
+    "scripts/run_successor_validation.py": "193811740dbc238972e26da2ee48b1f7d4dfe697bea18b35adb95b6fc5e86112",
+    "scripts/shared_recovery_model.py": "d5fe54281f948d4675de08057d0cd4c7789fe580535dcce0682f3a245acaae71",
+    "scripts/summarize_reflexion.py": "e5372f9609a9a11e0abd1d1859e00c06b343b0064556a31b5e47c3944893aadc",
+    "tests/test_multiround_diagnostic.py": "55a2f8b531d23dcfc4b4b13c18e81b4ee0ed8603b4a9c230f8ed35c49c996d66",
+    "tests/test_successor_validation.py": "684bc5c5162e2a71a291853422614d36dd945077df590e59c2b2372e18a369f8"
+  },
+  "reference": {
+    "config": "ridge0.01_scale1.5",
+    "prediction_file": "seven-parameter-development-predictions-ridge0.01_scale1.5-20261027.json",
+    "prediction_sha256": "f8547a0ed7abb3cbedfdc0cb6fa53aaa1af111276179945f626449c64924623e"
+  },
+  "reference_scores": {
+    "groups": {
+      "initial_C_N": {
+        "attempts": 580,
+        "expected_successes": 292.61759761517436,
+        "observed_successes": 313,
+        "reached_weight": 0.213860544217687,
+        "risk_per_planned_horizon": 0.05421019417402516,
+        "scene_contributions": {
+          "FloorPlan1": 0.06363258677850464,
+          "FloorPlan11": 0.062299599692626405,
+          "FloorPlan12": 0.05002813293863574,
+          "FloorPlan13": 0.05145646795645324,
+          "FloorPlan14": 0.06243454203353546,
+          "FloorPlan15": 0.0513908255361029,
+          "FloorPlan16": 0.05160277231859776,
+          "FloorPlan17": 0.04979885904173531,
+          "FloorPlan18": 0.049695518780964947,
+          "FloorPlan19": 0.049655981508630036,
+          "FloorPlan2": 0.06239159601700603,
+          "FloorPlan20": 0.06353113339748784,
+          "FloorPlan21": 0.05012643266747669,
+          "FloorPlan22": 0.049882128661115285,
+          "FloorPlan23": 0.06417023389332963,
+          "FloorPlan24": 0.05131599061390767,
+          "FloorPlan25": 0.05196595951356021,
+          "FloorPlan26": 0.06474964711040747,
+          "FloorPlan27": 0.04871985595834396,
+          "FloorPlan28": 0.0632962521248248,
+          "FloorPlan3": 0.05001721820024799,
+          "FloorPlan30": 0.05006108940177057,
+          "FloorPlan4": 0.03309786011212886,
+          "FloorPlan5": 0.06481682931881945,
+          "FloorPlan6": 0.05037981722511672,
+          "FloorPlan7": 0.053064054373788125,
+          "FloorPlan8": 0.050093857523561276
+        },
+        "weighted_conditional_brier": 0.2534838502928573,
+        "weighted_expected_success_fraction": 0.505391284882463,
+        "weighted_observed_success_fraction": 0.5089665709447039
+      },
+      "initial_error": {
+        "attempts": 180,
+        "expected_successes": 8.36950041810344,
+        "observed_successes": 6,
+        "reached_weight": 0.03613945578231293,
+        "risk_per_planned_horizon": 0.001333029000146561,
+        "scene_contributions": {
+          "FloorPlan1": 0.0,
+          "FloorPlan11": 0.0,
+          "FloorPlan12": 0.00012770060352883616,
+          "FloorPlan13": 0.00011509227289820264,
+          "FloorPlan14": 0.0,
+          "FloorPlan15": 0.009521510729999606,
+          "FloorPlan16": 0.00012803237004024325,
+          "FloorPlan17": 0.00013032770210801432,
+          "FloorPlan18": 0.00013096927106781176,
+          "FloorPlan19": 0.004816658042575516,
+          "FloorPlan2": 0.0,
+          "FloorPlan20": 0.0,
+          "FloorPlan21": 0.0001238478308190811,
+          "FloorPlan22": 0.00013078654729190868,
+          "FloorPlan23": 0.0,
+          "FloorPlan24": 0.008405749961983653,
+          "FloorPlan25": 0.0001273170207179164,
+          "FloorPlan26": 0.0,
+          "FloorPlan27": 0.00015217854978082155,
+          "FloorPlan28": 0.0,
+          "FloorPlan3": 0.0001259242189256144,
+          "FloorPlan30": 0.00013293418649598784,
+          "FloorPlan4": 0.011448120707886382,
+          "FloorPlan5": 0.0,
+          "FloorPlan6": 0.00012810499188037062,
+          "FloorPlan7": 0.00011107011939939107,
+          "FloorPlan8": 0.0001354578765577839
+        },
+        "weighted_conditional_brier": 0.036885696568761304,
+        "weighted_expected_success_fraction": 0.04620344639227775,
+        "weighted_observed_success_fraction": 0.03703703703703703
+      },
+      "late_error": {
+        "attempts": 256,
+        "expected_successes": 22.383105714272443,
+        "observed_successes": 27,
+        "reached_weight": 0.10706569664902998,
+        "risk_per_planned_horizon": 0.009879100368663565,
+        "scene_contributions": {
+          "FloorPlan1": 0.023765753753202206,
+          "FloorPlan11": 0.028249983590008253,
+          "FloorPlan12": 0.01480786893481979,
+          "FloorPlan13": 0.0007914020076254678,
+          "FloorPlan14": 0.0,
+          "FloorPlan15": 0.00017036211914804329,
+          "FloorPlan16": 0.0,
+          "FloorPlan17": 0.0004055564633695723,
+          "FloorPlan18": 0.008263738858445247,
+          "FloorPlan19": 0.014892508813729811,
+          "FloorPlan2": 0.011570881211816004,
+          "FloorPlan20": 0.032883406520348525,
+          "FloorPlan21": 0.007074044564879614,
+          "FloorPlan22": 0.0010433182256338095,
+          "FloorPlan23": 0.0016015474524524844,
+          "FloorPlan24": 0.00688770852015087,
+          "FloorPlan25": 0.008417103483422474,
+          "FloorPlan26": 0.002147030345253127,
+          "FloorPlan27": 0.018767800419285743,
+          "FloorPlan28": 0.008850357329126082,
+          "FloorPlan3": 7.221184122995758e-05,
+          "FloorPlan30": 0.016388514473402754,
+          "FloorPlan4": 0.000557091166770161,
+          "FloorPlan5": 0.04282412484322793,
+          "FloorPlan6": 0.0008021024258979614,
+          "FloorPlan7": 0.0002975604457019403,
+          "FloorPlan8": 0.015203732144968373
+        },
+        "weighted_conditional_brier": 0.0922713873617995,
+        "weighted_expected_success_fraction": 0.08704196246569919,
+        "weighted_observed_success_fraction": 0.1015391743024812
+      },
+      "late_no_error": {
+        "attempts": 96,
+        "expected_successes": 21.29160350355687,
+        "observed_successes": 15,
+        "reached_weight": 0.0445188492063492,
+        "risk_per_planned_horizon": 0.006071562679165917,
+        "scene_contributions": {
+          "FloorPlan1": 0.018981741124085627,
+          "FloorPlan11": 0.0,
+          "FloorPlan12": 0.0025326779350303467,
+          "FloorPlan13": 0.0007306317178284718,
+          "FloorPlan14": 0.02385379403084237,
+          "FloorPlan15": 0.0009451896410960274,
+          "FloorPlan16": 0.0,
+          "FloorPlan17": 0.0015354342380336787,
+          "FloorPlan18": 0.0009046355492699825,
+          "FloorPlan19": 0.011755445603799323,
+          "FloorPlan2": 0.007489255027935515,
+          "FloorPlan20": 0.005507418286652117,
+          "FloorPlan21": 0.0008920726810760164,
+          "FloorPlan22": 0.0,
+          "FloorPlan23": 0.001966168597504658,
+          "FloorPlan24": 0.007030228293742071,
+          "FloorPlan25": 0.0009577984027463111,
+          "FloorPlan26": 0.01294083424263936,
+          "FloorPlan27": 0.0027286429677221232,
+          "FloorPlan28": 0.018609726067961452,
+          "FloorPlan3": 0.006622196503228469,
+          "FloorPlan30": 0.005839637497778759,
+          "FloorPlan4": 0.0,
+          "FloorPlan5": 0.011795181965542363,
+          "FloorPlan6": 0.0113616419666777,
+          "FloorPlan7": 0.0,
+          "FloorPlan8": 0.008951839996287021
+        },
+        "weighted_conditional_brier": 0.13638184246460713,
+        "weighted_expected_success_fraction": 0.22288503447292915,
+        "weighted_observed_success_fraction": 0.144661095636026
+      },
+      "second_attempt": {
+        "attempts": 441,
+        "expected_successes": 101.74365773943764,
+        "observed_successes": 59,
+        "reached_weight": 0.13981363378684805,
+        "risk_per_planned_horizon": 0.01917005561241193,
+        "scene_contributions": {
+          "FloorPlan1": 0.01907570218983983,
+          "FloorPlan11": 0.002437488337353393,
+          "FloorPlan12": 0.021605944949038447,
+          "FloorPlan13": 0.012289868705866952,
+          "FloorPlan14": 0.022659925430318712,
+          "FloorPlan15": 0.010233262083004289,
+          "FloorPlan16": 0.012075610514830764,
+          "FloorPlan17": 0.014320846857199254,
+          "FloorPlan18": 0.00735040961620944,
+          "FloorPlan19": 0.023096777872087318,
+          "FloorPlan2": 0.017895585232539514,
+          "FloorPlan20": 0.019999953044366945,
+          "FloorPlan21": 0.011270051239491066,
+          "FloorPlan22": 0.007250718723687482,
+          "FloorPlan23": 0.041173458806026415,
+          "FloorPlan24": 0.01449308733220268,
+          "FloorPlan25": 0.032824339868360246,
+          "FloorPlan26": 0.02011060898409607,
+          "FloorPlan27": 0.0350347788086405,
+          "FloorPlan28": 0.03223876464804869,
+          "FloorPlan3": 0.026892513866180967,
+          "FloorPlan30": 0.019490887470439783,
+          "FloorPlan4": 0.027077704479980966,
+          "FloorPlan5": 0.030230673617312954,
+          "FloorPlan6": 0.013754506960649442,
+          "FloorPlan7": 0.009170995032868924,
+          "FloorPlan8": 0.013537036864481095
+        },
+        "weighted_conditional_brier": 0.13711148972522602,
+        "weighted_expected_success_fraction": 0.23838870176380794,
+        "weighted_observed_success_fraction": 0.1449842178916456
+      }
+    },
+    "primary": {
+      "attempts": 1553,
+      "expected_successes": 446.4054649905432,
+      "observed_successes": 420,
+      "reached_weight": 0.5413981796422275,
+      "risk_per_planned_horizon": 0.09066394183441315,
+      "scene_contributions": {
+        "FloorPlan1": 0.12545578384563238,
+        "FloorPlan11": 0.09298707161998804,
+        "FloorPlan12": 0.08910232536105316,
+        "FloorPlan13": 0.06538346266067231,
+        "FloorPlan14": 0.10894826149469655,
+        "FloorPlan15": 0.07226115010935089,
+        "FloorPlan16": 0.06380641520346875,
+        "FloorPlan17": 0.06619102430244582,
+        "FloorPlan18": 0.06634527207595746,
+        "FloorPlan19": 0.10421737184082196,
+        "FloorPlan2": 0.09934731748929705,
+        "FloorPlan20": 0.1219219112488554,
+        "FloorPlan21": 0.06948644898374241,
+        "FloorPlan22": 0.0583069521577285,
+        "FloorPlan23": 0.1089114087493132,
+        "FloorPlan24": 0.08813276472198694,
+        "FloorPlan25": 0.09429251828880714,
+        "FloorPlan26": 0.09994812068239603,
+        "FloorPlan27": 0.10540325670377317,
+        "FloorPlan28": 0.1229951001699611,
+        "FloorPlan3": 0.08373006462981294,
+        "FloorPlan30": 0.09191306302988782,
+        "FloorPlan4": 0.07218077646676639,
+        "FloorPlan5": 0.14966680974490273,
+        "FloorPlan6": 0.0764261735702222,
+        "FloorPlan7": 0.06264367997175838,
+        "FloorPlan8": 0.08792192440585563
+      },
+      "weighted_conditional_brier": 0.16746259083162537,
+      "weighted_expected_success_fraction": 0.29982518038657074,
+      "weighted_observed_success_fraction": 0.27293893856917867
+    }
+  },
+  "scenes": 27,
+  "scope": "Seven-feature development with predictable reached-attempt weights",
+  "selection": "Lower primary risk among two candidates is retained for development only if reference-minus-candidate scene mean > paired scene SE, initial_C_N and late_error conditional weighted Brier do not increase, and three full starts agree within1e-5. Otherwise retain marginal MLE. Do not select the other candidate after guard failure. No promotion over historical frozen baseline.",
+  "sha256": "895bfc86bee2dac862badc66fd426480e46aca1c31aea27fc93af561ae8567e6",
+  "successes": 420,
+  "tasks": 163,
+  "trajectories": 760,
+  "weighting": "v_b=1/(numberScenes * tasksInScene * preplannedBranchesInTask); row alpha=v_b/4 if reached, zero if stopped; data scale=4*preplannedTrajectoryCount"
+}
