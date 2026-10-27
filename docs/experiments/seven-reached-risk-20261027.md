@@ -79,3 +79,8 @@
 ## 6. 证据
 
 [运行源码](../../scripts/compare_seven_reached_risk.py)、[独立复算](../../scripts/analyze_seven_reached_risk.py)、[拟合前协议](../../repro/reflexion-20261025/seven-reached-risk-protocol-20261027.json)、[完整结果与逐条预测索引](../../repro/reflexion-20261025/seven-reached-risk-results-20261027.json)、[分组／历史参数／六设置复算](../../repro/reflexion-20261025/seven-reached-risk-audit-20261027.json)、[CPU关闭记录](../../repro/reflexion-20261025/seven-reached-risk-closeout-20261027.json)。本轮固定60次拟合已全部完成，未追加其他优化或GPU采样。
+
+
+## 后续进展
+
+已完成[七维兼容性、剖面与条件校准分析](seven-compatibility-20261027.md)。五组经验均值可同时表达，但严格约束校准损害逐条预测和场景留出表现。重采样中第二轮高估最稳定，后续优先核查该阶段的内容和状态压缩。
