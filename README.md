@@ -2,11 +2,11 @@
 
 [论文中文内容初稿](paper/manuscript.md)已形成，包含研究定位、过程模型、有限窗口命题与已完成实验。[写作入口](paper/README.md)对应各项证据来源；已加入四次预算的完整结果及首轮／后续误差诊断。
 
-[七维模型的完整诊断](docs/experiments/successor-complete-diagnostic-20261027.md)已补齐剩余75任务，合并覆盖全部100个主要任务、400轨迹、873尝试、473次相关反思写入。给定实际记忆，第3／4轮预计成功14.39／7.64次、实际22／14次；晚轮含错组实际23次、预计7.62次，不含错组实际13次、预计14.41次。统一抬高概率的诊断对照虽改善总数，Brier却变差。下一步检查现有七维系数与任务权重更新，不扩维；零模型调用、零参数拟合。
+[七维内的参数审计与开发比较](docs/experiments/seven-parameter-development-20261027.md)已完成：保留七项输入，合并1553次既有尝试，按27场景比较六种设定，共180次CPU拟合。原优化检查通过；重估后的第3／4轮预计成功由14.39／7.64变为22.93／13.27次，实际22／14次，但第二轮高估，复用任务的整体单次Brier由0.219750变为0.226719。新系数未替换原冻结参数；λ=0.01与任务尺度1.5继续保留。下一步检验拟合目标与逐轮预测评分是否匹配，不增加变量。累计200,396次请求／响应，本轮零新增模型调用，原134任务继续封存。
 
 [原新任务冻结验证](docs/experiments/successor-validation-20261026.md)完整100任务、25场景、550轨迹、1423尝试的结果保留：主要Brier完整更新0.208008、固定起点0.239921，改善0.031913、场景t95%区间[−0.002122,0.065947]。55,261请求全部响应，预算关闭，原134任务封存。
 
-[680次尝试的开发校准](docs/experiments/successor-development-calibration-20261026.md)按原简约规则选择七维候选；本轮独立新任务预算比较见上方。[后继状态诊断](docs/experiments/successor-support-diagnostic-20261026.md)及[校准覆盖命题](docs/research/calibration_support_and_multistep_prediction.md)给出了此前修订依据。当前重点是解释后续条件成功率偏差，不根据本批结果重新选择模型或追加采样。
+[680次尝试的开发校准](docs/experiments/successor-development-calibration-20261026.md)按原简约规则选择七维候选；随后完成了上方原新任务冻结验证。[后继状态诊断](docs/experiments/successor-support-diagnostic-20261026.md)及[校准覆盖命题](docs/research/calibration_support_and_multistep_prediction.md)给出了此前修订依据。验证记录现已用于参数开发，原冻结结果保留，修订候选仍需新的冻结验证。
 
 [成功侧与正则化诊断](docs/experiments/success-regularization-diagnostic-20261026.md)已完成：原优化器检查通过；在原36任务的整场景开发留出中，较弱正则化使单次Brier从0.12202降到0.11718，但C/N首轮仍低估。完全去除正则化会使稀少A状态的系数发散。λ=0.01保留为开发候选，随后已完成上方后继状态检查；原冻结参数和四次主要结果不变。
 
