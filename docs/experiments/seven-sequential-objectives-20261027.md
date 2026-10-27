@@ -92,3 +92,8 @@ R_{\rm reached}(\beta)=\frac1H\sum_bv_b\sum_{j=1}^{H}
 ## 6. 证据
 
 [运行源码](../../scripts/compare_seven_sequential_objectives.py)、[独立复算与权重诊断](../../scripts/analyze_seven_sequential_objectives.py)、[拟合前协议](../../repro/reflexion-20261025/seven-sequential-objectives-protocol-20261027.json)、[完整结果及两组逐条预测索引](../../repro/reflexion-20261025/seven-sequential-objectives-results-20261027.json)、[独立复算](../../repro/reflexion-20261025/seven-sequential-objectives-audit-20261027.json)、[CPU关闭记录](../../repro/reflexion-20261025/seven-sequential-objectives-closeout-20261027.json)。复算覆盖三组共4659条概率，两组新预测还按每条轨迹逐次重新计算。累计请求／响应仍为200,396，本轮Agent调用为零。
+
+
+## 后续进展
+
+已完成[固定起点权重后的七维比较](seven-reached-risk-20261027.md)。首轮权重偏差得到修正，但两个逐轮估计目标仍未同时改善初始C/N和晚轮含错组。后续进入现有七维参数的可兼容性与不确定性检查。
