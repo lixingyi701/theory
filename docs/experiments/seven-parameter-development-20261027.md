@@ -84,3 +84,8 @@
 独立脚本重算六配置、9318条场景留出概率的聚合和选择结果；所有27折训练矩阵秩均为7。34个保护文件、原冻结参数与结果未变化，请求／响应累计仍为200,396。未混入未知终止反思类别，原始语义标签及其不确定项保持原记录。
 
 证据：[运行源码](../../scripts/develop_seven_parameterization.py)、[独立复算](../../scripts/analyze_seven_parameter_development.py)、[冻结协议](../../repro/reflexion-20261025/seven-parameter-development-protocol-20261027.json)、[六配置结果与概率文件索引](../../repro/reflexion-20261025/seven-parameter-development-results-20261027.json)、[独立审计与同任务比较](../../repro/reflexion-20261025/seven-parameter-development-audit-20261027.json)、[未提升为基线的开发候选](../../repro/reflexion-20261025/seven-parameter-development-candidate-20261027.json)、[CPU阶段关闭记录](../../repro/reflexion-20261025/seven-parameter-development-closeout-20261027.json)。
+
+
+## 后续进展
+
+已完成[逐轮目标比较与轨迹长度权重诊断](seven-sequential-objectives-20261027.md)。两种新增拟合均未通过初始C/N和晚轮含错条件。进一步推导发现，按实际轨迹长度平均会使评分权重依赖当前及后续结果；下一步先修订这项开发评分，再检查七维参数。原冻结预算评价不使用这一长度权重。
