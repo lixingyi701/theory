@@ -79,3 +79,5 @@
 证据：[评分](../../repro/reflexion-20261025/successor-validation-metrics-20261026.json)、[550条观测](../../repro/reflexion-20261025/successor-validation-observed-20261026.json)、[误差分析与截断](../../repro/reflexion-20261025/successor-validation-analysis-20261027.json)、[完整性与四份事件索引](../../repro/reflexion-20261025/successor-validation-collection-integrity-20261027.json)、[预算关闭](../../repro/reflexion-20261025/successor-validation-closeout-20261027.json)、[协议审计](../../repro/reflexion-20261025/successor-validation-protocol-audit-20261027.json)、[动作形式汇总](../../repro/reflexion-20261025/successor-validation-action-shapes-20261027.json)。完整冻结评分输出及逐请求记录保留服务器，公开投影绑定其摘要。
 
 启动工件保留：[执行协议](../../repro/reflexion-20261025/successor-validation-protocol-20261026.json)、[200次重置](../../repro/reflexion-20261025/successor-reset-checks-20261026.json)、[离线检查](../../repro/reflexion-20261025/successor-execution-checks-20261026.json)、[运行中快照](../../repro/reflexion-20261025/successor-validation-started-20261026.json)。
+
+后续更新：[首批晚轮诊断与六维／七维／八维说明](successor-late-diagnostic-20261027.md)已完成。该固定子集与其余任务表现不同，新的条件分解见该报告；本页冻结主要结果保持原判定。

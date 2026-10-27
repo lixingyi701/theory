@@ -1,0 +1,583 @@
+{
+  "aggregation": "Descriptive sums over reached attempts; different from full400 scene-equal budget scores. Survivor groups differ. Actual-type substitution and prior reset are postcollection diagnostics, not prospective scores or causal interventions.",
+  "all_primary_success_by_previous_pickup": {
+    "trial2_previous_pickupFalse": {
+      "attempts": 31,
+      "successes": 6
+    },
+    "trial2_previous_pickupTrue": {
+      "attempts": 158,
+      "successes": 30
+    },
+    "trial3_previous_pickupFalse": {
+      "attempts": 25,
+      "successes": 2
+    },
+    "trial3_previous_pickupTrue": {
+      "attempts": 128,
+      "successes": 20
+    },
+    "trial4_previous_pickupFalse": {
+      "attempts": 20,
+      "successes": 3
+    },
+    "trial4_previous_pickupTrue": {
+      "attempts": 111,
+      "successes": 11
+    }
+  },
+  "all_writes": {
+    "models": {
+      "full_seven": {
+        "actual_type_next_successes": 16.717142854479523,
+        "conditional_success_residual": -1.7171428544795226,
+        "expected_type_counts": {
+          "A": 8.616761625477086,
+          "B": 8.363467346716199,
+          "C": 9.197014463981791,
+          "E": 78.64466765576206,
+          "U": 42.17808890806284
+        },
+        "integrated_next_successes": 16.598665448607328,
+        "total_next_success_residual": -1.5986654486073277,
+        "type_substitution_term": 0.11847740587219491
+      },
+      "full_six": {
+        "actual_type_next_successes": 19.750047136504726,
+        "conditional_success_residual": -4.750047136504726,
+        "expected_type_counts": {
+          "A": 8.616761625477086,
+          "B": 8.363467346716199,
+          "C": 9.197014463981791,
+          "E": 78.64466765576206,
+          "U": 42.17808890806284
+        },
+        "integrated_next_successes": 19.24058300305692,
+        "total_next_success_residual": -4.240583003056919,
+        "type_substitution_term": 0.5094641334478069
+      }
+    },
+    "next_observed_successes": 15,
+    "observed_types": {
+      "A": 8,
+      "B": 19,
+      "C": 5,
+      "E": 73,
+      "U": 42
+    },
+    "writes": 147
+  },
+  "annotated_success_by_error_and_previous_pickup": {
+    "errorFalse_previous_pickupFalse": {
+      "attempts": 21,
+      "successes": 1
+    },
+    "errorFalse_previous_pickupTrue": {
+      "attempts": 25,
+      "successes": 2
+    },
+    "errorTrue_previous_pickupFalse": {
+      "attempts": 2,
+      "successes": 0
+    },
+    "errorTrue_previous_pickupTrue": {
+      "attempts": 99,
+      "successes": 12
+    }
+  },
+  "attempts": 247,
+  "cumulative_success_counts": [
+    44,
+    52,
+    57,
+    59
+  ],
+  "fixed_panel_vs_remaining_primary": [
+    {
+      "group": "annotated25",
+      "raw_cumulative_success_counts": [
+        44,
+        52,
+        57,
+        59
+      ],
+      "tasks": 25,
+      "trajectories": 100
+    },
+    {
+      "group": "remaining75",
+      "raw_cumulative_success_counts": [
+        167,
+        195,
+        212,
+        224
+      ],
+      "tasks": 75,
+      "trajectories": 300
+    }
+  ],
+  "frozen_files_unchanged": {
+    "configs/qwen3_8b_non_thinking_wrapper.json": "ae1849a57bdf8f7454fadc3af7593133216bdd2023fb6e42649ce331fdc02b6a",
+    "configs/reflexion_qwen3_8b_protocol.json": "0a1b83abc85ba7c7bd5738e7a8ad64c82f43d5ff8158c36bf25dc0d678cf58f1",
+    "docs/experiments/successor-validation-design-20261026.md": "7e8668acd6287faa59c41628b7e92db237d7d3502c7e7eaf8bab39b7c132055b",
+    "repro/baseline-20261019/holdout134.json": "5755a0305d6ef9cff30d3cbe78146d55a45498124790c2f4f664042d09df2016",
+    "repro/reflexion-20261025/shared-validation-protocol.json": "5c50631382ac2ae8db6a482a9fa3beb84ddbee4affbfb4457857578df1056768",
+    "repro/reflexion-20261025/successor-development-parameters-20261026.json": "50ba93dd3cff0d3778cf18ba7ff57c0ef87247dfa1958df497110c646f71496a",
+    "repro/reflexion-20261025/successor-reset-checks-20261026.json": "e21423be695eebbc57d1f6eea6489126e4baa31a3be78558230d9655cd77eae3",
+    "repro/reflexion-20261025/successor-validation-expanded-manifest-20261026.json": "6f6973393959a0c3ae01f3a3f0295ba57c2e0c1aa360b88f9f969754af587a89",
+    "repro/reflexion-20261025/successor-validation-expanded-plan-20261026.json": "837c2f4c5cf8ac2a526700c44b049f7e48d00b9dd2e5e34aff9710e79a5707cc",
+    "scripts/audit_reflexion_action_shapes.py": "7b026efea040a1651f43a6f70b9bf98501c08ef290b53de87c236091f6a499a6",
+    "scripts/audit_reflexion_protocol.py": "265f2fbaf841e6937ed51a0211ee0fe998ed022b31ac378d58be7284722e6ffe",
+    "scripts/calibrate_successor_success.py": "f3d0aa06f7f80b4ba5ee9667383da866603369c4e3edf58d2e4354d67f1b7c8b",
+    "scripts/continue_reflexion_pilot.py": "126949ac4e32a66819965717cc074711b7e3a8ad58be5d6598ec77d698fd7ab7",
+    "scripts/deployment/serve_reflexion_profiles.py": "fa6da89576a4b49636febd0d61ad51dcd7274c41ad2a7182a0412440710e4cf1",
+    "scripts/diagnose_success_regularization.py": "e86b02c3d42911ee45ee3543fa2c6a5bc0c0c4b5e37e9715b9d4f4a271e79db7",
+    "scripts/evaluate_successor_validation.py": "bb33e296d67f58076196db5fb2262531bb0fff4fae1665c24b60b6b5397ced49",
+    "scripts/finish_successor_validation.py": "2ca5b8f14fb348b0b49b7f0b99b5e27aa3dce129c688ecad44b8fa93455eeb43",
+    "scripts/prepare_shared_calibration.py": "1de6e45de17cbdb91697803c7d1c738ec1ac305dcb4f0e08077907c7bfa3382d",
+    "scripts/prepare_successor_protocol.py": "1d51e4180c3b483a9c9f738a2cda74183c21ddc9647c28183a18d4f386e721ae",
+    "scripts/run_middle_context_transport.py": "14014ff157e9ebc3badbae4f9b5946628c7f0c214ba6faeba306839642578012",
+    "scripts/run_multiround_diagnostic.py": "4781d83c25dd7f35238e637e2b5eaf2d68483cc6619ffd90a4b9dbeeb97c8bdf",
+    "scripts/run_residual_context.py": "d86170864560be62f39ca80c768fa9b8a6b7b4fe7691c8fdb6fa223fc4b3f673",
+    "scripts/run_shared_calibration.py": "70a973fd27b8a4d8bde939cf4dd132ae6519ec7243eeb43bafb65ca6ee515e5b",
+    "scripts/run_successor_campaign.sh": "eb776be703c1d2281a153c27c0ec0289d44f292d8a6f563a4d2d78f069185a35",
+    "scripts/run_successor_validation.py": "193811740dbc238972e26da2ee48b1f7d4dfe697bea18b35adb95b6fc5e86112",
+    "scripts/shared_recovery_model.py": "d5fe54281f948d4675de08057d0cd4c7789fe580535dcce0682f3a245acaae71",
+    "scripts/summarize_reflexion.py": "e5372f9609a9a11e0abd1d1859e00c06b343b0064556a31b5e47c3944893aadc",
+    "tests/test_multiround_diagnostic.py": "55a2f8b531d23dcfc4b4b13c18e81b4ee0ed8603b4a9c230f8ed35c49c996d66",
+    "tests/test_successor_validation.py": "684bc5c5162e2a71a291853422614d36dd945077df590e59c2b2372e18a369f8"
+  },
+  "frozen_result_sha256": "83605a0947132fb9a79649c924dfa58f33d7ea2bf87923b0de93e782421da224",
+  "full_analysis_file_sha256": "837221f20785132d8c85766c8793f3d4a97f38031bbfa2017c7e8cfb489ff03c",
+  "full_analysis_sha256": "5b973e790585c72fe1db7c76945438bab0c6ae362c1dc3733068ba31c3602820",
+  "history_candidate_definition": "Previous failed attempt contained a successful target pickup, matched by take command and public You pick up feedback; unavailable at trial1. It describes past feedback, not current environment state.",
+  "history_candidate_scope": "Postcollection association only. Target type from task identifier, no hidden location/status facts. No eighth-feature model fit or prospective validation.",
+  "holdout134_model_calls": 0,
+  "labels_sha256": "f88bb99a31de4b482feba3e56e2ff0f2fb4f26b3423cce44aecf2981042bb32d",
+  "manifest_sha256": "702d1950723fbd3590193ddf96aaa861fc0c1ebdd03308b90cf84d35bba8691f",
+  "new_model_calls": 0,
+  "parameter_refits": 0,
+  "primary_original_two_sided_t": {
+    "df": 24,
+    "method": "Numerical Simpson integration of Student t density; interpretation remains original t95 rule",
+    "standard_error": 0.016490422785216157,
+    "statistic": 1.935239532719251,
+    "two_sided_p": 0.06482927753585144
+  },
+  "projection": "Aggregate diagnosis; complete bound output remains server-local",
+  "protocol_sha256": "92b9fbcf2f3a6c055c3d3de94967211415384e970e760f1d795276f87bbdb678",
+  "scenes": 25,
+  "scope": "Postcollection, frozen-parameter conditional-state and one-update diagnosis on fixed25-task C/N panel",
+  "seven_feature_alias_examples": {
+    "B": [
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "C": [
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "E": [
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "U": [
+      1.0,
+      1.0,
+      0.3333333333333333,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "sha256": "f37f6a6a6caa3a4fb4fca5d120b6de516d8b1c1c5ab63e85aa1cd286ca771dc1",
+  "source_sha256": "e595f6153d8b86a46e4a38ec80725206c7001f307cc7c46e12e795f64ab31dfc",
+  "success_by_trial": {
+    "1": {
+      "attempts": 100,
+      "expected_successes": {
+        "full_seven": 52.412857812286305,
+        "full_six": 51.251121972916295
+      },
+      "observed_successes": 44,
+      "reset_prior_expected": {
+        "full_seven": 52.412857812286305,
+        "full_six": 51.251121972916295
+      }
+    },
+    "2": {
+      "attempts": 56,
+      "expected_successes": {
+        "full_seven": 10.070318048874116,
+        "full_six": 10.58175977967035
+      },
+      "observed_successes": 8,
+      "reset_prior_expected": {
+        "full_seven": 12.544805667472241,
+        "full_six": 12.861306233323754
+      }
+    },
+    "3": {
+      "attempts": 48,
+      "expected_successes": {
+        "full_seven": 4.207464705711725,
+        "full_six": 5.272230518789248
+      },
+      "observed_successes": 5,
+      "reset_prior_expected": {
+        "full_seven": 6.131683681043907,
+        "full_six": 7.355652820327188
+      }
+    },
+    "4": {
+      "attempts": 43,
+      "expected_successes": {
+        "full_seven": 2.4393600998936806,
+        "full_six": 3.89605683804514
+      },
+      "observed_successes": 2,
+      "reset_prior_expected": {
+        "full_seven": 3.9936133397069726,
+        "full_six": 6.057676364945174
+      }
+    }
+  },
+  "success_by_trial_error_correct": {
+    "trial2_errorFalse_correctFalse": {
+      "attempts": 12,
+      "expected_successes": {
+        "full_seven": 4.010152660928094,
+        "full_six": 4.596672721522591
+      },
+      "observed_successes": 2,
+      "reset_prior_expected": {
+        "full_seven": 4.7947707986214905,
+        "full_six": 5.378554713375427
+      }
+    },
+    "trial2_errorFalse_correctTrue": {
+      "attempts": 11,
+      "expected_successes": {
+        "full_seven": 3.35059019502016,
+        "full_six": 3.836818557564054
+      },
+      "observed_successes": 1,
+      "reset_prior_expected": {
+        "full_seven": 4.020441118909928,
+        "full_six": 4.505886387374456
+      }
+    },
+    "trial2_errorTrue_correctFalse": {
+      "attempts": 15,
+      "expected_successes": {
+        "full_seven": 1.231625087693577,
+        "full_six": 0.9764856820835032
+      },
+      "observed_successes": 2,
+      "reset_prior_expected": {
+        "full_seven": 1.695269886336739,
+        "full_six": 1.3531205148062997
+      }
+    },
+    "trial2_errorTrue_correctTrue": {
+      "attempts": 18,
+      "expected_successes": {
+        "full_seven": 1.4779501052322925,
+        "full_six": 1.1717828185002037
+      },
+      "observed_successes": 3,
+      "reset_prior_expected": {
+        "full_seven": 2.034323863604087,
+        "full_six": 1.6237446177675594
+      }
+    },
+    "trial3_errorFalse_correctFalse": {
+      "attempts": 11,
+      "expected_successes": {
+        "full_seven": 2.3923570427512084,
+        "full_six": 3.348681581304377
+      },
+      "observed_successes": 0,
+      "reset_prior_expected": {
+        "full_seven": 3.380990838813712,
+        "full_six": 4.500813070944727
+      }
+    },
+    "trial3_errorFalse_correctTrue": {
+      "attempts": 1,
+      "expected_successes": {
+        "full_seven": 0.23886534447961708,
+        "full_six": 0.33439968292061434
+      },
+      "observed_successes": 0,
+      "reset_prior_expected": {
+        "full_seven": 0.3375285573018767,
+        "full_six": 0.4493626115288844
+      }
+    },
+    "trial3_errorTrue_correctFalse": {
+      "attempts": 28,
+      "expected_successes": {
+        "full_seven": 1.1830277558018163,
+        "full_six": 1.190757018107369
+      },
+      "observed_successes": 4,
+      "reset_prior_expected": {
+        "full_seven": 1.8167006234839407,
+        "full_six": 1.809422455296523
+      }
+    },
+    "trial3_errorTrue_correctTrue": {
+      "attempts": 8,
+      "expected_successes": {
+        "full_seven": 0.39321456267908705,
+        "full_six": 0.3983922364568843
+      },
+      "observed_successes": 1,
+      "reset_prior_expected": {
+        "full_seven": 0.5964636614443775,
+        "full_six": 0.5960546825570535
+      }
+    },
+    "trial4_errorFalse_correctFalse": {
+      "attempts": 11,
+      "expected_successes": {
+        "full_seven": 1.56143042030299,
+        "full_six": 2.717173064535066
+      },
+      "observed_successes": 0,
+      "reset_prior_expected": {
+        "full_seven": 2.567819658360126,
+        "full_six": 4.182977581107287
+      }
+    },
+    "trial4_errorTrue_correctFalse": {
+      "attempts": 21,
+      "expected_successes": {
+        "full_seven": 0.5532268531953308,
+        "full_six": 0.7356353175619238
+      },
+      "observed_successes": 2,
+      "reset_prior_expected": {
+        "full_seven": 0.8974798347096553,
+        "full_six": 1.1680520723680676
+      }
+    },
+    "trial4_errorTrue_correctTrue": {
+      "attempts": 11,
+      "expected_successes": {
+        "full_seven": 0.32470282639536074,
+        "full_six": 0.443248455948149
+      },
+      "observed_successes": 0,
+      "reset_prior_expected": {
+        "full_seven": 0.528313846637193,
+        "full_six": 0.7066467114698145
+      }
+    }
+  },
+  "tasks": 25,
+  "trajectories": 100,
+  "uncertain_label_sensitivity": [
+    {
+      "expected_successes_by_trial": {
+        "full_seven": {
+          "1": 52.412857812286305,
+          "2": 10.140077328673849,
+          "3": 4.447141152713579,
+          "4": 2.59321040857025
+        },
+        "full_six": {
+          "1": 51.251121972916295,
+          "2": 10.584376230048296,
+          "3": 5.526204271260271,
+          "4": 4.111228279187545
+        }
+      },
+      "map_uncertain_A_to": "E"
+    },
+    {
+      "expected_successes_by_trial": {
+        "full_seven": {
+          "1": 52.412857812286305,
+          "2": 10.971378878866524,
+          "3": 4.585012635700143,
+          "4": 2.696262294997279
+        },
+        "full_six": {
+          "1": 51.251121972916295,
+          "2": 11.625200682588778,
+          "3": 5.73088294260252,
+          "4": 4.298889442407536
+        }
+      },
+      "map_uncertain_A_to": "U"
+    },
+    {
+      "expected_successes_by_trial": {
+        "full_seven": {
+          "1": 52.412857812286305,
+          "2": 10.971378878866524,
+          "3": 4.585012635700143,
+          "4": 2.696262294997279
+        },
+        "full_six": {
+          "1": 51.251121972916295,
+          "2": 11.625200682588778,
+          "3": 5.73088294260252,
+          "4": 4.298889442407536
+        }
+      },
+      "map_uncertain_A_to": "C"
+    }
+  ],
+  "unfitted_eighth_feature_candidate": "I(any C or B in visible memory), distinguishing C/U and B/E; candidate only, no benefit assumed or fitting performed",
+  "write_event_types": {
+    "A": 8,
+    "B": 19,
+    "C": 5,
+    "E": 73,
+    "U": 42
+  },
+  "writes": 147,
+  "writes_by_trial": {
+    "1": {
+      "models": {
+        "full_seven": {
+          "actual_type_next_successes": 10.070318048874116,
+          "conditional_success_residual": -2.0703180488741157,
+          "expected_type_counts": {
+            "A": 3.8710669684301013,
+            "B": 3.5193051261309467,
+            "C": 5.07876690748717,
+            "E": 25.75987862918521,
+            "U": 17.770982368766592
+          },
+          "integrated_next_successes": 10.839730044419193,
+          "total_next_success_residual": -2.839730044419193,
+          "type_substitution_term": -0.7694119955450773
+        },
+        "full_six": {
+          "actual_type_next_successes": 10.58175977967035,
+          "conditional_success_residual": -2.5817597796703495,
+          "expected_type_counts": {
+            "A": 3.8710669684301013,
+            "B": 3.5193051261309467,
+            "C": 5.07876690748717,
+            "E": 25.75987862918521,
+            "U": 17.770982368766592
+          },
+          "integrated_next_successes": 11.56969632194893,
+          "total_next_success_residual": -3.56969632194893,
+          "type_substitution_term": -0.9879365422785806
+        }
+      },
+      "next_observed_successes": 8,
+      "observed_types": {
+        "A": 3,
+        "B": 5,
+        "C": 3,
+        "E": 28,
+        "U": 17
+      },
+      "writes": 56
+    },
+    "2": {
+      "models": {
+        "full_seven": {
+          "actual_type_next_successes": 4.207464705711725,
+          "conditional_success_residual": 0.7925352942882746,
+          "expected_type_counts": {
+            "A": 2.429795121013253,
+            "B": 2.3924550046274673,
+            "C": 2.336891964844881,
+            "E": 29.001509521008273,
+            "U": 11.839348388506115
+          },
+          "integrated_next_successes": 3.8234912760513033,
+          "total_next_success_residual": 1.1765087239486967,
+          "type_substitution_term": 0.383973429660422
+        },
+        "full_six": {
+          "actual_type_next_successes": 5.272230518789248,
+          "conditional_success_residual": -0.2722305187892484,
+          "expected_type_counts": {
+            "A": 2.429795121013253,
+            "B": 2.3924550046274673,
+            "C": 2.336891964844881,
+            "E": 29.001509521008273,
+            "U": 11.839348388506115
+          },
+          "integrated_next_successes": 4.701152471694393,
+          "total_next_success_residual": 0.2988475283056067,
+          "type_substitution_term": 0.5710780470948551
+        }
+      },
+      "next_observed_successes": 5,
+      "observed_types": {
+        "A": 3,
+        "B": 6,
+        "C": 2,
+        "E": 24,
+        "U": 13
+      },
+      "writes": 48
+    },
+    "3": {
+      "models": {
+        "full_seven": {
+          "actual_type_next_successes": 2.4393600998936806,
+          "conditional_success_residual": -0.43936009989368063,
+          "expected_type_counts": {
+            "A": 2.315899536033738,
+            "B": 2.4517072159577955,
+            "C": 1.781355591649734,
+            "E": 23.88327950556851,
+            "U": 12.567758150790198
+          },
+          "integrated_next_successes": 1.9354441281368362,
+          "total_next_success_residual": 0.0645558718631638,
+          "type_substitution_term": 0.5039159717568444
+        },
+        "full_six": {
+          "actual_type_next_successes": 3.89605683804514,
+          "conditional_success_residual": -1.8960568380451401,
+          "expected_type_counts": {
+            "A": 2.3158995360337378,
+            "B": 2.4517072159577955,
+            "C": 1.781355591649734,
+            "E": 23.88327950556851,
+            "U": 12.567758150790198
+          },
+          "integrated_next_successes": 2.969734209413624,
+          "total_next_success_residual": -0.9697342094136241,
+          "type_substitution_term": 0.926322628631516
+        }
+      },
+      "next_observed_successes": 2,
+      "observed_types": {
+        "A": 2,
+        "B": 8,
+        "E": 21,
+        "U": 12
+      },
+      "writes": 43
+    }
+  }
+}
