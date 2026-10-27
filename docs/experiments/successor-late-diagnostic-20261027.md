@@ -91,3 +91,5 @@ $$x_8=\mathbf{1}\{\text{可见窗口中含明确正确说明C或冲突说明B}\}
 后续先补齐其余75个主要任务的同类日志诊断，核对G分布、实际记忆下的p以及任务差异，再决定是否比较正确说明存在性等最小修订。若使用本批记录选择或拟合新模型，相应记录进入开发用途；新模型另做冻结验证。当前没有八维拟合、新GPU采集或原134留出调用。
 
 证据：[分析源码](../../scripts/diagnose_successor_late_trials.py)、[固定阅读清单](../../repro/reflexion-20261025/successor-late-review-manifest-20261027.json)、[144种文本标签与引文](../../repro/reflexion-20261025/successor-late-semantic-labels-20261027.json)、[分解与敏感性汇总](../../repro/reflexion-20261025/successor-late-diagnostic-metrics-20261027.json)、[247条实际状态记录](../../repro/reflexion-20261025/successor-late-diagnostic-attempts-20261027.json)。完整分析绑定服务器原始记录，零模型调用、零参数重新拟合。
+
+后续已完成：[补齐75任务后的七维完整诊断](successor-complete-diagnostic-20261027.md)。本项目当前继续研究七维，不推进第八项拟合；本页第八项讨论保留为历史候选说明。

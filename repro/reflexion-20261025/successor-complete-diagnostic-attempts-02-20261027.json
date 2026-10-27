@@ -1,0 +1,7390 @@
+{
+  "attempt_rows": [
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "dc6743cbd635bb8fa6562fc762a0690c331334c22ccb7e31df27c7b4153b5be4",
+      "scene_id": "FloorPlan19",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": false,
+      "task_id": "69364ec70ae29f24",
+      "trajectory_id": "successor-69364ec70ae29f24-2140-neutral_full",
+      "trial": 1
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": true,
+      "native_count": 1,
+      "posterior_before": {
+        "full_seven": [
+          0.28030606329228497,
+          0.6614262304980087,
+          0.05826770620970625
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.08210833917957178
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.1130179924224493
+      },
+      "result_file_sha256": "dbb72ff1a0d5a642d46259d1cb6aad9ac3195e97d4482d6ef32cca0e37bf9323",
+      "scene_id": "FloorPlan19",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "task_id": "69364ec70ae29f24",
+      "trajectory_id": "successor-69364ec70ae29f24-2140-neutral_full",
+      "trial": 2
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": true,
+      "native_count": 2,
+      "posterior_before": {
+        "full_seven": [
+          0.29890820306344834,
+          0.656851934094705,
+          0.044239862841846535
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.052201352167719345
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.07765486208642083
+      },
+      "result_file_sha256": "8cfb9d93cab3a1efad997517e33e0942b2d7a082d3e7a9130bd8d71cca91ef93",
+      "scene_id": "FloorPlan19",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": true,
+      "task_id": "69364ec70ae29f24",
+      "trajectory_id": "successor-69364ec70ae29f24-2140-neutral_full",
+      "trial": 3
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "de41dc5243ad5442e22102cd17ae7009673f9be25c93fb42fd9ab50ce810bd95",
+      "scene_id": "FloorPlan19",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": true,
+      "task_id": "69364ec70ae29f24",
+      "trajectory_id": "successor-69364ec70ae29f24-2140-correct_middle",
+      "trial": 1
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "231f5109fc78b4e2dc56371f43b73e10824550528fa58ef308797b4670930765",
+      "scene_id": "FloorPlan19",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": false,
+      "task_id": "69364ec70ae29f24",
+      "trajectory_id": "successor-69364ec70ae29f24-2141-correct_middle",
+      "trial": 1
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 1,
+      "posterior_before": {
+        "full_seven": [
+          0.28030606329228497,
+          0.6614262304980087,
+          0.05826770620970625
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.35920885591046375
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.42839234448715796
+      },
+      "result_file_sha256": "b77233c8e0ef2afb1247f9a03226ea9c5db4fb7b2f8eb8ed889aa87f596562bf",
+      "scene_id": "FloorPlan19",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "C"
+        }
+      ],
+      "success": false,
+      "task_id": "69364ec70ae29f24",
+      "trajectory_id": "successor-69364ec70ae29f24-2141-correct_middle",
+      "trial": 2
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 2,
+      "posterior_before": {
+        "full_seven": [
+          0.37713010855256995,
+          0.6012808732044372,
+          0.021589018242992794
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.23886534447961708
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.3375285573018767
+      },
+      "result_file_sha256": "8ea378306c22560f7fc622644adf630436a247da2cc695d862fba89b22ae8281",
+      "scene_id": "FloorPlan19",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "success": false,
+      "task_id": "69364ec70ae29f24",
+      "trajectory_id": "successor-69364ec70ae29f24-2141-correct_middle",
+      "trial": 3
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 3,
+      "posterior_before": {
+        "full_seven": [
+          0.4494174988558354,
+          0.5413095766913427,
+          0.0092729244528219
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.15612088411104627
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.2567475940241912
+      },
+      "result_file_sha256": "8c67e3a6fc8883a47795a8efb0f1d2170cd76adf7b16667c2088484cf383b212",
+      "scene_id": "FloorPlan19",
+      "seed": 2141,
+      "state": [
+        {
+          "native": true,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "U"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "success": true,
+      "task_id": "69364ec70ae29f24",
+      "trajectory_id": "successor-69364ec70ae29f24-2141-correct_middle",
+      "trial": 4
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "2b625fa6d97bf5f7600a4cd7b62ae8177698d44df8937ad25ed05964a1ae648c",
+      "scene_id": "FloorPlan19",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": false,
+      "task_id": "69364ec70ae29f24",
+      "trajectory_id": "successor-69364ec70ae29f24-2141-neutral_full",
+      "trial": 1
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": true,
+      "native_count": 1,
+      "posterior_before": {
+        "full_seven": [
+          0.28030606329228497,
+          0.6614262304980087,
+          0.05826770620970625
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.08210833917957178
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.1130179924224493
+      },
+      "result_file_sha256": "19a0a1f2b817ed977b6eefbfca9a4ee116b7e9d73163dfa8e382f48306c59593",
+      "scene_id": "FloorPlan19",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "task_id": "69364ec70ae29f24",
+      "trajectory_id": "successor-69364ec70ae29f24-2141-neutral_full",
+      "trial": 2
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": true,
+      "native_count": 2,
+      "posterior_before": {
+        "full_seven": [
+          0.29890820306344834,
+          0.656851934094705,
+          0.044239862841846535
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.052201352167719345
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.07765486208642083
+      },
+      "result_file_sha256": "d4b7c6b3c29b0c672c603b99e41cb898d1360aac585af5fac4626fcc13925496",
+      "scene_id": "FloorPlan19",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "task_id": "69364ec70ae29f24",
+      "trajectory_id": "successor-69364ec70ae29f24-2141-neutral_full",
+      "trial": 3
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": true,
+      "native_count": 3,
+      "posterior_before": {
+        "full_seven": [
+          0.31105379786613485,
+          0.6524452315107548,
+          0.03650097062311032
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.033293207336908645
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.05229870879933086
+      },
+      "result_file_sha256": "206928082d97e91c1232d98e62572e3e678f1b4b7876fdebe7d60b283d5c530c",
+      "scene_id": "FloorPlan19",
+      "seed": 2141,
+      "state": [
+        {
+          "native": true,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "task_id": "69364ec70ae29f24",
+      "trajectory_id": "successor-69364ec70ae29f24-2141-neutral_full",
+      "trial": 4
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "f6c16faadc0330c1b4f82f1e914ab977e818d773f51dbd9dcecdc5dca699b8f8",
+      "scene_id": "FloorPlan5",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": false,
+      "task_id": "ef6cc184e1daab84",
+      "trajectory_id": "successor-ef6cc184e1daab84-2140-correct_middle",
+      "trial": 1
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 1,
+      "posterior_before": {
+        "full_seven": [
+          0.28030606329228497,
+          0.6614262304980087,
+          0.05826770620970625
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.35920885591046375
+      },
+      "previous_failed_attempt_had_target_pickup": false,
+      "reset_prior": {
+        "full_seven": 0.42839234448715796
+      },
+      "result_file_sha256": "c2989a2560acba17b6584ed164cfd58310e306da159faf1f9ccb444f487d0c38",
+      "scene_id": "FloorPlan5",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "success": false,
+      "task_id": "ef6cc184e1daab84",
+      "trajectory_id": "successor-ef6cc184e1daab84-2140-correct_middle",
+      "trial": 2
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 2,
+      "posterior_before": {
+        "full_seven": [
+          0.37713010855256995,
+          0.6012808732044372,
+          0.021589018242992794
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.23886534447961708
+      },
+      "previous_failed_attempt_had_target_pickup": false,
+      "reset_prior": {
+        "full_seven": 0.3375285573018767
+      },
+      "result_file_sha256": "85423963195d177fea5a98ff9c789ab7a226a809c43bba63c1ac906c9f3c0682",
+      "scene_id": "FloorPlan5",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "success": false,
+      "task_id": "ef6cc184e1daab84",
+      "trajectory_id": "successor-ef6cc184e1daab84-2140-correct_middle",
+      "trial": 3
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 3,
+      "posterior_before": {
+        "full_seven": [
+          0.4494174988558354,
+          0.5413095766913427,
+          0.0092729244528219
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.15612088411104627
+      },
+      "previous_failed_attempt_had_target_pickup": false,
+      "reset_prior": {
+        "full_seven": 0.2567475940241912
+      },
+      "result_file_sha256": "60e75304dbf859b06a404606e567739729957bb59230638625f3dddd3bd9cf6d",
+      "scene_id": "FloorPlan5",
+      "seed": 2140,
+      "state": [
+        {
+          "native": true,
+          "type": "U"
+        },
+        {
+          "native": true,
+          "type": "U"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "success": false,
+      "task_id": "ef6cc184e1daab84",
+      "trajectory_id": "successor-ef6cc184e1daab84-2140-correct_middle",
+      "trial": 4
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "e9e0dc478709ea2d7d654957b6d4bc235606c2ea3203b67dd3a2726b6320b5a8",
+      "scene_id": "FloorPlan5",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": false,
+      "task_id": "ef6cc184e1daab84",
+      "trajectory_id": "successor-ef6cc184e1daab84-2140-neutral_full",
+      "trial": 1
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 1,
+      "posterior_before": {
+        "full_seven": [
+          0.28030606329228497,
+          0.6614262304980087,
+          0.05826770620970625
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.35920885591046375
+      },
+      "previous_failed_attempt_had_target_pickup": false,
+      "reset_prior": {
+        "full_seven": 0.42839234448715796
+      },
+      "result_file_sha256": "c04046c9649ffb9e475217d25b413a531b4429b519f247bd7441bee15e91ef79",
+      "scene_id": "FloorPlan5",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "success": false,
+      "task_id": "ef6cc184e1daab84",
+      "trajectory_id": "successor-ef6cc184e1daab84-2140-neutral_full",
+      "trial": 2
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": true,
+      "native_count": 2,
+      "posterior_before": {
+        "full_seven": [
+          0.37713010855256995,
+          0.6012808732044372,
+          0.021589018242992794
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.045080028109144715
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.07765486208642083
+      },
+      "result_file_sha256": "da7535b8fca9cada4bdf72fe01fef5d6056160299174e22cf30878fc3e0604cd",
+      "scene_id": "FloorPlan5",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "task_id": "ef6cc184e1daab84",
+      "trajectory_id": "successor-ef6cc184e1daab84-2140-neutral_full",
+      "trial": 3
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": true,
+      "native_count": 3,
+      "posterior_before": {
+        "full_seven": [
+          0.38952737920529573,
+          0.5927930123268874,
+          0.017679608467816882
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.02884459315286654
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.05229870879933086
+      },
+      "result_file_sha256": "c09ca1395be3b296b16ea9a6c0f341bbb24a6220fd8c8663a57781e4bd617a94",
+      "scene_id": "FloorPlan5",
+      "seed": 2140,
+      "state": [
+        {
+          "native": true,
+          "type": "U"
+        },
+        {
+          "native": true,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": true,
+      "task_id": "ef6cc184e1daab84",
+      "trajectory_id": "successor-ef6cc184e1daab84-2140-neutral_full",
+      "trial": 4
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "72ff9e3df50c82d3b4568f5d3c96b533c3a96de3719245e39a0523a3a98f2f6e",
+      "scene_id": "FloorPlan5",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": false,
+      "task_id": "ef6cc184e1daab84",
+      "trajectory_id": "successor-ef6cc184e1daab84-2141-correct_middle",
+      "trial": 1
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 1,
+      "posterior_before": {
+        "full_seven": [
+          0.28030606329228497,
+          0.6614262304980087,
+          0.05826770620970625
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.35920885591046375
+      },
+      "previous_failed_attempt_had_target_pickup": false,
+      "reset_prior": {
+        "full_seven": 0.42839234448715796
+      },
+      "result_file_sha256": "d34a0c517d5008b535d09e06c1729a6cd0219f819fc7b46102d46112560a234e",
+      "scene_id": "FloorPlan5",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "success": false,
+      "task_id": "ef6cc184e1daab84",
+      "trajectory_id": "successor-ef6cc184e1daab84-2141-correct_middle",
+      "trial": 2
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 2,
+      "posterior_before": {
+        "full_seven": [
+          0.37713010855256995,
+          0.6012808732044372,
+          0.021589018242992794
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.23886534447961708
+      },
+      "previous_failed_attempt_had_target_pickup": false,
+      "reset_prior": {
+        "full_seven": 0.3375285573018767
+      },
+      "result_file_sha256": "8172877b7102941e32be45a907ac4a68eac679c5f41c648be9fdb1e475766d2b",
+      "scene_id": "FloorPlan5",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "success": false,
+      "task_id": "ef6cc184e1daab84",
+      "trajectory_id": "successor-ef6cc184e1daab84-2141-correct_middle",
+      "trial": 3
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 3,
+      "posterior_before": {
+        "full_seven": [
+          0.4494174988558354,
+          0.5413095766913427,
+          0.0092729244528219
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.15612088411104627
+      },
+      "previous_failed_attempt_had_target_pickup": false,
+      "reset_prior": {
+        "full_seven": 0.2567475940241912
+      },
+      "result_file_sha256": "2de11037455c96365c993bf1b2c92fcd8b399ec5cab90fd168aaf139778ed3c4",
+      "scene_id": "FloorPlan5",
+      "seed": 2141,
+      "state": [
+        {
+          "native": true,
+          "type": "U"
+        },
+        {
+          "native": true,
+          "type": "U"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "success": false,
+      "task_id": "ef6cc184e1daab84",
+      "trajectory_id": "successor-ef6cc184e1daab84-2141-correct_middle",
+      "trial": 4
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "099a025844370ecd4c5a8af9b45cf4d78202d2e63f8f30d4f5c8744705e4aeb7",
+      "scene_id": "FloorPlan5",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": false,
+      "task_id": "ef6cc184e1daab84",
+      "trajectory_id": "successor-ef6cc184e1daab84-2141-neutral_full",
+      "trial": 1
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": true,
+      "native_count": 1,
+      "posterior_before": {
+        "full_seven": [
+          0.28030606329228497,
+          0.6614262304980087,
+          0.05826770620970625
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.08210833917957178
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.1130179924224493
+      },
+      "result_file_sha256": "d46edf6e6699b5cedc90e0b800d45ccfd9751652f1c3fdd29d8e8871983e76a0",
+      "scene_id": "FloorPlan5",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "task_id": "ef6cc184e1daab84",
+      "trajectory_id": "successor-ef6cc184e1daab84-2141-neutral_full",
+      "trial": 2
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": true,
+      "native_count": 2,
+      "posterior_before": {
+        "full_seven": [
+          0.29890820306344834,
+          0.656851934094705,
+          0.044239862841846535
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.03492642156362625
+      },
+      "previous_failed_attempt_had_target_pickup": false,
+      "reset_prior": {
+        "full_seven": 0.05287962683943173
+      },
+      "result_file_sha256": "7621bbea6000198568ccda8ac4f76a0a97a0c093da9215f70afb2e7277451cd0",
+      "scene_id": "FloorPlan5",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "success": false,
+      "task_id": "ef6cc184e1daab84",
+      "trajectory_id": "successor-ef6cc184e1daab84-2141-neutral_full",
+      "trial": 3
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": true,
+      "native_count": 3,
+      "posterior_before": {
+        "full_seven": [
+          0.3069614568075717,
+          0.6542193055341121,
+          0.03881923765831617
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.014662102621451102
+      },
+      "previous_failed_attempt_had_target_pickup": false,
+      "reset_prior": {
+        "full_seven": 0.023289196573982145
+      },
+      "result_file_sha256": "bf96369a6cd35c300b2a2a979f6ebff66e0b6fa7b69a2d62e8311bd3be43a479",
+      "scene_id": "FloorPlan5",
+      "seed": 2141,
+      "state": [
+        {
+          "native": true,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "U"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "success": false,
+      "task_id": "ef6cc184e1daab84",
+      "trajectory_id": "successor-ef6cc184e1daab84-2141-neutral_full",
+      "trial": 4
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "ea0f0736e75f2580e529307a0374e32318e0b97ee14ed7e9f1c3ca659ccb2318",
+      "scene_id": "FloorPlan5",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": true,
+      "task_id": "179e7eca229fd634",
+      "trajectory_id": "successor-179e7eca229fd634-2140-neutral_full",
+      "trial": 1
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "d7f855ba90337ada877f05b5dc1a59a30481e29b7ea9d11e769f8c26b180f334",
+      "scene_id": "FloorPlan5",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": false,
+      "task_id": "179e7eca229fd634",
+      "trajectory_id": "successor-179e7eca229fd634-2140-correct_middle",
+      "trial": 1
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": true,
+      "native_count": 1,
+      "posterior_before": {
+        "full_seven": [
+          0.28030606329228497,
+          0.6614262304980087,
+          0.05826770620970625
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.08210833917957178
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.1130179924224493
+      },
+      "result_file_sha256": "30b48dd502ef06e7ba3bcde3acea88c395bf216a9b9f086dcfbf56b87e81794e",
+      "scene_id": "FloorPlan5",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "B"
+        }
+      ],
+      "success": false,
+      "task_id": "179e7eca229fd634",
+      "trajectory_id": "successor-179e7eca229fd634-2140-correct_middle",
+      "trial": 2
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": true,
+      "native_count": 2,
+      "posterior_before": {
+        "full_seven": [
+          0.29890820306344834,
+          0.656851934094705,
+          0.044239862841846535
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.052201352167719345
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.07765486208642083
+      },
+      "result_file_sha256": "1327708558c90940cade8e46aefebccaa43d8c8302061e1dcfbdb959858a9c68",
+      "scene_id": "FloorPlan5",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "B"
+        },
+        {
+          "native": true,
+          "type": "B"
+        }
+      ],
+      "success": true,
+      "task_id": "179e7eca229fd634",
+      "trajectory_id": "successor-179e7eca229fd634-2140-correct_middle",
+      "trial": 3
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "95f765c938f5745a003004fed0bbcb527ba7caa4701ed8a5e28c9ac1eb3e07ea",
+      "scene_id": "FloorPlan5",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": false,
+      "task_id": "179e7eca229fd634",
+      "trajectory_id": "successor-179e7eca229fd634-2141-correct_middle",
+      "trial": 1
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": true,
+      "native_count": 1,
+      "posterior_before": {
+        "full_seven": [
+          0.28030606329228497,
+          0.6614262304980087,
+          0.05826770620970625
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.08210833917957178
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.1130179924224493
+      },
+      "result_file_sha256": "b1e4f5c63e5c1ea7dcf01df7c55f7730d3bddca8a0b16236718dfba9963728cb",
+      "scene_id": "FloorPlan5",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": true,
+      "task_id": "179e7eca229fd634",
+      "trajectory_id": "successor-179e7eca229fd634-2141-correct_middle",
+      "trial": 2
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "bc25bc131be79d919428a37396352ccdcf3d4de3381cca5cc19142e50891e9bd",
+      "scene_id": "FloorPlan5",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": false,
+      "task_id": "179e7eca229fd634",
+      "trajectory_id": "successor-179e7eca229fd634-2141-neutral_full",
+      "trial": 1
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 1,
+      "posterior_before": {
+        "full_seven": [
+          0.28030606329228497,
+          0.6614262304980087,
+          0.05826770620970625
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.35920885591046375
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.42839234448715796
+      },
+      "result_file_sha256": "dd84b958149cdd8897097c12a29aee705a6f1072e2e7c85adf61675d50091144",
+      "scene_id": "FloorPlan5",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "C"
+        }
+      ],
+      "success": false,
+      "task_id": "179e7eca229fd634",
+      "trajectory_id": "successor-179e7eca229fd634-2141-neutral_full",
+      "trial": 2
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 2,
+      "posterior_before": {
+        "full_seven": [
+          0.37713010855256995,
+          0.6012808732044372,
+          0.021589018242992794
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.23886534447961708
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.3375285573018767
+      },
+      "result_file_sha256": "45669432f4fd9c8db9f369606c8d3b561a1562d2b49ed3dac5a076b1517fa0e7",
+      "scene_id": "FloorPlan5",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "success": true,
+      "task_id": "179e7eca229fd634",
+      "trajectory_id": "successor-179e7eca229fd634-2141-neutral_full",
+      "trial": 3
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "43faae91fa85e3f6dfd8e5c8a06fcd6eace0f2f33751e0c4aa0c2af632ee305d",
+      "scene_id": "FloorPlan2",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": false,
+      "task_id": "434b1714d31f1795",
+      "trajectory_id": "successor-434b1714d31f1795-2140-correct_middle",
+      "trial": 1
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": true,
+      "native_count": 1,
+      "posterior_before": {
+        "full_seven": [
+          0.28030606329228497,
+          0.6614262304980087,
+          0.05826770620970625
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.08210833917957178
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.1130179924224493
+      },
+      "result_file_sha256": "4ab67c7c22592e3e245f4b908750a87dd93cf11afe2145edcf989ac6c5da7e4f",
+      "scene_id": "FloorPlan2",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "task_id": "434b1714d31f1795",
+      "trajectory_id": "successor-434b1714d31f1795-2140-correct_middle",
+      "trial": 2
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": false,
+      "has_error": true,
+      "native_count": 2,
+      "posterior_before": {
+        "full_seven": [
+          0.29890820306344834,
+          0.656851934094705,
+          0.044239862841846535
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.052201352167719345
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.07765486208642083
+      },
+      "result_file_sha256": "911a1ca5d67be34d8917be2ba47bcb814dc16646fadf0992c9e977d9e37f9f0a",
+      "scene_id": "FloorPlan2",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "task_id": "434b1714d31f1795",
+      "trajectory_id": "successor-434b1714d31f1795-2140-correct_middle",
+      "trial": 3
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": false,
+      "has_error": true,
+      "native_count": 3,
+      "posterior_before": {
+        "full_seven": [
+          0.31105379786613485,
+          0.6524452315107548,
+          0.03650097062311032
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.033293207336908645
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.05229870879933086
+      },
+      "result_file_sha256": "d03627900e579652c35bfe17e8c5c874ab4d2d8f83fa38401378c157cd406398",
+      "scene_id": "FloorPlan2",
+      "seed": 2140,
+      "state": [
+        {
+          "native": true,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "task_id": "434b1714d31f1795",
+      "trajectory_id": "successor-434b1714d31f1795-2140-correct_middle",
+      "trial": 4
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "b7ca58ae624ae7456d7c2f23abf14b33b9862141a706f6515c2db4688babca66",
+      "scene_id": "FloorPlan2",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": false,
+      "task_id": "434b1714d31f1795",
+      "trajectory_id": "successor-434b1714d31f1795-2140-neutral_full",
+      "trial": 1
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": true,
+      "native_count": 1,
+      "posterior_before": {
+        "full_seven": [
+          0.28030606329228497,
+          0.6614262304980087,
+          0.05826770620970625
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.08210833917957178
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.1130179924224493
+      },
+      "result_file_sha256": "71b0e5c163cc47d3e91cd84647442cff99eec3113364fc5312e6eaf6e37636c3",
+      "scene_id": "FloorPlan2",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "task_id": "434b1714d31f1795",
+      "trajectory_id": "successor-434b1714d31f1795-2140-neutral_full",
+      "trial": 2
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": true,
+      "native_count": 2,
+      "posterior_before": {
+        "full_seven": [
+          0.29890820306344834,
+          0.656851934094705,
+          0.044239862841846535
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.03492642156362625
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.05287962683943173
+      },
+      "result_file_sha256": "e3f05101ac9e3f7e3dfd9bfd55558946c2bb1191f79d9f0b228f1e38abbcc5fd",
+      "scene_id": "FloorPlan2",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "success": true,
+      "task_id": "434b1714d31f1795",
+      "trajectory_id": "successor-434b1714d31f1795-2140-neutral_full",
+      "trial": 3
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "22eca0f7f60827aed38eee8ab80b9fe6e16cbc5eabb96067b041204104b8f9f8",
+      "scene_id": "FloorPlan2",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": false,
+      "task_id": "434b1714d31f1795",
+      "trajectory_id": "successor-434b1714d31f1795-2141-correct_middle",
+      "trial": 1
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 1,
+      "posterior_before": {
+        "full_seven": [
+          0.28030606329228497,
+          0.6614262304980087,
+          0.05826770620970625
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.35920885591046375
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.42839234448715796
+      },
+      "result_file_sha256": "c76284a6da8213c4bc3a1ec29ff027a6a74dba0c2919e6e0fc8e5e818a2e1c82",
+      "scene_id": "FloorPlan2",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "C"
+        }
+      ],
+      "success": true,
+      "task_id": "434b1714d31f1795",
+      "trajectory_id": "successor-434b1714d31f1795-2141-correct_middle",
+      "trial": 2
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "9f040b81fa184308286566314c6f6b6e3ed3814d0c29d6bcd414d2d6966cc391",
+      "scene_id": "FloorPlan2",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": false,
+      "task_id": "434b1714d31f1795",
+      "trajectory_id": "successor-434b1714d31f1795-2141-neutral_full",
+      "trial": 1
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": true,
+      "native_count": 1,
+      "posterior_before": {
+        "full_seven": [
+          0.28030606329228497,
+          0.6614262304980087,
+          0.05826770620970625
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.08210833917957178
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.1130179924224493
+      },
+      "result_file_sha256": "718ea8f61c88d780e0db0cfb8c990f4fdad5c24143bb70d80391b312475e975e",
+      "scene_id": "FloorPlan2",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "task_id": "434b1714d31f1795",
+      "trajectory_id": "successor-434b1714d31f1795-2141-neutral_full",
+      "trial": 2
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": true,
+      "native_count": 2,
+      "posterior_before": {
+        "full_seven": [
+          0.29890820306344834,
+          0.656851934094705,
+          0.044239862841846535
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.052201352167719345
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.07765486208642083
+      },
+      "result_file_sha256": "aa3e0f81497d992528fa997f51bae4e02f8c4134a73742d09209c82adec938e2",
+      "scene_id": "FloorPlan2",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "task_id": "434b1714d31f1795",
+      "trajectory_id": "successor-434b1714d31f1795-2141-neutral_full",
+      "trial": 3
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": true,
+      "native_count": 3,
+      "posterior_before": {
+        "full_seven": [
+          0.31105379786613485,
+          0.6524452315107548,
+          0.03650097062311032
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.033293207336908645
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.05229870879933086
+      },
+      "result_file_sha256": "59cfd821340b7de2b1734c2695467b3312b23dacf92c81613160dc2a79f79d41",
+      "scene_id": "FloorPlan2",
+      "seed": 2141,
+      "state": [
+        {
+          "native": true,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "task_id": "434b1714d31f1795",
+      "trajectory_id": "successor-434b1714d31f1795-2141-neutral_full",
+      "trial": 4
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "d2c4798e15253e5df80e3de44d6227057cf8afcc510b50f2785f529adbaf9fdc",
+      "scene_id": "FloorPlan2",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": true,
+      "task_id": "5e7c203eb147ee2f",
+      "trajectory_id": "successor-5e7c203eb147ee2f-2140-neutral_full",
+      "trial": 1
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "37121fe962b5291d91c896716da2ae62730f212132eb9c11032c877e17fd2296",
+      "scene_id": "FloorPlan2",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": true,
+      "task_id": "5e7c203eb147ee2f",
+      "trajectory_id": "successor-5e7c203eb147ee2f-2140-correct_middle",
+      "trial": 1
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "b8946b41029338a9a700a55f0f9a3e8c512ea945c1e102becbc1cf5bec32bfd9",
+      "scene_id": "FloorPlan2",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": true,
+      "task_id": "5e7c203eb147ee2f",
+      "trajectory_id": "successor-5e7c203eb147ee2f-2141-correct_middle",
+      "trial": 1
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "5df72eb1af16c96efeb289969e27e7b4955f97b009fa84737999a65657ff0c8e",
+      "scene_id": "FloorPlan2",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": true,
+      "task_id": "5e7c203eb147ee2f",
+      "trajectory_id": "successor-5e7c203eb147ee2f-2141-neutral_full",
+      "trial": 1
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "22ea0b1bb5a33c140165d59b936a6e3be1dd818fbf84e4f5fa856d79cb658a13",
+      "scene_id": "FloorPlan15",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": true,
+      "task_id": "1fb123192cfbd059",
+      "trajectory_id": "successor-1fb123192cfbd059-2140-neutral_full",
+      "trial": 1
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "2f342f8038a0c03757375c0c3a2363eeb2b5460796af61dcc42a010e0c94f8db",
+      "scene_id": "FloorPlan15",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": true,
+      "task_id": "1fb123192cfbd059",
+      "trajectory_id": "successor-1fb123192cfbd059-2140-correct_middle",
+      "trial": 1
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "f11d3f1ff54664cda8874c5c1eb40ebce57e74eca9e036344df0af7ce5e8e1f7",
+      "scene_id": "FloorPlan15",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": true,
+      "task_id": "1fb123192cfbd059",
+      "trajectory_id": "successor-1fb123192cfbd059-2141-correct_middle",
+      "trial": 1
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "41dbf43270194889919264a238ee761c4297a16f5f8d38addc94f92945941fd6",
+      "scene_id": "FloorPlan15",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": true,
+      "task_id": "1fb123192cfbd059",
+      "trajectory_id": "successor-1fb123192cfbd059-2141-neutral_full",
+      "trial": 1
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "7922bdbb57dd2adfa3799def671a32c92b64ef2830bc575c2ac3b0a4e852978d",
+      "scene_id": "FloorPlan15",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": true,
+      "task_id": "8b56ced4f5e3e7db",
+      "trajectory_id": "successor-8b56ced4f5e3e7db-2140-neutral_full",
+      "trial": 1
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "fd7d833f6f447ed50e6218452d51c57535aa226f0a38ba5a0b483c30bce3b83e",
+      "scene_id": "FloorPlan15",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": true,
+      "task_id": "8b56ced4f5e3e7db",
+      "trajectory_id": "successor-8b56ced4f5e3e7db-2140-correct_middle",
+      "trial": 1
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "c6cd94843dc293244cf0af172ace7380e6d8c43c1509070c448dd8a852ca7559",
+      "scene_id": "FloorPlan15",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": true,
+      "task_id": "8b56ced4f5e3e7db",
+      "trajectory_id": "successor-8b56ced4f5e3e7db-2141-correct_middle",
+      "trial": 1
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "057e4e26d5fc823c49d336cec7166f352187190448261299a246059321295449",
+      "scene_id": "FloorPlan15",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": true,
+      "task_id": "8b56ced4f5e3e7db",
+      "trajectory_id": "successor-8b56ced4f5e3e7db-2141-neutral_full",
+      "trial": 1
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "bfd38533e6d616eba7ad46e99811c352c6480ffb8307852a5c520936d2728593",
+      "scene_id": "FloorPlan25",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": false,
+      "task_id": "a2454b1f59b0d2ba",
+      "trajectory_id": "successor-a2454b1f59b0d2ba-2140-correct_middle",
+      "trial": 1
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": true,
+      "native_count": 1,
+      "posterior_before": {
+        "full_seven": [
+          0.28030606329228497,
+          0.6614262304980087,
+          0.05826770620970625
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.08210833917957178
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.1130179924224493
+      },
+      "result_file_sha256": "69209c70cad2bc9039fd03b1cc3084d2f5bf54eca7cf931a613925805c6d7599",
+      "scene_id": "FloorPlan25",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "task_id": "a2454b1f59b0d2ba",
+      "trajectory_id": "successor-a2454b1f59b0d2ba-2140-correct_middle",
+      "trial": 2
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": false,
+      "has_error": true,
+      "native_count": 2,
+      "posterior_before": {
+        "full_seven": [
+          0.29890820306344834,
+          0.656851934094705,
+          0.044239862841846535
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.052201352167719345
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.07765486208642083
+      },
+      "result_file_sha256": "2dd09001fc4c3f9f37d82bedb8a7d9b4ac1069eb72a5afd75799517d80c93557",
+      "scene_id": "FloorPlan25",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "task_id": "a2454b1f59b0d2ba",
+      "trajectory_id": "successor-a2454b1f59b0d2ba-2140-correct_middle",
+      "trial": 3
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": false,
+      "has_error": true,
+      "native_count": 3,
+      "posterior_before": {
+        "full_seven": [
+          0.31105379786613485,
+          0.6524452315107548,
+          0.03650097062311032
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.033293207336908645
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.05229870879933086
+      },
+      "result_file_sha256": "ee5d18f61a3537990b91b63b2586020e6b749cc0a7bec21201507317050716a1",
+      "scene_id": "FloorPlan25",
+      "seed": 2140,
+      "state": [
+        {
+          "native": true,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "task_id": "a2454b1f59b0d2ba",
+      "trajectory_id": "successor-a2454b1f59b0d2ba-2140-correct_middle",
+      "trial": 4
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "3d2afec19cfa30d0e1d67f1fa511a8d07bd79adad39004390da8eaa34c635710",
+      "scene_id": "FloorPlan25",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": false,
+      "task_id": "a2454b1f59b0d2ba",
+      "trajectory_id": "successor-a2454b1f59b0d2ba-2140-neutral_full",
+      "trial": 1
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": true,
+      "native_count": 1,
+      "posterior_before": {
+        "full_seven": [
+          0.28030606329228497,
+          0.6614262304980087,
+          0.05826770620970625
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.08210833917957178
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.1130179924224493
+      },
+      "result_file_sha256": "c7e202234ce18b1a2f14870131ce109b47ae6f84e8bc246b5fd5fb967c34ea92",
+      "scene_id": "FloorPlan25",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "task_id": "a2454b1f59b0d2ba",
+      "trajectory_id": "successor-a2454b1f59b0d2ba-2140-neutral_full",
+      "trial": 2
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": true,
+      "native_count": 2,
+      "posterior_before": {
+        "full_seven": [
+          0.29890820306344834,
+          0.656851934094705,
+          0.044239862841846535
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.052201352167719345
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.07765486208642083
+      },
+      "result_file_sha256": "557bcb719f8ad57bb29b175fabfb1906a1480f93eeaa52bb6b7c5df330fb9a09",
+      "scene_id": "FloorPlan25",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "task_id": "a2454b1f59b0d2ba",
+      "trajectory_id": "successor-a2454b1f59b0d2ba-2140-neutral_full",
+      "trial": 3
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": true,
+      "native_count": 3,
+      "posterior_before": {
+        "full_seven": [
+          0.31105379786613485,
+          0.6524452315107548,
+          0.03650097062311032
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.033293207336908645
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.05229870879933086
+      },
+      "result_file_sha256": "eaf23253bd05580a3308d7e4147a2889e80d567e35490f752244d81b54643d2c",
+      "scene_id": "FloorPlan25",
+      "seed": 2140,
+      "state": [
+        {
+          "native": true,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "task_id": "a2454b1f59b0d2ba",
+      "trajectory_id": "successor-a2454b1f59b0d2ba-2140-neutral_full",
+      "trial": 4
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "3d409d6b4f4396835ad873954780917848a1d658889adde67460150a050dc2e3",
+      "scene_id": "FloorPlan25",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": false,
+      "task_id": "a2454b1f59b0d2ba",
+      "trajectory_id": "successor-a2454b1f59b0d2ba-2141-correct_middle",
+      "trial": 1
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": true,
+      "native_count": 1,
+      "posterior_before": {
+        "full_seven": [
+          0.28030606329228497,
+          0.6614262304980087,
+          0.05826770620970625
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.08210833917957178
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.1130179924224493
+      },
+      "result_file_sha256": "15476a9cb64845303f4be49f5c2959cf861a306343b3e9425dd0e29912a60946",
+      "scene_id": "FloorPlan25",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "task_id": "a2454b1f59b0d2ba",
+      "trajectory_id": "successor-a2454b1f59b0d2ba-2141-correct_middle",
+      "trial": 2
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": false,
+      "has_error": true,
+      "native_count": 2,
+      "posterior_before": {
+        "full_seven": [
+          0.29890820306344834,
+          0.656851934094705,
+          0.044239862841846535
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.052201352167719345
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.07765486208642083
+      },
+      "result_file_sha256": "6347b5fc1928bd8b8312de1e5965fc57ceb4df4692b75cca630c3c8b6012aa6a",
+      "scene_id": "FloorPlan25",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "task_id": "a2454b1f59b0d2ba",
+      "trajectory_id": "successor-a2454b1f59b0d2ba-2141-correct_middle",
+      "trial": 3
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": false,
+      "has_error": true,
+      "native_count": 3,
+      "posterior_before": {
+        "full_seven": [
+          0.31105379786613485,
+          0.6524452315107548,
+          0.03650097062311032
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.033293207336908645
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.05229870879933086
+      },
+      "result_file_sha256": "c36dcc1bcfde00d0a0613d2e17a5f3b6c27b7924ff306ecf997154e231f389b9",
+      "scene_id": "FloorPlan25",
+      "seed": 2141,
+      "state": [
+        {
+          "native": true,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "task_id": "a2454b1f59b0d2ba",
+      "trajectory_id": "successor-a2454b1f59b0d2ba-2141-correct_middle",
+      "trial": 4
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "443eed0ba697e0299512ffb74a6f29dd08d9723a8fbde716c2da81df78567160",
+      "scene_id": "FloorPlan25",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": false,
+      "task_id": "a2454b1f59b0d2ba",
+      "trajectory_id": "successor-a2454b1f59b0d2ba-2141-neutral_full",
+      "trial": 1
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": true,
+      "native_count": 1,
+      "posterior_before": {
+        "full_seven": [
+          0.28030606329228497,
+          0.6614262304980087,
+          0.05826770620970625
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.08210833917957178
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.1130179924224493
+      },
+      "result_file_sha256": "55e39c87d8a9d030c97995c1c577ca2fafb11c2e0eb876c2ea1b026edb863191",
+      "scene_id": "FloorPlan25",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "task_id": "a2454b1f59b0d2ba",
+      "trajectory_id": "successor-a2454b1f59b0d2ba-2141-neutral_full",
+      "trial": 2
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": true,
+      "native_count": 2,
+      "posterior_before": {
+        "full_seven": [
+          0.29890820306344834,
+          0.656851934094705,
+          0.044239862841846535
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.052201352167719345
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.07765486208642083
+      },
+      "result_file_sha256": "c1505f589066a0351e836d64acd65fd0aabcab15cf72454fe8594b74f5a03c71",
+      "scene_id": "FloorPlan25",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "task_id": "a2454b1f59b0d2ba",
+      "trajectory_id": "successor-a2454b1f59b0d2ba-2141-neutral_full",
+      "trial": 3
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": true,
+      "native_count": 3,
+      "posterior_before": {
+        "full_seven": [
+          0.31105379786613485,
+          0.6524452315107548,
+          0.03650097062311032
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.033293207336908645
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.05229870879933086
+      },
+      "result_file_sha256": "9bb566943e7695cb83449db94be6e546e8e8fd46f3eb26cbf5fadf5832db8487",
+      "scene_id": "FloorPlan25",
+      "seed": 2141,
+      "state": [
+        {
+          "native": true,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "task_id": "a2454b1f59b0d2ba",
+      "trajectory_id": "successor-a2454b1f59b0d2ba-2141-neutral_full",
+      "trial": 4
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "26c9eed1c66e3612253c269d3dbbd69f79106bc81b012cc7889884a541abf6ef",
+      "scene_id": "FloorPlan25",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": true,
+      "task_id": "c9760a0fc2d02954",
+      "trajectory_id": "successor-c9760a0fc2d02954-2140-neutral_full",
+      "trial": 1
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "a1c2f9c891b542735b3d682cb867c1a0eb106d18c701132236481fc20d8509d1",
+      "scene_id": "FloorPlan25",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": true,
+      "task_id": "c9760a0fc2d02954",
+      "trajectory_id": "successor-c9760a0fc2d02954-2140-correct_middle",
+      "trial": 1
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "515637d391293238bb5b421f665aa491291310e1442d90b275c27ad580603835",
+      "scene_id": "FloorPlan25",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": true,
+      "task_id": "c9760a0fc2d02954",
+      "trajectory_id": "successor-c9760a0fc2d02954-2141-correct_middle",
+      "trial": 1
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "ab09a7384619de34c9fa761e8ecfcc897d872339f6cb695fe2aba96122f27b08",
+      "scene_id": "FloorPlan25",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": true,
+      "task_id": "c9760a0fc2d02954",
+      "trajectory_id": "successor-c9760a0fc2d02954-2141-neutral_full",
+      "trial": 1
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "4ff8bd5c7782e8cfa04c0a7fa310666d480ba830fc32f5b0d1415ca2378a5767",
+      "scene_id": "FloorPlan30",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": true,
+      "task_id": "fbe9e7bfa07c5ff3",
+      "trajectory_id": "successor-fbe9e7bfa07c5ff3-2140-correct_middle",
+      "trial": 1
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "e263c8b1e763e328a41d861f70c03e0b24eb789e4d5b4115785c96826bdb9b80",
+      "scene_id": "FloorPlan30",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": true,
+      "task_id": "fbe9e7bfa07c5ff3",
+      "trajectory_id": "successor-fbe9e7bfa07c5ff3-2140-neutral_full",
+      "trial": 1
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "c5a2ca2516186cdaff12c15aaeec041baacea68442587cd1b74ade4b7204a4c7",
+      "scene_id": "FloorPlan30",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": true,
+      "task_id": "fbe9e7bfa07c5ff3",
+      "trajectory_id": "successor-fbe9e7bfa07c5ff3-2141-neutral_full",
+      "trial": 1
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "6210338ce18a2ac5c49f91b6a47359366c1f1c78183f0c893c8d14b2fdd28411",
+      "scene_id": "FloorPlan30",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": true,
+      "task_id": "fbe9e7bfa07c5ff3",
+      "trajectory_id": "successor-fbe9e7bfa07c5ff3-2141-correct_middle",
+      "trial": 1
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "191da34e042793ab37b3f9f1b1eeddf85658d9e24b2d4ea6e3fc625f599592b2",
+      "scene_id": "FloorPlan30",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": false,
+      "task_id": "1b5855b199984e16",
+      "trajectory_id": "successor-1b5855b199984e16-2140-neutral_full",
+      "trial": 1
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 1,
+      "posterior_before": {
+        "full_seven": [
+          0.28030606329228497,
+          0.6614262304980087,
+          0.05826770620970625
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.35920885591046375
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.42839234448715796
+      },
+      "result_file_sha256": "6d5e0f6aa41f91dfb3d25933bacdd754617c83b16adbc7991c1c4365b4ea49af",
+      "scene_id": "FloorPlan30",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "success": true,
+      "task_id": "1b5855b199984e16",
+      "trajectory_id": "successor-1b5855b199984e16-2140-neutral_full",
+      "trial": 2
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "f2ebf692f7411c928f94c5d3e98a947ec99dbefc59e68c21dece5e02c91e41e3",
+      "scene_id": "FloorPlan30",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": false,
+      "task_id": "1b5855b199984e16",
+      "trajectory_id": "successor-1b5855b199984e16-2140-correct_middle",
+      "trial": 1
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 1,
+      "posterior_before": {
+        "full_seven": [
+          0.28030606329228497,
+          0.6614262304980087,
+          0.05826770620970625
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.35920885591046375
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.42839234448715796
+      },
+      "result_file_sha256": "7cf11ae4868b7ba736c954f452b53b0f932e79d8525d7434fd2237732c25472b",
+      "scene_id": "FloorPlan30",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "C"
+        }
+      ],
+      "success": false,
+      "task_id": "1b5855b199984e16",
+      "trajectory_id": "successor-1b5855b199984e16-2140-correct_middle",
+      "trial": 2
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 2,
+      "posterior_before": {
+        "full_seven": [
+          0.37713010855256995,
+          0.6012808732044372,
+          0.021589018242992794
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.23886534447961708
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.3375285573018767
+      },
+      "result_file_sha256": "1d729b1c8d046c65e232249f37a5a5199805f7b272f600646a0992ee3edf78d7",
+      "scene_id": "FloorPlan30",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "C"
+        }
+      ],
+      "success": false,
+      "task_id": "1b5855b199984e16",
+      "trajectory_id": "successor-1b5855b199984e16-2140-correct_middle",
+      "trial": 3
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 3,
+      "posterior_before": {
+        "full_seven": [
+          0.4494174988558354,
+          0.5413095766913427,
+          0.0092729244528219
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.15612088411104627
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.2567475940241912
+      },
+      "result_file_sha256": "6aefaaf531ea075ed1ae5f922d5f663ec4bfda1de630104828bdf5481d144bf8",
+      "scene_id": "FloorPlan30",
+      "seed": 2140,
+      "state": [
+        {
+          "native": true,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "C"
+        }
+      ],
+      "success": false,
+      "task_id": "1b5855b199984e16",
+      "trajectory_id": "successor-1b5855b199984e16-2140-correct_middle",
+      "trial": 4
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "8c9f398f182b3b723876e5e661b3ec1da34ceb621f43a07e2dfb25ad56b187c4",
+      "scene_id": "FloorPlan30",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": false,
+      "task_id": "1b5855b199984e16",
+      "trajectory_id": "successor-1b5855b199984e16-2141-correct_middle",
+      "trial": 1
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": true,
+      "native_count": 1,
+      "posterior_before": {
+        "full_seven": [
+          0.28030606329228497,
+          0.6614262304980087,
+          0.05826770620970625
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.08210833917957178
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.1130179924224493
+      },
+      "result_file_sha256": "5dbc214683b35bd056fe6371f9580c2e09509360933be61062de40b650bf495b",
+      "scene_id": "FloorPlan30",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "B"
+        }
+      ],
+      "success": true,
+      "task_id": "1b5855b199984e16",
+      "trajectory_id": "successor-1b5855b199984e16-2141-correct_middle",
+      "trial": 2
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "a47330eacd75637a361b9aa97462fca2a19a84a6de50ae8ba9ef5b9f9f52a0dd",
+      "scene_id": "FloorPlan30",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": false,
+      "task_id": "1b5855b199984e16",
+      "trajectory_id": "successor-1b5855b199984e16-2141-neutral_full",
+      "trial": 1
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": true,
+      "native_count": 1,
+      "posterior_before": {
+        "full_seven": [
+          0.28030606329228497,
+          0.6614262304980087,
+          0.05826770620970625
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.08210833917957178
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.1130179924224493
+      },
+      "result_file_sha256": "1d5a8f08f8b547482308679f682fde393cc7a7d4ffab523e36b05d9f8a01e593",
+      "scene_id": "FloorPlan30",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "task_id": "1b5855b199984e16",
+      "trajectory_id": "successor-1b5855b199984e16-2141-neutral_full",
+      "trial": 2
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": true,
+      "native_count": 2,
+      "posterior_before": {
+        "full_seven": [
+          0.29890820306344834,
+          0.656851934094705,
+          0.044239862841846535
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.052201352167719345
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.07765486208642083
+      },
+      "result_file_sha256": "ec06e9e3e990de5a9da8b3b05f6b94273adeb1c6331b1e8149a43d004097583f",
+      "scene_id": "FloorPlan30",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "task_id": "1b5855b199984e16",
+      "trajectory_id": "successor-1b5855b199984e16-2141-neutral_full",
+      "trial": 3
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": true,
+      "native_count": 3,
+      "posterior_before": {
+        "full_seven": [
+          0.31105379786613485,
+          0.6524452315107548,
+          0.03650097062311032
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.033293207336908645
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.05229870879933086
+      },
+      "result_file_sha256": "bed7c2e1c50bc2f42a185d4a2e2ca1498b3f245e38e080d4512889b0dc12cbfb",
+      "scene_id": "FloorPlan30",
+      "seed": 2141,
+      "state": [
+        {
+          "native": true,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "task_id": "1b5855b199984e16",
+      "trajectory_id": "successor-1b5855b199984e16-2141-neutral_full",
+      "trial": 4
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "c158e85f68e1f42de4dc3b43ef2a65198b5fb68e088b5ef577191e609f84cf58",
+      "scene_id": "FloorPlan20",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": false,
+      "task_id": "2f6381e53c96168d",
+      "trajectory_id": "successor-2f6381e53c96168d-2140-correct_middle",
+      "trial": 1
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": true,
+      "native_count": 1,
+      "posterior_before": {
+        "full_seven": [
+          0.28030606329228497,
+          0.6614262304980087,
+          0.05826770620970625
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.08210833917957178
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.1130179924224493
+      },
+      "result_file_sha256": "01741b70725bbf87a4782405ae4f3adef1da682a9a384a223f2580f72c45d763",
+      "scene_id": "FloorPlan20",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "task_id": "2f6381e53c96168d",
+      "trajectory_id": "successor-2f6381e53c96168d-2140-correct_middle",
+      "trial": 2
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": false,
+      "has_error": true,
+      "native_count": 2,
+      "posterior_before": {
+        "full_seven": [
+          0.29890820306344834,
+          0.656851934094705,
+          0.044239862841846535
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.052201352167719345
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.07765486208642083
+      },
+      "result_file_sha256": "8ebf2ad9c76aef5aeb719f97b475e183ec95dc49488d1ad3ca448ed827e6610e",
+      "scene_id": "FloorPlan20",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "task_id": "2f6381e53c96168d",
+      "trajectory_id": "successor-2f6381e53c96168d-2140-correct_middle",
+      "trial": 3
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": false,
+      "has_error": true,
+      "native_count": 3,
+      "posterior_before": {
+        "full_seven": [
+          0.31105379786613485,
+          0.6524452315107548,
+          0.03650097062311032
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.0021229311316726565
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.003468583484628466
+      },
+      "result_file_sha256": "9eb86f145d79f37e9a2d8edd471fff31fd1f8b9e61a4b0d0e31a1cfd34771d01",
+      "scene_id": "FloorPlan20",
+      "seed": 2140,
+      "state": [
+        {
+          "native": true,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "A"
+        }
+      ],
+      "success": false,
+      "task_id": "2f6381e53c96168d",
+      "trajectory_id": "successor-2f6381e53c96168d-2140-correct_middle",
+      "trial": 4
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "e0378c72a17345de4e71ddfdd6b08ae16935eb54aef3e4aa7b2a7ecf0b07d9f7",
+      "scene_id": "FloorPlan20",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": false,
+      "task_id": "2f6381e53c96168d",
+      "trajectory_id": "successor-2f6381e53c96168d-2140-neutral_full",
+      "trial": 1
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 1,
+      "posterior_before": {
+        "full_seven": [
+          0.28030606329228497,
+          0.6614262304980087,
+          0.05826770620970625
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.35920885591046375
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.42839234448715796
+      },
+      "result_file_sha256": "f6ca38a14ff6491c2a24c35e00797939ab4aa1dc356d4592dc13d78838650f64",
+      "scene_id": "FloorPlan20",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "success": false,
+      "task_id": "2f6381e53c96168d",
+      "trajectory_id": "successor-2f6381e53c96168d-2140-neutral_full",
+      "trial": 2
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 2,
+      "posterior_before": {
+        "full_seven": [
+          0.37713010855256995,
+          0.6012808732044372,
+          0.021589018242992794
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.23886534447961708
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.3375285573018767
+      },
+      "result_file_sha256": "42566a7ac7b2a75b6f6d1b9c92e8d99b7f445f574bd5e1b7e556e33dfc0fb2c4",
+      "scene_id": "FloorPlan20",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "success": false,
+      "task_id": "2f6381e53c96168d",
+      "trajectory_id": "successor-2f6381e53c96168d-2140-neutral_full",
+      "trial": 3
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 3,
+      "posterior_before": {
+        "full_seven": [
+          0.4494174988558354,
+          0.5413095766913427,
+          0.0092729244528219
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.15612088411104627
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.2567475940241912
+      },
+      "result_file_sha256": "498a77ff8a8a124db1a1bb63bb059074ce1091e2a70715f7c503930e3b8550f9",
+      "scene_id": "FloorPlan20",
+      "seed": 2140,
+      "state": [
+        {
+          "native": true,
+          "type": "U"
+        },
+        {
+          "native": true,
+          "type": "U"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "success": false,
+      "task_id": "2f6381e53c96168d",
+      "trajectory_id": "successor-2f6381e53c96168d-2140-neutral_full",
+      "trial": 4
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "8fbc012083fcfe9c254296724c28b87b7fb3952d8ddc9ea9865d091589a8e1a5",
+      "scene_id": "FloorPlan20",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": false,
+      "task_id": "2f6381e53c96168d",
+      "trajectory_id": "successor-2f6381e53c96168d-2141-correct_middle",
+      "trial": 1
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 1,
+      "posterior_before": {
+        "full_seven": [
+          0.28030606329228497,
+          0.6614262304980087,
+          0.05826770620970625
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.35920885591046375
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.42839234448715796
+      },
+      "result_file_sha256": "68015ab1beb34c6becb4612cb940a0b1ea39f331b11523d16ff7b1418d0b43d5",
+      "scene_id": "FloorPlan20",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "success": false,
+      "task_id": "2f6381e53c96168d",
+      "trajectory_id": "successor-2f6381e53c96168d-2141-correct_middle",
+      "trial": 2
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 2,
+      "posterior_before": {
+        "full_seven": [
+          0.37713010855256995,
+          0.6012808732044372,
+          0.021589018242992794
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.23886534447961708
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.3375285573018767
+      },
+      "result_file_sha256": "3e8fbdb25e2be04d89b32522a613bccc3b1010f98357c79cac7c5d956800cb31",
+      "scene_id": "FloorPlan20",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "success": false,
+      "task_id": "2f6381e53c96168d",
+      "trajectory_id": "successor-2f6381e53c96168d-2141-correct_middle",
+      "trial": 3
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 3,
+      "posterior_before": {
+        "full_seven": [
+          0.4494174988558354,
+          0.5413095766913427,
+          0.0092729244528219
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.15612088411104627
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.2567475940241912
+      },
+      "result_file_sha256": "b4033057cec7637edd8be23390bbbff0d4e45082b299ae2d4eae7100dac91a2c",
+      "scene_id": "FloorPlan20",
+      "seed": 2141,
+      "state": [
+        {
+          "native": true,
+          "type": "U"
+        },
+        {
+          "native": true,
+          "type": "U"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "success": false,
+      "task_id": "2f6381e53c96168d",
+      "trajectory_id": "successor-2f6381e53c96168d-2141-correct_middle",
+      "trial": 4
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "2d15368c94a74aceac559de75d7c9840a3bfa886bd8bd41ed7419de0b2f852f6",
+      "scene_id": "FloorPlan20",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": false,
+      "task_id": "2f6381e53c96168d",
+      "trajectory_id": "successor-2f6381e53c96168d-2141-neutral_full",
+      "trial": 1
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": true,
+      "native_count": 1,
+      "posterior_before": {
+        "full_seven": [
+          0.28030606329228497,
+          0.6614262304980087,
+          0.05826770620970625
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.08210833917957178
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.1130179924224493
+      },
+      "result_file_sha256": "3733b09364f5babd9f6cc9c8b7da9e2aef16d0d379b04f89a16948f87ad8f341",
+      "scene_id": "FloorPlan20",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "task_id": "2f6381e53c96168d",
+      "trajectory_id": "successor-2f6381e53c96168d-2141-neutral_full",
+      "trial": 2
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": true,
+      "native_count": 2,
+      "posterior_before": {
+        "full_seven": [
+          0.29890820306344834,
+          0.656851934094705,
+          0.044239862841846535
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.003439328919249671
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.005391342258561179
+      },
+      "result_file_sha256": "96f236a0a44d4333c7c90162f90fbb195c14232b51ec0918c89b5b1661bf7f0b",
+      "scene_id": "FloorPlan20",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "A"
+        }
+      ],
+      "success": true,
+      "task_id": "2f6381e53c96168d",
+      "trajectory_id": "successor-2f6381e53c96168d-2141-neutral_full",
+      "trial": 3
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "baf77bd9cd861d75c9ccba506005e91ca5019e2ad6338478cce21715d82ec203",
+      "scene_id": "FloorPlan20",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": false,
+      "task_id": "529d009fd6280b93",
+      "trajectory_id": "successor-529d009fd6280b93-2140-neutral_full",
+      "trial": 1
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 1,
+      "posterior_before": {
+        "full_seven": [
+          0.28030606329228497,
+          0.6614262304980087,
+          0.05826770620970625
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.35920885591046375
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.42839234448715796
+      },
+      "result_file_sha256": "bd1d8754d304c66d0585d8f2586b32169408c8b40b3dc9145e1a5f8a824cf2dc",
+      "scene_id": "FloorPlan20",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "success": false,
+      "task_id": "529d009fd6280b93",
+      "trajectory_id": "successor-529d009fd6280b93-2140-neutral_full",
+      "trial": 2
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 2,
+      "posterior_before": {
+        "full_seven": [
+          0.37713010855256995,
+          0.6012808732044372,
+          0.021589018242992794
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.23886534447961708
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.3375285573018767
+      },
+      "result_file_sha256": "031cec474fef20d3baa628ee80a513105ece85497cfce4162f09dd91392bedf5",
+      "scene_id": "FloorPlan20",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "success": false,
+      "task_id": "529d009fd6280b93",
+      "trajectory_id": "successor-529d009fd6280b93-2140-neutral_full",
+      "trial": 3
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 3,
+      "posterior_before": {
+        "full_seven": [
+          0.4494174988558354,
+          0.5413095766913427,
+          0.0092729244528219
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.15612088411104627
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.2567475940241912
+      },
+      "result_file_sha256": "817193e9cfb4f03f20d0cc700a12ea94b7aa1e8434fd730930dd0c6db675952b",
+      "scene_id": "FloorPlan20",
+      "seed": 2140,
+      "state": [
+        {
+          "native": true,
+          "type": "U"
+        },
+        {
+          "native": true,
+          "type": "U"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "success": false,
+      "task_id": "529d009fd6280b93",
+      "trajectory_id": "successor-529d009fd6280b93-2140-neutral_full",
+      "trial": 4
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "3d91626b2486f852318fde6beb520f1fabc58468baeed1646a118f4218a78c27",
+      "scene_id": "FloorPlan20",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": false,
+      "task_id": "529d009fd6280b93",
+      "trajectory_id": "successor-529d009fd6280b93-2140-correct_middle",
+      "trial": 1
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": true,
+      "native_count": 1,
+      "posterior_before": {
+        "full_seven": [
+          0.28030606329228497,
+          0.6614262304980087,
+          0.05826770620970625
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.08210833917957178
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.1130179924224493
+      },
+      "result_file_sha256": "43f7055f3a3c2df277e30993827621c79431f769161a878f08221d3f1d7ba7c5",
+      "scene_id": "FloorPlan20",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "task_id": "529d009fd6280b93",
+      "trajectory_id": "successor-529d009fd6280b93-2140-correct_middle",
+      "trial": 2
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": false,
+      "has_error": true,
+      "native_count": 2,
+      "posterior_before": {
+        "full_seven": [
+          0.29890820306344834,
+          0.656851934094705,
+          0.044239862841846535
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.052201352167719345
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.07765486208642083
+      },
+      "result_file_sha256": "e15812c1d628d88e90bfdd554c3e39f1fcb25c2d1f5eb4227fc7f04840df2767",
+      "scene_id": "FloorPlan20",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "task_id": "529d009fd6280b93",
+      "trajectory_id": "successor-529d009fd6280b93-2140-correct_middle",
+      "trial": 3
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": false,
+      "has_error": true,
+      "native_count": 3,
+      "posterior_before": {
+        "full_seven": [
+          0.31105379786613485,
+          0.6524452315107548,
+          0.03650097062311032
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.033293207336908645
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.05229870879933086
+      },
+      "result_file_sha256": "4b3b2d809d72ccd6db33b14dd0ecc02b91fbae7ef5191e614137eaf5afed589d",
+      "scene_id": "FloorPlan20",
+      "seed": 2140,
+      "state": [
+        {
+          "native": true,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": true,
+      "task_id": "529d009fd6280b93",
+      "trajectory_id": "successor-529d009fd6280b93-2140-correct_middle",
+      "trial": 4
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "8f823b706d2107973043fae2d98cdc296c991df5d57e7854e7ef4228b6d5575a",
+      "scene_id": "FloorPlan20",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": false,
+      "task_id": "529d009fd6280b93",
+      "trajectory_id": "successor-529d009fd6280b93-2141-correct_middle",
+      "trial": 1
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 1,
+      "posterior_before": {
+        "full_seven": [
+          0.28030606329228497,
+          0.6614262304980087,
+          0.05826770620970625
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.058855245912993466
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.08245500926275331
+      },
+      "result_file_sha256": "c93e9417968f22c2c1e88cc05a0669f6dd38c1b03297e655336112046b2f432d",
+      "scene_id": "FloorPlan20",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "A"
+        }
+      ],
+      "success": true,
+      "task_id": "529d009fd6280b93",
+      "trajectory_id": "successor-529d009fd6280b93-2141-correct_middle",
+      "trial": 2
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "ae5219d1be4126a04e76432e92439524f87453acf4b0b605ac4bbdfc9adea3ac",
+      "scene_id": "FloorPlan20",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": false,
+      "task_id": "529d009fd6280b93",
+      "trajectory_id": "successor-529d009fd6280b93-2141-neutral_full",
+      "trial": 1
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": true,
+      "native_count": 1,
+      "posterior_before": {
+        "full_seven": [
+          0.28030606329228497,
+          0.6614262304980087,
+          0.05826770620970625
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.08210833917957178
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.1130179924224493
+      },
+      "result_file_sha256": "9e18086800812f65a17519a44b69d7137e0c6689e0925a3d27cfb45289226dce",
+      "scene_id": "FloorPlan20",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "task_id": "529d009fd6280b93",
+      "trajectory_id": "successor-529d009fd6280b93-2141-neutral_full",
+      "trial": 2
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": true,
+      "native_count": 2,
+      "posterior_before": {
+        "full_seven": [
+          0.29890820306344834,
+          0.656851934094705,
+          0.044239862841846535
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.052201352167719345
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.07765486208642083
+      },
+      "result_file_sha256": "bc707e169179c8ccd54e4f3d33f9baa48dd85c5b485f8635e830b7307cf63b4f",
+      "scene_id": "FloorPlan20",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": true,
+      "task_id": "529d009fd6280b93",
+      "trajectory_id": "successor-529d009fd6280b93-2141-neutral_full",
+      "trial": 3
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "939f27cdd847446bff1a2fd60f0b224770694e29ac694017f610e5b723b5f0c1",
+      "scene_id": "FloorPlan23",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": true,
+      "task_id": "55683c743578b6d0",
+      "trajectory_id": "successor-55683c743578b6d0-2140-correct_middle",
+      "trial": 1
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "c2398b7bc801fae9129707d00d8c579d29e92e4bfbd1c92b7c2673518b94a80b",
+      "scene_id": "FloorPlan23",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": false,
+      "task_id": "55683c743578b6d0",
+      "trajectory_id": "successor-55683c743578b6d0-2140-neutral_full",
+      "trial": 1
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 1,
+      "posterior_before": {
+        "full_seven": [
+          0.28030606329228497,
+          0.6614262304980087,
+          0.05826770620970625
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.35920885591046375
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.42839234448715796
+      },
+      "result_file_sha256": "6c10a578a6c295308a538b5cab755f84b835bbe39f39334972e50135ba997981",
+      "scene_id": "FloorPlan23",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "success": true,
+      "task_id": "55683c743578b6d0",
+      "trajectory_id": "successor-55683c743578b6d0-2140-neutral_full",
+      "trial": 2
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "5c340972c12d56f5c5bd66d7d87e2dd58592e16f7b1fa6f4ed90aec7132526b6",
+      "scene_id": "FloorPlan23",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": false,
+      "task_id": "55683c743578b6d0",
+      "trajectory_id": "successor-55683c743578b6d0-2141-correct_middle",
+      "trial": 1
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": true,
+      "native_count": 1,
+      "posterior_before": {
+        "full_seven": [
+          0.28030606329228497,
+          0.6614262304980087,
+          0.05826770620970625
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.08210833917957178
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.1130179924224493
+      },
+      "result_file_sha256": "0f3a9f6c42db2525b0c7c7d42686f40426901feac2d90abc16d17c0f97a3b481",
+      "scene_id": "FloorPlan23",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "task_id": "55683c743578b6d0",
+      "trajectory_id": "successor-55683c743578b6d0-2141-correct_middle",
+      "trial": 2
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": false,
+      "has_error": true,
+      "native_count": 2,
+      "posterior_before": {
+        "full_seven": [
+          0.29890820306344834,
+          0.656851934094705,
+          0.044239862841846535
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.052201352167719345
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.07765486208642083
+      },
+      "result_file_sha256": "f35dccbd44206b57e2097c88659d441526bbfd316776ee5a2a5f86f62cd7b670",
+      "scene_id": "FloorPlan23",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "task_id": "55683c743578b6d0",
+      "trajectory_id": "successor-55683c743578b6d0-2141-correct_middle",
+      "trial": 3
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": false,
+      "has_error": true,
+      "native_count": 3,
+      "posterior_before": {
+        "full_seven": [
+          0.31105379786613485,
+          0.6524452315107548,
+          0.03650097062311032
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.033293207336908645
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.05229870879933086
+      },
+      "result_file_sha256": "ad2fccf5396c984e1b3f11319dcc4ef978cbd58118953dbfafa8923255997c01",
+      "scene_id": "FloorPlan23",
+      "seed": 2141,
+      "state": [
+        {
+          "native": true,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "task_id": "55683c743578b6d0",
+      "trajectory_id": "successor-55683c743578b6d0-2141-correct_middle",
+      "trial": 4
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "a1a58cbcf9b65752ee2aa05a5827e5506be396c2f7d645d48e67617cb7b55a94",
+      "scene_id": "FloorPlan23",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": false,
+      "task_id": "55683c743578b6d0",
+      "trajectory_id": "successor-55683c743578b6d0-2141-neutral_full",
+      "trial": 1
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 1,
+      "posterior_before": {
+        "full_seven": [
+          0.28030606329228497,
+          0.6614262304980087,
+          0.05826770620970625
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.35920885591046375
+      },
+      "previous_failed_attempt_had_target_pickup": false,
+      "reset_prior": {
+        "full_seven": 0.42839234448715796
+      },
+      "result_file_sha256": "2be3b7637357570abc2fb1990cb032ad01e8835dfb58003907f164daf6f7eb55",
+      "scene_id": "FloorPlan23",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "success": true,
+      "task_id": "55683c743578b6d0",
+      "trajectory_id": "successor-55683c743578b6d0-2141-neutral_full",
+      "trial": 2
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "ece5902ef55f6bfef647d2aab25b38599e533ffc6c1ed6411f00aadb33827441",
+      "scene_id": "FloorPlan23",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": true,
+      "task_id": "605f1499d44426b8",
+      "trajectory_id": "successor-605f1499d44426b8-2140-neutral_full",
+      "trial": 1
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "2b83a2c258edb88693dae6b486946621780042726af452eb0c73a616613199da",
+      "scene_id": "FloorPlan23",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": true,
+      "task_id": "605f1499d44426b8",
+      "trajectory_id": "successor-605f1499d44426b8-2140-correct_middle",
+      "trial": 1
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "643bdf8b02cf08e8363e3bb4e4562c57b72f2340348b20e9b628cd3a2b30285e",
+      "scene_id": "FloorPlan23",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": true,
+      "task_id": "605f1499d44426b8",
+      "trajectory_id": "successor-605f1499d44426b8-2141-correct_middle",
+      "trial": 1
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "e51d03651ed459eb4110581799038a7dc051d1f79a67eac2e8fbbd48a6672448",
+      "scene_id": "FloorPlan23",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": true,
+      "task_id": "605f1499d44426b8",
+      "trajectory_id": "successor-605f1499d44426b8-2141-neutral_full",
+      "trial": 1
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "c261f3ee26309612eca156d83c2ad2fc6cec07a483b8ea1d5e24037ee508c064",
+      "scene_id": "FloorPlan27",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": false,
+      "task_id": "f04585fcfbcaf81a",
+      "trajectory_id": "successor-f04585fcfbcaf81a-2140-neutral_full",
+      "trial": 1
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 1,
+      "posterior_before": {
+        "full_seven": [
+          0.28030606329228497,
+          0.6614262304980087,
+          0.05826770620970625
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.058855245912993466
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.08245500926275331
+      },
+      "result_file_sha256": "92681287cf3d062552e679b729fd26300f21bb05333479aed61741973451c7da",
+      "scene_id": "FloorPlan27",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "A"
+        }
+      ],
+      "success": false,
+      "task_id": "f04585fcfbcaf81a",
+      "trajectory_id": "successor-f04585fcfbcaf81a-2140-neutral_full",
+      "trial": 2
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 2,
+      "posterior_before": {
+        "full_seven": [
+          0.29346949742953454,
+          0.6588621736258892,
+          0.04766832894457639
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.0037035979550376873
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.005705265794945556
+      },
+      "result_file_sha256": "f8da3b318ca84cd8c7e5aa71cbd0d452d77a1b2a675e46fcec35833700608e2e",
+      "scene_id": "FloorPlan27",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "A"
+        },
+        {
+          "native": true,
+          "type": "A"
+        }
+      ],
+      "success": false,
+      "task_id": "f04585fcfbcaf81a",
+      "trajectory_id": "successor-f04585fcfbcaf81a-2140-neutral_full",
+      "trial": 3
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 3,
+      "posterior_before": {
+        "full_seven": [
+          0.2942993619655545,
+          0.6586926775502315,
+          0.047007960484213934
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.0002215791925274285
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.000343718118214846
+      },
+      "result_file_sha256": "6dac53fac642279ebc12d53bbf4ffb244c56cd2d22807f633c8a368202c5b2ea",
+      "scene_id": "FloorPlan27",
+      "seed": 2140,
+      "state": [
+        {
+          "native": true,
+          "type": "A"
+        },
+        {
+          "native": true,
+          "type": "A"
+        },
+        {
+          "native": true,
+          "type": "A"
+        }
+      ],
+      "success": false,
+      "task_id": "f04585fcfbcaf81a",
+      "trajectory_id": "successor-f04585fcfbcaf81a-2140-neutral_full",
+      "trial": 4
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "1f06a85109684d7dcf0edf82a93725556f71f7325aa167bdad59105839f182f2",
+      "scene_id": "FloorPlan27",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": false,
+      "task_id": "f04585fcfbcaf81a",
+      "trajectory_id": "successor-f04585fcfbcaf81a-2140-correct_middle",
+      "trial": 1
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": true,
+      "native_count": 1,
+      "posterior_before": {
+        "full_seven": [
+          0.28030606329228497,
+          0.6614262304980087,
+          0.05826770620970625
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.08210833917957178
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.1130179924224493
+      },
+      "result_file_sha256": "00182fcde062c8c122ebc0c573544043e479706cf2274af290e48c1b7e530224",
+      "scene_id": "FloorPlan27",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "task_id": "f04585fcfbcaf81a",
+      "trajectory_id": "successor-f04585fcfbcaf81a-2140-correct_middle",
+      "trial": 2
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": false,
+      "has_error": true,
+      "native_count": 2,
+      "posterior_before": {
+        "full_seven": [
+          0.29890820306344834,
+          0.656851934094705,
+          0.044239862841846535
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.003439328919249671
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.005391342258561179
+      },
+      "result_file_sha256": "27df9cd12bd118be298931850e45710ec38a3fd8b08cf9e3b61ecd6214130b6a",
+      "scene_id": "FloorPlan27",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "A"
+        }
+      ],
+      "success": false,
+      "task_id": "f04585fcfbcaf81a",
+      "trajectory_id": "successor-f04585fcfbcaf81a-2140-correct_middle",
+      "trial": 3
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": true,
+      "native_count": 3,
+      "posterior_before": {
+        "full_seven": [
+          0.29968872391731755,
+          0.6566533684865745,
+          0.043657907596107874
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.0033883615173869283
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.005326758643884506
+      },
+      "result_file_sha256": "c64f666932bb917abe277c1399a5c638dfa0a7dc5be9934b88f3a8613c96349c",
+      "scene_id": "FloorPlan27",
+      "seed": 2140,
+      "state": [
+        {
+          "native": true,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "A"
+        },
+        {
+          "native": true,
+          "type": "B"
+        }
+      ],
+      "success": false,
+      "task_id": "f04585fcfbcaf81a",
+      "trajectory_id": "successor-f04585fcfbcaf81a-2140-correct_middle",
+      "trial": 4
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "0e633c3443a33c0ebd3aeb76a3bfa92e8f8a0697b40fbb2400ae1c31788526ee",
+      "scene_id": "FloorPlan27",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": true,
+      "task_id": "f04585fcfbcaf81a",
+      "trajectory_id": "successor-f04585fcfbcaf81a-2141-correct_middle",
+      "trial": 1
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "8ed15df7108d19b643151962db558dc202202b35dd2bb218f28d471c15841617",
+      "scene_id": "FloorPlan27",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": false,
+      "task_id": "f04585fcfbcaf81a",
+      "trajectory_id": "successor-f04585fcfbcaf81a-2141-neutral_full",
+      "trial": 1
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 1,
+      "posterior_before": {
+        "full_seven": [
+          0.28030606329228497,
+          0.6614262304980087,
+          0.05826770620970625
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.35920885591046375
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.42839234448715796
+      },
+      "result_file_sha256": "a81fa595978ba7e8ad1021675f76f582bedd6896a729d74a27f135fb57158b2f",
+      "scene_id": "FloorPlan27",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "success": false,
+      "task_id": "f04585fcfbcaf81a",
+      "trajectory_id": "successor-f04585fcfbcaf81a-2141-neutral_full",
+      "trial": 2
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": true,
+      "native_count": 2,
+      "posterior_before": {
+        "full_seven": [
+          0.37713010855256995,
+          0.6012808732044372,
+          0.021589018242992794
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.045080028109144715
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.07765486208642083
+      },
+      "result_file_sha256": "eea1a96d1c5f80d4e5df247aa690455dae9bac226a2c597ce9c7f8f7f0c681a7",
+      "scene_id": "FloorPlan27",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "task_id": "f04585fcfbcaf81a",
+      "trajectory_id": "successor-f04585fcfbcaf81a-2141-neutral_full",
+      "trial": 3
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": true,
+      "native_count": 3,
+      "posterior_before": {
+        "full_seven": [
+          0.38952737920529573,
+          0.5927930123268874,
+          0.017679608467816882
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.02884459315286654
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.05229870879933086
+      },
+      "result_file_sha256": "eefdcb7943cbf2739296705dc09817e3720bebd94192ecd060509d0be961f8e8",
+      "scene_id": "FloorPlan27",
+      "seed": 2141,
+      "state": [
+        {
+          "native": true,
+          "type": "U"
+        },
+        {
+          "native": true,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "task_id": "f04585fcfbcaf81a",
+      "trajectory_id": "successor-f04585fcfbcaf81a-2141-neutral_full",
+      "trial": 4
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "d1013b8ffe4195247cb1ddb45ac736dc42a66e6af464b2216693876bbca318b4",
+      "scene_id": "FloorPlan27",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": false,
+      "task_id": "ed50cbdfb5d81244",
+      "trajectory_id": "successor-ed50cbdfb5d81244-2140-neutral_full",
+      "trial": 1
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 1,
+      "posterior_before": {
+        "full_seven": [
+          0.28030606329228497,
+          0.6614262304980087,
+          0.05826770620970625
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.35920885591046375
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.42839234448715796
+      },
+      "result_file_sha256": "1de777f365dbde5ef6241a04925a48e61a716ca1b34e8e4a40c240e2caa2c09e",
+      "scene_id": "FloorPlan27",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "success": false,
+      "task_id": "ed50cbdfb5d81244",
+      "trajectory_id": "successor-ed50cbdfb5d81244-2140-neutral_full",
+      "trial": 2
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": true,
+      "native_count": 2,
+      "posterior_before": {
+        "full_seven": [
+          0.37713010855256995,
+          0.6012808732044372,
+          0.021589018242992794
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.045080028109144715
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.07765486208642083
+      },
+      "result_file_sha256": "4ebdaefcc0808ee08f3d7cb77650599ce91592295fd4a31d171309a0c517ee12",
+      "scene_id": "FloorPlan27",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "task_id": "ed50cbdfb5d81244",
+      "trajectory_id": "successor-ed50cbdfb5d81244-2140-neutral_full",
+      "trial": 3
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": true,
+      "native_count": 3,
+      "posterior_before": {
+        "full_seven": [
+          0.38952737920529573,
+          0.5927930123268874,
+          0.017679608467816882
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.02884459315286654
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.05229870879933086
+      },
+      "result_file_sha256": "60f50f121d0a9d230f7f4d91f626c3b973c0438eacbc9d36c46a6ba01127027b",
+      "scene_id": "FloorPlan27",
+      "seed": 2140,
+      "state": [
+        {
+          "native": true,
+          "type": "U"
+        },
+        {
+          "native": true,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": true,
+      "task_id": "ed50cbdfb5d81244",
+      "trajectory_id": "successor-ed50cbdfb5d81244-2140-neutral_full",
+      "trial": 4
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "ec9d067fc52ff12919d10fcb1e164b2649b6d43cb5eb793ffe6947c934ae99b2",
+      "scene_id": "FloorPlan27",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": false,
+      "task_id": "ed50cbdfb5d81244",
+      "trajectory_id": "successor-ed50cbdfb5d81244-2140-correct_middle",
+      "trial": 1
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": true,
+      "native_count": 1,
+      "posterior_before": {
+        "full_seven": [
+          0.28030606329228497,
+          0.6614262304980087,
+          0.05826770620970625
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.08210833917957178
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.1130179924224493
+      },
+      "result_file_sha256": "ba42bf07a66536e7e91ebb2399c2c375416c8b52dc49010bad07a3e35573353c",
+      "scene_id": "FloorPlan27",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": true,
+      "task_id": "ed50cbdfb5d81244",
+      "trajectory_id": "successor-ed50cbdfb5d81244-2140-correct_middle",
+      "trial": 2
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "72d3100fee9c450abf3a247ab3b57d480ba84356051f771f45f34e6613542e86",
+      "scene_id": "FloorPlan27",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": false,
+      "task_id": "ed50cbdfb5d81244",
+      "trajectory_id": "successor-ed50cbdfb5d81244-2141-correct_middle",
+      "trial": 1
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 1,
+      "posterior_before": {
+        "full_seven": [
+          0.28030606329228497,
+          0.6614262304980087,
+          0.05826770620970625
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.35920885591046375
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.42839234448715796
+      },
+      "result_file_sha256": "6f86d1ee61189b0e8cd48e554ae28310e8146c33d5295212ab77c4dbb6bde9d0",
+      "scene_id": "FloorPlan27",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "C"
+        }
+      ],
+      "success": true,
+      "task_id": "ed50cbdfb5d81244",
+      "trajectory_id": "successor-ed50cbdfb5d81244-2141-correct_middle",
+      "trial": 2
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "f9735d7757f9b7eb81ab908841fe2186a85e20f0911b5b696e3b745c1f83abd3",
+      "scene_id": "FloorPlan27",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": false,
+      "task_id": "ed50cbdfb5d81244",
+      "trajectory_id": "successor-ed50cbdfb5d81244-2141-neutral_full",
+      "trial": 1
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": true,
+      "has_error": true,
+      "native_count": 1,
+      "posterior_before": {
+        "full_seven": [
+          0.28030606329228497,
+          0.6614262304980087,
+          0.05826770620970625
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.08210833917957178
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.1130179924224493
+      },
+      "result_file_sha256": "19fcd70fc103496291e912399b414bdc1bd9a66e723aad8e268a079824bf9230",
+      "scene_id": "FloorPlan27",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "B"
+        }
+      ],
+      "success": false,
+      "task_id": "ed50cbdfb5d81244",
+      "trajectory_id": "successor-ed50cbdfb5d81244-2141-neutral_full",
+      "trial": 2
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": true,
+      "has_error": true,
+      "native_count": 2,
+      "posterior_before": {
+        "full_seven": [
+          0.29890820306344834,
+          0.656851934094705,
+          0.044239862841846535
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.052201352167719345
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.07765486208642083
+      },
+      "result_file_sha256": "9db468e2eb801d1fe4b8df3df8fcdb3b7a17fad2ef8a4f57b9eb0998bac1d570",
+      "scene_id": "FloorPlan27",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "B"
+        },
+        {
+          "native": true,
+          "type": "B"
+        }
+      ],
+      "success": false,
+      "task_id": "ed50cbdfb5d81244",
+      "trajectory_id": "successor-ed50cbdfb5d81244-2141-neutral_full",
+      "trial": 3
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": true,
+      "has_error": true,
+      "native_count": 3,
+      "posterior_before": {
+        "full_seven": [
+          0.31105379786613485,
+          0.6524452315107548,
+          0.03650097062311032
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.033293207336908645
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.05229870879933086
+      },
+      "result_file_sha256": "94dbd2949d6a25631089d42886a898a30324d43b97ea903b61d98aa9a215647b",
+      "scene_id": "FloorPlan27",
+      "seed": 2141,
+      "state": [
+        {
+          "native": true,
+          "type": "B"
+        },
+        {
+          "native": true,
+          "type": "B"
+        },
+        {
+          "native": true,
+          "type": "B"
+        }
+      ],
+      "success": true,
+      "task_id": "ed50cbdfb5d81244",
+      "trajectory_id": "successor-ed50cbdfb5d81244-2141-neutral_full",
+      "trial": 4
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "26d1d6780b252354f57aa89b70493211f8c035e93f9ec34c0894a6aecd07bcad",
+      "scene_id": "FloorPlan8",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": true,
+      "task_id": "95f9ffde285ed945",
+      "trajectory_id": "successor-95f9ffde285ed945-2140-correct_middle",
+      "trial": 1
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "03b29b09bb93e248be6abeb09e2343b57cc712c765794b0f883eb41d65ad9b5f",
+      "scene_id": "FloorPlan8",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": true,
+      "task_id": "95f9ffde285ed945",
+      "trajectory_id": "successor-95f9ffde285ed945-2140-neutral_full",
+      "trial": 1
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "65c5d9b8aec51e85f2c45e88296c015e4d6bfcf9a257b51ac2f8d8a044269f35",
+      "scene_id": "FloorPlan8",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": true,
+      "task_id": "95f9ffde285ed945",
+      "trajectory_id": "successor-95f9ffde285ed945-2141-correct_middle",
+      "trial": 1
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "8853bfc3c0c9b07f16313837a851fab2f986ff8546f40f910d189507a1a3cbd1",
+      "scene_id": "FloorPlan8",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": true,
+      "task_id": "95f9ffde285ed945",
+      "trajectory_id": "successor-95f9ffde285ed945-2141-neutral_full",
+      "trial": 1
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "c42e4bb993e9e07014e86e765cabef07bc9a60d362d737ec39faa7fe02d3ba2f",
+      "scene_id": "FloorPlan8",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": false,
+      "task_id": "b36a8c185daa6a0b",
+      "trajectory_id": "successor-b36a8c185daa6a0b-2140-neutral_full",
+      "trial": 1
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": true,
+      "native_count": 1,
+      "posterior_before": {
+        "full_seven": [
+          0.28030606329228497,
+          0.6614262304980087,
+          0.05826770620970625
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.08210833917957178
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.1130179924224493
+      },
+      "result_file_sha256": "73cddac5447e4f326e8e0b4f9971ab80f83dee4b2e91882a06bcbdb30179851b",
+      "scene_id": "FloorPlan8",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": true,
+      "task_id": "b36a8c185daa6a0b",
+      "trajectory_id": "successor-b36a8c185daa6a0b-2140-neutral_full",
+      "trial": 2
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "bf6cdf737311786fdf6ec37d4dc7fb1e789645754ecdc5118798b525c2d455b1",
+      "scene_id": "FloorPlan8",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": false,
+      "task_id": "b36a8c185daa6a0b",
+      "trajectory_id": "successor-b36a8c185daa6a0b-2140-correct_middle",
+      "trial": 1
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 1,
+      "posterior_before": {
+        "full_seven": [
+          0.28030606329228497,
+          0.6614262304980087,
+          0.05826770620970625
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.35920885591046375
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.42839234448715796
+      },
+      "result_file_sha256": "3a158094fdb09ebaa0c67e29466322e8bce9f7ac0cf8f8e6a3444c98752be17b",
+      "scene_id": "FloorPlan8",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "success": false,
+      "task_id": "b36a8c185daa6a0b",
+      "trajectory_id": "successor-b36a8c185daa6a0b-2140-correct_middle",
+      "trial": 2
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": false,
+      "has_error": true,
+      "native_count": 2,
+      "posterior_before": {
+        "full_seven": [
+          0.37713010855256995,
+          0.6012808732044372,
+          0.021589018242992794
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.045080028109144715
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.07765486208642083
+      },
+      "result_file_sha256": "1f6144735ab44632ba5691d2ee2454c224ea0d61bd8af48cbefc05f7a6f4d51d",
+      "scene_id": "FloorPlan8",
+      "seed": 2140,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "task_id": "b36a8c185daa6a0b",
+      "trajectory_id": "successor-b36a8c185daa6a0b-2140-correct_middle",
+      "trial": 3
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": false,
+      "has_error": true,
+      "native_count": 3,
+      "posterior_before": {
+        "full_seven": [
+          0.38952737920529573,
+          0.5927930123268874,
+          0.017679608467816882
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.019021808229263172
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.03508519246302355
+      },
+      "result_file_sha256": "a14dc9f80e1518c3f2a86d586efdecc1aea6201455a983e5b2de38a6b648d74b",
+      "scene_id": "FloorPlan8",
+      "seed": 2140,
+      "state": [
+        {
+          "native": true,
+          "type": "U"
+        },
+        {
+          "native": true,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "success": false,
+      "task_id": "b36a8c185daa6a0b",
+      "trajectory_id": "successor-b36a8c185daa6a0b-2140-correct_middle",
+      "trial": 4
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "2a4d8d1db365aab98882f90bb62cf863e117af98d4dc04c5c4671b6c645059ed",
+      "scene_id": "FloorPlan8",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": false,
+      "task_id": "b36a8c185daa6a0b",
+      "trajectory_id": "successor-b36a8c185daa6a0b-2141-correct_middle",
+      "trial": 1
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": true,
+      "has_error": false,
+      "native_count": 1,
+      "posterior_before": {
+        "full_seven": [
+          0.28030606329228497,
+          0.6614262304980087,
+          0.05826770620970625
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.058855245912993466
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.08245500926275331
+      },
+      "result_file_sha256": "258009f54f5a00a8effaa7ffdff5f5a91c6c0bc4f830e136ffc22248316597cd",
+      "scene_id": "FloorPlan8",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "A"
+        }
+      ],
+      "success": false,
+      "task_id": "b36a8c185daa6a0b",
+      "trajectory_id": "successor-b36a8c185daa6a0b-2141-correct_middle",
+      "trial": 2
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 2,
+      "posterior_before": {
+        "full_seven": [
+          0.29346949742953454,
+          0.6588621736258892,
+          0.04766832894457639
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.0037035979550376873
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.005705265794945556
+      },
+      "result_file_sha256": "b3f64b24106eb91b0eabfec9f2d150e8698925233e3a309286c12919ae07fbc4",
+      "scene_id": "FloorPlan8",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "A"
+        },
+        {
+          "native": true,
+          "type": "A"
+        }
+      ],
+      "success": false,
+      "task_id": "b36a8c185daa6a0b",
+      "trajectory_id": "successor-b36a8c185daa6a0b-2141-correct_middle",
+      "trial": 3
+    },
+    {
+      "condition": "correct_middle",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 3,
+      "posterior_before": {
+        "full_seven": [
+          0.2942993619655545,
+          0.6586926775502315,
+          0.047007960484213934
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.0002215791925274285
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.000343718118214846
+      },
+      "result_file_sha256": "1e6b9534dad61998b227e6b8bdb67e65741b46e19c4f74a74cdae5e3941fb033",
+      "scene_id": "FloorPlan8",
+      "seed": 2141,
+      "state": [
+        {
+          "native": true,
+          "type": "A"
+        },
+        {
+          "native": true,
+          "type": "A"
+        },
+        {
+          "native": true,
+          "type": "A"
+        }
+      ],
+      "success": true,
+      "task_id": "b36a8c185daa6a0b",
+      "trajectory_id": "successor-b36a8c185daa6a0b-2141-correct_middle",
+      "trial": 4
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 0,
+      "posterior_before": {
+        "full_seven": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638
+      },
+      "previous_failed_attempt_had_target_pickup": null,
+      "reset_prior": {
+        "full_seven": 0.5241285781228638
+      },
+      "result_file_sha256": "26420dc9f57e9ed9de7cb4876bc865a24042e41f3bd21f6dc46e02333aae5811",
+      "scene_id": "FloorPlan8",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        }
+      ],
+      "success": false,
+      "task_id": "b36a8c185daa6a0b",
+      "trajectory_id": "successor-b36a8c185daa6a0b-2141-neutral_full",
+      "trial": 1
+    },
+    {
+      "condition": "neutral_full",
+      "has_correct": false,
+      "has_error": false,
+      "native_count": 1,
+      "posterior_before": {
+        "full_seven": [
+          0.28030606329228497,
+          0.6614262304980087,
+          0.05826770620970625
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.35920885591046375
+      },
+      "previous_failed_attempt_had_target_pickup": true,
+      "reset_prior": {
+        "full_seven": 0.42839234448715796
+      },
+      "result_file_sha256": "014cc3a58c5ee58b435cd93ded123b81a24d339f0866367a7a64812022470021",
+      "scene_id": "FloorPlan8",
+      "seed": 2141,
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "success": false,
+      "task_id": "b36a8c185daa6a0b",
+      "trajectory_id": "successor-b36a8c185daa6a0b-2141-neutral_full",
+      "trial": 2
+    }
+  ],
+  "first_attempt_index": 180,
+  "full_analysis_sha256": "65086371b073dbf0d430836f27d38762b16fd6e3dc05bd7f09d81563e195245d",
+  "initial25_labels_sha256": "f88bb99a31de4b482feba3e56e2ff0f2fb4f26b3423cce44aecf2981042bb32d",
+  "labels_sha256": "865494e9c79d447ed0a5c368a9addf78acdb2e55081dc28eaeb6f92bf350155b",
+  "manifest_sha256": "31ea84e4c0c1baca2e03a1b61e530137febc27b422fe0d84b2f200ce322df926",
+  "sha256": "93c7832af2d134bdf6894f6dbd92f4c9adfdcb926de47d8318b549ea18002022"
+}
