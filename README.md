@@ -2,9 +2,9 @@
 
 [论文中文内容初稿](paper/manuscript.md)已形成，包含研究定位、过程模型、有限窗口命题与已完成实验。[写作入口](paper/README.md)对应各项证据来源；已加入四次预算的完整结果及首轮／后续误差诊断。
 
-[680次尝试的开发校准](docs/experiments/successor-development-calibration-20261026.md)已完成：七维成功模型Brier0.15247、六维0.15656，差0.00409超过预定一个配对标准误，21/27场景损失较低，按简约规则选择七维候选。[新任务冻结验证](docs/experiments/successor-validation-20261026.md)已于10月26日23:32（北京时间）在GPU2／3启动：100个新任务、25场景、550条轨迹、最多四次尝试。三项离线检查、200次官方环境重置与四次副本请求核对通过，两个工作进程已保存真实尝试。采集期间参数固定，完成后评价多轮预算预测；原134任务继续封存。
+[七维候选的新任务冻结验证](docs/experiments/successor-validation-20261026.md)已完成100任务、25场景、550轨迹、1423次尝试。主要Brier为完整更新0.208008、固定起点0.239921，改善0.031913、场景t95%区间[−0.002122,0.065947]，主要比较仍未分辨。前两次预算预测与观测接近，四次预测65.82%、实际71.18%；六维补充参照Brier0.207288，七维增量未建立。55,261请求全部响应，预算关闭、GPU2／3服务退出，原134任务封存。下一步先用已有日志区分晚轮成功侧与反思更新侧偏差。
 
-[后继状态诊断](docs/experiments/successor-support-diagnostic-20261026.md)已完成106种反思标注、109次写入关联和217次尝试重建。弱正则化改善首轮但未统一改善后续；限制条目数外推只能解释部分偏差。[校准覆盖命题](docs/research/calibration_support_and_multistep_prediction.md)给出离开校准区域后的预算预测差上界。此后已用680次尝试、63任务、27场景完成六维与单交互七维比较，当前进行新任务冻结验证。
+[680次尝试的开发校准](docs/experiments/successor-development-calibration-20261026.md)按原简约规则选择七维候选；本轮独立新任务预算比较见上方。[后继状态诊断](docs/experiments/successor-support-diagnostic-20261026.md)及[校准覆盖命题](docs/research/calibration_support_and_multistep_prediction.md)给出了此前修订依据。当前重点是解释后续条件成功率偏差，不根据本批结果重新选择模型或追加采样。
 
 [成功侧与正则化诊断](docs/experiments/success-regularization-diagnostic-20261026.md)已完成：原优化器检查通过；在原36任务的整场景开发留出中，较弱正则化使单次Brier从0.12202降到0.11718，但C/N首轮仍低估。完全去除正则化会使稀少A状态的系数发散。λ=0.01保留为开发候选，随后已完成上方后继状态检查；原冻结参数和四次主要结果不变。
 
