@@ -1,0 +1,59 @@
+{
+  "action_shape_audit_internal_sha256": "77066a72a32453fb0a4c9f98c02c671be628fb30c93349d9faa84c7deec8b63a",
+  "action_shape_counts": {
+    "environment_style_sentence": 38,
+    "other_unmatched_shape": 201,
+    "public_command_shape": 5112,
+    "thought": 5266
+  },
+  "closeout_sha256": "8b724c9cde5cbd38ceecab7dc0229e0f4e6ee1afb4e10c75b2bf6b40a6f42acc",
+  "completed_checkpoints": 276,
+  "elapsed_collection_seconds": 13912.586287975311,
+  "global_calls": 211234,
+  "global_responses": 211234,
+  "holdout134_calls": 0,
+  "new_model_calls_for_analysis": 0,
+  "no_effect_counts_by_shape": {
+    "environment_style_sentence": 38,
+    "other_unmatched_shape": 201,
+    "public_command_shape": 1360,
+    "thought": 5266
+  },
+  "owned_service_session_absent": true,
+  "parameter_fits": 0,
+  "protocol_audit_internal_sha256": "c58451a2de71bb718070e771e8172b1de6256dcf06eda8feafcb93b825cffbf8",
+  "protocol_audit_passed": true,
+  "protocol_audit_totals": {
+    "dispatched_calls": 10838,
+    "empty_responses": 0,
+    "environment_steps": 10617,
+    "in_on_variants": 879,
+    "leading_action_markers": 10568,
+    "missing_responses": 0,
+    "no_effect_steps": 6865,
+    "physical_no_effect_steps": 1599,
+    "placement_aliases": 892,
+    "responses": 10838,
+    "thought_steps": 5266,
+    "truncated_responses": 1,
+    "unexpected_thinking_blocks": 0
+  },
+  "protocol_sha256": "07afa23379dd0341f99fefeae773a8508769e9577005495f75eed31de0c3422f",
+  "public_grammar_sha256": "c5b22f0f73309a7fd7c8e5b71de42ad4803b60766ab4a51cc2feb34162be036b",
+  "raw_action_shape_audit_file_sha256": "4257af904093a559ccaa63c09e855440448fcbc2939b2728d2470238ea47405a",
+  "raw_protocol_audit_file_sha256": "f92d1b967e36a45ae108e89d3c06e1fe8cab11f258694a039159b44950b49899",
+  "raw_summary_file_sha256": "391d477342a92ac9dd635872527ccd8da55fa6f8b16daf85a0533027591ec915",
+  "requests": {
+    "dispatched_calls": 10838,
+    "input_tokens_known": 28772276,
+    "output_tokens_known": 376646,
+    "saved_responses": 10838,
+    "truncated_responses": 1,
+    "uncertain_or_unrecorded_attempts": 0,
+    "usage_missing_responses": 0
+  },
+  "scope": "Public aggregate projection of unchanged protocol/shape audits and closeout; action excerpts and raw requests remain server-local",
+  "sha256": "d9b1bedbe2c2b6f4fb1ebbe7b276a0144859bc51a288653cc1eeb54f1c05b6df",
+  "source_freeze_commit": "d487c6832c880ece87dc6155a9bef15a8e7ea186",
+  "summary_sha256": "66c4ee6a0b48049c0574b1d51c080cd67a6eb024abe7bd7332cfa6e55847ef5a"
+}
