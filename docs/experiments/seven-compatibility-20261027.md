@@ -115,3 +115,8 @@ B指同一反思条目同时明确包含目标错误和正确说明；E条目明
 ## 8. 证据
 
 [运行源码](../../scripts/profile_seven_compatibility.py)、[独立复算](../../scripts/analyze_seven_compatibility.py)、[冻结协议](../../repro/reflexion-20261025/seven-compatibility-protocol-20261027.json)、[完整结果](../../repro/reflexion-20261025/seven-compatibility-results-20261027.json)、[重采样区间](../../repro/reflexion-20261025/seven-compatibility-uncertainty-20261027.json)、[逐条留出预测](../../repro/reflexion-20261025/seven-compatibility-predictions-20261027.json)、[94结果复算与子类诊断](../../repro/reflexion-20261025/seven-compatibility-audit-20261027.json)、[未采用候选](../../repro/reflexion-20261025/seven-compatibility-candidate-20261027.json)、[计算关闭记录](../../repro/reflexion-20261025/seven-compatibility-closeout-20261027.json)。
+
+
+## 后续进展：2026-10-28
+
+[第二轮反思与行动诊断](second-attempt-diagnostic-20261028.md)已完成全部441条记录、重点窗口232种原生全文及37个匹配组。高估与目标标签未表达的其他建议、前次加热失败及当前错误操作顺序有关；这些观察将用于同父轨迹文字干预，尚未确立因果解释或替换七维参数。

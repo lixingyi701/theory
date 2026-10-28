@@ -1,0 +1,4397 @@
+{
+  "manifest_sha256": "dd73b5172e2238c1db3b369f7ada5658299ef46f38c6be2e6f8b5fbe72ab253b",
+  "protocol_sha256": "f56bae9c3adbaf26531d0951f41c2b07431d7998c3da53e102a0b8dd4a3c9f90",
+  "records": [
+    {
+      "condition": "correct_middle",
+      "content_flags": [
+        "alternative_heating",
+        "environment_speculation",
+        "location_search",
+        "operational_state"
+      ],
+      "current_extra_actions": {
+        "goal_placement_feedback_steps": [],
+        "non_microwave_target_heat_steps": [
+          31
+        ],
+        "target_heat_command_steps": [
+          15,
+          31
+        ]
+      },
+      "current_trace": {
+        "checkpoint_sha256": "02efa0537084e3ced2d599b0c4b765cca1c2593c6cb36a241c2605d19121af26",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 1,
+        "native_won": false,
+        "physical_no_effect": 7,
+        "physical_steps": 17,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "1cba034f78ae2b6919cddad67fa9f7475d0a349d145b3cbb2aff01f922893abe",
+            "no_effect": true,
+            "step": 15
+          },
+          {
+            "command_sha256": "8d901098620917f0d997fb386d267f6b7fb596e494e93b8568b2b0695391e9c8",
+            "no_effect": true,
+            "step": 31
+          }
+        ],
+        "target_heat_attempts": 2,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          7
+        ],
+        "thought_steps": 19,
+        "unmatched_physical_shapes": 0
+      },
+      "destination_type": "garbagecan",
+      "format_invalid_responses": 0,
+      "identity_file_sha256": "986356e5cb9ef559a247a72db7c64b1a659b8afd9ffb42a4ad9fe9f48c21356e",
+      "matched_focus": true,
+      "memory_hashes": [
+        "73052362e82ccd1120d626af3d77c89cd2e3b8151f47f48f1f3cf21d35e9a822",
+        "b73aadf0b90cbc400c3e6ca9156ab2a4632054af7f242adc1f72cf4c7f91cbee",
+        "f00faef9c5905271d46147a40e01f52c00a824efcec83cba801da90a7b4ea888"
+      ],
+      "native_memory_hashes": [
+        "73052362e82ccd1120d626af3d77c89cd2e3b8151f47f48f1f3cf21d35e9a822",
+        "b73aadf0b90cbc400c3e6ca9156ab2a4632054af7f242adc1f72cf4c7f91cbee",
+        "f00faef9c5905271d46147a40e01f52c00a824efcec83cba801da90a7b4ea888"
+      ],
+      "native_texts_content_reviewed": true,
+      "outcome": null,
+      "previous_result_file_sha256": "42498770e298262a49350da90c005147a6b9cf3c56a212c0ac11047c8e2591fe",
+      "previous_trace": {
+        "checkpoint_sha256": "e78461a386e400582c4e883ee3404abb3f405e811b85abca9124d0ccb0e1d07a",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 4,
+        "native_won": false,
+        "physical_no_effect": 11,
+        "physical_steps": 24,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "2c45f43fef1b074a7c6b13bb502e2d73f95b42db6a78c3996084b77bf0e55d64",
+            "no_effect": true,
+            "step": 21
+          },
+          {
+            "command_sha256": "263e78f06655a9a0597e2d3378d2b737fb8e66d39a2e19a8770b4fdeb9cb3a9a",
+            "no_effect": true,
+            "step": 27
+          }
+        ],
+        "target_heat_attempts": 2,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          7
+        ],
+        "thought_steps": 25,
+        "unmatched_physical_shapes": 1
+      },
+      "priority_error_absent": false,
+      "raw_checkpoint_file_sha256": "7f1749c37a2555149d1d32ac5abc10bcee8efd282ebde3f6b4e7439af5cca371",
+      "result_file_sha256": "05d4220ce9d0979d89df2972aac87ce47b71a3aee361e66b0655ac1eef2271fe",
+      "result_status": "repeat_or_decision_budget",
+      "scene_id": "FloorPlan1",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": true,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "B"
+        },
+        {
+          "native": true,
+          "type": "B"
+        }
+      ],
+      "success": false,
+      "target_type": "egg",
+      "task_id": "d81ea4659702239a",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_id": "successor-d81ea4659702239a-2140-correct_middle",
+      "trial": 4,
+      "truncated_responses": 0
+    },
+    {
+      "condition": "neutral_full",
+      "content_flags": [
+        "alternative_heating",
+        "operational_state"
+      ],
+      "current_extra_actions": {
+        "goal_placement_feedback_steps": [],
+        "non_microwave_target_heat_steps": [],
+        "target_heat_command_steps": [
+          14
+        ]
+      },
+      "current_trace": {
+        "checkpoint_sha256": "37764fbe1e396653f2af165e3b0924cb611996ccf59bc8537a2710fe3f12fd60",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 4,
+        "native_won": false,
+        "physical_no_effect": 8,
+        "physical_steps": 19,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "1cba034f78ae2b6919cddad67fa9f7475d0a349d145b3cbb2aff01f922893abe",
+            "no_effect": true,
+            "step": 14
+          }
+        ],
+        "target_heat_attempts": 1,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          7
+        ],
+        "thought_steps": 23,
+        "unmatched_physical_shapes": 0
+      },
+      "destination_type": "garbagecan",
+      "format_invalid_responses": 0,
+      "identity_file_sha256": "1423979c899fe37b35f47ec7f12bdf30a6d66c2b51d91b510ee77bfeeb6a0b69",
+      "matched_focus": true,
+      "memory_hashes": [
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "90302dab6c40b602ff224ceda77bbbf1cb248700422f04d61173d65965f6285c"
+      ],
+      "native_memory_hashes": [
+        "90302dab6c40b602ff224ceda77bbbf1cb248700422f04d61173d65965f6285c"
+      ],
+      "native_texts_content_reviewed": true,
+      "outcome": "B",
+      "previous_result_file_sha256": "440f59dd70b84f1172b50e041b7ec963bd7c80f6943f0dd316e9d6974dd096a2",
+      "previous_trace": {
+        "checkpoint_sha256": "d0944096e48a2546468d428a858ae9c34c83f8cd834adf6d0ce459043d225bfd",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 3,
+        "native_won": false,
+        "physical_no_effect": 6,
+        "physical_steps": 27,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "1cba034f78ae2b6919cddad67fa9f7475d0a349d145b3cbb2aff01f922893abe",
+            "no_effect": true,
+            "step": 14
+          },
+          {
+            "command_sha256": "1cba034f78ae2b6919cddad67fa9f7475d0a349d145b3cbb2aff01f922893abe",
+            "no_effect": true,
+            "step": 20
+          },
+          {
+            "command_sha256": "1cba034f78ae2b6919cddad67fa9f7475d0a349d145b3cbb2aff01f922893abe",
+            "no_effect": true,
+            "step": 25
+          }
+        ],
+        "target_heat_attempts": 3,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          7
+        ],
+        "thought_steps": 22,
+        "unmatched_physical_shapes": 0
+      },
+      "priority_error_absent": false,
+      "raw_checkpoint_file_sha256": "a53331ec1059ef40ade2b65c7613e23dd1bebc133da3c520f60300909ff6b0f7",
+      "result_file_sha256": "e1096271d51063438e43fde1f0ed5c34c477bcf8fb4c1c1185881a6a8e8a1804",
+      "result_status": "repeat_or_decision_budget",
+      "scene_id": "FloorPlan1",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "target_type": "egg",
+      "task_id": "d81ea4659702239a",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_id": "successor-d81ea4659702239a-2140-neutral_full",
+      "trial": 2,
+      "truncated_responses": 0
+    },
+    {
+      "condition": "correct_middle",
+      "content_flags": [
+        "alternative_heating",
+        "operational_state"
+      ],
+      "current_extra_actions": {
+        "goal_placement_feedback_steps": [],
+        "non_microwave_target_heat_steps": [],
+        "target_heat_command_steps": [
+          15,
+          20
+        ]
+      },
+      "current_trace": {
+        "checkpoint_sha256": "c4c50aab967f81e5d5b0db89a77d69e25735ac58841abd89935a33a2d0d889e5",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 6,
+        "native_won": false,
+        "physical_no_effect": 12,
+        "physical_steps": 25,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "1cba034f78ae2b6919cddad67fa9f7475d0a349d145b3cbb2aff01f922893abe",
+            "no_effect": true,
+            "step": 15
+          },
+          {
+            "command_sha256": "1cba034f78ae2b6919cddad67fa9f7475d0a349d145b3cbb2aff01f922893abe",
+            "no_effect": true,
+            "step": 20
+          }
+        ],
+        "target_heat_attempts": 2,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          7
+        ],
+        "thought_steps": 24,
+        "unmatched_physical_shapes": 1
+      },
+      "destination_type": "garbagecan",
+      "format_invalid_responses": 0,
+      "identity_file_sha256": "ca6d765c78d2a55505fe8c5715bb0501942def1166613743a00038931a502653",
+      "matched_focus": true,
+      "memory_hashes": [
+        "9b31be3d7f39547fbd7510cfcc17e5f2fa0d014888fbd38c4508680dc1120238",
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "b1f989e6ecb5290f0bb1dbac28850029652dcb6de695bd7cb58dc4c4fc1c4e57"
+      ],
+      "native_memory_hashes": [
+        "b1f989e6ecb5290f0bb1dbac28850029652dcb6de695bd7cb58dc4c4fc1c4e57"
+      ],
+      "native_texts_content_reviewed": true,
+      "outcome": "E",
+      "previous_result_file_sha256": "707f54a7fa83c35e36c22c8ad8d25b14129302820ccf688593d0e054774ec31a",
+      "previous_trace": {
+        "checkpoint_sha256": "7e717a0893ef3767305928b9bf54ffe39993a6241cbbd0f349e41d2e8d11e992",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 3,
+        "native_won": false,
+        "physical_no_effect": 11,
+        "physical_steps": 25,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "1cba034f78ae2b6919cddad67fa9f7475d0a349d145b3cbb2aff01f922893abe",
+            "no_effect": true,
+            "step": 14
+          },
+          {
+            "command_sha256": "1cba034f78ae2b6919cddad67fa9f7475d0a349d145b3cbb2aff01f922893abe",
+            "no_effect": true,
+            "step": 20
+          },
+          {
+            "command_sha256": "1cba034f78ae2b6919cddad67fa9f7475d0a349d145b3cbb2aff01f922893abe",
+            "no_effect": true,
+            "step": 28
+          },
+          {
+            "command_sha256": "2c45f43fef1b074a7c6b13bb502e2d73f95b42db6a78c3996084b77bf0e55d64",
+            "no_effect": true,
+            "step": 35
+          },
+          {
+            "command_sha256": "263e78f06655a9a0597e2d3378d2b737fb8e66d39a2e19a8770b4fdeb9cb3a9a",
+            "no_effect": true,
+            "step": 45
+          }
+        ],
+        "target_heat_attempts": 5,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          7
+        ],
+        "thought_steps": 24,
+        "unmatched_physical_shapes": 2
+      },
+      "priority_error_absent": false,
+      "raw_checkpoint_file_sha256": "461d87df2c1b62effc2223935fd65619bf86b916016dd26bb7cb63f916be23b2",
+      "result_file_sha256": "5f664e935797a8baf921fafd832e3058119772a5cc2c02036bd8e6764f9d15f5",
+      "result_status": "repeat_or_decision_budget",
+      "scene_id": "FloorPlan1",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "B"
+        }
+      ],
+      "success": false,
+      "target_type": "egg",
+      "task_id": "d81ea4659702239a",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_id": "successor-d81ea4659702239a-2141-correct_middle",
+      "trial": 2,
+      "truncated_responses": 0
+    },
+    {
+      "condition": "neutral_full",
+      "content_flags": [
+        "alternative_heating",
+        "location_search",
+        "operational_state"
+      ],
+      "current_extra_actions": {
+        "goal_placement_feedback_steps": [],
+        "non_microwave_target_heat_steps": [],
+        "target_heat_command_steps": []
+      },
+      "current_trace": {
+        "checkpoint_sha256": "2dcf06f5363acdd26966538d7468a0df0bebdcb61650cb848cae726b13d44573",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 3,
+        "native_won": false,
+        "physical_no_effect": 6,
+        "physical_steps": 28,
+        "placed_then_heat_without_pickup": [],
+        "target_heat_attempts": 0,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          7
+        ],
+        "thought_steps": 21,
+        "unmatched_physical_shapes": 0
+      },
+      "destination_type": "garbagecan",
+      "format_invalid_responses": 0,
+      "identity_file_sha256": "6d1cb2349cea6f8ce9296786bb3552149d51b300da00922ec24dbbc67245b113",
+      "matched_focus": false,
+      "memory_hashes": [
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "19ec724e77a37c92b052e33a465b2fe9264a48924900bb1a8ce4af4d4e6e2ad6"
+      ],
+      "native_memory_hashes": [
+        "19ec724e77a37c92b052e33a465b2fe9264a48924900bb1a8ce4af4d4e6e2ad6"
+      ],
+      "native_texts_content_reviewed": true,
+      "outcome": "E",
+      "previous_result_file_sha256": "d03d40a1a3315fc44a82c82063a43a52e3b5ceec3215cdaebd4f6e874aaccbb5",
+      "previous_trace": {
+        "checkpoint_sha256": "cdc6025fa536a99e0504d1b16dd8623eccd534d16ea854836174d56bfd4e952f",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 3,
+        "native_won": false,
+        "physical_no_effect": 9,
+        "physical_steps": 25,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "1cba034f78ae2b6919cddad67fa9f7475d0a349d145b3cbb2aff01f922893abe",
+            "no_effect": true,
+            "step": 14
+          },
+          {
+            "command_sha256": "1cba034f78ae2b6919cddad67fa9f7475d0a349d145b3cbb2aff01f922893abe",
+            "no_effect": true,
+            "step": 23
+          },
+          {
+            "command_sha256": "1cba034f78ae2b6919cddad67fa9f7475d0a349d145b3cbb2aff01f922893abe",
+            "no_effect": true,
+            "step": 25
+          }
+        ],
+        "target_heat_attempts": 3,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          7
+        ],
+        "thought_steps": 24,
+        "unmatched_physical_shapes": 0
+      },
+      "priority_error_absent": true,
+      "raw_checkpoint_file_sha256": "c606f9cc9b86a48bb8670f237ba91ccd7bcddecdece7a86b7f4c5db233fccd82",
+      "result_file_sha256": "bfcb6c5e9aca623489cd1ed08c3660221b495516652155836e48ffe6e0ea0906",
+      "result_status": "repeat_or_decision_budget",
+      "scene_id": "FloorPlan1",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "success": false,
+      "target_type": "egg",
+      "task_id": "d81ea4659702239a",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_id": "successor-d81ea4659702239a-2141-neutral_full",
+      "trial": 2,
+      "truncated_responses": 0
+    },
+    {
+      "condition": "neutral_full",
+      "content_flags": [
+        "alternative_heating",
+        "location_search",
+        "operational_state"
+      ],
+      "current_extra_actions": {
+        "goal_placement_feedback_steps": [],
+        "non_microwave_target_heat_steps": [],
+        "target_heat_command_steps": []
+      },
+      "current_trace": {
+        "checkpoint_sha256": "4796fd8623b44796d140e2b8becfa7fcaf928226ae4c9b40b1fd1d45f65f1921",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 2,
+        "native_won": false,
+        "physical_no_effect": 6,
+        "physical_steps": 17,
+        "placed_then_heat_without_pickup": [],
+        "target_heat_attempts": 0,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          7
+        ],
+        "thought_steps": 19,
+        "unmatched_physical_shapes": 0
+      },
+      "destination_type": "garbagecan",
+      "format_invalid_responses": 0,
+      "identity_file_sha256": "e7e2447dc03949f3d4be469483ceb10bdd02cd35e5c62485c5728aa2d18cd09e",
+      "matched_focus": true,
+      "memory_hashes": [
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "19ec724e77a37c92b052e33a465b2fe9264a48924900bb1a8ce4af4d4e6e2ad6",
+        "3211633b11a9595458ac0ef7ead4cfd131a9fd814c10fd1b434f99de6e9cb340"
+      ],
+      "native_memory_hashes": [
+        "19ec724e77a37c92b052e33a465b2fe9264a48924900bb1a8ce4af4d4e6e2ad6",
+        "3211633b11a9595458ac0ef7ead4cfd131a9fd814c10fd1b434f99de6e9cb340"
+      ],
+      "native_texts_content_reviewed": true,
+      "outcome": "E",
+      "previous_result_file_sha256": "bfcb6c5e9aca623489cd1ed08c3660221b495516652155836e48ffe6e0ea0906",
+      "previous_trace": {
+        "checkpoint_sha256": "2dcf06f5363acdd26966538d7468a0df0bebdcb61650cb848cae726b13d44573",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 3,
+        "native_won": false,
+        "physical_no_effect": 6,
+        "physical_steps": 28,
+        "placed_then_heat_without_pickup": [],
+        "target_heat_attempts": 0,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          7
+        ],
+        "thought_steps": 21,
+        "unmatched_physical_shapes": 0
+      },
+      "priority_error_absent": false,
+      "raw_checkpoint_file_sha256": "7bab93c53cab1ac9f190c79e3511d98583ce6845ab1083efb434a38491855dde",
+      "result_file_sha256": "29b7a84cd2468bff75572e4da88368802ec1905bbfca218bdcd31bd079613d3c",
+      "result_status": "repeat_or_decision_budget",
+      "scene_id": "FloorPlan1",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "target_type": "egg",
+      "task_id": "d81ea4659702239a",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_id": "successor-d81ea4659702239a-2141-neutral_full",
+      "trial": 3,
+      "truncated_responses": 0
+    },
+    {
+      "condition": "neutral_full",
+      "content_flags": [
+        "alternative_heating",
+        "command_format",
+        "location_search",
+        "operational_state"
+      ],
+      "current_extra_actions": {
+        "goal_placement_feedback_steps": [
+          24
+        ],
+        "non_microwave_target_heat_steps": [],
+        "target_heat_command_steps": [
+          21
+        ]
+      },
+      "current_trace": {
+        "checkpoint_sha256": "c57df24b1bc04f5cacda9e78a526326a59c82970fee57a8aa987020b0aa0f683",
+        "failure_stage": "won",
+        "max_repeated_no_effect_action": 3,
+        "native_won": true,
+        "physical_no_effect": 6,
+        "physical_steps": 13,
+        "placed_then_heat_without_pickup": [],
+        "target_heat_attempts": 1,
+        "target_heat_success_steps": [
+          21
+        ],
+        "target_pickup_steps": [
+          10
+        ],
+        "thought_steps": 12,
+        "unmatched_physical_shapes": 0
+      },
+      "destination_type": "garbagecan",
+      "format_invalid_responses": 0,
+      "identity_file_sha256": "01c0c5a5bbdb7b03f4f9b42a9fc69aeeb757a559c2d4a9649460dd1c8e5aefc1",
+      "matched_focus": true,
+      "memory_hashes": [
+        "19ec724e77a37c92b052e33a465b2fe9264a48924900bb1a8ce4af4d4e6e2ad6",
+        "3211633b11a9595458ac0ef7ead4cfd131a9fd814c10fd1b434f99de6e9cb340",
+        "fc7c80bc41b1b2fc766bb609d1f9c11e0859ad2b5e36ecf69a7bd816ce69f3fd"
+      ],
+      "native_memory_hashes": [
+        "19ec724e77a37c92b052e33a465b2fe9264a48924900bb1a8ce4af4d4e6e2ad6",
+        "3211633b11a9595458ac0ef7ead4cfd131a9fd814c10fd1b434f99de6e9cb340",
+        "fc7c80bc41b1b2fc766bb609d1f9c11e0859ad2b5e36ecf69a7bd816ce69f3fd"
+      ],
+      "native_texts_content_reviewed": true,
+      "outcome": "S",
+      "previous_result_file_sha256": "29b7a84cd2468bff75572e4da88368802ec1905bbfca218bdcd31bd079613d3c",
+      "previous_trace": {
+        "checkpoint_sha256": "4796fd8623b44796d140e2b8becfa7fcaf928226ae4c9b40b1fd1d45f65f1921",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 2,
+        "native_won": false,
+        "physical_no_effect": 6,
+        "physical_steps": 17,
+        "placed_then_heat_without_pickup": [],
+        "target_heat_attempts": 0,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          7
+        ],
+        "thought_steps": 19,
+        "unmatched_physical_shapes": 0
+      },
+      "priority_error_absent": false,
+      "raw_checkpoint_file_sha256": "38a92c82e5c097f29215133b4ac950dc53a2e080ae17a084b3552d941d8d9106",
+      "result_file_sha256": "d8d6dda07b0154c317b0d3155889b9a68059e75c204b6c0c47ce1a28f73a3086",
+      "result_status": "success",
+      "scene_id": "FloorPlan1",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": true,
+          "type": "U"
+        },
+        {
+          "native": true,
+          "type": "E"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": true,
+      "target_type": "egg",
+      "task_id": "d81ea4659702239a",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_id": "successor-d81ea4659702239a-2141-neutral_full",
+      "trial": 4,
+      "truncated_responses": 0
+    },
+    {
+      "condition": "correct_middle",
+      "content_flags": null,
+      "current_extra_actions": {
+        "goal_placement_feedback_steps": [],
+        "non_microwave_target_heat_steps": [],
+        "target_heat_command_steps": [
+          18,
+          22,
+          25
+        ]
+      },
+      "current_trace": {
+        "checkpoint_sha256": "6323ab0d73b655db0f412dac885fa36247af3b7d8181447b12644123097efe2f",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 3,
+        "native_won": false,
+        "physical_no_effect": 8,
+        "physical_steps": 23,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "62ddb1537265fc839a7b2ecc8716fae66b02242018d11ed2fddd6979c2d04339",
+            "no_effect": true,
+            "step": 18
+          },
+          {
+            "command_sha256": "62ddb1537265fc839a7b2ecc8716fae66b02242018d11ed2fddd6979c2d04339",
+            "no_effect": true,
+            "step": 22
+          },
+          {
+            "command_sha256": "62ddb1537265fc839a7b2ecc8716fae66b02242018d11ed2fddd6979c2d04339",
+            "no_effect": true,
+            "step": 25
+          }
+        ],
+        "target_heat_attempts": 3,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          11
+        ],
+        "thought_steps": 26,
+        "unmatched_physical_shapes": 0
+      },
+      "destination_type": "coffeemachine",
+      "format_invalid_responses": 0,
+      "identity_file_sha256": "33293900954b4f6f3d5f830b4baa8d709476412151f8ba969e8ef354ac7db2b3",
+      "matched_focus": false,
+      "memory_hashes": [
+        "9b31be3d7f39547fbd7510cfcc17e5f2fa0d014888fbd38c4508680dc1120238",
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "6fc3ece52df03b837d9ab590d922cf3232a021ebb8987458fe29c15f73719ea7"
+      ],
+      "native_memory_hashes": [
+        "6fc3ece52df03b837d9ab590d922cf3232a021ebb8987458fe29c15f73719ea7"
+      ],
+      "native_texts_content_reviewed": false,
+      "outcome": "E",
+      "previous_result_file_sha256": "2d9f8023f62de05d2f64de80c3b5671885bb5e9dcc22f55689987149f992f5b8",
+      "previous_trace": {
+        "checkpoint_sha256": "138f0ac79ce9c55b2a83f8ce41a547fa8029e481624833b58040418baae44f2d",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 0,
+        "native_won": false,
+        "physical_no_effect": 0,
+        "physical_steps": 29,
+        "placed_then_heat_without_pickup": [],
+        "target_heat_attempts": 0,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          45
+        ],
+        "thought_steps": 20,
+        "unmatched_physical_shapes": 0
+      },
+      "priority_error_absent": false,
+      "raw_checkpoint_file_sha256": "76120ca0892a60f13a321c1b0f207e0dbd0b499d0a6f7bddc07ce61cf25a87e7",
+      "result_file_sha256": "46bb9c4507b5c56ea2126908ef29569a7091b8dba49ffa7e6c8ad55d3f953099",
+      "result_status": "repeat_or_decision_budget",
+      "scene_id": "FloorPlan23",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "target_type": "mug",
+      "task_id": "db41360bf2841686",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_id": "successor-db41360bf2841686-2140-correct_middle",
+      "trial": 2,
+      "truncated_responses": 0
+    },
+    {
+      "condition": "neutral_full",
+      "content_flags": [
+        "alternative_heating",
+        "environment_speculation",
+        "location_search"
+      ],
+      "current_extra_actions": {
+        "goal_placement_feedback_steps": [],
+        "non_microwave_target_heat_steps": [],
+        "target_heat_command_steps": []
+      },
+      "current_trace": {
+        "checkpoint_sha256": "d8a7c3153001eab99ce68c1152a1ae9661038f34d00a4a61176b11a0721a783f",
+        "failure_stage": "no_target_pickup",
+        "max_repeated_no_effect_action": 7,
+        "native_won": false,
+        "physical_no_effect": 7,
+        "physical_steps": 27,
+        "placed_then_heat_without_pickup": [],
+        "target_heat_attempts": 0,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [],
+        "thought_steps": 22,
+        "unmatched_physical_shapes": 0
+      },
+      "destination_type": "coffeemachine",
+      "format_invalid_responses": 0,
+      "identity_file_sha256": "590485a54c39ca041e31cb0452d7d5803ef3abaadbe08192c6eeeb34212188ad",
+      "matched_focus": false,
+      "memory_hashes": [
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "ee92550d86d9f321c6dfe07523540b0740bc9f1f97ca90bf01f8f5218c4e6908"
+      ],
+      "native_memory_hashes": [
+        "ee92550d86d9f321c6dfe07523540b0740bc9f1f97ca90bf01f8f5218c4e6908"
+      ],
+      "native_texts_content_reviewed": true,
+      "outcome": "U",
+      "previous_result_file_sha256": "9fc53b1f9a0d21ba5ec345729e501b394a2b441346b3bb16712f0d85938f6696",
+      "previous_trace": {
+        "checkpoint_sha256": "376d06c82f9cb715fd05a54bccab5848ef565591c694b622ddb66edc0b9cbd20",
+        "failure_stage": "no_target_pickup",
+        "max_repeated_no_effect_action": 1,
+        "native_won": false,
+        "physical_no_effect": 1,
+        "physical_steps": 28,
+        "placed_then_heat_without_pickup": [],
+        "target_heat_attempts": 0,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [],
+        "thought_steps": 21,
+        "unmatched_physical_shapes": 0
+      },
+      "priority_error_absent": true,
+      "raw_checkpoint_file_sha256": "620c59cdeb19f2bdb24ea58af9e7c02fa5ed7d3faef3d6a7b012fcae25d81992",
+      "result_file_sha256": "9ec3dbbfd138014464fcbdefa8dde372951b989650f0f355ad3a3d6e8b58fd17",
+      "result_status": "repeat_or_decision_budget",
+      "scene_id": "FloorPlan23",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "success": false,
+      "target_type": "mug",
+      "task_id": "db41360bf2841686",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_id": "successor-db41360bf2841686-2140-neutral_full",
+      "trial": 2,
+      "truncated_responses": 0
+    },
+    {
+      "condition": "correct_middle",
+      "content_flags": [
+        "environment_speculation",
+        "location_search",
+        "operational_state"
+      ],
+      "current_extra_actions": {
+        "goal_placement_feedback_steps": [],
+        "non_microwave_target_heat_steps": [],
+        "target_heat_command_steps": [
+          16,
+          23
+        ]
+      },
+      "current_trace": {
+        "checkpoint_sha256": "03b456124194941fb446394e738e9e40a8e6319bebe90841db984e80a5217b6d",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 2,
+        "native_won": false,
+        "physical_no_effect": 8,
+        "physical_steps": 24,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "62ddb1537265fc839a7b2ecc8716fae66b02242018d11ed2fddd6979c2d04339",
+            "no_effect": true,
+            "step": 16
+          },
+          {
+            "command_sha256": "62ddb1537265fc839a7b2ecc8716fae66b02242018d11ed2fddd6979c2d04339",
+            "no_effect": true,
+            "step": 23
+          }
+        ],
+        "target_heat_attempts": 2,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          9,
+          20
+        ],
+        "thought_steps": 25,
+        "unmatched_physical_shapes": 3
+      },
+      "destination_type": "coffeemachine",
+      "format_invalid_responses": 0,
+      "identity_file_sha256": "00fbe9d921c636c0adcd3cf864307032b8865d9af33d04404c25fc93d72ff4b1",
+      "matched_focus": false,
+      "memory_hashes": [
+        "9b31be3d7f39547fbd7510cfcc17e5f2fa0d014888fbd38c4508680dc1120238",
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "2dc97c4a60f69ba25d067a9f490f22a0b75d014b2e90cafd677492ad74009bb1"
+      ],
+      "native_memory_hashes": [
+        "2dc97c4a60f69ba25d067a9f490f22a0b75d014b2e90cafd677492ad74009bb1"
+      ],
+      "native_texts_content_reviewed": true,
+      "outcome": "E",
+      "previous_result_file_sha256": "e04cdc41f2e5c85fd45323ff34648ab3500a0bf9c9a19d0588e6b76b7e10a12d",
+      "previous_trace": {
+        "checkpoint_sha256": "0fb8f9671cd498c42e45f960c832745b8c17ee20e19a656f57b865069ab72927",
+        "failure_stage": "no_target_pickup",
+        "max_repeated_no_effect_action": 0,
+        "native_won": false,
+        "physical_no_effect": 0,
+        "physical_steps": 27,
+        "placed_then_heat_without_pickup": [],
+        "target_heat_attempts": 0,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [],
+        "thought_steps": 22,
+        "unmatched_physical_shapes": 0
+      },
+      "priority_error_absent": true,
+      "raw_checkpoint_file_sha256": "606fc8eb9864a79d40d4e71c0def015f2c71152882e2dd6f25a87e28b430d0c8",
+      "result_file_sha256": "db4755e1895932b0ef838c94696c96b095173c2c14f2418310689ed776121546",
+      "result_status": "repeat_or_decision_budget",
+      "scene_id": "FloorPlan23",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "success": false,
+      "target_type": "mug",
+      "task_id": "db41360bf2841686",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_id": "successor-db41360bf2841686-2141-correct_middle",
+      "trial": 2,
+      "truncated_responses": 0
+    },
+    {
+      "condition": "neutral_full",
+      "content_flags": [
+        "location_search"
+      ],
+      "current_extra_actions": {
+        "goal_placement_feedback_steps": [],
+        "non_microwave_target_heat_steps": [],
+        "target_heat_command_steps": [
+          18,
+          20,
+          42
+        ]
+      },
+      "current_trace": {
+        "checkpoint_sha256": "ac08051d374dee0583df6217397b9c2ca13b9138fb4e9d8fcef8b3037a1b4f17",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 3,
+        "native_won": false,
+        "physical_no_effect": 9,
+        "physical_steps": 24,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "62ddb1537265fc839a7b2ecc8716fae66b02242018d11ed2fddd6979c2d04339",
+            "no_effect": true,
+            "step": 18
+          },
+          {
+            "command_sha256": "62ddb1537265fc839a7b2ecc8716fae66b02242018d11ed2fddd6979c2d04339",
+            "no_effect": true,
+            "step": 20
+          },
+          {
+            "command_sha256": "62ddb1537265fc839a7b2ecc8716fae66b02242018d11ed2fddd6979c2d04339",
+            "no_effect": true,
+            "step": 42
+          }
+        ],
+        "target_heat_attempts": 3,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          11
+        ],
+        "thought_steps": 25,
+        "unmatched_physical_shapes": 0
+      },
+      "destination_type": "coffeemachine",
+      "format_invalid_responses": 0,
+      "identity_file_sha256": "ef262cef88e137caa4c1ae429ef5d996feee9a868a83974eff82472a94fb1d59",
+      "matched_focus": false,
+      "memory_hashes": [
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "892e697b6b24eaf12f8f4e2d83defe12b1ffc88ad9499d1599bd9bd065c3ade9"
+      ],
+      "native_memory_hashes": [
+        "892e697b6b24eaf12f8f4e2d83defe12b1ffc88ad9499d1599bd9bd065c3ade9"
+      ],
+      "native_texts_content_reviewed": true,
+      "outcome": "E",
+      "previous_result_file_sha256": "a788df16187259791d4bc799fb6493f87040961a0a5d33f79799631736a40526",
+      "previous_trace": {
+        "checkpoint_sha256": "a27a375cb6f1c1e0b0ae9b339350eb9b46c6b03a7007e059e1478234b629b4c1",
+        "failure_stage": "no_target_pickup",
+        "max_repeated_no_effect_action": 1,
+        "native_won": false,
+        "physical_no_effect": 1,
+        "physical_steps": 6,
+        "placed_then_heat_without_pickup": [],
+        "target_heat_attempts": 0,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [],
+        "thought_steps": 8,
+        "unmatched_physical_shapes": 0
+      },
+      "priority_error_absent": true,
+      "raw_checkpoint_file_sha256": "fa96c467e1138a7177508b1ccb45540ba10f881cbd8608774532f24f110ccccd",
+      "result_file_sha256": "8af4d166d118bdad566cabeac146aae341339f7a37e8fe61f408660f09e7a2ae",
+      "result_status": "repeat_or_decision_budget",
+      "scene_id": "FloorPlan23",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "success": false,
+      "target_type": "mug",
+      "task_id": "db41360bf2841686",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_id": "successor-db41360bf2841686-2141-neutral_full",
+      "trial": 2,
+      "truncated_responses": 0
+    },
+    {
+      "condition": "correct_middle",
+      "content_flags": [
+        "alternative_heating",
+        "operational_state"
+      ],
+      "current_extra_actions": {
+        "goal_placement_feedback_steps": [
+          26
+        ],
+        "non_microwave_target_heat_steps": [],
+        "target_heat_command_steps": [
+          12,
+          23
+        ]
+      },
+      "current_trace": {
+        "checkpoint_sha256": "c7d56fcd53a41ed1394af47b76f06bcb6acb6c9c1a97e4631cde77ec1d9b2fb7",
+        "failure_stage": "won",
+        "max_repeated_no_effect_action": 3,
+        "native_won": true,
+        "physical_no_effect": 4,
+        "physical_steps": 14,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "62ddb1537265fc839a7b2ecc8716fae66b02242018d11ed2fddd6979c2d04339",
+            "no_effect": true,
+            "step": 12
+          }
+        ],
+        "target_heat_attempts": 2,
+        "target_heat_success_steps": [
+          23
+        ],
+        "target_pickup_steps": [
+          5,
+          17
+        ],
+        "thought_steps": 13,
+        "unmatched_physical_shapes": 0
+      },
+      "destination_type": "shelf",
+      "format_invalid_responses": 0,
+      "identity_file_sha256": "a883b34def631a7aeb44328255f5939ccbed3e313b3a6ea1e06d4c927d071d95",
+      "matched_focus": true,
+      "memory_hashes": [
+        "9b31be3d7f39547fbd7510cfcc17e5f2fa0d014888fbd38c4508680dc1120238",
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "e093299702927a70692349de142e1db3ab5e48dc623bdb1e7988916a46390ce4"
+      ],
+      "native_memory_hashes": [
+        "e093299702927a70692349de142e1db3ab5e48dc623bdb1e7988916a46390ce4"
+      ],
+      "native_texts_content_reviewed": true,
+      "outcome": "S",
+      "previous_result_file_sha256": "afd7c58afb41dea099b0a18e8fa36507f2d71ebb791e30acfd8f81f016d176ae",
+      "previous_trace": {
+        "checkpoint_sha256": "33af68e700b61ebc37e0d8dd927038a33296606290dad331b514bc7e5a789300",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 4,
+        "native_won": false,
+        "physical_no_effect": 11,
+        "physical_steps": 21,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "62ddb1537265fc839a7b2ecc8716fae66b02242018d11ed2fddd6979c2d04339",
+            "no_effect": true,
+            "step": 12
+          },
+          {
+            "command_sha256": "62ddb1537265fc839a7b2ecc8716fae66b02242018d11ed2fddd6979c2d04339",
+            "no_effect": true,
+            "step": 19
+          }
+        ],
+        "target_heat_attempts": 2,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          5
+        ],
+        "thought_steps": 28,
+        "unmatched_physical_shapes": 0
+      },
+      "priority_error_absent": false,
+      "raw_checkpoint_file_sha256": "d2912974a0679e54c4f66db3943718b27909ebcb68eaa3df9d218361cf1c4a09",
+      "result_file_sha256": "7ce3552ee377280fa27d6dde91d7c6bf6493f049e3fa5dc018e17cfaf0de06e5",
+      "result_status": "success",
+      "scene_id": "FloorPlan5",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "B"
+        }
+      ],
+      "success": true,
+      "target_type": "mug",
+      "task_id": "de311a7af4272464",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_id": "successor-de311a7af4272464-2140-correct_middle",
+      "trial": 2,
+      "truncated_responses": 0
+    },
+    {
+      "condition": "neutral_full",
+      "content_flags": [
+        "alternative_heating",
+        "command_format",
+        "location_search",
+        "operational_state"
+      ],
+      "current_extra_actions": {
+        "goal_placement_feedback_steps": [],
+        "non_microwave_target_heat_steps": [],
+        "target_heat_command_steps": [
+          12
+        ]
+      },
+      "current_trace": {
+        "checkpoint_sha256": "2834e797beb252500862a6a39a9e86b7f2d9d06a89674707d4d302046588fe87",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 1,
+        "native_won": false,
+        "physical_no_effect": 2,
+        "physical_steps": 9,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "62ddb1537265fc839a7b2ecc8716fae66b02242018d11ed2fddd6979c2d04339",
+            "no_effect": true,
+            "step": 12
+          }
+        ],
+        "target_heat_attempts": 1,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          5
+        ],
+        "thought_steps": 10,
+        "unmatched_physical_shapes": 1
+      },
+      "destination_type": "shelf",
+      "format_invalid_responses": 0,
+      "identity_file_sha256": "a2722e26023ddfb6ccc73deafb091b1c2566e65a63e0aecd0451da2af20c66a0",
+      "matched_focus": true,
+      "memory_hashes": [
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "1d2636691c240c615f70d5c3c899e3ee2e076caea2dd04337c24df03e6bb5801"
+      ],
+      "native_memory_hashes": [
+        "1d2636691c240c615f70d5c3c899e3ee2e076caea2dd04337c24df03e6bb5801"
+      ],
+      "native_texts_content_reviewed": true,
+      "outcome": "E",
+      "previous_result_file_sha256": "a318426bcaf7264f52ce4aab9ac4850d8a20ee4f03d42a23b0a593a56d772c24",
+      "previous_trace": {
+        "checkpoint_sha256": "611f849ce91f2458855bf6369a2f837e0165bfc71d0d0f89bd58ec9dfcd25dab",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 2,
+        "native_won": false,
+        "physical_no_effect": 11,
+        "physical_steps": 24,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "62ddb1537265fc839a7b2ecc8716fae66b02242018d11ed2fddd6979c2d04339",
+            "no_effect": true,
+            "step": 12
+          },
+          {
+            "command_sha256": "62ddb1537265fc839a7b2ecc8716fae66b02242018d11ed2fddd6979c2d04339",
+            "no_effect": true,
+            "step": 25
+          }
+        ],
+        "target_heat_attempts": 2,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          5
+        ],
+        "thought_steps": 25,
+        "unmatched_physical_shapes": 1
+      },
+      "priority_error_absent": false,
+      "raw_checkpoint_file_sha256": "a365b069219d770017dc0b114d49910aadc755c13a6148b457960ba02764dd96",
+      "result_file_sha256": "e56b5e5f2bf5532a019a6674053ad5709cfbe38f3c4ec8b197e3adc0141f9f2f",
+      "result_status": "repeat_or_decision_budget",
+      "scene_id": "FloorPlan5",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "target_type": "mug",
+      "task_id": "de311a7af4272464",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_id": "successor-de311a7af4272464-2140-neutral_full",
+      "trial": 2,
+      "truncated_responses": 0
+    },
+    {
+      "condition": "correct_middle",
+      "content_flags": [
+        "alternative_heating",
+        "environment_speculation",
+        "operational_state"
+      ],
+      "current_extra_actions": {
+        "goal_placement_feedback_steps": [],
+        "non_microwave_target_heat_steps": [],
+        "target_heat_command_steps": [
+          13
+        ]
+      },
+      "current_trace": {
+        "checkpoint_sha256": "9487276ab491039211a4ee168b6b67bf9bc6ee5e728e1e8b1ebc9e5af3075baf",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 1,
+        "native_won": false,
+        "physical_no_effect": 2,
+        "physical_steps": 11,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "62ddb1537265fc839a7b2ecc8716fae66b02242018d11ed2fddd6979c2d04339",
+            "no_effect": true,
+            "step": 13
+          }
+        ],
+        "target_heat_attempts": 1,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          5
+        ],
+        "thought_steps": 15,
+        "unmatched_physical_shapes": 1
+      },
+      "destination_type": "shelf",
+      "format_invalid_responses": 0,
+      "identity_file_sha256": "03243e43592938c2b8ded7fc4dd052d7f86e1bbb193859885081b983f20db085",
+      "matched_focus": true,
+      "memory_hashes": [
+        "9b31be3d7f39547fbd7510cfcc17e5f2fa0d014888fbd38c4508680dc1120238",
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "b715d75726b7f996042456e99fbe8be9cdf3889ee357f80f6bb368a1e5811fea"
+      ],
+      "native_memory_hashes": [
+        "b715d75726b7f996042456e99fbe8be9cdf3889ee357f80f6bb368a1e5811fea"
+      ],
+      "native_texts_content_reviewed": true,
+      "outcome": "E",
+      "previous_result_file_sha256": "30350857e2e9ebf68c423506d372932cf2667f5bb5eb3ee6f7ad77ff5c8acc1f",
+      "previous_trace": {
+        "checkpoint_sha256": "db61ce284a4c540de79b3f0af561a21867b295be6c7a4a2638b9bc7744d6f9b6",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 5,
+        "native_won": false,
+        "physical_no_effect": 13,
+        "physical_steps": 27,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "62ddb1537265fc839a7b2ecc8716fae66b02242018d11ed2fddd6979c2d04339",
+            "no_effect": true,
+            "step": 12
+          }
+        ],
+        "target_heat_attempts": 1,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          5,
+          17
+        ],
+        "thought_steps": 22,
+        "unmatched_physical_shapes": 3
+      },
+      "priority_error_absent": false,
+      "raw_checkpoint_file_sha256": "56ed2c4549995c5c57738ba411e7856d13043d842364c0b23276f3d973afbf5d",
+      "result_file_sha256": "36ea63577e11ff34555bd619f2a2c3f48113613b7e0ad7fe0b869e6eeb040e68",
+      "result_status": "repeat_or_decision_budget",
+      "scene_id": "FloorPlan5",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "target_type": "mug",
+      "task_id": "de311a7af4272464",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_id": "successor-de311a7af4272464-2141-correct_middle",
+      "trial": 2,
+      "truncated_responses": 0
+    },
+    {
+      "condition": "neutral_full",
+      "content_flags": [
+        "alternative_heating",
+        "environment_speculation",
+        "operational_state"
+      ],
+      "current_extra_actions": {
+        "goal_placement_feedback_steps": [
+          37
+        ],
+        "non_microwave_target_heat_steps": [],
+        "target_heat_command_steps": []
+      },
+      "current_trace": {
+        "checkpoint_sha256": "9cab8752a6c7cebfdda02bdc33b7a95e67542eb7d7a562d864fafe9f16a95855",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 2,
+        "native_won": false,
+        "physical_no_effect": 12,
+        "physical_steps": 25,
+        "placed_then_heat_without_pickup": [],
+        "target_heat_attempts": 0,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          5
+        ],
+        "thought_steps": 24,
+        "unmatched_physical_shapes": 3
+      },
+      "destination_type": "shelf",
+      "format_invalid_responses": 0,
+      "identity_file_sha256": "207a632068f571c655e5d1fc9531fd40ad46f10aafd35b1753b46a95bbda2f6a",
+      "matched_focus": false,
+      "memory_hashes": [
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "96c67a48f3ffac3614acd5ff3137a0e702185f843654d86c55ae48078d3b8468"
+      ],
+      "native_memory_hashes": [
+        "96c67a48f3ffac3614acd5ff3137a0e702185f843654d86c55ae48078d3b8468"
+      ],
+      "native_texts_content_reviewed": true,
+      "outcome": "U",
+      "previous_result_file_sha256": "bd080e0891f4c3b3e936a461d09927be8a720a91faa005a6bf77d565401a7e8e",
+      "previous_trace": {
+        "checkpoint_sha256": "f6847ba3c6d9315750e98d4074763fa657ea96b0c86b0de7375ea91da8e18a4d",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 1,
+        "native_won": false,
+        "physical_no_effect": 1,
+        "physical_steps": 12,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "62ddb1537265fc839a7b2ecc8716fae66b02242018d11ed2fddd6979c2d04339",
+            "no_effect": true,
+            "step": 12
+          }
+        ],
+        "target_heat_attempts": 1,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          5,
+          25
+        ],
+        "thought_steps": 19,
+        "unmatched_physical_shapes": 0
+      },
+      "priority_error_absent": true,
+      "raw_checkpoint_file_sha256": "c5fad6beecaf4968e10222f671471de6e2b533e7771be9405bd3382cdf8a858a",
+      "result_file_sha256": "36ccc0d70316629f3ceae4aa8007394b096006982f126568c9866e6fb3beb5e3",
+      "result_status": "repeat_or_decision_budget",
+      "scene_id": "FloorPlan5",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "success": false,
+      "target_type": "mug",
+      "task_id": "de311a7af4272464",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_id": "successor-de311a7af4272464-2141-neutral_full",
+      "trial": 2,
+      "truncated_responses": 0
+    },
+    {
+      "condition": "correct_middle",
+      "content_flags": [
+        "alternative_heating",
+        "environment_speculation",
+        "operational_state"
+      ],
+      "current_extra_actions": {
+        "goal_placement_feedback_steps": [],
+        "non_microwave_target_heat_steps": [],
+        "target_heat_command_steps": [
+          18
+        ]
+      },
+      "current_trace": {
+        "checkpoint_sha256": "b19e2272f40aab33e42cad2448390775d104b435cf5a4e6046c62d473829a3c2",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 3,
+        "native_won": false,
+        "physical_no_effect": 15,
+        "physical_steps": 23,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "1cba034f78ae2b6919cddad67fa9f7475d0a349d145b3cbb2aff01f922893abe",
+            "no_effect": true,
+            "step": 18
+          }
+        ],
+        "target_heat_attempts": 1,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          11
+        ],
+        "thought_steps": 26,
+        "unmatched_physical_shapes": 3
+      },
+      "destination_type": "garbagecan",
+      "format_invalid_responses": 0,
+      "identity_file_sha256": "1e383b334171b68c35271238d2721379176cffea7922e5b0c2f45da9e5256fd6",
+      "matched_focus": false,
+      "memory_hashes": [
+        "9b31be3d7f39547fbd7510cfcc17e5f2fa0d014888fbd38c4508680dc1120238",
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "c284ae51f6317d79c401a9c0c410576a76facaaa2730ccefb03f568ac343de75"
+      ],
+      "native_memory_hashes": [
+        "c284ae51f6317d79c401a9c0c410576a76facaaa2730ccefb03f568ac343de75"
+      ],
+      "native_texts_content_reviewed": true,
+      "outcome": "C",
+      "previous_result_file_sha256": "9c99dd9278206f4e4a816fff5891bdadfd6b4e4cc007fc5c19cc7f828bd2589c",
+      "previous_trace": {
+        "checkpoint_sha256": "005134fbabf7790ce5431695e4f840ff3717624431113b143c5d4920c65f2ea1",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 3,
+        "native_won": false,
+        "physical_no_effect": 10,
+        "physical_steps": 23,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "1cba034f78ae2b6919cddad67fa9f7475d0a349d145b3cbb2aff01f922893abe",
+            "no_effect": true,
+            "step": 14
+          },
+          {
+            "command_sha256": "1cba034f78ae2b6919cddad67fa9f7475d0a349d145b3cbb2aff01f922893abe",
+            "no_effect": true,
+            "step": 18
+          },
+          {
+            "command_sha256": "1cba034f78ae2b6919cddad67fa9f7475d0a349d145b3cbb2aff01f922893abe",
+            "no_effect": true,
+            "step": 23
+          }
+        ],
+        "target_heat_attempts": 3,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          7
+        ],
+        "thought_steps": 26,
+        "unmatched_physical_shapes": 0
+      },
+      "priority_error_absent": true,
+      "raw_checkpoint_file_sha256": "fd52ceda10211e176cf5689a0ff0f9b132eb50206adcf5cda42a549abc2bef2c",
+      "result_file_sha256": "6b652cd07b308539beb8ac03dff88c4a0f3b4e7439e4f968c6397c54ec58e596",
+      "result_status": "repeat_or_decision_budget",
+      "scene_id": "FloorPlan2",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "A"
+        }
+      ],
+      "success": false,
+      "target_type": "egg",
+      "task_id": "e130f48d97478f2f",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_id": "successor-e130f48d97478f2f-2140-correct_middle",
+      "trial": 2,
+      "truncated_responses": 0
+    },
+    {
+      "condition": "neutral_full",
+      "content_flags": [
+        "alternative_heating",
+        "location_search",
+        "operational_state"
+      ],
+      "current_extra_actions": {
+        "goal_placement_feedback_steps": [],
+        "non_microwave_target_heat_steps": [],
+        "target_heat_command_steps": [
+          14,
+          17
+        ]
+      },
+      "current_trace": {
+        "checkpoint_sha256": "9768a9d303395d2862bc1ec13084abf43bf84120f8e1e2967b7c4a5a19ede6ce",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 2,
+        "native_won": false,
+        "physical_no_effect": 3,
+        "physical_steps": 13,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "1cba034f78ae2b6919cddad67fa9f7475d0a349d145b3cbb2aff01f922893abe",
+            "no_effect": true,
+            "step": 14
+          },
+          {
+            "command_sha256": "1cba034f78ae2b6919cddad67fa9f7475d0a349d145b3cbb2aff01f922893abe",
+            "no_effect": true,
+            "step": 17
+          }
+        ],
+        "target_heat_attempts": 2,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          7
+        ],
+        "thought_steps": 16,
+        "unmatched_physical_shapes": 0
+      },
+      "destination_type": "garbagecan",
+      "format_invalid_responses": 0,
+      "identity_file_sha256": "fd40de59fa9f7b0f60eed6cedae50111729a407370f9b4b85172248b1441f571",
+      "matched_focus": false,
+      "memory_hashes": [
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "b6b2b6f846321b3b8cc38318424a3d3d447e37390c17ff18c9cd22279d3a769b"
+      ],
+      "native_memory_hashes": [
+        "b6b2b6f846321b3b8cc38318424a3d3d447e37390c17ff18c9cd22279d3a769b"
+      ],
+      "native_texts_content_reviewed": true,
+      "outcome": "E",
+      "previous_result_file_sha256": "42cff17937996f5b1832faf2c3f095f6f26cd738c95dda00af9a008bad418cbb",
+      "previous_trace": {
+        "checkpoint_sha256": "3156d5f1a44fa878bcd728bc350eb378f38016ea480e241018b61ef872832e63",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 4,
+        "native_won": false,
+        "physical_no_effect": 10,
+        "physical_steps": 23,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "1cba034f78ae2b6919cddad67fa9f7475d0a349d145b3cbb2aff01f922893abe",
+            "no_effect": true,
+            "step": 14
+          },
+          {
+            "command_sha256": "1cba034f78ae2b6919cddad67fa9f7475d0a349d145b3cbb2aff01f922893abe",
+            "no_effect": true,
+            "step": 18
+          },
+          {
+            "command_sha256": "1cba034f78ae2b6919cddad67fa9f7475d0a349d145b3cbb2aff01f922893abe",
+            "no_effect": true,
+            "step": 22
+          },
+          {
+            "command_sha256": "1cba034f78ae2b6919cddad67fa9f7475d0a349d145b3cbb2aff01f922893abe",
+            "no_effect": true,
+            "step": 24
+          }
+        ],
+        "target_heat_attempts": 4,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          7
+        ],
+        "thought_steps": 26,
+        "unmatched_physical_shapes": 0
+      },
+      "priority_error_absent": true,
+      "raw_checkpoint_file_sha256": "1532eaca6bd28bd02a6df2bc78e62f08e986846e0c26606fbc98017ccac6b20f",
+      "result_file_sha256": "4cc4bcc4c8ee253e58bed8661f99183d5ba0855161230afaadff32e794958479",
+      "result_status": "repeat_or_decision_budget",
+      "scene_id": "FloorPlan2",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "A"
+        }
+      ],
+      "success": false,
+      "target_type": "egg",
+      "task_id": "e130f48d97478f2f",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_id": "successor-e130f48d97478f2f-2140-neutral_full",
+      "trial": 2,
+      "truncated_responses": 0
+    },
+    {
+      "condition": "correct_middle",
+      "content_flags": [
+        "alternative_heating",
+        "operational_state"
+      ],
+      "current_extra_actions": {
+        "goal_placement_feedback_steps": [
+          45
+        ],
+        "non_microwave_target_heat_steps": [
+          32
+        ],
+        "target_heat_command_steps": [
+          16,
+          32,
+          37,
+          42
+        ]
+      },
+      "current_trace": {
+        "checkpoint_sha256": "11f6bd17ab3650209c81ebd58d333682a92663a62a745eb73e1ce4ad0030dc92",
+        "failure_stage": "won",
+        "max_repeated_no_effect_action": 2,
+        "native_won": true,
+        "physical_no_effect": 8,
+        "physical_steps": 21,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "1cba034f78ae2b6919cddad67fa9f7475d0a349d145b3cbb2aff01f922893abe",
+            "no_effect": true,
+            "step": 16
+          },
+          {
+            "command_sha256": "2c45f43fef1b074a7c6b13bb502e2d73f95b42db6a78c3996084b77bf0e55d64",
+            "no_effect": true,
+            "step": 32
+          },
+          {
+            "command_sha256": "1cba034f78ae2b6919cddad67fa9f7475d0a349d145b3cbb2aff01f922893abe",
+            "no_effect": true,
+            "step": 37
+          }
+        ],
+        "target_heat_attempts": 4,
+        "target_heat_success_steps": [
+          42
+        ],
+        "target_pickup_steps": [
+          7,
+          40
+        ],
+        "thought_steps": 25,
+        "unmatched_physical_shapes": 0
+      },
+      "destination_type": "garbagecan",
+      "format_invalid_responses": 0,
+      "identity_file_sha256": "8e63dfb67757adf114e724f4526b0516e7de4c1463c6dfef02d2094723db1aca",
+      "matched_focus": true,
+      "memory_hashes": [
+        "9b31be3d7f39547fbd7510cfcc17e5f2fa0d014888fbd38c4508680dc1120238",
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "c122aa559c452f63da840511276bf5b3b53f1b6e91c2477e5466dbcc4040c5ce"
+      ],
+      "native_memory_hashes": [
+        "c122aa559c452f63da840511276bf5b3b53f1b6e91c2477e5466dbcc4040c5ce"
+      ],
+      "native_texts_content_reviewed": true,
+      "outcome": "S",
+      "previous_result_file_sha256": "3e9a778a957a989c16dbf33dff0124ce4910d3c5db415ba33577099ed427ed0b",
+      "previous_trace": {
+        "checkpoint_sha256": "bc7bc3abb6821b9798b43e45819d45fa473125a78c16eb2c9daa5ce79370af5d",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 2,
+        "native_won": false,
+        "physical_no_effect": 9,
+        "physical_steps": 21,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "1cba034f78ae2b6919cddad67fa9f7475d0a349d145b3cbb2aff01f922893abe",
+            "no_effect": true,
+            "step": 14
+          },
+          {
+            "command_sha256": "1cba034f78ae2b6919cddad67fa9f7475d0a349d145b3cbb2aff01f922893abe",
+            "no_effect": true,
+            "step": 19
+          }
+        ],
+        "target_heat_attempts": 3,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          7,
+          22
+        ],
+        "thought_steps": 28,
+        "unmatched_physical_shapes": 4
+      },
+      "priority_error_absent": false,
+      "raw_checkpoint_file_sha256": "4c5a18aa91043ef0ef6aecfb9d96bf8286858bcd4827081106ecba02ea836deb",
+      "result_file_sha256": "3f2b5c1cb5e1bac363278998341e200d9a53c2a2da5e91247a7d4bdbdd23179a",
+      "result_status": "success",
+      "scene_id": "FloorPlan2",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "B"
+        }
+      ],
+      "success": true,
+      "target_type": "egg",
+      "task_id": "e130f48d97478f2f",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_id": "successor-e130f48d97478f2f-2141-correct_middle",
+      "trial": 2,
+      "truncated_responses": 0
+    },
+    {
+      "condition": "neutral_full",
+      "content_flags": [
+        "alternative_heating",
+        "command_format",
+        "operational_state"
+      ],
+      "current_extra_actions": {
+        "goal_placement_feedback_steps": [],
+        "non_microwave_target_heat_steps": [],
+        "target_heat_command_steps": [
+          14,
+          19
+        ]
+      },
+      "current_trace": {
+        "checkpoint_sha256": "9acdaf9ed5ea34aff3acf242d5f5ad1eb39ea5b6fe2f1203d90a77de456ac37c",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 2,
+        "native_won": false,
+        "physical_no_effect": 3,
+        "physical_steps": 12,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "1cba034f78ae2b6919cddad67fa9f7475d0a349d145b3cbb2aff01f922893abe",
+            "no_effect": true,
+            "step": 14
+          },
+          {
+            "command_sha256": "1cba034f78ae2b6919cddad67fa9f7475d0a349d145b3cbb2aff01f922893abe",
+            "no_effect": true,
+            "step": 19
+          }
+        ],
+        "target_heat_attempts": 2,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          7
+        ],
+        "thought_steps": 16,
+        "unmatched_physical_shapes": 0
+      },
+      "destination_type": "garbagecan",
+      "format_invalid_responses": 0,
+      "identity_file_sha256": "956c3a9b50739ca721377a1df02322bcdaafdd8c3d53b4a9577f2df7373d1201",
+      "matched_focus": true,
+      "memory_hashes": [
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "7b2b791f8b614f6bbbff8ed3b84a728e47e586969d55139981922e9200beac5d"
+      ],
+      "native_memory_hashes": [
+        "7b2b791f8b614f6bbbff8ed3b84a728e47e586969d55139981922e9200beac5d"
+      ],
+      "native_texts_content_reviewed": true,
+      "outcome": "E",
+      "previous_result_file_sha256": "af6e3f7b6bdb04c218959f4bc573aac34c2f919eecef3510a4e288c2f5215731",
+      "previous_trace": {
+        "checkpoint_sha256": "83cd8e14f6caf26e838b6ea9ea1eb851ed9ca5036e58230d2a8e130bf807af38",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 3,
+        "native_won": false,
+        "physical_no_effect": 11,
+        "physical_steps": 24,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "1cba034f78ae2b6919cddad67fa9f7475d0a349d145b3cbb2aff01f922893abe",
+            "no_effect": true,
+            "step": 13
+          },
+          {
+            "command_sha256": "1cba034f78ae2b6919cddad67fa9f7475d0a349d145b3cbb2aff01f922893abe",
+            "no_effect": true,
+            "step": 18
+          }
+        ],
+        "target_heat_attempts": 2,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          6
+        ],
+        "thought_steps": 25,
+        "unmatched_physical_shapes": 1
+      },
+      "priority_error_absent": false,
+      "raw_checkpoint_file_sha256": "8d84ac21b6b5bb7ecc00b24b2ae2fb31eb3123fd1b9f4769c37129f7769813bf",
+      "result_file_sha256": "ea3f5fd9ced6322f5edcee2018d1df5340455cc2acf2850308fe159d26e4db4c",
+      "result_status": "repeat_or_decision_budget",
+      "scene_id": "FloorPlan2",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "target_type": "egg",
+      "task_id": "e130f48d97478f2f",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_id": "successor-e130f48d97478f2f-2141-neutral_full",
+      "trial": 2,
+      "truncated_responses": 0
+    },
+    {
+      "condition": "correct_middle",
+      "content_flags": null,
+      "current_extra_actions": {
+        "goal_placement_feedback_steps": [],
+        "non_microwave_target_heat_steps": [],
+        "target_heat_command_steps": [
+          14
+        ]
+      },
+      "current_trace": {
+        "checkpoint_sha256": "f9c003db0a1d5df63feb6c23ffcf9d556d2af121d2f152ef8af6dbf92f1471f9",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 2,
+        "native_won": false,
+        "physical_no_effect": 6,
+        "physical_steps": 28,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "650a5928097eadd0c34faabc83e8fbdda910eb04467bcb4644f49edb03093af5",
+            "no_effect": true,
+            "step": 14
+          }
+        ],
+        "target_heat_attempts": 1,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          7
+        ],
+        "thought_steps": 21,
+        "unmatched_physical_shapes": 1
+      },
+      "destination_type": "sidetable",
+      "format_invalid_responses": 0,
+      "identity_file_sha256": "75f4c4a5580c8246885a8281f034e831af2eeb253fdb69e712827ab10bf940be",
+      "matched_focus": false,
+      "memory_hashes": [
+        "9b31be3d7f39547fbd7510cfcc17e5f2fa0d014888fbd38c4508680dc1120238",
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "2c6bb1b8231b4d9f57d6eaafe6ee731edfee7128660f496619eb0105bcb4065d"
+      ],
+      "native_memory_hashes": [
+        "2c6bb1b8231b4d9f57d6eaafe6ee731edfee7128660f496619eb0105bcb4065d"
+      ],
+      "native_texts_content_reviewed": false,
+      "outcome": "U",
+      "previous_result_file_sha256": "34bc2274298b9a18f85f4ce94a56f871c2a39c93cdf5a623747627fcb7c13430",
+      "previous_trace": {
+        "checkpoint_sha256": "b660033e5978e24f83b411f0c7d34ad4f9eab483cd87c6722210069595885bf8",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 3,
+        "native_won": false,
+        "physical_no_effect": 10,
+        "physical_steps": 24,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "650a5928097eadd0c34faabc83e8fbdda910eb04467bcb4644f49edb03093af5",
+            "no_effect": true,
+            "step": 16
+          },
+          {
+            "command_sha256": "650a5928097eadd0c34faabc83e8fbdda910eb04467bcb4644f49edb03093af5",
+            "no_effect": true,
+            "step": 18
+          },
+          {
+            "command_sha256": "650a5928097eadd0c34faabc83e8fbdda910eb04467bcb4644f49edb03093af5",
+            "no_effect": true,
+            "step": 47
+          }
+        ],
+        "target_heat_attempts": 3,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          7
+        ],
+        "thought_steps": 25,
+        "unmatched_physical_shapes": 1
+      },
+      "priority_error_absent": false,
+      "raw_checkpoint_file_sha256": "bec4c5841dc53c6125cec375004e79bb5628f08636043860b41fb424f55b0629",
+      "result_file_sha256": "e9da7cd2d32a42226e28cf9c520d463d935dece3847fe61349a419fe8c4f8d82",
+      "result_status": "repeat_or_decision_budget",
+      "scene_id": "FloorPlan3",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "target_type": "tomato",
+      "task_id": "ea5073995754916d",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_id": "successor-ea5073995754916d-2140-correct_middle",
+      "trial": 2,
+      "truncated_responses": 0
+    },
+    {
+      "condition": "neutral_full",
+      "content_flags": null,
+      "current_extra_actions": {
+        "goal_placement_feedback_steps": [
+          21
+        ],
+        "non_microwave_target_heat_steps": [],
+        "target_heat_command_steps": [
+          18
+        ]
+      },
+      "current_trace": {
+        "checkpoint_sha256": "fd33b26f2be75e5564ca1eb12c93777d46a55b694446a6c14b0c6fe39b94aa65",
+        "failure_stage": "won",
+        "max_repeated_no_effect_action": 1,
+        "native_won": true,
+        "physical_no_effect": 3,
+        "physical_steps": 12,
+        "placed_then_heat_without_pickup": [],
+        "target_heat_attempts": 1,
+        "target_heat_success_steps": [
+          18
+        ],
+        "target_pickup_steps": [
+          7
+        ],
+        "thought_steps": 10,
+        "unmatched_physical_shapes": 0
+      },
+      "destination_type": "sidetable",
+      "format_invalid_responses": 0,
+      "identity_file_sha256": "78a9958ebc8822cb1913419885fff4b09f3ad5feb3bf2491c49f8dd119609260",
+      "matched_focus": false,
+      "memory_hashes": [
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "3c2845e0c147d497287ff85da51c1876451d2cf3887b3744364579f20a74c3db"
+      ],
+      "native_memory_hashes": [
+        "3c2845e0c147d497287ff85da51c1876451d2cf3887b3744364579f20a74c3db"
+      ],
+      "native_texts_content_reviewed": false,
+      "outcome": "S",
+      "previous_result_file_sha256": "657309775ba2f8d57bd129862855d5450acf7a53c001468dab66e9ae5b291506",
+      "previous_trace": {
+        "checkpoint_sha256": "2d76ffa8b92dcfcbce0f750d8bbf95da7f93e4db4dfccbb4ba0270edb575d27e",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 3,
+        "native_won": false,
+        "physical_no_effect": 12,
+        "physical_steps": 24,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "650a5928097eadd0c34faabc83e8fbdda910eb04467bcb4644f49edb03093af5",
+            "no_effect": true,
+            "step": 14
+          },
+          {
+            "command_sha256": "650a5928097eadd0c34faabc83e8fbdda910eb04467bcb4644f49edb03093af5",
+            "no_effect": true,
+            "step": 16
+          },
+          {
+            "command_sha256": "650a5928097eadd0c34faabc83e8fbdda910eb04467bcb4644f49edb03093af5",
+            "no_effect": true,
+            "step": 21
+          }
+        ],
+        "target_heat_attempts": 3,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          7,
+          18
+        ],
+        "thought_steps": 25,
+        "unmatched_physical_shapes": 0
+      },
+      "priority_error_absent": false,
+      "raw_checkpoint_file_sha256": "6473876fa655c47731afd8af0054ae345cfbea16c76f558c1c05fd38689c4f86",
+      "result_file_sha256": "880b788a2aa09e3084f93b6a3aaee2695a5203b62bcb2ae2821b7ecb5690fc9d",
+      "result_status": "success",
+      "scene_id": "FloorPlan3",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": true,
+      "target_type": "tomato",
+      "task_id": "ea5073995754916d",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_id": "successor-ea5073995754916d-2140-neutral_full",
+      "trial": 2,
+      "truncated_responses": 0
+    },
+    {
+      "condition": "correct_middle",
+      "content_flags": null,
+      "current_extra_actions": {
+        "goal_placement_feedback_steps": [
+          26
+        ],
+        "non_microwave_target_heat_steps": [],
+        "target_heat_command_steps": [
+          23
+        ]
+      },
+      "current_trace": {
+        "checkpoint_sha256": "bf0098a00ba72879a89a934686fe7675a0dedfc33285165f7a9e920f2ad9f0b6",
+        "failure_stage": "won",
+        "max_repeated_no_effect_action": 3,
+        "native_won": true,
+        "physical_no_effect": 5,
+        "physical_steps": 15,
+        "placed_then_heat_without_pickup": [],
+        "target_heat_attempts": 1,
+        "target_heat_success_steps": [
+          23
+        ],
+        "target_pickup_steps": [
+          7
+        ],
+        "thought_steps": 12,
+        "unmatched_physical_shapes": 2
+      },
+      "destination_type": "sidetable",
+      "format_invalid_responses": 0,
+      "identity_file_sha256": "af9ca60318e690938390392b374bc11cdd50c8d6c22b4e07898cc6aaf815ecc1",
+      "matched_focus": false,
+      "memory_hashes": [
+        "9b31be3d7f39547fbd7510cfcc17e5f2fa0d014888fbd38c4508680dc1120238",
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "d37ac2b763284027fc3afd63283e7e951ed42de7873124458625abb74b9ad0fe"
+      ],
+      "native_memory_hashes": [
+        "d37ac2b763284027fc3afd63283e7e951ed42de7873124458625abb74b9ad0fe"
+      ],
+      "native_texts_content_reviewed": false,
+      "outcome": "S",
+      "previous_result_file_sha256": "b5dc3f1b55c9c9a7bba1777127d6dcc4bf9ea3988f307eac3cbe87524d9401c3",
+      "previous_trace": {
+        "checkpoint_sha256": "7919ef1812543a9f711488371c66d4a3876e9d0ac9c99543b0f15cf2dcb7bb20",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 3,
+        "native_won": false,
+        "physical_no_effect": 14,
+        "physical_steps": 24,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "650a5928097eadd0c34faabc83e8fbdda910eb04467bcb4644f49edb03093af5",
+            "no_effect": true,
+            "step": 14
+          },
+          {
+            "command_sha256": "650a5928097eadd0c34faabc83e8fbdda910eb04467bcb4644f49edb03093af5",
+            "no_effect": true,
+            "step": 17
+          }
+        ],
+        "target_heat_attempts": 3,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          7,
+          19
+        ],
+        "thought_steps": 25,
+        "unmatched_physical_shapes": 0
+      },
+      "priority_error_absent": false,
+      "raw_checkpoint_file_sha256": "68241d787e9e6eed360d1976e5668cfa90a08450d760f864cef0dbdba70ee976",
+      "result_file_sha256": "ae1c8805570d26cd75d40838494de26ceebfbda92dc6c22186b38267b46a1afd",
+      "result_status": "success",
+      "scene_id": "FloorPlan3",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": true,
+      "target_type": "tomato",
+      "task_id": "ea5073995754916d",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_id": "successor-ea5073995754916d-2141-correct_middle",
+      "trial": 2,
+      "truncated_responses": 0
+    },
+    {
+      "condition": "neutral_full",
+      "content_flags": null,
+      "current_extra_actions": {
+        "goal_placement_feedback_steps": [
+          26
+        ],
+        "non_microwave_target_heat_steps": [],
+        "target_heat_command_steps": [
+          23
+        ]
+      },
+      "current_trace": {
+        "checkpoint_sha256": "3b91b06f17be03953d279127787bfd454dfb386b5b9c1809543e71bea0627c61",
+        "failure_stage": "won",
+        "max_repeated_no_effect_action": 2,
+        "native_won": true,
+        "physical_no_effect": 4,
+        "physical_steps": 13,
+        "placed_then_heat_without_pickup": [],
+        "target_heat_attempts": 1,
+        "target_heat_success_steps": [
+          23
+        ],
+        "target_pickup_steps": [
+          7
+        ],
+        "thought_steps": 14,
+        "unmatched_physical_shapes": 0
+      },
+      "destination_type": "sidetable",
+      "format_invalid_responses": 0,
+      "identity_file_sha256": "3b77592590ff57779d5a53100ad66eda9258e5496fd83fb96bbdb2c9878a681d",
+      "matched_focus": false,
+      "memory_hashes": [
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "e9976bf8445de9735e953913bd20ee83515466439d76ecaab985504d44b71973"
+      ],
+      "native_memory_hashes": [
+        "e9976bf8445de9735e953913bd20ee83515466439d76ecaab985504d44b71973"
+      ],
+      "native_texts_content_reviewed": false,
+      "outcome": "S",
+      "previous_result_file_sha256": "06e50fdd34f90c84d024b128aa73aa63b9f6add23f996e78623a1546fb23d600",
+      "previous_trace": {
+        "checkpoint_sha256": "86dc768e82088543e5aee2f9e15c5a34df617d6485225c0163e0d0594de79fed",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 3,
+        "native_won": false,
+        "physical_no_effect": 9,
+        "physical_steps": 26,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "650a5928097eadd0c34faabc83e8fbdda910eb04467bcb4644f49edb03093af5",
+            "no_effect": true,
+            "step": 14
+          },
+          {
+            "command_sha256": "650a5928097eadd0c34faabc83e8fbdda910eb04467bcb4644f49edb03093af5",
+            "no_effect": true,
+            "step": 37
+          },
+          {
+            "command_sha256": "650a5928097eadd0c34faabc83e8fbdda910eb04467bcb4644f49edb03093af5",
+            "no_effect": true,
+            "step": 48
+          }
+        ],
+        "target_heat_attempts": 3,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          7
+        ],
+        "thought_steps": 23,
+        "unmatched_physical_shapes": 0
+      },
+      "priority_error_absent": false,
+      "raw_checkpoint_file_sha256": "c52e1febc8e121ac03062c8cf35fba71581e1799b8d9c00977d5b74ab30116b0",
+      "result_file_sha256": "5de2eec8d2b6531d0770527f9ec5300adfd9f226f97540d39732cc9056c80fa2",
+      "result_status": "success",
+      "scene_id": "FloorPlan3",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": true,
+      "target_type": "tomato",
+      "task_id": "ea5073995754916d",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_id": "successor-ea5073995754916d-2141-neutral_full",
+      "trial": 2,
+      "truncated_responses": 0
+    },
+    {
+      "condition": "correct_middle",
+      "content_flags": [
+        "operational_state"
+      ],
+      "current_extra_actions": {
+        "goal_placement_feedback_steps": [],
+        "non_microwave_target_heat_steps": [],
+        "target_heat_command_steps": [
+          12,
+          16,
+          22,
+          43,
+          46
+        ]
+      },
+      "current_trace": {
+        "checkpoint_sha256": "5c1b8d8bcb97e644f1ffeb6ecbd22524e434de001efcf50e0027589c23b44872",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 3,
+        "native_won": false,
+        "physical_no_effect": 7,
+        "physical_steps": 23,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "b0357b88aebc25b24ae8aaed8dd3584cbd4fea35a18e42be84382a11a1574f69",
+            "no_effect": true,
+            "step": 12
+          },
+          {
+            "command_sha256": "b0357b88aebc25b24ae8aaed8dd3584cbd4fea35a18e42be84382a11a1574f69",
+            "no_effect": true,
+            "step": 16
+          },
+          {
+            "command_sha256": "b0357b88aebc25b24ae8aaed8dd3584cbd4fea35a18e42be84382a11a1574f69",
+            "no_effect": true,
+            "step": 22
+          },
+          {
+            "command_sha256": "16d5561a48301a46afac2dfe8ba0618797f4195b17a14bbf77a1d00bf6eda5bb",
+            "no_effect": true,
+            "step": 43
+          },
+          {
+            "command_sha256": "16d5561a48301a46afac2dfe8ba0618797f4195b17a14bbf77a1d00bf6eda5bb",
+            "no_effect": true,
+            "step": 46
+          }
+        ],
+        "target_heat_attempts": 5,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          5,
+          32
+        ],
+        "thought_steps": 26,
+        "unmatched_physical_shapes": 0
+      },
+      "destination_type": "fridge",
+      "format_invalid_responses": 0,
+      "identity_file_sha256": "a974de046fc63348a35986b231d8b693ec756d8f20cdfb377975d27ac645752a",
+      "matched_focus": false,
+      "memory_hashes": [
+        "9b31be3d7f39547fbd7510cfcc17e5f2fa0d014888fbd38c4508680dc1120238",
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "0b745cb4fd6d635cdcd3065e202c34217b6d0f40ea32f296e3b62ebd93f2accb"
+      ],
+      "native_memory_hashes": [
+        "0b745cb4fd6d635cdcd3065e202c34217b6d0f40ea32f296e3b62ebd93f2accb"
+      ],
+      "native_texts_content_reviewed": true,
+      "outcome": "E",
+      "previous_result_file_sha256": "1172adf3b794aeb41d59a83d193d4a7390f705ef311126ee1b0a2a87194e8c03",
+      "previous_trace": {
+        "checkpoint_sha256": "18fdf97d32f45dec179c1dff2a3242476c3e70fbca28900bf6ec0bbe924ed910",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 5,
+        "native_won": false,
+        "physical_no_effect": 10,
+        "physical_steps": 24,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "b0357b88aebc25b24ae8aaed8dd3584cbd4fea35a18e42be84382a11a1574f69",
+            "no_effect": true,
+            "step": 12
+          },
+          {
+            "command_sha256": "b0357b88aebc25b24ae8aaed8dd3584cbd4fea35a18e42be84382a11a1574f69",
+            "no_effect": true,
+            "step": 15
+          },
+          {
+            "command_sha256": "b0357b88aebc25b24ae8aaed8dd3584cbd4fea35a18e42be84382a11a1574f69",
+            "no_effect": true,
+            "step": 18
+          },
+          {
+            "command_sha256": "b0357b88aebc25b24ae8aaed8dd3584cbd4fea35a18e42be84382a11a1574f69",
+            "no_effect": true,
+            "step": 20
+          },
+          {
+            "command_sha256": "b0357b88aebc25b24ae8aaed8dd3584cbd4fea35a18e42be84382a11a1574f69",
+            "no_effect": true,
+            "step": 22
+          }
+        ],
+        "target_heat_attempts": 5,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          5,
+          32
+        ],
+        "thought_steps": 25,
+        "unmatched_physical_shapes": 0
+      },
+      "priority_error_absent": true,
+      "raw_checkpoint_file_sha256": "4f440579465f246754511d47ffa3dd45a193984a4da8be7489f004bb10fbbc2b",
+      "result_file_sha256": "0e785caa931ef591b2b2bbfa2a04f6d20db7565714bd601958a6d4e99b095880",
+      "result_status": "repeat_or_decision_budget",
+      "scene_id": "FloorPlan12",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "A"
+        }
+      ],
+      "success": false,
+      "target_type": "cup",
+      "task_id": "eb0a4110343ad8db",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_id": "successor-eb0a4110343ad8db-2140-correct_middle",
+      "trial": 2,
+      "truncated_responses": 0
+    },
+    {
+      "condition": "correct_middle",
+      "content_flags": [
+        "command_format",
+        "operational_state"
+      ],
+      "current_extra_actions": {
+        "goal_placement_feedback_steps": [],
+        "non_microwave_target_heat_steps": [],
+        "target_heat_command_steps": []
+      },
+      "current_trace": {
+        "checkpoint_sha256": "271324e05175b66350cbb4f24722f1c6377f3c678b9c158dfe0eb088c8d3bd15",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 3,
+        "native_won": false,
+        "physical_no_effect": 15,
+        "physical_steps": 26,
+        "placed_then_heat_without_pickup": [],
+        "target_heat_attempts": 0,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          5
+        ],
+        "thought_steps": 23,
+        "unmatched_physical_shapes": 6
+      },
+      "destination_type": "diningtable",
+      "format_invalid_responses": 0,
+      "identity_file_sha256": "a76d8de7e50436e02c1f89b9465253d53449a29b27c52d36dee095feca712593",
+      "matched_focus": true,
+      "memory_hashes": [
+        "9b31be3d7f39547fbd7510cfcc17e5f2fa0d014888fbd38c4508680dc1120238",
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "3c907dc6733c1505e4b272ce919a1003bc7e506a45f142fa660d611671d3509e"
+      ],
+      "native_memory_hashes": [
+        "3c907dc6733c1505e4b272ce919a1003bc7e506a45f142fa660d611671d3509e"
+      ],
+      "native_texts_content_reviewed": true,
+      "outcome": "B",
+      "previous_result_file_sha256": "5d58de5719cbf2a5a3c90aafe6cae4fe9de36f8ce7e1070f2e77c50040fbf7bb",
+      "previous_trace": {
+        "checkpoint_sha256": "a5a84b59488402b89ce2836250a890998a6c352a9e3b58f5f62079e91132439b",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 7,
+        "native_won": false,
+        "physical_no_effect": 14,
+        "physical_steps": 21,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "8a2d56dbc07754b4ef82f34c47efa7f071a624d85c6e814dcc684d557c5c7809",
+            "no_effect": true,
+            "step": 12
+          }
+        ],
+        "target_heat_attempts": 1,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          5
+        ],
+        "thought_steps": 25,
+        "unmatched_physical_shapes": 5
+      },
+      "priority_error_absent": false,
+      "raw_checkpoint_file_sha256": "f9611dede392038f0fb033f89ced33b617ca59267a4eaeb7788a9606b015fa51",
+      "result_file_sha256": "0ed73055adfd856f05244c88e4ee33cb624ee2701c808db0faf0fc581200796a",
+      "result_status": "repeat_or_decision_budget",
+      "scene_id": "FloorPlan24",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "target_type": "apple",
+      "task_id": "ecb9c1d65157ef70",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_id": "successor-ecb9c1d65157ef70-2140-correct_middle",
+      "trial": 2,
+      "truncated_responses": 0
+    },
+    {
+      "condition": "neutral_full",
+      "content_flags": [
+        "alternative_heating",
+        "environment_speculation",
+        "operational_state"
+      ],
+      "current_extra_actions": {
+        "goal_placement_feedback_steps": [
+          37
+        ],
+        "non_microwave_target_heat_steps": [],
+        "target_heat_command_steps": [
+          12,
+          16,
+          34
+        ]
+      },
+      "current_trace": {
+        "checkpoint_sha256": "2ddb82abcb6fa9728a87c34e0fe84ae45972cdec81f7a76f8b26002b9780d3ea",
+        "failure_stage": "won",
+        "max_repeated_no_effect_action": 2,
+        "native_won": true,
+        "physical_no_effect": 6,
+        "physical_steps": 20,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "8a2d56dbc07754b4ef82f34c47efa7f071a624d85c6e814dcc684d557c5c7809",
+            "no_effect": true,
+            "step": 12
+          },
+          {
+            "command_sha256": "8a2d56dbc07754b4ef82f34c47efa7f071a624d85c6e814dcc684d557c5c7809",
+            "no_effect": true,
+            "step": 16
+          }
+        ],
+        "target_heat_attempts": 3,
+        "target_heat_success_steps": [
+          34
+        ],
+        "target_pickup_steps": [
+          4,
+          30
+        ],
+        "thought_steps": 18,
+        "unmatched_physical_shapes": 2
+      },
+      "destination_type": "diningtable",
+      "format_invalid_responses": 0,
+      "identity_file_sha256": "b500dd28060f38e069b97015e12b99454a23f9ab8445bc5120c40f5321548137",
+      "matched_focus": true,
+      "memory_hashes": [
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "afa8fe1f82c0d7890e551804c1d86633f71db6af682c647df92667189c199f89"
+      ],
+      "native_memory_hashes": [
+        "afa8fe1f82c0d7890e551804c1d86633f71db6af682c647df92667189c199f89"
+      ],
+      "native_texts_content_reviewed": true,
+      "outcome": "S",
+      "previous_result_file_sha256": "0be636a4b9fe15d52c49cfe762a0744312bd98740c16d4f56c4cffac52fc8511",
+      "previous_trace": {
+        "checkpoint_sha256": "deae02f4568a4dd575f7580228f1260ef2d8dfceae70468f7e93d2f2d43cba4e",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 3,
+        "native_won": false,
+        "physical_no_effect": 8,
+        "physical_steps": 26,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "8a2d56dbc07754b4ef82f34c47efa7f071a624d85c6e814dcc684d557c5c7809",
+            "no_effect": true,
+            "step": 12
+          },
+          {
+            "command_sha256": "8a2d56dbc07754b4ef82f34c47efa7f071a624d85c6e814dcc684d557c5c7809",
+            "no_effect": true,
+            "step": 19
+          },
+          {
+            "command_sha256": "8a2d56dbc07754b4ef82f34c47efa7f071a624d85c6e814dcc684d557c5c7809",
+            "no_effect": true,
+            "step": 48
+          }
+        ],
+        "target_heat_attempts": 3,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          5,
+          28
+        ],
+        "thought_steps": 23,
+        "unmatched_physical_shapes": 1
+      },
+      "priority_error_absent": false,
+      "raw_checkpoint_file_sha256": "84653e80b1057e1964ef3518a25e7ec447b0191f87f94e8c4937b2634b756ed7",
+      "result_file_sha256": "cd4128620a702958aafa482a019cd514b1378d8b83d1b831f75577f6d9428419",
+      "result_status": "success",
+      "scene_id": "FloorPlan24",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "B"
+        }
+      ],
+      "success": true,
+      "target_type": "apple",
+      "task_id": "ecb9c1d65157ef70",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_id": "successor-ecb9c1d65157ef70-2140-neutral_full",
+      "trial": 2,
+      "truncated_responses": 0
+    },
+    {
+      "condition": "correct_middle",
+      "content_flags": [
+        "alternative_heating",
+        "command_format",
+        "environment_speculation",
+        "location_search",
+        "operational_state"
+      ],
+      "current_extra_actions": {
+        "goal_placement_feedback_steps": [],
+        "non_microwave_target_heat_steps": [],
+        "target_heat_command_steps": [
+          12,
+          44,
+          47
+        ]
+      },
+      "current_trace": {
+        "checkpoint_sha256": "91ff4ea0eb26e8c24f7cf0f4a039204ed0674d833a34ab3061a4d2c3057457ad",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 3,
+        "native_won": false,
+        "physical_no_effect": 6,
+        "physical_steps": 25,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "8a2d56dbc07754b4ef82f34c47efa7f071a624d85c6e814dcc684d557c5c7809",
+            "no_effect": true,
+            "step": 12
+          },
+          {
+            "command_sha256": "8a2d56dbc07754b4ef82f34c47efa7f071a624d85c6e814dcc684d557c5c7809",
+            "no_effect": true,
+            "step": 44
+          },
+          {
+            "command_sha256": "8a2d56dbc07754b4ef82f34c47efa7f071a624d85c6e814dcc684d557c5c7809",
+            "no_effect": true,
+            "step": 47
+          }
+        ],
+        "target_heat_attempts": 3,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          5,
+          39
+        ],
+        "thought_steps": 24,
+        "unmatched_physical_shapes": 1
+      },
+      "destination_type": "diningtable",
+      "format_invalid_responses": 0,
+      "identity_file_sha256": "a8fe240c2ca552fdede584f0d7aaaa3369c9a28e69386643c1ed28ab7854c7c5",
+      "matched_focus": false,
+      "memory_hashes": [
+        "9b31be3d7f39547fbd7510cfcc17e5f2fa0d014888fbd38c4508680dc1120238",
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "27fc3be614f5d656c7552303ee0f75af474a58031a6b214b17434adde499e3eb"
+      ],
+      "native_memory_hashes": [
+        "27fc3be614f5d656c7552303ee0f75af474a58031a6b214b17434adde499e3eb"
+      ],
+      "native_texts_content_reviewed": true,
+      "outcome": "C",
+      "previous_result_file_sha256": "ab780edf9d86f42208d1f8a7b61731721e4b805f5921b3c502fb94c185663d24",
+      "previous_trace": {
+        "checkpoint_sha256": "697f2e0bbb87d2fe070f80339f1f80fc3f7bc3110afc7575d9acaad7c164a998",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 2,
+        "native_won": false,
+        "physical_no_effect": 5,
+        "physical_steps": 24,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "8a2d56dbc07754b4ef82f34c47efa7f071a624d85c6e814dcc684d557c5c7809",
+            "no_effect": true,
+            "step": 13
+          },
+          {
+            "command_sha256": "8a2d56dbc07754b4ef82f34c47efa7f071a624d85c6e814dcc684d557c5c7809",
+            "no_effect": true,
+            "step": 16
+          }
+        ],
+        "target_heat_attempts": 2,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          5
+        ],
+        "thought_steps": 25,
+        "unmatched_physical_shapes": 1
+      },
+      "priority_error_absent": true,
+      "raw_checkpoint_file_sha256": "35e75d7ed8af6f2e0d4436a8254853fefddfb26c2e3bec8e63ccff6249dd925a",
+      "result_file_sha256": "97dcc01ca6c84422565e67f488d8541e16e85522aebc2ee9f6cf38ce776cebd1",
+      "result_status": "repeat_or_decision_budget",
+      "scene_id": "FloorPlan24",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "C"
+        }
+      ],
+      "success": false,
+      "target_type": "apple",
+      "task_id": "ecb9c1d65157ef70",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_id": "successor-ecb9c1d65157ef70-2141-correct_middle",
+      "trial": 2,
+      "truncated_responses": 0
+    },
+    {
+      "condition": "correct_middle",
+      "content_flags": [
+        "environment_speculation",
+        "location_search",
+        "operational_state"
+      ],
+      "current_extra_actions": {
+        "goal_placement_feedback_steps": [
+          14
+        ],
+        "non_microwave_target_heat_steps": [],
+        "target_heat_command_steps": [
+          10
+        ]
+      },
+      "current_trace": {
+        "checkpoint_sha256": "278b478e84bf6cf17a306a3aa7c6d87fcecda3c24c663b90320d65d4a368be23",
+        "failure_stage": "won",
+        "max_repeated_no_effect_action": 1,
+        "native_won": true,
+        "physical_no_effect": 1,
+        "physical_steps": 9,
+        "placed_then_heat_without_pickup": [],
+        "target_heat_attempts": 1,
+        "target_heat_success_steps": [
+          10
+        ],
+        "target_pickup_steps": [
+          5
+        ],
+        "thought_steps": 6,
+        "unmatched_physical_shapes": 0
+      },
+      "destination_type": "fridge",
+      "format_invalid_responses": 0,
+      "identity_file_sha256": "687791cbcd2c183aade59bfa32904d22df6903ae1e490261cbd9c0ecbf935a18",
+      "matched_focus": true,
+      "memory_hashes": [
+        "9b31be3d7f39547fbd7510cfcc17e5f2fa0d014888fbd38c4508680dc1120238",
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "3cb3e0acfc08c1a79c436d299ce46c45523f146dfb94ded88a28532b4f37fd67"
+      ],
+      "native_memory_hashes": [
+        "3cb3e0acfc08c1a79c436d299ce46c45523f146dfb94ded88a28532b4f37fd67"
+      ],
+      "native_texts_content_reviewed": true,
+      "outcome": "S",
+      "previous_result_file_sha256": "ec9d067fc52ff12919d10fcb1e164b2649b6d43cb5eb793ffe6947c934ae99b2",
+      "previous_trace": {
+        "checkpoint_sha256": "5a47c5be2e201fe32db7abe2dd147607a53a58620cd44cd4505a58a524cba24f",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 7,
+        "native_won": false,
+        "physical_no_effect": 12,
+        "physical_steps": 23,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "1cba034f78ae2b6919cddad67fa9f7475d0a349d145b3cbb2aff01f922893abe",
+            "no_effect": true,
+            "step": 14
+          },
+          {
+            "command_sha256": "1cba034f78ae2b6919cddad67fa9f7475d0a349d145b3cbb2aff01f922893abe",
+            "no_effect": true,
+            "step": 22
+          },
+          {
+            "command_sha256": "1cba034f78ae2b6919cddad67fa9f7475d0a349d145b3cbb2aff01f922893abe",
+            "no_effect": true,
+            "step": 26
+          },
+          {
+            "command_sha256": "1cba034f78ae2b6919cddad67fa9f7475d0a349d145b3cbb2aff01f922893abe",
+            "no_effect": true,
+            "step": 31
+          },
+          {
+            "command_sha256": "1cba034f78ae2b6919cddad67fa9f7475d0a349d145b3cbb2aff01f922893abe",
+            "no_effect": true,
+            "step": 33
+          },
+          {
+            "command_sha256": "1cba034f78ae2b6919cddad67fa9f7475d0a349d145b3cbb2aff01f922893abe",
+            "no_effect": true,
+            "step": 37
+          },
+          {
+            "command_sha256": "1cba034f78ae2b6919cddad67fa9f7475d0a349d145b3cbb2aff01f922893abe",
+            "no_effect": true,
+            "step": 39
+          }
+        ],
+        "target_heat_attempts": 7,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          7
+        ],
+        "thought_steps": 26,
+        "unmatched_physical_shapes": 0
+      },
+      "priority_error_absent": false,
+      "raw_checkpoint_file_sha256": "7eb0d1e0c7b830dc7b7c37924a12ee6d7fa629403684dea89d7e4c3b72eb4345",
+      "result_file_sha256": "ba42bf07a66536e7e91ebb2399c2c375416c8b52dc49010bad07a3e35573353c",
+      "result_status": "success",
+      "scene_id": "FloorPlan27",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": true,
+      "target_type": "egg",
+      "task_id": "ed50cbdfb5d81244",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_id": "successor-ed50cbdfb5d81244-2140-correct_middle",
+      "trial": 2,
+      "truncated_responses": 0
+    },
+    {
+      "condition": "neutral_full",
+      "content_flags": [
+        "alternative_heating",
+        "operational_state"
+      ],
+      "current_extra_actions": {
+        "goal_placement_feedback_steps": [],
+        "non_microwave_target_heat_steps": [
+          26
+        ],
+        "target_heat_command_steps": [
+          19,
+          26
+        ]
+      },
+      "current_trace": {
+        "checkpoint_sha256": "8c2bafd570e2769a4a81a1183164d0e6f5b933278da3d679ba6b8a8796c9daef",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 4,
+        "native_won": false,
+        "physical_no_effect": 10,
+        "physical_steps": 26,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "1cba034f78ae2b6919cddad67fa9f7475d0a349d145b3cbb2aff01f922893abe",
+            "no_effect": true,
+            "step": 19
+          },
+          {
+            "command_sha256": "2c45f43fef1b074a7c6b13bb502e2d73f95b42db6a78c3996084b77bf0e55d64",
+            "no_effect": true,
+            "step": 26
+          }
+        ],
+        "target_heat_attempts": 2,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          12
+        ],
+        "thought_steps": 23,
+        "unmatched_physical_shapes": 0
+      },
+      "destination_type": "fridge",
+      "format_invalid_responses": 0,
+      "identity_file_sha256": "7cb3360fc2ebd141169f71f655713cda7a30c02d3329c1de56d3d36f0d1c8767",
+      "matched_focus": false,
+      "memory_hashes": [
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "3bf38945ac537ab1501acb80a4a0d51698e739c50602bfb89711cdce2607737e"
+      ],
+      "native_memory_hashes": [
+        "3bf38945ac537ab1501acb80a4a0d51698e739c50602bfb89711cdce2607737e"
+      ],
+      "native_texts_content_reviewed": true,
+      "outcome": "E",
+      "previous_result_file_sha256": "d1013b8ffe4195247cb1ddb45ac736dc42a66e6af464b2216693876bbca318b4",
+      "previous_trace": {
+        "checkpoint_sha256": "034344192eaf07c0c24e4b37032bdfe301c0fd32929693c780b2cc88fbaf44a0",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 2,
+        "native_won": false,
+        "physical_no_effect": 9,
+        "physical_steps": 20,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "1cba034f78ae2b6919cddad67fa9f7475d0a349d145b3cbb2aff01f922893abe",
+            "no_effect": true,
+            "step": 15
+          }
+        ],
+        "target_heat_attempts": 1,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          6
+        ],
+        "thought_steps": 29,
+        "unmatched_physical_shapes": 1
+      },
+      "priority_error_absent": true,
+      "raw_checkpoint_file_sha256": "faf6b4bba99bb8b38559f06cb2749e4c811bf72009a63e1fe689873cdcabb34b",
+      "result_file_sha256": "1de777f365dbde5ef6241a04925a48e61a716ca1b34e8e4a40c240e2caa2c09e",
+      "result_status": "repeat_or_decision_budget",
+      "scene_id": "FloorPlan27",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "success": false,
+      "target_type": "egg",
+      "task_id": "ed50cbdfb5d81244",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_id": "successor-ed50cbdfb5d81244-2140-neutral_full",
+      "trial": 2,
+      "truncated_responses": 0
+    },
+    {
+      "condition": "correct_middle",
+      "content_flags": [
+        "alternative_heating",
+        "environment_speculation",
+        "location_search",
+        "operational_state"
+      ],
+      "current_extra_actions": {
+        "goal_placement_feedback_steps": [
+          15
+        ],
+        "non_microwave_target_heat_steps": [],
+        "target_heat_command_steps": [
+          12
+        ]
+      },
+      "current_trace": {
+        "checkpoint_sha256": "98ade0f74c33720c8cc33eb32d5f47dce205c5a4c60f5ec43eedcb8771558bad",
+        "failure_stage": "won",
+        "max_repeated_no_effect_action": 0,
+        "native_won": true,
+        "physical_no_effect": 0,
+        "physical_steps": 9,
+        "placed_then_heat_without_pickup": [],
+        "target_heat_attempts": 1,
+        "target_heat_success_steps": [
+          12
+        ],
+        "target_pickup_steps": [
+          7
+        ],
+        "thought_steps": 7,
+        "unmatched_physical_shapes": 0
+      },
+      "destination_type": "fridge",
+      "format_invalid_responses": 0,
+      "identity_file_sha256": "e533b6f5bef18a58f09f0c8a7ecee90d908ddfba6fb9c65eca38dcb84c145fb2",
+      "matched_focus": false,
+      "memory_hashes": [
+        "9b31be3d7f39547fbd7510cfcc17e5f2fa0d014888fbd38c4508680dc1120238",
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "af4c01438c6e83bc79a1eef7b6cddb5dfd0fd2a7d34b38ace623065d78ef9a30"
+      ],
+      "native_memory_hashes": [
+        "af4c01438c6e83bc79a1eef7b6cddb5dfd0fd2a7d34b38ace623065d78ef9a30"
+      ],
+      "native_texts_content_reviewed": true,
+      "outcome": "S",
+      "previous_result_file_sha256": "72d3100fee9c450abf3a247ab3b57d480ba84356051f771f45f34e6613542e86",
+      "previous_trace": {
+        "checkpoint_sha256": "47e3d05787c0e49927dcd32d36fa2101b04444cde75cce910e714f4321693c89",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 4,
+        "native_won": false,
+        "physical_no_effect": 10,
+        "physical_steps": 22,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "1cba034f78ae2b6919cddad67fa9f7475d0a349d145b3cbb2aff01f922893abe",
+            "no_effect": true,
+            "step": 12
+          },
+          {
+            "command_sha256": "1cba034f78ae2b6919cddad67fa9f7475d0a349d145b3cbb2aff01f922893abe",
+            "no_effect": true,
+            "step": 17
+          },
+          {
+            "command_sha256": "1cba034f78ae2b6919cddad67fa9f7475d0a349d145b3cbb2aff01f922893abe",
+            "no_effect": true,
+            "step": 21
+          },
+          {
+            "command_sha256": "1cba034f78ae2b6919cddad67fa9f7475d0a349d145b3cbb2aff01f922893abe",
+            "no_effect": true,
+            "step": 25
+          }
+        ],
+        "target_heat_attempts": 4,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          5
+        ],
+        "thought_steps": 27,
+        "unmatched_physical_shapes": 0
+      },
+      "priority_error_absent": true,
+      "raw_checkpoint_file_sha256": "066fcd6d8ab9835f4c47919c5cebe1394ba476398eaea8a9a303ba9bbe35b81a",
+      "result_file_sha256": "6f86d1ee61189b0e8cd48e554ae28310e8146c33d5295212ab77c4dbb6bde9d0",
+      "result_status": "success",
+      "scene_id": "FloorPlan27",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "C"
+        }
+      ],
+      "success": true,
+      "target_type": "egg",
+      "task_id": "ed50cbdfb5d81244",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_id": "successor-ed50cbdfb5d81244-2141-correct_middle",
+      "trial": 2,
+      "truncated_responses": 0
+    },
+    {
+      "condition": "neutral_full",
+      "content_flags": [
+        "alternative_heating",
+        "operational_state"
+      ],
+      "current_extra_actions": {
+        "goal_placement_feedback_steps": [],
+        "non_microwave_target_heat_steps": [],
+        "target_heat_command_steps": [
+          13,
+          21
+        ]
+      },
+      "current_trace": {
+        "checkpoint_sha256": "505a389fa45fb71f4bf3a68f84e7aeab0a21aed07ddc5092d8d3821902993a18",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 2,
+        "native_won": false,
+        "physical_no_effect": 3,
+        "physical_steps": 13,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "1cba034f78ae2b6919cddad67fa9f7475d0a349d145b3cbb2aff01f922893abe",
+            "no_effect": true,
+            "step": 13
+          },
+          {
+            "command_sha256": "1cba034f78ae2b6919cddad67fa9f7475d0a349d145b3cbb2aff01f922893abe",
+            "no_effect": true,
+            "step": 21
+          }
+        ],
+        "target_heat_attempts": 2,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          6
+        ],
+        "thought_steps": 13,
+        "unmatched_physical_shapes": 0
+      },
+      "destination_type": "fridge",
+      "format_invalid_responses": 0,
+      "identity_file_sha256": "0db32ddbae3bac18c19f5412afbcf59722d1593b7f48953239ea43a1f27759b7",
+      "matched_focus": true,
+      "memory_hashes": [
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "af41ce266f259d9d2f16a0cf16ffa8d5ebbe22c7193398980b26849287c9ae5f"
+      ],
+      "native_memory_hashes": [
+        "af41ce266f259d9d2f16a0cf16ffa8d5ebbe22c7193398980b26849287c9ae5f"
+      ],
+      "native_texts_content_reviewed": true,
+      "outcome": "B",
+      "previous_result_file_sha256": "f9735d7757f9b7eb81ab908841fe2186a85e20f0911b5b696e3b745c1f83abd3",
+      "previous_trace": {
+        "checkpoint_sha256": "51d3cc663ab0210161e65688fcc4be362ebd8aa5422df10b73153ecc742ff9a5",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 4,
+        "native_won": false,
+        "physical_no_effect": 13,
+        "physical_steps": 20,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "1cba034f78ae2b6919cddad67fa9f7475d0a349d145b3cbb2aff01f922893abe",
+            "no_effect": true,
+            "step": 13
+          },
+          {
+            "command_sha256": "1cba034f78ae2b6919cddad67fa9f7475d0a349d145b3cbb2aff01f922893abe",
+            "no_effect": true,
+            "step": 18
+          },
+          {
+            "command_sha256": "1cba034f78ae2b6919cddad67fa9f7475d0a349d145b3cbb2aff01f922893abe",
+            "no_effect": true,
+            "step": 21
+          },
+          {
+            "command_sha256": "2c45f43fef1b074a7c6b13bb502e2d73f95b42db6a78c3996084b77bf0e55d64",
+            "no_effect": true,
+            "step": 43
+          }
+        ],
+        "target_heat_attempts": 4,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          5
+        ],
+        "thought_steps": 29,
+        "unmatched_physical_shapes": 1
+      },
+      "priority_error_absent": false,
+      "raw_checkpoint_file_sha256": "40e8ec39388277468f00c4415e8e4b635641cba3c1aa2eeeb9015173a0151f43",
+      "result_file_sha256": "19fcd70fc103496291e912399b414bdc1bd9a66e723aad8e268a079824bf9230",
+      "result_status": "repeat_or_decision_budget",
+      "scene_id": "FloorPlan27",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "B"
+        }
+      ],
+      "success": false,
+      "target_type": "egg",
+      "task_id": "ed50cbdfb5d81244",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_id": "successor-ed50cbdfb5d81244-2141-neutral_full",
+      "trial": 2,
+      "truncated_responses": 0
+    },
+    {
+      "condition": "correct_middle",
+      "content_flags": [
+        "environment_speculation",
+        "operational_state"
+      ],
+      "current_extra_actions": {
+        "goal_placement_feedback_steps": [],
+        "non_microwave_target_heat_steps": [],
+        "target_heat_command_steps": []
+      },
+      "current_trace": {
+        "checkpoint_sha256": "2c49430c0cfaebf17d50a1b3c80abe5cfd7918524a007433be17589f3a8b84a8",
+        "failure_stage": "no_target_pickup",
+        "max_repeated_no_effect_action": 3,
+        "native_won": false,
+        "physical_no_effect": 4,
+        "physical_steps": 29,
+        "placed_then_heat_without_pickup": [],
+        "target_heat_attempts": 0,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [],
+        "thought_steps": 20,
+        "unmatched_physical_shapes": 0
+      },
+      "destination_type": "fridge",
+      "format_invalid_responses": 0,
+      "identity_file_sha256": "7ea9860ef28991c03b971916c2dfc1860eddf707d495ac89389977a599bb5765",
+      "matched_focus": false,
+      "memory_hashes": [
+        "9b31be3d7f39547fbd7510cfcc17e5f2fa0d014888fbd38c4508680dc1120238",
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "ccdf54d03b53ea695b4051617dc2fa5adcf5d04de73652796cf05d082ff38b7e"
+      ],
+      "native_memory_hashes": [
+        "ccdf54d03b53ea695b4051617dc2fa5adcf5d04de73652796cf05d082ff38b7e"
+      ],
+      "native_texts_content_reviewed": true,
+      "outcome": "U",
+      "previous_result_file_sha256": "f6c16faadc0330c1b4f82f1e914ab977e818d773f51dbd9dcecdc5dca699b8f8",
+      "previous_trace": {
+        "checkpoint_sha256": "36df5e7fc1ca26f2025223445bd5375f3240955d2fc15994af41ec7d17b14cdd",
+        "failure_stage": "no_target_pickup",
+        "max_repeated_no_effect_action": 1,
+        "native_won": false,
+        "physical_no_effect": 9,
+        "physical_steps": 17,
+        "placed_then_heat_without_pickup": [],
+        "target_heat_attempts": 1,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [],
+        "thought_steps": 12,
+        "unmatched_physical_shapes": 5
+      },
+      "priority_error_absent": true,
+      "raw_checkpoint_file_sha256": "8635480f9c1e2c11d6e8627e6ae8e7708180ca400d3751b2ccf84d1f16763c26",
+      "result_file_sha256": "c2989a2560acba17b6584ed164cfd58310e306da159faf1f9ccb444f487d0c38",
+      "result_status": "repeat_or_decision_budget",
+      "scene_id": "FloorPlan5",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "success": false,
+      "target_type": "potato",
+      "task_id": "ef6cc184e1daab84",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_id": "successor-ef6cc184e1daab84-2140-correct_middle",
+      "trial": 2,
+      "truncated_responses": 0
+    },
+    {
+      "condition": "neutral_full",
+      "content_flags": [
+        "location_search"
+      ],
+      "current_extra_actions": {
+        "goal_placement_feedback_steps": [],
+        "non_microwave_target_heat_steps": [],
+        "target_heat_command_steps": [
+          20
+        ]
+      },
+      "current_trace": {
+        "checkpoint_sha256": "0d79112f943cc64b074ff8d08bee1c809dc04bc544d9a03ccb1f1336c9c739f3",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 1,
+        "native_won": false,
+        "physical_no_effect": 1,
+        "physical_steps": 12,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "ff885ca980cab9f1361f82e8dacb0790e29def496b9197a40a7ddd418398588c",
+            "no_effect": true,
+            "step": 20
+          }
+        ],
+        "target_heat_attempts": 1,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          13
+        ],
+        "thought_steps": 11,
+        "unmatched_physical_shapes": 0
+      },
+      "destination_type": "fridge",
+      "format_invalid_responses": 0,
+      "identity_file_sha256": "c99067af798f99a3a481423fb2af15739e8a98523f1c0102c117c306446a9524",
+      "matched_focus": false,
+      "memory_hashes": [
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "8a5dd7ab84301278db718217fd65bb9cc240ee9a35781df28afc1a4bfbbeb053"
+      ],
+      "native_memory_hashes": [
+        "8a5dd7ab84301278db718217fd65bb9cc240ee9a35781df28afc1a4bfbbeb053"
+      ],
+      "native_texts_content_reviewed": true,
+      "outcome": "E",
+      "previous_result_file_sha256": "e9e0dc478709ea2d7d654957b6d4bc235606c2ea3203b67dd3a2726b6320b5a8",
+      "previous_trace": {
+        "checkpoint_sha256": "17c6dd7ef8e18c2ee3adf5ad6e473563f520e54122e9beaef2883076712829d5",
+        "failure_stage": "no_target_pickup",
+        "max_repeated_no_effect_action": 1,
+        "native_won": false,
+        "physical_no_effect": 4,
+        "physical_steps": 31,
+        "placed_then_heat_without_pickup": [],
+        "target_heat_attempts": 0,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [],
+        "thought_steps": 18,
+        "unmatched_physical_shapes": 2
+      },
+      "priority_error_absent": true,
+      "raw_checkpoint_file_sha256": "166ce6c309ed8a5620ca59e500426faaefce1baa83f51e1df5a111f699267b41",
+      "result_file_sha256": "c04046c9649ffb9e475217d25b413a531b4429b519f247bd7441bee15e91ef79",
+      "result_status": "repeat_or_decision_budget",
+      "scene_id": "FloorPlan5",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "success": false,
+      "target_type": "potato",
+      "task_id": "ef6cc184e1daab84",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_id": "successor-ef6cc184e1daab84-2140-neutral_full",
+      "trial": 2,
+      "truncated_responses": 0
+    },
+    {
+      "condition": "correct_middle",
+      "content_flags": [
+        "location_search"
+      ],
+      "current_extra_actions": {
+        "goal_placement_feedback_steps": [],
+        "non_microwave_target_heat_steps": [],
+        "target_heat_command_steps": []
+      },
+      "current_trace": {
+        "checkpoint_sha256": "74f0b159d92a7eec73b10d0be7dd40e0b64777ef3b43ec15a9186b18a242bf9e",
+        "failure_stage": "no_target_pickup",
+        "max_repeated_no_effect_action": 1,
+        "native_won": false,
+        "physical_no_effect": 2,
+        "physical_steps": 28,
+        "placed_then_heat_without_pickup": [],
+        "target_heat_attempts": 0,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [],
+        "thought_steps": 21,
+        "unmatched_physical_shapes": 0
+      },
+      "destination_type": "fridge",
+      "format_invalid_responses": 0,
+      "identity_file_sha256": "323bb30de731f22d3208d64707f4c99271f4b376a9005dbbb4b33e14800a8433",
+      "matched_focus": false,
+      "memory_hashes": [
+        "9b31be3d7f39547fbd7510cfcc17e5f2fa0d014888fbd38c4508680dc1120238",
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "976eec3cb0768168295c6c6cf2d940a8d0cc149d066589d2a658c13f5cf97ef8"
+      ],
+      "native_memory_hashes": [
+        "976eec3cb0768168295c6c6cf2d940a8d0cc149d066589d2a658c13f5cf97ef8"
+      ],
+      "native_texts_content_reviewed": true,
+      "outcome": "U",
+      "previous_result_file_sha256": "72ff9e3df50c82d3b4568f5d3c96b533c3a96de3719245e39a0523a3a98f2f6e",
+      "previous_trace": {
+        "checkpoint_sha256": "a37142e54f04920b61e6eb02691996fbe9c2dfcb499ff03b4bb733554f1a7c9e",
+        "failure_stage": "no_target_pickup",
+        "max_repeated_no_effect_action": 3,
+        "native_won": false,
+        "physical_no_effect": 4,
+        "physical_steps": 9,
+        "placed_then_heat_without_pickup": [],
+        "target_heat_attempts": 0,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [],
+        "thought_steps": 11,
+        "unmatched_physical_shapes": 1
+      },
+      "priority_error_absent": true,
+      "raw_checkpoint_file_sha256": "bfbfb53ee1568f399a5f5cccaac33651470e77ca19e6c78162aea2341bd5d1c7",
+      "result_file_sha256": "d34a0c517d5008b535d09e06c1729a6cd0219f819fc7b46102d46112560a234e",
+      "result_status": "repeat_or_decision_budget",
+      "scene_id": "FloorPlan5",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "success": false,
+      "target_type": "potato",
+      "task_id": "ef6cc184e1daab84",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_id": "successor-ef6cc184e1daab84-2141-correct_middle",
+      "trial": 2,
+      "truncated_responses": 0
+    },
+    {
+      "condition": "neutral_full",
+      "content_flags": null,
+      "current_extra_actions": {
+        "goal_placement_feedback_steps": [],
+        "non_microwave_target_heat_steps": [],
+        "target_heat_command_steps": []
+      },
+      "current_trace": {
+        "checkpoint_sha256": "6993f587ffd2fa684c0550e18268e132511b938f9c7da40e6db6b88451ce3fbd",
+        "failure_stage": "no_target_pickup",
+        "max_repeated_no_effect_action": 1,
+        "native_won": false,
+        "physical_no_effect": 2,
+        "physical_steps": 13,
+        "placed_then_heat_without_pickup": [],
+        "target_heat_attempts": 0,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [],
+        "thought_steps": 12,
+        "unmatched_physical_shapes": 0
+      },
+      "destination_type": "fridge",
+      "format_invalid_responses": 0,
+      "identity_file_sha256": "ad670b45eacfca48f91afb0c73c930fde6f2e62f9060c58abdd4ecab18602e4d",
+      "matched_focus": false,
+      "memory_hashes": [
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "103524879fcb94d33a9f90dceedff33f8cacad5eff20186a59ee65a0129020f5"
+      ],
+      "native_memory_hashes": [
+        "103524879fcb94d33a9f90dceedff33f8cacad5eff20186a59ee65a0129020f5"
+      ],
+      "native_texts_content_reviewed": false,
+      "outcome": "U",
+      "previous_result_file_sha256": "099a025844370ecd4c5a8af9b45cf4d78202d2e63f8f30d4f5c8744705e4aeb7",
+      "previous_trace": {
+        "checkpoint_sha256": "e5af40249fcf2c336b5e276f71e1275bbf9646195ecb197401ecbd77cdc0f590",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 4,
+        "native_won": false,
+        "physical_no_effect": 9,
+        "physical_steps": 25,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "78ddd8bfd718bbf6877b9b2a7ddc7fc1a65354d5617b3f5a85e473ac932162ca",
+            "no_effect": true,
+            "step": 38
+          }
+        ],
+        "target_heat_attempts": 1,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          31
+        ],
+        "thought_steps": 24,
+        "unmatched_physical_shapes": 3
+      },
+      "priority_error_absent": false,
+      "raw_checkpoint_file_sha256": "adfe1ed72e74b028df4dcb2b38ad33beed58582b17dbae35051605b64a588f54",
+      "result_file_sha256": "d46edf6e6699b5cedc90e0b800d45ccfd9751652f1c3fdd29d8e8871983e76a0",
+      "result_status": "repeat_or_decision_budget",
+      "scene_id": "FloorPlan5",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "target_type": "potato",
+      "task_id": "ef6cc184e1daab84",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_id": "successor-ef6cc184e1daab84-2141-neutral_full",
+      "trial": 2,
+      "truncated_responses": 0
+    },
+    {
+      "condition": "correct_middle",
+      "content_flags": null,
+      "current_extra_actions": {
+        "goal_placement_feedback_steps": [],
+        "non_microwave_target_heat_steps": [
+          44
+        ],
+        "target_heat_command_steps": [
+          19,
+          22,
+          44
+        ]
+      },
+      "current_trace": {
+        "checkpoint_sha256": "eb05d1063d8c8bd0c9a192fe481cb4e7d99fcf767d601ade2cdc1c8db6de4fdb",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 3,
+        "native_won": false,
+        "physical_no_effect": 11,
+        "physical_steps": 18,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "541df5b26802b1b37d135d0e72f9d565d513ab129112f72cce2b3b52476d6238",
+            "no_effect": true,
+            "step": 19
+          },
+          {
+            "command_sha256": "541df5b26802b1b37d135d0e72f9d565d513ab129112f72cce2b3b52476d6238",
+            "no_effect": true,
+            "step": 22
+          },
+          {
+            "command_sha256": "23bb7505ea13f07d03bf096869a30bb172572eb9e54076c10a46398ed01a4e3e",
+            "no_effect": true,
+            "step": 44
+          }
+        ],
+        "target_heat_attempts": 3,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          10
+        ],
+        "thought_steps": 31,
+        "unmatched_physical_shapes": 1
+      },
+      "destination_type": "fridge",
+      "format_invalid_responses": 0,
+      "identity_file_sha256": "5b803c85de7f6410fd1e044d01caa7e38eb03b724b932f5c7a2ab800898ddb36",
+      "matched_focus": false,
+      "memory_hashes": [
+        "9b31be3d7f39547fbd7510cfcc17e5f2fa0d014888fbd38c4508680dc1120238",
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "eb6a7a63389e7f611e843b5aebe4182917cedebddfd1ead9e9540ca1aebee8e7"
+      ],
+      "native_memory_hashes": [
+        "eb6a7a63389e7f611e843b5aebe4182917cedebddfd1ead9e9540ca1aebee8e7"
+      ],
+      "native_texts_content_reviewed": false,
+      "outcome": "A",
+      "previous_result_file_sha256": "1f06a85109684d7dcf0edf82a93725556f71f7325aa167bdad59105839f182f2",
+      "previous_trace": {
+        "checkpoint_sha256": "58a0b4b81120c7c74a124879ababe6542684e4b38f791d75fb781fb043a9dc72",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 3,
+        "native_won": false,
+        "physical_no_effect": 11,
+        "physical_steps": 23,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "541df5b26802b1b37d135d0e72f9d565d513ab129112f72cce2b3b52476d6238",
+            "no_effect": true,
+            "step": 13
+          },
+          {
+            "command_sha256": "541df5b26802b1b37d135d0e72f9d565d513ab129112f72cce2b3b52476d6238",
+            "no_effect": true,
+            "step": 17
+          },
+          {
+            "command_sha256": "541df5b26802b1b37d135d0e72f9d565d513ab129112f72cce2b3b52476d6238",
+            "no_effect": true,
+            "step": 26
+          },
+          {
+            "command_sha256": "23bb7505ea13f07d03bf096869a30bb172572eb9e54076c10a46398ed01a4e3e",
+            "no_effect": true,
+            "step": 36
+          }
+        ],
+        "target_heat_attempts": 4,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          6,
+          43
+        ],
+        "thought_steps": 26,
+        "unmatched_physical_shapes": 2
+      },
+      "priority_error_absent": false,
+      "raw_checkpoint_file_sha256": "6a30d074498d04b48e55bfcc661f33490b4415d41fde3479164f14f90ab389cf",
+      "result_file_sha256": "00182fcde062c8c122ebc0c573544043e479706cf2274af290e48c1b7e530224",
+      "result_status": "repeat_or_decision_budget",
+      "scene_id": "FloorPlan27",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": false,
+      "target_type": "egg",
+      "task_id": "f04585fcfbcaf81a",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_id": "successor-f04585fcfbcaf81a-2140-correct_middle",
+      "trial": 2,
+      "truncated_responses": 0
+    },
+    {
+      "condition": "neutral_full",
+      "content_flags": [
+        "alternative_heating",
+        "environment_speculation",
+        "operational_state"
+      ],
+      "current_extra_actions": {
+        "goal_placement_feedback_steps": [],
+        "non_microwave_target_heat_steps": [],
+        "target_heat_command_steps": [
+          17,
+          48
+        ]
+      },
+      "current_trace": {
+        "checkpoint_sha256": "31c56e1a5fef4d41e23450de7550050bf81d204ca726bea4449619bb79ee48ab",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 3,
+        "native_won": false,
+        "physical_no_effect": 10,
+        "physical_steps": 26,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "541df5b26802b1b37d135d0e72f9d565d513ab129112f72cce2b3b52476d6238",
+            "no_effect": true,
+            "step": 17
+          },
+          {
+            "command_sha256": "1dbb545187a3a7c3467028bb51faa73653da46e6ff79de82b477677c26bc103f",
+            "no_effect": true,
+            "step": 48
+          }
+        ],
+        "target_heat_attempts": 2,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          10,
+          41
+        ],
+        "thought_steps": 23,
+        "unmatched_physical_shapes": 2
+      },
+      "destination_type": "fridge",
+      "format_invalid_responses": 0,
+      "identity_file_sha256": "f7cbd937a8f5dd1d40e6190b2c1db117955cd665d0ddf7e418167eb43cb27f22",
+      "matched_focus": false,
+      "memory_hashes": [
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "e79587685a70eb68659bc878f17b04d4b45f12ed004e05c6e5daee4de3bff5b7"
+      ],
+      "native_memory_hashes": [
+        "e79587685a70eb68659bc878f17b04d4b45f12ed004e05c6e5daee4de3bff5b7"
+      ],
+      "native_texts_content_reviewed": true,
+      "outcome": "A",
+      "previous_result_file_sha256": "c261f3ee26309612eca156d83c2ad2fc6cec07a483b8ea1d5e24037ee508c064",
+      "previous_trace": {
+        "checkpoint_sha256": "6d6c9103eb78e23a8a54bb60880fd17454c010529c71e23d1c1b39c6983f2289",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 3,
+        "native_won": false,
+        "physical_no_effect": 10,
+        "physical_steps": 24,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "541df5b26802b1b37d135d0e72f9d565d513ab129112f72cce2b3b52476d6238",
+            "no_effect": true,
+            "step": 14
+          },
+          {
+            "command_sha256": "541df5b26802b1b37d135d0e72f9d565d513ab129112f72cce2b3b52476d6238",
+            "no_effect": true,
+            "step": 19
+          },
+          {
+            "command_sha256": "541df5b26802b1b37d135d0e72f9d565d513ab129112f72cce2b3b52476d6238",
+            "no_effect": true,
+            "step": 24
+          }
+        ],
+        "target_heat_attempts": 3,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          6
+        ],
+        "thought_steps": 25,
+        "unmatched_physical_shapes": 3
+      },
+      "priority_error_absent": true,
+      "raw_checkpoint_file_sha256": "fd92ecd71fef42e46c8e633ded6324d0db90ba73a01d482afb78ba4e6db0d2e9",
+      "result_file_sha256": "92681287cf3d062552e679b729fd26300f21bb05333479aed61741973451c7da",
+      "result_status": "repeat_or_decision_budget",
+      "scene_id": "FloorPlan27",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "A"
+        }
+      ],
+      "success": false,
+      "target_type": "egg",
+      "task_id": "f04585fcfbcaf81a",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_id": "successor-f04585fcfbcaf81a-2140-neutral_full",
+      "trial": 2,
+      "truncated_responses": 0
+    },
+    {
+      "condition": "neutral_full",
+      "content_flags": [
+        "alternative_heating",
+        "environment_speculation",
+        "operational_state"
+      ],
+      "current_extra_actions": {
+        "goal_placement_feedback_steps": [],
+        "non_microwave_target_heat_steps": [],
+        "target_heat_command_steps": [
+          14,
+          17
+        ]
+      },
+      "current_trace": {
+        "checkpoint_sha256": "a94c97695fac1470fc7336eaa7e693ee031e311f50e8a608c3f4a607663988f0",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 2,
+        "native_won": false,
+        "physical_no_effect": 5,
+        "physical_steps": 13,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "541df5b26802b1b37d135d0e72f9d565d513ab129112f72cce2b3b52476d6238",
+            "no_effect": true,
+            "step": 14
+          },
+          {
+            "command_sha256": "541df5b26802b1b37d135d0e72f9d565d513ab129112f72cce2b3b52476d6238",
+            "no_effect": true,
+            "step": 17
+          }
+        ],
+        "target_heat_attempts": 2,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          7,
+          22
+        ],
+        "thought_steps": 17,
+        "unmatched_physical_shapes": 0
+      },
+      "destination_type": "fridge",
+      "format_invalid_responses": 0,
+      "identity_file_sha256": "2eac0d89b530f568a1ec95fefc8b820e0dbcd48826d3747abd1cdb831925e5e4",
+      "matched_focus": false,
+      "memory_hashes": [
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "260f466d2b1b8039ff1dbf32479fd613e1950097a7c3770a7315ed9f12faa9c0"
+      ],
+      "native_memory_hashes": [
+        "260f466d2b1b8039ff1dbf32479fd613e1950097a7c3770a7315ed9f12faa9c0"
+      ],
+      "native_texts_content_reviewed": true,
+      "outcome": "E",
+      "previous_result_file_sha256": "8ed15df7108d19b643151962db558dc202202b35dd2bb218f28d471c15841617",
+      "previous_trace": {
+        "checkpoint_sha256": "b1a3611f50bd70dbc8d5781af87c71fab4796209ec86fefda728bea782e33819",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 2,
+        "native_won": false,
+        "physical_no_effect": 7,
+        "physical_steps": 18,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "541df5b26802b1b37d135d0e72f9d565d513ab129112f72cce2b3b52476d6238",
+            "no_effect": true,
+            "step": 15
+          }
+        ],
+        "target_heat_attempts": 1,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          6
+        ],
+        "thought_steps": 25,
+        "unmatched_physical_shapes": 2
+      },
+      "priority_error_absent": true,
+      "raw_checkpoint_file_sha256": "0158dc72ad9755aed3d18f88f10d037a39d10df6c31ff1e522290a1420d76496",
+      "result_file_sha256": "a81fa595978ba7e8ad1021675f76f582bedd6896a729d74a27f135fb57158b2f",
+      "result_status": "repeat_or_decision_budget",
+      "scene_id": "FloorPlan27",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "success": false,
+      "target_type": "egg",
+      "task_id": "f04585fcfbcaf81a",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_id": "successor-f04585fcfbcaf81a-2141-neutral_full",
+      "trial": 2,
+      "truncated_responses": 0
+    },
+    {
+      "condition": "correct_middle",
+      "content_flags": [
+        "location_search",
+        "operational_state"
+      ],
+      "current_extra_actions": {
+        "goal_placement_feedback_steps": [],
+        "non_microwave_target_heat_steps": [],
+        "target_heat_command_steps": []
+      },
+      "current_trace": {
+        "checkpoint_sha256": "8d0486fcb07e2b8d73ed0a8f72f1027427ef2578d920eb20c97b5a69f162297a",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 5,
+        "native_won": false,
+        "physical_no_effect": 6,
+        "physical_steps": 11,
+        "placed_then_heat_without_pickup": [],
+        "target_heat_attempts": 0,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          5
+        ],
+        "thought_steps": 20,
+        "unmatched_physical_shapes": 0
+      },
+      "destination_type": "fridge",
+      "format_invalid_responses": 0,
+      "identity_file_sha256": "7304f52ec01a6d30c32316101c6e4f878b9e847f7e38c22c2f39578398ce142e",
+      "matched_focus": false,
+      "memory_hashes": [
+        "9b31be3d7f39547fbd7510cfcc17e5f2fa0d014888fbd38c4508680dc1120238",
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "90942a7900e60ccbb6dee730f5b24e34f864fffb1cb5d9c97e1802cb745e1c3c"
+      ],
+      "native_memory_hashes": [
+        "90942a7900e60ccbb6dee730f5b24e34f864fffb1cb5d9c97e1802cb745e1c3c"
+      ],
+      "native_texts_content_reviewed": true,
+      "outcome": "E",
+      "previous_result_file_sha256": "0039a1c94778bf01c500c38480d295b2ad75a01ce27bff7ef2b2e6b5584107c3",
+      "previous_trace": {
+        "checkpoint_sha256": "5ed8cebc670a326f166c0eab711e0038c66daffd6ac98963e24953cb2524e75b",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 7,
+        "native_won": false,
+        "physical_no_effect": 16,
+        "physical_steps": 27,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "d250b2f2409b155da1d151d9d8555154d9afb65fce178795072004a690ca73e6",
+            "no_effect": true,
+            "step": 12
+          }
+        ],
+        "target_heat_attempts": 1,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          5
+        ],
+        "thought_steps": 22,
+        "unmatched_physical_shapes": 1
+      },
+      "priority_error_absent": true,
+      "raw_checkpoint_file_sha256": "7377fcf26804245f972c3060272dc1c78da10a279ab6185fb8bc124a320fbc20",
+      "result_file_sha256": "33f24494bab12d11ec54c2bbc70aae3d0b5df8d91cc69f9bac04319309532ac4",
+      "result_status": "repeat_or_decision_budget",
+      "scene_id": "FloorPlan25",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "success": false,
+      "target_type": "tomato",
+      "task_id": "fae67e6754593b0a",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_id": "successor-fae67e6754593b0a-2140-correct_middle",
+      "trial": 2,
+      "truncated_responses": 0
+    },
+    {
+      "condition": "neutral_full",
+      "content_flags": null,
+      "current_extra_actions": {
+        "goal_placement_feedback_steps": [
+          30
+        ],
+        "non_microwave_target_heat_steps": [],
+        "target_heat_command_steps": [
+          27
+        ]
+      },
+      "current_trace": {
+        "checkpoint_sha256": "705d24c66670d4e0b538871fec7c7d8c8d2d5363942a993a95e81e51a0278355",
+        "failure_stage": "won",
+        "max_repeated_no_effect_action": 2,
+        "native_won": true,
+        "physical_no_effect": 3,
+        "physical_steps": 15,
+        "placed_then_heat_without_pickup": [],
+        "target_heat_attempts": 1,
+        "target_heat_success_steps": [
+          27
+        ],
+        "target_pickup_steps": [
+          5
+        ],
+        "thought_steps": 16,
+        "unmatched_physical_shapes": 0
+      },
+      "destination_type": "fridge",
+      "format_invalid_responses": 0,
+      "identity_file_sha256": "5a0c58db789a1dbd002654944c796bb0e7e4614d31bdc4c5c3cb3def76581ab1",
+      "matched_focus": false,
+      "memory_hashes": [
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "4c16d011ec49557049bea9816e4f11b4c9de68455c6bdb02941396f48bc7aafc"
+      ],
+      "native_memory_hashes": [
+        "4c16d011ec49557049bea9816e4f11b4c9de68455c6bdb02941396f48bc7aafc"
+      ],
+      "native_texts_content_reviewed": false,
+      "outcome": "S",
+      "previous_result_file_sha256": "b66af996634d8d61d7c3ccb743925b945ad6dc7281ecd7e14a026bc57207be34",
+      "previous_trace": {
+        "checkpoint_sha256": "7113875678f5dc05faed13a6ef09ec7b0b818e84694d145a6dcc89cebde835c5",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 4,
+        "native_won": false,
+        "physical_no_effect": 10,
+        "physical_steps": 23,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "d250b2f2409b155da1d151d9d8555154d9afb65fce178795072004a690ca73e6",
+            "no_effect": true,
+            "step": 12
+          },
+          {
+            "command_sha256": "d250b2f2409b155da1d151d9d8555154d9afb65fce178795072004a690ca73e6",
+            "no_effect": true,
+            "step": 17
+          },
+          {
+            "command_sha256": "d250b2f2409b155da1d151d9d8555154d9afb65fce178795072004a690ca73e6",
+            "no_effect": true,
+            "step": 20
+          }
+        ],
+        "target_heat_attempts": 3,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          5
+        ],
+        "thought_steps": 26,
+        "unmatched_physical_shapes": 0
+      },
+      "priority_error_absent": false,
+      "raw_checkpoint_file_sha256": "99dc5882eca90a7031f963f36d6695381bbbd06303d43b59be4cff52c6e51f67",
+      "result_file_sha256": "5f5d30852d44165e9f1b5dc67e3971afcbe9eb2a6ab74a8282f78d4a4adf15e2",
+      "result_status": "success",
+      "scene_id": "FloorPlan25",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": true,
+      "target_type": "tomato",
+      "task_id": "fae67e6754593b0a",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_id": "successor-fae67e6754593b0a-2140-neutral_full",
+      "trial": 2,
+      "truncated_responses": 0
+    },
+    {
+      "condition": "correct_middle",
+      "content_flags": [
+        "alternative_heating",
+        "operational_state"
+      ],
+      "current_extra_actions": {
+        "goal_placement_feedback_steps": [
+          15
+        ],
+        "non_microwave_target_heat_steps": [],
+        "target_heat_command_steps": [
+          12
+        ]
+      },
+      "current_trace": {
+        "checkpoint_sha256": "4de4f5a95201626782e07850861fb55d697fa2df2172cddc04f472cfa19ed973",
+        "failure_stage": "won",
+        "max_repeated_no_effect_action": 1,
+        "native_won": true,
+        "physical_no_effect": 1,
+        "physical_steps": 9,
+        "placed_then_heat_without_pickup": [],
+        "target_heat_attempts": 1,
+        "target_heat_success_steps": [
+          12
+        ],
+        "target_pickup_steps": [
+          5
+        ],
+        "thought_steps": 7,
+        "unmatched_physical_shapes": 0
+      },
+      "destination_type": "fridge",
+      "format_invalid_responses": 0,
+      "identity_file_sha256": "03c888e36a249e03f0ea2cabe07474d224b6dcef1d749996173045c689b8a555",
+      "matched_focus": false,
+      "memory_hashes": [
+        "9b31be3d7f39547fbd7510cfcc17e5f2fa0d014888fbd38c4508680dc1120238",
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "4faae0a3af57621eea53a11f8f621bd7b10c7d12834c0809df8195b24217dc6b"
+      ],
+      "native_memory_hashes": [
+        "4faae0a3af57621eea53a11f8f621bd7b10c7d12834c0809df8195b24217dc6b"
+      ],
+      "native_texts_content_reviewed": true,
+      "outcome": "S",
+      "previous_result_file_sha256": "2f1abf6b3802d7773d9ed3f8483cead7e695b4f6e2bb72124ffe5f52e367b5d9",
+      "previous_trace": {
+        "checkpoint_sha256": "4f3e2505050f15c157024c485a7fe27c1944378c58067606e93036038e55cec9",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 3,
+        "native_won": false,
+        "physical_no_effect": 12,
+        "physical_steps": 23,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "d250b2f2409b155da1d151d9d8555154d9afb65fce178795072004a690ca73e6",
+            "no_effect": true,
+            "step": 12
+          },
+          {
+            "command_sha256": "d250b2f2409b155da1d151d9d8555154d9afb65fce178795072004a690ca73e6",
+            "no_effect": true,
+            "step": 16
+          },
+          {
+            "command_sha256": "d250b2f2409b155da1d151d9d8555154d9afb65fce178795072004a690ca73e6",
+            "no_effect": true,
+            "step": 34
+          }
+        ],
+        "target_heat_attempts": 3,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          5
+        ],
+        "thought_steps": 26,
+        "unmatched_physical_shapes": 1
+      },
+      "priority_error_absent": true,
+      "raw_checkpoint_file_sha256": "d8904614363f06711812be5a60e1f4dd25942ed5b831821658ba3e7cc05f0363",
+      "result_file_sha256": "f0ab9185aecc10042d4d9a5d10484d785729ddedf38847a5ff38cbef69f8ba97",
+      "result_status": "success",
+      "scene_id": "FloorPlan25",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "success": true,
+      "target_type": "tomato",
+      "task_id": "fae67e6754593b0a",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_id": "successor-fae67e6754593b0a-2141-correct_middle",
+      "trial": 2,
+      "truncated_responses": 0
+    },
+    {
+      "condition": "neutral_full",
+      "content_flags": null,
+      "current_extra_actions": {
+        "goal_placement_feedback_steps": [
+          23
+        ],
+        "non_microwave_target_heat_steps": [],
+        "target_heat_command_steps": [
+          20
+        ]
+      },
+      "current_trace": {
+        "checkpoint_sha256": "2c7b539cad909a3c91eb5e1311b398484d176ae573d07cb151b9c53e58fcf607",
+        "failure_stage": "won",
+        "max_repeated_no_effect_action": 2,
+        "native_won": true,
+        "physical_no_effect": 2,
+        "physical_steps": 13,
+        "placed_then_heat_without_pickup": [],
+        "target_heat_attempts": 1,
+        "target_heat_success_steps": [
+          20
+        ],
+        "target_pickup_steps": [
+          5
+        ],
+        "thought_steps": 11,
+        "unmatched_physical_shapes": 0
+      },
+      "destination_type": "fridge",
+      "format_invalid_responses": 0,
+      "identity_file_sha256": "1b2c43f3467a9712cbbd4f1d57877dfcee6117807e4c12f9b59596e6ff9d0f22",
+      "matched_focus": false,
+      "memory_hashes": [
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "0bb06d66d8f6951da039b256a9b53dd06fe1871626cc5795e63d8db6de1c517a",
+        "716c6507119c8c67edc532b4fb95da22e0321d97d7557fc3ec34e1ac2bca70c6"
+      ],
+      "native_memory_hashes": [
+        "716c6507119c8c67edc532b4fb95da22e0321d97d7557fc3ec34e1ac2bca70c6"
+      ],
+      "native_texts_content_reviewed": false,
+      "outcome": "S",
+      "previous_result_file_sha256": "d5bc7bf6d838d9cdf1552f54408e830edd212efa481c617aabfdfd0253b1bb84",
+      "previous_trace": {
+        "checkpoint_sha256": "95f1b5c7ab7b70b93c16577b179cc95c1396481441b2112ce5f72e3eaa322eed",
+        "failure_stage": "pickup_without_heat",
+        "max_repeated_no_effect_action": 2,
+        "native_won": false,
+        "physical_no_effect": 11,
+        "physical_steps": 24,
+        "placed_then_heat_without_pickup": [
+          {
+            "command_sha256": "d250b2f2409b155da1d151d9d8555154d9afb65fce178795072004a690ca73e6",
+            "no_effect": true,
+            "step": 12
+          },
+          {
+            "command_sha256": "d250b2f2409b155da1d151d9d8555154d9afb65fce178795072004a690ca73e6",
+            "no_effect": true,
+            "step": 27
+          }
+        ],
+        "target_heat_attempts": 2,
+        "target_heat_success_steps": [],
+        "target_pickup_steps": [
+          5
+        ],
+        "thought_steps": 25,
+        "unmatched_physical_shapes": 0
+      },
+      "priority_error_absent": false,
+      "raw_checkpoint_file_sha256": "3e8eeabdbf6015fce2534ef62866be4532e405da75f301e731035a4bfef363df",
+      "result_file_sha256": "664677a7a2a292b2edf7e6f417c93c1b4a221bf26dfaceff11010689debbf18e",
+      "result_status": "success",
+      "scene_id": "FloorPlan25",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "success": true,
+      "target_type": "tomato",
+      "task_id": "fae67e6754593b0a",
+      "task_type": "pick_heat_then_place_in_recep",
+      "trajectory_id": "successor-fae67e6754593b0a-2141-neutral_full",
+      "trial": 2,
+      "truncated_responses": 0
+    }
+  ],
+  "sha256": "4ce27ab7dbe5ee2e0c9657ff11f983ab45c4b78afcb85537d4074fbc9a5c4738",
+  "start": 450
+}
