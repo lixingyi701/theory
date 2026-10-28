@@ -1,0 +1,36 @@
+{
+  "actual_first_request_matches_frozen_prompt": true,
+  "completed_attempts": 1,
+  "contract_sha256": "f2a63ce4699e5c9b21b38ff137aea87c91384bbec77cf3aaf4b575268e1e0dba",
+  "costs_snapshot": {
+    "dispatched_calls": 66,
+    "input_tokens_known": 163184,
+    "output_tokens_known": 2402,
+    "saved_responses": 65,
+    "truncated_responses": 0,
+    "uncertain_or_unrecorded_attempts": 1,
+    "usage_missing_responses": 0
+  },
+  "deadline_unix": 1793201080.358442,
+  "elapsed_seconds": 89.19182538986206,
+  "expected_attempts": 276,
+  "first_actor_response_saved": true,
+  "freeze_commit": "d487c6832c880ece87dc6155a9bef15a8e7ea186",
+  "gpu_indices": [
+    3
+  ],
+  "gpu_memory_utilization": 0.35,
+  "holdout134_calls": 0,
+  "incomplete_request_records_at_snapshot": 1,
+  "master_alive": true,
+  "maximum_calls": 25000,
+  "parameter_fits": 0,
+  "protocol_sha256": "07afa23379dd0341f99fefeae773a8508769e9577005495f75eed31de0c3422f",
+  "replica_checks_passed": true,
+  "scenes": 24,
+  "sha256": "0e568752c41e126d4fb2c758a4d6edf7ee641a9791f187eea76b0cdbe20c9789",
+  "snapshot_interpretation": "Live collection snapshot; an outstanding request is retained pending response, not a final missing-call judgment",
+  "snapshot_utc": "2026-10-28 03:26:09 UTC",
+  "status": "running",
+  "tasks": 46
+}
