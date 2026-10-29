@@ -1,0 +1,429 @@
+{
+  "completed_cells": 28,
+  "completed_tasks": 4,
+  "costs_incremental": {
+    "dispatched_calls": 581,
+    "input_tokens_known": 1644392,
+    "output_tokens_known": 21290,
+    "saved_responses": 581,
+    "truncated_responses": 0,
+    "uncertain_or_unrecorded_attempts": 0,
+    "usage_missing_responses": 0
+  },
+  "expected_cells": 28,
+  "expected_tasks": 4,
+  "phase": "calibration",
+  "reused_cells": 12,
+  "rows": [
+    {
+      "decisions": 22,
+      "labels": [],
+      "memory_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "result_file_sha256": "4a99dcfbb652fd489c7485834f762c90196cc60f1b6ae3c728ccb3287409c63b",
+      "result_path": "runs/reflexion-precondition-diagnostic-forks-20261023/targets/762a7487ace813d7/branches/discard_new/trial-01/result.json",
+      "reused": true,
+      "source_calls": 22,
+      "state": "empty",
+      "success": true,
+      "task_id": "762a7487ace813d7"
+    },
+    {
+      "decisions": 38,
+      "labels": [
+        "E"
+      ],
+      "memory_sha256": "e8ed63a389a20789ea3b23eb611d9f85ee9fdb8cd7a0fca2226f25e1ed36e2b5",
+      "result_file_sha256": "a814c8232098a8d72bd29872474e99be45726793daa38cf2361f7fc51cef3b8e",
+      "result_path": "runs/reflexion-precondition-diagnostic-forks-20261023/targets/762a7487ace813d7/branches/original/trial-01/result.json",
+      "reused": true,
+      "source_calls": 39,
+      "state": "error_1",
+      "success": false,
+      "task_id": "762a7487ace813d7"
+    },
+    {
+      "decisions": 17,
+      "labels": [
+        "E",
+        "E"
+      ],
+      "memory_sha256": "5d64b32c319a1879d2a80dc299d1ab6ee1ae74cc0b8d770521072e56268f137e",
+      "result_file_sha256": "28fb73f31c0536c02fea5371998b6b40a52e5cedaaa625f65662bc3b63cf4981",
+      "result_path": "runs/reflexion-state-calibration-20261023/cases/762a7487ace813d7/error_2/trial-01/result.json",
+      "reused": false,
+      "source_calls": 17,
+      "state": "error_2",
+      "success": true,
+      "task_id": "762a7487ace813d7"
+    },
+    {
+      "decisions": 49,
+      "labels": [
+        "E",
+        "E",
+        "E"
+      ],
+      "memory_sha256": "fe4db046e132a4a4b5398b915f6996ed5dfc4181b598a1ba57078d53cd21b104",
+      "result_file_sha256": "da9ccec77e81afe42b1b056b4f2f3fcdc87881170db64bbf7d282dd110b8a6c3",
+      "result_path": "runs/reflexion-state-calibration-20261023/cases/762a7487ace813d7/error_3/trial-01/result.json",
+      "reused": false,
+      "source_calls": 50,
+      "state": "error_3",
+      "success": false,
+      "task_id": "762a7487ace813d7"
+    },
+    {
+      "decisions": 17,
+      "labels": [
+        "C"
+      ],
+      "memory_sha256": "03469614d6e3b3364583cc0b55850ba870bdae6d4466eaf07c71b9e386d592ba",
+      "result_file_sha256": "c0b39040e4fbb81ac3544aaea79314d206f9b2ceb1dcee4fc1f4150f4e875b21",
+      "result_path": "runs/reflexion-precondition-diagnostic-forks-20261023/targets/762a7487ace813d7/branches/correct_target/trial-01/result.json",
+      "reused": true,
+      "source_calls": 17,
+      "state": "correct_1",
+      "success": true,
+      "task_id": "762a7487ace813d7"
+    },
+    {
+      "decisions": 17,
+      "labels": [
+        "C",
+        "C"
+      ],
+      "memory_sha256": "14b9a37d83f5d1c974aa1dd8cae73c8fd7b8945462a1c49f50f615c01e27a171",
+      "result_file_sha256": "abf5aa4b5091dc0d3b17997cc7cc9b6de0211a6057b4f9fd95bc5baacac98f77",
+      "result_path": "runs/reflexion-state-calibration-20261023/cases/762a7487ace813d7/correct_2/trial-01/result.json",
+      "reused": false,
+      "source_calls": 17,
+      "state": "correct_2",
+      "success": true,
+      "task_id": "762a7487ace813d7"
+    },
+    {
+      "decisions": 18,
+      "labels": [
+        "C",
+        "C",
+        "C"
+      ],
+      "memory_sha256": "56193beea622c58025fae46f0b4801330948c9b47284a574c09ad9a275716249",
+      "result_file_sha256": "3d5d545491aea4dd79badbb44610200a7a5385a2e376a46970741f96d05e0178",
+      "result_path": "runs/reflexion-state-calibration-20261023/cases/762a7487ace813d7/correct_3/trial-01/result.json",
+      "reused": false,
+      "source_calls": 18,
+      "state": "correct_3",
+      "success": true,
+      "task_id": "762a7487ace813d7"
+    },
+    {
+      "decisions": 49,
+      "labels": [],
+      "memory_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "result_file_sha256": "630490cd0d9952ca52bd76788d9d06a348fd3e8df1c3e7b3920b7b09396e9d85",
+      "result_path": "runs/reflexion-precondition-forks-20261023/targets/64aa51b30cab1f98/branches/discard_new/trial-01/result.json",
+      "reused": true,
+      "source_calls": 50,
+      "state": "empty",
+      "success": false,
+      "task_id": "64aa51b30cab1f98"
+    },
+    {
+      "decisions": 29,
+      "labels": [
+        "E"
+      ],
+      "memory_sha256": "3a4db93e2a2d9351a8e48fed589fdbb69eda01f1b040248a80f8b94d39b86944",
+      "result_file_sha256": "3bc876d3fa5ee95c176ac6057e8fa600922b459e2322989c63d0caa6b729b9cb",
+      "result_path": "runs/reflexion-precondition-forks-20261023/targets/64aa51b30cab1f98/branches/original/trial-01/result.json",
+      "reused": true,
+      "source_calls": 30,
+      "state": "error_1",
+      "success": false,
+      "task_id": "64aa51b30cab1f98"
+    },
+    {
+      "decisions": 49,
+      "labels": [
+        "E",
+        "E"
+      ],
+      "memory_sha256": "54150f059ff25a5f690910914c08c494ddf34d48b4cc262d6306682407d9676c",
+      "result_file_sha256": "0aa56b7786fe43179c9ecec9cf6649cf60e48a6dcb41ca0e0cca98aef1783632",
+      "result_path": "runs/reflexion-state-calibration-20261023/cases/64aa51b30cab1f98/error_2/trial-01/result.json",
+      "reused": false,
+      "source_calls": 50,
+      "state": "error_2",
+      "success": false,
+      "task_id": "64aa51b30cab1f98"
+    },
+    {
+      "decisions": 28,
+      "labels": [
+        "E",
+        "E",
+        "E"
+      ],
+      "memory_sha256": "88a62e66e96e5ed685fd32b08f06981b06d9e95c17a76687bfa78135eee38aea",
+      "result_file_sha256": "6716cb681e410675a31b253c774ff78af4ec0ece42e85d900b3ac7942791f1ac",
+      "result_path": "runs/reflexion-state-calibration-20261023/cases/64aa51b30cab1f98/error_3/trial-01/result.json",
+      "reused": false,
+      "source_calls": 29,
+      "state": "error_3",
+      "success": false,
+      "task_id": "64aa51b30cab1f98"
+    },
+    {
+      "decisions": 49,
+      "labels": [
+        "C"
+      ],
+      "memory_sha256": "f409afe15b6ad0f59674f56b9eccf87988a2830616df85f900a2d2700656a908",
+      "result_file_sha256": "f502adf287d7cfd0084991fe4a1543e2a01cdfa126d13f892ff8f9e39815fe09",
+      "result_path": "runs/reflexion-precondition-forks-20261023/targets/64aa51b30cab1f98/branches/correct_target/trial-01/result.json",
+      "reused": true,
+      "source_calls": 50,
+      "state": "correct_1",
+      "success": false,
+      "task_id": "64aa51b30cab1f98"
+    },
+    {
+      "decisions": 49,
+      "labels": [
+        "C",
+        "C"
+      ],
+      "memory_sha256": "b31ef3ee0c57dabd58f283f9a8f7fb65e18753d319b47ac533b90e0f30437a16",
+      "result_file_sha256": "2dd9a55bdf8dbe17d53ad59584942c004da57efcc97b2e7c17a8bdd23def3270",
+      "result_path": "runs/reflexion-state-calibration-20261023/cases/64aa51b30cab1f98/correct_2/trial-01/result.json",
+      "reused": false,
+      "source_calls": 50,
+      "state": "correct_2",
+      "success": false,
+      "task_id": "64aa51b30cab1f98"
+    },
+    {
+      "decisions": 49,
+      "labels": [
+        "C",
+        "C",
+        "C"
+      ],
+      "memory_sha256": "caa367dfde92ca238c3375cc2caf73001f16eee0a3f095e9cdd91e6c444fa1df",
+      "result_file_sha256": "faa11e1875f11c82a5037d284580b9b7f3cb97143b1d65e0e2b3fc120ae78668",
+      "result_path": "runs/reflexion-state-calibration-20261023/cases/64aa51b30cab1f98/correct_3/trial-01/result.json",
+      "reused": false,
+      "source_calls": 50,
+      "state": "correct_3",
+      "success": false,
+      "task_id": "64aa51b30cab1f98"
+    },
+    {
+      "decisions": 31,
+      "labels": [],
+      "memory_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "result_file_sha256": "78de1f4d47b97f7adf227611a6886d9cc1aa11d4e4169d624f9cba4a145f198c",
+      "result_path": "runs/reflexion-precondition-forks-20261023/targets/3e3fa991ee97689e/branches/discard_new/trial-01/result.json",
+      "reused": true,
+      "source_calls": 31,
+      "state": "empty",
+      "success": true,
+      "task_id": "3e3fa991ee97689e"
+    },
+    {
+      "decisions": 49,
+      "labels": [
+        "E"
+      ],
+      "memory_sha256": "c49c3cfd5893685e1b3f4223582548f67ee54e70adcc1b4c53dfd63f8eec4d49",
+      "result_file_sha256": "6b380fdb256bd09d09527c1a61f069fa6f6609067e8d2d373de4d235a1f619b7",
+      "result_path": "runs/reflexion-precondition-forks-20261023/targets/3e3fa991ee97689e/branches/original/trial-01/result.json",
+      "reused": true,
+      "source_calls": 50,
+      "state": "error_1",
+      "success": false,
+      "task_id": "3e3fa991ee97689e"
+    },
+    {
+      "decisions": 47,
+      "labels": [
+        "E",
+        "E"
+      ],
+      "memory_sha256": "8ad119036398a3b84410b5d2368e2806043aa778c8d08d40eca3ab73be9c0c1f",
+      "result_file_sha256": "783a4d4ae50b1c0fce2fbcbb3e82b3033f6fa78eaa9e48f49d53a9648eeea36c",
+      "result_path": "runs/reflexion-state-calibration-20261023/cases/3e3fa991ee97689e/error_2/trial-01/result.json",
+      "reused": false,
+      "source_calls": 48,
+      "state": "error_2",
+      "success": false,
+      "task_id": "3e3fa991ee97689e"
+    },
+    {
+      "decisions": 49,
+      "labels": [
+        "E",
+        "E",
+        "E"
+      ],
+      "memory_sha256": "63c3ba593f9749cff9f957a235a5d29b4a10baed58625b9bc35b475f1bb0a7a7",
+      "result_file_sha256": "ab7604802787b3913a06a8b2271a68585a8f91caffd8e5b79af3575a26be73a8",
+      "result_path": "runs/reflexion-state-calibration-20261023/cases/3e3fa991ee97689e/error_3/trial-01/result.json",
+      "reused": false,
+      "source_calls": 50,
+      "state": "error_3",
+      "success": false,
+      "task_id": "3e3fa991ee97689e"
+    },
+    {
+      "decisions": 46,
+      "labels": [
+        "C"
+      ],
+      "memory_sha256": "ea7751f25da3aa7fe98d55b6a6e2e80797476f9b6c846e7dae74f3b85511bb54",
+      "result_file_sha256": "24e3ff94eb4ad333fd5c48d9cac3faf77edb6a977e62cb3506318f328fd24c22",
+      "result_path": "runs/reflexion-precondition-forks-20261023/targets/3e3fa991ee97689e/branches/correct_target/trial-01/result.json",
+      "reused": true,
+      "source_calls": 47,
+      "state": "correct_1",
+      "success": false,
+      "task_id": "3e3fa991ee97689e"
+    },
+    {
+      "decisions": 49,
+      "labels": [
+        "C",
+        "C"
+      ],
+      "memory_sha256": "0c6bf6bded50c729acf602ac806cbbbb845449559d4c4347b905aaf03e8cbead",
+      "result_file_sha256": "4393f82d9fb3c7f38a67f8ebde322c1212e45cdc9b690d4730de2dc659bb8bf0",
+      "result_path": "runs/reflexion-state-calibration-20261023/cases/3e3fa991ee97689e/correct_2/trial-01/result.json",
+      "reused": false,
+      "source_calls": 50,
+      "state": "correct_2",
+      "success": false,
+      "task_id": "3e3fa991ee97689e"
+    },
+    {
+      "decisions": 49,
+      "labels": [
+        "C",
+        "C",
+        "C"
+      ],
+      "memory_sha256": "46aac03d60c065dee4ec0fc9f8a84a9bbfb837a84e868926774b05901aca06d4",
+      "result_file_sha256": "a1d9bef8d1b86c4f85e52d3b56123ac9ea9767ef606b3f1e40f63511eb027891",
+      "result_path": "runs/reflexion-state-calibration-20261023/cases/3e3fa991ee97689e/correct_3/trial-01/result.json",
+      "reused": false,
+      "source_calls": 50,
+      "state": "correct_3",
+      "success": false,
+      "task_id": "3e3fa991ee97689e"
+    },
+    {
+      "decisions": 49,
+      "labels": [],
+      "memory_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "result_file_sha256": "fc6ed54944f2b7df80d87ae72eb05824794433260c3a7c4ac216c423d23c9b3b",
+      "result_path": "runs/reflexion-precondition-forks-20261023/targets/05f694718d71af12/branches/discard_new/trial-01/result.json",
+      "reused": true,
+      "source_calls": 50,
+      "state": "empty",
+      "success": false,
+      "task_id": "05f694718d71af12"
+    },
+    {
+      "decisions": 28,
+      "labels": [
+        "E"
+      ],
+      "memory_sha256": "124246e70e8ccd8eee67b766fc51c941039c528f098cdbdac0246e0716c6a045",
+      "result_file_sha256": "19bf39e53c3c3dfefe161bc2862c84ab38659c1dd9038b6448c740e72546d7b7",
+      "result_path": "runs/reflexion-precondition-forks-20261023/targets/05f694718d71af12/branches/original/trial-01/result.json",
+      "reused": true,
+      "source_calls": 29,
+      "state": "error_1",
+      "success": false,
+      "task_id": "05f694718d71af12"
+    },
+    {
+      "decisions": 25,
+      "labels": [
+        "E",
+        "E"
+      ],
+      "memory_sha256": "a9bec2e2821ba48b11cf004bc99a32888e6bd10210b18a82acbc9af4e3522791",
+      "result_file_sha256": "c6571cd721582a064ee82557dfb267600752f2beddc38f0cbefa0232d5b316f1",
+      "result_path": "runs/reflexion-state-calibration-20261023/cases/05f694718d71af12/error_2/trial-01/result.json",
+      "reused": false,
+      "source_calls": 26,
+      "state": "error_2",
+      "success": false,
+      "task_id": "05f694718d71af12"
+    },
+    {
+      "decisions": 35,
+      "labels": [
+        "E",
+        "E",
+        "E"
+      ],
+      "memory_sha256": "7b511882434e637da2413e3b1ed1a326adf7c7f14d181a120002eb52c7b27a09",
+      "result_file_sha256": "90db8de7fdfde33a97629123a44a1a5e1f4967f715319ec627c64627ac4aa01b",
+      "result_path": "runs/reflexion-state-calibration-20261023/cases/05f694718d71af12/error_3/trial-01/result.json",
+      "reused": false,
+      "source_calls": 36,
+      "state": "error_3",
+      "success": false,
+      "task_id": "05f694718d71af12"
+    },
+    {
+      "decisions": 18,
+      "labels": [
+        "C"
+      ],
+      "memory_sha256": "014def40bbec5a1e13a52acd0bfa7f0b41959f43293d5f1df11ba5bf8dffdd4a",
+      "result_file_sha256": "6b3339ebdcf4bcdbcfa2d6d40e13c312f13aadd8ec1c4996b4bed8a7c1e7d9a8",
+      "result_path": "runs/reflexion-precondition-forks-20261023/targets/05f694718d71af12/branches/correct_target/trial-01/result.json",
+      "reused": true,
+      "source_calls": 18,
+      "state": "correct_1",
+      "success": true,
+      "task_id": "05f694718d71af12"
+    },
+    {
+      "decisions": 20,
+      "labels": [
+        "C",
+        "C"
+      ],
+      "memory_sha256": "d51a4b111584f5ae50898a6b4676916f16c5ffb13abcd4816265d5a33ee89b5f",
+      "result_file_sha256": "aae0ee065712aa075e9380fec8ffc6172c73d3edef9e4c0277df4dd175e27969",
+      "result_path": "runs/reflexion-state-calibration-20261023/cases/05f694718d71af12/correct_2/trial-01/result.json",
+      "reused": false,
+      "source_calls": 20,
+      "state": "correct_2",
+      "success": true,
+      "task_id": "05f694718d71af12"
+    },
+    {
+      "decisions": 20,
+      "labels": [
+        "C",
+        "C",
+        "C"
+      ],
+      "memory_sha256": "6737802e3f6077d551e1bf166515bf61d22c2b20cfaedd10bd30ec1080b79e15",
+      "result_file_sha256": "f8184990cbbeaa27ca4183c527f732b98fb73dc4e17394f24d2d4977b731e091",
+      "result_path": "runs/reflexion-state-calibration-20261023/cases/05f694718d71af12/correct_3/trial-01/result.json",
+      "reused": false,
+      "source_calls": 20,
+      "state": "correct_3",
+      "success": true,
+      "task_id": "05f694718d71af12"
+    }
+  ],
+  "scope": "Controlled memory-state development experiment with deliberate entry duplication",
+  "sha256": "d5b99eafd2edf985d6754c4d1970eec708a668843d57dc60e60578cf1dd0f5bd"
+}

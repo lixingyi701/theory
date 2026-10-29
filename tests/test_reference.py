@@ -5,7 +5,7 @@ import unittest
 from pathlib import Path
 from agent_reliability.io import read_json
 from agent_reliability.llm import InfrastructureError,UncertainRequest
-from agent_reliability.reference import author_code,run_reference_episode
+from agent_reliability.reference import author_code,run_reference_episode,submitted_command
 
 
 class Batch:
@@ -31,6 +31,11 @@ class Provider:
 
 
 class ReferenceTests(unittest.TestCase):
+    def test_public_placement_spellings_preserve_selected_entities(self):
+        for prep in ['in/on', 'in', 'on']:
+            self.assertEqual(submitted_command(f'put pencil 2 {prep} shelf 1'), 'move pencil 2 to shelf 1')
+        self.assertEqual(submitted_command('take pencil 2 from desk 1'), 'take pencil 2 from desk 1')
+        self.assertEqual(submitted_command('put pencil 2 into shelf 1'), 'put pencil 2 into shelf 1')
     def test_original_thought_is_sent_to_world_and_observation_becomes_ok(self):
         ns,_=author_code(Path('third_party/react'));env=Batch();env.reset();prompts=[]
         def llm(prompt,stop):

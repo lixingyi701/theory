@@ -1,0 +1,414 @@
+{
+  "protocol_sha256": "77af2102b3475e95b07d91de1b301f621738f2db9c4bdd0bb84163ba47069256",
+  "reviewer": "Codex full-text semantic annotation",
+  "human_second_review": false,
+  "definition": {
+    "E": "Explicit placement inside the microwave before heat, or placement-then-heat without retrieval; applies to task objects or appliance-test objects. Merely heating an object already inside is not this explicit premise.",
+    "C": "Explicit held/inventory requirement at the heat command; an inventory check for subsequent final placement is not C.",
+    "U": "Neither tracked precondition is expressed; other errors may be present.",
+    "A": "Tracked precondition is ambiguous or contradictory."
+  },
+  "entries": [
+    {
+      "sha256": "ac61f6a1db0f8cb5d11d0a55f60d71ce0ae0a3bdb3d9c3d040219415dd7126d0",
+      "label": "E",
+      "reason": "Explicitly ensures the potato is inside the microwave before heating.",
+      "source_cells": [
+        "residual-02088717ce4b3889-2101-R_C"
+      ]
+    },
+    {
+      "sha256": "c7c5fefc3046250df12166e7296f920bf66b62a508b3b3acc83712637962e99c",
+      "label": "E",
+      "reason": "Explicit open-place-potato-inside-heat sequence; the inventory check is before placement, not the heat command.",
+      "source_cells": [
+        "residual-02088717ce4b3889-2101-R_E"
+      ]
+    },
+    {
+      "sha256": "dd0a7e1dec06f02bca03b5ee5abd494e1199f97ed428dc34b6cf53edfd003761",
+      "label": "E",
+      "reason": "Explicit potato-inside-close-heat sequence; the later generic take-heat-place summary does not retract this precondition.",
+      "source_cells": [
+        "residual-02088717ce4b3889-2102-N_C"
+      ]
+    },
+    {
+      "sha256": "c0fd4d1fac55decdc7f24fb4b6672b1f7d0cfb8643797988b65dd26b4e9dd542",
+      "label": "E",
+      "reason": "Explicit find-potato-place-in-microwave-before-heat sequence.",
+      "source_cells": [
+        "residual-02088717ce4b3889-2102-N_E"
+      ]
+    },
+    {
+      "sha256": "c6787b2eaa5386b1f300a7a9006580b76bf13c911f17549e931fea22f9b5d4ec",
+      "label": "E",
+      "reason": "Explicit potato-inside-close-heat sequence; inventory is checked only before stove placement.",
+      "source_cells": [
+        "residual-02088717ce4b3889-2102-R_C"
+      ]
+    },
+    {
+      "sha256": "6d191390e422f03e9a8afed6f32220c5887bb0be552d864647080dc4adfc3ac3",
+      "label": "E",
+      "reason": "Explicitly ensures the potato is inside the microwave and the appliance closed for heating.",
+      "source_cells": [
+        "residual-02088717ce4b3889-2102-R_E"
+      ]
+    },
+    {
+      "sha256": "55338746978ccee556af2cffa5492cc39b030648e40f690f0df0b01b244bb3ef",
+      "label": "U",
+      "reason": "Prescribes a stove pan and final sidetable placement, without the tracked microwave placement or held-at-heat precondition.",
+      "source_cells": [
+        "residual-4a3978c7981b641a-2101-R_C"
+      ]
+    },
+    {
+      "sha256": "38a3f82c17b3491de83ab58e55fb7856cefcf2eea4e749ea401a087e9ec183b3",
+      "label": "E",
+      "reason": "Explicitly requires the apple inside the microwave before heating; inventory is checked before placement in a stove pan.",
+      "source_cells": [
+        "residual-4a3978c7981b641a-2101-R_E"
+      ]
+    },
+    {
+      "sha256": "6db8c5e41aaefebb7b31764de335edd59116da509cc8f2ee8dfa3d5104b48adf",
+      "label": "E",
+      "reason": "Explicit apple-inside-turn-on-heat sequence.",
+      "source_cells": [
+        "residual-4a3978c7981b641a-2102-N_E"
+      ]
+    },
+    {
+      "sha256": "298d0e4381166f1acad99a9cbae773e1f5ecfa24cbb40e9b31cbdcec28984f07",
+      "label": "C",
+      "reason": "Explicit inventory check immediately before heating the apple; a cup already inside is an appliance probe, not a prescribed placement-then-heat sequence.",
+      "source_cells": [
+        "residual-4a3978c7981b641a-2102-R_C"
+      ]
+    },
+    {
+      "sha256": "6be60c482ce1219f4e94a84ab60218c49b079d258046355e75fde4f10f6fe92c",
+      "label": "E",
+      "reason": "Explicit apple-inside-before-heating sequence.",
+      "source_cells": [
+        "residual-4a3978c7981b641a-2102-R_E"
+      ]
+    },
+    {
+      "sha256": "6e44e9f1bdd7e7a56f0828d4bea70fb46094e2667504c05caba30acd24110e14",
+      "label": "C",
+      "reason": "Explicit inventory check immediately before heating the potato; later proper placement is unspecified, and the probe items are already inside.",
+      "source_cells": [
+        "residual-55f887bdc1cc1699-2101-R_C"
+      ]
+    },
+    {
+      "sha256": "efb803842853d7d6a944386bd57a64d9ac08bdc22bb202c1857cf2c004f2e2ec",
+      "label": "U",
+      "reason": "Requires an empty/working microwave and alternative appliances, without explicit target placement inside or held-at-heat precondition.",
+      "source_cells": [
+        "residual-55f887bdc1cc1699-2101-R_E"
+      ]
+    },
+    {
+      "sha256": "45e8e8b0f692a72da4e24256d64e1e3ec1a301190316c90ed30009430d634ee0",
+      "label": "C",
+      "reason": "Explicit inventory location check immediately before heating the potato.",
+      "source_cells": [
+        "residual-55f887bdc1cc1699-2102-N_C"
+      ]
+    },
+    {
+      "sha256": "42cd29218591b67adac98436ef5a8ed096b4882e85467b25c6e3af517b6fc1aa",
+      "label": "E",
+      "reason": "Explicit remove-other-items-place-potato-inside-before-heat sequence.",
+      "source_cells": [
+        "residual-55f887bdc1cc1699-2102-N_E"
+      ]
+    },
+    {
+      "sha256": "50130b6b3ba7be5885f57259cacfaac00b8e8a6309c73890710e681b8dd53cc8",
+      "label": "C",
+      "reason": "Explicitly attributes heating failure to the potato not being in inventory, then requires inventory before the microwave heat command. Checking or clearing the microwave does not require placing the potato inside it.",
+      "source_cells": [
+        "residual-55f887bdc1cc1699-2102-R_C"
+      ]
+    },
+    {
+      "sha256": "b07a75a6f4e525e4ad0be35a108cabc8c3760901bec6f52dcfab1a43167baa4e",
+      "label": "A",
+      "reason": "Retrospective failure blames microwave interaction without prior insertion, but does not specify the heat precondition; the prospective plan abandons the microwave. The tracked premise is ambiguous.",
+      "source_cells": [
+        "residual-55f887bdc1cc1699-2102-R_E"
+      ]
+    },
+    {
+      "sha256": "b7768604d801d08337ced3a50237d21ca88b9f9c55ae3ef36ce798ce4c96d195",
+      "label": "E",
+      "reason": "Explicit apple placement inside microwave followed by heating; inventory is checked only for final fridge placement.",
+      "source_cells": [
+        "residual-69b7fb1c70f5d271-2101-R_E"
+      ]
+    },
+    {
+      "sha256": "f747cfa7028b83bd3f07fa4ea9bb0320079a531a2c70b85ad9d9272bd2b2de29",
+      "label": "E",
+      "reason": "Repeated explicit apple-inside-close-heat sequence.",
+      "source_cells": [
+        "residual-69b7fb1c70f5d271-2102-N_E"
+      ]
+    },
+    {
+      "sha256": "a748fa4c443f8464167ec2ad6e4a4955c8ff5ae3420eaba73ef79f699996e3a5",
+      "label": "E",
+      "reason": "Explicit apple-inside-close-heat sequence.",
+      "source_cells": [
+        "residual-69b7fb1c70f5d271-2102-R_C"
+      ]
+    },
+    {
+      "sha256": "cdd62554a588c3e35d2deb1a19e590c833275828d7b6bff8f52e4b54c47413ec",
+      "label": "E",
+      "reason": "Explicit apple-inside-close-heat sequence.",
+      "source_cells": [
+        "residual-69b7fb1c70f5d271-2102-R_E"
+      ]
+    },
+    {
+      "sha256": "d9caa25e8f1eed19e4b6313050e2a3fa340cfbb80c08ab9ec9771ccd48d0df1b",
+      "label": "U",
+      "reason": "Discusses checking temperature, stoveburner heating, command syntax and possibly skipping heating; neither a microwave-inside prerequisite nor an inventory prerequisite for heating is expressed.",
+      "source_cells": [
+        "residual-790b6f6fefeac9d1-2101-R_E"
+      ]
+    },
+    {
+      "sha256": "b8a42b6720aa33aacdd8440a6820ad46d4d431737509600eb3e323288c06db8b",
+      "label": "U",
+      "reason": "Search advice and failure to locate a mug; no tracked heating precondition.",
+      "source_cells": [
+        "residual-790b6f6fefeac9d1-2102-N_C"
+      ]
+    },
+    {
+      "sha256": "b32487e95dca0f6689f587864d7a28b0a2552a175e3875ac87bb60132e0a4481",
+      "label": "U",
+      "reason": "Search advice and task feasibility conjecture; no tracked heating precondition.",
+      "source_cells": [
+        "residual-790b6f6fefeac9d1-2102-N_E"
+      ]
+    },
+    {
+      "sha256": "ab72bdd9d2a8824269f8985bb0d73d15e47202843855c8f9281dc7e828d566bc",
+      "label": "E",
+      "reason": "Explicitly prescribes placing the mug inside the microwave and then issuing the heat command, with no retrieval before heating; the same placement-and-heat plan is repeated at the end.",
+      "source_cells": [
+        "residual-790b6f6fefeac9d1-2102-R_E"
+      ]
+    },
+    {
+      "sha256": "2b41577db81af98d3c827ac525fd0d9472eb0f565fc3afdc5feedaec3edfc064",
+      "label": "C",
+      "reason": "Explicit inventory check immediately before heating the mug, and advice not to leave it in the microwave; no explicit microwave placement-then-heat plan.",
+      "source_cells": [
+        "residual-bf6d3dba86f7f0e4-2101-R_C"
+      ]
+    },
+    {
+      "sha256": "719a82cae6ff7b173af5d81e66fd3f14a2808421c8c2f2f56c2ad0cbafb1e6bd",
+      "label": "U",
+      "reason": "Appliance testing, stoveburner placement and coffeemachine compatibility, without the tracked microwave precondition.",
+      "source_cells": [
+        "residual-bf6d3dba86f7f0e4-2101-R_E"
+      ]
+    },
+    {
+      "sha256": "bd1fd630847310f24a3859def36cf8594794cc9a6dc62429f006ffd87e5da565",
+      "label": "U",
+      "reason": "Incorrectly recommends skipping heating and placing the retrieved mug directly in the coffeemachine. Neither tracked microwave heating prerequisite is expressed; retrieving for final placement is not an inventory requirement for heat.",
+      "source_cells": [
+        "residual-bf6d3dba86f7f0e4-2102-N_C"
+      ]
+    },
+    {
+      "sha256": "6336869cbaf986616a0896ec88adac3ae1dd0f629fb9af3a8704b722c02aadbe",
+      "label": "E",
+      "reason": "The final microwave plan requires trying heating again with the mug inside and ensuring it is properly placed, without retrieving it before heating. This affirmative inside-placement requirement, beyond the earlier reference to an already-inside mug, expresses the false heating precondition.",
+      "source_cells": [
+        "residual-bf6d3dba86f7f0e4-2102-N_E"
+      ]
+    },
+    {
+      "sha256": "88ae20dd1bfba153c0a1a3c56df8f984bad33d3b28ff8c48134a79febb907182",
+      "label": "C",
+      "reason": "Repeatedly requires the mug in inventory for the microwave heat command.",
+      "source_cells": [
+        "residual-bf6d3dba86f7f0e4-2102-R_C"
+      ]
+    },
+    {
+      "sha256": "80c50c7b2a35a2c0c48674afafc1dff8f00c9b6b3c611b135ac67180b68ec485",
+      "label": "E",
+      "reason": "Explicit fallback place-egg-inside-microwave-close-heat sequence; inventory is checked only for final fridge placement.",
+      "source_cells": [
+        "residual-bf7043e154cc1d53-2101-R_C"
+      ]
+    },
+    {
+      "sha256": "692442b410b58bcb0103764bd9809b6e28d457262b867571d001d2376dcea53e",
+      "label": "E",
+      "reason": "Explicit inventory-then-place-egg-inside-close-heat sequence; inventory before placement does not correct the heat prerequisite.",
+      "source_cells": [
+        "residual-bf7043e154cc1d53-2101-R_E"
+      ]
+    },
+    {
+      "sha256": "364bd57139f3909bad3c8110896a675ed41c4b0c3f046efa5273fea2f42d1ae9",
+      "label": "A",
+      "reason": "Explicit microwave placement-then-heat plan conflicts with the requirement that the egg remain in inventory throughout the process.",
+      "source_cells": [
+        "residual-bf7043e154cc1d53-2102-N_C"
+      ]
+    },
+    {
+      "sha256": "078ebc95ab5d54a0773696c95742e99c11f91a320eac496b39daebe996bf2b8b",
+      "label": "E",
+      "reason": "Explicit egg-inside-microwave-then-heat sequence.",
+      "source_cells": [
+        "residual-bf7043e154cc1d53-2102-N_E"
+      ]
+    },
+    {
+      "sha256": "8ee030e7994aa7a8b3bde3be99a4a1af5b2a201628d3d117a31e4d8b159747b4",
+      "label": "E",
+      "reason": "Explicit egg-inside-microwave-close-heat sequence; holding the egg is specified only for the stoveburner fallback, not microwave heating.",
+      "source_cells": [
+        "residual-bf7043e154cc1d53-2102-R_C"
+      ]
+    },
+    {
+      "sha256": "c5cb81313bd04c9a3b9440d69ba54218129da9f9e9c6db975d1eb2f3a84fdd68",
+      "label": "U",
+      "reason": "Microwave command syntax and closed-door advice; inventory is checked for final fridge placement, with neither tracked microwave object precondition expressed.",
+      "source_cells": [
+        "residual-bf7043e154cc1d53-2102-R_E"
+      ]
+    },
+    {
+      "sha256": "5eab11cd8deab5bfb43b74ebef0a8bff4882381a3282f3a3ba0251d747c9e7a3",
+      "label": "E",
+      "reason": "Explicit cup-inside-then-heat plan.",
+      "source_cells": [
+        "residual-d534fcfe5e56c028-2101-R_E"
+      ]
+    },
+    {
+      "sha256": "93a2944f90e5f9ec5a670cb927677c663d8fd87f7f78441d9357516cf0447780",
+      "label": "E",
+      "reason": "Prescribes turning on or heating the microwave after placing the cup inside, without retrieval.",
+      "source_cells": [
+        "residual-d534fcfe5e56c028-2102-N_E"
+      ]
+    },
+    {
+      "sha256": "01f090a5b9b8adf96b342f4f51e76922a9357206e4b0cfdffd7a9d3cefd377fb",
+      "label": "E",
+      "reason": "Explicit cup-inside-then-heat plan; later advice to skip heating is a different error, not an inventory correction.",
+      "source_cells": [
+        "residual-d534fcfe5e56c028-2102-R_E"
+      ]
+    },
+    {
+      "sha256": "aa5685c11ff8f35916c30fabc48c3091a8482f290fbb4a13c50df2aa2bbccd83",
+      "label": "U",
+      "reason": "Tests an object already inside the microwave and suggests alternative appliances; no explicit placement-then-heat or inventory-at-heat precondition.",
+      "source_cells": [
+        "residual-dae15e890956dd5e-2101-R_E"
+      ]
+    },
+    {
+      "sha256": "4652b70056fb36d00ce2056671191adf4fadeac174dd84235215c1fe5b6647a6",
+      "label": "E",
+      "reason": "Explicit cup-inside-then-heat command sequence, repeated as a general object-placement rule.",
+      "source_cells": [
+        "residual-dae15e890956dd5e-2102-N_E"
+      ]
+    },
+    {
+      "sha256": "3dab934277908c81e3e68646a54f55db208ad9c5e5b02623c3e792b5ad5f755e",
+      "label": "U",
+      "reason": "Shelf placement and post-heating timing advice, without a tracked heating precondition.",
+      "source_cells": [
+        "residual-dae15e890956dd5e-2102-R_E"
+      ]
+    },
+    {
+      "sha256": "6ba362d997a0069d9eec0d2ff00ef98dc3d389d4e75f8f14dbacf5301e86af0e",
+      "label": "E",
+      "reason": "Explicitly requires egg inside microwave before heating; the later inventory check is for switching to the stove fallback.",
+      "source_cells": [
+        "residual-dd93ff2604e30529-2101-R_E"
+      ]
+    },
+    {
+      "sha256": "30fe675892d4172653b8041c370deabadcff5df5301005cb9a660291c4821ee9",
+      "label": "E",
+      "reason": "Explicitly verifies the egg inside the microwave before heating.",
+      "source_cells": [
+        "residual-dd93ff2604e30529-2102-N_E"
+      ]
+    },
+    {
+      "sha256": "7ad42d73701aeefa2c66b6f9260295721bf884abccc17492a9c08ea7e5b89309",
+      "label": "E",
+      "reason": "Explicitly checks the egg is inside the microwave before heating; alternative container advice does not retract this premise.",
+      "source_cells": [
+        "residual-dd93ff2604e30529-2102-R_E"
+      ]
+    },
+    {
+      "sha256": "658d316ca64adedd8e94f597e7532b76752356466a5f0e5509fb4147cd5c7f38",
+      "label": "E",
+      "reason": "Explicitly confirms apple inside before heat and replaces it inside if absent; inventory is checked only after heating for final disposal.",
+      "source_cells": [
+        "residual-e4244c54d52f3326-2101-R_E"
+      ]
+    },
+    {
+      "sha256": "5a770580cc25353fb5449979750f2292eccd754887786a458916efa4f4481692",
+      "label": "U",
+      "reason": "Questions apple heatability and suggests skipping heating; no tracked microwave placement or held-at-heat precondition.",
+      "source_cells": [
+        "residual-e4244c54d52f3326-2102-N_E"
+      ]
+    },
+    {
+      "sha256": "ebb205cd180cb64aa154145b100e7b79fef8f7eb9ad7d8c4ca046099e805476a",
+      "label": "E",
+      "reason": "Repeatedly requires apple inside microwave before heat and retrieval only afterwards; the inventory check is after the heating attempt.",
+      "source_cells": [
+        "residual-e4244c54d52f3326-2102-R_E"
+      ]
+    },
+    {
+      "sha256": "5f1d8e3136aec05c2eae8699b49478325b3b12cc7855751da4b1e77cf8e5cfa3",
+      "label": "U",
+      "reason": "Appliance tests, stove advice and skipping heating; no tracked microwave object precondition.",
+      "source_cells": [
+        "residual-f8864bd2f58af715-2101-R_E"
+      ]
+    },
+    {
+      "sha256": "569943fd3548a04ad12f9e87d746cf27eeb3a01ae5fcf298ba62f47790969868",
+      "label": "U",
+      "reason": "Appliance functionality and stoveburner placement advice, without either tracked microwave object precondition.",
+      "source_cells": [
+        "residual-f8864bd2f58af715-2102-R_E"
+      ]
+    }
+  ],
+  "sha256": "cc1998167de008dde475044fb38237ba00299c883ee03ef96eb2e95571493eb0"
+}

@@ -1,0 +1,157 @@
+{
+  "attempts_completed": 19,
+  "completed_tasks": 12,
+  "costs": {
+    "dispatched_calls": 646,
+    "input_tokens_known": 1567611,
+    "output_tokens_known": 16284,
+    "saved_responses": 646,
+    "truncated_responses": 0,
+    "uncertain_or_unrecorded_attempts": 0,
+    "usage_missing_responses": 0
+  },
+  "decoding_profile": "qwen3_non_thinking_recommended_v1",
+  "environment_action_alias": "alfworld_put_in_on_variants_v2",
+  "expected_tasks": 12,
+  "first_attempt_successes": 7,
+  "input_format": "qwen3_non_thinking_actionline",
+  "missing_tasks": 0,
+  "reflections": 9,
+  "scope": "development; pinned author functions with Qwen3-8B raw-completion substitution",
+  "sha256": "aaba0798508a88060b6f65df7b0fd1fc02129149eaf21dd5399c0b10553c2095",
+  "successes": 10,
+  "tasks": [
+    {
+      "attempts": 1,
+      "completed": true,
+      "decisions": 8,
+      "first_attempt_success": true,
+      "reflections": 0,
+      "scene_id": "FloorPlan420",
+      "success": true,
+      "task_id": "650aae4563b0cee5",
+      "task_type": "pick_and_place_simple"
+    },
+    {
+      "attempts": 1,
+      "completed": true,
+      "decisions": 25,
+      "first_attempt_success": true,
+      "reflections": 0,
+      "scene_id": "FloorPlan309",
+      "success": true,
+      "task_id": "ec35b3ffe3eb225f",
+      "task_type": "look_at_obj_in_light"
+    },
+    {
+      "attempts": 2,
+      "completed": true,
+      "decisions": 52,
+      "first_attempt_success": false,
+      "reflections": 1,
+      "scene_id": "FloorPlan18",
+      "success": true,
+      "task_id": "1bcfccd955e18c46",
+      "task_type": "pick_clean_then_place_in_recep"
+    },
+    {
+      "attempts": 1,
+      "completed": true,
+      "decisions": 20,
+      "first_attempt_success": true,
+      "reflections": 0,
+      "scene_id": "FloorPlan24",
+      "success": true,
+      "task_id": "e095d710ddd8215b",
+      "task_type": "pick_heat_then_place_in_recep"
+    },
+    {
+      "attempts": 1,
+      "completed": true,
+      "decisions": 46,
+      "first_attempt_success": true,
+      "reflections": 0,
+      "scene_id": "FloorPlan27",
+      "success": true,
+      "task_id": "17182b8479c3841e",
+      "task_type": "pick_cool_then_place_in_recep"
+    },
+    {
+      "attempts": 2,
+      "completed": true,
+      "decisions": 81,
+      "first_attempt_success": false,
+      "reflections": 1,
+      "scene_id": "FloorPlan422",
+      "success": true,
+      "task_id": "cc1968875627432d",
+      "task_type": "pick_two_obj_and_place"
+    },
+    {
+      "attempts": 1,
+      "completed": true,
+      "decisions": 18,
+      "first_attempt_success": true,
+      "reflections": 0,
+      "scene_id": "FloorPlan220",
+      "success": true,
+      "task_id": "1795adb8d8245920",
+      "task_type": "pick_and_place_simple"
+    },
+    {
+      "attempts": 2,
+      "completed": true,
+      "decisions": 59,
+      "first_attempt_success": false,
+      "reflections": 1,
+      "scene_id": "FloorPlan306",
+      "success": true,
+      "task_id": "5c4e70364016dc80",
+      "task_type": "look_at_obj_in_light"
+    },
+    {
+      "attempts": 1,
+      "completed": true,
+      "decisions": 24,
+      "first_attempt_success": true,
+      "reflections": 0,
+      "scene_id": "FloorPlan13",
+      "success": true,
+      "task_id": "884c6c61e405ce41",
+      "task_type": "pick_clean_then_place_in_recep"
+    },
+    {
+      "attempts": 3,
+      "completed": true,
+      "decisions": 134,
+      "first_attempt_success": false,
+      "reflections": 3,
+      "scene_id": "FloorPlan3",
+      "success": false,
+      "task_id": "181a4c810cec8a32",
+      "task_type": "pick_heat_then_place_in_recep"
+    },
+    {
+      "attempts": 3,
+      "completed": true,
+      "decisions": 147,
+      "first_attempt_success": false,
+      "reflections": 3,
+      "scene_id": "FloorPlan20",
+      "success": false,
+      "task_id": "7372497ea627881b",
+      "task_type": "pick_cool_then_place_in_recep"
+    },
+    {
+      "attempts": 1,
+      "completed": true,
+      "decisions": 23,
+      "first_attempt_success": true,
+      "reflections": 0,
+      "scene_id": "FloorPlan213",
+      "success": true,
+      "task_id": "cbe928f06477cf6e",
+      "task_type": "pick_two_obj_and_place"
+    }
+  ]
+}

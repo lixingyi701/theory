@@ -1,0 +1,112 @@
+{
+  "audit_sha256": "24ea5a868c76f207f02365a85e14485af5fca684276935ea728f80de9f589acd",
+  "entries": [
+    {
+      "case_index": 27,
+      "evidence_steps": {
+        "neutralized": [
+          26,
+          29,
+          30,
+          33
+        ],
+        "paraphrase": [
+          26,
+          29,
+          31,
+          33,
+          37
+        ]
+      },
+      "observations": [
+        "中和与改写轨迹在取到plate1并打开微波炉之前有相同的公开操作序列。",
+        "中和组第30步持有物体时加热成功，第33步放入橱柜并won。改写组第31步先放入微波炉，第33、37步加热无效果，之后仍未成功。"
+      ],
+      "seed": 2180,
+      "task_id": "9b4a791110f1400e"
+    },
+    {
+      "case_index": 36,
+      "evidence_steps": {
+        "neutralized": [
+          5,
+          10,
+          12,
+          24,
+          47
+        ],
+        "paraphrase": [
+          5,
+          10,
+          12,
+          23,
+          29,
+          33,
+          36
+        ]
+      },
+      "observations": [
+        "两组都先取mug4、放入微波炉并在第12步加热失败，之后路径不同。",
+        "改写组另取mug3，第29步尝试取apple无效果而仍持有mug3，第33步加热成功、第36步放置并won。中和组后续搜索橱柜，未成功。该例不能归纳为中和一定更好或更差。"
+      ],
+      "seed": 2181,
+      "task_id": "ccd9b55b1349e3e1"
+    },
+    {
+      "case_index": 27,
+      "evidence_steps": {
+        "neutralized": [
+          19,
+          24,
+          25,
+          32,
+          38,
+          48
+        ],
+        "paraphrase": [
+          11,
+          12,
+          19,
+          31,
+          47
+        ]
+      },
+      "observations": [
+        "两组最终都失败，但中和组取到plate1后，第24步将其放入微波炉，随后多次加热无效果。",
+        "改写组在该尝试中未取到目标物，主要搜索及无效果命令已耗尽尝试。相同成功标签不能替代失败阶段与行动路径分析。"
+      ],
+      "seed": 2181,
+      "task_id": "9b4a791110f1400e"
+    },
+    {
+      "case_index": 38,
+      "evidence_steps": {
+        "neutralized": [
+          11,
+          13,
+          18,
+          20,
+          23
+        ],
+        "paraphrase": [
+          11,
+          13,
+          18,
+          19
+        ]
+      },
+      "observations": [
+        "两组均先把apple2放入微波炉，第13步加热无效果。",
+        "中和组第18步重新取出apple2，第20步加热成功，第23步放置并won；改写组未取出便尝试最终放置，未成功。出现过错误顺序不等于最终必然失败。"
+      ],
+      "seed": 2180,
+      "task_id": "d327a5b6831def66"
+    }
+  ],
+  "private_view_sha256": "0eb06be150688b03a5c9497883726a4850a2146946ce8d9ba1090fb919782d21",
+  "protocol_sha256": "07afa23379dd0341f99fefeae773a8508769e9577005495f75eed31de0c3422f",
+  "reviewer": "Codex single-coder review; no independent human review",
+  "scope": "Outcome-selected paired illustrations, not estimates of population effects; all non-thought commands and feedback excerpts were read",
+  "selection": "Prespecified diagnostic case categories, identities selected after observing outcomes; examples only",
+  "sha256": "c49a8ec20053992ca3c8fab5f10818c6b62ee19074ea5f35c0b5f01eab363757"
+}

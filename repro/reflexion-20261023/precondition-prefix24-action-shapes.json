@@ -1,0 +1,183 @@
+{
+  "command_shapes": [
+    "go to [a-z]+ \\d+",
+    "(?:open|close|examine|use) [a-z]+ \\d+",
+    "take [a-z]+ \\d+ from [a-z]+ \\d+",
+    "move [a-z]+ \\d+ to [a-z]+ \\d+",
+    "put [a-z]+ \\d+ (?:into|in) [a-z]+ \\d+",
+    "(?:heat|clean|cool|slice) [a-z]+ \\d+ with [a-z]+ \\d+",
+    "(?:look|inventory|help)"
+  ],
+  "completed_checkpoints": 24,
+  "counts": {
+    "environment_style_sentence": 8,
+    "other_unmatched_shape": 7,
+    "public_command_shape": 327,
+    "thought": 279
+  },
+  "driver_sha256": "7b026efea040a1651f43a6f70b9bf98501c08ef290b53de87c236091f6a499a6",
+  "interpretation": "Public command shape does not establish valid entities, satisfied preconditions, or correct planning. Environment-style sentences are actor format violations. Other unmatched shapes require review. Thought no-effects are not physical failures.",
+  "no_effect_counts_by_shape": {
+    "environment_style_sentence": 8,
+    "other_unmatched_shape": 7,
+    "public_command_shape": 65,
+    "thought": 279
+  },
+  "public_grammar": "installed alfworld/data/alfred.twl2",
+  "public_grammar_sha256": "c5b22f0f73309a7fd7c8e5b71de42ad4803b60766ab4a51cc2feb34162be036b",
+  "review_items": [
+    {
+      "action_excerpt": "heat egg 1 in microwave 1",
+      "action_sha256": "05dca8920d1d2bbde38f2db5ffb6f620422572a38ad16dcef20dc4743ccbc39c",
+      "checkpoint": "tasks/05f694718d71af12/trial-00/checkpoint.json",
+      "checkpoint_sha256": "ffa0524cbc94f8b6dcdf99299fd90e57093b52bb0d19cbd0cc50c5521253ae9e",
+      "index": 21,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "use microwave 1 to heat egg 1",
+      "action_sha256": "36e4207046a65e513d3318f97d1824fd7016d66aecaef8cbeb12bd2323a3a5a5",
+      "checkpoint": "tasks/05f694718d71af12/trial-00/checkpoint.json",
+      "checkpoint_sha256": "ffa0524cbc94f8b6dcdf99299fd90e57093b52bb0d19cbd0cc50c5521253ae9e",
+      "index": 23,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "You are in the middle of a room. Looking quickly around you, you see a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 1, a dr",
+      "action_sha256": "dd71f71b12ac1542358fe73d2de2f9c872c806914fa57dfd36e7c13623b26331",
+      "checkpoint": "tasks/05f694718d71af12/trial-00/checkpoint.json",
+      "checkpoint_sha256": "ffa0524cbc94f8b6dcdf99299fd90e57093b52bb0d19cbd0cc50c5521253ae9e",
+      "index": 47,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "The fridge 1 is closed.",
+      "action_sha256": "03efe5d410955fcaff365c2c7e532639e503888e1397f5500e5144263393e266",
+      "checkpoint": "tasks/3534fb5dcf56de34/trial-00/checkpoint.json",
+      "checkpoint_sha256": "a1d807f198efe3ca7623aad1376c88baab07a8d54436cbf5f165cafb6b010154",
+      "index": 3,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "You open the fridge 1. The fridge 1 is open. In it, you see a apple 1, and a egg 1.",
+      "action_sha256": "d52a1416aa2443dbee3778d5efeba8f7a8521ed64e3504ccb3e00e13606979b3",
+      "checkpoint": "tasks/3534fb5dcf56de34/trial-00/checkpoint.json",
+      "checkpoint_sha256": "a1d807f198efe3ca7623aad1376c88baab07a8d54436cbf5f165cafb6b010154",
+      "index": 6,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You open the fridge 1. The fridge 1 is open. In it, you see a lettuce 2, and a potato 3.",
+      "action_sha256": "3ffb98ee4827b0735b4fb7b26bc299a9d14c9cf0bb1b79b4975ffaad8298404d",
+      "checkpoint": "tasks/4124c902df79f1d3/trial-00/checkpoint.json",
+      "checkpoint_sha256": "253c2f7d1544bd0cbc99e7623fb7ed653f2398d2d6a0d0afd56a8a2e7d311880",
+      "index": 3,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "turn on stoveburner 1",
+      "action_sha256": "376ef0362128470fc9857ab98290d7bed7fb62c422ed801f84c72a05cc2727e8",
+      "checkpoint": "tasks/4124c902df79f1d3/trial-00/checkpoint.json",
+      "checkpoint_sha256": "253c2f7d1544bd0cbc99e7623fb7ed653f2398d2d6a0d0afd56a8a2e7d311880",
+      "index": 30,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "You arrive at diningtable 1. On the diningtable 1, you see a apple 1, a bread 1, a egg 1, a kettle 1, a knife 1, a mug 1, a papertowelroll 1, a peppershaker 2, ",
+      "action_sha256": "3ecb0057f0a2ec7ebb1243aaee06f2448a4a430b1de31a7593c1c3f56057d197",
+      "checkpoint": "tasks/537038eec7c212d9/trial-00/checkpoint.json",
+      "checkpoint_sha256": "93cc1c3f790a6b4b326e145b3435b271a244c669ddf2a0b620ff71dd6d879919",
+      "index": 11,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "look in diningtable 1",
+      "action_sha256": "06c6d177ba9db898488cdf883a51afc73b82a0d4811395d5dae08ca8ab2c3f6e",
+      "checkpoint": "tasks/537038eec7c212d9/trial-00/checkpoint.json",
+      "checkpoint_sha256": "93cc1c3f790a6b4b326e145b3435b271a244c669ddf2a0b620ff71dd6d879919",
+      "index": 19,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "You arrive at diningtable 1. On the diningtable 1, you see a apple 1, a bread 1, a egg 1, a kettle 1, a knife 1, a mug 1, a papertowelroll 1, a peppershaker 2, ",
+      "action_sha256": "3ecb0057f0a2ec7ebb1243aaee06f2448a4a430b1de31a7593c1c3f56057d197",
+      "checkpoint": "tasks/537038eec7c212d9/trial-00/checkpoint.json",
+      "checkpoint_sha256": "93cc1c3f790a6b4b326e145b3435b271a244c669ddf2a0b620ff71dd6d879919",
+      "index": 23,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You open the fridge 1. The fridge 1 is open. In it, you see a apple 1, a egg 1, and a lettuce 1.",
+      "action_sha256": "045d07c59f39eac4412d2093b93cb952a10d7cbffe44b38d1c0d24d3b1bb81d4",
+      "checkpoint": "tasks/599fc447f43bcc5a/trial-00/checkpoint.json",
+      "checkpoint_sha256": "ac4e4ccb779b70a48dfad990d2a9e3ea403ceb719665e005ce3d79140b292b10",
+      "index": 3,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "heat microwave 1",
+      "action_sha256": "4dc29b126ca78c6f9c1afffe27cec2c22a503a413a67d7f6a8f52f9e887ddc32",
+      "checkpoint": "tasks/64aa51b30cab1f98/trial-00/checkpoint.json",
+      "checkpoint_sha256": "01a2a547bad0073976597f557c68c2b209049b53dc7c79c4fbec69bb42c7ef47",
+      "index": 18,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "heat microwave 1",
+      "action_sha256": "4dc29b126ca78c6f9c1afffe27cec2c22a503a413a67d7f6a8f52f9e887ddc32",
+      "checkpoint": "tasks/64aa51b30cab1f98/trial-00/checkpoint.json",
+      "checkpoint_sha256": "01a2a547bad0073976597f557c68c2b209049b53dc7c79c4fbec69bb42c7ef47",
+      "index": 31,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "You open the fridge 1. The fridge 1 is open. In it, you see a apple 1, and a egg 1.",
+      "action_sha256": "d52a1416aa2443dbee3778d5efeba8f7a8521ed64e3504ccb3e00e13606979b3",
+      "checkpoint": "tasks/8836af46f273b815/trial-00/checkpoint.json",
+      "checkpoint_sha256": "3e95575170dd3b8a0e1dbba5380ed34ea6da967dde7f0c1601daf3ecf2ae3a62",
+      "index": 3,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You open the fridge 1. The fridge 1 is open. In it, you see a egg 1, and a lettuce 1.",
+      "action_sha256": "033f6cb434d19f25dafe137ff954ff12340c124140bb97a4f5dea562ba68bf95",
+      "checkpoint": "tasks/e95efee1d357020f/trial-00/checkpoint.json",
+      "checkpoint_sha256": "bf894dc34f5857b7df5d175babbfb05654ece15e8e47d119a7be5fa1564e830e",
+      "index": 3,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    }
+  ],
+  "run_sha256": "8373a26e6ff822b57598540c2eeb55055da725c729473e969d4577072349063f",
+  "scope": "Executed action shapes under the public numbered-entity grammar; no semantic repairs",
+  "sha256": "8e48d37ccdb09af9b6f6d74b60ce822b3d2d756c9ca72eb5e737c54b5386e7b1"
+}

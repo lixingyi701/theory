@@ -1,0 +1,82 @@
+{
+  "audit_sha256": "06e64f314731ae623240866c3a15d935b0441105b0f89b3fc1463bcc55e317fd",
+  "config": {
+    "name": "ridge0.01_scale1.5",
+    "ridge": 0.01,
+    "scale": 1.5
+  },
+  "holdout134_calls": 0,
+  "model": {
+    "kernel_implementation": "scripts/calibrate_successor_success.py:component_kernel",
+    "p_coefficients": [
+      -0.08337585050527865,
+      0.10698123192192063,
+      -1.0643970689781364,
+      -0.5410192688013897,
+      -4.215820741410194,
+      1.1143346641816094,
+      1.8946490311390947
+    ],
+    "p_feature_set": "seven",
+    "p_ridge": 0.01,
+    "task_offsets": [
+      -1.0,
+      0.0,
+      1.0
+    ],
+    "task_prior": [
+      0.16666666666666666,
+      0.6666666666666666,
+      0.16666666666666666
+    ],
+    "task_scale": 1.5,
+    "write_coefficients_reference_A": [
+      [
+        2.088611057670345,
+        0.2692321428465948,
+        -0.074175252959278,
+        1.3453747827792537
+      ],
+      [
+        -0.19332303952472168,
+        0.0023061830528540374,
+        -0.02109135574674955,
+        0.17866196880899646
+      ],
+      [
+        -1.275606940220993,
+        -0.1722874975137936,
+        0.21429100298482046,
+        0.3918650942925467
+      ],
+      [
+        -0.04333381840705293,
+        -0.14465724829721383,
+        -0.12026026956846869,
+        -0.5630276693928368
+      ],
+      [
+        0.11096052898786876,
+        0.4098849157800484,
+        -0.17580605183084522,
+        0.528643341880429
+      ],
+      [
+        1.6832852820285162,
+        -1.399204160937804,
+        0.21113198038829112,
+        -0.6856576002837805
+      ]
+    ],
+    "write_family": "error_lifetime"
+  },
+  "new_model_calls": 0,
+  "protocol_sha256": "d2e1f00ab20719f01cf2f0124f62ef2e20036b9fcc666971db885263d999c8ca",
+  "reason": "Late-state development calibration improves, while early/overall reused-cohort loss regresses; no independent budget validation of this candidate",
+  "result_sha256": "866ce3bdc312582589106ebe2ae6c96e37691fba1212b229507fc92fb168f460",
+  "reused_attempts": 1553,
+  "scenes": 27,
+  "sha256": "f1815af3f8a0764918c28c087051cb59062167d20b286b23346ce6e19cff2d7a",
+  "status": "development_candidate_not_promoted_over_frozen_baseline",
+  "tasks": 163
+}

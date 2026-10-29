@@ -1,0 +1,30 @@
+{
+  "costs": {
+    "dispatched_calls": 2,
+    "format_invalid_responses": 0,
+    "input_tokens_known": 4356,
+    "output_tokens_known": 161,
+    "response_latency_ms": 3241.084620007314,
+    "saved_responses": 2,
+    "truncated_responses": 0,
+    "uncertain_or_unrecorded_attempts": 0,
+    "usage_missing_responses": 0
+  },
+  "passed": true,
+  "rows": [
+    {
+      "payload_sha256": "3b8360795af93de90115eb0dfcf33d050e996bdce0ca6c45996e330f854a4006",
+      "role": "actor",
+      "same_finish_reason": true,
+      "same_raw_text": true
+    },
+    {
+      "payload_sha256": "5804b020d49f785ebc6f786326e240e327be33d1ff622a7033d883370ccb158e",
+      "role": "reflector",
+      "same_finish_reason": true,
+      "same_raw_text": true
+    }
+  ],
+  "scope": "Fresh same-payload compatibility check after serving upgrade",
+  "sha256": "1fefe616fc28df1c84d5e74ad285ae98ae036863c974c90d14ee929951906775"
+}

@@ -1,0 +1,170 @@
+--- a/src/agent_reliability/reference.py
++++ b/src/agent_reliability/reference.py
+@@ -64,9 +64,13 @@
+     return variables['prompt'], variables['ob']
+ 
+ 
++ACTION_ALIAS_PROFILE = 'alfworld_put_in_on_variants_v2'
++
++
+ def submitted_command(action: str) -> str:
+-    # Fixed public grammar alias for the pinned data release, no oracle selection.
+-    match = re.fullmatch(r'put (.+) in/on (.+)', action)
++    # Public spellings of the same placement operation. Preserve chosen entities;
++    # only translate the tool grammar, without consulting state or admissibility.
++    match = re.fullmatch(r'put (.+) (?:in/on|in|on) (.+)', action)
+     return f'move {match[1]} to {match[2]}' if match else action
+ 
+ 
+--- a/src/agent_reliability/reflexion.py
++++ b/src/agent_reliability/reflexion.py
+@@ -9,7 +9,7 @@
+ from pathlib import Path
+ from .io import digest, file_hash, read_json, seed_for, write_json
+ from .llm import CallJournal, InfrastructureError
+-from .reference import RecordedBatchEnvironment, official_environment
++from .reference import ACTION_ALIAS_PROFILE, RecordedBatchEnvironment, official_environment
+ 
+ COMMIT='218cf0ef1df84b05ce379dd4a8e47f17766733a0'
+ ROOT=Path('third_party/reflexion')
+@@ -76,7 +76,8 @@
+ def run_attempt(task,memory,trial,directory,transport,data_root,seed,allowance,reflect=True,input_format='raw'):
+     ns,receipt=author_namespace()
+     identity={'task':task,'memory':memory,'trial':trial,'seed':seed,'upstream':receipt,
+-              'profile':'upstream_reflexion_raw_serial_v1','input_format':input_format}
++              'profile':'upstream_reflexion_raw_serial_v1','input_format':input_format,
++              'environment_action_alias':ACTION_ALIAS_PROFILE}
+     if input_format in {'qwen3_non_thinking','qwen3_non_thinking_actionline'}:
+         identity['wrapper_sha256']=file_hash(Path('configs/qwen3_8b_non_thinking_wrapper.json'))
+     identity['sha256']=digest(identity)
+--- /dev/null
++++ b/scripts/run_reflexion_tool_stage.py
+@@ -0,0 +1,128 @@
++#!/usr/bin/env python3
++"""Capability/prefix runs after the evidence-backed placement grammar revision."""
++import argparse
++import time
++from pathlib import Path
++
++from agent_reliability.audit import verify_audit
++from agent_reliability.cli import provenance
++from agent_reliability.dataset import load_manifest
++from agent_reliability.io import digest, file_hash, read_json, run_lock, write_json
++from agent_reliability.reference import ACTION_ALIAS_PROFILE, CompletionTransport
++from agent_reliability.reflexion import author_namespace, run_attempt
++from continue_reflexion_pilot import PHASE, allowance, ledger
++from summarize_reflexion import summarize
++
++
++def verify_stage_revision(initialize=False):
++    contract = read_json(PHASE/'contract.json')
++    if contract['sha256'] != digest({k: v for k, v in contract.items() if k != 'sha256'}):
++        raise ValueError('Continuation contract integrity')
++    current = provenance()
++    path = PHASE/'tool-revision.json'
++    if initialize:
++        if path.exists():
++            raise FileExistsError('Tool revision already recorded')
++        if read_json(PHASE/'pilot-summary.json')['completed_tasks'] != 24:
++            raise ValueError('Complete preceding pilot before tool revision')
++        diagnostic = read_json(PHASE/'placement-diagnostic-reviewed.json')
++        if diagnostic['sha256'] != digest({k: v for k, v in diagnostic.items() if k != 'sha256'}):
++            raise ValueError('Placement replay evidence integrity')
++        changed = sorted(k for k, v in current['source_hashes'].items() if contract['source_hashes'].get(k) != v)
++        if changed != ['reference.py', 'reflexion.py']:
++            raise ValueError(f'Unexpected source changes: {changed}')
++        revision = {'continuation_sha256': contract['sha256'], 'source_hashes': current['source_hashes'],
++            'environment_action_alias': ACTION_ALIAS_PROFILE, 'created_unix': time.time(),
++            'diagnostic_sha256': diagnostic['sha256'],
++            'reason': 'Six public failed placement spellings accepted after equivalent grammar translation; five single-step wins. Preserve actor decisions and count all new calls in the original continuation envelope.'}
++        revision['sha256'] = digest(revision)
++        write_json(path, revision)
++    revision = read_json(path)
++    if revision['sha256'] != digest({k: v for k, v in revision.items() if k != 'sha256'}):
++        raise ValueError('Tool revision integrity')
++    if revision['source_hashes'] != current['source_hashes'] or revision['continuation_sha256'] != contract['sha256']:
++        raise ValueError('Tool revision source/contract mismatch')
++    return contract, revision
++
++
++def main():
++    p = argparse.ArgumentParser()
++    p.add_argument('--manifest', type=Path, required=True)
++    p.add_argument('--output', type=Path, required=True)
++    p.add_argument('--audit', type=Path, required=True)
++    p.add_argument('--environment-audit', type=Path, required=True)
++    p.add_argument('--trials', type=int, choices=[1, 3], required=True)
++    p.add_argument('--max-calls', type=int, required=True)
++    p.add_argument('--capability-run', type=Path)
++    p.add_argument('--initialize-transition', action='store_true')
++    a = p.parse_args()
++    with run_lock(PHASE), run_lock(a.output):
++        if any(v['dispatched'] != v['responses'] for v in ledger().values()):
++            raise ValueError('Resolve preceding requests before new stage')
++        contract, revision = verify_stage_revision(a.initialize_transition)
++        manifest = load_manifest(a.manifest)
++        if a.manifest.name not in {'dev12.json', 'pilot-prefix24-v2.json'}:
++            raise ValueError('Development manifests only; holdout remains sealed')
++        if a.manifest.name == 'pilot-prefix24-v2.json':
++            if a.trials != 1 or not a.capability_run:
++                raise ValueError('Pilot prefix requires one attempt and a capability run')
++            capability = read_json(a.capability_run/'summary.json')
++            kinds = {r['task_type'] for r in capability['tasks'] if r['success']}
++            if capability['completed_tasks'] != 12 or capability['successes'] < 6 or len(kinds) < 4:
++                raise ValueError('Revised interface capability gate')
++        audit = read_json(a.audit); verify_audit(audit, manifest)
++        equivalent = read_json(a.environment_audit); current = provenance()
++        if equivalent['sha256'] != digest({k: v for k, v in equivalent.items() if k != 'sha256'}) or not equivalent['passed']:
++            raise ValueError('Official environment audit integrity')
++        if equivalent['manifest_sha256'] != manifest['sha256'] or equivalent['native_hashes'] != current['native_hashes']:
++            raise ValueError('Environment identity mismatch')
++        for name in ['alfworld.py', 'env.py', 'audit.py', 'reference.py']:
++            if equivalent['source_hashes'][name] != current['source_hashes'][name]:
++                raise ValueError('Audited adapter changed')
++        transport = CompletionTransport('http://127.0.0.1:8001/v1', 'local-development', 180)
++        health = transport._request('/models'); _, upstream = author_namespace()
++        if health['model_revision'] != 'b968826d9c46dd6066d109eabc6255188de91218' or health['serving_profile'] != 'upstream_reflexion_raw_serial_v1':
++            raise ValueError('Model serving identity')
++        identity = {'manifest_sha256': manifest['sha256'], 'trials': a.trials, 'max_calls': a.max_calls,
++            'source_hashes': current['source_hashes'], 'driver_sha256': file_hash(Path(__file__)),
++            'tool_revision_sha256': revision['sha256'], 'continuation_sha256': contract['sha256'],
++            'input_format': 'qwen3_non_thinking_actionline', 'environment_action_alias': ACTION_ALIAS_PROFILE,
++            'wrapper_sha256': file_hash(Path('configs/qwen3_8b_non_thinking_wrapper.json')),
++            'seed': 42, 'serving': health, 'upstream': upstream,
++            'audit_sha256': audit['sha256'], 'environment_audit_sha256': equivalent['sha256']}
++        if (a.output/'run.json').exists():
++            if read_json(a.output/'run.json')['identity'] != identity:
++                raise ValueError('Run identity changed')
++        else:
++            remaining = contract['prior_dispatched_calls']+contract['additional_max_calls']-sum(v['dispatched'] for v in ledger().values())
++            if not 0 < a.max_calls <= remaining:
++                raise ValueError('Stage reservation exceeds remaining continuation allowance')
++            write_json(a.output/'run.json', {'identity': identity, 'created_unix': time.time(),
++                'scope': 'development; revised public tool grammar; native actor and reflector'})
++
++        def permitted():
++            allowance(contract)
++            if len(list(a.output.glob('**/calls/*/attempt-*.request.json'))) >= a.max_calls:
++                raise RuntimeError('Stage call allowance exhausted')
++
++        for task in manifest['tasks']:
++            memory = []
++            for trial in range(a.trials):
++                result = run_attempt(task, memory, trial, a.output/'tasks'/task['task_id']/f'trial-{trial:02d}',
++                    transport, Path('data/alfworld'), 42, permitted, input_format=identity['input_format'])
++                memory = result['memory_after']
++                print({k: result[k] for k in ['task_id', 'trial', 'success', 'decisions', 'dispatched_calls']}, flush=True)
++                if result['success']:
++                    break
++            report = summarize(a.output, manifest_path=a.manifest)
++            report = {k: v for k, v in report.items() if k != 'sha256'}
++            report['input_format'] = identity['input_format']; report['environment_action_alias'] = ACTION_ALIAS_PROFILE
++            report['sha256'] = digest(report)
++            write_json(a.output/'summary.json', report)
++        write_json(PHASE/'status.json', {'stage': 'tool_stage_completed', 'run': str(a.output),
++            'completed_tasks': report['completed_tasks'], 'successes': report['successes'],
++            'ledger': ledger(), 'updated_unix': time.time()})
++
++
++if __name__ == '__main__':
++    main()

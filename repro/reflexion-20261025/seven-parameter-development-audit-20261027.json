@@ -1,0 +1,376 @@
+{
+  "A_state_support": {
+    "old680": {
+      "A_present_attempts": 9,
+      "successes": 0,
+      "tasks": 6
+    },
+    "reused873": {
+      "A_present_attempts": 41,
+      "successes": 6,
+      "tasks": 15
+    }
+  },
+  "coefficient_comparison": {
+    "frozen_old": [
+      -0.035820187583717224,
+      0.14741280332906895,
+      -1.3341855488743963,
+      -7.124556141956235,
+      -4.631550958986969,
+      1.2976601733071207,
+      1.3343958086674566
+    ],
+    "selected_full_refit": [
+      -0.08337585050527865,
+      0.10698123192192063,
+      -1.0643970689781364,
+      -0.5410192688013897,
+      -4.215820741410194,
+      1.1143346641816094,
+      1.8946490311390947
+    ]
+  },
+  "comparison_limit": "Frozen old parameters used no new100-task outcomes, but selected CV now reuses those records for development. Old680 includes original fitting data; no new independent advantage claim.",
+  "configs_checked": 6,
+  "fit_count": 180,
+  "global_calls_responses": 200396,
+  "holdout134_calls": 0,
+  "maximum_gradient_check_error": 4.517919124924499e-08,
+  "minimum_fold_rank": 7,
+  "new_model_calls": 0,
+  "old680_original_max_gradient": 3.0504865883070748e-06,
+  "old680_original_objective": 237.21839786111198,
+  "passed": true,
+  "prediction_rows_checked": 9318,
+  "protocol_sha256": "d2e1f00ab20719f01cf2f0124f62ef2e20036b9fcc666971db885263d999c8ca",
+  "result_sha256": "866ce3bdc312582589106ebe2ae6c96e37691fba1212b229507fc92fb168f460",
+  "reused100_expected_by_trial": {
+    "1": {
+      "frozen_old_expected": 209.65143124914485,
+      "observed_successes": 211,
+      "selected_cv_expected": 201.85371523729046
+    },
+    "2": {
+      "frozen_old_expected": 35.46777670709524,
+      "observed_successes": 36,
+      "selected_cv_expected": 47.2474109089705
+    },
+    "3": {
+      "frozen_old_expected": 14.393036750740734,
+      "observed_successes": 22,
+      "selected_cv_expected": 22.929083052739177
+    },
+    "4": {
+      "frozen_old_expected": 7.639839035982731,
+      "observed_successes": 14,
+      "selected_cv_expected": 13.274164387336018
+    }
+  },
+  "same_reused_cohort_comparison": {
+    "old_controlled_initial_error": {
+      "frozen_old": {
+        "attempts": 180,
+        "expected_successes": 7.0717920638249865,
+        "mean_brier": 0.03243352685576326,
+        "observed_successes": 6,
+        "scene_scores": {
+          "FloorPlan12": 0.0016726041126619525,
+          "FloorPlan13": 0.0016726041126619525,
+          "FloorPlan15": 0.1841992016639365,
+          "FloorPlan16": 0.0016726041126619525,
+          "FloorPlan17": 0.0016726041126619525,
+          "FloorPlan18": 0.0016726041126619525,
+          "FloorPlan19": 0.09465694717640219,
+          "FloorPlan21": 0.0016726041126619525,
+          "FloorPlan22": 0.0016726041126619525,
+          "FloorPlan24": 0.18655795650286647,
+          "FloorPlan25": 0.0016726041126619525,
+          "FloorPlan27": 0.0016726041126619525,
+          "FloorPlan3": 0.0016726041126619525,
+          "FloorPlan30": 0.0016726041126619525,
+          "FloorPlan4": 0.09497292048326626,
+          "FloorPlan6": 0.0016726041126619525,
+          "FloorPlan7": 0.0016726041126619525,
+          "FloorPlan8": 0.0016726041126619525
+        },
+        "scenes": 18
+      },
+      "selected_cv": {
+        "attempts": 180,
+        "expected_successes": 8.36950041810344,
+        "mean_brier": 0.03338684720010188,
+        "observed_successes": 6,
+        "scene_scores": {
+          "FloorPlan12": 0.002502931829165189,
+          "FloorPlan13": 0.0025780669129197393,
+          "FloorPlan15": 0.18662161030799232,
+          "FloorPlan16": 0.0025094344527887675,
+          "FloorPlan17": 0.00255442296131708,
+          "FloorPlan18": 0.002566997712929111,
+          "FloorPlan19": 0.0944064976344801,
+          "FloorPlan21": 0.0024274174840539895,
+          "FloorPlan22": 0.0025634163269214103,
+          "FloorPlan24": 0.1882887991484339,
+          "FloorPlan25": 0.0024954136060711613,
+          "FloorPlan27": 0.0025565996363178024,
+          "FloorPlan3": 0.002468114690942042,
+          "FloorPlan30": 0.0026055100553213613,
+          "FloorPlan4": 0.09616421394624564,
+          "FloorPlan6": 0.0025108578408552643,
+          "FloorPlan7": 0.00248797067454636,
+          "FloorPlan8": 0.0026549743805325643
+        },
+        "scenes": 18
+      }
+    },
+    "reused100_A_present": {
+      "frozen_old": {
+        "attempts": 41,
+        "expected_successes": 0.8578822375589522,
+        "mean_brier": 0.20525901670063298,
+        "observed_successes": 6,
+        "scene_scores": {
+          "FloorPlan1": 0.49662329347120665,
+          "FloorPlan12": 0.0013959155501365734,
+          "FloorPlan13": 4.506836589824946e-06,
+          "FloorPlan17": 0.0005805930666522325,
+          "FloorPlan18": 0.0011682211955519161,
+          "FloorPlan2": 0.23308180563087347,
+          "FloorPlan20": 0.6911611435681223,
+          "FloorPlan23": 0.0005812847572242182,
+          "FloorPlan27": 0.0008723401738059257,
+          "FloorPlan28": 0.49803523034960806,
+          "FloorPlan8": 0.33434484910719175
+        },
+        "scenes": 11
+      },
+      "selected_cv": {
+        "attempts": 41,
+        "expected_successes": 7.566284539932247,
+        "mean_brier": 0.18850359778624706,
+        "observed_successes": 6,
+        "scene_scores": {
+          "FloorPlan1": 0.44591344767743446,
+          "FloorPlan12": 0.06581635931351666,
+          "FloorPlan13": 0.0023024792660066686,
+          "FloorPlan17": 0.03166873251496559,
+          "FloorPlan18": 0.04266300380327604,
+          "FloorPlan2": 0.1953974058978062,
+          "FloorPlan20": 0.4747646741082947,
+          "FloorPlan23": 0.0319790256279276,
+          "FloorPlan27": 0.060208495913156794,
+          "FloorPlan28": 0.39739024408758084,
+          "FloorPlan8": 0.3254357074387521
+        },
+        "scenes": 11
+      }
+    },
+    "reused100_all": {
+      "frozen_old": {
+        "attempts": 873,
+        "expected_successes": 267.1520837429622,
+        "mean_brier": 0.21975036866222677,
+        "observed_successes": 283,
+        "scene_scores": {
+          "FloorPlan1": 0.21196963204176295,
+          "FloorPlan11": 0.20059825699075773,
+          "FloorPlan12": 0.22177975594552357,
+          "FloorPlan13": 0.18623300619882352,
+          "FloorPlan14": 0.2808146232069119,
+          "FloorPlan15": 0.21988107439657215,
+          "FloorPlan16": 0.2264536101593673,
+          "FloorPlan17": 0.18284196523719226,
+          "FloorPlan18": 0.19210129102150136,
+          "FloorPlan19": 0.24598085890268945,
+          "FloorPlan2": 0.23764172139553308,
+          "FloorPlan20": 0.2071801029702175,
+          "FloorPlan21": 0.2375693920375602,
+          "FloorPlan22": 0.1701746908966713,
+          "FloorPlan23": 0.22142052740540089,
+          "FloorPlan24": 0.21094841379491366,
+          "FloorPlan25": 0.21309213936405563,
+          "FloorPlan27": 0.22003634220985796,
+          "FloorPlan28": 0.2537106588870875,
+          "FloorPlan3": 0.29043789821665067,
+          "FloorPlan30": 0.231928780764505,
+          "FloorPlan5": 0.24181613631916882,
+          "FloorPlan6": 0.16138043735527235,
+          "FloorPlan7": 0.21675081916894998,
+          "FloorPlan8": 0.21101708166872252
+        },
+        "scenes": 25
+      },
+      "selected_cv": {
+        "attempts": 873,
+        "expected_successes": 285.3043735863358,
+        "mean_brier": 0.22671885145049092,
+        "observed_successes": 283,
+        "scene_scores": {
+          "FloorPlan1": 0.2086909261654754,
+          "FloorPlan11": 0.21799390728407042,
+          "FloorPlan12": 0.2287142267069844,
+          "FloorPlan13": 0.19978605725353688,
+          "FloorPlan14": 0.2873803213569418,
+          "FloorPlan15": 0.25183647788702535,
+          "FloorPlan16": 0.261013068159674,
+          "FloorPlan17": 0.20201760661431825,
+          "FloorPlan18": 0.20673968571021545,
+          "FloorPlan19": 0.24702185846545002,
+          "FloorPlan2": 0.23792946626013917,
+          "FloorPlan20": 0.19463547783641427,
+          "FloorPlan21": 0.25595696707691107,
+          "FloorPlan22": 0.18669402474548036,
+          "FloorPlan23": 0.21809084300123616,
+          "FloorPlan24": 0.21421785295768697,
+          "FloorPlan25": 0.20620253775410408,
+          "FloorPlan27": 0.22092608943385708,
+          "FloorPlan28": 0.24618132016283303,
+          "FloorPlan3": 0.29062990678492767,
+          "FloorPlan30": 0.2317891080216735,
+          "FloorPlan5": 0.23088398966421994,
+          "FloorPlan6": 0.16922079164520729,
+          "FloorPlan7": 0.24639795019277252,
+          "FloorPlan8": 0.2070208251211182
+        },
+        "scenes": 25
+      }
+    },
+    "reused100_late_error": {
+      "frozen_old": {
+        "attempts": 200,
+        "expected_successes": 7.6209668984829335,
+        "mean_brier": 0.17373573231569808,
+        "observed_successes": 23,
+        "scene_scores": {
+          "FloorPlan1": 0.12354999071414074,
+          "FloorPlan11": 0.0019167094114583224,
+          "FloorPlan12": 0.3000864493505821,
+          "FloorPlan13": 0.001628806393785093,
+          "FloorPlan17": 0.0011426562441743523,
+          "FloorPlan18": 0.1565090352082349,
+          "FloorPlan19": 0.3776773418175309,
+          "FloorPlan2": 0.15635100624124573,
+          "FloorPlan20": 0.29601766654574013,
+          "FloorPlan21": 0.8983222768326995,
+          "FloorPlan22": 0.001835942800254908,
+          "FloorPlan23": 0.0014435477699386366,
+          "FloorPlan24": 0.10127700766861798,
+          "FloorPlan25": 0.10127360309111741,
+          "FloorPlan27": 0.1574615612749031,
+          "FloorPlan28": 0.44999834320527377,
+          "FloorPlan3": 0.00071741608826105,
+          "FloorPlan30": 0.07962040824410346,
+          "FloorPlan5": 0.4355450280381711,
+          "FloorPlan6": 0.0019167094114583224,
+          "FloorPlan7": 0.0019167094114583224,
+          "FloorPlan8": 0.1759778951822078
+        },
+        "scenes": 22
+      },
+      "selected_cv": {
+        "attempts": 200,
+        "expected_successes": 17.706347538129794,
+        "mean_brier": 0.160667509528364,
+        "observed_successes": 23,
+        "scene_scores": {
+          "FloorPlan1": 0.11716326360034339,
+          "FloorPlan11": 0.008678018282701485,
+          "FloorPlan12": 0.2703414264654102,
+          "FloorPlan13": 0.008505251523861376,
+          "FloorPlan17": 0.006798772673966577,
+          "FloorPlan18": 0.1498987301176581,
+          "FloorPlan19": 0.34148260821252574,
+          "FloorPlan2": 0.15019039514820567,
+          "FloorPlan20": 0.2703821866296307,
+          "FloorPlan21": 0.7922929912665168,
+          "FloorPlan22": 0.009737636772582223,
+          "FloorPlan23": 0.007606314393251352,
+          "FloorPlan24": 0.09475386229091773,
+          "FloorPlan25": 0.09525100825073166,
+          "FloorPlan27": 0.15043948869247237,
+          "FloorPlan28": 0.40112344936539374,
+          "FloorPlan3": 0.004043863108877624,
+          "FloorPlan30": 0.07949395588031968,
+          "FloorPlan5": 0.39742659701905764,
+          "FloorPlan6": 0.010091553492760218,
+          "FloorPlan7": 0.00952193426246209,
+          "FloorPlan8": 0.15946190217436151
+        },
+        "scenes": 22
+      }
+    },
+    "reused100_late_no_error": {
+      "frozen_old": {
+        "attempts": 84,
+        "expected_successes": 14.411908888240548,
+        "mean_brier": 0.21182808759588256,
+        "observed_successes": 13,
+        "scene_scores": {
+          "FloorPlan1": 0.38459430751344414,
+          "FloorPlan12": 0.020709318247916407,
+          "FloorPlan13": 0.040715191624490436,
+          "FloorPlan14": 0.579325963834132,
+          "FloorPlan15": 0.040715191624490436,
+          "FloorPlan17": 0.020361037246032998,
+          "FloorPlan18": 0.040715191624490436,
+          "FloorPlan19": 0.38459430751344414,
+          "FloorPlan2": 0.926526840160911,
+          "FloorPlan20": 0.040715191624490436,
+          "FloorPlan21": 0.040715191624490436,
+          "FloorPlan23": 0.020364454131151496,
+          "FloorPlan24": 0.13485570118116672,
+          "FloorPlan25": 0.040715191624490436,
+          "FloorPlan27": 0.014269325349023202,
+          "FloorPlan28": 0.5375492253954532,
+          "FloorPlan3": 0.38459430751344414,
+          "FloorPlan30": 0.31002057772931124,
+          "FloorPlan5": 0.17536788467690084,
+          "FloorPlan6": 0.040715191624490436,
+          "FloorPlan8": 0.2702502476497693
+        },
+        "scenes": 21
+      },
+      "selected_cv": {
+        "attempts": 84,
+        "expected_successes": 18.496899901945383,
+        "mean_brier": 0.19811601579344407,
+        "observed_successes": 13,
+        "scene_scores": {
+          "FloorPlan1": 0.3796348224817125,
+          "FloorPlan12": 0.053193915986952556,
+          "FloorPlan13": 0.046760429941022204,
+          "FloorPlan14": 0.5724910567402169,
+          "FloorPlan15": 0.05293061990137754,
+          "FloorPlan17": 0.042992158664943006,
+          "FloorPlan18": 0.05065959075911902,
+          "FloorPlan19": 0.3750561914921432,
+          "FloorPlan2": 0.5991404022348412,
+          "FloorPlan20": 0.055074182866521174,
+          "FloorPlan21": 0.04995607014025692,
+          "FloorPlan23": 0.05348602030041422,
+          "FloorPlan24": 0.13584068830183524,
+          "FloorPlan25": 0.05363671055379343,
+          "FloorPlan27": 0.0530177822811126,
+          "FloorPlan28": 0.431817792514411,
+          "FloorPlan3": 0.3708430041807943,
+          "FloorPlan30": 0.30393108941397634,
+          "FloorPlan5": 0.17458064144843036,
+          "FloorPlan6": 0.05474164156241501,
+          "FloorPlan8": 0.2506515198960366
+        },
+        "scenes": 21
+      }
+    }
+  },
+  "scope": "Independent result aggregation and reused-development diagnostics; not new independent validation",
+  "selection_recomputed": {
+    "best": "ridge0.01_scale0",
+    "gain": 0.0014329752907155898,
+    "late_guard": false,
+    "paired_scene_se": 0.0004736960692265017,
+    "selected": "ridge0.01_scale1.5"
+  },
+  "sha256": "06e64f314731ae623240866c3a15d935b0441105b0f89b3fc1463bcc55e317fd",
+  "source_sha256": "657c0048c093e396df09dcd500cb8a0a0eb84981f49d97ad6474f6857490b15c"
+}

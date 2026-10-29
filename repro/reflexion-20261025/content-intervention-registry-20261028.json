@@ -1,0 +1,3704 @@
+{
+  "annotation": "Single Codex full-text and focal-pair semantic self-review; prior aggregate outcomes known; no independent human reviewer",
+  "conditions": [
+    "original",
+    "neutralized",
+    "paraphrase"
+  ],
+  "entries": [
+    {
+      "additional_target_advice_remains": true,
+      "edit": {
+        "end": 419,
+        "neutral_replacement": "Additionally, the earlier heating attempts were unsuccessful, and I have not established another heating method from that outcome.",
+        "paraphrase_replacement": "Additionally, I ought to have considered using the stoveburner or toaster as alternative heating methods.",
+        "sentence_index": 2,
+        "source_span_sha256": "ae7000f102053a64a546dca00762f0b614a1b0b35219c65d0998b773af168061",
+        "start": 316
+      },
+      "index": 0,
+      "initial_observation_sha256": "4425500d88f99d1bf057a80e2c7ac62b7305704e54278a4c5833ad6403af4a7a",
+      "native_slot": 2,
+      "native_text_sha256": "851610315db6b529d269e8ebdbac13b16cb25208403934ba29db29ddbceb3e0e",
+      "native_type": "C",
+      "original_memory_sha256": "2155c4022b0a6a8e9325e6f6e20af91525cf80c2d058711a48c847c5ceb6e405",
+      "original_target_category_preserved": true,
+      "parent_attempt_id": [
+        "successor-03e265533a883915-2141-correct_middle",
+        2
+      ],
+      "parent_trial1_result_file_sha256": "bbfaf0903b7b361f9ce80f8e89623ab064ef72580b48cd2ef425f68ca43375ae",
+      "scene_id": "FloorPlan24",
+      "seven_history": [
+        [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "C"
+        }
+      ],
+      "target_category_review": "Single-coder semantic review; correct target-rule text outside focal span copied exactly",
+      "task": {
+        "game_sha256": "b029791a53e7858420ac9b2ad08043494235445d696cf2ff8478856c3b2b20f0",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Tomato-None-DiningTable-24/trial_T20190907_073102_685134/game.tw-pddl",
+        "scene_id": "FloorPlan24",
+        "split": "train",
+        "task_id": "03e265533a883915",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "8e5a55829b658a9e9403a44859ea8d7d9234ed38360209d35892c900b3f33f5b"
+      },
+      "task_id": "03e265533a883915",
+      "variant_memory_sha256": {
+        "neutralized": "716f6c52e5750210e5a67f97f96f37a925f7c65f29f35064890741f0380fd5ae",
+        "original": "2155c4022b0a6a8e9325e6f6e20af91525cf80c2d058711a48c847c5ceb6e405",
+        "paraphrase": "8b721250cb380b5d2c1ad4e1c19b29c90e46c4cf758f472a3d43693c1e48e92c"
+      },
+      "variant_text_sha256": {
+        "neutralized": "e504077dc8f817931d66dab0f1c05766ad178fbc6e6b30e8fc683fe799ed4787",
+        "original": "851610315db6b529d269e8ebdbac13b16cb25208403934ba29db29ddbceb3e0e",
+        "paraphrase": "b65f256be1ecb760541ba15d8d4fa9eb7be477f5a4fe2d6837547639d8d7d0f6"
+      }
+    },
+    {
+      "additional_target_advice_remains": true,
+      "edit": {
+        "end": 430,
+        "neutral_replacement": "If the earlier attempt did not complete heating, that outcome by itself did not establish another heating procedure or its prerequisites.",
+        "paraphrase_replacement": "If that failed, I ought to have attempted to use the stoveburner or toaster, ensuring the tomato was placed correctly.",
+        "sentence_index": 2,
+        "source_span_sha256": "74895a8cf6d206be1fb6b58410f8d327eb442493a54f0216b5cf7b0ef4e3a0fa",
+        "start": 314
+      },
+      "index": 1,
+      "initial_observation_sha256": "b4e3fbb2fd7cb6c4d0f6f74d3c61efafb7203308a2f531c3e8b50b590726f894",
+      "native_slot": 2,
+      "native_text_sha256": "97f3903b218b177f3ecd5c91384bd150af2855adcf7f6297e3874d9fe33c8a6a",
+      "native_type": "C",
+      "original_memory_sha256": "a02429841f587b504ec4ab15cc64155be2c84c873cfca80df1bc41b5ef5a4915",
+      "original_target_category_preserved": true,
+      "parent_attempt_id": [
+        "shared-122bb94118ee1cb4-2112-neutral_full",
+        2
+      ],
+      "parent_trial1_result_file_sha256": "b0725d64b780e227b5ef4f4cac9a8dec21de92dfd5192a925adf784e5592b50b",
+      "scene_id": "FloorPlan16",
+      "seven_history": [
+        [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "original_calibration",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "C"
+        }
+      ],
+      "target_category_review": "Single-coder semantic review; correct target-rule text outside focal span copied exactly",
+      "task": {
+        "game_sha256": "2ce61ef2286d734ae9bf55e2618a3a3f6fd90942f303910b94df68227d4add82",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Tomato-None-GarbageCan-16/trial_T20190906_171701_034036/game.tw-pddl",
+        "scene_id": "FloorPlan16",
+        "split": "train",
+        "task_id": "122bb94118ee1cb4",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "64812c839ccad4a890f1f0708d6819810b4952ef8cd7f8b327483ee627194128"
+      },
+      "task_id": "122bb94118ee1cb4",
+      "variant_memory_sha256": {
+        "neutralized": "675b72b3d4a897f4df925feadbc53de79a6ef729d57769243aadb4f5f471bb31",
+        "original": "a02429841f587b504ec4ab15cc64155be2c84c873cfca80df1bc41b5ef5a4915",
+        "paraphrase": "02caace0c143572e58c6031756dbe7b54e6bde7617fdf9fe63bd5b6153d541aa"
+      },
+      "variant_text_sha256": {
+        "neutralized": "dfcea02e1a3d87da9a946e1bcc97cd25be36627ce80cd63193a89fc6af7d0839",
+        "original": "97f3903b218b177f3ecd5c91384bd150af2855adcf7f6297e3874d9fe33c8a6a",
+        "paraphrase": "1ec4fff3824f8b5dd953bfdb06ee3067dfa22b1eda53ca94a035ca33017def82"
+      }
+    },
+    {
+      "additional_target_advice_remains": true,
+      "edit": {
+        "end": 270,
+        "neutral_replacement": "My previous attempt did not complete the task, but that outcome alone did not establish different completion requirements for it.",
+        "paraphrase_replacement": "I made the mistake of not recognizing that the task might not require actual heating due to system limitations.",
+        "sentence_index": 1,
+        "source_span_sha256": "41788975b93b8abc01cc70476d5df7a3637e7b04fbf5d48def9ec047b6b2b09b",
+        "start": 166
+      },
+      "index": 2,
+      "initial_observation_sha256": "4c907d815e368ea784d9f51713d318cb5c42d9f9b56135f9db506618b2c018a6",
+      "native_slot": 2,
+      "native_text_sha256": "5b359bc741bec7b13a4862c351e4bb5971fc4ab4483693ea1dda4955899c26ed",
+      "native_type": "U",
+      "original_memory_sha256": "fa6cc1ca1812e0e99c52f2afc23efc2ba517149db6c754236b06ab9c045b0e53",
+      "original_target_category_preserved": true,
+      "parent_attempt_id": [
+        "shared-13cc78cc6be8645e-2111-correct_middle",
+        2
+      ],
+      "parent_trial1_result_file_sha256": "4848851f934ee0de6a581bd392cae675bb61c500fc77cf247c7db9be41775e8b",
+      "scene_id": "FloorPlan4",
+      "seven_history": [
+        [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "original_calibration",
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "target_category_review": "Single-coder semantic review; correct target-rule text outside focal span copied exactly",
+      "task": {
+        "game_sha256": "89e553260d88435b876dc62f535db7d18eed249a28b4a82face00a1bc2321d55",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Egg-None-Fridge-4/trial_T20190908_220828_121076/game.tw-pddl",
+        "scene_id": "FloorPlan4",
+        "split": "train",
+        "task_id": "13cc78cc6be8645e",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "9a6e23ad0d15d71274062c0407f249f434fb1d4583baae4fe2e9c22ce322619f"
+      },
+      "task_id": "13cc78cc6be8645e",
+      "variant_memory_sha256": {
+        "neutralized": "7c60f366717627fd59131c668628bedb7bbedca8e1f68c841c117c2f273868ec",
+        "original": "fa6cc1ca1812e0e99c52f2afc23efc2ba517149db6c754236b06ab9c045b0e53",
+        "paraphrase": "a9834d805d4c12c4a13de3bcd0033a75f302984a7bb57c3852dabfed273d713e"
+      },
+      "variant_text_sha256": {
+        "neutralized": "7982b552c97012643a0676bb151854691d13c05ef0cbfd75a82222e19de85839",
+        "original": "5b359bc741bec7b13a4862c351e4bb5971fc4ab4483693ea1dda4955899c26ed",
+        "paraphrase": "3ee187e98d6547cdafc9b9d8f865d6143ec7021ff9b0cb03079c48e57243aae6"
+      }
+    },
+    {
+      "additional_target_advice_remains": true,
+      "edit": {
+        "end": 436,
+        "neutral_replacement": "The previous heating attempt ended without completing the task. I have not established a cause for that outcome or another heating procedure from it. The task was unfinished at that point.",
+        "paraphrase_replacement": "If the microwave is not working, I ought to have tried using the stoveburner with a pan, ensuring that the apple is placed in the pan before heating.",
+        "sentence_index": 2,
+        "source_span_sha256": "a45a243e622efe20ee90f37c1299e5c2a076654d427107de69c15371550a0509",
+        "start": 289
+      },
+      "index": 3,
+      "initial_observation_sha256": "0b94dd9fa7df6add207dd97c948daf5cf4b057a6b862b774d95e0172dcec24c1",
+      "native_slot": 2,
+      "native_text_sha256": "f5c1f2bf4bd4860651417a0ebf22ad5354c6bc388009012d5a56212081487bd9",
+      "native_type": "C",
+      "original_memory_sha256": "1aee71313f7b8a755949592b86ee1a7a8c4fff7f571c9c93f2b15929b5ef94d7",
+      "original_target_category_preserved": true,
+      "parent_attempt_id": [
+        "successor-179e7eca229fd634-2141-neutral_full",
+        2
+      ],
+      "parent_trial1_result_file_sha256": "bc25bc131be79d919428a37396352ccdcf3d4de3381cca5cc19142e50891e9bd",
+      "scene_id": "FloorPlan5",
+      "seven_history": [
+        [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "C"
+        }
+      ],
+      "target_category_review": "Single-coder semantic review; correct target-rule text outside focal span copied exactly",
+      "task": {
+        "game_sha256": "64e004f8fb3b67fcad0a0aa59c67e2b1eb5070d104e93a185c0a9ad907536d7b",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Apple-None-CounterTop-5/trial_T20190907_113507_490654/game.tw-pddl",
+        "scene_id": "FloorPlan5",
+        "split": "train",
+        "task_id": "179e7eca229fd634",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "de1658342015bbfb8a512ba48ca585a32f5a4444c4fc8806ce256c6ec1e8d711"
+      },
+      "task_id": "179e7eca229fd634",
+      "variant_memory_sha256": {
+        "neutralized": "7decd258501cfe3e5b2ce83e943fdb3f8aac7aeee3e2c9a90af30ffe394d981d",
+        "original": "1aee71313f7b8a755949592b86ee1a7a8c4fff7f571c9c93f2b15929b5ef94d7",
+        "paraphrase": "4075fc3a7155cec0e0a43aff0318bfca4a7685f834454d97688f83b7d58d0a36"
+      },
+      "variant_text_sha256": {
+        "neutralized": "7d4218948352cfd51edabe3f734aa8308624c2006e380bd0dbaf0c45ebca7a34",
+        "original": "f5c1f2bf4bd4860651417a0ebf22ad5354c6bc388009012d5a56212081487bd9",
+        "paraphrase": "465aee93e236ea38eabdd771869a9c262d90383e68811e9ab1692e7616c8173b"
+      }
+    },
+    {
+      "additional_target_advice_remains": true,
+      "edit": {
+        "end": 269,
+        "neutral_replacement": "I did not complete the task in the previous attempt, but that outcome alone did not establish whether the heating procedure was feasible. I remain uncertain.",
+        "paraphrase_replacement": "I ought to have realized that heating a plate in a microwave is not feasible and instead focused on placing the plate on the countertop directly.",
+        "sentence_index": 1,
+        "source_span_sha256": "57d6546a2acb9a4ed4a8897e47b70657fac540d2220dce4b5e66f3d532a8de0e",
+        "start": 126
+      },
+      "index": 4,
+      "initial_observation_sha256": "945fa68eb372a84815c6d09d83612ec9d7456a37b7160943e6219734633730b5",
+      "native_slot": 2,
+      "native_text_sha256": "32781f2624b2dd3275f86282f15af42d9db1e974aa56605272e98b4c4b630edb",
+      "native_type": "U",
+      "original_memory_sha256": "e43dc2a61d90830b4c360425e053a2318c4d3770482aad02d4b83eb378bf9509",
+      "original_target_category_preserved": true,
+      "parent_attempt_id": [
+        "successor-19cbf89f0696f384-2141-correct_middle",
+        2
+      ],
+      "parent_trial1_result_file_sha256": "4f37754a10aca67f7136c0f5eb55514cba4cffdcdfb881510c55ae3ccb5e8be5",
+      "scene_id": "FloorPlan7",
+      "seven_history": [
+        [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "target_category_review": "Single-coder semantic review; correct target-rule text outside focal span copied exactly",
+      "task": {
+        "game_sha256": "af996d5f41347c374319ecf828d8d84867967e93e3097d6922a8a6b29a479b05",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Plate-None-CounterTop-7/trial_T20190909_100747_111240/game.tw-pddl",
+        "scene_id": "FloorPlan7",
+        "split": "train",
+        "task_id": "19cbf89f0696f384",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "6aae84e6485f9a89e6d5f12c1d804eda29c6ef17314ec41360c007ba4fe99f4e"
+      },
+      "task_id": "19cbf89f0696f384",
+      "variant_memory_sha256": {
+        "neutralized": "a9b060f640329705fe0fe3e1d3ffbee2f7980f5bdaeb327a1baac90b98cb05b6",
+        "original": "e43dc2a61d90830b4c360425e053a2318c4d3770482aad02d4b83eb378bf9509",
+        "paraphrase": "0483827b9b920c742deaf2c6b2996507f150657c2fed8a7b0ce0e97bc7022c60"
+      },
+      "variant_text_sha256": {
+        "neutralized": "5d4d103cbbc716969302f92eafa087187876f3d0ea8fe3a5af55ecca2209629a",
+        "original": "32781f2624b2dd3275f86282f15af42d9db1e974aa56605272e98b4c4b630edb",
+        "paraphrase": "f9df9cd5ee9013a52ef1e671f83f39941bbda6f535203b9ea86b3127ec863c26"
+      }
+    },
+    {
+      "additional_target_advice_remains": true,
+      "edit": {
+        "end": 272,
+        "neutral_replacement": "The earlier attempt involving the apple did not complete the task. I have not established another heating procedure or its prerequisites from that outcome. I remain uncertain.",
+        "paraphrase_replacement": "I ought to have first located a pan or pot to use with the stoveburner, then placed the apple in the pan and heated it.",
+        "sentence_index": 1,
+        "source_span_sha256": "574d4401d214bba5aa462477761d728bce24763ec98e30f7ec5e6c9f16e643f5",
+        "start": 155
+      },
+      "index": 5,
+      "initial_observation_sha256": "7736550dfdd5a23f82a4ed3925fdad63ee384a91b879d104e1262221158abf6a",
+      "native_slot": 2,
+      "native_text_sha256": "5a0187b97b08ffec00e4196936f15b3d324816a84859277a8e05e42982729ed0",
+      "native_type": "U",
+      "original_memory_sha256": "130fc854a28b1ab1f7d5238113379bd9bf01f35ca33433362aa379da04bd640a",
+      "original_target_category_preserved": true,
+      "parent_attempt_id": [
+        "four-1af24310a9afee4e-2130-neutral_full",
+        2
+      ],
+      "parent_trial1_result_file_sha256": "9970a9d13732d9bd5a2a9d813ba291192c941cbed24f9452b578c7c4f7eaed80",
+      "scene_id": "FloorPlan26",
+      "seven_history": [
+        [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "successor_review",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "target_category_review": "Single-coder semantic review; correct target-rule text outside focal span copied exactly",
+      "task": {
+        "game_sha256": "c832e207a7854bfd0e6ee7b017acef40e4f134ce6f10e98ed12bc615ccb9c01f",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Apple-None-DiningTable-26/trial_T20190907_060208_731079/game.tw-pddl",
+        "scene_id": "FloorPlan26",
+        "split": "train",
+        "task_id": "1af24310a9afee4e",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "3050a1a98363a5cdb80f789125af66f6ecc8db8dbcc60e19aec6c16e55097060"
+      },
+      "task_id": "1af24310a9afee4e",
+      "variant_memory_sha256": {
+        "neutralized": "72516e9a41162c914baedc0bb82f4873f4ba32198c58a672f28fd38c2a1890ef",
+        "original": "130fc854a28b1ab1f7d5238113379bd9bf01f35ca33433362aa379da04bd640a",
+        "paraphrase": "991dcbbe9f447417367ff5279f7cceb1263305ae30d55229bea79885343d93aa"
+      },
+      "variant_text_sha256": {
+        "neutralized": "1a6e87aefa82c5dafff08c0354bedf23f3b115604380e7a41121a95be485b646",
+        "original": "5a0187b97b08ffec00e4196936f15b3d324816a84859277a8e05e42982729ed0",
+        "paraphrase": "134290d818b38c9549c0e6467e998b247c0ee4c26d014fea71c022b7302a4375"
+      }
+    },
+    {
+      "additional_target_advice_remains": true,
+      "edit": {
+        "end": 541,
+        "neutral_replacement": "The previous attempt ended without completing the heating part of the task. I have not established another heating procedure or its sequence from that outcome. The task was unfinished at that point.",
+        "paraphrase_replacement": "Once I found the pan, I ought to have placed the egg in it, heated it on the stoveburner, and then placed the hot egg on the countertop.",
+        "sentence_index": 3,
+        "source_span_sha256": "f5e02592e2e1d0c9c0aaa489bbc8bf9859dca6667042a03a331bdd76dcac14ea",
+        "start": 407
+      },
+      "index": 6,
+      "initial_observation_sha256": "8eb83ce0fe70fcc3dd06695af67bd79f0fb90e556aa649aef0544af0a74bce69",
+      "native_slot": 2,
+      "native_text_sha256": "5117b2e3cd3ac8d7f9b6a150b6a5ff16a1103daf0cc8f7e6c679a067820e1c86",
+      "native_type": "U",
+      "original_memory_sha256": "dec4bf00e004f2dcbd91307fc1d11d3a3eec6fa2cc142aea611654077b8bca0e",
+      "original_target_category_preserved": true,
+      "parent_attempt_id": [
+        "successor-1b5855b199984e16-2140-neutral_full",
+        2
+      ],
+      "parent_trial1_result_file_sha256": "191da34e042793ab37b3f9f1b1eeddf85658d9e24b2d4ea6e3fc625f599592b2",
+      "scene_id": "FloorPlan30",
+      "seven_history": [
+        [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "target_category_review": "Single-coder semantic review; correct target-rule text outside focal span copied exactly",
+      "task": {
+        "game_sha256": "1f389b1c85e586015874533fa095e981f36cdcffa70feaf24410eb911f3247da",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Egg-None-CounterTop-30/trial_T20190909_130447_271507/game.tw-pddl",
+        "scene_id": "FloorPlan30",
+        "split": "train",
+        "task_id": "1b5855b199984e16",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "d2311b20d87b83a671260fa0a2904275babb89cf9b56076f3791c2a4669883aa"
+      },
+      "task_id": "1b5855b199984e16",
+      "variant_memory_sha256": {
+        "neutralized": "60d04cbccc3c919258e94af6b908ff4c6e2353323598824378bd6477a8fb2e40",
+        "original": "dec4bf00e004f2dcbd91307fc1d11d3a3eec6fa2cc142aea611654077b8bca0e",
+        "paraphrase": "7b8c71da391454b3ab986f112117247b9737ecbad78cc1e82ba44ac17d1c15a7"
+      },
+      "variant_text_sha256": {
+        "neutralized": "bca1591c7df7b2da6a9b174422e580d7e9894af793b1a17f0c8e174c56a32a0a",
+        "original": "5117b2e3cd3ac8d7f9b6a150b6a5ff16a1103daf0cc8f7e6c679a067820e1c86",
+        "paraphrase": "4f85c4d406893518af6b5d71adf7a2eeb0dabb438a0713846a7bf17cd66bb9f3"
+      }
+    },
+    {
+      "additional_target_advice_remains": true,
+      "edit": {
+        "end": 244,
+        "neutral_replacement": "The previous attempt did not complete the heating part of the task, but that outcome alone did not establish which appliance state accounted for it.",
+        "paraphrase_replacement": "I ought to have first checked if the stoveburner was on, and if not, turned it on before placing the cup on it.",
+        "sentence_index": 1,
+        "source_span_sha256": "1255a547e6de4aa41215a500e43c386df7b687814e092743c3dc05b5669dfdeb",
+        "start": 135
+      },
+      "index": 7,
+      "initial_observation_sha256": "fa38e6756b5578835b88cd87d63101b3161d2096af10d7efc43d8b52f1e7e2b8",
+      "native_slot": 2,
+      "native_text_sha256": "e8319097afb16948c6461a9f9b2965e99f11b1e63f3bd43818232283c87abeda",
+      "native_type": "U",
+      "original_memory_sha256": "14b18b162a5195817c0df1f98adf8b73c9b86c49eca66c1b79ac960e93c12864",
+      "original_target_category_preserved": true,
+      "parent_attempt_id": [
+        "successor-22248e0d186bde45-2140-neutral_full",
+        2
+      ],
+      "parent_trial1_result_file_sha256": "f6c6194cbb3550d5d017b6a66b2240a27c03c4621ecade526018ea82dbf4b2b9",
+      "scene_id": "FloorPlan30",
+      "seven_history": [
+        [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "target_category_review": "Single-coder semantic review; correct target-rule text outside focal span copied exactly",
+      "task": {
+        "game_sha256": "ee306b33e0e3c68b0e40617e1cc2be36a1d5308cbe9d277221b8a5f4d035e252",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Cup-None-Cabinet-30/trial_T20190906_200229_166300/game.tw-pddl",
+        "scene_id": "FloorPlan30",
+        "split": "train",
+        "task_id": "22248e0d186bde45",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "46fdad67c5f4fb335766ce63b28768620626da14265b691cfa177c2c6d27b8f5"
+      },
+      "task_id": "22248e0d186bde45",
+      "variant_memory_sha256": {
+        "neutralized": "5413323ca953ea077f030dc24bbada4685063ff680a1ce7d01e8ccaec8236c3a",
+        "original": "14b18b162a5195817c0df1f98adf8b73c9b86c49eca66c1b79ac960e93c12864",
+        "paraphrase": "4308af29e0252c5fb8645ca69e462c3f8e2fe51986039510a49f6e5300481402"
+      },
+      "variant_text_sha256": {
+        "neutralized": "3c1b197c5b73230376de7f07a3fc4e15171a67fb08e26b09dd6c57ff6220d708",
+        "original": "e8319097afb16948c6461a9f9b2965e99f11b1e63f3bd43818232283c87abeda",
+        "paraphrase": "334e45358b3af42b297952db5bb3174304049c347f40dd928259a90acb42736f"
+      }
+    },
+    {
+      "additional_target_advice_remains": true,
+      "edit": {
+        "end": 429,
+        "neutral_replacement": "Additionally, the previous heating actions involving the cup were unsuccessful. I have not established an alternative heating method from that outcome. I remain uncertain.",
+        "paraphrase_replacement": "Additionally, I ought to have tried heating the cup in the toaster or stoveburner earlier without waiting for the microwave to be empty.",
+        "sentence_index": 2,
+        "source_span_sha256": "42100eba7e12bacfefe23a9287b230928584261adb3e1d561539db2b1867eca1",
+        "start": 295
+      },
+      "index": 8,
+      "initial_observation_sha256": "cf208bcf462eec7df95fb83a1c8f90cb9623db8d51cd437a7e94cb1e3ad4ad58",
+      "native_slot": 2,
+      "native_text_sha256": "b9415bfe7c2227563fae9cc87eb03eaddcf6b46a70248e43a0df03b4c46a7b81",
+      "native_type": "U",
+      "original_memory_sha256": "42d953091b60edd22536acc8e206e6c3072a2b4c93061859b6aaf876da8926b5",
+      "original_target_category_preserved": true,
+      "parent_attempt_id": [
+        "shared-2788e10c07186b65-2114-correct_latest",
+        2
+      ],
+      "parent_trial1_result_file_sha256": "44115705029d4a3eb1f3b0af72da49a77be8242e4b2e81193ccf3b5582c4902c",
+      "scene_id": "FloorPlan6",
+      "seven_history": [
+        [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.3333333333333333,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "original_calibration",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "target_category_review": "Single-coder semantic review; correct target-rule text outside focal span copied exactly",
+      "task": {
+        "game_sha256": "1f55e4056092a1d47e4c02cdbaedbc69cce932232575080a46df2196bdb9e330",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Cup-None-Cabinet-6/trial_T20190908_165456_939103/game.tw-pddl",
+        "scene_id": "FloorPlan6",
+        "split": "train",
+        "task_id": "2788e10c07186b65",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "2530accaffd6c6fc0a6fb79ff166eccbb4aa66dc90cb5d242cab7d2516d3f0a6"
+      },
+      "task_id": "2788e10c07186b65",
+      "variant_memory_sha256": {
+        "neutralized": "dc5673fecdaf0b3abbad19cd3140820c6b547ef332b8577424c808f07c87bf5f",
+        "original": "42d953091b60edd22536acc8e206e6c3072a2b4c93061859b6aaf876da8926b5",
+        "paraphrase": "2a73bc1c24f3191d44244d3365094b9988de7e1db50301375e41714e7f951841"
+      },
+      "variant_text_sha256": {
+        "neutralized": "c36d41b30382fba908124540cf5fdae8df58a2a1c1ea222dfa60eb9c61e8e446",
+        "original": "b9415bfe7c2227563fae9cc87eb03eaddcf6b46a70248e43a0df03b4c46a7b81",
+        "paraphrase": "79bd93444c8b23c2ec7208a0113934608b708f47ec618fe068897ed1ecb6b0c2"
+      }
+    },
+    {
+      "additional_target_advice_remains": true,
+      "edit": {
+        "end": 358,
+        "neutral_replacement": "The previous attempt did not complete the heating part of the task. I have not established a different heating procedure from that outcome. The task was unfinished at that point.",
+        "paraphrase_replacement": "Instead of trying to heat the egg in the microwave, I ought to have placed it directly on a stoveburner or in a pan on a stoveburner.",
+        "sentence_index": 2,
+        "source_span_sha256": "c1b5ce682573b6c08d4a8d2f8e2f7661b34af65184bc7b87e04f67f134fdced6",
+        "start": 227
+      },
+      "index": 9,
+      "initial_observation_sha256": "54e09d6370ff947d5defe603e477f6a6363abe5d4941030652e75a3c4f3b8f47",
+      "native_slot": 2,
+      "native_text_sha256": "0cc2208630f1108ffff0d7a095a362d643d7060ed77bfd61e443ae217f3f79a4",
+      "native_type": "U",
+      "original_memory_sha256": "b3f1a7f9ec7ff6c5c8d67feb5049bb874042ead31298cf412588c6738eb625ab",
+      "original_target_category_preserved": true,
+      "parent_attempt_id": [
+        "successor-2f6381e53c96168d-2140-neutral_full",
+        2
+      ],
+      "parent_trial1_result_file_sha256": "e0378c72a17345de4e71ddfdd6b08ae16935eb54aef3e4aa7b2a7ecf0b07d9f7",
+      "scene_id": "FloorPlan20",
+      "seven_history": [
+        [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "target_category_review": "Single-coder semantic review; correct target-rule text outside focal span copied exactly",
+      "task": {
+        "game_sha256": "69f15a19a85e2b0bc66e8b62dd6f6211b48279975ce356e1dc4876a9a73de1f4",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Egg-None-GarbageCan-20/trial_T20190909_114130_123227/game.tw-pddl",
+        "scene_id": "FloorPlan20",
+        "split": "train",
+        "task_id": "2f6381e53c96168d",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "350361265c9562eecdc2d06914db624147c196ce181cf8922b664c801deb02d7"
+      },
+      "task_id": "2f6381e53c96168d",
+      "variant_memory_sha256": {
+        "neutralized": "9bf837b171d535090a3a79f7ef7557de82ba963c32237a8779079c84ec38c60c",
+        "original": "b3f1a7f9ec7ff6c5c8d67feb5049bb874042ead31298cf412588c6738eb625ab",
+        "paraphrase": "4ad3dd6870fca778952db2c1605faf3027ec3d73dd3a75d926c8ba0de5f73aff"
+      },
+      "variant_text_sha256": {
+        "neutralized": "090b3aa44d86d0f48c49b839e969de30d727d336ddca4ef5cb285e653eb6c710",
+        "original": "0cc2208630f1108ffff0d7a095a362d643d7060ed77bfd61e443ae217f3f79a4",
+        "paraphrase": "978028c63246bbae7fc9374b02a3b8f5b8c60e83f7c0ac9ea5a3c8356755996b"
+      }
+    },
+    {
+      "additional_target_advice_remains": true,
+      "edit": {
+        "end": 499,
+        "neutral_replacement": "In the previous attempt, heating actions involving the cup did not complete the task. I have not established which earlier action caused that outcome or a replacement method from it. I remain uncertain.",
+        "paraphrase_replacement": "In the next attempt, I intend to first remove the egg from the microwave, or if that is not possible, I intend to use the stoveburner to heat the cup directly.",
+        "sentence_index": 3,
+        "source_span_sha256": "2e42fc028127fec3ec82cede440cd60df33ea9a8eb5bf09f19b82f40ee520fb8",
+        "start": 350
+      },
+      "index": 10,
+      "initial_observation_sha256": "0fdb1ecd93b35b0095e3e44333a1f264d0dfba960fead0fcbbafb5f3a6c55c18",
+      "native_slot": 2,
+      "native_text_sha256": "fe36f4174fa59bde377cd4d0769696177ad0613d3e3c564ea8b1e88b585e5b79",
+      "native_type": "U",
+      "original_memory_sha256": "51d227dcd88156a7047e28ae42c367c3c4f893ad4ecbedfb101d436e82b3a272",
+      "original_target_category_preserved": true,
+      "parent_attempt_id": [
+        "successor-315c648a16ea5678-2141-neutral_full",
+        2
+      ],
+      "parent_trial1_result_file_sha256": "e500dffeeaa72a5145323f02ee59c86910f1d4818b73810e4508d2ed21dae802",
+      "scene_id": "FloorPlan12",
+      "seven_history": [
+        [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "target_category_review": "Single-coder semantic review; correct target-rule text outside focal span copied exactly",
+      "task": {
+        "game_sha256": "6d0818140c7f702806b07d5daa3519c0309f186196b6b5e4cb5a2920cffccdf2",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Cup-None-Cabinet-12/trial_T20190907_210848_644854/game.tw-pddl",
+        "scene_id": "FloorPlan12",
+        "split": "train",
+        "task_id": "315c648a16ea5678",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "a1a1a44496e29e2f349986729aaa445967851818bd4369648b2dbf1731dfbca9"
+      },
+      "task_id": "315c648a16ea5678",
+      "variant_memory_sha256": {
+        "neutralized": "2b23de02e2986dd5bd530557b66e2e71dd38dae2e8c4455b5d2cb22d468834f0",
+        "original": "51d227dcd88156a7047e28ae42c367c3c4f893ad4ecbedfb101d436e82b3a272",
+        "paraphrase": "a08d322022ebfaca2b5b3507b6dc47c6d98a3f179da356c03607a9ee669f13b6"
+      },
+      "variant_text_sha256": {
+        "neutralized": "c3eb71d6bd4c372682e1cc8bd3238697abad495c4ef6f80fca2821bd84ab80cf",
+        "original": "fe36f4174fa59bde377cd4d0769696177ad0613d3e3c564ea8b1e88b585e5b79",
+        "paraphrase": "a8e9221522fb2dd14c876ef9368a3d7e0099bfb9d1b159c75420bf24d78ad66b"
+      }
+    },
+    {
+      "additional_target_advice_remains": true,
+      "edit": {
+        "end": 450,
+        "neutral_replacement": "The earlier attempt included several heating actions and did not complete the task, but that outcome alone did not establish different completion requirements for it.",
+        "paraphrase_replacement": "Instead of trying to heat it in multiple appliances, I ought to have directly placed the plate on the countertop after picking it up.",
+        "sentence_index": 2,
+        "source_span_sha256": "5203552344dca9fa7ece680b1e1e101798b7fe2cd95698853f0c7f2176dea3aa",
+        "start": 319
+      },
+      "index": 11,
+      "initial_observation_sha256": "2b1fb3dc73ab97df4b4a9fc87ac91254657a28275346f44392a05a5212648736",
+      "native_slot": 2,
+      "native_text_sha256": "24684080c4ec44b91e7ae7f6d7b0b6559a2b3ba89d4d810b86c5daf20cb99bb0",
+      "native_type": "U",
+      "original_memory_sha256": "66edb6beae8cf4c4d2f6dec0acb741d11ff720278fe886838c31bd4d8ea05b90",
+      "original_target_category_preserved": true,
+      "parent_attempt_id": [
+        "shared-41f9231e4622f886-2114-correct_latest",
+        2
+      ],
+      "parent_trial1_result_file_sha256": "7f8b196157b2839c4077a3210a3b77a37cea6a53c23efd0e59a3b76378fd126f",
+      "scene_id": "FloorPlan13",
+      "seven_history": [
+        [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.3333333333333333,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "original_calibration",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "target_category_review": "Single-coder semantic review; correct target-rule text outside focal span copied exactly",
+      "task": {
+        "game_sha256": "f0995636bcf257c85839823219b6c5c4cff2b402804f2513a09f96f9e3ae132f",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Plate-None-CounterTop-13/trial_T20190909_100939_867117/game.tw-pddl",
+        "scene_id": "FloorPlan13",
+        "split": "train",
+        "task_id": "41f9231e4622f886",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "03d444cbedd7846995d60cd11cdb818da369ad15b64ebec6e8136dca84279cda"
+      },
+      "task_id": "41f9231e4622f886",
+      "variant_memory_sha256": {
+        "neutralized": "7d1de679d83dc6b325477358f2a52c5a5b2bddcf76387130d7db03cc2a894778",
+        "original": "66edb6beae8cf4c4d2f6dec0acb741d11ff720278fe886838c31bd4d8ea05b90",
+        "paraphrase": "ab91f38aca3a8be8ab040e7b633c759a22a47af72031a9a0c6cddb7b8071fe8a"
+      },
+      "variant_text_sha256": {
+        "neutralized": "c5c7e6bfe8b720103f20b164a498407a3ee77876842b22115c864b89116d079f",
+        "original": "24684080c4ec44b91e7ae7f6d7b0b6559a2b3ba89d4d810b86c5daf20cb99bb0",
+        "paraphrase": "8593cc4337a436bc8696fbb214a50a1a005aa1dc2124d0b7e29d351282cb83ca"
+      }
+    },
+    {
+      "additional_target_advice_remains": true,
+      "edit": {
+        "end": 318,
+        "neutral_replacement": "Additionally, the earlier heating actions involving the bread did not complete the task, and I have not established why that happened.",
+        "paraphrase_replacement": "Additionally, I ought to have tried using the toaster or stoveburner first, as the microwave was not functioning.",
+        "sentence_index": 2,
+        "source_span_sha256": "1e0cdd8fa3f68cbf329aea1e8db0ed7d83c96bcf5db152552b7ddfbc7e977b19",
+        "start": 207
+      },
+      "index": 12,
+      "initial_observation_sha256": "3f780a93ade821e54a1e605d3122243fe04a75f0613819f3501a9fb1875aa31b",
+      "native_slot": 2,
+      "native_text_sha256": "706890483dd75caae2b5bfcad7e4a5e1cbfc612865ac2e603c138298148bd4d1",
+      "native_type": "U",
+      "original_memory_sha256": "696ba25d0894d8a9a6c54ae14e880761dc15078dd1a045a6ceff157ef045d4f1",
+      "original_target_category_preserved": true,
+      "parent_attempt_id": [
+        "successor-46d299cad63c5852-2140-correct_middle",
+        2
+      ],
+      "parent_trial1_result_file_sha256": "f4ea951ebf514a9f35e89067d771a87e18d2e0e93a15762ed16fe3c416e53d7f",
+      "scene_id": "FloorPlan15",
+      "seven_history": [
+        [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "target_category_review": "Single-coder semantic review; correct target-rule text outside focal span copied exactly",
+      "task": {
+        "game_sha256": "492a13abbcec46255f4c14d555d24c1477d451045d1e4a8ec096923b1a46adbb",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Bread-None-GarbageCan-15/trial_T20190906_230136_323065/game.tw-pddl",
+        "scene_id": "FloorPlan15",
+        "split": "train",
+        "task_id": "46d299cad63c5852",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "54bed97ac5f4caded15589536171dcfe10a1aabb5f65c96095347ac16b974f20"
+      },
+      "task_id": "46d299cad63c5852",
+      "variant_memory_sha256": {
+        "neutralized": "0793736fecdab8c6e2f630d2dda294b63e572fe0973fb6f1a4e51b78d203fbd9",
+        "original": "696ba25d0894d8a9a6c54ae14e880761dc15078dd1a045a6ceff157ef045d4f1",
+        "paraphrase": "fac73cdd0bdb4790a3a4d4f03142565b29cb6bedd8518a1279190f83bdc38302"
+      },
+      "variant_text_sha256": {
+        "neutralized": "c5ec0395f0c635475c0e01b0a0b23316c9e5cdf13b58b4253bfdbed6803b88a4",
+        "original": "706890483dd75caae2b5bfcad7e4a5e1cbfc612865ac2e603c138298148bd4d1",
+        "paraphrase": "a45f82fd9154962bbcfbba692c3fc4430b16f43c0f961f53c38d6830d1e3cc75"
+      }
+    },
+    {
+      "additional_target_advice_remains": true,
+      "edit": {
+        "end": 450,
+        "neutral_replacement": "That unsuccessful outcome alone did not establish a replacement heating procedure. The task was unfinished at that point.",
+        "paraphrase_replacement": "If it does not work, I might need to use the stoveburner as an alternative.",
+        "sentence_index": 3,
+        "source_span_sha256": "e158002412ba9a42e4a7eb194f18f057f8718e9f7d5e48532e60551d1d6b7277",
+        "start": 377
+      },
+      "index": 13,
+      "initial_observation_sha256": "8e24df54e7b494bc8d0557adf0a3cf84b5e04420bcf64ca4022fd6252dee728d",
+      "native_slot": 2,
+      "native_text_sha256": "9e7d01ec3199041b5bac7d632efb8537defbe381545b65501ff41d7a3296e68c",
+      "native_type": "C",
+      "original_memory_sha256": "e68ba67adac4fd3a3d953d2c16a188af71283c7360c31fcced082acee104488d",
+      "original_target_category_preserved": true,
+      "parent_attempt_id": [
+        "shared-482e5598a4a0d0a2-2114-correct_latest",
+        2
+      ],
+      "parent_trial1_result_file_sha256": "2f7cba9bda9cdfa3a19be2390745f93a5dd606db174e7d13314f2e2a36afb7a0",
+      "scene_id": "FloorPlan22",
+      "seven_history": [
+        [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.3333333333333333,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "original_calibration",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "C"
+        }
+      ],
+      "target_category_review": "Single-coder semantic review; correct target-rule text outside focal span copied exactly",
+      "task": {
+        "game_sha256": "edd7cd169f01e87bd9b9f87d84859764018ea5469448619be8797ad776eeb2fc",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Mug-None-Cabinet-22/trial_T20190908_073018_399742/game.tw-pddl",
+        "scene_id": "FloorPlan22",
+        "split": "train",
+        "task_id": "482e5598a4a0d0a2",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "14f5533e29e911a44ac60b2b203ff096be5a4c8253fe76419c6e9ae349f22f3d"
+      },
+      "task_id": "482e5598a4a0d0a2",
+      "variant_memory_sha256": {
+        "neutralized": "76af8056e4f25fdbc789bd5ed4eb0561de20ef4449c0557df560198213121afe",
+        "original": "e68ba67adac4fd3a3d953d2c16a188af71283c7360c31fcced082acee104488d",
+        "paraphrase": "5582c0998dd0acd1ec92480423bcad7acfa5517942c50a011222ae81f2ac081e"
+      },
+      "variant_text_sha256": {
+        "neutralized": "99ef4eed63f4a5fdef0b71bfba4e074ad84bdcf9716fc2e583d87a44432e406a",
+        "original": "9e7d01ec3199041b5bac7d632efb8537defbe381545b65501ff41d7a3296e68c",
+        "paraphrase": "7d09c7cc3a19b0bb203a7fe001155d00e8deb18ae008ca3a053690dff9cbf0e0"
+      }
+    },
+    {
+      "additional_target_advice_remains": false,
+      "edit": {
+        "end": 395,
+        "neutral_replacement": "If the earlier attempt did not finish heating, that outcome alone did not establish a different heating procedure for another attempt. Those heating actions remained unsuccessful.",
+        "paraphrase_replacement": "If that fails, I ought to try using the stoveburner by placing the cup on an unoccupied stoveburner and then heating it.",
+        "sentence_index": 3,
+        "source_span_sha256": "6c74694f7be7d8cc1cb2951e6c530fc2c819087df23fd13a2e05adcc4dd76551",
+        "start": 277
+      },
+      "index": 14,
+      "initial_observation_sha256": "9e6c23afc9618d852dc798470aeb57832c2f9a11f655138071ce3dc3e0df963c",
+      "native_slot": 2,
+      "native_text_sha256": "b5824159ba136270d5df1b5809f0d33ab18db407e22717797667dd043738cacb",
+      "native_type": "C",
+      "original_memory_sha256": "a11b1e0df15d6071b46691a95be38925033deb2b9a2aeb7a2d0494eb09cdbd2b",
+      "original_target_category_preserved": true,
+      "parent_attempt_id": [
+        "four-4f2a083f060ac931-2131-correct_middle",
+        2
+      ],
+      "parent_trial1_result_file_sha256": "08ee3e294bc81764138d115f1c2c3a0eef0099efa34831d049e2d5200a33a2f8",
+      "scene_id": "FloorPlan30",
+      "seven_history": [
+        [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "successor_review",
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "C"
+        }
+      ],
+      "target_category_review": "Single-coder semantic review; correct target-rule text outside focal span copied exactly",
+      "task": {
+        "game_sha256": "bf24a64438d9f109673d76040713dba1ecc3968a635b34158d9cc5443143dd76",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Cup-None-Cabinet-30/trial_T20190906_200308_075401/game.tw-pddl",
+        "scene_id": "FloorPlan30",
+        "split": "train",
+        "task_id": "4f2a083f060ac931",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "7716a70579a728e98d36c9a931eaa1c2bdf96175612a18b25524693dea96ba2b"
+      },
+      "task_id": "4f2a083f060ac931",
+      "variant_memory_sha256": {
+        "neutralized": "11fd8954e2964041f8c34db1eed7bf26a84d476d27cf02ab63dbc353abf7d600",
+        "original": "a11b1e0df15d6071b46691a95be38925033deb2b9a2aeb7a2d0494eb09cdbd2b",
+        "paraphrase": "3816e4642dd89d87aeb84252d52b54dd8e8d9fa2426255f8096cbf79048a4c2f"
+      },
+      "variant_text_sha256": {
+        "neutralized": "52d2965b029e19da6436054e1eecbd530621e90dc38c1b8f849cb2d0be2819ef",
+        "original": "b5824159ba136270d5df1b5809f0d33ab18db407e22717797667dd043738cacb",
+        "paraphrase": "fe42edc2f2cd853166af0f4da4db15e616ca59958e58de7044316c7b91b8b378"
+      }
+    },
+    {
+      "additional_target_advice_remains": true,
+      "edit": {
+        "end": 494,
+        "neutral_replacement": "The earlier attempt included heating actions involving the egg and did not complete the task. I have not established another procedure or sequence from that outcome. I have not yet established what caused that unsuccessful outcome in the earlier attempt.",
+        "paraphrase_replacement": "I ought to have first checked if the egg can be heated in the microwave, then, if that failed, tried placing the egg in a pan on the stoveburner after turning on the stoveburner.",
+        "sentence_index": 2,
+        "source_span_sha256": "0a2d9df41c20273b81fb99eb0945ddd091eb5fa154e4a099005daa47d6f94381",
+        "start": 318
+      },
+      "index": 15,
+      "initial_observation_sha256": "27af15181fd2f5f621ec23b05fd54529fe18ea2cfd6a71758fdab7df894ec2e6",
+      "native_slot": 2,
+      "native_text_sha256": "dad2c8e06e8d68cf7147b44cb89fab393bfd97ad311dd11386d4c810decb942b",
+      "native_type": "U",
+      "original_memory_sha256": "6b75f230e04692f754afd53855e78e0273200c8d42d12fe5f62c4d9f77271477",
+      "original_target_category_preserved": true,
+      "parent_attempt_id": [
+        "successor-529d009fd6280b93-2140-neutral_full",
+        2
+      ],
+      "parent_trial1_result_file_sha256": "baf77bd9cd861d75c9ccba506005e91ca5019e2ad6338478cce21715d82ec203",
+      "scene_id": "FloorPlan20",
+      "seven_history": [
+        [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "target_category_review": "Single-coder semantic review; correct target-rule text outside focal span copied exactly",
+      "task": {
+        "game_sha256": "d298d88405299b48eaf22c9e5393f633bf4b109013e7a5eb22633e3c958fa8f5",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Egg-None-Fridge-20/trial_T20190907_224507_776787/game.tw-pddl",
+        "scene_id": "FloorPlan20",
+        "split": "train",
+        "task_id": "529d009fd6280b93",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "6f384e94a35c6dfcf7602fe9074ecbfa3228212a904a3b634f43a1dc5f3fb13c"
+      },
+      "task_id": "529d009fd6280b93",
+      "variant_memory_sha256": {
+        "neutralized": "7b7f259d4984a0c96667c06f47c4bf1a068d9e20558b7abf5342d9a30e7a37be",
+        "original": "6b75f230e04692f754afd53855e78e0273200c8d42d12fe5f62c4d9f77271477",
+        "paraphrase": "c80694cd559d36271c7b625fb480ac146644e9e31de3d74256d55f574cd1a2d7"
+      },
+      "variant_text_sha256": {
+        "neutralized": "3612deebecd115e2e1efe76f4184c9f55a5119bf464dd2df5070e16cba5aff86",
+        "original": "dad2c8e06e8d68cf7147b44cb89fab393bfd97ad311dd11386d4c810decb942b",
+        "paraphrase": "97342cce464cacfbb677c02aed513caae415714beedaa61efa9d1ed169881ff8"
+      }
+    },
+    {
+      "additional_target_advice_remains": true,
+      "edit": {
+        "end": 676,
+        "neutral_replacement": "If the previous attempt did not complete heating, it remained an unsuccessful attempt. That outcome alone did not establish a substitute method or change the completion requirements of the task. I have not yet established what caused that unsuccessful outcome in the earlier attempt.",
+        "paraphrase_replacement": "If taking the mug from the microwave was not possible, I ought to have tried a different heating method or considered the mug \"hot\" by placing it in the microwave and moving on to the final step of putting it in the coffeemachine.",
+        "sentence_index": 3,
+        "source_span_sha256": "9ce6f7e6f09624fe1b62c052e606faefcde453b3263b8b81ac405ba40e9eaa29",
+        "start": 448
+      },
+      "index": 16,
+      "initial_observation_sha256": "999244ef76efa90795974b4b8a48c7a23709ce2cb79087753f869a29c652a0b6",
+      "native_slot": 2,
+      "native_text_sha256": "2464d826d4a17c7272b1de76745d567236932b8c732e71bc41365451cebc2336",
+      "native_type": "C",
+      "original_memory_sha256": "939f62b2535ad02c88b6ef1d87fb610c0071f9e8b322533b826289e6ba286357",
+      "original_target_category_preserved": true,
+      "parent_attempt_id": [
+        "shared-571c8d1132841622-2114-correct_latest",
+        2
+      ],
+      "parent_trial1_result_file_sha256": "191df100da6ccfc75939f96cf92e8c0eaee69892f0909918e0c529df97dd320d",
+      "scene_id": "FloorPlan30",
+      "seven_history": [
+        [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.3333333333333333,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "original_calibration",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "C"
+        }
+      ],
+      "target_category_review": "Single-coder semantic review; correct target-rule text outside focal span copied exactly",
+      "task": {
+        "game_sha256": "563c25d6be72f02e82df67099675139554174b14795ba98e036f35d74c685782",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-30/trial_T20190908_175003_052826/game.tw-pddl",
+        "scene_id": "FloorPlan30",
+        "split": "train",
+        "task_id": "571c8d1132841622",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "232b4bbc972685f23a9661f22ff25de16c1e929b4a6522582278173f918b4c9e"
+      },
+      "task_id": "571c8d1132841622",
+      "variant_memory_sha256": {
+        "neutralized": "c63a90239c6c05e4ddb5e69bdb6314b0b47115e378d8787738cbd2e4b95af5f5",
+        "original": "939f62b2535ad02c88b6ef1d87fb610c0071f9e8b322533b826289e6ba286357",
+        "paraphrase": "8efbd08145e7c62d62c2c78f78e1d9d7c441b4f7d137a35c28eff421a18b968c"
+      },
+      "variant_text_sha256": {
+        "neutralized": "2c2cd3d216dc900173b9ce0f0cefd62668dec0913834da37b63c300fed3d2699",
+        "original": "2464d826d4a17c7272b1de76745d567236932b8c732e71bc41365451cebc2336",
+        "paraphrase": "c5814645706854931924aa210bebf447677496bbd4bbf38ef3890fb836a8c718"
+      }
+    },
+    {
+      "additional_target_advice_remains": true,
+      "edit": {
+        "end": 299,
+        "neutral_replacement": "The previous attempt involving the potato did not complete the task. I have not established an alternative heating procedure or its sequence from that outcome. The earlier heating actions did not complete the task.",
+        "paraphrase_replacement": "I ought to have first confirmed the potato was in my inventory, then directly placed it on the stoveburner without using a pan, and turned on the stoveburner if necessary.",
+        "sentence_index": 1,
+        "source_span_sha256": "d5660cdee8d50692a46012cb3edc7467c1f8729a1f3b134447404671d9f2bd6f",
+        "start": 130
+      },
+      "index": 17,
+      "initial_observation_sha256": "8599de6e77cbf739e8200f0497de13bddb8d6a3bb8230006d71ccbba0f326203",
+      "native_slot": 2,
+      "native_text_sha256": "7a5186ed49821ef4892418f1f521c82b88452ca93bd0e47dd2d2c2ba7f6c3dfa",
+      "native_type": "U",
+      "original_memory_sha256": "9582b270ecb8bb0bd8f362886b61a0cb0f537001fd9fafdf268ec974a1d59d38",
+      "original_target_category_preserved": true,
+      "parent_attempt_id": [
+        "successor-59e0b433d9cca3bc-2141-correct_middle",
+        2
+      ],
+      "parent_trial1_result_file_sha256": "0aac33c9d1757e41a246cdba8a0780f0f3e04f150e6556d8c7f72320f87d06f9",
+      "scene_id": "FloorPlan28",
+      "seven_history": [
+        [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "target_category_review": "Single-coder semantic review; correct target-rule text outside focal span copied exactly",
+      "task": {
+        "game_sha256": "779eb79d081c35844bf901710fa2d48d38cfd48eef82607119ebfe043bcab552",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Potato-None-SideTable-28/trial_T20190907_075841_463460/game.tw-pddl",
+        "scene_id": "FloorPlan28",
+        "split": "train",
+        "task_id": "59e0b433d9cca3bc",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "1b9846574c28508a1acd32111dfcafe4dda4e997011eca5e38e2bf35e2585e08"
+      },
+      "task_id": "59e0b433d9cca3bc",
+      "variant_memory_sha256": {
+        "neutralized": "d106a19dbb3a3fe1c9c3acaf8a02e8b0209734548c6f06948c70c5666b23e9db",
+        "original": "9582b270ecb8bb0bd8f362886b61a0cb0f537001fd9fafdf268ec974a1d59d38",
+        "paraphrase": "c55174f6e9001b4f0cbaca67bbc28b6ae92da726d6dbe3b3cdbd9aa282e3d3c8"
+      },
+      "variant_text_sha256": {
+        "neutralized": "b362869b60b32492fcf55625e8983b302d34ec85b731f49c810e9a826f37108f",
+        "original": "7a5186ed49821ef4892418f1f521c82b88452ca93bd0e47dd2d2c2ba7f6c3dfa",
+        "paraphrase": "e07646bab0bf63288a5c6f1e344686fc164ef5706caae548cd70289de32a047d"
+      }
+    },
+    {
+      "additional_target_advice_remains": true,
+      "edit": {
+        "end": 462,
+        "neutral_replacement": "The earlier attempt did not complete the task, but that outcome alone did not establish another heating procedure for the target object. I remain uncertain.",
+        "paraphrase_replacement": "If the microwave is not working, I ought to try using the stoveburner by placing the tomato in a pot or pan on it.",
+        "sentence_index": 2,
+        "source_span_sha256": "6e059fc41231483373c88c33ef8a0b2baca13380aacc0a9aeddf859e16acdf0e",
+        "start": 350
+      },
+      "index": 18,
+      "initial_observation_sha256": "e9f122dc0867123c0e13286e1e228d7096fdb37fa11581fd7a2967bfa23961d8",
+      "native_slot": 2,
+      "native_text_sha256": "e46cd10961d67ac682cfb2392dc4c2fe1883300379af7e661118a86b848fb81d",
+      "native_type": "C",
+      "original_memory_sha256": "fb1a09be0aed389ed5d8648dd13ca72742e023413d8807df08a4aa49b3d5dea9",
+      "original_target_category_preserved": true,
+      "parent_attempt_id": [
+        "shared-5ae9d904c27dde9f-2114-correct_latest",
+        2
+      ],
+      "parent_trial1_result_file_sha256": "10fbd6992eb6aa46fdcb33a2070751d6a09301669986f4da73efd64c4399758f",
+      "scene_id": "FloorPlan19",
+      "seven_history": [
+        [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.3333333333333333,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "original_calibration",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "C"
+        }
+      ],
+      "target_category_review": "Single-coder semantic review; correct target-rule text outside focal span copied exactly",
+      "task": {
+        "game_sha256": "cbafbd9233783b80166a920e7d288fd7ad28ecea6189f55f9a036ccd8689f51c",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Tomato-None-Fridge-19/trial_T20190909_152149_800170/game.tw-pddl",
+        "scene_id": "FloorPlan19",
+        "split": "train",
+        "task_id": "5ae9d904c27dde9f",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "12e84ccae1361976be0478a694e5e97eb0f09b783c1124b0aec8de7a36c11fd9"
+      },
+      "task_id": "5ae9d904c27dde9f",
+      "variant_memory_sha256": {
+        "neutralized": "7c7fdfe7c5743deea38085ab3250c8b143b1fd880a79426fc062780b858028b9",
+        "original": "fb1a09be0aed389ed5d8648dd13ca72742e023413d8807df08a4aa49b3d5dea9",
+        "paraphrase": "d46663369df456a60252e4965b17635f6e53bb71db6d9b051fe3172981325235"
+      },
+      "variant_text_sha256": {
+        "neutralized": "827d38f0c1d2b770951325d63deb556bc43191ea410dda28d38c7bdf41c7c3c7",
+        "original": "e46cd10961d67ac682cfb2392dc4c2fe1883300379af7e661118a86b848fb81d",
+        "paraphrase": "eab26de8cad474256da550160fd68472263f461ef78cafa32d1c8f756a357bf0"
+      }
+    },
+    {
+      "additional_target_advice_remains": true,
+      "edit": {
+        "end": 499,
+        "neutral_replacement": "In the previous attempt, actions involving the cup did not complete the task. I have not established a replacement heating procedure from that outcome. The task was unfinished at that point.",
+        "paraphrase_replacement": "In the next attempt, I intend to first confirm the cup's state, then attempt to heat it using the toaster if the microwave and stoveburner are not functional.",
+        "sentence_index": 3,
+        "source_span_sha256": "8711b35e2cadddc041faf3067c90b250a04db002d429330dac736557945f51cb",
+        "start": 346
+      },
+      "index": 19,
+      "initial_observation_sha256": "378c2955387e57c576be356f6e2c0ec4367cde332ca4dc6acf4227831d5640c9",
+      "native_slot": 2,
+      "native_text_sha256": "8891cc0a59b57a523cff8cb5e03ac9eecb9da1d69394d8f70826d93e09436d42",
+      "native_type": "U",
+      "original_memory_sha256": "b747c91ab56994e767ab55f368d6200ace00622a7b5ae7383578a5cf25f82ab9",
+      "original_target_category_preserved": true,
+      "parent_attempt_id": [
+        "successor-5f54038becd69118-2141-neutral_full",
+        2
+      ],
+      "parent_trial1_result_file_sha256": "ef37181aa48fd964af02b59bf69d42a96c21162598bc514fd9f5cc499426f94f",
+      "scene_id": "FloorPlan17",
+      "seven_history": [
+        [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "target_category_review": "Single-coder semantic review; correct target-rule text outside focal span copied exactly",
+      "task": {
+        "game_sha256": "6955cd1509294f9a29606b047995892d460f4e8240151afbd19578900146a226",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Cup-None-CounterTop-17/trial_T20190908_130923_081236/game.tw-pddl",
+        "scene_id": "FloorPlan17",
+        "split": "train",
+        "task_id": "5f54038becd69118",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "9bc99aa3be781abd9863f681cb6e6a40029f2d4f70bf190ce24cb98afacbdc28"
+      },
+      "task_id": "5f54038becd69118",
+      "variant_memory_sha256": {
+        "neutralized": "d407fb318e581136183f3fb5501736357e81a6bc5383e130474982982dff8394",
+        "original": "b747c91ab56994e767ab55f368d6200ace00622a7b5ae7383578a5cf25f82ab9",
+        "paraphrase": "80eb31bec0dcb18c55b4d187811d068853cd3c60f6e8c6d369ba09a2637a1a27"
+      },
+      "variant_text_sha256": {
+        "neutralized": "c982f046757f4b7a0f51a2343b40677dfb814943c13d46e366e56c786e466b25",
+        "original": "8891cc0a59b57a523cff8cb5e03ac9eecb9da1d69394d8f70826d93e09436d42",
+        "paraphrase": "c289af43b374dd60aef4f1fd8b31f898017ddbf82f55539ecffdc862cb23fcdc"
+      }
+    },
+    {
+      "additional_target_advice_remains": true,
+      "edit": {
+        "end": 466,
+        "neutral_replacement": "If the previous attempt did not complete heating, that outcome alone did not establish another procedure or its prerequisites for a future attempt.",
+        "paraphrase_replacement": "If heating failed, I ought to have moved directly to the stoveburner, ensuring it was free before placing the cup there.",
+        "sentence_index": 3,
+        "source_span_sha256": "2330b5931fdee85f335dd072dfc6be3204344f8e4d658418b70bfda214434e3c",
+        "start": 348
+      },
+      "index": 20,
+      "initial_observation_sha256": "378c2955387e57c576be356f6e2c0ec4367cde332ca4dc6acf4227831d5640c9",
+      "native_slot": 2,
+      "native_text_sha256": "7a50053e8179a0d79f1322de59020c407e6f28f38076a7efee87a47a0a4e7a51",
+      "native_type": "C",
+      "original_memory_sha256": "786d5472d4724e8e50402c3fed8904e5d88caf7d0fa92cd1f0c0388a0cd11208",
+      "original_target_category_preserved": true,
+      "parent_attempt_id": [
+        "shared-66348a1792a34f8f-2111-correct_middle",
+        2
+      ],
+      "parent_trial1_result_file_sha256": "d497c71e4004267069a6ab5f7763ed5580983366c352397502ed49e73c559d9e",
+      "scene_id": "FloorPlan17",
+      "seven_history": [
+        [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "original_calibration",
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "C"
+        }
+      ],
+      "target_category_review": "Single-coder semantic review; correct target-rule text outside focal span copied exactly",
+      "task": {
+        "game_sha256": "296558a67fdc07ffc6858a312ee67ac4e3cbca90118db7717f76c8c736139a44",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Cup-None-CounterTop-17/trial_T20190908_131046_363004/game.tw-pddl",
+        "scene_id": "FloorPlan17",
+        "split": "train",
+        "task_id": "66348a1792a34f8f",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "5be7e6bfb56c10b89c57eac76294fbc0017708bc61393ad5b6cb54c5cc4c1d1f"
+      },
+      "task_id": "66348a1792a34f8f",
+      "variant_memory_sha256": {
+        "neutralized": "dfa27abaf0fd5c9b13277c595c72247472e85a2b2f657447d002f454fec4dc34",
+        "original": "786d5472d4724e8e50402c3fed8904e5d88caf7d0fa92cd1f0c0388a0cd11208",
+        "paraphrase": "6a786ec1431f87fd06bab8dfc13ecf952adc3f7ee4327e4fb829c78d1a209baf"
+      },
+      "variant_text_sha256": {
+        "neutralized": "a9da490205bd27be9336ffb2c2c8fc8ac3e73565f31148ba4fb4cd3b2acdec9f",
+        "original": "7a50053e8179a0d79f1322de59020c407e6f28f38076a7efee87a47a0a4e7a51",
+        "paraphrase": "7050a8b903ae0f5367dea9c0af9bbf99824c423cb84019354561abe66104f9a4"
+      }
+    },
+    {
+      "additional_target_advice_remains": true,
+      "edit": {
+        "end": 583,
+        "neutral_replacement": "If the earlier attempt did not complete heating, it remained unsuccessful at the task. That outcome alone did not change the completion requirements described in the task.",
+        "paraphrase_replacement": "If heating failed, I ought to have directly placed the mug in a cabinet without attempting to heat it, as the task only required placing it in a cabinet.",
+        "sentence_index": 4,
+        "source_span_sha256": "08ac05d3da002f5510f36ca2ac3f759470c20c815e30d6165f9ede6fd90f8888",
+        "start": 432
+      },
+      "index": 21,
+      "initial_observation_sha256": "0ff084cb6e979c4fd38031327821452db748b8ee04b41fa0d632f00f23b8cf96",
+      "native_slot": 2,
+      "native_text_sha256": "1d02063ddf6c3ffc2052e705a86ec517d9257f375350f5bba3da5ab290fa015d",
+      "native_type": "C",
+      "original_memory_sha256": "bfc68f1e20896dad5bb99f4586b5f8fa302acbb75ff49fcb01899722482fdc53",
+      "original_target_category_preserved": true,
+      "parent_attempt_id": [
+        "successor-69364ec70ae29f24-2141-correct_middle",
+        2
+      ],
+      "parent_trial1_result_file_sha256": "231f5109fc78b4e2dc56371f43b73e10824550528fa58ef308797b4670930765",
+      "scene_id": "FloorPlan19",
+      "seven_history": [
+        [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "C"
+        }
+      ],
+      "target_category_review": "Single-coder semantic review; correct target-rule text outside focal span copied exactly",
+      "task": {
+        "game_sha256": "f5c137e811982a5cb7481a481dca1ef54d56dbae01a7b3970a3db3e2d074ebbc",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Mug-None-Cabinet-19/trial_T20190907_152738_415962/game.tw-pddl",
+        "scene_id": "FloorPlan19",
+        "split": "train",
+        "task_id": "69364ec70ae29f24",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "b014da155f0cc5178635f2843c556503cb6c6044abacdc93419433f24dc29116"
+      },
+      "task_id": "69364ec70ae29f24",
+      "variant_memory_sha256": {
+        "neutralized": "d26589ce37a39ff43fb0fd47a7a786361b183ed8cfa89be63bdbea451ea9f11c",
+        "original": "bfc68f1e20896dad5bb99f4586b5f8fa302acbb75ff49fcb01899722482fdc53",
+        "paraphrase": "a14da41b7c8dbd69fa5fcf53a7eb32087f73713cf14431e5899ce16f7c6f0eab"
+      },
+      "variant_text_sha256": {
+        "neutralized": "f2de5060d9addca46195d0ad6b76a9f6fe2ba414d7432be503b31ec5a37cf711",
+        "original": "1d02063ddf6c3ffc2052e705a86ec517d9257f375350f5bba3da5ab290fa015d",
+        "paraphrase": "c7b4a390277aee429b62b69883e917e6b9c84cd74b4f1852b8cbce83d58a8550"
+      }
+    },
+    {
+      "additional_target_advice_remains": true,
+      "edit": {
+        "end": 248,
+        "neutral_replacement": "The previous attempt involving the egg did not complete the task. I have not established another heating procedure or its sequence from that outcome. The earlier heating actions did not complete the task.",
+        "paraphrase_replacement": "I ought to have first located the egg, then placed it in a pan, heated the pan on the stoveburner, and then placed the heated egg in the sidetable.",
+        "sentence_index": 1,
+        "source_span_sha256": "1cb789825493b16540f404adf28351646ce73cea731f00340723a4c42cf86630",
+        "start": 103
+      },
+      "index": 22,
+      "initial_observation_sha256": "7a87896f2c9a7c300c3eba18117a2af0fd9ddcef4d5b5c19a2c25dac88592b1c",
+      "native_slot": 2,
+      "native_text_sha256": "9f29f28573562afccfd1f6cf5e2ab716cfae227fee28ed7fc9c9b81a538df865",
+      "native_type": "U",
+      "original_memory_sha256": "c9d6dacfee64bcbf9e54bcaaf6fd6a120059a982e3ed73ba058ce23a7777675d",
+      "original_target_category_preserved": true,
+      "parent_attempt_id": [
+        "four-751f641ce4dccfe8-2131-correct_middle",
+        2
+      ],
+      "parent_trial1_result_file_sha256": "65648f943f24f4442555d82ffef8cb003bfe9ce8ee836e8fae0a99963294ac85",
+      "scene_id": "FloorPlan28",
+      "seven_history": [
+        [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "successor_review",
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "target_category_review": "Single-coder semantic review; correct target-rule text outside focal span copied exactly",
+      "task": {
+        "game_sha256": "ac3135cded42b8ff0f8ff29528e09773d550cce4fe0ffd7b0e95c05f184b6d87",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Egg-None-SideTable-28/trial_T20190908_115647_059946/game.tw-pddl",
+        "scene_id": "FloorPlan28",
+        "split": "train",
+        "task_id": "751f641ce4dccfe8",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "50730fea888653df217cc3baf02b98f69c7c6e886daf214bcaad6b312e950fee"
+      },
+      "task_id": "751f641ce4dccfe8",
+      "variant_memory_sha256": {
+        "neutralized": "3d7d58ef220af4da1c7f9db1f509c46eb78d02a286b8ad5fff131ef7b21e2d31",
+        "original": "c9d6dacfee64bcbf9e54bcaaf6fd6a120059a982e3ed73ba058ce23a7777675d",
+        "paraphrase": "604cf254ce1c9b9f83d8d04de1c3895bbd6e9ccccf3294fda92ebab254158313"
+      },
+      "variant_text_sha256": {
+        "neutralized": "426a510d15615139ac630c80d9055c0138e903289bff14bcf31f1c501e5d610b",
+        "original": "9f29f28573562afccfd1f6cf5e2ab716cfae227fee28ed7fc9c9b81a538df865",
+        "paraphrase": "f69fd6d4717cb33f317cc196d45202f2a2f259d1dcd7b076e98a39343885429b"
+      }
+    },
+    {
+      "additional_target_advice_remains": true,
+      "edit": {
+        "end": 185,
+        "neutral_replacement": "The earlier attempt did not complete the heating part of the task. I have not established a replacement procedure from that outcome.",
+        "paraphrase_replacement": "I ought to have placed the cup on the stoveburner and turned it on before attempting to heat it.",
+        "sentence_index": 1,
+        "source_span_sha256": "54502c59e88036a011a92c51333f3ab55b92820c409e81f2f5df243f04f81c92",
+        "start": 91
+      },
+      "index": 23,
+      "initial_observation_sha256": "24e136f23ea03ddbdb431d9047f7c0dbb9c480013c14f1ebd8769f3bcd84e0e2",
+      "native_slot": 2,
+      "native_text_sha256": "9ff62ded4c459ff527c459d48d74ca834209275d86a809b32b31281fcfe79b17",
+      "native_type": "U",
+      "original_memory_sha256": "765fa6e3b7384921585eeeccdf4638d83af3804fd00955acddfaeba9de1c501c",
+      "original_target_category_preserved": true,
+      "parent_attempt_id": [
+        "successor-7871f903a409dc94-2140-neutral_full",
+        2
+      ],
+      "parent_trial1_result_file_sha256": "f43cc786fe71da1b008f38ddeddb02011e5f6dbc516698ca7f315a9809bdceed",
+      "scene_id": "FloorPlan27",
+      "seven_history": [
+        [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "target_category_review": "Single-coder semantic review; correct target-rule text outside focal span copied exactly",
+      "task": {
+        "game_sha256": "8907e574a2aed7d265ac92682e079bffb72a93a637275d8cb28076b200644516",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Cup-None-Cabinet-27/trial_T20190908_124007_307383/game.tw-pddl",
+        "scene_id": "FloorPlan27",
+        "split": "train",
+        "task_id": "7871f903a409dc94",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "b9189e097c0747bdfd6692f4019ce40a71a1dfe7f0df6c926c743ae63618648e"
+      },
+      "task_id": "7871f903a409dc94",
+      "variant_memory_sha256": {
+        "neutralized": "80af537240e6635629a811838c74d4ad4ce898fd6d8a684da1ed4331e6709678",
+        "original": "765fa6e3b7384921585eeeccdf4638d83af3804fd00955acddfaeba9de1c501c",
+        "paraphrase": "ff9cd1c46f49a8d863018d018280cfa4a4b9ba67d63e89af4a8c10739990c05f"
+      },
+      "variant_text_sha256": {
+        "neutralized": "fb3cbbdfc31af5de4537bd4bb0838c826bf45ecc4ad9008c88d38c00d44e051f",
+        "original": "9ff62ded4c459ff527c459d48d74ca834209275d86a809b32b31281fcfe79b17",
+        "paraphrase": "062c486425a44fe5659ccb0ee3038299223365e5162b7c55f35095f047cd11d8"
+      }
+    },
+    {
+      "additional_target_advice_remains": true,
+      "edit": {
+        "end": 485,
+        "neutral_replacement": "Additionally, the earlier attempt involving the plate was unsuccessful. That outcome alone did not establish a cause or different requirements for the task.",
+        "paraphrase_replacement": "Additionally, I ought to have verified if the plate was actually heatable or if the task required simply placing the plate in a cabinet.",
+        "sentence_index": 3,
+        "source_span_sha256": "ddffe839cce7f062737c59cd514b65c051fa9d83fa5aef37313129e19a70a7ef",
+        "start": 351
+      },
+      "index": 24,
+      "initial_observation_sha256": "f66c5c84c864b4e4ac89df89c55056245535a08830ec79d6927f6d9b7d373c2b",
+      "native_slot": 2,
+      "native_text_sha256": "2586350a0b64297eed8fab95e280dba59c7fbe7ef3da0e7d66d7fa6c75d26d8d",
+      "native_type": "U",
+      "original_memory_sha256": "0d34195fac3335ae7f81ed8721e5d690ee0be32a053141d0a64548318e409bbe",
+      "original_target_category_preserved": true,
+      "parent_attempt_id": [
+        "successor-960719633ac3e905-2140-neutral_full",
+        2
+      ],
+      "parent_trial1_result_file_sha256": "e8e377f97c6c0fa28781c5cafa3620b784562ad5588f23ec9c0862374bf4610d",
+      "scene_id": "FloorPlan13",
+      "seven_history": [
+        [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "target_category_review": "Single-coder semantic review; correct target-rule text outside focal span copied exactly",
+      "task": {
+        "game_sha256": "62a43f79b6f9135bf7818b44962612d31ec7c409f86ddd5cb041aabcaab287cc",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Plate-None-Cabinet-13/trial_T20190907_062558_120187/game.tw-pddl",
+        "scene_id": "FloorPlan13",
+        "split": "train",
+        "task_id": "960719633ac3e905",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "899c380f44c889a3c258a2b789c5a21e3d4eb8b09af2fdc47ab499aa4bbfdc78"
+      },
+      "task_id": "960719633ac3e905",
+      "variant_memory_sha256": {
+        "neutralized": "3b864775410873b72be25706a38854f272ec484797310ab92f33a7b95ee8256f",
+        "original": "0d34195fac3335ae7f81ed8721e5d690ee0be32a053141d0a64548318e409bbe",
+        "paraphrase": "b4b501b398be778570e8c5c7d9e6b5e87fb8dad0999a3bea383ca1360a8b8998"
+      },
+      "variant_text_sha256": {
+        "neutralized": "c5ffb7c3c06b15bcce29d082759c07cbcc1d8974165b83f34a4a2b4ea3bb7dab",
+        "original": "2586350a0b64297eed8fab95e280dba59c7fbe7ef3da0e7d66d7fa6c75d26d8d",
+        "paraphrase": "de2a82705bbe873964249cb791a1618bd13b6111fb5e6d49313bce428372653e"
+      }
+    },
+    {
+      "additional_target_advice_remains": true,
+      "edit": {
+        "end": 548,
+        "neutral_replacement": "The earlier attempt involving the egg did not complete the task. I have not established why it failed, and that outcome alone did not change the completion requirements stated in the task. That attempt remained unsuccessful.",
+        "paraphrase_replacement": "I intend to now proceed by checking my inventory to confirm the egg's presence, then directly placing it on the diningtable without attempting to heat it, as the heating process was not functioning as expected.",
+        "sentence_index": 3,
+        "source_span_sha256": "ed91051335c57430d142e4a4830d98df4272fe79865fde482c6096bc4e7824a6",
+        "start": 343
+      },
+      "index": 25,
+      "initial_observation_sha256": "6effdbdf2c30958853a2da0a5e66d23904b38a31115666d63a0998067773ce70",
+      "native_slot": 2,
+      "native_text_sha256": "a43f3439406c3904624ad4ad5a8b7a0596398203b8057abf6b88a74dd4e83751",
+      "native_type": "U",
+      "original_memory_sha256": "c525802e4dcf0dc83d93a0d08e746c5dc44e01c15c2de63c48929a17fb671049",
+      "original_target_category_preserved": true,
+      "parent_attempt_id": [
+        "successor-9762812a9966c357-2140-neutral_full",
+        2
+      ],
+      "parent_trial1_result_file_sha256": "027d770f106a10e7fc2e6274cdc1aa4d50ec51926ccafe75bc4930d73b46fdad",
+      "scene_id": "FloorPlan18",
+      "seven_history": [
+        [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "target_category_review": "Single-coder semantic review; correct target-rule text outside focal span copied exactly",
+      "task": {
+        "game_sha256": "387dcc2c06c19bd5c36588103d700c4ec6a68b10149ee02885e46fb53c8af68b",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Egg-None-DiningTable-18/trial_T20190908_051346_079516/game.tw-pddl",
+        "scene_id": "FloorPlan18",
+        "split": "train",
+        "task_id": "9762812a9966c357",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "8da85c37a633a241d5914c804a9e9db901cabab5319999bf8a77f7f5f7b31874"
+      },
+      "task_id": "9762812a9966c357",
+      "variant_memory_sha256": {
+        "neutralized": "c88d0c8b627a6c1a435c44d7b0dc8c06543fd62bd0392174dbcf27f3535991a9",
+        "original": "c525802e4dcf0dc83d93a0d08e746c5dc44e01c15c2de63c48929a17fb671049",
+        "paraphrase": "d7b2c8b1122b0e08a82e350ab9b5b2883923f2feb1471eda1a3d9838659e0316"
+      },
+      "variant_text_sha256": {
+        "neutralized": "515ac62a4269b67d3d595775f3f14fec6cee29d3ba39430a24944524d8e05889",
+        "original": "a43f3439406c3904624ad4ad5a8b7a0596398203b8057abf6b88a74dd4e83751",
+        "paraphrase": "32ce364ccbacea304c3dbb117d682ed14e27e7488e03e4f475a9745d55d2ab34"
+      }
+    },
+    {
+      "additional_target_advice_remains": true,
+      "edit": {
+        "end": 505,
+        "neutral_replacement": "The earlier attempt involving the egg was unsuccessful, but that outcome alone did not establish a limitation of the object.",
+        "paraphrase_replacement": "I ought to also check if the egg is a valid item for heating and not just a decorative or non-functional object.",
+        "sentence_index": 3,
+        "source_span_sha256": "2e4ff3d8b723c23815699394b5f33e99b90a058baa372692914d6fd75ab5ea44",
+        "start": 395
+      },
+      "index": 26,
+      "initial_observation_sha256": "868435ea1539ece063c719e27ff2be5e10d002b42557d1c2c8d7ac2f73f09351",
+      "native_slot": 2,
+      "native_text_sha256": "a45dffefef21e960b5cb7a6690436e1fe885bb89b3ca64d4290c6df3648c4685",
+      "native_type": "C",
+      "original_memory_sha256": "9e571cda4b1c876f1a1822d9919a9351a8dd7beb3f390dea535a1d4805862940",
+      "original_target_category_preserved": true,
+      "parent_attempt_id": [
+        "shared-981acc3de21dbb59-2114-correct_latest",
+        2
+      ],
+      "parent_trial1_result_file_sha256": "eb6ac45be108d4a841362bcd9fe4871103b0679db348c7340e7e73cf75621c29",
+      "scene_id": "FloorPlan4",
+      "seven_history": [
+        [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.3333333333333333,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "original_calibration",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "C"
+        }
+      ],
+      "target_category_review": "Single-coder semantic review; correct target-rule text outside focal span copied exactly",
+      "task": {
+        "game_sha256": "223420f2938c0f9b7e0cfea9ea102f40ad6014482ecd88adaace491e1cb4a016",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Egg-None-Fridge-4/trial_T20190908_220801_550894/game.tw-pddl",
+        "scene_id": "FloorPlan4",
+        "split": "train",
+        "task_id": "981acc3de21dbb59",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "668a8fa015c5e16da7872195d564bd66ff5dc97bed59aa461a7046d4bb69879a"
+      },
+      "task_id": "981acc3de21dbb59",
+      "variant_memory_sha256": {
+        "neutralized": "5386979fdfa0fedc8e73777fe82d36ff263a942390ae686060a5bba0bae4c481",
+        "original": "9e571cda4b1c876f1a1822d9919a9351a8dd7beb3f390dea535a1d4805862940",
+        "paraphrase": "ebf32d6931225f32cd33ce1734f9ed48c6eafb6a5a91ed519207c0393d837f70"
+      },
+      "variant_text_sha256": {
+        "neutralized": "162b2598484c62b2e503f49332c6e0ad452e16d2d68301e571fc38f4c79accc7",
+        "original": "a45dffefef21e960b5cb7a6690436e1fe885bb89b3ca64d4290c6df3648c4685",
+        "paraphrase": "2776064bb6ce42a159c52325e5bfec88fd7eb23c43925b1829c95ffdffec5c32"
+      }
+    },
+    {
+      "additional_target_advice_remains": false,
+      "edit": {
+        "end": 222,
+        "neutral_replacement": "The previous attempt did not complete the task, but that outcome alone did not establish a procedure or its sequence for another attempt.",
+        "paraphrase_replacement": "I ought to have turned on the microwave, waited for it to heat the plate, then placed it in the cabinet.",
+        "sentence_index": 1,
+        "source_span_sha256": "44c995b017f3371f8f35ddae2622483a3c6a7c8d8d631e4e7362164085f84095",
+        "start": 120
+      },
+      "index": 27,
+      "initial_observation_sha256": "880d3250e51958b870f374418a2bc235078d6747abda7189e979020f663f3667",
+      "native_slot": 2,
+      "native_text_sha256": "448c1135ce84af5b4e6969a392711d44e106c2279678bd769d2e140560c34a5b",
+      "native_type": "U",
+      "original_memory_sha256": "87e4fbc65777bb97d21cf5e6e3a818fd33c21b6483c0e7787ec080ce33ece5ef",
+      "original_target_category_preserved": true,
+      "parent_attempt_id": [
+        "four-9b4a791110f1400e-2131-neutral_full",
+        2
+      ],
+      "parent_trial1_result_file_sha256": "fb179732be1fafe7eeca8a32406e48502218102474bad5503f9b3ca08f24c820",
+      "scene_id": "FloorPlan1",
+      "seven_history": [
+        [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "successor_review",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "target_category_review": "Single-coder semantic review; correct target-rule text outside focal span copied exactly",
+      "task": {
+        "game_sha256": "47b37443e423e2c1d8f95258bba7cfea9443b6a9649fbb16690fad2f78a925c6",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Plate-None-Cabinet-1/trial_T20190908_070802_314312/game.tw-pddl",
+        "scene_id": "FloorPlan1",
+        "split": "train",
+        "task_id": "9b4a791110f1400e",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "cd8263ad27f4731e31d5739fb5fcaf653c299ae53723dd5584981357056a5cb0"
+      },
+      "task_id": "9b4a791110f1400e",
+      "variant_memory_sha256": {
+        "neutralized": "2f28b31d0d57451d701b5d4076a8b3efc784f199c76940e633d0c2d4820f5f2d",
+        "original": "87e4fbc65777bb97d21cf5e6e3a818fd33c21b6483c0e7787ec080ce33ece5ef",
+        "paraphrase": "d3ba2b6644f9d54ee453bdacf6a7933287e8ede94f36fc6546a45175a3c98acf"
+      },
+      "variant_text_sha256": {
+        "neutralized": "8851050cdc7566db0333d7ec816944189244bc458c26f3c67fac8e6c8c4ea604",
+        "original": "448c1135ce84af5b4e6969a392711d44e106c2279678bd769d2e140560c34a5b",
+        "paraphrase": "f3ba94b23f364b115203b8098aebe1be306ad5a6b8933e52b451a57f64a2e1fb"
+      }
+    },
+    {
+      "additional_target_advice_remains": true,
+      "edit": {
+        "end": 215,
+        "neutral_replacement": "The earlier attempt involving the apple did not complete the task. I have not established another heating procedure from that outcome. The task was unfinished at that point.",
+        "paraphrase_replacement": "I ought to have placed the apple in the pan, then put the pan on the stoveburner, and then heat the pan with the stoveburner.",
+        "sentence_index": 1,
+        "source_span_sha256": "ed76e1dacdb2d8e71f66a7a9255b1feaf609038555381ce3d09c8050fbc0b85e",
+        "start": 92
+      },
+      "index": 28,
+      "initial_observation_sha256": "7a7d964650c05d2200c7de83924baed79f9266434872bc210a697616430ee768",
+      "native_slot": 2,
+      "native_text_sha256": "497969c779022d440246232271d75cd172c9ab9083c0f754dd90ba54aca24da2",
+      "native_type": "U",
+      "original_memory_sha256": "9b721f52a7b45b8fd86fa09edb2542ddd42972fea344fd49089be7516942317c",
+      "original_target_category_preserved": true,
+      "parent_attempt_id": [
+        "successor-9b9bb8465fc6b6f5-2140-neutral_full",
+        2
+      ],
+      "parent_trial1_result_file_sha256": "ea2fa44d96b6bd3c34c5f2a8df2695fa43db21addbb844a00658ab21d5138387",
+      "scene_id": "FloorPlan21",
+      "seven_history": [
+        [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "target_category_review": "Single-coder semantic review; correct target-rule text outside focal span copied exactly",
+      "task": {
+        "game_sha256": "def2e9c48461e33763aa67a5b099bb94b364f3c7d3e500793a0f9bc2c7eedbb6",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Apple-None-SideTable-21/trial_T20190909_013359_039741/game.tw-pddl",
+        "scene_id": "FloorPlan21",
+        "split": "train",
+        "task_id": "9b9bb8465fc6b6f5",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "01b23b93fc9519fb1ee50c4e88f81dab7f97b20f308efd337c8adf7a1ce3312d"
+      },
+      "task_id": "9b9bb8465fc6b6f5",
+      "variant_memory_sha256": {
+        "neutralized": "bb845accc9a65acb1ee6d7d3d517d6e62bbd8599812e57dcb8376e1be9634893",
+        "original": "9b721f52a7b45b8fd86fa09edb2542ddd42972fea344fd49089be7516942317c",
+        "paraphrase": "82070ea5d61d966d974401c622fd3f5148ee0e4bd98bddd2206cfe19630dd77a"
+      },
+      "variant_text_sha256": {
+        "neutralized": "c7b4aa0614fcb21aa624725a5860b9fbefdda199fa886c14c71dcc671a439409",
+        "original": "497969c779022d440246232271d75cd172c9ab9083c0f754dd90ba54aca24da2",
+        "paraphrase": "80472e065f7733f8686851d71691f4c010d22d1329a7ea269fb8185a79904a10"
+      }
+    },
+    {
+      "additional_target_advice_remains": true,
+      "edit": {
+        "end": 866,
+        "neutral_replacement": "The earlier attempt remained unsuccessful, but that outcome alone did not change the completion requirements of the task.",
+        "paraphrase_replacement": "If heating is not possible, I intend to consider if the task requires a different interpretation of \"hot.\"",
+        "sentence_index": 6,
+        "source_span_sha256": "76bc7b8b477142dc77e9b2b43a6e03c69e97be03fbc9fedc0722ff4c4245d62f",
+        "start": 765
+      },
+      "index": 29,
+      "initial_observation_sha256": "ddbaa9849c8d3ffd589b76bca65afc1990d9629a7a966c523419b76817cd5fe7",
+      "native_slot": 2,
+      "native_text_sha256": "3d5c9d1a936171ca9025d9f2bfe607804dd8be4c3600feb8251b93b59911b5d2",
+      "native_type": "U",
+      "original_memory_sha256": "1f3133a518b7662267a059e31042caa672212a6228a02cb163e1b6ed65718460",
+      "original_target_category_preserved": true,
+      "parent_attempt_id": [
+        "successor-a5474f4635c42e39-2140-correct_middle",
+        2
+      ],
+      "parent_trial1_result_file_sha256": "a2da6557ba6fe1c4138eb93c0001551502162374df80d89753db61b2d31ff55f",
+      "scene_id": "FloorPlan20",
+      "seven_history": [
+        [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "target_category_review": "Single-coder semantic review; correct target-rule text outside focal span copied exactly",
+      "task": {
+        "game_sha256": "13384e202f6bd1ea77859c30c6fcb02d5b182ec6a8ac30a587628c6872630099",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Mug-None-Cabinet-20/trial_T20190908_230106_156334/game.tw-pddl",
+        "scene_id": "FloorPlan20",
+        "split": "train",
+        "task_id": "a5474f4635c42e39",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "cd35e452966732459fde84516cf5e0ecb18dc245b5e8a95440d9b9fbe05c8acf"
+      },
+      "task_id": "a5474f4635c42e39",
+      "variant_memory_sha256": {
+        "neutralized": "736507e51367c89ed25800a28298c72297bc3e38f05519b247bb4e21d42cb215",
+        "original": "1f3133a518b7662267a059e31042caa672212a6228a02cb163e1b6ed65718460",
+        "paraphrase": "35d41d6b23434af2baf33709be9c5538e574c198aa8a8041e1a12e94cd540a7e"
+      },
+      "variant_text_sha256": {
+        "neutralized": "fbe6ace914690d511a1458f2b76a84e4957a935d674f99dae314995461cd82eb",
+        "original": "3d5c9d1a936171ca9025d9f2bfe607804dd8be4c3600feb8251b93b59911b5d2",
+        "paraphrase": "c3f7dc41956b8b855cf12879b30315884dd47757b8524c8c6250729d4a5209c5"
+      }
+    },
+    {
+      "additional_target_advice_remains": true,
+      "edit": {
+        "end": 504,
+        "neutral_replacement": "That unsuccessful attempt alone did not establish another heating procedure. That attempt remained unsuccessful.",
+        "paraphrase_replacement": "If the microwave failed, I ought to have immediately tried the stoveburner.",
+        "sentence_index": 3,
+        "source_span_sha256": "55726c1867173aa765a91cae0f8bbe443924b6d9941720ed87a6d61110602082",
+        "start": 431
+      },
+      "index": 30,
+      "initial_observation_sha256": "72dbe0b7240459012085f75138651e0ebdd9f02437fba1bb07b7a5d366944826",
+      "native_slot": 2,
+      "native_text_sha256": "ac952b53b026aeaa07f9e8b7ab5ba669272124727d5f033fe3ea0c2e16dc5384",
+      "native_type": "C",
+      "original_memory_sha256": "bd31b56e54bc06432cd9fdc741b3de33ab2a7f6391b52704d4fbd199ac7f8d62",
+      "original_target_category_preserved": true,
+      "parent_attempt_id": [
+        "four-af404ef5d68432e3-2131-correct_middle",
+        2
+      ],
+      "parent_trial1_result_file_sha256": "189f4a14199aeaf79dcf1bd19ebe11de8541c0f9cb752520f5da8d5a1fad3c46",
+      "scene_id": "FloorPlan23",
+      "seven_history": [
+        [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "successor_review",
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "C"
+        }
+      ],
+      "target_category_review": "Single-coder semantic review; correct target-rule text outside focal span copied exactly",
+      "task": {
+        "game_sha256": "46fa152505408e4179f049239567468fa8dcc331a80b154ad814941f1aa401c1",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Cup-None-Fridge-23/trial_T20190908_045529_826062/game.tw-pddl",
+        "scene_id": "FloorPlan23",
+        "split": "train",
+        "task_id": "af404ef5d68432e3",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "623f0e47da448c7a01a657160e8eb66f09767e7e684dd09336f7e208a33bf765"
+      },
+      "task_id": "af404ef5d68432e3",
+      "variant_memory_sha256": {
+        "neutralized": "8f52b838f69d2435f26121a3c8f0471933a5138974c1b20b865a2b6f956605ca",
+        "original": "bd31b56e54bc06432cd9fdc741b3de33ab2a7f6391b52704d4fbd199ac7f8d62",
+        "paraphrase": "57357657a86a7c34a2ce4c187f6293005a77a6afef7bb70d499d77cc0d5cf227"
+      },
+      "variant_text_sha256": {
+        "neutralized": "2de48420293bc8010d90b0ee076d87614b86c99ee6eec9c57e154d525fa7e738",
+        "original": "ac952b53b026aeaa07f9e8b7ab5ba669272124727d5f033fe3ea0c2e16dc5384",
+        "paraphrase": "9ea8af66615f3db8916ba5c3a26115805f3ec59103740f71772ba25f9c202007"
+      }
+    },
+    {
+      "additional_target_advice_remains": true,
+      "edit": {
+        "end": 158,
+        "neutral_replacement": "The previous attempt involving the potato did not complete the task, but that outcome alone did not change the requirements that the task asks the agent to complete.",
+        "paraphrase_replacement": "I ought to have first identified that the potato was already on the countertop, which means the \"heat some potato\" part of the task was already fulfilled.",
+        "sentence_index": 0,
+        "source_span_sha256": "9c95338b90bda3f32462d41b80fd72fec3023292d077738a3acda029346b9459",
+        "start": 6
+      },
+      "index": 31,
+      "initial_observation_sha256": "381e602d08448d20e0f1a85831faccbac1826d808386040d2b6318bd9b92dbe6",
+      "native_slot": 2,
+      "native_text_sha256": "796d6309097908b249608f1708c8f21a3b814ae55b1a2057283aac2727b32415",
+      "native_type": "U",
+      "original_memory_sha256": "c1fa0fe71d7bd06934592297dd46c8591665a653e70452a0d06ba172ae1e0f8e",
+      "original_target_category_preserved": true,
+      "parent_attempt_id": [
+        "successor-b176703c0f277412-2140-neutral_full",
+        2
+      ],
+      "parent_trial1_result_file_sha256": "778b17cc7e7b568972941e14f662ba927a1792ad877ee7177763aff6c20ffed1",
+      "scene_id": "FloorPlan25",
+      "seven_history": [
+        [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "target_category_review": "Single-coder semantic review; correct target-rule text outside focal span copied exactly",
+      "task": {
+        "game_sha256": "00624b685cc56b020fdca72578d15b95b0f2d22ae63464d25eab86cdee61935f",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Potato-None-CounterTop-25/trial_T20190908_003908_189295/game.tw-pddl",
+        "scene_id": "FloorPlan25",
+        "split": "train",
+        "task_id": "b176703c0f277412",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "86da23004b4f98641c35c17162ed438c15cd35728b9505773624e10ab3aed8f2"
+      },
+      "task_id": "b176703c0f277412",
+      "variant_memory_sha256": {
+        "neutralized": "16bd4013ed0fb7dfca1e8b3cb9a1baed2740f2d20009f95f9a4def0d944f8dca",
+        "original": "c1fa0fe71d7bd06934592297dd46c8591665a653e70452a0d06ba172ae1e0f8e",
+        "paraphrase": "2cb14c048bee7683c734ee9891c2e3b86007fe8ef1c394177d054b06cea5a78d"
+      },
+      "variant_text_sha256": {
+        "neutralized": "202c0eceb90de25f4ce84e23676d648a7b2f9a5ebf1fe07adef8a357af13746f",
+        "original": "796d6309097908b249608f1708c8f21a3b814ae55b1a2057283aac2727b32415",
+        "paraphrase": "05e6567feb3f48caba447c7daa630864f57a484010cb036b857bbeaeb0da9b52"
+      }
+    },
+    {
+      "additional_target_advice_remains": true,
+      "edit": {
+        "end": 342,
+        "neutral_replacement": "The previous attempt involving the cup did not complete heating. I have not established another heating procedure from that outcome. I remain uncertain.",
+        "paraphrase_replacement": "I intend to now go to a stoveburner, place the cup on it, and turn it on to heat the cup.",
+        "sentence_index": 3,
+        "source_span_sha256": "77a4464db4bd8022db2b4990f17eb471662e00d9b16bf8f70682685f5836205c",
+        "start": 258
+      },
+      "index": 32,
+      "initial_observation_sha256": "56e8e40a94e5bff06ec4ab70d3cfaeb289fd193698008809661b29bd6fa8518b",
+      "native_slot": 2,
+      "native_text_sha256": "3603311a882bfd1fc39c8c26d77cbe1166d62bcc879489bde624c55b53e14d60",
+      "native_type": "U",
+      "original_memory_sha256": "252fe2116b1df2d7b89b4f45b10cd0fadbaeb0357f5fd4d6cda16f33b77b0a4d",
+      "original_target_category_preserved": true,
+      "parent_attempt_id": [
+        "successor-b36a8c185daa6a0b-2140-correct_middle",
+        2
+      ],
+      "parent_trial1_result_file_sha256": "bf6cdf737311786fdf6ec37d4dc7fb1e789645754ecdc5118798b525c2d455b1",
+      "scene_id": "FloorPlan8",
+      "seven_history": [
+        [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "target_category_review": "Single-coder semantic review; correct target-rule text outside focal span copied exactly",
+      "task": {
+        "game_sha256": "98c8cb6ff707d9a1209249471afa7d4b9de7aaff18611f016f75102859b9451c",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Cup-None-Cabinet-8/trial_T20190907_170522_408193/game.tw-pddl",
+        "scene_id": "FloorPlan8",
+        "split": "train",
+        "task_id": "b36a8c185daa6a0b",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "83d15df95415289ad9aabd0d17e486949ad4d94a49799b12906fbd7b3dba6c92"
+      },
+      "task_id": "b36a8c185daa6a0b",
+      "variant_memory_sha256": {
+        "neutralized": "00282bc69065277d7823b14d4a4e8cb19f1b2ac3ae8cdf7ac984efdf7a861977",
+        "original": "252fe2116b1df2d7b89b4f45b10cd0fadbaeb0357f5fd4d6cda16f33b77b0a4d",
+        "paraphrase": "ee15883e4f0890842d1655174bec2392bd7ddde2266bda3e9e72533303eb15dd"
+      },
+      "variant_text_sha256": {
+        "neutralized": "352c7dd6064bbad77c24fb7ccf6dd7defbcdd48ab4e3d38faf1b77fe41f16cee",
+        "original": "3603311a882bfd1fc39c8c26d77cbe1166d62bcc879489bde624c55b53e14d60",
+        "paraphrase": "1476623fed16f15d2e222a1b4685f426c1183854048c8c915f49bab2d8f6b22b"
+      }
+    },
+    {
+      "additional_target_advice_remains": true,
+      "edit": {
+        "end": 517,
+        "neutral_replacement": "The earlier attempt was unsuccessful, but that outcome alone did not establish a replacement heating procedure.",
+        "paraphrase_replacement": "I intend to avoid using the microwave and focus on using the stoveburner instead.",
+        "sentence_index": 3,
+        "source_span_sha256": "b6196fef62e342262f572fc69d71a5ddbf1f5ef4ac5595afe50647eb7276eeea",
+        "start": 441
+      },
+      "index": 33,
+      "initial_observation_sha256": "0cc962f4646219b6596e24032c7850131b73a9329386aa86e27a28d94da1c9a3",
+      "native_slot": 2,
+      "native_text_sha256": "25492273ff120b4bd1946931d90dc0dd0777025660b296d251485d0b85017d02",
+      "native_type": "C",
+      "original_memory_sha256": "f8faeea1cf438119c5496161b1b8a59dc75d74f0e2865edf32f970d61fb0d40e",
+      "original_target_category_preserved": true,
+      "parent_attempt_id": [
+        "successor-c2fe17bf60e7db4b-2140-correct_middle",
+        2
+      ],
+      "parent_trial1_result_file_sha256": "fb8616159dc8b21954282136ce74516a480449469f26b8a7b90e4d6acd0ed5a7",
+      "scene_id": "FloorPlan17",
+      "seven_history": [
+        [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "C"
+        }
+      ],
+      "target_category_review": "Single-coder semantic review; correct target-rule text outside focal span copied exactly",
+      "task": {
+        "game_sha256": "4931a6d966f0d5dbbbcac74434c0e3d90c85137d348ff404677eaf2b67a158f7",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Tomato-None-DiningTable-17/trial_T20190909_042716_008360/game.tw-pddl",
+        "scene_id": "FloorPlan17",
+        "split": "train",
+        "task_id": "c2fe17bf60e7db4b",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "8313fa08469b60b4520be615b604a7203abab2201fd66116566f0fb11bec7ec5"
+      },
+      "task_id": "c2fe17bf60e7db4b",
+      "variant_memory_sha256": {
+        "neutralized": "7371209a3c2c89f9a3db73db18ba0b0b59f1d935317a63fe5304319eb2aa4545",
+        "original": "f8faeea1cf438119c5496161b1b8a59dc75d74f0e2865edf32f970d61fb0d40e",
+        "paraphrase": "0cd9eb929bfd38739353eea95abf0f1abd0df997cccb867c0e3b6f7aa3899923"
+      },
+      "variant_text_sha256": {
+        "neutralized": "23d2c2eb7f27ef643904f505c1880536762daf72dc4484733c1f941eeedeae3e",
+        "original": "25492273ff120b4bd1946931d90dc0dd0777025660b296d251485d0b85017d02",
+        "paraphrase": "4d459de89893f9a4c4c5b5f09b73f27bdaf64969b903051f92f3503eb39f1955"
+      }
+    },
+    {
+      "additional_target_advice_remains": true,
+      "edit": {
+        "end": 295,
+        "neutral_replacement": "The previous attempt involving the potato did not complete the task. I have not established another heating procedure or its sequence from that outcome. The task was unfinished at that point.",
+        "paraphrase_replacement": "I ought to have first taken the potato from the diningtable, then placed it directly on a stoveburner, and then turned on the stoveburner to heat it.",
+        "sentence_index": 1,
+        "source_span_sha256": "c22355062693ce55efe3f7958c5d30cb71c47305f6cce2bda5488a8225ae2fa3",
+        "start": 148
+      },
+      "index": 34,
+      "initial_observation_sha256": "35b6ad3442e9691c5b0d26bbddd39f274193768d17fa2aff1439564d76b018b2",
+      "native_slot": 2,
+      "native_text_sha256": "bd70fcf8af4ec58c3b668a6bd199e5c643a1ea3fa4db1fc5c13c3bbb306d4395",
+      "native_type": "U",
+      "original_memory_sha256": "99752c7f3ad4eb6dbdba64cf171cecc5c087289435b187fad182cc4747fa53b0",
+      "original_target_category_preserved": true,
+      "parent_attempt_id": [
+        "successor-ca6e773b2e93f1df-2140-neutral_full",
+        2
+      ],
+      "parent_trial1_result_file_sha256": "d4ee2d539af23f96d8401c15d16f85772bf5bdac83fee811398a37a787395ff6",
+      "scene_id": "FloorPlan19",
+      "seven_history": [
+        [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "target_category_review": "Single-coder semantic review; correct target-rule text outside focal span copied exactly",
+      "task": {
+        "game_sha256": "9ace419ebb710608681d34167502e0563f8c26c494da6deb24d19ce9d731f761",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Potato-None-CounterTop-19/trial_T20190909_152050_792044/game.tw-pddl",
+        "scene_id": "FloorPlan19",
+        "split": "train",
+        "task_id": "ca6e773b2e93f1df",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "7a1352ffdefb8b3ccbde28533402d4611d48f9ab3647b562cc19ab2c5bac535a"
+      },
+      "task_id": "ca6e773b2e93f1df",
+      "variant_memory_sha256": {
+        "neutralized": "e18242cc9d2943ed639f5860550dbc6cf3ac26910fccc5fe8d360d0a90afd8ed",
+        "original": "99752c7f3ad4eb6dbdba64cf171cecc5c087289435b187fad182cc4747fa53b0",
+        "paraphrase": "838b378d13e81c6f92b2f70d4bd860e5767fe16f1b0def3c8897bd10f25c570e"
+      },
+      "variant_text_sha256": {
+        "neutralized": "b4d9c9d241e259e3804fbde7ffea8107ec34580ff633ee1c53feb0beea1c09f7",
+        "original": "bd70fcf8af4ec58c3b668a6bd199e5c643a1ea3fa4db1fc5c13c3bbb306d4395",
+        "paraphrase": "8812bc68d08ab79d08e1222718f915200bb8a213e16dd359b7156bc4961a9bfc"
+      }
+    },
+    {
+      "additional_target_advice_remains": true,
+      "edit": {
+        "end": 201,
+        "neutral_replacement": "The previous attempt involving the mug did not complete the task. I have not established a cause, and that outcome alone did not change the completion requirements that the task describes. Those heating actions remained unsuccessful.",
+        "paraphrase_replacement": "My attempt was unsuccessful because I assumed the mug needed to be heated using the microwave or stoveburner, but the task may have simply required placing the mug in the coffeemachine without heating it.",
+        "sentence_index": 0,
+        "source_span_sha256": "1371419f3c43c2f85d11997e9cd05b2ab8dd4b342c3e3a38aa133b49915b66a0",
+        "start": 6
+      },
+      "index": 35,
+      "initial_observation_sha256": "d3696c5821e546b49b30ee884bf79b1b6baf30f9cbf03e15c53b71e23e20df4e",
+      "native_slot": 2,
+      "native_text_sha256": "d6105a1fda3c5f78d12c8a31929e7ed118382bbfb452ca7925aaee646e3dce79",
+      "native_type": "U",
+      "original_memory_sha256": "7bdd7bccedbe6fdca4be58967d45b8fb8ca5c10f48e35b02852f698691f6b507",
+      "original_target_category_preserved": true,
+      "parent_attempt_id": [
+        "shared-cc65a5c3be2ea945-2112-neutral_full",
+        2
+      ],
+      "parent_trial1_result_file_sha256": "2b69af7b09c656972c74c99d16134976da939c24150d1030c7798acca94cc3a4",
+      "scene_id": "FloorPlan25",
+      "seven_history": [
+        [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "original_calibration",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "target_category_review": "Single-coder semantic review; correct target-rule text outside focal span copied exactly",
+      "task": {
+        "game_sha256": "1896eec643a6dc8f7a26ed1e31046a6792cd8015eee90521ad9d70c08e7e0c93",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-25/trial_T20190906_235756_721785/game.tw-pddl",
+        "scene_id": "FloorPlan25",
+        "split": "train",
+        "task_id": "cc65a5c3be2ea945",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "c3305d9764048caac277c617401757257508525d5bd19dc007ddb1643bbe26fd"
+      },
+      "task_id": "cc65a5c3be2ea945",
+      "variant_memory_sha256": {
+        "neutralized": "3131fe9a351aa0c2758dfa60822594cb124334f96e9bc2b9a5d2e3a2663fe2c2",
+        "original": "7bdd7bccedbe6fdca4be58967d45b8fb8ca5c10f48e35b02852f698691f6b507",
+        "paraphrase": "c2e7c27fffecd78883ea8dbcd28099f89e891a2f09b770f7dc655cf7f0a8d191"
+      },
+      "variant_text_sha256": {
+        "neutralized": "c0a3ab419449f25c1e77c84b0596c72404198a0a38cb9f66ce7f4d668b09ad65",
+        "original": "d6105a1fda3c5f78d12c8a31929e7ed118382bbfb452ca7925aaee646e3dce79",
+        "paraphrase": "06b768bbcf3748190f7ec6656ddd73d3b20bfc10060f9b6645df6b569fbc1582"
+      }
+    },
+    {
+      "additional_target_advice_remains": true,
+      "edit": {
+        "end": 596,
+        "neutral_replacement": "If the previous attempt did not complete the task, its outcome remained unsuccessful. That outcome alone did not establish a cause or a different solution for the next attempt.",
+        "paraphrase_replacement": "If all methods failed, I ought to have concluded that the task could not be completed with the available mugs and re-evaluated the environment for alternative solutions.",
+        "sentence_index": 3,
+        "source_span_sha256": "95e64017b857300eeaa9870b5a4d28d066d1d0d1f1779e9aeefac941dbb19817",
+        "start": 429
+      },
+      "index": 36,
+      "initial_observation_sha256": "ad84eed990862f9cdc263f3eacaa38b58397507462fcbcb9ff7ccc655ddab0d2",
+      "native_slot": 2,
+      "native_text_sha256": "0cfa5feb5dcfad3fcac5dad35de4fb11969a593d24ae15d8a3d90fa7affcbed0",
+      "native_type": "U",
+      "original_memory_sha256": "8b8013476d5d988ff25d5af0ff4b158365aac4829ce0486983eb3e1cc4cffdbc",
+      "original_target_category_preserved": true,
+      "parent_attempt_id": [
+        "successor-ccd9b55b1349e3e1-2141-correct_middle",
+        2
+      ],
+      "parent_trial1_result_file_sha256": "fbe3a4016699780002a76f3315318f7cb38fe5d5ca52586dfebe39c47c50237d",
+      "scene_id": "FloorPlan28",
+      "seven_history": [
+        [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "target_category_review": "Single-coder semantic review; correct target-rule text outside focal span copied exactly",
+      "task": {
+        "game_sha256": "85c20818dd1cc3132a76eeae8859535c50842741c5d1250db8533da0d1a14abf",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-28/trial_T20190908_062730_537428/game.tw-pddl",
+        "scene_id": "FloorPlan28",
+        "split": "train",
+        "task_id": "ccd9b55b1349e3e1",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "26a3d67829cea623ed8f798e12983159157940b16762f468595189db332c0302"
+      },
+      "task_id": "ccd9b55b1349e3e1",
+      "variant_memory_sha256": {
+        "neutralized": "da7e4969463585de0223e7585445e5634020d183e2fc368c473ac5e3eff83cee",
+        "original": "8b8013476d5d988ff25d5af0ff4b158365aac4829ce0486983eb3e1cc4cffdbc",
+        "paraphrase": "17787f63a21e7db8e6f685989e70505cb0eda11b1feadfbf9d7f71aae58e149f"
+      },
+      "variant_text_sha256": {
+        "neutralized": "7eb5e02f32e37ae926ec343420d5e23baf35aa1670f57234f9359b19fec5350e",
+        "original": "0cfa5feb5dcfad3fcac5dad35de4fb11969a593d24ae15d8a3d90fa7affcbed0",
+        "paraphrase": "8eadc60cfe2d9addb0df08a4b556de2973c1e054dd2535e04e6aaeae8daf88b8"
+      }
+    },
+    {
+      "additional_target_advice_remains": true,
+      "edit": {
+        "end": 238,
+        "neutral_replacement": "The earlier attempt did not complete the heating part of the task, but that outcome alone did not establish why it happened.",
+        "paraphrase_replacement": "I also did not recognize that the microwave might not be functional, and I ought to have tried using the stoveburner earlier.",
+        "sentence_index": 1,
+        "source_span_sha256": "5c910fcf5793fbb8c90de9d4e30b23d3868dcc62c21c5ca0c437c1d17151decb",
+        "start": 115
+      },
+      "index": 37,
+      "initial_observation_sha256": "a28903e72308c2d7962f2443e3620239da566401042120548885f929f7ace9bc",
+      "native_slot": 2,
+      "native_text_sha256": "1253861cec2ac04d82da6980ec9d3bdeda244a458249bc61cf3c3793356eede5",
+      "native_type": "U",
+      "original_memory_sha256": "278de4b93d4a8207e86c8c71c210b6f0bb7588ca9e291e08ae1d013a9b8621ca",
+      "original_target_category_preserved": true,
+      "parent_attempt_id": [
+        "shared-cffcb3e0a9e707e7-2114-correct_latest",
+        2
+      ],
+      "parent_trial1_result_file_sha256": "a8adfc6945d325b03a351497e9139373525f7a7734785c41e40d4b53d8891350",
+      "scene_id": "FloorPlan15",
+      "seven_history": [
+        [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.3333333333333333,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "original_calibration",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "target_category_review": "Single-coder semantic review; correct target-rule text outside focal span copied exactly",
+      "task": {
+        "game_sha256": "86d3f8cae946531b966876da25574d6546ab0cb3cc00761a3940243711ea0864",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Bread-None-DiningTable-15/trial_T20190907_030851_016828/game.tw-pddl",
+        "scene_id": "FloorPlan15",
+        "split": "train",
+        "task_id": "cffcb3e0a9e707e7",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "a131d67e890e5bf32a6331a8f8c684031ddbc3701e2214b4c0f35e4b780a269a"
+      },
+      "task_id": "cffcb3e0a9e707e7",
+      "variant_memory_sha256": {
+        "neutralized": "c19fd73b95942ee52f1207ac658ebbacc1f1eb46135b486268b1c236b2f963b4",
+        "original": "278de4b93d4a8207e86c8c71c210b6f0bb7588ca9e291e08ae1d013a9b8621ca",
+        "paraphrase": "fb56d3a8d8665946332979f990d9781dc97b22b6d89efb7019b3cae7165a484b"
+      },
+      "variant_text_sha256": {
+        "neutralized": "9897efeadb13cc15fb225b8040694353ae1de78098def13facf07e92fbbd76b6",
+        "original": "1253861cec2ac04d82da6980ec9d3bdeda244a458249bc61cf3c3793356eede5",
+        "paraphrase": "3720e38e48d927b039acd03f0fbefcc388b14bedbbb88d03812dfb8eac5a9cfd"
+      }
+    },
+    {
+      "additional_target_advice_remains": true,
+      "edit": {
+        "end": 694,
+        "neutral_replacement": "The earlier attempt involving the apple did not complete the task, but that outcome alone did not change the completion requirements described by the task.",
+        "paraphrase_replacement": "I intend to now attempt to place the apple in the sidetable directly, without attempting to heat it, as the task might not require heating.",
+        "sentence_index": 4,
+        "source_span_sha256": "c2409f23e798e5b7c4354899e3a32847cae113f184a3e76bee63f719a093748b",
+        "start": 560
+      },
+      "index": 38,
+      "initial_observation_sha256": "137f026693cc96c851f6d2d3c617ddab6d55bf52788208b108f942e3f3ad0af1",
+      "native_slot": 2,
+      "native_text_sha256": "aba943391ea2d6000cd921248159b26197e92ba91934402ceed1b2ad8e017616",
+      "native_type": "U",
+      "original_memory_sha256": "2874fb1f427cff9c2cc74e3e0fc0a78d5db4abdb739abcfc0bda0ee9ea5d2475",
+      "original_target_category_preserved": true,
+      "parent_attempt_id": [
+        "shared-d327a5b6831def66-2114-correct_latest",
+        2
+      ],
+      "parent_trial1_result_file_sha256": "05de3680c6d733f79fabd14e3f9393ac317e4397644077d66a708e0570c98929",
+      "scene_id": "FloorPlan21",
+      "seven_history": [
+        [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.3333333333333333,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "original_calibration",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "target_category_review": "Single-coder semantic review; correct target-rule text outside focal span copied exactly",
+      "task": {
+        "game_sha256": "b076ffe3726601f69e3e16ecf01a7d2f60f528b5df1e23b5e08c8148575b9a64",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Apple-None-SideTable-21/trial_T20190908_235409_008266/game.tw-pddl",
+        "scene_id": "FloorPlan21",
+        "split": "train",
+        "task_id": "d327a5b6831def66",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "562d9defc1b52a658f7df4a4f9d547ed81ed3d89ee91c3acfcfe7bc2610e909b"
+      },
+      "task_id": "d327a5b6831def66",
+      "variant_memory_sha256": {
+        "neutralized": "0b13779937ae64486728930b93d64c5b9d360c875d993c9d05c8f4da1a265c1d",
+        "original": "2874fb1f427cff9c2cc74e3e0fc0a78d5db4abdb739abcfc0bda0ee9ea5d2475",
+        "paraphrase": "b078b8771c53f45276ba6e513226ca0c64b905b0698c71c2fc7da454f17de47f"
+      },
+      "variant_text_sha256": {
+        "neutralized": "cc478fc677eb459e7195d840266a5f0088ce7d1670d5b05a5681f60af5894d47",
+        "original": "aba943391ea2d6000cd921248159b26197e92ba91934402ceed1b2ad8e017616",
+        "paraphrase": "2a61421350fdc6f6891bd6e2d4c008a4887be49413cb8e32883d91368ed6ecbf"
+      }
+    },
+    {
+      "additional_target_advice_remains": true,
+      "edit": {
+        "end": 687,
+        "neutral_replacement": "The previous attempt did not complete the heating part of the task. I have not established a replacement procedure from that outcome. I remain uncertain.",
+        "paraphrase_replacement": "I intend to avoid using the microwave and focus on using the stoveburner with a pan as the correct method to heat the egg.",
+        "sentence_index": 4,
+        "source_span_sha256": "86664b157215dfdc3b91128b28eed94060a4d67b81c9e26a724c938a8576be18",
+        "start": 570
+      },
+      "index": 39,
+      "initial_observation_sha256": "e65e75e51c137d555e59d1e0e6c2131f799927799b038c035a102f3ec79f0bf5",
+      "native_slot": 2,
+      "native_text_sha256": "19ec724e77a37c92b052e33a465b2fe9264a48924900bb1a8ce4af4d4e6e2ad6",
+      "native_type": "U",
+      "original_memory_sha256": "4c7636d7d5092dd35583c6ce40804b9b2410a5df4867de14a680092c6e825697",
+      "original_target_category_preserved": true,
+      "parent_attempt_id": [
+        "successor-d81ea4659702239a-2141-neutral_full",
+        2
+      ],
+      "parent_trial1_result_file_sha256": "d03d40a1a3315fc44a82c82063a43a52e3b5ceec3215cdaebd4f6e874aaccbb5",
+      "scene_id": "FloorPlan1",
+      "seven_history": [
+        [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "target_category_review": "Single-coder semantic review; correct target-rule text outside focal span copied exactly",
+      "task": {
+        "game_sha256": "278062830a8a3bfd780c2f70f09905a8a5695572f8c7be8495fdf86f8dcdb9ea",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Egg-None-GarbageCan-1/trial_T20190908_132828_295041/game.tw-pddl",
+        "scene_id": "FloorPlan1",
+        "split": "train",
+        "task_id": "d81ea4659702239a",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "ba883744ca7b42eba76ac09a1f4929ac386a7a578f3326f976a10eaff5932dfb"
+      },
+      "task_id": "d81ea4659702239a",
+      "variant_memory_sha256": {
+        "neutralized": "232f70bc3fe0dbb3e637e24cc606997190b0df7d307fe80c0a71c372f60554a0",
+        "original": "4c7636d7d5092dd35583c6ce40804b9b2410a5df4867de14a680092c6e825697",
+        "paraphrase": "89573592081030043bd804a968b267ef28e878d57a0309771d2e5c4d74639e76"
+      },
+      "variant_text_sha256": {
+        "neutralized": "b487c7dfc7f131d4ab97a9b7dab1f64ab17e81440bbb9f92c0da851afae55526",
+        "original": "19ec724e77a37c92b052e33a465b2fe9264a48924900bb1a8ce4af4d4e6e2ad6",
+        "paraphrase": "327209273e3cd35dee3e5a05ca179cc94ddc121b011d87f8b6a9c6f9b6b839ae"
+      }
+    },
+    {
+      "additional_target_advice_remains": true,
+      "edit": {
+        "end": 483,
+        "neutral_replacement": "The earlier heating attempt involving the mug was unsuccessful.",
+        "paraphrase_replacement": "I intend to avoid using the microwave for heating the mug.",
+        "sentence_index": 4,
+        "source_span_sha256": "5fa4081e36814717cd36c91ec21c75bbbd90a241e7b6644a8619e90b5d0ad7fd",
+        "start": 430
+      },
+      "index": 40,
+      "initial_observation_sha256": "8abc5e5a95ecc9c89ff356302929061af6f4784db91b7d82b0f901322006c17f",
+      "native_slot": 2,
+      "native_text_sha256": "96c67a48f3ffac3614acd5ff3137a0e702185f843654d86c55ae48078d3b8468",
+      "native_type": "U",
+      "original_memory_sha256": "b24e699f0f24e5f78e301741df2a71f6878ad01582b148edfff2fb10432371e3",
+      "original_target_category_preserved": true,
+      "parent_attempt_id": [
+        "successor-de311a7af4272464-2141-neutral_full",
+        2
+      ],
+      "parent_trial1_result_file_sha256": "bd080e0891f4c3b3e936a461d09927be8a720a91faa005a6bf77d565401a7e8e",
+      "scene_id": "FloorPlan5",
+      "seven_history": [
+        [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "target_category_review": "Single-coder semantic review; correct target-rule text outside focal span copied exactly",
+      "task": {
+        "game_sha256": "369ac860856a3102ee6a7995d1317c60f409550bb2cf695ad29909cc11854bf5",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Mug-None-Shelf-5/trial_T20190906_203744_920699/game.tw-pddl",
+        "scene_id": "FloorPlan5",
+        "split": "train",
+        "task_id": "de311a7af4272464",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "0754682d09eda0d49af898836deb8e96d064e75bfe69f6cd5de6ef5348e347a6"
+      },
+      "task_id": "de311a7af4272464",
+      "variant_memory_sha256": {
+        "neutralized": "eef1b3d2d8b179609d66b28826f56fd238ec6d57811802012cc682acb0fd4e00",
+        "original": "b24e699f0f24e5f78e301741df2a71f6878ad01582b148edfff2fb10432371e3",
+        "paraphrase": "f48c7c54b6a6f3c6725aecebab74480703be927c4522ad1c1618b60aa56de3fe"
+      },
+      "variant_text_sha256": {
+        "neutralized": "a8feeb3250fefee408ba20d50491269a24900adcc3403c2a7d15f71ddfd19778",
+        "original": "96c67a48f3ffac3614acd5ff3137a0e702185f843654d86c55ae48078d3b8468",
+        "paraphrase": "a008ad124efc0f60319ef184fafb7e1c70ea5d6591c8d5b5e005988dd41d4213"
+      }
+    },
+    {
+      "additional_target_advice_remains": false,
+      "edit": {
+        "end": 375,
+        "neutral_replacement": "and noted that the earlier attempt did not establish a different heating procedure or its prerequisites.",
+        "paraphrase_replacement": "and tried alternative methods such as the stoveburner or toaster if the microwave failed to work.",
+        "sentence_index": 2,
+        "source_span_sha256": "e9474941cf8f51edca1656647cae36a5566ed4882b56f0959bc0c66f3c496948",
+        "start": 283
+      },
+      "index": 41,
+      "initial_observation_sha256": "a2bc0bb866ea616b879d1ad74e7ba5cb9c8916c2a79c6676e44e40b7e13fbfb9",
+      "native_slot": 2,
+      "native_text_sha256": "27fc3be614f5d656c7552303ee0f75af474a58031a6b214b17434adde499e3eb",
+      "native_type": "C",
+      "original_memory_sha256": "64b73d573f1a4ab0b73a28c6a7a39d5cd155c0196abf7423c4bdf9e18f505906",
+      "original_target_category_preserved": true,
+      "parent_attempt_id": [
+        "successor-ecb9c1d65157ef70-2141-correct_middle",
+        2
+      ],
+      "parent_trial1_result_file_sha256": "ab780edf9d86f42208d1f8a7b61731721e4b805f5921b3c502fb94c185663d24",
+      "scene_id": "FloorPlan24",
+      "seven_history": [
+        [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "C"
+        }
+      ],
+      "target_category_review": "Single-coder semantic review; correct target-rule text outside focal span copied exactly",
+      "task": {
+        "game_sha256": "fca0ccaf104dce0a692938602258b302a71c9756a8951321cc1f3b391828e4cd",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Apple-None-DiningTable-24/trial_T20190908_233423_925879/game.tw-pddl",
+        "scene_id": "FloorPlan24",
+        "split": "train",
+        "task_id": "ecb9c1d65157ef70",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "f22a228dcec446bef50afd57c8d9101b00040e33ee4d91af07bc4df6ebfe26ad"
+      },
+      "task_id": "ecb9c1d65157ef70",
+      "variant_memory_sha256": {
+        "neutralized": "2922f3cd544df5fcea4e9a98213ffe06b7d821182ab79a1ad130992403fc0b4a",
+        "original": "64b73d573f1a4ab0b73a28c6a7a39d5cd155c0196abf7423c4bdf9e18f505906",
+        "paraphrase": "d0e0abc0439a77eb718b8c6190891c2f16674c00a2441edffab0e25a8c77819a"
+      },
+      "variant_text_sha256": {
+        "neutralized": "cb81967f5a78b622d44151e623e3eeee6355afbcea429f4e2b3379d5c08b2b90",
+        "original": "27fc3be614f5d656c7552303ee0f75af474a58031a6b214b17434adde499e3eb",
+        "paraphrase": "b220e74f42c660513df43225db8f4f903dd627f4ac08e24d79beeac6cdc576b7"
+      }
+    },
+    {
+      "additional_target_advice_remains": true,
+      "edit": {
+        "end": 374,
+        "neutral_replacement": "The previous attempt did not complete the task, but that outcome alone did not establish another heating procedure. That attempt remained unsuccessful.",
+        "paraphrase_replacement": "If the system is unresponsive, I ought to have tried a different heating method, such as using the stoveburner.",
+        "sentence_index": 3,
+        "source_span_sha256": "0d2e5fcb4512adf0e3e6fc8b210d209b944cc5c39a8f2f2457c3f68d20aed8f3",
+        "start": 265
+      },
+      "index": 42,
+      "initial_observation_sha256": "ef1ee5e6b8978c67946141dc4186d4fd72891142ccaebf08be00fa7b9df25d85",
+      "native_slot": 2,
+      "native_text_sha256": "af4c01438c6e83bc79a1eef7b6cddb5dfd0fd2a7d34b38ace623065d78ef9a30",
+      "native_type": "C",
+      "original_memory_sha256": "3b61d7df99bfe3f49aaaba6fad279190e38b76f218f8e5f3edebc0f46a575828",
+      "original_target_category_preserved": true,
+      "parent_attempt_id": [
+        "successor-ed50cbdfb5d81244-2141-correct_middle",
+        2
+      ],
+      "parent_trial1_result_file_sha256": "72d3100fee9c450abf3a247ab3b57d480ba84356051f771f45f34e6613542e86",
+      "scene_id": "FloorPlan27",
+      "seven_history": [
+        [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "C"
+        }
+      ],
+      "target_category_review": "Single-coder semantic review; correct target-rule text outside focal span copied exactly",
+      "task": {
+        "game_sha256": "50d8812dfd53c719b4e2ea31fec757a678795ee050cad37c798df1b7560504d4",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Egg-None-Fridge-27/trial_T20190908_022126_569971/game.tw-pddl",
+        "scene_id": "FloorPlan27",
+        "split": "train",
+        "task_id": "ed50cbdfb5d81244",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "987e783999d351f629efbb93a3cb3b5d4b93e61626ea085e3fe5b6683a0638ef"
+      },
+      "task_id": "ed50cbdfb5d81244",
+      "variant_memory_sha256": {
+        "neutralized": "95fda04d6e48c27bd5bd8a19c416dd29d6ff5091eda64944479d35bce77c9af1",
+        "original": "3b61d7df99bfe3f49aaaba6fad279190e38b76f218f8e5f3edebc0f46a575828",
+        "paraphrase": "5214e508cc52c69a2f1c341c75aac061391d78e436889c968758ad07d82d217e"
+      },
+      "variant_text_sha256": {
+        "neutralized": "57bc7bf46c878c9f6ace81df901cacb6b99658813a4c77c42062e2b7f8f0d39b",
+        "original": "af4c01438c6e83bc79a1eef7b6cddb5dfd0fd2a7d34b38ace623065d78ef9a30",
+        "paraphrase": "4370aa70799c6391c596f839815eb52184f1d49625735ba4fbba5813e3e102ee"
+      }
+    },
+    {
+      "additional_target_advice_remains": true,
+      "edit": {
+        "end": 374,
+        "neutral_replacement": "The previous heating actions involving the egg did not complete the task. I have not established an alternative procedure for another attempt from that outcome.",
+        "paraphrase_replacement": "If the microwave was not functional, I ought to have tried using the stoveburner by placing the egg in a pan and turning it on.",
+        "sentence_index": 2,
+        "source_span_sha256": "390e402d0c9ff30fa29e295f1443935023afbfb27ca739f5ad717abad9b375ca",
+        "start": 249
+      },
+      "index": 43,
+      "initial_observation_sha256": "ef1ee5e6b8978c67946141dc4186d4fd72891142ccaebf08be00fa7b9df25d85",
+      "native_slot": 2,
+      "native_text_sha256": "260f466d2b1b8039ff1dbf32479fd613e1950097a7c3770a7315ed9f12faa9c0",
+      "native_type": "U",
+      "original_memory_sha256": "f8f9b4922ec3ad23e2202d40086363d00a4cd8f2b7fa294ae9c9d5a338ca0b55",
+      "original_target_category_preserved": true,
+      "parent_attempt_id": [
+        "successor-f04585fcfbcaf81a-2141-neutral_full",
+        2
+      ],
+      "parent_trial1_result_file_sha256": "8ed15df7108d19b643151962db558dc202202b35dd2bb218f28d471c15841617",
+      "scene_id": "FloorPlan27",
+      "seven_history": [
+        [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "target_category_review": "Single-coder semantic review; correct target-rule text outside focal span copied exactly",
+      "task": {
+        "game_sha256": "bcf5e65295fc600495b067455ed802bcda53698a1fc164a031db29baf4fcd937",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Egg-None-Fridge-27/trial_T20190908_022308_588624/game.tw-pddl",
+        "scene_id": "FloorPlan27",
+        "split": "train",
+        "task_id": "f04585fcfbcaf81a",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "a4a6370c5f309257c3229de48c69e63b2af51f92f4fe5657750d9aa90efc6f7e"
+      },
+      "task_id": "f04585fcfbcaf81a",
+      "variant_memory_sha256": {
+        "neutralized": "4db836a0bf6d20b29cea43a5b46d50b2bf1562d7e992055bf668076d7df71697",
+        "original": "f8f9b4922ec3ad23e2202d40086363d00a4cd8f2b7fa294ae9c9d5a338ca0b55",
+        "paraphrase": "8648798a3c79b0b7bea7a9805918716fbc152b0b7142caacb411582dea623bda"
+      },
+      "variant_text_sha256": {
+        "neutralized": "ef51f05d1f8dd00f1658e105b563279ad65687ce2bc90580041adaab97bf096d",
+        "original": "260f466d2b1b8039ff1dbf32479fd613e1950097a7c3770a7315ed9f12faa9c0",
+        "paraphrase": "f03ddd166db747a53429ff1795149632ee026a121018559a74bf210b20bab069"
+      }
+    },
+    {
+      "additional_target_advice_remains": true,
+      "edit": {
+        "end": 294,
+        "neutral_replacement": "That unsuccessful outcome alone did not establish a replacement heating procedure. Those heating actions remained unsuccessful.",
+        "paraphrase_replacement": "If it is not, I ought to have tried heating it using the stoveburner.",
+        "sentence_index": 2,
+        "source_span_sha256": "5ac0149eb9500c83ed4421b4d7ce9b74e89dda8fe87b29cee7e5d6843fac1be7",
+        "start": 227
+      },
+      "index": 44,
+      "initial_observation_sha256": "d5b4ab2b33c2f2d9bfd13af799751edbc599e9435966ff63f204a71c22118996",
+      "native_slot": 2,
+      "native_text_sha256": "3b75f8416503150f9b119f12f6202498f6cbc796ccab454c4a4bad5f297e6400",
+      "native_type": "U",
+      "original_memory_sha256": "45e3bf51ca1abe53c2b518646cf40d91ff5283cc5224bdddb1ffced1896d0ac6",
+      "original_target_category_preserved": true,
+      "parent_attempt_id": [
+        "shared-f4952ddb098787de-2114-correct_latest",
+        2
+      ],
+      "parent_trial1_result_file_sha256": "7f31e924faed6b6cc2dfbec9e0b4a22c8c3c937ebd86bdb0d0eae612fc12724b",
+      "scene_id": "FloorPlan3",
+      "seven_history": [
+        [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.3333333333333333,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "original_calibration",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "target_category_review": "Single-coder semantic review; correct target-rule text outside focal span copied exactly",
+      "task": {
+        "game_sha256": "0bdeff4cf04b83a02c13c79e4df116e289e2908cccce6694e4abb87d2ce13493",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Cup-None-Cabinet-3/trial_T20190908_233045_285903/game.tw-pddl",
+        "scene_id": "FloorPlan3",
+        "split": "train",
+        "task_id": "f4952ddb098787de",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "08d202358d8172d115295b185bb70a15ea60c7511a0247db42a9f7f581ce336e"
+      },
+      "task_id": "f4952ddb098787de",
+      "variant_memory_sha256": {
+        "neutralized": "de9b485aecdb174bfaa9fab72abc589428be4330cb36dfd83e4f46c94ee51eb6",
+        "original": "45e3bf51ca1abe53c2b518646cf40d91ff5283cc5224bdddb1ffced1896d0ac6",
+        "paraphrase": "704c3e53f912f94df25b923b1a03254ee5d1657206277b46d47bcabbffd929c7"
+      },
+      "variant_text_sha256": {
+        "neutralized": "89edf50cf577b781f6899ff018f6d724d928e85d164bef882d756ccf66453ad3",
+        "original": "3b75f8416503150f9b119f12f6202498f6cbc796ccab454c4a4bad5f297e6400",
+        "paraphrase": "963f5514adb2b7fd7979f75e9fc8b5128efe2fb38e4edb7841f5b581d17e300d"
+      }
+    },
+    {
+      "additional_target_advice_remains": true,
+      "edit": {
+        "end": 573,
+        "neutral_replacement": "That unsuccessful attempt alone did not establish another procedure.",
+        "paraphrase_replacement": "If that fails, I intend to try the toaster.",
+        "sentence_index": 4,
+        "source_span_sha256": "b5051471885519f7f91ab44c6cca4c9fb5f9680ec2f03b5707732c76e4036ba4",
+        "start": 535
+      },
+      "index": 45,
+      "initial_observation_sha256": "9fb572f54f5eacfa5e10ac2f2d20a8dff9a8e3e55c56325829b99bbd772129d6",
+      "native_slot": 2,
+      "native_text_sha256": "4faae0a3af57621eea53a11f8f621bd7b10c7d12834c0809df8195b24217dc6b",
+      "native_type": "U",
+      "original_memory_sha256": "ba0ccf0cb37687931c7dcd1b2d80cc5e4e5f3c102f8b03ab33ed4ec834b77579",
+      "original_target_category_preserved": true,
+      "parent_attempt_id": [
+        "successor-fae67e6754593b0a-2141-correct_middle",
+        2
+      ],
+      "parent_trial1_result_file_sha256": "2f1abf6b3802d7773d9ed3f8483cead7e695b4f6e2bb72124ffe5f52e367b5d9",
+      "scene_id": "FloorPlan25",
+      "seven_history": [
+        [
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "C"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "U"
+        }
+      ],
+      "target_category_review": "Single-coder semantic review; correct target-rule text outside focal span copied exactly",
+      "task": {
+        "game_sha256": "a0b1626b9e16758283efa16411ada93aebb011b8ab3b5dec3de8daf8a64e2fe7",
+        "gamefile": "json_2.1.1/train/pick_heat_then_place_in_recep-Tomato-None-Fridge-25/trial_T20190909_103031_754410/game.tw-pddl",
+        "scene_id": "FloorPlan25",
+        "split": "train",
+        "task_id": "fae67e6754593b0a",
+        "task_type": "pick_heat_then_place_in_recep",
+        "trajectory_sha256": "62f7508b462e6f967e8d7b2c4e2098e23ab831fe205e95a7f5fa338fcf031c74"
+      },
+      "task_id": "fae67e6754593b0a",
+      "variant_memory_sha256": {
+        "neutralized": "84d0bc44a3214d86ee00735da0d8f9867d3461b67d4083e5d902b4c177e98d09",
+        "original": "ba0ccf0cb37687931c7dcd1b2d80cc5e4e5f3c102f8b03ab33ed4ec834b77579",
+        "paraphrase": "86fdb0d0f723d57143fe2f1c8a690b5ad227eb997ebb7c6cafb5cd803ab9c33a"
+      },
+      "variant_text_sha256": {
+        "neutralized": "ec90b57bd3d33d7672d42995ab7bc25eb7a9117abc8d140b5cf9e8157923c117",
+        "original": "4faae0a3af57621eea53a11f8f621bd7b10c7d12834c0809df8195b24217dc6b",
+        "paraphrase": "f11ff9287b8a24a8dec0c4a7007203551908e624e9030ba4661bb2d53274db36"
+      }
+    }
+  ],
+  "invariance": "Same memory entry/slot/native flags, original target category and complete seven-feature history",
+  "manifest_sha256": "a439a3b10afa6b197c5789c43367380f170b6039a1a4f91cd09ad8758cba92d1",
+  "manual_edits_sha256": "7444325d5ccc719178d075e9a44a9feb0337acf6e2cf2d5ac9b495a53b9d75db",
+  "new_model_calls": 0,
+  "parameter_fits": 0,
+  "paraphrase_rule": "Equivalent first-person/modal wording at the same focal span, retaining its recommendation; not exact edit-distance matching",
+  "preparation_source_sha256": "78da52bf8931adf947fa317af7eeb8741712bbf6691e6705f70aa469dd96028b",
+  "private_variants_sha256": "ad63ff79eaebacd2953997b6ae9194fea0f51d1681769a92653037066cf8806d",
+  "scope": "One separable local advice clause per reflection; other sentences remain intact",
+  "seeds": [
+    2180,
+    2181
+  ],
+  "sha256": "fc9cbb37e97987ce5affea06caa70e39d6574b5b916801fcc00e7ad41a7806f6"
+}

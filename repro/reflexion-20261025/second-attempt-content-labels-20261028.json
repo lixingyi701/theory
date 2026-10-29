@@ -1,0 +1,5546 @@
+{
+  "annotation": "Codex full-text read and single-coder self-review before current-trace aggregation; earlier aggregate outcomes known",
+  "decisions_file_sha256": "83c46577d67942653b5bb72ff68686c8e37dacbd9d08056ca74608c8e5cc2750",
+  "entries": [
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          190,
+          237
+        ],
+        "command_format": [
+          716,
+          758
+        ],
+        "location_search": [
+          37,
+          79
+        ],
+        "operational_state": [
+          301,
+          346
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "command_format",
+        "alternative_heating"
+      ],
+      "index": 0,
+      "original_target_rule_categories": [
+        "B"
+      ],
+      "reflection_sha256": "006c77ad7565dbf244bb471d8e2703626692e5a85a2fa52e0c568e9b1177aebf"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          66,
+          113
+        ],
+        "command_format": [
+          585,
+          627
+        ],
+        "location_search": [
+          122,
+          168
+        ],
+        "operational_state": [
+          356,
+          401
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "command_format",
+        "alternative_heating"
+      ],
+      "index": 1,
+      "original_target_rule_categories": [
+        "B"
+      ],
+      "reflection_sha256": "0244612b16b490dbaa208383800e3149caa8bfb6b759588dd3f529840e43eff8"
+    },
+    {
+      "evidence_spans": {
+        "location_search": [
+          133,
+          178
+        ]
+      },
+      "flags": [
+        "location_search"
+      ],
+      "index": 2,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "024e5046443d7c58c53835d618503878dcef70510c32f30630596ae377b89912"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          94,
+          142
+        ],
+        "environment_speculation": [
+          116,
+          163
+        ],
+        "operational_state": [
+          203,
+          243
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 3,
+      "original_target_rule_categories": [
+        "A"
+      ],
+      "reflection_sha256": "028de3c6904dfe127e1ad772a954e3fba20ca52aa25276622ff27b758bdada11"
+    },
+    {
+      "evidence_spans": {
+        "location_search": [
+          39,
+          81
+        ]
+      },
+      "flags": [
+        "location_search"
+      ],
+      "index": 4,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "02be9f7db2410688c3b885e93b5f34f9ebc31cef114e45d1293a67ad9edbc52b"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          186,
+          233
+        ],
+        "environment_speculation": [
+          426,
+          472
+        ],
+        "operational_state": [
+          15,
+          55
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 5,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "03438d7558933e167ff7bcd3ca3ffff1a976a4564d0adccd0bacae45d540e003"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          202,
+          249
+        ],
+        "operational_state": [
+          15,
+          55
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 6,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "04576184d4fdc61f0b399514c1a467bd3e80812ad848b40c1f1f7e3a97877c57"
+    },
+    {
+      "evidence_spans": {
+        "location_search": [
+          305,
+          350
+        ]
+      },
+      "flags": [
+        "location_search"
+      ],
+      "index": 7,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "0475e2550058d1652e22485d1e37994d4acb0818bbab693abea282ebf22899e6"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          450,
+          497
+        ],
+        "location_search": [
+          656,
+          701
+        ],
+        "operational_state": [
+          26,
+          71
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 8,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "07a907abf6ef97e772d3ff96f0a1983a544c6625d3df7b58738505ace65d01b0"
+    },
+    {
+      "evidence_spans": {
+        "location_search": [
+          10,
+          52
+        ]
+      },
+      "flags": [
+        "location_search"
+      ],
+      "index": 9,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "0b5f4c338c9c2937e486674f680622a92e6701881a446cf3c52a665d45f8f9a1"
+    },
+    {
+      "evidence_spans": {
+        "operational_state": [
+          344,
+          389
+        ]
+      },
+      "flags": [
+        "operational_state"
+      ],
+      "index": 10,
+      "original_target_rule_categories": [
+        "A"
+      ],
+      "reflection_sha256": "0b745cb4fd6d635cdcd3065e202c34217b6d0f40ea32f296e3b62ebd93f2accb"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          84,
+          131
+        ],
+        "environment_speculation": [
+          253,
+          300
+        ],
+        "operational_state": [
+          117,
+          159
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 11,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "0c9ac2b6200195d517c4f0de31bcbcb8ba1f05df3d9fb697ea3db016eb8b9814"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          202,
+          249
+        ],
+        "location_search": [
+          89,
+          133
+        ],
+        "operational_state": [
+          19,
+          59
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 12,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "0cc2208630f1108ffff0d7a095a362d643d7060ed77bfd61e443ae217f3f79a4"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          106,
+          153
+        ],
+        "environment_speculation": [
+          77,
+          121
+        ],
+        "operational_state": [
+          192,
+          234
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 13,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "0cfa5feb5dcfad3fcac5dad35de4fb11969a593d24ae15d8a3d90fa7affcbed0"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          55,
+          103
+        ],
+        "environment_speculation": [
+          166,
+          210
+        ],
+        "operational_state": [
+          484,
+          529
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 14,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "0e5c9b4edb4873f0367741f27166e392f367e9f180e083f27b266a21e9afb979"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          162,
+          209
+        ],
+        "location_search": [
+          80,
+          124
+        ],
+        "operational_state": [
+          234,
+          279
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 15,
+      "original_target_rule_categories": [
+        "B"
+      ],
+      "reflection_sha256": "0f182d1663f06066d14b6da70d2e42252c45704bd3bcfb3e92b4a0dc49814c65"
+    },
+    {
+      "evidence_spans": {
+        "environment_speculation": [
+          107,
+          154
+        ],
+        "location_search": [
+          38,
+          83
+        ]
+      },
+      "flags": [
+        "location_search",
+        "environment_speculation"
+      ],
+      "index": 16,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "103f05ab1805ceeb8f2d779da20e35a4ac6278deb39f3eff70f4e25a7275085a"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          60,
+          108
+        ],
+        "environment_speculation": [
+          364,
+          412
+        ],
+        "location_search": [
+          487,
+          532
+        ],
+        "operational_state": [
+          10,
+          50
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 17,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "1173f946e5810076a0ada48584650310ae46cf47fab0df35c498676cf659a342"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          26,
+          69
+        ],
+        "environment_speculation": [
+          160,
+          206
+        ],
+        "location_search": [
+          92,
+          137
+        ],
+        "operational_state": [
+          304,
+          344
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 18,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "1253861cec2ac04d82da6980ec9d3bdeda244a458249bc61cf3c3793356eede5"
+    },
+    {
+      "evidence_spans": {
+        "command_format": [
+          446,
+          488
+        ],
+        "location_search": [
+          98,
+          142
+        ],
+        "operational_state": [
+          162,
+          207
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "command_format"
+      ],
+      "index": 19,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "14a1bf29cfe5788792211ad7a2c86b5e7973aacce36c1b8edf1cef9536d6580f"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          82,
+          129
+        ],
+        "environment_speculation": [
+          338,
+          385
+        ],
+        "operational_state": [
+          144,
+          184
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 20,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "17e7fde426135cb71dcaea617af6dabacc8f4f7fbbea376b79afd1d5d48aa17f"
+    },
+    {
+      "evidence_spans": {
+        "command_format": [
+          82,
+          127
+        ],
+        "operational_state": [
+          34,
+          77
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "command_format"
+      ],
+      "index": 21,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "17f1e8e4cb63307dca354ce381ce1b54de90964ada3f3976521e91c8668675fb"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          61,
+          109
+        ],
+        "environment_speculation": [
+          325,
+          371
+        ],
+        "operational_state": [
+          115,
+          160
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 22,
+      "original_target_rule_categories": [
+        "C"
+      ],
+      "reflection_sha256": "1897cb5042002498250b0cd17fa93665ec7bea91100174c61b7ab6fcfc488587"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          61,
+          109
+        ],
+        "environment_speculation": [
+          248,
+          291
+        ],
+        "operational_state": [
+          6,
+          46
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 23,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "1920f3cc767b241ad8f39fc6b0b875f3645c53b0ac33c4b36728967a02f65774"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          284,
+          331
+        ],
+        "location_search": [
+          175,
+          217
+        ],
+        "operational_state": [
+          129,
+          169
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 24,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "19ec724e77a37c92b052e33a465b2fe9264a48924900bb1a8ce4af4d4e6e2ad6"
+    },
+    {
+      "evidence_spans": {
+        "location_search": [
+          234,
+          281
+        ],
+        "operational_state": [
+          150,
+          195
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state"
+      ],
+      "index": 25,
+      "original_target_rule_categories": [
+        "C"
+      ],
+      "reflection_sha256": "1a26485da3201193721d2c294cc267705a0c66713e07b1697c1c86d9a9cbdc64"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          83,
+          130
+        ],
+        "command_format": [
+          583,
+          625
+        ],
+        "operational_state": [
+          369,
+          414
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "command_format",
+        "alternative_heating"
+      ],
+      "index": 26,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "1bc257e34160155f70b94cf902228da4253597bbf7402b27f54198ea5fa9a703"
+    },
+    {
+      "evidence_spans": {
+        "operational_state": [
+          291,
+          336
+        ]
+      },
+      "flags": [
+        "operational_state"
+      ],
+      "index": 27,
+      "original_target_rule_categories": [
+        "B"
+      ],
+      "reflection_sha256": "1bf9493ad80d1b623c67c4c5c329716c6e91bd9b732eb72caf20edc915b4f91b"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          80,
+          127
+        ],
+        "operational_state": [
+          163,
+          208
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 28,
+      "original_target_rule_categories": [
+        "A"
+      ],
+      "reflection_sha256": "1cf1886022d2ffeea7fdefae963b5c25a124d9048c7059d36f7861947647fc1f"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          82,
+          129
+        ],
+        "environment_speculation": [
+          144,
+          190
+        ],
+        "operational_state": [
+          380,
+          425
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 29,
+      "original_target_rule_categories": [
+        "C"
+      ],
+      "reflection_sha256": "1d02063ddf6c3ffc2052e705a86ec517d9257f375350f5bba3da5ab290fa015d"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          285,
+          332
+        ],
+        "command_format": [
+          393,
+          435
+        ],
+        "location_search": [
+          156,
+          198
+        ],
+        "operational_state": [
+          169,
+          211
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "command_format",
+        "alternative_heating"
+      ],
+      "index": 30,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "1d2636691c240c615f70d5c3c899e3ee2e076caea2dd04337c24df03e6bb5801"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          408,
+          455
+        ],
+        "environment_speculation": [
+          90,
+          137
+        ],
+        "operational_state": [
+          475,
+          520
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 31,
+      "original_target_rule_categories": [
+        "A"
+      ],
+      "reflection_sha256": "1e8432e6f62e7858d918e57b709e306eb1a3c0680abba6b77fb5098c62366efa"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          199,
+          246
+        ],
+        "location_search": [
+          37,
+          79
+        ],
+        "operational_state": [
+          310,
+          355
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 32,
+      "original_target_rule_categories": [
+        "B"
+      ],
+      "reflection_sha256": "1f8a5cc9971e8ef0dc04108b9af581f33cec8407b0d7754fbbb428d214f5e7a3"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          320,
+          365
+        ],
+        "environment_speculation": [
+          85,
+          132
+        ],
+        "operational_state": [
+          19,
+          59
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 33,
+      "original_target_rule_categories": [
+        "A"
+      ],
+      "reflection_sha256": "1f94d2a82610e8c3eef8d28273ef7208ee5e9a0175f536f10e13497b265ade4a"
+    },
+    {
+      "evidence_spans": {
+        "command_format": [
+          306,
+          348
+        ],
+        "location_search": [
+          30,
+          73
+        ]
+      },
+      "flags": [
+        "location_search",
+        "command_format"
+      ],
+      "index": 34,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "214a566df04930216cc10f6b363335be2f5529dd834a90b13c90b95a32e0a60c"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          77,
+          124
+        ],
+        "environment_speculation": [
+          187,
+          231
+        ],
+        "operational_state": [
+          36,
+          76
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 35,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "2437358f6c5963fa28c08d0c3503642a132b6874d595943b3c19ed992e37d76c"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          562,
+          609
+        ],
+        "location_search": [
+          207,
+          253
+        ],
+        "operational_state": [
+          19,
+          59
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 36,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "24480ade5a6207a2b15a4698c0b7a947e30757aa73d281c6d37ea05d71ecc888"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          423,
+          470
+        ],
+        "environment_speculation": [
+          113,
+          159
+        ],
+        "location_search": [
+          186,
+          230
+        ],
+        "operational_state": [
+          220,
+          265
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 37,
+      "original_target_rule_categories": [
+        "C"
+      ],
+      "reflection_sha256": "2464d826d4a17c7272b1de76745d567236932b8c732e71bc41365451cebc2336"
+    },
+    {
+      "evidence_spans": {
+        "environment_speculation": [
+          107,
+          147
+        ],
+        "operational_state": [
+          75,
+          117
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "environment_speculation"
+      ],
+      "index": 38,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "24684080c4ec44b91e7ae7f6d7b0b6559a2b3ba89d4d810b86c5daf20cb99bb0"
+    },
+    {
+      "evidence_spans": {
+        "location_search": [
+          39,
+          81
+        ],
+        "operational_state": [
+          234,
+          274
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state"
+      ],
+      "index": 39,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "2512b23e587a0ecde5278a7ccdc7c078db33ae955e03314f897d0d6a38f74970"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          148,
+          195
+        ],
+        "environment_speculation": [
+          87,
+          139
+        ],
+        "operational_state": [
+          556,
+          601
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 40,
+      "original_target_rule_categories": [
+        "C"
+      ],
+      "reflection_sha256": "25492273ff120b4bd1946931d90dc0dd0777025660b296d251485d0b85017d02"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          363,
+          410
+        ],
+        "command_format": [
+          55,
+          97
+        ],
+        "operational_state": [
+          99,
+          144
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "command_format",
+        "alternative_heating"
+      ],
+      "index": 41,
+      "original_target_rule_categories": [
+        "B"
+      ],
+      "reflection_sha256": "2550bb2f6321818c3352d4eb038c7bef94e16b9f47cec2245729c2db26a2ae47"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          318,
+          365
+        ],
+        "environment_speculation": [
+          165,
+          211
+        ],
+        "operational_state": [
+          15,
+          55
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 42,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "2586350a0b64297eed8fab95e280dba59c7fbe7ef3da0e7d66d7fa6c75d26d8d"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          304,
+          351
+        ],
+        "environment_speculation": [
+          262,
+          308
+        ],
+        "operational_state": [
+          406,
+          451
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 43,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "260f466d2b1b8039ff1dbf32479fd613e1950097a7c3770a7315ed9f12faa9c0"
+    },
+    {
+      "evidence_spans": {
+        "location_search": [
+          85,
+          130
+        ]
+      },
+      "flags": [
+        "location_search"
+      ],
+      "index": 44,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "26479411a0aad51167272304ffdc9a8d945f7076e01154dbbc82de75813c76d2"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          67,
+          114
+        ],
+        "environment_speculation": [
+          124,
+          168
+        ],
+        "operational_state": [
+          921,
+          961
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 45,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "26b3f2836f0adca3eb88c93be425d72bf9744ac1a10aaa23de947217c4bfb300"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          310,
+          357
+        ],
+        "command_format": [
+          252,
+          294
+        ],
+        "environment_speculation": [
+          350,
+          398
+        ],
+        "location_search": [
+          392,
+          436
+        ],
+        "operational_state": [
+          155,
+          200
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "command_format",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 46,
+      "original_target_rule_categories": [
+        "C"
+      ],
+      "reflection_sha256": "27fc3be614f5d656c7552303ee0f75af474a58031a6b214b17434adde499e3eb"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          119,
+          166
+        ],
+        "operational_state": [
+          338,
+          383
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 47,
+      "original_target_rule_categories": [
+        "B"
+      ],
+      "reflection_sha256": "291dc74db3dafb8d92da56ee90d0a068ec8581a21615eb1db20af00d57162684"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          66,
+          113
+        ],
+        "command_format": [
+          576,
+          618
+        ],
+        "location_search": [
+          122,
+          164
+        ],
+        "operational_state": [
+          347,
+          392
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "command_format",
+        "alternative_heating"
+      ],
+      "index": 48,
+      "original_target_rule_categories": [
+        "B"
+      ],
+      "reflection_sha256": "2978f91b8f33632669718f36db8b3d00d2e5a9b56e2527e6bab91572e3e70b0e"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          267,
+          314
+        ],
+        "location_search": [
+          55,
+          99
+        ],
+        "operational_state": [
+          161,
+          206
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 49,
+      "original_target_rule_categories": [
+        "B"
+      ],
+      "reflection_sha256": "2cf236476e2054e1e1735534f90d8c969793b66a0b2a83a2c9e76db34e0dd125"
+    },
+    {
+      "evidence_spans": {
+        "environment_speculation": [
+          427,
+          476
+        ],
+        "location_search": [
+          362,
+          404
+        ],
+        "operational_state": [
+          6,
+          46
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "environment_speculation"
+      ],
+      "index": 50,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "2dc97c4a60f69ba25d067a9f490f22a0b75d014b2e90cafd677492ad74009bb1"
+    },
+    {
+      "evidence_spans": {
+        "location_search": [
+          10,
+          52
+        ]
+      },
+      "flags": [
+        "location_search"
+      ],
+      "index": 51,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "304bc09c8bc314ebdb93fb1f4d3311fad06e6d0d1f1055921d0ea58a8426748e"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          66,
+          105
+        ],
+        "location_search": [
+          778,
+          822
+        ],
+        "operational_state": [
+          190,
+          235
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 52,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "3211633b11a9595458ac0ef7ead4cfd131a9fd814c10fd1b434f99de6e9cb340"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          501,
+          548
+        ],
+        "location_search": [
+          707,
+          752
+        ],
+        "operational_state": [
+          99,
+          144
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 53,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "3224329a498e0df232d1ad8f4f54ac9db2977f9ddc7645c5450a409cb244f4d2"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          83,
+          130
+        ],
+        "command_format": [
+          821,
+          863
+        ],
+        "environment_speculation": [
+          500,
+          547
+        ],
+        "operational_state": [
+          382,
+          427
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "command_format",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 54,
+      "original_target_rule_categories": [
+        "B"
+      ],
+      "reflection_sha256": "322da9fe80427b645777b2b5ef6f6b58908875d1dff4b9adb64715bd41d8994a"
+    },
+    {
+      "evidence_spans": {
+        "environment_speculation": [
+          297,
+          340
+        ],
+        "location_search": [
+          237,
+          283
+        ],
+        "operational_state": [
+          311,
+          356
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "environment_speculation"
+      ],
+      "index": 55,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "32781f2624b2dd3275f86282f15af42d9db1e974aa56605272e98b4c4b630edb"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          143,
+          190
+        ],
+        "environment_speculation": [
+          301,
+          347
+        ],
+        "operational_state": [
+          199,
+          239
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 56,
+      "original_target_rule_categories": [
+        "A"
+      ],
+      "reflection_sha256": "32a0dbbf2cc38d3d96508cc5876dff5f1fcc778b13f617df720ca3dc050b4515"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          315,
+          362
+        ],
+        "command_format": [
+          254,
+          295
+        ],
+        "location_search": [
+          148,
+          190
+        ],
+        "operational_state": [
+          421,
+          466
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "command_format",
+        "alternative_heating"
+      ],
+      "index": 57,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "33b468d03260d26269222f9b960b8b8574c24b4832e62da6d39b3b564be45bb0"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          67,
+          114
+        ],
+        "operational_state": [
+          94,
+          136
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 58,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "3603311a882bfd1fc39c8c26d77cbe1166d62bcc879489bde624c55b53e14d60"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          286,
+          333
+        ],
+        "operational_state": [
+          40,
+          80
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 59,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "36bae147b4a674f9dc2400081b936da26f54da11be4191168e4d597050f93843"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          535,
+          582
+        ],
+        "operational_state": [
+          53,
+          95
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 60,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "39edabb63426709bfc2decc37f8b0aee2a9728c2fc5e3664486767b9debfdc3c"
+    },
+    {
+      "evidence_spans": {
+        "location_search": [
+          141,
+          188
+        ],
+        "operational_state": [
+          281,
+          326
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state"
+      ],
+      "index": 61,
+      "original_target_rule_categories": [
+        "B"
+      ],
+      "reflection_sha256": "3af670db2852e25b213b776b8a440f1ad5348d6b526cec32e1951a6b0ac4b26f"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          270,
+          317
+        ],
+        "environment_speculation": [
+          49,
+          95
+        ],
+        "operational_state": [
+          126,
+          166
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 62,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "3b75f8416503150f9b119f12f6202498f6cbc796ccab454c4a4bad5f297e6400"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          236,
+          283
+        ],
+        "operational_state": [
+          6,
+          46
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 63,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "3bf38945ac537ab1501acb80a4a0d51698e739c50602bfb89711cdce2607737e"
+    },
+    {
+      "evidence_spans": {
+        "command_format": [
+          517,
+          559
+        ],
+        "operational_state": [
+          39,
+          78
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "command_format"
+      ],
+      "index": 64,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "3c907dc6733c1505e4b272ce919a1003bc7e506a45f142fa660d611671d3509e"
+    },
+    {
+      "evidence_spans": {
+        "environment_speculation": [
+          498,
+          540
+        ],
+        "location_search": [
+          26,
+          68
+        ],
+        "operational_state": [
+          116,
+          158
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "environment_speculation"
+      ],
+      "index": 65,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "3cb3e0acfc08c1a79c436d299ce46c45523f146dfb94ded88a28532b4f37fd67"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          76,
+          123
+        ],
+        "environment_speculation": [
+          141,
+          185
+        ],
+        "operational_state": [
+          369,
+          414
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 66,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "3d5c9d1a936171ca9025d9f2bfe607804dd8be4c3600feb8251b93b59911b5d2"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          83,
+          130
+        ],
+        "command_format": [
+          583,
+          625
+        ],
+        "environment_speculation": [
+          733,
+          780
+        ],
+        "operational_state": [
+          369,
+          414
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "command_format",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 67,
+      "original_target_rule_categories": [
+        "B"
+      ],
+      "reflection_sha256": "3e133badc7028730bdbf6893156eac9cf3693b0357d60eef1134d083e0e01667"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          55,
+          102
+        ],
+        "environment_speculation": [
+          318,
+          365
+        ],
+        "operational_state": [
+          553,
+          598
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 68,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "3f58186c9d283cb13b3a5efd6d249389467d735f33a9227ae6dea3b21c440344"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          198,
+          245
+        ],
+        "environment_speculation": [
+          347,
+          395
+        ],
+        "location_search": [
+          470,
+          515
+        ],
+        "operational_state": [
+          10,
+          50
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 69,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "410bdf8153f17e2321111e4cb1124b136db08baed4e0c13d31f4e3007bdd4a08"
+    },
+    {
+      "evidence_spans": {
+        "location_search": [
+          70,
+          112
+        ]
+      },
+      "flags": [
+        "location_search"
+      ],
+      "index": 70,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "4157b90985ea0f287768d17180638d3c3234d75fbfe624566a6f1507cf12e31a"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          273,
+          320
+        ],
+        "environment_speculation": [
+          526,
+          566
+        ],
+        "operational_state": [
+          359,
+          404
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 71,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "42438ea73112f927a091ceba5ddad06cbc60e9ef0cd5e2322dedf0601c8b237a"
+    },
+    {
+      "evidence_spans": {
+        "command_format": [
+          70,
+          112
+        ],
+        "operational_state": [
+          352,
+          397
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "command_format"
+      ],
+      "index": 72,
+      "original_target_rule_categories": [
+        "B"
+      ],
+      "reflection_sha256": "43c0516404482b1dfed99ad241ebbb441d026367510cc2d7d10804be26096c58"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          122,
+          167
+        ],
+        "operational_state": [
+          42,
+          82
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 73,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "448c1135ce84af5b4e6969a392711d44e106c2279678bd769d2e140560c34a5b"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          288,
+          335
+        ],
+        "location_search": [
+          126,
+          168
+        ],
+        "operational_state": [
+          411,
+          456
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 74,
+      "original_target_rule_categories": [
+        "B"
+      ],
+      "reflection_sha256": "461703b34eba0e27d3e2c66b86488e8e238b222f5eb10c0005e817894ecde713"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          283,
+          330
+        ],
+        "operational_state": [
+          32,
+          72
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 75,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "476881d4073109d5c27411ed12ab4892cd886b24209fee11cdeff2e2d469f330"
+    },
+    {
+      "evidence_spans": {
+        "command_format": [
+          491,
+          533
+        ],
+        "operational_state": [
+          33,
+          78
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "command_format"
+      ],
+      "index": 76,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "492ccff57cbbe3030ac2d8541a0e07d5a9dd9d91c0339d5ad9cc70180fa845e8"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          56,
+          95
+        ],
+        "operational_state": [
+          6,
+          46
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 77,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "497969c779022d440246232271d75cd172c9ab9083c0f754dd90ba54aca24da2"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          74,
+          121
+        ],
+        "operational_state": [
+          200,
+          240
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 78,
+      "original_target_rule_categories": [
+        "A"
+      ],
+      "reflection_sha256": "49a0b9d27dc9277651b8e3f085f9cbae06ce447a8eeab201740fc58fb7992cae"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          82,
+          129
+        ],
+        "environment_speculation": [
+          305,
+          352
+        ],
+        "operational_state": [
+          614,
+          655
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 79,
+      "original_target_rule_categories": [
+        "B"
+      ],
+      "reflection_sha256": "49b294553f2dfddc1b33de2f721174378eaf697a2ec10fa5f6932a36d6e5d031"
+    },
+    {
+      "evidence_spans": {
+        "command_format": [
+          377,
+          427
+        ],
+        "environment_speculation": [
+          298,
+          348
+        ],
+        "location_search": [
+          85,
+          130
+        ],
+        "operational_state": [
+          420,
+          460
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "command_format",
+        "environment_speculation"
+      ],
+      "index": 80,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "4cc77ea305266f26e7e07847c0ecdc7eb7829a9c2b284d73bc269decc61bd334"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          223,
+          270
+        ],
+        "operational_state": [
+          352,
+          397
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 81,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "4faae0a3af57621eea53a11f8f621bd7b10c7d12834c0809df8195b24217dc6b"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          111,
+          158
+        ],
+        "location_search": [
+          308,
+          355
+        ],
+        "operational_state": [
+          6,
+          46
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 82,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "5117b2e3cd3ac8d7f9b6a150b6a5ff16a1103daf0cc8f7e6c679a067820e1c86"
+    },
+    {
+      "evidence_spans": {
+        "location_search": [
+          6,
+          48
+        ],
+        "operational_state": [
+          515,
+          555
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state"
+      ],
+      "index": 83,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "54b3c4aa8103362fade3c151b622d2ccc060b575030dda35a19d3656fb9731dc"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          82,
+          129
+        ],
+        "location_search": [
+          270,
+          316
+        ],
+        "operational_state": [
+          19,
+          59
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 84,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "553a593d7310f8f7bee2228417f1089f7254b399974deaf49b55379d7dc3a306"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          374,
+          421
+        ],
+        "environment_speculation": [
+          193,
+          239
+        ],
+        "location_search": [
+          134,
+          178
+        ],
+        "operational_state": [
+          55,
+          95
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 85,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "55cf7aa400356cbb309888d3e2f66e46cc75caae57c60587729e5667a6c9f19f"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          391,
+          438
+        ],
+        "location_search": [
+          165,
+          207
+        ],
+        "operational_state": [
+          42,
+          87
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 86,
+      "original_target_rule_categories": [
+        "B"
+      ],
+      "reflection_sha256": "56b3690f24ace54f1f54048f52c4516fd45ab2d582281d5e6d1c649f07aee463"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          287,
+          334
+        ],
+        "location_search": [
+          160,
+          202
+        ],
+        "operational_state": [
+          532,
+          577
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 87,
+      "original_target_rule_categories": [
+        "B"
+      ],
+      "reflection_sha256": "571a449fdc655997403cce644146873db9cec31d44a3b3c5a831a9e8e4ecf1f4"
+    },
+    {
+      "evidence_spans": {
+        "environment_speculation": [
+          304,
+          353
+        ],
+        "operational_state": [
+          15,
+          55
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "environment_speculation"
+      ],
+      "index": 88,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "581d048f45912ecee858f85be054a217dfacea1f3f8dac34fe3d5804e33259a7"
+    },
+    {
+      "evidence_spans": {
+        "location_search": [
+          87,
+          132
+        ]
+      },
+      "flags": [
+        "location_search"
+      ],
+      "index": 89,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "5855a0fe40061965117d49cda57a831342d49fff84726e7c35a4a9fa4d571979"
+    },
+    {
+      "evidence_spans": {
+        "command_format": [
+          75,
+          117
+        ],
+        "location_search": [
+          40,
+          83
+        ]
+      },
+      "flags": [
+        "location_search",
+        "command_format"
+      ],
+      "index": 90,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "59e30422aae0d80a1b34e60ff6236ab1ef8111551d424cb3150b8f654950ab7b"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          96,
+          139
+        ],
+        "environment_speculation": [
+          315,
+          364
+        ],
+        "operational_state": [
+          218,
+          260
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 91,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "5a0187b97b08ffec00e4196936f15b3d324816a84859277a8e05e42982729ed0"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          195,
+          242
+        ],
+        "operational_state": [
+          264,
+          309
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 92,
+      "original_target_rule_categories": [
+        "B"
+      ],
+      "reflection_sha256": "5b252ff391c941fada4f34929ef8067eae8251491762f9d0e6b0055723bfac47"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          92,
+          139
+        ],
+        "environment_speculation": [
+          246,
+          293
+        ],
+        "operational_state": [
+          324,
+          363
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 93,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "5b359bc741bec7b13a4862c351e4bb5971fc4ab4483693ea1dda4955899c26ed"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          69,
+          116
+        ],
+        "environment_speculation": [
+          202,
+          249
+        ],
+        "operational_state": [
+          6,
+          46
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 94,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "5ce45b791557849d25ad1d445ab4bde392ffaaa708b9bec20d725ad4038c969d"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          67,
+          114
+        ],
+        "location_search": [
+          413,
+          457
+        ],
+        "operational_state": [
+          325,
+          370
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 95,
+      "original_target_rule_categories": [
+        "B"
+      ],
+      "reflection_sha256": "5d5f5007bdf217de2846320e787557bcf2e29dfc28535b351f87d6e9edb60489"
+    },
+    {
+      "evidence_spans": {
+        "command_format": [
+          460,
+          502
+        ],
+        "operational_state": [
+          33,
+          78
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "command_format"
+      ],
+      "index": 96,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "5f9913f96cf6d1c2cd4718a7ecf39077ab57f603b7815123786f2ad790b270ce"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          64,
+          111
+        ],
+        "operational_state": [
+          338,
+          383
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 97,
+      "original_target_rule_categories": [
+        "B"
+      ],
+      "reflection_sha256": "60ba15d09f03d6ee868ebf95d3ffeb8bc40273f0d60e427e248bd8c7a7cedc71"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          79,
+          126
+        ],
+        "environment_speculation": [
+          141,
+          187
+        ],
+        "operational_state": [
+          169,
+          209
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 98,
+      "original_target_rule_categories": [
+        "A"
+      ],
+      "reflection_sha256": "6204b0ebe689f5943972460589c261e419e655ae2827b8b9aab292f14fa1da6b"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          124,
+          171
+        ],
+        "operational_state": [
+          19,
+          59
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 99,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "6ad4c688493372db50e7f77ad3295f4dbe5f31a3f162ccc30bf4e2f5cfaa64b6"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          57,
+          104
+        ],
+        "command_format": [
+          227,
+          269
+        ],
+        "environment_speculation": [
+          382,
+          422
+        ],
+        "location_search": [
+          112,
+          159
+        ],
+        "operational_state": [
+          19,
+          59
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "command_format",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 100,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "6c65b8c132a3fab43f6e30c97280c003a3c32efa091ce8876478058acdc01e0d"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          80,
+          127
+        ],
+        "command_format": [
+          164,
+          205
+        ],
+        "operational_state": [
+          19,
+          59
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "command_format",
+        "alternative_heating"
+      ],
+      "index": 101,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "6cd855ae4515a003fbca947ccd585667d9d82dfb135e71c0b1e5d9b367afebae"
+    },
+    {
+      "evidence_spans": {
+        "operational_state": [
+          286,
+          331
+        ]
+      },
+      "flags": [
+        "operational_state"
+      ],
+      "index": 102,
+      "original_target_rule_categories": [
+        "C"
+      ],
+      "reflection_sha256": "6dd517a81d3327566002df167def8fc8663a7b3a33c925045e9be5761efee93b"
+    },
+    {
+      "evidence_spans": {
+        "location_search": [
+          132,
+          177
+        ],
+        "operational_state": [
+          394,
+          439
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state"
+      ],
+      "index": 103,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "6ddb32e40bd222737befa11f96cd1514d93266f970a96706460e711ecab5384a"
+    },
+    {
+      "evidence_spans": {
+        "operational_state": [
+          32,
+          72
+        ]
+      },
+      "flags": [
+        "operational_state"
+      ],
+      "index": 104,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "6df0e8fd28ef41bf21cfbd259d35db1b66dd523667798fbc6d47dbe568933803"
+    },
+    {
+      "evidence_spans": {
+        "location_search": [
+          39,
+          81
+        ],
+        "operational_state": [
+          16,
+          58
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state"
+      ],
+      "index": 105,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "6e23e1e826850dc96652bb8f0b3e9f1daae37130d3b237c213caeecfe619f2ab"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          344,
+          391
+        ],
+        "environment_speculation": [
+          231,
+          278
+        ],
+        "location_search": [
+          325,
+          370
+        ],
+        "operational_state": [
+          6,
+          46
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 106,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "6e4e57be5c6faa8a5ca8fa26651901d41572938c9258fa714eab2d3248827ae4"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          357,
+          404
+        ],
+        "environment_speculation": [
+          244,
+          291
+        ],
+        "location_search": [
+          338,
+          383
+        ],
+        "operational_state": [
+          92,
+          134
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 107,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "6ea448e67c83b18ca0e60791a0af2c4a7392aeaf0f682f24999da08cb615de0b"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          239,
+          282
+        ],
+        "environment_speculation": [
+          294,
+          341
+        ],
+        "operational_state": [
+          47,
+          86
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 108,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "706890483dd75caae2b5bfcad7e4a5e1cbfc612865ac2e603c138298148bd4d1"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          290,
+          337
+        ],
+        "environment_speculation": [
+          472,
+          518
+        ],
+        "location_search": [
+          55,
+          99
+        ],
+        "operational_state": [
+          206,
+          251
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 109,
+      "original_target_rule_categories": [
+        "C"
+      ],
+      "reflection_sha256": "73052362e82ccd1120d626af3d77c89cd2e3b8151f47f48f1f3cf21d35e9a822"
+    },
+    {
+      "evidence_spans": {
+        "location_search": [
+          385,
+          420
+        ],
+        "operational_state": [
+          87,
+          132
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state"
+      ],
+      "index": 110,
+      "original_target_rule_categories": [
+        "A"
+      ],
+      "reflection_sha256": "74efc2b8dae01013eb9b2980c3adb11a189051c0307859ce797a12b82cc58863"
+    },
+    {
+      "evidence_spans": {
+        "operational_state": [
+          114,
+          156
+        ]
+      },
+      "flags": [
+        "operational_state"
+      ],
+      "index": 111,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "784c5b25d86d171500b9d157d9e9e55f4d8fe577d94fb66081436161b438a5df"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          517,
+          564
+        ],
+        "location_search": [
+          110,
+          154
+        ],
+        "operational_state": [
+          168,
+          213
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 112,
+      "original_target_rule_categories": [
+        "B"
+      ],
+      "reflection_sha256": "791a82a30798d572ceb9b9440f22cabcd1febec4ea5f92a86da6b2854975b4f0"
+    },
+    {
+      "evidence_spans": {
+        "environment_speculation": [
+          119,
+          159
+        ],
+        "operational_state": [
+          89,
+          129
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "environment_speculation"
+      ],
+      "index": 113,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "796d6309097908b249608f1708c8f21a3b814ae55b1a2057283aac2727b32415"
+    },
+    {
+      "evidence_spans": {
+        "location_search": [
+          76,
+          121
+        ]
+      },
+      "flags": [
+        "location_search"
+      ],
+      "index": 114,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "79b67a7f1403ec3e4771393a6daa1b26b249dadbbd4c8f5b11eaa653d727fef3"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          92,
+          139
+        ],
+        "operational_state": [
+          158,
+          203
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 115,
+      "original_target_rule_categories": [
+        "C"
+      ],
+      "reflection_sha256": "7a50053e8179a0d79f1322de59020c407e6f28f38076a7efee87a47a0a4e7a51"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          86,
+          125
+        ],
+        "environment_speculation": [
+          410,
+          457
+        ],
+        "operational_state": [
+          169,
+          214
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 116,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "7a5186ed49821ef4892418f1f521c82b88452ca93bd0e47dd2d2c2ba7f6c3dfa"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          79,
+          126
+        ],
+        "command_format": [
+          475,
+          517
+        ],
+        "operational_state": [
+          355,
+          400
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "command_format",
+        "alternative_heating"
+      ],
+      "index": 117,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "7b2b791f8b614f6bbbff8ed3b84a728e47e586969d55139981922e9200beac5d"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          82,
+          129
+        ],
+        "environment_speculation": [
+          305,
+          352
+        ],
+        "operational_state": [
+          614,
+          659
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 118,
+      "original_target_rule_categories": [
+        "B"
+      ],
+      "reflection_sha256": "7bb2e678719501fc2ddbd95d85a4ff7abf005e2b67a67f08a3b4bd453442d372"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          360,
+          407
+        ],
+        "environment_speculation": [
+          171,
+          218
+        ],
+        "operational_state": [
+          445,
+          490
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 119,
+      "original_target_rule_categories": [
+        "C"
+      ],
+      "reflection_sha256": "7c2939bdff18c7afaf84f4f754e5fa33d7b047bccd301a31199ad180ad940f18"
+    },
+    {
+      "evidence_spans": {
+        "location_search": [
+          174,
+          218
+        ]
+      },
+      "flags": [
+        "location_search"
+      ],
+      "index": 120,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "7c6a29d2611f49d87465e6f8512119063029d898358eb356e6b17578975bddd2"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          82,
+          129
+        ],
+        "command_format": [
+          173,
+          214
+        ],
+        "environment_speculation": [
+          545,
+          591
+        ],
+        "location_search": [
+          351,
+          395
+        ],
+        "operational_state": [
+          19,
+          59
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "command_format",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 121,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "7cbbbd9ce812924ba4275774713fdb3aab626f4c1bf15cd983b38c65d2c10310"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          83,
+          130
+        ],
+        "operational_state": [
+          160,
+          202
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 122,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "7e6573c170af176941fe183928c0ff46371cd4f6fbb4710b7b0a72e11d6b8d9b"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          404,
+          451
+        ],
+        "environment_speculation": [
+          637,
+          683
+        ],
+        "location_search": [
+          37,
+          81
+        ],
+        "operational_state": [
+          50,
+          91
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 123,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "7fb7526758b6ce1d7b40d58055414e9bb9290e0df7db19c161a60b1e33637da7"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          67,
+          114
+        ],
+        "environment_speculation": [
+          235,
+          281
+        ],
+        "operational_state": [
+          302,
+          347
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 124,
+      "original_target_rule_categories": [
+        "B"
+      ],
+      "reflection_sha256": "82f908ac0b652cf34ec3416754ae7245dfbe4cc2de24907163aead83540d2788"
+    },
+    {
+      "evidence_spans": {
+        "location_search": [
+          129,
+          174
+        ]
+      },
+      "flags": [
+        "location_search"
+      ],
+      "index": 125,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "83344ce02b65d150bbf91f1515f199abb7b5020c2bcd5854ef312d3d1b2d1fe5"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          186,
+          233
+        ],
+        "environment_speculation": [
+          426,
+          472
+        ],
+        "operational_state": [
+          15,
+          55
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 126,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "8349b105f4f689f0a056fa434515b47fb13345c7de4de00e3b91c5c05132b546"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          353,
+          400
+        ],
+        "operational_state": [
+          172,
+          217
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 127,
+      "original_target_rule_categories": [
+        "C"
+      ],
+      "reflection_sha256": "851610315db6b529d269e8ebdbac13b16cb25208403934ba29db29ddbceb3e0e"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          358,
+          405
+        ],
+        "environment_speculation": [
+          287,
+          334
+        ],
+        "location_search": [
+          404,
+          448
+        ],
+        "operational_state": [
+          493,
+          538
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 128,
+      "original_target_rule_categories": [
+        "B"
+      ],
+      "reflection_sha256": "85a2b45e184256e220e7f4e8a03d30687f33932895bf98a1992b33b1f02e0670"
+    },
+    {
+      "evidence_spans": {
+        "operational_state": [
+          146,
+          191
+        ]
+      },
+      "flags": [
+        "operational_state"
+      ],
+      "index": 129,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "8602394f53b87cfa3dea02c45aa6b48ff9e7d849efc5e8ffcfd90c6c8ecfd90d"
+    },
+    {
+      "evidence_spans": {
+        "location_search": [
+          202,
+          248
+        ],
+        "operational_state": [
+          168,
+          213
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state"
+      ],
+      "index": 130,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "86d3b073e7146221343e5c79e0d0bfb366d631691ac6a4a6faee67c9420271c7"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          86,
+          133
+        ],
+        "environment_speculation": [
+          476,
+          522
+        ],
+        "operational_state": [
+          261,
+          306
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 131,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "8891cc0a59b57a523cff8cb5e03ac9eecb9da1d69394d8f70826d93e09436d42"
+    },
+    {
+      "evidence_spans": {
+        "location_search": [
+          6,
+          48
+        ]
+      },
+      "flags": [
+        "location_search"
+      ],
+      "index": 132,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "892e697b6b24eaf12f8f4e2d83defe12b1ffc88ad9499d1599bd9bd065c3ade9"
+    },
+    {
+      "evidence_spans": {
+        "operational_state": [
+          53,
+          95
+        ]
+      },
+      "flags": [
+        "operational_state"
+      ],
+      "index": 133,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "89ba91da6bffdc39d209e2986c28d04925a4ba9ba254b26efb22bcd0e3fbfd76"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          235,
+          282
+        ],
+        "operational_state": [
+          6,
+          46
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 134,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "89c8e77caa9007946052c6e520ada5447fc3b03c5cc2a4755c740340aca8cd92"
+    },
+    {
+      "evidence_spans": {
+        "location_search": [
+          70,
+          115
+        ]
+      },
+      "flags": [
+        "location_search"
+      ],
+      "index": 135,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "8a5dd7ab84301278db718217fd65bb9cc240ee9a35781df28afc1a4bfbbeb053"
+    },
+    {
+      "evidence_spans": {
+        "environment_speculation": [
+          482,
+          532
+        ],
+        "location_search": [
+          132,
+          177
+        ]
+      },
+      "flags": [
+        "location_search",
+        "environment_speculation"
+      ],
+      "index": 136,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "8c337f188e3018305ef1bd73c052c3ad9fadc5a018224e20624a58f8c7a79ffc"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          128,
+          175
+        ],
+        "operational_state": [
+          108,
+          148
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 137,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "90302dab6c40b602ff224ceda77bbbf1cb248700422f04d61173d65965f6285c"
+    },
+    {
+      "evidence_spans": {
+        "location_search": [
+          272,
+          316
+        ],
+        "operational_state": [
+          338,
+          383
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state"
+      ],
+      "index": 138,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "90942a7900e60ccbb6dee730f5b24e34f864fffb1cb5d9c97e1802cb745e1c3c"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          323,
+          370
+        ],
+        "operational_state": [
+          190,
+          235
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 139,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "93ff1adc1c6e6f6744225e9a47be2ba79eedb0aff05c9e41fbc66c5583f53933"
+    },
+    {
+      "evidence_spans": {
+        "environment_speculation": [
+          166,
+          210
+        ],
+        "operational_state": [
+          36,
+          76
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "environment_speculation"
+      ],
+      "index": 140,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "942a0ae3affe29f8a51715aef9d67f57e33f902f44db9b808d01720eb36ce353"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          82,
+          129
+        ],
+        "operational_state": [
+          411,
+          456
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 141,
+      "original_target_rule_categories": [
+        "B"
+      ],
+      "reflection_sha256": "95439bce22e0a6e2ed2bae3b7a3faa96753a06225c880dd5c9e8a309719f5444"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          222,
+          269
+        ],
+        "environment_speculation": [
+          73,
+          121
+        ],
+        "operational_state": [
+          36,
+          76
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 142,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "96c67a48f3ffac3614acd5ff3137a0e702185f843654d86c55ae48078d3b8468"
+    },
+    {
+      "evidence_spans": {
+        "location_search": [
+          6,
+          48
+        ]
+      },
+      "flags": [
+        "location_search"
+      ],
+      "index": 143,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "976eec3cb0768168295c6c6cf2d940a8d0cc149d066589d2a658c13f5cf97ef8"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          353,
+          400
+        ],
+        "environment_speculation": [
+          111,
+          158
+        ],
+        "operational_state": [
+          587,
+          632
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 144,
+      "original_target_rule_categories": [
+        "C"
+      ],
+      "reflection_sha256": "97f3903b218b177f3ecd5c91384bd150af2855adcf7f6297e3874d9fe33c8a6a"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          78,
+          125
+        ],
+        "operational_state": [
+          15,
+          55
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 145,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "9897b3b1cee31a70c0f478d185f523fb47fbdf69f6dfc5f2bf6a0b1716085caf"
+    },
+    {
+      "evidence_spans": {
+        "location_search": [
+          37,
+          79
+        ],
+        "operational_state": [
+          331,
+          371
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state"
+      ],
+      "index": 146,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "9c2070387a67b2b9df21549ddc38e689c09bf14618085dd3f38d4b7804b20ddd"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          408,
+          455
+        ],
+        "environment_speculation": [
+          134,
+          178
+        ],
+        "operational_state": [
+          482,
+          527
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 147,
+      "original_target_rule_categories": [
+        "C"
+      ],
+      "reflection_sha256": "9e7d01ec3199041b5bac7d632efb8537defbe381545b65501ff41d7a3296e68c"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          148,
+          187
+        ],
+        "environment_speculation": [
+          361,
+          413
+        ],
+        "operational_state": [
+          133,
+          175
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 148,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "9f29f28573562afccfd1f6cf5e2ab716cfae227fee28ed7fc9c9b81a538df865"
+    },
+    {
+      "evidence_spans": {
+        "command_format": [
+          74,
+          116
+        ],
+        "operational_state": [
+          118,
+          158
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "command_format"
+      ],
+      "index": 149,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "9f7d782172858755f5ee269be62e47f539583cd2430957347c2feda3afd3e5c1"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          66,
+          113
+        ],
+        "operational_state": [
+          93,
+          135
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 150,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "9ff62ded4c459ff527c459d48d74ca834209275d86a809b32b31281fcfe79b17"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          405,
+          452
+        ],
+        "command_format": [
+          485,
+          516
+        ],
+        "operational_state": [
+          33,
+          78
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "command_format",
+        "alternative_heating"
+      ],
+      "index": 151,
+      "original_target_rule_categories": [
+        "B"
+      ],
+      "reflection_sha256": "a18f03f86d1a4e766ea8ae992b58337c09412f7829bff2fdfc1ec896199e8052"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          392,
+          439
+        ],
+        "environment_speculation": [
+          327,
+          376
+        ],
+        "operational_state": [
+          27,
+          66
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 152,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "a22d1e0fef5e302013ea42702a9be68dff42c755ab021ba2f1aae29f8709b56c"
+    },
+    {
+      "evidence_spans": {
+        "command_format": [
+          55,
+          97
+        ],
+        "operational_state": [
+          65,
+          105
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "command_format"
+      ],
+      "index": 153,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "a3a46e36113a40641f361f79b3d6e8220a4809b35fdd4aaf451db67c79256e24"
+    },
+    {
+      "evidence_spans": {
+        "environment_speculation": [
+          512,
+          548
+        ],
+        "operational_state": [
+          290,
+          335
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "environment_speculation"
+      ],
+      "index": 154,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "a43f3439406c3904624ad4ad5a8b7a0596398203b8057abf6b88a74dd4e83751"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          305,
+          352
+        ],
+        "command_format": [
+          88,
+          133
+        ],
+        "environment_speculation": [
+          161,
+          205
+        ],
+        "operational_state": [
+          372,
+          417
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "command_format",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 155,
+      "original_target_rule_categories": [
+        "C"
+      ],
+      "reflection_sha256": "a45dffefef21e960b5cb7a6690436e1fe885bb89b3ca64d4290c6df3648c4685"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          392,
+          439
+        ],
+        "environment_speculation": [
+          241,
+          288
+        ],
+        "operational_state": [
+          45,
+          84
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 156,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "a764363c43b0a45b0818bfd721109c217d3b4003a5426cb7c798697d1ca6bbc1"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          337,
+          384
+        ],
+        "environment_speculation": [
+          145,
+          191
+        ],
+        "operational_state": [
+          6,
+          46
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 157,
+      "original_target_rule_categories": [
+        "A"
+      ],
+      "reflection_sha256": "a7d7695e1cc7ea39966bd0c3dbf4e76312d669e9d9da9fae8c168e204093d0d0"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          64,
+          111
+        ],
+        "environment_speculation": [
+          712,
+          758
+        ],
+        "operational_state": [
+          338,
+          383
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 158,
+      "original_target_rule_categories": [
+        "B"
+      ],
+      "reflection_sha256": "aa345398062c6af25c99d8022b1fe6f5ed6074000ba2679cc87b236aa662ce83"
+    },
+    {
+      "evidence_spans": {
+        "environment_speculation": [
+          180,
+          220
+        ],
+        "operational_state": [
+          58,
+          100
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "environment_speculation"
+      ],
+      "index": 159,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "aba943391ea2d6000cd921248159b26197e92ba91934402ceed1b2ad8e017616"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          83,
+          130
+        ],
+        "environment_speculation": [
+          336,
+          382
+        ],
+        "location_search": [
+          610,
+          653
+        ],
+        "operational_state": [
+          110,
+          152
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 160,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "ac2a98363589e21448a3c5414ce9923c232b7017ac5b696e3a1c8f9d85afb46d"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          187,
+          234
+        ],
+        "environment_speculation": [
+          327,
+          373
+        ],
+        "operational_state": [
+          230,
+          275
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 161,
+      "original_target_rule_categories": [
+        "C"
+      ],
+      "reflection_sha256": "ac952b53b026aeaa07f9e8b7ab5ba669272124727d5f033fe3ea0c2e16dc5384"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          314,
+          361
+        ],
+        "operational_state": [
+          442,
+          487
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 162,
+      "original_target_rule_categories": [
+        "A"
+      ],
+      "reflection_sha256": "aee2e006eb1913c9734ce451d8d5e82f4591f3c8b655924cf8ccf68d2db47cae"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          319,
+          366
+        ],
+        "operational_state": [
+          382,
+          427
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 163,
+      "original_target_rule_categories": [
+        "B"
+      ],
+      "reflection_sha256": "af41ce266f259d9d2f16a0cf16ffa8d5ebbe22c7193398980b26849287c9ae5f"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          350,
+          397
+        ],
+        "environment_speculation": [
+          76,
+          124
+        ],
+        "location_search": [
+          130,
+          174
+        ],
+        "operational_state": [
+          445,
+          490
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 164,
+      "original_target_rule_categories": [
+        "C"
+      ],
+      "reflection_sha256": "af4c01438c6e83bc79a1eef7b6cddb5dfd0fd2a7d34b38ace623065d78ef9a30"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          334,
+          381
+        ],
+        "environment_speculation": [
+          221,
+          264
+        ],
+        "operational_state": [
+          704,
+          749
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 165,
+      "original_target_rule_categories": [
+        "B"
+      ],
+      "reflection_sha256": "afa8fe1f82c0d7890e551804c1d86633f71db6af682c647df92667189c199f89"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          80,
+          127
+        ],
+        "command_format": [
+          164,
+          205
+        ],
+        "operational_state": [
+          107,
+          149
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "command_format",
+        "alternative_heating"
+      ],
+      "index": 166,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "b09771e7235114baa8f03780c0e9db1685ef18ab7b8555ad012ca297817c6e87"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          105,
+          152
+        ],
+        "operational_state": [
+          347,
+          392
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 167,
+      "original_target_rule_categories": [
+        "B"
+      ],
+      "reflection_sha256": "b1f989e6ecb5290f0bb1dbac28850029652dcb6de695bd7cb58dc4c4fc1c4e57"
+    },
+    {
+      "evidence_spans": {
+        "operational_state": [
+          38,
+          81
+        ]
+      },
+      "flags": [
+        "operational_state"
+      ],
+      "index": 168,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "b212a1f509e30cc1711450be1a20f2878e4acb0539d1db9b2494c45e68cf5d90"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          350,
+          397
+        ],
+        "command_format": [
+          718,
+          760
+        ],
+        "operational_state": [
+          151,
+          196
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "command_format",
+        "alternative_heating"
+      ],
+      "index": 169,
+      "original_target_rule_categories": [
+        "B"
+      ],
+      "reflection_sha256": "b24c9c3b1d27f9d151c89fb5eec6033648e45d7ed82b93cb678a38dd9ca9f3f3"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          81,
+          128
+        ],
+        "operational_state": [
+          229,
+          274
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 170,
+      "original_target_rule_categories": [
+        "C"
+      ],
+      "reflection_sha256": "b5824159ba136270d5df1b5809f0d33ab18db407e22717797667dd043738cacb"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          239,
+          286
+        ],
+        "operational_state": [
+          49,
+          93
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 171,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "b63623b48e9afd73ac15afd985462c2842cb063b0ab3a264ba4df5eae6cdb2fc"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          304,
+          351
+        ],
+        "location_search": [
+          160,
+          206
+        ],
+        "operational_state": [
+          539,
+          584
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 172,
+      "original_target_rule_categories": [
+        "A"
+      ],
+      "reflection_sha256": "b6b2b6f846321b3b8cc38318424a3d3d447e37390c17ff18c9cd22279d3a769b"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          509,
+          556
+        ],
+        "environment_speculation": [
+          471,
+          519
+        ],
+        "operational_state": [
+          51,
+          90
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 173,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "b715d75726b7f996042456e99fbe8be9cdf3889ee357f80f6bb368a1e5811fea"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          354,
+          401
+        ],
+        "location_search": [
+          583,
+          604
+        ],
+        "operational_state": [
+          65,
+          110
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 174,
+      "original_target_rule_categories": [
+        "B"
+      ],
+      "reflection_sha256": "b73aadf0b90cbc400c3e6ca9156ab2a4632054af7f242adc1f72cf4c7f91cbee"
+    },
+    {
+      "evidence_spans": {
+        "location_search": [
+          119,
+          164
+        ]
+      },
+      "flags": [
+        "location_search"
+      ],
+      "index": 175,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "b892c8ac3f835bbc7ba3752771655260443a43cdb7cc860ecb749ca39158595d"
+    },
+    {
+      "evidence_spans": {
+        "operational_state": [
+          62,
+          105
+        ]
+      },
+      "flags": [
+        "operational_state"
+      ],
+      "index": 176,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "b8fb4693a3f72f5dddca69414eed3e1f2ea169742a966f5d6014e16ae6c2576e"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          340,
+          383
+        ],
+        "environment_speculation": [
+          58,
+          102
+        ],
+        "location_search": [
+          439,
+          483
+        ],
+        "operational_state": [
+          6,
+          46
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 177,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "b9415bfe7c2227563fae9cc87eb03eaddcf6b46a70248e43a0df03b4c46a7b81"
+    },
+    {
+      "evidence_spans": {
+        "command_format": [
+          322,
+          364
+        ],
+        "location_search": [
+          27,
+          70
+        ]
+      },
+      "flags": [
+        "location_search",
+        "command_format"
+      ],
+      "index": 178,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "bcb0a183c8ced2be38e8aa8c1f02402688273d93d610b305d41acffa72213f97"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          123,
+          170
+        ],
+        "location_search": [
+          182,
+          229
+        ],
+        "operational_state": [
+          55,
+          99
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 179,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "bd70fcf8af4ec58c3b668a6bd199e5c643a1ea3fa4db1fc5c13c3bbb306d4395"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          87,
+          134
+        ],
+        "command_format": [
+          567,
+          608
+        ],
+        "environment_speculation": [
+          722,
+          769
+        ],
+        "operational_state": [
+          267,
+          312
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "command_format",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 180,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "c07a9aa467b8727ac9833cf69f28f6a6fa1ad4307e42de28cb88b497d0ed0630"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          81,
+          128
+        ],
+        "operational_state": [
+          356,
+          401
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 181,
+      "original_target_rule_categories": [
+        "B"
+      ],
+      "reflection_sha256": "c122aa559c452f63da840511276bf5b3b53f1b6e91c2477e5466dbcc4040c5ce"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          164,
+          203
+        ],
+        "environment_speculation": [
+          300,
+          346
+        ],
+        "operational_state": [
+          173,
+          215
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 182,
+      "original_target_rule_categories": [
+        "A"
+      ],
+      "reflection_sha256": "c284ae51f6317d79c401a9c0c410576a76facaaa2730ccefb03f568ac343de75"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          280,
+          327
+        ],
+        "command_format": [
+          198,
+          239
+        ],
+        "environment_speculation": [
+          61,
+          108
+        ],
+        "operational_state": [
+          122,
+          167
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "command_format",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 183,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "c29326c2f688988104a856c6b2baa2313d35ba5ea38d542a8d8c1611f59da657"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          217,
+          256
+        ],
+        "operational_state": [
+          82,
+          125
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 184,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "c50e37cab078c3eb839476cba7acd3fb32728f33e61f2aa1cea3b8dff485a88c"
+    },
+    {
+      "evidence_spans": {
+        "operational_state": [
+          9,
+          51
+        ]
+      },
+      "flags": [
+        "operational_state"
+      ],
+      "index": 185,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "c645cb1742747388285d47bb0c14b8f9a9660c26c6359d0b3de2995b499fbeab"
+    },
+    {
+      "evidence_spans": {
+        "location_search": [
+          176,
+          221
+        ],
+        "operational_state": [
+          162,
+          205
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state"
+      ],
+      "index": 186,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "c6b7e94b7b59f4986737491e3668bdbfb6e9ef80244923d27d00aca87d238c6f"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          305,
+          352
+        ],
+        "environment_speculation": [
+          233,
+          280
+        ],
+        "operational_state": [
+          19,
+          59
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 187,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "c6c3b420c38d942e55dc3f98bd067e8c9319392a439bf0c2d1bc0174fb85a8ed"
+    },
+    {
+      "evidence_spans": {
+        "environment_speculation": [
+          319,
+          359
+        ],
+        "operational_state": [
+          516,
+          538
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "environment_speculation"
+      ],
+      "index": 188,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "c874f5e6ea877f5663571b12ecf4396fad92b14163995e3996dbfec0342bbdfb"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          69,
+          116
+        ],
+        "environment_speculation": [
+          308,
+          354
+        ],
+        "operational_state": [
+          617,
+          662
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 189,
+      "original_target_rule_categories": [
+        "B"
+      ],
+      "reflection_sha256": "c8ca34a1427fd2256d43ed4656a6139cb172e22f224b1b258cca543b2d775b6c"
+    },
+    {
+      "evidence_spans": {
+        "location_search": [
+          175,
+          220
+        ]
+      },
+      "flags": [
+        "location_search"
+      ],
+      "index": 190,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "c9f73d9ac4c8fc0075d2ab64799d1db00ec61c25d1e9cf255bf5b09df7f0eec6"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          74,
+          121
+        ],
+        "location_search": [
+          534,
+          578
+        ],
+        "operational_state": [
+          199,
+          241
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 191,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "cb822555daf854a2bc1384ad83e464c2cc664c9e1a72c46ff96b7a88ad9e3610"
+    },
+    {
+      "evidence_spans": {
+        "environment_speculation": [
+          75,
+          117
+        ],
+        "operational_state": [
+          41,
+          84
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "environment_speculation"
+      ],
+      "index": 192,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "ccdf54d03b53ea695b4051617dc2fa5adcf5d04de73652796cf05d082ff38b7e"
+    },
+    {
+      "evidence_spans": {
+        "command_format": [
+          237,
+          279
+        ],
+        "operational_state": [
+          305,
+          350
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "command_format"
+      ],
+      "index": 193,
+      "original_target_rule_categories": [
+        "C"
+      ],
+      "reflection_sha256": "d007dac27ea67298912f8dd413b033631725f589598bf7946a79f82d339193fa"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          286,
+          333
+        ],
+        "environment_speculation": [
+          157,
+          203
+        ],
+        "operational_state": [
+          192,
+          232
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 194,
+      "original_target_rule_categories": [
+        "A"
+      ],
+      "reflection_sha256": "d0abdb385d1803853cb6080badb62ed2e272dea792cbf61ded87e9796af0424a"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          107,
+          154
+        ],
+        "environment_speculation": [
+          450,
+          490
+        ],
+        "operational_state": [
+          40,
+          80
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 195,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "d47a1b75b2aab091ff6f37af8a42f85cdf637b5bf45281bf5f79fd99c7a29627"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          93,
+          141
+        ],
+        "environment_speculation": [
+          58,
+          107
+        ],
+        "operational_state": [
+          6,
+          46
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 196,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "d54b5e845319fb0444fba36bfd282704fe56f12fd60fada8aa5b3319d2889b2c"
+    },
+    {
+      "evidence_spans": {
+        "environment_speculation": [
+          103,
+          143
+        ],
+        "location_search": [
+          156,
+          205
+        ],
+        "operational_state": [
+          52,
+          94
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "environment_speculation"
+      ],
+      "index": 197,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "d6105a1fda3c5f78d12c8a31929e7ed118382bbfb452ca7925aaee646e3dce79"
+    },
+    {
+      "evidence_spans": {
+        "environment_speculation": [
+          622,
+          677
+        ],
+        "location_search": [
+          211,
+          256
+        ]
+      },
+      "flags": [
+        "location_search",
+        "environment_speculation"
+      ],
+      "index": 198,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "d654cc4f59e2e8f30d086da2370f79370b5a9b4f7d790535058b479875b78bb7"
+    },
+    {
+      "evidence_spans": {
+        "command_format": [
+          8,
+          54
+        ],
+        "location_search": [
+          89,
+          135
+        ],
+        "operational_state": [
+          50,
+          95
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "command_format"
+      ],
+      "index": 199,
+      "original_target_rule_categories": [
+        "C"
+      ],
+      "reflection_sha256": "d7014278b100632d1480fba1d87ed1a16b879c9c0789b22c0345fd15120c2daa"
+    },
+    {
+      "evidence_spans": {
+        "command_format": [
+          116,
+          162
+        ],
+        "environment_speculation": [
+          137,
+          184
+        ],
+        "operational_state": [
+          206,
+          248
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "command_format",
+        "environment_speculation"
+      ],
+      "index": 200,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "d7551d769b2f65329b13be81858d87eceae229fb51cc0a9d4bf5c265dd92f50b"
+    },
+    {
+      "evidence_spans": {
+        "location_search": [
+          141,
+          186
+        ]
+      },
+      "flags": [
+        "location_search"
+      ],
+      "index": 201,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "d87cc7ded2a55ba7ac934d7504c60d9ac40da05100f140533beca4830a6cf15b"
+    },
+    {
+      "evidence_spans": {
+        "command_format": [
+          395,
+          436
+        ],
+        "operational_state": [
+          92,
+          134
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "command_format"
+      ],
+      "index": 202,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "d975f1ae5a6ce9c5b60fb06bb7ebb75bba9466ef51d921e528dc8039f2a10b14"
+    },
+    {
+      "evidence_spans": {
+        "environment_speculation": [
+          334,
+          381
+        ],
+        "location_search": [
+          137,
+          182
+        ]
+      },
+      "flags": [
+        "location_search",
+        "environment_speculation"
+      ],
+      "index": 203,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "d9c8720b697ac2fd1ab00ddc01b906ee9c2a2957aa4fb5d215ae097476d5980d"
+    },
+    {
+      "evidence_spans": {
+        "location_search": [
+          83,
+          128
+        ]
+      },
+      "flags": [
+        "location_search"
+      ],
+      "index": 204,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "da1807338e9ac46c419d8210725d24dff6eb9803205bb2a21e16e41a8d2cdca6"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          80,
+          127
+        ],
+        "environment_speculation": [
+          526,
+          569
+        ],
+        "operational_state": [
+          281,
+          323
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 205,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "dad2c8e06e8d68cf7147b44cb89fab393bfd97ad311dd11386d4c810decb942b"
+    },
+    {
+      "evidence_spans": {
+        "environment_speculation": [
+          79,
+          134
+        ],
+        "location_search": [
+          47,
+          92
+        ]
+      },
+      "flags": [
+        "location_search",
+        "environment_speculation"
+      ],
+      "index": 206,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "dbc4038e3789644c7898d067efa3fded5b8e7346ad2c38fc955e114556593e1a"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          70,
+          117
+        ],
+        "environment_speculation": [
+          323,
+          369
+        ],
+        "location_search": [
+          597,
+          640
+        ],
+        "operational_state": [
+          6,
+          46
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 207,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "dd7bfc29bd32be05f6ae28402791c60ac282d146807ab842143e59abab582174"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          95,
+          142
+        ],
+        "operational_state": [
+          357,
+          402
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 208,
+      "original_target_rule_categories": [
+        "B"
+      ],
+      "reflection_sha256": "e093299702927a70692349de142e1db3ab5e48dc623bdb1e7988916a46390ce4"
+    },
+    {
+      "evidence_spans": {
+        "location_search": [
+          48,
+          91
+        ],
+        "operational_state": [
+          101,
+          144
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state"
+      ],
+      "index": 209,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "e1138fd58434312a326ea1f1ae72da09da803a1298d33c62dba8c44e401c0c81"
+    },
+    {
+      "evidence_spans": {
+        "location_search": [
+          162,
+          207
+        ]
+      },
+      "flags": [
+        "location_search"
+      ],
+      "index": 210,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "e25f6767917d64fbee567e2c49a70cfe0c8d885396f511c501c19d621e6b7a88"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          402,
+          449
+        ],
+        "command_format": [
+          164,
+          209
+        ],
+        "environment_speculation": [
+          234,
+          280
+        ],
+        "operational_state": [
+          67,
+          110
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "command_format",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 211,
+      "original_target_rule_categories": [
+        "A"
+      ],
+      "reflection_sha256": "e287bebf4883e14901bad87ddbc25ad83b34c2b848cbd3238a6a6c2ffd23b372"
+    },
+    {
+      "evidence_spans": {
+        "location_search": [
+          31,
+          73
+        ]
+      },
+      "flags": [
+        "location_search"
+      ],
+      "index": 212,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "e3c3312699fd966d7000e4f86b2b5945de9143373500c23c61fbb1a45e3142fb"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          155,
+          202
+        ],
+        "environment_speculation": [
+          107,
+          154
+        ],
+        "operational_state": [
+          492,
+          537
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 213,
+      "original_target_rule_categories": [
+        "C"
+      ],
+      "reflection_sha256": "e46cd10961d67ac682cfb2392dc4c2fe1883300379af7e661118a86b848fb81d"
+    },
+    {
+      "evidence_spans": {
+        "operational_state": [
+          264,
+          309
+        ]
+      },
+      "flags": [
+        "operational_state"
+      ],
+      "index": 214,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "e6c71393170dc8d4d3bd8ce2f015c573020f949a1223a6a562abcdc32c7d0c97"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          67,
+          114
+        ],
+        "environment_speculation": [
+          129,
+          175
+        ],
+        "operational_state": [
+          6,
+          46
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 215,
+      "original_target_rule_categories": [
+        "A"
+      ],
+      "reflection_sha256": "e79587685a70eb68659bc878f17b04d4b45f12ed004e05c6e5daee4de3bff5b7"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          76,
+          124
+        ],
+        "environment_speculation": [
+          123,
+          167
+        ],
+        "operational_state": [
+          393,
+          438
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 216,
+      "original_target_rule_categories": [
+        "B"
+      ],
+      "reflection_sha256": "e7b822ac91b92b11ba0e6a686147cde270ec683a3b3a53daa3c236cef19d48fb"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          67,
+          114
+        ],
+        "environment_speculation": [
+          260,
+          306
+        ],
+        "operational_state": [
+          210,
+          253
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 217,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "e8319097afb16948c6461a9f9b2965e99f11b1e63f3bd43818232283c87abeda"
+    },
+    {
+      "evidence_spans": {
+        "location_search": [
+          36,
+          78
+        ]
+      },
+      "flags": [
+        "location_search"
+      ],
+      "index": 218,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "e9b03802270196dafb519ef71ca69fb64caeef9c7e8a423ea0edc974504dbc9c"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          198,
+          245
+        ],
+        "location_search": [
+          165,
+          207
+        ],
+        "operational_state": [
+          111,
+          156
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 219,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "e9b802a1f7721625554b0d74dcb60a53558b10f4db4c70f87fd04bbebb4bb717"
+    },
+    {
+      "evidence_spans": {
+        "location_search": [
+          150,
+          195
+        ]
+      },
+      "flags": [
+        "location_search"
+      ],
+      "index": 220,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "eb6ed43f51a6d0cb32169ed9a20f5efcef9786af1e9abdea9c476c3e272fac35"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          545,
+          592
+        ],
+        "command_format": [
+          348,
+          390
+        ],
+        "environment_speculation": [
+          101,
+          148
+        ],
+        "operational_state": [
+          36,
+          76
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "command_format",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 221,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "ed6f2df24be32f9bc8cd5c65f39dca49f0928b4644cb8eb4ff3af6ce0c23199a"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          627,
+          674
+        ],
+        "environment_speculation": [
+          86,
+          126
+        ],
+        "location_search": [
+          142,
+          187
+        ]
+      },
+      "flags": [
+        "location_search",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 222,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "ee92550d86d9f321c6dfe07523540b0740bc9f1f97ca90bf01f8f5218c4e6908"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          74,
+          121
+        ],
+        "environment_speculation": [
+          165,
+          212
+        ],
+        "operational_state": [
+          19,
+          59
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 223,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "ef133604962f3afd8642ae86f908474bb4ef50196b6234df6dc141eb0719973b"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          76,
+          123
+        ],
+        "environment_speculation": [
+          647,
+          693
+        ],
+        "location_search": [
+          599,
+          643
+        ],
+        "operational_state": [
+          124,
+          169
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 224,
+      "original_target_rule_categories": [
+        "B"
+      ],
+      "reflection_sha256": "f00faef9c5905271d46147a40e01f52c00a824efcec83cba801da90a7b4ea888"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          340,
+          387
+        ],
+        "environment_speculation": [
+          188,
+          234
+        ],
+        "operational_state": [
+          464,
+          509
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 225,
+      "original_target_rule_categories": [
+        "C"
+      ],
+      "reflection_sha256": "f5c1f2bf4bd4860651417a0ebf22ad5354c6bc388009012d5a56212081487bd9"
+    },
+    {
+      "evidence_spans": {
+        "location_search": [
+          92,
+          134
+        ]
+      },
+      "flags": [
+        "location_search"
+      ],
+      "index": 226,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "f70a239f9b0bc7eebca750cc0c77ced79f2b97ee5676a343cdd12f0d496fa065"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          163,
+          210
+        ],
+        "environment_speculation": [
+          60,
+          100
+        ],
+        "operational_state": [
+          79,
+          122
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating",
+        "environment_speculation"
+      ],
+      "index": 227,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "f7cb9dc9c0360287e52069c53abd944f9c871221290bf1eb05e85b9b33195f94"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          88,
+          135
+        ],
+        "operational_state": [
+          361,
+          406
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 228,
+      "original_target_rule_categories": [
+        "B"
+      ],
+      "reflection_sha256": "fc1fb152450c8f06eeb69a52e97a97db65740967a28b20d5ccf7aeb443f10302"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          103,
+          142
+        ],
+        "command_format": [
+          365,
+          407
+        ],
+        "location_search": [
+          150,
+          192
+        ],
+        "operational_state": [
+          19,
+          59
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "command_format",
+        "alternative_heating"
+      ],
+      "index": 229,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "fc7c80bc41b1b2fc766bb609d1f9c11e0859ad2b5e36ecf69a7bd816ce69f3fd"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          472,
+          519
+        ],
+        "command_format": [
+          912,
+          954
+        ],
+        "location_search": [
+          274,
+          320
+        ],
+        "operational_state": [
+          19,
+          59
+        ]
+      },
+      "flags": [
+        "location_search",
+        "operational_state",
+        "command_format",
+        "alternative_heating"
+      ],
+      "index": 230,
+      "original_target_rule_categories": [
+        "E"
+      ],
+      "reflection_sha256": "fd30dd030f8a6c9a903144d43a9afe0cdcba401c06edfe749ef89f6e679af219"
+    },
+    {
+      "evidence_spans": {
+        "alternative_heating": [
+          236,
+          283
+        ],
+        "operational_state": [
+          280,
+          320
+        ]
+      },
+      "flags": [
+        "operational_state",
+        "alternative_heating"
+      ],
+      "index": 231,
+      "original_target_rule_categories": [
+        "U"
+      ],
+      "reflection_sha256": "fe36f4174fa59bde377cd4d0769696177ad0613d3e3c564ea8b1e88b585e5b79"
+    }
+  ],
+  "evidence": "Offsets into server-private full texts, indexed by exact text digest; raw model responses are not published",
+  "flag_counts": {
+    "alternative_heating": 153,
+    "command_format": 40,
+    "environment_speculation": 103,
+    "location_search": 97,
+    "operational_state": 200
+  },
+  "flags": {
+    "alternative_heating": "Alternative appliance, heat mode or unrelated object heating proposed",
+    "command_format": "Discussion of command syntax, accepted action form, or system recognition",
+    "environment_speculation": "Appliance broken/unusable, object unheatable or unsupported world capability explanation",
+    "location_search": "Named search/location/object retrieval advice; does not assert correctness or utility",
+    "operational_state": "Specific object/tool state or action ordering advice"
+  },
+  "human_second_review": false,
+  "independent_blinded_annotation": false,
+  "manifest_sha256": "dd73b5172e2238c1db3b369f7ada5658299ef46f38c6be2e6f8b5fbe72ab253b",
+  "new_model_calls": 0,
+  "protocol_sha256": "f56bae9c3adbaf26531d0951f41c2b07431d7998c3da53e102a0b8dd4a3c9f90",
+  "reading_file_sha256": "5b6841cdf4831dae61a64da4f0ef0eac44e6d712acabe4e4f01e314f06090364",
+  "scope": "Content-property reading of232 distinct native reflection texts, not utility or causal labels",
+  "sha256": "15aa082118e5a7e178aef303dc493274f8bce59fc762c1a37e2a3fc3a9e9c263"
+}

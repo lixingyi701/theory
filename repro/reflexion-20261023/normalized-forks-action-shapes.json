@@ -1,0 +1,111 @@
+{
+  "command_shapes": [
+    "go to [a-z]+ \\d+",
+    "(?:open|close|examine|use) [a-z]+ \\d+",
+    "take [a-z]+ \\d+ from [a-z]+ \\d+",
+    "move [a-z]+ \\d+ to [a-z]+ \\d+",
+    "put [a-z]+ \\d+ (?:into|in) [a-z]+ \\d+",
+    "(?:heat|clean|cool|slice) [a-z]+ \\d+ with [a-z]+ \\d+",
+    "(?:look|inventory|help)"
+  ],
+  "completed_checkpoints": 31,
+  "counts": {
+    "environment_style_sentence": 8,
+    "public_command_shape": 580,
+    "thought": 458
+  },
+  "driver_sha256": "7b026efea040a1651f43a6f70b9bf98501c08ef290b53de87c236091f6a499a6",
+  "interpretation": "Public command shape does not establish valid entities, satisfied preconditions, or correct planning. Environment-style sentences are actor format violations. Other unmatched shapes require review. Thought no-effects are not physical failures.",
+  "no_effect_counts_by_shape": {
+    "environment_style_sentence": 8,
+    "public_command_shape": 10,
+    "thought": 458
+  },
+  "public_grammar": "installed alfworld/data/alfred.twl2",
+  "public_grammar_sha256": "c5b22f0f73309a7fd7c8e5b71de42ad4803b60766ab4a51cc2feb34162be036b",
+  "review_items": [
+    {
+      "action_excerpt": "You are in the middle of a room. Looking quickly around you, you see a countertop 1, a drawer 6, a drawer 5, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a g",
+      "action_sha256": "11794a7bc518b7c9e93f467a58e48e4c1ff6c3f14b2c4bafdd5ece7a14bf16e9",
+      "checkpoint": "targets/1086f8b6c5294719/branches/discard_new/trial-02/checkpoint.json",
+      "checkpoint_sha256": "0c0237bcdaf716a1207d5f4011e6ec5ffc5ed06efbe036992fd53c303788ae56",
+      "index": 10,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You are in the middle of a room. Looking quickly around you, you see a countertop 1, a drawer 6, a drawer 5, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a g",
+      "action_sha256": "11794a7bc518b7c9e93f467a58e48e4c1ff6c3f14b2c4bafdd5ece7a14bf16e9",
+      "checkpoint": "targets/1086f8b6c5294719/branches/discard_new/trial-02/checkpoint.json",
+      "checkpoint_sha256": "0c0237bcdaf716a1207d5f4011e6ec5ffc5ed06efbe036992fd53c303788ae56",
+      "index": 12,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You are in the middle of a room. Looking quickly around you, you see a countertop 1, a drawer 6, a drawer 5, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a g",
+      "action_sha256": "11794a7bc518b7c9e93f467a58e48e4c1ff6c3f14b2c4bafdd5ece7a14bf16e9",
+      "checkpoint": "targets/1086f8b6c5294719/branches/retain_error/trial-02/checkpoint.json",
+      "checkpoint_sha256": "b5c2029afc2898aa508932c89958668a31566ed8c5727308629d285fbc43f954",
+      "index": 10,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You are in the middle of a room. Looking quickly around you, you see a countertop 1, a drawer 6, a drawer 5, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a g",
+      "action_sha256": "11794a7bc518b7c9e93f467a58e48e4c1ff6c3f14b2c4bafdd5ece7a14bf16e9",
+      "checkpoint": "targets/1086f8b6c5294719/branches/retain_error/trial-02/checkpoint.json",
+      "checkpoint_sha256": "b5c2029afc2898aa508932c89958668a31566ed8c5727308629d285fbc43f954",
+      "index": 12,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You put the bowl 2 in desk 1.",
+      "action_sha256": "d2d15bb6acb5f231bcf7c49a71dffe918ac75d336ff9a5a845337ea2f4bd6d0f",
+      "checkpoint": "targets/a49d33c30b49b863/branches/correct_target/trial-01/checkpoint.json",
+      "checkpoint_sha256": "059a04f82984a1eb695562470fe91163bd6f9674b3f39733495fa9004641c52f",
+      "index": 17,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You put the bowl 2 in desk 1.",
+      "action_sha256": "d2d15bb6acb5f231bcf7c49a71dffe918ac75d336ff9a5a845337ea2f4bd6d0f",
+      "checkpoint": "targets/a49d33c30b49b863/branches/original/trial-01/checkpoint.json",
+      "checkpoint_sha256": "059a04f82984a1eb695562470fe91163bd6f9674b3f39733495fa9004641c52f",
+      "index": 17,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You put the bowl 2 in desk 1.",
+      "action_sha256": "d2d15bb6acb5f231bcf7c49a71dffe918ac75d336ff9a5a845337ea2f4bd6d0f",
+      "checkpoint": "targets/a49d33c30b49b863/branches/retain_error/trial-01/checkpoint.json",
+      "checkpoint_sha256": "6bd7fa5850e4cba3f2a6d23e3846c9fca2d04cbc80de89abc0e169ca2d24da11",
+      "index": 16,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You put the bowl 2 in desk 1.",
+      "action_sha256": "d2d15bb6acb5f231bcf7c49a71dffe918ac75d336ff9a5a845337ea2f4bd6d0f",
+      "checkpoint": "targets/a49d33c30b49b863/branches/sham/trial-01/checkpoint.json",
+      "checkpoint_sha256": "059a04f82984a1eb695562470fe91163bd6f9674b3f39733495fa9004641c52f",
+      "index": 17,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    }
+  ],
+  "run_sha256": "3589faf8facc3102db08e88e4b340542bc45981c3d4f6674c23b9a34c239cab8",
+  "scope": "Executed action shapes under the public numbered-entity grammar; no semantic repairs",
+  "sha256": "f1930d1c72d336a569107210d7a58a6d62a63d4a8f406fb6cad9a345eecc20ca"
+}

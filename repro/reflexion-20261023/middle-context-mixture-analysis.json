@@ -1,0 +1,50 @@
+{
+  "analysis_sha256": "57c9f6b00b576b6b5c3db2732cbb2fc9acf0e28033085dd9ecd6a8818b29d416",
+  "driver_sha256": "b2873fa4fb355b6fef13785f3edd6512a75a635b6f66b5bcc2863b478d70e76a",
+  "parameter_refits": 0,
+  "phases": [
+    {
+      "phase": "middle",
+      "pooled_minus_presence_brier": 0.10579602100482004,
+      "scores": {
+        "pooled_mixture": {
+          "brier": 0.6930432205322133,
+          "log_loss": 1.23254511493702,
+          "success_brier": 0.1934027202306763
+        },
+        "presence": {
+          "brier": 0.5872471995273933,
+          "log_loss": 1.0326936907102466,
+          "success_brier": 0.13094145791240522
+        }
+      },
+      "task_bootstrap_95_interval": [
+        -0.030056695084656273,
+        0.22492841913654174
+      ]
+    },
+    {
+      "phase": "native",
+      "pooled_minus_presence_brier": 0.02941364745011459,
+      "scores": {
+        "pooled_mixture": {
+          "brier": 0.6830699213805929,
+          "log_loss": 1.2602795358129806,
+          "success_brier": 0.18441166345936125
+        },
+        "presence": {
+          "brier": 0.6536562739304784,
+          "log_loss": 1.2403521847925645,
+          "success_brier": 0.23708559584706798
+        }
+      },
+      "task_bootstrap_95_interval": [
+        -0.11346961171323626,
+        0.16338070664850782
+      ]
+    }
+  ],
+  "scope": "Supplementary input-mixture control added during collection; no response outcomes used to derive predictions; original primary comparison unchanged",
+  "sha256": "4561555c013131bcc5d83456d04fea8d7647f6c4a02749af4b5ebfa9ec86162f",
+  "supplement_forecast_sha256": "d5a1cd768d249360b004c85d2b4bb652f2c11b092f7bc1cc6c461d532e4595a8"
+}

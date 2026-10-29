@@ -1,0 +1,1838 @@
+{
+  "attempts": 1553,
+  "content_rows": 276,
+  "content_transfer": "Development-only46-parent conditional transfer; each parent failure contributes once to own posterior, no fit on276children. Compare counts, probabilities and two independent seeds only within each condition.",
+  "decision": "Retain as stage-calibration candidate only if mean primary gain exceeds paired-scene SE and both guards pass. Never automatically promote a causal mechanism or frozen baseline. If failed, close this function branch; do not search another count shape in this stage.",
+  "forms": [
+    "linear_count",
+    "one_native_indicator"
+  ],
+  "guards": [
+    "initial_C_N conditional Brier must not exceed cached linear",
+    "late_error conditional Brier must not exceed cached linear"
+  ],
+  "holdout134_calls": 0,
+  "input_file_sha256": "6681c10a4e1d874c992d2f517dc82c18bc4f671765f5c70c6e5392e2c05a67bf",
+  "input_rows_sha256": "3548f4e8cca6fd64feee3cc403875076d417efbf41ae708a4a57d5a4abc6d264",
+  "limits": {
+    "cpu_wall_seconds": 900,
+    "cpu_workers": 1,
+    "max_parameter_fits": 30,
+    "new_agent_calls": 0
+  },
+  "new_model_calls": 0,
+  "optimization": "Same seven-column task-marginal likelihood, ridge=.01, task scale=1.5; fixed G; candidate27 whole-scene fits+3 full-data starts. Cached linear reference reused, no refit.",
+  "primary": "Existing fixed-start H4 reached Brier risk; equal scenes/tasks/preplanned branches, no realized-length divisor",
+  "protected_files": {
+    "configs/qwen3_8b_non_thinking_wrapper.json": "ae1849a57bdf8f7454fadc3af7593133216bdd2023fb6e42649ce331fdc02b6a",
+    "configs/reflexion_qwen3_8b_protocol.json": "0a1b83abc85ba7c7bd5738e7a8ad64c82f43d5ff8158c36bf25dc0d678cf58f1",
+    "docs/experiments/content-intervention-design-20261028.md": "6e628f386cd65ebab60d75f1b0d9840820cda20d96ef772b68baea4ae6836d42",
+    "docs/experiments/second-attempt-design-20261028.md": "aab47c56582bc022cf0a12958dbbcac0d7ae6ef1c8d1c801f1b03d5b3a34c010",
+    "docs/experiments/seven-compatibility-design-20261027.md": "c489ebbb91d1192a37f0ed6d195872746523c82a08ee0fae590594a9976a7456",
+    "docs/experiments/seven-parameter-development-design-20261027.md": "4120ca0e393a912712d468a0a693f35f9dee6d0b3f6b315e9ab07e5dc690b56c",
+    "docs/experiments/seven-reached-risk-design-20261027.md": "5a079f9770cab71920181f4215f8fe061d1acff0509e48b9285b8f82910e843a",
+    "docs/experiments/seven-sequential-objectives-design-20261027.md": "8e039f1d6d47239c86f85a60e9d079c1344f9b5cd6c0a745f1c922814f078201",
+    "docs/experiments/stage-calibration-design-20261029.md": "3f814f702ed817755c9e2386fe2834f932b87ad872acbc90c04d3dc8a1a398ba",
+    "docs/experiments/successor-validation-design-20261026.md": "7e8668acd6287faa59c41628b7e92db237d7d3502c7e7eaf8bab39b7c132055b",
+    "repro/baseline-20261019/holdout134.json": "5755a0305d6ef9cff30d3cbe78146d55a45498124790c2f4f664042d09df2016",
+    "repro/reflexion-20261025/content-intervention-interface-20261028.json": "6ba3c795d7e6e6dcec09701d139d894425aafd26d2ead43758c86fa642ce745d",
+    "repro/reflexion-20261025/content-intervention-manifest-20261028.json": "778fb7cecf7fba4b77bd0c93ce02f1453172b2434227abbe3cbcceedbb6bb006",
+    "repro/reflexion-20261025/content-intervention-registry-20261028.json": "d534da6eed7b5acdd8785fa657109f2e37d2ca9dac95fff20a9da72f46d21546",
+    "repro/reflexion-20261025/content-intervention-results-20261028.json": "0fc6ebaf68d6fb3a7e289395b59d0c2552c43fdf30eeef0da468245019a23417",
+    "repro/reflexion-20261025/content-intervention-tokens-20261028.json": "01b26a96592d847593ff2ddbf9a735060c40102b8f3a2fee9c736c83a3054ea7",
+    "repro/reflexion-20261025/second-attempt-manifest-20261028.json": "337d2ed6c059d4867e07c72a8699f7aaa97e110ccbe0d68b93d893e8b7d1109d",
+    "repro/reflexion-20261025/seven-compatibility-audit-20261027.json": "1cdccc4932682df5d036dfaabc8298c47d91808c1e39b75f6cfe2285ceaacc9f",
+    "repro/reflexion-20261025/seven-compatibility-protocol-20261027.json": "b3640d6f9bd05cd310e850ca5a76efc8312ed83ad91f263521a443cbf94d06b3",
+    "repro/reflexion-20261025/seven-compatibility-results-20261027.json": "3142339eb05eb5f4515ec95d8f7fb5355e4403fafe99d1ee9758db9624de3fdf",
+    "repro/reflexion-20261025/seven-parameter-development-audit-20261027.json": "4ef6a74479360c9b1ce5219ea0fe9c1d4b8295ba74fec9be600f25146086aec3",
+    "repro/reflexion-20261025/seven-parameter-development-predictions-ridge0.01_scale0-20261027.json": "d5ecb15ec1eb7170238e5f4bc3b4ced1cdd3d6dc4d501dd1240f638af5e70ec6",
+    "repro/reflexion-20261025/seven-parameter-development-predictions-ridge0.01_scale1.5-20261027.json": "e5a9c33a05d18bea3496362eab09d051e53f1974f3ec8dca5423fb4066415252",
+    "repro/reflexion-20261025/seven-parameter-development-predictions-ridge0.1_scale0-20261027.json": "4c982363a6ed2d568654059ece17dff20ab6521e25acea356d32d4cc9581020f",
+    "repro/reflexion-20261025/seven-parameter-development-predictions-ridge0.1_scale1.5-20261027.json": "64da146a78e8de307b10fe626ab4c43fb39399596c87366ef79520a0f93f483f",
+    "repro/reflexion-20261025/seven-parameter-development-predictions-ridge1_scale0-20261027.json": "b3744d23e791ba979276666817c52dd7f925521b5af117288e7c20d0ba3f6c33",
+    "repro/reflexion-20261025/seven-parameter-development-predictions-ridge1_scale1.5-20261027.json": "1e5d0e9075214a1aedf46a7dd9a3ac63f5efcdb10f83b8eb47cb7d25bf120d03",
+    "repro/reflexion-20261025/seven-parameter-development-protocol-20261027.json": "6dbd686c8802a099d391eeb6d37d0ff5973b55b97d2ad8e64a0bb0a2d1e8f9bd",
+    "repro/reflexion-20261025/seven-parameter-development-results-20261027.json": "3abb036402f90427a08fc7ccefc1f9cbc9db1ce44212942da3f4bf518e301096",
+    "repro/reflexion-20261025/seven-reached-risk-audit-20261027.json": "e669aa510e48b61e4a469b67478426e85969e19fcc4ebe653dba8e59d46ab3a3",
+    "repro/reflexion-20261025/seven-reached-risk-predictions-prequential_brier-20261027.json": "2f79c5a1bb789bc7a079d925856287a5e5659e56f7090cd99817ef92fd9dde7a",
+    "repro/reflexion-20261025/seven-reached-risk-predictions-prequential_log-20261027.json": "18ca8c45682495a27df96407e76e2de0a5316b713577e686fe46be7618515964",
+    "repro/reflexion-20261025/seven-reached-risk-protocol-20261027.json": "aa249bc358e3bf10de0e0a901278ea692f168d7b7a66d74cc86e6302e31f4f95",
+    "repro/reflexion-20261025/seven-reached-risk-results-20261027.json": "5a88de082099790cb9391cb3aad2d8fbf385b66bf9dac5faa3478a1c9c1e9eba",
+    "repro/reflexion-20261025/seven-sequential-objectives-audit-20261027.json": "432505ee2ee397f486b93578eda70ac58ddd0843ddf11900ef120628ebc89f1f",
+    "repro/reflexion-20261025/seven-sequential-objectives-predictions-prequential_brier-20261027.json": "11f13dd468b460fd9652429fb4b905a107360b8c1c70100558c7f47228b52471",
+    "repro/reflexion-20261025/seven-sequential-objectives-predictions-prequential_log-20261027.json": "de121fba966fb82443367b779a0de9522347dc65d166239774b0b96f85709dd9",
+    "repro/reflexion-20261025/seven-sequential-objectives-protocol-20261027.json": "2c2ef2a36c10a492bfafa2090285bea3132cf1a4020f20fc867d15b721aa23bf",
+    "repro/reflexion-20261025/seven-sequential-objectives-results-20261027.json": "637871f3e6de44a85188efb23285865e76aa9cc380cbda231cdff84a412a1e75",
+    "repro/reflexion-20261025/shared-validation-protocol.json": "5c50631382ac2ae8db6a482a9fa3beb84ddbee4affbfb4457857578df1056768",
+    "repro/reflexion-20261025/successor-complete-diagnostic-metrics-20261027.json": "c5c7211e48b96a1a8f980b829bf1c433f70b01d0f9ea6abc417aef00a3e9f68a",
+    "repro/reflexion-20261025/successor-development-parameters-20261026.json": "50ba93dd3cff0d3778cf18ba7ff57c0ef87247dfa1958df497110c646f71496a",
+    "repro/reflexion-20261025/successor-late-semantic-labels-20261027.json": "3908629f6568ffd86e7f5efd1aadb63c4a2987ff568a2a66f765a7afad516127",
+    "repro/reflexion-20261025/successor-remaining-semantic-labels-20261027.json": "f172e3563509a9c936b86d09cb9e7291c1cf40e2b85952b0c7ff20abd250bb24",
+    "repro/reflexion-20261025/successor-reset-checks-20261026.json": "e21423be695eebbc57d1f6eea6489126e4baa31a3be78558230d9655cd77eae3",
+    "repro/reflexion-20261025/successor-validation-expanded-manifest-20261026.json": "6f6973393959a0c3ae01f3a3f0295ba57c2e0c1aa360b88f9f969754af587a89",
+    "repro/reflexion-20261025/successor-validation-expanded-plan-20261026.json": "837c2f4c5cf8ac2a526700c44b049f7e48d00b9dd2e5e34aff9710e79a5707cc",
+    "repro/reflexion-20261025/successor-validation-observed-20261026.json": "83bcb0a100e48829a087c32d6e6e3143b33d7245edf861041509d8a815c7a499",
+    "runs/reflexion-seven-parameter-development-20261027/input-events.json": "6681c10a4e1d874c992d2f517dc82c18bc4f671765f5c70c6e5392e2c05a67bf",
+    "scripts/analyze_stage_calibration.py": "b5047abbed75f253ba784f37533b1097f10448dd91e86250a752050fa9bf72ca",
+    "scripts/audit_content_tokens.py": "051be33c57b68cccaf90bbe0a0b1754a533deb20554abd148d26ed5cdcb5bdc7",
+    "scripts/audit_reflexion_action_shapes.py": "7b026efea040a1651f43a6f70b9bf98501c08ef290b53de87c236091f6a499a6",
+    "scripts/audit_reflexion_protocol.py": "265f2fbaf841e6937ed51a0211ee0fe998ed022b31ac378d58be7284722e6ffe",
+    "scripts/calibrate_successor_success.py": "f3d0aa06f7f80b4ba5ee9667383da866603369c4e3edf58d2e4354d67f1b7c8b",
+    "scripts/compare_seven_reached_risk.py": "a5f2dfddd3b6330bb20ba3463a39f29176f0d43d380b60915a5ce4eb85eaf60a",
+    "scripts/compare_seven_sequential_objectives.py": "6d7d438daf8cccf97993685f4724b6e025efb5f5459ce0c7aba75d193a55b76c",
+    "scripts/compare_stage_calibration.py": "ca5b5a0de580fbfd5a4680fb011923050da38dca311a320b926a046cb278485b",
+    "scripts/continue_reflexion_pilot.py": "126949ac4e32a66819965717cc074711b7e3a8ad58be5d6598ec77d698fd7ab7",
+    "scripts/deployment/serve_reflexion_profiles.py": "fa6da89576a4b49636febd0d61ad51dcd7274c41ad2a7182a0412440710e4cf1",
+    "scripts/develop_seven_parameterization.py": "4d101a00325ff07ee009b0218a07b597681d8f8cb7df43aa99f4943c51652078",
+    "scripts/diagnose_second_attempt.py": "6d69b035169c295902992240b69cb30c85f36a0ec9edcce82ce93e6582aadaf7",
+    "scripts/diagnose_success_regularization.py": "e86b02c3d42911ee45ee3543fa2c6a5bc0c0c4b5e37e9715b9d4f4a271e79db7",
+    "scripts/evaluate_content_intervention.py": "115e9b34c77af5469fb59b6fcab429aefc3b50a52b2d0b4a3a86dc9eabce7da7",
+    "scripts/evaluate_successor_validation.py": "bb33e296d67f58076196db5fb2262531bb0fff4fae1665c24b60b6b5397ced49",
+    "scripts/finish_successor_validation.py": "2ca5b8f14fb348b0b49b7f0b99b5e27aa3dce129c688ecad44b8fa93455eeb43",
+    "scripts/prepare_content_intervention.py": "070084624a9b92f36d4ed1dd7e36eec85d4f05fda521c0ea87160b87cc693ff7",
+    "scripts/prepare_content_variants.py": "78da52bf8931adf947fa317af7eeb8741712bbf6691e6705f70aa469dd96028b",
+    "scripts/prepare_shared_calibration.py": "1de6e45de17cbdb91697803c7d1c738ec1ac305dcb4f0e08077907c7bfa3382d",
+    "scripts/prepare_successor_protocol.py": "1d51e4180c3b483a9c9f738a2cda74183c21ddc9647c28183a18d4f386e721ae",
+    "scripts/profile_seven_compatibility.py": "4e6c93ea57b7a4c3346acbd5b4c73307779c461341051c646864c48dbbd43048",
+    "scripts/run_content_campaign.sh": "a93c075015ad6c421b20444d8a39808c7a488fe85b754c9c77b31c439b4773b6",
+    "scripts/run_content_intervention.py": "639e73bef6feb3a95c73a98a881060d900455cc6dc2379679f91fdef4b4d7cf5",
+    "scripts/run_middle_context_transport.py": "14014ff157e9ebc3badbae4f9b5946628c7f0c214ba6faeba306839642578012",
+    "scripts/run_multiround_diagnostic.py": "4781d83c25dd7f35238e637e2b5eaf2d68483cc6619ffd90a4b9dbeeb97c8bdf",
+    "scripts/run_residual_context.py": "d86170864560be62f39ca80c768fa9b8a6b7b4fe7691c8fdb6fa223fc4b3f673",
+    "scripts/run_shared_calibration.py": "70a973fd27b8a4d8bde939cf4dd132ae6519ec7243eeb43bafb65ca6ee515e5b",
+    "scripts/run_successor_campaign.sh": "eb776be703c1d2281a153c27c0ec0289d44f292d8a6f563a4d2d78f069185a35",
+    "scripts/run_successor_validation.py": "193811740dbc238972e26da2ee48b1f7d4dfe697bea18b35adb95b6fc5e86112",
+    "scripts/shared_recovery_model.py": "d5fe54281f948d4675de08057d0cd4c7789fe580535dcce0682f3a245acaae71",
+    "scripts/summarize_reflexion.py": "e5372f9609a9a11e0abd1d1859e00c06b343b0064556a31b5e47c3944893aadc",
+    "src/agent_reliability/reflexion.py": "a38a847a6f7991038fe3e02505b20f196d95be552a86451eee4088526cff2a08",
+    "tests/test_multiround_diagnostic.py": "55a2f8b531d23dcfc4b4b13c18e81b4ee0ed8603b4a9c230f8ed35c49c996d66",
+    "tests/test_successor_validation.py": "684bc5c5162e2a71a291853422614d36dd945077df590e59c2b2372e18a369f8",
+    "third_party/reflexion/alfworld_trial.py": "fd5ca08e13baed73d65d3c3b156ad4f1e82f94afc72444c53d45cbd208efc6a7",
+    "third_party/reflexion/env_history.py": "b41ee4eacbdb6f98b136f88ae2051de4bb65b583742c952ff100230090c87d0e"
+  },
+  "recovery_curves": "Descriptive reuse of existing25-scene recovery panel, all3arms and budgets1-4, paired scene t95 df24; no new confirmatory claim or refit on those curves.",
+  "reference_config": {
+    "name": "ridge0.01_scale1.5",
+    "ridge": 0.01,
+    "scale": 1.5
+  },
+  "reference_prediction_sha256": "f8547a0ed7abb3cbedfdc0cb6fa53aaa1af111276179945f626449c64924623e",
+  "scenes": 27,
+  "scope": "One development-only stage calibration test; not identification of native-memory effect",
+  "sha256": "a1709b4082b65024a0f2fb88377895a888440dda84106cccfdcc1970f23c0077",
+  "structure": {
+    "child_branches": 276,
+    "content_rows_added_to_fit": 0,
+    "fixed_coefficient_content_prediction_invariance": true,
+    "mechanism_parent_inventory": {
+      "candidate_parent_records": 265,
+      "rule": "First-attempt failure, new reflection E, one identity-only selected parent per task; no later-success eligibility",
+      "scenes": 26,
+      "selected": [
+        {
+          "result_file_sha256": "cbf202a65d9e71bc3563b0a99da377adce022896e2023cf3786a6c47f20168b9",
+          "scene_id": "FloorPlan22",
+          "source": "original_calibration",
+          "task_id": "0193122f8263d044",
+          "trajectory_id": "shared-0193122f8263d044-2113-repeated_error",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "1e16d240d29fdbfb3eb187f6ad46a5d1bdb5702906a73cd9e0652c1a8ba399db",
+          "scene_id": "FloorPlan24",
+          "source": "completed_successor_primary",
+          "task_id": "03e265533a883915",
+          "trajectory_id": "successor-03e265533a883915-2140-correct_middle",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "c7a9363aba34f4f04bafcb6b1ad23cba3c2fe75a1c1870ec2871a737c231a419",
+          "scene_id": "FloorPlan18",
+          "source": "original_calibration",
+          "task_id": "0481e02113a10e32",
+          "trajectory_id": "shared-0481e02113a10e32-2116-correct_oldest",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "92c21bd7004c2ff70444a8b5254b70e3f956650a636b0270b7a2669a3c120df3",
+          "scene_id": "FloorPlan16",
+          "source": "original_calibration",
+          "task_id": "122bb94118ee1cb4",
+          "trajectory_id": "shared-122bb94118ee1cb4-2113-repeated_error",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "7aef03ae4d83da99f6e48b227a5bc52823885de2e9b2c0922061a4b3bf59528a",
+          "scene_id": "FloorPlan4",
+          "source": "original_calibration",
+          "task_id": "13cc78cc6be8645e",
+          "trajectory_id": "shared-13cc78cc6be8645e-2112-neutral_full",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "40380f271c32cc3421db823d0db4d729e8b4dd2dadbdcae9ccb4ef2a85389284",
+          "scene_id": "FloorPlan8",
+          "source": "original_calibration",
+          "task_id": "16cf7201c053e35b",
+          "trajectory_id": "shared-16cf7201c053e35b-2114-correct_latest",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "1267421b0c0fb6efe06e5e51d72f4b21d2a7e3cecb3792f6d37dc58c57b65399",
+          "scene_id": "FloorPlan1",
+          "source": "completed_successor_primary",
+          "task_id": "17439ac746bca8b0",
+          "trajectory_id": "successor-17439ac746bca8b0-2141-correct_middle",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "95f765c938f5745a003004fed0bbcb527ba7caa4701ed8a5e28c9ac1eb3e07ea",
+          "scene_id": "FloorPlan5",
+          "source": "completed_successor_primary",
+          "task_id": "179e7eca229fd634",
+          "trajectory_id": "successor-179e7eca229fd634-2141-correct_middle",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "9b0df7e26742689828422a2359c5201493aaf7e2946ae5bc87b55679272d9459",
+          "scene_id": "FloorPlan7",
+          "source": "completed_successor_primary",
+          "task_id": "19cbf89f0696f384",
+          "trajectory_id": "successor-19cbf89f0696f384-2140-correct_middle",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "037d47d6d6c2816b517a07da384364be1bbfef22907e7347aae85f6167cf6654",
+          "scene_id": "FloorPlan26",
+          "source": "successor_review",
+          "task_id": "1af24310a9afee4e",
+          "trajectory_id": "four-1af24310a9afee4e-2131-correct_middle",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "a47330eacd75637a361b9aa97462fca2a19a84a6de50ae8ba9ef5b9f9f52a0dd",
+          "scene_id": "FloorPlan30",
+          "source": "completed_successor_primary",
+          "task_id": "1b5855b199984e16",
+          "trajectory_id": "successor-1b5855b199984e16-2141-neutral_full",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "795901a34f07bbb15e61ece8641b04fa41a56e20932e9a5ee5e0829404ef5784",
+          "scene_id": "FloorPlan19",
+          "source": "original_calibration",
+          "task_id": "1c1dc93025333ed0",
+          "trajectory_id": "shared-1c1dc93025333ed0-2113-repeated_error",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "3b00f32662a4037f33352378246d082503e7b5638315ed1952af6b0eb57a61bc",
+          "scene_id": "FloorPlan5",
+          "source": "completed_successor_primary",
+          "task_id": "1c91db8017db8cfd",
+          "trajectory_id": "successor-1c91db8017db8cfd-2141-neutral_full",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "b7b70932b0c0fb013006674c08bb52871252a645a1113004de40742e80a19541",
+          "scene_id": "FloorPlan7",
+          "source": "original_calibration",
+          "task_id": "1d11d901768427f8",
+          "trajectory_id": "shared-1d11d901768427f8-2116-correct_oldest",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "74c72a6a07d93e9a03810946b7b8eebd204945ff038be68099021e819d9b81cd",
+          "scene_id": "FloorPlan12",
+          "source": "completed_successor_primary",
+          "task_id": "1d9844e0a6047988",
+          "trajectory_id": "successor-1d9844e0a6047988-2141-correct_middle",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "0a6dfecd7a710a94f526f09c16c4fe718914fa1667fa5219a3581b5f5846963e",
+          "scene_id": "FloorPlan30",
+          "source": "completed_successor_primary",
+          "task_id": "22248e0d186bde45",
+          "trajectory_id": "successor-22248e0d186bde45-2141-correct_middle",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "617da827a024b5f4c110bd62e0a53cd23c690bfb94c7c5e8d80e30e0465d385c",
+          "scene_id": "FloorPlan8",
+          "source": "completed_successor_primary",
+          "task_id": "234b316dbfb71f51",
+          "trajectory_id": "successor-234b316dbfb71f51-2140-neutral_full",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "5dbc4fb919609ddaf62a31505537c798ac34360373686b8f23171def3e717009",
+          "scene_id": "FloorPlan23",
+          "source": "completed_successor_primary",
+          "task_id": "24b79d7b4880679f",
+          "trajectory_id": "successor-24b79d7b4880679f-2140-neutral_full",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "d8d64ca2c8a1456b2ac5097a004a74c899346b0df04c9a27e4fc720d56400e31",
+          "scene_id": "FloorPlan6",
+          "source": "original_calibration",
+          "task_id": "2788e10c07186b65",
+          "trajectory_id": "shared-2788e10c07186b65-2110-error_middle",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "ba8e5dde5fe9149b0bec4b3b668bf8e3b55a32689ab554fe724f39fc67c3f51a",
+          "scene_id": "FloorPlan13",
+          "source": "original_calibration",
+          "task_id": "2c66103418765969",
+          "trajectory_id": "shared-2c66103418765969-2112-neutral_full",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "c158e85f68e1f42de4dc3b43ef2a65198b5fb68e088b5ef577191e609f84cf58",
+          "scene_id": "FloorPlan20",
+          "source": "completed_successor_primary",
+          "task_id": "2f6381e53c96168d",
+          "trajectory_id": "successor-2f6381e53c96168d-2140-correct_middle",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "68559d66f2020762e09a5041e79e8c6a028ea59c31205a678ef2cc62e91f1d1e",
+          "scene_id": "FloorPlan12",
+          "source": "completed_successor_primary",
+          "task_id": "315c648a16ea5678",
+          "trajectory_id": "successor-315c648a16ea5678-2140-correct_middle",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "1ed66d2da9485e24ac95a5b3f4e9ecd378821e2c0b9a46c4ac89de74d4ab9a06",
+          "scene_id": "FloorPlan6",
+          "source": "successor_review",
+          "task_id": "3282b836b8e26309",
+          "trajectory_id": "four-3282b836b8e26309-2131-correct_middle",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "c42f65dc8b83cfae79a6fc76a38117f32529ab9b2f8a4f88dbf5758dfa77fc97",
+          "scene_id": "FloorPlan13",
+          "source": "original_calibration",
+          "task_id": "41f9231e4622f886",
+          "trajectory_id": "shared-41f9231e4622f886-2116-correct_oldest",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "9f040b81fa184308286566314c6f6b6e3ed3814d0c29d6bcd414d2d6966cc391",
+          "scene_id": "FloorPlan2",
+          "source": "completed_successor_primary",
+          "task_id": "434b1714d31f1795",
+          "trajectory_id": "successor-434b1714d31f1795-2141-neutral_full",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "35823eff6edbb528a0844877f476990ff9513ff8e52ec4948ec5375326d13568",
+          "scene_id": "FloorPlan13",
+          "source": "completed_successor_primary",
+          "task_id": "4539fdc234699db0",
+          "trajectory_id": "successor-4539fdc234699db0-2141-correct_middle",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "ddd69b132d1a013ae05944f36baa983e43113e1b434e47975fa1b28ea1c0ecd1",
+          "scene_id": "FloorPlan16",
+          "source": "original_calibration",
+          "task_id": "477472f651cd3a9a",
+          "trajectory_id": "shared-477472f651cd3a9a-2113-repeated_error",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "470718149532d180e79f3b8d99b458bcb621852654a8ecd02b2dc3c048d740ec",
+          "scene_id": "FloorPlan22",
+          "source": "original_calibration",
+          "task_id": "482e5598a4a0d0a2",
+          "trajectory_id": "shared-482e5598a4a0d0a2-2116-correct_oldest",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "d8144d3bda049da8b7b0961e61a604df81440831b79b4bdf979d6fc390510bd1",
+          "scene_id": "FloorPlan30",
+          "source": "original_calibration",
+          "task_id": "4a1ecfce1eeba6d8",
+          "trajectory_id": "shared-4a1ecfce1eeba6d8-2114-correct_latest",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "25adf40fcd2d2366ee9773db9584be7be703436f94242a918dbca5a1cd9a22bc",
+          "scene_id": "FloorPlan30",
+          "source": "successor_review",
+          "task_id": "4f2a083f060ac931",
+          "trajectory_id": "four-4f2a083f060ac931-2131-neutral_full",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "ae5219d1be4126a04e76432e92439524f87453acf4b0b605ac4bbdfc9adea3ac",
+          "scene_id": "FloorPlan20",
+          "source": "completed_successor_primary",
+          "task_id": "529d009fd6280b93",
+          "trajectory_id": "successor-529d009fd6280b93-2141-neutral_full",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "5c340972c12d56f5c5bd66d7d87e2dd58592e16f7b1fa6f4ed90aec7132526b6",
+          "scene_id": "FloorPlan23",
+          "source": "completed_successor_primary",
+          "task_id": "55683c743578b6d0",
+          "trajectory_id": "successor-55683c743578b6d0-2141-correct_middle",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "ddc72a23dcc3245076bb6f041843eb64f02f6aff56477ed8b9e85f1d76fffe3c",
+          "scene_id": "FloorPlan30",
+          "source": "original_calibration",
+          "task_id": "571c8d1132841622",
+          "trajectory_id": "shared-571c8d1132841622-2110-error_middle",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "03b812c11a0fc73c1f0bcb14c588dccc6b531f770f8051c43a02c5313d045cdd",
+          "scene_id": "FloorPlan18",
+          "source": "completed_successor_primary",
+          "task_id": "58db92a5c2f7d04a",
+          "trajectory_id": "successor-58db92a5c2f7d04a-2140-neutral_full",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "1590554e3b0f75ccc9e2bdf5737a82521eaefed5820af034c86d3dc3ee3c7f68",
+          "scene_id": "FloorPlan24",
+          "source": "original_calibration",
+          "task_id": "595a69bb99314dd8",
+          "trajectory_id": "shared-595a69bb99314dd8-2114-correct_latest",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "d23b065018e596655a28e5f458648fc6a0c90ef52fb02a3016e866482c7c2254",
+          "scene_id": "FloorPlan28",
+          "source": "completed_successor_primary",
+          "task_id": "59e0b433d9cca3bc",
+          "trajectory_id": "successor-59e0b433d9cca3bc-2140-correct_middle",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "3d593a6864872fa9c30226dfc045a602502bed81fc620457db04d88965819193",
+          "scene_id": "FloorPlan19",
+          "source": "original_calibration",
+          "task_id": "5ae9d904c27dde9f",
+          "trajectory_id": "shared-5ae9d904c27dde9f-2115-delete_latest",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "52c82de5d771a4f10046a708d8e5d10e2cc4cde791140684634c0e00f67b2d2d",
+          "scene_id": "FloorPlan17",
+          "source": "completed_successor_primary",
+          "task_id": "5f54038becd69118",
+          "trajectory_id": "successor-5f54038becd69118-2140-neutral_full",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "a017b16131d7c8c830920313b19343f99b9bfd2394493e595e62a67c5d4da680",
+          "scene_id": "FloorPlan27",
+          "source": "original_calibration",
+          "task_id": "5fc36209409f9f02",
+          "trajectory_id": "shared-5fc36209409f9f02-2112-neutral_full",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "cfdbc1e514dfebd0b6272cc2543c20c5ce6fa0ace9e332461ae759408ed0dbf9",
+          "scene_id": "FloorPlan17",
+          "source": "original_calibration",
+          "task_id": "66348a1792a34f8f",
+          "trajectory_id": "shared-66348a1792a34f8f-2114-correct_latest",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "dc6743cbd635bb8fa6562fc762a0690c331334c22ccb7e31df27c7b4153b5be4",
+          "scene_id": "FloorPlan19",
+          "source": "completed_successor_primary",
+          "task_id": "69364ec70ae29f24",
+          "trajectory_id": "successor-69364ec70ae29f24-2140-neutral_full",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "ff361e6af8d42f7335902853a2418c47e569ce8430fecfb5ad9a35e96ee265a1",
+          "scene_id": "FloorPlan12",
+          "source": "successor_review",
+          "task_id": "6bd27740d0343d65",
+          "trajectory_id": "four-6bd27740d0343d65-2130-correct_middle",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "cd874a9149418dc0f1774e18c724310e84fbdd106703cd2ea5c1ff3043f7e7b0",
+          "scene_id": "FloorPlan6",
+          "source": "completed_successor_primary",
+          "task_id": "6c10fc977b8559fb",
+          "trajectory_id": "successor-6c10fc977b8559fb-2141-correct_middle",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "ce11480c6d85ca6df92257b3138288f8b280bcf0629493ac7846ae35eb2627b4",
+          "scene_id": "FloorPlan12",
+          "source": "original_calibration",
+          "task_id": "6e3613025375b9b9",
+          "trajectory_id": "shared-6e3613025375b9b9-2116-correct_oldest",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "1894d19fa0b6463dcd34be49a8311a0e32bd9ab59d6f6cf147fa43161ae0b82e",
+          "scene_id": "FloorPlan24",
+          "source": "completed_successor_primary",
+          "task_id": "700bc4612f2c1308",
+          "trajectory_id": "successor-700bc4612f2c1308-2140-neutral_full",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "e01267256988b3c0ba81cb98ae3ba008528e50086b4c9c41118f04b31f8334b5",
+          "scene_id": "FloorPlan8",
+          "source": "completed_successor_primary",
+          "task_id": "72d32a99c3c21ff5",
+          "trajectory_id": "successor-72d32a99c3c21ff5-2141-neutral_full",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "09d36ed419e44fb02d62fbadf2b5120750932c4f8e6d11ebf2ba4f015bd89c80",
+          "scene_id": "FloorPlan28",
+          "source": "successor_review",
+          "task_id": "751f641ce4dccfe8",
+          "trajectory_id": "four-751f641ce4dccfe8-2131-neutral_full",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "4316975e4813984c4a4d12d3d0cad67ac0b9d34afdbc1af3c3e9483bca77ec6d",
+          "scene_id": "FloorPlan1",
+          "source": "completed_successor_primary",
+          "task_id": "800b8f334975013a",
+          "trajectory_id": "successor-800b8f334975013a-2140-correct_middle",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "d06f00b9ede25c442d486b0c250d0a3361b1989277ba35fe8b98cdc58ef241d8",
+          "scene_id": "FloorPlan17",
+          "source": "original_calibration",
+          "task_id": "82d517a0a91ce890",
+          "trajectory_id": "shared-82d517a0a91ce890-2115-delete_latest",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "b22512395fa800f7e75ce7e174155198a1944ab70c8edc6b65a424896ab09183",
+          "scene_id": "FloorPlan18",
+          "source": "original_calibration",
+          "task_id": "836aa7b6a7651832",
+          "trajectory_id": "shared-836aa7b6a7651832-2113-repeated_error",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "2130b7191d6fc59a86bc94dc2f97b870cfdbf68fbe82a9fb065457178d443da7",
+          "scene_id": "FloorPlan13",
+          "source": "completed_successor_primary",
+          "task_id": "960719633ac3e905",
+          "trajectory_id": "successor-960719633ac3e905-2141-correct_middle",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "98a438d662a5fec3bb11ab25df3a61d95effebec9307e48331e63d63ca1622a0",
+          "scene_id": "FloorPlan18",
+          "source": "completed_successor_primary",
+          "task_id": "9762812a9966c357",
+          "trajectory_id": "successor-9762812a9966c357-2141-neutral_full",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "ce648f08385f0fba89e6410ee62032012a3aed5a98e34235a6f1e990906e2351",
+          "scene_id": "FloorPlan4",
+          "source": "original_calibration",
+          "task_id": "981acc3de21dbb59",
+          "trajectory_id": "shared-981acc3de21dbb59-2113-repeated_error",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "0487b8c244a2f59bedef18e40b221c566ffba0bb92ef01c2013894fa079e5e20",
+          "scene_id": "FloorPlan1",
+          "source": "successor_review",
+          "task_id": "9b4a791110f1400e",
+          "trajectory_id": "four-9b4a791110f1400e-2131-correct_middle",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "87eba49c24dab44e8326c71d00f0d935283104882f6216026591c246da7549eb",
+          "scene_id": "FloorPlan21",
+          "source": "completed_successor_primary",
+          "task_id": "9b9bb8465fc6b6f5",
+          "trajectory_id": "successor-9b9bb8465fc6b6f5-2141-neutral_full",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "8aa80c27381462c92b0959c868da8557d7b8505e5f179fde390fdb1b5d07616c",
+          "scene_id": "FloorPlan22",
+          "source": "completed_successor_primary",
+          "task_id": "9d48a901bc16cf36",
+          "trajectory_id": "successor-9d48a901bc16cf36-2140-correct_middle",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "3d2afec19cfa30d0e1d67f1fa511a8d07bd79adad39004390da8eaa34c635710",
+          "scene_id": "FloorPlan25",
+          "source": "completed_successor_primary",
+          "task_id": "a2454b1f59b0d2ba",
+          "trajectory_id": "successor-a2454b1f59b0d2ba-2140-neutral_full",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "1a48f8b3363ed19acada1c4ac6b3d5708c4becd96ba07b2c6aee372a55b2b6d5",
+          "scene_id": "FloorPlan8",
+          "source": "original_calibration",
+          "task_id": "a6434f28fb75de70",
+          "trajectory_id": "shared-a6434f28fb75de70-2115-delete_latest",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "612d902a0735c9576b877b9b900a8d3f59a0a27be2095607d3cb8a36827c8bfd",
+          "scene_id": "FloorPlan6",
+          "source": "original_calibration",
+          "task_id": "a6a9a4f9e971d730",
+          "trajectory_id": "shared-a6a9a4f9e971d730-2113-repeated_error",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "3908eb37c4d99cf3ca00c8af91667b49ebbbcdf796c3699a5ca75fe2a7dada05",
+          "scene_id": "FloorPlan7",
+          "source": "completed_successor_primary",
+          "task_id": "aa2cb3af5db49643",
+          "trajectory_id": "successor-aa2cb3af5db49643-2140-correct_middle",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "d5aaf9a465edb3ac3725b937d4963cce9f573176de7c0467727f3505ba863d1d",
+          "scene_id": "FloorPlan23",
+          "source": "successor_review",
+          "task_id": "af404ef5d68432e3",
+          "trajectory_id": "four-af404ef5d68432e3-2130-correct_middle",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "5890b56262f581d83a741f27715c80087e6579c1b86c522adc858d83fa5475ea",
+          "scene_id": "FloorPlan25",
+          "source": "completed_successor_primary",
+          "task_id": "b176703c0f277412",
+          "trajectory_id": "successor-b176703c0f277412-2141-neutral_full",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "e5c67bfcc44f51d6d707e0ba4bf572232748abf107823d3815969e9fb2c7d918",
+          "scene_id": "FloorPlan21",
+          "source": "original_calibration",
+          "task_id": "b268d0a4b6a9f769",
+          "trajectory_id": "shared-b268d0a4b6a9f769-2112-neutral_full",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "c42e4bb993e9e07014e86e765cabef07bc9a60d362d737ec39faa7fe02d3ba2f",
+          "scene_id": "FloorPlan8",
+          "source": "completed_successor_primary",
+          "task_id": "b36a8c185daa6a0b",
+          "trajectory_id": "successor-b36a8c185daa6a0b-2140-neutral_full",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "c29f403a8d4f9a3f033be2918df3c2a9f089364d1963129abfb16d3135b666bb",
+          "scene_id": "FloorPlan3",
+          "source": "original_calibration",
+          "task_id": "b6f17dd2908f742a",
+          "trajectory_id": "shared-b6f17dd2908f742a-2113-repeated_error",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "451a7589df2d2fc0eb0c9bc1875c9705776114526be8ed84d10955cdb6139e67",
+          "scene_id": "FloorPlan15",
+          "source": "original_calibration",
+          "task_id": "be945adadf8d8508",
+          "trajectory_id": "shared-be945adadf8d8508-2115-delete_latest",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "7d58769e3fd26a11e12f628fea648ee4dd984b121e8daebc7c58c7cea4d2bccb",
+          "scene_id": "FloorPlan17",
+          "source": "completed_successor_primary",
+          "task_id": "c2fe17bf60e7db4b",
+          "trajectory_id": "successor-c2fe17bf60e7db4b-2141-neutral_full",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "412f081e464ed787e6864d19b370f3d034bed082a56665a28161ceb401a4e2c2",
+          "scene_id": "FloorPlan19",
+          "source": "completed_successor_primary",
+          "task_id": "ca6e773b2e93f1df",
+          "trajectory_id": "successor-ca6e773b2e93f1df-2141-correct_middle",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "bdedb596475293de5aee762f1e5b22426f6b02bab3e81818f4e6f69a0ae904fb",
+          "scene_id": "FloorPlan25",
+          "source": "original_calibration",
+          "task_id": "cc65a5c3be2ea945",
+          "trajectory_id": "shared-cc65a5c3be2ea945-2111-correct_middle",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "8334a1b90a78951ad7752c3b40a40f492b45b857d40db91e7e190fdf2d04e3ea",
+          "scene_id": "FloorPlan28",
+          "source": "completed_successor_primary",
+          "task_id": "ccd9b55b1349e3e1",
+          "trajectory_id": "successor-ccd9b55b1349e3e1-2140-correct_middle",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "955c06cd5521d4c8e54ab663815080904f716ef42c8c64d5c2d9baca8770b43d",
+          "scene_id": "FloorPlan15",
+          "source": "original_calibration",
+          "task_id": "cffcb3e0a9e707e7",
+          "trajectory_id": "shared-cffcb3e0a9e707e7-2111-correct_middle",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "0bde08e8d0bc408fae4d3f0fec1f3a9e74096617034d8d0b0de49ffe9d5a7e46",
+          "scene_id": "FloorPlan21",
+          "source": "original_calibration",
+          "task_id": "d327a5b6831def66",
+          "trajectory_id": "shared-d327a5b6831def66-2115-delete_latest",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "624bbfea0f2c380382a5fc1fe7ce764e3505a4d402a7bd22bbea5e85f46cc781",
+          "scene_id": "FloorPlan22",
+          "source": "completed_successor_primary",
+          "task_id": "d34fd29dcb989325",
+          "trajectory_id": "successor-d34fd29dcb989325-2140-neutral_full",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "baad9a5a067a4fd3792b9f80c0140fbcf3ba5c200502d31d39a7aebd2993647f",
+          "scene_id": "FloorPlan11",
+          "source": "completed_successor_primary",
+          "task_id": "d6a4c6f5c0be6369",
+          "trajectory_id": "successor-d6a4c6f5c0be6369-2140-correct_middle",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "440f59dd70b84f1172b50e041b7ec963bd7c80f6943f0dd316e9d6974dd096a2",
+          "scene_id": "FloorPlan1",
+          "source": "completed_successor_primary",
+          "task_id": "d81ea4659702239a",
+          "trajectory_id": "successor-d81ea4659702239a-2140-neutral_full",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "c237ea84d8d4c540a14566e75ba85cf8a10cd5c45fa4ff12df07aabfe81b0342",
+          "scene_id": "FloorPlan8",
+          "source": "successor_review",
+          "task_id": "d840c2f5bc8992f1",
+          "trajectory_id": "four-d840c2f5bc8992f1-2131-neutral_full",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "2d9f8023f62de05d2f64de80c3b5671885bb5e9dcc22f55689987149f992f5b8",
+          "scene_id": "FloorPlan23",
+          "source": "completed_successor_primary",
+          "task_id": "db41360bf2841686",
+          "trajectory_id": "successor-db41360bf2841686-2140-correct_middle",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "30350857e2e9ebf68c423506d372932cf2667f5bb5eb3ee6f7ad77ff5c8acc1f",
+          "scene_id": "FloorPlan5",
+          "source": "completed_successor_primary",
+          "task_id": "de311a7af4272464",
+          "trajectory_id": "successor-de311a7af4272464-2141-correct_middle",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "af6e3f7b6bdb04c218959f4bc573aac34c2f919eecef3510a4e288c2f5215731",
+          "scene_id": "FloorPlan2",
+          "source": "completed_successor_primary",
+          "task_id": "e130f48d97478f2f",
+          "trajectory_id": "successor-e130f48d97478f2f-2141-neutral_full",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "f058f75d9d60be7a5323ed2a8ba26ea7edb4e2d1d8786f80ff65c6c04b950e50",
+          "scene_id": "FloorPlan4",
+          "source": "successor_review",
+          "task_id": "e2bf5cb552e2ee34",
+          "trajectory_id": "four-e2bf5cb552e2ee34-2130-correct_middle",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "c1160de86d9af35fe520e08957f95ae774e64aa1f61ea1f49837074eb867dcfd",
+          "scene_id": "FloorPlan7",
+          "source": "original_calibration",
+          "task_id": "e35a7ab664a30526",
+          "trajectory_id": "shared-e35a7ab664a30526-2113-repeated_error",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "67a7b5b560f952e67e4c02d510766eb2e02614aaa767b8a3df4b5734e166b4a1",
+          "scene_id": "FloorPlan25",
+          "source": "original_calibration",
+          "task_id": "e4eb1c6225ea097a",
+          "trajectory_id": "shared-e4eb1c6225ea097a-2112-neutral_full",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "769cc953e2ea3d91e107b165054bf701e913d16f24f437d9c4a68ef6d6c55fef",
+          "scene_id": "FloorPlan24",
+          "source": "original_calibration",
+          "task_id": "e5877206d35fec78",
+          "trajectory_id": "shared-e5877206d35fec78-2116-correct_oldest",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "e588299e0ab40b42b97363e46f307ce00ed9d88dbc1ead648f80c77e5349628f",
+          "scene_id": "FloorPlan12",
+          "source": "original_calibration",
+          "task_id": "e9c845d18fc5fbba",
+          "trajectory_id": "shared-e9c845d18fc5fbba-2113-repeated_error",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "657309775ba2f8d57bd129862855d5450acf7a53c001468dab66e9ae5b291506",
+          "scene_id": "FloorPlan3",
+          "source": "completed_successor_primary",
+          "task_id": "ea5073995754916d",
+          "trajectory_id": "successor-ea5073995754916d-2140-neutral_full",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "5d58de5719cbf2a5a3c90aafe6cae4fe9de36f8ce7e1070f2e77c50040fbf7bb",
+          "scene_id": "FloorPlan24",
+          "source": "completed_successor_primary",
+          "task_id": "ecb9c1d65157ef70",
+          "trajectory_id": "successor-ecb9c1d65157ef70-2140-correct_middle",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "ec9d067fc52ff12919d10fcb1e164b2649b6d43cb5eb793ffe6947c934ae99b2",
+          "scene_id": "FloorPlan27",
+          "source": "completed_successor_primary",
+          "task_id": "ed50cbdfb5d81244",
+          "trajectory_id": "successor-ed50cbdfb5d81244-2140-correct_middle",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "099a025844370ecd4c5a8af9b45cf4d78202d2e63f8f30d4f5c8744705e4aeb7",
+          "scene_id": "FloorPlan5",
+          "source": "completed_successor_primary",
+          "task_id": "ef6cc184e1daab84",
+          "trajectory_id": "successor-ef6cc184e1daab84-2141-neutral_full",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "1f06a85109684d7dcf0edf82a93725556f71f7325aa167bdad59105839f182f2",
+          "scene_id": "FloorPlan27",
+          "source": "completed_successor_primary",
+          "task_id": "f04585fcfbcaf81a",
+          "trajectory_id": "successor-f04585fcfbcaf81a-2140-correct_middle",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "2616444ee6f966cdb4a7cd7bfe9333d2c3e7d017078ade4286c675d1193e037e",
+          "scene_id": "FloorPlan11",
+          "source": "successor_review",
+          "task_id": "f069d41f6b688b94",
+          "trajectory_id": "four-f069d41f6b688b94-2131-neutral_full",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "09a56b76410407e4396843cbf9a28bda2b0eb313424c7f7943a1a23605ba69de",
+          "scene_id": "FloorPlan3",
+          "source": "original_calibration",
+          "task_id": "f4952ddb098787de",
+          "trajectory_id": "shared-f4952ddb098787de-2113-repeated_error",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "22dd0437aaf5ac1c0460fe22f1df430e1ac0a55f896886e747db5231a5260ecb",
+          "scene_id": "FloorPlan25",
+          "source": "successor_review",
+          "task_id": "f5433976209e7909",
+          "trajectory_id": "four-f5433976209e7909-2130-neutral_full",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "cd9bcbcb361f87a826466b1798e0bdcf9d033c31b7d7745018b6bc5efed8cca4",
+          "scene_id": "FloorPlan27",
+          "source": "original_calibration",
+          "task_id": "f7bddaf300b8a61b",
+          "trajectory_id": "shared-f7bddaf300b8a61b-2110-error_middle",
+          "trial": 1
+        },
+        {
+          "result_file_sha256": "d5bc7bf6d838d9cdf1552f54408e830edd212efa481c617aabfdfd0253b1bb84",
+          "scene_id": "FloorPlan25",
+          "source": "completed_successor_primary",
+          "task_id": "fae67e6754593b0a",
+          "trajectory_id": "successor-fae67e6754593b0a-2141-neutral_full",
+          "trial": 1
+        }
+      ],
+      "status": "Eligibility inventory only; full native texts/edits and collection precision not yet prepared",
+      "tasks": 94
+    },
+    "new_parent_failures_added_to_fit": 0,
+    "parent_graph": [
+      {
+        "children": [
+          "content-03e265533a883915-2180-neutralized",
+          "content-03e265533a883915-2180-original",
+          "content-03e265533a883915-2180-paraphrase",
+          "content-03e265533a883915-2181-neutralized",
+          "content-03e265533a883915-2181-original",
+          "content-03e265533a883915-2181-paraphrase"
+        ],
+        "original_second_id": [
+          "successor-03e265533a883915-2141-correct_middle",
+          2
+        ],
+        "parent_failure_id": [
+          "successor-03e265533a883915-2141-correct_middle",
+          1
+        ],
+        "scene_id": "FloorPlan24",
+        "task_id": "03e265533a883915"
+      },
+      {
+        "children": [
+          "content-122bb94118ee1cb4-2180-neutralized",
+          "content-122bb94118ee1cb4-2180-original",
+          "content-122bb94118ee1cb4-2180-paraphrase",
+          "content-122bb94118ee1cb4-2181-neutralized",
+          "content-122bb94118ee1cb4-2181-original",
+          "content-122bb94118ee1cb4-2181-paraphrase"
+        ],
+        "original_second_id": [
+          "shared-122bb94118ee1cb4-2112-neutral_full",
+          2
+        ],
+        "parent_failure_id": [
+          "shared-122bb94118ee1cb4-2112-neutral_full",
+          1
+        ],
+        "scene_id": "FloorPlan16",
+        "task_id": "122bb94118ee1cb4"
+      },
+      {
+        "children": [
+          "content-13cc78cc6be8645e-2180-neutralized",
+          "content-13cc78cc6be8645e-2180-original",
+          "content-13cc78cc6be8645e-2180-paraphrase",
+          "content-13cc78cc6be8645e-2181-neutralized",
+          "content-13cc78cc6be8645e-2181-original",
+          "content-13cc78cc6be8645e-2181-paraphrase"
+        ],
+        "original_second_id": [
+          "shared-13cc78cc6be8645e-2111-correct_middle",
+          2
+        ],
+        "parent_failure_id": [
+          "shared-13cc78cc6be8645e-2111-correct_middle",
+          1
+        ],
+        "scene_id": "FloorPlan4",
+        "task_id": "13cc78cc6be8645e"
+      },
+      {
+        "children": [
+          "content-179e7eca229fd634-2180-neutralized",
+          "content-179e7eca229fd634-2180-original",
+          "content-179e7eca229fd634-2180-paraphrase",
+          "content-179e7eca229fd634-2181-neutralized",
+          "content-179e7eca229fd634-2181-original",
+          "content-179e7eca229fd634-2181-paraphrase"
+        ],
+        "original_second_id": [
+          "successor-179e7eca229fd634-2141-neutral_full",
+          2
+        ],
+        "parent_failure_id": [
+          "successor-179e7eca229fd634-2141-neutral_full",
+          1
+        ],
+        "scene_id": "FloorPlan5",
+        "task_id": "179e7eca229fd634"
+      },
+      {
+        "children": [
+          "content-19cbf89f0696f384-2180-neutralized",
+          "content-19cbf89f0696f384-2180-original",
+          "content-19cbf89f0696f384-2180-paraphrase",
+          "content-19cbf89f0696f384-2181-neutralized",
+          "content-19cbf89f0696f384-2181-original",
+          "content-19cbf89f0696f384-2181-paraphrase"
+        ],
+        "original_second_id": [
+          "successor-19cbf89f0696f384-2141-correct_middle",
+          2
+        ],
+        "parent_failure_id": [
+          "successor-19cbf89f0696f384-2141-correct_middle",
+          1
+        ],
+        "scene_id": "FloorPlan7",
+        "task_id": "19cbf89f0696f384"
+      },
+      {
+        "children": [
+          "content-1af24310a9afee4e-2180-neutralized",
+          "content-1af24310a9afee4e-2180-original",
+          "content-1af24310a9afee4e-2180-paraphrase",
+          "content-1af24310a9afee4e-2181-neutralized",
+          "content-1af24310a9afee4e-2181-original",
+          "content-1af24310a9afee4e-2181-paraphrase"
+        ],
+        "original_second_id": [
+          "four-1af24310a9afee4e-2130-neutral_full",
+          2
+        ],
+        "parent_failure_id": [
+          "four-1af24310a9afee4e-2130-neutral_full",
+          1
+        ],
+        "scene_id": "FloorPlan26",
+        "task_id": "1af24310a9afee4e"
+      },
+      {
+        "children": [
+          "content-1b5855b199984e16-2180-neutralized",
+          "content-1b5855b199984e16-2180-original",
+          "content-1b5855b199984e16-2180-paraphrase",
+          "content-1b5855b199984e16-2181-neutralized",
+          "content-1b5855b199984e16-2181-original",
+          "content-1b5855b199984e16-2181-paraphrase"
+        ],
+        "original_second_id": [
+          "successor-1b5855b199984e16-2140-neutral_full",
+          2
+        ],
+        "parent_failure_id": [
+          "successor-1b5855b199984e16-2140-neutral_full",
+          1
+        ],
+        "scene_id": "FloorPlan30",
+        "task_id": "1b5855b199984e16"
+      },
+      {
+        "children": [
+          "content-22248e0d186bde45-2180-neutralized",
+          "content-22248e0d186bde45-2180-original",
+          "content-22248e0d186bde45-2180-paraphrase",
+          "content-22248e0d186bde45-2181-neutralized",
+          "content-22248e0d186bde45-2181-original",
+          "content-22248e0d186bde45-2181-paraphrase"
+        ],
+        "original_second_id": [
+          "successor-22248e0d186bde45-2140-neutral_full",
+          2
+        ],
+        "parent_failure_id": [
+          "successor-22248e0d186bde45-2140-neutral_full",
+          1
+        ],
+        "scene_id": "FloorPlan30",
+        "task_id": "22248e0d186bde45"
+      },
+      {
+        "children": [
+          "content-2788e10c07186b65-2180-neutralized",
+          "content-2788e10c07186b65-2180-original",
+          "content-2788e10c07186b65-2180-paraphrase",
+          "content-2788e10c07186b65-2181-neutralized",
+          "content-2788e10c07186b65-2181-original",
+          "content-2788e10c07186b65-2181-paraphrase"
+        ],
+        "original_second_id": [
+          "shared-2788e10c07186b65-2114-correct_latest",
+          2
+        ],
+        "parent_failure_id": [
+          "shared-2788e10c07186b65-2114-correct_latest",
+          1
+        ],
+        "scene_id": "FloorPlan6",
+        "task_id": "2788e10c07186b65"
+      },
+      {
+        "children": [
+          "content-2f6381e53c96168d-2180-neutralized",
+          "content-2f6381e53c96168d-2180-original",
+          "content-2f6381e53c96168d-2180-paraphrase",
+          "content-2f6381e53c96168d-2181-neutralized",
+          "content-2f6381e53c96168d-2181-original",
+          "content-2f6381e53c96168d-2181-paraphrase"
+        ],
+        "original_second_id": [
+          "successor-2f6381e53c96168d-2140-neutral_full",
+          2
+        ],
+        "parent_failure_id": [
+          "successor-2f6381e53c96168d-2140-neutral_full",
+          1
+        ],
+        "scene_id": "FloorPlan20",
+        "task_id": "2f6381e53c96168d"
+      },
+      {
+        "children": [
+          "content-315c648a16ea5678-2180-neutralized",
+          "content-315c648a16ea5678-2180-original",
+          "content-315c648a16ea5678-2180-paraphrase",
+          "content-315c648a16ea5678-2181-neutralized",
+          "content-315c648a16ea5678-2181-original",
+          "content-315c648a16ea5678-2181-paraphrase"
+        ],
+        "original_second_id": [
+          "successor-315c648a16ea5678-2141-neutral_full",
+          2
+        ],
+        "parent_failure_id": [
+          "successor-315c648a16ea5678-2141-neutral_full",
+          1
+        ],
+        "scene_id": "FloorPlan12",
+        "task_id": "315c648a16ea5678"
+      },
+      {
+        "children": [
+          "content-41f9231e4622f886-2180-neutralized",
+          "content-41f9231e4622f886-2180-original",
+          "content-41f9231e4622f886-2180-paraphrase",
+          "content-41f9231e4622f886-2181-neutralized",
+          "content-41f9231e4622f886-2181-original",
+          "content-41f9231e4622f886-2181-paraphrase"
+        ],
+        "original_second_id": [
+          "shared-41f9231e4622f886-2114-correct_latest",
+          2
+        ],
+        "parent_failure_id": [
+          "shared-41f9231e4622f886-2114-correct_latest",
+          1
+        ],
+        "scene_id": "FloorPlan13",
+        "task_id": "41f9231e4622f886"
+      },
+      {
+        "children": [
+          "content-46d299cad63c5852-2180-neutralized",
+          "content-46d299cad63c5852-2180-original",
+          "content-46d299cad63c5852-2180-paraphrase",
+          "content-46d299cad63c5852-2181-neutralized",
+          "content-46d299cad63c5852-2181-original",
+          "content-46d299cad63c5852-2181-paraphrase"
+        ],
+        "original_second_id": [
+          "successor-46d299cad63c5852-2140-correct_middle",
+          2
+        ],
+        "parent_failure_id": [
+          "successor-46d299cad63c5852-2140-correct_middle",
+          1
+        ],
+        "scene_id": "FloorPlan15",
+        "task_id": "46d299cad63c5852"
+      },
+      {
+        "children": [
+          "content-482e5598a4a0d0a2-2180-neutralized",
+          "content-482e5598a4a0d0a2-2180-original",
+          "content-482e5598a4a0d0a2-2180-paraphrase",
+          "content-482e5598a4a0d0a2-2181-neutralized",
+          "content-482e5598a4a0d0a2-2181-original",
+          "content-482e5598a4a0d0a2-2181-paraphrase"
+        ],
+        "original_second_id": [
+          "shared-482e5598a4a0d0a2-2114-correct_latest",
+          2
+        ],
+        "parent_failure_id": [
+          "shared-482e5598a4a0d0a2-2114-correct_latest",
+          1
+        ],
+        "scene_id": "FloorPlan22",
+        "task_id": "482e5598a4a0d0a2"
+      },
+      {
+        "children": [
+          "content-4f2a083f060ac931-2180-neutralized",
+          "content-4f2a083f060ac931-2180-original",
+          "content-4f2a083f060ac931-2180-paraphrase",
+          "content-4f2a083f060ac931-2181-neutralized",
+          "content-4f2a083f060ac931-2181-original",
+          "content-4f2a083f060ac931-2181-paraphrase"
+        ],
+        "original_second_id": [
+          "four-4f2a083f060ac931-2131-correct_middle",
+          2
+        ],
+        "parent_failure_id": [
+          "four-4f2a083f060ac931-2131-correct_middle",
+          1
+        ],
+        "scene_id": "FloorPlan30",
+        "task_id": "4f2a083f060ac931"
+      },
+      {
+        "children": [
+          "content-529d009fd6280b93-2180-neutralized",
+          "content-529d009fd6280b93-2180-original",
+          "content-529d009fd6280b93-2180-paraphrase",
+          "content-529d009fd6280b93-2181-neutralized",
+          "content-529d009fd6280b93-2181-original",
+          "content-529d009fd6280b93-2181-paraphrase"
+        ],
+        "original_second_id": [
+          "successor-529d009fd6280b93-2140-neutral_full",
+          2
+        ],
+        "parent_failure_id": [
+          "successor-529d009fd6280b93-2140-neutral_full",
+          1
+        ],
+        "scene_id": "FloorPlan20",
+        "task_id": "529d009fd6280b93"
+      },
+      {
+        "children": [
+          "content-571c8d1132841622-2180-neutralized",
+          "content-571c8d1132841622-2180-original",
+          "content-571c8d1132841622-2180-paraphrase",
+          "content-571c8d1132841622-2181-neutralized",
+          "content-571c8d1132841622-2181-original",
+          "content-571c8d1132841622-2181-paraphrase"
+        ],
+        "original_second_id": [
+          "shared-571c8d1132841622-2114-correct_latest",
+          2
+        ],
+        "parent_failure_id": [
+          "shared-571c8d1132841622-2114-correct_latest",
+          1
+        ],
+        "scene_id": "FloorPlan30",
+        "task_id": "571c8d1132841622"
+      },
+      {
+        "children": [
+          "content-59e0b433d9cca3bc-2180-neutralized",
+          "content-59e0b433d9cca3bc-2180-original",
+          "content-59e0b433d9cca3bc-2180-paraphrase",
+          "content-59e0b433d9cca3bc-2181-neutralized",
+          "content-59e0b433d9cca3bc-2181-original",
+          "content-59e0b433d9cca3bc-2181-paraphrase"
+        ],
+        "original_second_id": [
+          "successor-59e0b433d9cca3bc-2141-correct_middle",
+          2
+        ],
+        "parent_failure_id": [
+          "successor-59e0b433d9cca3bc-2141-correct_middle",
+          1
+        ],
+        "scene_id": "FloorPlan28",
+        "task_id": "59e0b433d9cca3bc"
+      },
+      {
+        "children": [
+          "content-5ae9d904c27dde9f-2180-neutralized",
+          "content-5ae9d904c27dde9f-2180-original",
+          "content-5ae9d904c27dde9f-2180-paraphrase",
+          "content-5ae9d904c27dde9f-2181-neutralized",
+          "content-5ae9d904c27dde9f-2181-original",
+          "content-5ae9d904c27dde9f-2181-paraphrase"
+        ],
+        "original_second_id": [
+          "shared-5ae9d904c27dde9f-2114-correct_latest",
+          2
+        ],
+        "parent_failure_id": [
+          "shared-5ae9d904c27dde9f-2114-correct_latest",
+          1
+        ],
+        "scene_id": "FloorPlan19",
+        "task_id": "5ae9d904c27dde9f"
+      },
+      {
+        "children": [
+          "content-5f54038becd69118-2180-neutralized",
+          "content-5f54038becd69118-2180-original",
+          "content-5f54038becd69118-2180-paraphrase",
+          "content-5f54038becd69118-2181-neutralized",
+          "content-5f54038becd69118-2181-original",
+          "content-5f54038becd69118-2181-paraphrase"
+        ],
+        "original_second_id": [
+          "successor-5f54038becd69118-2141-neutral_full",
+          2
+        ],
+        "parent_failure_id": [
+          "successor-5f54038becd69118-2141-neutral_full",
+          1
+        ],
+        "scene_id": "FloorPlan17",
+        "task_id": "5f54038becd69118"
+      },
+      {
+        "children": [
+          "content-66348a1792a34f8f-2180-neutralized",
+          "content-66348a1792a34f8f-2180-original",
+          "content-66348a1792a34f8f-2180-paraphrase",
+          "content-66348a1792a34f8f-2181-neutralized",
+          "content-66348a1792a34f8f-2181-original",
+          "content-66348a1792a34f8f-2181-paraphrase"
+        ],
+        "original_second_id": [
+          "shared-66348a1792a34f8f-2111-correct_middle",
+          2
+        ],
+        "parent_failure_id": [
+          "shared-66348a1792a34f8f-2111-correct_middle",
+          1
+        ],
+        "scene_id": "FloorPlan17",
+        "task_id": "66348a1792a34f8f"
+      },
+      {
+        "children": [
+          "content-69364ec70ae29f24-2180-neutralized",
+          "content-69364ec70ae29f24-2180-original",
+          "content-69364ec70ae29f24-2180-paraphrase",
+          "content-69364ec70ae29f24-2181-neutralized",
+          "content-69364ec70ae29f24-2181-original",
+          "content-69364ec70ae29f24-2181-paraphrase"
+        ],
+        "original_second_id": [
+          "successor-69364ec70ae29f24-2141-correct_middle",
+          2
+        ],
+        "parent_failure_id": [
+          "successor-69364ec70ae29f24-2141-correct_middle",
+          1
+        ],
+        "scene_id": "FloorPlan19",
+        "task_id": "69364ec70ae29f24"
+      },
+      {
+        "children": [
+          "content-751f641ce4dccfe8-2180-neutralized",
+          "content-751f641ce4dccfe8-2180-original",
+          "content-751f641ce4dccfe8-2180-paraphrase",
+          "content-751f641ce4dccfe8-2181-neutralized",
+          "content-751f641ce4dccfe8-2181-original",
+          "content-751f641ce4dccfe8-2181-paraphrase"
+        ],
+        "original_second_id": [
+          "four-751f641ce4dccfe8-2131-correct_middle",
+          2
+        ],
+        "parent_failure_id": [
+          "four-751f641ce4dccfe8-2131-correct_middle",
+          1
+        ],
+        "scene_id": "FloorPlan28",
+        "task_id": "751f641ce4dccfe8"
+      },
+      {
+        "children": [
+          "content-7871f903a409dc94-2180-neutralized",
+          "content-7871f903a409dc94-2180-original",
+          "content-7871f903a409dc94-2180-paraphrase",
+          "content-7871f903a409dc94-2181-neutralized",
+          "content-7871f903a409dc94-2181-original",
+          "content-7871f903a409dc94-2181-paraphrase"
+        ],
+        "original_second_id": [
+          "successor-7871f903a409dc94-2140-neutral_full",
+          2
+        ],
+        "parent_failure_id": [
+          "successor-7871f903a409dc94-2140-neutral_full",
+          1
+        ],
+        "scene_id": "FloorPlan27",
+        "task_id": "7871f903a409dc94"
+      },
+      {
+        "children": [
+          "content-960719633ac3e905-2180-neutralized",
+          "content-960719633ac3e905-2180-original",
+          "content-960719633ac3e905-2180-paraphrase",
+          "content-960719633ac3e905-2181-neutralized",
+          "content-960719633ac3e905-2181-original",
+          "content-960719633ac3e905-2181-paraphrase"
+        ],
+        "original_second_id": [
+          "successor-960719633ac3e905-2140-neutral_full",
+          2
+        ],
+        "parent_failure_id": [
+          "successor-960719633ac3e905-2140-neutral_full",
+          1
+        ],
+        "scene_id": "FloorPlan13",
+        "task_id": "960719633ac3e905"
+      },
+      {
+        "children": [
+          "content-9762812a9966c357-2180-neutralized",
+          "content-9762812a9966c357-2180-original",
+          "content-9762812a9966c357-2180-paraphrase",
+          "content-9762812a9966c357-2181-neutralized",
+          "content-9762812a9966c357-2181-original",
+          "content-9762812a9966c357-2181-paraphrase"
+        ],
+        "original_second_id": [
+          "successor-9762812a9966c357-2140-neutral_full",
+          2
+        ],
+        "parent_failure_id": [
+          "successor-9762812a9966c357-2140-neutral_full",
+          1
+        ],
+        "scene_id": "FloorPlan18",
+        "task_id": "9762812a9966c357"
+      },
+      {
+        "children": [
+          "content-981acc3de21dbb59-2180-neutralized",
+          "content-981acc3de21dbb59-2180-original",
+          "content-981acc3de21dbb59-2180-paraphrase",
+          "content-981acc3de21dbb59-2181-neutralized",
+          "content-981acc3de21dbb59-2181-original",
+          "content-981acc3de21dbb59-2181-paraphrase"
+        ],
+        "original_second_id": [
+          "shared-981acc3de21dbb59-2114-correct_latest",
+          2
+        ],
+        "parent_failure_id": [
+          "shared-981acc3de21dbb59-2114-correct_latest",
+          1
+        ],
+        "scene_id": "FloorPlan4",
+        "task_id": "981acc3de21dbb59"
+      },
+      {
+        "children": [
+          "content-9b4a791110f1400e-2180-neutralized",
+          "content-9b4a791110f1400e-2180-original",
+          "content-9b4a791110f1400e-2180-paraphrase",
+          "content-9b4a791110f1400e-2181-neutralized",
+          "content-9b4a791110f1400e-2181-original",
+          "content-9b4a791110f1400e-2181-paraphrase"
+        ],
+        "original_second_id": [
+          "four-9b4a791110f1400e-2131-neutral_full",
+          2
+        ],
+        "parent_failure_id": [
+          "four-9b4a791110f1400e-2131-neutral_full",
+          1
+        ],
+        "scene_id": "FloorPlan1",
+        "task_id": "9b4a791110f1400e"
+      },
+      {
+        "children": [
+          "content-9b9bb8465fc6b6f5-2180-neutralized",
+          "content-9b9bb8465fc6b6f5-2180-original",
+          "content-9b9bb8465fc6b6f5-2180-paraphrase",
+          "content-9b9bb8465fc6b6f5-2181-neutralized",
+          "content-9b9bb8465fc6b6f5-2181-original",
+          "content-9b9bb8465fc6b6f5-2181-paraphrase"
+        ],
+        "original_second_id": [
+          "successor-9b9bb8465fc6b6f5-2140-neutral_full",
+          2
+        ],
+        "parent_failure_id": [
+          "successor-9b9bb8465fc6b6f5-2140-neutral_full",
+          1
+        ],
+        "scene_id": "FloorPlan21",
+        "task_id": "9b9bb8465fc6b6f5"
+      },
+      {
+        "children": [
+          "content-a5474f4635c42e39-2180-neutralized",
+          "content-a5474f4635c42e39-2180-original",
+          "content-a5474f4635c42e39-2180-paraphrase",
+          "content-a5474f4635c42e39-2181-neutralized",
+          "content-a5474f4635c42e39-2181-original",
+          "content-a5474f4635c42e39-2181-paraphrase"
+        ],
+        "original_second_id": [
+          "successor-a5474f4635c42e39-2140-correct_middle",
+          2
+        ],
+        "parent_failure_id": [
+          "successor-a5474f4635c42e39-2140-correct_middle",
+          1
+        ],
+        "scene_id": "FloorPlan20",
+        "task_id": "a5474f4635c42e39"
+      },
+      {
+        "children": [
+          "content-af404ef5d68432e3-2180-neutralized",
+          "content-af404ef5d68432e3-2180-original",
+          "content-af404ef5d68432e3-2180-paraphrase",
+          "content-af404ef5d68432e3-2181-neutralized",
+          "content-af404ef5d68432e3-2181-original",
+          "content-af404ef5d68432e3-2181-paraphrase"
+        ],
+        "original_second_id": [
+          "four-af404ef5d68432e3-2131-correct_middle",
+          2
+        ],
+        "parent_failure_id": [
+          "four-af404ef5d68432e3-2131-correct_middle",
+          1
+        ],
+        "scene_id": "FloorPlan23",
+        "task_id": "af404ef5d68432e3"
+      },
+      {
+        "children": [
+          "content-b176703c0f277412-2180-neutralized",
+          "content-b176703c0f277412-2180-original",
+          "content-b176703c0f277412-2180-paraphrase",
+          "content-b176703c0f277412-2181-neutralized",
+          "content-b176703c0f277412-2181-original",
+          "content-b176703c0f277412-2181-paraphrase"
+        ],
+        "original_second_id": [
+          "successor-b176703c0f277412-2140-neutral_full",
+          2
+        ],
+        "parent_failure_id": [
+          "successor-b176703c0f277412-2140-neutral_full",
+          1
+        ],
+        "scene_id": "FloorPlan25",
+        "task_id": "b176703c0f277412"
+      },
+      {
+        "children": [
+          "content-b36a8c185daa6a0b-2180-neutralized",
+          "content-b36a8c185daa6a0b-2180-original",
+          "content-b36a8c185daa6a0b-2180-paraphrase",
+          "content-b36a8c185daa6a0b-2181-neutralized",
+          "content-b36a8c185daa6a0b-2181-original",
+          "content-b36a8c185daa6a0b-2181-paraphrase"
+        ],
+        "original_second_id": [
+          "successor-b36a8c185daa6a0b-2140-correct_middle",
+          2
+        ],
+        "parent_failure_id": [
+          "successor-b36a8c185daa6a0b-2140-correct_middle",
+          1
+        ],
+        "scene_id": "FloorPlan8",
+        "task_id": "b36a8c185daa6a0b"
+      },
+      {
+        "children": [
+          "content-c2fe17bf60e7db4b-2180-neutralized",
+          "content-c2fe17bf60e7db4b-2180-original",
+          "content-c2fe17bf60e7db4b-2180-paraphrase",
+          "content-c2fe17bf60e7db4b-2181-neutralized",
+          "content-c2fe17bf60e7db4b-2181-original",
+          "content-c2fe17bf60e7db4b-2181-paraphrase"
+        ],
+        "original_second_id": [
+          "successor-c2fe17bf60e7db4b-2140-correct_middle",
+          2
+        ],
+        "parent_failure_id": [
+          "successor-c2fe17bf60e7db4b-2140-correct_middle",
+          1
+        ],
+        "scene_id": "FloorPlan17",
+        "task_id": "c2fe17bf60e7db4b"
+      },
+      {
+        "children": [
+          "content-ca6e773b2e93f1df-2180-neutralized",
+          "content-ca6e773b2e93f1df-2180-original",
+          "content-ca6e773b2e93f1df-2180-paraphrase",
+          "content-ca6e773b2e93f1df-2181-neutralized",
+          "content-ca6e773b2e93f1df-2181-original",
+          "content-ca6e773b2e93f1df-2181-paraphrase"
+        ],
+        "original_second_id": [
+          "successor-ca6e773b2e93f1df-2140-neutral_full",
+          2
+        ],
+        "parent_failure_id": [
+          "successor-ca6e773b2e93f1df-2140-neutral_full",
+          1
+        ],
+        "scene_id": "FloorPlan19",
+        "task_id": "ca6e773b2e93f1df"
+      },
+      {
+        "children": [
+          "content-cc65a5c3be2ea945-2180-neutralized",
+          "content-cc65a5c3be2ea945-2180-original",
+          "content-cc65a5c3be2ea945-2180-paraphrase",
+          "content-cc65a5c3be2ea945-2181-neutralized",
+          "content-cc65a5c3be2ea945-2181-original",
+          "content-cc65a5c3be2ea945-2181-paraphrase"
+        ],
+        "original_second_id": [
+          "shared-cc65a5c3be2ea945-2112-neutral_full",
+          2
+        ],
+        "parent_failure_id": [
+          "shared-cc65a5c3be2ea945-2112-neutral_full",
+          1
+        ],
+        "scene_id": "FloorPlan25",
+        "task_id": "cc65a5c3be2ea945"
+      },
+      {
+        "children": [
+          "content-ccd9b55b1349e3e1-2180-neutralized",
+          "content-ccd9b55b1349e3e1-2180-original",
+          "content-ccd9b55b1349e3e1-2180-paraphrase",
+          "content-ccd9b55b1349e3e1-2181-neutralized",
+          "content-ccd9b55b1349e3e1-2181-original",
+          "content-ccd9b55b1349e3e1-2181-paraphrase"
+        ],
+        "original_second_id": [
+          "successor-ccd9b55b1349e3e1-2141-correct_middle",
+          2
+        ],
+        "parent_failure_id": [
+          "successor-ccd9b55b1349e3e1-2141-correct_middle",
+          1
+        ],
+        "scene_id": "FloorPlan28",
+        "task_id": "ccd9b55b1349e3e1"
+      },
+      {
+        "children": [
+          "content-cffcb3e0a9e707e7-2180-neutralized",
+          "content-cffcb3e0a9e707e7-2180-original",
+          "content-cffcb3e0a9e707e7-2180-paraphrase",
+          "content-cffcb3e0a9e707e7-2181-neutralized",
+          "content-cffcb3e0a9e707e7-2181-original",
+          "content-cffcb3e0a9e707e7-2181-paraphrase"
+        ],
+        "original_second_id": [
+          "shared-cffcb3e0a9e707e7-2114-correct_latest",
+          2
+        ],
+        "parent_failure_id": [
+          "shared-cffcb3e0a9e707e7-2114-correct_latest",
+          1
+        ],
+        "scene_id": "FloorPlan15",
+        "task_id": "cffcb3e0a9e707e7"
+      },
+      {
+        "children": [
+          "content-d327a5b6831def66-2180-neutralized",
+          "content-d327a5b6831def66-2180-original",
+          "content-d327a5b6831def66-2180-paraphrase",
+          "content-d327a5b6831def66-2181-neutralized",
+          "content-d327a5b6831def66-2181-original",
+          "content-d327a5b6831def66-2181-paraphrase"
+        ],
+        "original_second_id": [
+          "shared-d327a5b6831def66-2114-correct_latest",
+          2
+        ],
+        "parent_failure_id": [
+          "shared-d327a5b6831def66-2114-correct_latest",
+          1
+        ],
+        "scene_id": "FloorPlan21",
+        "task_id": "d327a5b6831def66"
+      },
+      {
+        "children": [
+          "content-d81ea4659702239a-2180-neutralized",
+          "content-d81ea4659702239a-2180-original",
+          "content-d81ea4659702239a-2180-paraphrase",
+          "content-d81ea4659702239a-2181-neutralized",
+          "content-d81ea4659702239a-2181-original",
+          "content-d81ea4659702239a-2181-paraphrase"
+        ],
+        "original_second_id": [
+          "successor-d81ea4659702239a-2141-neutral_full",
+          2
+        ],
+        "parent_failure_id": [
+          "successor-d81ea4659702239a-2141-neutral_full",
+          1
+        ],
+        "scene_id": "FloorPlan1",
+        "task_id": "d81ea4659702239a"
+      },
+      {
+        "children": [
+          "content-de311a7af4272464-2180-neutralized",
+          "content-de311a7af4272464-2180-original",
+          "content-de311a7af4272464-2180-paraphrase",
+          "content-de311a7af4272464-2181-neutralized",
+          "content-de311a7af4272464-2181-original",
+          "content-de311a7af4272464-2181-paraphrase"
+        ],
+        "original_second_id": [
+          "successor-de311a7af4272464-2141-neutral_full",
+          2
+        ],
+        "parent_failure_id": [
+          "successor-de311a7af4272464-2141-neutral_full",
+          1
+        ],
+        "scene_id": "FloorPlan5",
+        "task_id": "de311a7af4272464"
+      },
+      {
+        "children": [
+          "content-ecb9c1d65157ef70-2180-neutralized",
+          "content-ecb9c1d65157ef70-2180-original",
+          "content-ecb9c1d65157ef70-2180-paraphrase",
+          "content-ecb9c1d65157ef70-2181-neutralized",
+          "content-ecb9c1d65157ef70-2181-original",
+          "content-ecb9c1d65157ef70-2181-paraphrase"
+        ],
+        "original_second_id": [
+          "successor-ecb9c1d65157ef70-2141-correct_middle",
+          2
+        ],
+        "parent_failure_id": [
+          "successor-ecb9c1d65157ef70-2141-correct_middle",
+          1
+        ],
+        "scene_id": "FloorPlan24",
+        "task_id": "ecb9c1d65157ef70"
+      },
+      {
+        "children": [
+          "content-ed50cbdfb5d81244-2180-neutralized",
+          "content-ed50cbdfb5d81244-2180-original",
+          "content-ed50cbdfb5d81244-2180-paraphrase",
+          "content-ed50cbdfb5d81244-2181-neutralized",
+          "content-ed50cbdfb5d81244-2181-original",
+          "content-ed50cbdfb5d81244-2181-paraphrase"
+        ],
+        "original_second_id": [
+          "successor-ed50cbdfb5d81244-2141-correct_middle",
+          2
+        ],
+        "parent_failure_id": [
+          "successor-ed50cbdfb5d81244-2141-correct_middle",
+          1
+        ],
+        "scene_id": "FloorPlan27",
+        "task_id": "ed50cbdfb5d81244"
+      },
+      {
+        "children": [
+          "content-f04585fcfbcaf81a-2180-neutralized",
+          "content-f04585fcfbcaf81a-2180-original",
+          "content-f04585fcfbcaf81a-2180-paraphrase",
+          "content-f04585fcfbcaf81a-2181-neutralized",
+          "content-f04585fcfbcaf81a-2181-original",
+          "content-f04585fcfbcaf81a-2181-paraphrase"
+        ],
+        "original_second_id": [
+          "successor-f04585fcfbcaf81a-2141-neutral_full",
+          2
+        ],
+        "parent_failure_id": [
+          "successor-f04585fcfbcaf81a-2141-neutral_full",
+          1
+        ],
+        "scene_id": "FloorPlan27",
+        "task_id": "f04585fcfbcaf81a"
+      },
+      {
+        "children": [
+          "content-f4952ddb098787de-2180-neutralized",
+          "content-f4952ddb098787de-2180-original",
+          "content-f4952ddb098787de-2180-paraphrase",
+          "content-f4952ddb098787de-2181-neutralized",
+          "content-f4952ddb098787de-2181-original",
+          "content-f4952ddb098787de-2181-paraphrase"
+        ],
+        "original_second_id": [
+          "shared-f4952ddb098787de-2114-correct_latest",
+          2
+        ],
+        "parent_failure_id": [
+          "shared-f4952ddb098787de-2114-correct_latest",
+          1
+        ],
+        "scene_id": "FloorPlan3",
+        "task_id": "f4952ddb098787de"
+      },
+      {
+        "children": [
+          "content-fae67e6754593b0a-2180-neutralized",
+          "content-fae67e6754593b0a-2180-original",
+          "content-fae67e6754593b0a-2180-paraphrase",
+          "content-fae67e6754593b0a-2181-neutralized",
+          "content-fae67e6754593b0a-2181-original",
+          "content-fae67e6754593b0a-2181-paraphrase"
+        ],
+        "original_second_id": [
+          "successor-fae67e6754593b0a-2141-correct_middle",
+          2
+        ],
+        "parent_failure_id": [
+          "successor-fae67e6754593b0a-2141-correct_middle",
+          1
+        ],
+        "scene_id": "FloorPlan25",
+        "task_id": "fae67e6754593b0a"
+      }
+    ],
+    "stage_native_table": [
+      {
+        "native_count": 0,
+        "records": 760,
+        "trial": 1
+      },
+      {
+        "native_count": 1,
+        "records": 441,
+        "trial": 2
+      },
+      {
+        "native_count": 2,
+        "records": 188,
+        "trial": 3
+      },
+      {
+        "native_count": 3,
+        "records": 164,
+        "trial": 4
+      }
+    ],
+    "unique_parent_failures": 46,
+    "violations": 0
+  },
+  "tasks": 163,
+  "trajectories": 760
+}

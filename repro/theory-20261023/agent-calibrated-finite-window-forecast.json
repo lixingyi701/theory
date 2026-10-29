@@ -1,0 +1,1544 @@
+{
+  "assumptions": [
+    "Joint single-attempt probabilities depend only on target-error presence, not age, other text, or multiple-error/correction conflicts",
+    "The same kernel remains valid after native reflection updates",
+    "E denotes an error-containing entry; C and U do not contain the target error; A may or may not contain it"
+  ],
+  "bounds_meaning": "Only semantic ambiguity of A is bounded; parameter-estimation error and state-compression error are not covered",
+  "driver_sha256": "b3b12aef17f65a721ffa55ef2fbb2cc18e581753aa92cc47aecbebb8be44586b",
+  "initial_history": "Exactly the listed 1-3 entries; no older entries outside the visible window",
+  "model_calls": 0,
+  "parameters": {
+    "error_absent": {
+      "failure_conditional_error_bounds_including_A": [
+        0.3106918166331496,
+        0.4654959833080557
+      ],
+      "failure_conditional_explicit_E": 0.3106918166331496,
+      "joint": {
+        "A": 0.06647210382650964,
+        "C": 0.021423597119304846,
+        "E": 0.13340944973823743,
+        "S": 0.5706052023386213,
+        "U": 0.20808964697732682
+      }
+    },
+    "error_present": {
+      "failure_conditional_error_bounds_including_A": [
+        0.6531638531648348,
+        0.7303471765667233
+      ],
+      "failure_conditional_explicit_E": 0.6531638531648348,
+      "joint": {
+        "A": 0.07077300735566038,
+        "C": 0.025109500404558397,
+        "E": 0.5989165553780144,
+        "S": 0.08305312292462447,
+        "U": 0.22214781393714242
+      }
+    }
+  },
+  "recovery": "One intervention before the first attempt; later attempts use native append-and-read-last-three updates; no repeated deletion exposing hidden old history",
+  "rows": [
+    {
+      "attempt_budget": 1,
+      "correct_minus_delete_bounds": [
+        0.0,
+        0.0
+      ],
+      "initial_memory": [
+        "E"
+      ],
+      "operations": {
+        "correct_latest": {
+          "memory_after": [
+            "C"
+          ],
+          "remaining_error_updates": 0,
+          "success_probability_bounds": [
+            0.5706052023386213,
+            0.5706052023386213
+          ]
+        },
+        "delete_latest": {
+          "memory_after": [],
+          "remaining_error_updates": 0,
+          "success_probability_bounds": [
+            0.5706052023386213,
+            0.5706052023386213
+          ]
+        },
+        "retain": {
+          "memory_after": [
+            "E"
+          ],
+          "remaining_error_updates": 3,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        }
+      }
+    },
+    {
+      "attempt_budget": 2,
+      "correct_minus_delete_bounds": [
+        -0.032408612443637796,
+        0.032408612443637796
+      ],
+      "initial_memory": [
+        "E"
+      ],
+      "operations": {
+        "correct_latest": {
+          "memory_after": [
+            "C"
+          ],
+          "remaining_error_updates": 0,
+          "success_probability_bounds": [
+            0.7181674406643512,
+            0.750576053107989
+          ]
+        },
+        "delete_latest": {
+          "memory_after": [],
+          "remaining_error_updates": 0,
+          "success_probability_bounds": [
+            0.7181674406643512,
+            0.750576053107989
+          ]
+        },
+        "retain": {
+          "memory_after": [
+            "E"
+          ],
+          "remaining_error_updates": 3,
+          "success_probability_bounds": [
+            0.15920842462171614,
+            0.15920842462171614
+          ]
+        }
+      }
+    },
+    {
+      "attempt_budget": 3,
+      "correct_minus_delete_bounds": [
+        -0.04674765617898602,
+        0.04674765617898602
+      ],
+      "initial_memory": [
+        "E"
+      ],
+      "operations": {
+        "correct_latest": {
+          "memory_after": [
+            "C"
+          ],
+          "remaining_error_updates": 0,
+          "success_probability_bounds": [
+            0.7672569687040564,
+            0.8140046248830424
+          ]
+        },
+        "delete_latest": {
+          "memory_after": [],
+          "remaining_error_updates": 0,
+          "success_probability_bounds": [
+            0.7672569687040564,
+            0.8140046248830424
+          ]
+        },
+        "retain": {
+          "memory_after": [
+            "E"
+          ],
+          "remaining_error_updates": 3,
+          "success_probability_bounds": [
+            0.2290387906855974,
+            0.2290387906855974
+          ]
+        }
+      }
+    },
+    {
+      "attempt_budget": 4,
+      "correct_minus_delete_bounds": [
+        -0.04961311588928652,
+        0.04961311588928652
+      ],
+      "initial_memory": [
+        "E"
+      ],
+      "operations": {
+        "correct_latest": {
+          "memory_after": [
+            "C"
+          ],
+          "remaining_error_updates": 0,
+          "success_probability_bounds": [
+            0.7924814675904652,
+            0.8420945834797517
+          ]
+        },
+        "delete_latest": {
+          "memory_after": [],
+          "remaining_error_updates": 0,
+          "success_probability_bounds": [
+            0.7924814675904652,
+            0.8420945834797517
+          ]
+        },
+        "retain": {
+          "memory_after": [
+            "E"
+          ],
+          "remaining_error_updates": 3,
+          "success_probability_bounds": [
+            0.300439543205659,
+            0.3087524349123965
+          ]
+        }
+      }
+    },
+    {
+      "attempt_budget": 5,
+      "correct_minus_delete_bounds": [
+        -0.04850083556107365,
+        0.04850083556107365
+      ],
+      "initial_memory": [
+        "E"
+      ],
+      "operations": {
+        "correct_latest": {
+          "memory_after": [
+            "C"
+          ],
+          "remaining_error_updates": 0,
+          "success_probability_bounds": [
+            0.8125425174999986,
+            0.8610433530610723
+          ]
+        },
+        "delete_latest": {
+          "memory_after": [],
+          "remaining_error_updates": 0,
+          "success_probability_bounds": [
+            0.8125425174999986,
+            0.8610433530610723
+          ]
+        },
+        "retain": {
+          "memory_after": [
+            "E"
+          ],
+          "remaining_error_updates": 3,
+          "success_probability_bounds": [
+            0.365167363279725,
+            0.380197368250294
+          ]
+        }
+      }
+    },
+    {
+      "attempt_budget": 6,
+      "correct_minus_delete_bounds": [
+        -0.04609864908152472,
+        0.04609864908152472
+      ],
+      "initial_memory": [
+        "E"
+      ],
+      "operations": {
+        "correct_latest": {
+          "memory_after": [
+            "C"
+          ],
+          "remaining_error_updates": 0,
+          "success_probability_bounds": [
+            0.830084691379984,
+            0.8761833404615087
+          ]
+        },
+        "delete_latest": {
+          "memory_after": [],
+          "remaining_error_updates": 0,
+          "success_probability_bounds": [
+            0.830084691379984,
+            0.8761833404615087
+          ]
+        },
+        "retain": {
+          "memory_after": [
+            "E"
+          ],
+          "remaining_error_updates": 3,
+          "success_probability_bounds": [
+            0.423938916742624,
+            0.4444406232476803
+          ]
+        }
+      }
+    },
+    {
+      "attempt_budget": 7,
+      "correct_minus_delete_bounds": [
+        -0.043377010171109065,
+        0.043377010171109065
+      ],
+      "initial_memory": [
+        "E"
+      ],
+      "operations": {
+        "correct_latest": {
+          "memory_after": [
+            "C"
+          ],
+          "remaining_error_updates": 0,
+          "success_probability_bounds": [
+            0.8458582020272644,
+            0.8892352121983734
+          ]
+        },
+        "delete_latest": {
+          "memory_after": [],
+          "remaining_error_updates": 0,
+          "success_probability_bounds": [
+            0.8458582020272644,
+            0.8892352121983734
+          ]
+        },
+        "retain": {
+          "memory_after": [
+            "E"
+          ],
+          "remaining_error_updates": 3,
+          "success_probability_bounds": [
+            0.47732022143559183,
+            0.5022576716670409
+          ]
+        }
+      }
+    },
+    {
+      "attempt_budget": 8,
+      "correct_minus_delete_bounds": [
+        -0.040663345870515455,
+        0.040663345870515455
+      ],
+      "initial_memory": [
+        "E"
+      ],
+      "operations": {
+        "correct_latest": {
+          "memory_after": [
+            "C"
+          ],
+          "remaining_error_updates": 0,
+          "success_probability_bounds": [
+            0.860148369740058,
+            0.9008117156105735
+          ]
+        },
+        "delete_latest": {
+          "memory_after": [],
+          "remaining_error_updates": 0,
+          "success_probability_bounds": [
+            0.860148369740058,
+            0.9008117156105735
+          ]
+        },
+        "retain": {
+          "memory_after": [
+            "E"
+          ],
+          "remaining_error_updates": 3,
+          "success_probability_bounds": [
+            0.5257542030152543,
+            0.5540592989004107
+          ]
+        }
+      }
+    },
+    {
+      "attempt_budget": 1,
+      "correct_minus_delete_bounds": [
+        0.0,
+        0.0
+      ],
+      "initial_memory": [
+        "N",
+        "E",
+        "N"
+      ],
+      "operations": {
+        "correct_latest": {
+          "memory_after": [
+            "N",
+            "C",
+            "N"
+          ],
+          "remaining_error_updates": 0,
+          "success_probability_bounds": [
+            0.5706052023386213,
+            0.5706052023386213
+          ]
+        },
+        "delete_latest": {
+          "memory_after": [
+            "N",
+            "N"
+          ],
+          "remaining_error_updates": 0,
+          "success_probability_bounds": [
+            0.5706052023386213,
+            0.5706052023386213
+          ]
+        },
+        "retain": {
+          "memory_after": [
+            "N",
+            "E",
+            "N"
+          ],
+          "remaining_error_updates": 2,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        }
+      }
+    },
+    {
+      "attempt_budget": 2,
+      "correct_minus_delete_bounds": [
+        -0.032408612443637796,
+        0.032408612443637796
+      ],
+      "initial_memory": [
+        "N",
+        "E",
+        "N"
+      ],
+      "operations": {
+        "correct_latest": {
+          "memory_after": [
+            "N",
+            "C",
+            "N"
+          ],
+          "remaining_error_updates": 0,
+          "success_probability_bounds": [
+            0.7181674406643512,
+            0.750576053107989
+          ]
+        },
+        "delete_latest": {
+          "memory_after": [
+            "N",
+            "N"
+          ],
+          "remaining_error_updates": 0,
+          "success_probability_bounds": [
+            0.7181674406643512,
+            0.750576053107989
+          ]
+        },
+        "retain": {
+          "memory_after": [
+            "N",
+            "E",
+            "N"
+          ],
+          "remaining_error_updates": 2,
+          "success_probability_bounds": [
+            0.15920842462171614,
+            0.15920842462171614
+          ]
+        }
+      }
+    },
+    {
+      "attempt_budget": 3,
+      "correct_minus_delete_bounds": [
+        -0.04674765617898602,
+        0.04674765617898602
+      ],
+      "initial_memory": [
+        "N",
+        "E",
+        "N"
+      ],
+      "operations": {
+        "correct_latest": {
+          "memory_after": [
+            "N",
+            "C",
+            "N"
+          ],
+          "remaining_error_updates": 0,
+          "success_probability_bounds": [
+            0.7672569687040564,
+            0.8140046248830424
+          ]
+        },
+        "delete_latest": {
+          "memory_after": [
+            "N",
+            "N"
+          ],
+          "remaining_error_updates": 0,
+          "success_probability_bounds": [
+            0.7672569687040564,
+            0.8140046248830424
+          ]
+        },
+        "retain": {
+          "memory_after": [
+            "N",
+            "E",
+            "N"
+          ],
+          "remaining_error_updates": 2,
+          "success_probability_bounds": [
+            0.25884586212604144,
+            0.2783514098591139
+          ]
+        }
+      }
+    },
+    {
+      "attempt_budget": 4,
+      "correct_minus_delete_bounds": [
+        -0.04961311588928652,
+        0.04961311588928652
+      ],
+      "initial_memory": [
+        "N",
+        "E",
+        "N"
+      ],
+      "operations": {
+        "correct_latest": {
+          "memory_after": [
+            "N",
+            "C",
+            "N"
+          ],
+          "remaining_error_updates": 0,
+          "success_probability_bounds": [
+            0.7924814675904652,
+            0.8420945834797517
+          ]
+        },
+        "delete_latest": {
+          "memory_after": [
+            "N",
+            "N"
+          ],
+          "remaining_error_updates": 0,
+          "success_probability_bounds": [
+            0.7924814675904652,
+            0.8420945834797517
+          ]
+        },
+        "retain": {
+          "memory_after": [
+            "N",
+            "E",
+            "N"
+          ],
+          "remaining_error_updates": 2,
+          "success_probability_bounds": [
+            0.32724214550829783,
+            0.3528823916675415
+          ]
+        }
+      }
+    },
+    {
+      "attempt_budget": 5,
+      "correct_minus_delete_bounds": [
+        -0.04850083556107365,
+        0.04850083556107365
+      ],
+      "initial_memory": [
+        "N",
+        "E",
+        "N"
+      ],
+      "operations": {
+        "correct_latest": {
+          "memory_after": [
+            "N",
+            "C",
+            "N"
+          ],
+          "remaining_error_updates": 0,
+          "success_probability_bounds": [
+            0.8125425174999986,
+            0.8610433530610723
+          ]
+        },
+        "delete_latest": {
+          "memory_after": [
+            "N",
+            "N"
+          ],
+          "remaining_error_updates": 0,
+          "success_probability_bounds": [
+            0.8125425174999986,
+            0.8610433530610723
+          ]
+        },
+        "retain": {
+          "memory_after": [
+            "N",
+            "E",
+            "N"
+          ],
+          "remaining_error_updates": 2,
+          "success_probability_bounds": [
+            0.3896225364862502,
+            0.42034042997326104
+          ]
+        }
+      }
+    },
+    {
+      "attempt_budget": 6,
+      "correct_minus_delete_bounds": [
+        -0.04609864908152472,
+        0.04609864908152472
+      ],
+      "initial_memory": [
+        "N",
+        "E",
+        "N"
+      ],
+      "operations": {
+        "correct_latest": {
+          "memory_after": [
+            "N",
+            "C",
+            "N"
+          ],
+          "remaining_error_updates": 0,
+          "success_probability_bounds": [
+            0.830084691379984,
+            0.8761833404615087
+          ]
+        },
+        "delete_latest": {
+          "memory_after": [
+            "N",
+            "N"
+          ],
+          "remaining_error_updates": 0,
+          "success_probability_bounds": [
+            0.830084691379984,
+            0.8761833404615087
+          ]
+        },
+        "retain": {
+          "memory_after": [
+            "N",
+            "E",
+            "N"
+          ],
+          "remaining_error_updates": 2,
+          "success_probability_bounds": [
+            0.44633515099698395,
+            0.4811544408098105
+          ]
+        }
+      }
+    },
+    {
+      "attempt_budget": 7,
+      "correct_minus_delete_bounds": [
+        -0.043377010171109065,
+        0.043377010171109065
+      ],
+      "initial_memory": [
+        "N",
+        "E",
+        "N"
+      ],
+      "operations": {
+        "correct_latest": {
+          "memory_after": [
+            "N",
+            "C",
+            "N"
+          ],
+          "remaining_error_updates": 0,
+          "success_probability_bounds": [
+            0.8458582020272644,
+            0.8892352121983734
+          ]
+        },
+        "delete_latest": {
+          "memory_after": [
+            "N",
+            "N"
+          ],
+          "remaining_error_updates": 0,
+          "success_probability_bounds": [
+            0.8458582020272644,
+            0.8892352121983734
+          ]
+        },
+        "retain": {
+          "memory_after": [
+            "N",
+            "E",
+            "N"
+          ],
+          "remaining_error_updates": 2,
+          "success_probability_bounds": [
+            0.49763830057396874,
+            0.5351557060359147
+          ]
+        }
+      }
+    },
+    {
+      "attempt_budget": 8,
+      "correct_minus_delete_bounds": [
+        -0.040663345870515455,
+        0.040663345870515455
+      ],
+      "initial_memory": [
+        "N",
+        "E",
+        "N"
+      ],
+      "operations": {
+        "correct_latest": {
+          "memory_after": [
+            "N",
+            "C",
+            "N"
+          ],
+          "remaining_error_updates": 0,
+          "success_probability_bounds": [
+            0.860148369740058,
+            0.9008117156105735
+          ]
+        },
+        "delete_latest": {
+          "memory_after": [
+            "N",
+            "N"
+          ],
+          "remaining_error_updates": 0,
+          "success_probability_bounds": [
+            0.860148369740058,
+            0.9008117156105735
+          ]
+        },
+        "retain": {
+          "memory_after": [
+            "N",
+            "E",
+            "N"
+          ],
+          "remaining_error_updates": 2,
+          "success_probability_bounds": [
+            0.5441913901170766,
+            0.5835512472325664
+          ]
+        }
+      }
+    },
+    {
+      "attempt_budget": 1,
+      "correct_minus_delete_bounds": [
+        0.0,
+        0.0
+      ],
+      "initial_memory": [
+        "E",
+        "N",
+        "E"
+      ],
+      "operations": {
+        "correct_latest": {
+          "memory_after": [
+            "E",
+            "N",
+            "C"
+          ],
+          "remaining_error_updates": 1,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        "delete_latest": {
+          "memory_after": [
+            "E",
+            "N"
+          ],
+          "remaining_error_updates": 2,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        "retain": {
+          "memory_after": [
+            "E",
+            "N",
+            "E"
+          ],
+          "remaining_error_updates": 3,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        }
+      }
+    },
+    {
+      "attempt_budget": 2,
+      "correct_minus_delete_bounds": [
+        0.1205508177576165,
+        0.1550563446602508
+      ],
+      "initial_memory": [
+        "E",
+        "N",
+        "E"
+      ],
+      "operations": {
+        "correct_latest": {
+          "memory_after": [
+            "E",
+            "N",
+            "C"
+          ],
+          "remaining_error_updates": 1,
+          "success_probability_bounds": [
+            0.27975924237933264,
+            0.31426476928196695
+          ]
+        },
+        "delete_latest": {
+          "memory_after": [
+            "E",
+            "N"
+          ],
+          "remaining_error_updates": 2,
+          "success_probability_bounds": [
+            0.15920842462171614,
+            0.15920842462171614
+          ]
+        },
+        "retain": {
+          "memory_after": [
+            "E",
+            "N",
+            "E"
+          ],
+          "remaining_error_updates": 3,
+          "success_probability_bounds": [
+            0.15920842462171614,
+            0.15920842462171614
+          ]
+        }
+      }
+    },
+    {
+      "attempt_budget": 3,
+      "correct_minus_delete_bounds": [
+        0.0888940859602651,
+        0.1582657656884509
+      ],
+      "initial_memory": [
+        "E",
+        "N",
+        "E"
+      ],
+      "operations": {
+        "correct_latest": {
+          "memory_after": [
+            "E",
+            "N",
+            "C"
+          ],
+          "remaining_error_updates": 1,
+          "success_probability_bounds": [
+            0.367245495819379,
+            0.41711162781449235
+          ]
+        },
+        "delete_latest": {
+          "memory_after": [
+            "E",
+            "N"
+          ],
+          "remaining_error_updates": 2,
+          "success_probability_bounds": [
+            0.25884586212604144,
+            0.2783514098591139
+          ]
+        },
+        "retain": {
+          "memory_after": [
+            "E",
+            "N",
+            "E"
+          ],
+          "remaining_error_updates": 3,
+          "success_probability_bounds": [
+            0.2290387906855974,
+            0.2290387906855974
+          ]
+        }
+      }
+    },
+    {
+      "attempt_budget": 4,
+      "correct_minus_delete_bounds": [
+        0.07326551633208978,
+        0.15186425369638445
+      ],
+      "initial_memory": [
+        "E",
+        "N",
+        "E"
+      ],
+      "operations": {
+        "correct_latest": {
+          "memory_after": [
+            "E",
+            "N",
+            "C"
+          ],
+          "remaining_error_updates": 1,
+          "success_probability_bounds": [
+            0.42614790799963126,
+            0.4791063992046823
+          ]
+        },
+        "delete_latest": {
+          "memory_after": [
+            "E",
+            "N"
+          ],
+          "remaining_error_updates": 2,
+          "success_probability_bounds": [
+            0.32724214550829783,
+            0.3528823916675415
+          ]
+        },
+        "retain": {
+          "memory_after": [
+            "E",
+            "N",
+            "E"
+          ],
+          "remaining_error_updates": 3,
+          "success_probability_bounds": [
+            0.300439543205659,
+            0.3087524349123965
+          ]
+        }
+      }
+    },
+    {
+      "attempt_budget": 5,
+      "correct_minus_delete_bounds": [
+        0.05986075861065421,
+        0.14615914250435214
+      ],
+      "initial_memory": [
+        "E",
+        "N",
+        "E"
+      ],
+      "operations": {
+        "correct_latest": {
+          "memory_after": [
+            "E",
+            "N",
+            "C"
+          ],
+          "remaining_error_updates": 1,
+          "success_probability_bounds": [
+            0.48020118858391525,
+            0.5357816789906024
+          ]
+        },
+        "delete_latest": {
+          "memory_after": [
+            "E",
+            "N"
+          ],
+          "remaining_error_updates": 2,
+          "success_probability_bounds": [
+            0.3896225364862502,
+            0.42034042997326104
+          ]
+        },
+        "retain": {
+          "memory_after": [
+            "E",
+            "N",
+            "E"
+          ],
+          "remaining_error_updates": 3,
+          "success_probability_bounds": [
+            0.365167363279725,
+            0.380197368250294
+          ]
+        }
+      }
+    },
+    {
+      "attempt_budget": 6,
+      "correct_minus_delete_bounds": [
+        0.04735453461971606,
+        0.13826236465328046
+      ],
+      "initial_memory": [
+        "E",
+        "N",
+        "E"
+      ],
+      "operations": {
+        "correct_latest": {
+          "memory_after": [
+            "E",
+            "N",
+            "C"
+          ],
+          "remaining_error_updates": 1,
+          "success_probability_bounds": [
+            0.5285089754295266,
+            0.5845975156502644
+          ]
+        },
+        "delete_latest": {
+          "memory_after": [
+            "E",
+            "N"
+          ],
+          "remaining_error_updates": 2,
+          "success_probability_bounds": [
+            0.44633515099698395,
+            0.4811544408098105
+          ]
+        },
+        "retain": {
+          "memory_after": [
+            "E",
+            "N",
+            "E"
+          ],
+          "remaining_error_updates": 3,
+          "success_probability_bounds": [
+            0.423938916742624,
+            0.4444406232476803
+          ]
+        }
+      }
+    },
+    {
+      "attempt_budget": 7,
+      "correct_minus_delete_bounds": [
+        0.037049396134639756,
+        0.1302505391290565
+      ],
+      "initial_memory": [
+        "E",
+        "N",
+        "E"
+      ],
+      "operations": {
+        "correct_latest": {
+          "memory_after": [
+            "E",
+            "N",
+            "C"
+          ],
+          "remaining_error_updates": 1,
+          "success_probability_bounds": [
+            0.5722051021705544,
+            0.6278888397030252
+          ]
+        },
+        "delete_latest": {
+          "memory_after": [
+            "E",
+            "N"
+          ],
+          "remaining_error_updates": 2,
+          "success_probability_bounds": [
+            0.49763830057396874,
+            0.5351557060359147
+          ]
+        },
+        "retain": {
+          "memory_after": [
+            "E",
+            "N",
+            "E"
+          ],
+          "remaining_error_updates": 3,
+          "success_probability_bounds": [
+            0.47732022143559183,
+            0.5022576716670409
+          ]
+        }
+      }
+    },
+    {
+      "attempt_budget": 8,
+      "correct_minus_delete_bounds": [
+        0.028302873416361618,
+        0.1224759280346236
+      ],
+      "initial_memory": [
+        "E",
+        "N",
+        "E"
+      ],
+      "operations": {
+        "correct_latest": {
+          "memory_after": [
+            "E",
+            "N",
+            "C"
+          ],
+          "remaining_error_updates": 1,
+          "success_probability_bounds": [
+            0.611854120648928,
+            0.6666673181517002
+          ]
+        },
+        "delete_latest": {
+          "memory_after": [
+            "E",
+            "N"
+          ],
+          "remaining_error_updates": 2,
+          "success_probability_bounds": [
+            0.5441913901170766,
+            0.5835512472325664
+          ]
+        },
+        "retain": {
+          "memory_after": [
+            "E",
+            "N",
+            "E"
+          ],
+          "remaining_error_updates": 3,
+          "success_probability_bounds": [
+            0.5257542030152543,
+            0.5540592989004107
+          ]
+        }
+      }
+    },
+    {
+      "attempt_budget": 1,
+      "correct_minus_delete_bounds": [
+        0.0,
+        0.0
+      ],
+      "initial_memory": [
+        "E",
+        "E",
+        "N"
+      ],
+      "operations": {
+        "correct_latest": {
+          "memory_after": [
+            "E",
+            "C",
+            "N"
+          ],
+          "remaining_error_updates": 1,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        "delete_latest": {
+          "memory_after": [
+            "E",
+            "N"
+          ],
+          "remaining_error_updates": 2,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        },
+        "retain": {
+          "memory_after": [
+            "E",
+            "E",
+            "N"
+          ],
+          "remaining_error_updates": 2,
+          "success_probability_bounds": [
+            0.08305312292462447,
+            0.08305312292462447
+          ]
+        }
+      }
+    },
+    {
+      "attempt_budget": 2,
+      "correct_minus_delete_bounds": [
+        0.1205508177576165,
+        0.1550563446602508
+      ],
+      "initial_memory": [
+        "E",
+        "E",
+        "N"
+      ],
+      "operations": {
+        "correct_latest": {
+          "memory_after": [
+            "E",
+            "C",
+            "N"
+          ],
+          "remaining_error_updates": 1,
+          "success_probability_bounds": [
+            0.27975924237933264,
+            0.31426476928196695
+          ]
+        },
+        "delete_latest": {
+          "memory_after": [
+            "E",
+            "N"
+          ],
+          "remaining_error_updates": 2,
+          "success_probability_bounds": [
+            0.15920842462171614,
+            0.15920842462171614
+          ]
+        },
+        "retain": {
+          "memory_after": [
+            "E",
+            "E",
+            "N"
+          ],
+          "remaining_error_updates": 2,
+          "success_probability_bounds": [
+            0.15920842462171614,
+            0.15920842462171614
+          ]
+        }
+      }
+    },
+    {
+      "attempt_budget": 3,
+      "correct_minus_delete_bounds": [
+        0.0888940859602651,
+        0.1582657656884509
+      ],
+      "initial_memory": [
+        "E",
+        "E",
+        "N"
+      ],
+      "operations": {
+        "correct_latest": {
+          "memory_after": [
+            "E",
+            "C",
+            "N"
+          ],
+          "remaining_error_updates": 1,
+          "success_probability_bounds": [
+            0.367245495819379,
+            0.41711162781449235
+          ]
+        },
+        "delete_latest": {
+          "memory_after": [
+            "E",
+            "N"
+          ],
+          "remaining_error_updates": 2,
+          "success_probability_bounds": [
+            0.25884586212604144,
+            0.2783514098591139
+          ]
+        },
+        "retain": {
+          "memory_after": [
+            "E",
+            "E",
+            "N"
+          ],
+          "remaining_error_updates": 2,
+          "success_probability_bounds": [
+            0.25884586212604144,
+            0.2783514098591139
+          ]
+        }
+      }
+    },
+    {
+      "attempt_budget": 4,
+      "correct_minus_delete_bounds": [
+        0.07326551633208978,
+        0.15186425369638445
+      ],
+      "initial_memory": [
+        "E",
+        "E",
+        "N"
+      ],
+      "operations": {
+        "correct_latest": {
+          "memory_after": [
+            "E",
+            "C",
+            "N"
+          ],
+          "remaining_error_updates": 1,
+          "success_probability_bounds": [
+            0.42614790799963126,
+            0.4791063992046823
+          ]
+        },
+        "delete_latest": {
+          "memory_after": [
+            "E",
+            "N"
+          ],
+          "remaining_error_updates": 2,
+          "success_probability_bounds": [
+            0.32724214550829783,
+            0.3528823916675415
+          ]
+        },
+        "retain": {
+          "memory_after": [
+            "E",
+            "E",
+            "N"
+          ],
+          "remaining_error_updates": 2,
+          "success_probability_bounds": [
+            0.32724214550829783,
+            0.3528823916675415
+          ]
+        }
+      }
+    },
+    {
+      "attempt_budget": 5,
+      "correct_minus_delete_bounds": [
+        0.05986075861065421,
+        0.14615914250435214
+      ],
+      "initial_memory": [
+        "E",
+        "E",
+        "N"
+      ],
+      "operations": {
+        "correct_latest": {
+          "memory_after": [
+            "E",
+            "C",
+            "N"
+          ],
+          "remaining_error_updates": 1,
+          "success_probability_bounds": [
+            0.48020118858391525,
+            0.5357816789906024
+          ]
+        },
+        "delete_latest": {
+          "memory_after": [
+            "E",
+            "N"
+          ],
+          "remaining_error_updates": 2,
+          "success_probability_bounds": [
+            0.3896225364862502,
+            0.42034042997326104
+          ]
+        },
+        "retain": {
+          "memory_after": [
+            "E",
+            "E",
+            "N"
+          ],
+          "remaining_error_updates": 2,
+          "success_probability_bounds": [
+            0.3896225364862502,
+            0.42034042997326104
+          ]
+        }
+      }
+    },
+    {
+      "attempt_budget": 6,
+      "correct_minus_delete_bounds": [
+        0.04735453461971606,
+        0.13826236465328046
+      ],
+      "initial_memory": [
+        "E",
+        "E",
+        "N"
+      ],
+      "operations": {
+        "correct_latest": {
+          "memory_after": [
+            "E",
+            "C",
+            "N"
+          ],
+          "remaining_error_updates": 1,
+          "success_probability_bounds": [
+            0.5285089754295266,
+            0.5845975156502644
+          ]
+        },
+        "delete_latest": {
+          "memory_after": [
+            "E",
+            "N"
+          ],
+          "remaining_error_updates": 2,
+          "success_probability_bounds": [
+            0.44633515099698395,
+            0.4811544408098105
+          ]
+        },
+        "retain": {
+          "memory_after": [
+            "E",
+            "E",
+            "N"
+          ],
+          "remaining_error_updates": 2,
+          "success_probability_bounds": [
+            0.44633515099698395,
+            0.4811544408098105
+          ]
+        }
+      }
+    },
+    {
+      "attempt_budget": 7,
+      "correct_minus_delete_bounds": [
+        0.037049396134639756,
+        0.1302505391290565
+      ],
+      "initial_memory": [
+        "E",
+        "E",
+        "N"
+      ],
+      "operations": {
+        "correct_latest": {
+          "memory_after": [
+            "E",
+            "C",
+            "N"
+          ],
+          "remaining_error_updates": 1,
+          "success_probability_bounds": [
+            0.5722051021705544,
+            0.6278888397030252
+          ]
+        },
+        "delete_latest": {
+          "memory_after": [
+            "E",
+            "N"
+          ],
+          "remaining_error_updates": 2,
+          "success_probability_bounds": [
+            0.49763830057396874,
+            0.5351557060359147
+          ]
+        },
+        "retain": {
+          "memory_after": [
+            "E",
+            "E",
+            "N"
+          ],
+          "remaining_error_updates": 2,
+          "success_probability_bounds": [
+            0.49763830057396874,
+            0.5351557060359147
+          ]
+        }
+      }
+    },
+    {
+      "attempt_budget": 8,
+      "correct_minus_delete_bounds": [
+        0.028302873416361618,
+        0.1224759280346236
+      ],
+      "initial_memory": [
+        "E",
+        "E",
+        "N"
+      ],
+      "operations": {
+        "correct_latest": {
+          "memory_after": [
+            "E",
+            "C",
+            "N"
+          ],
+          "remaining_error_updates": 1,
+          "success_probability_bounds": [
+            0.611854120648928,
+            0.6666673181517002
+          ]
+        },
+        "delete_latest": {
+          "memory_after": [
+            "E",
+            "N"
+          ],
+          "remaining_error_updates": 2,
+          "success_probability_bounds": [
+            0.5441913901170766,
+            0.5835512472325664
+          ]
+        },
+        "retain": {
+          "memory_after": [
+            "E",
+            "E",
+            "N"
+          ],
+          "remaining_error_updates": 2,
+          "success_probability_bounds": [
+            0.5441913901170766,
+            0.5835512472325664
+          ]
+        }
+      }
+    }
+  ],
+  "scope": "Conditional exact finite-window forecasts from a real-Agent-calibrated candidate kernel; not new Agent measurements",
+  "sha256": "2a2c4397ad026d73b87a1f7b1c83bdc9a2759e25085d6f5992e6b88e0fe0ffdb",
+  "source_presence_freeze_sha256": "eecfe6b8a49216580cf76e3d49cda145c6fcc6c3624fa13220a393507601b85b",
+  "visible_window": 3
+}

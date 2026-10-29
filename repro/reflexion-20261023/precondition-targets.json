@@ -1,0 +1,302 @@
+{
+  "coverage": [
+    {
+      "status": "first_attempt_success_no_reflection",
+      "task_id": "5f8580c3259d2d84"
+    },
+    {
+      "status": "first_attempt_success_no_reflection",
+      "task_id": "00bfb53285018656"
+    },
+    {
+      "status": "first_attempt_success_no_reflection",
+      "task_id": "3534fb5dcf56de34"
+    },
+    {
+      "status": "first_attempt_success_no_reflection",
+      "task_id": "fa8d7fa956393ff1"
+    },
+    {
+      "status": "no_observed_placement_before_macro_failure",
+      "task_id": "e95efee1d357020f"
+    },
+    {
+      "status": "first_attempt_success_no_reflection",
+      "task_id": "c63ec38fafff59ed"
+    },
+    {
+      "status": "first_attempt_success_no_reflection",
+      "task_id": "599fc447f43bcc5a"
+    },
+    {
+      "status": "first_attempt_success_no_reflection",
+      "task_id": "f568c1458f420511"
+    },
+    {
+      "status": "eligible_selected",
+      "task_id": "64aa51b30cab1f98"
+    },
+    {
+      "status": "first_attempt_success_no_reflection",
+      "task_id": "e21e5db1fe4cf4ad"
+    },
+    {
+      "status": "no_observed_placement_before_macro_failure",
+      "task_id": "537038eec7c212d9"
+    },
+    {
+      "status": "first_attempt_success_no_reflection",
+      "task_id": "85901e30728bc7fd"
+    },
+    {
+      "status": "first_attempt_success_no_reflection",
+      "task_id": "73ab4a599e2e93d6"
+    },
+    {
+      "status": "no_observed_placement_before_macro_failure",
+      "task_id": "1af9c534ab13de69"
+    },
+    {
+      "status": "first_attempt_success_no_reflection",
+      "task_id": "8836af46f273b815"
+    },
+    {
+      "status": "first_attempt_success_no_reflection",
+      "task_id": "a950f6352b0a4ad9"
+    },
+    {
+      "status": "first_attempt_success_no_reflection",
+      "task_id": "1e8c9c1f4baeb3f4"
+    },
+    {
+      "status": "first_attempt_success_no_reflection",
+      "task_id": "508a258170557ce6"
+    },
+    {
+      "status": "eligible_selected",
+      "task_id": "3e3fa991ee97689e"
+    },
+    {
+      "status": "first_attempt_success_no_reflection",
+      "task_id": "d40274208132a0d4"
+    },
+    {
+      "status": "no_candidate_native_placement_advice",
+      "task_id": "4124c902df79f1d3"
+    },
+    {
+      "status": "first_attempt_success_no_reflection",
+      "task_id": "14027b64805af030"
+    },
+    {
+      "status": "eligible_selected",
+      "task_id": "05f694718d71af12"
+    },
+    {
+      "status": "first_attempt_success_no_reflection",
+      "task_id": "72339b17064f7dbf"
+    }
+  ],
+  "frozen_unix": 1792712608.7101924,
+  "manifest_sha256": "b87d62bd6271be9cd81791f3804f4ba0851a186c6f23b27267d4e7cf2f87d61e",
+  "previews": [
+    {
+      "probe_file": "repro/reflexion-20261023/precondition-replays/64aa51b30cab1f98-replay.json",
+      "probe_sha256": "856289c0eca87d98d045af11580dde25e7c8924029cf5e0d21d535f2bbff613c",
+      "proposals": [
+        {
+          "sentence_excerpt": "I should have first confirmed that the egg was in the microwave, then attempted to heat it using the microwave itself, rather than repeatedly trying to heat the egg directly.",
+          "span": [
+            224,
+            267
+          ],
+          "text": "confirmed that the egg was in the microwave"
+        }
+      ],
+      "task_id": "64aa51b30cab1f98"
+    },
+    {
+      "probe_file": "repro/reflexion-20261023/precondition-replays/3e3fa991ee97689e-replay.json",
+      "probe_sha256": "a141ca8445abe78fc70e0fe1b71e57289de0a22c36ed7851f28cece26c0ba1df",
+      "proposals": [
+        {
+          "sentence_excerpt": "I should have first placed the mug in the microwave, then used the heat function.",
+          "span": [
+            125,
+            156
+          ],
+          "text": "placed the mug in the microwave"
+        },
+        {
+          "sentence_excerpt": "In the next attempt, I will first place the mug in the microwave, then attempt to heat it.",
+          "span": [
+            413,
+            443
+          ],
+          "text": "place the mug in the microwave"
+        }
+      ],
+      "task_id": "3e3fa991ee97689e"
+    },
+    {
+      "probe_file": "repro/reflexion-20261023/precondition-replays/05f694718d71af12-replay.json",
+      "probe_sha256": "280a417054d6ba99701ab0ec394bb8dbf472ae86b294c621e0d4d5a61ab0fb6b",
+      "proposals": [
+        {
+          "sentence_excerpt": "I should have first confirmed the correct command format for heating (e.g., \"heat egg 1 in microwave 1\" or \"use microwave 1 to heat egg 1\") and ensured the egg was properly placed inside the microwave before attempting to heat it.",
+          "span": [
+            303,
+            330
+          ],
+          "text": "placed inside the microwave"
+        },
+        {
+          "sentence_excerpt": "I should have first confirmed the correct command format for heating (e.g., \"heat egg 1 in microwave 1\" or \"use microwave 1 to heat egg 1\") and ensured the egg was properly placed inside the microwave before attempting to heat it.",
+          "span": [
+            274,
+            330
+          ],
+          "text": "ensured the egg was properly placed inside the microwave"
+        }
+      ],
+      "task_id": "05f694718d71af12"
+    }
+  ],
+  "reviewed_edits_sha256": "deed203e1f8df04622b49c7aab0f15d27619a9f26b7877053b65000cf33f9f39",
+  "scope": "prospective thermal development native-error forks",
+  "selection_rule": {
+    "evidence": "Accepted goal-object placement followed by failed thermal macro, native advice recommending placement before that macro, and held/placed/retrieved public replay",
+    "excludes": [
+      "future branch outcomes",
+      "evaluator facts",
+      "expert plans",
+      "non-goal-object failures",
+      "negated or retrospective descriptions mislabeled as advice"
+    ],
+    "max_targets": 4,
+    "order": "Frozen thermal manifest order; first four independently reviewed native errors supported by public replay",
+    "parent_trial": 0,
+    "stratum": "native_false_holding_precondition"
+  },
+  "selector_sha256": "2470c85d28460b06695e0e46679ff864fb81e373c22823c48fc25fd8126e72d3",
+  "sha256": "511a493a5d5531ba6dc81bc224a26d466a20141a05a44394c753c0ba3151285f",
+  "targets": [
+    {
+      "corrected_text": "I was still holding the egg near the microwave",
+      "original_text": "the egg was in the microwave",
+      "original_truth": "error",
+      "parent_result_sha256": "51d98faa72053e911e8c5d75d9620e80c8a042ff45c581523af6e9a1c822f7e4",
+      "parent_trial": 0,
+      "precondition_references_repaired": 2,
+      "probe_file": "repro/reflexion-20261023/precondition-replays/64aa51b30cab1f98-replay.json",
+      "probe_sha256": "856289c0eca87d98d045af11580dde25e7c8924029cf5e0d21d535f2bbff613c",
+      "public_evidence_reviewed": true,
+      "repair_scope": "All reviewed explicit references to one inside-device precondition; other advice unchanged",
+      "repairs": [
+        {
+          "coreferent_same_precondition_reviewed": true,
+          "corrected_text": "I was still holding the egg near the microwave",
+          "original_text": "the egg was properly placed in the microwave",
+          "review_note": "The causal explanation repeats the same inside-device requirement as the subsequent normative advice; reverse this object-state predicate too.",
+          "span": [
+            114,
+            158
+          ]
+        },
+        {
+          "corrected_text": "I was still holding the egg near the microwave",
+          "original_text": "the egg was in the microwave",
+          "span": [
+            239,
+            267
+          ]
+        }
+      ],
+      "review": "Public same-prefix replay establishes the holding requirement. Correct the explicit object-state requirement in advice and its reviewed co-reference; preserve other actions, tool spellings and conjectures.",
+      "sha256": "7475f1c2732f669026c3b2c263ca37aab6cd6d4fe9cd58c489a3f99e0aa18fb1",
+      "shared_demo_key": "react_heat_1",
+      "shared_demo_sha256": "f389ed6def02e7151fb1464d1e9c518b0514c66924eb0747d2aaddc82b55a6f4",
+      "span": [
+        239,
+        267
+      ],
+      "stratum": "native_false_holding_precondition",
+      "task_id": "64aa51b30cab1f98",
+      "unchanged_competing_advice": "Stoveburner fallback, functional-state speculation, and the negative framing of direct heating are retained."
+    },
+    {
+      "corrected_text": "kept the mug in my inventory near the microwave",
+      "original_text": "placed the mug in the microwave",
+      "original_truth": "error",
+      "parent_result_sha256": "fb0c10ea03e1f5135c62bdd5804c41d05fb049450a6bcadb96deac9832ffb751",
+      "parent_trial": 0,
+      "precondition_references_repaired": 2,
+      "probe_file": "repro/reflexion-20261023/precondition-replays/3e3fa991ee97689e-replay.json",
+      "probe_sha256": "a141ca8445abe78fc70e0fe1b71e57289de0a22c36ed7851f28cece26c0ba1df",
+      "public_evidence_reviewed": true,
+      "repair_scope": "All reviewed explicit references to one inside-device precondition; other advice unchanged",
+      "repairs": [
+        {
+          "corrected_text": "kept the mug in my inventory near the microwave",
+          "original_text": "placed the mug in the microwave",
+          "span": [
+            125,
+            156
+          ]
+        },
+        {
+          "corrected_text": "keep the mug in my inventory near the microwave",
+          "original_text": "place the mug in the microwave",
+          "span": [
+            413,
+            443
+          ]
+        }
+      ],
+      "review": "Public same-prefix replay establishes the holding requirement. Correct the explicit object-state requirement in advice and its reviewed co-reference; preserve other actions, tool spellings and conjectures.",
+      "sha256": "cb5b4cae53911ac493259426a89f939d8b79b5713f652e7058b248e74a7166a2",
+      "shared_demo_key": "react_heat_1",
+      "shared_demo_sha256": "f389ed6def02e7151fb1464d1e9c518b0514c66924eb0747d2aaddc82b55a6f4",
+      "span": [
+        125,
+        156
+      ],
+      "stratum": "native_false_holding_precondition",
+      "task_id": "3e3fa991ee97689e",
+      "unchanged_competing_advice": "Stoveburner placement/toggling fallback and speculation about mug heatability are retained."
+    },
+    {
+      "corrected_text": "I was still holding the egg near the microwave",
+      "original_text": "the egg was properly placed inside the microwave",
+      "original_truth": "error",
+      "parent_result_sha256": "4d497c3540d8a223186a1f646141e76589db1ec6e9006d3382cd2b4c4bbada02",
+      "parent_trial": 0,
+      "precondition_references_repaired": 1,
+      "probe_file": "repro/reflexion-20261023/precondition-replays/05f694718d71af12-replay.json",
+      "probe_sha256": "280a417054d6ba99701ab0ec394bb8dbf472ae86b294c621e0d4d5a61ab0fb6b",
+      "public_evidence_reviewed": true,
+      "repair_scope": "All reviewed explicit references to one inside-device precondition; other advice unchanged",
+      "repairs": [
+        {
+          "corrected_text": "I was still holding the egg near the microwave",
+          "original_text": "the egg was properly placed inside the microwave",
+          "span": [
+            282,
+            330
+          ]
+        }
+      ],
+      "review": "Public same-prefix replay establishes the holding requirement. Correct the explicit object-state requirement in advice and its reviewed co-reference; preserve other actions, tool spellings and conjectures.",
+      "sha256": "7825e79e0edf2f3e2980ef169280d9ce9b31422eedfd4182c56b1eda6a31d4a4",
+      "shared_demo_key": "react_heat_1",
+      "shared_demo_sha256": "f389ed6def02e7151fb1464d1e9c518b0514c66924eb0747d2aaddc82b55a6f4",
+      "span": [
+        282,
+        330
+      ],
+      "stratum": "native_false_holding_precondition",
+      "task_id": "05f694718d71af12",
+      "unchanged_competing_advice": "Two unsupported heating spellings and the suggestion to proceed without confirmed heating are retained."
+    }
+  ]
+}

@@ -1,0 +1,5813 @@
+{
+  "contrasts": [
+    {
+      "baseline": "constant_persistent",
+      "budget": 1,
+      "mean": 0.036788238083541785,
+      "scene_bootstrap95": [
+        0.018835118600427088,
+        0.05284427064798623
+      ],
+      "scene_sd": 0.027862615243103284,
+      "scene_values": [
+        0.040847144972822755,
+        0.06847440300589816,
+        0.02034249193938363,
+        0.041207137471765506,
+        0.06502166038653656,
+        0.05298868261990794,
+        -0.0037234635938735924,
+        0.05311229216267026,
+        -0.007176206213235184
+      ],
+      "student_t95": [
+        0.01537113609603839,
+        0.05820534007104518
+      ]
+    },
+    {
+      "baseline": "constant_persistent",
+      "budget": 2,
+      "mean": 0.033693508074927006,
+      "scene_bootstrap95": [
+        0.017193952313825492,
+        0.04892642618440965
+      ],
+      "scene_sd": 0.026138507442437044,
+      "scene_values": [
+        0.0208443365078399,
+        0.04552600832136494,
+        0.0342749577580686,
+        0.03957294977619509,
+        0.07585162011778802,
+        0.0460130413359338,
+        -0.010835846545680372,
+        0.04939973069828474,
+        0.0025947747045483027
+      ],
+      "student_t95": [
+        0.013601672659930977,
+        0.05378534348992303
+      ]
+    },
+    {
+      "baseline": "constant_pooled",
+      "budget": 1,
+      "mean": 0.037193901876071044,
+      "scene_bootstrap95": [
+        0.018150523147435718,
+        0.05407824066597614
+      ],
+      "scene_sd": 0.02939366965781443,
+      "scene_values": [
+        0.04173598739687072,
+        0.0699844750990416,
+        0.019367645356145144,
+        0.0420959798958135,
+        0.06715296214877553,
+        0.054498754713051434,
+        -0.00594076951530307,
+        0.054622364255813696,
+        -0.008772282465569159
+      ],
+      "student_t95": [
+        0.014599927284823008,
+        0.059787876467319076
+      ]
+    },
+    {
+      "baseline": "constant_pooled",
+      "budget": 2,
+      "mean": 0.03359600494661393,
+      "scene_bootstrap95": [
+        0.017309958432433617,
+        0.04876063489329487
+      ],
+      "scene_sd": 0.026000116196059072,
+      "scene_values": [
+        0.02131250770080903,
+        0.0465598538356162,
+        0.033046105987191154,
+        0.03834409800531764,
+        0.07575411698947497,
+        0.045349863886338534,
+        -0.009802001031429058,
+        0.04986790189125387,
+        0.001931597254953038
+      ],
+      "student_t95": [
+        0.01361054646041637,
+        0.05358146343281149
+      ]
+    },
+    {
+      "baseline": "error_pooled",
+      "budget": 1,
+      "mean": 0.000494088608173839,
+      "scene_bootstrap95": [
+        -0.0004702852257346895,
+        0.0013475654911210494
+      ],
+      "scene_sd": 0.0014933423377963698,
+      "scene_values": [
+        0.0008325700630703453,
+        0.0020043391924760845,
+        -0.0005093515517227559,
+        0.0009767022998537211,
+        0.0019489740420446655,
+        0.001320551355994945,
+        -0.001766196923822183,
+        0.0014607710699233167,
+        -0.0018215620742535882
+      ],
+      "student_t95": [
+        -0.0006537959271358261,
+        0.0016419731434835043
+      ]
+    },
+    {
+      "baseline": "error_pooled",
+      "budget": 2,
+      "mean": -8.282391998884784e-05,
+      "scene_bootstrap95": [
+        -0.0005394217391787088,
+        0.0004223676893134542
+      ],
+      "scene_sd": 0.0007945438625552409,
+      "scene_values": [
+        -9.870970713893312e-05,
+        -0.0005904566549279344,
+        -0.0010444342674807011,
+        -0.0002485946669483624,
+        -0.0005833501938843078,
+        -0.000723166479661197,
+        0.0011708898127834877,
+        0.0011472416249167228,
+        0.0002251652524415948
+      ],
+      "student_t95": [
+        -0.0006935643974859335,
+        0.0005279165575082377
+      ]
+    }
+  ],
+  "evaluator_source_sha256": "e9c6556d47428cbeeafaa4c84c9a90d24576b55d05259908651943362dad21eb",
+  "holdout134_model_calls": 0,
+  "metrics": [
+    {
+      "budget": 1,
+      "mean_brier": 0.12628172026057294,
+      "model": "constant_persistent",
+      "scene_scores": [
+        {
+          "loss": 0.13964751991792013,
+          "scene_id": "FloorPlan1"
+        },
+        {
+          "loss": 0.15683211947736653,
+          "scene_id": "FloorPlan11"
+        },
+        {
+          "loss": 0.08809372123958087,
+          "scene_id": "FloorPlan14"
+        },
+        {
+          "loss": 0.13964751991792013,
+          "scene_id": "FloorPlan2"
+        },
+        {
+          "loss": 0.17401671903681293,
+          "scene_id": "FloorPlan20"
+        },
+        {
+          "loss": 0.15683211947736653,
+          "scene_id": "FloorPlan23"
+        },
+        {
+          "loss": 0.05372452212068806,
+          "scene_id": "FloorPlan26"
+        },
+        {
+          "loss": 0.15683211947736653,
+          "scene_id": "FloorPlan28"
+        },
+        {
+          "loss": 0.07090912168013447,
+          "scene_id": "FloorPlan5"
+        }
+      ]
+    },
+    {
+      "budget": 2,
+      "mean_brier": 0.18150676833332244,
+      "model": "constant_persistent",
+      "scene_scores": [
+        {
+          "loss": 0.1935001599806562,
+          "scene_id": "FloorPlan1"
+        },
+        {
+          "loss": 0.20549355162799002,
+          "scene_id": "FloorPlan11"
+        },
+        {
+          "loss": 0.15751998503865494,
+          "scene_id": "FloorPlan14"
+        },
+        {
+          "loss": 0.15751998503865497,
+          "scene_id": "FloorPlan2"
+        },
+        {
+          "loss": 0.18150676833332244,
+          "scene_id": "FloorPlan20"
+        },
+        {
+          "loss": 0.16951337668598873,
+          "scene_id": "FloorPlan23"
+        },
+        {
+          "loss": 0.20549355162798996,
+          "scene_id": "FloorPlan26"
+        },
+        {
+          "loss": 0.1935001599806562,
+          "scene_id": "FloorPlan28"
+        },
+        {
+          "loss": 0.16951337668598868,
+          "scene_id": "FloorPlan5"
+        }
+      ]
+    },
+    {
+      "budget": 1,
+      "mean_brier": 0.12668738405310218,
+      "model": "constant_pooled",
+      "scene_scores": [
+        {
+          "loss": 0.1405363623419681,
+          "scene_id": "FloorPlan1"
+        },
+        {
+          "loss": 0.15834219157050997,
+          "scene_id": "FloorPlan11"
+        },
+        {
+          "loss": 0.08711887465634238,
+          "scene_id": "FloorPlan14"
+        },
+        {
+          "loss": 0.14053636234196812,
+          "scene_id": "FloorPlan2"
+        },
+        {
+          "loss": 0.1761480207990519,
+          "scene_id": "FloorPlan20"
+        },
+        {
+          "loss": 0.15834219157051002,
+          "scene_id": "FloorPlan23"
+        },
+        {
+          "loss": 0.05150721619925858,
+          "scene_id": "FloorPlan26"
+        },
+        {
+          "loss": 0.15834219157050997,
+          "scene_id": "FloorPlan28"
+        },
+        {
+          "loss": 0.0693130454278005,
+          "scene_id": "FloorPlan5"
+        }
+      ]
+    },
+    {
+      "budget": 2,
+      "mean_brier": 0.18140926520500938,
+      "model": "constant_pooled",
+      "scene_scores": [
+        {
+          "loss": 0.19396833117362533,
+          "scene_id": "FloorPlan1"
+        },
+        {
+          "loss": 0.20652739714224128,
+          "scene_id": "FloorPlan11"
+        },
+        {
+          "loss": 0.1562911332677775,
+          "scene_id": "FloorPlan14"
+        },
+        {
+          "loss": 0.15629113326777752,
+          "scene_id": "FloorPlan2"
+        },
+        {
+          "loss": 0.18140926520500938,
+          "scene_id": "FloorPlan20"
+        },
+        {
+          "loss": 0.16885019923639347,
+          "scene_id": "FloorPlan23"
+        },
+        {
+          "loss": 0.20652739714224128,
+          "scene_id": "FloorPlan26"
+        },
+        {
+          "loss": 0.19396833117362533,
+          "scene_id": "FloorPlan28"
+        },
+        {
+          "loss": 0.1688501992363934,
+          "scene_id": "FloorPlan5"
+        }
+      ]
+    },
+    {
+      "budget": 1,
+      "mean_brier": 0.08998757078520497,
+      "model": "error_pooled",
+      "scene_scores": [
+        {
+          "loss": 0.09963294500816772,
+          "scene_id": "FloorPlan1"
+        },
+        {
+          "loss": 0.09036205566394445,
+          "scene_id": "FloorPlan11"
+        },
+        {
+          "loss": 0.06724187774847448,
+          "scene_id": "FloorPlan14"
+        },
+        {
+          "loss": 0.09941708474600834,
+          "scene_id": "FloorPlan2"
+        },
+        {
+          "loss": 0.11094403269232103,
+          "scene_id": "FloorPlan20"
+        },
+        {
+          "loss": 0.10516398821345353,
+          "scene_id": "FloorPlan23"
+        },
+        {
+          "loss": 0.05568178879073947,
+          "scene_id": "FloorPlan26"
+        },
+        {
+          "loss": 0.10518059838461959,
+          "scene_id": "FloorPlan28"
+        },
+        {
+          "loss": 0.07626376581911606,
+          "scene_id": "FloorPlan5"
+        }
+      ]
+    },
+    {
+      "budget": 2,
+      "mean_brier": 0.14773043633840663,
+      "model": "error_pooled",
+      "scene_scores": [
+        {
+          "loss": 0.17255711376567737,
+          "scene_id": "FloorPlan1"
+        },
+        {
+          "loss": 0.15937708665169714,
+          "scene_id": "FloorPlan11"
+        },
+        {
+          "loss": 0.12220059301310564,
+          "scene_id": "FloorPlan14"
+        },
+        {
+          "loss": 0.11769844059551152,
+          "scene_id": "FloorPlan2"
+        },
+        {
+          "loss": 0.1050717980216501,
+          "scene_id": "FloorPlan20"
+        },
+        {
+          "loss": 0.12277716887039374,
+          "scene_id": "FloorPlan23"
+        },
+        {
+          "loss": 0.21750028798645382,
+          "scene_id": "FloorPlan26"
+        },
+        {
+          "loss": 0.14524767090728818,
+          "scene_id": "FloorPlan28"
+        },
+        {
+          "loss": 0.16714376723388197,
+          "scene_id": "FloorPlan5"
+        }
+      ]
+    },
+    {
+      "budget": 1,
+      "mean_brier": 0.08949348217703113,
+      "model": "selected",
+      "scene_scores": [
+        {
+          "loss": 0.09880037494509737,
+          "scene_id": "FloorPlan1"
+        },
+        {
+          "loss": 0.08835771647146837,
+          "scene_id": "FloorPlan11"
+        },
+        {
+          "loss": 0.06775122930019724,
+          "scene_id": "FloorPlan14"
+        },
+        {
+          "loss": 0.09844038244615462,
+          "scene_id": "FloorPlan2"
+        },
+        {
+          "loss": 0.10899505865027637,
+          "scene_id": "FloorPlan20"
+        },
+        {
+          "loss": 0.10384343685745859,
+          "scene_id": "FloorPlan23"
+        },
+        {
+          "loss": 0.05744798571456165,
+          "scene_id": "FloorPlan26"
+        },
+        {
+          "loss": 0.10371982731469627,
+          "scene_id": "FloorPlan28"
+        },
+        {
+          "loss": 0.07808532789336965,
+          "scene_id": "FloorPlan5"
+        }
+      ]
+    },
+    {
+      "budget": 2,
+      "mean_brier": 0.14781326025839545,
+      "model": "selected",
+      "scene_scores": [
+        {
+          "loss": 0.1726558234728163,
+          "scene_id": "FloorPlan1"
+        },
+        {
+          "loss": 0.15996754330662508,
+          "scene_id": "FloorPlan11"
+        },
+        {
+          "loss": 0.12324502728058634,
+          "scene_id": "FloorPlan14"
+        },
+        {
+          "loss": 0.11794703526245988,
+          "scene_id": "FloorPlan2"
+        },
+        {
+          "loss": 0.10565514821553441,
+          "scene_id": "FloorPlan20"
+        },
+        {
+          "loss": 0.12350033535005493,
+          "scene_id": "FloorPlan23"
+        },
+        {
+          "loss": 0.21632939817367033,
+          "scene_id": "FloorPlan26"
+        },
+        {
+          "loss": 0.14410042928237146,
+          "scene_id": "FloorPlan28"
+        },
+        {
+          "loss": 0.16691860198144037,
+          "scene_id": "FloorPlan5"
+        }
+      ]
+    }
+  ],
+  "observed": [
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "add6a5235356b9f98a609bcc71169fe8936bebb5272bd515a5c947c4be957194",
+        "6e56d8f771d28dc8275bee090179b9ec3d32572cd2e921d04684e53fff9ae86f"
+      ],
+      "scene_id": "FloorPlan2",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "93e2028a0aa64315",
+      "trajectory_id": "validation-93e2028a0aa64315-2120-error_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "07afceabd76562febd6b9d49c04597cbe71e61ab9e92d18a75da77a9f0eb37ae"
+      ],
+      "scene_id": "FloorPlan2",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "93e2028a0aa64315",
+      "trajectory_id": "validation-93e2028a0aa64315-2121-correct_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "da111d301b408779235fac2087a24d8adb118fc30722e2c61e890e3ac38d4679"
+      ],
+      "scene_id": "FloorPlan2",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "93e2028a0aa64315",
+      "trajectory_id": "validation-93e2028a0aa64315-2122-neutral_full"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "cf7570a4c5014f6667c1052ce9fc813f8e8a7f8188088bd00924fd1fa6968e8b",
+        "68dd2f18e926d4a4dfb1b5d56e931a20ed9a3d08b6f3aee3f794e5e8984f8452"
+      ],
+      "scene_id": "FloorPlan2",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "93e2028a0aa64315",
+      "trajectory_id": "validation-93e2028a0aa64315-2123-repeated_error"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "9875915d825ff2a35a1a991f5b3084e8a3297a54210177d9608ec96148c43503",
+        "9f2cfec2c772f8679738798aeb59206ac586b9c186146262087d5b0c0d566661"
+      ],
+      "scene_id": "FloorPlan2",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "93e2028a0aa64315",
+      "trajectory_id": "validation-93e2028a0aa64315-2124-correct_latest"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "d07b34043df7a93f621316fad7f239e603391aeb80fc5e20be1a005a46a470ce",
+        "ab4b361c740cfdfed7e9f88ec786213c1f61cb4a7a8660b377eb9a37779a7654"
+      ],
+      "scene_id": "FloorPlan2",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "93e2028a0aa64315",
+      "trajectory_id": "validation-93e2028a0aa64315-2125-delete_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "7aa2791c08ad816fe6132d3837c442d0795ee2878d389b1ae702e8bd96a51e8c",
+        "c46d1807a31d45e53886ac168db3d7f33c6f7c9f633090c20809f161fa3c4898"
+      ],
+      "scene_id": "FloorPlan2",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "93e2028a0aa64315",
+      "trajectory_id": "validation-93e2028a0aa64315-2126-correct_oldest"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "5f2c779ff8ff738994f18d646e140ac09781e886867f40cdbff4c86e5df93085",
+        "e258cc338297440cf865e8e272e6b75c4f4e95bc2947f376618bcd51f4a2a422"
+      ],
+      "scene_id": "FloorPlan2",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "ae0f72ada659c929",
+      "trajectory_id": "validation-ae0f72ada659c929-2121-correct_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "f067751b0722d08e3cf0862840081cf9b210e34b375e10383464ce8298671898"
+      ],
+      "scene_id": "FloorPlan2",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "ae0f72ada659c929",
+      "trajectory_id": "validation-ae0f72ada659c929-2122-neutral_full"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "7e9a4cea32df20fa616dc4a38c135b99ae2df7a45f61d81831c7b730f0938109",
+        "b6ce646dad7955808376245e818a6ea5e5ad14203f48f954d854293dcf5d19b8"
+      ],
+      "scene_id": "FloorPlan2",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "ae0f72ada659c929",
+      "trajectory_id": "validation-ae0f72ada659c929-2123-repeated_error"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "3c96b82be529d0ed20e56ae2bab09bdff466f7a6330c5aa5eda5757cc6bab087",
+        "ce19f20c34553a76ba00ba6b790ffb35e1fc16685fc36bf84452122aaaa433d1"
+      ],
+      "scene_id": "FloorPlan2",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "ae0f72ada659c929",
+      "trajectory_id": "validation-ae0f72ada659c929-2124-correct_latest"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "ac8e4272a3400f751c280cbec1b88215ea9c587fe4b98ef865ee01d8b98e012b",
+        "79ba7b20f81fb064ae77cf7588f3abc3904c8d6c0cf86569a8e68281459e1654"
+      ],
+      "scene_id": "FloorPlan2",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "ae0f72ada659c929",
+      "trajectory_id": "validation-ae0f72ada659c929-2125-delete_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "caab1c81c4f67aed388ff708e1d5db3a25e148c660c7255fd4b32986e6407781",
+        "c03fb0f2dd443a69098594d5768d6f42ee9ab9fd339cb5c2f7e781046ef33561"
+      ],
+      "scene_id": "FloorPlan2",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "ae0f72ada659c929",
+      "trajectory_id": "validation-ae0f72ada659c929-2126-correct_oldest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "4f39c33783bdd2cdd831e4c95858603f02ff46ff0d670bd765c5fc4b9a353446",
+        "25fd7545790bd9f49fc5a8a68af1c6faa22a66afcc0c89cbfe54dae39bf1ae6b"
+      ],
+      "scene_id": "FloorPlan2",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "ae0f72ada659c929",
+      "trajectory_id": "validation-ae0f72ada659c929-2120-error_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "289f5f3325d7275b63637f7c0b4269ca7772d9aa30cd3a0b99a8fd424d76e2f2",
+        "d2d3ad62d3d372aa3c6336bf93f464fdd40992e6a55c7643ed71cdbc6c7bf8bc"
+      ],
+      "scene_id": "FloorPlan2",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "9a14522806e5498d",
+      "trajectory_id": "validation-9a14522806e5498d-2122-neutral_full"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "665113b6a25e85d5d8b465494b36a744a0f1a16e8426a5b85650e050b8662bc5",
+        "cff097aaa74c75c06e26197000e61918316f2de73dce4c5697ffae163c4b333b"
+      ],
+      "scene_id": "FloorPlan2",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "9a14522806e5498d",
+      "trajectory_id": "validation-9a14522806e5498d-2123-repeated_error"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "2eec0c0259b680029beaeab371a963ba7d6feb1ebe2c109dac7baad28c8a5254"
+      ],
+      "scene_id": "FloorPlan2",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "9a14522806e5498d",
+      "trajectory_id": "validation-9a14522806e5498d-2124-correct_latest"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "555534a9e98c053b37a58227cd0238e6299b4752da754e31c4a4406e3953e084",
+        "8e05406ff565ebc9318feaaabddccbe88ab2fd1b13e7216df41df4e95a3b1703"
+      ],
+      "scene_id": "FloorPlan2",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "9a14522806e5498d",
+      "trajectory_id": "validation-9a14522806e5498d-2125-delete_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "b6ad1d46a6e1b43fe1e054bbdee805d7f240947f8434615be5e1db4938bea9bf",
+        "ea297cd305f50a2f87f3485d8582d0e26d385326e87762bdf406a81018df5ff6"
+      ],
+      "scene_id": "FloorPlan2",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "9a14522806e5498d",
+      "trajectory_id": "validation-9a14522806e5498d-2126-correct_oldest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "9f595c89a20e0374beadcbd504f34f0a588128d08544232f0b69e0907497a1c1",
+        "5550b0fe9ab4870b6ff0d5bb19a9ccb54578174d9d8c0037789f3aae4206ea4e"
+      ],
+      "scene_id": "FloorPlan2",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "9a14522806e5498d",
+      "trajectory_id": "validation-9a14522806e5498d-2120-error_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "16e9852e19dea5612d5e81e1ec301a8c1d444c04eb6d321392edee3d06c52a0b"
+      ],
+      "scene_id": "FloorPlan2",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "9a14522806e5498d",
+      "trajectory_id": "validation-9a14522806e5498d-2121-correct_middle"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "010fc66551b6cbe291871345fbc1d20701700609358d6199e03dd53380fbf127",
+        "243fb6798f4098f1ed2a75410702f4eabde87bbb55bbe1d9653a3ce5400e8bc4"
+      ],
+      "scene_id": "FloorPlan2",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "f8e20a0b412a4250",
+      "trajectory_id": "validation-f8e20a0b412a4250-2123-repeated_error"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "f82ea8d2c3a2ff4cbdbbdb82e18877baebefc4921eb5010c68903e4147cfdc0c",
+        "352925f5e2c7c2b1a629f7ebc372701abe589ca08ee14ae59834f1ed9eeaa856"
+      ],
+      "scene_id": "FloorPlan2",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "f8e20a0b412a4250",
+      "trajectory_id": "validation-f8e20a0b412a4250-2124-correct_latest"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "d01ebfc6224c286552b16b332dbfa08023cf8ca750c2fa1a53808aa05d0dbf41",
+        "1b67d51922124e28541579e8d4a684f8c519a356ee76a704261f113ec07e21c4"
+      ],
+      "scene_id": "FloorPlan2",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "f8e20a0b412a4250",
+      "trajectory_id": "validation-f8e20a0b412a4250-2125-delete_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "dbd1dc942d180b5684b86752fd17e2e8fbeb043479e908b18276206acc8eacb3",
+        "41ed7899b44705e1c2d94b30d7b914ef6c2557132c046f2e8a3b16edcdcc9939"
+      ],
+      "scene_id": "FloorPlan2",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "f8e20a0b412a4250",
+      "trajectory_id": "validation-f8e20a0b412a4250-2126-correct_oldest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "29bfd1a93369102940dee786cf7a6ea76f0cfa67481ac9a8ade49384884dc95d",
+        "dc90cdca4c0238ce6eaf0de7d9cd4a79822c38ed5f9d5acc41915f41ffe9b0cb"
+      ],
+      "scene_id": "FloorPlan2",
+      "success_curve": [
+        false,
+        true
+      ],
+      "task_id": "f8e20a0b412a4250",
+      "trajectory_id": "validation-f8e20a0b412a4250-2120-error_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "c362cb9ad753169e5bba80180c99633aaabe591e7bbc7aecbc5750fd6b12c451",
+        "e209a0ddb6718f6ddd9ab4b6c2ba89601fa6e5bbe375f7d438ab167ce37ad776"
+      ],
+      "scene_id": "FloorPlan2",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "f8e20a0b412a4250",
+      "trajectory_id": "validation-f8e20a0b412a4250-2121-correct_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "aef3c3365a0c804289c0d6d5c787dfb841e921af4e2d241cf9f417500068eca6",
+        "2b0a73d39ff186ec8ac88e4a4cff11c991600fa5a99432c6657113b26f868ec1"
+      ],
+      "scene_id": "FloorPlan2",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "f8e20a0b412a4250",
+      "trajectory_id": "validation-f8e20a0b412a4250-2122-neutral_full"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "2c71a8bf17db0af15c33ad1869c6250327caf70c7744e5f90b007de185888675",
+        "ea6585cf23c5a7f4bd7289419089622ad141ac439ae8498d0f90354bb3df8c12"
+      ],
+      "scene_id": "FloorPlan2",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "3157c513f1f1de68",
+      "trajectory_id": "validation-3157c513f1f1de68-2124-correct_latest"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "7d1ffe61c49a46327f3e9ce6b5a8ab0d864d199d22c326dd7cef7cae169c4170",
+        "86bd6601a864b8bebcadfca01287b3a6df879d60cc4b068bdba6882f6157ef53"
+      ],
+      "scene_id": "FloorPlan2",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "3157c513f1f1de68",
+      "trajectory_id": "validation-3157c513f1f1de68-2125-delete_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "24596545ddce83b1bb09f9e58c935f3caeca92291fbb44bc439bdbe9fc37bcc3",
+        "a8a86af8e19f455f58ac4aae9e6056c646ef771eb519a1b215d2f2acb6f8eebe"
+      ],
+      "scene_id": "FloorPlan2",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "3157c513f1f1de68",
+      "trajectory_id": "validation-3157c513f1f1de68-2126-correct_oldest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "c22cf9d52197f34bad1aa0de90d14c70dd8422fbcc13e5a9904c4868cc5b197b",
+        "8a131ffb32ed3c99c593d7889f8b46163492eea0c9d80b61d8d8746bd367614c"
+      ],
+      "scene_id": "FloorPlan2",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "3157c513f1f1de68",
+      "trajectory_id": "validation-3157c513f1f1de68-2120-error_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "12702c431f2d5d302c72494d7f1ac34e444599e8095c4d135719c828a05c43c7"
+      ],
+      "scene_id": "FloorPlan2",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "3157c513f1f1de68",
+      "trajectory_id": "validation-3157c513f1f1de68-2121-correct_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "2a5adf8fca93484ac3c8d55a7f0d39dcaac2b6eac50ab54f3ecc18d6a80d4b0f"
+      ],
+      "scene_id": "FloorPlan2",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "3157c513f1f1de68",
+      "trajectory_id": "validation-3157c513f1f1de68-2122-neutral_full"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "95a536ab5c3684005b0eec9d9e1a7c0349b9433b15f30daf85e33b9bb079460e",
+        "afd16300460a0d83dc9d1c792008c08835aa313dc356f2b33cb785ae016efe8a"
+      ],
+      "scene_id": "FloorPlan2",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "3157c513f1f1de68",
+      "trajectory_id": "validation-3157c513f1f1de68-2123-repeated_error"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "a233e06eedd60b24c5a93837654acc7a9be26a4bafed05f28c7167e416d9e53e",
+        "ff15e0182694bd77920365fd7f988fc32dfb5f4e1ab791ddd877f01f86665960"
+      ],
+      "scene_id": "FloorPlan2",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "e3fe589d9dedebd5",
+      "trajectory_id": "validation-e3fe589d9dedebd5-2125-delete_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "056b0f93bd9fda17c8d6d74e6aeec3779c6cc1960b2c2e933ec9a26ef1aa1e8d",
+        "c028f93873d874167c81951b678415b24d9c7dd155389e743e6176c09a79f6c3"
+      ],
+      "scene_id": "FloorPlan2",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "e3fe589d9dedebd5",
+      "trajectory_id": "validation-e3fe589d9dedebd5-2126-correct_oldest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "0c87dd8a6af5790f3e56dda7929d78ef0a14802d650f42acc3a0089f108c8810",
+        "89ac917f2bc7a620c99b6363a1d9f9fb32106264bb095930a83838ce0b07900e"
+      ],
+      "scene_id": "FloorPlan2",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "e3fe589d9dedebd5",
+      "trajectory_id": "validation-e3fe589d9dedebd5-2120-error_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "0310e433025c708ea98e9fd7b3aa13f16499be6cc1916dce662c8e7e4865db5b",
+        "59f9b73947e37df91e1b6a89a9af499833c0480d527f3e80431731922d263ae3"
+      ],
+      "scene_id": "FloorPlan2",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "e3fe589d9dedebd5",
+      "trajectory_id": "validation-e3fe589d9dedebd5-2121-correct_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "91e1fc02abaa14553dc66e7eeab23931d53eca5286a81df01b67320cc36da5d2",
+        "8237d6bd5eb9e3f84fdde17fa0c12c24ffa91117c71cdc8acb4efdd925b4e4b6"
+      ],
+      "scene_id": "FloorPlan2",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "e3fe589d9dedebd5",
+      "trajectory_id": "validation-e3fe589d9dedebd5-2122-neutral_full"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "37f4392cc2deed8e4a89470a15881c599255c800fc223a58aa7442d303327506",
+        "e8160a86bd844e49cfc46dada60cfca4d0548cb8a18f0bbb94623f9bed65f8b2"
+      ],
+      "scene_id": "FloorPlan2",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "e3fe589d9dedebd5",
+      "trajectory_id": "validation-e3fe589d9dedebd5-2123-repeated_error"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "d0df8bf2f5b5f74bce9b9ed318ce90713389c311e3cd50b919458a8627da5f3c",
+        "94674e8713e2b9415fe430baf0be68f3f1e149c414018a7a5aa45eb5fa2461b1"
+      ],
+      "scene_id": "FloorPlan2",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "e3fe589d9dedebd5",
+      "trajectory_id": "validation-e3fe589d9dedebd5-2124-correct_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "405b4bb83f691cd3db2994f288ada966a3ef91adb6aecb359b64ec1adc05bfcb",
+        "bf89f656b3898aedfeec9dfd779f0d56c1d41dccf7971c0d95bdcbffedd7541a"
+      ],
+      "scene_id": "FloorPlan26",
+      "success_curve": [
+        false,
+        true
+      ],
+      "task_id": "29872397cb550b1d",
+      "trajectory_id": "validation-29872397cb550b1d-2126-correct_oldest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "77e3bcd2c8b97ad7b0863923a643f38c9af421e79c184f1607833b04291cb399",
+        "54cefd74a4e08b3e86fc46a9ba56afc169763e3036b0b39c6eaca7e9500d0f12"
+      ],
+      "scene_id": "FloorPlan26",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "29872397cb550b1d",
+      "trajectory_id": "validation-29872397cb550b1d-2120-error_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "b7dfb392007bd3ed58273b02d103b55b55c577fde499e7dd4a35920bacf8bdf0",
+        "48da4bfa073ae93471a4f9fa1891427c79ff46ad1ec5c41f1a118f2a36f045bb"
+      ],
+      "scene_id": "FloorPlan26",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "29872397cb550b1d",
+      "trajectory_id": "validation-29872397cb550b1d-2121-correct_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "ef59ab6deacaba8a21253a3d4d324bb085ecda1273c9a47b8ea622da35917481",
+        "fa2925a207f1cac6e5e9694a6c8be69099adab43d641ea19f28a83142d186979"
+      ],
+      "scene_id": "FloorPlan26",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "29872397cb550b1d",
+      "trajectory_id": "validation-29872397cb550b1d-2122-neutral_full"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "887d9e2f2c880d3dfbe704eb090580499ecb30145144b3a5b88a231851835253",
+        "bab86c1fa163c1184a72f9f965a81883a3031ddb5e9856cc8324587bcecccb43"
+      ],
+      "scene_id": "FloorPlan26",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "29872397cb550b1d",
+      "trajectory_id": "validation-29872397cb550b1d-2123-repeated_error"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "28c18924bdcd1f9d6f2e625049ec35fa1d5043c73ce5d15ea3190105ede82446",
+        "83c2bdf9910d3dc10257b12168b8791d0e44005a6e623c02485c86ab0141b00a"
+      ],
+      "scene_id": "FloorPlan26",
+      "success_curve": [
+        false,
+        true
+      ],
+      "task_id": "29872397cb550b1d",
+      "trajectory_id": "validation-29872397cb550b1d-2124-correct_latest"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "21be2fd06f8856b9609e57d56e1838ec61cfb766d404e833dad7d1ea226b1c85",
+        "78a8be0ade4c11813e597bc079db104be2cd6efa266a828bf26ab593ca50078b"
+      ],
+      "scene_id": "FloorPlan26",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "29872397cb550b1d",
+      "trajectory_id": "validation-29872397cb550b1d-2125-delete_latest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "e2da2432d4a15f74c90495d5099f6e7882e64f64ea0396826ad66eef5d62cd3b",
+        "45d686bd210914e342a88dfa92ae6dbbca9e0b7782968df8854c5057c0afb1db"
+      ],
+      "scene_id": "FloorPlan26",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "b5fcad0b33471c28",
+      "trajectory_id": "validation-b5fcad0b33471c28-2120-error_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "9dc7f551c933fe058260140c8fa34b1a31de1560b94b84a136455400dc3bf2d0",
+        "ad7fccd7993e5f45968f3d9d69740b1f99b94207b25ce43780d2e5f06e991bb3"
+      ],
+      "scene_id": "FloorPlan26",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "b5fcad0b33471c28",
+      "trajectory_id": "validation-b5fcad0b33471c28-2121-correct_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "b375257bdd5870092d9a1edc7e45a013119e39037b5606853fcab69f211ae7b9",
+        "1d971cdc08ccbcbaecd20079992d3fd465a714969990999db66fa522da21165e"
+      ],
+      "scene_id": "FloorPlan26",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "b5fcad0b33471c28",
+      "trajectory_id": "validation-b5fcad0b33471c28-2122-neutral_full"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "d38fc59214832eccf6366d026a6f98ad3c1b70de2eb0d2789c49636eca602fb3",
+        "e18998f0969d5ed375d617abc33b1f992d05103ac4963785ccdeddfefb50a0a0"
+      ],
+      "scene_id": "FloorPlan26",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "b5fcad0b33471c28",
+      "trajectory_id": "validation-b5fcad0b33471c28-2123-repeated_error"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "a20cd4d7278e8ce286ab4210cfdf97a64ed65052098410b4dcbbb57b23fa9dbb",
+        "eaeff09fbe8be8952157fa8f745611ce6a858c3c06f41a6afaed6b8d87d7c00f"
+      ],
+      "scene_id": "FloorPlan26",
+      "success_curve": [
+        false,
+        true
+      ],
+      "task_id": "b5fcad0b33471c28",
+      "trajectory_id": "validation-b5fcad0b33471c28-2124-correct_latest"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "46f96c253190771e699e45160315bef98a658d04b620c4344ceb19e5a1e04a0e",
+        "6e4a7bbe91383e3c078737ee76f699d12d6fe46267179ce4d0164e332e007a54"
+      ],
+      "scene_id": "FloorPlan26",
+      "success_curve": [
+        false,
+        true
+      ],
+      "task_id": "b5fcad0b33471c28",
+      "trajectory_id": "validation-b5fcad0b33471c28-2125-delete_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "f74d3e9dc46e2520eef3e9945eac392bd266b5e5196490d74c255e5f851e53c6",
+        "76700ae1fb95292533bb541a9343d6973cfcd046fadb8eecf2d020b7e6012bf5"
+      ],
+      "scene_id": "FloorPlan26",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "b5fcad0b33471c28",
+      "trajectory_id": "validation-b5fcad0b33471c28-2126-correct_oldest"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "91f82c35d6a63b4a6630709433b6f8f7749915258e42fd609a565e3c0dfc0461"
+      ],
+      "scene_id": "FloorPlan26",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "95fb5574f068e733",
+      "trajectory_id": "validation-95fb5574f068e733-2121-correct_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "df152539c072a6e070123bb2feb573f3642432ab57700dcb953cdaa7eb16538d"
+      ],
+      "scene_id": "FloorPlan26",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "95fb5574f068e733",
+      "trajectory_id": "validation-95fb5574f068e733-2122-neutral_full"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "87b9ba7b7ee2b5aa2fa54d7882bc129276a9791841112f09c856459b9e1dc881",
+        "d5d2fdc1f26e1936a3c4b20a14e6dedbecad6cc422ab441cb700053a01c2689a"
+      ],
+      "scene_id": "FloorPlan26",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "95fb5574f068e733",
+      "trajectory_id": "validation-95fb5574f068e733-2123-repeated_error"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "d8d0f87e7fd518e66fab9b878488daa2b3a49bc6c2c31949b72b8ea61d819d1c",
+        "46a1fd3f9c7a6b8fb1aefb247a02dacbe5007d10ecd69c75852567d5fd73183b"
+      ],
+      "scene_id": "FloorPlan26",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "95fb5574f068e733",
+      "trajectory_id": "validation-95fb5574f068e733-2124-correct_latest"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "bbdc20783ed096b8e4aaa1437ce1d9b7e2956f91c80aa6b725f71ef159ea28d8",
+        "b1f39b98b0d1530ce1da8356b0c485e85eff11b68219933f05ba42f0319e78f6"
+      ],
+      "scene_id": "FloorPlan26",
+      "success_curve": [
+        false,
+        true
+      ],
+      "task_id": "95fb5574f068e733",
+      "trajectory_id": "validation-95fb5574f068e733-2125-delete_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "cf2db725e57571a04e95d82075359e3cbab26ca8426dd85525cf450ea6a4ea55",
+        "57f9c5c32a37ef0a06ed57ef1ee528077f603a04a2b1c2c6747b200611fe38fe"
+      ],
+      "scene_id": "FloorPlan26",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "95fb5574f068e733",
+      "trajectory_id": "validation-95fb5574f068e733-2126-correct_oldest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "101b86a4d547e7f2d079aa39f61d2b287dd755e46edf16ec43e7e945984b4ec4",
+        "f64531f1d65ec82b7036a6ba81d70fa0c2eedd8402b3e01bf372d54ef67f8444"
+      ],
+      "scene_id": "FloorPlan26",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "95fb5574f068e733",
+      "trajectory_id": "validation-95fb5574f068e733-2120-error_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "084d95b2832a77cd70638fb85e8373bf014800c6306a5f0a89d3e617e54a4570",
+        "1c7c0fafade153ee98dfdaa89a79c1ea802415ca8a6f5af700ac671faaba6168"
+      ],
+      "scene_id": "FloorPlan26",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "56f3d3ba0be1c7bf",
+      "trajectory_id": "validation-56f3d3ba0be1c7bf-2122-neutral_full"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "6721e436eccae0ddb76d7b8c8bfe3607075be89aa0420d80845f542a97b6c19e",
+        "793258b17013c28cad889e5373cac64d311e22700696aae6b20c21c18f4d358f"
+      ],
+      "scene_id": "FloorPlan26",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "56f3d3ba0be1c7bf",
+      "trajectory_id": "validation-56f3d3ba0be1c7bf-2123-repeated_error"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "a529e410939ab31d2141497126c8bd517799dd8130028edc6d4ca38291a6a6a4",
+        "964f4490da4216a84bfbcb4d3d8af0023df4131c7b500371c256e21b4efcf4e7"
+      ],
+      "scene_id": "FloorPlan26",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "56f3d3ba0be1c7bf",
+      "trajectory_id": "validation-56f3d3ba0be1c7bf-2124-correct_latest"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "b618f6c6380f692da0f06f858a06572336e7c5d9b5d67051c355d11ab1c2b9d3",
+        "b710b1a802b2245d657f15ea022f60bf931d6ced9b2739f59603d8879911e5bd"
+      ],
+      "scene_id": "FloorPlan26",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "56f3d3ba0be1c7bf",
+      "trajectory_id": "validation-56f3d3ba0be1c7bf-2125-delete_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "4a8addeb117f62c9090d59e28bcd6b445ebeceaf9e663290e6a990bdf23f1044",
+        "9fc7667e80c2d300b77f0be44b9f4f2978bcf491928331b5b518c2f43ff1f443"
+      ],
+      "scene_id": "FloorPlan26",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "56f3d3ba0be1c7bf",
+      "trajectory_id": "validation-56f3d3ba0be1c7bf-2126-correct_oldest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "a3cc10e6e1d4a014c61a38984668dedaf847a628f113e9a3eddfd21f708a75a2",
+        "e04b520b338ab4c5d550208a3e7572cf392f0f30a7ff1914fdf17227a077c1c7"
+      ],
+      "scene_id": "FloorPlan26",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "56f3d3ba0be1c7bf",
+      "trajectory_id": "validation-56f3d3ba0be1c7bf-2120-error_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "e23facf0b24751f70b258e97fe695503b6875c6c404553d70b4c4939ac184b67",
+        "2f075d44b0a6ab7913caa91fd973d54d71b097423a2d58f16a90828893d053f5"
+      ],
+      "scene_id": "FloorPlan26",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "56f3d3ba0be1c7bf",
+      "trajectory_id": "validation-56f3d3ba0be1c7bf-2121-correct_middle"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "ad8751b4432423bd23b520ceb99b3553d33c66c058a5350847564ec0add79fab",
+        "d343471d75418e1aa4614c72045dd7cf2de418542a15f01165beea9613178c3d"
+      ],
+      "scene_id": "FloorPlan26",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "c7cfa6ea21ccf1d6",
+      "trajectory_id": "validation-c7cfa6ea21ccf1d6-2123-repeated_error"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "c660a7a6146612a5693a98634892101a927e12b65a5bc9643e723c18e31f66bd",
+        "8712207aed93e00417986c6b389bdb1a2fe1c6eb40188ae94d4717c53d12c684"
+      ],
+      "scene_id": "FloorPlan26",
+      "success_curve": [
+        false,
+        true
+      ],
+      "task_id": "c7cfa6ea21ccf1d6",
+      "trajectory_id": "validation-c7cfa6ea21ccf1d6-2124-correct_latest"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "15e0663f51333f0367b17e5cbc20f13fb8115c1fc71912116d38d615ccdd0a79",
+        "17f8822546f019e4390fbac9bd38d25ee12f8366b7421f505b65dac44614a4ac"
+      ],
+      "scene_id": "FloorPlan26",
+      "success_curve": [
+        false,
+        true
+      ],
+      "task_id": "c7cfa6ea21ccf1d6",
+      "trajectory_id": "validation-c7cfa6ea21ccf1d6-2125-delete_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "310481d7f8189b7631043aea1eaa6aeb67baf2c3f4c1c21b66ea02777b40dc93",
+        "786a88e752340535a5ea8e636325b677541d7fa4469a6dbccd1f519bbf31e34e"
+      ],
+      "scene_id": "FloorPlan26",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "c7cfa6ea21ccf1d6",
+      "trajectory_id": "validation-c7cfa6ea21ccf1d6-2126-correct_oldest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "0e38747d063dbe5ba85681be1fac6ce1a74951057ddcebda320fa97f25705a7f",
+        "d27c28d2de9d84bd6cc5aa6c3961afbe70c87a9107574d23e75c72efc6cf0586"
+      ],
+      "scene_id": "FloorPlan26",
+      "success_curve": [
+        false,
+        true
+      ],
+      "task_id": "c7cfa6ea21ccf1d6",
+      "trajectory_id": "validation-c7cfa6ea21ccf1d6-2120-error_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "542664a586b02a7f482ee274ec93de93e8d2cce975544e3528af70d28f438a4d",
+        "adc7fae8f25d96fea99ea779f9495d12a33268d7077e4d2c4dfd064a1c8a0465"
+      ],
+      "scene_id": "FloorPlan26",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "c7cfa6ea21ccf1d6",
+      "trajectory_id": "validation-c7cfa6ea21ccf1d6-2121-correct_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "41669e0c0696287d33d6d099c2fac6c45ba572c1de69279570fc0c5ec19c2bf4",
+        "79c92d66014de6cc6b0dcba4c28ce2d390f11a8bf0cb58fcd650bd142c3507c1"
+      ],
+      "scene_id": "FloorPlan26",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "c7cfa6ea21ccf1d6",
+      "trajectory_id": "validation-c7cfa6ea21ccf1d6-2122-neutral_full"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "2575606ccc3c937f0bf85b0656b034d77437d039c85f668c7b60df315e639c7a",
+        "e93d80e96b7a59ce05bc5865b730744060f7a45a474521b71853e5283e288d36"
+      ],
+      "scene_id": "FloorPlan26",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "730520c2dc6862ac",
+      "trajectory_id": "validation-730520c2dc6862ac-2124-correct_latest"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "d1ab29c67c723d916dbaadd1ad360b03e4dc6bc003175ef7386e0c97988baf68",
+        "295ae364ef4a1269afd92bf9f3e67c2b231f36f0231c5e7ab0c2c5dc473bd1e4"
+      ],
+      "scene_id": "FloorPlan26",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "730520c2dc6862ac",
+      "trajectory_id": "validation-730520c2dc6862ac-2125-delete_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "09ae07244d97b57d74e429d542f03c631bef21174e24fa908dacca9a909f75ff",
+        "5acf8e2c99b150a386d657833031bb651275786a22723897ee5acab6ad8f5ffc"
+      ],
+      "scene_id": "FloorPlan26",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "730520c2dc6862ac",
+      "trajectory_id": "validation-730520c2dc6862ac-2126-correct_oldest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "d15fc27484c7b75f638ec9974d8839d1db9495597c92055b9dec57eb87ecb58e",
+        "a97c70011980d5f43bc70b2e21df3b9170b99d7d0a3369706ee41adc81d95ccf"
+      ],
+      "scene_id": "FloorPlan26",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "730520c2dc6862ac",
+      "trajectory_id": "validation-730520c2dc6862ac-2120-error_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "1c9d535ace19af44e38472eff37d2e0b4b8fbd1844a9e07d26341734acaf967a",
+        "bc57cf7a1d237efaf072baf27452a6d0a16b7b0a570b3faf177459fcee01c6ce"
+      ],
+      "scene_id": "FloorPlan26",
+      "success_curve": [
+        false,
+        true
+      ],
+      "task_id": "730520c2dc6862ac",
+      "trajectory_id": "validation-730520c2dc6862ac-2121-correct_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "d1839f0a42d48550a46e0454bb68a784b48c7f9a897f34ec7f1944340b01def3",
+        "dd57dec20ba1ed264d77991a489197f651ba729f55d41a7e99e34e4e1d48485f"
+      ],
+      "scene_id": "FloorPlan26",
+      "success_curve": [
+        false,
+        true
+      ],
+      "task_id": "730520c2dc6862ac",
+      "trajectory_id": "validation-730520c2dc6862ac-2122-neutral_full"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "05a0f5b677a9bccdf30b07c065e929397d7b3b373bba1cf6a64a67ff514b0c62",
+        "665e703e9908c5032872067957f8cb0b2d8716f6195c91da1a69ea4762272b62"
+      ],
+      "scene_id": "FloorPlan26",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "730520c2dc6862ac",
+      "trajectory_id": "validation-730520c2dc6862ac-2123-repeated_error"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "df10b10aec92b7b4bb9e603470f1a0498426391adb05255b5e2bccbe34127643",
+        "526c123022e24901d721dfe89c5633d4f8aabd3f9d9509a13bed7a204bb19c9b"
+      ],
+      "scene_id": "FloorPlan20",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "ab6f4e1563638a32",
+      "trajectory_id": "validation-ab6f4e1563638a32-2125-delete_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "d4eb6c3232c2d72e0b66a2287a22cf471e7e96eb1ed412fe48acbef2dbf94939",
+        "5303407f5fb01ac80e1ab36652a3c38de32268d246a4e91f0b0a3b216aa32b3c"
+      ],
+      "scene_id": "FloorPlan20",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "ab6f4e1563638a32",
+      "trajectory_id": "validation-ab6f4e1563638a32-2126-correct_oldest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "d8a0cdb35202d9cee2fc64b1b5bb34c24ce249bee370d25dae204f13645e2118",
+        "e46197e8b33f02e2c874657e9ba58dbbfafe4a0ce3eceb3585defbcfbf875d51"
+      ],
+      "scene_id": "FloorPlan20",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "ab6f4e1563638a32",
+      "trajectory_id": "validation-ab6f4e1563638a32-2120-error_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "69a694eb7a299f950841853bc8b847f297002aa89245bd73ee58d4a13aec1ac7"
+      ],
+      "scene_id": "FloorPlan20",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "ab6f4e1563638a32",
+      "trajectory_id": "validation-ab6f4e1563638a32-2121-correct_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "4886e018c5837545eb59d2a5148d76e6e432aac677f2fd03b3d0b18b8f549aab"
+      ],
+      "scene_id": "FloorPlan20",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "ab6f4e1563638a32",
+      "trajectory_id": "validation-ab6f4e1563638a32-2122-neutral_full"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "6b7812b1ccbcfc7632ea98afa70026b218a8c5e04515d8c4fedbe0f7d495f13a",
+        "a3351bef38f9e3eaea0c6001ecdfa828c96cc07bb59f7ac3b0ad89d9e741a055"
+      ],
+      "scene_id": "FloorPlan20",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "ab6f4e1563638a32",
+      "trajectory_id": "validation-ab6f4e1563638a32-2123-repeated_error"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "0b91f73cf2e6d4221487823d1ee48f7e77135f5274c53d06ee1b05e792f37af8",
+        "8adf71c6a03c1a2f3e86a794c0464e330c4aa79989ff5f2f39b6a418bf43c02b"
+      ],
+      "scene_id": "FloorPlan20",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "ab6f4e1563638a32",
+      "trajectory_id": "validation-ab6f4e1563638a32-2124-correct_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "1a1c9280a987d5c40cfbc3df7efd6fa64d632930b520c4bdd4daef836ad394f5"
+      ],
+      "scene_id": "FloorPlan20",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "8d5050bf64510f4d",
+      "trajectory_id": "validation-8d5050bf64510f4d-2126-correct_oldest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "cb37e1359044aaf167e08dc4b42c8d81e5520ae0c22e6dab0d1200076a4578cf",
+        "cb121e2e07c5bb47ee8413f4ceb3c1bbf4e6feaf79cd3f8579edf073b5b19373"
+      ],
+      "scene_id": "FloorPlan20",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "8d5050bf64510f4d",
+      "trajectory_id": "validation-8d5050bf64510f4d-2120-error_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "8c9a9b2c09a0738ca7771647603be53fe0a6f06ee2f98ed0432126fe58b8f18e"
+      ],
+      "scene_id": "FloorPlan20",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "8d5050bf64510f4d",
+      "trajectory_id": "validation-8d5050bf64510f4d-2121-correct_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "ae015f17aebef6afa19424c5cf36fad66d8b837c7497b5a2718c4b848257c13f"
+      ],
+      "scene_id": "FloorPlan20",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "8d5050bf64510f4d",
+      "trajectory_id": "validation-8d5050bf64510f4d-2122-neutral_full"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "8714ee6352d6ac3595075b5b335ca08b73cd47dd2b6c125f1c28b8eeb5161a20",
+        "06194199712194569af6ffc34fc0592fb90c4561123303b45e68468616671d1d"
+      ],
+      "scene_id": "FloorPlan20",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "8d5050bf64510f4d",
+      "trajectory_id": "validation-8d5050bf64510f4d-2123-repeated_error"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "9bf0a2a24a79ce3ef961cd8df0673ccd54ef5c3d1e5c9abe1184fc9016105c12",
+        "7b958ffa03fa85610318194ed83a74b3465b0f401fd260b22750d1c9c31a5971"
+      ],
+      "scene_id": "FloorPlan20",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "8d5050bf64510f4d",
+      "trajectory_id": "validation-8d5050bf64510f4d-2124-correct_latest"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "f7d55798c5718fb75b040fc6246d964ec861f80083a9e21f24c30476ba5bd6ce",
+        "1e9e3e809a25f0490d4ebf4046fd1e57ffacc932ca1268430f5bc2941cb99bf2"
+      ],
+      "scene_id": "FloorPlan20",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "8d5050bf64510f4d",
+      "trajectory_id": "validation-8d5050bf64510f4d-2125-delete_latest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "6b6b038626ac270fe3b3df2790ded5766e2fbb9f5f713aa3d1f0838ca8e9d303",
+        "9bf84b80285468e5fe7657180f471f5ee8710d270f00c44b5009732f3bc4b18e"
+      ],
+      "scene_id": "FloorPlan20",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "f32bdafc1e083bd1",
+      "trajectory_id": "validation-f32bdafc1e083bd1-2120-error_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "6973d14fd4c48229f04ebb5edccad94378f3f095c1d286d2b4f866ee7d351ff7",
+        "248da61c637b68c7c811479b8a2fa74be6d614264537c07760d481076171073d"
+      ],
+      "scene_id": "FloorPlan20",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "f32bdafc1e083bd1",
+      "trajectory_id": "validation-f32bdafc1e083bd1-2121-correct_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "0079ee7c3faf58f55d0912380001bce9b8c4ee3b7d7db3c0986d64446b4246bd",
+        "d4e730763ff55085935a9086fd0996037c512cc483ba49073d8018941ae7b03d"
+      ],
+      "scene_id": "FloorPlan20",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "f32bdafc1e083bd1",
+      "trajectory_id": "validation-f32bdafc1e083bd1-2122-neutral_full"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "3c044383fc55878af46d8d4a5b9f0cb107d4fb57d4ca5dfd8f99518a1e655372",
+        "d168da94d71295ab74695acf24a0652e96fc768a4ac786a675aeb3d77e7d8130"
+      ],
+      "scene_id": "FloorPlan20",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "f32bdafc1e083bd1",
+      "trajectory_id": "validation-f32bdafc1e083bd1-2123-repeated_error"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "38d9e6273325cf8a7a4616f814ee0c961d46f662257ad11788cb4a5aee5ded3a",
+        "3ecd81986c3f9c69f8ea372278b678d22b64e635359dca362d02e6b5056a2bd1"
+      ],
+      "scene_id": "FloorPlan20",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "f32bdafc1e083bd1",
+      "trajectory_id": "validation-f32bdafc1e083bd1-2124-correct_latest"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "02f710dacdadd6f0b17eefbc692688190c48bb870cb0c3d0ea3443dd631a74d3",
+        "e5a6b6289679680f607f564cd5e575d236c1a93dbcea81f70b19e65da88c0261"
+      ],
+      "scene_id": "FloorPlan20",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "f32bdafc1e083bd1",
+      "trajectory_id": "validation-f32bdafc1e083bd1-2125-delete_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "edfd63ac682229ed42abb741cde8f5ae5839ff2952158e5f7adc1ce1d36146a0",
+        "4b0c54cb3fbee3bc6273ed14269cb50b3fbcab664680914f45c22d92f043e460"
+      ],
+      "scene_id": "FloorPlan20",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "f32bdafc1e083bd1",
+      "trajectory_id": "validation-f32bdafc1e083bd1-2126-correct_oldest"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "3ad36ff19c9ebb20e0dcd84bf2cf00f97f433225d757c0de5dd21dd4fea4452a"
+      ],
+      "scene_id": "FloorPlan20",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "ea2668fdcc31419c",
+      "trajectory_id": "validation-ea2668fdcc31419c-2121-correct_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "89070856e8212a783b78c89730fab0bf7f3175d701faf51fd88f0abdb2b02f39"
+      ],
+      "scene_id": "FloorPlan20",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "ea2668fdcc31419c",
+      "trajectory_id": "validation-ea2668fdcc31419c-2122-neutral_full"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "eb3f39668f987e22045451de6075b9d6de7d50472578316302f1bd6a7ee17df2",
+        "3f02061f22bb44a0d39aff054171b4c19348271313807320f4b4a18d0b5b37c5"
+      ],
+      "scene_id": "FloorPlan20",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "ea2668fdcc31419c",
+      "trajectory_id": "validation-ea2668fdcc31419c-2123-repeated_error"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "ad349b169e94138a91ba2fd42c918c439fbc3d0dab17ae54638380c876344c56",
+        "6646007995e753d27f908f58e68e0b438f076d3fe8519f2670f8d0c06373a3e4"
+      ],
+      "scene_id": "FloorPlan20",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "ea2668fdcc31419c",
+      "trajectory_id": "validation-ea2668fdcc31419c-2124-correct_latest"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "29d7f66e4f2eda01b95ca6f3cb2c1d6780c77ea3f0bfcd7fb72f50f7d444c808",
+        "d3929c18d031a40677d2dec7b129b624f678302f38496fc9032bc155483b3ba3"
+      ],
+      "scene_id": "FloorPlan20",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "ea2668fdcc31419c",
+      "trajectory_id": "validation-ea2668fdcc31419c-2125-delete_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "1f91269ec0a8829ee4a33e611192d312303bc5b046ba160475e3e78e405017f7",
+        "627b697d6a3c1b8e7acb70a78aa6e5bd9fee950bf99c05d49628672bb330867c"
+      ],
+      "scene_id": "FloorPlan20",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "ea2668fdcc31419c",
+      "trajectory_id": "validation-ea2668fdcc31419c-2126-correct_oldest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "bec775658651f8bd0cd83e6372aa998e055c1afc184cd89b97e2b59dc5c03c2e",
+        "dd2306503af405a35b67efac643e5b9430bc6dc7070f6a9cb15b543e9dc0c09f"
+      ],
+      "scene_id": "FloorPlan20",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "ea2668fdcc31419c",
+      "trajectory_id": "validation-ea2668fdcc31419c-2120-error_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "7a7eea0d4c5054e55f5e7d456266d5f5a662b43afa4c80731e543b8455855684",
+        "f703bbd875476e66ae2f67cb5c80fe0dc238c3a824de41cf9ea7fc3879b25246"
+      ],
+      "scene_id": "FloorPlan20",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "6d36914476d4dff4",
+      "trajectory_id": "validation-6d36914476d4dff4-2122-neutral_full"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "7f0b75b0ba76710d36aa35ba0a1a1ed0377d3963b37b3b3e4d061884aad37cba",
+        "f36d0a555fc47c5664cf3071c80b223f8e62fcc4b86b92c685a6c4f6fb8393c6"
+      ],
+      "scene_id": "FloorPlan20",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "6d36914476d4dff4",
+      "trajectory_id": "validation-6d36914476d4dff4-2123-repeated_error"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "bc0ee48024d76a825fab379578e5a0e201c71a07aa9462c43a2055280876df35",
+        "f1b673a23a742d3e9a6782998bbe30acf760f8ca525fbedc77d639022d9c0497"
+      ],
+      "scene_id": "FloorPlan20",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "6d36914476d4dff4",
+      "trajectory_id": "validation-6d36914476d4dff4-2124-correct_latest"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "b3c25f247ceda849f8a62ccddc9d29221560fe29c3466ab298cf1fa1c150512e",
+        "a0885fea7fded11c0b6f5d7f55d50539aab89c6ab62814b1386918d9d69b7948"
+      ],
+      "scene_id": "FloorPlan20",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "6d36914476d4dff4",
+      "trajectory_id": "validation-6d36914476d4dff4-2125-delete_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "5abe8fa1a27fd89fe1d67798fa067d4896aae3ef4f9fff2acf5333c18beb5cc6",
+        "0b16907f83b4550696bc36a8cdbec777c7888e2e7d1144f8f11922e207c16b62"
+      ],
+      "scene_id": "FloorPlan20",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "6d36914476d4dff4",
+      "trajectory_id": "validation-6d36914476d4dff4-2126-correct_oldest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "ec9160841401ec7a0debb502e0810ad9e1b3f5151079c151180ca28623c786fa",
+        "66d15af84ba5bd07120db1c8f1aca1b1f3f933ca1f236507fc563b0d518a4606"
+      ],
+      "scene_id": "FloorPlan20",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "6d36914476d4dff4",
+      "trajectory_id": "validation-6d36914476d4dff4-2120-error_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "9aaf4d83d39b8b3d2631a28abf4255d978c6f45af370dc01221da4ca12aeb050"
+      ],
+      "scene_id": "FloorPlan20",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "6d36914476d4dff4",
+      "trajectory_id": "validation-6d36914476d4dff4-2121-correct_middle"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "4b7d0c8a9acf9e5355744065f03060ca28b0814baef2c454f2798801a7f488f8",
+        "e828d7f975d4a9e763b70d1f8996a7d85d7a2105869a709b09a03d28265cb102"
+      ],
+      "scene_id": "FloorPlan20",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "64c3a2b59f9e4f14",
+      "trajectory_id": "validation-64c3a2b59f9e4f14-2123-repeated_error"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "82787a59bd9ffcd20c842750369ee9fc257db249dabd9100c88e7ed2dff977e1",
+        "f06f3d7141f400e792c62b755ea41e0bcee9f1631577f4bb11c6bff6e0df6139"
+      ],
+      "scene_id": "FloorPlan20",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "64c3a2b59f9e4f14",
+      "trajectory_id": "validation-64c3a2b59f9e4f14-2124-correct_latest"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "cfffe619a363677c47e7102acd0cd76833c9c29e79751ddf8c06ad615e04b6c7",
+        "c5c7b8613a1cd46f3d2688643400294164321e3767ae0d47690e13b9f27b97d5"
+      ],
+      "scene_id": "FloorPlan20",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "64c3a2b59f9e4f14",
+      "trajectory_id": "validation-64c3a2b59f9e4f14-2125-delete_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "fe9d3b70521614d2008954cffe04e37c05162cc1ad6844a7b3685b099b30fdfe",
+        "4c9a01a5817103d8e912619e7d60f7647506e1597dcdc45c90c2d0bc79ecd37b"
+      ],
+      "scene_id": "FloorPlan20",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "64c3a2b59f9e4f14",
+      "trajectory_id": "validation-64c3a2b59f9e4f14-2126-correct_oldest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "c4836d365eaba37bfaed679e7905477fcacf2ccca01821aaeb1a42e550525a71",
+        "7d083de9eab530093abf03e3af520da5ed4df3b66cf65c2b0289b8f13d3a1962"
+      ],
+      "scene_id": "FloorPlan20",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "64c3a2b59f9e4f14",
+      "trajectory_id": "validation-64c3a2b59f9e4f14-2120-error_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "7e503e09e70652e0c4b2c76b30db26ddb4a15021928a738bd7ddbbc94aec866f",
+        "d67eb681e2c5400b50ef5a67d6637555f37aa5ae26589be526ed1412779a9029"
+      ],
+      "scene_id": "FloorPlan20",
+      "success_curve": [
+        false,
+        true
+      ],
+      "task_id": "64c3a2b59f9e4f14",
+      "trajectory_id": "validation-64c3a2b59f9e4f14-2121-correct_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "6c1b2ac9b63f934905dd9e208cc102b938f12b49f734a19041c8fd9a1f333f97"
+      ],
+      "scene_id": "FloorPlan20",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "64c3a2b59f9e4f14",
+      "trajectory_id": "validation-64c3a2b59f9e4f14-2122-neutral_full"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "f2e150e92549b0f4aba0f59f395a801c7cf2a2691033b202336ad4f322c462fe",
+        "18d3c91f0d8bbb5b3d2e2aae5ad67e838542db7d633ff179a180492bd136489c"
+      ],
+      "scene_id": "FloorPlan1",
+      "success_curve": [
+        false,
+        true
+      ],
+      "task_id": "648daa9dbe188dac",
+      "trajectory_id": "validation-648daa9dbe188dac-2124-correct_latest"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "66dccd2c7b04455d737d0057fa70eefac01251f27790ced82970a3ca983446a8",
+        "c3431b322fb895fd507df0642f5bec9503cf3431a2255830b11ac89afb39211f"
+      ],
+      "scene_id": "FloorPlan1",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "648daa9dbe188dac",
+      "trajectory_id": "validation-648daa9dbe188dac-2125-delete_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "da4343f37bbebcb6e1f9d1c182ac6ed73188c2ed6ac4e867ad8c5f8878838867",
+        "6d56e975b1c987c9832c3a370e677032852260e4d26446cfeede4f3d6fc2b935"
+      ],
+      "scene_id": "FloorPlan1",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "648daa9dbe188dac",
+      "trajectory_id": "validation-648daa9dbe188dac-2126-correct_oldest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "a4715a4e3a178ce40bf7777f01db05b6df2a8aafa0f16a2098da1fa5baedecd7",
+        "a911becedcf874cd3e3b0329a7e64809d9b7c64bfe38ca489240c60601d96beb"
+      ],
+      "scene_id": "FloorPlan1",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "648daa9dbe188dac",
+      "trajectory_id": "validation-648daa9dbe188dac-2120-error_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "f199dcc180e1276cee5b3e696ea7856b6b639669356402b1ba5a87d6588baacc",
+        "99221818a626409ebce80cca122f6ee8e4fabacb3a5630d05cb7b73ec3c11bb2"
+      ],
+      "scene_id": "FloorPlan1",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "648daa9dbe188dac",
+      "trajectory_id": "validation-648daa9dbe188dac-2121-correct_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "d2bd4ed65679461bfb6600971d8301f3a42b626c5f62b2b72d257b1faf3723b5",
+        "dd2a0bc62116967808ae8f3ff292069aa492fc3f95d082e748b0ce672fa2b84d"
+      ],
+      "scene_id": "FloorPlan1",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "648daa9dbe188dac",
+      "trajectory_id": "validation-648daa9dbe188dac-2122-neutral_full"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "16a04163d79c2005312becb8fbe74f4974efa5abf9c54d0066fe56bb66fe60fa",
+        "07a85e655dc0c3209ba70315189c9d9db43ef13c335eb7ebd469a39f845e4f6d"
+      ],
+      "scene_id": "FloorPlan1",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "648daa9dbe188dac",
+      "trajectory_id": "validation-648daa9dbe188dac-2123-repeated_error"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "3e27c07d71c9d520286d73d80d90b74f56b2631a037c274e17af4f44b2ba6c97",
+        "a76d987c0f2074f55d6f8240d474ef4ae6a953cf72ddc36322fa729671ee1bf2"
+      ],
+      "scene_id": "FloorPlan1",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "4aac4578aeeae568",
+      "trajectory_id": "validation-4aac4578aeeae568-2125-delete_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "403ae4eb63fb5049f805463aef94ac9685bdf8ee3dd1a4e087881f2728baaffb",
+        "ec1428b72446303fda8472c8cae144d8299c74c2f5520043a6bf6a78bf96e414"
+      ],
+      "scene_id": "FloorPlan1",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "4aac4578aeeae568",
+      "trajectory_id": "validation-4aac4578aeeae568-2126-correct_oldest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "7358ec548757aa8588eed5b85af290fc1c036c75b2cd64e707c878dd5261744d",
+        "14a3f3c8fe5daec7d35f0df7cb85090ab43d5f73edec4433697518224dbccf0a"
+      ],
+      "scene_id": "FloorPlan1",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "4aac4578aeeae568",
+      "trajectory_id": "validation-4aac4578aeeae568-2120-error_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "ac27e0dc499606e517ad70d1830f499d271b88f9163ae02db1c4de492b8e5ec3"
+      ],
+      "scene_id": "FloorPlan1",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "4aac4578aeeae568",
+      "trajectory_id": "validation-4aac4578aeeae568-2121-correct_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "f6fba52acb082dbc1696002eefa9d7572c4677424eb1061bed0eec8cde3edf4f"
+      ],
+      "scene_id": "FloorPlan1",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "4aac4578aeeae568",
+      "trajectory_id": "validation-4aac4578aeeae568-2122-neutral_full"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "363ae1ddd3acdb4d62a7e6a3d3d487515f785c5afd6a5edfaa22738d18abe13e",
+        "0d730fafd84091a67854883b6609c9d882532affccea31a000834f20ffc3fcee"
+      ],
+      "scene_id": "FloorPlan1",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "4aac4578aeeae568",
+      "trajectory_id": "validation-4aac4578aeeae568-2123-repeated_error"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "a6c48e1b92a6a9de650e467b10d22acbff9c542c11a9d37b9b931c618bbc4ee0",
+        "28b2901013c7cac741ea219ea501f3edaec02350f8630cba8c71e6fbf6c1d97b"
+      ],
+      "scene_id": "FloorPlan1",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "4aac4578aeeae568",
+      "trajectory_id": "validation-4aac4578aeeae568-2124-correct_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "e292c5b5eefedaa9634bbe5b479899c58789156e6a404299dde300b14c0fae9a",
+        "3c4c235f1ac116276a1ca044d8b93d0effbeb9f68703c2ca97cd3cafd35d0d23"
+      ],
+      "scene_id": "FloorPlan1",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "7b933599942a0e6c",
+      "trajectory_id": "validation-7b933599942a0e6c-2126-correct_oldest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "95cbd72fd19e1411b3b4dcdce02c0fcc629051d35f822f9c258d955730153fdf",
+        "b452a9d26609fe781ae40bc5ddcc52bc230fe3dfbb02b688a906c6a6dacfa8ea"
+      ],
+      "scene_id": "FloorPlan1",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "7b933599942a0e6c",
+      "trajectory_id": "validation-7b933599942a0e6c-2120-error_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "a1f13bd721f6315549bfd70af4cd22f7382ce7b3354d90152d0fcaeaecebc23a"
+      ],
+      "scene_id": "FloorPlan1",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "7b933599942a0e6c",
+      "trajectory_id": "validation-7b933599942a0e6c-2121-correct_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "6173077ac553ce5e6ffe9eba2848b74ac8353881ecf723f11e3430df10f76527"
+      ],
+      "scene_id": "FloorPlan1",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "7b933599942a0e6c",
+      "trajectory_id": "validation-7b933599942a0e6c-2122-neutral_full"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "1c849ade70b3da24e9a99a968b02c07f2783b38559616801d84a0909838be455",
+        "e56291bf6b2e1a38f997ddb9cb406080c36dfc2208e8203d996c4db043394b2a"
+      ],
+      "scene_id": "FloorPlan1",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "7b933599942a0e6c",
+      "trajectory_id": "validation-7b933599942a0e6c-2123-repeated_error"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "fe6e7b4392e6949deaa2d9e97a87a75578a9782b338d767abfc16927dda13652",
+        "fb601595fbe8c5672ff6b3694c177af43ca2bfe37f635782cacfc4cec48ba393"
+      ],
+      "scene_id": "FloorPlan1",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "7b933599942a0e6c",
+      "trajectory_id": "validation-7b933599942a0e6c-2124-correct_latest"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "cfb6a9506b657af282310fa82bbe3bc0900a27f041f04549e0ccb2900565f3fd",
+        "0bd71a2b0b12aae78cc94f3dc79920068339a613154faeeb0c3f503724614d6a"
+      ],
+      "scene_id": "FloorPlan1",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "7b933599942a0e6c",
+      "trajectory_id": "validation-7b933599942a0e6c-2125-delete_latest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "d448cf3e3969c24295f47a172a487fd73297cb43e0d87c74b615274d02c09c59",
+        "b77698b2b8fd89b7f760eb7a18d54893af377d7573881b2149060ce282bd81a2"
+      ],
+      "scene_id": "FloorPlan1",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "d736aa2178df18d7",
+      "trajectory_id": "validation-d736aa2178df18d7-2120-error_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "c3b5c09b25e277923238732ebf36539477e840e368735f906315326011fa06db",
+        "87b1af1b5a02c2e7b75026ccc4292a9c1032870e6da67cd55c96cf2c350bc160"
+      ],
+      "scene_id": "FloorPlan1",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "d736aa2178df18d7",
+      "trajectory_id": "validation-d736aa2178df18d7-2121-correct_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "0507b1f4e76ccf14703fcc94dbbe01710819d16d77e0e98657bf19346e149a59",
+        "a78c5a740b4e45fa7968ac8e5ee769497833f8efec313aea79613bbc14e7032d"
+      ],
+      "scene_id": "FloorPlan1",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "d736aa2178df18d7",
+      "trajectory_id": "validation-d736aa2178df18d7-2122-neutral_full"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "4b5c17055b87842a518b82638992a448173064a98f2c5f37140c49bf15996512",
+        "26961ba433c916ab3a6b32f7415b2f6ef7a8e5bdf33437cf71e6395b53a2d6a6"
+      ],
+      "scene_id": "FloorPlan1",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "d736aa2178df18d7",
+      "trajectory_id": "validation-d736aa2178df18d7-2123-repeated_error"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "264771f26aeb3d844c2d6dd9cec1bbb8af40426c993854d80499320fe010ce5c",
+        "8b2270eff50cf83f6ead7d05fcf9fe3f679ef8bc7dee94c509b8f15ce7175f0c"
+      ],
+      "scene_id": "FloorPlan1",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "d736aa2178df18d7",
+      "trajectory_id": "validation-d736aa2178df18d7-2124-correct_latest"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "3080f6c64e408c639bcf71b61b163e9496e66d6a5cbdf5ffd384b16233d2392d",
+        "4f68c89fc1df1ec28bab2d9472300d90fb936d10f73e303e83e766a4b6cab4aa"
+      ],
+      "scene_id": "FloorPlan1",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "d736aa2178df18d7",
+      "trajectory_id": "validation-d736aa2178df18d7-2125-delete_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "9447e15d2df46c3adc8fe11b20b80676d89469509d3f44fcf3e6127b97c2bc5a",
+        "a5cd55f58fc0686b3f04d6f9addec1df7d8edd3e8521208eabaf5260b4eabcce"
+      ],
+      "scene_id": "FloorPlan1",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "d736aa2178df18d7",
+      "trajectory_id": "validation-d736aa2178df18d7-2126-correct_oldest"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "0790a18efdeda9548bf1266a83940abd0cb4bd2e89fd1df8f49bce4b4bdd5458",
+        "c56e3c3dda156272a56a2da2db19c8a300e8b75ea35be73bbe3f633e4e9327e6"
+      ],
+      "scene_id": "FloorPlan1",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "b819afb56a6a288f",
+      "trajectory_id": "validation-b819afb56a6a288f-2121-correct_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "6887c81abfe61e350e7d2d6fb8218639bafcdd3af10d7380c3883b7055dcdfa4",
+        "ee46aca434888b8866d77666910ffbff44f81c4bc0fb1f4d433d83b329a14c59"
+      ],
+      "scene_id": "FloorPlan1",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "b819afb56a6a288f",
+      "trajectory_id": "validation-b819afb56a6a288f-2122-neutral_full"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "d1e9d45ff798a1aa29e89e7785d1ca4b610786d4d2336a46b64fd62cf5ff5cc5",
+        "1d8f00e2ce6e86d87237fc141cddb1002a4262499054aa0087a0b4bc41e02928"
+      ],
+      "scene_id": "FloorPlan1",
+      "success_curve": [
+        false,
+        true
+      ],
+      "task_id": "b819afb56a6a288f",
+      "trajectory_id": "validation-b819afb56a6a288f-2123-repeated_error"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "3ca6f75088970bbe33db535e43fa8750c9e2bc8ac70b0f7ee2be0272db38a44c",
+        "808c5c102f2a4f4be8f0d9ec110a7014cc7fce086720e5793ad697be4165bc9b"
+      ],
+      "scene_id": "FloorPlan1",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "b819afb56a6a288f",
+      "trajectory_id": "validation-b819afb56a6a288f-2124-correct_latest"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "f2879513c2e3d36994bb2c3caf75778336da7941d10e129bab5d2f269c829582",
+        "9842a944655a7df625f1a0cb1c92e1dc8657a23ad1dcb4e62abe9f77bd98f420"
+      ],
+      "scene_id": "FloorPlan1",
+      "success_curve": [
+        false,
+        true
+      ],
+      "task_id": "b819afb56a6a288f",
+      "trajectory_id": "validation-b819afb56a6a288f-2125-delete_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "977e9f8788abbbc068fc3352768666fc8a083bfd1b144622a9079dc2139e5cfb",
+        "fe2260b825a8ea61ddcb9012468c8a5d4966f5d1fa7b6699ee4f7fa9185cb740"
+      ],
+      "scene_id": "FloorPlan1",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "b819afb56a6a288f",
+      "trajectory_id": "validation-b819afb56a6a288f-2126-correct_oldest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "db63275af952c9789f6a7debeac06a0d8dade58b13c66aa3483901009acbaa7b",
+        "1b5ce2ab1f18a9f433af4c2c4d2ea7589827703ba8733ea06c77831acebb0a55"
+      ],
+      "scene_id": "FloorPlan1",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "b819afb56a6a288f",
+      "trajectory_id": "validation-b819afb56a6a288f-2120-error_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "d3986251fc122ec0993bdbca5109cb920357d097180cbd7eb46bfea23b9d26fb"
+      ],
+      "scene_id": "FloorPlan1",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "5c4650438b08993c",
+      "trajectory_id": "validation-5c4650438b08993c-2122-neutral_full"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "b781b4945180169ca477e3b7a291e7e38b871264ce4802dce6cfbca6465fffb1",
+        "d7c8387ac1c2cf4af5f78bd403974ad910548a852339289cfc3df780c376df1a"
+      ],
+      "scene_id": "FloorPlan1",
+      "success_curve": [
+        false,
+        true
+      ],
+      "task_id": "5c4650438b08993c",
+      "trajectory_id": "validation-5c4650438b08993c-2123-repeated_error"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "9b03414ce92481a22fe09530d0343e5493f9597c432809aa44bb4362aebdfe58",
+        "576a8725df18986e01b03a8810a7dcace238b19eb4967938c85fe4d2eb5abc2b"
+      ],
+      "scene_id": "FloorPlan1",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "5c4650438b08993c",
+      "trajectory_id": "validation-5c4650438b08993c-2124-correct_latest"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "ccac3a9284cf18d00c7d0ca19234a27aaf0665164b4555bd31a9305b9119b336"
+      ],
+      "scene_id": "FloorPlan1",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "5c4650438b08993c",
+      "trajectory_id": "validation-5c4650438b08993c-2125-delete_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "d18f81e6442af3750a7857dbb2515953757f0857bc8883849186a21ca96ea4ff",
+        "4e810a1e1a38a3291edf1c85b7f0ccc0a9e498ba4f2b262d29873652d1da4806"
+      ],
+      "scene_id": "FloorPlan1",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "5c4650438b08993c",
+      "trajectory_id": "validation-5c4650438b08993c-2126-correct_oldest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "a44ab32c7af76e69a11d0c4b02e32f98c2730abddcb716eac8e9af27b360e89a",
+        "dff6fb2c0c2feec79526e3c9bd2c1aecf995d3fbb983c18ccaa1bc2c11dba018"
+      ],
+      "scene_id": "FloorPlan1",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "5c4650438b08993c",
+      "trajectory_id": "validation-5c4650438b08993c-2120-error_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "acd9148791459f46c6696f47d711b5832720d7b0d88207f875ccb7849b439a44"
+      ],
+      "scene_id": "FloorPlan1",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "5c4650438b08993c",
+      "trajectory_id": "validation-5c4650438b08993c-2121-correct_middle"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "4b26bfbe94c559d864fc4dc3f7fd2c435fe67bb2f1116d7e2a6fc2dc49764595",
+        "70e23358f0d735bb24805313e58951aacc37d019387ea7a3c6bdf6d58c9f49e3"
+      ],
+      "scene_id": "FloorPlan14",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "2ef697f377c15d20",
+      "trajectory_id": "validation-2ef697f377c15d20-2123-repeated_error"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "deaa6e944135df3bc163754bb3fb3896eb1bdb8a7c45add6ef87653cc27eb2a4",
+        "89269f8b51e4cc508bddcd832ee01d181803af4c13563669aceb1422a1c101f9"
+      ],
+      "scene_id": "FloorPlan14",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "2ef697f377c15d20",
+      "trajectory_id": "validation-2ef697f377c15d20-2124-correct_latest"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "4dff6214f1cef8c4b0ac3e4f3699d6bfd166154836b5e773cb18eb43306fcc66",
+        "15c63c8b79a4bd62c6b05f814a4c490c8aaa75fa57c98623644c93c3cf23638b"
+      ],
+      "scene_id": "FloorPlan14",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "2ef697f377c15d20",
+      "trajectory_id": "validation-2ef697f377c15d20-2125-delete_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "bcbc16b0ae993fc9427524147e59222441a21f1e2e5d29c6a282fd978dc9f3c0",
+        "847f82c38839509ff2ab7dac41e70f91cf9df4af1ad370363977881c85daef8e"
+      ],
+      "scene_id": "FloorPlan14",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "2ef697f377c15d20",
+      "trajectory_id": "validation-2ef697f377c15d20-2126-correct_oldest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "50f301e981a83a983e477828b13059d6c8c6e40252812f56d9b6d37c1248bcb6",
+        "ba9124360bf4f8f2118e9d70236072152c8ce347ef4319019be8b3f9779b311a"
+      ],
+      "scene_id": "FloorPlan14",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "2ef697f377c15d20",
+      "trajectory_id": "validation-2ef697f377c15d20-2120-error_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "b8e61fe46d437078e9fdde53c6659a41908b661cdb1f0db91af78bdf98588c85"
+      ],
+      "scene_id": "FloorPlan14",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "2ef697f377c15d20",
+      "trajectory_id": "validation-2ef697f377c15d20-2121-correct_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "e8b6396987acc1b75cc59ecfea9f853c9762dcf53fc929a1d238c391f814f7db",
+        "b57c1124ff0404ea41f3d50827d78e04c7f30fce72b0aa12df9184de6cca8108"
+      ],
+      "scene_id": "FloorPlan14",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "2ef697f377c15d20",
+      "trajectory_id": "validation-2ef697f377c15d20-2122-neutral_full"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "274ae6aecf2a681af247942348026dfc25eaaf102f8914a036a48f49ad943608",
+        "ad07389a25c9750b17a1d32b33005a28c63cfd1e722ffb7e288d2559bb10dfa7"
+      ],
+      "scene_id": "FloorPlan14",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "bd5eb6db81110d24",
+      "trajectory_id": "validation-bd5eb6db81110d24-2124-correct_latest"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "92d843ef10c617c978d3e839e7f3087209d2b85af5371c96cde863f8ef75504f",
+        "8f0f9bd282e8bdaae2ec9f10a738d3005ef44813309590710b66553a415ab30a"
+      ],
+      "scene_id": "FloorPlan14",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "bd5eb6db81110d24",
+      "trajectory_id": "validation-bd5eb6db81110d24-2125-delete_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "b8a4309da871815e7175806a0d4805564239a9578abf5edd0c8185fe7ce62d47",
+        "99a6cffdfe5cde61f2507026ef395e8a00bfed97dad749b5baaad32ddb4189cd"
+      ],
+      "scene_id": "FloorPlan14",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "bd5eb6db81110d24",
+      "trajectory_id": "validation-bd5eb6db81110d24-2126-correct_oldest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "a9f68c2693b7477dc68c52938816928d0030b02bd6fc7d95e30595385fd85d61",
+        "bc65e286f83c0ade165f1b8b90fe248b4bfb527630cee66fd2834dca7fcb8b87"
+      ],
+      "scene_id": "FloorPlan14",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "bd5eb6db81110d24",
+      "trajectory_id": "validation-bd5eb6db81110d24-2120-error_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "60c5a99538ffeeab95cc7b1831253d77b09253f1a024a61194c708bc29f597db"
+      ],
+      "scene_id": "FloorPlan14",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "bd5eb6db81110d24",
+      "trajectory_id": "validation-bd5eb6db81110d24-2121-correct_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "837b86600ef9308b0a96d8b46375e92575833e1f60eae8d0dd7b87bcfd3c2c4e",
+        "c5dec19418eecbbe56d0ecd22626472e451a50ee4bbf214ade4b6ecbe4496d7e"
+      ],
+      "scene_id": "FloorPlan14",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "bd5eb6db81110d24",
+      "trajectory_id": "validation-bd5eb6db81110d24-2122-neutral_full"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "aed73c307616804e8633e622868c3a5c09ad85a2fd8a018c5be2caafe7798b95",
+        "5465fb82e854a0bbb4da2dc0e6158a659b5833e6a8101893a6061b769ee47d2f"
+      ],
+      "scene_id": "FloorPlan14",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "bd5eb6db81110d24",
+      "trajectory_id": "validation-bd5eb6db81110d24-2123-repeated_error"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "275e522292139b97b717fba3102197908b3e30267a2ebfe077f1057e89ea8c3f",
+        "f20040072b0cdfaf9b286cc004332148a84bf7ff3b0c0f833ef6dfb2d102fa95"
+      ],
+      "scene_id": "FloorPlan14",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "236aaf5ef31227f8",
+      "trajectory_id": "validation-236aaf5ef31227f8-2125-delete_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "61ac8e91eda4d37ec94557f90cd0ba0acd24e0b776e696b0da7969b59dba5181",
+        "d22b696630ce7134ac74f3ff0351b0d1bfe9f16057dadf51311447d26fee8b8e"
+      ],
+      "scene_id": "FloorPlan14",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "236aaf5ef31227f8",
+      "trajectory_id": "validation-236aaf5ef31227f8-2126-correct_oldest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "0ca14fa4fa0d4267f4bbdd4eed660758f934648c15ecb2a8f8f83c53c93e6461",
+        "4f017eaf25787fa8e48c2e4b2ebc0e8190bf4f03fc118c8ad89b212ec70e07cb"
+      ],
+      "scene_id": "FloorPlan14",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "236aaf5ef31227f8",
+      "trajectory_id": "validation-236aaf5ef31227f8-2120-error_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "e39567abb0bc440f4ebe8a8be74472ac67a5e1b4a732460a5550324d71ad29b1"
+      ],
+      "scene_id": "FloorPlan14",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "236aaf5ef31227f8",
+      "trajectory_id": "validation-236aaf5ef31227f8-2121-correct_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "f8349c69c28a22cf5fdf4095a4036935560a4d44420c4d979dea4f8cd8b161ae"
+      ],
+      "scene_id": "FloorPlan14",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "236aaf5ef31227f8",
+      "trajectory_id": "validation-236aaf5ef31227f8-2122-neutral_full"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "e8c7bb26f6ac7fa18e8b7d016bc8ac7879ca38f651cddec7a8609f3e76ceaec4",
+        "84103292739622e27908395aeb239b3e1560de76662a899ff7179b52a62723bc"
+      ],
+      "scene_id": "FloorPlan14",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "236aaf5ef31227f8",
+      "trajectory_id": "validation-236aaf5ef31227f8-2123-repeated_error"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "5cfd0329030cabdb80323bcf955b3d9b6aaedae962208b82e4018da7b262fdbd",
+        "3031855f395252717dc1fa94c97cc3e4a599d12b29e84e69d174a7b8806f79d4"
+      ],
+      "scene_id": "FloorPlan14",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "236aaf5ef31227f8",
+      "trajectory_id": "validation-236aaf5ef31227f8-2124-correct_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "9c42429aed94f5dcfda848adf7982da98efdaafea233b92928e30a40ba655031",
+        "e6f9f57b77ef582a7a82ee355344498449bc5e80f10d015d61adbd881481b8c3"
+      ],
+      "scene_id": "FloorPlan14",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "28beec6d67fe49f6",
+      "trajectory_id": "validation-28beec6d67fe49f6-2126-correct_oldest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "3944a850f8e94e0356d27951571f599c769c7d21edb3198edb5d026010a240be",
+        "86be6e18ee63d615def77c27afc34f0f66ec5919d0e7368b2899b15eb09c4cb3"
+      ],
+      "scene_id": "FloorPlan14",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "28beec6d67fe49f6",
+      "trajectory_id": "validation-28beec6d67fe49f6-2120-error_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "7db71694e325737ed854f83c971619e8147fdeb641a602b7ed5919ffbfbc1188",
+        "33f796dd1d053a338e48fdf988ff5fb5ff938fa5e6d54ee726e4a2cf0407554d"
+      ],
+      "scene_id": "FloorPlan14",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "28beec6d67fe49f6",
+      "trajectory_id": "validation-28beec6d67fe49f6-2121-correct_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "f93f4864f806396a86ef5a8ad89e8b030195ec7c1d2f478e844d47363c725f34",
+        "100866115b6e825ca53c398eaf475e311e3e30ba85eb217500fe3f5a394cfdad"
+      ],
+      "scene_id": "FloorPlan14",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "28beec6d67fe49f6",
+      "trajectory_id": "validation-28beec6d67fe49f6-2122-neutral_full"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "ba36dbe05fcbd345ccfc407e6784a2b230e4297899c2977825c4de0ae48c251f",
+        "9ac67703aa1ff63b6b2c9e7bf33ad095b01342c2d595d0be805f55f9e5ad0846"
+      ],
+      "scene_id": "FloorPlan14",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "28beec6d67fe49f6",
+      "trajectory_id": "validation-28beec6d67fe49f6-2123-repeated_error"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "dc35b76759dd40ba1444c7442700dab43f172e9560fcc0a0fec37435bb91eb60",
+        "e8573c380d8f12f5309b15545406176421ce9c9204ed21a83e4df946fe8eec8a"
+      ],
+      "scene_id": "FloorPlan14",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "28beec6d67fe49f6",
+      "trajectory_id": "validation-28beec6d67fe49f6-2124-correct_latest"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "d3857324d8612e428daf8e68517170c1f98e06fc1b8e183ec10c8cd095455e30",
+        "6e1a01a73e82491b1765afb49d51db76630d512fc3e4e7286dba7c4214fd1740"
+      ],
+      "scene_id": "FloorPlan14",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "28beec6d67fe49f6",
+      "trajectory_id": "validation-28beec6d67fe49f6-2125-delete_latest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "b966073a1975c15cf52e07b73f0681a8d8adac42aad8b4c3f9cc59168e547031",
+        "e316d036877b51e1574e28a3de23cb50cf98883dfc98a18dd61dc7b416a965f1"
+      ],
+      "scene_id": "FloorPlan14",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "ea917be742c4ab40",
+      "trajectory_id": "validation-ea917be742c4ab40-2120-error_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "53bf8f56710f62e5d6cca13473041b06cd8968271a885cb40298a3d65361441d",
+        "5f66053239efd9dd46972e14a6b092df47b595758c287ea86dc9e5009d6b78d8"
+      ],
+      "scene_id": "FloorPlan14",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "ea917be742c4ab40",
+      "trajectory_id": "validation-ea917be742c4ab40-2121-correct_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "b05c162ff97f91004593a5516572956b97cf2cad6e58a09375218b848c40d088",
+        "1476ff53796bfb78062aaef76bc2f4839269948888b591d1d491dbadd4ad97df"
+      ],
+      "scene_id": "FloorPlan14",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "ea917be742c4ab40",
+      "trajectory_id": "validation-ea917be742c4ab40-2122-neutral_full"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "b0ce567ae20b88b7caa041cb876ece2dcf91456d04500278f45cead3ab9c4060",
+        "12f3b3b01f567a363983e8a9adf03fccd4900ae364f0493fb3ad2db22c70db8f"
+      ],
+      "scene_id": "FloorPlan14",
+      "success_curve": [
+        false,
+        true
+      ],
+      "task_id": "ea917be742c4ab40",
+      "trajectory_id": "validation-ea917be742c4ab40-2123-repeated_error"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "7e3761a3678a20cec1006a0db7390d12a38ac1d0c37962bad3b59d2d4a8129fa",
+        "7bf2b4bc04419ff58e971f942d8e0bb33caf24eab0ae1d9b1d42b6898d894411"
+      ],
+      "scene_id": "FloorPlan14",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "ea917be742c4ab40",
+      "trajectory_id": "validation-ea917be742c4ab40-2124-correct_latest"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "a0e3beceaffe1d112d1231a3418d5fc5ab94c026327a524e8de58aefdbdf7a98",
+        "08e4b90feab17c223d9517cb2f51bfdc6146ed6ab3839dd725fbaf5c15195162"
+      ],
+      "scene_id": "FloorPlan14",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "ea917be742c4ab40",
+      "trajectory_id": "validation-ea917be742c4ab40-2125-delete_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "9f9f003a4c9b066a4a4487f7ce6a2576c9fe5ba5bff5a79d8f6e082904d00716",
+        "7dd729efefdaee9addcd8dcbc4f9bb0ed41066bcd6c3d96a1871731ea00561ed"
+      ],
+      "scene_id": "FloorPlan14",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "ea917be742c4ab40",
+      "trajectory_id": "validation-ea917be742c4ab40-2126-correct_oldest"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "9ce07e879940972f25ff04a99f4bca4ea647698f4190706ff501cfd31ceeb9c2",
+        "8a30d2da892609faa85bc58b1730eacd2cc8bbcf011e5bc6c9231b2253d5e6c9"
+      ],
+      "scene_id": "FloorPlan14",
+      "success_curve": [
+        false,
+        true
+      ],
+      "task_id": "22033e71aa9caeac",
+      "trajectory_id": "validation-22033e71aa9caeac-2121-correct_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "b0a61f3aee7ce0abf9553ea82fcac68e6755655e6e7084b7364944684e403407",
+        "979698a95274085b947d1aaa96d5d1488be1872eef0ba3a84b4c59a2c536eca5"
+      ],
+      "scene_id": "FloorPlan14",
+      "success_curve": [
+        false,
+        true
+      ],
+      "task_id": "22033e71aa9caeac",
+      "trajectory_id": "validation-22033e71aa9caeac-2122-neutral_full"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "783cac6a0978704e68853eacb47c07f73c80c7b81187e5ca0c66360445d84a9d",
+        "835839953e7fa70593a77870fa05ec6613089cf3da942397ca6f5a5aeef631b7"
+      ],
+      "scene_id": "FloorPlan14",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "22033e71aa9caeac",
+      "trajectory_id": "validation-22033e71aa9caeac-2123-repeated_error"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "4ad555d3a71c8e63fa0f4530de0a2aaa1e039165a2f240306402b1229e7e79e0",
+        "b672a9b739b78f9a9342dc4d044c3f33b3a631e1b398f6de3070c61f113a6e68"
+      ],
+      "scene_id": "FloorPlan14",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "22033e71aa9caeac",
+      "trajectory_id": "validation-22033e71aa9caeac-2124-correct_latest"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "e7de47536cea5af612fcaa169cb4505cd336cdc7dd324a6aac3b934543e75023",
+        "f557a7cb656a3641bdc717f6bec247d995dd47f62a0fc121ba019d7822725481"
+      ],
+      "scene_id": "FloorPlan14",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "22033e71aa9caeac",
+      "trajectory_id": "validation-22033e71aa9caeac-2125-delete_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "5aa7296df05c0e36ed25edec19cdec4cb47a5c6f8f3b493701df71cf88e45ffa",
+        "90a1ceb700181fdf23368f5e16d1860865d94413746e67e31e787cd681a27d0c"
+      ],
+      "scene_id": "FloorPlan14",
+      "success_curve": [
+        false,
+        true
+      ],
+      "task_id": "22033e71aa9caeac",
+      "trajectory_id": "validation-22033e71aa9caeac-2126-correct_oldest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "606cfa81cdd1456a533d9fe35cc12d9fec792925cf941b7ada9a1d4ff74ae2d4",
+        "9c50ac6233469436802e27cb2a99ce8b9dd05edd893d60df1391b302a77979b9"
+      ],
+      "scene_id": "FloorPlan14",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "22033e71aa9caeac",
+      "trajectory_id": "validation-22033e71aa9caeac-2120-error_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "0df3c3228e70fb84d3e8a16c034526c6a9768357998f0874127389662fe5ab66",
+        "1d2afc3cd32f7e27c27e95c0b5ea3b203ca356df6d240275badbcc37cd21b1b5"
+      ],
+      "scene_id": "FloorPlan28",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "cd1b18a0972cd09e",
+      "trajectory_id": "validation-cd1b18a0972cd09e-2122-neutral_full"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "f268d033c4b907a941d7a35b4c45f21818f5e009695f48b18aef1d10ade06cee",
+        "3dc560340625f7eaa7a847d045fe01280dd89740a5f512edc62472c7140ef191"
+      ],
+      "scene_id": "FloorPlan28",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "cd1b18a0972cd09e",
+      "trajectory_id": "validation-cd1b18a0972cd09e-2123-repeated_error"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "834202582751f52d6ac0bd67ce9a5c5e43d1c145199145b488d70386329e7a30",
+        "ce5570662cceb20ff93096943e0569de288a6cc750b2f4e1d113d44e4ca3c0b6"
+      ],
+      "scene_id": "FloorPlan28",
+      "success_curve": [
+        false,
+        true
+      ],
+      "task_id": "cd1b18a0972cd09e",
+      "trajectory_id": "validation-cd1b18a0972cd09e-2124-correct_latest"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "5636e68b5ad134dd36f647bf67cfdcdd9689fb446476f97e810bdc547728116b",
+        "f13080aa3565a73831e8f8b607755748583ddcfc309b04e0d196ffae7927ed5a"
+      ],
+      "scene_id": "FloorPlan28",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "cd1b18a0972cd09e",
+      "trajectory_id": "validation-cd1b18a0972cd09e-2125-delete_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "07646f52938b65c17433f03d2995c2ab7583f8d08f27a40f15f375b208157762",
+        "c65f771ea79b50598a9f3b49297c912be1368e41faee16747aa512890c5225ac"
+      ],
+      "scene_id": "FloorPlan28",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "cd1b18a0972cd09e",
+      "trajectory_id": "validation-cd1b18a0972cd09e-2126-correct_oldest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "afe7da1a554517089d9db612b99596a1ff11eb6766a724d060caa8fa3fe68a5e",
+        "e086bb136771614fe8d85f3033336f0495ae71bc7444965dd89f633e8e22d80a"
+      ],
+      "scene_id": "FloorPlan28",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "cd1b18a0972cd09e",
+      "trajectory_id": "validation-cd1b18a0972cd09e-2120-error_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "220bd1d95585c4625b2ca2cbf2222920bdee4c262ef1d51cbd31d2bea4e864d7",
+        "4d29c5f55bb328bf7800128477f71768b6fc61cc92dc7580ac64bf0dc1d11b95"
+      ],
+      "scene_id": "FloorPlan28",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "cd1b18a0972cd09e",
+      "trajectory_id": "validation-cd1b18a0972cd09e-2121-correct_middle"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "63c9fe849390e5bc1d28c52993f160c1814246e80d6fca818469a40ad46fa9a6",
+        "5906ed13da84f1ffc53098980e8ad10570ae3dfe1f65583d1b66fc1c773be0c6"
+      ],
+      "scene_id": "FloorPlan28",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "ea8e3ae985682506",
+      "trajectory_id": "validation-ea8e3ae985682506-2123-repeated_error"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "adc432acb96fbd1885c77098af9083624e8405faa714a3ce49f6eb7e5031b5c1",
+        "6c080fdd7399c20d165862d2b7d2e2502be696b4fc42a1ff9b92adc1a3e0da0a"
+      ],
+      "scene_id": "FloorPlan28",
+      "success_curve": [
+        false,
+        true
+      ],
+      "task_id": "ea8e3ae985682506",
+      "trajectory_id": "validation-ea8e3ae985682506-2124-correct_latest"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "973e3f9c9f3f10c379455000dd98d19e9619d033736279116666ab1b10adbc3f",
+        "e3d3d0ae082fa1ab6cd19c02d7796806395439bb29b27b9ce20354dce92f5259"
+      ],
+      "scene_id": "FloorPlan28",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "ea8e3ae985682506",
+      "trajectory_id": "validation-ea8e3ae985682506-2125-delete_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "a60c40050338f2784a39a30e3ea8e6ae8a45af600d58212ac760dd6bf771b816",
+        "5fd5845ba97e52903d2c55b342430b4d9d572e1b4d0fb93091b289e0f30aa30d"
+      ],
+      "scene_id": "FloorPlan28",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "ea8e3ae985682506",
+      "trajectory_id": "validation-ea8e3ae985682506-2126-correct_oldest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "16ebef8a5f584c5795f734ccd18edae363261b30f0677c766e51964413a1ef6b"
+      ],
+      "scene_id": "FloorPlan28",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "ea8e3ae985682506",
+      "trajectory_id": "validation-ea8e3ae985682506-2120-error_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "5582e04f0d1c7d8ce40fced4f8ffe68ad5062fa727a015e9867efd939f97c68e"
+      ],
+      "scene_id": "FloorPlan28",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "ea8e3ae985682506",
+      "trajectory_id": "validation-ea8e3ae985682506-2121-correct_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "5ad26fb220b1a8d90b6f67944403348c56c68e978d2c1860234fbcf139473d1d"
+      ],
+      "scene_id": "FloorPlan28",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "ea8e3ae985682506",
+      "trajectory_id": "validation-ea8e3ae985682506-2122-neutral_full"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "28e33a06c17f791cf39e0913c7af20e1d12728e989375e6294c13d82537130da",
+        "4f5a0c16dcf512072edc2caef910e786e1f1dd4562dd5f5d5173eb9eefe795c8"
+      ],
+      "scene_id": "FloorPlan28",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "7217d8df465472b2",
+      "trajectory_id": "validation-7217d8df465472b2-2124-correct_latest"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "bc0333bacb0880d9a1bea4bb3ce4a5a5f8694e89a4da4ad136ed72cbca88aceb",
+        "2f3e20a5208d9315fb4c256d929f992c9111a3bedc1b338029acda3293129f8c"
+      ],
+      "scene_id": "FloorPlan28",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "7217d8df465472b2",
+      "trajectory_id": "validation-7217d8df465472b2-2125-delete_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "559104dd0ef94b6d8f9a671d8f65d3a37fd781ef60e8722ab5eaeffcd5102dae",
+        "c2701e45b5f7e7f73689b155a38844f8b7bbd2a3d46a19dba6a4b80d989ca77a"
+      ],
+      "scene_id": "FloorPlan28",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "7217d8df465472b2",
+      "trajectory_id": "validation-7217d8df465472b2-2126-correct_oldest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "824717aab9edd3af9752434914625beecf9e520b0b4d1d65ddd11022e867b294",
+        "0fc7bf4c1f33b2219d8ad4d7b9cd5e2743da9bb58870847a5bebcbeb7532aada"
+      ],
+      "scene_id": "FloorPlan28",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "7217d8df465472b2",
+      "trajectory_id": "validation-7217d8df465472b2-2120-error_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "f5e1ae9e6d4350d6dc81f112b3fecbf512d81d59596029f4df581145642629c8",
+        "131b1e50d55d5db045f0b1c12f763fd216f76c1fc8b888ff4878d6075233e1ef"
+      ],
+      "scene_id": "FloorPlan28",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "7217d8df465472b2",
+      "trajectory_id": "validation-7217d8df465472b2-2121-correct_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "653b484d2466ee19a167ac18f006253c9dad0216f0cbd15feae8909bf46727a8",
+        "d67c2b46463bd2563990d341ae8e8990815dbac2edb195e43b6742d96f32f445"
+      ],
+      "scene_id": "FloorPlan28",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "7217d8df465472b2",
+      "trajectory_id": "validation-7217d8df465472b2-2122-neutral_full"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "0b7c56cb676dcb9945249fff239e25c7772199e41726e18cae5ad0dcb2d8b66e",
+        "8eb506d46f93147d3443a3d217baabd7845076d74b6e981ce0b14426401d9385"
+      ],
+      "scene_id": "FloorPlan28",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "7217d8df465472b2",
+      "trajectory_id": "validation-7217d8df465472b2-2123-repeated_error"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "3c91ac69f1b7ebf1aef57e078317aa42df67197c6fbfee74a589883a3687998e",
+        "a4e299e1219cd8a7022e12fe373ce9ec6f91c5cca57f5fcd0311319ce7fa2c1a"
+      ],
+      "scene_id": "FloorPlan28",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "0ce27d7c3bf6657a",
+      "trajectory_id": "validation-0ce27d7c3bf6657a-2125-delete_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "e11cf8c9c5b9106d1384e10f927db012a79318e96504a30a50fb2d59701e35c6",
+        "07487498c25edb468426b6714403bb111e09ae075e956f62d81450e0a8639b62"
+      ],
+      "scene_id": "FloorPlan28",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "0ce27d7c3bf6657a",
+      "trajectory_id": "validation-0ce27d7c3bf6657a-2126-correct_oldest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "3b28467560d90e2dbb0405eedde995e0be7a4dcd071df95d5489eeeb761749aa",
+        "cc15e58f2c586f2adf09267f63ba8c13810d32741804a214d43bf7bb7e6d10bf"
+      ],
+      "scene_id": "FloorPlan28",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "0ce27d7c3bf6657a",
+      "trajectory_id": "validation-0ce27d7c3bf6657a-2120-error_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "ce3865186cbecf130358e4ed3f782819797252599254cdf4ffee58220510bae6"
+      ],
+      "scene_id": "FloorPlan28",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "0ce27d7c3bf6657a",
+      "trajectory_id": "validation-0ce27d7c3bf6657a-2121-correct_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "b28e6fd17e192472b1990bfe2c7b98401031004b931beb97e3c3d7b34851dfbf"
+      ],
+      "scene_id": "FloorPlan28",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "0ce27d7c3bf6657a",
+      "trajectory_id": "validation-0ce27d7c3bf6657a-2122-neutral_full"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "d010d93570df5ba52a6dfb1569b4d0069fc9fb1f7170d4d3072c4b59b18a4c3c",
+        "2a4be00ef2f12ba9078518a0f0a0f82533f6a28a2c4c56094ffbcd3ec34a3f62"
+      ],
+      "scene_id": "FloorPlan28",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "0ce27d7c3bf6657a",
+      "trajectory_id": "validation-0ce27d7c3bf6657a-2123-repeated_error"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "21eb96dcf1a99695cedbb3f1571a3eee81f192e2bc5b7d414d4cdbbe49bbd134",
+        "fd08be62a138913fcc8f843a89330541ebbfaf542bdd7bd8e1f451cb6e763b85"
+      ],
+      "scene_id": "FloorPlan28",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "0ce27d7c3bf6657a",
+      "trajectory_id": "validation-0ce27d7c3bf6657a-2124-correct_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "a3eb358c5b4909ca941206c8e3b4fabd44688af48557d25dfb4969f1b4f3c5d8",
+        "0b2fa13d4ecbfcaa770c4529fa2b73b3637f19c04003e0806cd76d4d6ed18446"
+      ],
+      "scene_id": "FloorPlan28",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "c08a414649f998ba",
+      "trajectory_id": "validation-c08a414649f998ba-2126-correct_oldest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "62f0bbdf0327b92cdd1d1e93f4fc269a10706d1a572776bbe1aedd460a5e2a63",
+        "d64082ca17b552e381d0d6812a8f75ad3c2fb6788327f2d9827de5f489124896"
+      ],
+      "scene_id": "FloorPlan28",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "c08a414649f998ba",
+      "trajectory_id": "validation-c08a414649f998ba-2120-error_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "a784f8f5fd9f0b9aeae7c1e2a5694f12800f980bad0894bba0ee636cbc09aa7a"
+      ],
+      "scene_id": "FloorPlan28",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "c08a414649f998ba",
+      "trajectory_id": "validation-c08a414649f998ba-2121-correct_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "f44fb1d398ab1ef3e6f8fdb030e7a43551bc4e3b237b456ca00648ae40a2240d"
+      ],
+      "scene_id": "FloorPlan28",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "c08a414649f998ba",
+      "trajectory_id": "validation-c08a414649f998ba-2122-neutral_full"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "c37c23c8eee9c0c4887aeaf7c51c3cfbdb28ae4254dd518e7cd92aa1db7f582f",
+        "6e35548d4143c1bbcfaebc558027c7b741fb963ec8f3ce3833122586ae17d4b6"
+      ],
+      "scene_id": "FloorPlan28",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "c08a414649f998ba",
+      "trajectory_id": "validation-c08a414649f998ba-2123-repeated_error"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "d36efedbcd78ce9af26b5231a2ba8e526ccd4de2a7fc850badfbc0e1d25215df",
+        "7b6d07ffea9cdec1175694257465b1309c8f205cc183ab4a081ef615f0bd57a6"
+      ],
+      "scene_id": "FloorPlan28",
+      "success_curve": [
+        false,
+        true
+      ],
+      "task_id": "c08a414649f998ba",
+      "trajectory_id": "validation-c08a414649f998ba-2124-correct_latest"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "656ddc42c35cef616e8607de2f9701b640c040f40a63078d78f584478e1a3d5c",
+        "21cbd418af9548422fe46a70863dc4e51060338fbddb63b320ecbbeb0ff15b9a"
+      ],
+      "scene_id": "FloorPlan28",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "c08a414649f998ba",
+      "trajectory_id": "validation-c08a414649f998ba-2125-delete_latest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "5e454094d5be7deae88cfde8fde7b85ac014b2acf3cb1326fd2ee3b005e177f0",
+        "403c29c7c038514cddf2f5f582f93de70a62b5429a87bdcab3481d4e3e836c7b"
+      ],
+      "scene_id": "FloorPlan28",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "3dcc3f14ea468082",
+      "trajectory_id": "validation-3dcc3f14ea468082-2120-error_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "a16631d876e122ffb429169fb66a54404ce5b8406d59fdc769d690822cd332b0",
+        "7cb6d9796b3804b7d679c95a043ab33fdd94a9c8b15dceabb97f2014c7369cca"
+      ],
+      "scene_id": "FloorPlan28",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "3dcc3f14ea468082",
+      "trajectory_id": "validation-3dcc3f14ea468082-2121-correct_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "12faffd3efcca771b200f41ed7106d96aa78ea92c96cd6536fbd28976be9aeab"
+      ],
+      "scene_id": "FloorPlan28",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "3dcc3f14ea468082",
+      "trajectory_id": "validation-3dcc3f14ea468082-2122-neutral_full"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "91bc787fc841bd0115cccd55f45441a65c9ac7f6471f91e97f8b0bc1fa42958f",
+        "934ae6e0f8b80121ac79395e5f1776685eff95096d667f835376eb43e64a1a4b"
+      ],
+      "scene_id": "FloorPlan28",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "3dcc3f14ea468082",
+      "trajectory_id": "validation-3dcc3f14ea468082-2123-repeated_error"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "52cd05276de4ffd64c6953a3732c6054980d71e47896077d1bc5818735852fac",
+        "c4ae053cbcb0e5d1cf5a252772070d4452d1f54b21b8303c36a563e48b8d68f0"
+      ],
+      "scene_id": "FloorPlan28",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "3dcc3f14ea468082",
+      "trajectory_id": "validation-3dcc3f14ea468082-2124-correct_latest"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "bd38764ae730e95c823ece79b89ae1bb0e98777732bc502c71ebaf4882fbcf5e",
+        "d9d1cefc674ab3352c244c43b0bb21191951b2a9e70da599184d4bf2867aa8d5"
+      ],
+      "scene_id": "FloorPlan28",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "3dcc3f14ea468082",
+      "trajectory_id": "validation-3dcc3f14ea468082-2125-delete_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "34ff19ac5f17f51bfb387742450985e2aab7b8dd116a14c58cbe25d688e2d518",
+        "53d59bf7dc6e707b41ff676075a782107897f1fdba89767daf5dbed951ef036f"
+      ],
+      "scene_id": "FloorPlan28",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "3dcc3f14ea468082",
+      "trajectory_id": "validation-3dcc3f14ea468082-2126-correct_oldest"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "635d9e538ce73f835b84553de88aa2802553676e63cbf795a1051c3d3c8906b6",
+        "973ae399a5cfce1c8b61e188e0264a3e8305eb6ebce61193b12b3e970ed874c9"
+      ],
+      "scene_id": "FloorPlan5",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "16bb43c63f462d60",
+      "trajectory_id": "validation-16bb43c63f462d60-2121-correct_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "23cab755df8558daabe55d71c823119e23f537d31d326cc957facc58d80cf122",
+        "5e8deeca4b019353fee6873075d9199ee42eb17298283434ad4d9dfcf2e389b1"
+      ],
+      "scene_id": "FloorPlan5",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "16bb43c63f462d60",
+      "trajectory_id": "validation-16bb43c63f462d60-2122-neutral_full"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "410bcf02de8da0e9959bec1bd1709899b0c38df34b6f504d0f3bfb10a738d042",
+        "53ed7d0acc3284636b065a9233138c59e87f3c8824bd201a58e81ebdef3eaa6a"
+      ],
+      "scene_id": "FloorPlan5",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "16bb43c63f462d60",
+      "trajectory_id": "validation-16bb43c63f462d60-2123-repeated_error"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "5bc7839da19beafaa0d19234ceb5f11a37130afe087b00a07ecbebf4190759d6",
+        "7a90d399d62fc860a6b95c1beec10643405c3ae3bcfc9e063f6549d0051c78f0"
+      ],
+      "scene_id": "FloorPlan5",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "16bb43c63f462d60",
+      "trajectory_id": "validation-16bb43c63f462d60-2124-correct_latest"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "f3aee0f7f0786aab7f4aa28c646fd16f20803ff2a23cdd5500fef4fbc5faa0ba",
+        "7235e8cde380018c545c67a8bed92cbe652a3277a053458290897813359e5602"
+      ],
+      "scene_id": "FloorPlan5",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "16bb43c63f462d60",
+      "trajectory_id": "validation-16bb43c63f462d60-2125-delete_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "a4205b4a100436ec1d3bd29e42a47ff04088e2a9770cd9e58398ce0797f86612",
+        "6109900239a06dde904f68c27c2a9f19b08b35f8382357420d074568accb227b"
+      ],
+      "scene_id": "FloorPlan5",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "16bb43c63f462d60",
+      "trajectory_id": "validation-16bb43c63f462d60-2126-correct_oldest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "93807282b4671bd19a6ba0118a148cf3cafbba4aa7e2801d74577499d25ba989",
+        "17950a7e09aa1cc7224d23900d4f39a9690954d0c32154111d30848835243e1b"
+      ],
+      "scene_id": "FloorPlan5",
+      "success_curve": [
+        false,
+        true
+      ],
+      "task_id": "16bb43c63f462d60",
+      "trajectory_id": "validation-16bb43c63f462d60-2120-error_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "3d2a539086c0804ef2a37d9df901257461d2a2acd505e128f0c7b035606cf0a8",
+        "1a84a84d3dc1911f3dae14a1b80458525f5fd31f14ce830ec71bad3b2e7804aa"
+      ],
+      "scene_id": "FloorPlan5",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "688e156a65711ca2",
+      "trajectory_id": "validation-688e156a65711ca2-2122-neutral_full"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "5446b2baf67d824c22c63b8c5e7e77a9b5f8b13724cf714d18a6b2d5e9f91e27",
+        "d2d9a9d3a12255cf2c9f8d9ffd0be92cf6537da0a0ca40943352476b29a67739"
+      ],
+      "scene_id": "FloorPlan5",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "688e156a65711ca2",
+      "trajectory_id": "validation-688e156a65711ca2-2123-repeated_error"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "1a34c113fd667708cda7d4b8180b7533abe8192f783479b5915e4594d90b3e0c",
+        "08f3636f9ae039b8765092eb58cfc8eff78b8b67a93980429a7cf346bd80ef84"
+      ],
+      "scene_id": "FloorPlan5",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "688e156a65711ca2",
+      "trajectory_id": "validation-688e156a65711ca2-2124-correct_latest"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "2daae2bb4715b40d20557d671972679579f3c5fc71d5988515f838d63b8f9447",
+        "2892622dbfb85f20917bf54dc8c37897807ef67530ced41b3bc4d54d1099cad5"
+      ],
+      "scene_id": "FloorPlan5",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "688e156a65711ca2",
+      "trajectory_id": "validation-688e156a65711ca2-2125-delete_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "d0b68c5827cac4ca2020fc8b3eb5123d0e241be668e6698001ebef8652b69d99",
+        "4d7d81b0d6d5826de04151e4c8ed8188046d94d5f55b76229b8e7dc0ef326969"
+      ],
+      "scene_id": "FloorPlan5",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "688e156a65711ca2",
+      "trajectory_id": "validation-688e156a65711ca2-2126-correct_oldest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "bff2b7bd740bf1eacaec832a87957ac6e32f42c52849e0bf81c592c03f10add5",
+        "3ca3eedc8795f6dfc46b828088e9fc49a0ab7463928e056caf57a81c7c852983"
+      ],
+      "scene_id": "FloorPlan5",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "688e156a65711ca2",
+      "trajectory_id": "validation-688e156a65711ca2-2120-error_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "e3cea5e5973f38f5ba819f467affc933a49f0ba774e9b3352f31dea4a1ac6377",
+        "efae15a8772d7a3d6cb79a41d6fb8cb39b23302f4b1b1a58a6d4c675ff3748e5"
+      ],
+      "scene_id": "FloorPlan5",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "688e156a65711ca2",
+      "trajectory_id": "validation-688e156a65711ca2-2121-correct_middle"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "5d5c9d34f6d2357a23af9c22b1e7fe612c691bebdfd2d91937f2ae007da56b9f",
+        "1bfdf06d71f73818ce4dc87e323a3892acb32a1e2712afbe93f2c47dfcbed898"
+      ],
+      "scene_id": "FloorPlan5",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "ac5e5b16ca50b24e",
+      "trajectory_id": "validation-ac5e5b16ca50b24e-2123-repeated_error"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "5113874ad83a3ffb9cdce2cf51f6f5c3cc11dac38503d1525980db268e2efa6c",
+        "a6e933428644467613a1623277a48ab9523aaa3b2593cfaed30c50f16ba1758e"
+      ],
+      "scene_id": "FloorPlan5",
+      "success_curve": [
+        false,
+        true
+      ],
+      "task_id": "ac5e5b16ca50b24e",
+      "trajectory_id": "validation-ac5e5b16ca50b24e-2124-correct_latest"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "ee53d5672c987ffd7cb57bef48d6f05614ccd60ab205b690f83dd13ea9902973",
+        "6a7d994ff2af004c8fad6ebcfb4484a7017e7570a53ccdad9862a15110a6dff4"
+      ],
+      "scene_id": "FloorPlan5",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "ac5e5b16ca50b24e",
+      "trajectory_id": "validation-ac5e5b16ca50b24e-2125-delete_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "80ccaa72c0e946e333aea275c801e0adbe1563164cf4ce6735bc6700d4c082b4",
+        "1742fb4a6b05da65c29f1c207324db8acda9ba2878703e95013b55ca07f9aaa2"
+      ],
+      "scene_id": "FloorPlan5",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "ac5e5b16ca50b24e",
+      "trajectory_id": "validation-ac5e5b16ca50b24e-2126-correct_oldest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "e5da49cc618b7781ceda51ed05ece69b55b360d15962ccba5c3f98396a51dbe2",
+        "e0c26211720c2974ae4bd338d89776330b5f667b337397e80057c02ad76efc67"
+      ],
+      "scene_id": "FloorPlan5",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "ac5e5b16ca50b24e",
+      "trajectory_id": "validation-ac5e5b16ca50b24e-2120-error_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "758602abbedcb160b87a99f13e823b1f36bee66470c8f7c94c81ebaf8866ebb7",
+        "e13614b1d7acb355d841ed484163aa4e785349ee184d79cc567024046b2d07ab"
+      ],
+      "scene_id": "FloorPlan5",
+      "success_curve": [
+        false,
+        true
+      ],
+      "task_id": "ac5e5b16ca50b24e",
+      "trajectory_id": "validation-ac5e5b16ca50b24e-2121-correct_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "3ec5784d958ef71886d7f1a79438b20571b8bdece29afa25fe7a154ab5e3eb91",
+        "34f1e186f341815f59fcf00c969401f8cca7402b1eda22ac4153d9768c637f9e"
+      ],
+      "scene_id": "FloorPlan5",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "ac5e5b16ca50b24e",
+      "trajectory_id": "validation-ac5e5b16ca50b24e-2122-neutral_full"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "69bce84909e13af9ced18cc5d2a3325d08eba712eb8bbd677fec93bc897e1727",
+        "48b6443f3d6422afb985bb7533b44ead3a5c6673204461a7ef6b332f8d6e3f28"
+      ],
+      "scene_id": "FloorPlan5",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "1b45779902b4815a",
+      "trajectory_id": "validation-1b45779902b4815a-2124-correct_latest"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "43c02b35ac64254f04ac7098560a0753b5f28b4a88daeab16978cc3ef8ad1376",
+        "3f400d7632e0509bea38edf959159a528bde39366ef4f333a2276d463e5dc2f4"
+      ],
+      "scene_id": "FloorPlan5",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "1b45779902b4815a",
+      "trajectory_id": "validation-1b45779902b4815a-2125-delete_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "d055bd8b74570214b37599a2b6485909fdfdf716475083d5384f2877f36d9f82",
+        "f64e5700f6c86e622bf58c59b873af6a99a0b6df202fdb2a4983f9ea83c2fe6d"
+      ],
+      "scene_id": "FloorPlan5",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "1b45779902b4815a",
+      "trajectory_id": "validation-1b45779902b4815a-2126-correct_oldest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "45f8fc1fb81941d8f6c7937f133ab86699b0d58807316150920fd4675ccefde4",
+        "521a1bd809a9f7a95cb0362e4b4f1ddb96d8bd5b0c18ccc9fb5c0f62feb89663"
+      ],
+      "scene_id": "FloorPlan5",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "1b45779902b4815a",
+      "trajectory_id": "validation-1b45779902b4815a-2120-error_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "e402fbb679fa01366cca8c3b7807b121ad2af53b6747edcd0f28f15585840e4f",
+        "3cdf0b26173d2a9680c7c3a7e002213c9e6c9253ac5a01bee675c1eb0d984072"
+      ],
+      "scene_id": "FloorPlan5",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "1b45779902b4815a",
+      "trajectory_id": "validation-1b45779902b4815a-2121-correct_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "d15148b0b5c7d7aa7a0d3b20fc51433e8ba24748ab83eb85a9cde8e6b4c5d7eb",
+        "e6da689ea38b328efbfb4cabe7a24634155a883ac68574b1086b05c94a61e180"
+      ],
+      "scene_id": "FloorPlan5",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "1b45779902b4815a",
+      "trajectory_id": "validation-1b45779902b4815a-2122-neutral_full"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "081dd339bb4a0f1507f373e0a8435b08c14e5bb245608ae4ddac069dbe356a32",
+        "734cbb7e2b23616032e6b9a4494681d08905b349c886e3118ccf1d2b07030ca0"
+      ],
+      "scene_id": "FloorPlan5",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "1b45779902b4815a",
+      "trajectory_id": "validation-1b45779902b4815a-2123-repeated_error"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "cd970921fbee99bfca181872c791445db3451768335c12b919aad701eda3cc70",
+        "5c3773d97c866d727450cb6f13efb9c716ac48784e28fb6b2f51decbb535371e"
+      ],
+      "scene_id": "FloorPlan5",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "6db95797258f3745",
+      "trajectory_id": "validation-6db95797258f3745-2125-delete_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "0aa86bed82caa3a9238d4949213a900b1dace8e02a40231b5ea68b6f39046e82",
+        "d70eaeb2a4b524fb4c94e88ca004bff921c9144f8983523181f5b9bd8e3ed0e3"
+      ],
+      "scene_id": "FloorPlan5",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "6db95797258f3745",
+      "trajectory_id": "validation-6db95797258f3745-2126-correct_oldest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "9e012e7c2d10f82c3d03d33c2d42b1a2721d9d78bed4a4e0736cf78f43902383",
+        "c650bdfedaca4dc64b6e4e20a950f62330245265e659734653eb3b9a6745a127"
+      ],
+      "scene_id": "FloorPlan5",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "6db95797258f3745",
+      "trajectory_id": "validation-6db95797258f3745-2120-error_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "f036206d34213f1985aba82e1f911632a687d429f46bf7db7a09651a27cf8886"
+      ],
+      "scene_id": "FloorPlan5",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "6db95797258f3745",
+      "trajectory_id": "validation-6db95797258f3745-2121-correct_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "86414f72503aaa4253d312056f1e47eb296c23757d4ae3f6f21edfd831764982"
+      ],
+      "scene_id": "FloorPlan5",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "6db95797258f3745",
+      "trajectory_id": "validation-6db95797258f3745-2122-neutral_full"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "92fa5d8d0a5e1386106abe29d05f336807d8c82e78735da15aaac4476d1584c8",
+        "b82cc27ac24fb0e40fe2ee6f0a05f369b2c9cd1408f409c4a318b174d76e386b"
+      ],
+      "scene_id": "FloorPlan5",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "6db95797258f3745",
+      "trajectory_id": "validation-6db95797258f3745-2123-repeated_error"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "424febd6b31f11607bacb42d092519e63cc0a0f9734cbfb9e161de73e66aeab3",
+        "d3f626c0dffea3e4727716206e5397b7ce1efdb30a540da2f2af605a7c8e21e6"
+      ],
+      "scene_id": "FloorPlan5",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "6db95797258f3745",
+      "trajectory_id": "validation-6db95797258f3745-2124-correct_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "dc91d38a06d93f659c6b591453ab0792012b4b15a9adc6fdb6002b4c73cf2b93"
+      ],
+      "scene_id": "FloorPlan5",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "3673f34a8cf17e0e",
+      "trajectory_id": "validation-3673f34a8cf17e0e-2126-correct_oldest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "daa838b872ab2df2d2623e46af3dcafa59b06e97eb8b17e6be22a38a045df53a",
+        "c2e77b96399b793aba813e12d4b1c7fdb2f00bd9a9f301c7f582ce8a0332b194"
+      ],
+      "scene_id": "FloorPlan5",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "3673f34a8cf17e0e",
+      "trajectory_id": "validation-3673f34a8cf17e0e-2120-error_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "549446ece5ceb458f5a5c24edb43708132095cd2055c703dbf3679b980cb4264",
+        "19d91ce8012e0fe5f41b8ef44528f9d3f443ae7f556fec6df5ed039ea24643d7"
+      ],
+      "scene_id": "FloorPlan5",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "3673f34a8cf17e0e",
+      "trajectory_id": "validation-3673f34a8cf17e0e-2121-correct_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "4de37d8764a7385f991a152a4357298341518ffd32713f4eed61a054af6efa0e",
+        "c9a01397e067991794315469b78f6074d3100af085018c828e2c68d85d177808"
+      ],
+      "scene_id": "FloorPlan5",
+      "success_curve": [
+        false,
+        true
+      ],
+      "task_id": "3673f34a8cf17e0e",
+      "trajectory_id": "validation-3673f34a8cf17e0e-2122-neutral_full"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "1301c19dcd5fee77f199f210f099b32d9d0f4bc24116192c4a9dd6cc9324598e",
+        "ff10a0d9715ad5118e32095d65de48dd345f52e27692aa4cfe9a1b34996b09ee"
+      ],
+      "scene_id": "FloorPlan5",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "3673f34a8cf17e0e",
+      "trajectory_id": "validation-3673f34a8cf17e0e-2123-repeated_error"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "2286b2d8c3011ac40bd23a4e14b1b68e9907ae212f7b54dadb505b8ef5ee1f54",
+        "6567e6c577fd40a55d7695f64a2165f49c5127be1e6a5dd12259c3e7a6363f96"
+      ],
+      "scene_id": "FloorPlan5",
+      "success_curve": [
+        false,
+        true
+      ],
+      "task_id": "3673f34a8cf17e0e",
+      "trajectory_id": "validation-3673f34a8cf17e0e-2124-correct_latest"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "9fc26f460a4e7cced141f7705fb543e9562e8e3ee7b7728c7a4fe564b680891f",
+        "80959a6b3fc9426fdec52b7b4e7ffeeb110a8b95b98e02d3df6b054727fa6238"
+      ],
+      "scene_id": "FloorPlan5",
+      "success_curve": [
+        false,
+        true
+      ],
+      "task_id": "3673f34a8cf17e0e",
+      "trajectory_id": "validation-3673f34a8cf17e0e-2125-delete_latest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "ddde0d4449021ea06001ebb168942dc7d33c767c2b0c562b50f1271c461ea7a1",
+        "52f3b3fd64f882fe576b335d815e3686084e6c5c39c9d20352c6a377d53b8775"
+      ],
+      "scene_id": "FloorPlan23",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "5811a7b0638365e3",
+      "trajectory_id": "validation-5811a7b0638365e3-2120-error_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "13094617c9b758ec67587aabc874cb4b591208b5ee10d7183a83bd573b1f4711"
+      ],
+      "scene_id": "FloorPlan23",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "5811a7b0638365e3",
+      "trajectory_id": "validation-5811a7b0638365e3-2121-correct_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "43c23ac8d265a06400a410f8710dc9db00f7bcff174ffe18356d5c29170a6b12",
+        "c313649af0217c5a7b18609d7b33fd53b748ffdd931feef24ce0f226578818fe"
+      ],
+      "scene_id": "FloorPlan23",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "5811a7b0638365e3",
+      "trajectory_id": "validation-5811a7b0638365e3-2122-neutral_full"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "31419ad0e69374ec821328bf91ba0140bc4da4cd3cc5aa2f704e5c44357bc089",
+        "976d5b02a42e0eb0b30233b366876aafde64e5579a93b1165021862deff6606e"
+      ],
+      "scene_id": "FloorPlan23",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "5811a7b0638365e3",
+      "trajectory_id": "validation-5811a7b0638365e3-2123-repeated_error"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "0b896771486417f32c42a3b1fe8557405056a13a223e231a1e9fcc223b734684",
+        "4dfda4b7344eca5fc0e351b63deea47ee53821017a94e5949e2e16dd399e005d"
+      ],
+      "scene_id": "FloorPlan23",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "5811a7b0638365e3",
+      "trajectory_id": "validation-5811a7b0638365e3-2124-correct_latest"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "46f30a298ed66518cde453f588c0a325f2f762ed4ae753ffbc3d6fa1e7775d03",
+        "3c8b1371af899d76861ca2682c0f185b30fd968d2fe7c537dc014078f7a62a6e"
+      ],
+      "scene_id": "FloorPlan23",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "5811a7b0638365e3",
+      "trajectory_id": "validation-5811a7b0638365e3-2125-delete_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "4797c92a6302ce78f08ddfc5fc129765cd6970ebd0902eba5d1fb69a584a6ef9",
+        "7b9993afffb94f02309d5d8cffc8b5a16623b9c55de652b78a1d25ad3da260c2"
+      ],
+      "scene_id": "FloorPlan23",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "5811a7b0638365e3",
+      "trajectory_id": "validation-5811a7b0638365e3-2126-correct_oldest"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "7c81d5bd81ddfa4191fc1ea86ea7ac94805b4b087f9e4e01384a9877246e6f4d"
+      ],
+      "scene_id": "FloorPlan23",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "d0b28366be5c86ef",
+      "trajectory_id": "validation-d0b28366be5c86ef-2121-correct_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "463c44dcb5ecba4945ed38556fd9e53753e409340a97b94bca318d4ede34e8c9",
+        "5a6327292c620741a9e82270201d48cc53c53aed948038f47312bf35967bcb81"
+      ],
+      "scene_id": "FloorPlan23",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "d0b28366be5c86ef",
+      "trajectory_id": "validation-d0b28366be5c86ef-2122-neutral_full"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "63f51d77820881adc6f577b90b0d6fcb29d9213b49ec8ad24123e077eb736f03",
+        "25c9d04054f2f24ed9fe065f51c90e1d384df40e259e266bc5b80d13d658612d"
+      ],
+      "scene_id": "FloorPlan23",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "d0b28366be5c86ef",
+      "trajectory_id": "validation-d0b28366be5c86ef-2123-repeated_error"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "a588fb4a933405d792dcaab3b64bd2fd417e671019c6515d8fc25af429c576f4",
+        "d6efbd686337fb9b2b99e56f91feda9206d216d4436d50156b11211a734a9815"
+      ],
+      "scene_id": "FloorPlan23",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "d0b28366be5c86ef",
+      "trajectory_id": "validation-d0b28366be5c86ef-2124-correct_latest"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "9fb6c919244cdfa7c1587ced724fbe95e86349aec6bdd91926ef88e0e6ec6ed7",
+        "5858aa8c61509ad2a52521d150cae81d82efab113fd88e33513c516e5531f157"
+      ],
+      "scene_id": "FloorPlan23",
+      "success_curve": [
+        false,
+        true
+      ],
+      "task_id": "d0b28366be5c86ef",
+      "trajectory_id": "validation-d0b28366be5c86ef-2125-delete_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "667bd05bc6b3b28e4c3f76dd02d2585d36691ded5e18133abddf3b513c50468c"
+      ],
+      "scene_id": "FloorPlan23",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "d0b28366be5c86ef",
+      "trajectory_id": "validation-d0b28366be5c86ef-2126-correct_oldest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "7e323930f6f9c6b4e114dca6e8750b7a5cb1404d148371bc3ece468fab73b11e",
+        "ccb6300aab553c07e19f2a8b92121bba8d0feb485e4284cd38e4764d5eb8758c"
+      ],
+      "scene_id": "FloorPlan23",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "d0b28366be5c86ef",
+      "trajectory_id": "validation-d0b28366be5c86ef-2120-error_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "acbef9887a8641d5ca21fd66b8836032fbd282cba85b3ffd859b9961dadde1de"
+      ],
+      "scene_id": "FloorPlan23",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "8e64db63e42f736c",
+      "trajectory_id": "validation-8e64db63e42f736c-2122-neutral_full"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "739c4f12b3a86adb0cba5158904a1c4d8d49094ed31e14f0e17b846dfd0ea5a1",
+        "a498de04965848d4edaf60c0f5a087d3e93424775bf02c92dd8d1b7601d254a3"
+      ],
+      "scene_id": "FloorPlan23",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "8e64db63e42f736c",
+      "trajectory_id": "validation-8e64db63e42f736c-2123-repeated_error"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "f31462c68d51770e42bd1138c275cba67bae54b1aed71e2e8215a89693e76b43",
+        "b0f5e9a263ff2008181c8b90c5a6ff84ef38117977d908fa5a1f2c2f1154bcb0"
+      ],
+      "scene_id": "FloorPlan23",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "8e64db63e42f736c",
+      "trajectory_id": "validation-8e64db63e42f736c-2124-correct_latest"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "f1c7c8676523c40045810181a82802c2ec12b9cb1e72c2b9d73ee4e0de71a010",
+        "83b7e725d1ee222d6b0728605eec47b899aeb27fb55b81458ff43874f95ddd79"
+      ],
+      "scene_id": "FloorPlan23",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "8e64db63e42f736c",
+      "trajectory_id": "validation-8e64db63e42f736c-2125-delete_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "4ae7177504ff43504206c7f904d954cf2178e21c7f7b1d69eaa4f150ab24a3b2",
+        "b946ea288ca6b274c1c6a5dfd12ff817be80c52e23268e340d80532f2fc6f370"
+      ],
+      "scene_id": "FloorPlan23",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "8e64db63e42f736c",
+      "trajectory_id": "validation-8e64db63e42f736c-2126-correct_oldest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "cda156402a76b1d6cee3819a096dd9e3e0e669403b6d36e097eed5f1437c68c0",
+        "6ddabc13b438980dc1564924722fdd54d7408f3f6f4d4a9c694a6507d9551e4d"
+      ],
+      "scene_id": "FloorPlan23",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "8e64db63e42f736c",
+      "trajectory_id": "validation-8e64db63e42f736c-2120-error_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "27381540bf6c91b68b71de4f430b836f8ec83511a9ccdfbd315fe468855c59d9"
+      ],
+      "scene_id": "FloorPlan23",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "8e64db63e42f736c",
+      "trajectory_id": "validation-8e64db63e42f736c-2121-correct_middle"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "0b8a452f504ddb7e9eead9c5b08619d9ee3069db49220be7134d89d66c5914aa",
+        "82b1c8a57bd3c72ed53c805759795fa54cbad15e54b9cb6b713981e9fbca6c4e"
+      ],
+      "scene_id": "FloorPlan23",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "6afa6d6afd3e7bb0",
+      "trajectory_id": "validation-6afa6d6afd3e7bb0-2123-repeated_error"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "7fbede6e01997de3dcebf8d96350acfbeebc5a1bc794fb996d539835af6124da",
+        "c6202d3332c059a70cfedb090234773de9db846a5b97fc1efb5bc9253d7e4b36"
+      ],
+      "scene_id": "FloorPlan23",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "6afa6d6afd3e7bb0",
+      "trajectory_id": "validation-6afa6d6afd3e7bb0-2124-correct_latest"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "5ebb788d62a6638b0958182e23a95c3f687693b4960bb3eb4340a3c6cef86694",
+        "8abaa7b9426a8262958c7fad878aba61ae917300663469eb046d844e7c8e27c0"
+      ],
+      "scene_id": "FloorPlan23",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "6afa6d6afd3e7bb0",
+      "trajectory_id": "validation-6afa6d6afd3e7bb0-2125-delete_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "0839c4c0dc9f43cd30a7a690a070722876fc5751d045be317205d0706263035a",
+        "7b2862b2984501e83c0990e82c9abb8ab3f72092ac0dcffc105ceb0a6b3bd092"
+      ],
+      "scene_id": "FloorPlan23",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "6afa6d6afd3e7bb0",
+      "trajectory_id": "validation-6afa6d6afd3e7bb0-2126-correct_oldest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "6a7e6e36fdeab2825c352c40dcadebb92bb4de0039144da9e5c7b543aa1e4077",
+        "d7efca95ca3d0616f6957feef89f97154b9a997bd2b65b47b34a636d4ebb81ef"
+      ],
+      "scene_id": "FloorPlan23",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "6afa6d6afd3e7bb0",
+      "trajectory_id": "validation-6afa6d6afd3e7bb0-2120-error_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "e34e57dee95409783d2730f3442f31b248458c73920d63f921ad1f00e3e103c9"
+      ],
+      "scene_id": "FloorPlan23",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "6afa6d6afd3e7bb0",
+      "trajectory_id": "validation-6afa6d6afd3e7bb0-2121-correct_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "6e7c8f8dc5fd28928179309f4f433d5aa36a4d660355eac34d3c758a6aecc721"
+      ],
+      "scene_id": "FloorPlan23",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "6afa6d6afd3e7bb0",
+      "trajectory_id": "validation-6afa6d6afd3e7bb0-2122-neutral_full"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "38440d08bd20b0314d99034d0257edce26cf4b9b6f8219c2c61ddd25d70af5df",
+        "07f8ba9f143e04a891ce0e1511bcf508e85b16adce84549577f4f8d42d2f44f8"
+      ],
+      "scene_id": "FloorPlan23",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "46d936b77b6dfe62",
+      "trajectory_id": "validation-46d936b77b6dfe62-2124-correct_latest"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "4b5109eb03dbf45530a6df837cfa4085809ee45e5d74bf589ee53fd836bc2197",
+        "bdd00c64eb66894c400dc55ec88238625395e5542aa61c97bc0acaa8275665df"
+      ],
+      "scene_id": "FloorPlan23",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "46d936b77b6dfe62",
+      "trajectory_id": "validation-46d936b77b6dfe62-2125-delete_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "84852371657fded99426b3b261f711440aec0bb47550ef34373e267c383a45ab",
+        "4477574b23199fd1fde454f941c38a04561b437f3ed845ee699fdd6faec8a0cb"
+      ],
+      "scene_id": "FloorPlan23",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "46d936b77b6dfe62",
+      "trajectory_id": "validation-46d936b77b6dfe62-2126-correct_oldest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "327850f7dee96c05c72e3214d42a67e94dbdbafe12950ec197dc8f8b7dffad72",
+        "9cc9295ed04a72d24dacc5e423a9ad7a3507bce05fa33183bf5753ea47813805"
+      ],
+      "scene_id": "FloorPlan23",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "46d936b77b6dfe62",
+      "trajectory_id": "validation-46d936b77b6dfe62-2120-error_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "c76e2fffcbe425bdec27d7762afa10df5fe8db6f9c1e0e4631ac1f11c47f5298",
+        "3f2e4305fe06c3827d7f317e7b35341377df2c78a42170c701bc3dff448f72e4"
+      ],
+      "scene_id": "FloorPlan23",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "46d936b77b6dfe62",
+      "trajectory_id": "validation-46d936b77b6dfe62-2121-correct_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "7724eb59726ff0761cc65be312c2ee94e1a4325d6d00aa787610398e7a927dbd",
+        "6c9a6e89fd03cfa33db65d1bad2b36247c4f57d6d14bda4613de949674d40032"
+      ],
+      "scene_id": "FloorPlan23",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "46d936b77b6dfe62",
+      "trajectory_id": "validation-46d936b77b6dfe62-2122-neutral_full"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "aa2ae373d0925ba7ba8dc0574a4a639a664d5a831876dee1de42bc7f58c32e97",
+        "c5a0f6d8f7afe1c4ef9607db4267e8afe50feb8420fd215e598a4f80cc27685a"
+      ],
+      "scene_id": "FloorPlan23",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "46d936b77b6dfe62",
+      "trajectory_id": "validation-46d936b77b6dfe62-2123-repeated_error"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "ec0b142c693d553f82d304b08f49ca3a7563f117aa26c58e19de07437d04ef71",
+        "cc806a8496594ca58d688711d5b132b84858316967e62db7a71923924ff51023"
+      ],
+      "scene_id": "FloorPlan23",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "56abb7babcd2d7c0",
+      "trajectory_id": "validation-56abb7babcd2d7c0-2125-delete_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "b48419f38cf2587a96f0806fbc5d7834818e7a3bae64036de19ff475c8fc2534",
+        "91d9064c6e946368b7cf32663aa88d202ba19a640165a9c6e373ca0db0925bab"
+      ],
+      "scene_id": "FloorPlan23",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "56abb7babcd2d7c0",
+      "trajectory_id": "validation-56abb7babcd2d7c0-2126-correct_oldest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "abb3386c82d1d5f9f93a8ba064ee1a3cfa2652ea607d145c27dd070ca5db5922",
+        "59851858d162b3447b85ccde273c69dd1c4cce16d25e858562e1a82c68dfdae6"
+      ],
+      "scene_id": "FloorPlan23",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "56abb7babcd2d7c0",
+      "trajectory_id": "validation-56abb7babcd2d7c0-2120-error_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "39bb875badb5f37a0f9812018ffb501595a7db554724b697e4abc88d6091749f"
+      ],
+      "scene_id": "FloorPlan23",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "56abb7babcd2d7c0",
+      "trajectory_id": "validation-56abb7babcd2d7c0-2121-correct_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "fb9f3f0e8c862667bf3de1d3efbe8aeaef0168c79c927dfb91ab31c46abbd140",
+        "70efbfe2f13f81063e4117a859482de06af754c72af3a29a75c96362efb5eb14"
+      ],
+      "scene_id": "FloorPlan23",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "56abb7babcd2d7c0",
+      "trajectory_id": "validation-56abb7babcd2d7c0-2122-neutral_full"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "c226a1775aa2f5d6266888e6e89804622946566ac270e44c6500bbe7b8005848",
+        "3481c625571ddd0eb3af32bdaf0d13f5d34c6cec84c9855a5adc939999d980d1"
+      ],
+      "scene_id": "FloorPlan23",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "56abb7babcd2d7c0",
+      "trajectory_id": "validation-56abb7babcd2d7c0-2123-repeated_error"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "8aa40823826755388d764795fefdaf64cadf0783303ea52b6a1cd33956fafb3d",
+        "2909c329a8267b9ff13b0a83bd7d26bb99780c90f8d56b4d7fecca17f8086699"
+      ],
+      "scene_id": "FloorPlan23",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "56abb7babcd2d7c0",
+      "trajectory_id": "validation-56abb7babcd2d7c0-2124-correct_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "d7d78e09b37f8fac448ac5b83796fe9bc805915fe3e7ca89ae560cf58abdd30e",
+        "0ce3e70bf172b444cc52de5c318858aef922af46fad3ea91788ac364d50a81e2"
+      ],
+      "scene_id": "FloorPlan11",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "762a79d25230e595",
+      "trajectory_id": "validation-762a79d25230e595-2126-correct_oldest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "fe8593c2cb1139ec4f794bf2a2aa1aea59fa26cc1332ca4a7b94b1ff98f7b128",
+        "11ede681621499f49b5947030c894af303ec8dcb9112b277c9c89996bfdf82de"
+      ],
+      "scene_id": "FloorPlan11",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "762a79d25230e595",
+      "trajectory_id": "validation-762a79d25230e595-2120-error_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "952615ce3e9dda93f331cfa3ef9c94b36a1b02d0a85936b1eb9ac4c412a13448",
+        "77d0a392a3ff0dc8625b35a83308b2fea0983df8f11ef2a0ae5ff5c48427f50b"
+      ],
+      "scene_id": "FloorPlan11",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "762a79d25230e595",
+      "trajectory_id": "validation-762a79d25230e595-2121-correct_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "d383f0d3bfbc8ae43581681f07575d738f0b7270708983cb010c478c443bba4b",
+        "520da3679f8173edc37bbe803e66203611a07a2e47257bef3fa1f48d51532a93"
+      ],
+      "scene_id": "FloorPlan11",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "762a79d25230e595",
+      "trajectory_id": "validation-762a79d25230e595-2122-neutral_full"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "ca146411f90e966ffde10270de38736547ed24a0ddc1ee6b3c5c76b9395308f4",
+        "ae5e79cb2fe89bc2975ad33334f86ab22880eaf0cb8b067240cde8422b712773"
+      ],
+      "scene_id": "FloorPlan11",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "762a79d25230e595",
+      "trajectory_id": "validation-762a79d25230e595-2123-repeated_error"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "cd8734a8af7444068d05bed3c99aa5c8fe294c42f38b364f1ee38c69889a6da4",
+        "31b197ce7c5bba760d0d1f9e36d11a31109d33bfe466e37107fe5d0471f3d6cf"
+      ],
+      "scene_id": "FloorPlan11",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "762a79d25230e595",
+      "trajectory_id": "validation-762a79d25230e595-2124-correct_latest"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "d0b75735035b82d2c4934f1d77847ea200b8e8676e4f98b845808f69cac6bd2f",
+        "dfed06daaa1a486cb8d85dc293cf74157a3053b341e65fd17d433f717a96a7ed"
+      ],
+      "scene_id": "FloorPlan11",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "762a79d25230e595",
+      "trajectory_id": "validation-762a79d25230e595-2125-delete_latest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "f5b39115e6a97aea96a57fae10c18c933c4d4e8bb134e7e02b1166d7ad892f8d",
+        "28d2f6e9d9275ce8dca4439605852bcb039a7b0b13c967216de03672e68f3e56"
+      ],
+      "scene_id": "FloorPlan11",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "006b6d0e168bbe3e",
+      "trajectory_id": "validation-006b6d0e168bbe3e-2120-error_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "dd137c9e615d00d578865bdd7f29528bd045bc482caf0defb068d6b16e5e326f"
+      ],
+      "scene_id": "FloorPlan11",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "006b6d0e168bbe3e",
+      "trajectory_id": "validation-006b6d0e168bbe3e-2121-correct_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "a6963dff7a4949560448771019d82c92c5cea1468d78c34faf6df1fd1d528605"
+      ],
+      "scene_id": "FloorPlan11",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "006b6d0e168bbe3e",
+      "trajectory_id": "validation-006b6d0e168bbe3e-2122-neutral_full"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "573264f61d3f2de06b8c622e120c9ab3313f088627f70ad8457064d7a893b7b1",
+        "e244e1f9588512e0a44e681a23ea57734992d92495bc053d93a38cba5ec648f1"
+      ],
+      "scene_id": "FloorPlan11",
+      "success_curve": [
+        false,
+        true
+      ],
+      "task_id": "006b6d0e168bbe3e",
+      "trajectory_id": "validation-006b6d0e168bbe3e-2123-repeated_error"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "8b40e00f0473b9020f9a1d7b27b666f76023c49b1e5b9d4fb192fbbe1f59efb3",
+        "95bcdb82aa85ea9a76c0535e66aa660f77b67b745af7056256cf3cca1e1a5a4b"
+      ],
+      "scene_id": "FloorPlan11",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "006b6d0e168bbe3e",
+      "trajectory_id": "validation-006b6d0e168bbe3e-2124-correct_latest"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "4679aa1d43f2443db928784ae44459338b18cd36f6edb9dded014e53090be4a6",
+        "db1404a6ce95660e8e6189184315c7b7fde7877feeaeeecd863996ee75b0123c"
+      ],
+      "scene_id": "FloorPlan11",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "006b6d0e168bbe3e",
+      "trajectory_id": "validation-006b6d0e168bbe3e-2125-delete_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "ca274a502d2b40175ccd6f1b14f0c6fe2fa642fc7f5647c6debb240079126f5f",
+        "eb5fa3a93df4037ce077a1833fa56e344693ad5b62d23a230e9ad4add0a1a248"
+      ],
+      "scene_id": "FloorPlan11",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "006b6d0e168bbe3e",
+      "trajectory_id": "validation-006b6d0e168bbe3e-2126-correct_oldest"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "f6919d5f0efc2a85b068eee1636d36c169dabc1d41cbdef02eeb81d9688595d0"
+      ],
+      "scene_id": "FloorPlan11",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "b41a72f09c9d2e6b",
+      "trajectory_id": "validation-b41a72f09c9d2e6b-2121-correct_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "d60491a99f168d8b8b8e78085c559e1a5fdbe891aadeef2b8814df3804318c61"
+      ],
+      "scene_id": "FloorPlan11",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "b41a72f09c9d2e6b",
+      "trajectory_id": "validation-b41a72f09c9d2e6b-2122-neutral_full"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "85c04fde908e07500ec083228e71d1bc8caac35301b7ba4fc441e0000cf02caa",
+        "9e72ce3eb91ff1ad0cd7044bdd55a5ae57197e9b2dedb18a5ff861a5324a9467"
+      ],
+      "scene_id": "FloorPlan11",
+      "success_curve": [
+        false,
+        true
+      ],
+      "task_id": "b41a72f09c9d2e6b",
+      "trajectory_id": "validation-b41a72f09c9d2e6b-2123-repeated_error"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "8dd1b898c763c931d8e9220529c3309fcc1006ee575e22eadf7b6734a8cd3aab",
+        "d00e08e98eaf1229c1f5b24c3679b25ec1026def3e844efb5679e374b3d55223"
+      ],
+      "scene_id": "FloorPlan11",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "b41a72f09c9d2e6b",
+      "trajectory_id": "validation-b41a72f09c9d2e6b-2124-correct_latest"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "02d765e7b156ec7a02bba401ff9a339ac209f0eee78e0a033b270d52df541da4",
+        "462c64416ad2466a1708201ce1bc6f9a555049052c746e145b0b5988090db9c7"
+      ],
+      "scene_id": "FloorPlan11",
+      "success_curve": [
+        false,
+        true
+      ],
+      "task_id": "b41a72f09c9d2e6b",
+      "trajectory_id": "validation-b41a72f09c9d2e6b-2125-delete_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "c1bf8436a0b313a897785bb36e42cb208d3267da84ae2a6eac88a142a1ce84f6",
+        "3655a5959896d7947ff6bcf03012bb6baccef26c3314b2c63e0b63ac1c490142"
+      ],
+      "scene_id": "FloorPlan11",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "b41a72f09c9d2e6b",
+      "trajectory_id": "validation-b41a72f09c9d2e6b-2126-correct_oldest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "ef523708707cfd6f719b5491f32d5fdf5f3aa92fdab405302e01952a2a906451",
+        "2c8142094d3f4fd77274cafb4dd296050f351e3c1189698b94dd842836acb967"
+      ],
+      "scene_id": "FloorPlan11",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "b41a72f09c9d2e6b",
+      "trajectory_id": "validation-b41a72f09c9d2e6b-2120-error_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "9fcc50c4926e38f6229e3288450c48d2a295f30a934cd61febdbfd6b903f33f2"
+      ],
+      "scene_id": "FloorPlan11",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "c66ccf679acc0115",
+      "trajectory_id": "validation-c66ccf679acc0115-2122-neutral_full"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "44297bd346e313647a365aea82744c9eb3d820ada4a2bf171eaf064abcea6575",
+        "6a2df32fc4b69159b6a47ccad9cfa426ab7b577af703ca0b9b07e31186a16f84"
+      ],
+      "scene_id": "FloorPlan11",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "c66ccf679acc0115",
+      "trajectory_id": "validation-c66ccf679acc0115-2123-repeated_error"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "b6dd96309cb2f6991ce5651060256183bc686f7a5f7ceeec3ea3e248ee49075e",
+        "3a9be405812b351b867108395fb2c22847c4ecbb9f3e1801d7cc83441833e0b4"
+      ],
+      "scene_id": "FloorPlan11",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "c66ccf679acc0115",
+      "trajectory_id": "validation-c66ccf679acc0115-2124-correct_latest"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "f30fb6dadb43a32af80379d1d1fe699e4d8ef7ac61d2ecf70fa52eebd03249f7",
+        "4aa87d258741abe37b665b6b57fde113cd477269650e136c14b07a34197a5c22"
+      ],
+      "scene_id": "FloorPlan11",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "c66ccf679acc0115",
+      "trajectory_id": "validation-c66ccf679acc0115-2125-delete_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "2dc6ba065806e7cb04af29dba1a2c1200e2b4ce1ee905d1bdf6679b844f29d1a",
+        "e71779821a099f4a988d8b41174889b06417950ea4d241aae69564ce41dd7d6f"
+      ],
+      "scene_id": "FloorPlan11",
+      "success_curve": [
+        false,
+        true
+      ],
+      "task_id": "c66ccf679acc0115",
+      "trajectory_id": "validation-c66ccf679acc0115-2126-correct_oldest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "f2caa6463a85c4e029b9534fe53dbf2e2fb7402be47818e325c19fa747c3cecd",
+        "76b3c90ab280d7a08ddfba2bb1c5509de94d1b8f59f666b74eb222b768581461"
+      ],
+      "scene_id": "FloorPlan11",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "c66ccf679acc0115",
+      "trajectory_id": "validation-c66ccf679acc0115-2120-error_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "4373d8d9cea9e8bb4c36404fe43e11d3ecbcd65637037ae40c81638e70e66438"
+      ],
+      "scene_id": "FloorPlan11",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "c66ccf679acc0115",
+      "trajectory_id": "validation-c66ccf679acc0115-2121-correct_middle"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "8192f53fb7c80342ca057bfc3cb44e190e39d917295227ea706c694cd198c03f",
+        "1ffa2c4a49dfe175ef64deafcd43cca5bfaacbbcdc9eb27b2310cff5bbb708d3"
+      ],
+      "scene_id": "FloorPlan11",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "3339c2633076342e",
+      "trajectory_id": "validation-3339c2633076342e-2123-repeated_error"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "374e1e20e761d1ce87c3c22b0b3ff7fde0ffe3957e8b9908355c3cdea7c605ff",
+        "9b3db03e5774026fce110c3bf90668f19714beefb459bc25199014957dfa09e6"
+      ],
+      "scene_id": "FloorPlan11",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "3339c2633076342e",
+      "trajectory_id": "validation-3339c2633076342e-2124-correct_latest"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "784eeafdca8b83fae84da11229c372032c5bc98540e14a877e3c8a85cb8a15b6",
+        "74f68658c81a7ac7776264f46265889f726968250e73e10606314f5cd4f33adc"
+      ],
+      "scene_id": "FloorPlan11",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "3339c2633076342e",
+      "trajectory_id": "validation-3339c2633076342e-2125-delete_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "dd657be56b8f47978387080b556a4164516c49c61370e64daffb937d51bf359c",
+        "101d85cbcda353be2c31d2bc2beb892a9ff82cf7dead93defba09c9b187df0bc"
+      ],
+      "scene_id": "FloorPlan11",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "3339c2633076342e",
+      "trajectory_id": "validation-3339c2633076342e-2126-correct_oldest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "39ad8635855bdebc19ff191d8b9f3fe690dabefbb5535fce9455b234de4e692c",
+        "172f2a9b234833f25e538332ee8c9dda77c63f927bb18f5b6158a80224b564db"
+      ],
+      "scene_id": "FloorPlan11",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "3339c2633076342e",
+      "trajectory_id": "validation-3339c2633076342e-2120-error_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "7c68e609557874e6651ec1cc59de535dc8a4210bf2f5a44e59562a49fe17d03c"
+      ],
+      "scene_id": "FloorPlan11",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "3339c2633076342e",
+      "trajectory_id": "validation-3339c2633076342e-2121-correct_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "3a015c4742bc10efce87a0d1300b257ba2f6ab25b5ea3574a9eda258dbb32089"
+      ],
+      "scene_id": "FloorPlan11",
+      "success_curve": [
+        true,
+        true
+      ],
+      "task_id": "3339c2633076342e",
+      "trajectory_id": "validation-3339c2633076342e-2122-neutral_full"
+    },
+    {
+      "condition": "correct_latest",
+      "result_hashes": [
+        "d4bab6f42cbbc41a712a02a48a20baf0df2e2e9d1050cfae05e3bfc4ce896c75",
+        "3ef302c47cb1a0c73a1cf0e777ea7bf920983b1c7d1fd518aaab97053663d425"
+      ],
+      "scene_id": "FloorPlan11",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "c2f8a69550cc82b6",
+      "trajectory_id": "validation-c2f8a69550cc82b6-2124-correct_latest"
+    },
+    {
+      "condition": "delete_latest",
+      "result_hashes": [
+        "4d169dbd160fd4fd16bda1787d7ffba132c59fe4b7d1ffd58dfbd4876b38d415",
+        "d01cb32c4da42a9b349fddf2b6a7b37db61c067c10115d04b5083ba33aa737de"
+      ],
+      "scene_id": "FloorPlan11",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "c2f8a69550cc82b6",
+      "trajectory_id": "validation-c2f8a69550cc82b6-2125-delete_latest"
+    },
+    {
+      "condition": "correct_oldest",
+      "result_hashes": [
+        "17a068a05c4e2a08ca7347b8062b2e87631eecdf4d236f691d9d873003d341ab",
+        "bd85a351c94eaec041dd026c1c80e18ee6227723c825bbf4f23239ada28cc08f"
+      ],
+      "scene_id": "FloorPlan11",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "c2f8a69550cc82b6",
+      "trajectory_id": "validation-c2f8a69550cc82b6-2126-correct_oldest"
+    },
+    {
+      "condition": "error_middle",
+      "result_hashes": [
+        "06738a8b03687b8c3af17626f3ba6d7368374550e13912fedec5e48670f4006e",
+        "6584274448043b5b1a36a4f8cb86a6812edcdbacf1ce3167aab9d1d399be8fcf"
+      ],
+      "scene_id": "FloorPlan11",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "c2f8a69550cc82b6",
+      "trajectory_id": "validation-c2f8a69550cc82b6-2120-error_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "result_hashes": [
+        "916123b38c05fcc5c35c4de7f12195c17f7debcf90923868db80f64a12161d13",
+        "b99d7481f2b6bb2e2981bc6668cf120d86cd3827d5de0b5ddf442a8b4dab33e6"
+      ],
+      "scene_id": "FloorPlan11",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "c2f8a69550cc82b6",
+      "trajectory_id": "validation-c2f8a69550cc82b6-2121-correct_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "result_hashes": [
+        "c8814a51d92050ffa44cf6169174511bc7159790c32e02a666ed805d67ed9bbd",
+        "f02a271cd764c1650d8e9d372568c46b713b292276e1d2c11cc113a39e2562b5"
+      ],
+      "scene_id": "FloorPlan11",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "c2f8a69550cc82b6",
+      "trajectory_id": "validation-c2f8a69550cc82b6-2122-neutral_full"
+    },
+    {
+      "condition": "repeated_error",
+      "result_hashes": [
+        "aaffbc22511718fb8d30b731fad25d7f278700b5f89eec30eafabda53a583d81",
+        "330d2eef6c30c2d28631fdd55027607f977e952396d4af9fdae036553b6a6fc9"
+      ],
+      "scene_id": "FloorPlan11",
+      "success_curve": [
+        false,
+        false
+      ],
+      "task_id": "c2f8a69550cc82b6",
+      "trajectory_id": "validation-c2f8a69550cc82b6-2123-repeated_error"
+    }
+  ],
+  "parameter_refits": 0,
+  "parameters_sha256": "4826508a8a850c983bdd10a91dae065ed544674e7b9c8bc8bd6fa4a6fb9778b5",
+  "per_condition": {
+    "correct_latest": {
+      "first_successes": 1,
+      "tasks": 54,
+      "two_successes": 10
+    },
+    "correct_middle": {
+      "first_successes": 27,
+      "tasks": 54,
+      "two_successes": 31
+    },
+    "correct_oldest": {
+      "first_successes": 3,
+      "tasks": 54,
+      "two_successes": 6
+    },
+    "delete_latest": {
+      "first_successes": 1,
+      "tasks": 54,
+      "two_successes": 8
+    },
+    "error_middle": {
+      "first_successes": 1,
+      "tasks": 54,
+      "two_successes": 4
+    },
+    "neutral_full": {
+      "first_successes": 23,
+      "tasks": 54,
+      "two_successes": 26
+    },
+    "repeated_error": {
+      "first_successes": 0,
+      "tasks": 54,
+      "two_successes": 5
+    }
+  },
+  "primary": {
+    "baseline": "constant_persistent",
+    "budget": 2,
+    "mean": 0.033693508074927006,
+    "scene_bootstrap95": [
+      0.017193952313825492,
+      0.04892642618440965
+    ],
+    "scene_sd": 0.026138507442437044,
+    "scene_values": [
+      0.0208443365078399,
+      0.04552600832136494,
+      0.0342749577580686,
+      0.03957294977619509,
+      0.07585162011778802,
+      0.0460130413359338,
+      -0.010835846545680372,
+      0.04939973069828474,
+      0.0025947747045483027
+    ],
+    "student_t95": [
+      0.013601672659930977,
+      0.05378534348992303
+    ]
+  },
+  "primary_decision": "prediction_improvement",
+  "protocol_sha256": "82f9c64051cfdcac95e4c37d007f844da9df70035bbca1e44f901f27e95bae39",
+  "raw_summary_file_sha256": "23a0398b842217449785449dd24673d6e42cd99739e80ea2064dce9e12c87a69",
+  "scenes": 9,
+  "scope": "Prospective new-task budget-success prediction",
+  "semantic_annotation_required_for_primary": false,
+  "sha256": "aa1ad8aa8215ed2c41e7178778e67fcf88ed8b02fa23cb68d53ce3c8622a3af2",
+  "tasks": 54,
+  "trajectories": 378
+}

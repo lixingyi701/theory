@@ -1,0 +1,491 @@
+{
+  "completed_targets": 4,
+  "costs": {
+    "dispatched_calls": 1067,
+    "input_tokens_known": 2468976,
+    "output_tokens_known": 25525,
+    "saved_responses": 1067,
+    "truncated_responses": 0,
+    "uncertain_or_unrecorded_attempts": 0,
+    "usage_missing_responses": 0
+  },
+  "expected_targets": 4,
+  "targets": [
+    {
+      "completed_branches": 5,
+      "costs": {
+        "dispatched_calls": 123,
+        "input_tokens_known": 295894,
+        "output_tokens_known": 2437,
+        "saved_responses": 123,
+        "truncated_responses": 0,
+        "uncertain_or_unrecorded_attempts": 0,
+        "usage_missing_responses": 0
+      },
+      "fresh_input_controls": {
+        "correct_target": [
+          {
+            "fresh_payloads_equal": true,
+            "trajectory_equal": true,
+            "trial": 1
+          }
+        ],
+        "sham": [
+          {
+            "fresh_payloads_equal": true,
+            "trajectory_equal": true,
+            "trial": 1
+          }
+        ]
+      },
+      "native_prefix_controls": [],
+      "rows": [
+        {
+          "attempts": 1,
+          "branch": "original",
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 28,
+            "input_tokens_known": 69187,
+            "output_tokens_known": 546,
+            "saved_responses": 28,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "decisions": 28,
+          "success": true
+        },
+        {
+          "attempts": 1,
+          "branch": "sham",
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 28,
+            "input_tokens_known": 69187,
+            "output_tokens_known": 546,
+            "saved_responses": 28,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "decisions": 28,
+          "success": true
+        },
+        {
+          "attempts": 1,
+          "branch": "retain_error",
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 17,
+            "input_tokens_known": 40203,
+            "output_tokens_known": 390,
+            "saved_responses": 17,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "decisions": 17,
+          "success": true
+        },
+        {
+          "attempts": 1,
+          "branch": "correct_target",
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 28,
+            "input_tokens_known": 69187,
+            "output_tokens_known": 546,
+            "saved_responses": 28,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "decisions": 28,
+          "success": true
+        },
+        {
+          "attempts": 1,
+          "branch": "discard_new",
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 22,
+            "input_tokens_known": 48130,
+            "output_tokens_known": 409,
+            "saved_responses": 22,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "decisions": 22,
+          "success": true
+        }
+      ],
+      "sha256": "6bf007965dda3823ec497fe94c0ea317a32c6aa17066a29ff89f852cf511e123",
+      "target_sha256": "57fb36d905fd47e9f6e1bfead99278a0fd6de01df6ff60b4aa837ae961539141",
+      "task_id": "aa2571dd5672995d"
+    },
+    {
+      "completed_branches": 5,
+      "costs": {
+        "dispatched_calls": 128,
+        "input_tokens_known": 260447,
+        "output_tokens_known": 2791,
+        "saved_responses": 128,
+        "truncated_responses": 0,
+        "uncertain_or_unrecorded_attempts": 0,
+        "usage_missing_responses": 0
+      },
+      "fresh_input_controls": {
+        "correct_target": [
+          {
+            "fresh_payloads_equal": true,
+            "trajectory_equal": true,
+            "trial": 1
+          }
+        ],
+        "sham": [
+          {
+            "fresh_payloads_equal": true,
+            "trajectory_equal": true,
+            "trial": 1
+          }
+        ]
+      },
+      "native_prefix_controls": [],
+      "rows": [
+        {
+          "attempts": 1,
+          "branch": "original",
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 19,
+            "input_tokens_known": 37978,
+            "output_tokens_known": 467,
+            "saved_responses": 19,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "decisions": 19,
+          "success": true
+        },
+        {
+          "attempts": 1,
+          "branch": "sham",
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 19,
+            "input_tokens_known": 37978,
+            "output_tokens_known": 467,
+            "saved_responses": 19,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "decisions": 19,
+          "success": true
+        },
+        {
+          "attempts": 1,
+          "branch": "retain_error",
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 18,
+            "input_tokens_known": 34885,
+            "output_tokens_known": 383,
+            "saved_responses": 18,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "decisions": 18,
+          "success": true
+        },
+        {
+          "attempts": 1,
+          "branch": "correct_target",
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 19,
+            "input_tokens_known": 37978,
+            "output_tokens_known": 467,
+            "saved_responses": 19,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "decisions": 19,
+          "success": true
+        },
+        {
+          "attempts": 2,
+          "branch": "discard_new",
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 53,
+            "input_tokens_known": 111628,
+            "output_tokens_known": 1007,
+            "saved_responses": 53,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "decisions": 52,
+          "success": true
+        }
+      ],
+      "sha256": "6a5c600eb1157c26006c85c36c6c03ba4b23565ad67bb0c1849ee9b39de02017",
+      "target_sha256": "c1bacbf829f725e4901ac445ac243374c5e6738d5284f14a1ffd692ed96c4a0e",
+      "task_id": "a49d33c30b49b863"
+    },
+    {
+      "completed_branches": 5,
+      "costs": {
+        "dispatched_calls": 366,
+        "input_tokens_known": 787727,
+        "output_tokens_known": 11281,
+        "saved_responses": 366,
+        "truncated_responses": 0,
+        "uncertain_or_unrecorded_attempts": 0,
+        "usage_missing_responses": 0
+      },
+      "fresh_input_controls": {
+        "correct_target": [
+          {
+            "fresh_payloads_equal": true,
+            "trajectory_equal": true,
+            "trial": 1
+          },
+          {
+            "fresh_payloads_equal": true,
+            "trajectory_equal": true,
+            "trial": 2
+          }
+        ],
+        "sham": [
+          {
+            "fresh_payloads_equal": true,
+            "trajectory_equal": true,
+            "trial": 1
+          },
+          {
+            "fresh_payloads_equal": true,
+            "trajectory_equal": true,
+            "trial": 2
+          }
+        ]
+      },
+      "native_prefix_controls": [],
+      "rows": [
+        {
+          "attempts": 2,
+          "branch": "original",
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 82,
+            "input_tokens_known": 184856,
+            "output_tokens_known": 2536,
+            "saved_responses": 82,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "decisions": 80,
+          "success": false
+        },
+        {
+          "attempts": 2,
+          "branch": "sham",
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 82,
+            "input_tokens_known": 184856,
+            "output_tokens_known": 2536,
+            "saved_responses": 82,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "decisions": 80,
+          "success": false
+        },
+        {
+          "attempts": 2,
+          "branch": "retain_error",
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 66,
+            "input_tokens_known": 137877,
+            "output_tokens_known": 2105,
+            "saved_responses": 66,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "decisions": 64,
+          "success": false
+        },
+        {
+          "attempts": 2,
+          "branch": "correct_target",
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 82,
+            "input_tokens_known": 184856,
+            "output_tokens_known": 2536,
+            "saved_responses": 82,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "decisions": 80,
+          "success": false
+        },
+        {
+          "attempts": 2,
+          "branch": "discard_new",
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 54,
+            "input_tokens_known": 95282,
+            "output_tokens_known": 1568,
+            "saved_responses": 54,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "decisions": 52,
+          "success": false
+        }
+      ],
+      "sha256": "70244f52d6a93e184634dfba151cd3aeaef1ec16af796ef6d81a30d9630f2c04",
+      "target_sha256": "ac31a473f5a9fe127ef706716b7e0e8b63397d14664acf32044668885ab9295f",
+      "task_id": "1086f8b6c5294719"
+    },
+    {
+      "completed_branches": 5,
+      "costs": {
+        "dispatched_calls": 450,
+        "input_tokens_known": 1124908,
+        "output_tokens_known": 9016,
+        "saved_responses": 450,
+        "truncated_responses": 0,
+        "uncertain_or_unrecorded_attempts": 0,
+        "usage_missing_responses": 0
+      },
+      "fresh_input_controls": {
+        "correct_target": [
+          {
+            "fresh_payloads_equal": true,
+            "trajectory_equal": true,
+            "trial": 1
+          },
+          {
+            "fresh_payloads_equal": true,
+            "trajectory_equal": true,
+            "trial": 2
+          }
+        ],
+        "sham": [
+          {
+            "fresh_payloads_equal": true,
+            "trajectory_equal": true,
+            "trial": 1
+          },
+          {
+            "fresh_payloads_equal": true,
+            "trajectory_equal": true,
+            "trial": 2
+          }
+        ]
+      },
+      "native_prefix_controls": [],
+      "rows": [
+        {
+          "attempts": 2,
+          "branch": "original",
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 100,
+            "input_tokens_known": 254342,
+            "output_tokens_known": 1972,
+            "saved_responses": 100,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "decisions": 98,
+          "success": false
+        },
+        {
+          "attempts": 2,
+          "branch": "sham",
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 100,
+            "input_tokens_known": 254342,
+            "output_tokens_known": 1972,
+            "saved_responses": 100,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "decisions": 98,
+          "success": false
+        },
+        {
+          "attempts": 2,
+          "branch": "retain_error",
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 100,
+            "input_tokens_known": 258788,
+            "output_tokens_known": 2042,
+            "saved_responses": 100,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "decisions": 98,
+          "success": false
+        },
+        {
+          "attempts": 2,
+          "branch": "correct_target",
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 100,
+            "input_tokens_known": 254342,
+            "output_tokens_known": 1972,
+            "saved_responses": 100,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "decisions": 98,
+          "success": false
+        },
+        {
+          "attempts": 2,
+          "branch": "discard_new",
+          "completed": true,
+          "costs": {
+            "dispatched_calls": 50,
+            "input_tokens_known": 103094,
+            "output_tokens_known": 1058,
+            "saved_responses": 50,
+            "truncated_responses": 0,
+            "uncertain_or_unrecorded_attempts": 0,
+            "usage_missing_responses": 0
+          },
+          "decisions": 48,
+          "success": false
+        }
+      ],
+      "sha256": "b1d6fa599bd4a515704fd80013ea37910a4a1402cb9c7c2ec11dd65d3e05af52",
+      "target_sha256": "f03ab3bef2c16260f040e6435d60d2e4786840c2e659f0960465001b586175f3",
+      "task_id": "61c97c86fe797fe4"
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "attempts": 1553,
+  "base_model": {
+    "kernel_implementation": "scripts/calibrate_successor_success.py:component_kernel",
+    "p_coefficients": [
+      -0.035820187583717224,
+      0.14741280332906895,
+      -1.3341855488743963,
+      -7.124556141956235,
+      -4.631550958986969,
+      1.2976601733071207,
+      1.3343958086674566
+    ],
+    "p_feature_set": "seven",
+    "p_ridge": 0.01,
+    "task_offsets": [
+      -1.0,
+      0.0,
+      1.0
+    ],
+    "task_prior": [
+      0.16666666666666666,
+      0.6666666666666666,
+      0.16666666666666666
+    ],
+    "task_scale": 1.5,
+    "write_coefficients_reference_A": [
+      [
+        2.088611057670345,
+        0.2692321428465948,
+        -0.074175252959278,
+        1.3453747827792537
+      ],
+      [
+        -0.19332303952472168,
+        0.0023061830528540374,
+        -0.02109135574674955,
+        0.17866196880899646
+      ],
+      [
+        -1.275606940220993,
+        -0.1722874975137936,
+        0.21429100298482046,
+        0.3918650942925467
+      ],
+      [
+        -0.04333381840705293,
+        -0.14465724829721383,
+        -0.12026026956846869,
+        -0.5630276693928368
+      ],
+      [
+        0.11096052898786876,
+        0.4098849157800484,
+        -0.17580605183084522,
+        0.528643341880429
+      ],
+      [
+        1.6832852820285162,
+        -1.399204160937804,
+        0.21113198038829112,
+        -0.6856576002837805
+      ]
+    ],
+    "write_family": "error_lifetime"
+  },
+  "configs": [
+    {
+      "name": "ridge0.01_scale0",
+      "ridge": 0.01,
+      "scale": 0.0
+    },
+    {
+      "name": "ridge0.01_scale1.5",
+      "ridge": 0.01,
+      "scale": 1.5
+    },
+    {
+      "name": "ridge0.1_scale0",
+      "ridge": 0.1,
+      "scale": 0.0
+    },
+    {
+      "name": "ridge0.1_scale1.5",
+      "ridge": 0.1,
+      "scale": 1.5
+    },
+    {
+      "name": "ridge1_scale0",
+      "ridge": 1.0,
+      "scale": 0.0
+    },
+    {
+      "name": "ridge1_scale1.5",
+      "ridge": 1.0,
+      "scale": 1.5
+    }
+  ],
+  "diagnosis_sha256": "65086371b073dbf0d430836f27d38762b16fd6e3dc05bd7f09d81563e195245d",
+  "features": "Unchanged calibrate_successor_success.features(state,seven); original conditional G fixed",
+  "folds": [
+    {
+      "held_scene": "FloorPlan1"
+    },
+    {
+      "held_scene": "FloorPlan11"
+    },
+    {
+      "held_scene": "FloorPlan12"
+    },
+    {
+      "held_scene": "FloorPlan13"
+    },
+    {
+      "held_scene": "FloorPlan14"
+    },
+    {
+      "held_scene": "FloorPlan15"
+    },
+    {
+      "held_scene": "FloorPlan16"
+    },
+    {
+      "held_scene": "FloorPlan17"
+    },
+    {
+      "held_scene": "FloorPlan18"
+    },
+    {
+      "held_scene": "FloorPlan19"
+    },
+    {
+      "held_scene": "FloorPlan2"
+    },
+    {
+      "held_scene": "FloorPlan20"
+    },
+    {
+      "held_scene": "FloorPlan21"
+    },
+    {
+      "held_scene": "FloorPlan22"
+    },
+    {
+      "held_scene": "FloorPlan23"
+    },
+    {
+      "held_scene": "FloorPlan24"
+    },
+    {
+      "held_scene": "FloorPlan25"
+    },
+    {
+      "held_scene": "FloorPlan26"
+    },
+    {
+      "held_scene": "FloorPlan27"
+    },
+    {
+      "held_scene": "FloorPlan28"
+    },
+    {
+      "held_scene": "FloorPlan3"
+    },
+    {
+      "held_scene": "FloorPlan30"
+    },
+    {
+      "held_scene": "FloorPlan4"
+    },
+    {
+      "held_scene": "FloorPlan5"
+    },
+    {
+      "held_scene": "FloorPlan6"
+    },
+    {
+      "held_scene": "FloorPlan7"
+    },
+    {
+      "held_scene": "FloorPlan8"
+    }
+  ],
+  "holdout134_calls": 0,
+  "input_rows_sha256": "3548f4e8cca6fd64feee3cc403875076d417efbf41ae708a4a57d5a4abc6d264",
+  "known_failed_write_types": 987,
+  "late_guard": "Mean late(native>=2),error-present(E/B) Brier with the same nesting over available scenes must not exceed reference",
+  "limits": {
+    "cpu_workers": 2,
+    "max_parameter_fits": 180,
+    "new_agent_calls": 0,
+    "seconds": 900
+  },
+  "new_model_calls": 0,
+  "old_input_manifest_sha256": "ef49ea0f0ae59fce14696e1d1a38f697b82916570fccb04923ce2ece958ca842",
+  "optimization": "Fixed seven-column likelihood, symmetric intercept half-count, ridge in grid;27 fold fits plus3 full-data starts per config,6configs=180 fits",
+  "parent_parameters_sha256": "56f1ce538d687ed3028341d685e44d4b134a90b0995198ad860a90e8590adaa7",
+  "primary": "Sequential single-attempt Brier: attempts mean within trajectory, trajectories mean within task, tasks mean within scene,27 scenes equally",
+  "prior_update": "For held trajectories start from fixed prior and update only with their own prior failures; no other branches or future outcomes",
+  "private_input_file_sha256": "6681c10a4e1d874c992d2f517dc82c18bc4f671765f5c70c6e5392e2c05a67bf",
+  "protected_files": {
+    "configs/qwen3_8b_non_thinking_wrapper.json": "ae1849a57bdf8f7454fadc3af7593133216bdd2023fb6e42649ce331fdc02b6a",
+    "configs/reflexion_qwen3_8b_protocol.json": "0a1b83abc85ba7c7bd5738e7a8ad64c82f43d5ff8158c36bf25dc0d678cf58f1",
+    "docs/experiments/seven-parameter-development-design-20261027.md": "4120ca0e393a912712d468a0a693f35f9dee6d0b3f6b315e9ab07e5dc690b56c",
+    "docs/experiments/successor-validation-design-20261026.md": "7e8668acd6287faa59c41628b7e92db237d7d3502c7e7eaf8bab39b7c132055b",
+    "repro/baseline-20261019/holdout134.json": "5755a0305d6ef9cff30d3cbe78146d55a45498124790c2f4f664042d09df2016",
+    "repro/reflexion-20261025/shared-validation-protocol.json": "5c50631382ac2ae8db6a482a9fa3beb84ddbee4affbfb4457857578df1056768",
+    "repro/reflexion-20261025/successor-complete-diagnostic-metrics-20261027.json": "c5c7211e48b96a1a8f980b829bf1c433f70b01d0f9ea6abc417aef00a3e9f68a",
+    "repro/reflexion-20261025/successor-development-parameters-20261026.json": "50ba93dd3cff0d3778cf18ba7ff57c0ef87247dfa1958df497110c646f71496a",
+    "repro/reflexion-20261025/successor-late-semantic-labels-20261027.json": "3908629f6568ffd86e7f5efd1aadb63c4a2987ff568a2a66f765a7afad516127",
+    "repro/reflexion-20261025/successor-remaining-semantic-labels-20261027.json": "f172e3563509a9c936b86d09cb9e7291c1cf40e2b85952b0c7ff20abd250bb24",
+    "repro/reflexion-20261025/successor-reset-checks-20261026.json": "e21423be695eebbc57d1f6eea6489126e4baa31a3be78558230d9655cd77eae3",
+    "repro/reflexion-20261025/successor-validation-expanded-manifest-20261026.json": "6f6973393959a0c3ae01f3a3f0295ba57c2e0c1aa360b88f9f969754af587a89",
+    "repro/reflexion-20261025/successor-validation-expanded-plan-20261026.json": "837c2f4c5cf8ac2a526700c44b049f7e48d00b9dd2e5e34aff9710e79a5707cc",
+    "scripts/audit_reflexion_action_shapes.py": "7b026efea040a1651f43a6f70b9bf98501c08ef290b53de87c236091f6a499a6",
+    "scripts/audit_reflexion_protocol.py": "265f2fbaf841e6937ed51a0211ee0fe998ed022b31ac378d58be7284722e6ffe",
+    "scripts/calibrate_successor_success.py": "f3d0aa06f7f80b4ba5ee9667383da866603369c4e3edf58d2e4354d67f1b7c8b",
+    "scripts/continue_reflexion_pilot.py": "126949ac4e32a66819965717cc074711b7e3a8ad58be5d6598ec77d698fd7ab7",
+    "scripts/deployment/serve_reflexion_profiles.py": "fa6da89576a4b49636febd0d61ad51dcd7274c41ad2a7182a0412440710e4cf1",
+    "scripts/develop_seven_parameterization.py": "4d101a00325ff07ee009b0218a07b597681d8f8cb7df43aa99f4943c51652078",
+    "scripts/diagnose_success_regularization.py": "e86b02c3d42911ee45ee3543fa2c6a5bc0c0c4b5e37e9715b9d4f4a271e79db7",
+    "scripts/evaluate_successor_validation.py": "bb33e296d67f58076196db5fb2262531bb0fff4fae1665c24b60b6b5397ced49",
+    "scripts/finish_successor_validation.py": "2ca5b8f14fb348b0b49b7f0b99b5e27aa3dce129c688ecad44b8fa93455eeb43",
+    "scripts/prepare_shared_calibration.py": "1de6e45de17cbdb91697803c7d1c738ec1ac305dcb4f0e08077907c7bfa3382d",
+    "scripts/prepare_successor_protocol.py": "1d51e4180c3b483a9c9f738a2cda74183c21ddc9647c28183a18d4f386e721ae",
+    "scripts/run_middle_context_transport.py": "14014ff157e9ebc3badbae4f9b5946628c7f0c214ba6faeba306839642578012",
+    "scripts/run_multiround_diagnostic.py": "4781d83c25dd7f35238e637e2b5eaf2d68483cc6619ffd90a4b9dbeeb97c8bdf",
+    "scripts/run_residual_context.py": "d86170864560be62f39ca80c768fa9b8a6b7b4fe7691c8fdb6fa223fc4b3f673",
+    "scripts/run_shared_calibration.py": "70a973fd27b8a4d8bde939cf4dd132ae6519ec7243eeb43bafb65ca6ee515e5b",
+    "scripts/run_successor_campaign.sh": "eb776be703c1d2281a153c27c0ec0289d44f292d8a6f563a4d2d78f069185a35",
+    "scripts/run_successor_validation.py": "193811740dbc238972e26da2ee48b1f7d4dfe697bea18b35adb95b6fc5e86112",
+    "scripts/shared_recovery_model.py": "d5fe54281f948d4675de08057d0cd4c7789fe580535dcce0682f3a245acaae71",
+    "scripts/summarize_reflexion.py": "e5372f9609a9a11e0abd1d1859e00c06b343b0064556a31b5e47c3944893aadc",
+    "tests/test_multiround_diagnostic.py": "55a2f8b531d23dcfc4b4b13c18e81b4ee0ed8603b4a9c230f8ed35c49c996d66",
+    "tests/test_successor_validation.py": "684bc5c5162e2a71a291853422614d36dd945077df590e59c2b2372e18a369f8"
+  },
+  "reference_config": "ridge0.01_scale1.5",
+  "scenes": 27,
+  "scope": "Development reuse of original controlled records and completed100-task primary validation; seven features only",
+  "selection": "Best mean primary config is selected only if reference-minus-best exceeds paired-scene SE and late_guard holds; otherwise retain reference hyperparameters. No post-hoc substitute if guard fails.",
+  "sha256": "d2e1f00ab20719f01cf2f0124f62ef2e20036b9fcc666971db885263d999c8ca",
+  "successes": 420,
+  "tasks": 163,
+  "trajectories": 760,
+  "unknown_terminal_write_types_success_side_only": 146
+}

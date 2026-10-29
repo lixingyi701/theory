@@ -1,0 +1,296 @@
+{
+  "allowance_closeout_sha256": "76d7ce24cd46209732ab5da3869359c26b0816b9e50ba5bba68afe3d25cca0e9",
+  "brier_difference_identity": 0.0319129180852046,
+  "collection_seconds": 35103.48215389252,
+  "conditional_success_diagnostic": [
+    {
+      "attempt": 1,
+      "full_seven": 0.5241285781228638,
+      "full_six": 0.5125112197291635,
+      "observed_scene_weighted": 0.5241666666666667,
+      "raw_reached": 400,
+      "raw_successes": 211,
+      "unchanged_seven": 0.5241285781228638
+    },
+    {
+      "attempt": 2,
+      "full_seven": 0.19356660793605693,
+      "full_six": 0.2066017200348019,
+      "observed_scene_weighted": 0.19649737302977238,
+      "raw_reached": 189,
+      "raw_successes": 36,
+      "unchanged_seven": 0.45368691342543394
+    },
+    {
+      "attempt": 3,
+      "full_seven": 0.0763390739921983,
+      "full_six": 0.09014842141941876,
+      "observed_scene_weighted": 0.151700087183958,
+      "raw_reached": 153,
+      "raw_successes": 22,
+      "unchanged_seven": 0.39851884577997404
+    },
+    {
+      "attempt": 4,
+      "full_seven": 0.03560183386068679,
+      "full_six": 0.04902395140970606,
+      "observed_scene_weighted": 0.1115107913669065,
+      "raw_reached": 131,
+      "raw_successes": 14,
+      "unchanged_seven": 0.35003552508729074
+    }
+  ],
+  "contrasts_checked": 8,
+  "costs": {
+    "dispatched_calls": 55261,
+    "input_tokens_known": 146705088,
+    "output_tokens_known": 1824050,
+    "saved_responses": 55261,
+    "truncated_responses": 16,
+    "uncertain_or_unrecorded_attempts": 0,
+    "usage_missing_responses": 0
+  },
+  "curves": [
+    {
+      "budget": 1,
+      "observed_scene_equal": {
+        "mean": 0.5241666666666667,
+        "student_t95": [
+          0.42079035134736903,
+          0.6275429819859644
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.5241285781228638,
+        "full_six": 0.5125112197291635,
+        "unchanged_seven": 0.5241285781228638
+      },
+      "raw_denominator": 400,
+      "raw_successes": 211
+    },
+    {
+      "budget": 2,
+      "observed_scene_equal": {
+        "mean": 0.6176666666666667,
+        "student_t95": [
+          0.5287725454842203,
+          0.7065607878491131
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.6162413950693294,
+        "full_six": 0.6132272402307859,
+        "unchanged_seven": 0.7400252147016743
+      },
+      "raw_denominator": 400,
+      "raw_successes": 247
+    },
+    {
+      "budget": 3,
+      "observed_scene_equal": {
+        "mean": 0.6756666666666666,
+        "student_t95": [
+          0.5921390172483891,
+          0.7591943160849441
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.6455371716062747,
+        "full_six": 0.6480941939720126,
+        "unchanged_seven": 0.8436300660706596
+      },
+      "raw_denominator": 400,
+      "raw_successes": 269
+    },
+    {
+      "budget": 4,
+      "observed_scene_equal": {
+        "mean": 0.7118333333333333,
+        "student_t95": [
+          0.6409895162143521,
+          0.7826771504523146
+        ]
+      },
+      "predictions": {
+        "full_seven": 0.6581566983325372,
+        "full_six": 0.6653460071075221,
+        "unchanged_seven": 0.8983650980014812
+      },
+      "raw_denominator": 400,
+      "raw_successes": 283
+    }
+  ],
+  "equal_expected_brier_success_rate": 0.7782608981670092,
+  "error_decomposition": [
+    {
+      "budget": 2,
+      "first_attempt_mismatch_term": 3.0715873577690485e-05,
+      "post_first_conditional_curve_mismatch_term": 0.0013945557237596167,
+      "total_error": 0.0014252715973372965
+    },
+    {
+      "budget": 3,
+      "first_attempt_mismatch_term": 2.837105223190816e-05,
+      "post_first_conditional_curve_mismatch_term": 0.030101124008160052,
+      "total_error": 0.030129495060391975
+    },
+    {
+      "budget": 4,
+      "first_attempt_mismatch_term": 2.73609907438949e-05,
+      "post_first_conditional_curve_mismatch_term": 0.05364927401005222,
+      "total_error": 0.053676635000796113
+    }
+  ],
+  "error_decomposition_reference": "Full-seven post-first survival; algebraic allocation, not causal attribution",
+  "frozen_result_sha256": "83605a0947132fb9a79649c924dfa58f33d7ea2bf87923b0de93e782421da224",
+  "global_calls": 200396,
+  "holdout134_model_calls": 0,
+  "main_is_shared_curve_calibration": "C/N forecasts are identical across conditions and tasks at each budget; this primary comparison does not test task ranking",
+  "metrics_checked": 12,
+  "native_attempts_checked": 1423,
+  "new_model_calls": 0,
+  "parameter_refits": 0,
+  "passed": true,
+  "protocol_sha256": "92b9fbcf2f3a6c055c3d3de94967211415384e970e760f1d795276f87bbdb678",
+  "scope": "Independent arithmetic and raw-record audit; postcollection descriptive diagnostics, no refit",
+  "sha256": "149d8af5e85fb4f468c28ff9672c94e3a640df9930f198d9fda81b6ae325c110",
+  "source_sha256": "b3fbd2f2a85a94048bb4aa2d1e0c1518aa012aef46608126374efa15cb75b237",
+  "trajectories_checked": 550,
+  "truncated_scenes": 6,
+  "truncated_trajectories": 7,
+  "truncations": [
+    {
+      "condition": "correct_middle",
+      "path": "trajectories/successor-6c10fc977b8559fb-2141-correct_middle/trial-04/calls/reflector-0049/response.json",
+      "role": "reflector",
+      "scene_id": "FloorPlan6",
+      "task_id": "6c10fc977b8559fb",
+      "trajectory_id": "successor-6c10fc977b8559fb-2141-correct_middle"
+    },
+    {
+      "condition": "neutral_full",
+      "path": "trajectories/successor-a019898df6a0852a-2141-neutral_full/trial-03/calls/reflector-0049/response.json",
+      "role": "reflector",
+      "scene_id": "FloorPlan6",
+      "task_id": "a019898df6a0852a",
+      "trajectory_id": "successor-a019898df6a0852a-2141-neutral_full"
+    },
+    {
+      "condition": "correct_middle",
+      "path": "trajectories/successor-a2454b1f59b0d2ba-2140-correct_middle/trial-02/calls/actor-0039/response.json",
+      "role": "actor",
+      "scene_id": "FloorPlan25",
+      "task_id": "a2454b1f59b0d2ba",
+      "trajectory_id": "successor-a2454b1f59b0d2ba-2140-correct_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "path": "trajectories/successor-a2454b1f59b0d2ba-2140-correct_middle/trial-02/calls/actor-0047/response.json",
+      "role": "actor",
+      "scene_id": "FloorPlan25",
+      "task_id": "a2454b1f59b0d2ba",
+      "trajectory_id": "successor-a2454b1f59b0d2ba-2140-correct_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "path": "trajectories/successor-a2454b1f59b0d2ba-2140-correct_middle/trial-02/calls/actor-0035/response.json",
+      "role": "actor",
+      "scene_id": "FloorPlan25",
+      "task_id": "a2454b1f59b0d2ba",
+      "trajectory_id": "successor-a2454b1f59b0d2ba-2140-correct_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "path": "trajectories/successor-a2454b1f59b0d2ba-2140-correct_middle/trial-02/calls/actor-0043/response.json",
+      "role": "actor",
+      "scene_id": "FloorPlan25",
+      "task_id": "a2454b1f59b0d2ba",
+      "trajectory_id": "successor-a2454b1f59b0d2ba-2140-correct_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "path": "trajectories/successor-a2454b1f59b0d2ba-2140-correct_middle/trial-02/calls/actor-0027/response.json",
+      "role": "actor",
+      "scene_id": "FloorPlan25",
+      "task_id": "a2454b1f59b0d2ba",
+      "trajectory_id": "successor-a2454b1f59b0d2ba-2140-correct_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "path": "trajectories/successor-a2454b1f59b0d2ba-2140-correct_middle/trial-02/calls/actor-0031/response.json",
+      "role": "actor",
+      "scene_id": "FloorPlan25",
+      "task_id": "a2454b1f59b0d2ba",
+      "trajectory_id": "successor-a2454b1f59b0d2ba-2140-correct_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "path": "trajectories/successor-a2454b1f59b0d2ba-2140-correct_middle/trial-02/calls/actor-0022/response.json",
+      "role": "actor",
+      "scene_id": "FloorPlan25",
+      "task_id": "a2454b1f59b0d2ba",
+      "trajectory_id": "successor-a2454b1f59b0d2ba-2140-correct_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "path": "trajectories/successor-ecb9c1d65157ef70-2140-correct_middle/trial-01/calls/actor-0045/response.json",
+      "role": "actor",
+      "scene_id": "FloorPlan24",
+      "task_id": "ecb9c1d65157ef70",
+      "trajectory_id": "successor-ecb9c1d65157ef70-2140-correct_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "path": "trajectories/successor-ecb9c1d65157ef70-2140-correct_middle/trial-01/calls/actor-0044/response.json",
+      "role": "actor",
+      "scene_id": "FloorPlan24",
+      "task_id": "ecb9c1d65157ef70",
+      "trajectory_id": "successor-ecb9c1d65157ef70-2140-correct_middle"
+    },
+    {
+      "condition": "correct_middle",
+      "path": "trajectories/successor-ecb9c1d65157ef70-2140-correct_middle/trial-01/calls/actor-0043/response.json",
+      "role": "actor",
+      "scene_id": "FloorPlan24",
+      "task_id": "ecb9c1d65157ef70",
+      "trajectory_id": "successor-ecb9c1d65157ef70-2140-correct_middle"
+    },
+    {
+      "condition": "delete_latest",
+      "path": "trajectories/successor-b5bb9b2f371370ea-2141-delete_latest/trial-03/calls/actor-0048/response.json",
+      "role": "actor",
+      "scene_id": "FloorPlan13",
+      "task_id": "b5bb9b2f371370ea",
+      "trajectory_id": "successor-b5bb9b2f371370ea-2141-delete_latest"
+    },
+    {
+      "condition": "neutral_full",
+      "path": "trajectories/successor-e130f48d97478f2f-2141-neutral_full/trial-04/calls/actor-0039/response.json",
+      "role": "actor",
+      "scene_id": "FloorPlan2",
+      "task_id": "e130f48d97478f2f",
+      "trajectory_id": "successor-e130f48d97478f2f-2141-neutral_full"
+    },
+    {
+      "condition": "neutral_full",
+      "path": "trajectories/successor-e130f48d97478f2f-2141-neutral_full/trial-04/calls/actor-0038/response.json",
+      "role": "actor",
+      "scene_id": "FloorPlan2",
+      "task_id": "e130f48d97478f2f",
+      "trajectory_id": "successor-e130f48d97478f2f-2141-neutral_full"
+    },
+    {
+      "condition": "neutral_full",
+      "path": "trajectories/successor-315c648a16ea5678-2141-neutral_full/trial-04/calls/reflector-0037/response.json",
+      "role": "reflector",
+      "scene_id": "FloorPlan12",
+      "task_id": "315c648a16ea5678",
+      "trajectory_id": "successor-315c648a16ea5678-2141-neutral_full"
+    }
+  ],
+  "truncations_by_role": {
+    "actor": 13,
+    "reflector": 3
+  },
+  "whole_campaign_seconds": 42384.69926524162
+}

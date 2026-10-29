@@ -1,0 +1,68 @@
+{
+  "calibration_parameters_sha256": "4826508a8a850c983bdd10a91dae065ed544674e7b9c8bc8bd6fa4a6fb9778b5",
+  "contract_file_sha256": "9c03c1f4ec3b6c9b70e5d043cd662f4201aebd29eb77ba200db85eaef48e96e1",
+  "contract_sha256": "b56eb0615988f82f820ba27622b4619120f6c09cff0183cdc25e9c1c89041484",
+  "created_unix": 1792909261.7910492,
+  "elapsed_seconds": 140.87265706062317,
+  "freeze_commit": "a50ce8497b1602ee9e8cb3fb45119f07727b488e",
+  "gpu_indices": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "holdout134_model_calls": 0,
+  "limits": {
+    "additional_model_calls": 42000,
+    "seconds": 21600
+  },
+  "maximum_attempts": 756,
+  "observed_requests": 374,
+  "observed_responses": 373,
+  "offline_checks": 63,
+  "parameter_refits": 0,
+  "ports": [
+    8001,
+    8002,
+    8003,
+    8004
+  ],
+  "protocol_sha256": "82f9c64051cfdcac95e4c37d007f844da9df70035bbca1e44f901f27e95bae39",
+  "public_reset_checks": 108,
+  "replica_audit_passed": true,
+  "replica_audit_sha256": "a719a78f82b95b8a04a09f544279a0febd1633393e6a939500be4a802e2616ab",
+  "replica_checks": 8,
+  "reserved_calls": 375,
+  "run_file_sha256": "cb8efd03829abb91ae50d27ce896df5052aa6f11d6d1b543bc48c77df3e09a0a",
+  "scenes": 9,
+  "scope": "Prospective validation started; not a final result",
+  "sha256": "9660dad79a37fdec5a9f617ce9a3c772b5a5ee219d3594a7340f947bc18c79aa",
+  "tasks": 54,
+  "trajectories": 378,
+  "workers": [
+    {
+      "attempts_completed": 1,
+      "status": "running",
+      "trajectories_completed": 0,
+      "worker": 0
+    },
+    {
+      "attempts_completed": 1,
+      "status": "running",
+      "trajectories_completed": 0,
+      "worker": 1
+    },
+    {
+      "attempts_completed": 2,
+      "status": "running",
+      "trajectories_completed": 1,
+      "worker": 2
+    },
+    {
+      "attempts_completed": 1,
+      "status": "running",
+      "trajectories_completed": 0,
+      "worker": 3
+    }
+  ]
+}

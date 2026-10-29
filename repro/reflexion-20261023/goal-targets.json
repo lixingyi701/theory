@@ -1,0 +1,252 @@
+{
+  "coverage": [
+    {
+      "status": "first_attempt_success_no_reflection",
+      "task_id": "626a6e8f091c1f30"
+    },
+    {
+      "status": "no_placement_destination",
+      "task_id": "709b47cc9566abfc"
+    },
+    {
+      "status": "first_attempt_success_no_reflection",
+      "task_id": "54a11d4ec772f3c3"
+    },
+    {
+      "status": "first_attempt_success_no_reflection",
+      "task_id": "36e631d709b715f2"
+    },
+    {
+      "status": "first_attempt_success_no_reflection",
+      "task_id": "a76d96f06cc4d6a4"
+    },
+    {
+      "status": "first_attempt_success_no_reflection",
+      "task_id": "23be4583395e8c6e"
+    },
+    {
+      "status": "first_attempt_success_no_reflection",
+      "task_id": "e54ecbc998698c53"
+    },
+    {
+      "status": "first_attempt_success_no_reflection",
+      "task_id": "da216e469bc9dff4"
+    },
+    {
+      "status": "eligible",
+      "task_id": "aa2571dd5672995d"
+    },
+    {
+      "status": "first_attempt_success_no_reflection",
+      "task_id": "43ecb2ae94c6ef86"
+    },
+    {
+      "status": "first_attempt_success_no_reflection",
+      "task_id": "5498a4a858ce185b"
+    },
+    {
+      "status": "eligible",
+      "task_id": "a49d33c30b49b863"
+    },
+    {
+      "status": "eligible",
+      "task_id": "1086f8b6c5294719"
+    },
+    {
+      "status": "first_attempt_success_no_reflection",
+      "task_id": "cb3018be4cadc1f2"
+    },
+    {
+      "status": "first_attempt_success_no_reflection",
+      "task_id": "fe25c985f9e19966"
+    },
+    {
+      "status": "first_attempt_success_no_reflection",
+      "task_id": "35f183b5d2d3b1e0"
+    },
+    {
+      "status": "first_attempt_success_no_reflection",
+      "task_id": "947280d700b5f612"
+    },
+    {
+      "status": "first_attempt_success_no_reflection",
+      "task_id": "fea34b042df764d1"
+    },
+    {
+      "status": "no_correct_destination_clause_in_native_plan",
+      "task_id": "1c61470694f57cab"
+    },
+    {
+      "status": "no_placement_destination",
+      "task_id": "ebb4a4851db24e6d"
+    },
+    {
+      "status": "first_attempt_success_no_reflection",
+      "task_id": "4f5b85fbdbb0dae3"
+    },
+    {
+      "status": "no_correct_destination_clause_in_native_plan",
+      "task_id": "762a7487ace813d7"
+    },
+    {
+      "status": "first_attempt_success_no_reflection",
+      "task_id": "98b9c6657d119280"
+    },
+    {
+      "status": "eligible",
+      "task_id": "61c97c86fe797fe4"
+    }
+  ],
+  "frozen_unix": 1792691589.5468519,
+  "manifest_sha256": "437e2049dc5944d2857657d1503cb0122f8bacf1f1142010452e4fe6b9fbf14a",
+  "selection_rule": {
+    "intervention": "Replace one destination entity in one native put/place clause; keep any replacement instance publicly valid and preserve all other bytes",
+    "max_targets": 4,
+    "order": "frozen pilot manifest order, first eligible destination clause in native reflection",
+    "parent_trial": 0,
+    "replacement_order": [
+      "diningtable",
+      "countertop",
+      "desk",
+      "shelf",
+      "sidetable",
+      "fridge",
+      "cabinet",
+      "drawer",
+      "sinkbasin",
+      "garbagecan"
+    ],
+    "selection_excludes": [
+      "future attempts",
+      "branch outcomes",
+      "evaluator facts",
+      "expert plans"
+    ],
+    "source": "public initial task plus newly generated native reflection only",
+    "stratum": "native_plan_goal_destination"
+  },
+  "selector_sha256": "e071ff5e637b0025bc4de1eadef42e493ea102e6f4bc87d407c9db04b5312b2f",
+  "sha256": "fdedba14fa6044aa2c8a40b964aecaf175dc52ed78035d359d68ef6c0fc5157f",
+  "targets": [
+    {
+      "false_claim": "Goal destination is countertop",
+      "intervention": "Replace one destination entity in one native put/place clause; keep any replacement instance publicly valid and preserve all other bytes",
+      "native_clause": "place it on the diningtable",
+      "native_destination_mentions": 3,
+      "original_text": "diningtable",
+      "parent_result_sha256": "aee77c32719cbc5e52e724a152048940ef547eeeed9d9dc638ccbcb93a2e4a71",
+      "parent_trial": 0,
+      "public_evidence": [
+        {
+          "correct_destination": "diningtable",
+          "goal": "clean some spatula and put it in diningtable.",
+          "goal_destination": "diningtable",
+          "initial_observation_sha256": "b6d3d7c5c845d9c27bc11fa7b26694b5bc01ef7d6c451ef158becec41b55e17e",
+          "request_sha256": "aabf99f4457fc45163ff98f0ca6961a20b6d2c08177eccbaea9ee4b405937b7f",
+          "source": "initial_public_task",
+          "wrong_destination": "countertop"
+        }
+      ],
+      "public_evidence_reviewed": true,
+      "replacement_text": "countertop",
+      "selection": "frozen pilot manifest order, first eligible destination clause in native reflection",
+      "sha256": "57fb36d905fd47e9f6e1bfead99278a0fd6de01df6ff60b4aa837ae961539141",
+      "span": [
+        669,
+        680
+      ],
+      "stratum": "native_plan_goal_destination",
+      "task_id": "aa2571dd5672995d"
+    },
+    {
+      "false_claim": "Goal destination is shelf",
+      "intervention": "Replace one destination entity in one native put/place clause; keep any replacement instance publicly valid and preserve all other bytes",
+      "native_clause": "place it on the desk",
+      "native_destination_mentions": 3,
+      "original_text": "desk",
+      "parent_result_sha256": "f271ec629b3b2d0ee6d764b8dcdda557b99f5bb76acd58f07f43f1a3a75d0886",
+      "parent_trial": 0,
+      "public_evidence": [
+        {
+          "correct_destination": "desk",
+          "goal": "find two bowl and put them in desk.",
+          "goal_destination": "desk",
+          "initial_observation_sha256": "21b681158a25d9694e0131169693e5490dbf6e78b3ed3390fd2d91766f468b54",
+          "request_sha256": "9ab41c3fe4dbce9752a57da4dca6022f6c97bd7bfdb4c5a255eb3d6e44cb5db0",
+          "source": "initial_public_task",
+          "wrong_destination": "shelf"
+        }
+      ],
+      "public_evidence_reviewed": true,
+      "replacement_text": "shelf",
+      "selection": "frozen pilot manifest order, first eligible destination clause in native reflection",
+      "sha256": "c1bacbf829f725e4901ac445ac243374c5e6738d5284f14a1ffd692ed96c4a0e",
+      "span": [
+        354,
+        358
+      ],
+      "stratum": "native_plan_goal_destination",
+      "task_id": "a49d33c30b49b863"
+    },
+    {
+      "false_claim": "Goal destination is countertop",
+      "intervention": "Replace one destination entity in one native put/place clause; keep any replacement instance publicly valid and preserve all other bytes",
+      "native_clause": "place it in a drawer",
+      "native_destination_mentions": 1,
+      "original_text": "drawer",
+      "parent_result_sha256": "8c3c80136afebbbf8c16cf95fb8f5cef9307bcaa60a378e939816752ff216d7f",
+      "parent_trial": 0,
+      "public_evidence": [
+        {
+          "correct_destination": "drawer",
+          "goal": "put a cloth in drawer.",
+          "goal_destination": "drawer",
+          "initial_observation_sha256": "11afddf771cb87b19ff1cf99df7051ca6d179e3a8713a0724935f772a21ccb05",
+          "request_sha256": "cae9c0f82a13a6f920beb549f37b5761fa32e259b84cd7ffcc90ae8d4f59e716",
+          "source": "initial_public_task",
+          "wrong_destination": "countertop"
+        }
+      ],
+      "public_evidence_reviewed": true,
+      "replacement_text": "countertop",
+      "selection": "frozen pilot manifest order, first eligible destination clause in native reflection",
+      "sha256": "ac31a473f5a9fe127ef706716b7e0e8b63397d14664acf32044668885ab9295f",
+      "span": [
+        392,
+        398
+      ],
+      "stratum": "native_plan_goal_destination",
+      "task_id": "1086f8b6c5294719"
+    },
+    {
+      "false_claim": "Goal destination is countertop",
+      "intervention": "Replace one destination entity in one native put/place clause; keep any replacement instance publicly valid and preserve all other bytes",
+      "native_clause": "place both ladles in a drawer",
+      "native_destination_mentions": 1,
+      "original_text": "drawer",
+      "parent_result_sha256": "3c2dac67f0be52f3462accab95ae7aa118add409252837772e398948131f99de",
+      "parent_trial": 0,
+      "public_evidence": [
+        {
+          "correct_destination": "drawer",
+          "goal": "put two ladle in drawer.",
+          "goal_destination": "drawer",
+          "initial_observation_sha256": "6e8bc71266cb46918363c501f3e58cdb6654428a2ba15d99541c0d5af1d1ace2",
+          "request_sha256": "3cb1291130672f5c7eb9e3dc1c801e95f2ba263e98279b307f18ff56117ef105",
+          "source": "initial_public_task",
+          "wrong_destination": "countertop"
+        }
+      ],
+      "public_evidence_reviewed": true,
+      "replacement_text": "countertop",
+      "selection": "frozen pilot manifest order, first eligible destination clause in native reflection",
+      "sha256": "f03ab3bef2c16260f040e6435d60d2e4786840c2e659f0960465001b586175f3",
+      "span": [
+        524,
+        530
+      ],
+      "stratum": "native_plan_goal_destination",
+      "task_id": "61c97c86fe797fe4"
+    }
+  ]
+}

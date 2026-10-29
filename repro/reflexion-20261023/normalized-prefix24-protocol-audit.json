@@ -1,0 +1,25 @@
+{
+  "decoding_profile": "qwen3_non_thinking_recommended_v1",
+  "driver_sha256": "5c5239b90a1450ecc40ec3b05cd06ac95dfae229f672919ff9882f1b081581b8",
+  "errors": [],
+  "passed": true,
+  "protocol_sha256": "0a1b83abc85ba7c7bd5738e7a8ad64c82f43d5ff8158c36bf25dc0d678cf58f1",
+  "run_sha256": "ad6e1966adfa2fcfc752a6da24dcfb2fd4270e99feede8e3322f9ab24b335e59",
+  "scope": "model and tool interface audit; no-effect observations are not automatically classified as syntax errors",
+  "sha256": "a5c7f68b6ca9070667aa2fca01e7cbe45975d186f849fb4423580376a51259ff",
+  "totals": {
+    "dispatched_calls": 532,
+    "empty_responses": 0,
+    "environment_steps": 524,
+    "in_on_variants": 16,
+    "leading_action_markers": 520,
+    "missing_responses": 0,
+    "no_effect_steps": 253,
+    "physical_no_effect_steps": 26,
+    "placement_aliases": 24,
+    "responses": 532,
+    "thought_steps": 227,
+    "truncated_responses": 0,
+    "unexpected_thinking_blocks": 0
+  }
+}

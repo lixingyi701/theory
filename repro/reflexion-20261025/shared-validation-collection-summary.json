@@ -1,0 +1,38 @@
+{
+  "attempts_completed": 700,
+  "completed_tasks": 54,
+  "completed_trajectories": 378,
+  "costs_incremental": {
+    "dispatched_calls": 29159,
+    "input_tokens_known": 74553092,
+    "output_tokens_known": 975979,
+    "saved_responses": 29159,
+    "truncated_responses": 6,
+    "uncertain_or_unrecorded_attempts": 0,
+    "usage_missing_responses": 0
+  },
+  "elapsed_seconds": 10161.952947378159,
+  "events_sha256": "e5660d7f43d8d7abd6e47e492886ff5ae39ad84c147f3bc482ba88a5aa2c0a55",
+  "expected_tasks": 54,
+  "expected_trajectories": 378,
+  "holdout134_model_calls": 0,
+  "parameter_refits": 0,
+  "protocol_sha256": "82f9c64051cfdcac95e4c37d007f844da9df70035bbca1e44f901f27e95bae39",
+  "raw_summary_file_sha256": "23a0398b842217449785449dd24673d6e42cd99739e80ea2064dce9e12c87a69",
+  "reserved_calls": 29159,
+  "scope": "Aggregate projection of the complete private collection summary",
+  "sha256": "8a398b006becf1b634e2f5fa45ae2747d3f30f3a03b9e66390d63ba7b278caeb",
+  "status": "complete",
+  "worker_exit_codes": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "worker_statuses": [
+    "complete",
+    "complete",
+    "complete",
+    "complete"
+  ]
+}

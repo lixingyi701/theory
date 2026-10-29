@@ -1,0 +1,67 @@
+{
+  "draws": 20000,
+  "fixed_predictor_residuals": {
+    "initial_C_N": -0.003575286062240314,
+    "initial_error": 0.009166409355240721,
+    "late_error": -0.014497211836781957,
+    "late_no_error": 0.07822393883690322,
+    "second_attempt": 0.09340448387216246
+  },
+  "interpretation": "Reused-data fixed-CV-predictor sampling diagnostic; no parameter refits, no post-selection coverage guarantee",
+  "max_standardized_critical": 2.6779068169853413,
+  "pointwise_percentile95": {
+    "initial_C_N": [
+      -0.11193402904789673,
+      0.10746718362976795
+    ],
+    "initial_error": [
+      -0.04383293353556726,
+      0.04856782656704404
+    ],
+    "late_error": [
+      -0.06909110018138259,
+      0.033414642517051556
+    ],
+    "late_no_error": [
+      -0.09459969941439798,
+      0.17532495328614173
+    ],
+    "second_attempt": [
+      0.03638737955597996,
+      0.14671832225109585
+    ]
+  },
+  "private_draws_file_sha256": "0708733a63ed13f327acd57e44f3cff488d1e4025773b1031c5d16e690fd179e",
+  "protocol_sha256": "4ce59e8547694d25878ac85dda3adaf6c7f2d2b9e58b194659ca1e88627ebded",
+  "seed": 2026102706,
+  "sha256": "2324d9048a23765cabe5907f242010f7320d88acebbf281a8cc4a79b90166fbf",
+  "simultaneous_centered95": {
+    "initial_C_N": [
+      -0.15334504742511554,
+      0.14619447530063492
+    ],
+    "initial_error": [
+      -0.05499948355409879,
+      0.07333230226458023
+    ],
+    "late_error": [
+      -0.08467456206935806,
+      0.05568013839579414
+    ],
+    "late_no_error": [
+      -0.10607256923921864,
+      0.26252044691302506
+    ],
+    "second_attempt": [
+      0.017654563003004622,
+      0.16915440474132032
+    ]
+  },
+  "standard_errors": {
+    "initial_C_N": 0.05592792117071453,
+    "initial_error": 0.023961211981817346,
+    "late_error": 0.0262060463745256,
+    "late_no_error": 0.06882110568865649,
+    "second_attempt": 0.028286989072470216
+  }
+}

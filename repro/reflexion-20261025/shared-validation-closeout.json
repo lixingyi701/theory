@@ -1,0 +1,41 @@
+{
+  "all_calls": 93186,
+  "all_responses": 93186,
+  "allowance_status": "closed",
+  "artifacts": {
+    "shared-validation-action-shapes.json": "aa116d67fc22222f18d3dc492d2d11dc5bd872ed76e3f6963a61bf86181d6efd",
+    "shared-validation-analysis.json": "3e6743f4b086c8b28305a99e9e2dc80cbffa6857da949bd5543da92e75628fb9",
+    "shared-validation-collection-summary.json": "d7dec2c0960f18a74cba1188048f5136ce83a663c95b2093796c378c6c9fba92",
+    "shared-validation-events.json": "e0950444c42b04ed7828287ae0a4371b179742372ae1011f2e9a97eea57247a5",
+    "shared-validation-protocol-audit.json": "da3d4d65f2b22ba19b25ca8652a1420e357136897de8694727d6d515cabbc06b",
+    "shared-validation-replica-audit.json": "268ad2b1dc1b4af77b397d81b885ee0c7a314b4858f066f252d6bfff5f28ba07",
+    "shared-validation-results.json": "9d213a87e7881d3734cbe0c81c9de16da423d589e11c8de2b8e3bfd051e400a4"
+  },
+  "attempts": 700,
+  "closeout_source_sha256": "8140009d3941ccd04b6cb911cde6e925a79c5333107f8da297ad081361a1ed19",
+  "collection_elapsed_seconds": 10161.952947378159,
+  "contract_sha256": "b56eb0615988f82f820ba27622b4619120f6c09cff0183cdc25e9c1c89041484",
+  "costs_incremental": {
+    "dispatched_calls": 29159,
+    "input_tokens_known": 74553092,
+    "output_tokens_known": 975979,
+    "saved_responses": 29159,
+    "truncated_responses": 6,
+    "uncertain_or_unrecorded_attempts": 0,
+    "usage_missing_responses": 0
+  },
+  "first_successes": 56,
+  "holdout134_model_calls": 0,
+  "parameter_refits": 0,
+  "parameters_sha256": "4826508a8a850c983bdd10a91dae065ed544674e7b9c8bc8bd6fa4a6fb9778b5",
+  "protocol_sha256": "82f9c64051cfdcac95e4c37d007f844da9df70035bbca1e44f901f27e95bae39",
+  "raw_summary_file_sha256": "23a0398b842217449785449dd24673d6e42cd99739e80ea2064dce9e12c87a69",
+  "sampling_freeze": "a50ce8497b1602ee9e8cb3fb45119f07727b488e",
+  "scenes": 9,
+  "scope": "Completed prospective frozen-parameter validation",
+  "sha256": "95f98272d2ffe1e1873705e56dd1d32cff4684bb0f041c328250eacfc22a49d6",
+  "successes_by_two": 90,
+  "tasks": 54,
+  "trajectories": 378,
+  "validation_semantic_annotation": "not performed; not required for primary evaluation"
+}

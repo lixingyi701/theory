@@ -1,0 +1,52 @@
+{
+  "active_request_note": "A dispatched request without a saved response can still be in flight at this running snapshot; final accounting is performed after workers exit.",
+  "contract_sha256": "8ad638e5274f02683b975be5a5f2fd28ff6553391d86ce0238b501df8c37d5c1",
+  "costs_snapshot": {
+    "dispatched_calls": 65,
+    "input_tokens_known": 127676,
+    "output_tokens_known": 1644,
+    "saved_responses": 63,
+    "truncated_responses": 0,
+    "uncertain_or_unrecorded_attempts": 2,
+    "usage_missing_responses": 0
+  },
+  "deadline_unix": 1793107877.5683935,
+  "freeze_commit": "6911e82bbecc731b2d6d9bcd28fdd698e6732df0",
+  "gpu_indices": [
+    2,
+    3
+  ],
+  "holdout134_model_calls": 0,
+  "master_session": "theory-successor-validation-20261026",
+  "max_calls": 125000,
+  "maximum_attempts": 2200,
+  "official_reset_comparisons": 200,
+  "offline_checks": 3,
+  "parameter_refits": 0,
+  "planned_scenes": 25,
+  "planned_tasks": 100,
+  "planned_trajectories": 550,
+  "preparation_started_unix": 1793021477.5683935,
+  "protocol_sha256": "92b9fbcf2f3a6c055c3d3de94967211415384e970e760f1d795276f87bbdb678",
+  "replica_audit_passed": true,
+  "replica_audit_sha256": "09775800e9abf5d4cbbbd9fd1615137f5c75ea42673bf78337e2508c781d47ff",
+  "replica_checks": 4,
+  "sha256": "9c8218b3331ee7e73bb9a98d8f1aaafef5368b5be01d1f595cd222a0abeeb17e",
+  "snapshot_utc": "2026-10-26T15:33:30.661042+00:00",
+  "started_unix": 1793028758.7855048,
+  "status": "running",
+  "workers": [
+    {
+      "completed_attempts": 2,
+      "completed_trajectories": 2,
+      "index": 0,
+      "status": "running"
+    },
+    {
+      "completed_attempts": 1,
+      "completed_trajectories": 1,
+      "index": 1,
+      "status": "running"
+    }
+  ]
+}

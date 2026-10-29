@@ -1,0 +1,237 @@
+{
+  "case_selection": [
+    {
+      "selection_reason": "no_target_pickup",
+      "trajectory_id": "four-6bd27740d0343d65-2131-correct_middle",
+      "trial": 2
+    },
+    {
+      "selection_reason": "pickup_without_heat",
+      "trajectory_id": "successor-b36a8c185daa6a0b-2141-neutral_full",
+      "trial": 2
+    },
+    {
+      "selection_reason": "heated_without_win",
+      "trajectory_id": "successor-c2fe17bf60e7db4b-2140-correct_middle",
+      "trial": 2
+    },
+    {
+      "selection_reason": "won",
+      "trajectory_id": "shared-13cc78cc6be8645e-2111-correct_middle",
+      "trial": 2
+    },
+    {
+      "selection_reason": "observable_put_then_heat_sequence",
+      "trajectory_id": "four-1af24310a9afee4e-2131-neutral_full",
+      "trial": 2
+    },
+    {
+      "selection_reason": "observable_put_then_heat_sequence",
+      "trajectory_id": "successor-eb0a4110343ad8db-2140-correct_middle",
+      "trial": 2
+    },
+    {
+      "selection_reason": "same_prefix_B",
+      "trajectory_id": "successor-179e7eca229fd634-2140-correct_middle",
+      "trial": 2
+    },
+    {
+      "selection_reason": "same_prefix_E",
+      "trajectory_id": "successor-179e7eca229fd634-2141-correct_middle",
+      "trial": 2
+    }
+  ],
+  "entries": [
+    {
+      "evidence_steps": {
+        "current": [
+          2,
+          4,
+          48
+        ],
+        "previous": [
+          7,
+          12,
+          14,
+          24,
+          26
+        ]
+      },
+      "example": 0,
+      "observations": [
+        "前次第7步已取到mug1，第12步放入微波炉后多次加热无效果；反思转而关注餐桌取物失败。",
+        "本次先按建议搜索水槽和橱柜，未取到目标物，在预算内未加热。"
+      ],
+      "trajectory_id": "four-6bd27740d0343d65-2131-correct_middle",
+      "trial": 2
+    },
+    {
+      "evidence_steps": {
+        "current": [
+          13,
+          18,
+          20,
+          24,
+          26,
+          28
+        ],
+        "previous": [
+          13,
+          18,
+          20,
+          28
+        ]
+      },
+      "example": 1,
+      "observations": [
+        "反思提出检查加热设备功能和使用炉灶。",
+        "本次第18步已放下cup1，第20步加热无效果；随后取走炉灶上的pan并尝试打开炉灶，未获得目标物加热成功反馈。"
+      ],
+      "trajectory_id": "successor-b36a8c185daa6a0b-2141-neutral_full",
+      "trial": 2
+    },
+    {
+      "evidence_steps": {
+        "current": [
+          14,
+          18,
+          37,
+          45,
+          47
+        ],
+        "previous": [
+          7,
+          12,
+          14
+        ]
+      },
+      "example": 2,
+      "observations": [
+        "前次将tomato放入微波炉后加热失败，反思建议避免微波炉并使用炉灶。",
+        "本次多次炉灶操作无效果；第45步仍持有目标物时用微波炉加热成功，第47步仅到达餐桌，未在预算结束前完成放置。"
+      ],
+      "trajectory_id": "successor-c2fe17bf60e7db4b-2140-correct_middle",
+      "trial": 2
+    },
+    {
+      "evidence_steps": {
+        "current": [
+          11,
+          16,
+          20,
+          23
+        ],
+        "previous": [
+          11,
+          16,
+          18
+        ]
+      },
+      "example": 3,
+      "observations": [
+        "反思包含系统可能无需真正加热的推测，不能视为完全正确计划。",
+        "本次未将egg2放下；尝试拿取微波炉中potato2无效果后，第20步加热egg2成功，第23步放入冰箱并获得won。"
+      ],
+      "trajectory_id": "shared-13cc78cc6be8645e-2111-correct_middle",
+      "trial": 2
+    },
+    {
+      "evidence_steps": {
+        "current": [
+          10,
+          13,
+          15,
+          18,
+          25,
+          48
+        ],
+        "previous": [
+          10,
+          12,
+          34,
+          37
+        ]
+      },
+      "example": 4,
+      "observations": [
+        "前次第37步成功放置apple4但未赢，反思将问题描述为命令识别和加热失败。",
+        "本次先放下apple1，再尝试加热及多种未匹配加热形式；未获得目标物加热成功反馈。"
+      ],
+      "trajectory_id": "four-1af24310a9afee4e-2131-neutral_full",
+      "trial": 2
+    },
+    {
+      "evidence_steps": {
+        "current": [
+          10,
+          12,
+          32,
+          40,
+          43
+        ],
+        "previous": [
+          5,
+          10,
+          12
+        ]
+      },
+      "example": 5,
+      "observations": [
+        "本条原标签为A，目标前提时序含糊；不应称为确定正确或完全无错。",
+        "本次先放下cup2后加热无效果；改拿cup1后又于第40步放入微波炉，后续加热仍无效果。"
+      ],
+      "trajectory_id": "successor-eb0a4110343ad8db-2140-correct_middle",
+      "trial": 2
+    },
+    {
+      "evidence_steps": {
+        "current": [
+          10,
+          13,
+          16,
+          27,
+          37
+        ],
+        "previous": [
+          5,
+          10,
+          13
+        ]
+      },
+      "example": 6,
+      "observations": [
+        "该B组与下一E组任务及完整七维特征历史相同，使用不同采集种子。",
+        "本次第10步放下apple1，随后错误形式及非微波炉设备加热均未成功，最后未赢。"
+      ],
+      "trajectory_id": "successor-179e7eca229fd634-2140-correct_middle",
+      "trial": 2
+    },
+    {
+      "evidence_steps": {
+        "current": [
+          5,
+          10,
+          14,
+          17
+        ],
+        "previous": [
+          5,
+          10,
+          14
+        ]
+      },
+      "example": 7,
+      "observations": [
+        "记忆含E类条目，本次行动却没有执行先把apple1放入微波炉的步骤。",
+        "第10步尝试拿走potato2无效果，apple1仍在手中；第14步加热成功，第17步放置成功。该例不支持B必然优于E的解释。"
+      ],
+      "trajectory_id": "successor-179e7eca229fd634-2141-correct_middle",
+      "trial": 2
+    }
+  ],
+  "manifest_sha256": "dd73b5172e2238c1db3b369f7ada5658299ef46f38c6be2e6f8b5fbe72ab253b",
+  "protocol_sha256": "f56bae9c3adbaf26531d0951f41c2b07431d7998c3da53e102a0b8dd4a3c9f90",
+  "reviewer": "Codex; not independent human review",
+  "scope": "Single-coder review of eight deterministically selected examples; physical commands and feedback excerpts up to140characters, with all thoughts excluded from this manual view. Automated extraction reads full checkpoints.",
+  "sha256": "2583163637e57a503f7bbb530a04de752d6d2fc40c27fc5e34c95ec7f7f98284"
+}

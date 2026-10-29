@@ -1,0 +1,469 @@
+{
+  "input_manifest_sha256": "ef49ea0f0ae59fce14696e1d1a38f697b82916570fccb04923ce2ece958ca842",
+  "models": {
+    "seven": {
+      "model": {
+        "kernel_implementation": "scripts/calibrate_successor_success.py:component_kernel",
+        "p_coefficients": [
+          -0.035820187583717224,
+          0.14741280332906895,
+          -1.3341855488743963,
+          -7.124556141956235,
+          -4.631550958986969,
+          1.2976601733071207,
+          1.3343958086674566
+        ],
+        "p_feature_set": "seven",
+        "p_ridge": 0.01,
+        "task_offsets": [
+          -1.0,
+          0.0,
+          1.0
+        ],
+        "task_prior": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ],
+        "task_scale": 1.5,
+        "write_coefficients_reference_A": [
+          [
+            2.088611057670345,
+            0.2692321428465948,
+            -0.074175252959278,
+            1.3453747827792537
+          ],
+          [
+            -0.19332303952472168,
+            0.0023061830528540374,
+            -0.02109135574674955,
+            0.17866196880899646
+          ],
+          [
+            -1.275606940220993,
+            -0.1722874975137936,
+            0.21429100298482046,
+            0.3918650942925467
+          ],
+          [
+            -0.04333381840705293,
+            -0.14465724829721383,
+            -0.12026026956846869,
+            -0.5630276693928368
+          ],
+          [
+            0.11096052898786876,
+            0.4098849157800484,
+            -0.17580605183084522,
+            0.528643341880429
+          ],
+          [
+            1.6832852820285162,
+            -1.399204160937804,
+            0.21113198038829112,
+            -0.6856576002837805
+          ]
+        ],
+        "write_family": "error_lifetime"
+      },
+      "optimizer": {
+        "feature_rank": 7,
+        "iterations": 21,
+        "max_gradient": 3.0504865883070748e-06,
+        "objective": 237.21839786111198
+      },
+      "restarts": [
+        {
+          "feature_rank": 7,
+          "iterations": 25,
+          "max_coefficient_difference": 4.58866981656314e-06,
+          "max_gradient": 2.30143735042293e-06,
+          "objective": 237.21839786111354
+        },
+        {
+          "feature_rank": 7,
+          "iterations": 20,
+          "max_coefficient_difference": 6.249841919547805e-06,
+          "max_gradient": 9.415362697162699e-06,
+          "objective": 237.21839786112528
+        }
+      ],
+      "training_groups": {
+        "initial_C_N": {
+          "attempts": 180,
+          "posterior_fitted_expected_successes": 96.8525001608967,
+          "prior_expected_successes": 94.34314406211573,
+          "successes": 102
+        },
+        "native_0": {
+          "attempts": 360,
+          "posterior_fitted_expected_successes": 102.9121591956378,
+          "prior_expected_successes": 101.41493612594076,
+          "successes": 108
+        },
+        "native_1": {
+          "attempts": 252,
+          "posterior_fitted_expected_successes": 30.396652839646354,
+          "prior_expected_successes": 38.83746031562199,
+          "successes": 23
+        },
+        "native_2": {
+          "attempts": 35,
+          "posterior_fitted_expected_successes": 2.457043190389194,
+          "prior_expected_successes": 4.318183294136232,
+          "successes": 2
+        },
+        "native_3": {
+          "attempts": 33,
+          "posterior_fitted_expected_successes": 1.2430958772538572,
+          "prior_expected_successes": 2.488043151013751,
+          "successes": 4
+        }
+      }
+    },
+    "six": {
+      "model": {
+        "kernel_implementation": "scripts/calibrate_successor_success.py:component_kernel",
+        "p_coefficients": [
+          -0.44679630117067565,
+          0.5046279517716411,
+          -0.4389378415624907,
+          -7.588588001583191,
+          -4.8856255386384575,
+          2.3711786126060783
+        ],
+        "p_feature_set": "six",
+        "p_ridge": 0.01,
+        "task_offsets": [
+          -1.0,
+          0.0,
+          1.0
+        ],
+        "task_prior": [
+          0.16666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ],
+        "task_scale": 1.5,
+        "write_coefficients_reference_A": [
+          [
+            2.088611057670345,
+            0.2692321428465948,
+            -0.074175252959278,
+            1.3453747827792537
+          ],
+          [
+            -0.19332303952472168,
+            0.0023061830528540374,
+            -0.02109135574674955,
+            0.17866196880899646
+          ],
+          [
+            -1.275606940220993,
+            -0.1722874975137936,
+            0.21429100298482046,
+            0.3918650942925467
+          ],
+          [
+            -0.04333381840705293,
+            -0.14465724829721383,
+            -0.12026026956846869,
+            -0.5630276693928368
+          ],
+          [
+            0.11096052898786876,
+            0.4098849157800484,
+            -0.17580605183084522,
+            0.528643341880429
+          ],
+          [
+            1.6832852820285162,
+            -1.399204160937804,
+            0.21113198038829112,
+            -0.6856576002837805
+          ]
+        ],
+        "write_family": "error_lifetime"
+      },
+      "optimizer": {
+        "feature_rank": 6,
+        "iterations": 22,
+        "max_gradient": 5.319412456072925e-07,
+        "objective": 239.76563144545202
+      },
+      "restarts": [
+        {
+          "feature_rank": 6,
+          "iterations": 23,
+          "max_coefficient_difference": 1.4564643328718319e-05,
+          "max_gradient": 7.4657728118335265e-06,
+          "objective": 239.765631445459
+        },
+        {
+          "feature_rank": 6,
+          "iterations": 21,
+          "max_coefficient_difference": 1.2011857766225376e-06,
+          "max_gradient": 3.513084609807135e-07,
+          "objective": 239.7656314454516
+        }
+      ],
+      "training_groups": {
+        "initial_C_N": {
+          "attempts": 180,
+          "posterior_fitted_expected_successes": 94.663304071253,
+          "prior_expected_successes": 92.25201955124932,
+          "successes": 102
+        },
+        "native_0": {
+          "attempts": 360,
+          "posterior_fitted_expected_successes": 104.66904129222549,
+          "prior_expected_successes": 103.89551909321544,
+          "successes": 108
+        },
+        "native_1": {
+          "attempts": 252,
+          "posterior_fitted_expected_successes": 27.701813741935897,
+          "prior_expected_successes": 35.78962734686698,
+          "successes": 23
+        },
+        "native_2": {
+          "attempts": 35,
+          "posterior_fitted_expected_successes": 2.9057133327851483,
+          "prior_expected_successes": 5.099512744022369,
+          "successes": 2
+        },
+        "native_3": {
+          "attempts": 33,
+          "posterior_fitted_expected_successes": 1.833309421407731,
+          "prior_expected_successes": 3.606376249679936,
+          "successes": 4
+        }
+      }
+    }
+  },
+  "new_model_calls": 0,
+  "original_parameters_overwritten": false,
+  "parent_parameters_sha256": "4826508a8a850c983bdd10a91dae065ed544674e7b9c8bc8bd6fa4a6fb9778b5",
+  "scope": "Development candidate; not a replacement for prior frozen parameters or a validated predictor",
+  "selected_model": {
+    "kernel_implementation": "scripts/calibrate_successor_success.py:component_kernel",
+    "p_coefficients": [
+      -0.035820187583717224,
+      0.14741280332906895,
+      -1.3341855488743963,
+      -7.124556141956235,
+      -4.631550958986969,
+      1.2976601733071207,
+      1.3343958086674566
+    ],
+    "p_feature_set": "seven",
+    "p_ridge": 0.01,
+    "task_offsets": [
+      -1.0,
+      0.0,
+      1.0
+    ],
+    "task_prior": [
+      0.16666666666666666,
+      0.6666666666666666,
+      0.16666666666666666
+    ],
+    "task_scale": 1.5,
+    "write_coefficients_reference_A": [
+      [
+        2.088611057670345,
+        0.2692321428465948,
+        -0.074175252959278,
+        1.3453747827792537
+      ],
+      [
+        -0.19332303952472168,
+        0.0023061830528540374,
+        -0.02109135574674955,
+        0.17866196880899646
+      ],
+      [
+        -1.275606940220993,
+        -0.1722874975137936,
+        0.21429100298482046,
+        0.3918650942925467
+      ],
+      [
+        -0.04333381840705293,
+        -0.14465724829721383,
+        -0.12026026956846869,
+        -0.5630276693928368
+      ],
+      [
+        0.11096052898786876,
+        0.4098849157800484,
+        -0.17580605183084522,
+        0.528643341880429
+      ],
+      [
+        1.6832852820285162,
+        -1.399204160937804,
+        0.21113198038829112,
+        -0.6856576002837805
+      ]
+    ],
+    "write_family": "error_lifetime"
+  },
+  "selection": {
+    "interpretation": "Prespecified development simplicity rule; no significance or independent-validation claim",
+    "paired_scene_difference_SE": 0.0012691553766341936,
+    "paired_scene_values": [
+      0.006558219984358737,
+      -0.007304908064183907,
+      0.0011743567417197287,
+      0.0012457953356869028,
+      0.011385694779784433,
+      -0.0006610729664122406,
+      0.00588632524837418,
+      0.0007165547564575436,
+      0.006448701017857536,
+      -0.0003533341325948902,
+      0.011385694779784544,
+      0.011385694779784655,
+      0.003879113034892176,
+      0.0038231710557851545,
+      -0.013347623938649356,
+      -0.001011693857534246,
+      0.001382856578906272,
+      0.02004903370037288,
+      0.003644773806036089,
+      0.013251661376598362,
+      0.004884129605020382,
+      0.003485897198710272,
+      -0.0002606454994826257,
+      0.011385694779784433,
+      0.0023710625957520104,
+      0.005798614582922301,
+      0.003275286256287299
+    ],
+    "scene_order": [
+      "FloorPlan1",
+      "FloorPlan11",
+      "FloorPlan12",
+      "FloorPlan13",
+      "FloorPlan14",
+      "FloorPlan15",
+      "FloorPlan16",
+      "FloorPlan17",
+      "FloorPlan18",
+      "FloorPlan19",
+      "FloorPlan2",
+      "FloorPlan20",
+      "FloorPlan21",
+      "FloorPlan22",
+      "FloorPlan23",
+      "FloorPlan24",
+      "FloorPlan25",
+      "FloorPlan26",
+      "FloorPlan27",
+      "FloorPlan28",
+      "FloorPlan3",
+      "FloorPlan30",
+      "FloorPlan4",
+      "FloorPlan5",
+      "FloorPlan6",
+      "FloorPlan7",
+      "FloorPlan8"
+    ],
+    "scenes_with_seven_lower_loss": 21,
+    "selected": "seven",
+    "six_minus_seven_mean": 0.004091816797630319
+  },
+  "sha256": "56f1ce538d687ed3028341d685e44d4b134a90b0995198ad860a90e8590adaa7",
+  "source_sha256": "f3d0aa06f7f80b4ba5ee9667383da866603369c4e3edf58d2e4354d67f1b7c8b",
+  "unscored_budget_forecasts": {
+    "seven": {
+      "correct_latest": [
+        0.023284510486648948,
+        0.2326857529278865,
+        0.30049916312924396,
+        0.3306574383719673
+      ],
+      "correct_middle": [
+        0.5241285781228638,
+        0.6162413950693294,
+        0.6455371716062747,
+        0.6581566983325372
+      ],
+      "correct_oldest": [
+        0.05228872756232854,
+        0.1502852503648462,
+        0.20241526675848215,
+        0.23357750645129854
+      ],
+      "delete_latest": [
+        0.033498418146978556,
+        0.12721415250084703,
+        0.20071791310738352,
+        0.23449040826826356
+      ],
+      "error_middle": [
+        0.035078284681298796,
+        0.1274818904280718,
+        0.20259767372695786,
+        0.23670228090367101
+      ],
+      "neutral_full": [
+        0.5241285781228638,
+        0.6162413950693294,
+        0.6455371716062747,
+        0.6581566983325372
+      ],
+      "repeated_error": [
+        0.05228872756232854,
+        0.1502852503648462,
+        0.20241526675848215,
+        0.23357750645129854
+      ]
+    },
+    "six": {
+      "correct_latest": [
+        0.024424715791450176,
+        0.23722612337197047,
+        0.31252535730749254,
+        0.3518106200382361
+      ],
+      "correct_middle": [
+        0.5125112197291635,
+        0.6132272402307859,
+        0.6480941939720126,
+        0.6653460071075221
+      ],
+      "correct_oldest": [
+        0.10202494184337108,
+        0.17185559270196626,
+        0.22117038771045758,
+        0.26060486335346594
+      ],
+      "delete_latest": [
+        0.0438282602923253,
+        0.11370285609564912,
+        0.19739847608258818,
+        0.2421412770060964
+      ],
+      "error_middle": [
+        0.05112768306187712,
+        0.11894768700676955,
+        0.2043296047236869,
+        0.24919510315768478
+      ],
+      "neutral_full": [
+        0.5125112197291635,
+        0.6132272402307859,
+        0.6480941939720126,
+        0.6653460071075221
+      ],
+      "repeated_error": [
+        0.10202494184337108,
+        0.17185559270196626,
+        0.22117038771045758,
+        0.26060486335346594
+      ]
+    }
+  }
+}

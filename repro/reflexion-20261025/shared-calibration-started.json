@@ -1,0 +1,59 @@
+{
+  "calibration_scenes": 18,
+  "calibration_tasks": 36,
+  "contract_file_sha256": "9b68fd0b5905d1deafaeb6e76e2940f347f1d4adeb7e3af061a8525bae58381c",
+  "contract_sha256": "58bc953de1ad40e6e40b810c01de4e872078846b9f57a461194b144d49ea6fbe",
+  "elapsed_seconds": 417.3385043144226,
+  "expected_trajectories": 252,
+  "gpu_indices": [
+    0,
+    2,
+    3
+  ],
+  "holdout134_model_calls": 0,
+  "limits": {
+    "additional_model_calls": 28000,
+    "seconds": 14400
+  },
+  "maximum_attempts": 504,
+  "observed_requests": 887,
+  "observed_responses": 885,
+  "offline_checks_before_sampling": 61,
+  "ports": [
+    8001,
+    8003,
+    8004
+  ],
+  "precollection_commit": "513a93173d14f3ae4f04c836577e7bf0bacdc148",
+  "protocol_sha256": "76f72365df608dbaee5d35852ba7babb82a11040b8e11dbf606278d6f3395d78",
+  "replica_audit_passed": true,
+  "replica_audit_sha256": "8a724598913d3905e9e21890dad10b06fab2b8787af6a5f62e4dca038c6ab040",
+  "reserved_calls": 887,
+  "reserved_validation_model_calls": 0,
+  "reserved_validation_scenes": 9,
+  "reserved_validation_tasks": 18,
+  "run_file_sha256": "78a07e2d0c0e5d11b98621ba7caea63d82fdaf45889b9e684ec5803ae8f8f5d2",
+  "scope": "Sampling started; calibration estimates and prospective validation pending",
+  "sha256": "ad7987c610bcbb5745d6e7f2aa0a5a2ce55d2d4917c2d424c962f62869fec18f",
+  "snapshot_unix": 1792886560.7043548,
+  "workers": [
+    {
+      "attempts_completed": 6,
+      "status": "running",
+      "trajectories_completed": 3,
+      "worker": 0
+    },
+    {
+      "attempts_completed": 7,
+      "status": "running",
+      "trajectories_completed": 3,
+      "worker": 1
+    },
+    {
+      "attempts_completed": 6,
+      "status": "running",
+      "trajectories_completed": 3,
+      "worker": 2
+    }
+  ]
+}

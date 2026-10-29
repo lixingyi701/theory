@@ -1,0 +1,3295 @@
+{
+  "all_dispatched_calls": 18353,
+  "completed_cells": 104,
+  "completed_tasks": 4,
+  "costs_incremental": {
+    "dispatched_calls": 5984,
+    "input_tokens_known": 15630422,
+    "output_tokens_known": 215925,
+    "saved_responses": 5984,
+    "truncated_responses": 5,
+    "uncertain_or_unrecorded_attempts": 0,
+    "usage_missing_responses": 0
+  },
+  "elapsed_seconds": 2935.62624335289,
+  "expected_cells": 104,
+  "expected_tasks": 4,
+  "protocol_sha256": "5033a777f40596b9b693783a34436935779061ee5cae43229b9fc476f8c322e2",
+  "reserved_calls": 5984,
+  "rows": [
+    {
+      "cell_id": "age-05f694718d71af12-1701-newest",
+      "condition": "newest",
+      "decisions": 31,
+      "initial_labels": [
+        "N",
+        "N",
+        "E"
+      ],
+      "memory_before_sha256": "c80da5dcef495b730dce8706e441b4326c368abeb30e05dd089753ab79c78786",
+      "new_reflection_sha256": [
+        "21939aa6f0798a55aba4698399b07d9341c1a1330fb800d8e3dd09ff3094bbb4"
+      ],
+      "panel": "age",
+      "port": 8003,
+      "result_file_sha256": "5cc6e64af79535bb5f87ed70c43e159058520fe875bffc74005f14a3eeab5e5b",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/age-05f694718d71af12-1701-newest/trial-01/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "05f694718d71af12",
+      "trial": 1,
+      "visible_memory_sha256": "c80da5dcef495b730dce8706e441b4326c368abeb30e05dd089753ab79c78786"
+    },
+    {
+      "cell_id": "age-05f694718d71af12-1701-newest",
+      "condition": "newest",
+      "decisions": 45,
+      "initial_labels": [
+        "N",
+        "N",
+        "E"
+      ],
+      "memory_before_sha256": "3302ecacf8847554160bbe58321cb43cf74f43e4f93c04e527ec9d6c6dbf4190",
+      "new_reflection_sha256": [
+        "f72f04191ed656e03492a422859068e7bfdfdf27554b2e5c9366a00ad6e1b737"
+      ],
+      "panel": "age",
+      "port": 8003,
+      "result_file_sha256": "ea0d4adc7d2a56ddcb35edba33277b39ecce1f6a58c4daa0e9c4aa742fa3567a",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/age-05f694718d71af12-1701-newest/trial-02/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "05f694718d71af12",
+      "trial": 2,
+      "visible_memory_sha256": "927780e9f6bf7dc864c8f83a5ae591274c8f1fbdd1c65bc8e87898a8e4af974f"
+    },
+    {
+      "cell_id": "age-05f694718d71af12-1701-oldest",
+      "condition": "oldest",
+      "decisions": 31,
+      "initial_labels": [
+        "E",
+        "N",
+        "N"
+      ],
+      "memory_before_sha256": "a9267f18841d40bbca3887d96d103b2ef7f62f318a3a2dc58c145029c0840daa",
+      "new_reflection_sha256": [
+        "e300c4d6ed386d877701e519c46de5c0026a907908cb9593ca9c415e1d0acd79"
+      ],
+      "panel": "age",
+      "port": 8003,
+      "result_file_sha256": "09b02b657a9f57a5c3a80b25524888639b67806817a9f23610ac8267f068cf2d",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/age-05f694718d71af12-1701-oldest/trial-01/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "05f694718d71af12",
+      "trial": 1,
+      "visible_memory_sha256": "a9267f18841d40bbca3887d96d103b2ef7f62f318a3a2dc58c145029c0840daa"
+    },
+    {
+      "cell_id": "age-05f694718d71af12-1701-oldest",
+      "condition": "oldest",
+      "decisions": 49,
+      "initial_labels": [
+        "E",
+        "N",
+        "N"
+      ],
+      "memory_before_sha256": "bc7befcec3a1d433c416764843d7aabd4f7ced8ec6c9c68ee6ee83d556ac15f8",
+      "new_reflection_sha256": [
+        "7916a898f07893521af0c9c50e54d11863b8138ffccb02bd6e6fbef67300c8ec"
+      ],
+      "panel": "age",
+      "port": 8003,
+      "result_file_sha256": "028174ed8048369c2a0bd5fdc5ccc25b82d6ba6618cddfc771ed90ecf8f73d55",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/age-05f694718d71af12-1701-oldest/trial-02/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "05f694718d71af12",
+      "trial": 2,
+      "visible_memory_sha256": "c80da5dcef495b730dce8706e441b4326c368abeb30e05dd089753ab79c78786"
+    },
+    {
+      "cell_id": "age-05f694718d71af12-1702-newest",
+      "condition": "newest",
+      "decisions": 27,
+      "initial_labels": [
+        "N",
+        "N",
+        "E"
+      ],
+      "memory_before_sha256": "c80da5dcef495b730dce8706e441b4326c368abeb30e05dd089753ab79c78786",
+      "new_reflection_sha256": [
+        "e300c4d6ed386d877701e519c46de5c0026a907908cb9593ca9c415e1d0acd79"
+      ],
+      "panel": "age",
+      "port": 8003,
+      "result_file_sha256": "6d4f031a1cda0e666628876ad16b35d2215b4a5d60570d91828dde013e23c8c7",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/age-05f694718d71af12-1702-newest/trial-01/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "05f694718d71af12",
+      "trial": 1,
+      "visible_memory_sha256": "c80da5dcef495b730dce8706e441b4326c368abeb30e05dd089753ab79c78786"
+    },
+    {
+      "cell_id": "age-05f694718d71af12-1702-newest",
+      "condition": "newest",
+      "decisions": 32,
+      "initial_labels": [
+        "N",
+        "N",
+        "E"
+      ],
+      "memory_before_sha256": "f2a7e82e09db0bf6e240b301491deb92784d75e6d5d4141da4e2c453e516367e",
+      "new_reflection_sha256": [
+        "5a493ef1820d88bdd86dc4caba4faedb5537a54fcf4c20ef732f57d891b7310d"
+      ],
+      "panel": "age",
+      "port": 8003,
+      "result_file_sha256": "0aef1a795733151047c7c8b16ce0723e27a517f2bcd0d0fc76b730c2789b416c",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/age-05f694718d71af12-1702-newest/trial-02/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "05f694718d71af12",
+      "trial": 2,
+      "visible_memory_sha256": "92d887d6b5990aa3bb1df69fa220b4ae1b95fa1d463480dc1eb4dad9cc81aa8a"
+    },
+    {
+      "cell_id": "age-05f694718d71af12-1702-oldest",
+      "condition": "oldest",
+      "decisions": 31,
+      "initial_labels": [
+        "E",
+        "N",
+        "N"
+      ],
+      "memory_before_sha256": "a9267f18841d40bbca3887d96d103b2ef7f62f318a3a2dc58c145029c0840daa",
+      "new_reflection_sha256": [
+        "03c0d2e89e42bffce0eea955f90c8cec299bec6f8ad510c468b03cc454a230ad"
+      ],
+      "panel": "age",
+      "port": 8003,
+      "result_file_sha256": "bc6ba2960bbe3fc51032209a9ab4c1bb13cd8173354ada9a9cadeca02cd9858a",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/age-05f694718d71af12-1702-oldest/trial-01/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "05f694718d71af12",
+      "trial": 1,
+      "visible_memory_sha256": "a9267f18841d40bbca3887d96d103b2ef7f62f318a3a2dc58c145029c0840daa"
+    },
+    {
+      "cell_id": "age-05f694718d71af12-1702-oldest",
+      "condition": "oldest",
+      "decisions": 49,
+      "initial_labels": [
+        "E",
+        "N",
+        "N"
+      ],
+      "memory_before_sha256": "8ce080067b1c1fc7ffa228e1eba94ca2ebb13dae18e1892354ae6a6605d7b153",
+      "new_reflection_sha256": [
+        "f1ee8d671341384a20e98c1dee640c7e4f294a79df58ffa2c0d024271d485aa8"
+      ],
+      "panel": "age",
+      "port": 8003,
+      "result_file_sha256": "c251ec9ec47d58cb784934ad495f8b5ca256e8c4b248e70420c1bc3135edcc0c",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/age-05f694718d71af12-1702-oldest/trial-02/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "05f694718d71af12",
+      "trial": 2,
+      "visible_memory_sha256": "20645a8ee22413edf6d8d2d6774a2f8612fb28705fa9df086a5247f8bae130bb"
+    },
+    {
+      "cell_id": "age-3e3fa991ee97689e-1701-newest",
+      "condition": "newest",
+      "decisions": 49,
+      "initial_labels": [
+        "N",
+        "N",
+        "E"
+      ],
+      "memory_before_sha256": "d6dc634a8133df0acfae9cdb64dafc1ece6607648d44cd7fb9bbbb87c5790e61",
+      "new_reflection_sha256": [
+        "2eb4a233d6072d453c8f6b454c3c9351baf29e5ec2e4500889f770fe3796f847"
+      ],
+      "panel": "age",
+      "port": 8002,
+      "result_file_sha256": "50f9c74cfda33c17a633682533ec22e5fbc39f9d470edbbf64960660aad75211",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/age-3e3fa991ee97689e-1701-newest/trial-01/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "3e3fa991ee97689e",
+      "trial": 1,
+      "visible_memory_sha256": "d6dc634a8133df0acfae9cdb64dafc1ece6607648d44cd7fb9bbbb87c5790e61"
+    },
+    {
+      "cell_id": "age-3e3fa991ee97689e-1701-newest",
+      "condition": "newest",
+      "decisions": 49,
+      "initial_labels": [
+        "N",
+        "N",
+        "E"
+      ],
+      "memory_before_sha256": "2321020d69ab00cfb6e88e1a00f787c43a3bead7417033cf12182a877c603db7",
+      "new_reflection_sha256": [
+        "9588c0d39764fb9f83345b6ab788e5708c989f24a9f50f917d4d927ddd650278"
+      ],
+      "panel": "age",
+      "port": 8002,
+      "result_file_sha256": "12fdfa58de06bfddf0c0f0d025c5725bb5c27a69199fa4ca710372dffa780342",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/age-3e3fa991ee97689e-1701-newest/trial-02/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "3e3fa991ee97689e",
+      "trial": 2,
+      "visible_memory_sha256": "92a4e99f64d79d0c0d151879f965917bf3b64bd8a4dd63e8705e0365dc748383"
+    },
+    {
+      "cell_id": "age-3e3fa991ee97689e-1701-oldest",
+      "condition": "oldest",
+      "decisions": 49,
+      "initial_labels": [
+        "E",
+        "N",
+        "N"
+      ],
+      "memory_before_sha256": "38143bc8febdfd9d1b134d6b0a456b8584bde3451f581838bf84a6ea1c70289d",
+      "new_reflection_sha256": [
+        "35fe64f3b14a04b7ee999710e0f3fba1d894a6b6e6be5a83bdfca4a45eb0208e"
+      ],
+      "panel": "age",
+      "port": 8002,
+      "result_file_sha256": "09c65389913f888da10a27ac14ed64fe480b58cfe4f95759f9b470dccb474921",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/age-3e3fa991ee97689e-1701-oldest/trial-01/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "3e3fa991ee97689e",
+      "trial": 1,
+      "visible_memory_sha256": "38143bc8febdfd9d1b134d6b0a456b8584bde3451f581838bf84a6ea1c70289d"
+    },
+    {
+      "cell_id": "age-3e3fa991ee97689e-1701-oldest",
+      "condition": "oldest",
+      "decisions": 45,
+      "initial_labels": [
+        "E",
+        "N",
+        "N"
+      ],
+      "memory_before_sha256": "f3c718b6de13c4a6d749015b6a3921182bc7cea27dc207bd4bd8b853ca4f98a9",
+      "new_reflection_sha256": [
+        "9f2e0c18826338a646304e2eb2ae952af30b8b37b43d49f8f111aeed47a61dd7"
+      ],
+      "panel": "age",
+      "port": 8002,
+      "result_file_sha256": "979db28647c090e722e147f467f42ca3f47793f6d20afe099670b7c9788bc8d3",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/age-3e3fa991ee97689e-1701-oldest/trial-02/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "3e3fa991ee97689e",
+      "trial": 2,
+      "visible_memory_sha256": "dbaebc42a04c113440e1d151766bcbf5a86c39a6408cf6be4e455ab197a2f844"
+    },
+    {
+      "cell_id": "age-3e3fa991ee97689e-1702-newest",
+      "condition": "newest",
+      "decisions": 49,
+      "initial_labels": [
+        "N",
+        "N",
+        "E"
+      ],
+      "memory_before_sha256": "d6dc634a8133df0acfae9cdb64dafc1ece6607648d44cd7fb9bbbb87c5790e61",
+      "new_reflection_sha256": [
+        "780bbfd0014001a8b1016e736c4737cff26a9b9a2cb09d67bf0027ea1462183f"
+      ],
+      "panel": "age",
+      "port": 8002,
+      "result_file_sha256": "dea5b7ad19926b6fb4ddfbb58ca35bfbc7fadd38116d5857e2b34c321183bc78",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/age-3e3fa991ee97689e-1702-newest/trial-01/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "3e3fa991ee97689e",
+      "trial": 1,
+      "visible_memory_sha256": "d6dc634a8133df0acfae9cdb64dafc1ece6607648d44cd7fb9bbbb87c5790e61"
+    },
+    {
+      "cell_id": "age-3e3fa991ee97689e-1702-newest",
+      "condition": "newest",
+      "decisions": 49,
+      "initial_labels": [
+        "N",
+        "N",
+        "E"
+      ],
+      "memory_before_sha256": "a6ea1a47b1819ef4cf28bf520ef2d096461a0f8710fe7a3afa64a317a14ef52a",
+      "new_reflection_sha256": [
+        "cb2e0cca3e2c6a5704f7bf58c20983bd0d2197d39923cb160f485d605af60d90"
+      ],
+      "panel": "age",
+      "port": 8002,
+      "result_file_sha256": "50f5a3ce538d7db8398ed18ba98a6493d9c3a274486c10577152a523566a1214",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/age-3e3fa991ee97689e-1702-newest/trial-02/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "3e3fa991ee97689e",
+      "trial": 2,
+      "visible_memory_sha256": "18e055ab55f2740e1933a033fd38a0d7a1dbbe176c215ab04be17be7da4087c1"
+    },
+    {
+      "cell_id": "age-3e3fa991ee97689e-1702-oldest",
+      "condition": "oldest",
+      "decisions": 49,
+      "initial_labels": [
+        "E",
+        "N",
+        "N"
+      ],
+      "memory_before_sha256": "38143bc8febdfd9d1b134d6b0a456b8584bde3451f581838bf84a6ea1c70289d",
+      "new_reflection_sha256": [
+        "5acd9c589c24e55d162763f7d56b4077436b52b4b7dd5f65b99bcea2592501cd"
+      ],
+      "panel": "age",
+      "port": 8002,
+      "result_file_sha256": "5dc112564e5c35680bada3fd8b734c3339ef411208729794b229de1791d25958",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/age-3e3fa991ee97689e-1702-oldest/trial-01/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "3e3fa991ee97689e",
+      "trial": 1,
+      "visible_memory_sha256": "38143bc8febdfd9d1b134d6b0a456b8584bde3451f581838bf84a6ea1c70289d"
+    },
+    {
+      "cell_id": "age-3e3fa991ee97689e-1702-oldest",
+      "condition": "oldest",
+      "decisions": 22,
+      "initial_labels": [
+        "E",
+        "N",
+        "N"
+      ],
+      "memory_before_sha256": "ef5b79a2f0be3e1a77c2e19d73743fc8aa434e13a24a87de484aa5fdc47e686e",
+      "new_reflection_sha256": [
+        "bbb4fbbd175b92a41fad1520604569544fe58e1c136d854c330910f793dde126"
+      ],
+      "panel": "age",
+      "port": 8002,
+      "result_file_sha256": "dcced30f47d748fd3324b264547a535051ff0173488ebf1dbd528977e46aff0d",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/age-3e3fa991ee97689e-1702-oldest/trial-02/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "3e3fa991ee97689e",
+      "trial": 2,
+      "visible_memory_sha256": "5dc1afbc13182ec78bd0d1c715c240dc67f1b291dedec88b46aaf63ee7c28e43"
+    },
+    {
+      "cell_id": "age-64aa51b30cab1f98-1701-newest",
+      "condition": "newest",
+      "decisions": 29,
+      "initial_labels": [
+        "N",
+        "N",
+        "E"
+      ],
+      "memory_before_sha256": "60e2f383e680274bfa81b921a32aa738a8bee60afc818745b849153299459b4c",
+      "new_reflection_sha256": [
+        "685841f00f5fff18961962f72b2ebae335ea4c66f75ed9437420fc473edfcfe9"
+      ],
+      "panel": "age",
+      "port": 8001,
+      "result_file_sha256": "cad8e02380a676af78c9c88da06d8226bba489483bddd02d081ec58b8e506a33",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/age-64aa51b30cab1f98-1701-newest/trial-01/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "64aa51b30cab1f98",
+      "trial": 1,
+      "visible_memory_sha256": "60e2f383e680274bfa81b921a32aa738a8bee60afc818745b849153299459b4c"
+    },
+    {
+      "cell_id": "age-64aa51b30cab1f98-1701-newest",
+      "condition": "newest",
+      "decisions": 27,
+      "initial_labels": [
+        "N",
+        "N",
+        "E"
+      ],
+      "memory_before_sha256": "811709097f28962118faf3247862dfb47ee478f6f7e69b42860fc41aa7ba98d9",
+      "new_reflection_sha256": [
+        "f7d06906efe54fb1ddcb592cd857d6cd85bf849559b9994c2da8501a05371bd7"
+      ],
+      "panel": "age",
+      "port": 8001,
+      "result_file_sha256": "da0a4ac91d3837b7d1ed1e6c85fea8454745bb60ff66db99a945fcb589803068",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/age-64aa51b30cab1f98-1701-newest/trial-02/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "64aa51b30cab1f98",
+      "trial": 2,
+      "visible_memory_sha256": "db770afe8d051db850142b30729c8627230ef54066ca45971a56d91c93a8598a"
+    },
+    {
+      "cell_id": "age-64aa51b30cab1f98-1701-oldest",
+      "condition": "oldest",
+      "decisions": 46,
+      "initial_labels": [
+        "E",
+        "N",
+        "N"
+      ],
+      "memory_before_sha256": "8ec488e9d841e4b85a7eae8ab7f8e1f965d607921a6d6695315f3ece97df0995",
+      "new_reflection_sha256": [
+        "3d04a4b83c8d82adeec10f008a80310e377ed7344614f8d9912ede3dd6397ec8"
+      ],
+      "panel": "age",
+      "port": 8001,
+      "result_file_sha256": "47f1e60a0d991a88824a6e741c683e89269ea15f549d31441c4a5baa6d08e99d",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/age-64aa51b30cab1f98-1701-oldest/trial-01/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "64aa51b30cab1f98",
+      "trial": 1,
+      "visible_memory_sha256": "8ec488e9d841e4b85a7eae8ab7f8e1f965d607921a6d6695315f3ece97df0995"
+    },
+    {
+      "cell_id": "age-64aa51b30cab1f98-1701-oldest",
+      "condition": "oldest",
+      "decisions": 49,
+      "initial_labels": [
+        "E",
+        "N",
+        "N"
+      ],
+      "memory_before_sha256": "37da54e4e3bd7b429bd5b021ebbe495c1487a3ebbfb9a66427053f8cc0c0fbcd",
+      "new_reflection_sha256": [
+        "1134266857475fdc5b1b912a0ae1c1c4aee49be2491977ae98d6234f186aaaa2"
+      ],
+      "panel": "age",
+      "port": 8001,
+      "result_file_sha256": "376977306d2c1549d8c55b5fad550eee8c905c65d9886bc48eeaf703a79c63ff",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/age-64aa51b30cab1f98-1701-oldest/trial-02/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "64aa51b30cab1f98",
+      "trial": 2,
+      "visible_memory_sha256": "296798c53794c2ee60813309f1a330e692d02927f4818047dd17dee3b64a8f32"
+    },
+    {
+      "cell_id": "age-64aa51b30cab1f98-1702-newest",
+      "condition": "newest",
+      "decisions": 49,
+      "initial_labels": [
+        "N",
+        "N",
+        "E"
+      ],
+      "memory_before_sha256": "60e2f383e680274bfa81b921a32aa738a8bee60afc818745b849153299459b4c",
+      "new_reflection_sha256": [
+        "8ee3a899517cb182196eb95c23eeb750ecf6164e9c7ffc85b19655787ddd6a18"
+      ],
+      "panel": "age",
+      "port": 8001,
+      "result_file_sha256": "0646f8ddff3976aee0c4560eb6242674ac282f25dae00368ac8e136ee0fe8d5e",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/age-64aa51b30cab1f98-1702-newest/trial-01/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "64aa51b30cab1f98",
+      "trial": 1,
+      "visible_memory_sha256": "60e2f383e680274bfa81b921a32aa738a8bee60afc818745b849153299459b4c"
+    },
+    {
+      "cell_id": "age-64aa51b30cab1f98-1702-newest",
+      "condition": "newest",
+      "decisions": 49,
+      "initial_labels": [
+        "N",
+        "N",
+        "E"
+      ],
+      "memory_before_sha256": "e7234385718946e25f439d00c1dc49e883acf4bd5ecd3286416adf69d24e7aad",
+      "new_reflection_sha256": [
+        "a9f391db02ec5bd498f1623a596a8d39c1ebd64115b60b3403e112b4f81af602"
+      ],
+      "panel": "age",
+      "port": 8001,
+      "result_file_sha256": "8ba4f54edc1e0f65217ad6968e0a84d446da364386bd8d3bd9478776ba618324",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/age-64aa51b30cab1f98-1702-newest/trial-02/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "64aa51b30cab1f98",
+      "trial": 2,
+      "visible_memory_sha256": "d523c301587f1a05813500669e3d5e1140b32b66a964833e9246c6fbe7d3cef6"
+    },
+    {
+      "cell_id": "age-64aa51b30cab1f98-1702-oldest",
+      "condition": "oldest",
+      "decisions": 49,
+      "initial_labels": [
+        "E",
+        "N",
+        "N"
+      ],
+      "memory_before_sha256": "8ec488e9d841e4b85a7eae8ab7f8e1f965d607921a6d6695315f3ece97df0995",
+      "new_reflection_sha256": [
+        "05efd14707936e655be134490c7b0a1f18cd1195ab9fd50fdc2313c90e806300"
+      ],
+      "panel": "age",
+      "port": 8001,
+      "result_file_sha256": "35485a53e0c7cd8dd836b86e90eb9fda3d09b56c02e27b594cd397d602befc03",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/age-64aa51b30cab1f98-1702-oldest/trial-01/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "64aa51b30cab1f98",
+      "trial": 1,
+      "visible_memory_sha256": "8ec488e9d841e4b85a7eae8ab7f8e1f965d607921a6d6695315f3ece97df0995"
+    },
+    {
+      "cell_id": "age-64aa51b30cab1f98-1702-oldest",
+      "condition": "oldest",
+      "decisions": 27,
+      "initial_labels": [
+        "E",
+        "N",
+        "N"
+      ],
+      "memory_before_sha256": "e6fe4c556fd330704e865619fa4b78be97bcb8b6f19b222b97e04f5f32f37b30",
+      "new_reflection_sha256": [
+        "bc4d656d29c4fd5228b3f4495c17e3f8e848270b9f70b3b0ccc0a19884d26005"
+      ],
+      "panel": "age",
+      "port": 8001,
+      "result_file_sha256": "bff299252ec07a32cb6ef1cbae82f2ca5c7f01d9ee4d3f78dab9350d6ce9a94f",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/age-64aa51b30cab1f98-1702-oldest/trial-02/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "64aa51b30cab1f98",
+      "trial": 2,
+      "visible_memory_sha256": "a207e7948de05a24221ab9844d006680cea4e604312717c959d19273d09eaa88"
+    },
+    {
+      "cell_id": "age-762a7487ace813d7-1701-newest",
+      "condition": "newest",
+      "decisions": 49,
+      "initial_labels": [
+        "N",
+        "N",
+        "E"
+      ],
+      "memory_before_sha256": "67e4bddc723f5806125b7eedc24b42239faf0e6c62606ccbdae6591aa2fc3173",
+      "new_reflection_sha256": [
+        "72cfed2533adf7a7864941abcd703274a2b73246a9e9aad1ad341ad0cc4a17b5"
+      ],
+      "panel": "age",
+      "port": 8003,
+      "result_file_sha256": "71096ff52685d35fb3f6046da11c99dc71a3cadd6513a59d3cbcc28e02b39597",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/age-762a7487ace813d7-1701-newest/trial-01/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "762a7487ace813d7",
+      "trial": 1,
+      "visible_memory_sha256": "67e4bddc723f5806125b7eedc24b42239faf0e6c62606ccbdae6591aa2fc3173"
+    },
+    {
+      "cell_id": "age-762a7487ace813d7-1701-newest",
+      "condition": "newest",
+      "decisions": 28,
+      "initial_labels": [
+        "N",
+        "N",
+        "E"
+      ],
+      "memory_before_sha256": "642b7c824bc9767ef29355649d0fbec8bfc4bf06353405cfab9e2945fd0fb482",
+      "new_reflection_sha256": [
+        "72cfed2533adf7a7864941abcd703274a2b73246a9e9aad1ad341ad0cc4a17b5"
+      ],
+      "panel": "age",
+      "port": 8003,
+      "result_file_sha256": "0cae7a5f51576b3a3541ca7d4918b630d7739fb1e692091fc93170836f551901",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/age-762a7487ace813d7-1701-newest/trial-02/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "762a7487ace813d7",
+      "trial": 2,
+      "visible_memory_sha256": "b0a243cc389c16d50be33ea62e0328671512dcf296c58326add46841dfeadb86"
+    },
+    {
+      "cell_id": "age-762a7487ace813d7-1701-oldest",
+      "condition": "oldest",
+      "decisions": 42,
+      "initial_labels": [
+        "E",
+        "N",
+        "N"
+      ],
+      "memory_before_sha256": "659d2838606d87e238c9f77294e6d5c38efd89f48328418eb3213f7621b19010",
+      "new_reflection_sha256": [
+        "b360b51013deb21a9f576a1f1ccc5d0b506b7c0098bf1abf56d76d06d5d8ecbe"
+      ],
+      "panel": "age",
+      "port": 8003,
+      "result_file_sha256": "24b3a0ca126a06ef84311b77a311c7fe26185c9be1cbf53d9d75bbe7cfe00e40",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/age-762a7487ace813d7-1701-oldest/trial-01/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "762a7487ace813d7",
+      "trial": 1,
+      "visible_memory_sha256": "659d2838606d87e238c9f77294e6d5c38efd89f48328418eb3213f7621b19010"
+    },
+    {
+      "cell_id": "age-762a7487ace813d7-1701-oldest",
+      "condition": "oldest",
+      "decisions": 45,
+      "initial_labels": [
+        "E",
+        "N",
+        "N"
+      ],
+      "memory_before_sha256": "880837fc80206d11d6be3339451ae968a5518f86ab044fd60ff60a46a680a686",
+      "new_reflection_sha256": [
+        "6ae2a19047690c55f9cdeeaae072a4da9855dfa82ff45b92951d93f1398c70be"
+      ],
+      "panel": "age",
+      "port": 8003,
+      "result_file_sha256": "ecb8d973537577765cb23742de7befeeb2f90aa07b287b47b5bab09ca4db118d",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/age-762a7487ace813d7-1701-oldest/trial-02/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "762a7487ace813d7",
+      "trial": 2,
+      "visible_memory_sha256": "92bd4ea3a8096eb7cd5b818882ebbb29e1f1f7f00b7cd45c486beee9adeab76f"
+    },
+    {
+      "cell_id": "age-762a7487ace813d7-1702-newest",
+      "condition": "newest",
+      "decisions": 49,
+      "initial_labels": [
+        "N",
+        "N",
+        "E"
+      ],
+      "memory_before_sha256": "67e4bddc723f5806125b7eedc24b42239faf0e6c62606ccbdae6591aa2fc3173",
+      "new_reflection_sha256": [
+        "ad82426d94846297bee3afc9e10fd5fa67b378a158662e98abed7097f088b32f"
+      ],
+      "panel": "age",
+      "port": 8003,
+      "result_file_sha256": "3ae00212c87669fefd13f0a0b802799eb553c94783b9f5713ab23e2eb06be4f4",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/age-762a7487ace813d7-1702-newest/trial-01/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "762a7487ace813d7",
+      "trial": 1,
+      "visible_memory_sha256": "67e4bddc723f5806125b7eedc24b42239faf0e6c62606ccbdae6591aa2fc3173"
+    },
+    {
+      "cell_id": "age-762a7487ace813d7-1702-newest",
+      "condition": "newest",
+      "decisions": 16,
+      "initial_labels": [
+        "N",
+        "N",
+        "E"
+      ],
+      "memory_before_sha256": "8807873c00d8abdfe83c43cdc068a6e468dbdc45144fa263aafecb0ecd2ed9be",
+      "new_reflection_sha256": [],
+      "panel": "age",
+      "port": 8003,
+      "result_file_sha256": "531ec1d954e1b8e8ca371f7f6cf0ef3061c9a368dd0f8661e4a978a9b02e5aea",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/age-762a7487ace813d7-1702-newest/trial-02/result.json",
+      "seed": 1702,
+      "success": true,
+      "task_id": "762a7487ace813d7",
+      "trial": 2,
+      "visible_memory_sha256": "99f6bd870830288deba7eafaefc41cf7f3b184a7fd5a45b66b964036a008d811"
+    },
+    {
+      "cell_id": "age-762a7487ace813d7-1702-oldest",
+      "condition": "oldest",
+      "decisions": 49,
+      "initial_labels": [
+        "E",
+        "N",
+        "N"
+      ],
+      "memory_before_sha256": "659d2838606d87e238c9f77294e6d5c38efd89f48328418eb3213f7621b19010",
+      "new_reflection_sha256": [
+        "c4a77fbcf492c0ca6ecade2c580e5c74dc55e38f519c09f38814e05eef9a2b1f"
+      ],
+      "panel": "age",
+      "port": 8003,
+      "result_file_sha256": "171c3c3460bfd33551cebf5669548577a0b3dcc2ea7901a395de4999c674d56c",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/age-762a7487ace813d7-1702-oldest/trial-01/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "762a7487ace813d7",
+      "trial": 1,
+      "visible_memory_sha256": "659d2838606d87e238c9f77294e6d5c38efd89f48328418eb3213f7621b19010"
+    },
+    {
+      "cell_id": "age-762a7487ace813d7-1702-oldest",
+      "condition": "oldest",
+      "decisions": 49,
+      "initial_labels": [
+        "E",
+        "N",
+        "N"
+      ],
+      "memory_before_sha256": "a527391a5408b7c4357edde38dfe40fdd7b8c8ea2da39ab5aa44eed53e10e61a",
+      "new_reflection_sha256": [
+        "22c667a8d8694631a3e64da522e814945e82bb471e2f8d22f4933d554a7006be"
+      ],
+      "panel": "age",
+      "port": 8003,
+      "result_file_sha256": "5835619a362106ff16b0a4973991a31926cf1a75a5cd693dd2aba45686c695c5",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/age-762a7487ace813d7-1702-oldest/trial-02/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "762a7487ace813d7",
+      "trial": 2,
+      "visible_memory_sha256": "eb0ffa39ff3a626ea5854654dd792a016693d82f9c5d9ebca80ca4d4239e8967"
+    },
+    {
+      "cell_id": "generation-05f694718d71af12-1701-correct",
+      "condition": "correct",
+      "decisions": 20,
+      "initial_labels": [
+        "C"
+      ],
+      "memory_before_sha256": "014def40bbec5a1e13a52acd0bfa7f0b41959f43293d5f1df11ba5bf8dffdd4a",
+      "new_reflection_sha256": [],
+      "panel": "generation",
+      "port": 8001,
+      "result_file_sha256": "94fa75542df1d3043d2b9c3523c4894935f3fc6222e9f5bb22e800c6904f912f",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/generation-05f694718d71af12-1701-correct/trial-01/result.json",
+      "seed": 1701,
+      "success": true,
+      "task_id": "05f694718d71af12",
+      "trial": 1,
+      "visible_memory_sha256": "014def40bbec5a1e13a52acd0bfa7f0b41959f43293d5f1df11ba5bf8dffdd4a"
+    },
+    {
+      "cell_id": "generation-05f694718d71af12-1701-empty",
+      "condition": "empty",
+      "decisions": 47,
+      "initial_labels": [],
+      "memory_before_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "new_reflection_sha256": [
+        "54486ae499268caa8c7f48f89274f7c2d0f9f8a291f31fb714b55e4f3a259f32"
+      ],
+      "panel": "generation",
+      "port": 8001,
+      "result_file_sha256": "dde9f1b4c7f79a1d95223415719d4c4cdfe6114b417df9b0578e261584ad1930",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/generation-05f694718d71af12-1701-empty/trial-01/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "05f694718d71af12",
+      "trial": 1,
+      "visible_memory_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "cell_id": "generation-05f694718d71af12-1701-error",
+      "condition": "error",
+      "decisions": 25,
+      "initial_labels": [
+        "E"
+      ],
+      "memory_before_sha256": "124246e70e8ccd8eee67b766fc51c941039c528f098cdbdac0246e0716c6a045",
+      "new_reflection_sha256": [
+        "7919e07ea6a280670fc433c7d5f29b4bf90c09fedea78df44719e9883c5ca46f"
+      ],
+      "panel": "generation",
+      "port": 8001,
+      "result_file_sha256": "9b94ccf48a0aa2eec20241cd7b33842c4c4db32f3f0b9299f8b684f16695fadb",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/generation-05f694718d71af12-1701-error/trial-01/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "05f694718d71af12",
+      "trial": 1,
+      "visible_memory_sha256": "124246e70e8ccd8eee67b766fc51c941039c528f098cdbdac0246e0716c6a045"
+    },
+    {
+      "cell_id": "generation-05f694718d71af12-1701-generic",
+      "condition": "generic",
+      "decisions": 15,
+      "initial_labels": [
+        "N"
+      ],
+      "memory_before_sha256": "f52c8cd84eb62cfcd85df95410736b0a18fe2e2ebebbebde93cdca681327d537",
+      "new_reflection_sha256": [],
+      "panel": "generation",
+      "port": 8001,
+      "result_file_sha256": "d64633b23db4a41f82a3ff3be9a605b4ad134f2218d0da811e602971d3241632",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/generation-05f694718d71af12-1701-generic/trial-01/result.json",
+      "seed": 1701,
+      "success": true,
+      "task_id": "05f694718d71af12",
+      "trial": 1,
+      "visible_memory_sha256": "f52c8cd84eb62cfcd85df95410736b0a18fe2e2ebebbebde93cdca681327d537"
+    },
+    {
+      "cell_id": "generation-05f694718d71af12-1702-correct",
+      "condition": "correct",
+      "decisions": 37,
+      "initial_labels": [
+        "C"
+      ],
+      "memory_before_sha256": "014def40bbec5a1e13a52acd0bfa7f0b41959f43293d5f1df11ba5bf8dffdd4a",
+      "new_reflection_sha256": [
+        "4e65ece2f8e790b2333223e07479d75557c7c34b0cdb39271e39d9928e6136b9"
+      ],
+      "panel": "generation",
+      "port": 8001,
+      "result_file_sha256": "ffbef90f88d660d534ba62dd756d1242f72ff8fb4b17a098cb5122181aa7ec5a",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/generation-05f694718d71af12-1702-correct/trial-01/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "05f694718d71af12",
+      "trial": 1,
+      "visible_memory_sha256": "014def40bbec5a1e13a52acd0bfa7f0b41959f43293d5f1df11ba5bf8dffdd4a"
+    },
+    {
+      "cell_id": "generation-05f694718d71af12-1702-empty",
+      "condition": "empty",
+      "decisions": 15,
+      "initial_labels": [],
+      "memory_before_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "new_reflection_sha256": [
+        "dde1eab78a6518a4a7132d318a3b706d1d3721144b4272145da39fda5db0202f"
+      ],
+      "panel": "generation",
+      "port": 8001,
+      "result_file_sha256": "f5b709771379b8521395613b496963811576ef97804fa43b60d4659de42f619f",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/generation-05f694718d71af12-1702-empty/trial-01/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "05f694718d71af12",
+      "trial": 1,
+      "visible_memory_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "cell_id": "generation-05f694718d71af12-1702-error",
+      "condition": "error",
+      "decisions": 30,
+      "initial_labels": [
+        "E"
+      ],
+      "memory_before_sha256": "124246e70e8ccd8eee67b766fc51c941039c528f098cdbdac0246e0716c6a045",
+      "new_reflection_sha256": [
+        "e300c4d6ed386d877701e519c46de5c0026a907908cb9593ca9c415e1d0acd79"
+      ],
+      "panel": "generation",
+      "port": 8001,
+      "result_file_sha256": "ee469a3eb8b475aae877ec49e8dc81f66d9657bc289038b31cf42e949b303305",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/generation-05f694718d71af12-1702-error/trial-01/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "05f694718d71af12",
+      "trial": 1,
+      "visible_memory_sha256": "124246e70e8ccd8eee67b766fc51c941039c528f098cdbdac0246e0716c6a045"
+    },
+    {
+      "cell_id": "generation-05f694718d71af12-1702-generic",
+      "condition": "generic",
+      "decisions": 15,
+      "initial_labels": [
+        "N"
+      ],
+      "memory_before_sha256": "f52c8cd84eb62cfcd85df95410736b0a18fe2e2ebebbebde93cdca681327d537",
+      "new_reflection_sha256": [],
+      "panel": "generation",
+      "port": 8001,
+      "result_file_sha256": "4aa65dfcd1cc680c027a25c68a0fc372d46098db207b115fdda19cd9496eafae",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/generation-05f694718d71af12-1702-generic/trial-01/result.json",
+      "seed": 1702,
+      "success": true,
+      "task_id": "05f694718d71af12",
+      "trial": 1,
+      "visible_memory_sha256": "f52c8cd84eb62cfcd85df95410736b0a18fe2e2ebebbebde93cdca681327d537"
+    },
+    {
+      "cell_id": "generation-05f694718d71af12-1703-correct",
+      "condition": "correct",
+      "decisions": 49,
+      "initial_labels": [
+        "C"
+      ],
+      "memory_before_sha256": "014def40bbec5a1e13a52acd0bfa7f0b41959f43293d5f1df11ba5bf8dffdd4a",
+      "new_reflection_sha256": [
+        "82cb05adc1914ec58857e17e2df81b8c126107b7e3c4b1d14fa3113cf33c2920"
+      ],
+      "panel": "generation",
+      "port": 8001,
+      "result_file_sha256": "908c6decd3df98a95d67eef44c74e1c9428ebf188d11932e42db0f97c6f10e45",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/generation-05f694718d71af12-1703-correct/trial-01/result.json",
+      "seed": 1703,
+      "success": false,
+      "task_id": "05f694718d71af12",
+      "trial": 1,
+      "visible_memory_sha256": "014def40bbec5a1e13a52acd0bfa7f0b41959f43293d5f1df11ba5bf8dffdd4a"
+    },
+    {
+      "cell_id": "generation-05f694718d71af12-1703-empty",
+      "condition": "empty",
+      "decisions": 15,
+      "initial_labels": [],
+      "memory_before_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "new_reflection_sha256": [],
+      "panel": "generation",
+      "port": 8001,
+      "result_file_sha256": "cfe08862b9102ab224bd452c1201b090d4151aa909b1d6cb5187d039d398e911",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/generation-05f694718d71af12-1703-empty/trial-01/result.json",
+      "seed": 1703,
+      "success": true,
+      "task_id": "05f694718d71af12",
+      "trial": 1,
+      "visible_memory_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "cell_id": "generation-05f694718d71af12-1703-error",
+      "condition": "error",
+      "decisions": 41,
+      "initial_labels": [
+        "E"
+      ],
+      "memory_before_sha256": "124246e70e8ccd8eee67b766fc51c941039c528f098cdbdac0246e0716c6a045",
+      "new_reflection_sha256": [
+        "deb37335cc44d36d82e239293082c11ee368fbb8cc2842d6d0bff464c5e24cfa"
+      ],
+      "panel": "generation",
+      "port": 8001,
+      "result_file_sha256": "5039189d8139aa50fe7ef22b4b7c4226e5ad1e0c009902d8857f15572c25117f",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/generation-05f694718d71af12-1703-error/trial-01/result.json",
+      "seed": 1703,
+      "success": false,
+      "task_id": "05f694718d71af12",
+      "trial": 1,
+      "visible_memory_sha256": "124246e70e8ccd8eee67b766fc51c941039c528f098cdbdac0246e0716c6a045"
+    },
+    {
+      "cell_id": "generation-05f694718d71af12-1703-generic",
+      "condition": "generic",
+      "decisions": 15,
+      "initial_labels": [
+        "N"
+      ],
+      "memory_before_sha256": "f52c8cd84eb62cfcd85df95410736b0a18fe2e2ebebbebde93cdca681327d537",
+      "new_reflection_sha256": [],
+      "panel": "generation",
+      "port": 8001,
+      "result_file_sha256": "2253f20b7b8ad679d2622aaae23431ec75e6e60a687b72ed966f4c09d8d19068",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/generation-05f694718d71af12-1703-generic/trial-01/result.json",
+      "seed": 1703,
+      "success": true,
+      "task_id": "05f694718d71af12",
+      "trial": 1,
+      "visible_memory_sha256": "f52c8cd84eb62cfcd85df95410736b0a18fe2e2ebebbebde93cdca681327d537"
+    },
+    {
+      "cell_id": "generation-3e3fa991ee97689e-1701-correct",
+      "condition": "correct",
+      "decisions": 29,
+      "initial_labels": [
+        "C"
+      ],
+      "memory_before_sha256": "ea7751f25da3aa7fe98d55b6a6e2e80797476f9b6c846e7dae74f3b85511bb54",
+      "new_reflection_sha256": [
+        "305dd6a58b588623e421615e2045095f89fcc0cbaf5c6404141fd7ad59d0360e"
+      ],
+      "panel": "generation",
+      "port": 8003,
+      "result_file_sha256": "a2fbce7ceef5248630d12706362c2c10d4d5b90f2a6b613324051cd962a51e3c",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/generation-3e3fa991ee97689e-1701-correct/trial-01/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "3e3fa991ee97689e",
+      "trial": 1,
+      "visible_memory_sha256": "ea7751f25da3aa7fe98d55b6a6e2e80797476f9b6c846e7dae74f3b85511bb54"
+    },
+    {
+      "cell_id": "generation-3e3fa991ee97689e-1701-empty",
+      "condition": "empty",
+      "decisions": 46,
+      "initial_labels": [],
+      "memory_before_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "new_reflection_sha256": [
+        "59c9d356cff0867f1e6e3812576635a5c56fdb3659561189d067c2c98dcfbc88"
+      ],
+      "panel": "generation",
+      "port": 8003,
+      "result_file_sha256": "2033d057343efb14fdc95816ff74dbea800eeb2c606461adf786e1122660314f",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/generation-3e3fa991ee97689e-1701-empty/trial-01/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "3e3fa991ee97689e",
+      "trial": 1,
+      "visible_memory_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "cell_id": "generation-3e3fa991ee97689e-1701-error",
+      "condition": "error",
+      "decisions": 32,
+      "initial_labels": [
+        "E"
+      ],
+      "memory_before_sha256": "c49c3cfd5893685e1b3f4223582548f67ee54e70adcc1b4c53dfd63f8eec4d49",
+      "new_reflection_sha256": [
+        "1437fb01b6f574a4cdcd0642277f30289e84d09cb3be09039b1b26a2ddde2955"
+      ],
+      "panel": "generation",
+      "port": 8003,
+      "result_file_sha256": "91655d8b0851e4f1add861a5cfdf4b72a08f59b76ecdcff68f8fbf4ce5d71a77",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/generation-3e3fa991ee97689e-1701-error/trial-01/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "3e3fa991ee97689e",
+      "trial": 1,
+      "visible_memory_sha256": "c49c3cfd5893685e1b3f4223582548f67ee54e70adcc1b4c53dfd63f8eec4d49"
+    },
+    {
+      "cell_id": "generation-3e3fa991ee97689e-1701-generic",
+      "condition": "generic",
+      "decisions": 49,
+      "initial_labels": [
+        "N"
+      ],
+      "memory_before_sha256": "f52c8cd84eb62cfcd85df95410736b0a18fe2e2ebebbebde93cdca681327d537",
+      "new_reflection_sha256": [
+        "ec082a08fbba8049a3d2cfe5d5e431df8caf44b3f966e7bcfaccd45e39b96e99"
+      ],
+      "panel": "generation",
+      "port": 8003,
+      "result_file_sha256": "50586659a31413a40d830849861ca3c4fed6302b668a1d778241df14d0c35c35",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/generation-3e3fa991ee97689e-1701-generic/trial-01/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "3e3fa991ee97689e",
+      "trial": 1,
+      "visible_memory_sha256": "f52c8cd84eb62cfcd85df95410736b0a18fe2e2ebebbebde93cdca681327d537"
+    },
+    {
+      "cell_id": "generation-3e3fa991ee97689e-1702-correct",
+      "condition": "correct",
+      "decisions": 49,
+      "initial_labels": [
+        "C"
+      ],
+      "memory_before_sha256": "ea7751f25da3aa7fe98d55b6a6e2e80797476f9b6c846e7dae74f3b85511bb54",
+      "new_reflection_sha256": [
+        "d6a77c9fecd4f3f9709d75e6169f0ffd0106ac4b00ce1ad4dd8641deab9cc2ca"
+      ],
+      "panel": "generation",
+      "port": 8003,
+      "result_file_sha256": "af0a05f2d4a76356592a28f58aa519da6fc181724c2351db4f25d740057b3dfb",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/generation-3e3fa991ee97689e-1702-correct/trial-01/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "3e3fa991ee97689e",
+      "trial": 1,
+      "visible_memory_sha256": "ea7751f25da3aa7fe98d55b6a6e2e80797476f9b6c846e7dae74f3b85511bb54"
+    },
+    {
+      "cell_id": "generation-3e3fa991ee97689e-1702-empty",
+      "condition": "empty",
+      "decisions": 49,
+      "initial_labels": [],
+      "memory_before_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "new_reflection_sha256": [
+        "8437df1bf5f063932018b9d89d013ad3a06281ee2e6ef1144a664c54dfe3a87a"
+      ],
+      "panel": "generation",
+      "port": 8003,
+      "result_file_sha256": "b04eb916f66a857406c08e4d48464a7812b20b5973d37721223896cb1104cad2",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/generation-3e3fa991ee97689e-1702-empty/trial-01/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "3e3fa991ee97689e",
+      "trial": 1,
+      "visible_memory_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "cell_id": "generation-3e3fa991ee97689e-1702-error",
+      "condition": "error",
+      "decisions": 37,
+      "initial_labels": [
+        "E"
+      ],
+      "memory_before_sha256": "c49c3cfd5893685e1b3f4223582548f67ee54e70adcc1b4c53dfd63f8eec4d49",
+      "new_reflection_sha256": [
+        "42dddec84a9fa657a7b0a3d6a131d8d97a5cebe69cbdb44437b17e370ea3f9e7"
+      ],
+      "panel": "generation",
+      "port": 8003,
+      "result_file_sha256": "96356f626f879c3c2b3c3851e1904c3547f26cdfe5887b33f0c718adb0447db3",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/generation-3e3fa991ee97689e-1702-error/trial-01/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "3e3fa991ee97689e",
+      "trial": 1,
+      "visible_memory_sha256": "c49c3cfd5893685e1b3f4223582548f67ee54e70adcc1b4c53dfd63f8eec4d49"
+    },
+    {
+      "cell_id": "generation-3e3fa991ee97689e-1702-generic",
+      "condition": "generic",
+      "decisions": 49,
+      "initial_labels": [
+        "N"
+      ],
+      "memory_before_sha256": "f52c8cd84eb62cfcd85df95410736b0a18fe2e2ebebbebde93cdca681327d537",
+      "new_reflection_sha256": [
+        "e0086dc2e77dd172f1c4d07e905b97b70b4efd9ff45d537f567c87522a480733"
+      ],
+      "panel": "generation",
+      "port": 8003,
+      "result_file_sha256": "c1c1973bc6a7471dd2043981656fd33190c51ad6c98b693ba9cce395eef3207c",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/generation-3e3fa991ee97689e-1702-generic/trial-01/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "3e3fa991ee97689e",
+      "trial": 1,
+      "visible_memory_sha256": "f52c8cd84eb62cfcd85df95410736b0a18fe2e2ebebbebde93cdca681327d537"
+    },
+    {
+      "cell_id": "generation-3e3fa991ee97689e-1703-correct",
+      "condition": "correct",
+      "decisions": 30,
+      "initial_labels": [
+        "C"
+      ],
+      "memory_before_sha256": "ea7751f25da3aa7fe98d55b6a6e2e80797476f9b6c846e7dae74f3b85511bb54",
+      "new_reflection_sha256": [
+        "3c12b6ca1efc3ac198a4d4a959528721e2893f015172d38b8df22885ff1a7e83"
+      ],
+      "panel": "generation",
+      "port": 8003,
+      "result_file_sha256": "5abed6576cbc6abba931eb97bb4a9723b79ef815a7f98c52fe26c69b811cc54a",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/generation-3e3fa991ee97689e-1703-correct/trial-01/result.json",
+      "seed": 1703,
+      "success": false,
+      "task_id": "3e3fa991ee97689e",
+      "trial": 1,
+      "visible_memory_sha256": "ea7751f25da3aa7fe98d55b6a6e2e80797476f9b6c846e7dae74f3b85511bb54"
+    },
+    {
+      "cell_id": "generation-3e3fa991ee97689e-1703-empty",
+      "condition": "empty",
+      "decisions": 49,
+      "initial_labels": [],
+      "memory_before_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "new_reflection_sha256": [
+        "89b332a3aab273b9ccae430266c6cf67dee14818dcb6667f4772786e5754f15a"
+      ],
+      "panel": "generation",
+      "port": 8003,
+      "result_file_sha256": "e3526dd7577686e7691f47c52a5f377aa537f81ee71fadc0ae9988954aa77861",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/generation-3e3fa991ee97689e-1703-empty/trial-01/result.json",
+      "seed": 1703,
+      "success": false,
+      "task_id": "3e3fa991ee97689e",
+      "trial": 1,
+      "visible_memory_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "cell_id": "generation-3e3fa991ee97689e-1703-error",
+      "condition": "error",
+      "decisions": 38,
+      "initial_labels": [
+        "E"
+      ],
+      "memory_before_sha256": "c49c3cfd5893685e1b3f4223582548f67ee54e70adcc1b4c53dfd63f8eec4d49",
+      "new_reflection_sha256": [
+        "d47fa78d4097350e70a2b85ef5e32446820c7c558c9e4b8eebaa396983c452f0"
+      ],
+      "panel": "generation",
+      "port": 8003,
+      "result_file_sha256": "c6c29904a7d44d3ca22eded97c507af7c0fed9a533393a2b946ea7d63c3b2a0a",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/generation-3e3fa991ee97689e-1703-error/trial-01/result.json",
+      "seed": 1703,
+      "success": false,
+      "task_id": "3e3fa991ee97689e",
+      "trial": 1,
+      "visible_memory_sha256": "c49c3cfd5893685e1b3f4223582548f67ee54e70adcc1b4c53dfd63f8eec4d49"
+    },
+    {
+      "cell_id": "generation-3e3fa991ee97689e-1703-generic",
+      "condition": "generic",
+      "decisions": 35,
+      "initial_labels": [
+        "N"
+      ],
+      "memory_before_sha256": "f52c8cd84eb62cfcd85df95410736b0a18fe2e2ebebbebde93cdca681327d537",
+      "new_reflection_sha256": [
+        "c223a586d1e9e5673dd7466c12a0b51155bba1d74c2884ace161ad9b86d86a80"
+      ],
+      "panel": "generation",
+      "port": 8003,
+      "result_file_sha256": "245a446040f403024b3294bc5157a9747b155149003f84c632effe1106d4fe02",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/generation-3e3fa991ee97689e-1703-generic/trial-01/result.json",
+      "seed": 1703,
+      "success": false,
+      "task_id": "3e3fa991ee97689e",
+      "trial": 1,
+      "visible_memory_sha256": "f52c8cd84eb62cfcd85df95410736b0a18fe2e2ebebbebde93cdca681327d537"
+    },
+    {
+      "cell_id": "generation-64aa51b30cab1f98-1701-correct",
+      "condition": "correct",
+      "decisions": 49,
+      "initial_labels": [
+        "C"
+      ],
+      "memory_before_sha256": "f409afe15b6ad0f59674f56b9eccf87988a2830616df85f900a2d2700656a908",
+      "new_reflection_sha256": [
+        "fb28e9fc4d28288982c3039864d45df1d09b9e4b1f1606ea23fde17dd50ccff9"
+      ],
+      "panel": "generation",
+      "port": 8002,
+      "result_file_sha256": "5aea34de4d1696ac12cfe7d03289c453e96c4abb3a343d20ff6f12c03128a1b5",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/generation-64aa51b30cab1f98-1701-correct/trial-01/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "64aa51b30cab1f98",
+      "trial": 1,
+      "visible_memory_sha256": "f409afe15b6ad0f59674f56b9eccf87988a2830616df85f900a2d2700656a908"
+    },
+    {
+      "cell_id": "generation-64aa51b30cab1f98-1701-empty",
+      "condition": "empty",
+      "decisions": 49,
+      "initial_labels": [],
+      "memory_before_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "new_reflection_sha256": [
+        "d739935648fac578aa9e882f337201fe92373b840fa23c713848cceb21461429"
+      ],
+      "panel": "generation",
+      "port": 8002,
+      "result_file_sha256": "5554903d5d9fc075001c831556fad13c460c5f5d573841fd97fcf90feb8cb4e6",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/generation-64aa51b30cab1f98-1701-empty/trial-01/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "64aa51b30cab1f98",
+      "trial": 1,
+      "visible_memory_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "cell_id": "generation-64aa51b30cab1f98-1701-error",
+      "condition": "error",
+      "decisions": 49,
+      "initial_labels": [
+        "E"
+      ],
+      "memory_before_sha256": "3a4db93e2a2d9351a8e48fed589fdbb69eda01f1b040248a80f8b94d39b86944",
+      "new_reflection_sha256": [
+        "8ca025ecf9fb6cb7a581849c3f92983a27e5192ca0af3fd02e6d3ac90024288e"
+      ],
+      "panel": "generation",
+      "port": 8002,
+      "result_file_sha256": "c7e8fdfe1d65c8a64a2845651cd4ef1b12201c09b69ca86379e1fe3e2204f7b4",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/generation-64aa51b30cab1f98-1701-error/trial-01/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "64aa51b30cab1f98",
+      "trial": 1,
+      "visible_memory_sha256": "3a4db93e2a2d9351a8e48fed589fdbb69eda01f1b040248a80f8b94d39b86944"
+    },
+    {
+      "cell_id": "generation-64aa51b30cab1f98-1701-generic",
+      "condition": "generic",
+      "decisions": 49,
+      "initial_labels": [
+        "N"
+      ],
+      "memory_before_sha256": "f52c8cd84eb62cfcd85df95410736b0a18fe2e2ebebbebde93cdca681327d537",
+      "new_reflection_sha256": [
+        "92c9c3667656ec04b64361ec08352bb01f63b955a4bb52b21a23b719d95a109e"
+      ],
+      "panel": "generation",
+      "port": 8002,
+      "result_file_sha256": "30868587899853abff950a1c0ae6e3a5c0fc2b148f662607e2baced4d37bef25",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/generation-64aa51b30cab1f98-1701-generic/trial-01/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "64aa51b30cab1f98",
+      "trial": 1,
+      "visible_memory_sha256": "f52c8cd84eb62cfcd85df95410736b0a18fe2e2ebebbebde93cdca681327d537"
+    },
+    {
+      "cell_id": "generation-64aa51b30cab1f98-1702-correct",
+      "condition": "correct",
+      "decisions": 49,
+      "initial_labels": [
+        "C"
+      ],
+      "memory_before_sha256": "f409afe15b6ad0f59674f56b9eccf87988a2830616df85f900a2d2700656a908",
+      "new_reflection_sha256": [
+        "b85603d845909eec28aebd7f0d9539172134227da0df786403c7cb40e14b00ec"
+      ],
+      "panel": "generation",
+      "port": 8002,
+      "result_file_sha256": "6684401ce4727c4f2ecc9f7dfe1404bedfd06ad3e94881819948e626d957b696",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/generation-64aa51b30cab1f98-1702-correct/trial-01/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "64aa51b30cab1f98",
+      "trial": 1,
+      "visible_memory_sha256": "f409afe15b6ad0f59674f56b9eccf87988a2830616df85f900a2d2700656a908"
+    },
+    {
+      "cell_id": "generation-64aa51b30cab1f98-1702-empty",
+      "condition": "empty",
+      "decisions": 49,
+      "initial_labels": [],
+      "memory_before_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "new_reflection_sha256": [
+        "8a0b408577e22ce65c9f2d1793a4a5169c3372fc39e4d5c8dae8db91fcd3eee2"
+      ],
+      "panel": "generation",
+      "port": 8002,
+      "result_file_sha256": "e3b4026c0af6aaba2a073af0d5b1a34b05bc38a18a5a851942be8cc1c675aeaf",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/generation-64aa51b30cab1f98-1702-empty/trial-01/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "64aa51b30cab1f98",
+      "trial": 1,
+      "visible_memory_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "cell_id": "generation-64aa51b30cab1f98-1702-error",
+      "condition": "error",
+      "decisions": 49,
+      "initial_labels": [
+        "E"
+      ],
+      "memory_before_sha256": "3a4db93e2a2d9351a8e48fed589fdbb69eda01f1b040248a80f8b94d39b86944",
+      "new_reflection_sha256": [
+        "b47175d874419e5f66c93dc8b16ed6fbc6d13af3c642da38d263e16840b0f052"
+      ],
+      "panel": "generation",
+      "port": 8002,
+      "result_file_sha256": "720d744d46ae009bb0ff9a4873cc82649b7857894867a9973a71bb8eab2ac748",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/generation-64aa51b30cab1f98-1702-error/trial-01/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "64aa51b30cab1f98",
+      "trial": 1,
+      "visible_memory_sha256": "3a4db93e2a2d9351a8e48fed589fdbb69eda01f1b040248a80f8b94d39b86944"
+    },
+    {
+      "cell_id": "generation-64aa51b30cab1f98-1702-generic",
+      "condition": "generic",
+      "decisions": 40,
+      "initial_labels": [
+        "N"
+      ],
+      "memory_before_sha256": "f52c8cd84eb62cfcd85df95410736b0a18fe2e2ebebbebde93cdca681327d537",
+      "new_reflection_sha256": [
+        "88e9e26a9ace26a07ae0ff4d2bcb7e4fc5d9195b0ef365f791478521e21f21ac"
+      ],
+      "panel": "generation",
+      "port": 8002,
+      "result_file_sha256": "7df43d7b1f89b73b22d55b015c24697f0e19572861ad2433112fc861daccf874",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/generation-64aa51b30cab1f98-1702-generic/trial-01/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "64aa51b30cab1f98",
+      "trial": 1,
+      "visible_memory_sha256": "f52c8cd84eb62cfcd85df95410736b0a18fe2e2ebebbebde93cdca681327d537"
+    },
+    {
+      "cell_id": "generation-64aa51b30cab1f98-1703-correct",
+      "condition": "correct",
+      "decisions": 19,
+      "initial_labels": [
+        "C"
+      ],
+      "memory_before_sha256": "f409afe15b6ad0f59674f56b9eccf87988a2830616df85f900a2d2700656a908",
+      "new_reflection_sha256": [],
+      "panel": "generation",
+      "port": 8002,
+      "result_file_sha256": "d24a0738a65c7c3ab71db6394b012488f822e3a39ab620cd46c3948edeb28a7a",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/generation-64aa51b30cab1f98-1703-correct/trial-01/result.json",
+      "seed": 1703,
+      "success": true,
+      "task_id": "64aa51b30cab1f98",
+      "trial": 1,
+      "visible_memory_sha256": "f409afe15b6ad0f59674f56b9eccf87988a2830616df85f900a2d2700656a908"
+    },
+    {
+      "cell_id": "generation-64aa51b30cab1f98-1703-empty",
+      "condition": "empty",
+      "decisions": 49,
+      "initial_labels": [],
+      "memory_before_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "new_reflection_sha256": [
+        "7a1490049e17cb72e86dcfd59cbac3a7c22314b497cbb958c31e15ac19c91b59"
+      ],
+      "panel": "generation",
+      "port": 8002,
+      "result_file_sha256": "97345caf3373542ac082546371436939ffc44d69f25591900bf47cac9708c467",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/generation-64aa51b30cab1f98-1703-empty/trial-01/result.json",
+      "seed": 1703,
+      "success": false,
+      "task_id": "64aa51b30cab1f98",
+      "trial": 1,
+      "visible_memory_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "cell_id": "generation-64aa51b30cab1f98-1703-error",
+      "condition": "error",
+      "decisions": 47,
+      "initial_labels": [
+        "E"
+      ],
+      "memory_before_sha256": "3a4db93e2a2d9351a8e48fed589fdbb69eda01f1b040248a80f8b94d39b86944",
+      "new_reflection_sha256": [
+        "24f1d5e56cf358403e5953127ec5e016f84dfc4b5c39966bc1b49705ab5aa2f2"
+      ],
+      "panel": "generation",
+      "port": 8002,
+      "result_file_sha256": "b7915253c7c460743f23b409124b682787a755f8e8776ed1173b06f8a46a03b8",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/generation-64aa51b30cab1f98-1703-error/trial-01/result.json",
+      "seed": 1703,
+      "success": false,
+      "task_id": "64aa51b30cab1f98",
+      "trial": 1,
+      "visible_memory_sha256": "3a4db93e2a2d9351a8e48fed589fdbb69eda01f1b040248a80f8b94d39b86944"
+    },
+    {
+      "cell_id": "generation-64aa51b30cab1f98-1703-generic",
+      "condition": "generic",
+      "decisions": 49,
+      "initial_labels": [
+        "N"
+      ],
+      "memory_before_sha256": "f52c8cd84eb62cfcd85df95410736b0a18fe2e2ebebbebde93cdca681327d537",
+      "new_reflection_sha256": [
+        "1cf928b39ed500e492d557769cbd1d3640820f3a261256a20f414dba46594ec3"
+      ],
+      "panel": "generation",
+      "port": 8002,
+      "result_file_sha256": "215d814caaeb3c5656a3aefe1b64275846d2a7084e5b01467485f10078eefe7a",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/generation-64aa51b30cab1f98-1703-generic/trial-01/result.json",
+      "seed": 1703,
+      "success": false,
+      "task_id": "64aa51b30cab1f98",
+      "trial": 1,
+      "visible_memory_sha256": "f52c8cd84eb62cfcd85df95410736b0a18fe2e2ebebbebde93cdca681327d537"
+    },
+    {
+      "cell_id": "generation-762a7487ace813d7-1701-correct",
+      "condition": "correct",
+      "decisions": 49,
+      "initial_labels": [
+        "C"
+      ],
+      "memory_before_sha256": "03469614d6e3b3364583cc0b55850ba870bdae6d4466eaf07c71b9e386d592ba",
+      "new_reflection_sha256": [
+        "17eb9d9d99eaf2bf473524ba7f80a4502bfe3001804665a72184956ec5895411"
+      ],
+      "panel": "generation",
+      "port": 8001,
+      "result_file_sha256": "87e8a41e0e370f821a2d053653632a6d4e2d5863a23c15eaa1ba71c3673a4f8d",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/generation-762a7487ace813d7-1701-correct/trial-01/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "762a7487ace813d7",
+      "trial": 1,
+      "visible_memory_sha256": "03469614d6e3b3364583cc0b55850ba870bdae6d4466eaf07c71b9e386d592ba"
+    },
+    {
+      "cell_id": "generation-762a7487ace813d7-1701-empty",
+      "condition": "empty",
+      "decisions": 45,
+      "initial_labels": [],
+      "memory_before_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "new_reflection_sha256": [
+        "0f944202a88543735acbf92d1a36378e88ecaca64dd5b42bd069cf4ffd5c2f7c"
+      ],
+      "panel": "generation",
+      "port": 8001,
+      "result_file_sha256": "84f414f6e3e84cbfe141431775e005fe0046259c16124e716b7de075acf8b42c",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/generation-762a7487ace813d7-1701-empty/trial-01/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "762a7487ace813d7",
+      "trial": 1,
+      "visible_memory_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "cell_id": "generation-762a7487ace813d7-1701-error",
+      "condition": "error",
+      "decisions": 49,
+      "initial_labels": [
+        "E"
+      ],
+      "memory_before_sha256": "e8ed63a389a20789ea3b23eb611d9f85ee9fdb8cd7a0fca2226f25e1ed36e2b5",
+      "new_reflection_sha256": [
+        "ed9e08fe31502394b50d87a894bd25e012c0a62ad37a77a9dec9a854bde994e9"
+      ],
+      "panel": "generation",
+      "port": 8001,
+      "result_file_sha256": "8746a2a3c279629dc429aa0953fd399a3dc7e606c8d4a4fb5c512da61e8e67cc",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/generation-762a7487ace813d7-1701-error/trial-01/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "762a7487ace813d7",
+      "trial": 1,
+      "visible_memory_sha256": "e8ed63a389a20789ea3b23eb611d9f85ee9fdb8cd7a0fca2226f25e1ed36e2b5"
+    },
+    {
+      "cell_id": "generation-762a7487ace813d7-1701-generic",
+      "condition": "generic",
+      "decisions": 40,
+      "initial_labels": [
+        "N"
+      ],
+      "memory_before_sha256": "f52c8cd84eb62cfcd85df95410736b0a18fe2e2ebebbebde93cdca681327d537",
+      "new_reflection_sha256": [
+        "f5ba6dce2cb531512a06844e795076900d60f61b9be862c9d7c2c517696dfb4b"
+      ],
+      "panel": "generation",
+      "port": 8001,
+      "result_file_sha256": "960ca05bf796e6905981968fcd9ad242c9204a7799180c63511d8feac97fc36a",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/generation-762a7487ace813d7-1701-generic/trial-01/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "762a7487ace813d7",
+      "trial": 1,
+      "visible_memory_sha256": "f52c8cd84eb62cfcd85df95410736b0a18fe2e2ebebbebde93cdca681327d537"
+    },
+    {
+      "cell_id": "generation-762a7487ace813d7-1702-correct",
+      "condition": "correct",
+      "decisions": 22,
+      "initial_labels": [
+        "C"
+      ],
+      "memory_before_sha256": "03469614d6e3b3364583cc0b55850ba870bdae6d4466eaf07c71b9e386d592ba",
+      "new_reflection_sha256": [],
+      "panel": "generation",
+      "port": 8001,
+      "result_file_sha256": "b39e147f7a15c93213b49f50e7cbd268b9712e58f5715bc3c283348b690b7aac",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/generation-762a7487ace813d7-1702-correct/trial-01/result.json",
+      "seed": 1702,
+      "success": true,
+      "task_id": "762a7487ace813d7",
+      "trial": 1,
+      "visible_memory_sha256": "03469614d6e3b3364583cc0b55850ba870bdae6d4466eaf07c71b9e386d592ba"
+    },
+    {
+      "cell_id": "generation-762a7487ace813d7-1702-empty",
+      "condition": "empty",
+      "decisions": 44,
+      "initial_labels": [],
+      "memory_before_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "new_reflection_sha256": [
+        "bf08731734c27f140579b21d433c7ec60379291063b5aba7cccd5e4972f72191"
+      ],
+      "panel": "generation",
+      "port": 8001,
+      "result_file_sha256": "3af5eef714c12c543f731b336553cb6854dd5607396916ead1d166846a950aef",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/generation-762a7487ace813d7-1702-empty/trial-01/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "762a7487ace813d7",
+      "trial": 1,
+      "visible_memory_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "cell_id": "generation-762a7487ace813d7-1702-error",
+      "condition": "error",
+      "decisions": 25,
+      "initial_labels": [
+        "E"
+      ],
+      "memory_before_sha256": "e8ed63a389a20789ea3b23eb611d9f85ee9fdb8cd7a0fca2226f25e1ed36e2b5",
+      "new_reflection_sha256": [],
+      "panel": "generation",
+      "port": 8001,
+      "result_file_sha256": "7c42e32d57d554d331ca2354966c5c0637855be454efd6cb61cc60d47a02e3db",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/generation-762a7487ace813d7-1702-error/trial-01/result.json",
+      "seed": 1702,
+      "success": true,
+      "task_id": "762a7487ace813d7",
+      "trial": 1,
+      "visible_memory_sha256": "e8ed63a389a20789ea3b23eb611d9f85ee9fdb8cd7a0fca2226f25e1ed36e2b5"
+    },
+    {
+      "cell_id": "generation-762a7487ace813d7-1702-generic",
+      "condition": "generic",
+      "decisions": 21,
+      "initial_labels": [
+        "N"
+      ],
+      "memory_before_sha256": "f52c8cd84eb62cfcd85df95410736b0a18fe2e2ebebbebde93cdca681327d537",
+      "new_reflection_sha256": [],
+      "panel": "generation",
+      "port": 8001,
+      "result_file_sha256": "240d95dbe6cf8f949f67444a90cd333c5c571c5318a9812316f6a536a8921f4f",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/generation-762a7487ace813d7-1702-generic/trial-01/result.json",
+      "seed": 1702,
+      "success": true,
+      "task_id": "762a7487ace813d7",
+      "trial": 1,
+      "visible_memory_sha256": "f52c8cd84eb62cfcd85df95410736b0a18fe2e2ebebbebde93cdca681327d537"
+    },
+    {
+      "cell_id": "generation-762a7487ace813d7-1703-correct",
+      "condition": "correct",
+      "decisions": 49,
+      "initial_labels": [
+        "C"
+      ],
+      "memory_before_sha256": "03469614d6e3b3364583cc0b55850ba870bdae6d4466eaf07c71b9e386d592ba",
+      "new_reflection_sha256": [
+        "265c03be45cbf42fbdcc2fbc22333c3fd584b6176d1b0ce3780b6d8682202aa9"
+      ],
+      "panel": "generation",
+      "port": 8001,
+      "result_file_sha256": "099cac035cb974a9a260c90f9210b97754d86d7d402c381428992c4ff6b6ee61",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/generation-762a7487ace813d7-1703-correct/trial-01/result.json",
+      "seed": 1703,
+      "success": false,
+      "task_id": "762a7487ace813d7",
+      "trial": 1,
+      "visible_memory_sha256": "03469614d6e3b3364583cc0b55850ba870bdae6d4466eaf07c71b9e386d592ba"
+    },
+    {
+      "cell_id": "generation-762a7487ace813d7-1703-empty",
+      "condition": "empty",
+      "decisions": 49,
+      "initial_labels": [],
+      "memory_before_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "new_reflection_sha256": [
+        "8cbb0202ba4e4ef6c4345bedb993c36d181866cd11d528a558ec7d6ffa7c4496"
+      ],
+      "panel": "generation",
+      "port": 8001,
+      "result_file_sha256": "a2c0b8b7d3813db0b5e8b99a48e672b2a809d213fff9cf91b258d0dd384da3bb",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/generation-762a7487ace813d7-1703-empty/trial-01/result.json",
+      "seed": 1703,
+      "success": false,
+      "task_id": "762a7487ace813d7",
+      "trial": 1,
+      "visible_memory_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "cell_id": "generation-762a7487ace813d7-1703-error",
+      "condition": "error",
+      "decisions": 49,
+      "initial_labels": [
+        "E"
+      ],
+      "memory_before_sha256": "e8ed63a389a20789ea3b23eb611d9f85ee9fdb8cd7a0fca2226f25e1ed36e2b5",
+      "new_reflection_sha256": [
+        "0ea03ec647922dc4f3dc3b6cbf2ee6707cdf9052eee2fa391bbedb0287dede6d"
+      ],
+      "panel": "generation",
+      "port": 8001,
+      "result_file_sha256": "a9907c334d3a3f0c9826aba06e8bc9a3fc64d3e7c8841e71ea8d5510b2a80f50",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/generation-762a7487ace813d7-1703-error/trial-01/result.json",
+      "seed": 1703,
+      "success": false,
+      "task_id": "762a7487ace813d7",
+      "trial": 1,
+      "visible_memory_sha256": "e8ed63a389a20789ea3b23eb611d9f85ee9fdb8cd7a0fca2226f25e1ed36e2b5"
+    },
+    {
+      "cell_id": "generation-762a7487ace813d7-1703-generic",
+      "condition": "generic",
+      "decisions": 19,
+      "initial_labels": [
+        "N"
+      ],
+      "memory_before_sha256": "f52c8cd84eb62cfcd85df95410736b0a18fe2e2ebebbebde93cdca681327d537",
+      "new_reflection_sha256": [],
+      "panel": "generation",
+      "port": 8001,
+      "result_file_sha256": "a79864ede2b43c90a1b3dbbd3af829e60d302994bb3f5e262bdb90ff98ede901",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/generation-762a7487ace813d7-1703-generic/trial-01/result.json",
+      "seed": 1703,
+      "success": true,
+      "task_id": "762a7487ace813d7",
+      "trial": 1,
+      "visible_memory_sha256": "f52c8cd84eb62cfcd85df95410736b0a18fe2e2ebebbebde93cdca681327d537"
+    },
+    {
+      "cell_id": "recovery-05f694718d71af12-1701-correct",
+      "condition": "correct",
+      "decisions": 27,
+      "initial_labels": [
+        "H",
+        "C",
+        "N"
+      ],
+      "memory_before_sha256": "0315a8d64c93d1f108a72cf0059c7d56779acb07e2ee0c20081eb4da7ac063c2",
+      "new_reflection_sha256": [
+        "c25d3915db6d65081be91155c5dcdb3c3ed4d515e5e658c1c3d4a63027468458"
+      ],
+      "panel": "recovery",
+      "port": 8002,
+      "result_file_sha256": "b36885e7aa88910c9fb352f3c18914a778004d2771d385849fb23eb8b47a2b39",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-05f694718d71af12-1701-correct/trial-01/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "05f694718d71af12",
+      "trial": 1,
+      "visible_memory_sha256": "0315a8d64c93d1f108a72cf0059c7d56779acb07e2ee0c20081eb4da7ac063c2"
+    },
+    {
+      "cell_id": "recovery-05f694718d71af12-1701-correct",
+      "condition": "correct",
+      "decisions": 20,
+      "initial_labels": [
+        "H",
+        "C",
+        "N"
+      ],
+      "memory_before_sha256": "477aba00bbfc256eed327ba2c8ee0c4303c7c6a931de5951e255749e60e2ca42",
+      "new_reflection_sha256": [],
+      "panel": "recovery",
+      "port": 8002,
+      "result_file_sha256": "877554c4e78b54aa5c8644c4ef0de4e0c3dffc95e0d8e51b17ddba87a640c97f",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-05f694718d71af12-1701-correct/trial-02/result.json",
+      "seed": 1701,
+      "success": true,
+      "task_id": "05f694718d71af12",
+      "trial": 2,
+      "visible_memory_sha256": "85cb6c3b8617b6a853e27a0bed186697e8ea4cc9565513b6244bf466a245d2fa"
+    },
+    {
+      "cell_id": "recovery-05f694718d71af12-1701-delete",
+      "condition": "delete",
+      "decisions": 15,
+      "initial_labels": [
+        "H",
+        "N"
+      ],
+      "memory_before_sha256": "2fb19f730590acbe6b924c34bbd0ce587b6687f7b581a63f4b5190e7d3f86349",
+      "new_reflection_sha256": [],
+      "panel": "recovery",
+      "port": 8002,
+      "result_file_sha256": "aded5c922c3cae3ef11979be168e3905e2cba62c59bf8087f6031950aff78e95",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-05f694718d71af12-1701-delete/trial-01/result.json",
+      "seed": 1701,
+      "success": true,
+      "task_id": "05f694718d71af12",
+      "trial": 1,
+      "visible_memory_sha256": "2fb19f730590acbe6b924c34bbd0ce587b6687f7b581a63f4b5190e7d3f86349"
+    },
+    {
+      "cell_id": "recovery-05f694718d71af12-1701-replace",
+      "condition": "replace",
+      "decisions": 15,
+      "initial_labels": [
+        "H",
+        "N",
+        "N"
+      ],
+      "memory_before_sha256": "f9eb5fc7b95824a2e95f64fd69de53f1d37663b146c0774afaaf233c5fdac533",
+      "new_reflection_sha256": [],
+      "panel": "recovery",
+      "port": 8002,
+      "result_file_sha256": "c85ecf76dbaaaed0c3142423b1ca2af86c69c6c0b654fe9b3ae9f832843b8fb3",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-05f694718d71af12-1701-replace/trial-01/result.json",
+      "seed": 1701,
+      "success": true,
+      "task_id": "05f694718d71af12",
+      "trial": 1,
+      "visible_memory_sha256": "f9eb5fc7b95824a2e95f64fd69de53f1d37663b146c0774afaaf233c5fdac533"
+    },
+    {
+      "cell_id": "recovery-05f694718d71af12-1701-retain",
+      "condition": "retain",
+      "decisions": 25,
+      "initial_labels": [
+        "H",
+        "E",
+        "N"
+      ],
+      "memory_before_sha256": "85ed8920b3227aaf23752f29c254fc565395abd96c6ab221e50d2c841698a3fd",
+      "new_reflection_sha256": [
+        "f4f725af8b5de9594254d53e75623a7f546b24deec582591888a7b81be3a16aa"
+      ],
+      "panel": "recovery",
+      "port": 8002,
+      "result_file_sha256": "f14336b17360438882f4196b9b9916d4c022f84fd83492d30832f1d132274b6b",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-05f694718d71af12-1701-retain/trial-01/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "05f694718d71af12",
+      "trial": 1,
+      "visible_memory_sha256": "85ed8920b3227aaf23752f29c254fc565395abd96c6ab221e50d2c841698a3fd"
+    },
+    {
+      "cell_id": "recovery-05f694718d71af12-1701-retain",
+      "condition": "retain",
+      "decisions": 36,
+      "initial_labels": [
+        "H",
+        "E",
+        "N"
+      ],
+      "memory_before_sha256": "a18dcc1092b941bfc53ad7985673f1de69650c31986723ec2f0b14f0c6da7e18",
+      "new_reflection_sha256": [
+        "a5dc277a523acdff6b3ef1296f407739d06b56c072f8fcf47f91c0876d74e615"
+      ],
+      "panel": "recovery",
+      "port": 8002,
+      "result_file_sha256": "1f8fe8459126440f4b9de46f78c8f5717f5b548ba910df2b0075d5936fd8b949",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-05f694718d71af12-1701-retain/trial-02/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "05f694718d71af12",
+      "trial": 2,
+      "visible_memory_sha256": "094dcd9ddc20fbad364838558a34aa29c7f77f2d46668ae9fdbbe5941375b97a"
+    },
+    {
+      "cell_id": "recovery-05f694718d71af12-1701-without_cue",
+      "condition": "without_cue",
+      "decisions": 16,
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "memory_before_sha256": "94903cced6b08d27597677f27968009d8a8ef3b2b5f01d57c8f46f6dee035417",
+      "new_reflection_sha256": [],
+      "panel": "recovery",
+      "port": 8002,
+      "result_file_sha256": "25f2336e3e4560d9de3492ad0854b6f056f81c49116a544f7615981891d8b6cb",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-05f694718d71af12-1701-without_cue/trial-01/result.json",
+      "seed": 1701,
+      "success": true,
+      "task_id": "05f694718d71af12",
+      "trial": 1,
+      "visible_memory_sha256": "94903cced6b08d27597677f27968009d8a8ef3b2b5f01d57c8f46f6dee035417"
+    },
+    {
+      "cell_id": "recovery-05f694718d71af12-1702-correct",
+      "condition": "correct",
+      "decisions": 38,
+      "initial_labels": [
+        "H",
+        "C",
+        "N"
+      ],
+      "memory_before_sha256": "0315a8d64c93d1f108a72cf0059c7d56779acb07e2ee0c20081eb4da7ac063c2",
+      "new_reflection_sha256": [
+        "e860cc4b8a217575babd82e1d4bbc62f6a2f66c700ca1ee22fe467b1c4ee9579"
+      ],
+      "panel": "recovery",
+      "port": 8002,
+      "result_file_sha256": "844d98a854677dc9a3e6760753dee1a877fdf456eb902865795e0ce4595763dd",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-05f694718d71af12-1702-correct/trial-01/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "05f694718d71af12",
+      "trial": 1,
+      "visible_memory_sha256": "0315a8d64c93d1f108a72cf0059c7d56779acb07e2ee0c20081eb4da7ac063c2"
+    },
+    {
+      "cell_id": "recovery-05f694718d71af12-1702-correct",
+      "condition": "correct",
+      "decisions": 30,
+      "initial_labels": [
+        "H",
+        "C",
+        "N"
+      ],
+      "memory_before_sha256": "993398a30786b0472035088664d46820a44fb4beb275376d212665574a174f50",
+      "new_reflection_sha256": [
+        "2ff8932cf3839e81b44874241f74f5c22f9ff829ec6bb63290e4a086e4d66491"
+      ],
+      "panel": "recovery",
+      "port": 8002,
+      "result_file_sha256": "9bbb257aab99a61cf55fce14d56ac1b30914651a47c2f0fd78b9c4dda49171d3",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-05f694718d71af12-1702-correct/trial-02/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "05f694718d71af12",
+      "trial": 2,
+      "visible_memory_sha256": "be5a758b0f69d3bf66e6689789fdac949cb51c8419fd7a88e46202cb8e2015fa"
+    },
+    {
+      "cell_id": "recovery-05f694718d71af12-1702-delete",
+      "condition": "delete",
+      "decisions": 15,
+      "initial_labels": [
+        "H",
+        "N"
+      ],
+      "memory_before_sha256": "2fb19f730590acbe6b924c34bbd0ce587b6687f7b581a63f4b5190e7d3f86349",
+      "new_reflection_sha256": [],
+      "panel": "recovery",
+      "port": 8002,
+      "result_file_sha256": "80bc8c983c61fc83a7213778808997059b0945cfbf5d6719924751e5356e2038",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-05f694718d71af12-1702-delete/trial-01/result.json",
+      "seed": 1702,
+      "success": true,
+      "task_id": "05f694718d71af12",
+      "trial": 1,
+      "visible_memory_sha256": "2fb19f730590acbe6b924c34bbd0ce587b6687f7b581a63f4b5190e7d3f86349"
+    },
+    {
+      "cell_id": "recovery-05f694718d71af12-1702-replace",
+      "condition": "replace",
+      "decisions": 15,
+      "initial_labels": [
+        "H",
+        "N",
+        "N"
+      ],
+      "memory_before_sha256": "f9eb5fc7b95824a2e95f64fd69de53f1d37663b146c0774afaaf233c5fdac533",
+      "new_reflection_sha256": [],
+      "panel": "recovery",
+      "port": 8002,
+      "result_file_sha256": "657647d5805c46e4268c350837afd7f08064f80452418313680b20bb4b2015e8",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-05f694718d71af12-1702-replace/trial-01/result.json",
+      "seed": 1702,
+      "success": true,
+      "task_id": "05f694718d71af12",
+      "trial": 1,
+      "visible_memory_sha256": "f9eb5fc7b95824a2e95f64fd69de53f1d37663b146c0774afaaf233c5fdac533"
+    },
+    {
+      "cell_id": "recovery-05f694718d71af12-1702-retain",
+      "condition": "retain",
+      "decisions": 34,
+      "initial_labels": [
+        "H",
+        "E",
+        "N"
+      ],
+      "memory_before_sha256": "85ed8920b3227aaf23752f29c254fc565395abd96c6ab221e50d2c841698a3fd",
+      "new_reflection_sha256": [
+        "901b4243b001d9ee02148fd4c6cc4e2be22ff6387522d67caff4913bb3f19e12"
+      ],
+      "panel": "recovery",
+      "port": 8002,
+      "result_file_sha256": "0d49f29b2671179a73e845b0aa4a87e2fff0fddb96e758c7379ee767914ce390",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-05f694718d71af12-1702-retain/trial-01/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "05f694718d71af12",
+      "trial": 1,
+      "visible_memory_sha256": "85ed8920b3227aaf23752f29c254fc565395abd96c6ab221e50d2c841698a3fd"
+    },
+    {
+      "cell_id": "recovery-05f694718d71af12-1702-retain",
+      "condition": "retain",
+      "decisions": 35,
+      "initial_labels": [
+        "H",
+        "E",
+        "N"
+      ],
+      "memory_before_sha256": "d19d0123504fe5ec30888472335bdd51e3b04ce1714c7efd954572b2b1809ef4",
+      "new_reflection_sha256": [
+        "ab7d9f292ac7c687efa0466038ded3cf2f21d9b06aa418f7291d44d9ef4cedec"
+      ],
+      "panel": "recovery",
+      "port": 8002,
+      "result_file_sha256": "378251df0ca2765f9ad008e1a9bbb07928599f518f5c3a5649a3b41cf2c26364",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-05f694718d71af12-1702-retain/trial-02/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "05f694718d71af12",
+      "trial": 2,
+      "visible_memory_sha256": "c30a1e45bc38759503c7cefc96021b529673ef95585fef37fc06f95758b8dcd4"
+    },
+    {
+      "cell_id": "recovery-05f694718d71af12-1702-without_cue",
+      "condition": "without_cue",
+      "decisions": 16,
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "memory_before_sha256": "94903cced6b08d27597677f27968009d8a8ef3b2b5f01d57c8f46f6dee035417",
+      "new_reflection_sha256": [],
+      "panel": "recovery",
+      "port": 8002,
+      "result_file_sha256": "f7b3d19b89c8cc3053193a016a9c883d1491c063d6347e99b73ee8af2a3fa23c",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-05f694718d71af12-1702-without_cue/trial-01/result.json",
+      "seed": 1702,
+      "success": true,
+      "task_id": "05f694718d71af12",
+      "trial": 1,
+      "visible_memory_sha256": "94903cced6b08d27597677f27968009d8a8ef3b2b5f01d57c8f46f6dee035417"
+    },
+    {
+      "cell_id": "recovery-3e3fa991ee97689e-1701-correct",
+      "condition": "correct",
+      "decisions": 49,
+      "initial_labels": [
+        "H",
+        "C",
+        "N"
+      ],
+      "memory_before_sha256": "83a45dce875548c6258a492bd2ab675ce8f37b312abc99ab2778633f59ee5b9f",
+      "new_reflection_sha256": [
+        "cc4db82425cf3a9a56ec8cc6f9c0acf61209dbd5855cc89d725b7eb11d672c6d"
+      ],
+      "panel": "recovery",
+      "port": 8001,
+      "result_file_sha256": "fd55a4b9cc9e9646182b6c8e3b21d39c0cb40f63b16e5196f41577caba3e645b",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-3e3fa991ee97689e-1701-correct/trial-01/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "3e3fa991ee97689e",
+      "trial": 1,
+      "visible_memory_sha256": "83a45dce875548c6258a492bd2ab675ce8f37b312abc99ab2778633f59ee5b9f"
+    },
+    {
+      "cell_id": "recovery-3e3fa991ee97689e-1701-correct",
+      "condition": "correct",
+      "decisions": 49,
+      "initial_labels": [
+        "H",
+        "C",
+        "N"
+      ],
+      "memory_before_sha256": "9aac030432d5800143c95367d0116fe6ac62140d309de2dda917b447ddc89400",
+      "new_reflection_sha256": [
+        "46bab2782e7fd06a5508f3b7238d28b8ccf7f6921ff29aaba7b37921bc8b2038"
+      ],
+      "panel": "recovery",
+      "port": 8001,
+      "result_file_sha256": "dc3aa8957c5cf30cf2adc7e39c8e31dcf08939893ab6f55393ea04dcd33a3e3b",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-3e3fa991ee97689e-1701-correct/trial-02/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "3e3fa991ee97689e",
+      "trial": 2,
+      "visible_memory_sha256": "cee89954e036a20236446a9a8635a63efa05ef51b956754ec3d98919af0a0040"
+    },
+    {
+      "cell_id": "recovery-3e3fa991ee97689e-1701-delete",
+      "condition": "delete",
+      "decisions": 49,
+      "initial_labels": [
+        "H",
+        "N"
+      ],
+      "memory_before_sha256": "1b7d067295a0fc9d8879de69486f608a4359389401263fa38d8e192653e622bc",
+      "new_reflection_sha256": [
+        "c080e335263bfee778b750fa485be3d2459e03d303d979036d3f14ab35c08988"
+      ],
+      "panel": "recovery",
+      "port": 8001,
+      "result_file_sha256": "3320fbe6d76aafe7a76d81222dedd0a092738fd0b930d1bdeafd34961b450d10",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-3e3fa991ee97689e-1701-delete/trial-01/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "3e3fa991ee97689e",
+      "trial": 1,
+      "visible_memory_sha256": "1b7d067295a0fc9d8879de69486f608a4359389401263fa38d8e192653e622bc"
+    },
+    {
+      "cell_id": "recovery-3e3fa991ee97689e-1701-delete",
+      "condition": "delete",
+      "decisions": 49,
+      "initial_labels": [
+        "H",
+        "N"
+      ],
+      "memory_before_sha256": "3f14dae8faecc9164c7a01e4f824b3ade66ac4c18a68b871d7ff29c0fbcaf968",
+      "new_reflection_sha256": [
+        "cccdb47110001fad30a15bc3ae565b17693e16d31a42921f00cd7ef74df2accd"
+      ],
+      "panel": "recovery",
+      "port": 8001,
+      "result_file_sha256": "1e7f3654bcfda66081e3d4d86d70bb2bb01cb4400fa754466c79b80f889524de",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-3e3fa991ee97689e-1701-delete/trial-02/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "3e3fa991ee97689e",
+      "trial": 2,
+      "visible_memory_sha256": "3f14dae8faecc9164c7a01e4f824b3ade66ac4c18a68b871d7ff29c0fbcaf968"
+    },
+    {
+      "cell_id": "recovery-3e3fa991ee97689e-1701-replace",
+      "condition": "replace",
+      "decisions": 37,
+      "initial_labels": [
+        "H",
+        "N",
+        "N"
+      ],
+      "memory_before_sha256": "6a0ef8272f9993cb7ab60d8d2865dde64f696a0b712470e60765b652ef2e3e9a",
+      "new_reflection_sha256": [
+        "27721599ea9072b22108f24ccb37bb0628d5c432cd3c106d1fef102666df8466"
+      ],
+      "panel": "recovery",
+      "port": 8001,
+      "result_file_sha256": "807e7cf7464f584a4691ade162dc371c30b71256b9feb041782263c746b1f34f",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-3e3fa991ee97689e-1701-replace/trial-01/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "3e3fa991ee97689e",
+      "trial": 1,
+      "visible_memory_sha256": "6a0ef8272f9993cb7ab60d8d2865dde64f696a0b712470e60765b652ef2e3e9a"
+    },
+    {
+      "cell_id": "recovery-3e3fa991ee97689e-1701-replace",
+      "condition": "replace",
+      "decisions": 39,
+      "initial_labels": [
+        "H",
+        "N",
+        "N"
+      ],
+      "memory_before_sha256": "a9a117055bc9fc4367aabf48efc33c41b91638bf5f20ebf78102c1d019980a2d",
+      "new_reflection_sha256": [
+        "ab0965232323ead1b72d8b1463077d4e8907c6eddc073dbe6d2e95dd7c97d39a"
+      ],
+      "panel": "recovery",
+      "port": 8001,
+      "result_file_sha256": "4b3f9e68b02ac3b783879fb28134a5ba24eab2d655114ae02b2721dc065a22b0",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-3e3fa991ee97689e-1701-replace/trial-02/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "3e3fa991ee97689e",
+      "trial": 2,
+      "visible_memory_sha256": "93cca72a3f900ac252c5241f43259e7de08c739eed35b0ff72f84062f9c784f6"
+    },
+    {
+      "cell_id": "recovery-3e3fa991ee97689e-1701-retain",
+      "condition": "retain",
+      "decisions": 44,
+      "initial_labels": [
+        "H",
+        "E",
+        "N"
+      ],
+      "memory_before_sha256": "b4da5d7bb8f8e281462bdb40f8d537d2dd2d5eec92db1c3557d6d02242c147f2",
+      "new_reflection_sha256": [
+        "a56e8b622e18d6649af96a02458351ebb49f5b0973dc28062a01c184b95d1551"
+      ],
+      "panel": "recovery",
+      "port": 8001,
+      "result_file_sha256": "d311bafe1c418ac5a1efc4b91b5eead9fdebda306e60d157423ea7752355a649",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-3e3fa991ee97689e-1701-retain/trial-01/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "3e3fa991ee97689e",
+      "trial": 1,
+      "visible_memory_sha256": "b4da5d7bb8f8e281462bdb40f8d537d2dd2d5eec92db1c3557d6d02242c147f2"
+    },
+    {
+      "cell_id": "recovery-3e3fa991ee97689e-1701-retain",
+      "condition": "retain",
+      "decisions": 49,
+      "initial_labels": [
+        "H",
+        "E",
+        "N"
+      ],
+      "memory_before_sha256": "8d47d6d6d628a0126b4e375c21292c8b82d68300ddb9fd540d962fca11962be1",
+      "new_reflection_sha256": [
+        "95d2bbe2e1175a29a3cd15561382d7e78746ec7ef3d705ffc39355366025d352"
+      ],
+      "panel": "recovery",
+      "port": 8001,
+      "result_file_sha256": "efc6aa760c130314ab3ac829284c4a6664fe3746a2613843c4cc4bf35df38b83",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-3e3fa991ee97689e-1701-retain/trial-02/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "3e3fa991ee97689e",
+      "trial": 2,
+      "visible_memory_sha256": "81446bf59b51bdb3965c10b6f6cfabdb74e774a575e12f8b1e5350890f486b77"
+    },
+    {
+      "cell_id": "recovery-3e3fa991ee97689e-1701-without_cue",
+      "condition": "without_cue",
+      "decisions": 49,
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "memory_before_sha256": "94903cced6b08d27597677f27968009d8a8ef3b2b5f01d57c8f46f6dee035417",
+      "new_reflection_sha256": [
+        "f1e04501ea5ac3210068e1ff26dad0e472ac452a9dddaaf0b85a04fcb5d70ba0"
+      ],
+      "panel": "recovery",
+      "port": 8001,
+      "result_file_sha256": "e2f152fa3a3372f266b464979832d54f23793d7fac3d3c6c38ac26ef255534e8",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-3e3fa991ee97689e-1701-without_cue/trial-01/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "3e3fa991ee97689e",
+      "trial": 1,
+      "visible_memory_sha256": "94903cced6b08d27597677f27968009d8a8ef3b2b5f01d57c8f46f6dee035417"
+    },
+    {
+      "cell_id": "recovery-3e3fa991ee97689e-1701-without_cue",
+      "condition": "without_cue",
+      "decisions": 49,
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "memory_before_sha256": "7de95730a0634ecc457bd7badecfb39dac2adafe9bcab096f1edae2a9243bbef",
+      "new_reflection_sha256": [
+        "0420e4bb7b54ba62b3f34b98b5a3fdcb108d66eb451e8f3e6f87e9228d546e3a"
+      ],
+      "panel": "recovery",
+      "port": 8001,
+      "result_file_sha256": "923ad5f15c97c7ae99dde3502910c71fad4997ffab623929ebbff2f665c323c9",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-3e3fa991ee97689e-1701-without_cue/trial-02/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "3e3fa991ee97689e",
+      "trial": 2,
+      "visible_memory_sha256": "2ad843616f11809eaef1823fff3321dd9fad55e52b692d8181fd9c2740663edb"
+    },
+    {
+      "cell_id": "recovery-3e3fa991ee97689e-1702-correct",
+      "condition": "correct",
+      "decisions": 49,
+      "initial_labels": [
+        "H",
+        "C",
+        "N"
+      ],
+      "memory_before_sha256": "83a45dce875548c6258a492bd2ab675ce8f37b312abc99ab2778633f59ee5b9f",
+      "new_reflection_sha256": [
+        "25f81e50e9a62047ef982a55005481dc38443e1bc67e9ad58272c05f7d64b981"
+      ],
+      "panel": "recovery",
+      "port": 8001,
+      "result_file_sha256": "9c954af5be607874e12055c5bd930764b9e1e3acbcc1d59734383ed077d98a8c",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-3e3fa991ee97689e-1702-correct/trial-01/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "3e3fa991ee97689e",
+      "trial": 1,
+      "visible_memory_sha256": "83a45dce875548c6258a492bd2ab675ce8f37b312abc99ab2778633f59ee5b9f"
+    },
+    {
+      "cell_id": "recovery-3e3fa991ee97689e-1702-correct",
+      "condition": "correct",
+      "decisions": 49,
+      "initial_labels": [
+        "H",
+        "C",
+        "N"
+      ],
+      "memory_before_sha256": "35c64263620ca2524e55d189d62e1c5803e10e15ba09601fedaecfd7df6292a2",
+      "new_reflection_sha256": [
+        "e9910239511d0729962ea00b6f48656e20aed8d5980c7bd2c9418b193bef8c11"
+      ],
+      "panel": "recovery",
+      "port": 8001,
+      "result_file_sha256": "23459444f7c3ecb916b747695959d6fffff224131781a67bcb935cb0be741add",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-3e3fa991ee97689e-1702-correct/trial-02/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "3e3fa991ee97689e",
+      "trial": 2,
+      "visible_memory_sha256": "d2846e50161d84912eb125b14629d9f1f6f6f4cb9a691b143b622ef45d454be5"
+    },
+    {
+      "cell_id": "recovery-3e3fa991ee97689e-1702-delete",
+      "condition": "delete",
+      "decisions": 37,
+      "initial_labels": [
+        "H",
+        "N"
+      ],
+      "memory_before_sha256": "1b7d067295a0fc9d8879de69486f608a4359389401263fa38d8e192653e622bc",
+      "new_reflection_sha256": [
+        "dd5598fc2f7e13a67dc25a73d60964350039ca3b142aa7499ddf76fb24ae71eb"
+      ],
+      "panel": "recovery",
+      "port": 8001,
+      "result_file_sha256": "e2c6ac4953f753ec38c96c8da11649a2f98ec92548b5a0fb7fd266194fb38292",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-3e3fa991ee97689e-1702-delete/trial-01/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "3e3fa991ee97689e",
+      "trial": 1,
+      "visible_memory_sha256": "1b7d067295a0fc9d8879de69486f608a4359389401263fa38d8e192653e622bc"
+    },
+    {
+      "cell_id": "recovery-3e3fa991ee97689e-1702-delete",
+      "condition": "delete",
+      "decisions": 49,
+      "initial_labels": [
+        "H",
+        "N"
+      ],
+      "memory_before_sha256": "8d8e93627ad60ab1394a7745cad814f9debc505db1d631af5f9b41f25d006ec5",
+      "new_reflection_sha256": [
+        "3c7869e56d76823c9a56e78a720fe5d9977031ff6bcad1f78af6bbbe44e2000b"
+      ],
+      "panel": "recovery",
+      "port": 8001,
+      "result_file_sha256": "a99d19f89ac5fc45c4e56c80e8391a414c50799b9d619a9f209622b1befce03d",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-3e3fa991ee97689e-1702-delete/trial-02/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "3e3fa991ee97689e",
+      "trial": 2,
+      "visible_memory_sha256": "8d8e93627ad60ab1394a7745cad814f9debc505db1d631af5f9b41f25d006ec5"
+    },
+    {
+      "cell_id": "recovery-3e3fa991ee97689e-1702-replace",
+      "condition": "replace",
+      "decisions": 49,
+      "initial_labels": [
+        "H",
+        "N",
+        "N"
+      ],
+      "memory_before_sha256": "6a0ef8272f9993cb7ab60d8d2865dde64f696a0b712470e60765b652ef2e3e9a",
+      "new_reflection_sha256": [
+        "3ee3d94b5cba496e3a900e17f7a048f75ae41d09271a0a9593b0b77b3824c581"
+      ],
+      "panel": "recovery",
+      "port": 8001,
+      "result_file_sha256": "55bff78bb707f3a3f9ba1573031705ffae0ad531100b2f34df53c496f2bbde59",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-3e3fa991ee97689e-1702-replace/trial-01/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "3e3fa991ee97689e",
+      "trial": 1,
+      "visible_memory_sha256": "6a0ef8272f9993cb7ab60d8d2865dde64f696a0b712470e60765b652ef2e3e9a"
+    },
+    {
+      "cell_id": "recovery-3e3fa991ee97689e-1702-replace",
+      "condition": "replace",
+      "decisions": 49,
+      "initial_labels": [
+        "H",
+        "N",
+        "N"
+      ],
+      "memory_before_sha256": "2caa8086dfa0d86657c0d4aa12563d36148ce8a52a68c9c46f0a13f512a4f807",
+      "new_reflection_sha256": [
+        "157d97fd1e16dc4bb51f591512d3a29b726511c9b4e05e17cc7820c1216f32fe"
+      ],
+      "panel": "recovery",
+      "port": 8001,
+      "result_file_sha256": "c89ac3a77a5d4675e83ea54d2f3bd1ae73880893906db5771ab52f85590b00ec",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-3e3fa991ee97689e-1702-replace/trial-02/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "3e3fa991ee97689e",
+      "trial": 2,
+      "visible_memory_sha256": "e91b105649f00c246ccae3bcc94c04879342e314dd2d9c35c47a6967f91e62c4"
+    },
+    {
+      "cell_id": "recovery-3e3fa991ee97689e-1702-retain",
+      "condition": "retain",
+      "decisions": 49,
+      "initial_labels": [
+        "H",
+        "E",
+        "N"
+      ],
+      "memory_before_sha256": "b4da5d7bb8f8e281462bdb40f8d537d2dd2d5eec92db1c3557d6d02242c147f2",
+      "new_reflection_sha256": [
+        "b6537d923dd4c88355fd1acd96aaff0eff16aea9bdec242c59d292aad8dd88f6"
+      ],
+      "panel": "recovery",
+      "port": 8001,
+      "result_file_sha256": "5dc4b275cfed684a547c860b9b832fba6d7b21b68b0be3e882d555f84a2d9c9f",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-3e3fa991ee97689e-1702-retain/trial-01/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "3e3fa991ee97689e",
+      "trial": 1,
+      "visible_memory_sha256": "b4da5d7bb8f8e281462bdb40f8d537d2dd2d5eec92db1c3557d6d02242c147f2"
+    },
+    {
+      "cell_id": "recovery-3e3fa991ee97689e-1702-retain",
+      "condition": "retain",
+      "decisions": 49,
+      "initial_labels": [
+        "H",
+        "E",
+        "N"
+      ],
+      "memory_before_sha256": "c87ec66e7fe3c804aeab4f6ebd5b84020e77383ff281cda5ecff34bc2ee85edf",
+      "new_reflection_sha256": [
+        "f88f5a7a2637b684a9546f93d92d2bd2373408406578c6f31b48684979bf3cdf"
+      ],
+      "panel": "recovery",
+      "port": 8001,
+      "result_file_sha256": "22978587a30bc8dceab56b031bde64bf7b442fac69a10b88e674f2b1434de647",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-3e3fa991ee97689e-1702-retain/trial-02/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "3e3fa991ee97689e",
+      "trial": 2,
+      "visible_memory_sha256": "cae5b76c95594761ef9b150997b715255d0b90d5684a3009a5ff9072011d0b1c"
+    },
+    {
+      "cell_id": "recovery-3e3fa991ee97689e-1702-without_cue",
+      "condition": "without_cue",
+      "decisions": 17,
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "memory_before_sha256": "94903cced6b08d27597677f27968009d8a8ef3b2b5f01d57c8f46f6dee035417",
+      "new_reflection_sha256": [
+        "4ba81ba69caa829b59ff7393d8a1f860a52bbb7cce47fe71a6183b43f174e839"
+      ],
+      "panel": "recovery",
+      "port": 8001,
+      "result_file_sha256": "1d3779bb2c9a56842cd705548a6e2902160076cea75425a180e745ea68db4860",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-3e3fa991ee97689e-1702-without_cue/trial-01/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "3e3fa991ee97689e",
+      "trial": 1,
+      "visible_memory_sha256": "94903cced6b08d27597677f27968009d8a8ef3b2b5f01d57c8f46f6dee035417"
+    },
+    {
+      "cell_id": "recovery-3e3fa991ee97689e-1702-without_cue",
+      "condition": "without_cue",
+      "decisions": 49,
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "memory_before_sha256": "2b2505648cd9a2d02aaf644a56e86d5ad2fa5d4bd652c59c70a1a6da1c27031e",
+      "new_reflection_sha256": [
+        "07f0b1e341ff379536d5527a30ff6b4c09e26d5bc8a5b71d248988c13e742ad4"
+      ],
+      "panel": "recovery",
+      "port": 8001,
+      "result_file_sha256": "d9cd81527907ecc8b7a9d6fadade310710bd61362033ca70a8db361aec4c3219",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-3e3fa991ee97689e-1702-without_cue/trial-02/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "3e3fa991ee97689e",
+      "trial": 2,
+      "visible_memory_sha256": "441c5027943973e5bdd8592e57b8868e2fdd39a7cb3597bab19257b9c4932b02"
+    },
+    {
+      "cell_id": "recovery-64aa51b30cab1f98-1701-correct",
+      "condition": "correct",
+      "decisions": 43,
+      "initial_labels": [
+        "H",
+        "C",
+        "N"
+      ],
+      "memory_before_sha256": "648b9d8451d018a226a295d3b36a0f87058c07f86be49d2a297a8858419df17c",
+      "new_reflection_sha256": [
+        "6041a44b7473d06a420b335e3989e1ae03a56bef597d7dbcf9019e64c59f4fa1"
+      ],
+      "panel": "recovery",
+      "port": 8003,
+      "result_file_sha256": "8cb5a20c11c8b0ffc587ae8ee56cf9a0b40604007b4192f147ed0da0dae259d5",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-64aa51b30cab1f98-1701-correct/trial-01/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "64aa51b30cab1f98",
+      "trial": 1,
+      "visible_memory_sha256": "648b9d8451d018a226a295d3b36a0f87058c07f86be49d2a297a8858419df17c"
+    },
+    {
+      "cell_id": "recovery-64aa51b30cab1f98-1701-correct",
+      "condition": "correct",
+      "decisions": 49,
+      "initial_labels": [
+        "H",
+        "C",
+        "N"
+      ],
+      "memory_before_sha256": "5ade3028cdade355f687b57bb6ddf9a57bcf6c9af64562f6080740c0b1013876",
+      "new_reflection_sha256": [
+        "6041a44b7473d06a420b335e3989e1ae03a56bef597d7dbcf9019e64c59f4fa1"
+      ],
+      "panel": "recovery",
+      "port": 8003,
+      "result_file_sha256": "6a428dd3efcedeacf1ed201a5df713a849b76daf6d0d62223b92a59954fd3839",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-64aa51b30cab1f98-1701-correct/trial-02/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "64aa51b30cab1f98",
+      "trial": 2,
+      "visible_memory_sha256": "4129c30282f67774df707fdbf80bd49c444707a4036d296908bd72f65b9dca0b"
+    },
+    {
+      "cell_id": "recovery-64aa51b30cab1f98-1701-delete",
+      "condition": "delete",
+      "decisions": 49,
+      "initial_labels": [
+        "H",
+        "N"
+      ],
+      "memory_before_sha256": "a6ad655dfcd628dbd5b0f1d83eb5de4632e9bb4db3fc5fa555cc6df2bb0134a5",
+      "new_reflection_sha256": [
+        "bc010d31e311bdc32dcabba0fc3225e53e55bcd013a97f9374c66e0b32c813cd"
+      ],
+      "panel": "recovery",
+      "port": 8003,
+      "result_file_sha256": "538b77a1fdb3728f5db9743c1388d0000ca74f593a207c7f71d5801b7e8fe155",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-64aa51b30cab1f98-1701-delete/trial-01/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "64aa51b30cab1f98",
+      "trial": 1,
+      "visible_memory_sha256": "a6ad655dfcd628dbd5b0f1d83eb5de4632e9bb4db3fc5fa555cc6df2bb0134a5"
+    },
+    {
+      "cell_id": "recovery-64aa51b30cab1f98-1701-delete",
+      "condition": "delete",
+      "decisions": 49,
+      "initial_labels": [
+        "H",
+        "N"
+      ],
+      "memory_before_sha256": "0095d0b54710dad0c82eca3eee34d27d35dddf93219dbdb5201f9a89ffc91801",
+      "new_reflection_sha256": [
+        "706a303270d860a0506fc33033b9c97ed490df1682cfd906ac414d23709479c7"
+      ],
+      "panel": "recovery",
+      "port": 8003,
+      "result_file_sha256": "2a135a2aae689f88380e0bdcbfef5bb00e0213fbf724889c709a620233a3fca8",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-64aa51b30cab1f98-1701-delete/trial-02/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "64aa51b30cab1f98",
+      "trial": 2,
+      "visible_memory_sha256": "0095d0b54710dad0c82eca3eee34d27d35dddf93219dbdb5201f9a89ffc91801"
+    },
+    {
+      "cell_id": "recovery-64aa51b30cab1f98-1701-replace",
+      "condition": "replace",
+      "decisions": 49,
+      "initial_labels": [
+        "H",
+        "N",
+        "N"
+      ],
+      "memory_before_sha256": "c060fe845894a087d5234037978dc84a9e02334a6dcbc2460b6a262ab98d0255",
+      "new_reflection_sha256": [
+        "ac9642875cd6e3755698652805b12135b3b2a2ec1b6d39fbbe3b1274deff80db"
+      ],
+      "panel": "recovery",
+      "port": 8003,
+      "result_file_sha256": "21d2e63fe662cb80b1d220e4c17bb30468d45320ab315225d2283f051e2898c8",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-64aa51b30cab1f98-1701-replace/trial-01/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "64aa51b30cab1f98",
+      "trial": 1,
+      "visible_memory_sha256": "c060fe845894a087d5234037978dc84a9e02334a6dcbc2460b6a262ab98d0255"
+    },
+    {
+      "cell_id": "recovery-64aa51b30cab1f98-1701-replace",
+      "condition": "replace",
+      "decisions": 49,
+      "initial_labels": [
+        "H",
+        "N",
+        "N"
+      ],
+      "memory_before_sha256": "b7e2afd70c33eff6de42c5c8c703d8a9b657a066516e9f76a42702d6588997f4",
+      "new_reflection_sha256": [
+        "372c1f6160518f3527fa043765b337c4ceda94ff3dd22fca9155251d48507fdd"
+      ],
+      "panel": "recovery",
+      "port": 8003,
+      "result_file_sha256": "49191988337fd304439455a9ec42921f9b66af987d79a5b3d1aba572b66d305e",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-64aa51b30cab1f98-1701-replace/trial-02/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "64aa51b30cab1f98",
+      "trial": 2,
+      "visible_memory_sha256": "f6758557794a5034870d2e4c801182ba156bb9efaa895afe10512cab8c7d58c6"
+    },
+    {
+      "cell_id": "recovery-64aa51b30cab1f98-1701-retain",
+      "condition": "retain",
+      "decisions": 49,
+      "initial_labels": [
+        "H",
+        "E",
+        "N"
+      ],
+      "memory_before_sha256": "52ec900a3e1419946b5afeef579055c9bfe54c0ec423a36a5bb76d55e25c16d4",
+      "new_reflection_sha256": [
+        "20c03ae91d47e0e42dda974e0835dcbbde73b022e16adc146f64ffb4f5dd183b"
+      ],
+      "panel": "recovery",
+      "port": 8003,
+      "result_file_sha256": "6c0cbdc90f6c561b54e6ec6db62d81308ab2d459d05f9a4c732f61700569e1ac",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-64aa51b30cab1f98-1701-retain/trial-01/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "64aa51b30cab1f98",
+      "trial": 1,
+      "visible_memory_sha256": "52ec900a3e1419946b5afeef579055c9bfe54c0ec423a36a5bb76d55e25c16d4"
+    },
+    {
+      "cell_id": "recovery-64aa51b30cab1f98-1701-retain",
+      "condition": "retain",
+      "decisions": 44,
+      "initial_labels": [
+        "H",
+        "E",
+        "N"
+      ],
+      "memory_before_sha256": "44dcb5cd5e15b846fd568d7910cf80f14be234383d3e6e76556f185541d27767",
+      "new_reflection_sha256": [
+        "196ef622e2503aa9152767ccce871f037ff16c5e3e0d9796ab3c333684e6373d"
+      ],
+      "panel": "recovery",
+      "port": 8003,
+      "result_file_sha256": "dfbe4bd94abf8aeba3d64bd4ca3f15996dc28aae08601bbf4b3b2b336b64c058",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-64aa51b30cab1f98-1701-retain/trial-02/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "64aa51b30cab1f98",
+      "trial": 2,
+      "visible_memory_sha256": "268c4466809be6c78fdaf4713b9d59d69a1438efafe40dc0ed41b3bd08e9639f"
+    },
+    {
+      "cell_id": "recovery-64aa51b30cab1f98-1701-without_cue",
+      "condition": "without_cue",
+      "decisions": 49,
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "memory_before_sha256": "94903cced6b08d27597677f27968009d8a8ef3b2b5f01d57c8f46f6dee035417",
+      "new_reflection_sha256": [
+        "78e9c91f6433e2858bcf1ff8e1f48a59dc1d9c891288ec10bf74d8c75171c2ba"
+      ],
+      "panel": "recovery",
+      "port": 8003,
+      "result_file_sha256": "ce30a03c0b21c3dd2c57beed6605767e5a08c9cc9d03066e3c977f41672204e1",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-64aa51b30cab1f98-1701-without_cue/trial-01/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "64aa51b30cab1f98",
+      "trial": 1,
+      "visible_memory_sha256": "94903cced6b08d27597677f27968009d8a8ef3b2b5f01d57c8f46f6dee035417"
+    },
+    {
+      "cell_id": "recovery-64aa51b30cab1f98-1701-without_cue",
+      "condition": "without_cue",
+      "decisions": 47,
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "memory_before_sha256": "cebce92ed1f5bcede1180e4e52956c962b81702791f62a82cf806af52c829653",
+      "new_reflection_sha256": [
+        "c6d069ac1af8627482a3cacea65b6237fef36209fcaca12ab8f870acb4c0a868"
+      ],
+      "panel": "recovery",
+      "port": 8003,
+      "result_file_sha256": "fda314c89576fe4902291a6666b3745932b91bcf9e301eab3d8851cd44304930",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-64aa51b30cab1f98-1701-without_cue/trial-02/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "64aa51b30cab1f98",
+      "trial": 2,
+      "visible_memory_sha256": "f32221c8554df5ebafd623805d5bb8b1eb7d073fe7ac7e5082be871cdbe6be4e"
+    },
+    {
+      "cell_id": "recovery-64aa51b30cab1f98-1702-correct",
+      "condition": "correct",
+      "decisions": 49,
+      "initial_labels": [
+        "H",
+        "C",
+        "N"
+      ],
+      "memory_before_sha256": "648b9d8451d018a226a295d3b36a0f87058c07f86be49d2a297a8858419df17c",
+      "new_reflection_sha256": [
+        "5eb1fc785293cb2222fd5b0de4ff9cdd4bdc69d82c9403c7d099fe371c47b03d"
+      ],
+      "panel": "recovery",
+      "port": 8003,
+      "result_file_sha256": "8a92d2467f6f4dfed892a8e0c3289c27ca5d59587a8f1022d6463d74dcbfab31",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-64aa51b30cab1f98-1702-correct/trial-01/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "64aa51b30cab1f98",
+      "trial": 1,
+      "visible_memory_sha256": "648b9d8451d018a226a295d3b36a0f87058c07f86be49d2a297a8858419df17c"
+    },
+    {
+      "cell_id": "recovery-64aa51b30cab1f98-1702-correct",
+      "condition": "correct",
+      "decisions": 49,
+      "initial_labels": [
+        "H",
+        "C",
+        "N"
+      ],
+      "memory_before_sha256": "d7242dab9757795ff9b7510e6b33eab4805399ff4ce8f87062eae1c69e6a695e",
+      "new_reflection_sha256": [
+        "626befea132248a15391656ac075dc4e422bce7007bdc3cac7edfa2944c60ef0"
+      ],
+      "panel": "recovery",
+      "port": 8003,
+      "result_file_sha256": "24d6235b0dcd978d05619f9366c5af0a2a0fd0c311b547fce80fe4b6dd2e7a8d",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-64aa51b30cab1f98-1702-correct/trial-02/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "64aa51b30cab1f98",
+      "trial": 2,
+      "visible_memory_sha256": "d148345504a8cda37463d13bf82ab3c5f011eea6f1d7a68c222fbeb5da47cbd3"
+    },
+    {
+      "cell_id": "recovery-64aa51b30cab1f98-1702-delete",
+      "condition": "delete",
+      "decisions": 46,
+      "initial_labels": [
+        "H",
+        "N"
+      ],
+      "memory_before_sha256": "a6ad655dfcd628dbd5b0f1d83eb5de4632e9bb4db3fc5fa555cc6df2bb0134a5",
+      "new_reflection_sha256": [
+        "8855754edc346e6dd52997c2a5e3640d6d7226dbbe8a45f416bb7f8e8d19a7f1"
+      ],
+      "panel": "recovery",
+      "port": 8003,
+      "result_file_sha256": "7868b19776dd4fc48c7b002938c1906b0728c93fb6943f499a5562862013cd0e",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-64aa51b30cab1f98-1702-delete/trial-01/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "64aa51b30cab1f98",
+      "trial": 1,
+      "visible_memory_sha256": "a6ad655dfcd628dbd5b0f1d83eb5de4632e9bb4db3fc5fa555cc6df2bb0134a5"
+    },
+    {
+      "cell_id": "recovery-64aa51b30cab1f98-1702-delete",
+      "condition": "delete",
+      "decisions": 49,
+      "initial_labels": [
+        "H",
+        "N"
+      ],
+      "memory_before_sha256": "96d3469a3a31942c8866ad12a476e0c92e4f6c7e124b950e54c1e43d7f6db2e1",
+      "new_reflection_sha256": [
+        "975d4fc0164fbd828d5beeabec58ca93ca2a7af00eb7a3d987cbeac45399168b"
+      ],
+      "panel": "recovery",
+      "port": 8003,
+      "result_file_sha256": "27ed2e90dc7214d2539dd9649b04e89dad0fe3c7ef2dec217d0b0f53ddb8da12",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-64aa51b30cab1f98-1702-delete/trial-02/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "64aa51b30cab1f98",
+      "trial": 2,
+      "visible_memory_sha256": "96d3469a3a31942c8866ad12a476e0c92e4f6c7e124b950e54c1e43d7f6db2e1"
+    },
+    {
+      "cell_id": "recovery-64aa51b30cab1f98-1702-replace",
+      "condition": "replace",
+      "decisions": 49,
+      "initial_labels": [
+        "H",
+        "N",
+        "N"
+      ],
+      "memory_before_sha256": "c060fe845894a087d5234037978dc84a9e02334a6dcbc2460b6a262ab98d0255",
+      "new_reflection_sha256": [
+        "1477e16913795538a6a8e236167cf7f1a7d1b562a95927ccac7a5744a7afdc42"
+      ],
+      "panel": "recovery",
+      "port": 8003,
+      "result_file_sha256": "368655755299230701cf7b0ec7609341c329d21c94afb41dd106868c9159af29",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-64aa51b30cab1f98-1702-replace/trial-01/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "64aa51b30cab1f98",
+      "trial": 1,
+      "visible_memory_sha256": "c060fe845894a087d5234037978dc84a9e02334a6dcbc2460b6a262ab98d0255"
+    },
+    {
+      "cell_id": "recovery-64aa51b30cab1f98-1702-replace",
+      "condition": "replace",
+      "decisions": 19,
+      "initial_labels": [
+        "H",
+        "N",
+        "N"
+      ],
+      "memory_before_sha256": "3b0baddd3917991d7aaeb55a229a7cce6db082ecf89cd8298107c9e1baee898e",
+      "new_reflection_sha256": [],
+      "panel": "recovery",
+      "port": 8003,
+      "result_file_sha256": "1728f59fd1fb5686d6426cc84d290da85ef730d207dfb0a6c60fc950314b619a",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-64aa51b30cab1f98-1702-replace/trial-02/result.json",
+      "seed": 1702,
+      "success": true,
+      "task_id": "64aa51b30cab1f98",
+      "trial": 2,
+      "visible_memory_sha256": "49b8ccd2a424d3a742a52c318559624817cdeb216a306da1e47e0e3190d8c997"
+    },
+    {
+      "cell_id": "recovery-64aa51b30cab1f98-1702-retain",
+      "condition": "retain",
+      "decisions": 49,
+      "initial_labels": [
+        "H",
+        "E",
+        "N"
+      ],
+      "memory_before_sha256": "52ec900a3e1419946b5afeef579055c9bfe54c0ec423a36a5bb76d55e25c16d4",
+      "new_reflection_sha256": [
+        "5f4c92dd7b63b00c6f1d68b24050c51d1f4a3420abea7f5870604ea038b14423"
+      ],
+      "panel": "recovery",
+      "port": 8003,
+      "result_file_sha256": "2eed443b190c02813fd274376956b66f8871386d2970c65af0b33351efbdf3b8",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-64aa51b30cab1f98-1702-retain/trial-01/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "64aa51b30cab1f98",
+      "trial": 1,
+      "visible_memory_sha256": "52ec900a3e1419946b5afeef579055c9bfe54c0ec423a36a5bb76d55e25c16d4"
+    },
+    {
+      "cell_id": "recovery-64aa51b30cab1f98-1702-retain",
+      "condition": "retain",
+      "decisions": 47,
+      "initial_labels": [
+        "H",
+        "E",
+        "N"
+      ],
+      "memory_before_sha256": "6b1193667c1cd83e422a93e403e5a90bb1b5802a3c473b68a9b0927c282ba667",
+      "new_reflection_sha256": [
+        "01e305651752e54868ea1445173879622e67995930d49d046638c3f92ceed4a3"
+      ],
+      "panel": "recovery",
+      "port": 8003,
+      "result_file_sha256": "1ea8c8b35e7ab63f77ade48c73c7b74563d1c2ff5efc24ff1a385d8491b8b2d2",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-64aa51b30cab1f98-1702-retain/trial-02/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "64aa51b30cab1f98",
+      "trial": 2,
+      "visible_memory_sha256": "c133bd6b040b9f4d7a037285e14ebcbda7153e882ea5d7012fdedd7990f53c99"
+    },
+    {
+      "cell_id": "recovery-64aa51b30cab1f98-1702-without_cue",
+      "condition": "without_cue",
+      "decisions": 49,
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "memory_before_sha256": "94903cced6b08d27597677f27968009d8a8ef3b2b5f01d57c8f46f6dee035417",
+      "new_reflection_sha256": [
+        "15bdd1776d1e16a9f1d7c997626ee02c7fb9ce75843028f6ee1e9977146906fc"
+      ],
+      "panel": "recovery",
+      "port": 8003,
+      "result_file_sha256": "f4bbb6ef1f0b820aa8e200c6176436e517286ef9e82ce13078a45ce782a7f7da",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-64aa51b30cab1f98-1702-without_cue/trial-01/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "64aa51b30cab1f98",
+      "trial": 1,
+      "visible_memory_sha256": "94903cced6b08d27597677f27968009d8a8ef3b2b5f01d57c8f46f6dee035417"
+    },
+    {
+      "cell_id": "recovery-64aa51b30cab1f98-1702-without_cue",
+      "condition": "without_cue",
+      "decisions": 49,
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "memory_before_sha256": "2b8d506a2d5eae6eb1606273830943d06420c35342fde6deb450d25cbbaf74c6",
+      "new_reflection_sha256": [
+        "e1dafba0fc0ce243f0082d40eed1527ee12345650529fb773947643c1690d0c4"
+      ],
+      "panel": "recovery",
+      "port": 8003,
+      "result_file_sha256": "1d23e4bbd30e28d07e4a438ff4fdf3325cd167a611ffb46e0d3d5a1a9025593a",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-64aa51b30cab1f98-1702-without_cue/trial-02/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "64aa51b30cab1f98",
+      "trial": 2,
+      "visible_memory_sha256": "d6f23d4f1762c3d3b2ae7f7e7d78d2878ce0f24a9d1086f05b7361e6d23be5fd"
+    },
+    {
+      "cell_id": "recovery-762a7487ace813d7-1701-correct",
+      "condition": "correct",
+      "decisions": 20,
+      "initial_labels": [
+        "H",
+        "C",
+        "N"
+      ],
+      "memory_before_sha256": "e95c8c132bd0f6b833594a270b4afa594b7ceb76e368a6d8481e1db6118c4ed9",
+      "new_reflection_sha256": [],
+      "panel": "recovery",
+      "port": 8002,
+      "result_file_sha256": "e48da9e17b5c8b848cdbe91a4175a4cb25780b265d613d4910e267168c98901b",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-762a7487ace813d7-1701-correct/trial-01/result.json",
+      "seed": 1701,
+      "success": true,
+      "task_id": "762a7487ace813d7",
+      "trial": 1,
+      "visible_memory_sha256": "e95c8c132bd0f6b833594a270b4afa594b7ceb76e368a6d8481e1db6118c4ed9"
+    },
+    {
+      "cell_id": "recovery-762a7487ace813d7-1701-delete",
+      "condition": "delete",
+      "decisions": 49,
+      "initial_labels": [
+        "H",
+        "N"
+      ],
+      "memory_before_sha256": "619b9f2aea3e9432b9faafe013152ab3014ef9310100e71e619035a63ff06d05",
+      "new_reflection_sha256": [
+        "46fbbdc3e45815782b9c1c268b32bafc4ed4458fc6f60ac28903fcb086d2f564"
+      ],
+      "panel": "recovery",
+      "port": 8002,
+      "result_file_sha256": "6b6d4a00b60815af3e014d825502cfa3cca34ce641d3c18386353ef2fdd4174b",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-762a7487ace813d7-1701-delete/trial-01/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "762a7487ace813d7",
+      "trial": 1,
+      "visible_memory_sha256": "619b9f2aea3e9432b9faafe013152ab3014ef9310100e71e619035a63ff06d05"
+    },
+    {
+      "cell_id": "recovery-762a7487ace813d7-1701-delete",
+      "condition": "delete",
+      "decisions": 18,
+      "initial_labels": [
+        "H",
+        "N"
+      ],
+      "memory_before_sha256": "a8121bacd7b45c12f6984d6e6db0443ee1387a6d3accd7d17ce0dcd9fd3de6c9",
+      "new_reflection_sha256": [],
+      "panel": "recovery",
+      "port": 8002,
+      "result_file_sha256": "59c64cc47d8902c3b22632ef8c434856451dfadc3f0a88f20e32be9346e622a9",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-762a7487ace813d7-1701-delete/trial-02/result.json",
+      "seed": 1701,
+      "success": true,
+      "task_id": "762a7487ace813d7",
+      "trial": 2,
+      "visible_memory_sha256": "a8121bacd7b45c12f6984d6e6db0443ee1387a6d3accd7d17ce0dcd9fd3de6c9"
+    },
+    {
+      "cell_id": "recovery-762a7487ace813d7-1701-replace",
+      "condition": "replace",
+      "decisions": 49,
+      "initial_labels": [
+        "H",
+        "N",
+        "N"
+      ],
+      "memory_before_sha256": "8f8e4d7a418f2cf55179f6f816a6e3caebb4ff2976ba21485876da06dfd83f41",
+      "new_reflection_sha256": [
+        "b6d607742e9b807b1c9e3c85cbdc14da3fb24a26f13cbfdda575cf50bc3a4524"
+      ],
+      "panel": "recovery",
+      "port": 8002,
+      "result_file_sha256": "064f44a3abc7bd549fff3873869fd7da6525b5e12121abe8cd49961258cb9f8d",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-762a7487ace813d7-1701-replace/trial-01/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "762a7487ace813d7",
+      "trial": 1,
+      "visible_memory_sha256": "8f8e4d7a418f2cf55179f6f816a6e3caebb4ff2976ba21485876da06dfd83f41"
+    },
+    {
+      "cell_id": "recovery-762a7487ace813d7-1701-replace",
+      "condition": "replace",
+      "decisions": 19,
+      "initial_labels": [
+        "H",
+        "N",
+        "N"
+      ],
+      "memory_before_sha256": "e8e9c9236fff58eb6f1ff0ed1234c32d11eea794dddce7dfc6912cee0d0cb82e",
+      "new_reflection_sha256": [],
+      "panel": "recovery",
+      "port": 8002,
+      "result_file_sha256": "6fd39db5240433d31bf25c436688b4a0841f07aff46bf4de163f4cc45fd8eaea",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-762a7487ace813d7-1701-replace/trial-02/result.json",
+      "seed": 1701,
+      "success": true,
+      "task_id": "762a7487ace813d7",
+      "trial": 2,
+      "visible_memory_sha256": "b1cab7360a08c8eadee132a73eb73ec2ad0a0062056bd9ae938ec0888a77cf0b"
+    },
+    {
+      "cell_id": "recovery-762a7487ace813d7-1701-retain",
+      "condition": "retain",
+      "decisions": 49,
+      "initial_labels": [
+        "H",
+        "E",
+        "N"
+      ],
+      "memory_before_sha256": "6f0c22a36eaa93492db00dcb9bdd86f76ae6fee6e5c6905fb8e7d3a9d743f1f8",
+      "new_reflection_sha256": [
+        "c0c5a770bf88d471e859102a666dce52f595bf9e1acda5083bebb5a058b9675d"
+      ],
+      "panel": "recovery",
+      "port": 8002,
+      "result_file_sha256": "9658bfae5287431fa35eb66e58b7f4a95d3015d8b49860f73d98395a992225f1",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-762a7487ace813d7-1701-retain/trial-01/result.json",
+      "seed": 1701,
+      "success": false,
+      "task_id": "762a7487ace813d7",
+      "trial": 1,
+      "visible_memory_sha256": "6f0c22a36eaa93492db00dcb9bdd86f76ae6fee6e5c6905fb8e7d3a9d743f1f8"
+    },
+    {
+      "cell_id": "recovery-762a7487ace813d7-1701-retain",
+      "condition": "retain",
+      "decisions": 20,
+      "initial_labels": [
+        "H",
+        "E",
+        "N"
+      ],
+      "memory_before_sha256": "5f22647ebecc73f1564dd6da45551350be271ce7d9fc02f0da28b94fe14415db",
+      "new_reflection_sha256": [],
+      "panel": "recovery",
+      "port": 8002,
+      "result_file_sha256": "dc26c7c4e441ccf91558e18d3b0e716b2c67699e695bedc6858a6ba93c402020",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-762a7487ace813d7-1701-retain/trial-02/result.json",
+      "seed": 1701,
+      "success": true,
+      "task_id": "762a7487ace813d7",
+      "trial": 2,
+      "visible_memory_sha256": "8cce702c9bedc05efbe7e66b4e9e1da3ba3cd86b8fb15511a5d2c2424d33ca24"
+    },
+    {
+      "cell_id": "recovery-762a7487ace813d7-1701-without_cue",
+      "condition": "without_cue",
+      "decisions": 19,
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "memory_before_sha256": "94903cced6b08d27597677f27968009d8a8ef3b2b5f01d57c8f46f6dee035417",
+      "new_reflection_sha256": [],
+      "panel": "recovery",
+      "port": 8002,
+      "result_file_sha256": "ad94dd6535d4c713bc3abc47bd4ef83e08efce6cbdcf62b009f999d7c3a765c5",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-762a7487ace813d7-1701-without_cue/trial-01/result.json",
+      "seed": 1701,
+      "success": true,
+      "task_id": "762a7487ace813d7",
+      "trial": 1,
+      "visible_memory_sha256": "94903cced6b08d27597677f27968009d8a8ef3b2b5f01d57c8f46f6dee035417"
+    },
+    {
+      "cell_id": "recovery-762a7487ace813d7-1702-correct",
+      "condition": "correct",
+      "decisions": 21,
+      "initial_labels": [
+        "H",
+        "C",
+        "N"
+      ],
+      "memory_before_sha256": "e95c8c132bd0f6b833594a270b4afa594b7ceb76e368a6d8481e1db6118c4ed9",
+      "new_reflection_sha256": [],
+      "panel": "recovery",
+      "port": 8002,
+      "result_file_sha256": "463d710355550c681d7d86867a71379e42a559e0ce2d3c729c2a2b8b3cd86049",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-762a7487ace813d7-1702-correct/trial-01/result.json",
+      "seed": 1702,
+      "success": true,
+      "task_id": "762a7487ace813d7",
+      "trial": 1,
+      "visible_memory_sha256": "e95c8c132bd0f6b833594a270b4afa594b7ceb76e368a6d8481e1db6118c4ed9"
+    },
+    {
+      "cell_id": "recovery-762a7487ace813d7-1702-delete",
+      "condition": "delete",
+      "decisions": 49,
+      "initial_labels": [
+        "H",
+        "N"
+      ],
+      "memory_before_sha256": "619b9f2aea3e9432b9faafe013152ab3014ef9310100e71e619035a63ff06d05",
+      "new_reflection_sha256": [
+        "25f2d93e6c154c25f9408e5698c124b545070fe7f7bc1cd67db3129885520a88"
+      ],
+      "panel": "recovery",
+      "port": 8002,
+      "result_file_sha256": "2d4b0b6c9cbdec148689b3d75cc807edf69927df8f7aeb99f7bf133fb70a153e",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-762a7487ace813d7-1702-delete/trial-01/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "762a7487ace813d7",
+      "trial": 1,
+      "visible_memory_sha256": "619b9f2aea3e9432b9faafe013152ab3014ef9310100e71e619035a63ff06d05"
+    },
+    {
+      "cell_id": "recovery-762a7487ace813d7-1702-delete",
+      "condition": "delete",
+      "decisions": 49,
+      "initial_labels": [
+        "H",
+        "N"
+      ],
+      "memory_before_sha256": "f29b64fc1fd3437f76d7716e7a48311198f6f920da779b3bb5a9557049500833",
+      "new_reflection_sha256": [
+        "ecfdc3829bc1eb6546c9650be9044f0e41a7a35319813ac82b36a9dc57a88412"
+      ],
+      "panel": "recovery",
+      "port": 8002,
+      "result_file_sha256": "b5868101676704b03dfa67c978c2fc71bcea2221e6bc79bd5522532a8790684f",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-762a7487ace813d7-1702-delete/trial-02/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "762a7487ace813d7",
+      "trial": 2,
+      "visible_memory_sha256": "f29b64fc1fd3437f76d7716e7a48311198f6f920da779b3bb5a9557049500833"
+    },
+    {
+      "cell_id": "recovery-762a7487ace813d7-1702-replace",
+      "condition": "replace",
+      "decisions": 49,
+      "initial_labels": [
+        "H",
+        "N",
+        "N"
+      ],
+      "memory_before_sha256": "8f8e4d7a418f2cf55179f6f816a6e3caebb4ff2976ba21485876da06dfd83f41",
+      "new_reflection_sha256": [
+        "c226c89e60e5264a722075f895456dd7e930fd403c18e1ad24caadb115749cc5"
+      ],
+      "panel": "recovery",
+      "port": 8002,
+      "result_file_sha256": "ea7c39e8cdcff3464fd838fc45c029d1cb8430a787a5834d50fbb323ddcce80f",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-762a7487ace813d7-1702-replace/trial-01/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "762a7487ace813d7",
+      "trial": 1,
+      "visible_memory_sha256": "8f8e4d7a418f2cf55179f6f816a6e3caebb4ff2976ba21485876da06dfd83f41"
+    },
+    {
+      "cell_id": "recovery-762a7487ace813d7-1702-replace",
+      "condition": "replace",
+      "decisions": 49,
+      "initial_labels": [
+        "H",
+        "N",
+        "N"
+      ],
+      "memory_before_sha256": "ff4ee71f27d21b7085328a244368f6eaaf0c29d11549606727809d019b424ae6",
+      "new_reflection_sha256": [
+        "2b2596682cc23d82af4032c2ef2bd6c04ee5f3dd70fbe9e1328fd5c40c7c72ed"
+      ],
+      "panel": "recovery",
+      "port": 8002,
+      "result_file_sha256": "8b4dc0389858bbcd4440328857fc105c44796347f5361de0fce09a2b0bc83ebe",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-762a7487ace813d7-1702-replace/trial-02/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "762a7487ace813d7",
+      "trial": 2,
+      "visible_memory_sha256": "44582ffddb225ef8c2a626a2f9d43e2a317aafd9011ec2c7c4f1f3d2f961bb16"
+    },
+    {
+      "cell_id": "recovery-762a7487ace813d7-1702-retain",
+      "condition": "retain",
+      "decisions": 49,
+      "initial_labels": [
+        "H",
+        "E",
+        "N"
+      ],
+      "memory_before_sha256": "6f0c22a36eaa93492db00dcb9bdd86f76ae6fee6e5c6905fb8e7d3a9d743f1f8",
+      "new_reflection_sha256": [
+        "5d4b437e77780d2db72c795927363f18cd42fb67a1a4ce9913d41df7a05b16a7"
+      ],
+      "panel": "recovery",
+      "port": 8002,
+      "result_file_sha256": "b7134254005c0287aea198be51def5984278412bab0a93dc58b5ae00a3ff4a1a",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-762a7487ace813d7-1702-retain/trial-01/result.json",
+      "seed": 1702,
+      "success": false,
+      "task_id": "762a7487ace813d7",
+      "trial": 1,
+      "visible_memory_sha256": "6f0c22a36eaa93492db00dcb9bdd86f76ae6fee6e5c6905fb8e7d3a9d743f1f8"
+    },
+    {
+      "cell_id": "recovery-762a7487ace813d7-1702-retain",
+      "condition": "retain",
+      "decisions": 17,
+      "initial_labels": [
+        "H",
+        "E",
+        "N"
+      ],
+      "memory_before_sha256": "a869d81a8e5f48f8b83829228d04fad86065fcecc44689f0af3766b6ad91b0a7",
+      "new_reflection_sha256": [],
+      "panel": "recovery",
+      "port": 8002,
+      "result_file_sha256": "8b5cc1205cfa06509afbfe47c270a207634ec0f760534de49da6f90a646e6595",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-762a7487ace813d7-1702-retain/trial-02/result.json",
+      "seed": 1702,
+      "success": true,
+      "task_id": "762a7487ace813d7",
+      "trial": 2,
+      "visible_memory_sha256": "75492dde20c5e7c0883442479510bb8389718b09e42f5111663ba26ef25bbb34"
+    },
+    {
+      "cell_id": "recovery-762a7487ace813d7-1702-without_cue",
+      "condition": "without_cue",
+      "decisions": 19,
+      "initial_labels": [
+        "N",
+        "N",
+        "N"
+      ],
+      "memory_before_sha256": "94903cced6b08d27597677f27968009d8a8ef3b2b5f01d57c8f46f6dee035417",
+      "new_reflection_sha256": [],
+      "panel": "recovery",
+      "port": 8002,
+      "result_file_sha256": "241939e47b31c838749ca057a758d338f4dc53a5a53259da5a1023b86bb3123d",
+      "result_path": "runs/reflexion-directed-calibration-20261023/cells/recovery-762a7487ace813d7-1702-without_cue/trial-01/result.json",
+      "seed": 1702,
+      "success": true,
+      "task_id": "762a7487ace813d7",
+      "trial": 1,
+      "visible_memory_sha256": "94903cced6b08d27597677f27968009d8a8ef3b2b5f01d57c8f46f6dee035417"
+    }
+  ],
+  "sha256": "04d95b7fc31f037236b732cf4817eb3536f95985ca350a22b4aeb2ee759cf884",
+  "unused_reservations": 0,
+  "worker_exit_codes": [
+    0,
+    0,
+    0
+  ],
+  "worker_statuses": [
+    "complete",
+    "complete",
+    "complete"
+  ]
+}

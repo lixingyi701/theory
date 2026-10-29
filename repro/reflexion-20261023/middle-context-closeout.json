@@ -1,0 +1,51 @@
+{
+  "all_calls": 23872,
+  "all_responses": 23872,
+  "artifacts": {
+    "middle-context-action-shapes.json": "3ba65f74d29ff14b0077d48b2237709eff16a6fe738b72b20110fdcbd7b08a11",
+    "middle-context-contract.json": "7697434e5fe35af394455a6ec510527ac696a360b59a6d64a17605157797b019",
+    "middle-context-mixture-analysis.json": "449df40eec3899c6a8436660c9076fbdf954c095a770445ee6b447767352131e",
+    "middle-context-mixture-forecast.json": "d1119df3bc4471f087910b46b85d411a5074501ec9e4baf040a98bddf3dfb816",
+    "middle-context-protocol-audit.json": "0c2842eec5ef27f6eb2382bb51b59ae4f9ee1004a1c926d4f8ba6bbb973a234e",
+    "middle-context-raw-summary.json": "a52e7a33a7f36d5780c6deb0aad6492ef7c4d8e24379e26239bcb2470137e821",
+    "middle-context-replica-audit.json": "f84bf47b800d0e13f5e1c0ee4c9353eca5af1940fd4d4c0cab3b92033f1606cf",
+    "middle-context-results.json": "1ad334e79ef20b11f8b15e178e1788cf943aea4754b3d5a43f628f4f96c8449c",
+    "middle-context-run.json": "9fab284d1dc234a1d04f50c969fb18361f2f3ab99deea0f0d41586929852dd39",
+    "middle-context-semantic-labels.json": "84981e10566a0cc84a78ee85e7c69bf233523e48851ca21f9a04b1ce19a57823"
+  },
+  "completed_cells": 48,
+  "costs_incremental": {
+    "dispatched_calls": 1740,
+    "input_tokens_known": 4397909,
+    "output_tokens_known": 56284,
+    "saved_responses": 1740,
+    "truncated_responses": 1,
+    "uncertain_or_unrecorded_attempts": 0,
+    "usage_missing_responses": 0
+  },
+  "driver_sha256": "ac9d41d8f9e7adfa0825355cd75a4ed7a04eb16526a3a87ad2bfda2d4097f03a",
+  "elapsed_seconds": 1360.7003507614136,
+  "freeze_commit": "1a3e3c94d866c567f5775fc190f494301506a575",
+  "gpu_indices": [
+    0,
+    1
+  ],
+  "holdout_model_calls": 0,
+  "independent_base_tasks": 12,
+  "new_base_tasks": 0,
+  "parameter_refits": 0,
+  "phase_cells": {
+    "middle": 24,
+    "native": 24
+  },
+  "prior_calls": 22132,
+  "protocol_sha256": "acac63324bd9680f32d9b6ffef74e5651507cffadb506fb5558e91a27a8974e3",
+  "replica_check_calls": 4,
+  "request_configuration_errors": 0,
+  "reserved_calls": 1740,
+  "sha256": "ce943a37789bfd526222b5056904c0cf1ea554344064128675b9e19d091d6e04",
+  "source_presence_forecast_sha256": "eecfe6b8a49216580cf76e3d49cda145c6fcc6c3624fa13220a393507601b85b",
+  "stop_reason": "both_frozen_phases_complete",
+  "successes": 12,
+  "supplement_freeze_commit": "fe2ce68f3bd992ef2ce27b67a22f9c3f21e3bb1a"
+}

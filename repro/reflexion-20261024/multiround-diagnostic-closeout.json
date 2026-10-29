@@ -1,0 +1,54 @@
+{
+  "all_calls": 34591,
+  "all_responses": 34591,
+  "artifacts": {
+    "multiround-diagnostic-action-shapes.json": "49872c6aded3ebb7e92c42a1c36da1439bdec7fa4c18b7d547bf619fdefda239",
+    "multiround-diagnostic-contract.json": "8cd3669e9e5998948d13a59b433f5d552de70c7f583052a0f98315711aa1d183",
+    "multiround-diagnostic-protocol-audit.json": "de4cbccfda2d611d71e4d3de354fb2dcdb23a2ee19fba6c4ee78142010e6e707",
+    "multiround-diagnostic-raw-summary.json": "9593ae90e61d29fc07478a21a3a15daad5103a8f59b3c1459528027be9d6d9cd",
+    "multiround-diagnostic-replica-audit.json": "35ad02d684551f1680afc7f69ec2dfb666fc5a2c191f33916854937f1f0be150",
+    "multiround-diagnostic-results.json": "870ab4956c45f1b7ea5920a4b827c43e22b25b57f713ed2284974136659f76c2",
+    "multiround-diagnostic-run.json": "b63cc950c3188c3364ceb3a0c4ed55969e651f95ee7e7fa7d38dc1b322e9fdef",
+    "multiround-diagnostic-semantic-labels.json": "7c522a95771da4f56d0333c88dd291306ddce4c114640e9b1a163b5916be4298"
+  },
+  "attempts_completed": 189,
+  "completed_trajectories": 72,
+  "costs_incremental": {
+    "dispatched_calls": 7918,
+    "input_tokens_known": 20988763,
+    "output_tokens_known": 262766,
+    "saved_responses": 7918,
+    "truncated_responses": 2,
+    "uncertain_or_unrecorded_attempts": 0,
+    "usage_missing_responses": 0
+  },
+  "dispatch_envelope_seconds": 10800,
+  "driver_sha256": "e0e1a91405bff0fcb46b73d3e5ef04755fb2889201bbf57e7a952f8d190ceae8",
+  "elapsed_seconds": 3843.1424911022186,
+  "expected_trajectories": 72,
+  "freeze_commit": "215d229313c2d6b8747f93d70d18156a9e110c65",
+  "holdout_model_calls": 0,
+  "independent_base_tasks": 12,
+  "max_attempts": 3,
+  "new_base_tasks": 0,
+  "parameter_refits": 0,
+  "ports": [
+    8001,
+    8002,
+    8003
+  ],
+  "prior_calls": 26673,
+  "protocol_sha256": "932fcd8baa4533fe3e9239a1cf1a76eade08dd424c38d7786d883d1d6af2ea6f",
+  "replica_check_calls": 6,
+  "request_configuration_errors": 0,
+  "reserved_calls": 7918,
+  "seed_replicates_per_task": 1,
+  "sha256": "d71c172615f6bc908289256237118a3769ed524beee821dd0e40da827bb72283",
+  "stop_reason": "frozen_multiround_diagnostic_complete",
+  "successes": 20,
+  "worker_exit_codes": [
+    0,
+    0,
+    0
+  ]
+}

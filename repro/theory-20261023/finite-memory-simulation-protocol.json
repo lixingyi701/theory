@@ -1,0 +1,439 @@
+{
+  "binary_grid": {
+    "W": [
+      1,
+      2,
+      3,
+      5,
+      8
+    ],
+    "lam": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "p": [
+      0.2,
+      0.5,
+      0.8
+    ],
+    "q": [
+      0.0,
+      0.02,
+      0.1
+    ],
+    "rho": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      0.9
+    ]
+  },
+  "binary_mc": [
+    {
+      "W": 3,
+      "id": "binary-0",
+      "lam": 0.0,
+      "p": 0.5,
+      "q": 0.0,
+      "rho": 0.0
+    },
+    {
+      "W": 3,
+      "id": "binary-1",
+      "lam": 1.0,
+      "p": 0.5,
+      "q": 0.0,
+      "rho": 0.0
+    },
+    {
+      "W": 3,
+      "id": "binary-2",
+      "lam": 0.0,
+      "p": 0.5,
+      "q": 0.02,
+      "rho": 0.0
+    },
+    {
+      "W": 3,
+      "id": "binary-3",
+      "lam": 1.0,
+      "p": 0.5,
+      "q": 0.02,
+      "rho": 0.0
+    },
+    {
+      "W": 3,
+      "id": "binary-4",
+      "lam": 0.5,
+      "p": 0.5,
+      "q": 0.0,
+      "rho": 0.5
+    },
+    {
+      "W": 3,
+      "id": "binary-5",
+      "lam": 0.5,
+      "p": 0.5,
+      "q": 0.0,
+      "rho": 0.9
+    },
+    {
+      "W": 1,
+      "id": "binary-6",
+      "lam": 0.5,
+      "p": 0.5,
+      "q": 0.02,
+      "rho": 0.5
+    },
+    {
+      "W": 5,
+      "id": "binary-7",
+      "lam": 0.5,
+      "p": 0.5,
+      "q": 0.02,
+      "rho": 0.5
+    }
+  ],
+  "budgets": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    10,
+    20,
+    40,
+    80,
+    160
+  ],
+  "coupling_checks": {
+    "family_error_probability": 0.01,
+    "family_size": 1920
+  },
+  "created_unix": 1792739916.0421379,
+  "design_commit": "a7f1ef0d4247abc3da081f84715c7240d8665e90",
+  "design_sha256": "c82dc840b67d17a0f38b1838c0af682a8dfd8f78b8f70da773017c24220151f1",
+  "deterministic_tolerances": {
+    "bound_abs": 2e-12,
+    "full_vs_compressed_abs": 2e-12,
+    "linear_system_residual_abs": 2e-10
+  },
+  "execution": {
+    "expected_monte_carlo_trajectories": 260000,
+    "gpu_devices": [],
+    "new_llm_calls": 0,
+    "threads_per_worker": 1,
+    "wall_seconds": 1800,
+    "workers": 3
+  },
+  "expected_counts": {
+    "binary_grid_conditions": 1125,
+    "binary_mc_trajectories": 160000,
+    "coupled_position_comparisons": 1920,
+    "information_conditions": 90,
+    "information_mc_trajectories": 20000,
+    "marginal_curve_comparisons": 260,
+    "sensitivity_mc_trajectories": 80000
+  },
+  "information_counterexample": {
+    "W": 3,
+    "dC": 0.05,
+    "dE": 0.1,
+    "dH": 0.38,
+    "initial": [
+      4,
+      1,
+      0
+    ],
+    "new_reflection": 0,
+    "p0": 0.02
+  },
+  "information_starts": [
+    [
+      4,
+      1,
+      0
+    ],
+    [
+      0,
+      5,
+      0
+    ]
+  ],
+  "information_variants": [
+    {
+      "id": "reference",
+      "parameters": {
+        "chi": 0.0,
+        "dC": 0.05,
+        "dE": 0.3,
+        "dH": 0.1,
+        "dX": 0.0,
+        "kappa": 0.2,
+        "lam": 0.1,
+        "nu": [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        "p0": 0.4,
+        "rho": 0.5,
+        "sC": 0.1
+      }
+    },
+    {
+      "id": "dH-0",
+      "parameters": {
+        "chi": 0.0,
+        "dC": 0.05,
+        "dE": 0.3,
+        "dH": 0.0,
+        "dX": 0.0,
+        "kappa": 0.2,
+        "lam": 0.1,
+        "nu": [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        "p0": 0.4,
+        "rho": 0.5,
+        "sC": 0.1
+      }
+    },
+    {
+      "id": "dH-0.3",
+      "parameters": {
+        "chi": 0.0,
+        "dC": 0.05,
+        "dE": 0.3,
+        "dH": 0.3,
+        "dX": 0.0,
+        "kappa": 0.2,
+        "lam": 0.1,
+        "nu": [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        "p0": 0.4,
+        "rho": 0.5,
+        "sC": 0.1
+      }
+    },
+    {
+      "id": "sC-0",
+      "parameters": {
+        "chi": 0.0,
+        "dC": 0.05,
+        "dE": 0.3,
+        "dH": 0.1,
+        "dX": 0.0,
+        "kappa": 0.2,
+        "lam": 0.1,
+        "nu": [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        "p0": 0.4,
+        "rho": 0.5,
+        "sC": 0.0
+      }
+    },
+    {
+      "id": "sC-0.4",
+      "parameters": {
+        "chi": 0.0,
+        "dC": 0.05,
+        "dE": 0.3,
+        "dH": 0.1,
+        "dX": 0.0,
+        "kappa": 0.2,
+        "lam": 0.1,
+        "nu": [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        "p0": 0.4,
+        "rho": 0.5,
+        "sC": 0.4
+      }
+    },
+    {
+      "id": "dX-0.1",
+      "parameters": {
+        "chi": 0.0,
+        "dC": 0.05,
+        "dE": 0.3,
+        "dH": 0.1,
+        "dX": 0.1,
+        "kappa": 0.2,
+        "lam": 0.1,
+        "nu": [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        "p0": 0.4,
+        "rho": 0.5,
+        "sC": 0.1
+      }
+    },
+    {
+      "id": "dX-0.3",
+      "parameters": {
+        "chi": 0.0,
+        "dC": 0.05,
+        "dE": 0.3,
+        "dH": 0.1,
+        "dX": 0.3,
+        "kappa": 0.2,
+        "lam": 0.1,
+        "nu": [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        "p0": 0.4,
+        "rho": 0.5,
+        "sC": 0.1
+      }
+    },
+    {
+      "id": "chi-0.25",
+      "parameters": {
+        "chi": 0.25,
+        "dC": 0.05,
+        "dE": 0.3,
+        "dH": 0.1,
+        "dX": 0.0,
+        "kappa": 0.2,
+        "lam": 0.1,
+        "nu": [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        "p0": 0.4,
+        "rho": 0.5,
+        "sC": 0.1
+      }
+    },
+    {
+      "id": "chi-0.5",
+      "parameters": {
+        "chi": 0.5,
+        "dC": 0.05,
+        "dE": 0.3,
+        "dH": 0.1,
+        "dX": 0.0,
+        "kappa": 0.2,
+        "lam": 0.1,
+        "nu": [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        "p0": 0.4,
+        "rho": 0.5,
+        "sC": 0.1
+      }
+    }
+  ],
+  "marginal_checks": {
+    "family_error_probability": 0.01,
+    "family_size": 260,
+    "interval": "pointwise_95_percent_Wilson",
+    "tolerance_formula": "sqrt(log(2*m/delta)/(2*n))"
+  },
+  "max_attempts": 160,
+  "numeric_dtype": "float64",
+  "numpy_version": "1.26.4",
+  "operations": [
+    "retain",
+    "correct",
+    "remove_target",
+    "neutralize",
+    "delete"
+  ],
+  "protected_files": {
+    "configs/qwen3_8b_non_thinking_wrapper.json": "ae1849a57bdf8f7454fadc3af7593133216bdd2023fb6e42649ce331fdc02b6a",
+    "configs/reflexion_qwen3_8b_protocol.json": "0a1b83abc85ba7c7bd5738e7a8ad64c82f43d5ff8158c36bf25dc0d678cf58f1",
+    "repro/reflexion-20261023/engineering-interface-freeze.json": "0dc6a0998533670800d68d2c640d4a26dae839c2c87eb3f0fc7cc0b0f58b78f3",
+    "repro/reflexion-20261023/normalization-closeout.json": "1795c0f273f45948726de5b90bd09e193196a03067e948329d534e4bea083973",
+    "repro/reflexion-20261023/precondition-prefix24-v1.json": "271ec23d909bbd5a7fc9ba7ec0b3627c73ebefb81183f0c58992559b5dd5d17a",
+    "scripts/continue_reflexion_pilot.py": "126949ac4e32a66819965717cc074711b7e3a8ad58be5d6598ec77d698fd7ab7",
+    "scripts/reflexion_campaign.py": "5fb738145dc5c15f74f4d1dcbba807980f86cb0ee4624b1aa156ea6363e828fa",
+    "src/agent_reliability/__init__.py": "9aa84454aaf25ce212ded4c089d18e335cb17460edd5e66ec4c522aaeb8fbe16",
+    "src/agent_reliability/__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+    "src/agent_reliability/alfworld.py": "89fcf795fdb9d1c1d19ff89b2ddc1bc199f5abf83c279bdf5d1bb7db9671c4c9",
+    "src/agent_reliability/audit.py": "28e256ee2d5419f81e53b6caa4605102bdb9155583a04b04d4a66a6387bb666b",
+    "src/agent_reliability/cli.py": "6d03e369f38c94879a8d7550baa5e51ead13ebc5e5f618df3a7ec8dce53b789d",
+    "src/agent_reliability/dataset.py": "e580c7baf20b6d0c4669c24521881db3eaf44b23874c214e4b2de6967e5844e3",
+    "src/agent_reliability/env.py": "4e79411d8a605197692bafc78431c4f7edde552c0d2977b3ef1682ab26346e7f",
+    "src/agent_reliability/io.py": "cc5ad9729a4c4448f5b97740d6e8494cafe892faf5cbea1afd5d7079ba9bbe51",
+    "src/agent_reliability/llm.py": "061bab01c82117589802fe2fb4251aedeb8f7f73bc022551e5b6f3fdd779acd4",
+    "src/agent_reliability/memory.py": "7327d609005e2a884c2c8176a8a74149bbcb57f015432fa51c20606cc98b7539",
+    "src/agent_reliability/prompts.py": "b49634af198a4907aa8d5533221facbe623e7b417835140bf338265c82b55ed5",
+    "src/agent_reliability/react.py": "b48ad0a2dc664a607f06a6020871325a2bf5ccf89f9064bb18dfa6dffba78e82",
+    "src/agent_reliability/reference.py": "77631bf0cfe30f313a0349cfc269202f5e31be7f01cd8d4d194ea32677583e4a",
+    "src/agent_reliability/reference_run.py": "5577e2521e6a08c268fc444896be87570df350c8b79d5ca90a974946166a63d2",
+    "src/agent_reliability/reflexion.py": "a38a847a6f7991038fe3e02505b20f196d95be552a86451eee4088526cff2a08",
+    "src/agent_reliability/runner.py": "e71596acf5b39b4ca53b6fb80aaa5fb0e987c9f4cab86e46b19fb94f63879f47"
+  },
+  "protocol_version": 1,
+  "random_draw_order": "per_attempt_then_success_array_then_reflection_array",
+  "random_generator": "numpy.random.PCG64",
+  "raw_evidence": "first_success_and_phase_exit_per_seed; coupling_counts; exact_curves",
+  "scientific_scope": "finite_FIFO_theory_controlled_simulation",
+  "seeds": [
+    21023,
+    21024,
+    21025,
+    21026,
+    21027,
+    21028,
+    21029,
+    21030,
+    21031,
+    21032
+  ],
+  "sensitivity": {
+    "W": 3,
+    "alpha": [
+      0.1,
+      0.1,
+      0.1
+    ],
+    "beta": [
+      0.1,
+      0.1,
+      0.2
+    ],
+    "emission_intercept": 0.1,
+    "p_min": 0.5,
+    "success_intercept": 0.8
+  },
+  "sha256": "e5ba409bd5e7495d174229b00a3ccf3959951e922347f6454a3cae04ca3bf422",
+  "source_hashes": {
+    "scripts/finite_memory_models.py": "70225003fe15c23535f39ec874b7c68630bb19d8c56c7b54ca21636e8b218426",
+    "scripts/run_finite_memory_simulation.py": "70cf91455ffc5b333829a104d1d7003d51fc8469acf1d35a9c366275f95b814c",
+    "tests/test_finite_memory_simulation.py": "08a6c69d4a8c7e2ee06ba035ff099f8588e2ed4eb144c91dfa270c27daa1677b"
+  },
+  "trajectories_per_seed": 1000
+}

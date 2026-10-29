@@ -1,0 +1,484 @@
+{
+  "A_presence_descriptive": {
+    "False": {
+      "attempts": 213,
+      "successes": 79
+    },
+    "True": {
+      "attempts": 4,
+      "successes": 0
+    }
+  },
+  "all463_training_kernels_unchanged_for_both_models": true,
+  "diagnosis_sha256": "b1df4e48c706ab6d3f9b259b89ccf660703a73e13501b2a3ee2aac908e43bfb7",
+  "holdout134_calls": 0,
+  "interpretation": "Capping changes only extrapolation beyond observed native counts. Conditional-state scores and bridges diagnose sensitivity; they are not frozen budget-validation scores. Other features such as A-count can still extrapolate.",
+  "new_model_calls": 0,
+  "operation": "In p and/or G feature vectors only, replace native_count/3 with min(native_count,1)/3; retain actual ordered memory and every other feature",
+  "original_C_N_exit_probability_by_attempt3": 0.503862349479399,
+  "parameter_refits": 0,
+  "parameters_sha256": "4826508a8a850c983bdd10a91dae065ed544674e7b9c8bc8bd6fa4a6fb9778b5",
+  "public_evaluation_sha256": "a23aee85f08b847b964331a3c037ac985d64c2cdd045f5b997c9fedb4361a02c",
+  "regularization_diagnostic_sha256": "a31627186ca65e1c9b3fd40255df6075e2df2172861e69c566dbb38c574810c0",
+  "scope": "Postcollection diagnostic ablation; no new fitting or independent validation",
+  "sensitivity_variants": [
+    {
+      "bridges_by_native_count": {
+        "0": {
+          "actual_type_next_expected_successes": 5.6009147372752635,
+          "events": 41,
+          "integrated_next_expected_successes": 7.032723040280704,
+          "next_observed_successes": 6
+        },
+        "1": {
+          "actual_type_next_expected_successes": 2.8535335197793223,
+          "events": 35,
+          "integrated_next_expected_successes": 2.5819468968439367,
+          "next_observed_successes": 2
+        },
+        "2": {
+          "actual_type_next_expected_successes": 1.9699654036489496,
+          "events": 33,
+          "integrated_next_expected_successes": 1.781137941933899,
+          "next_observed_successes": 4
+        }
+      },
+      "cap_success_count": false,
+      "cap_write_count": false,
+      "model": "frozen",
+      "model_implied_C_N_budget_curve_unscored": [
+        0.3918159423508265,
+        0.496137650520601,
+        0.5397206949595825,
+        0.5643773440235833
+      ],
+      "success_by_native_count": {
+        "0": {
+          "attempts": 108,
+          "expected_successes": 42.31612177388924,
+          "mean_brier": 0.28774810050424066,
+          "successes": 67
+        },
+        "1": {
+          "attempts": 41,
+          "expected_successes": 5.6009147372752635,
+          "mean_brier": 0.115675713053395,
+          "successes": 6
+        },
+        "2": {
+          "attempts": 35,
+          "expected_successes": 2.8535335197793223,
+          "mean_brier": 0.05461018661714326,
+          "successes": 2
+        },
+        "3": {
+          "attempts": 33,
+          "expected_successes": 1.9699654036489496,
+          "mean_brier": 0.11009956089540424,
+          "successes": 4
+        }
+      }
+    },
+    {
+      "bridges_by_native_count": {
+        "0": {
+          "actual_type_next_expected_successes": 5.6009147372752635,
+          "events": 41,
+          "integrated_next_expected_successes": 7.032723040280704,
+          "next_observed_successes": 6
+        },
+        "1": {
+          "actual_type_next_expected_successes": 3.1620945493177186,
+          "events": 35,
+          "integrated_next_expected_successes": 2.8673842771240405,
+          "next_observed_successes": 2
+        },
+        "2": {
+          "actual_type_next_expected_successes": 2.434752714303418,
+          "events": 33,
+          "integrated_next_expected_successes": 2.2109671118686034,
+          "next_observed_successes": 4
+        }
+      },
+      "cap_success_count": true,
+      "cap_write_count": false,
+      "model": "frozen",
+      "model_implied_C_N_budget_curve_unscored": [
+        0.3918159423508265,
+        0.496137650520601,
+        0.5443908382680143,
+        0.5744455029852684
+      ],
+      "success_by_native_count": {
+        "0": {
+          "attempts": 108,
+          "expected_successes": 42.31612177388924,
+          "mean_brier": 0.28774810050424066,
+          "successes": 67
+        },
+        "1": {
+          "attempts": 41,
+          "expected_successes": 5.6009147372752635,
+          "mean_brier": 0.115675713053395,
+          "successes": 6
+        },
+        "2": {
+          "attempts": 35,
+          "expected_successes": 3.1620945493177186,
+          "mean_brier": 0.055853559374391064,
+          "successes": 2
+        },
+        "3": {
+          "attempts": 33,
+          "expected_successes": 2.434752714303418,
+          "mean_brier": 0.1094345240486239,
+          "successes": 4
+        }
+      }
+    },
+    {
+      "bridges_by_native_count": {
+        "0": {
+          "actual_type_next_expected_successes": 5.6009147372752635,
+          "events": 41,
+          "integrated_next_expected_successes": 7.032723040280704,
+          "next_observed_successes": 6
+        },
+        "1": {
+          "actual_type_next_expected_successes": 2.8535335197793223,
+          "events": 35,
+          "integrated_next_expected_successes": 2.5819468968439367,
+          "next_observed_successes": 2
+        },
+        "2": {
+          "actual_type_next_expected_successes": 1.9699654036489496,
+          "events": 33,
+          "integrated_next_expected_successes": 1.6741265605041658,
+          "next_observed_successes": 4
+        }
+      },
+      "cap_success_count": false,
+      "cap_write_count": true,
+      "model": "frozen",
+      "model_implied_C_N_budget_curve_unscored": [
+        0.3918159423508265,
+        0.496137650520601,
+        0.5397206949595825,
+        0.5628566521250971
+      ],
+      "success_by_native_count": {
+        "0": {
+          "attempts": 108,
+          "expected_successes": 42.31612177388924,
+          "mean_brier": 0.28774810050424066,
+          "successes": 67
+        },
+        "1": {
+          "attempts": 41,
+          "expected_successes": 5.6009147372752635,
+          "mean_brier": 0.115675713053395,
+          "successes": 6
+        },
+        "2": {
+          "attempts": 35,
+          "expected_successes": 2.8535335197793223,
+          "mean_brier": 0.05461018661714326,
+          "successes": 2
+        },
+        "3": {
+          "attempts": 33,
+          "expected_successes": 1.9699654036489496,
+          "mean_brier": 0.11009956089540424,
+          "successes": 4
+        }
+      }
+    },
+    {
+      "bridges_by_native_count": {
+        "0": {
+          "actual_type_next_expected_successes": 5.6009147372752635,
+          "events": 41,
+          "integrated_next_expected_successes": 7.032723040280704,
+          "next_observed_successes": 6
+        },
+        "1": {
+          "actual_type_next_expected_successes": 3.1620945493177186,
+          "events": 35,
+          "integrated_next_expected_successes": 2.8673842771240405,
+          "next_observed_successes": 2
+        },
+        "2": {
+          "actual_type_next_expected_successes": 2.434752714303418,
+          "events": 33,
+          "integrated_next_expected_successes": 2.0836901734620628,
+          "next_observed_successes": 4
+        }
+      },
+      "cap_success_count": true,
+      "cap_write_count": true,
+      "model": "frozen",
+      "model_implied_C_N_budget_curve_unscored": [
+        0.3918159423508265,
+        0.496137650520601,
+        0.5443908382680143,
+        0.5726903619081015
+      ],
+      "success_by_native_count": {
+        "0": {
+          "attempts": 108,
+          "expected_successes": 42.31612177388924,
+          "mean_brier": 0.28774810050424066,
+          "successes": 67
+        },
+        "1": {
+          "attempts": 41,
+          "expected_successes": 5.6009147372752635,
+          "mean_brier": 0.115675713053395,
+          "successes": 6
+        },
+        "2": {
+          "attempts": 35,
+          "expected_successes": 3.1620945493177186,
+          "mean_brier": 0.055853559374391064,
+          "successes": 2
+        },
+        "3": {
+          "attempts": 33,
+          "expected_successes": 2.434752714303418,
+          "mean_brier": 0.1094345240486239,
+          "successes": 4
+        }
+      }
+    },
+    {
+      "bridges_by_native_count": {
+        "0": {
+          "actual_type_next_expected_successes": 5.488912509323398,
+          "events": 41,
+          "integrated_next_expected_successes": 6.210450724187111,
+          "next_observed_successes": 6
+        },
+        "1": {
+          "actual_type_next_expected_successes": 2.2350203044397525,
+          "events": 35,
+          "integrated_next_expected_successes": 1.9069815080715047,
+          "next_observed_successes": 2
+        },
+        "2": {
+          "actual_type_next_expected_successes": 1.1865887106701238,
+          "events": 33,
+          "integrated_next_expected_successes": 1.0044223714495863,
+          "next_observed_successes": 4
+        }
+      },
+      "cap_success_count": false,
+      "cap_write_count": false,
+      "model": "weak_ridge",
+      "model_implied_C_N_budget_curve_unscored": [
+        0.43531923995985533,
+        0.5208539237434124,
+        0.548788979271462,
+        0.5609788907931169
+      ],
+      "success_by_native_count": {
+        "0": {
+          "attempts": 108,
+          "expected_successes": 47.01447791566433,
+          "mean_brier": 0.2697548948031094,
+          "successes": 67
+        },
+        "1": {
+          "attempts": 41,
+          "expected_successes": 5.488912509323398,
+          "mean_brier": 0.11547801905552475,
+          "successes": 6
+        },
+        "2": {
+          "attempts": 35,
+          "expected_successes": 2.2350203044397525,
+          "mean_brier": 0.05283024947146578,
+          "successes": 2
+        },
+        "3": {
+          "attempts": 33,
+          "expected_successes": 1.1865887106701238,
+          "mean_brier": 0.11193580624760938,
+          "successes": 4
+        }
+      }
+    },
+    {
+      "bridges_by_native_count": {
+        "0": {
+          "actual_type_next_expected_successes": 5.488912509323398,
+          "events": 41,
+          "integrated_next_expected_successes": 6.210450724187111,
+          "next_observed_successes": 6
+        },
+        "1": {
+          "actual_type_next_expected_successes": 2.9816330891065514,
+          "events": 35,
+          "integrated_next_expected_successes": 2.5675641717423483,
+          "next_observed_successes": 2
+        },
+        "2": {
+          "actual_type_next_expected_successes": 2.1527813843678425,
+          "events": 33,
+          "integrated_next_expected_successes": 1.8514639992595885,
+          "next_observed_successes": 4
+        }
+      },
+      "cap_success_count": true,
+      "cap_write_count": false,
+      "model": "weak_ridge",
+      "model_implied_C_N_budget_curve_unscored": [
+        0.43531923995985533,
+        0.5208539237434124,
+        0.5582850922911103,
+        0.5800298985815583
+      ],
+      "success_by_native_count": {
+        "0": {
+          "attempts": 108,
+          "expected_successes": 47.01447791566433,
+          "mean_brier": 0.2697548948031094,
+          "successes": 67
+        },
+        "1": {
+          "attempts": 41,
+          "expected_successes": 5.488912509323398,
+          "mean_brier": 0.11547801905552475,
+          "successes": 6
+        },
+        "2": {
+          "attempts": 35,
+          "expected_successes": 2.9816330891065514,
+          "mean_brier": 0.055169513142455294,
+          "successes": 2
+        },
+        "3": {
+          "attempts": 33,
+          "expected_successes": 2.1527813843678425,
+          "mean_brier": 0.1087577586378887,
+          "successes": 4
+        }
+      }
+    },
+    {
+      "bridges_by_native_count": {
+        "0": {
+          "actual_type_next_expected_successes": 5.488912509323398,
+          "events": 41,
+          "integrated_next_expected_successes": 6.210450724187111,
+          "next_observed_successes": 6
+        },
+        "1": {
+          "actual_type_next_expected_successes": 2.2350203044397525,
+          "events": 35,
+          "integrated_next_expected_successes": 1.9069815080715047,
+          "next_observed_successes": 2
+        },
+        "2": {
+          "actual_type_next_expected_successes": 1.1865887106701238,
+          "events": 33,
+          "integrated_next_expected_successes": 0.9650462546245783,
+          "next_observed_successes": 4
+        }
+      },
+      "cap_success_count": false,
+      "cap_write_count": true,
+      "model": "weak_ridge",
+      "model_implied_C_N_budget_curve_unscored": [
+        0.43531923995985533,
+        0.5208539237434124,
+        0.548788979271462,
+        0.5605723639331868
+      ],
+      "success_by_native_count": {
+        "0": {
+          "attempts": 108,
+          "expected_successes": 47.01447791566433,
+          "mean_brier": 0.2697548948031094,
+          "successes": 67
+        },
+        "1": {
+          "attempts": 41,
+          "expected_successes": 5.488912509323398,
+          "mean_brier": 0.11547801905552475,
+          "successes": 6
+        },
+        "2": {
+          "attempts": 35,
+          "expected_successes": 2.2350203044397525,
+          "mean_brier": 0.05283024947146578,
+          "successes": 2
+        },
+        "3": {
+          "attempts": 33,
+          "expected_successes": 1.1865887106701238,
+          "mean_brier": 0.11193580624760938,
+          "successes": 4
+        }
+      }
+    },
+    {
+      "bridges_by_native_count": {
+        "0": {
+          "actual_type_next_expected_successes": 5.488912509323398,
+          "events": 41,
+          "integrated_next_expected_successes": 6.210450724187111,
+          "next_observed_successes": 6
+        },
+        "1": {
+          "actual_type_next_expected_successes": 2.9816330891065514,
+          "events": 35,
+          "integrated_next_expected_successes": 2.5675641717423483,
+          "next_observed_successes": 2
+        },
+        "2": {
+          "actual_type_next_expected_successes": 2.1527813843678425,
+          "events": 33,
+          "integrated_next_expected_successes": 1.7947210969177723,
+          "next_observed_successes": 4
+        }
+      },
+      "cap_success_count": true,
+      "cap_write_count": true,
+      "model": "weak_ridge",
+      "model_implied_C_N_budget_curve_unscored": [
+        0.43531923995985533,
+        0.5208539237434124,
+        0.5582850922911103,
+        0.5795384794347042
+      ],
+      "success_by_native_count": {
+        "0": {
+          "attempts": 108,
+          "expected_successes": 47.01447791566433,
+          "mean_brier": 0.2697548948031094,
+          "successes": 67
+        },
+        "1": {
+          "attempts": 41,
+          "expected_successes": 5.488912509323398,
+          "mean_brier": 0.11547801905552475,
+          "successes": 6
+        },
+        "2": {
+          "attempts": 35,
+          "expected_successes": 2.9816330891065514,
+          "mean_brier": 0.055169513142455294,
+          "successes": 2
+        },
+        "3": {
+          "attempts": 33,
+          "expected_successes": 2.1527813843678425,
+          "mean_brier": 0.1087577586378887,
+          "successes": 4
+        }
+      }
+    }
+  ],
+  "sha256": "70999d5e91ed3fd41ac67061bb779c665468ae50fab8831bc709e452d174e511",
+  "source_sha256": "6455f138bab65799be47f377db923930a8a5417a99f76ae38b2d437d7dbca1b5"
+}

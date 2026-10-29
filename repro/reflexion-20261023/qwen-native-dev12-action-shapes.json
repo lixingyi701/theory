@@ -1,0 +1,263 @@
+{
+  "command_shapes": [
+    "go to [a-z]+ \\d+",
+    "(?:open|close|examine|use) [a-z]+ \\d+",
+    "take [a-z]+ \\d+ from [a-z]+ \\d+",
+    "move [a-z]+ \\d+ to [a-z]+ \\d+",
+    "put [a-z]+ \\d+ (?:into|in) [a-z]+ \\d+",
+    "(?:heat|clean|cool|slice) [a-z]+ \\d+ with [a-z]+ \\d+",
+    "(?:look|inventory|help)"
+  ],
+  "completed_checkpoints": 19,
+  "counts": {
+    "environment_style_sentence": 6,
+    "other_unmatched_shape": 17,
+    "public_command_shape": 330,
+    "thought": 284
+  },
+  "driver_sha256": "7b026efea040a1651f43a6f70b9bf98501c08ef290b53de87c236091f6a499a6",
+  "interpretation": "Public command shape does not establish valid entities, satisfied preconditions, or correct planning. Environment-style sentences are actor format violations. Other unmatched shapes require review. Thought no-effects are not physical failures.",
+  "no_effect_counts_by_shape": {
+    "environment_style_sentence": 6,
+    "other_unmatched_shape": 17,
+    "public_command_shape": 24,
+    "thought": 284
+  },
+  "public_grammar": "installed alfworld/data/alfred.twl2",
+  "public_grammar_sha256": "c5b22f0f73309a7fd7c8e5b71de42ad4803b60766ab4a51cc2feb34162be036b",
+  "review_items": [
+    {
+      "action_excerpt": "You open the fridge 1. The fridge 1 is open. In it, you see a apple 1, and a egg 1.",
+      "action_sha256": "d52a1416aa2443dbee3778d5efeba8f7a8521ed64e3504ccb3e00e13606979b3",
+      "checkpoint": "tasks/181a4c810cec8a32/trial-00/checkpoint.json",
+      "checkpoint_sha256": "fbc822665c60c178146d057304b193aad47249b155d9e73883c13a82b32eaa7e",
+      "index": 3,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You open the fridge 1. The fridge 1 is open. In it, you see a apple 1, and a egg 1.",
+      "action_sha256": "d52a1416aa2443dbee3778d5efeba8f7a8521ed64e3504ccb3e00e13606979b3",
+      "checkpoint": "tasks/181a4c810cec8a32/trial-00/checkpoint.json",
+      "checkpoint_sha256": "fbc822665c60c178146d057304b193aad47249b155d9e73883c13a82b32eaa7e",
+      "index": 7,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "turn on stoveburner 1",
+      "action_sha256": "376ef0362128470fc9857ab98290d7bed7fb62c422ed801f84c72a05cc2727e8",
+      "checkpoint": "tasks/181a4c810cec8a32/trial-01/checkpoint.json",
+      "checkpoint_sha256": "f0baa71cf980f0bd67b0596ad9da8ce35de0b4ee7089f9079e1e37ad9f69806d",
+      "index": 27,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "turn on stoveburner 1",
+      "action_sha256": "376ef0362128470fc9857ab98290d7bed7fb62c422ed801f84c72a05cc2727e8",
+      "checkpoint": "tasks/181a4c810cec8a32/trial-02/checkpoint.json",
+      "checkpoint_sha256": "688c8a1ad3e0b841c5b2e7a1b7f914d643024969d5e641d3f84661f113e19bd7",
+      "index": 24,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "You open the cabinet 4. The cabinet 4 is open. In it, you see a cup 1.",
+      "action_sha256": "76c56c2eb4dab9f43d5265e78eb8172d8c48087a849656de50bc2385857cde7a",
+      "checkpoint": "tasks/181a4c810cec8a32/trial-02/checkpoint.json",
+      "checkpoint_sha256": "688c8a1ad3e0b841c5b2e7a1b7f914d643024969d5e641d3f84661f113e19bd7",
+      "index": 48,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You turn on the desklamp 1.",
+      "action_sha256": "de7dcf330bf1b44e97632861e6d46d0b620d812b55030657c645f6e1612cb088",
+      "checkpoint": "tasks/5c4e70364016dc80/trial-00/checkpoint.json",
+      "checkpoint_sha256": "183d61909d8c4d3a1002327a252b1e862c5d77db0ec1b7ae8c85865226f2468b",
+      "index": 19,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "look around desk 1",
+      "action_sha256": "eee5fdf16dadfe6b3f77df03c0fae8745c52ee35d213d864cfa86cf6bd62684a",
+      "checkpoint": "tasks/5c4e70364016dc80/trial-00/checkpoint.json",
+      "checkpoint_sha256": "183d61909d8c4d3a1002327a252b1e862c5d77db0ec1b7ae8c85865226f2468b",
+      "index": 21,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "look around desk 1",
+      "action_sha256": "eee5fdf16dadfe6b3f77df03c0fae8745c52ee35d213d864cfa86cf6bd62684a",
+      "checkpoint": "tasks/5c4e70364016dc80/trial-00/checkpoint.json",
+      "checkpoint_sha256": "183d61909d8c4d3a1002327a252b1e862c5d77db0ec1b7ae8c85865226f2468b",
+      "index": 24,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "look around desk 1",
+      "action_sha256": "eee5fdf16dadfe6b3f77df03c0fae8745c52ee35d213d864cfa86cf6bd62684a",
+      "checkpoint": "tasks/5c4e70364016dc80/trial-00/checkpoint.json",
+      "checkpoint_sha256": "183d61909d8c4d3a1002327a252b1e862c5d77db0ec1b7ae8c85865226f2468b",
+      "index": 26,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "look at book 1",
+      "action_sha256": "4b4e658f0a8c11083bf28ed0a81befc240568d46fe127227698e64e674fffc77",
+      "checkpoint": "tasks/5c4e70364016dc80/trial-00/checkpoint.json",
+      "checkpoint_sha256": "183d61909d8c4d3a1002327a252b1e862c5d77db0ec1b7ae8c85865226f2468b",
+      "index": 29,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "look at book 1",
+      "action_sha256": "4b4e658f0a8c11083bf28ed0a81befc240568d46fe127227698e64e674fffc77",
+      "checkpoint": "tasks/5c4e70364016dc80/trial-00/checkpoint.json",
+      "checkpoint_sha256": "183d61909d8c4d3a1002327a252b1e862c5d77db0ec1b7ae8c85865226f2468b",
+      "index": 32,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "look at book 1",
+      "action_sha256": "4b4e658f0a8c11083bf28ed0a81befc240568d46fe127227698e64e674fffc77",
+      "checkpoint": "tasks/5c4e70364016dc80/trial-00/checkpoint.json",
+      "checkpoint_sha256": "183d61909d8c4d3a1002327a252b1e862c5d77db0ec1b7ae8c85865226f2468b",
+      "index": 34,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "look at book 1",
+      "action_sha256": "4b4e658f0a8c11083bf28ed0a81befc240568d46fe127227698e64e674fffc77",
+      "checkpoint": "tasks/5c4e70364016dc80/trial-00/checkpoint.json",
+      "checkpoint_sha256": "183d61909d8c4d3a1002327a252b1e862c5d77db0ec1b7ae8c85865226f2468b",
+      "index": 36,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "look at book 1",
+      "action_sha256": "4b4e658f0a8c11083bf28ed0a81befc240568d46fe127227698e64e674fffc77",
+      "checkpoint": "tasks/5c4e70364016dc80/trial-00/checkpoint.json",
+      "checkpoint_sha256": "183d61909d8c4d3a1002327a252b1e862c5d77db0ec1b7ae8c85865226f2468b",
+      "index": 38,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "look at book 1",
+      "action_sha256": "4b4e658f0a8c11083bf28ed0a81befc240568d46fe127227698e64e674fffc77",
+      "checkpoint": "tasks/5c4e70364016dc80/trial-00/checkpoint.json",
+      "checkpoint_sha256": "183d61909d8c4d3a1002327a252b1e862c5d77db0ec1b7ae8c85865226f2468b",
+      "index": 40,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "look at book 2",
+      "action_sha256": "c969015b5247bbd96f72ee6b9800b33dfdd08d9890148afaee84e58d84e43932",
+      "checkpoint": "tasks/5c4e70364016dc80/trial-00/checkpoint.json",
+      "checkpoint_sha256": "183d61909d8c4d3a1002327a252b1e862c5d77db0ec1b7ae8c85865226f2468b",
+      "index": 42,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "look at book 3",
+      "action_sha256": "bbb7e681b1d06956d0098e1364948994269c7ca204ba1e94c200958edd0e04ad",
+      "checkpoint": "tasks/5c4e70364016dc80/trial-00/checkpoint.json",
+      "checkpoint_sha256": "183d61909d8c4d3a1002327a252b1e862c5d77db0ec1b7ae8c85865226f2468b",
+      "index": 44,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "look at book 4",
+      "action_sha256": "054a490d91282f69b877f562e0a420c00bdcb013f36549cbd70e4ff7712c2bea",
+      "checkpoint": "tasks/5c4e70364016dc80/trial-00/checkpoint.json",
+      "checkpoint_sha256": "183d61909d8c4d3a1002327a252b1e862c5d77db0ec1b7ae8c85865226f2468b",
+      "index": 46,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "look at book 1",
+      "action_sha256": "4b4e658f0a8c11083bf28ed0a81befc240568d46fe127227698e64e674fffc77",
+      "checkpoint": "tasks/5c4e70364016dc80/trial-00/checkpoint.json",
+      "checkpoint_sha256": "183d61909d8c4d3a1002327a252b1e862c5d77db0ec1b7ae8c85865226f2468b",
+      "index": 48,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "look under desklamp 1",
+      "action_sha256": "dffd47fa9dacddebdc046e9940a3abf83746c4096d77f165e0e9d9610404a223",
+      "checkpoint": "tasks/5c4e70364016dc80/trial-01/checkpoint.json",
+      "checkpoint_sha256": "f491e9a49186413d3baccb5c7223ac47a40d4896f07b0ea6180919a968f73117",
+      "index": 5,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "go to book 1 on desk 1",
+      "action_sha256": "d00013fb4808048920334559e6a3f1ba0ad7f4d6fefcab395517824207f98ca2",
+      "checkpoint": "tasks/5c4e70364016dc80/trial-01/checkpoint.json",
+      "checkpoint_sha256": "f491e9a49186413d3baccb5c7223ac47a40d4896f07b0ea6180919a968f73117",
+      "index": 7,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "other_unmatched_shape"
+    },
+    {
+      "action_excerpt": "You are in the middle of a room. Looking quickly around you, you see a bathtubbasin 1, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a counte",
+      "action_sha256": "d0ae2ed7870a428271a560b48de982bbcff44fefdb434c90b49fe1230209058f",
+      "checkpoint": "tasks/cc1968875627432d/trial-00/checkpoint.json",
+      "checkpoint_sha256": "5ead8489c52a591d0c52d2a3cc7e924b6269cccbcc5a0b19a588c9e2de28070f",
+      "index": 40,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    },
+    {
+      "action_excerpt": "You are in the middle of a room. Looking quickly around you, you see a bathtubbasin 1, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a counte",
+      "action_sha256": "d0ae2ed7870a428271a560b48de982bbcff44fefdb434c90b49fe1230209058f",
+      "checkpoint": "tasks/cc1968875627432d/trial-00/checkpoint.json",
+      "checkpoint_sha256": "5ead8489c52a591d0c52d2a3cc7e924b6269cccbcc5a0b19a588c9e2de28070f",
+      "index": 42,
+      "native_won": false,
+      "no_effect": true,
+      "shape": "environment_style_sentence"
+    }
+  ],
+  "run_sha256": "7d93d7ffcc0460c9ce92743ef1eef308d21afe1eeed037f233fb031bd8632bc5",
+  "scope": "Executed action shapes under the public numbered-entity grammar; no semantic repairs",
+  "sha256": "848ee678264d9fefcd6b9709ba16bab52d6d9c619fcc13749547427693647cf9"
+}

@@ -1,0 +1,74 @@
+{
+  "audit_sha256": "fb4a0cb5dfe1ed2e96d45fce44dcd756c39046fe81fbc1c82dac41cb1c693910",
+  "historical_frozen_baseline_replaced": false,
+  "model": {
+    "calibration_tolerance": 0.02,
+    "estimation": "predictable_Brier_with_five_train_group_moment_bounds",
+    "kernel_implementation": "scripts/calibrate_successor_success.py:component_kernel",
+    "p_coefficients": [
+      0.02061174896408344,
+      -0.07161020392781388,
+      -1.9059908072860983,
+      -1.7341160604662238,
+      0.5789086793780891,
+      -9.288775825616018,
+      6.677640631844765
+    ],
+    "p_feature_set": "seven",
+    "p_ridge": 0.01,
+    "task_offsets": [
+      -1.0,
+      0.0,
+      1.0
+    ],
+    "task_prior": [
+      0.16666666666666666,
+      0.6666666666666666,
+      0.16666666666666666
+    ],
+    "task_scale": 1.5,
+    "write_coefficients_reference_A": [
+      [
+        2.088611057670345,
+        0.2692321428465948,
+        -0.074175252959278,
+        1.3453747827792537
+      ],
+      [
+        -0.19332303952472168,
+        0.0023061830528540374,
+        -0.02109135574674955,
+        0.17866196880899646
+      ],
+      [
+        -1.275606940220993,
+        -0.1722874975137936,
+        0.21429100298482046,
+        0.3918650942925467
+      ],
+      [
+        -0.04333381840705293,
+        -0.14465724829721383,
+        -0.12026026956846869,
+        -0.5630276693928368
+      ],
+      [
+        0.11096052898786876,
+        0.4098849157800484,
+        -0.17580605183084522,
+        0.528643341880429
+      ],
+      [
+        1.6832852820285162,
+        -1.399204160937804,
+        0.21113198038829112,
+        -0.6856576002837805
+      ]
+    ],
+    "write_family": "error_lifetime"
+  },
+  "protocol_sha256": "4ce59e8547694d25878ac85dda3adaf6c7f2d2b9e58b194659ca1e88627ebded",
+  "result_sha256": "d1c16a25803fa86c271a0b93c2e646c8f2c8b4d6ff8b0b9ba4ff8a56f992356d",
+  "sha256": "6fa55809079837a070b72c676efbec65d5e2c34036ff7f69eff5fbd00a182224",
+  "status": "not_retained_over_current_estimation"
+}

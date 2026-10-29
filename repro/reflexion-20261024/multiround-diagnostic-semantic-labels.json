@@ -1,0 +1,1845 @@
+{
+  "protocol_sha256": "932fcd8baa4533fe3e9239a1cf1a76eade08dd424c38d7786d883d1d6af2ea6f",
+  "reviewer": "Codex full-text semantic annotation",
+  "human_second_review": false,
+  "definition": {
+    "E": "Explicit object placement inside microwave before heat or placement-then-heat without retrieval, including task or appliance-test objects.",
+    "C": "Explicit held/inventory requirement at the microwave heat command. Inventory before insertion or only before final placement is not C.",
+    "U": "Neither tracked prerequisite is expressed; other errors may be present.",
+    "A": "Tracked prerequisite is ambiguous or contradictory."
+  },
+  "entries": [
+    {
+      "sha256": "fbfd9d4ad11585ffb89bf36546af75fec92f88b73fe4b04605458ec3e59017e8",
+      "label": "E",
+      "reason": "Explicitly requires ensuring that the potato is inside the microwave before heating.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-02088717ce4b3889-repeated_error-correct_latest-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "07620eae2cd2be09e34ecfd3a7c5fdd0e993c80eb1a8df84a32e2a740e7254f9",
+      "label": "E",
+      "reason": "Explicitly prescribes placing the potato in the microwave and then heating it.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-02088717ce4b3889-repeated_error-correct_latest-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "92d2772624582f37f9d59e68d7dcea6958a6c93e34242d85534b50c8d9e881ad",
+      "label": "E",
+      "reason": "Explicitly prescribes taking the potato, placing it in the microwave, and heating it without retrieval.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-02088717ce4b3889-repeated_error-correct_latest-2103",
+          "trial": 3
+        }
+      ]
+    },
+    {
+      "sha256": "4672aee94639be9cafe4da252cab77aaa923d40d06ae520e1c6c121f80057f2a",
+      "label": "E",
+      "reason": "Explicitly prescribes putting the potato directly inside the microwave, closing it, and heating it without retrieval.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-02088717ce4b3889-repeated_error-delete_latest-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "8bb3c516532b84f3e6eadb58967ee0dbc88372d17fa2544f28135a2d37212a87",
+      "label": "E",
+      "reason": "Explicitly prescribes placing the potato in the microwave, closing it, and heating it without retrieval.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-02088717ce4b3889-repeated_error-delete_latest-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "3ba16a2033afd9da2413a10533707329aa2e7bc8e2e6ae7ad5006fa74936d7c4",
+      "label": "E",
+      "reason": "Explicitly prescribes placing the potato in the microwave, closing it, and heating it without retrieval.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-02088717ce4b3889-repeated_error-delete_latest-2103",
+          "trial": 3
+        }
+      ]
+    },
+    {
+      "sha256": "2fcbf20c86e8d0a70b392115421aee14a1faceee50d268debf9da3f0f20934a9",
+      "label": "E",
+      "reason": "Explicitly requires confirming the potato is inside the microwave and closing it before heating; the inventory check concerns final placement.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-02088717ce4b3889-repeated_error-retain-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "34c128ee4a3b219dcd6774c61ed73a453bfc3ca019de844e699a5c092a0b5d7a",
+      "label": "E",
+      "reason": "Explicitly requires the potato to be inside the closed microwave before heating; the inventory check concerns placement.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-02088717ce4b3889-repeated_error-retain-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "334781c0b64c12d71442ac248489c1c29fd8790db5e8a16c535d8b15674fc8ee",
+      "label": "E",
+      "reason": "Explicitly requires the potato to be inside the closed microwave before heating; the inventory check concerns placement.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-02088717ce4b3889-repeated_error-retain-2103",
+          "trial": 3
+        }
+      ]
+    },
+    {
+      "sha256": "6b4e564cb35cb258e72522d50e5681388db588698451a720e954bff10a39b3e0",
+      "label": "E",
+      "reason": "Explicitly places the potato inside the microwave, closes it, and heats it without retrieval.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-02088717ce4b3889-single_error-correct_latest-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "277ae62d50dd8ba7bc0bd37fabda68e03b5504720cf584e8354ca08aecdfd705",
+      "label": "E",
+      "reason": "Explicitly prescribes microwave insertion before heating; the inventory check concerns the later stove attempt.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-02088717ce4b3889-single_error-correct_latest-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "2f09dd573770150b772426758587a742ccc61249097c533868eb22e754a373a6",
+      "label": "E",
+      "reason": "Explicitly prescribes microwave insertion before heating; inventory and placement advice for the stove does not correct that premise.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-02088717ce4b3889-single_error-correct_latest-2103",
+          "trial": 3
+        }
+      ]
+    },
+    {
+      "sha256": "828871d8c2ef13b8fc8cf3b7cf74bef1cfe705dc90d787a9299c27bffdad92a3",
+      "label": "U",
+      "reason": "Discusses command syntax and alternative heating methods without specifying microwave containment or inventory at the heat command.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-02088717ce4b3889-single_error-delete_latest-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "fc3a9e01095c8783cd86edc07e83bee59b7263630fb8be32eefbc9841c2184c5",
+      "label": "U",
+      "reason": "Discusses command syntax and alternative heating methods without specifying containment or continued possession at heating.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-02088717ce4b3889-single_error-delete_latest-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "d6f12c155f00372bb19c8bf300e47673e466e7ac3408d408738dd2e9c6a071d3",
+      "label": "E",
+      "reason": "Explicit potato-inside-close-heat sequence; inventory check is for final diningtable placement.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-02088717ce4b3889-single_error-retain-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "981a1f0ab9ab81e702abe17f7b61036104035fdd99248b0fe36fa5ea626ff9e9",
+      "label": "E",
+      "reason": "Requires potato in the microwave before heat; inventory is checked before stove placement.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-02088717ce4b3889-single_error-retain-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "bd8e87934517d96459ef29a39c596608ac7b52f49b2447b129446a05d1e3d42e",
+      "label": "E",
+      "reason": "After an initial inventory check, explicitly places potato inside, closes the microwave and heats it without retrieval. The inventory check precedes insertion, not the heat command.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-02088717ce4b3889-single_error-retain-2103",
+          "trial": 3
+        }
+      ]
+    },
+    {
+      "sha256": "80260906db9f91149600fbaf4993f85c9659e135062516d68f66f0dd5604f738",
+      "label": "E",
+      "reason": "Explicitly opens the microwave, places the apple inside, closes it, and issues the heat command.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-4a3978c7981b641a-repeated_error-correct_latest-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "9c8b371e5b7bc61657ec7edb70b03b8e2cc96d8a035c835d119c9ac866c43221",
+      "label": "E",
+      "reason": "The prescribed sequence takes the apple, inserts it, closes the microwave, and heats it; the preceding inventory remark does not specify continued possession at heating.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-4a3978c7981b641a-repeated_error-correct_latest-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "7e2c2b1606dc4e3c0d2141137979779c318ceb676c254456ca09670d78854321",
+      "label": "E",
+      "reason": "The prescribed sequence takes the apple, inserts it, closes the microwave, and heats it; the inventory remark does not require continued possession at the heat command.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-4a3978c7981b641a-repeated_error-correct_latest-2103",
+          "trial": 3
+        }
+      ]
+    },
+    {
+      "sha256": "d8eef9225be222cf668d7ad13294990d17a898342ca4705e5146801358dca71d",
+      "label": "E",
+      "reason": "Explicitly requires placing the apple in the microwave before attempting to heat it.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-4a3978c7981b641a-repeated_error-delete_latest-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "13bbf3a63161070435c4bac4e1e151c9f9628111e2ed806aa584fe7d2f5d1e57",
+      "label": "U",
+      "reason": "Prescribes a pot and stove procedure without stating the tracked microwave containment or inventory premise.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-4a3978c7981b641a-repeated_error-delete_latest-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "f77bc415435f105bd133383c7f89983201ab4bc5f2a603c3050fedbef4664c08",
+      "label": "E",
+      "reason": "Explicitly instructs placing the apple inside the microwave and using the heat command.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-4a3978c7981b641a-repeated_error-delete_latest-2103",
+          "trial": 3
+        }
+      ]
+    },
+    {
+      "sha256": "3eb309deae413683a44f5fa6146c4705e251f572f371a4633f72b48071ad206a",
+      "label": "E",
+      "reason": "Explicitly requires apple inside microwave before heat.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-4a3978c7981b641a-repeated_error-retain-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "a00c5215410fb57852df1fd79744955f61cb269adab707377922cbcc93eef020",
+      "label": "E",
+      "reason": "Explicitly requires confirming that the apple is inside the microwave before attempting to heat it.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-4a3978c7981b641a-repeated_error-retain-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "0c7a16eb70c5cbcb523de54e230cbc23840f91c79dba7703c1895418d95967f8",
+      "label": "E",
+      "reason": "Explicitly requires confirming that the apple is inside the microwave before attempting to heat it.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-4a3978c7981b641a-repeated_error-retain-2103",
+          "trial": 3
+        }
+      ]
+    },
+    {
+      "sha256": "07b953286ec7810238ef55a5cca031c7cc4a7357b74a4eea2d2aba516b51b14e",
+      "label": "E",
+      "reason": "Explicitly requires apple inside microwave before heat.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-4a3978c7981b641a-single_error-delete_latest-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "4ebe9b9a0793650799d6c9d5bb5ce90a42dcc129aa2313c70915e032a12e46e2",
+      "label": "U",
+      "reason": "Tests a cup already inside and suggests alternative appliances; no explicit microwave placement-then-heat or held-at-heat premise.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-4a3978c7981b641a-single_error-delete_latest-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "74eaea0ca2f5b2c2610c88935c4ebbecbb71bf7a6d7bec938b457beb8a604874",
+      "label": "U",
+      "reason": "Tests an item already inside, then proposes stove containers; no tracked microwave object prerequisite.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-4a3978c7981b641a-single_error-delete_latest-2103",
+          "trial": 3
+        }
+      ]
+    },
+    {
+      "sha256": "9be4f9741ac5f256684a72e2197eace028cbfd6e9fac8ca95372718db3b284e4",
+      "label": "E",
+      "reason": "Explicitly confirms that the apple is inside the microwave and then heats it, with no retrieval step.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-4a3978c7981b641a-single_error-retain-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "1371c552bf7b5952faf5620b0dce24ca3711369fb6eabe35a13c635f23e9cda6",
+      "label": "E",
+      "reason": "Explicitly requires confirming that the apple is inside the microwave and then heating it without retrieval.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-4a3978c7981b641a-single_error-retain-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "fbc16cc51eb332d22d145d650dc09c78311046e5c9fc72fef57a7e12e2692635",
+      "label": "E",
+      "reason": "Explicitly requires confirming that the apple is inside the microwave and then heating it without retrieval.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-4a3978c7981b641a-single_error-retain-2103",
+          "trial": 3
+        }
+      ]
+    },
+    {
+      "sha256": "2173bf0a1923b138899cabed57157b7ebdf60cee9afbbbcf187b0a3a674e14c5",
+      "label": "E",
+      "reason": "Explicitly removes other items, inserts the potato, closes the microwave, and heats it without retrieval.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-55f887bdc1cc1699-repeated_error-correct_latest-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "67b4db488e64fde9c81d2303fd7e6f4a8fdef74a87f043de969b7088ec4428e1",
+      "label": "E",
+      "reason": "Explicitly removes other items, inserts the potato, closes the microwave, and heats it without retrieval.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-55f887bdc1cc1699-repeated_error-correct_latest-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "038653a50b0b250e7e4cc68c2b2e74a9cef09633e5ec06b36ee07f442d41d111",
+      "label": "E",
+      "reason": "Explicitly inserts the potato into the microwave and heats it before final placement.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-55f887bdc1cc1699-repeated_error-delete_latest-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "5a8eda64d0b01c581835456a4bb1e02eab33e4b7fce7e02319bac0a416b0a7d2",
+      "label": "U",
+      "reason": "Prescribes finding, taking, and heating the potato without specifying containment or inventory at heating.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-55f887bdc1cc1699-repeated_error-delete_latest-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "df7d2c12d031573b75dcae02d795f023052111d99267ee1bd90d7746937978cf",
+      "label": "E",
+      "reason": "Explicitly inserts the potato directly into the microwave and then heats it; the inventory check concerns surface placement.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-55f887bdc1cc1699-repeated_error-delete_latest-2103",
+          "trial": 3
+        }
+      ]
+    },
+    {
+      "sha256": "43eef5c7d818b2eaf1e4088a76f616f522c2b50bfb253890fc0b2c3f98d71e27",
+      "label": "E",
+      "reason": "Explicit remove-other-items-place-potato-inside-heat sequence.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-55f887bdc1cc1699-repeated_error-retain-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "8046d1d17fde07392c7c5ac2ee1b50f2eea1e868bc67497a5829609e09c3873f",
+      "label": "E",
+      "reason": "Explicitly removes other items, inserts the potato, closes the microwave, and heats it without retrieval.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-55f887bdc1cc1699-repeated_error-retain-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "57cb7f1a5ca60bbf620c2ac588343bcafbde3589f62fb85bed33dc91dc731a71",
+      "label": "E",
+      "reason": "Explicitly inserts the potato, closes the microwave, and heats it; taking the potato occurs only after heating.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-55f887bdc1cc1699-repeated_error-retain-2103",
+          "trial": 3
+        }
+      ]
+    },
+    {
+      "sha256": "c5e5eb35fac3e7aea144f3e015d5c5f48a59ae0bdf358b7e0183ea5fe75a4d05",
+      "label": "U",
+      "reason": "Prescribes finding, taking, and heating the potato without specifying containment or inventory at heating.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-55f887bdc1cc1699-single_error-correct_latest-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "3902afb9c0dce927ba81023da125e5e8e292f1e76bee1dec21034579e8e4f137",
+      "label": "A",
+      "reason": "Prescribes placing the potato on a stoveburner or microwave and then heating it, but the wording does not clearly distinguish placement inside the microwave from placement on its surface.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-55f887bdc1cc1699-single_error-correct_latest-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "826b4e916da507eaf4663436bb9cbd254d7c3c71df000937401bbf837d910c19",
+      "label": "A",
+      "reason": "Prescribes placing the potato inside the microwave but separately requires inventory before attempting to heat it; their temporal relationship is unresolved.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-55f887bdc1cc1699-single_error-correct_latest-2103",
+          "trial": 3
+        }
+      ]
+    },
+    {
+      "sha256": "c78998cac7de96393b8f92b397d330a83b3352754077a60beb7599743ac3ac1e",
+      "label": "U",
+      "reason": "Search and generic take-heat-final-placement advice without the tracked object prerequisite.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-55f887bdc1cc1699-single_error-delete_latest-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "1a302a64112e72cf213ae8b81790a6a067493350798933f69d4ac6bad418a0ad",
+      "label": "E",
+      "reason": "Explicit potato-inside-empty-microwave-then-heat sequence.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-55f887bdc1cc1699-single_error-delete_latest-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "fbd7ef59c4f461ccd6df0dafcb0e0753fc98a16f62e81fd0ea9313e9c86970d0",
+      "label": "C",
+      "reason": "Explicit final inventory requirement at the heat command; empty-microwave advice does not prescribe placing the potato inside.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-55f887bdc1cc1699-single_error-delete_latest-2103",
+          "trial": 3
+        }
+      ]
+    },
+    {
+      "sha256": "42955920355e1993c20afb600f42eddc7daf5d185db44071999c39f078b3167a",
+      "label": "U",
+      "reason": "Prescribes finding, taking, and heating the potato without specifying containment or inventory at heating.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-55f887bdc1cc1699-single_error-retain-2103",
+          "trial": 1
+        },
+        {
+          "trajectory_id": "multiround-55f887bdc1cc1699-single_error-retain-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "9570a7de6ba4525b159223a7bb165a342d8bbf9eacd2f991f083aad62a07cfa2",
+      "label": "E",
+      "reason": "Explicitly removes other items, places the potato inside the microwave, and then heats it.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-55f887bdc1cc1699-single_error-retain-2103",
+          "trial": 3
+        }
+      ]
+    },
+    {
+      "sha256": "7a6786250c45b30c82eef2d99482adcdd80cfe55d8d95dc7d672ea28d235db3a",
+      "label": "E",
+      "reason": "Explicitly prescribes first confirming inventory and then placing the apple in the microwave for heating; the inventory check precedes insertion rather than requiring possession at the heat command.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-69b7fb1c70f5d271-repeated_error-correct_latest-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "add53b3e4ac4e0de8e5b6cdfaab1e6e1930f0f57891edb9f0306cd863fa0989e",
+      "label": "E",
+      "reason": "The inventory check is followed by an explicit instruction to insert the apple and heat it; checking that it remains inside after failure reinforces the containment premise.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-69b7fb1c70f5d271-repeated_error-correct_latest-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "702f8ca43da26cd29dbc1bd9b872e61b8d91374115947e82f9e86a937bcc3ee3",
+      "label": "A",
+      "reason": "Explicitly prescribes heating with the apple inside the microwave but also keeping it in inventory until the heating process is complete, producing conflicting location requirements.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-69b7fb1c70f5d271-repeated_error-correct_latest-2103",
+          "trial": 3
+        }
+      ]
+    },
+    {
+      "sha256": "fa3329de0119f4b6621bfda498caee8b0c9f9e0b4493b64fef5f1e735bce8325",
+      "label": "E",
+      "reason": "Explicitly prescribes using the heat command once the apple is inside the microwave.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-69b7fb1c70f5d271-repeated_error-delete_latest-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "ae376eacd2ac240c149736d1765d0006150358e2456f901a41a35e4c3c95027a",
+      "label": "E",
+      "reason": "Explicitly prescribes issuing the heat command once the apple is inside the microwave.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-69b7fb1c70f5d271-repeated_error-delete_latest-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "d864ea7e92abf0ae6c5595f89941e5c8387c30065ac799701c0d9a4d6e1441d5",
+      "label": "E",
+      "reason": "Explicitly prescribes issuing the heat command once the apple is inside the microwave.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-69b7fb1c70f5d271-repeated_error-delete_latest-2103",
+          "trial": 3
+        }
+      ]
+    },
+    {
+      "sha256": "2cea39807b15c780d045efb1f2e8f884f31e8c2df4fdece4c9307fbc69a8cdca",
+      "label": "E",
+      "reason": "Explicitly prescribes placing the apple inside the microwave and then using the heat command.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-69b7fb1c70f5d271-repeated_error-retain-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "8f7f10a9d44f5c5d16081553790f9c263c874eef891ac3c1d033bc3f64b67fbe",
+      "label": "E",
+      "reason": "Explicitly requires confirming that the apple is inside the microwave before issuing the heat command.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-69b7fb1c70f5d271-repeated_error-retain-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "4a25c5c66238aa1d580504c1fcde2aa4d1717022eb89d1b94dc5f74dbd7b5bf6",
+      "label": "E",
+      "reason": "Explicitly requires confirming that the apple is inside the microwave before issuing the heat command.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-69b7fb1c70f5d271-repeated_error-retain-2103",
+          "trial": 3
+        }
+      ]
+    },
+    {
+      "sha256": "14e92b608407611199ef934bae233d805b5e7e5ed78410271994c18cc296ce8f",
+      "label": "E",
+      "reason": "Explicitly prescribes placing the apple inside the microwave, closing it, and then using the heat function.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-69b7fb1c70f5d271-single_error-retain-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "e21ab0296360d3db65706229ba63fa57d87013bb354701a3ff455ee6796aeada",
+      "label": "U",
+      "reason": "Prescribes heating the apple in a container on a stoveburner without stating the tracked microwave containment or inventory premise.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-69b7fb1c70f5d271-single_error-retain-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "ad24fc86fa79c1819e58f002c215c08f645592968924a3b29d8d6d6d99721815",
+      "label": "U",
+      "reason": "Discusses a microwave functionality test and a container-on-stove procedure without explicitly requiring microwave containment before heating.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-69b7fb1c70f5d271-single_error-retain-2103",
+          "trial": 3
+        }
+      ]
+    },
+    {
+      "sha256": "84aed43585d33a3916827cf1b508e24e29894091180560132a9fcfd00a365fdd",
+      "label": "E",
+      "reason": "Explicitly prescribes placing the mug inside the microwave and turning it on to heat the mug, with no intervening retrieval.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-790b6f6fefeac9d1-repeated_error-correct_latest-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "40cfd2a0be085906fe4bba22687e5bb20f8dbb558db0cbcae2e7393318698e51",
+      "label": "E",
+      "reason": "Explicitly prescribes placing the mug inside the microwave to heat it and retrieving it only after it is hot.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-790b6f6fefeac9d1-repeated_error-correct_latest-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "7b39194982cd27dbcbe59e79c66c53cbb486d19a6c00fb989bc8fda2b4b5decc",
+      "label": "E",
+      "reason": "Explicitly requires microwave insertion before heating and retrieving the mug only after it is hot.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-790b6f6fefeac9d1-repeated_error-delete_latest-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "56104129b6f3a3c8d7ee2cae2de95d49c1e98045aaa27c7bcda385d894880c5e",
+      "label": "E",
+      "reason": "Explicitly prescribes placing the mug inside the microwave and then heating it, with retrieval only afterward.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-790b6f6fefeac9d1-repeated_error-delete_latest-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "894fc43e05736b767048e4e2d0b999fe51bd644fdab33c7dd841c5ad6b5d8c19",
+      "label": "E",
+      "reason": "Explicitly requires placing the mug inside the microwave before heating and waiting for it to become hot.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-790b6f6fefeac9d1-repeated_error-retain-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "350635318427a68f33b674b26ab59dc9c902dd34e06550355f4dea80ac3ff759",
+      "label": "E",
+      "reason": "Explicitly prescribes placing the mug inside the microwave, closing it, and then using the heat function.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-790b6f6fefeac9d1-repeated_error-retain-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "d5171c4e515de811e17498d6086943945307bf5a9d1f9f3c77d765fc15e12e93",
+      "label": "E",
+      "reason": "Explicitly prescribes placing the mug inside the microwave, closing it, and then using the heat function.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-790b6f6fefeac9d1-repeated_error-retain-2103",
+          "trial": 3
+        }
+      ]
+    },
+    {
+      "sha256": "c2f8e8a8b2425ec0523d2fdc1a21e91132a5611f63c6e7c81eb8a3b563b60e59",
+      "label": "U",
+      "reason": "Discusses searching for a mug without stating any microwave containment or inventory-at-heating premise.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-790b6f6fefeac9d1-single_error-correct_latest-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "6ebffd7cf82225650ecad3aa08ddac8efd9682844f837011620278b9200ac032",
+      "label": "U",
+      "reason": "Discusses searching for a mug without stating the tracked heating-location premise.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-790b6f6fefeac9d1-single_error-correct_latest-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "19cf9ebe5b48801035ae75a81e5bc02eb7b0c96e51cfcb79325e94b0fce402b0",
+      "label": "U",
+      "reason": "Discusses searching for a mug without stating the tracked heating-location premise.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-790b6f6fefeac9d1-single_error-correct_latest-2103",
+          "trial": 3
+        }
+      ]
+    },
+    {
+      "sha256": "79eb43fb0818629bcf2329891eb6c55ae1e02dfd80044aa2a393ce11d083e05a",
+      "label": "E",
+      "reason": "Explicitly identifies failure to insert the mug before heating as the mistake and requires insertion before the heat action.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-790b6f6fefeac9d1-single_error-delete_latest-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "914b833a559741cd6db6445fee5c83c6ca9ec76fbfc4518b044fbd2c3ba08bd1",
+      "label": "U",
+      "reason": "Discusses searching for a mug without stating the tracked heating-location premise.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-790b6f6fefeac9d1-single_error-delete_latest-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "8e317952c07fa3aef1c0e93c4007ef49a9a70e8138b847f158a44b901ad59b89",
+      "label": "E",
+      "reason": "Explicitly requires confirming the mug is inside the microwave before issuing the heat command.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-790b6f6fefeac9d1-single_error-delete_latest-2103",
+          "trial": 3
+        }
+      ]
+    },
+    {
+      "sha256": "7f79abc2afa0daa4e35415512e950146b0cb0c1d710337f0d08d85b80b47e1f9",
+      "label": "E",
+      "reason": "Explicitly prescribes placing the mug inside the microwave and turning it on to heat the mug without intervening retrieval.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-790b6f6fefeac9d1-single_error-retain-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "44076834ddcf674f46431e3ace922905f25524a59ffc6cf427a23efa7e3cc543",
+      "label": "E",
+      "reason": "Explicitly prescribes placing the mug inside the microwave and then using the heat command.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-790b6f6fefeac9d1-single_error-retain-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "7e06ae5910aae207eb5aea4983d5248fe0048fdaa02f41134b17e924a210c190",
+      "label": "E",
+      "reason": "Explicitly prescribes placing the mug inside the microwave, closing it, and then using the heat command.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-790b6f6fefeac9d1-single_error-retain-2103",
+          "trial": 3
+        }
+      ]
+    },
+    {
+      "sha256": "1af6eba62fbe6427d853aa689103c5e476eb93e3fb8ebf29e18d51dbaf93baaa",
+      "label": "E",
+      "reason": "Explicitly prescribes placing the mug inside the microwave, activating it, and then attempting to heat the mug.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-bf6d3dba86f7f0e4-repeated_error-correct_latest-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "552a744dc813dfd85180a8fbdb51a09bd0b7c7c08baba5c4faf7fd5cf80069e0",
+      "label": "E",
+      "reason": "Explicitly prescribes placing the mug inside the microwave, turning it on, and waiting for the mug to heat.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-bf6d3dba86f7f0e4-repeated_error-correct_latest-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "004d34f4e30463913fae372ba631bae1e8154a7749ae86cbc6a0fa34faf7f783",
+      "label": "A",
+      "reason": "Explicitly prescribes heating the mug inside the microwave, but separately requires keeping it in inventory before attempting to heat it, leaving conflicting or unresolved location requirements at heating.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-bf6d3dba86f7f0e4-repeated_error-correct_latest-2103",
+          "trial": 3
+        }
+      ]
+    },
+    {
+      "sha256": "9dc9a42f10f851083c661d7a0bdedf29dce074aca3f59ac7bc0846e54410b51b",
+      "label": "E",
+      "reason": "Explicitly prescribes placing the mug inside the microwave before using the heat command.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-bf6d3dba86f7f0e4-repeated_error-delete_latest-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "4703e2af810695ba172f29895b67d93df36e845d08bf4b24a11e501be4818039",
+      "label": "E",
+      "reason": "Explicitly prescribes placing the mug inside the microwave before using the heat command.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-bf6d3dba86f7f0e4-repeated_error-delete_latest-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "3e8466d706cf11fe2b0dba9d55e8259dfb1c1731b905ba794104de680f2463a8",
+      "label": "E",
+      "reason": "Explicitly prescribes placing the mug inside the microwave before using the heat command; the later taking instruction does not require possession at heating.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-bf6d3dba86f7f0e4-repeated_error-delete_latest-2103",
+          "trial": 3
+        }
+      ]
+    },
+    {
+      "sha256": "8eb92a5e35ca042ed1f45e9e522613c3bfacc88e9795e91226f8a56ee061b8c7",
+      "label": "E",
+      "reason": "Explicitly prescribes placing the mug inside the microwave and turning it on to heat the mug, and requires appliance placement before heating.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-bf6d3dba86f7f0e4-repeated_error-retain-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "45a9972ff9e31dfd991fa9e87e950aaa43591199eb18977d817de1d9d2662289",
+      "label": "U",
+      "reason": "Discusses testing microwave functionality and using the stoveburner without specifying the tracked microwave containment or inventory premise.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-bf6d3dba86f7f0e4-repeated_error-retain-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "555a4592e5f8f0ef6d2b8199bb825401bbc5154789d87892a4efd2c5c124c4b6",
+      "label": "U",
+      "reason": "Mentions inserting the target mug but does not explicitly prescribe microwave heating after insertion. Probe heating specifies no containment prerequisite; the explicit subsequent heating sequence concerns the stove.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-bf6d3dba86f7f0e4-repeated_error-retain-2103",
+          "trial": 3
+        }
+      ]
+    },
+    {
+      "sha256": "ce633fc04c0b1c97d051583781f7cca2021e1fb7e85982c75c49593bad16c1fc",
+      "label": "E",
+      "reason": "Explicitly prescribes placing the mug inside the microwave and then turning it on to heat the mug.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-bf6d3dba86f7f0e4-single_error-retain-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "4b2d0d695dca25f81b635754ce855a0ed1040863b901df84c0272db176c1fe95",
+      "label": "U",
+      "reason": "Discusses alternative heating methods and command syntax without specifying microwave containment or inventory at heating.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-bf6d3dba86f7f0e4-single_error-retain-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "4ecd00b30c684eda3b8778ff3a2260862fdf33e4e1a4a218b208309eaabe4e43",
+      "label": "E",
+      "reason": "Explicitly prescribes placing the mug inside the microwave and then turning it on to heat the mug.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-bf6d3dba86f7f0e4-single_error-retain-2103",
+          "trial": 3
+        }
+      ]
+    },
+    {
+      "sha256": "335d969ac85692937ffcab0f969a32dff3e8718fe86407a9fa1b07165ef7328f",
+      "label": "E",
+      "reason": "Explicitly prescribes placing the egg inside the microwave and then issuing the heat command; possession checks concern placement.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-bf7043e154cc1d53-repeated_error-correct_latest-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "a695978f2450a54f8b59078266cd47f55b3b713cc994d26d4fd130acd39c2488",
+      "label": "E",
+      "reason": "Explicitly prescribes placing the egg inside the microwave and then issuing the heat command; possession checks concern placement.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-bf7043e154cc1d53-repeated_error-correct_latest-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "fec260f47141cfcc984504d18b0f88ca0d232dc840f152fb71780071328ef00f",
+      "label": "E",
+      "reason": "Explicitly prescribes placing the egg inside the microwave, activating it, and then attempting to heat the egg.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-bf7043e154cc1d53-repeated_error-correct_latest-2103",
+          "trial": 3
+        }
+      ]
+    },
+    {
+      "sha256": "23fb414a5945d8a46e6a31e3f4b36ddf80b5ffa32b72e7fbd460a45dce040060",
+      "label": "E",
+      "reason": "Explicitly requires confirming that the egg is inside the microwave before attempting to heat it.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-bf7043e154cc1d53-repeated_error-delete_latest-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "2951ea33eacbb8179d818c88419cd639f27532ffed21c3a3436c886a98c21217",
+      "label": "E",
+      "reason": "Explicitly requires confirming that the egg is inside the microwave before attempting to heat it.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-bf7043e154cc1d53-repeated_error-delete_latest-2103",
+          "trial": 2
+        },
+        {
+          "trajectory_id": "multiround-bf7043e154cc1d53-repeated_error-delete_latest-2103",
+          "trial": 3
+        }
+      ]
+    },
+    {
+      "sha256": "b63536de93980f113b01535a8787d1683cef814e9a90365d9e2d2754fa7001ba",
+      "label": "U",
+      "reason": "Prescribes a container-on-stove procedure without stating the tracked microwave containment or inventory-at-heating premise.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-bf7043e154cc1d53-repeated_error-retain-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "eae478fde718174023da44ab397c78c06087875f1c096f09df91f79cd03ec19c",
+      "label": "E",
+      "reason": "Explicitly requires opening the microwave, placing the egg inside, and then using the heat function.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-bf7043e154cc1d53-repeated_error-retain-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "c52eebcc2b67dff77bc00528d1fee9e48bf26f88695824d91949695739b34294",
+      "label": "E",
+      "reason": "Explicitly requires placing the egg inside the microwave before attempting to heat it.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-bf7043e154cc1d53-repeated_error-retain-2103",
+          "trial": 3
+        }
+      ]
+    },
+    {
+      "sha256": "3965b08e702b2c1efc81f01f080435985850c47bf049ed37ab334acae6c5905b",
+      "label": "E",
+      "reason": "Explicitly prescribes placing the egg inside the microwave, closing it, and using the heat command; possession is checked before insertion.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-bf7043e154cc1d53-single_error-correct_latest-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "110e0bda378c872ae46f9aef87c3c1f2781590ababe9d94ebd6e54c81802bf83",
+      "label": "U",
+      "reason": "Discusses heating a bowl already inside the microwave and holding the egg before stove placement, without explicitly prescribing the tracked microwave containment prerequisite.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-bf7043e154cc1d53-single_error-correct_latest-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "15a05340d41c2b074a9f08b403fe97310f530549f866ae4a4e6b07c8703b481d",
+      "label": "U",
+      "reason": "Discusses testing a bowl already inside the microwave and holding the egg before surface placement, without explicitly prescribing the tracked microwave containment prerequisite.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-bf7043e154cc1d53-single_error-correct_latest-2103",
+          "trial": 3
+        }
+      ]
+    },
+    {
+      "sha256": "9a5ec03c0339793272580c1d273a2fb480e749909ff671455495bcdd4221bc6e",
+      "label": "E",
+      "reason": "Prescribes microwave heating first and requires placing the egg in the appliances before turning them on, imposing the containment premise on the microwave procedure.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-bf7043e154cc1d53-single_error-delete_latest-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "5543d7dce509057d761ec5f62a3c9be5393695e524d22920a4d4aec285428527",
+      "label": "U",
+      "reason": "Discusses containers for stove heating and checking microwave functionality without specifying microwave containment or possession at heating.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-bf7043e154cc1d53-single_error-delete_latest-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "417ae1db83aced89f14a1297ed6dd009de3ea4f181b6557d0256be4bc225e612",
+      "label": "U",
+      "reason": "Prescribes a bowl-on-stove procedure; the generic inventory check does not require holding the egg at heating.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-bf7043e154cc1d53-single_error-delete_latest-2103",
+          "trial": 3
+        }
+      ]
+    },
+    {
+      "sha256": "ba8c25c5898ac3cc2723605d17789fe42b3e7a2364669ec586c982e1e08531cd",
+      "label": "E",
+      "reason": "Explicitly prescribes placing the egg inside the microwave before issuing the heat command.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-bf7043e154cc1d53-single_error-retain-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "9d81236345bb24a93e6db05223ef991c689144406cab3ce1be4863b09d5268c1",
+      "label": "E",
+      "reason": "Explicitly prescribes first checking possession, then inserting the egg into the microwave, closing it, and heating it; possession is required before insertion.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-bf7043e154cc1d53-single_error-retain-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "990b7f5c6b5869f7dcb0a3208107f689433b2a7e20eb00471c4f394c12c42b2d",
+      "label": "E",
+      "reason": "Explicitly prescribes first checking possession, then inserting the egg into the microwave, closing it, and heating it; possession is required before insertion.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-bf7043e154cc1d53-single_error-retain-2103",
+          "trial": 3
+        }
+      ]
+    },
+    {
+      "sha256": "72f708fcd7912d3172f74d0bccf54a3848d0789780542aa814db7d9748847f03",
+      "label": "E",
+      "reason": "Explicitly prescribes heating with the cup inside the microwave and forbids removing it before heating.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-d534fcfe5e56c028-repeated_error-correct_latest-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "c829b535d6fcd7942e7e8f9066b73480255ca05ab4856239c002131275e6d9b8",
+      "label": "E",
+      "reason": "Explicitly prescribes placing the cup inside the microwave before heating and forbids removing it before heating.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-d534fcfe5e56c028-repeated_error-correct_latest-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "b596d029803a93a951889b0ffd55ffd1e5f5f1882fd1d60550df7cda5034140b",
+      "label": "E",
+      "reason": "Explicitly prescribes placing the cup inside the microwave before heating and forbids removing it before heating.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-d534fcfe5e56c028-repeated_error-correct_latest-2103",
+          "trial": 3
+        }
+      ]
+    },
+    {
+      "sha256": "6a4e6c6ea8bb9253e65c372639fbdaa659c521d220e741103ec77ce93236568c",
+      "label": "E",
+      "reason": "Explicitly prescribes placing the cup in the microwave before attempting to heat it.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-d534fcfe5e56c028-repeated_error-delete_latest-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "74980a1c44e148019eb27d9337190b4d6e4b0db3bc60aaadbcf7820b474f7be1",
+      "label": "E",
+      "reason": "Explicitly requires placing the cup in the microwave before attempting to heat it.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-d534fcfe5e56c028-repeated_error-delete_latest-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "0cd983ceb6857459d55b329fc2f2a75a5668fd774c4e0e13c092a57b6d6ca24e",
+      "label": "E",
+      "reason": "Explicitly requires placing the cup in the microwave before attempting to heat it.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-d534fcfe5e56c028-repeated_error-delete_latest-2103",
+          "trial": 3
+        }
+      ]
+    },
+    {
+      "sha256": "3202976e5489726acb5c178113da47d9b446e53cd75a99e09f557c4d0fb4b590",
+      "label": "U",
+      "reason": "Discusses heatability, microwave functionality, and final placement without specifying the cup location at heating.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-d534fcfe5e56c028-repeated_error-retain-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "a465d6d04d3954bf9f47440c44092a88b1c57a325297c853256742676f81c1d8",
+      "label": "U",
+      "reason": "Discusses a microwave functionality test and alternative stove heating without explicitly requiring microwave containment or inventory at heating.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-d534fcfe5e56c028-repeated_error-retain-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "4970cac7e1c5437a231cc5316efc16a8d112bd91e4d24515a4704a52db1ed86a",
+      "label": "A",
+      "reason": "Requires heating only once the cup is on the stoveburner or microwave, but does not distinguish microwave interior placement from placement on its surface.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-d534fcfe5e56c028-repeated_error-retain-2103",
+          "trial": 3
+        }
+      ]
+    },
+    {
+      "sha256": "1ebaa682dfa7a0e39e53a3fec5ef811652601543f56aa599046c7ead84df29cb",
+      "label": "U",
+      "reason": "Discusses searching for a cup, including one already in the microwave, without explicitly prescribing heating it while inside.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-d534fcfe5e56c028-single_error-delete_latest-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "0a1f137eaa8eca511c27ed14d12a05726106f938006c6715f9380e9939eb4209",
+      "label": "U",
+      "reason": "Discusses searching for a cup without stating any tracked heating-location premise.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-d534fcfe5e56c028-single_error-delete_latest-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "56837425b8642ddca0f4be458810f2a2e44a8ca77157c377f9d1c76f8bd19be2",
+      "label": "U",
+      "reason": "Discusses searching for a cup without stating any tracked heating-location premise.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-d534fcfe5e56c028-single_error-delete_latest-2103",
+          "trial": 3
+        }
+      ]
+    },
+    {
+      "sha256": "fdd93eb2eecd0b8cd0a2d37046b9f84e8a330b1e3ab7bcb1cb51e22d1fd6a6d7",
+      "label": "E",
+      "reason": "Explicitly prescribes placing the cup inside the microwave, closing it, and then using the heat function.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-d534fcfe5e56c028-single_error-retain-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "58251c4789a253af02cdec3462b616c42c1ac9ec7e946a492ddabf6a61e05114",
+      "label": "E",
+      "reason": "Explicitly prescribes placing the cup inside the microwave, closing it, and then using the heat function.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-d534fcfe5e56c028-single_error-retain-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "f6637f493f516fe29d278de3ec1556f642ea800fdab3da5e79483e65a40edf7c",
+      "label": "E",
+      "reason": "Explicitly prescribes placing the cup inside the microwave, closing it, and then heating it.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-d534fcfe5e56c028-single_error-retain-2103",
+          "trial": 3
+        }
+      ]
+    },
+    {
+      "sha256": "3524511578c38fd5d4b9d60936d52aab31e79ebba8cd83dfa52551825ea8c5aa",
+      "label": "U",
+      "reason": "Discusses locating and retrieving the cup after heating attempts and final placement without prescribing its location at the heat command.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-dae15e890956dd5e-repeated_error-correct_latest-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "23411cac12c9b7a1fe47ab07a75a9423caa465a548fc2cea30df9ee1f2655364",
+      "label": "U",
+      "reason": "Rejects heating as unnecessary and discusses direct shelf placement without stating the tracked heating-location premise.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-dae15e890956dd5e-repeated_error-correct_latest-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "7cc406d32d957548b7f5cb1fb85d06e26d742ef16de95249ffab8397e1567e08",
+      "label": "E",
+      "reason": "Explicitly prescribes placing the cup inside the microwave and then turning it on to heat the cup.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-dae15e890956dd5e-repeated_error-delete_latest-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "d5f885640aa4e4a16cb6f9daa6cf50c379c24c1815bafd07658d1bc8d045b52f",
+      "label": "E",
+      "reason": "Explicitly prescribes placing the cup inside the microwave and then turning it on to heat the cup.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-dae15e890956dd5e-repeated_error-delete_latest-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "d79756272d9c108bf8ea4fa7a2c22ab4272939ab3d06cdd25c1a4449e9e4542e",
+      "label": "E",
+      "reason": "Explicitly prescribes placing the cup inside the microwave and then using the heat function.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-dae15e890956dd5e-repeated_error-delete_latest-2103",
+          "trial": 3
+        }
+      ]
+    },
+    {
+      "sha256": "041f6718f959373a9bf80d13d6c5c66cd3714316be1dfe193e36dbafe9e77a1c",
+      "label": "E",
+      "reason": "Explicitly requires ensuring that the cup is inside the microwave before attempting to heat it.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-dae15e890956dd5e-repeated_error-retain-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "52a6c619b7bbd30d20e1ac309a0598af5b76f80411652e789365532b6495b2f6",
+      "label": "E",
+      "reason": "Explicitly requires placing a probe item inside the microwave before heating and also requires the target cup to be placed in the microwave before heating.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-dae15e890956dd5e-repeated_error-retain-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "fed6032a18187053d8f7714772f3993d8ba86f3b715c836ff1f300fd406ec386",
+      "label": "E",
+      "reason": "Explicitly prescribes placing a probe item inside before heating and requires the target cup to be inside the microwave before heating.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-dae15e890956dd5e-repeated_error-retain-2103",
+          "trial": 3
+        }
+      ]
+    },
+    {
+      "sha256": "792787078ede88f88c013e7983d526443e33eb9080c96ba36c317f4ab7551698",
+      "label": "E",
+      "reason": "Explicitly prescribes placing the cup inside the microwave and then heating it.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-dae15e890956dd5e-single_error-retain-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "3fa37c6b5b137cebcbdea29ff2da9ed65f98dc12e6e52ca7939c66e03296619e",
+      "label": "E",
+      "reason": "Explicitly requires the cup to be inside the microwave before issuing the heat command.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-dae15e890956dd5e-single_error-retain-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "bab1b4da0fded4777b1cb99e079b2e0fdaf3e07873fc67b68fade3b179ebb00d",
+      "label": "E",
+      "reason": "Explicitly requires the cup to be inside the microwave before issuing the heat command.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-dae15e890956dd5e-single_error-retain-2103",
+          "trial": 3
+        }
+      ]
+    },
+    {
+      "sha256": "2b6902ff68f8e26972073c067bbbcfa189e8455b2d2a2dbc9ea26e89395159c3",
+      "label": "E",
+      "reason": "Explicitly prescribes placing the egg inside the microwave and then heating it; retrieval and inventory concern the later stove alternative after failure.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-dd93ff2604e30529-repeated_error-correct_latest-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "8434a11f7f9f18d0a2aef32d3e214114a023e0b4d70b9e28e243845205d45ccc",
+      "label": "E",
+      "reason": "Explicitly prescribes placing the egg inside the microwave and then heating it; retrieval and inventory concern the later stove alternative after failure.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-dd93ff2604e30529-repeated_error-correct_latest-2103",
+          "trial": 2
+        },
+        {
+          "trajectory_id": "multiround-dd93ff2604e30529-repeated_error-correct_latest-2103",
+          "trial": 3
+        }
+      ]
+    },
+    {
+      "sha256": "15b71e297b99366b309ac190f6504a63a2fe6e01f8e0f10870ef2126df0cadc4",
+      "label": "E",
+      "reason": "Explicitly prescribes placing the egg in the microwave before using the heat command.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-dd93ff2604e30529-repeated_error-delete_latest-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "7150c6ae365bb1593f1910add30b3e69166f049538f6a6918fc224ec81151fa7",
+      "label": "E",
+      "reason": "Explicitly prescribes placing the egg in the microwave before using the heat command.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-dd93ff2604e30529-repeated_error-delete_latest-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "10d405c3d6d6d6ecef2dd4aaaf68d7b082dba1835444f5e5d9b7c1fbad4b772e",
+      "label": "E",
+      "reason": "Explicitly prescribes placing the egg inside the microwave before heating; the inventory check concerns final diningtable placement.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-dd93ff2604e30529-repeated_error-delete_latest-2103",
+          "trial": 3
+        }
+      ]
+    },
+    {
+      "sha256": "7c7e28f471b2c49eba709683f8b9d51c8bce8a84a4fb2ae15b313b4cbbe87c80",
+      "label": "U",
+      "reason": "Discusses command syntax, appliance functionality, closure, and inventory before final placement without requiring microwave containment or possession at heating.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-dd93ff2604e30529-repeated_error-retain-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "b7adaaa028614275e342e90b51c7586e3f505245282023a9826a8a2cb19b4e09",
+      "label": "U",
+      "reason": "Prescribes retrieving the egg and using the heating command, but does not explicitly require continued possession or insertion at the heat command.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-dd93ff2604e30529-repeated_error-retain-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "f0e69740978e5f3ab0cd7f0b2016e5869b5c1fe55d7dc6179104a9cff0b8ba16",
+      "label": "U",
+      "reason": "Prescribes retrieving the egg and using the heating command, but does not explicitly require continued possession or insertion at the heat command.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-dd93ff2604e30529-repeated_error-retain-2103",
+          "trial": 3
+        }
+      ]
+    },
+    {
+      "sha256": "0e1697891fcb26206856d192a6ca1ae3bc32f232c129b08562926db28511d6a7",
+      "label": "E",
+      "reason": "Explicitly requires placing the egg inside the microwave before attempting to heat it.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-dd93ff2604e30529-single_error-retain-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "020cf11f7baf7cd88ca9f36d9008c0189f315600c4c37937e1fa600ff44bfef0",
+      "label": "E",
+      "reason": "Explicitly requires confirming that the egg is inside the microwave before heating; the generic inventory-or-visible-location advice does not require possession at heating.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-dd93ff2604e30529-single_error-retain-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "f5930b25c801efad1947880cbc978718dcee9b436e19133eccd8c7785df58ebd",
+      "label": "U",
+      "reason": "Tests an empty container and mentions later egg insertion, but does not explicitly prescribe microwave heating after insertion. Inventory is required while testing appliances, not at the target heat command.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-dd93ff2604e30529-single_error-retain-2103",
+          "trial": 3
+        }
+      ]
+    },
+    {
+      "sha256": "b2d942c3e535c29a6991f1df6036dee8092e88d8b518aa7d6d1de4334f1635bf",
+      "label": "E",
+      "reason": "Explicitly requires placing the apple inside the microwave before attempting to heat it.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-e4244c54d52f3326-repeated_error-correct_latest-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "75cd7f04888e7b882b7e8849c6317b91ad3ba151cad5fa401e87c9412c0717db",
+      "label": "E",
+      "reason": "Explicitly requires placing the apple inside the microwave before attempting to heat it.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-e4244c54d52f3326-repeated_error-correct_latest-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "640e54726ceb59f6382a5f31bdd0a4c8be8a2228c019fc1f429afc1c37173040",
+      "label": "E",
+      "reason": "Explicitly prescribes placing the apple inside the microwave, closing it, and then using the heating command.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-e4244c54d52f3326-repeated_error-correct_latest-2103",
+          "trial": 3
+        }
+      ]
+    },
+    {
+      "sha256": "145f37c3fd46a7294d122dfee0a5663c42b244a6bfa0679d8c06a15c6c58ecb6",
+      "label": "E",
+      "reason": "Explicitly prescribes placing the apple inside the microwave, closing it, and then using the heat command; possession concerns later disposal.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-e4244c54d52f3326-repeated_error-delete_latest-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "d4842cec1c180f1bfc0a8c997ceb888eda7ca5a72c2617ed186a3c623b70c364",
+      "label": "E",
+      "reason": "Explicitly requires the apple to be inside the microwave before using the heat command.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-e4244c54d52f3326-repeated_error-retain-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "89d401a5ccfa88e443cb26340321a96b6af9555cd3ae5cb02193b05ec0e70882",
+      "label": "E",
+      "reason": "Explicitly requires the apple to be inside the microwave before using the heat command.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-e4244c54d52f3326-repeated_error-retain-2103",
+          "trial": 2
+        },
+        {
+          "trajectory_id": "multiround-e4244c54d52f3326-repeated_error-retain-2103",
+          "trial": 3
+        }
+      ]
+    },
+    {
+      "sha256": "708fcb8085436ad619c8c6144c72dc907c6e49fcb466a395562591a3546b3d1f",
+      "label": "E",
+      "reason": "Explicitly prescribes placing the apple inside the microwave and then heating it without intervening retrieval.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-e4244c54d52f3326-single_error-delete_latest-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "9a5ed1eddb93d93d1c6ecfff698f07d3d9f3a50e15ae05d95808de4b66de8024",
+      "label": "E",
+      "reason": "Explicitly requires the apple to be inside the microwave before heating; inventory is checked only before final garbagecan placement.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-e4244c54d52f3326-single_error-delete_latest-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "ac0bf35ce7dd9638649a5cf22f8c4c4a26ae59e7cb0aed123b5f7a3123a92adb",
+      "label": "E",
+      "reason": "Explicitly prescribes placing the apple inside the microwave, closing it, and then heating it.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-e4244c54d52f3326-single_error-delete_latest-2103",
+          "trial": 3
+        }
+      ]
+    },
+    {
+      "sha256": "35397cdc0dd0e445f3662d3a35c42d978df344a8eb9860822ce7debd5efbc2b6",
+      "label": "A",
+      "reason": "Explicitly prescribes heating after inserting the apple into the microwave, but separately requires the apple to be in inventory before attempting to heat it.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-e4244c54d52f3326-single_error-retain-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "379dd7a686f3c876be32eda11d3e60d13d8c5ba5ce9b86871266a11535b09790",
+      "label": "C",
+      "reason": "Explicitly requires retrieving the apple from the microwave and confirming it is in inventory before attempting to heat it, without prescribing subsequent insertion.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-e4244c54d52f3326-single_error-retain-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "d42e274cc9728aa2570331021b449b27c427abf3ec25b93e0a63862ffae85de6",
+      "label": "E",
+      "reason": "Explicitly prescribes checking possession before insertion, then placing the apple inside the microwave, closing it, and heating it; later inventory monitoring does not specify possession at heating.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-e4244c54d52f3326-single_error-retain-2103",
+          "trial": 3
+        }
+      ]
+    },
+    {
+      "sha256": "7b9aa5b541b27087dd3d166bffe778b16d623fc032553792a75cebda0879192a",
+      "label": "A",
+      "reason": "Explicitly requires microwave containment before heating but also verifying that the mug is in inventory before proceeding, leaving the required heating location unresolved.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-f8864bd2f58af715-repeated_error-correct_latest-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "84c06c9bc0a7ce2f9da8d4dea80888c026d1845ae7608f0c31157eb055a18c55",
+      "label": "U",
+      "reason": "Discusses appliance functionality and omitting heating without stating the tracked heating-location premise.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-f8864bd2f58af715-repeated_error-correct_latest-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "202226b2c71808a9311f224e87a76b13367e4cbe68dbab14f9937be02a58288f",
+      "label": "U",
+      "reason": "Discusses appliance functionality, possibly omitting heating, and inventory before shelf placement without stating the tracked heating-location premise.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-f8864bd2f58af715-repeated_error-correct_latest-2103",
+          "trial": 3
+        }
+      ]
+    },
+    {
+      "sha256": "3595855fef8ade44e7fa4563664884a4fbdd7a46d8e146f78cd3e192fb808296",
+      "label": "U",
+      "reason": "Discusses heatability, appliance functionality, and final placement without stating the tracked heating-location premise.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-f8864bd2f58af715-repeated_error-delete_latest-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "7d6ac9f6734401c48cf9a6fea19bbf90f39cf1824f773858ea7d89df550e4bdd",
+      "label": "U",
+      "reason": "Discusses heatability, appliance functionality, and shelf placement without specifying microwave containment or possession at heating.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-f8864bd2f58af715-repeated_error-delete_latest-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "b88478919f18ee5e706c9c166a426c63570851fa34740683d5b817e3c1ad3523",
+      "label": "E",
+      "reason": "Explicitly prescribes placing the mug inside the microwave, heating it, and retrieving it only afterward.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-f8864bd2f58af715-repeated_error-retain-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "5661d783d944f5979efa0490f56422d13592792cdba4f9ab3a2d8c36c8879492",
+      "label": "E",
+      "reason": "Explicitly prescribes placing the mug inside the microwave, heating it, and retrieving it only afterward.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-f8864bd2f58af715-repeated_error-retain-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "3af33adde44260d491ec3157f3e30d1aa5fb59a51f39199fb1147f47f1ad6f67",
+      "label": "E",
+      "reason": "Explicitly prescribes placing the mug inside the microwave, heating it, and retrieving it only afterward.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-f8864bd2f58af715-repeated_error-retain-2103",
+          "trial": 3
+        }
+      ]
+    },
+    {
+      "sha256": "08dff92a005e1ffad32ba5f85a285f5c77527d49fe66c4756fd878e062755266",
+      "label": "U",
+      "reason": "Discusses shelf capacity and placement commands without stating any tracked heating-location premise.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-f8864bd2f58af715-single_error-retain-2103",
+          "trial": 1
+        }
+      ]
+    },
+    {
+      "sha256": "ab3f8c56bffced14935a708678662d0dc226456e3f6c4917818285f41f040429",
+      "label": "E",
+      "reason": "Explicitly attributes failed heating to the mug not being properly inside the microwave, asserting containment as a heating prerequisite.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-f8864bd2f58af715-single_error-retain-2103",
+          "trial": 2
+        }
+      ]
+    },
+    {
+      "sha256": "4ad17e0cb49bcf36975e3c87c253d8a9373e6d068ed3c2f5015a5235520221a2",
+      "label": "E",
+      "reason": "Explicitly prescribes a microwave placement command before attempting to heat the mug, treating insertion as preparation for heating.",
+      "source_attempts": [
+        {
+          "trajectory_id": "multiround-f8864bd2f58af715-single_error-retain-2103",
+          "trial": 3
+        }
+      ]
+    }
+  ],
+  "sha256": "8e0b9a01967423cfa9bae883bf4cc40a29ba331c58017588b07039a9203bf7b0"
+}

@@ -1,0 +1,609 @@
+{
+  "protocol_sha256": "fe7100aea8f40741a9a0e98381ae0beb46f9e0fd87c58a181f176123515ca1f2",
+  "reviewer": "Codex full-text semantic annotation",
+  "human_second_review": false,
+  "ambiguous_class_retained": true,
+  "entries": [
+    {
+      "sha256": "0120c7b916208a66e8fe5578e6905b878025a38fd9c181ffadc89477f68dabc3",
+      "label": "E",
+      "reason": "The explicit target sequence is take, put in microwave, heat, then final placement."
+    },
+    {
+      "sha256": "020e0e52bc75f10e64c604cf9bb3474ab99b2db2b9e97684c91804a1b09ca709",
+      "label": "E",
+      "reason": "Explicitly places the egg inside the microwave and then uses the heat command."
+    },
+    {
+      "sha256": "02cbe86a469267811215ed9fc9db06db37bd3c0a2ee449ad1a650eaae015ecc2",
+      "label": "U",
+      "reason": "Only concerns shelf search and alternative final placement of an already-heated cup."
+    },
+    {
+      "sha256": "0d55ff95c0cd347a73fa889e35770015163d899c3e92aebe36d46f1417a13f79",
+      "label": "E",
+      "reason": "Explicitly opens the microwave, inserts the egg and activates it before heating."
+    },
+    {
+      "sha256": "0d69bfb30d7ccd14cb84c7f995cdfe121da327e56091ff16a7bce98676791db5",
+      "label": "U",
+      "reason": "Only discusses search and possible mug absence."
+    },
+    {
+      "sha256": "118741da7a993e7f9d444da79e42a5380fc204cf98bbedead93f4c4ce46f60c7",
+      "label": "U",
+      "reason": "Proposes toaster use or omitting heating, without the tracked microwave insertion or inventory premise."
+    },
+    {
+      "sha256": "15bc1dc546b6b44f1a7ed07a9edfd7cdad5276083b2e96a85a1c479b0e56d575",
+      "label": "E",
+      "reason": "Explicitly places the potato inside the microwave and closes it before heating."
+    },
+    {
+      "sha256": "175937041f38502ea92cc0e6f6401d2f06e67c194d2589cb500c429f9619d58b",
+      "label": "U",
+      "reason": "Suggests alternative appliances and assuming heating succeeded, without expressing the tracked microwave-placement or held-object premise."
+    },
+    {
+      "sha256": "17e727506910ab32b86ff94a03258560b47b655a3c8ada661f4a1eb024c27292",
+      "label": "U",
+      "reason": "Requires microwave activation and heat resistance checks, but neither target insertion nor held-at-heat correction."
+    },
+    {
+      "sha256": "1819f52a725b3b4607dddce6dc255285180a55bd38ff7dea5946156987571669",
+      "label": "A",
+      "reason": "Combines an explicit insert-close-heat sequence with inventory-before-heat advice; the intended target state at heating is unresolved."
+    },
+    {
+      "sha256": "18f02d2c17112c6c4da7c0b485334c9d588f0fc0a266505bfc708c00f7e8ca92",
+      "label": "E",
+      "reason": "Explicitly requires the apple inside the microwave before heating; inventory later concerns final garbagecan placement."
+    },
+    {
+      "sha256": "19bd7f5fec06bbecc638fd243697789674d99293e2e74aaa82f8a71311494214",
+      "label": "E",
+      "reason": "Explicitly places the apple in the microwave before the heat command."
+    },
+    {
+      "sha256": "1ace34d781440e01aa7160774142462c095f13b159d71f9e8407021914dd670f",
+      "label": "U",
+      "reason": "Specifies stoveburner placement and appliance checks, without an inside-microwave prerequisite or explicit held-at-heat correction."
+    },
+    {
+      "sha256": "1cf095e6d8d13861c1948c09a8398a154710571a7455c685933c5207f95e3263",
+      "label": "U",
+      "reason": "Only discusses failure to find a mug and a more systematic search."
+    },
+    {
+      "sha256": "20c80fa0fbddcd268786d11d613be2cfcaebd9ccfbd2164c44ba6f679da4319c",
+      "label": "E",
+      "reason": "Explicitly requires the cup inside the microwave before heating."
+    },
+    {
+      "sha256": "230513673270eb5624e648efaa796c043793e34ffc86dc5599897c12d965234e",
+      "label": "E",
+      "reason": "Explicitly puts the mug inside the microwave before activation and heating."
+    },
+    {
+      "sha256": "298a75e2ba84479d58289933c04a2112153f15c19678c13ca60e3faa9d596797",
+      "label": "E",
+      "reason": "Explicitly removes another item, places the potato inside the microwave and then heats it."
+    },
+    {
+      "sha256": "2acf9bde1cabe88aff46fd369034b34a492fabef4c8316e992c49b756e7facd2",
+      "label": "E",
+      "reason": "Explicitly places a heatable cup in the microwave, heats it and only then performs shelf placement."
+    },
+    {
+      "sha256": "2b5f293b756dfe5e6d8946ef0081a249db73d163c48918c7224f0322aa7f3e1e",
+      "label": "U",
+      "reason": "Inventory check concerns placement on other appliances; the concrete heating proposal is a stove fallback without an explicit held-at-heat requirement."
+    },
+    {
+      "sha256": "2be4d60c31f5063da634ddcf62486a069addd7ec9733164904ec295bd8bcf6b2",
+      "label": "U",
+      "reason": "Requires a pan, spatula and stoveburner sequence, without the tracked microwave insertion or held-object heating premise."
+    },
+    {
+      "sha256": "2e47ca624dc275d53f0a05b41422d2b5d54de5262a4390a2c5d22d0675d88788",
+      "label": "E",
+      "reason": "Explicitly places the mug inside the microwave, closes it and then heats it."
+    },
+    {
+      "sha256": "3056b47638f4f62709c47af1af46ba5956d92b1e3441e4433e7c81e3dd38cbd6",
+      "label": "U",
+      "reason": "Proposes stoveburner heating and coffeemachine checks without the tracked microwave placement or inventory-at-heat requirement."
+    },
+    {
+      "sha256": "30a9554128b2775dc2af4a4b9b87dc2db6778df6f3050aa01ac1efec568f4f52",
+      "label": "A",
+      "reason": "Explicitly requires insertion before the heat command but also inventory before heating, leaving contradictory possession states unresolved."
+    },
+    {
+      "sha256": "30ca6b19123855bacb3faafa1cb709e90b2f020b4d6986c084602b53f1c71981",
+      "label": "E",
+      "reason": "Explicitly requires the apple inside the closed microwave before heating."
+    },
+    {
+      "sha256": "30d6d287b567b6b980e1baf804509099064ad16c49bc6c1f6bdddbe76969c8c2",
+      "label": "U",
+      "reason": "Suggests alternate heat command syntax and a probe of an already-inside cup, without the tracked placement prerequisite."
+    },
+    {
+      "sha256": "318ada78a6f63a62aa6e7d11afa4af9f2c77058b6a3d99631abfb332a9ec6a9f",
+      "label": "E",
+      "reason": "Explicitly requires egg placement in the microwave before heating."
+    },
+    {
+      "sha256": "36ec4131077600f32659ffee54aabbdd70c6b37501afda4b5ef528c6c20ea22f",
+      "label": "A",
+      "reason": "Opening diagnosis mentions improper microwave-or-stove placement, while the concrete microwave advice only probes an already-inside apple; the target insertion prerequisite is not explicit enough to resolve."
+    },
+    {
+      "sha256": "3a9ce73afbc813684491b552af326db8358aac0cfb280e54318f665407774a87",
+      "label": "E",
+      "reason": "Explicitly places the egg in the microwave, closes it and issues heat."
+    },
+    {
+      "sha256": "3b0ef174ee51a9728ebb5e53e7e361c8d4b0391db70afa7fa20cb28817fdad9d",
+      "label": "U",
+      "reason": "Uses a stoveburner sequence and checks inventory before placement; no tracked microwave insertion or inventory-at-heat correction."
+    },
+    {
+      "sha256": "3ecbb4d6e245aab57f30a6e2ee13c9310fd691e8f22f4a6483ec0e347e3fc341",
+      "label": "E",
+      "reason": "Explicitly orders egg placement in the microwave, closure and heating."
+    },
+    {
+      "sha256": "40b667ce673fadc89a5ec644664d3dcca5cfbb4f77230fffb2860cbb9890299d",
+      "label": "U",
+      "reason": "Proposes omitting heating and directly placing a mug on a shelf; no tracked heating prerequisite."
+    },
+    {
+      "sha256": "419b7c0888638b7177966f819b6af678067ef7a0fd9b706ff857887848146681",
+      "label": "U",
+      "reason": "Only discusses shelf placement after heating; no tracked heating prerequisite."
+    },
+    {
+      "sha256": "441815895858bf71abe2a5813cc6b09d98af908168b16b89b29878f09ea03fd6",
+      "label": "E",
+      "reason": "Explicitly fills the mug, places it in the microwave and heats it."
+    },
+    {
+      "sha256": "44857af042b37125df32726d75d60a4f4670872249b90ce04470eb56d2def904",
+      "label": "E",
+      "reason": "Explicitly puts the potato in the microwave before issuing heat."
+    },
+    {
+      "sha256": "4cce587a25e6fb516effe0748b6f0502b392e7894c52f81916bec99dbb0ad052",
+      "label": "E",
+      "reason": "Explicitly orders placing the apple in the microwave and then using the heat function."
+    },
+    {
+      "sha256": "4ea9341a15b7c05b40bcb57a21f7359e1157d99880ef30c0835dec3fe478a401",
+      "label": "E",
+      "reason": "Explicitly inserts the cup into the microwave and heats it before shelf placement; inventory checks concern placement."
+    },
+    {
+      "sha256": "5306cea0d24bb8450e5ef59918e56daee65572e9c1934608576204adc8815ed0",
+      "label": "A",
+      "reason": "Combines inventory-before-heat advice with a microwave sequence that inserts the potato before heating; possession timing is inconsistent or unclear."
+    },
+    {
+      "sha256": "543be8062b39b87aa3af642ab126db59fb9ceb27c2b12e6f3dbd4ced9e873b58",
+      "label": "U",
+      "reason": "Discusses target search followed by heating, without the tracked target-insertion or held-at-heat prerequisite."
+    },
+    {
+      "sha256": "54b5dd628ad2ed227d6db68f96e5d0f07246867db9e4e7de7733e93f54bca442",
+      "label": "U",
+      "reason": "Only discusses mug search and possible existing inventory, not heating while held."
+    },
+    {
+      "sha256": "55f59ec2d0172c067be986f228873be1d775c577193adfa0f9634788490f5359",
+      "label": "E",
+      "reason": "Explicitly inserts the egg and closes the microwave before the heat command."
+    },
+    {
+      "sha256": "57db93b32ae916f37596854a9de0afd7b615716432efdb423c6684aca8b4ce08",
+      "label": "E",
+      "reason": "Explicitly places the cup inside the microwave and closes it before heating."
+    },
+    {
+      "sha256": "586af24ff3c94c91c9b62fdd0abd0d420196e5778176723e18ef1832cae72357",
+      "label": "U",
+      "reason": "Inventory checks concern final placement of the heated egg; no tracked heat-command prerequisite."
+    },
+    {
+      "sha256": "5a48ff5dcf5c4c254826357b2fb94df10da619aacce851fa672270e4088edb42",
+      "label": "E",
+      "reason": "Requires checking the egg inside the microwave and appliance state before another heat attempt."
+    },
+    {
+      "sha256": "5ddd99d8a9a089e09a48a476341d40893d78d31650153b04d6f78c546e071fd6",
+      "label": "A",
+      "reason": "Twice specifies insertion before heating but also checks inventory possession before attempting heat; the intended possession state at heat is unresolved."
+    },
+    {
+      "sha256": "5ea544ca2b30e96386682ed0592a3a79659b2028f6c320a4d5543463965dede6",
+      "label": "C",
+      "reason": "Explicitly requires the target egg to be in inventory before attempting heat; no inside-microwave prerequisite is stated, although other stove advice may be incorrect."
+    },
+    {
+      "sha256": "601d2422afb52b7d642ee8712d57eb11fcda336d331da93ec7ec3e4d95176b0c",
+      "label": "E",
+      "reason": "Explicitly requires the apple inside the microwave before heating, despite later prioritizing a stove fallback."
+    },
+    {
+      "sha256": "61c8dca586c9ccab3b8bd69df70ba6c3c1cd13d865d7559ca36e78b2d484af7b",
+      "label": "U",
+      "reason": "Search followed by take-heat-place actions without specifying insertion or inventory at the heat command."
+    },
+    {
+      "sha256": "6326b6293bf1c35ef08e1c363a21c45b67702755eb943554dd8150248f9ddb26",
+      "label": "E",
+      "reason": "Explicitly requires the apple inside the microwave before issuing the heat command."
+    },
+    {
+      "sha256": "63faad68c1954bd6a929fae2aa24399a8a34536c900d7b0babd861c16cd3ebcd",
+      "label": "E",
+      "reason": "Explicitly puts the apple in the microwave and turns it on to heat it."
+    },
+    {
+      "sha256": "64dfc7da7d29e9d2636d062a78c12d4518174c3715deb40396d6d484f8295960",
+      "label": "U",
+      "reason": "Search followed by heating, without explicit insertion or inventory at the heat command."
+    },
+    {
+      "sha256": "66265f478c12edc45eed2a793450e1be5db829f5664bf751acc1818340e8baaf",
+      "label": "U",
+      "reason": "Only gives search and tracking advice for locating a cup; no tracked heating premise."
+    },
+    {
+      "sha256": "666d27e270b18b0394350d91145aa2d1d0163cf481b83c1226e1845a0eab7d81",
+      "label": "E",
+      "reason": "Explicitly requires the egg in the microwave before heating."
+    },
+    {
+      "sha256": "67b21a61409ded85cf1d3e7c31a16bf7f58b54bdfe33e82e02425c6dfdf19c29",
+      "label": "E",
+      "reason": "Explicitly instructs insertion and heating, and rejects heating while holding the potato."
+    },
+    {
+      "sha256": "68ce33cb0d83e57cb1693d5088b36131153b3b329f85298ec87f0df9e8a00788",
+      "label": "U",
+      "reason": "Retrieves the apple only to move it onto a stoveburner; it does not require holding it at a microwave heat command."
+    },
+    {
+      "sha256": "6bdc66c2d3785dd10be6528700a3b3e6045359493a20357884e8c7861ec42224",
+      "label": "U",
+      "reason": "Probes an already-inside apple and proposes stove alternatives; never instructs inserting the target before microwave heating."
+    },
+    {
+      "sha256": "6e2d9db647a24abe0f09d9178a5d2002d9b51f12d27f1a6c633f5330f337c4a7",
+      "label": "E",
+      "reason": "Ends with an explicit sequence of clearing the microwave, placing the potato inside, and heating it."
+    },
+    {
+      "sha256": "70430a33c3e65bb231cc8f0440d10102e404660fed980c0e73f6accf36d0c7ee",
+      "label": "E",
+      "reason": "Explicitly inserts the apple into the microwave and turns it on before heating."
+    },
+    {
+      "sha256": "786e20334503b25534b9cefd7464077ff15bc8a744b05a304cb252c23b047cb6",
+      "label": "U",
+      "reason": "Inventory requirement concerns placement of an already-heated egg, not the heat command."
+    },
+    {
+      "sha256": "78a1c5d643e6101a0d04663c286473d7314d440b2d51b0d976e7112a5ff2288c",
+      "label": "E",
+      "reason": "Explicitly requires potato placement inside the microwave, closure and then the heat command."
+    },
+    {
+      "sha256": "7900ba65b4b461aad47964d244562caf7fe836732fd9ece8242f46f0b1eab8e7",
+      "label": "E",
+      "reason": "Proposes a microwave-function test before placing the potato inside, followed by heating the potato if that microwave works; target insertion is part of the proposed heating routine."
+    },
+    {
+      "sha256": "7987b6b20c625dd370f44d1aedb1929510b717eb4f5aed787cfc0c357f366349",
+      "label": "A",
+      "reason": "Opening diagnosis mentions microwave-or-stove placement, but concrete advice checks an already-inside egg and then avoids microwave insertion; whether it endorses the target prerequisite is unresolved."
+    },
+    {
+      "sha256": "79e1af2c685f7af1d0d9b11136feefbd96944d8a30a95e3b63a56d46ac91697f",
+      "label": "E",
+      "reason": "Explicitly requires egg placement inside the closed microwave before heating."
+    },
+    {
+      "sha256": "7b3517c313e1f46777590dcad3b8c543e8f52f843ae6d9d182a378b22ae190f6",
+      "label": "U",
+      "reason": "The microwave probe uses an already-inside cup; no target insertion prerequisite or held-at-heat correction is stated."
+    },
+    {
+      "sha256": "7da0a3414a1e4e2290cc1c4e14c77d0e2521303f6703c7e2dc57e41f7118a1a6",
+      "label": "U",
+      "reason": "Verifies finding and having the cup before a heating routine, without specifying inventory at the heat command."
+    },
+    {
+      "sha256": "80abd611ffa7dab01dbac82f5f943100bd58b5af80e61f831f0c535621961db3",
+      "label": "U",
+      "reason": "Only concerns available shelf space and final placement of a heated cup."
+    },
+    {
+      "sha256": "81385009cc1334cd4880f43c2a417d1587d94bb258106ea38f69656a6b6c5619",
+      "label": "E",
+      "reason": "Explicitly inserts the mug, heats it, and retrieves it only after heating."
+    },
+    {
+      "sha256": "832395c50bc2c96a882582110057dac1f3e344380bc81678d0041dab57588b13",
+      "label": "E",
+      "reason": "Explicitly places the apple in the microwave before issuing the heat command."
+    },
+    {
+      "sha256": "8502b13cb280dc0b172aeaca302220d7da3aa209e32d74f4423e34f3775a0ce4",
+      "label": "E",
+      "reason": "Explicitly requires the apple properly placed in the microwave before heating."
+    },
+    {
+      "sha256": "86200fe54a7bf5753a43ad87a6d6915b6697eb0645dd95fd8cfbbdf79b3cf2d6",
+      "label": "U",
+      "reason": "Only discusses prioritizing locations during mug search."
+    },
+    {
+      "sha256": "887023f9960f92f81f8d1711c6e073cc19d40e854ec2e7e2becae7db57b3b24d",
+      "label": "U",
+      "reason": "Only discusses search coverage and missed locations for a mug."
+    },
+    {
+      "sha256": "89fb6c36cfd9a16cc3cf77f988221e310dcb9b214637c15bb634a053e353ae2a",
+      "label": "E",
+      "reason": "Explicitly requires the apple in the microwave and the appliance closed before heating."
+    },
+    {
+      "sha256": "92a30e1f2aa37d3156d81a1e2cc5dda31ca30079a76a5322f4ed7e27f6c9f18a",
+      "label": "E",
+      "reason": "Explicitly identifies failure to put the mug in the microwave before heating and repeats that insertion sequence."
+    },
+    {
+      "sha256": "96425b5a89b2d9d82b75a7cdeb4839ca11e1bff4daeeb3d1e6ea2fb3ff476837",
+      "label": "C",
+      "reason": "Explicitly identifies insertion as the mistake and requires heating in the microwave while holding the mug."
+    },
+    {
+      "sha256": "99c1d1ea4093e967a59b4784d4dc05c9d906e98775b346ef252a496a24bb181d",
+      "label": "U",
+      "reason": "Recommends an appliance-function check and direct stove heating, without requiring microwave insertion."
+    },
+    {
+      "sha256": "9c938aa35966f623ac5d4f51725b3dee4270177dc80f376626e84b66a0f7a7c8",
+      "label": "U",
+      "reason": "Search and substitute-target advice without the tracked heating prerequisite."
+    },
+    {
+      "sha256": "a029ecc05f7f2d9cdf7d7691c90bc83cf017f0d13ac54f92402727cbb562b52f",
+      "label": "U",
+      "reason": "Tests appliance functionality and heat resistance without stating target insertion or inventory-at-heat requirements."
+    },
+    {
+      "sha256": "a032cba037e883e85521d2e8dff52fd2eadd03480a75d7a2ad7ab519670ba1c4",
+      "label": "E",
+      "reason": "Explicitly places the cup inside the microwave and then uses a heat command."
+    },
+    {
+      "sha256": "a6447f0c5abecbaad66379b99111ba3b1e1d5b8851a0e6d355d026c5535ff5c9",
+      "label": "U",
+      "reason": "Proposes taking, heating and final placement, but does not explicitly require inventory at the heat command or placement inside the microwave."
+    },
+    {
+      "sha256": "a869ff8db500fa90735120384f72e2b7fe8a15140391722c8c44704895323d59",
+      "label": "U",
+      "reason": "Only discusses target search and absence; no tracked heating premise."
+    },
+    {
+      "sha256": "ad2c40953716fec85b5490ac43b6ae419ab3d4db26370d48c307ad2fc18a9b39",
+      "label": "U",
+      "reason": "Questions whether heating is needed and checks device closure, without a tracked insertion or held-at-heat prerequisite."
+    },
+    {
+      "sha256": "afc49c81e0dfe9629caf3c1d563ad689a5992eeb116d88c1c8b350ee91164274",
+      "label": "U",
+      "reason": "Discusses temperature verification and alternatives without the tracked microwave placement or inventory premise."
+    },
+    {
+      "sha256": "b365d2bf510ae9129df8e91472b9f888a665eccdf3ba48d4facfb86593c56c75",
+      "label": "U",
+      "reason": "Microwave probe uses an already-inside apple; inventory checks precede stove placement, without the tracked heat-command premise."
+    },
+    {
+      "sha256": "b3ee9081a9b18e5936ad198afb3d3825b1db1f05e5f2400d01ca714fef008723",
+      "label": "E",
+      "reason": "Explicitly instructs placing the potato inside the microwave before heating; repeats the placement-to-heat sequence."
+    },
+    {
+      "sha256": "b4a33336394f744166732cc08e857dcade771b0e366037d8409777463c47ab34",
+      "label": "E",
+      "reason": "Explicitly inserts the mug, activates heating and retrieves it only after heating."
+    },
+    {
+      "sha256": "b694fc5a95410b04b2caed22d1b03f76685ac0434126d4ce46dc6ce18d554573",
+      "label": "E",
+      "reason": "Explicitly requires the egg inside the microwave before heating; the inventory mention is tied to the stove fallback and does not correct that microwave premise."
+    },
+    {
+      "sha256": "b7291532eeeb670f80a5251c144afdfcb996e0a1cd05f9908a390baf6e63b9f7",
+      "label": "U",
+      "reason": "Proposes heating tests, alternate appliances and alternate cups without a target microwave insertion prerequisite."
+    },
+    {
+      "sha256": "b740ac5337bece02025e15758695348192c6421bbe43e641f50f15294c6e6621",
+      "label": "E",
+      "reason": "Explicitly inserts the cup before the heat command, repeating that sequence in its plan."
+    },
+    {
+      "sha256": "b81e6a0decb3b6d9d97b6423977c766d38b5a4f1af7cbe178201bccd96ce07ef",
+      "label": "E",
+      "reason": "Explicitly requires apple placement inside the microwave and closure before heating."
+    },
+    {
+      "sha256": "b90b9a1239b7fefc7070dc2437e9b05d53c437757c4b316a095d77884678cd4a",
+      "label": "U",
+      "reason": "Search and interpretation advice for locating a mug; no tracked heating prerequisite."
+    },
+    {
+      "sha256": "b97287643d2920a85d0924f8a91ca28d9f779e6c444c7c3867ab1b1561fb0a6e",
+      "label": "E",
+      "reason": "Explicit target sequence is take the mug, place it in the microwave, heat, then final placement."
+    },
+    {
+      "sha256": "bb554553bb745dbf86ec0b05a8fbd019bb97ea925bac892c59f01ef819c6862f",
+      "label": "A",
+      "reason": "Attributes failure to unsuccessful placement attempts on the stove or in the microwave, but never specifies the target microwave heating sequence; prerequisite versus obstacle description is unresolved."
+    },
+    {
+      "sha256": "be08812a09ca67aa63f34f5743ecf77fac7970b3880b220f35e6ea2cb5d998cf",
+      "label": "E",
+      "reason": "Explicitly requires proper egg placement in the microwave before heating; inventory checks concern final fridge placement."
+    },
+    {
+      "sha256": "be92b1e7dd615434077c66ce86a189d0243c17ab9261dd18dd7e294814ff9bae",
+      "label": "E",
+      "reason": "Explicitly requires the apple inside the microwave before heating."
+    },
+    {
+      "sha256": "c43c9d000c7c4ee7157695f4a0bede1f5f1fff22a0c50f0d4702e749e6580abf",
+      "label": "U",
+      "reason": "Only discusses mug search and possible absence, not a heating prerequisite."
+    },
+    {
+      "sha256": "c7ae110ed32039a54a417198ec857f56d1d48c24263ca86577977f0e7bf445d3",
+      "label": "U",
+      "reason": "Only discusses search and obtaining a hot potato; no tracked heating prerequisite."
+    },
+    {
+      "sha256": "cad95782eff578d6b7c446214c9d8dfa2d9c0f7cf919813a0058cbaed5fe07e4",
+      "label": "E",
+      "reason": "Explicitly inserts the cup before the heat command; inventory checks concern final countertop placement."
+    },
+    {
+      "sha256": "cbdf7072d9615f24918226562fd37858afcade1a7ecaaee328606df2bee0cb9f",
+      "label": "U",
+      "reason": "Discusses verification and command syntax without stating the tracked inside-microwave or held-at-heat prerequisite."
+    },
+    {
+      "sha256": "cd2efefcb1c8eca9920ed8d5001b3eff0065af9191508fd5957c73e026ed68b0",
+      "label": "E",
+      "reason": "Explicitly places the apple inside the microwave before the heat command."
+    },
+    {
+      "sha256": "cd408fc48bf14fef690ef0e2ccd96fdd99a0a6dd88e150b45e48440c60d8a532",
+      "label": "E",
+      "reason": "Explicitly puts the mug in the microwave and heats it before final placement."
+    },
+    {
+      "sha256": "d1a7e2c6940ea61284d332d78df33af4a0b0cda3334c44423189b80b9f9bf47d",
+      "label": "U",
+      "reason": "Search and substitute-object advice only; no tracked heating prerequisite."
+    },
+    {
+      "sha256": "d2e3d8f435d44adb0560890a569e0dcee1b2e77aadf4e8b40d7dddbfc745cf12",
+      "label": "U",
+      "reason": "Only concerns shelf capacity and final placement of a heated cup."
+    },
+    {
+      "sha256": "d42c89d547264c2104920e2f49329526768243f51a2e3beba3136dce5d49a10d",
+      "label": "U",
+      "reason": "Search, heat and final-placement plan without an explicit target-insertion or inventory-at-heat prerequisite."
+    },
+    {
+      "sha256": "d55085dd7ed82d7d64411d5ef3c3483e75780c392180542ca0757af4003da551",
+      "label": "U",
+      "reason": "Tests an already-inside apple and suggests stove alternatives; no target insertion-before-microwave-heating or held-at-heat prerequisite."
+    },
+    {
+      "sha256": "d587c785fac4b296edd70d9c3b0b9d8a493e10de6a98f3fe87005fcd97ddda42",
+      "label": "U",
+      "reason": "Asks whether the egg is already in the microwave, then explicitly switches to a stove sequence; it does not prescribe target insertion as a microwave-heating prerequisite."
+    },
+    {
+      "sha256": "d62dd416965cba71f929038a95f29f99b4b92cef6b4b629cdaf1d9237f277287",
+      "label": "U",
+      "reason": "Only discusses mug search, absence and avoiding redundant search."
+    },
+    {
+      "sha256": "d648943065e096c70a2b890f8e7eee9927ecc1165c1468447a8fc7517cf3424a",
+      "label": "U",
+      "reason": "Concerns final table placement and holding the egg for placement, not the heating prerequisite."
+    },
+    {
+      "sha256": "d68531bf4529018a030d6930790121f7881d56420c45434adacdf9744eac4c65",
+      "label": "E",
+      "reason": "Inventory is checked before insertion, followed by microwave placement and heating; it does not preserve inventory at the heat command."
+    },
+    {
+      "sha256": "d83c75176ef726d3cd0b442f0865397a01690088e0c893a213eb5f5955542287",
+      "label": "U",
+      "reason": "Device and shelf checks, with possible omission of heating, but no tracked insertion or inventory-at-heat prerequisite."
+    },
+    {
+      "sha256": "d8eb21f90b3c6f9c0a5458f8b1de9297e443c95ff4de1af26c87c09e8137c49e",
+      "label": "E",
+      "reason": "Explicitly ensures the apple is inside the microwave and then issues the heat command."
+    },
+    {
+      "sha256": "e0770169ff795550bcc8723bda639b3de1d5543f5e150d22ce7adcd76ea0ebfb",
+      "label": "E",
+      "reason": "Explicitly clears the microwave, places the potato inside and then uses the heating command."
+    },
+    {
+      "sha256": "ea9988b3e719a2ed6c1f6bccf26780383fddd8286e9c3ce7bf6e6f3bfd85c562",
+      "label": "U",
+      "reason": "Appliance-function checks, stove/toaster alternatives and garbagecan placement only."
+    },
+    {
+      "sha256": "ecc2fe9f710a4fe441c4282cd6624e104aef0909afd8dadd2f9e5d9d56a5c497",
+      "label": "E",
+      "reason": "Explicitly inserts the apple and then issues heat apple with microwave; inventory is checked before insertion."
+    },
+    {
+      "sha256": "ef9b7d9ceb53c7d74c5df1c52c849a09cf1278d6f7a2a4529239736197ce39ad",
+      "label": "E",
+      "reason": "Its microwave fallback explicitly ensures the potato is placed inside before the renewed heating attempt."
+    },
+    {
+      "sha256": "f1cac47fa34fd81f90f0ffb2d4478393824bcb39b819115b93b64f3330d2aad2",
+      "label": "E",
+      "reason": "Explicitly inserts the mug and closes the microwave before heating."
+    },
+    {
+      "sha256": "f70b5daf3bc573e19d5f07bc0c8e2610a165bce24d551d8b54dbabb14c54956e",
+      "label": "E",
+      "reason": "Explicit sequence is insert the apple, heat, wait, retrieve and finally place it."
+    },
+    {
+      "sha256": "f7f1562ee1f99eb517564e8b069aefdb064d810ff5689b5afd3a26098c466a32",
+      "label": "U",
+      "reason": "Microwave probe uses an already-inside apple; inventory checks concern final placement, not the heat command."
+    },
+    {
+      "sha256": "f93e0ca4fbc61036d6b5a7b7bb36cb5597e57d9e6a808d0fa110236d233005b3",
+      "label": "U",
+      "reason": "Take-heat-place sequence without explicit microwave insertion or inventory at the heat command."
+    },
+    {
+      "sha256": "fb55b4df16c06a51a76ac86d8f2a8bf35f2a45988f210fd39d77011709dd0d3c",
+      "label": "U",
+      "reason": "Proposes removing other microwave contents and closing the appliance, but does not explicitly require placing the target inside before heating."
+    },
+    {
+      "sha256": "fc3e0af8e270ae29c876d5598326200e9d76946ef036a250465ac7b76f0ecd60",
+      "label": "U",
+      "reason": "Proposes omitting heating and placing a mug on a shelf, without the tracked heating prerequisite."
+    },
+    {
+      "sha256": "fd89bdd7989a5bf908a489414f60f339b975158590349cd70cbbe9c9ab154dd0",
+      "label": "U",
+      "reason": "Only proposes a search plan for locating a potato; does not express the tracked heating prerequisite."
+    }
+  ],
+  "sha256": "b7235d41a1bd7c2edaa1b18b3e499a62ad12375422f2f2a59570f5c0764549db"
+}

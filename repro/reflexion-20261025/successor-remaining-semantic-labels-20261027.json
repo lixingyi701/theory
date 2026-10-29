@@ -1,0 +1,2901 @@
+{
+  "annotator": "Codex full-text reading and self-review before joining later outcomes",
+  "category_definitions": {
+    "A": "Target prerequisite interpretation uncertain",
+    "B": "Both target recommendations retained",
+    "C": "Explicit correct target prerequisite",
+    "E": "Explicit wrong target prerequisite",
+    "U": "Neither target prerequisite explicitly stated"
+  },
+  "counts": {
+    "A": 21,
+    "B": 30,
+    "C": 14,
+    "E": 155,
+    "U": 94
+  },
+  "decisions_file_sha256": "5d2487f92b4aced962257ab32b2157f796ba9dfe9fb2aeca5dd2064cfa6fc02d",
+  "entries": [
+    {
+      "category": "U",
+      "evidence": [
+        "take it, use the microwave to heat it"
+      ],
+      "index": 0,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "892e697b6b24eaf12f8f4e2d83defe12b1ffc88ad9499d1599bd9bd065c3ade9"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "place it in the microwave, close it, and use the heat function"
+      ],
+      "index": 1,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "5da18d74b77a5d9fff7394a7ece4541892c51c0284e89fbfc947f8acbc935129"
+    },
+    {
+      "category": "C",
+      "evidence": [
+        "tomato was still in my inventory before attempting to heat it"
+      ],
+      "index": 2,
+      "reason": "明确推荐加热时持有目标物或不先放入微波炉；其他设备或任务错误不改变目标前提标签。",
+      "reflection_sha256": "9928669c461b300f3e43a8e3b4d00b64e64fbaec31fdd500ddbbc86ce8ced366"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "before placing the tomato inside and attempting to heat it"
+      ],
+      "index": 3,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "72d4d216aa5190fe27386caeadcd952781fd51a1aa12023c6c75e1c3ae05afe4"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placed the cup inside, heated it"
+      ],
+      "index": 4,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "19dd3c7d7fc154ca333f5ca6b768d2895df535cffdd9494c43917302cb0f735c"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placed the cup inside and heated it"
+      ],
+      "index": 5,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "4c147ae347c4449ba2abc64b617c73db731c1d9b96f41fcfa16b75e65552e93b"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "place it in the microwave, heat it"
+      ],
+      "index": 6,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "b63623b48e9afd73ac15afd985462c2842cb063b0ab3a264ba4df5eae6cdb2fc"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placed the mug inside, turned it on to heat the mug"
+      ],
+      "index": 7,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "535a938f7f674227bb680e7675cbfbace3ae4d5dfa7ba05feb6c01df8ffcfd21"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "remove all items from the microwave, and heat the tomato directly"
+      ],
+      "index": 8,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "90942a7900e60ccbb6dee730f5b24e34f864fffb1cb5d9c97e1802cb745e1c3c"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "heat it in the microwave and place it in the fridge"
+      ],
+      "index": 9,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "02be9f7db2410688c3b885e93b5f34f9ebc31cef114e45d1293a67ad9edbc52b"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "used the microwave to heat it, ensuring it was placed correctly"
+      ],
+      "index": 10,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "e75c87b3ea00c7bde47f0666db0ca4957800ffb9d35d645bef32db657385b92f"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "verify the potato's state after heating"
+      ],
+      "index": 11,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "9b7f9ed0fed829fb4d7cd70dd428bf2587d35966757cbbb1f9ed87d4b7dbfc4a"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "thoroughly check all possible locations"
+      ],
+      "index": 12,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "150f41d2573ddff01a20fe97ab66320d0af325c738651377f902c4e1a5723ec9"
+    },
+    {
+      "category": "B",
+      "evidence": [
+        "placed the egg in the microwave, closed it",
+        "egg remains in my inventory until it is heated"
+      ],
+      "index": 13,
+      "reason": "同时保留目标物位于微波炉内加热和加热时保持持有的建议。",
+      "reflection_sha256": "5b252ff391c941fada4f34929ef8067eae8251491762f9d0e6b0055723bfac47"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "go to the microwave, heat the cup"
+      ],
+      "index": 14,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "e1138fd58434312a326ea1f1ae72da09da803a1298d33c62dba8c44e401c0c81"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "first heat the cup using the microwave"
+      ],
+      "index": 15,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "f7cb9dc9c0360287e52069c53abd944f9c871221290bf1eb05e85b9b33195f94"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "cup was properly placed in the microwave, closed it"
+      ],
+      "index": 16,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "b5d7251ae5e9e2a2100537292cb38acf4928a9f6cdf633e015c637b208d1cf60"
+    },
+    {
+      "category": "B",
+      "evidence": [
+        "placed it in the microwave, closed it",
+        "cup is in my inventory before attempting to heat it"
+      ],
+      "index": 17,
+      "reason": "同时保留目标物位于微波炉内加热和加热时保持持有的建议。",
+      "reflection_sha256": "2978f91b8f33632669718f36db8b3d00d2e5a9b56e2527e6bab91572e3e70b0e"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "ensure the cup is inside the microwave, close it"
+      ],
+      "index": 18,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "d975f1ae5a6ce9c5b60fb06bb7ebb75bba9466ef51d921e528dc8039f2a10b14"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placing it inside and closing the microwave before using the heat command"
+      ],
+      "index": 19,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "c874f5e6ea877f5663571b12ecf4396fad92b14163995e3996dbfec0342bbdfb"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placed correctly in the microwave before attempting to heat it"
+      ],
+      "index": 20,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "12a0376e0c037166a6b38519d98542c3e1c8b523347f5b04df2a11f9d6f0eb88"
+    },
+    {
+      "category": "B",
+      "evidence": [
+        "egg was in my inventory before attempting to heat it",
+        "properly placed inside and the microwave was closed"
+      ],
+      "index": 21,
+      "reason": "同时保留目标物位于微波炉内加热和加热时保持持有的建议。",
+      "reflection_sha256": "791a82a30798d572ceb9b9440f22cabcd1febec4ea5f92a86da6b2854975b4f0"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "cup was properly placed in the microwave, closed it"
+      ],
+      "index": 22,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "f189939f9be8ec7f6c83f69afed96afb7d97df04a4fb8f7b9bd40b2fc1b8d312"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placed it in the microwave, ensuring it was heated properly"
+      ],
+      "index": 23,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "c6876357f2ab02c28feb182d94bd13b42754eda89d57c0f3d301f3919d370427"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "take it, heat it in the microwave"
+      ],
+      "index": 24,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "8779f5219a620f620b74ba77fb21b360161df669163f874f05207423eac5cf99"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "Then, I should place the egg in the microwave, close it"
+      ],
+      "index": 25,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "36a2e0007a2dfc3b58183240cd03c0392df8179627f05d89c2fcc15f6b367197"
+    },
+    {
+      "category": "B",
+      "evidence": [
+        "placed the apple in the microwave, closed it",
+        "apple is in my inventory before attempting to heat it"
+      ],
+      "index": 26,
+      "reason": "同时保留目标物位于微波炉内加热和加热时保持持有的建议。",
+      "reflection_sha256": "95439bce22e0a6e2ed2bae3b7a3faa96753a06225c880dd5c9e8a309719f5444"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "cup was properly placed in the microwave before attempting to heat it"
+      ],
+      "index": 27,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "410bdf8153f17e2321111e4cb1124b136db08baed4e0c13d31f4e3007bdd4a08"
+    },
+    {
+      "category": "B",
+      "evidence": [
+        "placed it in the microwave, closed it",
+        "ensure I still had the egg before attempting any heating actions"
+      ],
+      "index": 28,
+      "reason": "同时保留目标物位于微波炉内加热和加热时保持持有的建议。",
+      "reflection_sha256": "af41ce266f259d9d2f16a0cf16ffa8d5ebbe22c7193398980b26849287c9ae5f"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "attempted to heat it in the microwave"
+      ],
+      "index": 29,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "3bf38945ac537ab1501acb80a4a0d51698e739c50602bfb89711cdce2607737e"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "systematically check all likely locations for a potato again"
+      ],
+      "index": 30,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "103f05ab1805ceeb8f2d779da20e35a4ac6278deb39f3eff70f4e25a7275085a"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placed the egg inside, closed the microwave"
+      ],
+      "index": 31,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "ed6f2df24be32f9bc8cd5c65f39dca49f0928b4644cb8eb4ff3af6ce0c23199a"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "place the egg inside, close it, heat it"
+      ],
+      "index": 32,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "57c84feaa04b688c704399cc085a0c99ae7cf907265485cb75608a8d68ce6a05"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "do not attempt to heat the cup in the microwave if it is not empty"
+      ],
+      "index": 33,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "fe36f4174fa59bde377cd4d0769696177ad0613d3e3c564ea8b1e88b585e5b79"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "take it, heat it in the microwave"
+      ],
+      "index": 34,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "685c03a32d97a1ac7ef372b34f56b52b0f37e3a745a18d47478f12e66eac31ce"
+    },
+    {
+      "category": "A",
+      "evidence": [
+        "heat an item already inside it, like the bowl 3"
+      ],
+      "index": 35,
+      "reason": "目标前提涉及的对象、时序、测试或互斥建议关系不清，保留不确定。",
+      "reflection_sha256": "028de3c6904dfe127e1ad772a954e3fba20ca52aa25276622ff27b758bdada11"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "heating the plate in the microwave again, ensuring it is properly placed"
+      ],
+      "index": 36,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "858c182b40a5c042fdd3fe6588db9539824dc1a1550ce6f1eff3434764bdbf25"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placed it in the microwave, removed any existing items inside, then heated the mug"
+      ],
+      "index": 37,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "40ce62546e2b0e03f58a6d2123b0496c217f2440eda892343eda86e074ccca69"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "locate and take the mug, then attempt to heat it in the microwave"
+      ],
+      "index": 38,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "3d5c9d1a936171ca9025d9f2bfe607804dd8be4c3600feb8251b93b59911b5d2"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "Then, I should place the egg in the microwave, close it"
+      ],
+      "index": 39,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "ccf0941cb18317e3202bdea6ca8c5d0ba96f0ff24f6ecb4f2bbcfad0654c0ad4"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "heated the tomato using the microwave by ensuring it was the only item inside"
+      ],
+      "index": 40,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "4c16d011ec49557049bea9816e4f11b4c9de68455c6bdb02941396f48bc7aafc"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "place it on the countertop without attempting to heat it"
+      ],
+      "index": 41,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "32781f2624b2dd3275f86282f15af42d9db1e974aa56605272e98b4c4b630edb"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "place the cup on it, and turn it on to heat the cup"
+      ],
+      "index": 42,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "3603311a882bfd1fc39c8c26d77cbe1166d62bcc879489bde624c55b53e14d60"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "Place it in the microwave",
+        "Heat the potato"
+      ],
+      "index": 43,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "24480ade5a6207a2b15a4698c0b7a947e30757aa73d281c6d37ea05d71ecc888"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placed the plate inside the microwave, closed it"
+      ],
+      "index": 44,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "79b856bbc78202d9991916b02717e24746d7561e96415f2633ec82f3a68e9aa0"
+    },
+    {
+      "category": "B",
+      "evidence": [
+        "egg is in my inventory before attempting to heat it",
+        "If the egg is not in the microwave, I should retrieve it and attempt to heat it again"
+      ],
+      "index": 45,
+      "reason": "同时保留目标物位于微波炉内加热和加热时保持持有的建议。",
+      "reflection_sha256": "a18f03f86d1a4e766ea8ae992b58337c09412f7829bff2fdfc1ec896199e8052"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "place the tomato on the stoveburner before attempting to heat it"
+      ],
+      "index": 46,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "2817c4556cb9e00be1225a0d0adc04ad9c384c82b38dbf833ec0994f0ded2d04"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "place the plate in the microwave, close it, and then use the heat function"
+      ],
+      "index": 47,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "043f96a3cdf5ef62adf251f5873d0cb43c0869b328f5df8fee4f3bbf61c96c8f"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "confirmed the egg was in the microwave, then used the correct command to heat it"
+      ],
+      "index": 48,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "688c34e777d69bfe2218b6933ac24dab601da3bb190a935d2f49f54595e2241b"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "check the garbagecan before proceeding to other locations"
+      ],
+      "index": 49,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "d654cc4f59e2e8f30d086da2370f79370b5a9b4f7d790535058b479875b78bb7"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "placing the plate in a cabinet without attempting to heat it first"
+      ],
+      "index": 50,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "bc5c0230112b7222381ba57c8370c0124f6e2e21b0544f46f1eedc7d14e6f7d9"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "try the microwave again, ensuring it is clear and functional"
+      ],
+      "index": 51,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "e8319097afb16948c6461a9f9b2965e99f11b1e63f3bd43818232283c87abeda"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placed the mug in the microwave, closed it"
+      ],
+      "index": 52,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "d4d0108c9bae24dec3a6499729936e231a91a38b92a8b4b46a9d0ad13bb52033"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placed it in the microwave, closed the microwave"
+      ],
+      "index": 53,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "063cb7e1f5b83495f356aa95509c4ade0d90de2b49b2cdd47bb41a80e3149c86"
+    },
+    {
+      "category": "B",
+      "evidence": [
+        "take egg, place in microwave, close, heat",
+        "verify the egg is in my inventory before attempting to heat it"
+      ],
+      "index": 54,
+      "reason": "同时保留目标物位于微波炉内加热和加热时保持持有的建议。",
+      "reflection_sha256": "fc1fb152450c8f06eeb69a52e97a97db65740967a28b20d5ccf7aeb443f10302"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placed the egg in the microwave, closed it"
+      ],
+      "index": 55,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "6cd855ae4515a003fbca947ccd585667d9d82dfb135e71c0b1e5d9b367afebae"
+    },
+    {
+      "category": "B",
+      "evidence": [
+        "placed the tomato in the microwave, closed it",
+        "tomato is in my inventory before attempting to heat it"
+      ],
+      "index": 56,
+      "reason": "同时保留目标物位于微波炉内加热和加热时保持持有的建议。",
+      "reflection_sha256": "1a1908ecce04829989d9fde74fdaf117cd1e07d27a1c31910b68d2dcb43b3326"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "thoroughly check all possible locations"
+      ],
+      "index": 57,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "d9c8720b697ac2fd1ab00ddc01b906ee9c2a2957aa4fb5d215ae097476d5980d"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "inside the microwave) before attempting to heat it"
+      ],
+      "index": 58,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "4deab3fbc044f0f47271e0d5aa1540fd65a598c62665ebf6ae0acb67396ceedb"
+    },
+    {
+      "category": "B",
+      "evidence": [
+        "placed it in the microwave, closed it",
+        "verify the egg's presence in my inventory before attempting any heating method"
+      ],
+      "index": 59,
+      "reason": "同时保留目标物位于微波炉内加热和加热时保持持有的建议。",
+      "reflection_sha256": "6cdf23c53b19a900d757ade89688c4974e4f6d7370186ca584d8a80d511039d6"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "then placed it in the microwave, closed it"
+      ],
+      "index": 60,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "c07a9aa467b8727ac9833cf69f28f6a6fa1ad4307e42de28cb88b497d0ed0630"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "take it, heat it in the microwave"
+      ],
+      "index": 61,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "62a13e56a043e72393df2c08492d21942569de772f63feaf0bc400166e42ecc3"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placing the egg inside and heating it"
+      ],
+      "index": 62,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "47bead3b80b5acd8bf01e0eaea2d342b37ed90c0a0f2c0d19dbd62c422b1e040"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "place the egg in it, put the pan on a stoveburner"
+      ],
+      "index": 63,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "0372f761e896ee035fc03c534529e1be6732532e590d49d1c3e9aae69b3bc5a7"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "check the shelf to confirm the task is complete"
+      ],
+      "index": 64,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "93b02ce5ee84aeb4dde04a32b8064381f8668f2d1f61ed1dcbdd333664a79dee"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "place it in microwave, close microwave, heat it"
+      ],
+      "index": 65,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "6e4e57be5c6faa8a5ca8fa26651901d41572938c9258fa714eab2d3248827ae4"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placed it in the microwave, closed the microwave"
+      ],
+      "index": 66,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "1d2636691c240c615f70d5c3c899e3ee2e076caea2dd04337c24df03e6bb5801"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "placed the cup on the stoveburner and heated it"
+      ],
+      "index": 67,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "5b4e17bab151f424f982a91cb6c75127033137662e501c22d6ab931549346f5a"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "ensuring it was empty, and then used the correct command to heat the tomato"
+      ],
+      "index": 68,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "5377ba349c5237550d997a93b7b782ed930580fb00624f424eee433a045936f4"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placed the cup in the microwave, closed it"
+      ],
+      "index": 69,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "825466ddb926e47083c1249fdfdd3e57da8d36a214b4a27d685ca7624b79da34"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "place the mug inside, close it, and attempt to heat it"
+      ],
+      "index": 70,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "0c8874e0a304b107b410d8c8b74dcb75fcddccd6d5375d89b1a10aa0c0acc59a"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "place the egg inside, close it, heat it"
+      ],
+      "index": 71,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "3e867e31984169d503e7bb0b776fa8075ee8027410329775ed19d818ad60c1c9"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "trying to heat the potato unnecessarily"
+      ],
+      "index": 72,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "796d6309097908b249608f1708c8f21a3b814ae55b1a2057283aac2727b32415"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "ensure the microwave is empty before placing the tomato inside"
+      ],
+      "index": 73,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "af0b8e3ee60d122b371e24ea272417f5833f11d0f31003602d9119342ac6aab1"
+    },
+    {
+      "category": "C",
+      "evidence": [
+        "checked if it was in my inventory before attempting to heat it"
+      ],
+      "index": 74,
+      "reason": "明确推荐加热时持有目标物或不先放入微波炉；其他设备或任务错误不改变目标前提标签。",
+      "reflection_sha256": "14caf66fc5c1844cb9936d17f32f8ddc5e299de291280ef4d915d68abc3dbc28"
+    },
+    {
+      "category": "A",
+      "evidence": [
+        "heat an item already inside it (like the egg or potato)"
+      ],
+      "index": 75,
+      "reason": "目标前提涉及的对象、时序、测试或互斥建议关系不清，保留不确定。",
+      "reflection_sha256": "1e8432e6f62e7858d918e57b709e306eb1a3c0680abba6b77fb5098c62366efa"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "ensuring it was empty before placing the egg inside"
+      ],
+      "index": 76,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "f7cb1dd94fb8ed38eaf9ec42fbe9b0d3f7714643875fe78a545cca32eb771bdc"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "do not attempt to heat the cup in the microwave if it is not empty"
+      ],
+      "index": 77,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "ff83a01d783aea9aaa85573ab3ef36f349158bc7e85cf2107d28687c89be72ff"
+    },
+    {
+      "category": "A",
+      "evidence": [
+        "heat a different item, such as the apple or egg already inside"
+      ],
+      "index": 78,
+      "reason": "目标前提涉及的对象、时序、测试或互斥建议关系不清，保留不确定。",
+      "reflection_sha256": "32a0dbbf2cc38d3d96508cc5876dff5f1fcc778b13f617df720ca3dc050b4515"
+    },
+    {
+      "category": "B",
+      "evidence": [
+        "placed the apple in the microwave, closed it",
+        "apple is in my inventory before attempting to heat it"
+      ],
+      "index": 79,
+      "reason": "同时保留目标物位于微波炉内加热和加热时保持持有的建议。",
+      "reflection_sha256": "473475070b80da0a066a37439e0cfb10134da292a962ffa965cce2adb5b56fcb"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "continue checking all possible locations"
+      ],
+      "index": 80,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "d87cc7ded2a55ba7ac934d7504c60d9ac40da05100f140533beca4830a6cf15b"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "before placing the egg inside and heating it"
+      ],
+      "index": 81,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "6df0e8fd28ef41bf21cfbd259d35db1b66dd523667798fbc6d47dbe568933803"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "avoid using the microwave or toaster"
+      ],
+      "index": 82,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "993e477d151dd1208937f475d0d9161c0fc43220c4c59ee162cc474832659ec6"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "checking the shelf to verify the mug is there"
+      ],
+      "index": 83,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "17f1e8e4cb63307dca354ce381ce1b54de90964ada3f3976521e91c8668675fb"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "proceed to heat it in the microwave"
+      ],
+      "index": 84,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "085df5b1f8b4b14d01aa67883c4aaa38a1f12ba390e617667abc15c0a8da972a"
+    },
+    {
+      "category": "A",
+      "evidence": [
+        "heat an item already inside (like the apple or egg)",
+        "before placing it on the stoveburner or in the microwave"
+      ],
+      "index": 85,
+      "reason": "目标前提涉及的对象、时序、测试或互斥建议关系不清，保留不确定。",
+      "reflection_sha256": "86482056d549fbc75b37d2dea5393353a543f92351dc62b11fc0a985c9af7639"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "place the cup inside and heat it"
+      ],
+      "index": 86,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "968ddd220fc9507146fd61a79dd6314219a53e953f08ef2e687a19f435e39226"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "using the microwave instead of the stoveburner"
+      ],
+      "index": 87,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "7858747bd98b4deb3778ef7593ee0a6fb128f90c32aec88d67fb76a340416eb2"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "avoid using the microwave and focus on the stoveburner"
+      ],
+      "index": 88,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "733f2da8f3be9c8aa4b2db4265bc9e8ce7f79d641658b662de45182432d903f0"
+    },
+    {
+      "category": "A",
+      "evidence": [
+        "heat other items, such as the cup already inside"
+      ],
+      "index": 89,
+      "reason": "目标前提涉及的对象、时序、测试或互斥建议关系不清，保留不确定。",
+      "reflection_sha256": "d0abdb385d1803853cb6080badb62ed2e272dea792cbf61ded87e9796af0424a"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placing it in the microwave, closing it"
+      ],
+      "index": 90,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "60146a8a026c4b2cd7a9ca78ba42bebda381a5817230bb00ad2ce108f82fdf07"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "heating the plate in the microwave again, ensuring it is properly placed"
+      ],
+      "index": 91,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "bea0ff584e9b51b4befc09011998404f2aff27ea343850df4b4f599517b178d4"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placed it in the microwave or on a stoveburner before attempting to heat it"
+      ],
+      "index": 92,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "14b6128bcb84c7b181ccec56f0d2eecf2818d75446ddf90beeb8c64f024a15fb"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placed it directly into the microwave, closed the microwave"
+      ],
+      "index": 93,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "07a907abf6ef97e772d3ff96f0a1983a544c6625d3df7b58738505ace65d01b0"
+    },
+    {
+      "category": "B",
+      "evidence": [
+        "placed the cup in the microwave, closed it",
+        "proceed directly to the stoveburner with the cup in hand"
+      ],
+      "index": 94,
+      "reason": "同时保留目标物位于微波炉内加热和加热时保持持有的建议。",
+      "reflection_sha256": "b24c9c3b1d27f9d151c89fb5eec6033648e45d7ed82b93cb678a38dd9ca9f3f3"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "tried using the toaster or stoveburner first"
+      ],
+      "index": 95,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "78d37c592fcd9e8bc35dc13c7448323d1e5385e6e2e556ab24a5946f20d33ae8"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "Then, I should go to the microwave, open it, place the egg inside"
+      ],
+      "index": 96,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "492ccff57cbbe3030ac2d8541a0e07d5a9dd9d91c0339d5ad9cc70180fa845e8"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "placed it on an empty stoveburner"
+      ],
+      "index": 97,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "2baba8f6bef8d58764cba4ec7fe0841c2c60175ff38674f87f634b498ce95e8d"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "place the cup correctly in the microwave and attempt to heat it again"
+      ],
+      "index": 98,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "1173f946e5810076a0ada48584650310ae46cf47fab0df35c498676cf659a342"
+    },
+    {
+      "category": "B",
+      "evidence": [
+        "egg was in my inventory before attempting to heat it",
+        "egg was inside before attempting to heat it"
+      ],
+      "index": 99,
+      "reason": "同时保留目标物位于微波炉内加热和加热时保持持有的建议。",
+      "reflection_sha256": "0f182d1663f06066d14b6da70d2e42252c45704bd3bcfb3e92b4a0dc49814c65"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "taken the egg from the fridge, then placed it in the microwave"
+      ],
+      "index": 100,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "50ed34ffc16c7e4fecb16f5b93c61bf518478e03bd09cf5b7e726641996a3d1c"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placed it directly into the microwave, closed the microwave"
+      ],
+      "index": 101,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "3224329a498e0df232d1ad8f4f54ac9db2977f9ddc7645c5450a409cb244f4d2"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placed the mug in the microwave, closed it"
+      ],
+      "index": 102,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "8608a610705aacd31de958624b5a915731593fbfdae2655c27caf7ae16c21460"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "correct command syntax and double-check the object's presence"
+      ],
+      "index": 103,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "59e30422aae0d80a1b34e60ff6236ab1ef8111551d424cb3150b8f654950ab7b"
+    },
+    {
+      "category": "A",
+      "evidence": [
+        "heat an existing item inside it (like the egg or potato)"
+      ],
+      "index": 104,
+      "reason": "目标前提涉及的对象、时序、测试或互斥建议关系不清，保留不确定。",
+      "reflection_sha256": "ec73f01f27875cd290a9158cc894c1be7f9e0763cca52a069b8e733525b8a2cc"
+    },
+    {
+      "category": "A",
+      "evidence": [
+        "heat an item already inside it, such as the mug 4"
+      ],
+      "index": 105,
+      "reason": "目标前提涉及的对象、时序、测试或互斥建议关系不清，保留不确定。",
+      "reflection_sha256": "6204b0ebe689f5943972460589c261e419e655ae2827b8b9aab292f14fa1da6b"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "double-check all locations"
+      ],
+      "index": 106,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "ee92550d86d9f321c6dfe07523540b0740bc9f1f97ca90bf01f8f5218c4e6908"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "placing the plate in a cabinet without attempting to heat it"
+      ],
+      "index": 107,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "942a0ae3affe29f8a51715aef9d67f57e33f902f44db9b808d01720eb36ce353"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "confirmed that the egg was in the microwave, then used the correct command to heat it"
+      ],
+      "index": 108,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "7b2b791f8b614f6bbbff8ed3b84a728e47e586969d55139981922e9200beac5d"
+    },
+    {
+      "category": "A",
+      "evidence": [
+        "heat the cup already inside it"
+      ],
+      "index": 109,
+      "reason": "目标前提涉及的对象、时序、测试或互斥建议关系不清，保留不确定。",
+      "reflection_sha256": "4342e1e4f03814f2593eb95f5ad4186f6dd293983f535e5ab88e220cb3729a96"
+    },
+    {
+      "category": "C",
+      "evidence": [
+        "cup was in my inventory before attempting to heat it"
+      ],
+      "index": 110,
+      "reason": "明确推荐加热时持有目标物或不先放入微波炉；其他设备或任务错误不改变目标前提标签。",
+      "reflection_sha256": "7c2939bdff18c7afaf84f4f754e5fa33d7b047bccd301a31199ad180ad940f18"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "systematically check all likely locations for a potato again"
+      ],
+      "index": 111,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "e477bf3ddb4c2aa7cf21bb6feec1b1b0fdf1c04e8eada3b4ad255cf851cd6be7"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "using the microwave again, ensuring it is functional by testing it with another item"
+      ],
+      "index": 112,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "8fbe63f5edf86d2313d1bf6f517d6c3e7671a4940a43a16d7c0cc67e29d3711e"
+    },
+    {
+      "category": "B",
+      "evidence": [
+        "placed it in the microwave",
+        "potato was still in my inventory before attempting to heat it"
+      ],
+      "index": 113,
+      "reason": "同时保留目标物位于微波炉内加热和加热时保持持有的建议。",
+      "reflection_sha256": "85a2b45e184256e220e7f4e8a03d30687f33932895bf98a1992b33b1f02e0670"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "place it in the microwave and using the"
+      ],
+      "index": 114,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "eda52405a78db1a02e1310ebe0387465f98ea6e984792e8a59fd40d3f3b12d8b"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "place it in the microwave, heat it"
+      ],
+      "index": 115,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "e6c71393170dc8d4d3bd8ce2f015c573020f949a1223a6a562abcdc32c7d0c97"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placed it in the microwave, closed the microwave"
+      ],
+      "index": 116,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "ea79643c1b1e0c99c427bfa1ae005cca9b6c656491d2d4a908c091be01006061"
+    },
+    {
+      "category": "C",
+      "evidence": [
+        "proceeded to heat it in the microwave without attempting to place it in the microwave first"
+      ],
+      "index": 117,
+      "reason": "明确推荐加热时持有目标物或不先放入微波炉；其他设备或任务错误不改变目标前提标签。",
+      "reflection_sha256": "d7014278b100632d1480fba1d87ed1a16b879c9c0789b22c0345fd15120c2daa"
+    },
+    {
+      "category": "A",
+      "evidence": [
+        "rather than trying to place the egg in the appliance first",
+        "inside the microwave before attempting to heat it"
+      ],
+      "index": 118,
+      "reason": "目标前提涉及的对象、时序、测试或互斥建议关系不清，保留不确定。",
+      "reflection_sha256": "49a0b9d27dc9277651b8e3f085f9cbae06ce447a8eeab201740fc58fb7992cae"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placing it inside, closing it, and heating"
+      ],
+      "index": 119,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "2437358f6c5963fa28c08d0c3503642a132b6874d595943b3c19ed992e37d76c"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "place the mug in the microwave, close it, and then attempt to heat it"
+      ],
+      "index": 120,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "ce188fdc29baec7ab4876c1a06924b49ce6780e783cafa15c2df3274b71ca3e4"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "check the shelf to confirm the task is complete"
+      ],
+      "index": 121,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "23d2fec617d393933b56a91c1223c0c6f1cebba157cac32d3d9ce162600d5247"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placed the mug inside, then turned it on to heat it"
+      ],
+      "index": 122,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "0d37a9709377805870e540d1b279baab926343e877129bde75de0c754fa93630"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "place the mug in the microwave before attempting to heat it"
+      ],
+      "index": 123,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "8845a439a5292a3607dbf04611b18365c326fef238956408a75668ed897c06b6"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "heat it in the microwave, then place it in a cabinet"
+      ],
+      "index": 124,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "eb6ed43f51a6d0cb32169ed9a20f5efcef9786af1e9abdea9c476c3e272fac35"
+    },
+    {
+      "category": "B",
+      "evidence": [
+        "placed the tomato in the microwave, closed it",
+        "tomato is in my inventory before attempting to heat it"
+      ],
+      "index": 125,
+      "reason": "同时保留目标物位于微波炉内加热和加热时保持持有的建议。",
+      "reflection_sha256": "043a85c614d1fb3ab5b1fbe2ed6b7a0c4973d05205c3c2544ac1c8789d2bba6b"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "placing the plate in a cabinet without heating it"
+      ],
+      "index": 126,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "3c9827ee3e658f72fed40e5e72b6c8bb3d24b6e9812f4a6fcfb3624893986116"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "take it, heat it in the microwave"
+      ],
+      "index": 127,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "91708dc34a9aa38f6f7d6f239c8a71c86d3895f1777b5877368824fce9029e01"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "then placed it in the microwave, closed the microwave"
+      ],
+      "index": 128,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "3b4e0414c9f14084d6f0f1e73abf00855e842a010e659524ea556f7c3f15199c"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "cup was in the microwave and then attempted to heat it"
+      ],
+      "index": 129,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "0d2d4a8c9f389ab5987d25486edd4cadaf971f4d00a026fe6f6caeb0a52ad3c5"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "place the cup on it and wait for it to heat"
+      ],
+      "index": 130,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "984806de56385cd44eb4f696d33dd971d604bb534696289ee08f84cadad2f841"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "properly placed in the microwave and that the microwave was closed before attempting to heat it"
+      ],
+      "index": 131,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "a764363c43b0a45b0818bfd721109c217d3b4003a5426cb7c798697d1ca6bbc1"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "ensuring the cup is inside, and then attempt to heat it"
+      ],
+      "index": 132,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "ae8bc340e413bc91baf72ce65edd0113ede95ed92f3fbf18d050776ee7aaeef3"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placed it directly in the microwave, closed it, and heated it"
+      ],
+      "index": 133,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "fdde95012bd2a6f4137f0b8662d7b39b1805a353cb74332a98b7380a698f1d24"
+    },
+    {
+      "category": "B",
+      "evidence": [
+        "placed the cup in the microwave, closed it",
+        "proceed directly to the stoveburner with the cup in hand"
+      ],
+      "index": 134,
+      "reason": "同时保留目标物位于微波炉内加热和加热时保持持有的建议。",
+      "reflection_sha256": "291dc74db3dafb8d92da56ee90d0a068ec8581a21615eb1db20af00d57162684"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "take it, heat it in the microwave"
+      ],
+      "index": 135,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "8358e461d409b2ddaa50575ba83fa2f439891d4e948739f305aa072153a5c21b"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "skip the heating step"
+      ],
+      "index": 136,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "57c8fccf2e25d3240bac8da037070a8f9ad4301b3876b4684d62baceec9ff43a"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "attempt to heat the egg to confirm functionality"
+      ],
+      "index": 137,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "2586350a0b64297eed8fab95e280dba59c7fbe7ef3da0e7d66d7fa6c75d26d8d"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "check the shelf to confirm that the mug is now there"
+      ],
+      "index": 138,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "51b8dbfb2180a43ef6e20bd2cfa57ec8597aa9516038289ca57810279ddb056f"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placed the cup inside the microwave, then turned it on to heat it"
+      ],
+      "index": 139,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "b647822f1ae2120cf8e4db759cf27564a0ca6d75ed4f6db68806c177c63b8167"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "placed it on the stoveburner without using a pan"
+      ],
+      "index": 140,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "7a5186ed49821ef4892418f1f521c82b88452ca93bd0e47dd2d2c2ba7f6c3dfa"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "microwave to heat it, ensuring it was placed correctly"
+      ],
+      "index": 141,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "c8c99a11cc6ad63257a5eb3cff6dda4cc76532e6adfa8d1449a90e0c3dcd29e2"
+    },
+    {
+      "category": "A",
+      "evidence": [
+        "heat a known item (like the apple already inside)"
+      ],
+      "index": 142,
+      "reason": "目标前提涉及的对象、时序、测试或互斥建议关系不清，保留不确定。",
+      "reflection_sha256": "c284ae51f6317d79c401a9c0c410576a76facaaa2730ccefb03f568ac343de75"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "heat a known item (like a potato) to confirm its functionality"
+      ],
+      "index": 143,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "eb23b64bd64caebd2a307b6ec44ce8bb412a67b1be115e2b2ec586cdb64d4271"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placing the cup in the microwave, ensuring it was closed"
+      ],
+      "index": 144,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "5a0e6a88969eb71a78f2212de5ca786732742bf1ef6ed12cd84bc0b28eb67000"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "then placed it in the microwave, closed it"
+      ],
+      "index": 145,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "0b91dbc2331e0840bd7b72d54551626b181d5679ad0b87b39dbc62797d9e72e4"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "check if the task is completed"
+      ],
+      "index": 146,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "b212a1f509e30cc1711450be1a20f2878e4acb0539d1db9b2494c45e68cf5d90"
+    },
+    {
+      "category": "A",
+      "evidence": [
+        "place it on a stoveburner or microwave without using the"
+      ],
+      "index": 147,
+      "reason": "目标前提涉及的对象、时序、测试或互斥建议关系不清，保留不确定。",
+      "reflection_sha256": "4a2c79b28322a65b5dd1a1d8b972fe4c78806ce80c0333a1c6375e30c7ab22e6"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "checked if the egg can be heated in the microwave"
+      ],
+      "index": 148,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "dad2c8e06e8d68cf7147b44cb89fab393bfd97ad311dd11386d4c810decb942b"
+    },
+    {
+      "category": "A",
+      "evidence": [
+        "heat an item already inside it, such as the apple 2"
+      ],
+      "index": 149,
+      "reason": "目标前提涉及的对象、时序、测试或互斥建议关系不清，保留不确定。",
+      "reflection_sha256": "e80f5acd35c0b1d80f7a6683bb1de477e22b9c5a0eee033ba5601cff1f92fe45"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placing it inside, closing it, and heating"
+      ],
+      "index": 150,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "26b3f2836f0adca3eb88c93be425d72bf9744ac1a10aaa23de947217c4bfb300"
+    },
+    {
+      "category": "C",
+      "evidence": [
+        "object is in my inventory and the heating appliance is clear before attempting to heat it"
+      ],
+      "index": 151,
+      "reason": "明确推荐加热时持有目标物或不先放入微波炉；其他设备或任务错误不改变目标前提标签。",
+      "reflection_sha256": "1897cb5042002498250b0cd17fa93665ec7bea91100174c61b7ab6fcfc488587"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "place the mug in the microwave before attempting to heat it"
+      ],
+      "index": 152,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "6fc3ece52df03b837d9ab590d922cf3232a021ebb8987458fe29c15f73719ea7"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "heat the cup in the microwave first, then place it in a cabinet"
+      ],
+      "index": 153,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "d54b5e845319fb0444fba36bfd282704fe56f12fd60fada8aa5b3319d2889b2c"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placed it in the microwave, ensuring it was heated properly"
+      ],
+      "index": 154,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "f66ec9d2fff13857de656e14f2db0bcce1244bc650cdda943542c754d54b642c"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "place the mug in the microwave, turn it on, wait for it to heat"
+      ],
+      "index": 155,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "9427359316027402a0f43adae9bac6ad2f5738628feb05936fbafd02226a1e74"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "skipped the heating step entirely"
+      ],
+      "index": 156,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "b07c72e03c6a819a76a1d9660ebdc2833e1095d1d9f32ad030190d172f9cec88"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "tried using the toaster or stoveburner first"
+      ],
+      "index": 157,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "be0c142f4024d6e525169263b055f07453ac4224b46171d439c7663ead468682"
+    },
+    {
+      "category": "B",
+      "evidence": [
+        "place the egg in the microwave, close it",
+        "check if the egg is in my inventory and attempt to heat it again"
+      ],
+      "index": 158,
+      "reason": "同时保留目标物位于微波炉内加热和加热时保持持有的建议。",
+      "reflection_sha256": "43c0516404482b1dfed99ad241ebbb441d026367510cc2d7d10804be26096c58"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placed the mug inside, turned it on to heat the mug"
+      ],
+      "index": 159,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "b3365f8511969a62877f3ea27f73f302230a430906f77535f2ef629092fa8cc5"
+    },
+    {
+      "category": "A",
+      "evidence": [
+        "heating the existing cup inside it"
+      ],
+      "index": 160,
+      "reason": "目标前提涉及的对象、时序、测试或互斥建议关系不清，保留不确定。",
+      "reflection_sha256": "8f50ee626ecfee17be68331c6feee36366a3ef0378a2ac797a937c7120e8e04d"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "take it, heat it in the microwave"
+      ],
+      "index": 161,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "9c2070387a67b2b9df21549ddc38e689c09bf14618085dd3f38d4b7804b20ddd"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "then placed it in the microwave, closed the microwave"
+      ],
+      "index": 162,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "4dd896cb38f470f4ba76af9b3ce0ca41de40c78cc2a23e88f81d1649c899243c"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placed the mug inside, closed it, and used the heat function"
+      ],
+      "index": 163,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "d09cca74bce0ac8f1aee853380e36c9b715998905353eef3f2d392c52ae5b038"
+    },
+    {
+      "category": "C",
+      "evidence": [
+        "tomato is in my inventory before attempting to heat it"
+      ],
+      "index": 164,
+      "reason": "明确推荐加热时持有目标物或不先放入微波炉；其他设备或任务错误不改变目标前提标签。",
+      "reflection_sha256": "25492273ff120b4bd1946931d90dc0dd0777025660b296d251485d0b85017d02"
+    },
+    {
+      "category": "A",
+      "evidence": [
+        "heating an item already inside it, like the bowl 3"
+      ],
+      "index": 165,
+      "reason": "目标前提涉及的对象、时序、测试或互斥建议关系不清，保留不确定。",
+      "reflection_sha256": "7804c22d124486d5bbf1c75fa25a0d95f251b5a4986f420e899fe65cbafbba53"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "before placing it in the microwave",
+        "heat it using the microwave or stoveburner with proper setup"
+      ],
+      "index": 166,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "1920f3cc767b241ad8f39fc6b0b875f3645c53b0ac33c4b36728967a02f65774"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "place the plate in the microwave, close it, and then use the heat function"
+      ],
+      "index": 167,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "fe892f62844defeeb7c6dceaa2771321890e335f1bb99c661303c417e37369dc"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "ensuring the cup is in the microwave and the microwave is closed"
+      ],
+      "index": 168,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "14a1bf29cfe5788792211ad7a2c86b5e7973aacce36c1b8edf1cef9536d6580f"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "check the shelf to confirm that the mug is now there"
+      ],
+      "index": 169,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "7c9aead263ab78b458ff7c5365d2cc2625f0c9206d3cb6b46f542323410c243f"
+    },
+    {
+      "category": "C",
+      "evidence": [
+        "heating it directly without placing it in the microwave"
+      ],
+      "index": 170,
+      "reason": "明确推荐加热时持有目标物或不先放入微波炉；其他设备或任务错误不改变目标前提标签。",
+      "reflection_sha256": "851610315db6b529d269e8ebdbac13b16cb25208403934ba29db29ddbceb3e0e"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placed the egg in the microwave, closed it"
+      ],
+      "index": 171,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "89c8e77caa9007946052c6e520ada5447fc3b03c5cc2a4755c740340aca8cd92"
+    },
+    {
+      "category": "B",
+      "evidence": [
+        "placed the mug in the microwave, then used the",
+        "mug was in my inventory before attempting to place it on surfaces or heat it"
+      ],
+      "index": 172,
+      "reason": "同时保留目标物位于微波炉内加热和加热时保持持有的建议。",
+      "reflection_sha256": "6f38923648095be22c6de9d4fe1325a23609c038ea5ddeca708fd9d2e7d67279"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placed the mug in the microwave, then used the heat function"
+      ],
+      "index": 173,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "2bdf1744e8c917b0ef2854426b72cdf86bb6a39915a037b2de57dac77d538092"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "Then, I should place the egg in the microwave, close it"
+      ],
+      "index": 174,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "5f9913f96cf6d1c2cd4718a7ecf39077ab57f603b7815123786f2ad790b270ce"
+    },
+    {
+      "category": "B",
+      "evidence": [
+        "place the mug in the microwave, heat it",
+        "mug is in my inventory before attempting to heat it"
+      ],
+      "index": 175,
+      "reason": "同时保留目标物位于微波炉内加热和加热时保持持有的建议。",
+      "reflection_sha256": "e093299702927a70692349de142e1db3ab5e48dc623bdb1e7988916a46390ce4"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placed the cup inside, and then used the heat function"
+      ],
+      "index": 176,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "14337df12a4ba866421222fe3e1b70befafb302f3060c4b9cbe178593847b74e"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "attempt to heat it using the toaster"
+      ],
+      "index": 177,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "8891cc0a59b57a523cff8cb5e03ac9eecb9da1d69394d8f70826d93e09436d42"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "place it in microwave, close microwave, heat it"
+      ],
+      "index": 178,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "f3668de7430db4d598c1437a136899a7dd38f6f1c939520fd799bd848dc63286"
+    },
+    {
+      "category": "B",
+      "evidence": [
+        "tomato was placed inside, the microwave was closed",
+        "keeping it in my inventory until the heating process is complete"
+      ],
+      "index": 179,
+      "reason": "同时保留目标物位于微波炉内加热和加热时保持持有的建议。",
+      "reflection_sha256": "08c1b02b65636633a925334891ba2b3c78d6cfaf8d8425e6b3bda232ed8813b2"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "systematically check all possible locations again"
+      ],
+      "index": 180,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "dbc4038e3789644c7898d067efa3fded5b8e7346ad2c38fc955e114556593e1a"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "place it in the microwave, close it, and heat it"
+      ],
+      "index": 181,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "b34ab65a0866cb70fb7c77fe946579ef4c4872553de175a51be3436a48729270"
+    },
+    {
+      "category": "C",
+      "evidence": [
+        "ensure I maintain possession of the apple throughout the process"
+      ],
+      "index": 182,
+      "reason": "明确推荐加热时持有目标物或不先放入微波炉；其他设备或任务错误不改变目标前提标签。",
+      "reflection_sha256": "f5c1f2bf4bd4860651417a0ebf22ad5354c6bc388009012d5a56212081487bd9"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "mug is actually inside the microwave before attempting to heat it"
+      ],
+      "index": 183,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "5163122a95798c081663678e90e7981960d3995f2a5de7f7ca9507416d353660"
+    },
+    {
+      "category": "B",
+      "evidence": [
+        "place it in the microwave, close it",
+        "confirm I have the egg before attempting to heat it"
+      ],
+      "index": 184,
+      "reason": "同时保留目标物位于微波炉内加热和加热时保持持有的建议。",
+      "reflection_sha256": "4697ab3d9268880b15d52d644427c612f770e2b9cf6c9742d5f029439c8b9001"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "ensuring it is properly placed and the microwave is closed"
+      ],
+      "index": 185,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "cb822555daf854a2bc1384ad83e464c2cc664c9e1a72c46ff96b7a88ad9e3610"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "place the cup inside and heat it"
+      ],
+      "index": 186,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "c4815526699f2906ed45433895eb634a7000a456f2a62ae57fefa776eea2e4f0"
+    },
+    {
+      "category": "A",
+      "evidence": [
+        "placed it in the microwave, closed it",
+        "egg is in my inventory before attempting to place it in a pan or heat it"
+      ],
+      "index": 187,
+      "reason": "目标前提涉及的对象、时序、测试或互斥建议关系不清，保留不确定。",
+      "reflection_sha256": "b6b2b6f846321b3b8cc38318424a3d3d447e37390c17ff18c9cd22279d3a769b"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "check the garbagecan before proceeding to other locations"
+      ],
+      "index": 188,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "2203b1368b9730e0f67a073dd6fa658be5747946fb505ccfe01ccc7075dbcf15"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placing it in the microwave, closing it"
+      ],
+      "index": 189,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "f263efb19d63bf25352062bb040c6f7cb562a71b68ae6420ebf4a7cd4a172127"
+    },
+    {
+      "category": "B",
+      "evidence": [
+        "placed it directly in the microwave, closed it",
+        "egg was in my inventory before attempting to heat it"
+      ],
+      "index": 190,
+      "reason": "同时保留目标物位于微波炉内加热和加热时保持持有的建议。",
+      "reflection_sha256": "1f8a5cc9971e8ef0dc04108b9af581f33cec8407b0d7754fbbb428d214f5e7a3"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "take the mug from shelf 1, then heat it with the microwave"
+      ],
+      "index": 191,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "e9b03802270196dafb519ef71ca69fb64caeef9c7e8a423ea0edc974504dbc9c"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "cup was in the microwave and then attempted to heat it"
+      ],
+      "index": 192,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "00103b0767b28ecc337a99716f3690c2067bc07f10f9ed5d3a249d897f02984c"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "potato was in the microwave, then closed it and attempted to heat it again"
+      ],
+      "index": 193,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "d47a1b75b2aab091ff6f37af8a42f85cdf637b5bf45281bf5f79fd99c7a29627"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "place the tomato on the stoveburner before attempting to heat it"
+      ],
+      "index": 194,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "70069a4c64e6f9ce0ce4031240a689e915b1399a95c6e62912215f2302add238"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "place it in microwave, close microwave, heat it"
+      ],
+      "index": 195,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "6ea448e67c83b18ca0e60791a0af2c4a7392aeaf0f682f24999da08cb615de0b"
+    },
+    {
+      "category": "C",
+      "evidence": [
+        "object is in my inventory and the heating appliance is clear before attempting to heat it"
+      ],
+      "index": 196,
+      "reason": "明确推荐加热时持有目标物或不先放入微波炉；其他设备或任务错误不改变目标前提标签。",
+      "reflection_sha256": "7c479282b9f66563dc7ad6609539886f10251baf7e6e53983389963b2c3f83b8"
+    },
+    {
+      "category": "B",
+      "evidence": [
+        "placed it in the microwave, closed it",
+        "cup is in my inventory before attempting to heat it"
+      ],
+      "index": 197,
+      "reason": "同时保留目标物位于微波炉内加热和加热时保持持有的建议。",
+      "reflection_sha256": "0244612b16b490dbaa208383800e3149caa8bfb6b759588dd3f529840e43eff8"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "heat it using the microwave before placing it on the countertop"
+      ],
+      "index": 198,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "6ddb32e40bd222737befa11f96cd1514d93266f970a96706460e711ecab5384a"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "heat it using the microwave or stoveburner"
+      ],
+      "index": 199,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "bb38faeaedb0bfa8bb52a1df1ed98a287c877ab3bb52c01fc750149969069fa2"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placed the egg directly in the microwave",
+        "closed the microwave and attempted to heat the egg directly"
+      ],
+      "index": 200,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "3cb3e0acfc08c1a79c436d299ce46c45523f146dfb94ded88a28532b4f37fd67"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "place the plate in the microwave, close it"
+      ],
+      "index": 201,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "13be816251daa7aa8350a5a24ed9a95e435a9132c03a6278698be90535f7c676"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "do not attempt to heat the cup in the microwave if it is not empty"
+      ],
+      "index": 202,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "ab437827d1f192ff8f9133777cd2e510905915a229ab3d7eda2d0fa0a9d2e2d6"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placing the mug inside, closing it"
+      ],
+      "index": 203,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "60bf0801322e8cfad9e8fff268999076f2baf88e021e8fada9ea023314304f3f"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "Once the cup was in the microwave, I should have closed it and executed the heating command"
+      ],
+      "index": 204,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "3629788f66deb198d2b219da6b3d839a25c72b5efd5f09bb692c4b50859a2c08"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "try the microwave again, ensuring it is closed and then heating it"
+      ],
+      "index": 205,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "9850bd1f654a0fe159ec6d1f980276e2e51b3422d70b85b6b900793e8a169ee3"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "place egg in microwave, close it, heat it"
+      ],
+      "index": 206,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "2be6abfe653d88bbdf16ceb9dda3093335a76bf85066ae5e6770d60071049875"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placed the egg in the microwave, closed it"
+      ],
+      "index": 207,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "25c8774e2b1379df3b91ff4d2604f5745d346bf4e220e0fa3fb86ec46b7ef083"
+    },
+    {
+      "category": "B",
+      "evidence": [
+        "placed it directly in the microwave, closed it",
+        "verify that the egg is still in my inventory before proceeding with heating"
+      ],
+      "index": 208,
+      "reason": "同时保留目标物位于微波炉内加热和加热时保持持有的建议。",
+      "reflection_sha256": "5d5f5007bdf217de2846320e787557bcf2e29dfc28535b351f87d6e9edb60489"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "place the cup inside, and use the heat function"
+      ],
+      "index": 209,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "ce5296583580f4759706c5be41233df337cd8971f9babcf37e3e4abcb10bca24"
+    },
+    {
+      "category": "A",
+      "evidence": [
+        "heating the bowl 3 inside it"
+      ],
+      "index": 210,
+      "reason": "目标前提涉及的对象、时序、测试或互斥建议关系不清，保留不确定。",
+      "reflection_sha256": "8865577fb86cfcec18cd9930921848b715a61e1005791ac3b65e593ac96ec876"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "place the tomato inside and heat it"
+      ],
+      "index": 211,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "f8610936770200d16f78b6110b858a3633ac7aff27acd3ba8c25939cebf65dd9"
+    },
+    {
+      "category": "A",
+      "evidence": [
+        "did not ensure it was in my inventory before attempting to heat it",
+        "kept it in my inventory, then placed it in the microwave, and finally heated it"
+      ],
+      "index": 212,
+      "reason": "目标前提涉及的对象、时序、测试或互斥建议关系不清，保留不确定。",
+      "reflection_sha256": "74efc2b8dae01013eb9b2980c3adb11a189051c0307859ce797a12b82cc58863"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "then placed it in the microwave, closed it"
+      ],
+      "index": 213,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "c29326c2f688988104a856c6b2baa2313d35ba5ea38d542a8d8c1611f59da657"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "place it in the microwave, close it, and heat it"
+      ],
+      "index": 214,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "86d3b073e7146221343e5c79e0d0bfb366d631691ac6a4a6faee67c9420271c7"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "ensure the cup is in the microwave, then use the microwave to heat it"
+      ],
+      "index": 215,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "cea2b7d048031646a3be828fc58d38c15ba786c6ed4bcdfa5e8f0aff0e1ee8ed"
+    },
+    {
+      "category": "B",
+      "evidence": [
+        "placed the egg inside and used the appropriate",
+        "egg is in my inventory before attempting to heat it"
+      ],
+      "index": 216,
+      "reason": "同时保留目标物位于微波炉内加热和加热时保持持有的建议。",
+      "reflection_sha256": "c122aa559c452f63da840511276bf5b3b53f1b6e91c2477e5466dbcc4040c5ce"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "place it in the microwave, heat it"
+      ],
+      "index": 217,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "54b3c4aa8103362fade3c151b622d2ccc060b575030dda35a19d3656fb9731dc"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "do not attempt to heat the cup without placing it in the heating appliance first"
+      ],
+      "index": 218,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "04576184d4fdc61f0b399514c1a467bd3e80812ad848b40c1f1f7e3a97877c57"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placed it in the microwave, removed any existing items",
+        "then heated the cup"
+      ],
+      "index": 219,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "7659ed7fe329378d88497e0f1250faf43c5027a9405667b4a5755fcea9151878"
+    },
+    {
+      "category": "C",
+      "evidence": [
+        "If the egg is in the microwave, I should have tried to take it out first",
+        "check if the egg is in my inventory, then proceed to heat it"
+      ],
+      "index": 220,
+      "reason": "明确推荐加热时持有目标物或不先放入微波炉；其他设备或任务错误不改变目标前提标签。",
+      "reflection_sha256": "af4c01438c6e83bc79a1eef7b6cddb5dfd0fd2a7d34b38ace623065d78ef9a30"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "test multiple mugs and heating methods before assuming failure"
+      ],
+      "index": 221,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "0cfa5feb5dcfad3fcac5dad35de4fb11969a593d24ae15d8a3d90fa7affcbed0"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "place it in the microwave and using the"
+      ],
+      "index": 222,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "912f4e098afcb8de510109ce98643d9b5b252b842990ac9c399748c039423bc8"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "taken the mug from the sinkbasin, then used the microwave to heat it"
+      ],
+      "index": 223,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "2dc97c4a60f69ba25d067a9f490f22a0b75d014b2e90cafd677492ad74009bb1"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "check the garbagecan first"
+      ],
+      "index": 224,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "ea4a08305a8389865d0203654f1d0ed3a74902dab9d30465e1b28c7102cfcef5"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "tried using the toaster or stoveburner first"
+      ],
+      "index": 225,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "706890483dd75caae2b5bfcad7e4a5e1cbfc612865ac2e603c138298148bd4d1"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "alternative method, such as the stoveburner"
+      ],
+      "index": 226,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "55cf7aa400356cbb309888d3e2f66e46cc75caae57c60587729e5667a6c9f19f"
+    },
+    {
+      "category": "B",
+      "evidence": [
+        "then placed it in the microwave, closed it",
+        "verify the egg's presence in my inventory before attempting any heating method"
+      ],
+      "index": 227,
+      "reason": "同时保留目标物位于微波炉内加热和加热时保持持有的建议。",
+      "reflection_sha256": "0833ad22437fd9581a16b84f7d2131d52b28b8621011e6d33374798f95f05c41"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "then placed it in the microwave, removed any obstructing items, and heated it"
+      ],
+      "index": 228,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "716c6507119c8c67edc532b4fb95da22e0321d97d7557fc3ec34e1ac2bca70c6"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placed the cup inside the microwave, then turned it on to heat it"
+      ],
+      "index": 229,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "3a93e15f05b006bf9b65b48b747c412140890439776b7cdd58dd3a86622192b4"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "then place it in the microwave, close the microwave"
+      ],
+      "index": 230,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "180fc5f0968b1b8c9b9b7797b52da44f2be235ece02e500ea0a78aad0529f6ff"
+    },
+    {
+      "category": "B",
+      "evidence": [
+        "place it in the microwave, close it, and heat it",
+        "potato was in my inventory before attempting to heat it"
+      ],
+      "index": 231,
+      "reason": "同时保留目标物位于微波炉内加热和加热时保持持有的建议。",
+      "reflection_sha256": "1bf9493ad80d1b623c67c4c5c329716c6e91bd9b732eb72caf20edc915b4f91b"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placed the mug inside, then turned on the microwave to heat it"
+      ],
+      "index": 232,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "566ccaf07f1d32b6959553c199ff80ee371530d20a2dc7fef9f13ec4e45f3d5c"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "then placed it in the microwave, closed it"
+      ],
+      "index": 233,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "9897b3b1cee31a70c0f478d185f523fb47fbdf69f6dfc5f2bf6a0b1716085caf"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "After placing the plate inside the microwave, I should have turned it on"
+      ],
+      "index": 234,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "e78f6b081a2e65563396c302dcf9844144adf72721b878071ebc3b02be43823d"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "first heat the mug, then check its state"
+      ],
+      "index": 235,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "c7a34b6447470faa30001007e995310ecc74f156f44fbdcb4c3005b3a1f5eda9"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "heat it in the microwave, then put it in the garbagecan"
+      ],
+      "index": 236,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "bcb0a183c8ced2be38e8aa8c1f02402688273d93d610b305d41acffa72213f97"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "cup was in the microwave, then attempted to heat it"
+      ],
+      "index": 237,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "22c3f56f5bab186588fd496b6870eff1748bbff882571da10b12b0c20b0f80a1"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placed the cup in the microwave, closed it"
+      ],
+      "index": 238,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "7edef92705ee0f3d5d73123193a8c089a2a54b64de6785254c2b2c75d605ecd8"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placed the egg in the microwave, closed it"
+      ],
+      "index": 239,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "a52f03e4ceacf4b2e50aa6699e95c760d83cfa730d943eb9db7b238699483077"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placed the cup in the microwave, used the"
+      ],
+      "index": 240,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "ab09dc5082e3f2c70dc851af2ae045262080f2ad14dddb5bd2f614e54cabc867"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placed the plate in the microwave and then used the"
+      ],
+      "index": 241,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "f11418e96278f1999f0cf0271198411e569359ace4fff75b6be14f22e0d7a8ec"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "then placed it in the microwave, closed the microwave"
+      ],
+      "index": 242,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "e86ba756aa6464084e7df029bb2ad6972e38031c589232adfa0e9f4ce16bd3af"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "check each location more thoroughly"
+      ],
+      "index": 243,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "518ad1dc88cc764a4c39c4508b1fd3ced53b434d5822c220219384a9dab13549"
+    },
+    {
+      "category": "C",
+      "evidence": [
+        "ensuring it was in my inventory before attempting to heat it"
+      ],
+      "index": 244,
+      "reason": "明确推荐加热时持有目标物或不先放入微波炉；其他设备或任务错误不改变目标前提标签。",
+      "reflection_sha256": "405412cdf5f6d04fa73051f1c54a2e4cb86696ed4c1c8de39e3865a60d79e3cc"
+    },
+    {
+      "category": "A",
+      "evidence": [
+        "heat the cup already inside it"
+      ],
+      "index": 245,
+      "reason": "目标前提涉及的对象、时序、测试或互斥建议关系不清，保留不确定。",
+      "reflection_sha256": "00dbae79533a65808cb6eedfeb98307e074be9fd78b3a3b5d7ce8285a0f4790c"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "checked the garbagecan or used the microwave directly if the apple was not found"
+      ],
+      "index": 246,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "7c6a29d2611f49d87465e6f8512119063029d898358eb356e6b17578975bddd2"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placed the tomato inside, and then heated it"
+      ],
+      "index": 247,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "d18d25c300ea4bef3740ad2ac888dbd17c5faf0426719746810871d961829217"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "check if cabinet 1 is open"
+      ],
+      "index": 248,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "ae13d40f03d0736326255f2e696300a138cfbafd585bd81f81f133754d7db4f7"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "ensuring the cup is inside, and then attempt to heat it"
+      ],
+      "index": 249,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "48fe7774a393b56c10c9bc4caf12b1f3c41c93b4cea09cb4c216f918739fa3ee"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placed the cup in the microwave, closed it"
+      ],
+      "index": 250,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "000153b57f612c7ff5deb9ba69253abaa4578f7a0061e059de991e2fbad73a31"
+    },
+    {
+      "category": "C",
+      "evidence": [
+        "Instead of putting the egg in the microwave, I should have directly heated it"
+      ],
+      "index": 251,
+      "reason": "明确推荐加热时持有目标物或不先放入微波炉；其他设备或任务错误不改变目标前提标签。",
+      "reflection_sha256": "ddcfa79708ac6597d32af42bc77a77741ca5e617555e186943d63064c0eedb46"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "heating the tomato using the stoveburner, ensuring it is hot"
+      ],
+      "index": 252,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "4faae0a3af57621eea53a11f8f621bd7b10c7d12834c0809df8195b24217dc6b"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placing the egg inside and heating it"
+      ],
+      "index": 253,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "46b27d9c6ae7ac63aafe326998319e8882e352a7c7f5b2ea8e0706ddae237bec"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "then placed it in the microwave, closed it"
+      ],
+      "index": 254,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "df73abf7460e9d23a7664055109face8fda5d73b74ea6bbf1fd15509fee6ea4c"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "take it, heat it in the microwave"
+      ],
+      "index": 255,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "02cf720d6bb6d32b228e5d2a224840971fbb80b4d518ef8c62a50a44521e0b4a"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "checked if the microwave was empty before attempting to heat the egg"
+      ],
+      "index": 256,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "5117b2e3cd3ac8d7f9b6a150b6a5ff16a1103daf0cc8f7e6c679a067820e1c86"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placed the egg in the microwave, closed it"
+      ],
+      "index": 257,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "b09771e7235114baa8f03780c0e9db1685ef18ab7b8555ad012ca297817c6e87"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "place the plate inside, and attempt to heat it"
+      ],
+      "index": 258,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "8b707301e25e954c177c8f1fba5f8c30b1978af88c999b9a12b6f0b76c3d05a7"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "place the mug inside, and use the heat function"
+      ],
+      "index": 259,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "54a0dea8ebf28416d3a2d5ed7686e94d7d7e75f3cfc8e826d908dbd0955fb86f"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placed the mug in the microwave before attempting to heat it"
+      ],
+      "index": 260,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "7e4842f87b4062230f759ccb3049ec82dd299c4086f888ef373f0a4e3d3fce12"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "ensuring the cup is inside, and then attempt to heat it"
+      ],
+      "index": 261,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "d1b16896f52349e5e2bc7391512867661d792f4a867d1b1ca00d03d3ef82d475"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "put it in microwave, close microwave, heat"
+      ],
+      "index": 262,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "5da6177166ab83a1e439f6418615e66c6949ea0e157a713252b990c49e622b7c"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "locate and take the mug, then attempt to heat it in the microwave"
+      ],
+      "index": 263,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "956cdc81b855b1b1644fdc94675844d93562e294c303b8df4b934e701ad822f3"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placing the egg inside, and then heat it"
+      ],
+      "index": 264,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "7d27ba36a28c594bc6919f6fe85e7181f8477153d81f8200569e104356918506"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "checked if the egg could be heated in the microwave by attempting to heat it there"
+      ],
+      "index": 265,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "c0a8081266a5996eb44053b9d1bd6884bd5669d7eec143774996a877f9728c23"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "take it, heat it in the microwave"
+      ],
+      "index": 266,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "afab62c2f75d8ac5c1b0673c5cdd78761f4b4f9df1dfd4ccaec39a51636ea116"
+    },
+    {
+      "category": "B",
+      "evidence": [
+        "then placed it in the microwave, closed it",
+        "egg was in my inventory before attempting to heat it"
+      ],
+      "index": 267,
+      "reason": "同时保留目标物位于微波炉内加热和加热时保持持有的建议。",
+      "reflection_sha256": "461703b34eba0e27d3e2c66b86488e8e238b222f5eb10c0005e817894ecde713"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "avoid using the microwave for heating the mug"
+      ],
+      "index": 268,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "96c67a48f3ffac3614acd5ff3137a0e702185f843654d86c55ae48078d3b8468"
+    },
+    {
+      "category": "C",
+      "evidence": [
+        "mug was in my inventory before attempting to heat it"
+      ],
+      "index": 269,
+      "reason": "明确推荐加热时持有目标物或不先放入微波炉；其他设备或任务错误不改变目标前提标签。",
+      "reflection_sha256": "1d02063ddf6c3ffc2052e705a86ec517d9257f375350f5bba3da5ab290fa015d"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "place the cup inside and heat it"
+      ],
+      "index": 270,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "4688fdf7349e00c2ecf265ea13e6f99fc7550a3b66862864272552a70ad00fbb"
+    },
+    {
+      "category": "A",
+      "evidence": [
+        "heat an item already inside it, such as the egg or potato"
+      ],
+      "index": 271,
+      "reason": "目标前提涉及的对象、时序、测试或互斥建议关系不清，保留不确定。",
+      "reflection_sha256": "92a7591761b1f280f69ff31a8c08e1addf4e3bd9b2df69c69bab1bc2568d7271"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placed it directly on the stoveburner or microwave, and then used the appropriate heating command"
+      ],
+      "index": 272,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "6f664df507fceec58f15859da45b95e707494065580cfcc1fca1c05988ac9abf"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "place the cup inside, heat it"
+      ],
+      "index": 273,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "b04726d57bb099c787de6a6ec10f84fbc66e2d1a8811f60db36a81d0483f3c17"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placed the cup in the microwave, used the"
+      ],
+      "index": 274,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "12d285d1fe35f124a19e9dfc61039c7b6f33d85a32e92d19b110484ce785abe2"
+    },
+    {
+      "category": "C",
+      "evidence": [
+        "ensure I am holding the cup before attempting to heat it"
+      ],
+      "index": 275,
+      "reason": "明确推荐加热时持有目标物或不先放入微波炉；其他设备或任务错误不改变目标前提标签。",
+      "reflection_sha256": "b211b6dab85977366d4dc0b3a7b96ce614692dcfbde351823be0cef8e6391651"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "heat it in the microwave and place it in the fridge"
+      ],
+      "index": 276,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "db1d63695927648d81b8784855c5cd67b4745e0e6d5399b34d2ed07164aae96f"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "put it in microwave, close microwave, heat"
+      ],
+      "index": 277,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "ab1e7f606f6e438e1f628115209a32acacb10ab1bb693360b13ec1ded11016e5"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placed the tomato in the microwave, closed it"
+      ],
+      "index": 278,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "79f46c4e4e546636a566a561fe3f953a556111f1cffbc6c33f1ea4e11ae0f049"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "before placing the tomato inside and using the correct command to heat it"
+      ],
+      "index": 279,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "963d7c21e8436a1958f419d43cc6631b0b513f068109ef3e53fb878686c1b657"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "place the potato on a free surface like the countertop or diningtable and wait for it to warm up"
+      ],
+      "index": 280,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "f227b95c71491b6c61fd8dff5e7a7c9c7f0659eea9fd867794ed20a8f1ed06ff"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "Then, I should have placed it in the microwave, closed it"
+      ],
+      "index": 281,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "fe1cf62fd7dc4b76a5dc1fdf30d72fa6ff6deb399acda90110c2dada854bf2f1"
+    },
+    {
+      "category": "B",
+      "evidence": [
+        "then placed it in the microwave, closed it",
+        "ensure the cup is in my inventory before attempting to heat it"
+      ],
+      "index": 282,
+      "reason": "同时保留目标物位于微波炉内加热和加热时保持持有的建议。",
+      "reflection_sha256": "571a449fdc655997403cce644146873db9cec31d44a3b3c5a831a9e8e4ecf1f4"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placed the cup in the microwave, used the"
+      ],
+      "index": 283,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "c4a74539c0275ad808f47717051cc5d02437aa58329762f8085827dad1693644"
+    },
+    {
+      "category": "B",
+      "evidence": [
+        "then placed it in the microwave, closed it",
+        "egg was in my inventory before attempting to heat it"
+      ],
+      "index": 284,
+      "reason": "同时保留目标物位于微波炉内加热和加热时保持持有的建议。",
+      "reflection_sha256": "006c77ad7565dbf244bb471d8e2703626692e5a85a2fa52e0c568e9b1177aebf"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "thoroughly check all possible locations"
+      ],
+      "index": 285,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "21e95ff4aa3af57fc2140f602071a50d81b524cf2f5d4295eda844618d142216"
+    },
+    {
+      "category": "B",
+      "evidence": [
+        "egg was in my inventory before attempting to heat it",
+        "properly placed inside and the microwave was closed"
+      ],
+      "index": 286,
+      "reason": "同时保留目标物位于微波炉内加热和加热时保持持有的建议。",
+      "reflection_sha256": "56b3690f24ace54f1f54048f52c4516fd45ab2d582281d5e6d1c649f07aee463"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placed it directly in the microwave without using a bowl, closed the microwave"
+      ],
+      "index": 287,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "33b468d03260d26269222f9b960b8b8574c24b4832e62da6d39b3b564be45bb0"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "before placing the tomato inside and attempting to heat it"
+      ],
+      "index": 288,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "e4180287caa81af256615400adb0bb6dad6cffade64c7d18feede938036dad76"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "place the plate in the microwave, close it, and then use the heat function"
+      ],
+      "index": 289,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "c3d908b116a859e3968c030c0b3163d212a07cad507f8c3c236e8071afe62cbb"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "verify the state of the mug and ensure the task is acknowledged"
+      ],
+      "index": 290,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "c645cb1742747388285d47bb0c14b8f9a9660c26c6359d0b3de2995b499fbeab"
+    },
+    {
+      "category": "A",
+      "evidence": [
+        "heating an existing item in the microwave",
+        "do not place the mug in a non-empty microwave without removing the existing items first"
+      ],
+      "index": 291,
+      "reason": "目标前提涉及的对象、时序、测试或互斥建议关系不清，保留不确定。",
+      "reflection_sha256": "db69ef02fda682e9668339818e4a7ae7821ed2983cdf1c3e091aebe4ed5e4f98"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "place the egg in it, put the pan on a stoveburner"
+      ],
+      "index": 292,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "ff20acfecbd3251bc6ddfaeffe8d3922b2c6ef1456bfdf63493454d7d491d76f"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "placed the cup on the stoveburner and turned it on"
+      ],
+      "index": 293,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "9ff62ded4c459ff527c459d48d74ca834209275d86a809b32b31281fcfe79b17"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "place the cup inside, heat it"
+      ],
+      "index": 294,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "1618dca33cad52fb7ff72a6934d110e4be75c76f78707153bfb5d9cb126bf60c"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "place the tomato inside and heat it"
+      ],
+      "index": 295,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "6a34b384a62439f95e9ad39c739a256056bd421f1d24888b460ee7ecfefc542a"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "then place it in the microwave, close the microwave"
+      ],
+      "index": 296,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "fc316f563ba617c54326f56fbf7ea2b8859c5cfc980f5053ac8d9f6cb0afd246"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "cup was actually placed in the microwave and closed properly before attempting to heat it"
+      ],
+      "index": 297,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "5e880d4c724a572f5391abe23eb1bb8b606eb48e99272f98f12755c576ad1c33"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "proceed to heat it in the microwave"
+      ],
+      "index": 298,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "214a566df04930216cc10f6b363335be2f5529dd834a90b13c90b95a32e0a60c"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "place the mug in the microwave or on the stoveburner before attempting to heat it"
+      ],
+      "index": 299,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "525c837c122b7aa65637292b4eb8e1b2e932e464ca9cbd17ffaacf7795ee0545"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "take the egg, heat it in the microwave"
+      ],
+      "index": 300,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "e3c3312699fd966d7000e4f86b2b5945de9143373500c23c61fbb1a45e3142fb"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placed it in the microwave, removed any existing items inside, then heated the mug"
+      ],
+      "index": 301,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "6c902d518468c351995eb7c98e8105be0d0f1d3fcee0b229838f3a90cc7fbf12"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "ensure the cup is heated using the microwave, then place it in a cabinet"
+      ],
+      "index": 302,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "3f58186c9d283cb13b3a5efd6d249389467d735f33a9227ae6dea3b21c440344"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placed the egg in the microwave, closed it"
+      ],
+      "index": 303,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "6962ad8e635627eb97b70f2fc4d80a7ee084c6b8c41321339717b6ca9eb3576b"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "ensuring the cup is in the microwave and the microwave is closed"
+      ],
+      "index": 304,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "a3a46e36113a40641f361f79b3d6e8220a4809b35fdd4aaf451db67c79256e24"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "place the egg inside, close it, heat it"
+      ],
+      "index": 305,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "157b46948910c14d88bda0904c323d64d94e447061a6eec4703b54df8569e2d1"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placed the tomato in the microwave, and heated it"
+      ],
+      "index": 306,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "4627b54b307861349c3f3853ded59925e10d8a91b00e42b63603b85d2799672f"
+    },
+    {
+      "category": "U",
+      "evidence": [
+        "take it, heat it in the microwave"
+      ],
+      "index": 307,
+      "reason": "未明确推荐所追踪的目标放入／持有前提；搜索、跳过加热等其他错误不代表整体正确。",
+      "reflection_sha256": "dc80adc0f8e4c633803c69844d0f5f21f28123c031c05ac7f56231c3275370d0"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placed the cup in the microwave, closed it"
+      ],
+      "index": 308,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "7fc90a1ff60b80da5034eb9c4faaaa77d328cf4c784a63acc3ae7b30ad70626a"
+    },
+    {
+      "category": "A",
+      "evidence": [
+        "heat an item already inside it, such as the cup"
+      ],
+      "index": 309,
+      "reason": "目标前提涉及的对象、时序、测试或互斥建议关系不清，保留不确定。",
+      "reflection_sha256": "4b4824e28508d6073d5f1e5ef67d9129b158677e27b224c1ca99fe2de1090c1a"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "egg was in the microwave, then used the correct command"
+      ],
+      "index": 310,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "e56128612703a2128bf0e179f8532cc18727e598e36e711dee45a49b01257594"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "then placed the mug inside, and then heated it"
+      ],
+      "index": 311,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "b715d75726b7f996042456e99fbe8be9cdf3889ee357f80f6bb368a1e5811fea"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "put it in microwave, close microwave, heat"
+      ],
+      "index": 312,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "1bf548a67364dd8a33db7d21c66585ebdc51fc0c161a517c09f38e4c668b1db8"
+    },
+    {
+      "category": "E",
+      "evidence": [
+        "placed the mug inside the microwave before attempting to heat it"
+      ],
+      "index": 313,
+      "reason": "明确推荐目标物放入或位于微波炉内后加热；放入前持有检查不作正确加热条件。",
+      "reflection_sha256": "0a395894e818f2ae336a453963d8e3e7aaed94b00e983c584a5acad61e71e0a5"
+    }
+  ],
+  "human_second_review": false,
+  "independent_blinded_annotation": false,
+  "interpretation_rules": [
+    "Ordinary heat-in-microwave wording alone does not assert put-before-heat.",
+    "A prior pickup followed by an explicit put/close/heat sequence is E, not automatically B.",
+    "B requires an additional heating-time inventory recommendation; ambiguous timing remains A.",
+    "Other appliance errors and skipping required heating do not make U globally correct.",
+    "Testing an already enclosed different object without a clear target prerequisite is A.",
+    "Rejected historical errors are not endorsed recommendations."
+  ],
+  "manifest_sha256": "31ea84e4c0c1baca2e03a1b61e530137febc27b422fe0d84b2f200ce322df926",
+  "new_model_calls": 0,
+  "reading_file_sha256": "024933e4b8df190d8e0f9bd1940f931da622f40e65db9014f3ac64a4e8dc6653",
+  "scope": "Full-text target-prerequisite labels of314 remaining reflection texts",
+  "sha256": "865494e9c79d447ed0a5c368a9addf78acdb2e55081dc28eaeb6f92bf350155b"
+}

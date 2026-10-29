@@ -1,0 +1,605 @@
+{
+  "protocol_sha256": "5033a777f40596b9b693783a34436935779061ee5cae43229b9fc476f8c322e2",
+  "method": "Agent semantic review of full new reflections; fixed target proposition, no automatic keyword classification",
+  "definition": {
+    "E": "prescriptive prior placement inside microwave before heating",
+    "C": "explicit holding/inventory requirement at heating; inventory check followed directly by heating counts; a check only for final placement does not",
+    "U": "neither target proposition stated",
+    "A": "ambiguous or contradictory target proposition"
+  },
+  "reviewer": "Codex",
+  "human_second_review": false,
+  "entries": [
+    {
+      "sha256": "01e305651752e54868ea1445173879622e67995930d49d046638c3f92ceed4a3",
+      "label": "E",
+      "reason": "明确要求把蛋放入微波炉、关门后加热"
+    },
+    {
+      "sha256": "03c0d2e89e42bffce0eea955f90c8cec299bec6f8ad510c468b03cc454a230ad",
+      "label": "E",
+      "reason": "明确要求加热前确认蛋已在微波炉内"
+    },
+    {
+      "sha256": "0420e4bb7b54ba62b3f34b98b5a3fdcb108d66eb451e8f3e6f87e9228d546e3a",
+      "label": "E",
+      "reason": "装水建议之外，明确要求把杯子放入微波炉再加热"
+    },
+    {
+      "sha256": "05efd14707936e655be134490c7b0a1f18cd1195ab9fd50fdc2313c90e806300",
+      "label": "E",
+      "reason": "明确要求先把蛋放入微波炉再加热"
+    },
+    {
+      "sha256": "07f0b1e341ff379536d5527a30ff6b4c09e26d5bc8a5b71d248988c13e742ad4",
+      "label": "E",
+      "reason": "明确要求清空设备后将马克杯放入微波炉再加热"
+    },
+    {
+      "sha256": "0ea03ec647922dc4f3dc3b6cbf2ee6707cdf9052eee2fa391bbedb0287dede6d",
+      "label": "E",
+      "reason": "明确要求将杯子放入微波炉、关门后加热"
+    },
+    {
+      "sha256": "0f944202a88543735acbf92d1a36378e88ecaca64dd5b42bd069cf4ffd5c2f7c",
+      "label": "U",
+      "reason": "讨论加热功能、替代设备及最终放置，没有明确目标前提"
+    },
+    {
+      "sha256": "1134266857475fdc5b1b912a0ae1c1c4aee49be2491977ae98d6234f186aaaa2",
+      "label": "E",
+      "reason": "明确建议从 countertop 3 取蛋后放入微波炉再加热"
+    },
+    {
+      "sha256": "1437fb01b6f574a4cdcd0642277f30289e84d09cb3be09039b1b26a2ddde2955",
+      "label": "E",
+      "reason": "两次明确建议将马克杯先放入微波炉再加热"
+    },
+    {
+      "sha256": "1477e16913795538a6a8e236167cf7f1a7d1b562a95927ccac7a5744a7afdc42",
+      "label": "U",
+      "reason": "讨论设备功能与替代方法，没有明确目标物先放入微波炉的前提"
+    },
+    {
+      "sha256": "157d97fd1e16dc4bb51f591512d3a29b726511c9b4e05e17cc7820c1216f32fe",
+      "label": "U",
+      "reason": "建议找带内容物的马克杯并使用炉灶，没有明确微波炉内放置前提"
+    },
+    {
+      "sha256": "15bdd1776d1e16a9f1d7c997626ee02c7fb9ce75843028f6ee1e9977146906fc",
+      "label": "E",
+      "reason": "明确要求先把蛋放入微波炉再加热"
+    },
+    {
+      "sha256": "17eb9d9d99eaf2bf473524ba7f80a4502bfe3001804665a72184956ec5895411",
+      "label": "E",
+      "reason": "建议先把杯子放进微波炉再关闭并加热"
+    },
+    {
+      "sha256": "196ef622e2503aa9152767ccce871f037ff16c5e3e0d9796ab3c333684e6373d",
+      "label": "U",
+      "reason": "把合法命令改为错误语法变体，没有明确物理放置前提"
+    },
+    {
+      "sha256": "1cf928b39ed500e492d557769cbd1d3640820f3a261256a20f414dba46594ec3",
+      "label": "E",
+      "reason": "保留 countertop 3 位置线索并明确要求先放入微波炉再加热"
+    },
+    {
+      "sha256": "20c03ae91d47e0e42dda974e0835dcbbde73b022e16adc146f64ffb4f5dd183b",
+      "label": "E",
+      "reason": "明确要求把蛋放入微波炉、关门后使用加热命令"
+    },
+    {
+      "sha256": "21939aa6f0798a55aba4698399b07d9341c1a1330fb800d8e3dd09ff3094bbb4",
+      "label": "E",
+      "reason": "明确要求加热前先确认蛋已放在微波炉内"
+    },
+    {
+      "sha256": "22c667a8d8694631a3e64da522e814945e82bb471e2f8d22f4933d554a7006be",
+      "label": "E",
+      "reason": "明确要求将杯子放入微波炉、关门后加热"
+    },
+    {
+      "sha256": "24f1d5e56cf358403e5953127ec5e016f84dfc4b5c39966bc1b49705ab5aa2f2",
+      "label": "U",
+      "reason": "建议测试设备并改用炉灶，没有明确目标物先放入微波炉的前提"
+    },
+    {
+      "sha256": "25f2d93e6c154c25f9408e5698c124b545070fe7f7bc1cd67db3129885520a88",
+      "label": "C",
+      "reason": "明确要求尝试加热前检查杯子已在库存中；其他跳过加热建议另行解释"
+    },
+    {
+      "sha256": "25f81e50e9a62047ef982a55005481dc38443e1bc67e9ad58272c05f7d64b981",
+      "label": "U",
+      "reason": "建议不加热而直接完成最终放置，没有明确目标前提"
+    },
+    {
+      "sha256": "265c03be45cbf42fbdcc2fbc22333c3fd584b6176d1b0ce3780b6d8682202aa9",
+      "label": "E",
+      "reason": "明确要求将杯子放入微波炉、关门后加热"
+    },
+    {
+      "sha256": "27721599ea9072b22108f24ccb37bb0628d5c432cd3c106d1fef102666df8466",
+      "label": "A",
+      "reason": "正确放置表述未明确位置，同时建议取出后重试加热，目标前提含糊"
+    },
+    {
+      "sha256": "2b2596682cc23d82af4032c2ef2bd6c04ee5f3dd70fbe9e1328fd5c40c7c72ed",
+      "label": "E",
+      "reason": "明确建议先将杯子放入微波炉再加热"
+    },
+    {
+      "sha256": "2eb4a233d6072d453c8f6b454c3c9351baf29e5ec2e4500889f770fe3796f847",
+      "label": "E",
+      "reason": "明确建议先将马克杯放入微波炉再加热"
+    },
+    {
+      "sha256": "2ff8932cf3839e81b44874241f74f5c22f9ff829ec6bb63290e4a086e4d66491",
+      "label": "E",
+      "reason": "明确要求加热前先把蛋放在微波炉内"
+    },
+    {
+      "sha256": "305dd6a58b588623e421615e2045095f89fcc0cbaf5c6404141fd7ad59d0360e",
+      "label": "E",
+      "reason": "明确建议先将马克杯放入微波炉再加热"
+    },
+    {
+      "sha256": "35fe64f3b14a04b7ee999710e0f3fba1d894a6b6e6be5a83bdfca4a45eb0208e",
+      "label": "E",
+      "reason": "明确建议先将马克杯放入微波炉再加热"
+    },
+    {
+      "sha256": "372c1f6160518f3527fa043765b337c4ceda94ff3dd22fca9155251d48507fdd",
+      "label": "E",
+      "reason": "明确要求把蛋放入微波炉、关门后执行加热"
+    },
+    {
+      "sha256": "3c12b6ca1efc3ac198a4d4a959528721e2893f015172d38b8df22885ff1a7e83",
+      "label": "U",
+      "reason": "建议在炉灶上放置并开启，没有明确微波炉内放置前提"
+    },
+    {
+      "sha256": "3c7869e56d76823c9a56e78a720fe5d9977031ff6bcad1f78af6bbbe44e2000b",
+      "label": "E",
+      "reason": "明确要求先把马克杯放入微波炉、关门再加热"
+    },
+    {
+      "sha256": "3d04a4b83c8d82adeec10f008a80310e377ed7344614f8d9912ede3dd6397ec8",
+      "label": "E",
+      "reason": "明确要求先将蛋放在加热设备内，包括微波炉"
+    },
+    {
+      "sha256": "3ee3d94b5cba496e3a900e17f7a048f75ae41d09271a0a9593b0b77b3824c581",
+      "label": "U",
+      "reason": "建议寻找带内容物的马克杯并使用炉灶，没有明确目标前提"
+    },
+    {
+      "sha256": "42dddec84a9fa657a7b0a3d6a131d8d97a5cebe69cbdb44437b17e370ea3f9e7",
+      "label": "E",
+      "reason": "备用方案明确要求将马克杯放入微波炉后使用加热功能"
+    },
+    {
+      "sha256": "46bab2782e7fd06a5508f3b7238d28b8ccf7f6921ff29aaba7b37921bc8b2038",
+      "label": "C",
+      "reason": "明确建议加热时仍将马克杯保留在库存中"
+    },
+    {
+      "sha256": "46fbbdc3e45815782b9c1c268b32bafc4ed4458fc6f60ac28903fcb086d2f564",
+      "label": "E",
+      "reason": "将加热失败归因于没有放入微波炉并建议先放入"
+    },
+    {
+      "sha256": "4ba81ba69caa829b59ff7393d8a1f860a52bbb7cce47fe71a6183b43f174e839",
+      "label": "E",
+      "reason": "明确要求先把马克杯放入微波炉再加热并取出"
+    },
+    {
+      "sha256": "4e65ece2f8e790b2333223e07479d75557c7c34b0cdb39271e39d9928e6136b9",
+      "label": "C",
+      "reason": "明确要求加热前确认蛋仍在库存中，未提出中间放置步骤"
+    },
+    {
+      "sha256": "54486ae499268caa8c7f48f89274f7c2d0f9f8a291f31fb714b55e4f3a259f32",
+      "label": "E",
+      "reason": "给出的下一轮方案要求先放入微波炉、关门再加热"
+    },
+    {
+      "sha256": "59c9d356cff0867f1e6e3812576635a5c56fdb3659561189d067c2c98dcfbc88",
+      "label": "U",
+      "reason": "讨论替代加热和最终容器兼容性，没有明确目标前提"
+    },
+    {
+      "sha256": "5a493ef1820d88bdd86dc4caba4faedb5537a54fcf4c20ef732f57d891b7310d",
+      "label": "E",
+      "reason": "明确建议先确保蛋已放在微波炉内再执行加热"
+    },
+    {
+      "sha256": "5acd9c589c24e55d162763f7d56b4077436b52b4b7dd5f65b99bcea2592501cd",
+      "label": "E",
+      "reason": "明确要求先把马克杯放入微波炉再加热"
+    },
+    {
+      "sha256": "5d4b437e77780d2db72c795927363f18cd42fb67a1a4ce9913d41df7a05b16a7",
+      "label": "E",
+      "reason": "保留 countertop 2 位置线索并要求先把杯子放入微波炉再加热"
+    },
+    {
+      "sha256": "5eb1fc785293cb2222fd5b0de4ff9cdd4bdc69d82c9403c7d099fe371c47b03d",
+      "label": "E",
+      "reason": "先检查持有物，再明确要求把蛋放入微波炉后加热"
+    },
+    {
+      "sha256": "5f4c92dd7b63b00c6f1d68b24050c51d1f4a3420abea7f5870604ea038b14423",
+      "label": "E",
+      "reason": "明确要求加热前确认蛋已在微波炉内"
+    },
+    {
+      "sha256": "6041a44b7473d06a420b335e3989e1ae03a56bef597d7dbcf9019e64c59f4fa1",
+      "label": "E",
+      "reason": "明确要求先把蛋放入微波炉、关门再执行加热"
+    },
+    {
+      "sha256": "626befea132248a15391656ac075dc4e422bce7007bdc3cac7edfa2944c60ef0",
+      "label": "E",
+      "reason": "先检查持有物，再明确要求将蛋放入微波炉、关门后加热"
+    },
+    {
+      "sha256": "685841f00f5fff18961962f72b2ebae335ea4c66f75ed9437420fc473edfcfe9",
+      "label": "E",
+      "reason": "明确建议把蛋放入微波炉后执行加热命令"
+    },
+    {
+      "sha256": "6ae2a19047690c55f9cdeeaae072a4da9855dfa82ff45b92951d93f1398c70be",
+      "label": "E",
+      "reason": "明确建议把杯子放入微波炉、关门后执行加热"
+    },
+    {
+      "sha256": "706a303270d860a0506fc33033b9c97ed490df1682cfd906ac414d23709479c7",
+      "label": "E",
+      "reason": "明确建议从 countertop 3 取蛋后放入微波炉再加热"
+    },
+    {
+      "sha256": "72cfed2533adf7a7864941abcd703274a2b73246a9e9aad1ad341ad0cc4a17b5",
+      "label": "E",
+      "reason": "明确建议把杯子放入微波炉、关门后执行加热"
+    },
+    {
+      "sha256": "780bbfd0014001a8b1016e736c4737cff26a9b9a2cb09d67bf0027ea1462183f",
+      "label": "E",
+      "reason": "建议先找到微波炉或炉灶、把马克杯放入，再执行加热"
+    },
+    {
+      "sha256": "78e9c91f6433e2858bcf1ff8e1f48a59dc1d9c891288ec10bf74d8c75171c2ba",
+      "label": "E",
+      "reason": "明确要求先把蛋放入微波炉、关门后再加热"
+    },
+    {
+      "sha256": "7916a898f07893521af0c9c50e54d11863b8138ffccb02bd6e6fbef67300c8ec",
+      "label": "E",
+      "reason": "明确要求加热前先把蛋放在微波炉内"
+    },
+    {
+      "sha256": "7919e07ea6a280670fc433c7d5f29b4bf90c09fedea78df44719e9883c5ca46f",
+      "label": "E",
+      "reason": "明确要求先将蛋放入微波炉再使用加热命令"
+    },
+    {
+      "sha256": "7a1490049e17cb72e86dcfd59cbac3a7c22314b497cbb958c31e15ac19c91b59",
+      "label": "A",
+      "reason": "建议检查是否已在微波炉及确保正确放置，但加热前的具体位置要求含糊"
+    },
+    {
+      "sha256": "82cb05adc1914ec58857e17e2df81b8c126107b7e3c4b1d14fa3113cf33c2920",
+      "label": "C",
+      "reason": "明确要求加热前再次确认蛋在库存中，未提出中间放置步骤"
+    },
+    {
+      "sha256": "8437df1bf5f063932018b9d89d013ad3a06281ee2e6ef1144a664c54dfe3a87a",
+      "label": "U",
+      "reason": "质疑加热可行性并建议使用炉灶，没有明确目标前提"
+    },
+    {
+      "sha256": "8855754edc346e6dd52997c2a5e3640d6d7226dbbe8a45f416bb7f8e8d19a7f1",
+      "label": "U",
+      "reason": "保留 countertop 3 位置线索但建议使用炉灶，没有明确目标前提"
+    },
+    {
+      "sha256": "88e9e26a9ace26a07ae0ff4d2bcb7e4fc5d9195b0ef365f791478521e21f21ac",
+      "label": "E",
+      "reason": "明确要求确认蛋已在微波炉内且门已关闭再加热"
+    },
+    {
+      "sha256": "89b332a3aab273b9ccae430266c6cf67dee14818dcb6667f4772786e5754f15a",
+      "label": "A",
+      "reason": "同一反思既建议放入微波炉后加热，又要求加热前不在微波炉内，目标说明矛盾"
+    },
+    {
+      "sha256": "8a0b408577e22ce65c9f2d1793a4a5169c3372fc39e4d5c8dae8db91fcd3eee2",
+      "label": "U",
+      "reason": "要求把蛋放入杯子并使用炉灶，没有明确微波炉内放置前提"
+    },
+    {
+      "sha256": "8ca025ecf9fb6cb7a581849c3f92983a27e5192ca0af3fd02e6d3ac90024288e",
+      "label": "E",
+      "reason": "建议打开各加热设备、把蛋放入再执行加热，包括微波炉"
+    },
+    {
+      "sha256": "8cbb0202ba4e4ef6c4345bedb993c36d181866cd11d528a558ec7d6ffa7c4496",
+      "label": "E",
+      "reason": "明确要求先把杯子放入微波炉再加热"
+    },
+    {
+      "sha256": "8ee3a899517cb182196eb95c23eeb750ecf6164e9c7ffc85b19655787ddd6a18",
+      "label": "E",
+      "reason": "明确要求先把蛋放入微波炉再加热"
+    },
+    {
+      "sha256": "901b4243b001d9ee02148fd4c6cc4e2be22ff6387522d67caff4913bb3f19e12",
+      "label": "E",
+      "reason": "明确要求加热前先把蛋放在微波炉内"
+    },
+    {
+      "sha256": "92c9c3667656ec04b64361ec08352bb01f63b955a4bb52b21a23b719d95a109e",
+      "label": "E",
+      "reason": "建议确认蛋已放入微波炉并关门后再次加热"
+    },
+    {
+      "sha256": "9588c0d39764fb9f83345b6ab788e5708c989f24a9f50f917d4d927ddd650278",
+      "label": "E",
+      "reason": "明确建议先将马克杯放入微波炉再加热"
+    },
+    {
+      "sha256": "95d2bbe2e1175a29a3cd15561382d7e78746ec7ef3d705ffc39355366025d352",
+      "label": "U",
+      "reason": "建议先使用炉灶，未明确微波炉内放置前提"
+    },
+    {
+      "sha256": "975d4fc0164fbd828d5beeabec58ca93ca2a7af00eb7a3d987cbeac45399168b",
+      "label": "U",
+      "reason": "保留 countertop 3 位置线索但建议使用炉灶，没有明确目标前提"
+    },
+    {
+      "sha256": "9f2e0c18826338a646304e2eb2ae952af30b8b37b43d49f8f111aeed47a61dd7",
+      "label": "A",
+      "reason": "混合微波炉与炉灶并建议放在设备上，是否主张放入微波炉的目标前提不清楚"
+    },
+    {
+      "sha256": "a56e8b622e18d6649af96a02458351ebb49f5b0973dc28062a01c184b95d1551",
+      "label": "U",
+      "reason": "建议先用炉灶再考虑其他设备，没有明确微波炉内放置前提"
+    },
+    {
+      "sha256": "a5dc277a523acdff6b3ef1296f407739d06b56c072f8fcf47f91c0876d74e615",
+      "label": "E",
+      "reason": "明确要求加热前先把蛋放在微波炉内"
+    },
+    {
+      "sha256": "a9f391db02ec5bd498f1623a596a8d39c1ebd64115b60b3403e112b4f81af602",
+      "label": "E",
+      "reason": "明确要求先把蛋放入微波炉再加热"
+    },
+    {
+      "sha256": "ab0965232323ead1b72d8b1463077d4e8907c6eddc073dbe6d2e95dd7c97d39a",
+      "label": "U",
+      "reason": "建议用已有苹果测试设备及使用炉灶，没有明确目标物先放入微波炉的前提"
+    },
+    {
+      "sha256": "ab7d9f292ac7c687efa0466038ded3cf2f21d9b06aa418f7291d44d9ef4cedec",
+      "label": "E",
+      "reason": "明确要求加热前先把蛋放在微波炉内"
+    },
+    {
+      "sha256": "ac9642875cd6e3755698652805b12135b3b2a2ec1b6d39fbbe3b1274deff80db",
+      "label": "E",
+      "reason": "明确要求到微波炉、把蛋放入、关门后执行加热"
+    },
+    {
+      "sha256": "ad82426d94846297bee3afc9e10fd5fa67b378a158662e98abed7097f088b32f",
+      "label": "E",
+      "reason": "明确要求把杯子放入微波炉、关门后加热"
+    },
+    {
+      "sha256": "b360b51013deb21a9f576a1f1ccc5d0b506b7c0098bf1abf56d76d06d5d8ecbe",
+      "label": "E",
+      "reason": "明确建议把杯子放入微波炉、关门后加热"
+    },
+    {
+      "sha256": "b47175d874419e5f66c93dc8b16ed6fbc6d13af3c642da38d263e16840b0f052",
+      "label": "E",
+      "reason": "将失败归因于未放入微波炉并建议先放入"
+    },
+    {
+      "sha256": "b6537d923dd4c88355fd1acd96aaff0eff16aea9bdec242c59d292aad8dd88f6",
+      "label": "U",
+      "reason": "讨论最终容器与动作词，未明确加热时的目标前提"
+    },
+    {
+      "sha256": "b6d607742e9b807b1c9e3c85cbdc14da3fb24a26f13cbfdda575cf50bc3a4524",
+      "label": "E",
+      "reason": "下一轮方案明确先把杯子放入微波炉再加热"
+    },
+    {
+      "sha256": "b85603d845909eec28aebd7f0d9539172134227da0df786403c7cb40e14b00ec",
+      "label": "E",
+      "reason": "明确建议先将蛋放入微波炉、关门再加热"
+    },
+    {
+      "sha256": "bbb4fbbd175b92a41fad1520604569544fe58e1c136d854c330910f793dde126",
+      "label": "E",
+      "reason": "备用微波炉方案明确要求马克杯先在微波炉内"
+    },
+    {
+      "sha256": "bc010d31e311bdc32dcabba0fc3225e53e55bcd013a97f9374c66e0b32c813cd",
+      "label": "E",
+      "reason": "明确建议从 countertop 3 取蛋后放入微波炉再加热"
+    },
+    {
+      "sha256": "bc4d656d29c4fd5228b3f4495c17e3f8e848270b9f70b3b0ccc0a19884d26005",
+      "label": "E",
+      "reason": "明确要求先把蛋放入微波炉再开启加热"
+    },
+    {
+      "sha256": "bf08731734c27f140579b21d433c7ec60379291063b5aba7cccd5e4972f72191",
+      "label": "C",
+      "reason": "要求先确认杯子在库存中，紧接着直接执行加热，没有中间放置步骤"
+    },
+    {
+      "sha256": "c080e335263bfee778b750fa485be3d2459e03d303d979036d3f14ab35c08988",
+      "label": "U",
+      "reason": "建议改用炉灶，没有明确微波炉内放置的目标前提"
+    },
+    {
+      "sha256": "c0c5a770bf88d471e859102a666dce52f595bf9e1acda5083bebb5a058b9675d",
+      "label": "E",
+      "reason": "明确要求放入微波炉后使用加热命令"
+    },
+    {
+      "sha256": "c223a586d1e9e5673dd7466c12a0b51155bba1d74c2884ace161ad9b86d86a80",
+      "label": "U",
+      "reason": "建议使用炉灶和检查其状态，没有明确微波炉内放置前提"
+    },
+    {
+      "sha256": "c226c89e60e5264a722075f895456dd7e930fd403c18e1ad24caadb115749cc5",
+      "label": "U",
+      "reason": "讨论寻找杯子和完成任务步骤，没有明确加热时的目标前提"
+    },
+    {
+      "sha256": "c25d3915db6d65081be91155c5dcdb3c3ed4d515e5e658c1c3d4a63027468458",
+      "label": "U",
+      "reason": "给出错误命令形式和事后检查，没有明确先放入微波炉的前提"
+    },
+    {
+      "sha256": "c4a77fbcf492c0ca6ecade2c580e5c74dc55e38f519c09f38814e05eef9a2b1f",
+      "label": "E",
+      "reason": "明确要求把杯子放入微波炉、关门后加热"
+    },
+    {
+      "sha256": "c6d069ac1af8627482a3cacea65b6237fef36209fcaca12ab8f870acb4c0a868",
+      "label": "E",
+      "reason": "明确要求把蛋放入微波炉、关门后使用加热命令"
+    },
+    {
+      "sha256": "cb2e0cca3e2c6a5704f7bf58c20983bd0d2197d39923cb160f485d605af60d90",
+      "label": "E",
+      "reason": "明确要求先把马克杯放入微波炉再加热"
+    },
+    {
+      "sha256": "cc4db82425cf3a9a56ec8cc6f9c0acf61209dbd5855cc89d725b7eb11d672c6d",
+      "label": "C",
+      "reason": "明确建议加热时仍将马克杯保留在库存中"
+    },
+    {
+      "sha256": "cccdb47110001fad30a15bc3ae565b17693e16d31a42921f00cd7ef74df2accd",
+      "label": "U",
+      "reason": "建议改用炉灶并避免微波炉，没有明确目标前提"
+    },
+    {
+      "sha256": "d47fa78d4097350e70a2b85ef5e32446820c7c558c9e4b8eebaa396983c452f0",
+      "label": "E",
+      "reason": "加热方案要求先把马克杯放入微波炉，失败再改用炉灶"
+    },
+    {
+      "sha256": "d6a77c9fecd4f3f9709d75e6169f0ffd0106ac4b00ce1ad4dd8641deab9cc2ca",
+      "label": "U",
+      "reason": "讨论测试设备及使用炉灶，没有明确目标物先放入微波炉的前提"
+    },
+    {
+      "sha256": "d739935648fac578aa9e882f337201fe92373b840fa23c713848cceb21461429",
+      "label": "E",
+      "reason": "虽提到先检查库存，仍要求加热前将蛋放入微波炉"
+    },
+    {
+      "sha256": "dd5598fc2f7e13a67dc25a73d60964350039ca3b142aa7499ddf76fb24ae71eb",
+      "label": "E",
+      "reason": "明确要求先把马克杯放入微波炉再加热"
+    },
+    {
+      "sha256": "dde1eab78a6518a4a7132d318a3b706d1d3721144b4272145da39fda5db0202f",
+      "label": "C",
+      "reason": "明确要求加热前检查蛋仍在库存中"
+    },
+    {
+      "sha256": "deb37335cc44d36d82e239293082c11ee368fbb8cc2842d6d0bff464c5e24cfa",
+      "label": "E",
+      "reason": "明确要求先把蛋放入微波炉再执行加热"
+    },
+    {
+      "sha256": "e0086dc2e77dd172f1c4d07e905b97b70b4efd9ff45d537f567c87522a480733",
+      "label": "U",
+      "reason": "库存检查针对最终放置，未明确加热时的目标前提"
+    },
+    {
+      "sha256": "e1dafba0fc0ce243f0082d40eed1527ee12345650529fb773947643c1690d0c4",
+      "label": "U",
+      "reason": "库存检查后建议把蛋放在炉灶上，未明确微波炉内放置前提"
+    },
+    {
+      "sha256": "e860cc4b8a217575babd82e1d4bbc62f6a2f66c700ca1ee22fe467b1c4ee9579",
+      "label": "E",
+      "reason": "明确要求加热前先把蛋放在微波炉内"
+    },
+    {
+      "sha256": "e9910239511d0729962ea00b6f48656e20aed8d5980c7bd2c9418b193bef8c11",
+      "label": "U",
+      "reason": "建议跳过加热并直接完成最终放置，没有明确目标前提"
+    },
+    {
+      "sha256": "ec082a08fbba8049a3d2cfe5d5e431df8caf44b3f966e7bcfaccd45e39b96e99",
+      "label": "U",
+      "reason": "建议不加热直接放入最终容器，未涉及微波炉内放置前提"
+    },
+    {
+      "sha256": "ecfdc3829bc1eb6546c9650be9044f0e41a7a35319813ac82b36a9dc57a88412",
+      "label": "C",
+      "reason": "明确要求尝试加热前检查杯子已在库存中；最终放置建议不影响目标标签"
+    },
+    {
+      "sha256": "ed9e08fe31502394b50d87a894bd25e012c0a62ad37a77a9dec9a854bde994e9",
+      "label": "E",
+      "reason": "建议先把杯子放进微波炉再关闭并加热"
+    },
+    {
+      "sha256": "f1e04501ea5ac3210068e1ff26dad0e472ac452a9dddaaf0b85a04fcb5d70ba0",
+      "label": "U",
+      "reason": "建议给杯子装水后加热，未明确提出先放入微波炉的前提"
+    },
+    {
+      "sha256": "f1ee8d671341384a20e98c1dee640c7e4f294a79df58ffa2c0d024271d485aa8",
+      "label": "E",
+      "reason": "明确要求加热前确认蛋已在微波炉内"
+    },
+    {
+      "sha256": "f4f725af8b5de9594254d53e75623a7f546b24deec582591888a7b81be3a16aa",
+      "label": "E",
+      "reason": "明确要求加热前先把蛋放在微波炉内"
+    },
+    {
+      "sha256": "f5ba6dce2cb531512a06844e795076900d60f61b9be862c9d7c2c517696dfb4b",
+      "label": "U",
+      "reason": "建议直接完成最终放置并跳过加热，没有明确目标前提"
+    },
+    {
+      "sha256": "f72f04191ed656e03492a422859068e7bfdfdf27554b2e5c9366a00ad6e1b737",
+      "label": "E",
+      "reason": "明确要求加热前先确认蛋已放在微波炉内"
+    },
+    {
+      "sha256": "f7d06906efe54fb1ddcb592cd857d6cd85bf849559b9994c2da8501a05371bd7",
+      "label": "E",
+      "reason": "明确建议先确认蛋在微波炉内，再执行加热命令"
+    },
+    {
+      "sha256": "f88f5a7a2637b684a9546f93d92d2bd2373408406578c6f31b48684979bf3cdf",
+      "label": "E",
+      "reason": "明确要求先把马克杯放入微波炉再加热"
+    },
+    {
+      "sha256": "fb28e9fc4d28288982c3039864d45df1d09b9e4b1f1606ea23fde17dd50ccff9",
+      "label": "E",
+      "reason": "建议将蛋放入微波炉后使用加热命令"
+    }
+  ],
+  "sha256": "c09750233bd10c8ed9b63b01292230dd0b123710442c6ee276674091fa32ed85"
+}

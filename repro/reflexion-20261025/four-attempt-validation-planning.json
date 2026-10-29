@@ -1,0 +1,115 @@
+{
+  "equal_expected_loss_success_rate": 0.6807805975723344,
+  "estimated_model_calls": 58768.46702942847,
+  "estimated_seconds_at_previous_four_service_throughput": 20480.894294817957,
+  "manifest_sha256": "d85fadda78c36198be67469f4345c37b5507962104a2b9b5c7a374137a5c1db5",
+  "measured_previous_calls_per_attempt": 41.644285714285715,
+  "model_implied_expected_attempts": 1411.0091221776245,
+  "new_model_calls": 0,
+  "primary_forecasts": {
+    "full": 0.5643773440235833,
+    "unchanged": 0.7971838511210857
+  },
+  "proposed_limits": {
+    "additional_calls_including_checks_and_failures": 100000,
+    "seconds": 43200
+  },
+  "replicates_per_scenario": 10000,
+  "resource_estimate_scope": "Planning extrapolation; current availability and speed must be checked before launch",
+  "scenarios": [
+    {
+      "analytic_mean_loss_gain": 0.0541988697469394,
+      "assumed_conditional_task_correlation": 0.1,
+      "assumed_four_attempt_success": 0.5643773440235833,
+      "assumed_scene_correlation": 0.02,
+      "fraction_full_favored": 0.9146,
+      "fraction_unchanged_favored": 0.0,
+      "median_interval_halfwidth": 0.03243922948562862,
+      "simulated_mean_loss_gain": 0.05430156251316977
+    },
+    {
+      "analytic_mean_loss_gain": 0.0541988697469394,
+      "assumed_conditional_task_correlation": 0.25,
+      "assumed_four_attempt_success": 0.5643773440235833,
+      "assumed_scene_correlation": 0.05,
+      "fraction_full_favored": 0.7697,
+      "fraction_unchanged_favored": 0.0,
+      "median_interval_halfwidth": 0.03969280578348208,
+      "simulated_mean_loss_gain": 0.05420021264333613
+    },
+    {
+      "analytic_mean_loss_gain": 0.0541988697469394,
+      "assumed_conditional_task_correlation": 0.5,
+      "assumed_four_attempt_success": 0.5643773440235833,
+      "assumed_scene_correlation": 0.1,
+      "fraction_full_favored": 0.5839,
+      "fraction_unchanged_favored": 0.0,
+      "median_interval_halfwidth": 0.04911750136557667,
+      "simulated_mean_loss_gain": 0.05464254500682138
+    },
+    {
+      "analytic_mean_loss_gain": 0.014331846814378078,
+      "assumed_conditional_task_correlation": 0.1,
+      "assumed_four_attempt_success": 0.65,
+      "assumed_scene_correlation": 0.02,
+      "fraction_full_favored": 0.1288,
+      "fraction_unchanged_favored": 0.0038,
+      "median_interval_halfwidth": 0.031082726202973428,
+      "simulated_mean_loss_gain": 0.014173912029624907
+    },
+    {
+      "analytic_mean_loss_gain": 0.014331846814378078,
+      "assumed_conditional_task_correlation": 0.25,
+      "assumed_four_attempt_success": 0.65,
+      "assumed_scene_correlation": 0.05,
+      "fraction_full_favored": 0.0978,
+      "fraction_unchanged_favored": 0.0052,
+      "median_interval_halfwidth": 0.03804498491005117,
+      "simulated_mean_loss_gain": 0.01442162821271708
+    },
+    {
+      "analytic_mean_loss_gain": 0.014331846814378078,
+      "assumed_conditional_task_correlation": 0.5,
+      "assumed_four_attempt_success": 0.65,
+      "assumed_scene_correlation": 0.1,
+      "fraction_full_favored": 0.0706,
+      "fraction_unchanged_favored": 0.0079,
+      "median_interval_halfwidth": 0.047203764842526086,
+      "simulated_mean_loss_gain": 0.014159649038372175
+    },
+    {
+      "analytic_mean_loss_gain": -0.05419886974693946,
+      "assumed_conditional_task_correlation": 0.1,
+      "assumed_four_attempt_success": 0.7971838511210857,
+      "assumed_scene_correlation": 0.02,
+      "fraction_full_favored": 0.0,
+      "fraction_unchanged_favored": 0.9667,
+      "median_interval_halfwidth": 0.026091031678234233,
+      "simulated_mean_loss_gain": -0.05428338028634729
+    },
+    {
+      "analytic_mean_loss_gain": -0.05419886974693946,
+      "assumed_conditional_task_correlation": 0.25,
+      "assumed_four_attempt_success": 0.7971838511210857,
+      "assumed_scene_correlation": 0.05,
+      "fraction_full_favored": 0.0,
+      "fraction_unchanged_favored": 0.881,
+      "median_interval_halfwidth": 0.031853938432064945,
+      "simulated_mean_loss_gain": -0.05430723576793876
+    },
+    {
+      "analytic_mean_loss_gain": -0.05419886974693946,
+      "assumed_conditional_task_correlation": 0.5,
+      "assumed_four_attempt_success": 0.7971838511210857,
+      "assumed_scene_correlation": 0.1,
+      "fraction_full_favored": 0.0,
+      "fraction_unchanged_favored": 0.7337,
+      "median_interval_halfwidth": 0.03940428129987041,
+      "simulated_mean_loss_gain": -0.05426976397983649
+    }
+  ],
+  "scope": "Synthetic planning under assumed success rates and beta-binomial correlations, not Agent measurements or a guaranteed power claim",
+  "seed": 2026102504,
+  "sha256": "79612bc3422a5d4364de9525a33054a33d9be1d09cb8f909adaafdde177fadae",
+  "source_sha256": "8b365baafd70367f230abf0c8be15fae938f12c892fbf157029f0aeed08c5a84"
+}

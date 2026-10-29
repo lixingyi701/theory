@@ -1,0 +1,24 @@
+{
+  "created_unix": 1792770408.132038,
+  "definition": "Within each task average frozen presence predictions over planned cells, then average tasks; use this one constant for every cell in the phase",
+  "driver_sha256": "b2873fa4fb355b6fef13785f3edd6512a75a635b6f66b5bcc2863b478d70e76a",
+  "phases": {
+    "middle": {
+      "A": 0.068622555591085,
+      "C": 0.023266548761931623,
+      "E": 0.3661630025581259,
+      "S": 0.32682916263162287,
+      "U": 0.21511873045723462
+    },
+    "native": {
+      "A": 0.06886149467603782,
+      "C": 0.02347132116666793,
+      "E": 0.39202450842700237,
+      "S": 0.29974293599751195,
+      "U": 0.2158997397327799
+    }
+  },
+  "protocol_sha256": "acac63324bd9680f32d9b6ffef74e5651507cffadb506fb5558e91a27a8974e3",
+  "scope": "Supplementary input-mixture control added during collection; no response outcomes used to derive predictions; original primary comparison unchanged",
+  "sha256": "d5a1cd768d249360b004c85d2b4bb652f2c11b092f7bc1cc6c461d532e4595a8"
+}

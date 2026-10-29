@@ -1,0 +1,147 @@
+{
+  "driver_sha256": "abdd30f85582998534ca56ee4aab09379c163d802d9914586fc6b91168a96c4b",
+  "groups": {
+    "target_error_absent": {
+      "base_tasks": 3,
+      "failed_cells": 8,
+      "new_labels": {
+        "A": 1,
+        "C": 0,
+        "E": 5,
+        "U": 2
+      },
+      "rows": [
+        {
+          "new_label": "E",
+          "new_reflection_sha256": "5ab1ba6a3b36e17194e780307ab9d40ca375b903db41db2a5ba7baf18a6eee73",
+          "state": "empty",
+          "task_id": "64aa51b30cab1f98"
+        },
+        {
+          "new_label": "E",
+          "new_reflection_sha256": "4c4c352f43a3e2a4a815caa606c965cbf93121710def7023f9db6e6d93fe3b18",
+          "state": "correct_1",
+          "task_id": "64aa51b30cab1f98"
+        },
+        {
+          "new_label": "E",
+          "new_reflection_sha256": "5105f03db0febda6d82e2aee4cd212e619bedbcd9bd82bf7e9d898881140b95c",
+          "state": "correct_2",
+          "task_id": "64aa51b30cab1f98"
+        },
+        {
+          "new_label": "U",
+          "new_reflection_sha256": "f8e8ed1e877d909156c0879ddfd314d52a095bcc21ebdc2fdc14700ba045e221",
+          "state": "correct_3",
+          "task_id": "64aa51b30cab1f98"
+        },
+        {
+          "new_label": "U",
+          "new_reflection_sha256": "78b88afcf2d657c052038b87933953964a28eaa9f0624992c6cccb24112324f3",
+          "state": "correct_1",
+          "task_id": "3e3fa991ee97689e"
+        },
+        {
+          "new_label": "A",
+          "new_reflection_sha256": "3d39053e08ab60491d9afd8bbad1bdabe258bf4acbc9c73e41e7cb0353d5ce14",
+          "state": "correct_2",
+          "task_id": "3e3fa991ee97689e"
+        },
+        {
+          "new_label": "E",
+          "new_reflection_sha256": "ded3e1c789f0dcc90badc9c01d03919f890fa61ff9e02eb67a60f0de0eb0a4fa",
+          "state": "correct_3",
+          "task_id": "3e3fa991ee97689e"
+        },
+        {
+          "new_label": "E",
+          "new_reflection_sha256": "dc1d1b8ec79d403231ae8ee6b8480f1edb832fa0cf3c81f349cfd59f02819cf5",
+          "state": "empty",
+          "task_id": "05f694718d71af12"
+        }
+      ]
+    },
+    "target_error_visible": {
+      "base_tasks": 4,
+      "failed_cells": 11,
+      "new_labels": {
+        "A": 0,
+        "C": 0,
+        "E": 11,
+        "U": 0
+      },
+      "rows": [
+        {
+          "new_label": "E",
+          "new_reflection_sha256": "b9bf4b17cf13d592a454747ac72bb51244014b2b4d0034387d2a230bb0c38233",
+          "state": "error_1",
+          "task_id": "762a7487ace813d7"
+        },
+        {
+          "new_label": "E",
+          "new_reflection_sha256": "e1f62e0ae72dc9eb459b3d64857e2542124057fb55d3029b3cca6649805e7127",
+          "state": "error_3",
+          "task_id": "762a7487ace813d7"
+        },
+        {
+          "new_label": "E",
+          "new_reflection_sha256": "340e3dd598355a29fa3c48be5f86e65716dd6e2be5cefa157c19018a1a498804",
+          "state": "error_1",
+          "task_id": "64aa51b30cab1f98"
+        },
+        {
+          "new_label": "E",
+          "new_reflection_sha256": "3edd997eadb3e8745bfdd5f98e044550af25d2d4fe0800163e29d0e5ed2e72b0",
+          "state": "error_2",
+          "task_id": "64aa51b30cab1f98"
+        },
+        {
+          "new_label": "E",
+          "new_reflection_sha256": "2b52a68eb698da7451d80d4344c13f010b9b41639f6e9b639df6c161e092e42e",
+          "state": "error_3",
+          "task_id": "64aa51b30cab1f98"
+        },
+        {
+          "new_label": "E",
+          "new_reflection_sha256": "2bc6f0fd078dad7240bfb9e1ce8f9b58b899f384d20af6f4841663ca506765cf",
+          "state": "error_1",
+          "task_id": "3e3fa991ee97689e"
+        },
+        {
+          "new_label": "E",
+          "new_reflection_sha256": "1e5273d759b61995bf65010b801ee3e9c604497ca030c1096db54445acfe6355",
+          "state": "error_2",
+          "task_id": "3e3fa991ee97689e"
+        },
+        {
+          "new_label": "E",
+          "new_reflection_sha256": "503d31fde6d11f3cd88dd44db2a517fffcc535c841bdba718435febfa03e00f7",
+          "state": "error_3",
+          "task_id": "3e3fa991ee97689e"
+        },
+        {
+          "new_label": "E",
+          "new_reflection_sha256": "8bbabc85dccf0db1a5ff3ced50c76f21ce06ea8be1637c5b8cd918df146c0222",
+          "state": "error_1",
+          "task_id": "05f694718d71af12"
+        },
+        {
+          "new_label": "E",
+          "new_reflection_sha256": "40da23c0dbd078a350a3402859af37693a99e57cf2c68d80059e22f6bf7e8d8f",
+          "state": "error_2",
+          "task_id": "05f694718d71af12"
+        },
+        {
+          "new_label": "E",
+          "new_reflection_sha256": "dddd3f79ce09733cdb3901d598d3d4a11ca00c0514924fa72adfd559e808fc8a",
+          "state": "error_3",
+          "task_id": "05f694718d71af12"
+        }
+      ]
+    }
+  },
+  "review_sha256": "004edf3217afd7a651715203c262c34ec5d3d38a0ea8ed95b414faad035030cc",
+  "scope": "Reanalysis of existing failed calibration cells, not new Agent execution or a universal rate estimate",
+  "sha256": "21a0bd577d864654744726757f7f99183d79c6a57fd89c733dffe0d6a99e7317",
+  "summary_sha256": "d5b99eafd2edf985d6754c4d1970eec708a668843d57dc60e60578cf1dd0f5bd"
+}

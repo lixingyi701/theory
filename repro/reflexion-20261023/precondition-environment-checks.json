@@ -1,0 +1,27 @@
+{
+  "audits": [
+    {
+      "kind": "direct",
+      "manifest_sha256": "b87d62bd6271be9cd81791f3804f4ba0851a186c6f23b27267d4e7cf2f87d61e",
+      "passed": true,
+      "receipt_sha256": "57ccb415475a904d544acbb0e749ae7bb3995e7b53257570714ea6ab0a3a46fd",
+      "report_file_sha256": "3be083b9131515ed21e0364fdab26e7641b4a33b788cb34c75073f2ace9293b9",
+      "restore_checks": 40,
+      "tasks": 10
+    },
+    {
+      "kind": "official",
+      "manifest_sha256": "b87d62bd6271be9cd81791f3804f4ba0851a186c6f23b27267d4e7cf2f87d61e",
+      "passed": true,
+      "receipt_sha256": "2135e99591192229e775969c3022a84d71c1e79530f8dfe71a581f908798fa28",
+      "report_file_sha256": "6b874fb71a2be8ec69f3b809662a642d93335f0e57b5aff74a07fe246796aeb9",
+      "restore_checks": 40,
+      "tasks": 10
+    }
+  ],
+  "model_calls": 0,
+  "offline_full_suite_count": 31,
+  "offline_log_sha256": "8a8a5fae1ce04d552dae6e2f93e9c16f543fef433006af1946fe6633b9a37162",
+  "scope": "Sanitized real-environment receipts; no planner actions or model calls",
+  "sha256": "07e099c29e36c89f39f09dfd721ce5aa9fd800ed4e6e39dfee8930d8b85f2146"
+}

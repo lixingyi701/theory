@@ -1,0 +1,2037 @@
+{
+  "scope": "Full-text target-precondition annotation for newly generated reflections in shared calibration",
+  "protocol_sha256": "76f72365df608dbaee5d35852ba7babb82a11040b8e11dbf606278d6f3395d78",
+  "private_review_file_sha256": "68e2e2990e046f89896463352b08d9853034528474d7e20c653d2c99e19547e7",
+  "annotator": "Codex full-text reading",
+  "human_second_review": false,
+  "new_unique_reflections": 402,
+  "category_definitions": {
+    "E": "Explicit wrong target prerequisite",
+    "C": "Explicit correct target prerequisite",
+    "B": "Both target recommendations retained",
+    "U": "Neither target prerequisite explicitly stated",
+    "A": "Target prerequisite interpretation uncertain"
+  },
+  "interpretation_rules": [
+    "Ordinary heat-in-microwave wording alone does not assert put-before-heat.",
+    "A prior pickup followed by an explicit put/close/heat sequence is E, not automatically B.",
+    "B requires an additional heating-time inventory recommendation; ambiguous timing remains A.",
+    "Other appliance errors and skipping required heating do not make U globally correct.",
+    "Testing an already enclosed different object without a clear target prerequisite is A.",
+    "Rejected historical errors are not endorsed recommendations."
+  ],
+  "entries": [
+    {
+      "reflection_sha256": "008df371eaf3d779bc0d1261fae509f280ddd2a370b2da6ec17ef814da058e16",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "018fe65ad118f9fd4ce5719e0ca27ed0f7c5da36012c7d85d596d0c81079ce42",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "024e5046443d7c58c53835d618503878dcef70510c32f30630596ae377b89912",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "035cfc2c1494318a239054c86d595e29be6d737c6334499a78f46e4a8cdb0e8c",
+      "category": "A",
+      "reason": "仅建议对器内已有物品测试设备，当前目标采用哪种微波炉前提不明确。"
+    },
+    {
+      "reflection_sha256": "046ea485b9484a476f91f68387b43d6528354e5337261da0619c544e5aee4633",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "04bbb9ced7cbb294698c0ddcd9c1d1ea94255ef4b3def3915854fa7078a672f6",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "04bd792354fc8178e1bbd451be723c5417b45e9d7be0228f87206d915b6c9338",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "057ca0ee8a8b2e1763f9463412407d237454a04c81cb6f75cbbe11bc86c76273",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "06748f822a7bc22962e658405dd5060c41f8e3fd3964cdeb290c837ebf02f81f",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "0681bd57770cad0e2a00c5313a11cdfbf2c517c6dd9688161130de3f240f7dd7",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "0733cd422283a80fb198da04aff07a165021df18489bc4d1a12c31c9aae3a0c6",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "0945b974591a54757c05b60f4a38e1b7d3156b18417c0f5ea30b22b7aaa92cb1",
+      "category": "C",
+      "reason": "明确要求在发出加热操作前持有物体，或明确提出直接加热而不先放入微波炉；没有保留相反的目标建议。"
+    },
+    {
+      "reflection_sha256": "0982c4225c7894f52b0d5a9be7f28425bc2e8d0953bbfedd90b613b8b1a10384",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "0a8fcc476fa7823fa030f0ee69055824078000c57950a6a05100216a1044db9c",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "0b09c54d7562597d3e128daa463cf99240c2eafea00763e163fea71d7c82bb84",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "0d8835d41790fb6cf127221ce4e9f6a462d2a599e1760ac5c9a301e3b3efc75d",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "0e04fccbd40c3fe2933d7919bed7c310e1f257bf84ff0ea8ca486cede84bba7f",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "0e5f8255cb5cc800b8218a7da05a7e4461081a8de24f753809496dd11b46fbec",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "0f47b0b014faeacb405ac9819b4614830f2dd0409fe0910294d0bc7cd66bb449",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "104ce29187a40661fd546f82370d5edc916a52c8a5a2fe2a953eb0cf45af39bc",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "11b56cb2c7dd327976078e2bd25d2839fe1f2169217a125a897372731f852663",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "122a05d32699476a0ad06479028d05358281a57b4b1d4e33d84b530aa3d92ab6",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "1253861cec2ac04d82da6980ec9d3bdeda244a458249bc61cf3c3793356eede5",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "12dbdad737fe502155aff700ada5ac93360e1c9d02e0130b0daf227d30b1d7be",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "134b1ae01ac83d081e0c91bbccddadb3ca2649aa628667d5dea407848f23e935",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "13e9866ddb7b3dc1797dcddbb1b551ca9dc0db781808d2319063a60a25aa0d82",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "1402b369ba84c21f17db7f5b73d2b81e34105050c954d75b943ba62f1c15078f",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "144d3c2f6bf9ed7fa3f5bf3a2545c70ac63ac4070a086b6f293dda309367f095",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "15158351bb7ec0f651d7e89d1d9140574e373b30eeb89e60c80897cec98d5eb3",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "15777c3e0942728f442c6bebd336b66999a86759f98327182bfd98f8552a36b8",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "15fc1c8857cc2b4693b99807bca15b274ab58542f4a22f9ce264c5414a5563ca",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "16197621ef473424b390121ba69a587642a8715a06e5837e2037af5397642507",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "16a4eb825636013b8a4e55592e09e30cf77d9ca0edb2ac08be0a146312683474",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "1972244b640932b5b69686a272fd06f2c04d5c358becc11aec8aca52206b4412",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "1a2d10e0703f2b0308852246012f03b5f6f566182a51081ba2db08c5ac437363",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "1a42fd08319d88f605cb89afea760907bb5034dc5f72c03b9a89316c36a12f00",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "1a79a79ddbdbfc1e9f69dc5c4b5532aa33b67574d4a656467dd2992563e935c7",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "1afeba8be18cbb9cd8bc7da8228c7429ced530b76535ed2c4fb9968592f8a9ee",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "1b158cc605aa086a53ed267221a288889a25fec6870c6416ef3ff8d2e877b729",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "1b78f4d1ae8de26b16830ba7da0a60e171df29d89c4382574f866637e37251c1",
+      "category": "A",
+      "reason": "器内物品测试与省略目标加热并列，未明确目标操作的放置／持有前提。"
+    },
+    {
+      "reflection_sha256": "1bed90ebd7534374e139e5c4302481d55778a38e3183227ac655296babaeb4e6",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "1bfc094d62bae28968ef0729c2920244f9b642cb85a25b238f9d65b5049550bd",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "1dae79c449c77eded064d8c12ed63b96fab5a2e968368cb8093511587ae8a52e",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "1dd0e94d5c321a111c64f7b14580ec7a8bcf2b962ceb7ed32a70a0136ed3ecad",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "1dd52bd12347e49199507acd5f69162a7fc07ee7d4e92ada675adc5b0ae0f00b",
+      "category": "B",
+      "reason": "明确写出先放入微波炉，同时要求在物品栏中加热。"
+    },
+    {
+      "reflection_sha256": "1f024d7d31387b50917ff067a9ea48763f302f4c94a0b79febcdb7ec97f80621",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "1f4aef6af308d72f25362a6576a74f2afeb6edf62e2265767ceb89d5349c46d6",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "1f94d2a82610e8c3eef8d28273ef7208ee5e9a0175f536f10e13497b265ade4a",
+      "category": "A",
+      "reason": "目标前提不能可靠归类：器内加热的举例与当前目标关系、指代或具体操作时点仍不明确。"
+    },
+    {
+      "reflection_sha256": "2140d87720f12df576e53ce9d8ec8b22d51c855285ec72357673a4ffd93de621",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "22af261a3e42bf5fb227cb0ce799d36e3eb718d49717f25d906b09a5dac02155",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "2404ec168f8654aa4a9eefed11b2125c03a72a010ac3048a70a64d228253e7a5",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "245f09047d8c077f59f5890921786460d3ecc3873d226221deb9035eb187064a",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "2464d826d4a17c7272b1de76745d567236932b8c732e71bc41365451cebc2336",
+      "category": "C",
+      "reason": "要求先从微波炉取回并检查物品栏后再加热；把放入视为已经变热的备选说法属于另一个错误，不等同于先放入再发加热命令。"
+    },
+    {
+      "reflection_sha256": "24684080c4ec44b91e7ae7f6d7b0b6559a2b3ba89d4d810b86c5daf20cb99bb0",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "24d541de29b4d3cd7242e3a284110d6bd627437d9aa60ee319e38b0a2cdf007e",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "25d7d24ed842ad598244385bac05670fa7029e1a4050075dceab4fcb1b347dcd",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "261e3d10301493da3ae6c0f7f72de7c729e3e890ce107bf14961cde98277ab3d",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "2684ed039b3748a9213428e14bc51266be92a01be809100992088b9afc93cdbd",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "26c86375f3c49167c4172f512ef28343b41b256603c344ddeb1749b6d5ca29dc",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "26dc5c4b37fe0fccf13e587278d94cda76ea5f0a99030c5b6886102a79bbeae2",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "292ef7a11e5b7b2593d066fd077f0f41d62909b466637cd36a52677d718df0e4",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "2a82681cc1cc50b61a967160fefd4585d413eb78e3acce6bfd75f371e19cdb93",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "2c3d89a3e1e8f449ee4a54235323a39f198b9581c6df199f9b0abeea9ccbc16c",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "2c47421f40b5ae289e39ad968b1281cd69f4e03a91bb3579ae93d6731bbb6546",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "2c72d228950b902d674c49664687559ce48e6f8ff438d89a67a6d5d903dc4257",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "2c7cc37222966aab84eba54dfdc9e7851476d93ec3e032684bcf151f11b5a967",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "2ce886fbcf24849e99fe0155dd2240aa12d862ec82aab11835ef3249ab2f7f2c",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "2d1116abbc5a112adec15cfa01851221c790bae73d159e0e6d51d3611b757148",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "2d9065d1fb39eb2e00259d7e0eb024cc2af156b28d5862fce699ba5dbcf3934f",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "2ddb872ff19cea7081d175ddb7ef33aa3cdd863aa3beab179ed23c4fb24eccab",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "2eefc2bd287fa16232d9e02f018ab1a7539d833baa855a38c4a774d449fa49c7",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "2f2f912e82df8115afe97c64715e27de72c07316f1064fd5a367f6262ddb982d",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "2fcd4032278d7fe1ba1ac617a51c7c3f86590b70fc0bcd1ba16fcad059510d37",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "3034e4fbbec7e880ba159552f9a26fb007e43862abc5380b960f5befc4d61f7a",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "309ac6aa307fbaaacf3cb10cfc76b0729f9a09ab139e6b0ab39254b5e580b857",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "3130ac7f73659a9957b787bd7bae9e870a1f1dd1188673075e088f702f80a0c9",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "3172725f1dfde8bb3e46f489305836fb699a38ba023300e16cd3eed2f6831bc1",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "31b24325701dc50a9ec0504d638d5f3d712828e74bda9cec381754655c33d6f8",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "31babe9540de003e05752093acc2336307a3241b9ae4bf7cf39cb7b0ebd97a08",
+      "category": "C",
+      "reason": "明确要求在发出加热操作前持有物体，或明确提出直接加热而不先放入微波炉；没有保留相反的目标建议。"
+    },
+    {
+      "reflection_sha256": "32374732745d25da0b2a7c7b0a49d1e0bbfe598232396338008641d315726422",
+      "category": "A",
+      "reason": "目标前提不能可靠归类：器内加热的举例与当前目标关系、指代或具体操作时点仍不明确。"
+    },
+    {
+      "reflection_sha256": "335f7bd81893a02899f038e0530a864109fdd473b15535c967e9e80acfbbdcc1",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "33be894c27c6b74975cfb0e65c4acebc20f1f7ac85f1355d562078cc79cf80ee",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "34e72f0f52de124cffdaad99989b7643cdb6d42a06255f9abaa338ae702678e3",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "3528db55d2ae26cbb59434e64d51a7f92e279ab2fd4e7630fef19f19d5e469fb",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "358c1edacaae24879e3317310798e019002fd927b00ad1ea36da106461544795",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "35d6150bc0f945897dc9fe425e802954164cbe2c68ce62ff0974c52d2f1bdf49",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "35f72108a16409a01be0063ef820c97dc1c9f16ea75cbebe1d83d06cbea76bbd",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "3624e0e1d6c0acc0738c7dca696a43b996b7e795fa4baa1f6d6105aa6b38b6fe",
+      "category": "B",
+      "reason": "同一反思保留了器内放置加热与加热时持有物体两种目标建议，未明确撤销其中一项。"
+    },
+    {
+      "reflection_sha256": "364e4c8a47ce02e4fccb228909d88a4c11cccd7250bbc08a97e8162a88418cc8",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "367e04f8c1c5e4a406fe9ad185b9e62699d618a325998addf3293fc66c32a8e8",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "37076e77b982776930f601c0efd8821f1aa1463ce4f33a6785cf92c2bcaa8141",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "384a60959ae4d8fb72bbb811d92c5f0611d435c13a11b0026dc2c93ea19baaae",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "397269cee4cc83a0694447a0d4cf89813eb100abddfc4e4141ddf24d93d4004a",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "39f21e73bd5f5cc1d003d20e7b2538dbc68d171414f44b5d1a1cc4cc7fc43387",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "3a21b9994826101fc72ef7bff0646d24d19fe306495c6c5f0b946e29b019a2e8",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "3af670db2852e25b213b776b8a440f1ad5348d6b526cec32e1951a6b0ac4b26f",
+      "category": "B",
+      "reason": "同一反思保留了器内放置加热与加热时持有物体两种目标建议，未明确撤销其中一项。"
+    },
+    {
+      "reflection_sha256": "3b342c4a5663c1899e312c21f57d15bbf86e92b352bdee5cf1d8874a73661322",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "3b5fb4f7a6aa8d0e330347b9ee2df76341f218b9310aeb5aa8f1c9667384fe4a",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "3b75f8416503150f9b119f12f6202498f6cbc796ccab454c4a4bad5f297e6400",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "3bd3a75f1abdf65422fa9fe80a201ad3cbed9ec87341653d3b52ab22c1fbe0e2",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "3d5c677af212741925ef00437043ea11937810796e7a1853ed18d80e10d1f407",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "3ddbca171361f96bcc14c8f0c257ec4a36510dd4ae604f544a9173e9a4a7507c",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "3e8943e8fc0772148962be9ed1609c10bda0df4d000431ca405d6954fb8ac371",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "3ecfd199f599ada96358d480fc82bc99f3a5277148f061504107fccd0a833a87",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "3eddaca53666dd10392ee3ecefd2f6e500268931af11dc74fc3daec78b6ffea5",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "3f6fb79c1bcae1210c95277af659a3f3f7d4ae24be00e9b6f9ade62dc44c7a7e",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "3ff7141f975cdb699e39caeda9e7e4ca6f5005b4fbad60d4971b68eddd80eb85",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "404f4b0b6ad6bb59700e30d5b5489c24303a46e45b006e003ecf7991e6ff70bf",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "4157b90985ea0f287768d17180638d3c3234d75fbfe624566a6f1507cf12e31a",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "42494c5b6d89c657df6fb3aa1491a12364ddd93c8ab06104ca489379ca587ab3",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "42e7660cd5b4d67b890bf26c3069f041563d1d842200614d8c936b63f15088bc",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "44d35a45dae274dff5f7f89f04eb41f461ec28b6560c6239c2b773e776ca91e8",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "44f00d269a12b4e4a309e1333ccb329d153729212b51eb5f5ddd1f6d95e3deba",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "45d554ebd646cd16b3674ad87f49e3285a09f541b3f1d23eafd8141f914cbeba",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "46bc8b5ffec3e07e7b19fe14bd24afe6b029d89f2cf28090042846cef959cffb",
+      "category": "A",
+      "reason": "目标前提不能可靠归类：器内加热的举例与当前目标关系、指代或具体操作时点仍不明确。"
+    },
+    {
+      "reflection_sha256": "46f02abc5d0b4d54f81102f2720bf26dc7d388bd91c7f109af9bba843eab4068",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "47c32fdf3d2c7648b6c1db4acb95f048028168c78175eaa8ed31eeef1e9589ba",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "47e20a5edc9fafb3c4ea774a577265f73e6eeb6ae2678dae8da9db674bc4adf6",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "48c9d73058cc481eaa0f963d3cac2f12ebe258b2701e46ac164ed95e27b8d659",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "49cc1f2eb04d76b6155f4f5733a7ceedd1df81e02b9883643e1a6dfc6e20d634",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "4c3eb5c170b1f0a3817d4f6e3ab64b32a6441c47b0102d7fbc72b03f3fd2bbfd",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "4c43a61fad0aa8496b8b3c2a3f22ce7996d72ba7bfaa4deefc7f112b21411bdf",
+      "category": "C",
+      "reason": "明确要求在发出加热操作前持有物体，或明确提出直接加热而不先放入微波炉；没有保留相反的目标建议。"
+    },
+    {
+      "reflection_sha256": "4cd3f5393a217aeb4a67307b854a1cd6fec502ad932784ee65a1fdb6e76ca88a",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "4dd65279bee3db8496e2cad4f8265121586c9a309bcfa523e14d37ca1a6d1977",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "4e2cf1bea48a07039fd728664cd4bd90da56181b7c08fb6e4dacc1e223de2ebf",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "4e872cc73f34bc3a924f0072b5ccb8bd9cf2ad4f6028416c0d3b3c82e5adef85",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "4ecafbe61c4bb744f30b276ca6dd10dd1b2e70fdf49934947aa225c2d0ab07e6",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "4f42936202987cd29c12e76c19567242d0996b243f6076157b26a546747af357",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "50e9f31bf41dd0624b8815fafb3e473e4845929550424cbc807f1575971dc01a",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "525959661b173a876cf6fa25872636af2696d38010668c8b0b82c6016f4c1900",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "534d6c6e5d99e0d5d9d1ef53ca5f02a86412a2aa8c827d6fb4310187b5c67b84",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "5357edd792caa09c99c6291665db58eb9b5f0e0df2311bb513a1812eeb6d6fbd",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "53da10ce984764b49bc23c124f013e8a6c4035344bbf26f66040e395994c9efb",
+      "category": "A",
+      "reason": "目标前提不能可靠归类：器内加热的举例与当前目标关系、指代或具体操作时点仍不明确。"
+    },
+    {
+      "reflection_sha256": "55153a5d10eb0951b5c2c24df1e6cbc6974a6f5ff65dfc7105dfa4a3eecb87f7",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "55957d1ec1d1e46aa3a00d013d80ca0749d5ed9380b891db512b0f2a0c948be8",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "55df0284e33f6d05cf54b9f416a805a57c9c8a30e3bb89eb3e5e961bf799b145",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "56accf914272d4afc475ac9eecdf9778648ea20aaa13350e9b37bf4756ae799c",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "581d048f45912ecee858f85be054a217dfacea1f3f8dac34fe3d5804e33259a7",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "59a69b5ff7c17e5fbaa06be5b5a6a599ab647872e6f608b153aa056c1b8f97f6",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "59b7574a312574f430d1e4f8ce51d0d024c9612b7453a7b96cde87f5803819d0",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "5a2b1a3692ee3272ed9f05a94dcc0ee5084a673535e9b5522b830e521bad0687",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "5b1c22e9cf360f2b96922b68d14671c5997f3a82666299f111f538a3267a7f2c",
+      "category": "A",
+      "reason": "目标前提不能可靠归类：器内加热的举例与当前目标关系、指代或具体操作时点仍不明确。"
+    },
+    {
+      "reflection_sha256": "5b359bc741bec7b13a4862c351e4bb5971fc4ab4483693ea1dda4955899c26ed",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "5b535680335d9e51f911b2eb5e4e81faa4e6079190ba4d82399e5f764cd097b5",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "5c91958dc49050b71c79fecd211bd50c3230ab3b3b3eb22e475d595d58649c1b",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "5e659b69909ece57968ddf485c5aa353597983b58b386fd4c0002433a05faed1",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "5eaaf6f2407ac881fed3a26800ed3387590e3212f19e9b1f7d478f748a9d624a",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "5eeb172bd547d1914afdf34aec0444eba4f8c2f500b0e2f0bcad23310b9ff2ab",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "5f6ffcdf6f0bef44667e3cd32b3814fffd78a7af8228504ca5ad4fc968094927",
+      "category": "A",
+      "reason": "目标前提不能可靠归类：器内加热的举例与当前目标关系、指代或具体操作时点仍不明确。"
+    },
+    {
+      "reflection_sha256": "5fb538a05d0f04b39b0b89b07ed293b6f50e03b694485770f64e34f39a56beeb",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "5fcaceb501245b8d36fc9d3945dda72272aed44dcd69d74a194aea2980f68e0b",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "6258661564286e1418154a2b2416f79a19ad8f076817a128ebc628d88dd80630",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "626e14897d08e067e5e48535b31c1911fbf269cf9d8e8fbb6904918466658b43",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "6282ccc51557c352cec4144884e9f09becf716972c355d9541ba3d92b4b357ff",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "63fd21e7ec2e794e6d2d22ff0d9a9178aa894c0c78d8dfe87cc89448028f6081",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "64e7585c704cb51b901b8d69f6cea59986124a6649f89033e85fd97bc4fc8c0b",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "65df6d14f2ec9e3566ae450a260146fe904eb678e2af0217b3272a2d64d0aa9c",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "66a01c66f184f6c24f1a6def6eb7ba88dddc427818a662f050a1f3fce0248828",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "6851b6ecd1926d647fb026358d45820b0713b24fc9fef24f31653dd74da3b620",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "68ae72b6b352381199836fd020239869710d1e585715aa39aa613e9d8b0433bb",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "68bc7423ca98612d167534edc42f48e77f6a9efb56e42b91d94fa0430b387800",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "691ae2413013869aee57c42c6227484be620d4bd51cc8479018fe6acc6fe8488",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "6a6465ea68eb4851b202c4f753208e895114e39552e024ca06e27188874c380d",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "6bc6291ff91b447411be4c2a5d9461c69f93519b55613988ce6669fd8891ca25",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "6d653387fb3998fbd7b49895661f92472b9452e09d8201b1a0a9adcafec0ef23",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "6fd2d5b5b68cb47d2cd04b996d2305b1a60c657e2dfbad6905e2ac1ff5747c99",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "70b6674a9ccae89e99ba0facaef46a14e4d07828014e03ec31618622ad09d98b",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "714a80b2beae826345e50b713d58b32cc853d5381312f3df0cc33b231c89c2a2",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "7240b35cd2ac4d2db991afd026b922fa35f4d1732782d23e149c9640b6948623",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "72a05504c31dea19f429f919a8b2e4e28bf65cbf30ffee1c324e2f7b212e8d50",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "72ec51bdae514a8bda828b0a4a7fd1c121f9620e6d4fd6b9f68c4001de4074bb",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "7350b8e3b3508d3a1434fe4b6d08d60aba495eb87ccb8077e2094d7652e56166",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "739a7a3718e62dd5833f5d629011774670c924a70d9c6c8bd69d574fcaa10c50",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "739aa5295eb2cbde2119ec83eec8a7a0acc2511b98c7bc1f94aa7df5d2ed7156",
+      "category": "B",
+      "reason": "同一反思保留了器内放置加热与加热时持有物体两种目标建议，未明确撤销其中一项。"
+    },
+    {
+      "reflection_sha256": "766274bcef74df932a939c57aa28ff88b03e8783fac8dc73d0f1abf0833ada53",
+      "category": "A",
+      "reason": "目标前提不能可靠归类：器内加热的举例与当前目标关系、指代或具体操作时点仍不明确。"
+    },
+    {
+      "reflection_sha256": "773e0bcc772757770958ead45c353da0a9d5f12a175219577df2c747908f8d51",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "784c5b25d86d171500b9d157d9e9e55f4d8fe577d94fb66081436161b438a5df",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "793259fdfc065e02961b28e0c2c86dc8217c00c92a45fd0f78cbed4dba95b7fd",
+      "category": "A",
+      "reason": "目标前提不能可靠归类：器内加热的举例与当前目标关系、指代或具体操作时点仍不明确。"
+    },
+    {
+      "reflection_sha256": "797faa8afaef0b3cabac6cf85e5fe907a7472b2680f1c87956f21776036a73d3",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "799d9237af1dc70cca7a197a62de90a526d89d7c0c02cdef369ae0777271866e",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "7a2bdbc00a386e2203bd96e678e940b1728348d760911e27276492e202a96f77",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "7a43b5bb16e3f45253c5abf7c832c1ab13a2bee4c6aa6756103cbba610192164",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "7a50053e8179a0d79f1322de59020c407e6f28f38076a7efee87a47a0a4e7a51",
+      "category": "C",
+      "reason": "明确要求加热前检查物品栏；properly placed没有明确说放进微波炉，不将含糊位置短语自动编码成E。"
+    },
+    {
+      "reflection_sha256": "7a60d9542b1e8e56745c477b769df5296baadc9ccb9f70af31f1c1785a64247e",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "7b11ecf8ec78cdde0c63069ef4663d6630b60bba9bcf522d6b65d4fe5437f8f7",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "7bc0683bcad320a10e56146bafbc78f873691806f27fad65db6cb04fc5697b38",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "7c8b13b1d4b533317485fc0d54fdd10a08c0cdbbcb2f0dcd43838f5208f36abb",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "7ca325040b3350905557da65ca263c9e273fa91093b56eee3611c2ffd5ec2d48",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "7cb3455c836149bc6aad91a2112d516ef71007b5b14e0585fa3f992626439c6b",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "7e34a6f3b53995f3e5033a086b268dd6e3d46aae21dce19d8ca2924747cdd062",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "7e6c76e3ef959b95f98f174331710f70609a9862108244f6ae43956931561649",
+      "category": "B",
+      "reason": "同一反思保留了器内放置加热与加热时持有物体两种目标建议，未明确撤销其中一项。"
+    },
+    {
+      "reflection_sha256": "7f68a7dfd26eee0e57a1a9448f94e4871f70c9bdb90324a3a1763ca13a566f81",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "7fa0bf6c438b622e635a189e531af571436e948aa04fb9b4e28e7d2be05c98c1",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "8271f3c9d0481add2dee81bdd6369b5cd0dd7d0074405b7f8bcfa79f8570e1e3",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "8295753cd8ee5e9631c8a28f72f4b5f02aeaeb1aa0c9750b2788ecd29dd77a16",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "82b83c0bf9a92152a1721f4b3870a9d7e20353cd6c0e676a58b9878acb7dd91e",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "82f908ac0b652cf34ec3416754ae7245dfbe4cc2de24907163aead83540d2788",
+      "category": "B",
+      "reason": "同一反思保留了器内放置加热与加热时持有物体两种目标建议，未明确撤销其中一项。"
+    },
+    {
+      "reflection_sha256": "83256016f37f02b3fc763b7c9d118f5fa185cd3d9c246f8b1d4d0a89b6ec7ff9",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "84fbe4acf74b938a90d2e91dc545f616e45e9e29f1f3e799846d566c22e37489",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "86672d3470d2a9733a918381a1bdbf089149471045e68ef24170ca29f97ef742",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "86ca04483b1a502dcba143177bbedf4edb3862ad4f004ffaf533bdeeb49e1f4c",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "86de84a6b390debd59cb9ccf2f61299b86bbaf052fce6a2cbc95e09fe351b4c8",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "878c437d2b9997be07d3aefa57429529373af815c281825f6230a8092c91548b",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "87c965e5a72f3b17150996baf51ceebbb5580d1acf55c6dfe393a864529996cd",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "87eed1703d1e26e095540edb6f6e1125ac09e15c4bef8024cb0a640092441157",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "890656063617d1bd8f057f4aee62f9ac6c051f89c79c35c113deee6a203b8c19",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "8a70631d76b2f992d2982193827ffd104cbc556db238a49ee62b00376d421b24",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "8b3eae6d3844b211ae01eac8786a5d756b80f5e2df4b03b7dd50f643ee500f85",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "8b658ec4baef4d7e863f90026d585c2260b8838e6135e5896f5a346452d41c28",
+      "category": "C",
+      "reason": "建议确认持有后直接使用heat-with-microwave命令，替代重复放置。"
+    },
+    {
+      "reflection_sha256": "8c337f188e3018305ef1bd73c052c3ad9fadc5a018224e20624a58f8c7a79ffc",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "8ccb8d660aa4151bb77aee5b3ba3fbdcf28f109246a4d4a42a8163017ac4ae4e",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "8cd3cd4dc456c5d60f6a080622a5fe11058821bbeaa3e11f12528ea7dffcb378",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "8ce23a544b8992ff8e2ef5a1fe999c048b6fd7c1a07c8e3c2923c48b7e8b88c5",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "8d998622a0e31bb760aef45b0fa9257d75b3d45c7d3b65cad3159dde2ce0647f",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "8f518cd2f2e06399e56293e22168552becad27fa64b843930e7f9394d567cd05",
+      "category": "B",
+      "reason": "同一反思保留了器内放置加热与加热时持有物体两种目标建议，未明确撤销其中一项。"
+    },
+    {
+      "reflection_sha256": "8fe7ffa8ee13cf5e0894c1de1925a9a7096ce56ab35bdcaeaa6062ca8202a886",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "902efb19fe56cc1d38deb95cee61bd0befcb89633a0ae617a2229bd754974fd6",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "919ce887f9257dca77e27f38df2a6196e49fd0a5e5ea995f72fe6b434537a26b",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "928915ac39c03d81efb6a9dd1041f9a5f066101ff681763390f8811fc1cba6c1",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "92eb38ccf901f4e66229d9d39efa802b63992af612555a794257eb3b5f1d5c10",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "931af00028c44b391d67703cf4d6d13a05daceddbc32e04ed2ae1677d89eb1f7",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "93d117fb0de1aed8ed24526e0a2a39a9b89646dc856d340d024da4f4eaeecb21",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "9401afa439b20714367ad122e7f185e3ea0e2cf8be5c7014fe7710ed469f24d3",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "9405d91805cfd7e8d007599e87f8fa8e1cfd9c08f3f4a0b84c1852b311cd490c",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "959868b17caec0f8844e9ccf102b76d2456757e04f83e001e2614d841d26c923",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "95b80e9aee515247ae6b383996b5984f84ba43a243233ad95e76e2b96b6b4d4d",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "95d1fe003585889ca6a2c3a63f380d45e82da3835d2f5317ffcb4630203386dc",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "95fcc4acb70b038dbe89d4f4f7bb59df1aed11458276e2bef121496635325bd0",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "97356939c7c7ba4949383b8b45a2081946f9db515a05ca7c694877c3413244b7",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "97d55d017de4aadc2830ccc2736ba03a5d90fa1f2e19923369de09243be254a0",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "97e55a4c83c36a9f070d7838beb510ca3bb80ac3299d1276400d5d1ef41ed58e",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "97f3903b218b177f3ecd5c91384bd150af2855adcf7f6297e3874d9fe33c8a6a",
+      "category": "C",
+      "reason": "明确建议不先放入微波炉而直接加热。"
+    },
+    {
+      "reflection_sha256": "991c0b88f1b13f948b2f2b21823e9498f8150fff5b2347f6ab73f3b8d825f3dd",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "9929aab4a5447d88ba65622defce8dc8a02926043155597063b2ae34b9b10e48",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "99c58e8525379788154bb55276228c1a34bd2c8ac50e815f366af0f6420e3e87",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "9af99b9304d19548875b9209d4e4713f80912dab3cfc68e4878eaeb8cc7ac84b",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "9b19392e9254d1651e711219c8892da7bfe6357562f107e57b580ba2673ae84e",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "9b36ee3b9a5df4bb8e776258c24bcb976a3d8f189face1063f922cc4b9a54443",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "9b80cf1c90fcd005c5b2a5576e38c97700ea49a95bea4bc1ab8f7006cfa3c246",
+      "category": "B",
+      "reason": "同一反思保留了器内放置加热与加热时持有物体两种目标建议，未明确撤销其中一项。"
+    },
+    {
+      "reflection_sha256": "9b9ed08196f7a90e1ffc7a98712411054be293e166543093440cafc1ba29d378",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "9bd37b4cf42d122f23f9ddc25bae766b40a8d7ca8e2f5fa02569a5ae530548ca",
+      "category": "A",
+      "reason": "目标前提不能可靠归类：器内加热的举例与当前目标关系、指代或具体操作时点仍不明确。"
+    },
+    {
+      "reflection_sha256": "9c29f778009a7426a22db03870efe2ef40fd10dd6475209b8cc465c061d29438",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "9c849afc5b74b05349d1428c65aacd32b2d49715d333f4aac03847f733c219a3",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "9dce24c1e49e3119245d937ddbda5e7f0132b663258d45e34992ea75b5c1fdcd",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "9e7d01ec3199041b5bac7d632efb8537defbe381545b65501ff41d7a3296e68c",
+      "category": "C",
+      "reason": "明确要求物体在手中而不在微波炉内；器内其他物品仅为设备测试例子。"
+    },
+    {
+      "reflection_sha256": "9f7d782172858755f5ee269be62e47f539583cd2430957347c2feda3afd3e5c1",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "a1943cebb7d61d9f9c338a8df08792cb920db8fd11ff61fc01b05b8b3417e439",
+      "category": "B",
+      "reason": "同一反思保留了器内放置加热与加热时持有物体两种目标建议，未明确撤销其中一项。"
+    },
+    {
+      "reflection_sha256": "a1b4e5054dce4452ccff7f58fa5cede482d336e04951a8b7d67ccc4d5094a6fd",
+      "category": "B",
+      "reason": "同一反思保留了器内放置加热与加热时持有物体两种目标建议，未明确撤销其中一项。"
+    },
+    {
+      "reflection_sha256": "a2a0cb3c01a72929c25c6f65759ec30516ad5915e83c19fcd41fbde136f95c47",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "a370c761139ea2947eb731001ba1be6b75706bd3b395bbb79a2167f434a5204b",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "a45dffefef21e960b5cb7a6690436e1fe885bb89b3ca64d4290c6df3648c4685",
+      "category": "C",
+      "reason": "明确建议直接加热而不先放入。"
+    },
+    {
+      "reflection_sha256": "a480ecfd0eb4974e7530ea273edcd5ca247ef77f74a97e9afb68644b630f3fd8",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "a4de64b01c1ef9a385080ec4994ac3e71091764ef5500feaca9403081c44c8f9",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "a589dab9cc7448ca3914b1178ed8ed2a643f7c18f9963703c964aec0b745a67d",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "a5dc9a2e9abcdb75828330e55f3a4e495b35ae0979c692827c88d8b17dd76327",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "a7057b83a0615d60d462f67bd971259095fb429960fd79c2e43e9f09fb1277f9",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "a7301d7b5022721ca24f58f3ec097e4e29664c881f36d8083e8f799ffc723e62",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "a75a6564bca13d1fdb73eb108ef29aa48c2d73070d7487f5f4505a8f1fac669d",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "a7d7695e1cc7ea39966bd0c3dbf4e76312d669e9d9da9fae8c168e204093d0d0",
+      "category": "A",
+      "reason": "目标前提不能可靠归类：器内加热的举例与当前目标关系、指代或具体操作时点仍不明确。"
+    },
+    {
+      "reflection_sha256": "a821f7a0f022d4db01e0a7b86819a5430eb921a0ce2dc49cb67669eca1ff0fae",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "a8499184d7f9c8fc8e0d64b823c2411fac2d8883b57b7490fcdedd8cdc465059",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "a88b4d28f16dd9ee31709ce1b7024e1da2c01a05e310cf8ae9fa72956671552f",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "a8a2112d7ed67a47e83f06c0997531aa9a7759b57b023fe685853f9b9e18bdec",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "aaf715381229f14fe23e14cbd6f7122d6ce00bde525a333f44fb8144d0eb0eee",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "aba943391ea2d6000cd921248159b26197e92ba91934402ceed1b2ad8e017616",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "abf0fe5b8e84eee6221e7afe81d33715677ca90f6d50ed5e8e5ea21cc418189e",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "ac48683de212f0956202c46c8dc93fbd55323369e18f288b556ef0c16d556b2b",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "ae236ec3f7a985be99a08b89fefc7bffe4befc9e76733f4fc945cdf97cffb949",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "ae35a856b397e02355e91b1781af52015425f6a7845fcc2a22893f24db9fc947",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "ae927018ca4a9601c6f24ccf3ac6335dc547637e6072613075e5cf16b0b2c501",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "aedfba8d4219ed0ec9f1be10061220d9200a7548516470af5b421caa6008b353",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "aee2e006eb1913c9734ce451d8d5e82f4591f3c8b655924cf8ccf68d2db47cae",
+      "category": "A",
+      "reason": "先放入再加热，同时泛称每次行动前都应在物品栏中；后一句的适用时点不清。"
+    },
+    {
+      "reflection_sha256": "af367cae3ed3e4b0635a70f479ce5d74ce60bb1a01254e586f0aae3a9b8e8105",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "af7eac58838a3f80d3d07d91cc6ed7a59ffe9fe1d42f4a1dc5544ef574bd3dbf",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "b101eb3558ad020f6e2b5366ffda522c6119f1c37548c0ace8b65311d4fd196f",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "b141ee2cda2b423e42b1af8484051856bdb1acd1753924bfcb8081d9abe63ca2",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "b2e6bba37c792171a71bf43a91a4f84a4e943f060c023fdab20a3cad18b88b57",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "b2f6c1e0b2a20bdde7ad10e915876b63bd113c327992b9c78ee590ea1e988ab1",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "b3a064e6002368a77dcfff12c7479408800781ff6e1940b8e45b4685996ba7e1",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "b4298f8c21c1acca9dc01ab96db06fe40e5f827bb8692f9f5e6244c63c16bf20",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "b43ee0804d4c1290372e6a7939660dd2dc147e52688bbcb23e4f25b2291d9049",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "b464c115f259b94788758bc2acc857587d4893ec92cbe491d535bca7e64d576e",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "b492e029c1cb3fa2c1d11062901743d5e13d2dc4171b42d04260b23b84ad2ff4",
+      "category": "B",
+      "reason": "明确同时要求先放入关门加热，以及在加热确认成功前一直留在物品栏。"
+    },
+    {
+      "reflection_sha256": "b57ea7f7d29cb3fa5e9c5e11f05fa79e7359a99f6704a3ba5e323f36cda70baa",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "b6ef69a1a426a9be97db2059ee8c25b553dca4355d391100e6ec3ae030748a54",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "b7419e5021056c26772b4b2b169cc5282ad059219e05e4a8b6974f047c7d7978",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "b7affe0fe29991be1a08440ff74ef43ef67557e90be202884b6633a22a4a114e",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "b850294e3de10362ab7ccb8961789d65aa3ba31d8dd675103f6ea66b24c6963a",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "b892c8ac3f835bbc7ba3752771655260443a43cdb7cc860ecb749ca39158595d",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "b8fb4693a3f72f5dddca69414eed3e1f2ea169742a966f5d6014e16ae6c2576e",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "b9415bfe7c2227563fae9cc87eb03eaddcf6b46a70248e43a0df03b4c46a7b81",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "b960199722c0503586daa1db61e260af6cac75ee904e3190f84ade608cd36ce2",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "b9bfca5a021bdd3465b6ab0006811352bc04405762a39882e25f90c7c7ce3505",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "bafc03d3a756751759ab044b4b2197871c9f76dfdeb0723dac8c053e1cdf58a6",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "bb794b619d97e07e200df3eff0e45ce58f120e28be627bd0cb9a425b2bde367d",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "bc6c5af8da4823ab14ed87747271f911d6747e98cbbd6004b6cc530ddd08d23f",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "bdc1d0206b9b66c9b1e6f2c6fbace51afdf59f593f7a2c5fec99143cda7d793b",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "be23f42b1a4bc9edfa9cf4e8b1057059f64e0db14bc3e1c3523d78633466e072",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "bf56708f31a1da2b3dfba43506c2672155478189efad9ea60f45290517f1d1ee",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "bf84a7758dce4e03996c177df68bb03a017a10722e6b7199e67db96e27a5c2e6",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "bfda478634874cace8d7d63a761ac1ea69aac5c317780d2a791e97b10ac9b3cf",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "c1d1e811d4fd2ddf64455ae19f6e66f04e7e9c2377be6722f7b14cb9a5f04d4d",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "c235249b4c904284bf1f409cccd8a8d70027ed968c9d7de206987732ef3ab2b7",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "c354cf3785ec589d5d66d16af052ad558fe9903f99246c9e73b8380b2f4ec5e3",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "c3ddd689e355200396fba7d463b6f209f09a3d1392acafb629328df03057ce01",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "c47554a132a17551272f75f71a92b9e4148837e83ab3aa966f16294eb6330536",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "c47e8059f4e12bf11074366a13052afe874a30b2734609eedcd754533ffcf9c6",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "c4cedb11b0db765e9df08d643f4d2f8f903b8c76988ca6c0d35fd8ca2ff442d2",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "c58f91539402798ed79a7e82f4259543647d5491a83bf49473b4bc4f86f655a8",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "c6206003eaf6fe6f0b7514ddd23d757be3831824549fedda9cc31d5abfc37448",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "c701129b3dc686c26fc4c495ad40c6ee0a57fd15adb6694f66ed62b940ed4306",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "c814631ea5b97dde4fb69a1a8cd764fb268df397b1edbbd2d0a68a2d92dc85fb",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "c81a25ac7b8423b47608a9215ed3dff8ef63c749bba38e6a6358fc5499699f97",
+      "category": "A",
+      "reason": "把设备测试、拟放入目标和加热前物品栏检查放在多个分支，目标加热的具体状态关系不明确。"
+    },
+    {
+      "reflection_sha256": "c86c86292ec95ccfc13ed13b94e6333756db4a1e4ce578bb6a3925ce5d996b56",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "c900cd31e71f50c604e1fc1f574946b5c8541c6d286cc4ef08a3ab6527e61e29",
+      "category": "B",
+      "reason": "同一反思保留了器内放置加热与加热时持有物体两种目标建议，未明确撤销其中一项。"
+    },
+    {
+      "reflection_sha256": "c9bc92cd6cd6eff9f0ba16782b8f20dcb8c53344188e22e0f64ed35df9f68f21",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "ca1cff48fbb387dabab19674544b0c1a09fd8a3442fbc6b61927110eb084d697",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "ca90d4532af340c1c5694688cd35b2802144412372e020baa9a8c90e129e780f",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "caaed961e97dec678bf7dc19e8af19c8afee7357f2b947c68e40c5a8554a127d",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "cbb6fdd912325b6f36c1874ebe5870eeb6f4c838472eb53cb6167c9977c77bf7",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "ccbb341cdbfc087a8ee65a46c297d0ad483963786483f8a57f7f3de90b40cf63",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "ce233ee70846b52573e324775420e2a251e1e3bb6577148c98a07819db1e5f92",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "ce5f489a6768d89fece7dafa8f9e0943a1319c8886f13e63961cd0a2e108f61d",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "cef522b2ed97696d9de60578d6eca288abf7e1ebc9f5f8fa2a8cf29898655c34",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "cf06a700f2b70b234d2f490e515855508887a410349d3d682de4c8fabdff1bb8",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "cff829cf9fc9e9f075733eb0352e6973d1f1a7979dcd1c85ebde91eb2ee36ad9",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "d007dac27ea67298912f8dd413b033631725f589598bf7946a79f82d339193fa",
+      "category": "C",
+      "reason": "明确要求在发出加热操作前持有物体，或明确提出直接加热而不先放入微波炉；没有保留相反的目标建议。"
+    },
+    {
+      "reflection_sha256": "d0c0bf043461d744c8e5da82977a4b8eb6dc435ac91e5c74b21d43d1b790cf71",
+      "category": "B",
+      "reason": "同一反思保留了器内放置加热与加热时持有物体两种目标建议，未明确撤销其中一项。"
+    },
+    {
+      "reflection_sha256": "d136cc2d383ff9ae3633d7ce9fd731cf0437fed0f2d4748bc9547577a35fd431",
+      "category": "C",
+      "reason": "明确指出不应对仍在微波炉中的目标直接加热，要求先取回并检查持有状态。"
+    },
+    {
+      "reflection_sha256": "d1a44abd0db7beabc533fd4823ac3fa0c423d7b8a17b62115180ef32b1220b6c",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "d286c99efe53a6018678ec5de6ab4e745b0aa9f4e1fc5de1b1640d0084142124",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "d2e4153f863c2bf47e91c5b218ba2ac9fb40d6ded4419fb53beb6901f04d1015",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "d2e4279581248aa07211be22d55e1bbb5ebe7a1aaa3d94cebdef3a33ef1ca218",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "d30338cca9ee6b21c1591ff58e1b4bf130fb8952709c5d6c7b3b908b7738813c",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "d46a7c4685a81dd7bf19906c2439b542bb1875e463a564c28e6d7cdc7e856793",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "d4c96189a0a00e5635283a55ad662eee0723f1896bcf90b4c415ee2c94160308",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "d4fb29b84ec735eba88fab65ac73dd09d074323344e0eeeca98deb4b730f368a",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "d540e0af511495969364677487dbe1e1644a0376bfeb2c120f80cab31c9421d0",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "d5e8a159d0ad9815f2068a6a891c9cef9a55d83a317e9935ef0a80e66286f029",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "d6089589bb72168289aece28f85feff0ff48f1b60de57334934c4c31020cf12a",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "d6105a1fda3c5f78d12c8a31929e7ed118382bbfb452ca7925aaee646e3dce79",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "d62e491e140d233a0ad45ada6effcc8423fd3931634c92884c3f34b4e19fab05",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "d6787e53f17931d074163c7af5e42881c4ae449fb47ca2aa300b424238adaf0a",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "d68af713de7be5441a70b6a03837dfb5261d9484b0a4b57ee294d985a0a28d8e",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "d74ea0b585306f5f803456865a1a09675b2cc7084f7053cb3905400eabb45f3a",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "d7551d769b2f65329b13be81858d87eceae229fb51cc0a9d4bf5c265dd92f50b",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "d8950ccb943009d56bea0f65e44fd66bf6b513930b5cd9faeb73031711e18ad5",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "d9c6307493d03538eeab8e6deece64a7ddd91f589f43566e00ea98298af969cd",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "da44189f225597b1bb28dba950912830d13c00a308d2ccd5e00271d029f29ba6",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "da6f0650acca03003347dbd320ac05f8a8d4ed37c22b67f38b96f9fafaf8f260",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "df4516960502c7729df8483855f06b2d2767d0618178e399fb6b0ca181e0e515",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "df825cb12869a28f1822c846bcf0df7edd86926771dcda41eaabf74c9f22c535",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "dfaab48557ec8004d12850ecbfcff129f25f75e7740e341d9b4f13985bd61a62",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "dfb8a1ac5349361b424a8c85f4fffa0aafe0698cbe4eee3efcc388a430a867df",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "e085396525ccb71066289b861fcecfdc8049494928287e358fedbab5c1f5c853",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "e19a69a224899467f897fc65604b627ee5934fd3144264f1de2a44abb80a831f",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "e1a80556acec9f0875fad4f78d9835d6d8d8abc44ea9ddf039e34d2d9cd266e7",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "e1ba0f1201e13dcf597bc4f43312134ce7c4e0af91c7245faa9144a5e4adbae2",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "e287bebf4883e14901bad87ddbc25ad83b34c2b848cbd3238a6a6c2ffd23b372",
+      "category": "A",
+      "reason": "否定此前放入后加热的尝试，转而建议器内物品测试；未明确修订当前目标的前提。"
+    },
+    {
+      "reflection_sha256": "e2ef206467ad99005340b92dbf160338940d935aef5c6d14bb52ed1b44c438ca",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "e3c9b5e63ad69405d5bd23cf68f8eae4f1a72c7e6ddf1d5a22a77140ab62568c",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "e46cd10961d67ac682cfb2392dc4c2fe1883300379af7e661118a86b848fb81d",
+      "category": "C",
+      "reason": "明确要求在发出加热操作前持有物体，或明确提出直接加热而不先放入微波炉；没有保留相反的目标建议。"
+    },
+    {
+      "reflection_sha256": "e5d2e538fcc55ccfe157f3d2371211d47ae95e1f6519a212ab529cfe395cc506",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "e6510d174d59694bd513073b00ff84699ac415656448201a5643356108c2b4fc",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "e7453789c43041e72b1bc12640c9440fa4589372c17e01b31facf210c801ea53",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "e7dcb54e272ccecf3edfbb03ffb776dd5251f5b28893af603bf660c35102f35e",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "e82388437c4e99b32ed7e704214a02dfca233324342d7794e2e76159e2e830db",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "e85e682acb749abe76a3d0aa51b8f10405b160282c0d00235ec95276babe6c9a",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "e931c9f8fd38edc48d0d271ef48732a13ae94e312706e98ef30e2d5677750337",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "e9b802a1f7721625554b0d74dcb60a53558b10f4db4c70f87fd04bbebb4bb717",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "ea381eeff74e3f738910a28d61a0e124e4375cbfb3a82c6faa58c1c2e1289db2",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "ea6a38513ce37c0790a9c65682e87ad1691952aa40c9d8fa3c3b26244a4ce46a",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "ea8e6d80e534611837923e3544191b78dd5277344e36d8cd10ebc1e272537742",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "ea97043db546e8f2fe1b681db4c59095b088eeb64739ce6a293df075b5e9d04a",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "eb07dbd2068d945040597fb47d3ee2a70a2b43277c739c7e617188a05ef11788",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "eb3b64766bf75b52733a9a204dd2a58cafc893cc622ccd867d2be205dec33d51",
+      "category": "C",
+      "reason": "明确提出当前目标直接加热、不先放入；器内已有物品是另一个测试分支。"
+    },
+    {
+      "reflection_sha256": "eb7213f460217a9219721bf2ad34900c109e121ebb6b304a15cdc991f062c73b",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "ed0e2f6cbaddeeaac925cd9e41364306938a12672420f8871865ed427bf4c14a",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "eec5b6d5b98960d525edf09558319897c513dda24c7af8df3027fbe648cb7a69",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "f0b7b61dfb266d7c8cceb1960da014df0256078e1199c9035cab540b2161ec6c",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "f0e29a347c14b1c90beb4f9deef781b65959ac10b2c280854edae71f9f01f28b",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "f2c2567cd377922684b37035c1193f77219ba76da7f11bba516b7b2c1f323054",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "f581ebcbe4f62598ac25e578225ccab2fc4dcedb2b06f16deaff49568992e263",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "f5b666eb09d4f15770c7d23abf70e48cbb5d37454cf90b84ea213b80913c496b",
+      "category": "B",
+      "reason": "主路径建议在物品栏中直接加热，失败后又建议先放入微波炉再加热，两个目标前提同时保留。"
+    },
+    {
+      "reflection_sha256": "f5d8fc6ac63ca9d448a6eb2b5568fc3addfd6af77e4a992418f2b0070c41a813",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "f61477d66566d1551bf77d609080a410f14d9668e7a38a8f2c1265580f03bd3d",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "f65c40ac1c3ebff98a8ea541bf547754ab5b5e95911df8e760dd3053ac1fa401",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "f70a239f9b0bc7eebca750cc0c77ced79f2b97ee5676a343cdd12f0d496fa065",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "f74a5ad457ec3a70ca7fe9ea569eb0ecbd53467e25ab996279efd29437aac10c",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "f8666115313827a5095e14a25a1cae391baa6ebc7394cc9b1f432c44b56d6bdc",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "f8d790b53d913e8ae9ca94ea3612e71cf73b861e6262d756b16d0e236a5e0bd0",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "f92c4ca97e0eafbac7c5ffa88014c4aaae0b0433945ab56d0c312e163354cabf",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "fa5123ddcae0225a6a3bad5f88885e9238adcf48263b132b36a49cbe55581063",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "fb9e806dee3d9f9c163bf62e629138131ecf1f5eed2cb533287c73996a172f36",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "fc808c10502853fd8298770ad806fb5d29bf47c0808890afad1c6711d1a84ad5",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "fcc9fb00036c93bcfe2424bd964105e7a7f811c4ee625b21bf5f4ae79bf87509",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "fd7f524f7ae13796bdf140094458d55528b3b607c32430095670ab20ba500b16",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "fdca61f7becfb6c4f5a78935811a7dfedb2612352bbab3286b4d1b6ccff8d5a1",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "fddafa326c044f2d9526028b3edcedf76b12d9c495f91e651bba0007c321f7b2",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "fe2f39ae9c98426515a81141559c3df7ba055bee9a8c337ea4410a0cab1df9d2",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    },
+    {
+      "reflection_sha256": "ff582883ae44114ebf15d7f7e6705906b024cd869005b129dacca735ad683447",
+      "category": "U",
+      "reason": "没有明确表达所追踪的微波炉放置／持有前提；其余搜索、替代设备、放置或任务完成建议仍单独保留。"
+    },
+    {
+      "reflection_sha256": "ffd4d1d8c1c8e1297249738e88e4fba4a9a7a7bfd85895b7e3b0e3738558e2ce",
+      "category": "E",
+      "reason": "明确建议将物体放入或保持在微波炉内后再执行加热，或将未完成该放置作为加热失败的前提解释。"
+    }
+  ],
+  "holdout_model_calls": 0,
+  "sha256": "20d3275c3c2578a8a2f5319a07db2db0e9056e6dba0898f1c1011fc987310303"
+}

@@ -1,0 +1,1960 @@
+{
+  "attempts": 1553,
+  "base_model": {
+    "kernel_implementation": "scripts/calibrate_successor_success.py:component_kernel",
+    "p_coefficients": [
+      -0.035820187583717224,
+      0.14741280332906895,
+      -1.3341855488743963,
+      -7.124556141956235,
+      -4.631550958986969,
+      1.2976601733071207,
+      1.3343958086674566
+    ],
+    "p_feature_set": "seven",
+    "p_ridge": 0.01,
+    "task_offsets": [
+      -1.0,
+      0.0,
+      1.0
+    ],
+    "task_prior": [
+      0.16666666666666666,
+      0.6666666666666666,
+      0.16666666666666666
+    ],
+    "task_scale": 1.5,
+    "write_coefficients_reference_A": [
+      [
+        2.088611057670345,
+        0.2692321428465948,
+        -0.074175252959278,
+        1.3453747827792537
+      ],
+      [
+        -0.19332303952472168,
+        0.0023061830528540374,
+        -0.02109135574674955,
+        0.17866196880899646
+      ],
+      [
+        -1.275606940220993,
+        -0.1722874975137936,
+        0.21429100298482046,
+        0.3918650942925467
+      ],
+      [
+        -0.04333381840705293,
+        -0.14465724829721383,
+        -0.12026026956846869,
+        -0.5630276693928368
+      ],
+      [
+        0.11096052898786876,
+        0.4098849157800484,
+        -0.17580605183084522,
+        0.528643341880429
+      ],
+      [
+        1.6832852820285162,
+        -1.399204160937804,
+        0.21113198038829112,
+        -0.6856576002837805
+      ]
+    ],
+    "write_family": "error_lifetime"
+  },
+  "baseline_full_brier": {
+    "coefficients": [
+      0.05383003924664464,
+      -0.06443238229084856,
+      -2.3919857025703304,
+      -1.341044440295823,
+      -3.900363471541349,
+      0.8666687988246653,
+      2.02046047319432
+    ],
+    "failure_posterior_contribution": {
+      "initial_C_N": -5.55111512312576e-17,
+      "initial_error": 0.0,
+      "late_error": -0.02252654075456252,
+      "late_no_error": -0.05216170931527689,
+      "second_attempt": -0.03817812515682662
+    },
+    "group_probability_minus_observation": {
+      "initial_C_N": -0.01126071322033605,
+      "initial_error": 0.013840864896806807,
+      "late_error": -0.06053182520658851,
+      "late_no_error": -0.0480980674348105,
+      "second_attempt": 0.037398965709462856
+    },
+    "penalized_risk": 0.08843307235369909,
+    "risk": 0.08815959829603426
+  },
+  "bootstrap": {
+    "draws": 20000,
+    "hierarchy": "resample27scenes, then tasks within each sampledscene; preserve branches/seeds together",
+    "predictions": "previous MLE held-scene probabilities FIXED; report pointwise percentile and centered max-standardized simultaneous intervals, not refit uncertainty or independent validation",
+    "seed": 2026102706
+  },
+  "brier_reference": {
+    "folds": [
+      {
+        "audit": {
+          "iterations": 31,
+          "max_gradient": 9.797058844778959e-07,
+          "objective": 257.5795653130369
+        },
+        "coefficients": [
+          0.0567572301112764,
+          -0.027327685007117294,
+          -2.495633819493685,
+          -1.6171522191901238,
+          -3.9448688260865783,
+          0.8724177132508513,
+          2.0522226553378853
+        ],
+        "held_scene": "FloorPlan1"
+      },
+      {
+        "audit": {
+          "iterations": 30,
+          "max_gradient": 2.035831024316259e-06,
+          "objective": 262.48907756175197
+        },
+        "coefficients": [
+          0.05448183481400559,
+          -0.08860896198848112,
+          -2.392224709854121,
+          -1.2598564127061809,
+          -3.903625826409917,
+          0.9028030707452184,
+          2.0381817566991494
+        ],
+        "held_scene": "FloorPlan11"
+      },
+      {
+        "audit": {
+          "iterations": 28,
+          "max_gradient": 1.1728355440478178e-06,
+          "objective": 257.2285712639859
+        },
+        "coefficients": [
+          0.052802740375999,
+          -0.05531547647625032,
+          -2.360153515923721,
+          -0.5335363269866464,
+          -3.7998533607952236,
+          0.8004853377071961,
+          1.9384427115507141
+        ],
+        "held_scene": "FloorPlan12"
+      },
+      {
+        "audit": {
+          "iterations": 30,
+          "max_gradient": 1.092529399726594e-06,
+          "objective": 257.9995915932727
+        },
+        "coefficients": [
+          0.05426350086361646,
+          -0.08729739188654455,
+          -2.419756755247292,
+          -1.2320710885331176,
+          -3.852293567304042,
+          0.898264387016681,
+          2.0264895389000235
+        ],
+        "held_scene": "FloorPlan13"
+      },
+      {
+        "audit": {
+          "iterations": 30,
+          "max_gradient": 3.5171954109282973e-07,
+          "objective": 260.7865832505685
+        },
+        "coefficients": [
+          0.053954721122639646,
+          -0.08975903257101746,
+          -2.93488231769544,
+          -0.9324826257831467,
+          -3.910595507417532,
+          0.895173328637547,
+          2.194352586700038
+        ],
+        "held_scene": "FloorPlan14"
+      },
+      {
+        "audit": {
+          "iterations": 31,
+          "max_gradient": 2.1734544541907042e-07,
+          "objective": 258.8493757145039
+        },
+        "coefficients": [
+          0.06646323183442053,
+          -0.14094829933132386,
+          -2.200371876317776,
+          -1.2488269089200648,
+          -3.935949202210015,
+          0.7754185441966476,
+          2.131936951430641
+        ],
+        "held_scene": "FloorPlan15"
+      },
+      {
+        "audit": {
+          "iterations": 30,
+          "max_gradient": 9.47457221102399e-07,
+          "objective": 259.5748538793641
+        },
+        "coefficients": [
+          0.04796926289776682,
+          -0.1287024005726251,
+          -2.226709012042259,
+          -1.210537931785733,
+          -3.7020254746856014,
+          0.7843590091311664,
+          1.8932428764252995
+        ],
+        "held_scene": "FloorPlan16"
+      },
+      {
+        "audit": {
+          "iterations": 29,
+          "max_gradient": 2.4959595314535694e-07,
+          "objective": 259.5365635000685
+        },
+        "coefficients": [
+          0.0536065499717433,
+          -0.09317228357289717,
+          -2.338162171187255,
+          -0.8682948189932248,
+          -3.7352594648891717,
+          0.7597055120001531,
+          2.0069752303642088
+        ],
+        "held_scene": "FloorPlan17"
+      },
+      {
+        "audit": {
+          "iterations": 29,
+          "max_gradient": 1.5806738748183006e-06,
+          "objective": 259.6665553517293
+        },
+        "coefficients": [
+          0.05523430352047353,
+          -0.09577026678105613,
+          -2.254329273558766,
+          -0.8144110151501047,
+          -3.869158301744406,
+          0.9152687790382101,
+          1.9558814076263211
+        ],
+        "held_scene": "FloorPlan18"
+      },
+      {
+        "audit": {
+          "iterations": 30,
+          "max_gradient": 1.2814389260817904e-06,
+          "objective": 254.6183029920437
+        },
+        "coefficients": [
+          0.0584670403924545,
+          -0.06973974029368946,
+          -2.5365223520735265,
+          -1.2581868415001944,
+          -3.917174087484286,
+          0.824120113139855,
+          2.076423005354203
+        ],
+        "held_scene": "FloorPlan19"
+      },
+      {
+        "audit": {
+          "iterations": 31,
+          "max_gradient": 8.29103229990798e-06,
+          "objective": 260.133258413739
+        },
+        "coefficients": [
+          0.055764371118311944,
+          -0.08420007016385606,
+          -2.4937969174949046,
+          -1.3729008554566844,
+          -4.111288452405707,
+          1.115377245584822,
+          2.0121192551220624
+        ],
+        "held_scene": "FloorPlan2"
+      },
+      {
+        "audit": {
+          "iterations": 28,
+          "max_gradient": 5.426494808087297e-06,
+          "objective": 258.64874289969083
+        },
+        "coefficients": [
+          0.058235913985238426,
+          -0.03194168402234898,
+          -2.258971890925848,
+          -3.7799573048686166,
+          -4.067706612651522,
+          1.0154817587648388,
+          1.960784410860099
+        ],
+        "held_scene": "FloorPlan20"
+      },
+      {
+        "audit": {
+          "iterations": 29,
+          "max_gradient": 1.2928806869597336e-06,
+          "objective": 258.8780181519997
+        },
+        "coefficients": [
+          0.05111068858690666,
+          -0.10859365587884082,
+          -2.3101553671631048,
+          -1.2253390162267823,
+          -3.701949418291559,
+          0.7280936798847742,
+          1.9808960811440748
+        ],
+        "held_scene": "FloorPlan21"
+      },
+      {
+        "audit": {
+          "iterations": 29,
+          "max_gradient": 7.157768010523924e-07,
+          "objective": 260.4117783428575
+        },
+        "coefficients": [
+          0.05305543221501728,
+          -0.09471646945165486,
+          -2.2918840061706085,
+          -1.2826454385457684,
+          -3.756302945219986,
+          0.8008934550208834,
+          1.9886134994167153
+        ],
+        "held_scene": "FloorPlan22"
+      },
+      {
+        "audit": {
+          "iterations": 30,
+          "max_gradient": 6.810972334590255e-06,
+          "objective": 259.62504000700494
+        },
+        "coefficients": [
+          0.05595457912648249,
+          -0.017782825657888055,
+          -2.6251693656656903,
+          -0.8132206421438533,
+          -3.915477219276898,
+          0.8185451601138614,
+          2.0771067805702526
+        ],
+        "held_scene": "FloorPlan23"
+      },
+      {
+        "audit": {
+          "iterations": 31,
+          "max_gradient": 2.980318659973058e-06,
+          "objective": 255.49751157003047
+        },
+        "coefficients": [
+          0.062340117260865656,
+          -0.08529472144462551,
+          -2.3889022688503982,
+          -1.3021123468700204,
+          -4.085435374832473,
+          0.9406948946812124,
+          2.1540585015029494
+        ],
+        "held_scene": "FloorPlan24"
+      },
+      {
+        "audit": {
+          "iterations": 31,
+          "max_gradient": 1.038477307813146e-06,
+          "objective": 256.4694435866143
+        },
+        "coefficients": [
+          0.05479533797785838,
+          -0.019823509955832427,
+          -2.494329659938757,
+          -1.389316092772323,
+          -3.743149172193822,
+          0.6747294190315967,
+          2.0035310049136017
+        ],
+        "held_scene": "FloorPlan25"
+      },
+      {
+        "audit": {
+          "iterations": 30,
+          "max_gradient": 7.800158807746982e-07,
+          "objective": 268.2150851463634
+        },
+        "coefficients": [
+          0.06338676384828193,
+          0.02208439569161466,
+          -2.017428961110832,
+          -1.894951933582789,
+          -4.023852485634128,
+          0.9324631352178424,
+          1.937086150805183
+        ],
+        "held_scene": "FloorPlan26"
+      },
+      {
+        "audit": {
+          "iterations": 30,
+          "max_gradient": 1.0179715920557997e-07,
+          "objective": 256.7161595036183
+        },
+        "coefficients": [
+          0.0628722887423973,
+          -0.043762407382979894,
+          -2.502580237825107,
+          -0.26942023589555353,
+          -3.7797329359800456,
+          0.7487100478027825,
+          1.994872396376181
+        ],
+        "held_scene": "FloorPlan27"
+      },
+      {
+        "audit": {
+          "iterations": 29,
+          "max_gradient": 2.674358975274238e-06,
+          "objective": 256.9015457744269
+        },
+        "coefficients": [
+          0.054117597361891805,
+          -0.03389368273730055,
+          -2.3580673678384794,
+          -2.153713312420637,
+          -3.894105009685599,
+          0.8043006133407844,
+          1.9742786240207693
+        ],
+        "held_scene": "FloorPlan28"
+      },
+      {
+        "audit": {
+          "iterations": 31,
+          "max_gradient": 3.2375976085773257e-06,
+          "objective": 257.065904602057
+        },
+        "coefficients": [
+          0.0521691283312212,
+          -0.09391390238313733,
+          -2.39403451102182,
+          -1.2399558816962728,
+          -3.7971238491593335,
+          0.804543567732789,
+          1.966406081523513
+        ],
+        "held_scene": "FloorPlan3"
+      },
+      {
+        "audit": {
+          "iterations": 31,
+          "max_gradient": 2.422470447349667e-06,
+          "objective": 256.5127369374332
+        },
+        "coefficients": [
+          0.05679378232143043,
+          -0.053057853009675575,
+          -2.45827319675729,
+          -1.3419896172055312,
+          -3.8964166026851297,
+          0.892536977790913,
+          2.0209092897109726
+        ],
+        "held_scene": "FloorPlan30"
+      },
+      {
+        "audit": {
+          "iterations": 31,
+          "max_gradient": 4.222733111878402e-06,
+          "objective": 264.46078603642053
+        },
+        "coefficients": [
+          -0.05496189784135624,
+          0.06194172556030414,
+          -2.4627412019453727,
+          -1.3644191485321018,
+          -4.209385341869479,
+          1.045053587870766,
+          2.1858864344692166
+        ],
+        "held_scene": "FloorPlan4"
+      },
+      {
+        "audit": {
+          "iterations": 31,
+          "max_gradient": 6.837584425026361e-07,
+          "objective": 255.2086545756397
+        },
+        "coefficients": [
+          0.05492907537607543,
+          -0.004581529882938058,
+          -2.4787586450870176,
+          -1.5109248144388419,
+          -3.879536101041833,
+          0.7456133643808608,
+          2.0000122173797683
+        ],
+        "held_scene": "FloorPlan5"
+      },
+      {
+        "audit": {
+          "iterations": 28,
+          "max_gradient": 2.266870944305291e-06,
+          "objective": 259.2449270135204
+        },
+        "coefficients": [
+          0.057061691203765794,
+          -0.05219238080320184,
+          -2.231455283298558,
+          -1.1025656286305723,
+          -3.853320504005769,
+          0.8546070016000258,
+          1.9728615249567767
+        ],
+        "held_scene": "FloorPlan6"
+      },
+      {
+        "audit": {
+          "iterations": 29,
+          "max_gradient": 1.3057921191424703e-06,
+          "objective": 258.34299428454074
+        },
+        "coefficients": [
+          0.050720099490513454,
+          -0.12067526431405864,
+          -2.28071785822255,
+          -1.2035818745500786,
+          -3.7713977237917504,
+          0.8322945250307188,
+          1.9648499675492992
+        ],
+        "held_scene": "FloorPlan7"
+      },
+      {
+        "audit": {
+          "iterations": 31,
+          "max_gradient": 3.9519285666145265e-07,
+          "objective": 257.1066282832506
+        },
+        "coefficients": [
+          0.05604982214937193,
+          -0.05036258847027076,
+          -2.402331589782873,
+          -1.4886503639894038,
+          -3.84425887984935,
+          0.8332326825628125,
+          2.0054666377761814
+        ],
+        "held_scene": "FloorPlan8"
+      }
+    ],
+    "full_model": {
+      "estimation_objective": "prequential_brier",
+      "estimation_weighting": "predictable_reached_risk",
+      "kernel_implementation": "scripts/calibrate_successor_success.py:component_kernel",
+      "p_coefficients": [
+        0.05383003924664464,
+        -0.06443238229084856,
+        -2.3919857025703304,
+        -1.341044440295823,
+        -3.900363471541349,
+        0.8666687988246653,
+        2.02046047319432
+      ],
+      "p_feature_set": "seven",
+      "p_ridge": 0.01,
+      "task_offsets": [
+        -1.0,
+        0.0,
+        1.0
+      ],
+      "task_prior": [
+        0.16666666666666666,
+        0.6666666666666666,
+        0.16666666666666666
+      ],
+      "task_scale": 1.5,
+      "write_coefficients_reference_A": [
+        [
+          2.088611057670345,
+          0.2692321428465948,
+          -0.074175252959278,
+          1.3453747827792537
+        ],
+        [
+          -0.19332303952472168,
+          0.0023061830528540374,
+          -0.02109135574674955,
+          0.17866196880899646
+        ],
+        [
+          -1.275606940220993,
+          -0.1722874975137936,
+          0.21429100298482046,
+          0.3918650942925467
+        ],
+        [
+          -0.04333381840705293,
+          -0.14465724829721383,
+          -0.12026026956846869,
+          -0.5630276693928368
+        ],
+        [
+          0.11096052898786876,
+          0.4098849157800484,
+          -0.17580605183084522,
+          0.528643341880429
+        ],
+        [
+          1.6832852820285162,
+          -1.399204160937804,
+          0.21113198038829112,
+          -0.6856576002837805
+        ]
+      ],
+      "write_family": "error_lifetime"
+    },
+    "full_start_audits": [
+      {
+        "iterations": 30,
+        "max_gradient": 8.036811685239965e-07,
+        "objective": 268.8365399552452
+      },
+      {
+        "iterations": 58,
+        "max_gradient": 7.683759996685675e-06,
+        "objective": 268.8365399552452
+      },
+      {
+        "iterations": 26,
+        "max_gradient": 7.694944192414288e-06,
+        "objective": 268.8365399552493
+      }
+    ],
+    "full_start_spread": 4.092726157978177e-12,
+    "full_starts_agree": true,
+    "groups": {
+      "initial_C_N": {
+        "attempts": 580,
+        "expected_successes": 288.0318087815719,
+        "observed_successes": 313,
+        "reached_weight": 0.213860544217687,
+        "risk_per_planned_horizon": 0.054333194830131215,
+        "scene_contributions": {
+          "FloorPlan1": 0.0629877141253104,
+          "FloorPlan11": 0.06297512979227796,
+          "FloorPlan12": 0.049733860638296164,
+          "FloorPlan13": 0.05168481456983863,
+          "FloorPlan14": 0.06316057133022399,
+          "FloorPlan15": 0.052262652807302835,
+          "FloorPlan16": 0.05274566544458306,
+          "FloorPlan17": 0.050305430697062704,
+          "FloorPlan18": 0.050386659991872196,
+          "FloorPlan19": 0.049789638827182306,
+          "FloorPlan2": 0.0628170977838524,
+          "FloorPlan20": 0.06293479462353042,
+          "FloorPlan21": 0.05120325099184029,
+          "FloorPlan22": 0.050404904902040665,
+          "FloorPlan23": 0.06354942288281301,
+          "FloorPlan24": 0.05151065112372873,
+          "FloorPlan25": 0.05058631373842246,
+          "FloorPlan26": 0.06720701337719756,
+          "FloorPlan27": 0.047929964040468856,
+          "FloorPlan28": 0.06277828646846956,
+          "FloorPlan3": 0.05049842577288216,
+          "FloorPlan30": 0.049765650126741806,
+          "FloorPlan4": 0.0328013233479749,
+          "FloorPlan5": 0.0638912435906369,
+          "FloorPlan6": 0.04978543634180783,
+          "FloorPlan7": 0.05351433262074578,
+          "FloorPlan8": 0.049786010456439246
+        },
+        "weighted_conditional_brier": 0.2540589945138542,
+        "weighted_expected_success_fraction": 0.498081149307332,
+        "weighted_observed_success_fraction": 0.5089665709447039
+      },
+      "initial_error": {
+        "attempts": 180,
+        "expected_successes": 9.265984298197525,
+        "observed_successes": 6,
+        "reached_weight": 0.03613945578231293,
+        "risk_per_planned_horizon": 0.0013208548851652122,
+        "scene_contributions": {
+          "FloorPlan1": 0.0,
+          "FloorPlan11": 0.0,
+          "FloorPlan12": 0.00015077301122379095,
+          "FloorPlan13": 0.00013162012271535753,
+          "FloorPlan14": 0.0,
+          "FloorPlan15": 0.009361084354935338,
+          "FloorPlan16": 0.00015378071483504625,
+          "FloorPlan17": 0.00014990294987975614,
+          "FloorPlan18": 0.00014776065042759555,
+          "FloorPlan19": 0.0047641157032908745,
+          "FloorPlan2": 0.0,
+          "FloorPlan20": 0.0,
+          "FloorPlan21": 0.00014744917094447146,
+          "FloorPlan22": 0.00015271048538593408,
+          "FloorPlan23": 0.0,
+          "FloorPlan24": 0.008256990022791752,
+          "FloorPlan25": 0.00014825196019315783,
+          "FloorPlan26": 0.0,
+          "FloorPlan27": 0.00017562813028474994,
+          "FloorPlan28": 0.0,
+          "FloorPlan3": 0.0001425956622423965,
+          "FloorPlan30": 0.0001466646732083289,
+          "FloorPlan4": 0.011205706150547307,
+          "FloorPlan5": 0.0,
+          "FloorPlan6": 0.00015017776270304513,
+          "FloorPlan7": 0.00012975308658904675,
+          "FloorPlan8": 0.000148117287262777
+        },
+        "weighted_conditional_brier": 0.03654883164598328,
+        "weighted_expected_success_fraction": 0.05099376964394699,
+        "weighted_observed_success_fraction": 0.03703703703703703
+      },
+      "late_error": {
+        "attempts": 256,
+        "expected_successes": 10.464283258941931,
+        "observed_successes": 27,
+        "reached_weight": 0.10706569664902998,
+        "risk_per_planned_horizon": 0.010223586712437827,
+        "scene_contributions": {
+          "FloorPlan1": 0.024461213821665502,
+          "FloorPlan11": 0.02992726704156718,
+          "FloorPlan12": 0.015962519530288696,
+          "FloorPlan13": 0.00019564528801293977,
+          "FloorPlan14": 0.0,
+          "FloorPlan15": 4.3435272560059375e-05,
+          "FloorPlan16": 0.0,
+          "FloorPlan17": 0.0001028536180565198,
+          "FloorPlan18": 0.008243998667854302,
+          "FloorPlan19": 0.01612276894175779,
+          "FloorPlan2": 0.011676606077220169,
+          "FloorPlan20": 0.03523971631098764,
+          "FloorPlan21": 0.007865724557391238,
+          "FloorPlan22": 0.00026404059365382103,
+          "FloorPlan23": 0.0002963639583200205,
+          "FloorPlan24": 0.007072784509593802,
+          "FloorPlan25": 0.008244803415460406,
+          "FloorPlan26": 0.0007503326848586625,
+          "FloorPlan27": 0.020010354918813162,
+          "FloorPlan28": 0.00939733835220007,
+          "FloorPlan3": 2.0261286728509582e-05,
+          "FloorPlan30": 0.017197758563432634,
+          "FloorPlan4": 0.00013186065214811597,
+          "FloorPlan5": 0.04647637643226176,
+          "FloorPlan6": 0.00021427883167105145,
+          "FloorPlan7": 7.565688963115864e-05,
+          "FloorPlan8": 0.01604288101968614
+        },
+        "weighted_conditional_brier": 0.0954889103832348,
+        "weighted_expected_success_fraction": 0.04128814176116321,
+        "weighted_observed_success_fraction": 0.1015391743024812
+      },
+      "late_no_error": {
+        "attempts": 96,
+        "expected_successes": 9.61977901513106,
+        "observed_successes": 15,
+        "reached_weight": 0.0445188492063492,
+        "risk_per_planned_horizon": 0.005910036873843056,
+        "scene_contributions": {
+          "FloorPlan1": 0.02255545540874121,
+          "FloorPlan11": 0.0,
+          "FloorPlan12": 0.0005186953461339214,
+          "FloorPlan13": 0.0001601715885888097,
+          "FloorPlan14": 0.033871921575024846,
+          "FloorPlan15": 0.00022363339632115446,
+          "FloorPlan16": 0.0,
+          "FloorPlan17": 0.00027126704837674543,
+          "FloorPlan18": 0.00021953668139429293,
+          "FloorPlan19": 0.014956156020702705,
+          "FloorPlan2": 0.010402057111595578,
+          "FloorPlan20": 0.0013322194944317214,
+          "FloorPlan21": 0.0002013394829937431,
+          "FloorPlan22": 0.0,
+          "FloorPlan23": 0.0002983061504804498,
+          "FloorPlan24": 0.007311198330707758,
+          "FloorPlan25": 0.00018352306369382942,
+          "FloorPlan26": 0.004711923479643545,
+          "FloorPlan27": 0.0004758229698511775,
+          "FloorPlan28": 0.018529195062407376,
+          "FloorPlan3": 0.008019183152743161,
+          "FloorPlan30": 0.0069368585592466375,
+          "FloorPlan4": 0.0,
+          "FloorPlan5": 0.010466441740892053,
+          "FloorPlan6": 0.009065029866463688,
+          "FloorPlan7": 0.0,
+          "FloorPlan8": 0.008861060063328102
+        },
+        "weighted_conditional_brier": 0.13275358593501507,
+        "weighted_expected_success_fraction": 0.1056209160531065,
+        "weighted_observed_success_fraction": 0.144661095636026
+      },
+      "second_attempt": {
+        "attempts": 441,
+        "expected_successes": 78.88195134694492,
+        "observed_successes": 59,
+        "reached_weight": 0.13981363378684805,
+        "risk_per_planned_horizon": 0.017966866961418682,
+        "scene_contributions": {
+          "FloorPlan1": 0.015528964955482755,
+          "FloorPlan11": 0.0016144892058990933,
+          "FloorPlan12": 0.018728777108379217,
+          "FloorPlan13": 0.013195685889009878,
+          "FloorPlan14": 0.026629500999503293,
+          "FloorPlan15": 0.009534053151880294,
+          "FloorPlan16": 0.012197502884320349,
+          "FloorPlan17": 0.013586451582921915,
+          "FloorPlan18": 0.0043255044737817916,
+          "FloorPlan19": 0.022702487412085026,
+          "FloorPlan2": 0.018047223175447564,
+          "FloorPlan20": 0.01799081695186753,
+          "FloorPlan21": 0.011169461343964276,
+          "FloorPlan22": 0.005780568480813818,
+          "FloorPlan23": 0.043848511279160084,
+          "FloorPlan24": 0.013551564768624439,
+          "FloorPlan25": 0.03300755311718306,
+          "FloorPlan26": 0.014260904030769394,
+          "FloorPlan27": 0.03405246820019106,
+          "FloorPlan28": 0.028693005608520533,
+          "FloorPlan3": 0.027876687750367626,
+          "FloorPlan30": 0.01718682502639587,
+          "FloorPlan4": 0.02693802841764294,
+          "FloorPlan5": 0.0263424185740625,
+          "FloorPlan6": 0.007980167359244589,
+          "FloorPlan7": 0.009241986283150249,
+          "FloorPlan8": 0.011093799927635284
+        },
+        "weighted_conditional_brier": 0.12850582932999188,
+        "weighted_expected_success_fraction": 0.18380844326465873,
+        "weighted_observed_success_fraction": 0.1449842178916456
+      }
+    },
+    "mode": "prequential_brier",
+    "parameter_fits": 30,
+    "prediction_file": "seven-reached-risk-predictions-prequential_brier-20261027.json",
+    "prediction_sha256": "6a058ae087c4adba9e120200a7ece7ea0cdf7cb4359b03362dd82d9ba8e72ae8",
+    "primary": {
+      "attempts": 1553,
+      "expected_successes": 396.26380670078777,
+      "observed_successes": 420,
+      "reached_weight": 0.5413981796422275,
+      "risk_per_planned_horizon": 0.089754540262996,
+      "scene_contributions": {
+        "FloorPlan1": 0.12553334831119986,
+        "FloorPlan11": 0.09451688603974423,
+        "FloorPlan12": 0.08509462563432178,
+        "FloorPlan13": 0.06536793745816563,
+        "FloorPlan14": 0.1236619939047521,
+        "FloorPlan15": 0.0714248589829997,
+        "FloorPlan16": 0.06509694904373846,
+        "FloorPlan17": 0.06441590589629764,
+        "FloorPlan18": 0.06332346046533015,
+        "FloorPlan19": 0.1083351669050187,
+        "FloorPlan2": 0.10294298414811573,
+        "FloorPlan20": 0.1174975473808173,
+        "FloorPlan21": 0.070587225547134,
+        "FloorPlan22": 0.05660222446189423,
+        "FloorPlan23": 0.10799260427077358,
+        "FloorPlan24": 0.0877031887554465,
+        "FloorPlan25": 0.09217044529495293,
+        "FloorPlan26": 0.08693017357246914,
+        "FloorPlan27": 0.10264423825960897,
+        "FloorPlan28": 0.11939782549159747,
+        "FloorPlan3": 0.08655715362496384,
+        "FloorPlan30": 0.09123375694902523,
+        "FloorPlan4": 0.07107691856831326,
+        "FloorPlan5": 0.14717648033785316,
+        "FloorPlan6": 0.06719509016189024,
+        "FloorPlan7": 0.06296172888011625,
+        "FloorPlan8": 0.0859318687543515
+      },
+      "weighted_conditional_brier": 0.16578286303494508,
+      "weighted_expected_success_fraction": 0.2644714921328732,
+      "weighted_observed_success_fraction": 0.27293893856917867
+    }
+  },
+  "calibration_constraints": "Absolute fixed-start-weight mean prediction-minus-observation within delta for five predetermined groups; empirical moment compatibility only",
+  "cases": [
+    {
+      "name": "all_tol0",
+      "omit": null,
+      "tolerance": 0.0
+    },
+    {
+      "name": "all_tol0.02",
+      "omit": null,
+      "tolerance": 0.02
+    },
+    {
+      "name": "all_tol0.05",
+      "omit": null,
+      "tolerance": 0.05
+    },
+    {
+      "name": "omit_initial_C_N",
+      "omit": "initial_C_N",
+      "tolerance": 0.02
+    },
+    {
+      "name": "omit_initial_error",
+      "omit": "initial_error",
+      "tolerance": 0.02
+    },
+    {
+      "name": "omit_second_attempt",
+      "omit": "second_attempt",
+      "tolerance": 0.02
+    },
+    {
+      "name": "omit_late_error",
+      "omit": "late_error",
+      "tolerance": 0.02
+    },
+    {
+      "name": "omit_late_no_error",
+      "omit": "late_no_error",
+      "tolerance": 0.02
+    }
+  ],
+  "checks": {
+    "derivatives": [
+      {
+        "moment_jacobian_error": 5.4376891878149536e-11,
+        "point": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "risk_gradient_error": 9.583236981747234e-13
+      },
+      {
+        "moment_jacobian_error": 6.275818753564977e-11,
+        "point": [
+          -0.3,
+          -0.2,
+          -0.1,
+          0.0,
+          0.09999999999999998,
+          0.19999999999999996,
+          0.3
+        ],
+        "risk_gradient_error": 1.4634057854401306e-12
+      },
+      {
+        "moment_jacobian_error": 6.939421259843925e-12,
+        "point": [
+          -0.035820187583717224,
+          0.14741280332906895,
+          -1.3341855488743963,
+          -7.124556141956235,
+          -4.631550958986969,
+          1.2976601733071207,
+          1.3343958086674566
+        ],
+        "risk_gradient_error": 6.74077655672678e-13
+      }
+    ],
+    "group_attempt_counts": {
+      "initial_C_N": 580,
+      "initial_error": 180,
+      "late_error": 256,
+      "late_no_error": 96,
+      "second_attempt": 441
+    },
+    "groups_partition_attempts": true,
+    "previous_objective_matches": true
+  },
+  "coordinate_profiles": "Fix one existing coefficient at Brier beta plus offset, reoptimize remaining6 from Brier beta; 4axes*4=16 solves; reuse center",
+  "cross_validation": "All five group tolerances fixed0.02; 27whole-scene folds, two TRAINING-ONLY starts from previous Brier and MLE fold betas =54 solves; choose converged feasible lower TRAINING J; never use held outcomes to fit constraints",
+  "dependency": {
+    "failed_server_download_timeout_seconds": 120,
+    "installation_seconds": 5.879914378980175,
+    "isolated_task_dependency": true,
+    "numpy": "1.26.4",
+    "route": "Workstation public-PyPI wheel download and SSH transfer after direct-server download timeout",
+    "scipy": "1.15.3",
+    "wheel_name": "scipy-1.15.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "wheel_sha256": "9e2abc762b0811e09a0d3258abee2d98e0c703eee49464ce0069590846f31d40"
+  },
+  "full_start_order": "Previous full predictable-Brier beta, previous full MLE beta, zero beta; 8cases*3=24 solves",
+  "groups": [
+    "initial_C_N",
+    "initial_error",
+    "second_attempt",
+    "late_error",
+    "late_no_error"
+  ],
+  "holdout134_calls": 0,
+  "input_rows_sha256": "3548f4e8cca6fd64feee3cc403875076d417efbf41ae708a4a57d5a4abc6d264",
+  "limits": {
+    "bootstrap_draws": 20000,
+    "computation_seconds": 900,
+    "cpu_workers": 2,
+    "new_agent_calls": 0,
+    "parameter_solves": 94
+  },
+  "mle_reference": {
+    "coefficient_local_correlation": [
+      [
+        1.0,
+        -0.9976201038372305,
+        -0.003946546019765624,
+        0.003778771053517689,
+        -0.17023480789604128,
+        0.0725711812209522,
+        0.16849077697175846
+      ],
+      [
+        -0.9976201038372305,
+        1.0,
+        -0.012451280878939033,
+        -0.0032291403607369704,
+        0.16528625311581344,
+        -0.0733602393236677,
+        -0.16274742655118385
+      ],
+      [
+        -0.003946546019766666,
+        -0.012451280878938029,
+        1.0,
+        -0.2591860203025966,
+        0.006277623712660975,
+        0.00948203928380097,
+        -0.2761355082668951
+      ],
+      [
+        0.003778771053517481,
+        -0.003229140360736759,
+        -0.2591860203025966,
+        1.0,
+        -0.0418558338792476,
+        0.05019286844934347,
+        0.047127031680199265
+      ],
+      [
+        -0.17023480789603526,
+        0.1652862531158075,
+        0.006277623712659791,
+        -0.04185583387924754,
+        1.0,
+        -0.8762793838180176,
+        -0.09847668213704679
+      ],
+      [
+        0.07257118122094364,
+        -0.07336023932365922,
+        0.009482039283802087,
+        0.05019286844934315,
+        -0.8762793838180141,
+        1.0,
+        -0.3503305727551084
+      ],
+      [
+        0.1684907769717645,
+        -0.16274742655118993,
+        -0.27613550826689487,
+        0.047127031680199695,
+        -0.09847668213705388,
+        -0.3503305727551018,
+        1.0
+      ]
+    ],
+    "config": {
+      "name": "ridge0.01_scale1.5",
+      "ridge": 0.01,
+      "scale": 1.5
+    },
+    "elapsed_seconds": 6.683096131077036,
+    "finite_difference_max_error": 4.1955180052344226e-08,
+    "folds": [
+      {
+        "coefficients": [
+          -0.07870666278832913,
+          0.14531534703427554,
+          -1.2370198972073259,
+          -0.712460267614535,
+          -4.193410028247356,
+          1.0490762459959948,
+          1.9722699314137593
+        ],
+        "scene_id": "FloorPlan1",
+        "training_audit": {
+          "iterations": 17,
+          "max_gradient": 5.918877216258556e-06,
+          "objective": 654.9912091104487,
+          "rank": 7
+        }
+      },
+      {
+        "coefficients": [
+          -0.08512529694155734,
+          0.10013884155868444,
+          -1.1378008329388767,
+          -0.47348704369262323,
+          -4.212792618969402,
+          1.1208743405967996,
+          1.9287330777528675
+        ],
+        "scene_id": "FloorPlan11",
+        "training_audit": {
+          "iterations": 17,
+          "max_gradient": 6.708069646875524e-06,
+          "objective": 665.9475565433686,
+          "rank": 7
+        }
+      },
+      {
+        "coefficients": [
+          -0.07732786831491581,
+          0.13456832334451255,
+          -1.0151965750064185,
+          -0.013142016379806911,
+          -4.178468529922802,
+          1.0876516196477666,
+          1.7985244961353317
+        ],
+        "scene_id": "FloorPlan12",
+        "training_audit": {
+          "iterations": 17,
+          "max_gradient": 1.1120507000120586e-06,
+          "objective": 650.3218989283415,
+          "rank": 7
+        }
+      },
+      {
+        "coefficients": [
+          -0.08939650770014175,
+          0.07796713366909895,
+          -1.0756217642346946,
+          -0.5058827696971813,
+          -4.150680019756154,
+          1.152234071597019,
+          1.8782754306913776
+        ],
+        "scene_id": "FloorPlan13",
+        "training_audit": {
+          "iterations": 17,
+          "max_gradient": 2.0105417868065967e-07,
+          "objective": 660.8239523277332,
+          "rank": 7
+        }
+      },
+      {
+        "coefficients": [
+          -0.08921983719509043,
+          0.0928585662110268,
+          -1.160256417811959,
+          -0.4480665285421863,
+          -4.201348106834615,
+          1.1142662884939958,
+          1.9339745227084884
+        ],
+        "scene_id": "FloorPlan14",
+        "training_audit": {
+          "iterations": 18,
+          "max_gradient": 2.634717283234167e-08,
+          "objective": 671.6582380732076,
+          "rank": 7
+        }
+      },
+      {
+        "coefficients": [
+          0.2482194910003248,
+          -0.2972469303823925,
+          -0.9171325229460539,
+          -0.6409413068507204,
+          -4.372545225078891,
+          0.9590353625067921,
+          2.186604321307176
+        ],
+        "scene_id": "FloorPlan15",
+        "training_audit": {
+          "iterations": 16,
+          "max_gradient": 7.114128156944163e-07,
+          "objective": 655.6455913740507,
+          "rank": 7
+        }
+      },
+      {
+        "coefficients": [
+          -0.11050366447107351,
+          0.06014811320130972,
+          -0.998017264047389,
+          -0.5595611749295772,
+          -4.055904378265041,
+          1.0670034805520543,
+          1.776118773516225
+        ],
+        "scene_id": "FloorPlan16",
+        "training_audit": {
+          "iterations": 17,
+          "max_gradient": 2.584000499961103e-07,
+          "objective": 663.6151812234061,
+          "rank": 7
+        }
+      },
+      {
+        "coefficients": [
+          -0.10244351645238284,
+          0.09854352448879258,
+          -1.0078846058719138,
+          -0.3382306107736739,
+          -4.054579418588336,
+          1.0239595921674027,
+          1.862909460684979
+        ],
+        "scene_id": "FloorPlan17",
+        "training_audit": {
+          "iterations": 17,
+          "max_gradient": 7.837597763571402e-07,
+          "objective": 660.4934037784011,
+          "rank": 7
+        }
+      },
+      {
+        "coefficients": [
+          -0.05368128837025338,
+          0.0568823166707821,
+          -1.012621473493319,
+          -0.3500566266911692,
+          -4.384454531193916,
+          1.4048307644357665,
+          1.7948421308989297
+        ],
+        "scene_id": "FloorPlan18",
+        "training_audit": {
+          "iterations": 16,
+          "max_gradient": 1.4330773809578812e-06,
+          "objective": 661.4589617057107,
+          "rank": 7
+        }
+      },
+      {
+        "coefficients": [
+          0.09216685824875377,
+          -0.06771249669604817,
+          -1.1483557633188088,
+          -0.46693388930539975,
+          -4.380485161496775,
+          1.1305862650906717,
+          2.033644282407626
+        ],
+        "scene_id": "FloorPlan19",
+        "training_audit": {
+          "iterations": 17,
+          "max_gradient": 3.784651670057926e-06,
+          "objective": 645.4809606592372,
+          "rank": 7
+        }
+      },
+      {
+        "coefficients": [
+          -0.045169206737462955,
+          0.05529998618699368,
+          -1.1020915953690205,
+          -0.49522392945532095,
+          -4.481812816153311,
+          1.4505363961605133,
+          1.843934252018476
+        ],
+        "scene_id": "FloorPlan2",
+        "training_audit": {
+          "iterations": 17,
+          "max_gradient": 1.003889326641372e-06,
+          "objective": 663.1036698715861,
+          "rank": 7
+        }
+      },
+      {
+        "coefficients": [
+          -0.03652111317029098,
+          0.09740042273304202,
+          -0.9879945643242357,
+          -1.213638879219458,
+          -4.48677875641768,
+          1.4054660564836516,
+          1.789992978805575
+        ],
+        "scene_id": "FloorPlan20",
+        "training_audit": {
+          "iterations": 17,
+          "max_gradient": 3.767930195782386e-07,
+          "objective": 657.340622732831,
+          "rank": 7
+        }
+      },
+      {
+        "coefficients": [
+          -0.1117023388926561,
+          0.09642978415623592,
+          -1.0076362975365136,
+          -0.5766784573855664,
+          -4.027914149903969,
+          0.9716500982535813,
+          1.8401445516704864
+        ],
+        "scene_id": "FloorPlan21",
+        "training_audit": {
+          "iterations": 16,
+          "max_gradient": 1.9410386792128144e-06,
+          "objective": 660.3068909719324,
+          "rank": 7
+        }
+      },
+      {
+        "coefficients": [
+          -0.09779163353091799,
+          0.08895973596430987,
+          -1.025930140939684,
+          -0.5629529987503565,
+          -4.090679453222945,
+          1.074754528114281,
+          1.8731549256194102
+        ],
+        "scene_id": "FloorPlan22",
+        "training_audit": {
+          "iterations": 17,
+          "max_gradient": 8.167218635366652e-07,
+          "objective": 664.0956934760815,
+          "rank": 7
+        }
+      },
+      {
+        "coefficients": [
+          -0.07570530088286122,
+          0.1359021746923934,
+          -1.0765515325390542,
+          -0.20341057074099453,
+          -4.220114834410618,
+          1.089917290054893,
+          1.9035005365932918
+        ],
+        "scene_id": "FloorPlan23",
+        "training_audit": {
+          "iterations": 16,
+          "max_gradient": 1.966409260090174e-06,
+          "objective": 661.1846427955347,
+          "rank": 7
+        }
+      },
+      {
+        "coefficients": [
+          0.31323154468062614,
+          -0.3100023412961918,
+          -1.1017437384583888,
+          -0.4846098724363332,
+          -4.834902522007781,
+          1.4893687172548087,
+          2.2135312731471566
+        ],
+        "scene_id": "FloorPlan24",
+        "training_audit": {
+          "iterations": 18,
+          "max_gradient": 1.694497558911174e-06,
+          "objective": 647.4049160983839,
+          "rank": 7
+        }
+      },
+      {
+        "coefficients": [
+          -0.08294363936677339,
+          0.17335698911486794,
+          -1.0437743510698303,
+          -0.5795536316931906,
+          -4.099816258019391,
+          0.9540663648875172,
+          1.8554664241323715
+        ],
+        "scene_id": "FloorPlan25",
+        "training_audit": {
+          "iterations": 15,
+          "max_gradient": 6.75038728563393e-06,
+          "objective": 652.0815958562848,
+          "rank": 7
+        }
+      },
+      {
+        "coefficients": [
+          -0.07842485594282916,
+          0.11964799269587455,
+          -1.0297133607800377,
+          -0.5797091367187712,
+          -4.225397791080453,
+          1.1129916385206202,
+          1.8852861532666434
+        ],
+        "scene_id": "FloorPlan26",
+        "training_audit": {
+          "iterations": 16,
+          "max_gradient": 4.528730707220596e-06,
+          "objective": 680.7118762817881,
+          "rank": 7
+        }
+      },
+      {
+        "coefficients": [
+          -0.08065135361342914,
+          0.14663211552920163,
+          -1.1752025632429197,
+          0.0841561329305433,
+          -4.1337234192044425,
+          1.0385451745649232,
+          1.8631295465242412
+        ],
+        "scene_id": "FloorPlan27",
+        "training_audit": {
+          "iterations": 16,
+          "max_gradient": 4.026665447775732e-06,
+          "objective": 651.8758648106422,
+          "rank": 7
+        }
+      },
+      {
+        "coefficients": [
+          -0.08617162560488169,
+          0.1423310153085915,
+          -0.9925365162121667,
+          -1.1309941733679438,
+          -4.165561820996551,
+          1.0093112699810918,
+          1.8553827631256392
+        ],
+        "scene_id": "FloorPlan28",
+        "training_audit": {
+          "iterations": 17,
+          "max_gradient": 6.197716861944258e-06,
+          "objective": 654.1662119375584,
+          "rank": 7
+        }
+      },
+      {
+        "coefficients": [
+          -0.10522101983272823,
+          0.08992735332751764,
+          -1.0672821834656885,
+          -0.521474016091629,
+          -4.066698174274136,
+          1.0288670955522687,
+          1.839815032381518
+        ],
+        "scene_id": "FloorPlan3",
+        "training_audit": {
+          "iterations": 16,
+          "max_gradient": 2.518797292568628e-06,
+          "objective": 656.8507959329486,
+          "rank": 7
+        }
+      },
+      {
+        "coefficients": [
+          -0.07652816334414836,
+          0.12914700085530326,
+          -1.1527496147565905,
+          -0.4797423713400147,
+          -4.167803288137691,
+          1.1065521507394733,
+          1.8833670038483448
+        ],
+        "scene_id": "FloorPlan30",
+        "training_audit": {
+          "iterations": 17,
+          "max_gradient": 1.4411246627710206e-06,
+          "objective": 651.9489600331445,
+          "rank": 7
+        }
+      },
+      {
+        "coefficients": [
+          -0.9515418183953248,
+          0.9904208558263059,
+          -1.0791190938659776,
+          -0.5342154084717168,
+          -4.384775714050029,
+          1.2026762032931242,
+          2.0040547054726128
+        ],
+        "scene_id": "FloorPlan4",
+        "training_audit": {
+          "iterations": 16,
+          "max_gradient": 5.124462753497427e-06,
+          "objective": 668.106707006043,
+          "rank": 7
+        }
+      },
+      {
+        "coefficients": [
+          -0.08686249784437967,
+          0.16959388322484417,
+          -1.1241701974095573,
+          -0.5225416186928448,
+          -4.138537382653034,
+          0.9356034407957294,
+          1.8751539354299271
+        ],
+        "scene_id": "FloorPlan5",
+        "training_audit": {
+          "iterations": 16,
+          "max_gradient": 1.8265220807812954e-06,
+          "objective": 650.6947040641303,
+          "rank": 7
+        }
+      },
+      {
+        "coefficients": [
+          -0.07327428556704527,
+          0.1443041633823762,
+          -1.0041458624742279,
+          -0.4935341086399276,
+          -4.189054580888691,
+          1.0864927904586814,
+          1.8782709336573338
+        ],
+        "scene_id": "FloorPlan6",
+        "training_audit": {
+          "iterations": 16,
+          "max_gradient": 2.301494538781146e-06,
+          "objective": 661.4743524745946,
+          "rank": 7
+        }
+      },
+      {
+        "coefficients": [
+          -0.10801168378397763,
+          0.05229946819373006,
+          -1.0069356328335286,
+          -0.5512532895415976,
+          -4.0858987900602575,
+          1.1030075424541697,
+          1.8341170653170122
+        ],
+        "scene_id": "FloorPlan7",
+        "training_audit": {
+          "iterations": 17,
+          "max_gradient": 7.0465743359331146e-06,
+          "objective": 660.8210264012447,
+          "rank": 7
+        }
+      },
+      {
+        "coefficients": [
+          -0.09232173284747479,
+          0.13822206443374116,
+          -1.0582119373969419,
+          -1.4403701554967483,
+          -4.049651693135814,
+          0.9863273049445097,
+          1.8769910857057615
+        ],
+        "scene_id": "FloorPlan8",
+        "training_audit": {
+          "iterations": 18,
+          "max_gradient": 1.0307732029105066e-06,
+          "objective": 651.6307638255754,
+          "rank": 7
+        }
+      }
+    ],
+    "full_model": {
+      "kernel_implementation": "scripts/calibrate_successor_success.py:component_kernel",
+      "p_coefficients": [
+        -0.08337585050527865,
+        0.10698123192192063,
+        -1.0643970689781364,
+        -0.5410192688013897,
+        -4.215820741410194,
+        1.1143346641816094,
+        1.8946490311390947
+      ],
+      "p_feature_set": "seven",
+      "p_ridge": 0.01,
+      "task_offsets": [
+        -1.0,
+        0.0,
+        1.0
+      ],
+      "task_prior": [
+        0.16666666666666666,
+        0.6666666666666666,
+        0.16666666666666666
+      ],
+      "task_scale": 1.5,
+      "write_coefficients_reference_A": [
+        [
+          2.088611057670345,
+          0.2692321428465948,
+          -0.074175252959278,
+          1.3453747827792537
+        ],
+        [
+          -0.19332303952472168,
+          0.0023061830528540374,
+          -0.02109135574674955,
+          0.17866196880899646
+        ],
+        [
+          -1.275606940220993,
+          -0.1722874975137936,
+          0.21429100298482046,
+          0.3918650942925467
+        ],
+        [
+          -0.04333381840705293,
+          -0.14465724829721383,
+          -0.12026026956846869,
+          -0.5630276693928368
+        ],
+        [
+          0.11096052898786876,
+          0.4098849157800484,
+          -0.17580605183084522,
+          0.528643341880429
+        ],
+        [
+          1.6832852820285162,
+          -1.399204160937804,
+          0.21113198038829112,
+          -0.6856576002837805
+        ]
+      ],
+      "write_family": "error_lifetime"
+    },
+    "full_start_audits": [
+      {
+        "iterations": 17,
+        "max_gradient": 8.861476477088018e-07,
+        "objective": 684.1655538415415,
+        "rank": 7
+      },
+      {
+        "iterations": 18,
+        "max_gradient": 8.358481093512227e-06,
+        "objective": 684.1655538415421,
+        "rank": 7
+      },
+      {
+        "iterations": 15,
+        "max_gradient": 3.783714904892488e-06,
+        "objective": 684.1655538415606,
+        "rank": 7
+      }
+    ],
+    "groups": {
+      "initial_C_N": {
+        "attempts": 580,
+        "expected_successes": 292.61759761517436,
+        "mean_brier": 0.2532938888996894,
+        "observed_successes": 313,
+        "scene_scores": {
+          "FloorPlan1": 0.25453034711401856,
+          "FloorPlan11": 0.24919839877050573,
+          "FloorPlan12": 0.2536914541747424,
+          "FloorPlan13": 0.2504698211453614,
+          "FloorPlan14": 0.24973816813414182,
+          "FloorPlan15": 0.257689031872158,
+          "FloorPlan16": 0.2563440478895219,
+          "FloorPlan17": 0.25030210067408926,
+          "FloorPlan18": 0.24980258119672555,
+          "FloorPlan19": 0.24965004803936583,
+          "FloorPlan2": 0.24956638406802406,
+          "FloorPlan20": 0.25412453358995124,
+          "FloorPlan21": 0.2511911571712189,
+          "FloorPlan22": 0.2505496681414242,
+          "FloorPlan23": 0.2566809355733185,
+          "FloorPlan24": 0.24978213151004988,
+          "FloorPlan25": 0.26295293756083754,
+          "FloorPlan26": 0.25899858844162993,
+          "FloorPlan27": 0.25615094485356865,
+          "FloorPlan28": 0.25318500849929926,
+          "FloorPlan3": 0.2514291923815506,
+          "FloorPlan30": 0.25012959274905355,
+          "FloorPlan4": 0.2514727552825935,
+          "FloorPlan5": 0.25926731727527785,
+          "FloorPlan6": 0.2557235578236795,
+          "FloorPlan7": 0.2569250160452418,
+          "FloorPlan8": 0.2493892803142648
+        },
+        "scenes": 27
+      },
+      "initial_error": {
+        "attempts": 180,
+        "expected_successes": 8.36950041810344,
+        "mean_brier": 0.03338684720010188,
+        "observed_successes": 6,
+        "scene_scores": {
+          "FloorPlan12": 0.002502931829165189,
+          "FloorPlan13": 0.0025780669129197393,
+          "FloorPlan15": 0.18662161030799232,
+          "FloorPlan16": 0.0025094344527887675,
+          "FloorPlan17": 0.00255442296131708,
+          "FloorPlan18": 0.002566997712929111,
+          "FloorPlan19": 0.0944064976344801,
+          "FloorPlan21": 0.0024274174840539895,
+          "FloorPlan22": 0.0025634163269214103,
+          "FloorPlan24": 0.18828879914843388,
+          "FloorPlan25": 0.0024954136060711613,
+          "FloorPlan27": 0.002556599636317802,
+          "FloorPlan3": 0.002468114690942042,
+          "FloorPlan30": 0.0026055100553213613,
+          "FloorPlan4": 0.09616421394624564,
+          "FloorPlan6": 0.0025108578408552643,
+          "FloorPlan7": 0.0024879706745463597,
+          "FloorPlan8": 0.002654974380532564
+        },
+        "scenes": 18
+      },
+      "late_error": {
+        "attempts": 256,
+        "expected_successes": 22.383105714272443,
+        "mean_brier": 0.1361311687991375,
+        "observed_successes": 27,
+        "scene_scores": {
+          "FloorPlan1": 0.08973102083445189,
+          "FloorPlan11": 0.07967229871470612,
+          "FloorPlan12": 0.25371519383857616,
+          "FloorPlan13": 0.008505251523861376,
+          "FloorPlan15": 0.009540278672290424,
+          "FloorPlan17": 0.006798772673966577,
+          "FloorPlan18": 0.14989873011765814,
+          "FloorPlan19": 0.34148260821252574,
+          "FloorPlan2": 0.15019039514820565,
+          "FloorPlan20": 0.2703821866296307,
+          "FloorPlan21": 0.7922929912665168,
+          "FloorPlan22": 0.009737636772582223,
+          "FloorPlan23": 0.0075038867856463635,
+          "FloorPlan24": 0.09475386229091774,
+          "FloorPlan25": 0.0735005424870255,
+          "FloorPlan26": 0.00858812138101251,
+          "FloorPlan27": 0.15043948869247237,
+          "FloorPlan28": 0.2693373452712619,
+          "FloorPlan3": 0.004043863108877624,
+          "FloorPlan30": 0.09118864918428184,
+          "FloorPlan4": 0.006685094001241933,
+          "FloorPlan5": 0.39742659701905764,
+          "FloorPlan6": 0.007321537686002592,
+          "FloorPlan7": 0.00952193426246209,
+          "FloorPlan8": 0.12102093340320616
+        },
+        "scenes": 25
+      },
+      "late_no_error": {
+        "attempts": 96,
+        "expected_successes": 21.29160350355687,
+        "mean_brier": 0.1954273957636988,
+        "observed_successes": 15,
+        "scene_scores": {
+          "FloorPlan1": 0.3796348224817125,
+          "FloorPlan12": 0.06203909038127057,
+          "FloorPlan13": 0.046760429941022204,
+          "FloorPlan14": 0.5724910567402169,
+          "FloorPlan15": 0.05293061990137754,
+          "FloorPlan17": 0.042992158664943006,
+          "FloorPlan18": 0.05065959075911902,
+          "FloorPlan19": 0.47077685806669045,
+          "FloorPlan2": 0.5991404022348412,
+          "FloorPlan20": 0.05507418286652118,
+          "FloorPlan21": 0.04995607014025692,
+          "FloorPlan23": 0.05348602030041422,
+          "FloorPlan24": 0.13584068830183524,
+          "FloorPlan25": 0.05363671055379343,
+          "FloorPlan26": 0.05176333697055745,
+          "FloorPlan27": 0.0530177822811126,
+          "FloorPlan28": 0.3375044645241712,
+          "FloorPlan3": 0.3708430041807943,
+          "FloorPlan30": 0.30393108941397634,
+          "FloorPlan5": 0.17458064144843036,
+          "FloorPlan6": 0.1316921667522803,
+          "FloorPlan8": 0.2506515198960366
+        },
+        "scenes": 22
+      }
+    },
+    "hessian_condition_number": 1338.8975466701295,
+    "hessian_eigenvalues": [
+      0.17339006754244057,
+      0.5497398284123594,
+      0.9269530503812848,
+      2.8247304290884747,
+      10.007152581645103,
+      87.20577214493773,
+      232.15153604954173
+    ],
+    "parameter_fits": 30,
+    "prediction_file": "seven-parameter-development-predictions-ridge0.01_scale1.5-20261027.json",
+    "prediction_sha256": "f8547a0ed7abb3cbedfdc0cb6fa53aaa1af111276179945f626449c64924623e",
+    "primary": {
+      "attempts": 1553,
+      "mean_brier": 0.19864858933425728,
+      "scene_scores": {
+        "FloorPlan1": 0.1994470117201877,
+        "FloorPlan11": 0.20865672841939864,
+        "FloorPlan12": 0.1826782816624059,
+        "FloorPlan13": 0.17710876883003063,
+        "FloorPlan14": 0.27465796908643686,
+        "FloorPlan15": 0.24849061654795898,
+        "FloorPlan16": 0.22349518197579735,
+        "FloorPlan17": 0.18140020759566106,
+        "FloorPlan18": 0.17773894426639278,
+        "FloorPlan19": 0.23371427523309157,
+        "FloorPlan2": 0.23990611281207502,
+        "FloorPlan20": 0.20310902151341384,
+        "FloorPlan21": 0.20788083272585672,
+        "FloorPlan22": 0.16802093662076364,
+        "FloorPlan23": 0.20242562151626076,
+        "FloorPlan24": 0.21950162445616528,
+        "FloorPlan25": 0.17203663789429488,
+        "FloorPlan26": 0.09994812068239606,
+        "FloorPlan27": 0.1858666730434445,
+        "FloorPlan28": 0.22778597713868945,
+        "FloorPlan3": 0.22610145907835344,
+        "FloorPlan30": 0.1764228613501689,
+        "FloorPlan4": 0.17595480728180954,
+        "FloorPlan5": 0.23119238685386753,
+        "FloorPlan6": 0.1436102005799176,
+        "FloorPlan7": 0.21158138767312873,
+        "FloorPlan8": 0.16477926546697866
+      },
+      "scenes": 27
+    }
+  },
+  "near_optimal_witness": "Feasible coefficients with J<=previous full Brier J+0.001; J=R+original penalty/3040. No global impossibility claim if search fails",
+  "new_model_calls": 0,
+  "optimizer": {
+    "coefficient_bounds": [
+      [
+        -30.0,
+        30.0
+      ],
+      [
+        -30.0,
+        30.0
+      ],
+      [
+        -30.0,
+        30.0
+      ],
+      [
+        -30.0,
+        30.0
+      ],
+      [
+        -30.0,
+        30.0
+      ],
+      [
+        -30.0,
+        30.0
+      ],
+      [
+        -30.0,
+        30.0
+      ]
+    ],
+    "feasibility_tolerance": 1e-06,
+    "name": "SciPy SLSQP",
+    "options": {
+      "disp": false,
+      "ftol": 1e-11,
+      "maxiter": 300
+    }
+  },
+  "parent_audit_sha256": "5ed59cf62881d748661bae39928a178b65d154305f0abc2549a867020af32578",
+  "parent_protocol_sha256": "895bfc86bee2dac862badc66fd426480e46aca1c31aea27fc93af561ae8567e6",
+  "parent_result_sha256": "2d9d05943fd439a8e7de5048353eab0255fc9f4b010a698ebd88fee3d3ba4ec1",
+  "private_input_file_sha256": "6681c10a4e1d874c992d2f517dc82c18bc4f671765f5c70c6e5392e2c05a67bf",
+  "profile_axes": {
+    "2": "native_count",
+    "4": "error_presence",
+    "5": "error_lifetime",
+    "6": "error_native_interaction"
+  },
+  "profile_offsets": [
+    -1.0,
+    -0.5,
+    0.5,
+    1.0
+  ],
+  "protected_files": {
+    "configs/qwen3_8b_non_thinking_wrapper.json": "ae1849a57bdf8f7454fadc3af7593133216bdd2023fb6e42649ce331fdc02b6a",
+    "configs/reflexion_qwen3_8b_protocol.json": "0a1b83abc85ba7c7bd5738e7a8ad64c82f43d5ff8158c36bf25dc0d678cf58f1",
+    "docs/experiments/seven-compatibility-design-20261027.md": "c489ebbb91d1192a37f0ed6d195872746523c82a08ee0fae590594a9976a7456",
+    "docs/experiments/seven-parameter-development-design-20261027.md": "4120ca0e393a912712d468a0a693f35f9dee6d0b3f6b315e9ab07e5dc690b56c",
+    "docs/experiments/seven-reached-risk-design-20261027.md": "5a079f9770cab71920181f4215f8fe061d1acff0509e48b9285b8f82910e843a",
+    "docs/experiments/seven-sequential-objectives-design-20261027.md": "8e039f1d6d47239c86f85a60e9d079c1344f9b5cd6c0a745f1c922814f078201",
+    "docs/experiments/successor-validation-design-20261026.md": "7e8668acd6287faa59c41628b7e92db237d7d3502c7e7eaf8bab39b7c132055b",
+    "repro/baseline-20261019/holdout134.json": "5755a0305d6ef9cff30d3cbe78146d55a45498124790c2f4f664042d09df2016",
+    "repro/reflexion-20261025/seven-parameter-development-audit-20261027.json": "4ef6a74479360c9b1ce5219ea0fe9c1d4b8295ba74fec9be600f25146086aec3",
+    "repro/reflexion-20261025/seven-parameter-development-predictions-ridge0.01_scale0-20261027.json": "d5ecb15ec1eb7170238e5f4bc3b4ced1cdd3d6dc4d501dd1240f638af5e70ec6",
+    "repro/reflexion-20261025/seven-parameter-development-predictions-ridge0.01_scale1.5-20261027.json": "e5a9c33a05d18bea3496362eab09d051e53f1974f3ec8dca5423fb4066415252",
+    "repro/reflexion-20261025/seven-parameter-development-predictions-ridge0.1_scale0-20261027.json": "4c982363a6ed2d568654059ece17dff20ab6521e25acea356d32d4cc9581020f",
+    "repro/reflexion-20261025/seven-parameter-development-predictions-ridge0.1_scale1.5-20261027.json": "64da146a78e8de307b10fe626ab4c43fb39399596c87366ef79520a0f93f483f",
+    "repro/reflexion-20261025/seven-parameter-development-predictions-ridge1_scale0-20261027.json": "b3744d23e791ba979276666817c52dd7f925521b5af117288e7c20d0ba3f6c33",
+    "repro/reflexion-20261025/seven-parameter-development-predictions-ridge1_scale1.5-20261027.json": "1e5d0e9075214a1aedf46a7dd9a3ac63f5efcdb10f83b8eb47cb7d25bf120d03",
+    "repro/reflexion-20261025/seven-parameter-development-protocol-20261027.json": "6dbd686c8802a099d391eeb6d37d0ff5973b55b97d2ad8e64a0bb0a2d1e8f9bd",
+    "repro/reflexion-20261025/seven-parameter-development-results-20261027.json": "3abb036402f90427a08fc7ccefc1f9cbc9db1ce44212942da3f4bf518e301096",
+    "repro/reflexion-20261025/seven-reached-risk-audit-20261027.json": "e669aa510e48b61e4a469b67478426e85969e19fcc4ebe653dba8e59d46ab3a3",
+    "repro/reflexion-20261025/seven-reached-risk-predictions-prequential_brier-20261027.json": "2f79c5a1bb789bc7a079d925856287a5e5659e56f7090cd99817ef92fd9dde7a",
+    "repro/reflexion-20261025/seven-reached-risk-predictions-prequential_log-20261027.json": "18ca8c45682495a27df96407e76e2de0a5316b713577e686fe46be7618515964",
+    "repro/reflexion-20261025/seven-reached-risk-protocol-20261027.json": "aa249bc358e3bf10de0e0a901278ea692f168d7b7a66d74cc86e6302e31f4f95",
+    "repro/reflexion-20261025/seven-reached-risk-results-20261027.json": "5a88de082099790cb9391cb3aad2d8fbf385b66bf9dac5faa3478a1c9c1e9eba",
+    "repro/reflexion-20261025/seven-sequential-objectives-audit-20261027.json": "432505ee2ee397f486b93578eda70ac58ddd0843ddf11900ef120628ebc89f1f",
+    "repro/reflexion-20261025/seven-sequential-objectives-predictions-prequential_brier-20261027.json": "11f13dd468b460fd9652429fb4b905a107360b8c1c70100558c7f47228b52471",
+    "repro/reflexion-20261025/seven-sequential-objectives-predictions-prequential_log-20261027.json": "de121fba966fb82443367b779a0de9522347dc65d166239774b0b96f85709dd9",
+    "repro/reflexion-20261025/seven-sequential-objectives-protocol-20261027.json": "2c2ef2a36c10a492bfafa2090285bea3132cf1a4020f20fc867d15b721aa23bf",
+    "repro/reflexion-20261025/seven-sequential-objectives-results-20261027.json": "637871f3e6de44a85188efb23285865e76aa9cc380cbda231cdff84a412a1e75",
+    "repro/reflexion-20261025/shared-validation-protocol.json": "5c50631382ac2ae8db6a482a9fa3beb84ddbee4affbfb4457857578df1056768",
+    "repro/reflexion-20261025/successor-complete-diagnostic-metrics-20261027.json": "c5c7211e48b96a1a8f980b829bf1c433f70b01d0f9ea6abc417aef00a3e9f68a",
+    "repro/reflexion-20261025/successor-development-parameters-20261026.json": "50ba93dd3cff0d3778cf18ba7ff57c0ef87247dfa1958df497110c646f71496a",
+    "repro/reflexion-20261025/successor-late-semantic-labels-20261027.json": "3908629f6568ffd86e7f5efd1aadb63c4a2987ff568a2a66f765a7afad516127",
+    "repro/reflexion-20261025/successor-remaining-semantic-labels-20261027.json": "f172e3563509a9c936b86d09cb9e7291c1cf40e2b85952b0c7ff20abd250bb24",
+    "repro/reflexion-20261025/successor-reset-checks-20261026.json": "e21423be695eebbc57d1f6eea6489126e4baa31a3be78558230d9655cd77eae3",
+    "repro/reflexion-20261025/successor-validation-expanded-manifest-20261026.json": "6f6973393959a0c3ae01f3a3f0295ba57c2e0c1aa360b88f9f969754af587a89",
+    "repro/reflexion-20261025/successor-validation-expanded-plan-20261026.json": "837c2f4c5cf8ac2a526700c44b049f7e48d00b9dd2e5e34aff9710e79a5707cc",
+    "scripts/audit_reflexion_action_shapes.py": "7b026efea040a1651f43a6f70b9bf98501c08ef290b53de87c236091f6a499a6",
+    "scripts/audit_reflexion_protocol.py": "265f2fbaf841e6937ed51a0211ee0fe998ed022b31ac378d58be7284722e6ffe",
+    "scripts/calibrate_successor_success.py": "f3d0aa06f7f80b4ba5ee9667383da866603369c4e3edf58d2e4354d67f1b7c8b",
+    "scripts/compare_seven_reached_risk.py": "a5f2dfddd3b6330bb20ba3463a39f29176f0d43d380b60915a5ce4eb85eaf60a",
+    "scripts/compare_seven_sequential_objectives.py": "6d7d438daf8cccf97993685f4724b6e025efb5f5459ce0c7aba75d193a55b76c",
+    "scripts/continue_reflexion_pilot.py": "126949ac4e32a66819965717cc074711b7e3a8ad58be5d6598ec77d698fd7ab7",
+    "scripts/deployment/serve_reflexion_profiles.py": "fa6da89576a4b49636febd0d61ad51dcd7274c41ad2a7182a0412440710e4cf1",
+    "scripts/develop_seven_parameterization.py": "4d101a00325ff07ee009b0218a07b597681d8f8cb7df43aa99f4943c51652078",
+    "scripts/diagnose_success_regularization.py": "e86b02c3d42911ee45ee3543fa2c6a5bc0c0c4b5e37e9715b9d4f4a271e79db7",
+    "scripts/evaluate_successor_validation.py": "bb33e296d67f58076196db5fb2262531bb0fff4fae1665c24b60b6b5397ced49",
+    "scripts/finish_successor_validation.py": "2ca5b8f14fb348b0b49b7f0b99b5e27aa3dce129c688ecad44b8fa93455eeb43",
+    "scripts/prepare_shared_calibration.py": "1de6e45de17cbdb91697803c7d1c738ec1ac305dcb4f0e08077907c7bfa3382d",
+    "scripts/prepare_successor_protocol.py": "1d51e4180c3b483a9c9f738a2cda74183c21ddc9647c28183a18d4f386e721ae",
+    "scripts/profile_seven_compatibility.py": "4e6c93ea57b7a4c3346acbd5b4c73307779c461341051c646864c48dbbd43048",
+    "scripts/run_middle_context_transport.py": "14014ff157e9ebc3badbae4f9b5946628c7f0c214ba6faeba306839642578012",
+    "scripts/run_multiround_diagnostic.py": "4781d83c25dd7f35238e637e2b5eaf2d68483cc6619ffd90a4b9dbeeb97c8bdf",
+    "scripts/run_residual_context.py": "d86170864560be62f39ca80c768fa9b8a6b7b4fe7691c8fdb6fa223fc4b3f673",
+    "scripts/run_shared_calibration.py": "70a973fd27b8a4d8bde939cf4dd132ae6519ec7243eeb43bafb65ca6ee515e5b",
+    "scripts/run_successor_campaign.sh": "eb776be703c1d2281a153c27c0ec0289d44f292d8a6f563a4d2d78f069185a35",
+    "scripts/run_successor_validation.py": "193811740dbc238972e26da2ee48b1f7d4dfe697bea18b35adb95b6fc5e86112",
+    "scripts/shared_recovery_model.py": "d5fe54281f948d4675de08057d0cd4c7789fe580535dcce0682f3a245acaae71",
+    "scripts/summarize_reflexion.py": "e5372f9609a9a11e0abd1d1859e00c06b343b0064556a31b5e47c3944893aadc",
+    "tests/test_multiround_diagnostic.py": "55a2f8b531d23dcfc4b4b13c18e81b4ee0ed8603b4a9c230f8ed35c49c996d66",
+    "tests/test_successor_validation.py": "684bc5c5162e2a71a291853422614d36dd945077df590e59c2b2372e18a369f8"
+  },
+  "scenes": 27,
+  "scope": "Seven-dimensional compatibility diagnostics on reused development records",
+  "selection": "Primary MLE-CV minus constrained-CV predictable Brier risk; retain only for development if gain>paired scene SE, initial_C_N and late_error losses do not exceed MLE, all27folds have converged feasible fits and full tol0.02 fit exists. Do not replace historical frozen baseline",
+  "sha256": "4ce59e8547694d25878ac85dda3adaf6c7f2d2b9e58b194659ca1e88627ebded",
+  "successes": 420,
+  "tasks": 163,
+  "trajectories": 760
+}
