@@ -1,0 +1,46 @@
+{
+  "contract_sha256": "802797dee50f4b46fa87adb6d87fc3f5bc2cdf0838da6546c7c21b0bc7c16aee",
+  "first_actual_prompts_checked": 14,
+  "freeze_commit": "a087395603fcbebf510013fcb695f9dea8413b19",
+  "holdout134_calls": 0,
+  "master_receipt_file_sha256": "3293b93bc03b9cab46b2dd99ce4af3bdd4ece0cd6b453bc0ded5a9a3840809e0",
+  "owned_service_receipt_file_sha256": {
+    "2": "4572ad70d50722c4251bd15b168537d76d679badad4a4ccefcda4127bfa27f39",
+    "3": "817610e32ce775babecd1a754925c844f73e476dae606ab6d5a5678e6b28d00b"
+  },
+  "parameter_fits": 0,
+  "protected_files_checked": 95,
+  "protocol_sha256": "ad164d31101a62246469b3c5dd11714937d9783d797db4508af203c376e86d31",
+  "serving": {
+    "capabilities": [
+      "raw_completions"
+    ],
+    "data": [
+      {
+        "id": "qwen3-8b",
+        "max_model_len": 32768
+      }
+    ],
+    "dtype": "bfloat16",
+    "gpu_memory_utilization": 0.35,
+    "model_protocol_sha256": "0a1b83abc85ba7c7bd5738e7a8ad64c82f43d5ff8158c36bf25dc0d678cf58f1",
+    "model_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+    "sampling_profiles": [
+      "author_reflexion",
+      "qwen3_non_thinking_recommended_v1"
+    ],
+    "service_sha256": "fa6da89576a4b49636febd0d61ad51dcd7274c41ad2a7182a0412440710e4cf1",
+    "serving_profile": "reflexion_raw_serial_profiles_v2",
+    "tokenizer_eos_token_id": 151645
+  },
+  "sha256": "c26ae2f5146b7dbdd8e0c90d99f6f894683090f4a40c52178070ab3d346a632e",
+  "snapshot": {
+    "attempts_completed": 17,
+    "completed_trajectories": 12,
+    "derived_completed": 3,
+    "elapsed_seconds": 381.4213123321533,
+    "status": "running"
+  },
+  "startup_audit_file_sha256": "de8312a727fc360bca236e7dfc2a88e395abd5597a0a6251ac8726ba6b6f71e6",
+  "status": "running"
+}
