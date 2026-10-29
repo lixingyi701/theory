@@ -1,0 +1,50 @@
+{
+  "actual_attempts": 1594,
+  "base_trajectories": 510,
+  "derived_trajectories": 102,
+  "extra_fourth_attempts": 49,
+  "files": {
+    "repro/reflexion-20261025/recovery-mechanism-attempts-0-20261029.json": "f6c7dda057dc10cdea18966a27e590b3a3145de7f8f113e43fbb29d3dce1382e",
+    "repro/reflexion-20261025/recovery-mechanism-attempts-1-20261029.json": "0f1a897d751310e693aa3e9caf6a7e73177aa07ba2ee470be29b2b6e91024dbf",
+    "repro/reflexion-20261025/recovery-mechanism-attempts-2-20261029.json": "ce5e35bd89577bf4d744a587b134fcb9259e47bb02bf00c4817a4af7427265fa",
+    "repro/reflexion-20261025/recovery-mechanism-attempts-3-20261029.json": "34d4f64f13a262bcfc78ca0da75e0c1a3cb579cb2602e22db22e3d6f7ffcdc7e",
+    "repro/reflexion-20261025/recovery-mechanism-attempts-4-20261029.json": "e89bc53fa0c2874abe274336d06990e32601f2d1d6b76bb5cd9d40a97e9c53fd",
+    "repro/reflexion-20261025/recovery-mechanism-attempts-5-20261029.json": "605c6fc3aec41084ea3602976a9b1be8d0433636ef19bb118e539f3eae56748b",
+    "repro/reflexion-20261025/recovery-mechanism-audit-20261029.json": "43691817ed7f87df3e2c48a2c92bbd011be9fa8799439bf746f12f3cdb2c32cc",
+    "repro/reflexion-20261025/recovery-mechanism-closeout-20261029.json": "1c48f17aef2353556af6d137005869bb6891103ac2342e3507b264afe88a43c5",
+    "repro/reflexion-20261025/recovery-mechanism-observed-20261029.json": "c6d403c047eb1d7f3e6057db482f1c377d9ad9f0a70f362a2204d278ff53d6bf",
+    "repro/reflexion-20261025/recovery-mechanism-results-20261029.json": "4ca661dd14864398955725127ee87a13ec8d011934f338e75715e40d3f75f46f",
+    "repro/reflexion-20261025/recovery-mechanism-semantic-labels-20261029.json": "bcd5f2408ea4a551ca99ce8402b6402691538859008d74acfda6f934cfc4658d",
+    "repro/reflexion-20261025/recovery-mechanism-semantic-progress-20261029.json": "a991ba0a96026e1d9f9386577554615c4721db032f32bb930a233ef1a1af7b31",
+    "scripts/analyze_recovery_mechanism.py": "e22c272fd79695849de63d6b5f80027d33b02c6bc5ec5b6d6db819814e64cb1f",
+    "scripts/review_recovery_semantics.py": "b52d8535f857edee1a6959f699058cc3a51408f0cc2f281caa400a812f79cceb"
+  },
+  "holdout134_calls": 0,
+  "new_analysis_model_calls": 0,
+  "parameter_fits": 0,
+  "protocol_sha256": "ad164d31101a62246469b3c5dd11714937d9783d797db4508af203c376e86d31",
+  "raw_files": {
+    "runs/reflexion-recovery-mechanism-20261029/action-shapes.json": "51085a1deea78ac341f82fa823cbb41420ac8f14b7365bfbed8c9c7366b67c13",
+    "runs/reflexion-recovery-mechanism-20261029/allowance-closeout.json": "1c48f17aef2353556af6d137005869bb6891103ac2342e3507b264afe88a43c5",
+    "runs/reflexion-recovery-mechanism-20261029/failed-write-label-queue.json": "4fb8632947312b163846b2a1b22cbbc87106bda6a030c4cf7281620e227eda9e",
+    "runs/reflexion-recovery-mechanism-20261029/independent-analysis.json": "43691817ed7f87df3e2c48a2c92bbd011be9fa8799439bf746f12f3cdb2c32cc",
+    "runs/reflexion-recovery-mechanism-20261029/observed.json": "706f1d3e2133d52de75d6c2da18ac9b1de8aa6aa6c0445d4c164b7d6c7d16919",
+    "runs/reflexion-recovery-mechanism-20261029/protocol-audit.json": "41fd945331835db97a7d256d8ba1d66abd24d36f31f2358b6b7d4fa92f7b755f",
+    "runs/reflexion-recovery-mechanism-20261029/semantic-decisions.json": "e85d987613ee7d5e46e633875e23a1092785760a08bf69957fd4c0ca36ab1d1f",
+    "runs/reflexion-recovery-mechanism-20261029/semantic-progress.json": "a991ba0a96026e1d9f9386577554615c4721db032f32bb930a233ef1a1af7b31",
+    "runs/reflexion-recovery-mechanism-20261029/semantic-reading-view.json": "f37a0c2995baed4c99b18897ba5235969115c81ece477a3ab70e7771285d56a7",
+    "runs/reflexion-recovery-mechanism-20261029/summary.json": "28c5cabac92ea43c0febf688e8aba7f604b09afce6b867bfed87299578fe3d73",
+    "runs/reflexion-recovery-mechanism-20261029/worker-0.json": "e96cde7a1eeb4e2ab0a2cf22fa6dd563ae3f3833e4d4c72bce04ca5d434312a1",
+    "runs/reflexion-recovery-mechanism-20261029/worker-1.json": "be1e2ffdb1c6767a48f23b69089ceca4fff6e9d62edf9add544047004c1636b7"
+  },
+  "scope": "Completed native recovery campaign; main analysis complete, full-text semantic review partial",
+  "semantic_complete": false,
+  "semantic_covered_events": 25,
+  "semantic_reviewed_unique_texts": 24,
+  "semantic_unique_texts": 1218,
+  "sha256": "f17492c8c452038b2eeade59111b6f8f26c42b6dd58cb91f3896a3dfeba77d81",
+  "truncations_by_role": {
+    "actor": 4,
+    "reflector": 15
+  }
+}
