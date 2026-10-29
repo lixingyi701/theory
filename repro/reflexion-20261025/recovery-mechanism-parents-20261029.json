@@ -1,0 +1,1502 @@
+{
+  "by_source": {
+    "completed_successor_primary": 33,
+    "original_calibration": 10,
+    "successor_review": 8
+  },
+  "cases": [
+    {
+      "fork_trial": 2,
+      "index": 0,
+      "initial_observation_sha256": "4425500d88f99d1bf057a80e2c7ac62b7305704e54278a4c5833ad6403af4a7a",
+      "memory_sha256": "792c29eaf371b10ad55d296ce99ecc22213435b1a9dcc1f78bc11504eb7b7289",
+      "native_text_sha256": "e4180287caa81af256615400adb0bb6dad6cffade64c7d18feede938036dad76",
+      "parent_failure_id": [
+        "successor-03e265533a883915-2141-neutral_full",
+        1
+      ],
+      "parent_result_file_sha256": "0a0c32c11bbf8acbf534ad8bd2a1c9f2238b093a8822f21cda998766e22ffcf4",
+      "scene_id": "FloorPlan24",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "03e265533a883915"
+    },
+    {
+      "fork_trial": 2,
+      "index": 1,
+      "initial_observation_sha256": "4c907d815e368ea784d9f51713d318cb5c42d9f9b56135f9db506618b2c018a6",
+      "memory_sha256": "3317f19c8ac17be904004fc4ebfe53a6f693343b8d3115807c261dc0fd9b9d7c",
+      "native_text_sha256": "55957d1ec1d1e46aa3a00d013d80ca0749d5ed9380b891db512b0f2a0c948be8",
+      "parent_failure_id": [
+        "shared-13cc78cc6be8645e-2112-neutral_full",
+        1
+      ],
+      "parent_result_file_sha256": "7aef03ae4d83da99f6e48b227a5bc52823885de2e9b2c0922061a4b3bf59528a",
+      "scene_id": "FloorPlan4",
+      "source": "original_calibration",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "13cc78cc6be8645e"
+    },
+    {
+      "fork_trial": 2,
+      "index": 2,
+      "initial_observation_sha256": "cbaf748203fb04a6e2178d2cd1b3038cd7a03e4d22acb18260191994928c99c6",
+      "memory_sha256": "b1e79acbff47bc81b4e9f5af2c54d51e1dc1c58fcd0bcd145e6b0fab3214c93d",
+      "native_text_sha256": "ea79643c1b1e0c99c427bfa1ae005cca9b6c656491d2d4a908c091be01006061",
+      "parent_failure_id": [
+        "successor-17439ac746bca8b0-2140-neutral_full",
+        1
+      ],
+      "parent_result_file_sha256": "a2a785c5094016006196de920743d6c5348d7d847513965a6fcd7e3aa0018439",
+      "scene_id": "FloorPlan1",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "17439ac746bca8b0"
+    },
+    {
+      "fork_trial": 2,
+      "index": 3,
+      "initial_observation_sha256": "8eb83ce0fe70fcc3dd06695af67bd79f0fb90e556aa649aef0544af0a74bce69",
+      "memory_sha256": "81e8bb636de5d8cada335ccbbdf8329a31c5ce4a2a3ff87df70b12ff4a4645ae",
+      "native_text_sha256": "cb822555daf854a2bc1384ad83e464c2cc664c9e1a72c46ff96b7a88ad9e3610",
+      "parent_failure_id": [
+        "successor-1b5855b199984e16-2141-neutral_full",
+        1
+      ],
+      "parent_result_file_sha256": "a47330eacd75637a361b9aa97462fca2a19a84a6de50ae8ba9ef5b9f9f52a0dd",
+      "scene_id": "FloorPlan30",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "1b5855b199984e16"
+    },
+    {
+      "fork_trial": 2,
+      "index": 4,
+      "initial_observation_sha256": "35b6ad3442e9691c5b0d26bbddd39f274193768d17fa2aff1439564d76b018b2",
+      "memory_sha256": "7f07ee872bd8fd6fca033ae0de391d28cce9bccb470d164f6196942b417b378d",
+      "native_text_sha256": "e7453789c43041e72b1bc12640c9440fa4589372c17e01b31facf210c801ea53",
+      "parent_failure_id": [
+        "shared-1c1dc93025333ed0-2112-neutral_full",
+        1
+      ],
+      "parent_result_file_sha256": "179b6f1c043da8b0fb2c460876d790e7a23c2d891bba9541526f27daa093ed68",
+      "scene_id": "FloorPlan19",
+      "source": "original_calibration",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "1c1dc93025333ed0"
+    },
+    {
+      "fork_trial": 2,
+      "index": 5,
+      "initial_observation_sha256": "4e4c04afe03ddfb705d8f59e2528ed225b6802eb0f5b78ff0998beda831e89b7",
+      "memory_sha256": "b92d1a11e578c50bf205dd50d476b8c10c05f97f76b82fb2a61c691a71aa1980",
+      "native_text_sha256": "1920f3cc767b241ad8f39fc6b0b875f3645c53b0ac33c4b36728967a02f65774",
+      "parent_failure_id": [
+        "successor-1c91db8017db8cfd-2141-neutral_full",
+        1
+      ],
+      "parent_result_file_sha256": "3b00f32662a4037f33352378246d082503e7b5638315ed1952af6b0eb57a61bc",
+      "scene_id": "FloorPlan5",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "1c91db8017db8cfd"
+    },
+    {
+      "fork_trial": 2,
+      "index": 6,
+      "initial_observation_sha256": "93db39df1d05e3ebae922277c617c5202cc583167e619c139b354ed38e8d5e14",
+      "memory_sha256": "2f96b25f317b2aaf4659b55e1bcb8d98bffc614d8ea7dae9dbcf30d4865e2a3d",
+      "native_text_sha256": "6ea448e67c83b18ca0e60791a0af2c4a7392aeaf0f682f24999da08cb615de0b",
+      "parent_failure_id": [
+        "successor-234b316dbfb71f51-2140-neutral_full",
+        1
+      ],
+      "parent_result_file_sha256": "617da827a024b5f4c110bd62e0a53cd23c690bfb94c7c5e8d80e30e0465d385c",
+      "scene_id": "FloorPlan8",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "234b316dbfb71f51"
+    },
+    {
+      "fork_trial": 2,
+      "index": 7,
+      "initial_observation_sha256": "4b07120b57cdee1060ee52eed2719d8a4f339293bfbac0e9e53f220f3b811bfc",
+      "memory_sha256": "4ca704422936261a181ffd2f2ad9c08c80c372c330b79643974d231bb8ca2ad9",
+      "native_text_sha256": "6df0e8fd28ef41bf21cfbd259d35db1b66dd523667798fbc6d47dbe568933803",
+      "parent_failure_id": [
+        "successor-24b79d7b4880679f-2140-neutral_full",
+        1
+      ],
+      "parent_result_file_sha256": "5dbc4fb919609ddaf62a31505537c798ac34360373686b8f23171def3e717009",
+      "scene_id": "FloorPlan23",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "24b79d7b4880679f"
+    },
+    {
+      "fork_trial": 2,
+      "index": 8,
+      "initial_observation_sha256": "8a0f0c5f6546afafe920fd785dea45090b130fde8690bd1ff63920e006e794d4",
+      "memory_sha256": "0a93a4c2418f39f80a731c1e628f3dc1b96c6cde372566c8082990f5cdb87819",
+      "native_text_sha256": "d30338cca9ee6b21c1591ff58e1b4bf130fb8952709c5d6c7b3b908b7738813c",
+      "parent_failure_id": [
+        "shared-2c66103418765969-2112-neutral_full",
+        1
+      ],
+      "parent_result_file_sha256": "ba8e5dde5fe9149b0bec4b3b668bf8e3b55a32689ab554fe724f39fc67c3f51a",
+      "scene_id": "FloorPlan13",
+      "source": "original_calibration",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "2c66103418765969"
+    },
+    {
+      "fork_trial": 2,
+      "index": 9,
+      "initial_observation_sha256": "54e09d6370ff947d5defe603e477f6a6363abe5d4941030652e75a3c4f3b8f47",
+      "memory_sha256": "e3e0d227db2aefc1a67317bb566da1f930e55928dc1242e43fee91a759b727c6",
+      "native_text_sha256": "8aa61462a774043bd78657b2d3b692ba5ab11692e8053a83b17610e035047c60",
+      "parent_failure_id": [
+        "successor-2f6381e53c96168d-2141-neutral_full",
+        1
+      ],
+      "parent_result_file_sha256": "2d15368c94a74aceac559de75d7c9840a3bfa886bd8bd41ed7419de0b2f852f6",
+      "scene_id": "FloorPlan20",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "2f6381e53c96168d"
+    },
+    {
+      "fork_trial": 2,
+      "index": 10,
+      "initial_observation_sha256": "4039e11ec2eb97fb4a338df9aecd0cd418d745d94eff15c3815e7efe33e6e76d",
+      "memory_sha256": "0f228b8ec3c24a7dbc7e17a5d895bbbe61cf8a9ede40f6fff561a2f4731ef2e6",
+      "native_text_sha256": "ffc11f8296c845b6708982b600797f5433e16251d6b3c4a8f694bea019b02ad7",
+      "parent_failure_id": [
+        "successor-434b1714d31f1795-2141-neutral_full",
+        1
+      ],
+      "parent_result_file_sha256": "9f040b81fa184308286566314c6f6b6e3ed3814d0c29d6bcd414d2d6966cc391",
+      "scene_id": "FloorPlan2",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "434b1714d31f1795"
+    },
+    {
+      "fork_trial": 2,
+      "index": 11,
+      "initial_observation_sha256": "6319d0d74a0788d11d62f3201a1c4ba22248fec632d726248ff5a0b106128ad1",
+      "memory_sha256": "ce46af86b6868b72ca2e6cde95f5e979a0b3a3f90952606d0bf0a33bb8f35589",
+      "native_text_sha256": "b09771e7235114baa8f03780c0e9db1685ef18ab7b8555ad012ca297817c6e87",
+      "parent_failure_id": [
+        "successor-4539fdc234699db0-2141-neutral_full",
+        1
+      ],
+      "parent_result_file_sha256": "4e73ddc9a4dbd0000bd74237f25e113781d7560dc1f4d54fcceadb6be56b1976",
+      "scene_id": "FloorPlan13",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "4539fdc234699db0"
+    },
+    {
+      "fork_trial": 2,
+      "index": 12,
+      "initial_observation_sha256": "ebb74435d4e002d3063b7c8150ad0ceaa9a005838fe9d1663936ce866ab4ac88",
+      "memory_sha256": "706d4ae73d64ea1d81147c65dc1cb59da33a9be9d112d529d6c4e3e465ce98e3",
+      "native_text_sha256": "b141ee2cda2b423e42b1af8484051856bdb1acd1753924bfcb8081d9abe63ca2",
+      "parent_failure_id": [
+        "shared-477472f651cd3a9a-2112-neutral_full",
+        1
+      ],
+      "parent_result_file_sha256": "625c08e7dcf132f202e2bce6f6ac2dfdd2d7fe186ab9306a3f63b1ff2f43b7bb",
+      "scene_id": "FloorPlan16",
+      "source": "original_calibration",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "477472f651cd3a9a"
+    },
+    {
+      "fork_trial": 2,
+      "index": 13,
+      "initial_observation_sha256": "9e6c23afc9618d852dc798470aeb57832c2f9a11f655138071ce3dc3e0df963c",
+      "memory_sha256": "ef0425cfa761c5e9c532d7130b66eab015e7de73dcd9c698941fe951edd8dc78",
+      "native_text_sha256": "f7beb81934655fa180b11f6beaa8fb2e063cf11e5ca0569b4b292c08fceb792f",
+      "parent_failure_id": [
+        "four-4f2a083f060ac931-2131-neutral_full",
+        1
+      ],
+      "parent_result_file_sha256": "25adf40fcd2d2366ee9773db9584be7be703436f94242a918dbca5a1cd9a22bc",
+      "scene_id": "FloorPlan30",
+      "source": "successor_review",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "4f2a083f060ac931"
+    },
+    {
+      "fork_trial": 2,
+      "index": 14,
+      "initial_observation_sha256": "27af15181fd2f5f621ec23b05fd54529fe18ea2cfd6a71758fdab7df894ec2e6",
+      "memory_sha256": "e38a1c8d924a9ea1c07df8c9bc8d76fb74d9e2fefa36368a8fdaab7b08aa7dc3",
+      "native_text_sha256": "f7cb1dd94fb8ed38eaf9ec42fbe9b0d3f7714643875fe78a545cca32eb771bdc",
+      "parent_failure_id": [
+        "successor-529d009fd6280b93-2141-neutral_full",
+        1
+      ],
+      "parent_result_file_sha256": "ae5219d1be4126a04e76432e92439524f87453acf4b0b605ac4bbdfc9adea3ac",
+      "scene_id": "FloorPlan20",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "529d009fd6280b93"
+    },
+    {
+      "fork_trial": 2,
+      "index": 15,
+      "initial_observation_sha256": "d47f46400872291a59b75d61ed8593e6ee6cb3bff89d444098375949cac4d524",
+      "memory_sha256": "6541404fcd70057b61a913b9ebef92f5002f2448c16c908f52f571abfa388636",
+      "native_text_sha256": "22c3f56f5bab186588fd496b6870eff1748bbff882571da10b12b0c20b0f80a1",
+      "parent_failure_id": [
+        "successor-58db92a5c2f7d04a-2140-neutral_full",
+        1
+      ],
+      "parent_result_file_sha256": "03b812c11a0fc73c1f0bcb14c588dccc6b531f770f8051c43a02c5313d045cdd",
+      "scene_id": "FloorPlan18",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "58db92a5c2f7d04a"
+    },
+    {
+      "fork_trial": 2,
+      "index": 16,
+      "initial_observation_sha256": "378c2955387e57c576be356f6e2c0ec4367cde332ca4dc6acf4227831d5640c9",
+      "memory_sha256": "0ffd8e4dc5b8b45865b15a20fa340bcf262e6fd3c079ac2db753e51513e7da56",
+      "native_text_sha256": "b5d7251ae5e9e2a2100537292cb38acf4928a9f6cdf633e015c637b208d1cf60",
+      "parent_failure_id": [
+        "successor-5f54038becd69118-2140-neutral_full",
+        1
+      ],
+      "parent_result_file_sha256": "52c82de5d771a4f10046a708d8e5d10e2cc4cde791140684634c0e00f67b2d2d",
+      "scene_id": "FloorPlan17",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "5f54038becd69118"
+    },
+    {
+      "fork_trial": 2,
+      "index": 17,
+      "initial_observation_sha256": "ef1ee5e6b8978c67946141dc4186d4fd72891142ccaebf08be00fa7b9df25d85",
+      "memory_sha256": "6c314261cd6ff55187e2af14c1d047bced3f57d4347162c4972fa027651a3caf",
+      "native_text_sha256": "d7551d769b2f65329b13be81858d87eceae229fb51cc0a9d4bf5c265dd92f50b",
+      "parent_failure_id": [
+        "shared-5fc36209409f9f02-2112-neutral_full",
+        1
+      ],
+      "parent_result_file_sha256": "a017b16131d7c8c830920313b19343f99b9bfd2394493e595e62a67c5d4da680",
+      "scene_id": "FloorPlan27",
+      "source": "original_calibration",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "5fc36209409f9f02"
+    },
+    {
+      "fork_trial": 2,
+      "index": 18,
+      "initial_observation_sha256": "0ff084cb6e979c4fd38031327821452db748b8ee04b41fa0d632f00f23b8cf96",
+      "memory_sha256": "3c89b74ae044ef22c53ca786fb82c1a5e4d6b9dc54fbe69a4b830865cdd1499f",
+      "native_text_sha256": "6c902d518468c351995eb7c98e8105be0d0f1d3fcee0b229838f3a90cc7fbf12",
+      "parent_failure_id": [
+        "successor-69364ec70ae29f24-2140-neutral_full",
+        1
+      ],
+      "parent_result_file_sha256": "dc6743cbd635bb8fa6562fc762a0690c331334c22ccb7e31df27c7b4153b5be4",
+      "scene_id": "FloorPlan19",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "69364ec70ae29f24"
+    },
+    {
+      "fork_trial": 2,
+      "index": 19,
+      "initial_observation_sha256": "193d4150b82b4da5a0bfa11f8a322587d7dbd8fade943083c37ec29c719dfe47",
+      "memory_sha256": "96640a0125160dcfe393d5edcade0495aec8cb01613643abbe3c9532ea8bcea4",
+      "native_text_sha256": "e56d5f067f2142bc3d537adfdfeabad705b6554bb91336add6b9fbbf1adee78d",
+      "parent_failure_id": [
+        "four-6bd27740d0343d65-2131-neutral_full",
+        1
+      ],
+      "parent_result_file_sha256": "26ad6492f6ac00629e430837280aad26d889a118de1800fbf354a2f8f0c60aa0",
+      "scene_id": "FloorPlan12",
+      "source": "successor_review",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "6bd27740d0343d65"
+    },
+    {
+      "fork_trial": 2,
+      "index": 20,
+      "initial_observation_sha256": "3b95c29d43c5f20a21f149587c7c3ea8ccbe71ddbdc1e7bad0a21a9b45bfd31f",
+      "memory_sha256": "399565669839e44d5c24697b8f600888a2c11f0684ddc3ca2f502b5825f56b3a",
+      "native_text_sha256": "17e7fde426135cb71dcaea617af6dabacc8f4f7fbbea376b79afd1d5d48aa17f",
+      "parent_failure_id": [
+        "successor-6c10fc977b8559fb-2140-neutral_full",
+        1
+      ],
+      "parent_result_file_sha256": "a7f4d29dc88c107d34e4af123d6cddf54ceaed0ac03483fcd1ab8fac5625748b",
+      "scene_id": "FloorPlan6",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "6c10fc977b8559fb"
+    },
+    {
+      "fork_trial": 2,
+      "index": 21,
+      "initial_observation_sha256": "252401790cd6403f6e7f93911131a96b27336c8b9a00e3604ee3d4b503e5552c",
+      "memory_sha256": "371a247e7128d8884a9da8651ba2456c998fa03291c46bbab29f269339d0af36",
+      "native_text_sha256": "2c47421f40b5ae289e39ad968b1281cd69f4e03a91bb3579ae93d6731bbb6546",
+      "parent_failure_id": [
+        "shared-6e3613025375b9b9-2112-neutral_full",
+        1
+      ],
+      "parent_result_file_sha256": "d21d55adbafbc823a0242e735efccd04cc0581f544dc860c807dff143d929f9f",
+      "scene_id": "FloorPlan12",
+      "source": "original_calibration",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "6e3613025375b9b9"
+    },
+    {
+      "fork_trial": 2,
+      "index": 22,
+      "initial_observation_sha256": "ad1613ab79cabdc884bb746dbb83a42458e10d1ce24f7c238643ac9907c30ce1",
+      "memory_sha256": "307efaf1c5c45629b635fa9b61bc03515370a598b286d7fa03c09299ec42f2ad",
+      "native_text_sha256": "157b46948910c14d88bda0904c323d64d94e447061a6eec4703b54df8569e2d1",
+      "parent_failure_id": [
+        "successor-700bc4612f2c1308-2140-neutral_full",
+        1
+      ],
+      "parent_result_file_sha256": "1894d19fa0b6463dcd34be49a8311a0e32bd9ab59d6f6cf147fa43161ae0b82e",
+      "scene_id": "FloorPlan24",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "700bc4612f2c1308"
+    },
+    {
+      "fork_trial": 2,
+      "index": 23,
+      "initial_observation_sha256": "eeffb66444f8755f078dc85fa18444c521c0ca4ee0e4c79d95bb3af27d81b9ba",
+      "memory_sha256": "3bf4058c093a9cced7d5b3bffde14009216d1e8dd95e91e31b5a5b4f5c36f5f8",
+      "native_text_sha256": "410bdf8153f17e2321111e4cb1124b136db08baed4e0c13d31f4e3007bdd4a08",
+      "parent_failure_id": [
+        "successor-72d32a99c3c21ff5-2141-neutral_full",
+        1
+      ],
+      "parent_result_file_sha256": "e01267256988b3c0ba81cb98ae3ba008528e50086b4c9c41118f04b31f8334b5",
+      "scene_id": "FloorPlan8",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "72d32a99c3c21ff5"
+    },
+    {
+      "fork_trial": 2,
+      "index": 24,
+      "initial_observation_sha256": "7a87896f2c9a7c300c3eba18117a2af0fd9ddcef4d5b5c19a2c25dac88592b1c",
+      "memory_sha256": "8da6145051f18a95916b4d482c259302897a4f8899f31826f543eb13764a67f0",
+      "native_text_sha256": "7c553d3993c3bdc45321b54d88f8a24760802d3c2cd15f717cb6f4bbaf9970f1",
+      "parent_failure_id": [
+        "four-751f641ce4dccfe8-2131-neutral_full",
+        1
+      ],
+      "parent_result_file_sha256": "09d36ed419e44fb02d62fbadf2b5120750932c4f8e6d11ebf2ba4f015bd89c80",
+      "scene_id": "FloorPlan28",
+      "source": "successor_review",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "751f641ce4dccfe8"
+    },
+    {
+      "fork_trial": 2,
+      "index": 25,
+      "initial_observation_sha256": "ba4239ad6b42c3050dbffb3e0a57248577ba90ff999365b7f522a29594fcb7bc",
+      "memory_sha256": "013a4f3a616d3d5ad637cdf27c44800cb0757fae1d16d862416c5d8bf5a16e41",
+      "native_text_sha256": "b04726d57bb099c787de6a6ec10f84fbc66e2d1a8811f60db36a81d0483f3c17",
+      "parent_failure_id": [
+        "successor-800b8f334975013a-2141-neutral_full",
+        1
+      ],
+      "parent_result_file_sha256": "b80bcec5bf2e3e9452f55e02cab4e74e0969b242f8dda0920acab0c6df6078bf",
+      "scene_id": "FloorPlan1",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "800b8f334975013a"
+    },
+    {
+      "fork_trial": 2,
+      "index": 26,
+      "initial_observation_sha256": "6effdbdf2c30958853a2da0a5e66d23904b38a31115666d63a0998067773ce70",
+      "memory_sha256": "6940c19df6b3f8af185223d5b808944bed59fd9444f906b72f393429dd5f1787",
+      "native_text_sha256": "0c9ac2b6200195d517c4f0de31bcbcb8ba1f05df3d9fb697ea3db016eb8b9814",
+      "parent_failure_id": [
+        "successor-9762812a9966c357-2141-neutral_full",
+        1
+      ],
+      "parent_result_file_sha256": "98a438d662a5fec3bb11ab25df3a61d95effebec9307e48331e63d63ca1622a0",
+      "scene_id": "FloorPlan18",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "9762812a9966c357"
+    },
+    {
+      "fork_trial": 2,
+      "index": 27,
+      "initial_observation_sha256": "7a7d964650c05d2200c7de83924baed79f9266434872bc210a697616430ee768",
+      "memory_sha256": "60f3d1de2da4f5b321170dfe216647a51c43584108a7fd90adc3796cb74b3dc8",
+      "native_text_sha256": "0e363faa2a657073bdf34c2bef54e731381e174603879d60330ca8cade8a6aeb",
+      "parent_failure_id": [
+        "successor-9b9bb8465fc6b6f5-2141-neutral_full",
+        1
+      ],
+      "parent_result_file_sha256": "87eba49c24dab44e8326c71d00f0d935283104882f6216026591c246da7549eb",
+      "scene_id": "FloorPlan21",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "9b9bb8465fc6b6f5"
+    },
+    {
+      "fork_trial": 2,
+      "index": 28,
+      "initial_observation_sha256": "019657bad47568b4af47bb0f23e7869770f73f2d551caa0d186a853ff4b0c804",
+      "memory_sha256": "bb5398b5d0cdc0f45c3323b45a04f911f80c4d0afe3278eaf1341ba0cbe7ac3a",
+      "native_text_sha256": "ef133604962f3afd8642ae86f908474bb4ef50196b6234df6dc141eb0719973b",
+      "parent_failure_id": [
+        "successor-9d48a901bc16cf36-2140-neutral_full",
+        1
+      ],
+      "parent_result_file_sha256": "ebf4f6b85a78b56c9b62a85c53d8bb08b38efda52e25d2be6f8424ec7ea41fe1",
+      "scene_id": "FloorPlan22",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "9d48a901bc16cf36"
+    },
+    {
+      "fork_trial": 2,
+      "index": 29,
+      "initial_observation_sha256": "9fb572f54f5eacfa5e10ac2f2d20a8dff9a8e3e55c56325829b99bbd772129d6",
+      "memory_sha256": "2fe0877e3d4d6289a7c5e75053bc821eb299418c36d8cdfdc83fc2618affbbf5",
+      "native_text_sha256": "747b1fd280b1d52bf9a2f2683b7ce49464cf1854e56c7261f54f415863de4f88",
+      "parent_failure_id": [
+        "successor-a2454b1f59b0d2ba-2140-neutral_full",
+        1
+      ],
+      "parent_result_file_sha256": "3d2afec19cfa30d0e1d67f1fa511a8d07bd79adad39004390da8eaa34c635710",
+      "scene_id": "FloorPlan25",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "a2454b1f59b0d2ba"
+    },
+    {
+      "fork_trial": 2,
+      "index": 30,
+      "initial_observation_sha256": "72dbe0b7240459012085f75138651e0ebdd9f02437fba1bb07b7a5d366944826",
+      "memory_sha256": "f97767b718d34db741109cd108042276f6cc11e6fe2f81fe7e236d70a17604fe",
+      "native_text_sha256": "d0e0607e4ba718dd07312a176275d7be42c9a3e755994e138f9c221ff5cd5f06",
+      "parent_failure_id": [
+        "four-af404ef5d68432e3-2131-neutral_full",
+        1
+      ],
+      "parent_result_file_sha256": "5b41cc01aa8dfb71c476bd650f891bd8671923c2fdde9d1760faea30ede8ba90",
+      "scene_id": "FloorPlan23",
+      "source": "successor_review",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "af404ef5d68432e3"
+    },
+    {
+      "fork_trial": 2,
+      "index": 31,
+      "initial_observation_sha256": "381e602d08448d20e0f1a85831faccbac1826d808386040d2b6318bd9b92dbe6",
+      "memory_sha256": "a14ac50bfc98c73d0fe27557e99da9151f2b58844e706bb4e3f28eb17db5b409",
+      "native_text_sha256": "24480ade5a6207a2b15a4698c0b7a947e30757aa73d281c6d37ea05d71ecc888",
+      "parent_failure_id": [
+        "successor-b176703c0f277412-2141-neutral_full",
+        1
+      ],
+      "parent_result_file_sha256": "5890b56262f581d83a741f27715c80087e6579c1b86c522adc858d83fa5475ea",
+      "scene_id": "FloorPlan25",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "b176703c0f277412"
+    },
+    {
+      "fork_trial": 2,
+      "index": 32,
+      "initial_observation_sha256": "c08793f413481616644130ac24135b3165dd283be693f6dd406de91d5f19b3b0",
+      "memory_sha256": "e26eff4c990d836c9264e3aea2a844e887856696e77ee2da115490aab4bd2435",
+      "native_text_sha256": "6a6465ea68eb4851b202c4f753208e895114e39552e024ca06e27188874c380d",
+      "parent_failure_id": [
+        "shared-b268d0a4b6a9f769-2112-neutral_full",
+        1
+      ],
+      "parent_result_file_sha256": "e5c67bfcc44f51d6d707e0ba4bf572232748abf107823d3815969e9fb2c7d918",
+      "scene_id": "FloorPlan21",
+      "source": "original_calibration",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "b268d0a4b6a9f769"
+    },
+    {
+      "fork_trial": 2,
+      "index": 33,
+      "initial_observation_sha256": "56e8e40a94e5bff06ec4ab70d3cfaeb289fd193698008809661b29bd6fa8518b",
+      "memory_sha256": "64a44102ab021aaec38e34af89703ddec6765aef6c454c71ae9bc9f1206c104b",
+      "native_text_sha256": "7fc90a1ff60b80da5034eb9c4faaaa77d328cf4c784a63acc3ae7b30ad70626a",
+      "parent_failure_id": [
+        "successor-b36a8c185daa6a0b-2140-neutral_full",
+        1
+      ],
+      "parent_result_file_sha256": "c42e4bb993e9e07014e86e765cabef07bc9a60d362d737ec39faa7fe02d3ba2f",
+      "scene_id": "FloorPlan8",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "b36a8c185daa6a0b"
+    },
+    {
+      "fork_trial": 2,
+      "index": 34,
+      "initial_observation_sha256": "0cc962f4646219b6596e24032c7850131b73a9329386aa86e27a28d94da1c9a3",
+      "memory_sha256": "365566be6e24472abc54d1be80e0d1b5a373d3e895a6ad689a0e5282bc23469c",
+      "native_text_sha256": "79f46c4e4e546636a566a561fe3f953a556111f1cffbc6c33f1ea4e11ae0f049",
+      "parent_failure_id": [
+        "successor-c2fe17bf60e7db4b-2141-neutral_full",
+        1
+      ],
+      "parent_result_file_sha256": "7d58769e3fd26a11e12f628fea648ee4dd984b121e8daebc7c58c7cea4d2bccb",
+      "scene_id": "FloorPlan17",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "c2fe17bf60e7db4b"
+    },
+    {
+      "fork_trial": 2,
+      "index": 35,
+      "initial_observation_sha256": "35b6ad3442e9691c5b0d26bbddd39f274193768d17fa2aff1439564d76b018b2",
+      "memory_sha256": "e3cb3ec25ffe81a970b6cd45ccfab84b581ad499b2a47c0afef55a55f575a0f5",
+      "native_text_sha256": "0ac8cec264117b75b81228a8bb668c6ac8f71a3f85500e830ca469d3ff39ce15",
+      "parent_failure_id": [
+        "successor-ca6e773b2e93f1df-2141-neutral_full",
+        1
+      ],
+      "parent_result_file_sha256": "b2a60a5de52192b20476537deca8b9cdaeed99ce6270e43b2afd4a70fc55a430",
+      "scene_id": "FloorPlan19",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "ca6e773b2e93f1df"
+    },
+    {
+      "fork_trial": 2,
+      "index": 36,
+      "initial_observation_sha256": "ad84eed990862f9cdc263f3eacaa38b58397507462fcbcb9ff7ccc655ddab0d2",
+      "memory_sha256": "dacae8def20e31f969e6b1d0d17c2d9ae7038cdaba688e1ba007bc138d9d8e07",
+      "native_text_sha256": "5163122a95798c081663678e90e7981960d3995f2a5de7f7ca9507416d353660",
+      "parent_failure_id": [
+        "successor-ccd9b55b1349e3e1-2141-neutral_full",
+        1
+      ],
+      "parent_result_file_sha256": "39e87f844d4d0a0efd96d9e8b68b99b2e28fec4850bf5d524d057ad7258e2e16",
+      "scene_id": "FloorPlan28",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "ccd9b55b1349e3e1"
+    },
+    {
+      "fork_trial": 2,
+      "index": 37,
+      "initial_observation_sha256": "137f026693cc96c851f6d2d3c617ddab6d55bf52788208b108f942e3f3ad0af1",
+      "memory_sha256": "ded0f995d541cfaa2d607c4db9e8e92b700300b0f9243ea095ea616f62004429",
+      "native_text_sha256": "ae35a856b397e02355e91b1781af52015425f6a7845fcc2a22893f24db9fc947",
+      "parent_failure_id": [
+        "shared-d327a5b6831def66-2112-neutral_full",
+        1
+      ],
+      "parent_result_file_sha256": "cfb649e556f90a79decaedb371d7531f265af3e2d55db63a324e7c8584c6be3d",
+      "scene_id": "FloorPlan21",
+      "source": "original_calibration",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "d327a5b6831def66"
+    },
+    {
+      "fork_trial": 2,
+      "index": 38,
+      "initial_observation_sha256": "019657bad47568b4af47bb0f23e7869770f73f2d551caa0d186a853ff4b0c804",
+      "memory_sha256": "5cb27857c73ad6534692e2193c89a0159ac595958afd340b8e38a621f75f141a",
+      "native_text_sha256": "48fe7774a393b56c10c9bc4caf12b1f3c41c93b4cea09cb4c216f918739fa3ee",
+      "parent_failure_id": [
+        "successor-d34fd29dcb989325-2140-neutral_full",
+        1
+      ],
+      "parent_result_file_sha256": "624bbfea0f2c380382a5fc1fe7ce764e3505a4d402a7bd22bbea5e85f46cc781",
+      "scene_id": "FloorPlan22",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "d34fd29dcb989325"
+    },
+    {
+      "fork_trial": 2,
+      "index": 39,
+      "initial_observation_sha256": "e65e75e51c137d555e59d1e0e6c2131f799927799b038c035a102f3ec79f0bf5",
+      "memory_sha256": "6a0ba71f5dd96ec1b6c81254cf56df8463073b417cefbab99622f253496b2f48",
+      "native_text_sha256": "90302dab6c40b602ff224ceda77bbbf1cb248700422f04d61173d65965f6285c",
+      "parent_failure_id": [
+        "successor-d81ea4659702239a-2140-neutral_full",
+        1
+      ],
+      "parent_result_file_sha256": "440f59dd70b84f1172b50e041b7ec963bd7c80f6943f0dd316e9d6974dd096a2",
+      "scene_id": "FloorPlan1",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "d81ea4659702239a"
+    },
+    {
+      "fork_trial": 2,
+      "index": 40,
+      "initial_observation_sha256": "dbc09603fa7b3146a95f4ad06eacd6aeb6e23aa16f4ca1e37582ddf6c6a73df5",
+      "memory_sha256": "6260bd5b1b2444a5cca486f35ac495279a3d38ba0540c89ca9a6cdb487a033c4",
+      "native_text_sha256": "68b7dade38915732a35b0b9845ee7b707089aecc0e154b4a277b6978fb2a5ef9",
+      "parent_failure_id": [
+        "four-d840c2f5bc8992f1-2131-neutral_full",
+        1
+      ],
+      "parent_result_file_sha256": "c237ea84d8d4c540a14566e75ba85cf8a10cd5c45fa4ff12df07aabfe81b0342",
+      "scene_id": "FloorPlan8",
+      "source": "successor_review",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "d840c2f5bc8992f1"
+    },
+    {
+      "fork_trial": 2,
+      "index": 41,
+      "initial_observation_sha256": "8abc5e5a95ecc9c89ff356302929061af6f4784db91b7d82b0f901322006c17f",
+      "memory_sha256": "b73c944c5cd92539b5f5649f0b3a55b6914023021ef7d423eecc38fc17bf7a63",
+      "native_text_sha256": "1d2636691c240c615f70d5c3c899e3ee2e076caea2dd04337c24df03e6bb5801",
+      "parent_failure_id": [
+        "successor-de311a7af4272464-2140-neutral_full",
+        1
+      ],
+      "parent_result_file_sha256": "a318426bcaf7264f52ce4aab9ac4850d8a20ee4f03d42a23b0a593a56d772c24",
+      "scene_id": "FloorPlan5",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "de311a7af4272464"
+    },
+    {
+      "fork_trial": 2,
+      "index": 42,
+      "initial_observation_sha256": "3a61fe3925a4d21a0fac0d4745a998ca423dbd5923c77b82735c8ebbe99ce8ed",
+      "memory_sha256": "09cdd7fbb69ae06497bad312e2c37d33f8305fcfaec8c413086846c195d72a4a",
+      "native_text_sha256": "7b2b791f8b614f6bbbff8ed3b84a728e47e586969d55139981922e9200beac5d",
+      "parent_failure_id": [
+        "successor-e130f48d97478f2f-2141-neutral_full",
+        1
+      ],
+      "parent_result_file_sha256": "af6e3f7b6bdb04c218959f4bc573aac34c2f919eecef3510a4e288c2f5215731",
+      "scene_id": "FloorPlan2",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "e130f48d97478f2f"
+    },
+    {
+      "fork_trial": 2,
+      "index": 43,
+      "initial_observation_sha256": "4c907d815e368ea784d9f51713d318cb5c42d9f9b56135f9db506618b2c018a6",
+      "memory_sha256": "f61f63bf30d560199c2f959129d8b427f998f285469e7ed5618efcc2011578ac",
+      "native_text_sha256": "09bf4d26c249e7bb1eacf31f410d7f5c6a749b4fb0859ef524d52c45221e1ebb",
+      "parent_failure_id": [
+        "four-e2bf5cb552e2ee34-2131-neutral_full",
+        1
+      ],
+      "parent_result_file_sha256": "46ce6a4b34baff85c32e3cd6cfa1c4dae868992a59cd2211b4a3b532c35c116a",
+      "scene_id": "FloorPlan4",
+      "source": "successor_review",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "e2bf5cb552e2ee34"
+    },
+    {
+      "fork_trial": 2,
+      "index": 44,
+      "initial_observation_sha256": "5702063f514a4698529269a140b2e34528054c7afff5729d01f64bc218d2d644",
+      "memory_sha256": "ef9256278899e35bdf340703b04b223eea19fadf8da398cadc229daef42557dc",
+      "native_text_sha256": "37076e77b982776930f601c0efd8821f1aa1463ce4f33a6785cf92c2bcaa8141",
+      "parent_failure_id": [
+        "shared-e4eb1c6225ea097a-2112-neutral_full",
+        1
+      ],
+      "parent_result_file_sha256": "67a7b5b560f952e67e4c02d510766eb2e02614aaa767b8a3df4b5734e166b4a1",
+      "scene_id": "FloorPlan25",
+      "source": "original_calibration",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "e4eb1c6225ea097a"
+    },
+    {
+      "fork_trial": 2,
+      "index": 45,
+      "initial_observation_sha256": "aa747805c1bd70a8000be6b1f106e4a94b09eb33524b2106466ddd8ab389c014",
+      "memory_sha256": "a7ded9164f5b4515a2b53c2b83c84fb462d0caa6948633cec2545cf55d66de53",
+      "native_text_sha256": "3c2845e0c147d497287ff85da51c1876451d2cf3887b3744364579f20a74c3db",
+      "parent_failure_id": [
+        "successor-ea5073995754916d-2140-neutral_full",
+        1
+      ],
+      "parent_result_file_sha256": "657309775ba2f8d57bd129862855d5450acf7a53c001468dab66e9ae5b291506",
+      "scene_id": "FloorPlan3",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "ea5073995754916d"
+    },
+    {
+      "fork_trial": 2,
+      "index": 46,
+      "initial_observation_sha256": "0149d048f73892aeb7ebf1d4168b96519e21aabd3750346d3e33f4f05601d146",
+      "memory_sha256": "3b3fac7b79943250519ab5ff8ab1d9dc020cbb22e1c7a495a1b0fb801dbd0217",
+      "native_text_sha256": "103524879fcb94d33a9f90dceedff33f8cacad5eff20186a59ee65a0129020f5",
+      "parent_failure_id": [
+        "successor-ef6cc184e1daab84-2141-neutral_full",
+        1
+      ],
+      "parent_result_file_sha256": "099a025844370ecd4c5a8af9b45cf4d78202d2e63f8f30d4f5c8744705e4aeb7",
+      "scene_id": "FloorPlan5",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "ef6cc184e1daab84"
+    },
+    {
+      "fork_trial": 2,
+      "index": 47,
+      "initial_observation_sha256": "7ad34d3f1d9d1f5fd345fa7b94f4914a772f6e1955ccb6b17addc6734b215d82",
+      "memory_sha256": "495cd262fe30a79238a9578bd5cabd2bca7c6b91032ac69e46badd2536ba4bc5",
+      "native_text_sha256": "6ad4c688493372db50e7f77ad3295f4dbe5f31a3f162ccc30bf4e2f5cfaa64b6",
+      "parent_failure_id": [
+        "four-f069d41f6b688b94-2131-neutral_full",
+        1
+      ],
+      "parent_result_file_sha256": "2616444ee6f966cdb4a7cd7bfe9333d2c3e7d017078ade4286c675d1193e037e",
+      "scene_id": "FloorPlan11",
+      "source": "successor_review",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "f069d41f6b688b94"
+    },
+    {
+      "fork_trial": 2,
+      "index": 48,
+      "initial_observation_sha256": "02bb932fd15746341bc24750ae717e2c6016157c36f6283020e65938754db46e",
+      "memory_sha256": "f6cb445177d79b90335d721bf6e4b758f1e367203607f0177d2a787662a0afe2",
+      "native_text_sha256": "e5d83ca28e50729f027d7fd755cbd609cad9bdd1387df215f5e09f73e0741871",
+      "parent_failure_id": [
+        "four-f5433976209e7909-2130-neutral_full",
+        1
+      ],
+      "parent_result_file_sha256": "22dd0437aaf5ac1c0460fe22f1df430e1ac0a55f896886e747db5231a5260ecb",
+      "scene_id": "FloorPlan25",
+      "source": "successor_review",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "f5433976209e7909"
+    },
+    {
+      "fork_trial": 2,
+      "index": 49,
+      "initial_observation_sha256": "711b62be54b75b181ac6a2ac0c3ec9cb4453f170d46dca6568e6e37b3d6efe9d",
+      "memory_sha256": "43343d64ebc053ab4f938228e24b9d013ae894aad7f9aa6fa8ba8db204754269",
+      "native_text_sha256": "b6ef69a1a426a9be97db2059ee8c25b553dca4355d391100e6ec3ae030748a54",
+      "parent_failure_id": [
+        "shared-f7bddaf300b8a61b-2112-neutral_full",
+        1
+      ],
+      "parent_result_file_sha256": "55d6e9f1f4770cfe7254dba3f071e38cb39d9cf52431daddeac592bcdb534a45",
+      "scene_id": "FloorPlan27",
+      "source": "original_calibration",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "f7bddaf300b8a61b"
+    },
+    {
+      "fork_trial": 2,
+      "index": 50,
+      "initial_observation_sha256": "9fb572f54f5eacfa5e10ac2f2d20a8dff9a8e3e55c56325829b99bbd772129d6",
+      "memory_sha256": "5e30aa9ce9b7a81cc2d2612bd9b329b793be747865eb51047113b998448f9fcf",
+      "native_text_sha256": "716c6507119c8c67edc532b4fb95da22e0321d97d7557fc3ec34e1ac2bca70c6",
+      "parent_failure_id": [
+        "successor-fae67e6754593b0a-2141-neutral_full",
+        1
+      ],
+      "parent_result_file_sha256": "d5bc7bf6d838d9cdf1552f54408e830edd212efa481c617aabfdfd0253b1bb84",
+      "scene_id": "FloorPlan25",
+      "source": "completed_successor_primary",
+      "state": [
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": false,
+          "type": "N"
+        },
+        {
+          "native": true,
+          "type": "E"
+        }
+      ],
+      "task_id": "fae67e6754593b0a"
+    }
+  ],
+  "development_input_sha256": "3548f4e8cca6fd64feee3cc403875076d417efbf41ae708a4a57d5a4abc6d264",
+  "eligible_records": 70,
+  "holdout134_calls": 0,
+  "new_model_calls": 0,
+  "parameter_fits": 0,
+  "private_reading_sha256": "83d43bb0010de05a9f5ad2b697fb06ff55b401d306b80c63a68205a201969a95",
+  "scenes": 23,
+  "scope": "Prepared first-failure native-E parent pool, not a completed intervention",
+  "selection": "First-attempt neutral_full failure with new reflection previously labelled E; one identity-only minimum per task, no later-outcome filter",
+  "semantic_review": "Prior single-Codex E labels; new full-text edit coverage not yet reviewed",
+  "sha256": "80ea136b5c08515f6d1b2fdb189f5d8a57e1e7f70ab7e37b1b7f6a98e266713c",
+  "source_sha256": "0c9c373276bd1721672470081ea4e650712e8d6abb1a99443e7ad501b9358b09",
+  "status": "pending_full_text_edits_interface_precision_and_inference_freeze",
+  "tasks": 51
+}

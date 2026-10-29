@@ -1,5 +1,13 @@
 # Instructions for Codex and other coding agents
 
+## Current research direction, 2026-10-29
+
+- The user accepted a recovery-centered adjustment. The count n equals trial-1 in all1553 development rows; one-native indicator is a second-stage calibration proxy there, not identified native-memory causation. Read docs/experiments/stage-calibration-20261029.md and docs/experiments/recovery-mechanism-design-20261029.md.
+- The frozen30-fit stage test is COMPLETE at runs/reflexion-stage-calibration-20261029: risk .092005552 versus cached linear .090663942, initialCN and lateE guards FAIL. Do not retain candidate or run another count-shape grid. Independent3106-probability audit passed,85protectedfiles unchanged. Keep frozen historical baseline and134holdout.
+- Seven inputs remain a reference, not a permanent scientific restriction. The latest user direction supersedes the earlier request to keep seven as a long-term constraint: change state only after discriminating evidence identifies omitted information.
+- Next native recovery parents are PREPARED, not collected:70 eligible first neutral_full failures with E writes, one identity-only selection/task gives51tasks/23scenes. Private runs/reflexion-recovery-mechanism-20261029/parent-reading.json and public recovery-mechanism-parents-20261029.json bind full memories/raw failures. No inference allowance active. Next prepare full-text target edits, interface, precision and finite request contract before calls.
+- Same-parent interventions should vary actual visible memory at fixed trial. Unexposed failure history cannot directly affect the actor under identical complete inputs; trial changes existing RNG mapping. Joint failed-and-error-written events avoid comparing different surviving-failure groups as causal rates. Recovery branch absolute curves and paired gains across budgets are central; aggregate Brier alone is insufficient.
+
 ## Project and research scope
 
 - Read `docs/IMPLEMENTATION_STATUS.md` and `docs/LINUX_RUNBOOK.md` before executing research jobs. The research protocol is under `docs/research/`.
